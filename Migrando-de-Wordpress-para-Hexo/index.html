@@ -11,8 +11,8 @@
 <meta property="og:url" content="http://woliveiras.github.io/Migrando-de-Wordpress-para-Hexo/index.html">
 <meta property="og:site_name" content="William Oliveira">
 <meta property="og:description" content="A um bom tempo sinto vontade de mudar meu Blog de Wordpress para uma plataforma de  conteúdo estático, mas não achava nenhuma alternativa, pois que queria usar Nodejs. Por isso não fui para o, muito u">
-<meta property="og:image" content="http://woliveiras.github.io/../public/uploads/hexo-logo.svg">
-<meta property="og:updated_time" content="2015-08-05T11:45:03.893Z">
+<meta property="og:image" content="http://woliveiras.github.io/../public/images/hexo-logo.svg">
+<meta property="og:updated_time" content="2015-08-06T10:28:46.376Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="Migrando de Wordpress para Hexo">
 <meta name="twitter:description" content="A um bom tempo sinto vontade de mudar meu Blog de Wordpress para uma plataforma de  conteúdo estático, mas não achava nenhuma alternativa, pois que queria usar Nodejs. Por isso não fui para o, muito u">
@@ -21,7 +21,7 @@
     <link rel="alternative" href="/atom.xml" title="William Oliveira" type="application/atom+xml">
   
   
-    <link rel="icon" href="/favicon.png">
+    <link rel="icon" href="img/favicon.png">
   
   <link href="//fonts.googleapis.com/css?family=Source+Code+Pro" rel="stylesheet" type="text/css">
   <link rel="stylesheet" href="/css/style.css" type="text/css">
@@ -99,7 +99,7 @@
     
     <div class="article-entry" itemprop="articleBody">
       
-        <p><img src="../public/uploads/hexo-logo.svg" alt="Hexo Blog"><br>A um bom tempo sinto vontade de mudar meu Blog de Wordpress para uma plataforma de  conteúdo estático, mas não achava nenhuma alternativa, pois que queria usar Nodejs. Por isso não fui para o, muito usado na comunidade, <a href="http://jekyllrb.com/" target="_blank" rel="external">Jekyll(Ruby)</a> , nem para o <a href="http://blog.getpelican.com/" target="_blank" rel="external">Pelican(Python &lt;3)</a>.<a id="more"></a><br>Em busca de uma alternativa encontrei o <a href="https://hexo.io" target="_blank" rel="external">Hexo</a> e, um pouco depois de eu conhecer essa plataforma, o <a href="http://blog.da2k.com.br/" target="_blank" rel="external">Daciuk</a> escreveu um <a href="http://blog.da2k.com.br/2014/01/05/hexo-criando-um-blog-ao-estilo-miojo/" target="_blank" rel="external">post</a> muito maneiro incentivando o seu uso. Foi então que eu decidi de vez usar essa plataforma!<br>Bora conhecer ela e como foi a migração de Wordpress para Hexo?</p>
+        <p><img src="../public/images/hexo-logo.svg" alt="Hexo Blog"><br>A um bom tempo sinto vontade de mudar meu Blog de Wordpress para uma plataforma de  conteúdo estático, mas não achava nenhuma alternativa, pois que queria usar Nodejs. Por isso não fui para o, muito usado na comunidade, <a href="http://jekyllrb.com/" target="_blank" rel="external">Jekyll(Ruby)</a> , nem para o <a href="http://blog.getpelican.com/" target="_blank" rel="external">Pelican(Python &lt;3)</a>.<a id="more"></a><br>Em busca de uma alternativa encontrei o <a href="https://hexo.io" target="_blank" rel="external">Hexo</a> e, um pouco depois de eu conhecer essa plataforma, o <a href="http://blog.da2k.com.br/" target="_blank" rel="external">Daciuk</a> escreveu um <a href="http://blog.da2k.com.br/2014/01/05/hexo-criando-um-blog-ao-estilo-miojo/" target="_blank" rel="external">post</a> muito maneiro incentivando o seu uso. Foi então que eu decidi de vez usar essa plataforma!<br>Bora conhecer ela e como foi a migração de Wordpress para Hexo?</p>
 <h3 id="Levantando_as_necessidades">Levantando as necessidades</h3><p>Antes de migrar nosso Blog(Ou o de um cliente) de uma plataforma para outra precisamos fazer um levantamento para que não tenha impacto negativo como perder os posts que já existem ou alguma funcionalidade importante aos leitores.<br>Minha primeira preocupação foi com os posts que eu já havia escrito, mas no próprio site do Hexo temos uma <a href="https://hexo.io/docs/migration.html" target="_blank" rel="external">solução para isso</a>.<br>As dicas sobre instalação do Hexo você encontra no Blog do <a href="http://blog.da2k.com.br/2014/01/05/hexo-criando-um-blog-ao-estilo-miojo/" target="_blank" rel="external">Daciuk</a> e no Blog do <a href="http://dwoond.github.io/Criando-seu-site-com-Hexo/" target="_blank" rel="external">Willian Santos</a>.</p>
 <h3 id="Como_escrever_os_posts">Como escrever os posts</h3><p>Os posts no Hexo funcionam como em qualquer outro gerador estático. Escrevemos em Markdown e a postagem é gerada em HTML.<br>Markdown não é difícil e podemos usar algumas ferramentas boas que auxiliam nisso como o <a href="http://pad.haroopress.com/" target="_blank" rel="external">Haroopad</a> ou o <a href="https://stackedit.io/editor#" target="_blank" rel="external">Stackedit</a>, mas o Hexo também tem uma espécie de wp-admin, basta instalar o <a href="https://github.com/jaredly/hexo-admin" target="_blank" rel="external">Hexo Admin</a> se você sente necessidade.</p>
 <h3 id="Migrando_os_posts_do_Wordpress_para_o_Hexo">Migrando os posts do Wordpress para o Hexo</h3><p>Basta instalar o plugin <strong>hexo-migrator-wordpress</strong> com o comando:</p>
@@ -113,7 +113,7 @@
 <p>E todas as suas postagens serão importadas. O que estava em rascunho vai ficar em rascunho o que foi postado será postado normalmente.<br>Só uma coisa ruim de tudo isso: O Wordpress gera o .xml com caminhos absolutos em imagens ou outras mídias que você tenha inserido na postagem, então é bom revisar as postagens para ver se não quebrou alguma coisa. <del>Por isso que eu vou demorar um pouco para subir as postagens antigas aqui pro blog.</del></p>
 <h3 id="Gerando_o_RSS">Gerando o RSS</h3><p>Basta colocar essa linha no seu arquivo de configuração do Blog(O _config.yml):</p>
 <figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment"># Feed</span></span><br><span class="line">feed:</span><br><span class="line">  <span class="built_in">type</span>: atom</span><br><span class="line">  path: atom.xml</span><br><span class="line">  <span class="built_in">limit</span>: você escolhe ;)</span><br></pre></td></tr></table></figure>
-<h3 id="Comentários">Comentários</h3><p>Como eu já utilizava uma plataforma de comentários que é o Disqus – <a href="https://disqus.com/" target="_blank" rel="external">https://disqus.com/</a> - ficou fácil manter os comentários lá. :)<br>Basta adicionar o shortname(Que você encontra nas configurações do seu site no Disqus) do site no arquivo de configuração:</p>
+<h3 id="Comentários">Comentários</h3><p>Como eu já utilizava uma plataforma de comentários que é o <a href="https://disqus.com/" target="_blank" rel="external">Disqus</a> ficou fácil manter os comentários lá. :)<br>Basta adicionar o shortname(Que você encontra nas configurações do seu site no Disqus) do site no arquivo de configuração:</p>
 <figure class="highlight avrasm"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="preprocessor"># Disqus</span></span><br><span class="line"><span class="label">disqus_shortname:</span> &lt;shortname&gt;</span><br></pre></td></tr></table></figure>
 <h3 id="Hospedagem">Hospedagem</h3><p>Como é puro HTML, você pode hospedar em qualquer lugar! Muita gente usa o Github pages e eu também coloquei para lá.<br>Basta configurar o deploy para o caminho do seu servidor:</p>
 <figure class="highlight groovy"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line"># Deployment</span><br><span class="line">## <span class="string">Docs:</span> <span class="string">http:</span><span class="comment">//hexo.io/docs/deployment.html</span></span><br><span class="line"><span class="string">deploy:</span></span><br><span class="line"><span class="label">  type:</span> git</span><br><span class="line"><span class="label">  repo:</span> &lt;seu repositório no gh pages&gt;</span><br></pre></td></tr></table></figure>
@@ -123,7 +123,7 @@
       
     </div>
     <footer class="article-footer">
-      <a data-url="http://woliveiras.github.io/Migrando-de-Wordpress-para-Hexo/" data-id="ciczk7h4b00000svv9lvpo9d9" class="article-share-link">Share</a>
+      <a data-url="http://woliveiras.github.io/Migrando-de-Wordpress-para-Hexo/" data-id="cid01sin70000divv6xkqtqo8" class="article-share-link">Share</a>
       
         <a href="http://woliveiras.github.io/Migrando-de-Wordpress-para-Hexo/#disqus_thread" class="article-comment-link">Comentários</a>
       
