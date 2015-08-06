@@ -4,9 +4,9 @@
   <title><![CDATA[William Oliveira]]></title>
   <subtitle><![CDATA[Desenvolvedor Front End]]></subtitle>
   <link href="/atom.xml" rel="self"/>
-  <link href="http://woliveiras.com.br//"/>
+  <link href="http://woliveiras.github.io//"/>
   <updated>2015-08-05T11:45:03.893Z</updated>
-  <id>http://woliveiras.com.br//</id>
+  <id>http://woliveiras.github.io//</id>
   
   <author>
     <name><![CDATA[William de Oliveira]]></name>
@@ -17,8 +17,8 @@
   
   <entry>
     <title><![CDATA[Migrando de Wordpress para Hexo]]></title>
-    <link href="http://woliveiras.com.br//Migrando-de-Wordpress-para-Hexo/"/>
-    <id>http://woliveiras.com.br//Migrando-de-Wordpress-para-Hexo/</id>
+    <link href="http://woliveiras.github.io//Migrando-de-Wordpress-para-Hexo/"/>
+    <id>http://woliveiras.github.io//Migrando-de-Wordpress-para-Hexo/</id>
     <published>2015-08-05T02:53:41.000Z</published>
     <updated>2015-08-05T11:45:03.893Z</updated>
     <content type="html"><![CDATA[<p><img src="../public/uploads/hexo-logo.svg" alt="Hexo Blog"><br>A um bom tempo sinto vontade de mudar meu Blog de Wordpress para uma plataforma de  conteúdo estático, mas não achava nenhuma alternativa, pois que queria usar Nodejs. Por isso não fui para o, muito usado na comunidade, <a href="http://jekyllrb.com/" target="_blank" rel="external">Jekyll(Ruby)</a> , nem para o <a href="http://blog.getpelican.com/" target="_blank" rel="external">Pelican(Python &lt;3)</a>.<a id="more"></a><br>Em busca de uma alternativa encontrei o <a href="https://hexo.io" target="_blank" rel="external">Hexo</a> e, um pouco depois de eu conhecer essa plataforma, o <a href="http://blog.da2k.com.br/" target="_blank" rel="external">Daciuk</a> escreveu um <a href="http://blog.da2k.com.br/2014/01/05/hexo-criando-um-blog-ao-estilo-miojo/" target="_blank" rel="external">post</a> muito maneiro incentivando o seu uso. Foi então que eu decidi de vez usar essa plataforma!<br>Bora conhecer ela e como foi a migração de Wordpress para Hexo?</p>
@@ -47,15 +47,15 @@
     
     </summary>
     
-      <category term="Blog" scheme="http://woliveiras.com.br/tags/Blog/"/>
+      <category term="Blog" scheme="http://woliveiras.github.io/tags/Blog/"/>
     
-      <category term="Dicas" scheme="http://woliveiras.com.br/tags/Dicas/"/>
+      <category term="Dicas" scheme="http://woliveiras.github.io/tags/Dicas/"/>
     
-      <category term="Hexo" scheme="http://woliveiras.com.br/tags/Hexo/"/>
+      <category term="Hexo" scheme="http://woliveiras.github.io/tags/Hexo/"/>
     
-      <category term="Hexo" scheme="http://woliveiras.com.br/categories/Hexo/"/>
+      <category term="Hexo" scheme="http://woliveiras.github.io/categories/Hexo/"/>
     
-      <category term="Blog" scheme="http://woliveiras.com.br/categories/Hexo/Blog/"/>
+      <category term="Blog" scheme="http://woliveiras.github.io/categories/Hexo/Blog/"/>
     
   </entry>
   
