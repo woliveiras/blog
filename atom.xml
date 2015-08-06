@@ -5,7 +5,7 @@
   <subtitle><![CDATA[Desenvolvedor Front End]]></subtitle>
   <link href="/atom.xml" rel="self"/>
   <link href="http://woliveiras.github.io//"/>
-  <updated>2015-08-06T10:28:46.376Z</updated>
+  <updated>2015-08-06T10:32:11.139Z</updated>
   <id>http://woliveiras.github.io//</id>
   
   <author>
@@ -20,7 +20,7 @@
     <link href="http://woliveiras.github.io/Migrando-de-Wordpress-para-Hexo/"/>
     <id>http://woliveiras.github.io/Migrando-de-Wordpress-para-Hexo/</id>
     <published>2015-08-05T02:53:41.000Z</published>
-    <updated>2015-08-06T10:28:46.376Z</updated>
+    <updated>2015-08-06T10:32:11.139Z</updated>
     <content type="html"><![CDATA[<p><img src="../public/images/hexo-logo.svg" alt="Hexo Blog"><br>A um bom tempo sinto vontade de mudar meu Blog de Wordpress para uma plataforma de  conteúdo estático, mas não achava nenhuma alternativa, pois que queria usar Nodejs. Por isso não fui para o, muito usado na comunidade, <a href="http://jekyllrb.com/" target="_blank" rel="external">Jekyll(Ruby)</a> , nem para o <a href="http://blog.getpelican.com/" target="_blank" rel="external">Pelican(Python &lt;3)</a>.<a id="more"></a><br>Em busca de uma alternativa encontrei o <a href="https://hexo.io" target="_blank" rel="external">Hexo</a> e, um pouco depois de eu conhecer essa plataforma, o <a href="http://blog.da2k.com.br/" target="_blank" rel="external">Daciuk</a> escreveu um <a href="http://blog.da2k.com.br/2014/01/05/hexo-criando-um-blog-ao-estilo-miojo/" target="_blank" rel="external">post</a> muito maneiro incentivando o seu uso. Foi então que eu decidi de vez usar essa plataforma!<br>Bora conhecer ela e como foi a migração de Wordpress para Hexo?</p>
 <h3 id="Levantando_as_necessidades">Levantando as necessidades</h3><p>Antes de migrar nosso Blog(Ou o de um cliente) de uma plataforma para outra precisamos fazer um levantamento para que não tenha impacto negativo como perder os posts que já existem ou alguma funcionalidade importante aos leitores.<br>Minha primeira preocupação foi com os posts que eu já havia escrito, mas no próprio site do Hexo temos uma <a href="https://hexo.io/docs/migration.html" target="_blank" rel="external">solução para isso</a>.<br>As dicas sobre instalação do Hexo você encontra no Blog do <a href="http://blog.da2k.com.br/2014/01/05/hexo-criando-um-blog-ao-estilo-miojo/" target="_blank" rel="external">Daciuk</a> e no Blog do <a href="http://dwoond.github.io/Criando-seu-site-com-Hexo/" target="_blank" rel="external">Willian Santos</a>.</p>
 <h3 id="Como_escrever_os_posts">Como escrever os posts</h3><p>Os posts no Hexo funcionam como em qualquer outro gerador estático. Escrevemos em Markdown e a postagem é gerada em HTML.<br>Markdown não é difícil e podemos usar algumas ferramentas boas que auxiliam nisso como o <a href="http://pad.haroopress.com/" target="_blank" rel="external">Haroopad</a> ou o <a href="https://stackedit.io/editor#" target="_blank" rel="external">Stackedit</a>, mas o Hexo também tem uma espécie de wp-admin, basta instalar o <a href="https://github.com/jaredly/hexo-admin" target="_blank" rel="external">Hexo Admin</a> se você sente necessidade.</p>
@@ -41,6 +41,7 @@
 <figure class="highlight groovy"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line"># Deployment</span><br><span class="line">## <span class="string">Docs:</span> <span class="string">http:</span><span class="comment">//hexo.io/docs/deployment.html</span></span><br><span class="line"><span class="string">deploy:</span></span><br><span class="line"><span class="label">  type:</span> git</span><br><span class="line"><span class="label">  repo:</span> &lt;seu repositório no gh pages&gt;</span><br></pre></td></tr></table></figure>
 <p>E, assim que executar o comando hexo deploy, o site estará atualizado.</p>
 <h3 id="Domínio">Domínio</h3><p>Você pode usar seu próprio domínio ou deixar com o .github.io, depende só de você. ;)<br>Para ter seu próprio domínio você pode seguir esses passos do <a href="http://willianjusten.com.br/dominio-proprio-no-github-pages/" target="_blank" rel="external">Willian Justen</a>(Quanto Willian/m em um só post…)</p>
+<p>Por enquanto é só isso. Logo menos vou postar mais sobre o Hexo e como está sendo meu dia-a-dia com ele. Se você já tem experiência com Hexo ou outros geradores e quer deixar sua opinião, comenta aí! ;)</p>
 ]]></content>
     <summary type="html">
     <![CDATA[<p><img src="../public/images/hexo-logo.svg" alt="Hexo Blog"><br>A um bom tempo sinto vontade de mudar meu Blog de Wordpress para uma plataforma de  conteúdo estático, mas não achava nenhuma alternativa, pois que queria usar Nodejs. Por isso não fui para o, muito usado na comunidade, <a href="http://jekyllrb.com/">Jekyll(Ruby)</a> , nem para o <a href="http://blog.getpelican.com/">Pelican(Python &lt;3)</a>.]]>
