@@ -5,7 +5,7 @@
   <subtitle><![CDATA[Desenvolvedor Front End]]></subtitle>
   <link href="/atom.xml" rel="self"/>
   <link href="http://woliveiras.com.br//"/>
-  <updated>2015-08-07T01:01:18.869Z</updated>
+  <updated>2015-08-07T10:38:58.186Z</updated>
   <id>http://woliveiras.com.br//</id>
   
   <author>
@@ -20,8 +20,8 @@
     <link href="http://woliveiras.com.br/posts/Migrando-de-Wordpress-Para-Hexo/"/>
     <id>http://woliveiras.com.br/posts/Migrando-de-Wordpress-Para-Hexo/</id>
     <published>2015-08-05T02:53:41.000Z</published>
-    <updated>2015-08-07T01:01:18.869Z</updated>
-    <content type="html"><![CDATA[<p><img src="../../public/images/hexo-logo.png" alt="Hexo Blog"><br>A um bom tempo sinto vontade de mudar meu Blog de WordPress para uma plataforma de  conteúdo estático, mas não achava nenhuma alternativa, pois que queria usar Nodejs. Por isso não fui para o, muito usado na comunidade, <a href="http://jekyllrb.com/" target="_blank" rel="external">Jekyll(Ruby)</a> , nem para o <a href="http://blog.getpelican.com/" target="_blank" rel="external">Pelican(Python &lt;3)</a>.<a id="more"></a><br>Em busca de uma alternativa encontrei o <a href="https://hexo.io" target="_blank" rel="external">Hexo</a> e, um pouco depois de eu conhecer essa plataforma, o <a href="http://blog.da2k.com.br/" target="_blank" rel="external">Daciuk</a> escreveu um <a href="http://blog.da2k.com.br/2014/01/05/hexo-criando-um-blog-ao-estilo-miojo/" target="_blank" rel="external">post</a> muito maneiro incentivando o seu uso. Foi então que eu decidi de vez usar essa plataforma!<br>Bora conhecer ela e como foi a migração de WordPress para Hexo?</p>
+    <updated>2015-08-07T10:38:58.186Z</updated>
+    <content type="html"><![CDATA[<p><div class="shared-img"><br><img src="../../public/images/hexo-logo.png" alt="Hexo Blog"><br></div>A um bom tempo sinto vontade de mudar meu Blog de WordPress para uma plataforma de  conteúdo estático, mas não achava nenhuma alternativa, pois que queria usar Nodejs. Por isso não fui para o, muito usado na comunidade, <a href="http://jekyllrb.com/" target="_blank" rel="external">Jekyll(Ruby)</a> , nem para o <a href="http://blog.getpelican.com/" target="_blank" rel="external">Pelican(Python &lt;3)</a>.<a id="more"></a><br>Em busca de uma alternativa encontrei o <a href="https://hexo.io" target="_blank" rel="external">Hexo</a> e, um pouco depois de eu conhecer essa plataforma, o <a href="http://blog.da2k.com.br/" target="_blank" rel="external">Daciuk</a> escreveu um <a href="http://blog.da2k.com.br/2014/01/05/hexo-criando-um-blog-ao-estilo-miojo/" target="_blank" rel="external">post</a> muito maneiro incentivando o seu uso. Foi então que eu decidi de vez usar essa plataforma!<br>Bora conhecer ela e como foi a migração de WordPress para Hexo?</p>
 <h3 id="Levantando_as_necessidades">Levantando as necessidades</h3><p>Antes de migrar nosso Blog(Ou o de um cliente) de uma plataforma para outra precisamos fazer um levantamento para que não tenha impacto negativo como perder os posts que já existem ou alguma funcionalidade importante aos leitores.<br>Minha primeira preocupação foi com os posts que eu já havia escrito, mas no próprio site do Hexo temos uma <a href="https://hexo.io/docs/migration.html" target="_blank" rel="external">solução para isso</a>.<br>As dicas sobre instalação do Hexo você encontra no Blog do <a href="http://blog.da2k.com.br/2014/01/05/hexo-criando-um-blog-ao-estilo-miojo/" target="_blank" rel="external">Daciuk</a> e no Blog do <a href="http://dwoond.github.io/Criando-seu-site-com-Hexo/" target="_blank" rel="external">Willian Santos</a>.</p>
 <h3 id="Como_escrever_os_posts">Como escrever os posts</h3><p>Os posts no Hexo funcionam como em qualquer outro gerador estático. Escrevemos em Markdown e a postagem é gerada em HTML.<br>Markdown não é difícil e podemos usar algumas ferramentas boas que auxiliam nisso como o <a href="http://pad.haroopress.com/" target="_blank" rel="external">Haroopad</a> ou o <a href="https://stackedit.io/editor#" target="_blank" rel="external">Stackedit</a>, mas o Hexo também tem uma espécie de wp-admin, basta instalar o <a href="https://github.com/jaredly/hexo-admin" target="_blank" rel="external">Hexo Admin</a> se você sente necessidade.</p>
 <h3 id="Migrando_os_posts_do_WordPress_para_o_Hexo">Migrando os posts do WordPress para o Hexo</h3><p>Basta instalar o plugin <strong>hexo-migrator-wordpress</strong> com o comando:</p>
@@ -44,7 +44,7 @@
 <p>Por enquanto é só isso. Logo menos vou postar mais sobre o Hexo e como está sendo meu dia-a-dia com ele. Se você já tem experiência com Hexo ou outros geradores e quer deixar sua opinião, comenta aí! ;)</p>
 ]]></content>
     <summary type="html">
-    <![CDATA[<p><img src="../../public/images/hexo-logo.png" alt="Hexo Blog"><br>A um bom tempo sinto vontade de mudar meu Blog de WordPress para uma plataforma de  conteúdo estático, mas não achava nenhuma alternativa, pois que queria usar Nodejs. Por isso não fui para o, muito usado na comunidade, <a href="http://jekyllrb.com/">Jekyll(Ruby)</a> , nem para o <a href="http://blog.getpelican.com/">Pelican(Python &lt;3)</a>.]]>
+    <![CDATA[<p><div class="shared-img"><br><img src="../../public/images/hexo-logo.png" alt="Hexo Blog"><br></div>A um bom tempo sinto vontade de mudar meu Blog de WordPress para uma plataforma de  conteúdo estático, mas não achava nenhuma alternativa, pois que queria usar Nodejs. Por isso não fui para o, muito usado na comunidade, <a href="http://jekyllrb.com/">Jekyll(Ruby)</a> , nem para o <a href="http://blog.getpelican.com/">Pelican(Python &lt;3)</a>.]]>
     
     </summary>
     
@@ -65,16 +65,11 @@
     <link href="http://woliveiras.com.br/posts/frameworks-front-end/"/>
     <id>http://woliveiras.com.br/posts/frameworks-front-end/</id>
     <published>2015-03-05T00:18:46.000Z</published>
-    <updated>2015-08-07T01:31:42.710Z</updated>
+    <updated>2015-08-07T01:54:34.956Z</updated>
     <content type="html"><![CDATA[<p>Já parou pra pensar quantas vezes você repete o mesmo código durante o Desenvolvimento, seja Web, Mobile ou Desktop? Já pensou em padronizar o que você faz de alguma maneira?<br>E pra você que é Gerente de Projetos, Líder ou algo do tipo: Já pensou em poder adicionar um membro no seu grupo  e ele já saber como funciona o Desenvolvimento nessa equipe e conseguir ser produtivo desde o princípio?<br>Pois é, Frameworks servem para isso… Vem comigo que vou explicar melhor. ;)<a id="more"></a></p>
-<h2 id="O_que_são_Frameworks?">O que são Frameworks?</h2><p>Você pega aqueles códigos que se repetem entre os projetos, adiciona uma pitada de <a href="http://pt.wikipedia.org/wiki/Padr%C3%A3o_de_projeto_de_software" title="Wikipedia - Padrões de Projetos" target="_blank" rel="external">Padrões</a>, deixa conforme sua equipe precisa ou <a href="http://tableless.com.br/locaweb-style-como-iniciamos/" title="Locaweb Style - Framework Front End da Locaweb" target="_blank" rel="external">conforme sua empresa trabalha</a>, empacota tudo isso pra poder reutilizar depois e pronto, criou um Framework!</p>
-<p>Só isso? Sim, só isso… Framework é uma ferramenta com os códigos, padrões, etc, que você consegue utilizar pra resolver problemas que se repetem ou mesmo pra iniciar projetos que vão possuir as mesmas características seja no Front, Back End ou mesmo para <a href="https://github.com/woliveiras/pastel" target="_blank" rel="external">Tooling(Ferramentas)</a>. Quando você utiliza um Framework como base, pode somente baixar ele, configurar ou instalar e seguir dali para as necessidades específicas de cada projeto. Isso mata muito tempo que você perderia fazendo algo que sabe que vai repetir no próximo trabalho.</p>
-<h2 id="Frameworks_são_bons_mesmo?">Frameworks são bons mesmo?</h2><p>Minha resposta é: São sim, mas eles dependem de você para não estragá-los.</p>
-<p>Temos vários tipos de Frameworks pra todos os gostos e peculiaridades, porém nem sempre o mesmo que você usa para um projeto grande será interessante em um projeto pequeno. As vezes temos uma ferramenta específica só para coisas pequenas e outras só para coisas grandes.</p>
-<p>Frameworks são muito bons pela praticidade em se iniciar um projeto com metade do trabalho já feito, claro, mas você tem de entender <a href="http://tableless.com.br/quando-utilizar-ou-nao-frameworks-css/" title="Quando utilizar (ou não) frameworks CSS - Talita Pagani" target="_blank" rel="external">quando utilizar e quando não utilizar</a>.</p>
-<p>Temos o exemplo do <a href="http://getbootstrap.com/" title="Twitter Bootstrap" target="_blank" rel="external">Twitter Bootstrap</a> que está sendo muito utilizado na Web por esses tempos e tem gente que nem sabe utilizar o que a ferramenta lhe entrega e sai sobrepondo os estilos e deixando o projeto cada vez mais pesado ou importa todo o código do Framework sendo que só vai utilizar os Grids.</p>
-<h2 id="E_os_Frameworks_Front_End,_servem_pra_que?">E os Frameworks Front End, servem pra que?</h2><p>Normalmente eles vem com os estilos que você repete em vários projetos como tamanho de botões, tipografia, cores, estilos de tabelas/formulários, menus, navegação em abas, etc. Tudo o que é referente ao desenvolvimento de uma interface normalmente vem nessas maravilhas ou você cria um com tudo o que você sempre usa. - Pra um iniciante o melhor seria aprender como as coisas são feitas e até mesmo criar o seu próprio pelo fato de aprender mais.</p>
-<p>Tem diferença entre Bibliotecas Front End e Frameworks Front End, da uma olhada <a href="http://tableless.com.br/biblioteca-css-ou-framework/" title="Biblioteca CSS ou Framework?" target="_blank" rel="external">nesse artigo</a>.</p>
+<h2 id="O_que_são_Frameworks?">O que são Frameworks?</h2><p>Você pega aqueles códigos que se repetem entre os projetos, adiciona uma pitada de <a href="http://pt.wikipedia.org/wiki/Padr%C3%A3o_de_projeto_de_software" title="Wikipedia - Padrões de Projetos" target="_blank" rel="external">Padrões</a>, deixa conforme sua equipe precisa ou <a href="http://tableless.com.br/locaweb-style-como-iniciamos/" title="Locaweb Style - Framework Front End da Locaweb" target="_blank" rel="external">conforme sua empresa trabalha</a>, empacota tudo isso pra poder reutilizar depois e pronto, criou um Framework!<br>Só isso? Sim, só isso… Framework é uma ferramenta com os códigos, padrões, etc, que você consegue utilizar pra resolver problemas que se repetem ou mesmo pra iniciar projetos que vão possuir as mesmas características seja no Front, Back End ou mesmo para <a href="https://github.com/woliveiras/pastel" target="_blank" rel="external">Tooling(Ferramentas)</a>. Quando você utiliza um Framework como base, pode somente baixar ele, configurar ou instalar e seguir dali para as necessidades específicas de cada projeto. Isso mata muito tempo que você perderia fazendo algo que sabe que vai repetir no próximo trabalho.</p>
+<h2 id="Frameworks_são_bons_mesmo?">Frameworks são bons mesmo?</h2><p>Minha resposta é: São sim, mas eles dependem de você para não estragá-los.<br>Temos vários tipos de Frameworks pra todos os gostos e peculiaridades, porém nem sempre o mesmo que você usa para um projeto grande será interessante em um projeto pequeno. As vezes temos uma ferramenta específica só para coisas pequenas e outras só para coisas grandes.<br>Frameworks são muito bons pela praticidade em se iniciar um projeto com metade do trabalho já feito, claro, mas você tem de entender <a href="http://tableless.com.br/quando-utilizar-ou-nao-frameworks-css/" title="Quando utilizar (ou não) frameworks CSS - Talita Pagani" target="_blank" rel="external">quando utilizar e quando não utilizar</a>.<br>Temos o exemplo do <a href="http://getbootstrap.com/" title="Twitter Bootstrap" target="_blank" rel="external">Twitter Bootstrap</a> que está sendo muito utilizado na Web por esses tempos e tem gente que nem sabe utilizar o que a ferramenta lhe entrega e sai sobrepondo os estilos e deixando o projeto cada vez mais pesado ou importa todo o código do Framework sendo que só vai utilizar os Grids.</p>
+<h2 id="E_os_Frameworks_Front_End,_servem_pra_que?">E os Frameworks Front End, servem pra que?</h2><p>Normalmente eles vem com os estilos que você repete em vários projetos como tamanho de botões, tipografia, cores, estilos de tabelas/formulários, menus, navegação em abas, etc. Tudo o que é referente ao desenvolvimento de uma interface normalmente vem nessas maravilhas ou você cria um com tudo o que você sempre usa. - Pra um iniciante o melhor seria aprender como as coisas são feitas e até mesmo criar o seu próprio pelo fato de aprender mais.<br>Tem diferença entre Bibliotecas Front End e Frameworks Front End, da uma olhada <a href="http://tableless.com.br/biblioteca-css-ou-framework/" title="Biblioteca CSS ou Framework?" target="_blank" rel="external">nesse artigo</a>.</p>
 <h2 id="Vantagens_do_uso_dos_Frameworks">Vantagens do uso dos Frameworks</h2><p>Algumas das vantagens que eu percebi:</p>
 <ul>
 <li>Como eu disse: Metade do trabalho está feito, então você tem agilidade na entrega dos projetos.</li>
@@ -82,13 +77,9 @@
 <li>A documentação dos Frameworks estão sempre atualizadas e são referências para buscar conteúdo.</li>
 <li>Padronização no desenvolvimento.</li>
 </ul>
-<h2 id="Desvantagens_do_uso_dos_Frameworks">Desvantagens do uso dos Frameworks</h2><p>Se você é iniciante e não sabe como as coisas funcionam por baixo dos panos, então fique longe deles. Aprenda a programar de verdade antes de usar uma ferramenta pronta, pois isso pode ser um tiro no pé e uma hora você vai se enroscar por causa da falta de conhecimento.</p>
-<p>Ter de estudar como ele funciona… Se você não conhece bem a ferramenta, pra que serve, qual o objetivo de quem a criou e quais os prós e contras dela, então também não comece a utilizar de uma vez. A falta do conhecimento vai tornar ela muito mais trabalhosa pra se usar e você pode usar um parafuso pensando que é prego.</p>
-<p>Todo dia nasce um Framework com alguma coisinh a mais que as vezes faz toda a diferença e você vai ter de estudar tudo de novo! (Triste realidade… :/)</p>
-<h2 id="Os_Frameworks_mais_maneiros">Os Frameworks mais maneiros</h2><p><a href="http://usablica.github.io/front-end-frameworks/compare.html" title="FRONT-END FRAMEWORKS" target="_blank" rel="external">Nessa página</a> temos uma lista de alguns Frameworks CSS e<a href="http://todomvc.com/" title="TodoMVC" target="_blank" rel="external"> nessa outra</a> alguns Frameworks JavaScript, da uma conferida e veja qual se adapta a sua necessidade.</p>
-<p>Eu utilizo no dia-a-dia o Bootstrap e ele tem me atendido muito bem, porém não posso te indicar algum só por que eu gosto dele. O melhor é você levantar o máximo de informação sobre os que estão sendo mais utilizados e testar cada um pra ver se te atende legal.</p>
-<h2 id="Bônus">Bônus</h2><p>Se você não conhece pré processadores, seria interessante aprender algum também. Recomendo essa leitura: <a href="http://blog.da2k.com.br/2015/02/15/escrevendo-css-com-stylus/" title="Escrevendo CSS com Stylus" target="_blank" rel="external">Escrevendo CSS com Stylus</a></p>
-<p>Você conhece algum Framework Front End maneiro ou tem mais alguma dica sobre o assunto? Compartilha ae!</p>
+<h2 id="Desvantagens_do_uso_dos_Frameworks">Desvantagens do uso dos Frameworks</h2><p>Se você é iniciante e não sabe como as coisas funcionam por baixo dos panos, então fique longe deles. Aprenda a programar de verdade antes de usar uma ferramenta pronta, pois isso pode ser um tiro no pé e uma hora você vai se enroscar por causa da falta de conhecimento.<br>Ter de estudar como ele funciona… Se você não conhece bem a ferramenta, pra que serve, qual o objetivo de quem a criou e quais os prós e contras dela, então também não comece a utilizar de uma vez. A falta do conhecimento vai tornar ela muito mais trabalhosa pra se usar e você pode usar um parafuso pensando que é prego.<br>Todo dia nasce um Framework com alguma coisinh a mais que as vezes faz toda a diferença e você vai ter de estudar tudo de novo! (Triste realidade… :/)</p>
+<h2 id="Os_Frameworks_mais_maneiros">Os Frameworks mais maneiros</h2><p><a href="http://usablica.github.io/front-end-frameworks/compare.html" title="FRONT-END FRAMEWORKS" target="_blank" rel="external">Nessa página</a> temos uma lista de alguns Frameworks CSS e<a href="http://todomvc.com/" title="TodoMVC" target="_blank" rel="external"> nessa outra</a> alguns Frameworks JavaScript, da uma conferida e veja qual se adapta a sua necessidade.<br>Eu utilizo no dia-a-dia o Bootstrap e ele tem me atendido muito bem, porém não posso te indicar algum só por que eu gosto dele. O melhor é você levantar o máximo de informação sobre os que estão sendo mais utilizados e testar cada um pra ver se te atende legal.</p>
+<h2 id="Bônus">Bônus</h2><p>Se você não conhece pré processadores, seria interessante aprender algum também. Recomendo essa leitura: <a href="http://blog.da2k.com.br/2015/02/15/escrevendo-css-com-stylus/" title="Escrevendo CSS com Stylus" target="_blank" rel="external">Escrevendo CSS com Stylus</a><br>Você conhece algum Framework Front End maneiro ou tem mais alguma dica sobre o assunto? Compartilha ae!</p>
 ]]></content>
     <summary type="html">
     <![CDATA[<p>Já parou pra pensar quantas vezes você repete o mesmo código durante o Desenvolvimento, seja Web, Mobile ou Desktop? Já pensou em padronizar o que você faz de alguma maneira?<br>E pra você que é Gerente de Projetos, Líder ou algo do tipo: Já pensou em poder adicionar um membro no seu grupo  e ele já saber como funciona o Desenvolvimento nessa equipe e conseguir ser produtivo desde o princípio?<br>Pois é, Frameworks servem para isso… Vem comigo que vou explicar melhor. ;)]]>
@@ -112,6 +103,243 @@
       <category term="Javascript" scheme="http://woliveiras.com.br/categories/CSS/Dicas/Front-End/Javascript/"/>
     
       <category term="Produtividade" scheme="http://woliveiras.com.br/categories/CSS/Dicas/Front-End/Javascript/Produtividade/"/>
+    
+  </entry>
+  
+  <entry>
+    <title><![CDATA[Aprenda a trabalhar em Equipes!!!]]></title>
+    <link href="http://woliveiras.com.br/posts/aprenda-trabalhar-em-equipes/"/>
+    <id>http://woliveiras.com.br/posts/aprenda-trabalhar-em-equipes/</id>
+    <published>2015-01-30T08:00:51.000Z</published>
+    <updated>2015-08-07T02:09:47.026Z</updated>
+    <content type="html"><![CDATA[<p>Como eu disse em <a href="/posts/requisitos-para-vagas-front-end/" title="Sobre os requisitos para vagas de emprego Front End (E outras áreas também)">um post anterior</a>, você não vai trabalhar sozinho a vida toda. Chega uma hora em que é preciso trabalhar em equipes, interagir com outras pessoas e é necessário que você aprenda isso. Mesmo que você trabalhe em casa, vai precisar enviar seu projeto para outras pessoas.<br>Existem algumas boas medidas para conseguir trabalhar bem em grandes ou pequenas equipes…<a id="more"></a></p>
+<h2 id="Organização">Organização</h2><p>As pastas que você cria para organizar seu projeto devem possuir nomes que auxiliem a entender o que tem dentro. Não somente as pastas, os nomes dos arquivos também devem ter algum significado.<br>Não crie uma pasta com o nome <strong>scripts</strong> e coloque todos os .styl, .js, .html, .php, .rb, etc, ali dentro, mas crie uma organização ou siga alguma.<br>Isso serve até mesmo para que você se encontre mais fácil no seu projeto.<br>Trabalhar com outras pessoas não é a mesma coisa de ser criança e a mãe arrumar seu quarto… Você tem de se organizar e outras pessoas tem de entender sua organização.<br>Da uma olhada aqui no meu <a href="https://github.com/woliveiras/pastel" title="Pastel | um pequeno Boilerplate que eu criei para agilizar meus projetos" target="_blank" rel="external">Scaffold </a>e veja como eu organizei os arquivos - É um exemplo beeeem básico, mas da para ter uma noção…<br>A forma como escreve seu código também faz diferença e vou falar disso agora!</p>
+<h2 id="Comentários">Comentários</h2><p>Comente seu código. Daqui a 6 meses você não vai lembrar o que aquilo fazia, afinal você evolui - Ou só esquece mesmo. E assim como você não vai saber daqui a esse tempo, pessoas que pegarem seu código <strong>hoje</strong> podem demorar a entender o que ele faz se não estiver comentado.</p>
+<p><img src="../../public/images/comment.png" alt="Comentários no código"></p>
+<p>Tirando a zoeira - Que é uma história real. Mantenha o bom senso. Existem funções da própria linguagem que não precisa ser comentada. Se o cara estudou a linguagem, então ele sabe o que aquele método faz.</p>
+<h2 id="Semântica">Semântica</h2><p>Além da <a href="/posts/semantica-html/" title="Semântica HTML">semântica no HTML</a>, você precisa usar do bom senso ao nomear identificadores, classes, funções, métodos, objetos, etc.<br>Uma função com o nome  <em>funcaoX();</em> não diz muita coisa sobre ela mesma, porém uma função com nome <em>setTimeOut();</em> está dizendo por si que ela define o tempo para alguma coisa.<br>Use e abuse da semântica em seu código!</p>
+<h2 id="Padrões_de_codificação">Padrões de codificação</h2><p>Você precisa bater o olho no seu código e entender aquilo sem dificuldade.<br>Não é legal você escrever os nomes das variáveis uma hora em inglês outra em português, uma hora com CamelCase, outra hora com underlines. É bom você ter um padrão de codificação.<br><strong>E o que conta para como um padrão de codificação para meu uso no dia a dia?</strong><br>Segura a lista:</p>
+<ul>
+<li>Nomenclatura de variáveis</li>
+<li>Nomenclatura de funções/métodos/objetos</li>
+<li>Espaçamento entre tags/brackets</li>
+<li>Formato de comentários</li>
+<li>Indentação</li>
+<li>Limites de caracteres em uma linha<br>E tem muito mais que varia de acordo com a sua forma de trabalhar/linguagem/projeto.<br>É uma verdadeira forma de formatar seu código.</li>
+</ul>
+<h2 id="Padrões_de_projetos">Padrões de projetos</h2><p>É bom que você procure estudar Design Patterns.</p>
+<p>Quando você entra em um time, eles já possuem alguns padrões internos que são os padrões de codificação/organização de diretórios/comentários/commits, etc. Porém, fora esses, eles utilizam alguns padrões como MVC, MVVM, Composite, Factory, Dependency Injection e é bom que estude isso até mesmo para se organizar melhor em seus próprios projetos.</p>
+]]></content>
+    <summary type="html">
+    <![CDATA[<p>Como eu disse em <a href="/posts/requisitos-para-vagas-front-end/" title="Sobre os requisitos para vagas de emprego Front End (E outras áreas também)">um post anterior</a>, você não vai trabalhar sozinho a vida toda. Chega uma hora em que é preciso trabalhar em equipes, interagir com outras pessoas e é necessário que você aprenda isso. Mesmo que você trabalhe em casa, vai precisar enviar seu projeto para outras pessoas.<br>Existem algumas boas medidas para conseguir trabalhar bem em grandes ou pequenas equipes…]]>
+    
+    </summary>
+    
+      <category term="Boas práticas" scheme="http://woliveiras.com.br/tags/Boas-praticas/"/>
+    
+      <category term="Padrões" scheme="http://woliveiras.com.br/tags/Padroes/"/>
+    
+      <category term="Produtividade" scheme="http://woliveiras.com.br/tags/Produtividade/"/>
+    
+      <category term="Programação" scheme="http://woliveiras.com.br/tags/Programacao/"/>
+    
+      <category term="Boas práticas" scheme="http://woliveiras.com.br/categories/Boas-praticas/"/>
+    
+      <category term="Dicas" scheme="http://woliveiras.com.br/categories/Boas-praticas/Dicas/"/>
+    
+      <category term="Produtividade" scheme="http://woliveiras.com.br/categories/Boas-praticas/Dicas/Produtividade/"/>
+    
+      <category term="Programação" scheme="http://woliveiras.com.br/categories/Boas-praticas/Dicas/Produtividade/Programacao/"/>
+    
+  </entry>
+  
+  <entry>
+    <title><![CDATA[Semântica HTML]]></title>
+    <link href="http://woliveiras.com.br/posts/semantica-html/"/>
+    <id>http://woliveiras.com.br/posts/semantica-html/</id>
+    <published>2015-01-29T12:00:25.000Z</published>
+    <updated>2015-08-07T02:29:45.629Z</updated>
+    <content type="html"><![CDATA[<p>Quando estamos iniciando os estudos na área de Web aprendemos semântica e, as vezes, nem temos noção da importância disso. Aprendemos que cada tag HTML serve para coisa: <strong>&lt;title&gt;</strong> para o título da página (Aquele que aparece na aba do navegador), <strong>&lt;p&gt;</strong> para parágrafos, <strong>&lt;h1,2,3,…&gt;</strong> para título no conteúdo, etc.<br>Porém, com o tempo, algumas pessoas param de utilizar essas tags e começam a bagunçar tudo! Usam o <strong>h1</strong> pra deixar um texto maior que o outro e não para o título em questão, usam várias tags <strong>p</strong> separando o conteúdo de uma lista, por ai vai! Vira uma salada no HTML. - E, se você acha esses exemplos absurdos, saiba que já peguei código assim ou piores!<br>Isso é ruim tanto para quem vai ler seu código depois, quanto para buscadores e leitores de tela…<a id="more"></a></p>
+<h2 id="Qual_a_importância_da_semântica_html?">Qual a importância da semântica html?</h2><p>A semântica será importante para que o seu conteúdo tenha sentido mesmo que não tenha nenhum estilo visual. Semântica é o significado da coisa! É graças a semântica que sua página vai indexar legal ou não nos buscadores. Não somente por isso, a semântica ajuda na <strong>acessibilidade</strong> de sua página ou aplicação - Ponto que eu acho mais importante.<br>O Crawler do Google não vai ver se sua página está bonitinha, mas vai ler seu HTML e indexar conforme o conteúdo esteja estruturado. Um leitor de tela também não vai ficar falando pra pessoa com necessidades especiais que determinado botão é uma lixeira ou um xiszinho vermelho, mas vai ler as tags e identificar o que você escreveu no atributo <strong>&lt;alt&gt;</strong> e falar para o usuário.<br>Faça um teste: Instale a extensão que eu indiquei <a href="/posts/extensoes-navegador-desenvolvimento-web/" title="Extensões do Navegador para Desenvolvimento Web">nesse artigo</a>, o <a href="https://chrome.google.com/webstore/detail/chromevox/kgejglhpjiefppelpmljglcjbhoiplfn" title="ChromeVox" target="_blank" rel="external">ChromeVox</a> e ative ela para que leia as páginas pra você. Da uma navegada em alguns sites por ai e veja se conseguiria entender de uma forma legal o que o leitor diz.<br>Esses foram só alguns dos tópicos que podemos levantar a respeito da importância da Semântica…</p>
+<h2 id="E_como_escrever_um_HTML_semântico?">E como escrever um HTML semântico?</h2><p>Não é difícil, basta você utilizar as tags para o que elas foram feitas para marcar.<br>Quando for estruturar um documento HTML, analise o Layout e identifique os elementos de conteúdo da interface.</p>
+<p><strong>O que é o que?</strong></p>
+<p>Faça a si perguntas desse tipo quando for estruturar: O que é um título (H1)? O que é um subtítulo (H2)? Onde é um parágrafo? Como eu posso fazer com que uma pessoa que não enxerga saiba pra que serve esse botão? E por ai vai… Com o tempo cai no automático.<br>Procure envolver o conteúdo com as tags corretas. Caso tenha dúvidas, procure na documentação, pesquise no Google.<br>Garanto que nada é mais recompensador que receber um elogio de um deficiente visual que consegue entender seu conteúdo sem dificuldades.<br>Alguns links úteis para entender melhor sobre semântica:</p>
+<p><a href="http://www.uxdesign.blog.br/padroes-web/html5/entendo-a-estrutura-e-a-semantica-do-html5/" title="A estrutura e a semântica do HTML5" target="_blank" rel="external">A estrutura e a semântica do HTML5 - UXDesign Blog</a></p>
+<p><a href="http://pt.slideshare.net/diegoeis/a-verdadeira-semntica-do-html5" title="A verdadeira semântica do HTML" target="_blank" rel="external">A verdadeira semântica do HTML - Diego Eis (Monstrão! Eu pago um pau pra ele…)</a></p>
+<p><a href="http://desenvolvimentoparaweb.com/html/microdata-api-schema-org-significado-html/" title="Microdata API e Schema.org: dando significado ao HTML" target="_blank" rel="external">Microdata - Desenvolvimento para Web</a></p>
+<p>Espero ter ajudado a entender um pouco mais sobre o assunto e, se você já conhecia e não praticava, te convencido a utilizar as tags da maneira correta! :D</p>
+<p>Alguma dúvida, link sobre o assunto ou sugestão? Comenta ae!</p>
+]]></content>
+    <summary type="html">
+    <![CDATA[<p>Quando estamos iniciando os estudos na área de Web aprendemos semântica e, as vezes, nem temos noção da importância disso. Aprendemos que cada tag HTML serve para coisa: <strong>&lt;title&gt;</strong> para o título da página (Aquele que aparece na aba do navegador), <strong>&lt;p&gt;</strong> para parágrafos, <strong>&lt;h1,2,3,…&gt;</strong> para título no conteúdo, etc.<br>Porém, com o tempo, algumas pessoas param de utilizar essas tags e começam a bagunçar tudo! Usam o <strong>h1</strong> pra deixar um texto maior que o outro e não para o título em questão, usam várias tags <strong>p</strong> separando o conteúdo de uma lista, por ai vai! Vira uma salada no HTML. - E, se você acha esses exemplos absurdos, saiba que já peguei código assim ou piores!<br>Isso é ruim tanto para quem vai ler seu código depois, quanto para buscadores e leitores de tela…]]>
+    
+    </summary>
+    
+      <category term="Boas práticas" scheme="http://woliveiras.com.br/tags/Boas-praticas/"/>
+    
+      <category term="Front End" scheme="http://woliveiras.com.br/tags/Front-End/"/>
+    
+      <category term="HTML" scheme="http://woliveiras.com.br/tags/HTML/"/>
+    
+      <category term="Boas práticas" scheme="http://woliveiras.com.br/categories/Boas-praticas/"/>
+    
+      <category term="Front End" scheme="http://woliveiras.com.br/categories/Boas-praticas/Front-End/"/>
+    
+      <category term="HTML" scheme="http://woliveiras.com.br/categories/Boas-praticas/Front-End/HTML/"/>
+    
+  </entry>
+  
+  <entry>
+    <title><![CDATA[Sobre os requisitos para vagas de emprego Front End (E outras áreas também)]]></title>
+    <link href="http://woliveiras.com.br/posts/requisitos-para-vagas-front-end/"/>
+    <id>http://woliveiras.com.br/posts/requisitos-para-vagas-front-end/</id>
+    <published>2015-01-23T10:00:19.000Z</published>
+    <updated>2015-08-07T11:09:47.575Z</updated>
+    <content type="html"><![CDATA[<p>Quantas vezes não nos deparamos com as seguintes dúvidas:</p>
+<ul>
+<li>Será que estou pronto para o mercado de trabalho?_</li>
+<li>Será que eu sei o suficiente para encarar aquela oportunidade em determinada empresa?</li>
+</ul>
+<p>Sei que não são poucas vezes… E, por mais que nos preparemos muito, sempre ficam essas perguntas no ar…<a id="more"></a><br>Depois de encher o saco de muita gente que eu conheço na área perguntando sobre requisitos para trabalhar como Front eu cheguei a seguinte conclusão:<br>Não existe uma lista de requisitos que todo mundo precisa saber para entrar em uma empresa ou encarar determinada função… Cada empresa pede o que lhe convém. Porém existem pequenas atitudes que te ajudam a se preparar e ter sua própria noção de mercado de trabalho e isso é que vai te ajudar a se organizar melhor para conseguir se destacar.<br>A primeira dica que deixo, e que acho a mais importante, é a seguinte:</p>
+<h5 id="Estude!">Estude!</h5><p><strong>Estude</strong> muito e <strong>pratique</strong> mais ainda para que não tenha dúvidas de que gosta do que faz. Sim! Não é estudar só pra se preparar para a vaga, mas para ver se gosta mesmo do que está fazendo (Se está começando em Front End e não sabe como fazer, da uma olhada <a href="/posts/guia-de-estudos-desenvolvedor-front-end-iniciante/" title="Trilha/Guia de estudos">aqui</a>).<br>Preste atenção se está gostando de estudar isso… Gostar do que faz não é só enquanto está trabalhando. Se enquanto está aprendendo já não estiver gostando do que vê é sinal que você precisa rever seus caminhos e se realmente é isso que deseja.</p>
+<h5 id="Conheça_o_mercado">Conheça o mercado</h5><p>O único jeito de saber se você tem conhecimento para encarar certas funções, e também saber se você é considerado Junior, Pleno ou Sênior para as empresas, é pesquisando em sites de vagas ou nos sites das empresas para ver o que eles estão pedindo como “requisitos”.<br>O nível Junior, Pleno ou Sênior é muito variável. Cada empresa coloca isso de forma diferente nas vagas e o único jeito de se preparar é pesquisando e fazendo uma lista dos requisitos encontrados. - Isso mesmo, uma lista. <strong>Vasculhe as descrições das vagas e faça uma lista dos requisitos que você reparar que se repetem e busque aprender aquilo</strong>. Quando manjar dos tópicos da lista é sinal que tem os requisitos necessários, então vai pra cima!</p>
+<h5 id="Crie_coragem">Crie coragem</h5><p>O <strong>não</strong> você já tem se não se candidatar!<br>Você olhou os requisitos e sabe alguma coisa daquilo, vai pra cima!<br>Não tenha medo quando olhar aquelas listas imensas nas vagas,algumas (Senão todas) são escritas pelo pessoal do RH, que muitas vezes não dominam nada da área, e eles olham em outros sites, copiam tudo e colam lá.<br>Eu já vi Vaga para Programador Jr. pedindo 4 anos de experiência, domínio de PHP, Java, JavaScript, Haskell, C, C++, C#, Python, Lisp, Ruby, Lua, e vai indo… O cara deve ter pesquisado no <a href="http://pt.wikipedia.org/wiki/Linguagem_de_programa%C3%A7%C3%A3o#Lista_de_linguagens" title="Linguagens de Programação" target="_blank" rel="external">Wikipedia</a> as linguagens de programação, copiou tudo e colou como requisito para a vaga!</p>
+<p><strong>E se eu passar em uma oportunidade que eu não domino 100%?</strong></p>
+<p>Aí você volta a primeira parte desse artigo: <strong>Estude</strong>!<br>Você não vai ser mandado embora se não souber algo, mas pode ser se não aprender nunca…<br>Você é facilmente substituível se não busca se adequar ao conteúdo que a empresa precisa. Ninguém quer uma âncora puxando a equipe para baixo.<br>Na entrevista exponha o que você sabe e o que você não sabe e seja franco. Senão domina ou não manja de alguma coisa, deixe isso claro ali. - Sinceridade é a chave.</p>
+<h5 id="Saiba_outras_coisas">Saiba outras coisas</h5><p>Sinceramente, de nada vai adiantar todo o seu conhecimento se você não souber algumas coisinhas essenciais para o ser humano:</p>
+<p><strong>Aprenda a trabalhar em equipe</strong></p>
+<p>Aprenda a se comunicar com outras pessoas com as mais variadas opiniões. Você vai trabalhar com gente que curte seu estilo de música e gente que detesta, com aqueles que tem a mesma ideologia sobre política e outros que são completamente contra. Saiba balancear isso para que não afete seu relacionamento com as pessoas. - Essas dicas servem não só para o serviço, mas para a vida! ;)<br>Procure entender as outras pessoas e aprenda a utilizar uma coisa que é pouco lembrada hoje em dia: a <a href="http://www.significados.com.br/empatia/" title="Empatia" target="_blank" rel="external">empatia</a>. Se coloque no lugar da outra pessoa antes de fechar a cara pra ela por que ela entrou na sala sem cumprimentar ninguém. Pode ser algum problema pessoal e a pessoa nem reparou que não cumprimentou e não alguma coisa contra você. Deixa de mimimi.<br>Um bom relacionamento com sua equipe vai resultar em mais produtividade.</p>
+<p><strong>Aprenda Gestão</strong></p>
+<p>Mesmo sendo programador é bom você entender sobre Gestão, assim você consegue administrar melhor o seu tempo e ajuda muito mais sua equipe. Fora outros benefícios como entender muito mais fácil algumas coisas que seu Gestor diz… ;D</p>
+<p><strong>Conheça outras áreas</strong></p>
+<p>Além de Gestão, aprenda um pouco sobre outras áreas. Fica mais fácil entender o que o Designer quer se você entende um pouco de Design. Vai ser mais rápido implementar funcionalidades na página sabendo usar corretamente as funções que o Back End criou. E o mais interessante: É mais fácil passar na entrevista se você souber como o entrevistador está pensando para responder de forma concisa.</p>
+<h5 id="E_se_eu_não_passar_na_entrevista?">E se eu não passar na entrevista?</h5><p>A vida continua… Continue estudando, continue buscando, continue treinando e nunca desista do seu sonho!</p>
+]]></content>
+    <summary type="html">
+    <![CDATA[<p>Quantas vezes não nos deparamos com as seguintes dúvidas:</p>
+<ul>
+<li>Será que estou pronto para o mercado de trabalho?_</li>
+<li>Será que eu sei o suficiente para encarar aquela oportunidade em determinada empresa?</li>
+</ul>
+<p>Sei que não são poucas vezes… E, por mais que nos preparemos muito, sempre ficam essas perguntas no ar…]]>
+    
+    </summary>
+    
+      <category term="Carreira" scheme="http://woliveiras.com.br/tags/Carreira/"/>
+    
+      <category term="Dicas" scheme="http://woliveiras.com.br/tags/Dicas/"/>
+    
+      <category term="Front End" scheme="http://woliveiras.com.br/tags/Front-End/"/>
+    
+      <category term="Motivação" scheme="http://woliveiras.com.br/tags/Motivacao/"/>
+    
+      <category term="Carreira" scheme="http://woliveiras.com.br/categories/Carreira/"/>
+    
+      <category term="Dicas" scheme="http://woliveiras.com.br/categories/Carreira/Dicas/"/>
+    
+      <category term="Front End" scheme="http://woliveiras.com.br/categories/Carreira/Dicas/Front-End/"/>
+    
+      <category term="Motivação" scheme="http://woliveiras.com.br/categories/Carreira/Dicas/Front-End/Motivacao/"/>
+    
+  </entry>
+  
+  <entry>
+    <title><![CDATA[Extensões do Navegador para Desenvolvimento Web]]></title>
+    <link href="http://woliveiras.com.br/posts/extensoes-navegador-desenvolvimento-web/"/>
+    <id>http://woliveiras.com.br/posts/extensoes-navegador-desenvolvimento-web/</id>
+    <published>2015-01-22T13:00:31.000Z</published>
+    <updated>2015-08-07T10:48:46.643Z</updated>
+    <content type="html"><![CDATA[<p>Sou fã de produtividade e, por isso, utilizo várias ferramentas que me auxiliam a ser mais produtivo - Vou citar outras em futuras postagens ;). Algumas delas são extensões para o Navegador, no meu caso o Chrome/Firefox, que eu uso o tempo todo para testes. Nesse post vou citar algumas extensões muito boas para desenvolvimento Front End<a id="more"></a></p>
+<p><em>Para instalar alguma você pode clicar direto no sub-título e será direcionado para a Chrome Web Store. Se você estiver utilizando o Firefox, só pesquisar o nome dela no menu de instalação de Addons.</em></p>
+<h5 id="Web_Developer"><a href="https://chrome.google.com/webstore/detail/web-developer/bfbameneiokkgbdmiekhjnmfkcnldhhm" title="Web Developer" target="_blank" rel="external">Web Developer</a></h5><p>Essa extensão é monstra! Tem muita funcionalidade útil reunida em uma única ferramenta. Ao instalar essa extensão vá abrindo cada abinha e vendo do que ela é capaz, você vai pirar! Ela funciona no Chrome e no Firefox. Em outros navegadores eu não testei.</p>
+<p><img src="../../public/images/web-developer.gif" alt="Web Developer"></p>
+<p>Uma dica para testar em diferentes resoluções:<br>Existem várias formas de testar a aplicação em diferentes resoluções. Com essa extensão você clica em <strong>Resize</strong> e muda conforme você pré definiu ou clicando em <strong>View Responsive Layouts</strong>. Para definir as dimensões personalizadas você vai em <strong>Resize</strong> e clica em <strong>Edit Resize Dimensions…</strong> e pode colocar como achar mais conveniente clicando em <strong>Add</strong>.</p>
+<p><img src="../../public/images/web-developer-resize.gif" alt="Web Developer Resize"></p>
+<p>Ela já possui ferramentas para validar o HTML, CSS, Links e WAI-ARIA que você pode alterar clicando em <strong>Options, Options.</strong></p>
+<p><img src="../../public/images/web-developer-validations.gif" alt="Web Developer Validation"></p>
+<h5 id="Frameworks"><a href="https://chrome.google.com/webstore/detail/frameworks/jgghnecdoiloelcogfmgjgcacadpaejf" title="Frameworks" target="_blank" rel="external">Frameworks</a></h5><p>Com essa você vai ver as ferramentas que os sites que acessa estão utilizando como JQuery, Backbone, Angular, etc. Vai tudo aparecer no topo do seu navegador e basta acessar o site que já vai aparecer na barra de endereços.<br>Essa eu não testei em outros navegadores.</p>
+<p><img src="../../public/images/frameworks-extension.gif" alt="Frameworks"></p>
+<h5 id="ChromeVox"><a href="https://chrome.google.com/webstore/detail/chromevox/kgejglhpjiefppelpmljglcjbhoiplfn" title="Chrome Vox" target="_blank" rel="external">ChromeVox</a></h5><p>É um leitor de telas para o Chrome, com ele você vai conseguir ter a experiência de como pessoas com necessidades especiais irão navegar em sua aplicação, podendo melhorar ainda mais a nossa Web!<br>Para ativar e desativar a extensão você vai no menu do Chrome, mais ferramentas, extensões e pode ativar ou desativar quando for efetuar os testes.</p>
+<p><img src="../../public/images/active-chrome-vox.gif" alt="Chrome Vox"></p>
+<h5 id="ColorZilla"><a href="https://chrome.google.com/webstore/detail/colorzilla/bhlhnicpbhignbdhedgjhgdocnmhomnp" title="ColorZilla" target="_blank" rel="external">ColorZilla</a></h5><p>Com essa você vai conseguir capturar cores em sites e testar também pela janelinha dela, como mostro na imagem abaixo:</p>
+<p><img src="../../public/images/colorzilla.gif" alt="Colorzilla"></p>
+<p>Funciona no Chrome e Firefox.</p>
+<h5 id="WhatFont"><a href="https://chrome.google.com/webstore/detail/whatfont/jabopobgcpjmedljpbcaablpmlmfcogm" title="WhatFont" target="_blank" rel="external">WhatFont</a></h5><p>Sabe quando você vê uma fonte maneira em um site, mas fica com preguiça de abrir o código fonte? Então, é só usar essa extensão que ela pega o nome da fonte pra você! ;D</p>
+<p><img src="../../public/images/what-font.gif" alt="WhatFont"></p>
+<h5 id="PageSpeed"><a href="https://chrome.google.com/webstore/detail/pagespeed-insights-by-goo/gplegfbjlmmehdoakndmohflojccocli" title="PageSpeed" target="_blank" rel="external">PageSpeed</a></h5><p>Excelente para testar a velocidade da página!<br>Para utilizar você vai abrir as <strong>Ferramentas de Desenvolvedor</strong> do navegador <strong>(F12)</strong> e clicar em <strong>PageSpeed</strong>.</p>
+<p><img src="../../public/images/page-speed.gif" alt="PageSpeed"></p>
+<p>Depois é só clicar em <strong>Analisar</strong> e a extensão vai trazer um relatório de todas as possíveis melhorias.<br>Funciona no Chrome e Firefox.</p>
+<h5 id="Fireshot"><a href="https://chrome.google.com/webstore/detail/capture-webpage-screensho/mcbpblocgmgfnpjjppndjkmgjaogfceg" title="Fireshot" target="_blank" rel="external">Fireshot</a></h5><p>Essa é para quando você precisa de um print da página inteira. Seu uso é bem intuitivo e também funciona para Chrome e Firefox.</p>
+<p><img src="../../public/images/fireshot.gif" alt="Fireshot"></p>
+<h5 id="SEOQuake"><a href="https://chrome.google.com/webstore/detail/seoquake/akdgnmcogleenhbclghghlkkdndkjdjc" title="SEOQuake" target="_blank" rel="external">SEOQuake</a></h5><p>É uma função nossa se preocupar com o SEO na página também e para isso da para se apoiar no SEOQuake. Quando você abre a página ele já carrega as informações importantes na tela:</p>
+<p><img src="../../public/images/seo-quake.gif" alt="SEOQuake"></p>
+<p>E se você clicar em <strong>Info</strong> vai ver um relatório gigante sobre como deixar a página filé!<br>E você utiliza alguma outra extensão maneira? Comenta ai!</p>
+]]></content>
+    <summary type="html">
+    <![CDATA[<p>Sou fã de produtividade e, por isso, utilizo várias ferramentas que me auxiliam a ser mais produtivo - Vou citar outras em futuras postagens ;). Algumas delas são extensões para o Navegador, no meu caso o Chrome/Firefox, que eu uso o tempo todo para testes. Nesse post vou citar algumas extensões muito boas para desenvolvimento Front End]]>
+    
+    </summary>
+    
+      <category term="Ambiente" scheme="http://woliveiras.com.br/tags/Ambiente/"/>
+    
+      <category term="Dicas" scheme="http://woliveiras.com.br/tags/Dicas/"/>
+    
+      <category term="Extensões" scheme="http://woliveiras.com.br/tags/Extensoes/"/>
+    
+      <category term="Navegador" scheme="http://woliveiras.com.br/tags/Navegador/"/>
+    
+      <category term="Ambiente" scheme="http://woliveiras.com.br/categories/Ambiente/"/>
+    
+      <category term="Dicas" scheme="http://woliveiras.com.br/categories/Ambiente/Dicas/"/>
+    
+      <category term="Front End" scheme="http://woliveiras.com.br/categories/Ambiente/Dicas/Front-End/"/>
+    
+  </entry>
+  
+  <entry>
+    <title><![CDATA[Desenvolvedor Front End Iniciante: Trilha/Guia de estudos]]></title>
+    <link href="http://woliveiras.com.br/posts/guia-de-estudos-desenvolvedor-front-end-iniciante/"/>
+    <id>http://woliveiras.com.br/posts/guia-de-estudos-desenvolvedor-front-end-iniciante/</id>
+    <published>2014-08-18T15:06:23.000Z</published>
+    <updated>2015-08-07T11:08:43.068Z</updated>
+    <content type="html"><![CDATA[<p>Muitos iniciantes se perdem ao procurar o que aprender para iniciar a carreira como Front End(Ainda mais com 1 bilhão de ferramentas aparecendo e sumindo todo dia). Pois bem, eu montei essa trilha de estudos para me organizar melhor. Então, se você também está procurando conteúdo para aprender sobre Front End é só coletar as coisas que acha importante e bora estudar!</p>
+<a id="more"></a>
+<h2 id="O_guia_de_estudos_para_o_Desenvolvedor_Front_End">O guia de estudos para o Desenvolvedor Front End</h2><p>Encontrei, a um tempo atrás, um excelente artigo que está sendo essencial para meus estudos, virou uma trilha de estudos pra mim, que não sabia por onde começar ou o que fazer. O artigo foi <a href="http://leandrooriente.com/como-me-tornar-um-desenvolvedor-front-end/" title="Como me tornar um Desenvolvedor Front End" target="_blank" rel="external">esse aqui</a>  do Leandro Oriente.<br>O artigo lá é completaaaasso e aqui vou deixar só um pouco da minha experiência em busca do conhecimento por ele proposto.</p>
+<h4 id="Cursos">Cursos</h4><p>Vale a pena investir em cursos presenciais ou vídeo aulas, porém eu curto mais vídeo aulas! Tem muito conteúdo gratuito na internet, seja no Youtube ou sites sobre o assunto. Eu só invisto em curso pago se, realmente, não tiver conteúdo bom de graça (Não sou pão duro, é que ainda não sou rico e pra ficar rico tem de economizar… ;P). Porém, se você não encontrou conteúdo bom free, vão alguns nomes pagos que eu conheço e são muito bons:</p>
+<p><a href="http://alura.com.br" title="Alura" target="_blank" rel="external">alura.com.br</a> (Da Caelum)</p>
+<p><a href="http://code-squad.com" title="Code Squad" target="_blank" rel="external">code-squad.com</a></p>
+<p><a href="http://campus.tableless.com.br/" title="Tableless" target="_blank" rel="external">campus.tableless.com.br/</a></p>
+<h4 id="HTML_e_CSS">HTML e CSS</h4><p>Eu já sabia HTML e CSS desde 2010, então só fiz uma atualização pro HTML5  e CSS3:</p>
+<p><a href="http://design.blog.br/web-design/html5-em-15-minutos-2a-edicao" title="HTML5 em 15 minutos" target="_blank" rel="external">HTML5 em 15 minutos</a></p>
+<p><a href="http://cursoemvideo.com/course/curso-de-html5/" title="Curso em Vídeo" target="_blank" rel="external">cursoemvideo.com/course/curso-de-html5/</a></p>
+<p><a href="http://www.microsoftvirtualacademy.com/training-courses/90f7eb67-0c78-44b5-90b6-43bca793bb14" title="Introdução rápida ao desenvolvimento em HTML5 com JavaScript e CSS3" target="_blank" rel="external">Introdução rápida ao desenvolvimento em HTML5 com JavaScript e CSS3</a></p>
+<h4 id="Lógica_de_Programação">Lógica de Programação</h4><p>Base pra você conseguir programar, se você não sabe lógica eu recomendo o curso da <a href="http://www.softblue.com.br/site/curso/id/6/CURSO+LOGICA_DE_PROGRAMACAO_BASICO_ON_LINE_LO06" title="Lógica de Programação - Softblue" target="_blank" rel="external">Softblue de Lógica de Programação</a>(E no site deles também tem um curso completão <a href="http://www.softblue.com.br/site/curso/id/3/CURSO+SQL_COMPLETO_BASICO_AO_AVANCADO_ON_LINE_BD03" title="SQL - Softblue" target="_blank" rel="external">sobre SQL</a>). Fora isso, seria maneiro baixar a apostila de lógica do site da <a href="https://www.caelum.com.br" title="Caelum" target="_blank" rel="external">Caelum</a>.</p>
+<h4 id="Javascript">Javascript</h4><p>Confesso que no começo eu não gostava muito desse barato não, mas com o tempo acabei curtindo e estou até me aprofundando mais pra tentar gostar(Não é igual Python né, mas…):</p>
+<p><a href="https://www.codeschool.com/" title="Code School" target="_blank" rel="external">www.codeschool.com/</a></p>
+<p><a href="http://www.codecademy.com/" title="Code Academy" target="_blank" rel="external">www.codecademy.com/</a></p>
+<h4 id="Depuração">Depuração</h4><p>Quem trabalha com Front tem que usar o Browser como seu depurador, é nele que você vai descobrir os erros de JS, CSS e é com ele que você acessa os sites que curte e analisa o código fonte para aprender a técnica que usaram para aquela determinada funcionalidade que você curtiu.<br>É só você clicar lá em ferramentas, no seu navegador, e localizar as ferramentas do desenvolvedor ou algo do tipo. (No Chrome e no Firefox pressione F12).</p>
+<p><a href="https://www.youtube.com/playlist?list=PLOU2XLYxmsILUKyjDYUVYLeq7yyTxM_3d" title="Segredos do Chrome DevTools" target="_blank" rel="external">Dicas do Zeno Rocha para quem usa o Chrome.</a></p>
+<h4 id="Software_de_Edição_de_Imagens">Software de Edição de Imagens</h4><p>Você não precisa dominar dos efeitos ou das artes ocultas do Photoshop, por exemplo, mas você precisa saber pegar medidas, cores, recortar uma imagem aqui, um logo ali…</p>
+<h4 id="Noções_de_outras_áreas">Noções de outras áreas</h4><p>No artigo do Leandro ele diz que é necessário conhecer outras áreas e <strong>eu concordo plenamente</strong> com isso. Você precisa entender como as outras áreas funcionam para não atrapalhar ou não se perder na sua própria aplicação.<br>Com esses Skills já dá pra conseguir alguma coisa. Procure fazer uns trampos para pessoas conhecidas só pra desenvolver suas habilidades e aprender um pouco mais.<br>Depois dessas habilidades será necessário se aprofundar mais e estudar o seguinte:</p>
+<p><a href="http://leandrooriente.com/como-me-tornar-um-desenvolvedor-front-end/#perfomance" title="Performance" target="_blank" rel="external">Performance</a>, <a href="http://leandrooriente.com/como-me-tornar-um-desenvolvedor-front-end/#seo" title="SEO" target="_blank" rel="external">SEO</a>, <a href="http://leandrooriente.com/como-me-tornar-um-desenvolvedor-front-end/#oocss-e-pr-compiladores" title="Pré Compiladores" target="_blank" rel="external">Compiladores CSS</a>, <a href="End%20http://leandrooriente.com/como-me-tornar-um-desenvolvedor-front-end/#conhecimento-regular-em-algumas-linguagemns-server-side" title="Linguagem Back End">Conhecer alguma linguagem Back End</a>, <a href="http://leandrooriente.com/como-me-tornar-um-desenvolvedor-front-end/#magias-negras-em-javascript" title="Ninja em JS" target="_blank" rel="external">Virar ninja em JS</a> e…</p>
+<p>Claro que sempre tem algo a mais que você vai precisar aprender, mas tudo no seu tempo. Cuidado para não tentar aprender tudo de uma vez e acabar como eu em 2012, não aprendi quase nada – Depoimento de um menino que tentou aprender programação em 10 dias e quebrou a cara.<br>Curtiu?<br>Deixa seu comentário e se tiver alguma dica para me ajudar e a quem leu esse post, deixa ai também! Valeu!</p>
+]]></content>
+    <summary type="html">
+    <![CDATA[<p>Muitos iniciantes se perdem ao procurar o que aprender para iniciar a carreira como Front End(Ainda mais com 1 bilhão de ferramentas aparecendo e sumindo todo dia). Pois bem, eu montei essa trilha de estudos para me organizar melhor. Então, se você também está procurando conteúdo para aprender sobre Front End é só coletar as coisas que acha importante e bora estudar!</p>]]>
+    
+    </summary>
+    
+      <category term="Carreira" scheme="http://woliveiras.com.br/categories/Carreira/"/>
+    
+      <category term="CSS" scheme="http://woliveiras.com.br/categories/Carreira/CSS/"/>
+    
+      <category term="Dicas" scheme="http://woliveiras.com.br/categories/Carreira/CSS/Dicas/"/>
+    
+      <category term="Front End" scheme="http://woliveiras.com.br/categories/Carreira/CSS/Dicas/Front-End/"/>
+    
+      <category term="HTML" scheme="http://woliveiras.com.br/categories/Carreira/CSS/Dicas/Front-End/HTML/"/>
+    
+      <category term="Javascript" scheme="http://woliveiras.com.br/categories/Carreira/CSS/Dicas/Front-End/HTML/Javascript/"/>
     
   </entry>
   

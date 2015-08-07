@@ -634,7 +634,7 @@ a.article-title:hover {
 }
 .article-entry img,
 .article-entry video {
-  max-width: 250px;
+  max-width: 800px;
   height: auto;
   display: block;
   margin: auto;
@@ -707,6 +707,9 @@ a.article-title:hover {
   width: 100%;
   height: 100%;
   margin-top: 0;
+}
+.shared-img img {
+  max-width: 200px;
 }
 .article-more-link a {
   display: inline-block;
