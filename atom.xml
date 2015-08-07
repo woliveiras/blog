@@ -5,7 +5,7 @@
   <subtitle><![CDATA[Desenvolvedor Front End]]></subtitle>
   <link href="/atom.xml" rel="self"/>
   <link href="http://woliveiras.com.br//"/>
-  <updated>2015-08-06T11:01:16.572Z</updated>
+  <updated>2015-08-07T00:28:31.592Z</updated>
   <id>http://woliveiras.com.br//</id>
   
   <author>
@@ -16,15 +16,15 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
-    <title><![CDATA[Migrando de Wordpress para Hexo]]></title>
-    <link href="http://woliveiras.com.br/posts/Migrando-de-Wordpress-para-Hexo/"/>
-    <id>http://woliveiras.com.br/posts/Migrando-de-Wordpress-para-Hexo/</id>
+    <title><![CDATA[Migrando de WordPress Para Hexo]]></title>
+    <link href="http://woliveiras.com.br/posts/Migrando-de-Wordpress-Para-Hexo/"/>
+    <id>http://woliveiras.com.br/posts/Migrando-de-Wordpress-Para-Hexo/</id>
     <published>2015-08-05T02:53:41.000Z</published>
-    <updated>2015-08-06T11:01:16.572Z</updated>
-    <content type="html"><![CDATA[<p><img src="../../public/images/hexo-logo.png" alt="Hexo Blog"><br>A um bom tempo sinto vontade de mudar meu Blog de Wordpress para uma plataforma de  conteúdo estático, mas não achava nenhuma alternativa, pois que queria usar Nodejs. Por isso não fui para o, muito usado na comunidade, <a href="http://jekyllrb.com/" target="_blank" rel="external">Jekyll(Ruby)</a> , nem para o <a href="http://blog.getpelican.com/" target="_blank" rel="external">Pelican(Python &lt;3)</a>.<a id="more"></a><br>Em busca de uma alternativa encontrei o <a href="https://hexo.io" target="_blank" rel="external">Hexo</a> e, um pouco depois de eu conhecer essa plataforma, o <a href="http://blog.da2k.com.br/" target="_blank" rel="external">Daciuk</a> escreveu um <a href="http://blog.da2k.com.br/2014/01/05/hexo-criando-um-blog-ao-estilo-miojo/" target="_blank" rel="external">post</a> muito maneiro incentivando o seu uso. Foi então que eu decidi de vez usar essa plataforma!<br>Bora conhecer ela e como foi a migração de Wordpress para Hexo?</p>
+    <updated>2015-08-07T00:28:31.592Z</updated>
+    <content type="html"><![CDATA[<p><img src="../../public/images/hexo-logo.png" alt="Hexo Blog"><br>A um bom tempo sinto vontade de mudar meu Blog de Wordpress para uma plataforma de  conteúdo estático, mas não achava nenhuma alternativa, pois que queria usar Nodejs. Por isso não fui para o, muito usado na comunidade, <a href="http://jekyllrb.com/" target="_blank" rel="external">Jekyll(Ruby)</a> , nem para o <a href="http://blog.getpelican.com/" target="_blank" rel="external">Pelican(Python &lt;3)</a>.<a id="more"></a><br>Em busca de uma alternativa encontrei o <a href="https://hexo.io" target="_blank" rel="external">Hexo</a> e, um pouco depois de eu conhecer essa plataforma, o <a href="http://blog.da2k.com.br/" target="_blank" rel="external">Daciuk</a> escreveu um <a href="http://blog.da2k.com.br/2014/01/05/hexo-criando-um-blog-ao-estilo-miojo/" target="_blank" rel="external">post</a> muito maneiro incentivando o seu uso. Foi então que eu decidi de vez usar essa plataforma!<br>Bora conhecer ela e como foi a migração de WordPress para Hexo?</p>
 <h3 id="Levantando_as_necessidades">Levantando as necessidades</h3><p>Antes de migrar nosso Blog(Ou o de um cliente) de uma plataforma para outra precisamos fazer um levantamento para que não tenha impacto negativo como perder os posts que já existem ou alguma funcionalidade importante aos leitores.<br>Minha primeira preocupação foi com os posts que eu já havia escrito, mas no próprio site do Hexo temos uma <a href="https://hexo.io/docs/migration.html" target="_blank" rel="external">solução para isso</a>.<br>As dicas sobre instalação do Hexo você encontra no Blog do <a href="http://blog.da2k.com.br/2014/01/05/hexo-criando-um-blog-ao-estilo-miojo/" target="_blank" rel="external">Daciuk</a> e no Blog do <a href="http://dwoond.github.io/Criando-seu-site-com-Hexo/" target="_blank" rel="external">Willian Santos</a>.</p>
 <h3 id="Como_escrever_os_posts">Como escrever os posts</h3><p>Os posts no Hexo funcionam como em qualquer outro gerador estático. Escrevemos em Markdown e a postagem é gerada em HTML.<br>Markdown não é difícil e podemos usar algumas ferramentas boas que auxiliam nisso como o <a href="http://pad.haroopress.com/" target="_blank" rel="external">Haroopad</a> ou o <a href="https://stackedit.io/editor#" target="_blank" rel="external">Stackedit</a>, mas o Hexo também tem uma espécie de wp-admin, basta instalar o <a href="https://github.com/jaredly/hexo-admin" target="_blank" rel="external">Hexo Admin</a> se você sente necessidade.</p>
-<h3 id="Migrando_os_posts_do_Wordpress_para_o_Hexo">Migrando os posts do Wordpress para o Hexo</h3><p>Basta instalar o plugin <strong>hexo-migrator-wordpress</strong> com o comando:</p>
+<h3 id="Migrando_os_posts_do_WordPress_para_o_Hexo">Migrando os posts do WordPress para o Hexo</h3><p>Basta instalar o plugin <strong>hexo-migrator-wordpress</strong> com o comando:</p>
 <figure class="highlight stylus"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">npm <span class="tag">i</span> hexo-migrator-wordpress --save</span><br></pre></td></tr></table></figure>
 <p><em>Obs: Lembre-se de rodar esses comandos dentro da pasta do seu blog em Hexo.</em></p>
 <p>Agora você precisa entrar no <strong>Admin</strong> do seu Wordpress e seguir os passos:</p>
