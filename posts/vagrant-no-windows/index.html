@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  
+  <title>Vagrant no Windows com Putty | William Oliveira</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  <meta name="description" content="Usando o Putty para acessar ambientes VagrantApós a instalação do Vagrant, precisamos acessar a máquina virtual com SSH. Nos ambientes Linux/Mac é facinho, basta rodar ssh usuario@porta, mas no Window">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Vagrant no Windows com Putty">
+<meta property="og:url" content="http://woliveiras.com.br/posts/vagrant-no-windows/index.html">
+<meta property="og:site_name" content="William Oliveira">
+<meta property="og:description" content="Usando o Putty para acessar ambientes VagrantApós a instalação do Vagrant, precisamos acessar a máquina virtual com SSH. Nos ambientes Linux/Mac é facinho, basta rodar ssh usuario@porta, mas no Window">
+<meta property="og:image" content="http://woliveiras.com.br/../../public/images/puttygen.png">
+<meta property="og:image" content="http://woliveiras.com.br/../../public/images/load-ssh.png">
+<meta property="og:image" content="http://woliveiras.com.br/../../public/images/salvando-a-chave-ssh.png">
+<meta property="og:image" content="http://woliveiras.com.br/../../public/images/vagrant-ppk.png">
+<meta property="og:image" content="http://woliveiras.com.br/../../public/images/acessando-ssh-com-putty.png">
+<meta property="og:image" content="http://woliveiras.com.br/../../public/images/carregando-a-chave-ppk-putty.png">
+<meta property="og:image" content="http://woliveiras.com.br/../../public/images/primeiro-acesso-ssh-putty.png">
+<meta property="og:updated_time" content="2015-08-10T11:13:28.479Z">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="Vagrant no Windows com Putty">
+<meta name="twitter:description" content="Usando o Putty para acessar ambientes VagrantApós a instalação do Vagrant, precisamos acessar a máquina virtual com SSH. Nos ambientes Linux/Mac é facinho, basta rodar ssh usuario@porta, mas no Window">
+<meta name="twitter:creator" content="@w_oliveiras">
+  
+    <link rel="alternative" href="/atom.xml" title="William Oliveira" type="application/atom+xml">
+  
+  
+    <link rel="icon" href="img/favicon.png">
+  
+  <link href="//fonts.googleapis.com/css?family=Source+Code+Pro" rel="stylesheet" type="text/css">
+  <link rel="stylesheet" href="/css/style.css" type="text/css">
+  
+
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-25964646-1', 'auto');
+  ga('send', 'pageview');
+
+</script>
+
+<!-- End Google Analytics -->
+
+
+  <link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+</head>
+<body>
+  <div id="container">
+    <div id="wrap">
+      <header id="header">
+  <div id="header-outer" class="outer">
+    <div id="header-inner" class="inner">
+      <ul class="navigation">
+        <li id="main-nav">
+          <a id="main-nav-toggle" class="nav-icon"></a>
+          
+            <a class="main-nav-link" href="/">Home</a>
+          
+            <a class="main-nav-link" href="/about">Contato</a>
+          
+        </li>
+        <li id="sub-nav">
+          
+            <a id="nav-rss-link" class="nav-icon" href="/atom.xml" title="RSS Feed"></a>
+          
+          <a id="nav-search-btn" class="nav-icon" title="Search"></a>
+        </li>
+        <li id="search-form-wrap">
+          <form action="//google.com/search" method="get" accept-charset="UTF-8" class="search-form"><input type="search" name="q" results="0" class="search-form-input" placeholder="Search"><button type="submit" class="search-form-submit">&#xF002;</button><input type="hidden" name="sitesearch" value="http://woliveiras.com.br"></form>
+        </li>
+      </ul>
+    </div>
+    <div id="header-title" class="inner">
+      <h1 id="logo-wrap">
+        <a href="/" id="title">William Oliveira</a>
+      </h1>
+      
+        <h2 id="subtitle-wrap">
+          <a href="/" id="subtitle">Desenvolvedor Front End</a>
+        </h2>
+      
+    </div>
+  </div>
+</header>
+
+      <div class="outer">
+        <section id="main"><article id="post-vagrant-no-windows" class="article article-type-post" itemscope itemprop="blogPost">
+  <div class="article-inner">
+    
+    
+      <header class="article-header">
+        
+  
+    <h1 class="article-title" itemprop="name">
+      Vagrant no Windows com Putty
+    </h1>
+  
+
+      </header>
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+        <h2 id="Usando_o_Putty_para_acessar_ambientes_Vagrant">Usando o Putty para acessar ambientes Vagrant</h2><p>Após a <a href="/posts/instalacao-vagrant/ &quot;Crie e compartilhe ambientes com o Vagrant (Instalação">instalação do Vagrant</a>, precisamos acessar a máquina virtual com SSH. Nos ambientes Linux/Mac é facinho, basta rodar ssh usuario@porta, mas no Windows é um pouco diferente…<br>No Windows precisamos de um programa bem útil chamado Putty.<a id="more"></a></p>
+<h2 id="Obtendo_e_configurando_o_Putty">Obtendo e configurando o Putty</h2><p>Acesse o <a href="http://www.putty.org/" title="Putty" target="_blank" rel="external">site do Putty</a>, baixe o <strong>putty.exe</strong> e o <strong>puttygen.exe</strong>.</p>
+<p>Execute o <strong>Puttygen</strong></p>
+<p><img src="../../public/images/puttygen.png" alt="Puttygen"></p>
+<p>Clique em “<strong>Load</strong>”, selecione o arquivo <strong>C:/Users/&lt;usuário&gt;/.vagrant.d/insecure_private_key</strong> e clique em “<strong>Abrir</strong>”</p>
+<p><img src="../../public/images/load-ssh.png" alt="Load"></p>
+<p>Uma mensagem de confirmação surgirá, pode clicar no <strong>OK</strong>.<br>Clique em “<strong>save private key</strong>” e, na tela que surgir, clique no sim.</p>
+<p><img src="../../public/images/salvando-a-chave-ssh.png" alt="Save a privatekey"></p>
+<p>No mesmo diretório do arquivo “<strong>insecure_private_key</strong>”(C:/Users/&lt;usuário&gt;/.vagrant.d/) salve este arquivo com o nome “<strong>vagrant.ppk</strong>”</p>
+<p><img src="../../public/images/vagrant-ppk.png" alt="vagrant.ppk"></p>
+<p>Após subir a máquina virtual, então surgirá um endereço de IP do servidor para acesso via ssh, provavelmente esse: <strong>127.0.0.1:2222</strong>, então seria essa a configuração no Putty:</p>
+<p><img src="../../public/images/acessando-ssh-com-putty.png" alt="Acessar ssh"></p>
+<p>Deixe um nome de sua preferência em <strong>Saved Sessions</strong>, igual onde está escrito <strong>lucid32-vagrant</strong> na imagem, para poder salvar a sessão e não precisar configurar tudo de novo toda vez que for utilizar.<br>No canto esquerdo clique na seção “<strong>Connection &gt; SSH &gt; Auth</strong>”. Clique no botão “<strong>Browse</strong>” e selecione o arquivo “<strong>vagrant.ppk</strong>”. Se você seguiu todas as instruções corretamente, ele deve ter sido salvo em <strong>C:/Users/&lt;seu usuário&gt;/.vagrant.d/vagrant.ppk</strong>.</p>
+<p><img src="../../public/images/carregando-a-chave-ppk-putty.png" alt="Configuração do Putty"></p>
+<p>Volte até a seção “<strong>Session</strong>”, digite um nome no campo “<strong>Saved Sessions</strong>” e clique no botão “<strong>Save</strong>” para salvar essas configurações.<br>Agora é só clicar em “<strong>Open</strong>” e vai aparecer uma janela assim:</p>
+<p><img src="../../public/images/primeiro-acesso-ssh-putty.png" alt="Primeiro acesso"></p>
+<p>Pode clicar no “Yes” sem medo.<br>Pronto!<br>Agora pode usar seu servidor, instalar e configurar conforme necessário.</p>
+<p>Referência: <a href="http://simplesideias.com.br/usando-o-vagrant-como-ambiente-de-desenvolvimento-no-windows" target="_blank" rel="external">http://simplesideias.com.br/usando-o-vagrant-como-ambiente-de-desenvolvimento-no-windows</a></p>
+<p>Caso não tenha entendido algo, estou a disposição, só me chamar! ;D</p>
+
+      
+    </div>
+    <footer class="article-footer">
+      <a data-url="http://woliveiras.com.br/posts/vagrant-no-windows/" data-id="cid5uduow0002p9vvt7jx8rlf" class="article-share-link">Share</a>
+      
+        <a href="http://woliveiras.com.br/posts/vagrant-no-windows/#disqus_thread" class="article-comment-link">Comentários</a>
+      
+      
+  <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/Ambiente/">Ambiente</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/Vagrant/">Vagrant</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/Virtualizacao/">Virtualização</a></li></ul>
+
+    </footer>
+  </div>
+  
+    
+<nav id="article-nav">
+  
+    <a href="/posts/guia-de-estudos-desenvolvedor-front-end-iniciante/" id="article-nav-newer" class="article-nav-link-wrap">
+      <strong class="article-nav-caption">Póximo</strong>
+      <div class="article-nav-title">
+        
+          Desenvolvedor Front End Iniciante: Trilha/Guia de estudos
+        
+      </div>
+    </a>
+  
+  
+    <a href="/posts/configurar-vagrant/" id="article-nav-older" class="article-nav-link-wrap">
+      <strong class="article-nav-caption">Anterior</strong>
+      <div class="article-nav-title">Vagrant - Como configurar e utilizar</div>
+    </a>
+  
+</nav>
+
+
+  
+</article>
+
+
+<section id="comments">
+  <div id="disqus_thread">
+    <noscript>Please enable JavaScript to view the <a href="//disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+  </div>
+</section>
+
+</section><!--
+         -->
+      </div>
+      <footer id="footer">
+  
+  <div id="footer-info">
+    <div class="outer">
+      &copy; 2015 William de Oliveira Powered by <a href="http://hexo.io/" target="_blank">Hexo</a>
+    </div>
+  </div>
+</footer>
+    </div>
+    <nav id="mobile-nav">
+  
+    <a href="/" class="mobile-nav-link">Home</a>
+  
+    <a href="/about" class="mobile-nav-link">Contato</a>
+  
+</nav>
+    
+<script>
+  var disqus_shortname = 'woliveiras';
+  
+  var disqus_url = 'http://woliveiras.com.br/posts/vagrant-no-windows/';
+  
+  (function(){
+    var dsq = document.createElement('script');
+    dsq.type = 'text/javascript';
+    dsq.async = true;
+    dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+    (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+  })();
+</script>
+
+
+<script src="//ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
+
+
+  <link rel="stylesheet" href="/fancybox/jquery.fancybox.css" type="text/css">
+  <script src="/fancybox/jquery.fancybox.pack.js" type="text/javascript"></script>
+
+
+<script src="/js/script.js" type="text/javascript"></script>
+
+  </div>
+</body>
+</html>

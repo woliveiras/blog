@@ -411,6 +411,78 @@
   </entry>
   
   <entry>
+    <title><![CDATA[Criar uma base box para o Vagrant]]></title>
+    <link href="http://woliveiras.com.br/posts/criar-uma-base-box-para-o-vagrant/"/>
+    <id>http://woliveiras.com.br/posts/criar-uma-base-box-para-o-vagrant/</id>
+    <published>2014-08-21T17:17:27.000Z</published>
+    <updated>2015-08-10T11:12:51.014Z</updated>
+    <content type="html"><![CDATA[<p>Conforme vai usando o <a href="/tags/Vagrant/">Vagrant</a> surje a necessidade de se ter sua própria Base Box para poder compartilhar o <em>seu</em> ambiente de desenvolvimento ou mesmo para provisionar um ambiente virtual.<a id="more"></a><br>Se você é gestor ou líder, provavelmente precisa que algum funcionário novo tenha seu ambiente de desenvolvimento configurado rápidamente e para isso também vai precisar de sua própria Base Box.<br>Fazer isso não é dicífil, vamos ao passo a passo:</p>
+<p><strong>Configurações importantes no VBox</strong></p>
+<p>OBS: A quantidade de memória fica a seu critério escolher quanto vai. Eu deixei 512 simplesmente por não precisar mais que isso para os testes.<br>Para o tipo de disco rígido tem de ser <strong>VMDK</strong></p>
+<p><img src="../../public/images/disco-virtualbox-vagrant.png" alt="Configurações de disco no VBOX"></p>
+<p>Deixe dinamicamente alocado para que a VM não acabe com o seu espaço em disco logo de cara. Se tiver um HD de 1 Tera no hospedeiro(Servidor ou seu PC) e colocar o HD Virtual de 500GB sem ser dinamicamente alocado, logo de cara vai perder 500 GB do seu HD. Se for dinamicamente alocado ele vai consumindo espaço conforme vai precisando.<br>A configuração de rede deve ficar como NAT.</p>
+<p><img src="../../public/images/rede-virtualbox-vagrant.png" alt="Configurações de Rede VBox"></p>
+<p>Carregue o S.O. normalmente e instale conforme suas necessidades. Porém, por convenção, usuário e senha devem ser <strong>vagrant</strong>.</p>
+<p><strong>Configurando um servidor Ubuntu como VM</strong></p>
+<p>Instale o <strong>VBox Guest Additions</strong> na VM.</p>
+<figure class="highlight sql"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">$ sudo apt-get <span class="operator"><span class="keyword">install</span> -y build-essential linux-headers-<span class="keyword">server</span></span><br><span class="line"></span><br><span class="line">$ sudo apt-<span class="keyword">get</span> <span class="keyword">install</span> dkms</span></span><br></pre></td></tr></table></figure>
+<p>“Coloque o CD do Guest Additions”</p>
+<p><img src="../../public/images/guest-additions-vagrant.png" alt="Inserindo VBox Additions"></p>
+<p>Em seguida execute:</p>
+<figure class="highlight gradle"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">$ sudo mount <span class="regexp">/dev/</span>cdrom <span class="regexp">/media/</span>cdrom</span><br><span class="line"></span><br><span class="line">$ sudo <span class="regexp">/media/</span>cdrom<span class="regexp">/VBoxLinuxAdditions.run</span></span><br></pre></td></tr></table></figure>
+<p>Atualize o S.O.</p>
+<figure class="highlight q"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ sudo apt-<span class="built_in">get</span> <span class="keyword">update</span> &amp;amp;&amp;amp; sudo apt-<span class="built_in">get</span> –y upgrade</span><br></pre></td></tr></table></figure>
+<p>Adicione o usuário Vagrant ao grupo sudoers</p>
+<figure class="highlight elixir"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="variable">$ </span>sudo su -</span><br><span class="line"></span><br><span class="line"><span class="variable">$ </span>visudo</span><br></pre></td></tr></table></figure>
+<p>Vai abrir um arquivo no Terminal, no final do arquivo, adicione a seguinte linha:</p>
+<figure class="highlight apache"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">vagrant</span> <span class="literal">ALL</span>=(<span class="literal">ALL</span>)  NOPASSWD:<span class="literal">ALL</span></span><br></pre></td></tr></table></figure>
+<p>Instalando uma chave pública</p>
+<figure class="highlight elixir"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><span class="line"><span class="variable">$ </span>mkdir -p /home/vagrant/.ssh</span><br><span class="line"></span><br><span class="line"><span class="variable">$ </span>wget --no-check-certificate <span class="symbol">https:</span>/<span class="regexp">/raw.github.com/mitchellh</span><span class="regexp">/vagrant/master</span><span class="regexp">/keys/vagrant</span>.pub -<span class="constant">O </span>/home/vagrant/.ssh/authorized_keys</span><br><span class="line"></span><br><span class="line"><span class="variable">$ </span>chmod <span class="number">0700</span> /home/vagrant/.ssh</span><br><span class="line"></span><br><span class="line"><span class="variable">$ </span>chmod <span class="number">0600</span> /home/vagrant/.ssh/authorized_keys</span><br><span class="line"></span><br><span class="line"><span class="variable">$ </span>chown -<span class="constant">R </span>vagrant  /home/vagrant/.ssh</span><br></pre></td></tr></table></figure>
+<p>Instalar e configurar o Servidor OpenSSH</p>
+<figure class="highlight elixir"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="variable">$ </span>sudo apt-get install -y openssh-server</span><br><span class="line"></span><br><span class="line"><span class="variable">$ </span>sudo vi /etc/ssh/sshd_config</span><br></pre></td></tr></table></figure>
+<p>Localize no documento as seguintes configurações  deixe conforme esse exemplo:</p>
+<figure class="highlight nginx"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line"><span class="title">Port</span> <span class="number">22</span></span><br><span class="line"></span><br><span class="line">PubKeyAuthentication <span class="built_in">yes</span></span><br><span class="line"></span><br><span class="line">AuthorizedKeysFile %h/.ssh/authorized_keys</span><br><span class="line"></span><br><span class="line">PermitEmptyPasswords <span class="built_in">no</span></span><br></pre></td></tr></table></figure>
+<p>Salve e feche o arquivo e, então, reinicie o serviço de SSH</p>
+<figure class="highlight puppet"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ sudo <span class="keyword">service</span> ssh <span class="literal">restart</span></span><br></pre></td></tr></table></figure>
+<p>Desligue a máquina virtual.</p>
+<p>Elimine tudo o que sua máquina não irá precisar - Audio, USB, etc. Deixe somente o necessário.</p>
+<p>Agora é só gerar o Box com os comandos:</p>
+<figure class="highlight cs"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ vagrant package –-<span class="keyword">base</span> [Aqui vai o nome da sua máquina <span class="keyword">virtual</span> no VBox]</span><br></pre></td></tr></table></figure>
+<p>Ex.:</p>
+<p>Máquina Virtual:</p>
+<p><img src="../../public/images/nome-base-box-vagrant.png" alt="Nome da VM"></p>
+<p>Comando para exportar:</p>
+<figure class="highlight actionscript"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ vagrant <span class="package"><span class="keyword">package</span> –-<span class="title">base</span> <span class="title">ubuntinho</span></span></span><br></pre></td></tr></table></figure>
+<p>Então execute no seu próprio computador/servidor:</p>
+<figure class="highlight actionscript"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ vagrant <span class="package"><span class="keyword">package</span> –-<span class="title">base</span> <span class="title">ubuntinho</span></span></span><br></pre></td></tr></table></figure>
+<p>Será criado um arquivo package.box no diretório onde você rodou o comando - Ex: Se no seu terminal está assim: usuario@host:/home, o arquivo será gerado na pasta home, se for no Windows e estiver assim: C:\Users\Seu Usuário, será criado na pasta do seu usuário.</p>
+<p><strong>Agora uma dica bonus! </strong></p>
+<p>O Luís Henrique do Grupo <a href="https://www.facebook.com/groups/WebDesignBR/" title="Grupo Web Design Brasil" target="_blank" rel="external">Web Design Brasil</a> no Facebook, me apresentou uma outra facilidade para configuração da box no Vagrant, o <a href="https://puphpet.com/" title="PuPHPet" target="_blank" rel="external">PuPHPet</a>, um site onde você vai escolhendo as configurações que você deseja para seu servidor e ele gera um arquivo de configurações do Puppet pra você - Tudo no automático, olha que maravilha.<br>Tem, também, um outro que eu já uso que é o <a href="http://rove.io/" title="Rove.io" target="_blank" rel="external">Rove</a>, porém esse gera a configuração para o Chef.<br>Com esses arquivos de configuração em mãos, é só deixá-los na pasta do projeto onde você vai subir o ambiente e rodar o vagrant up. Pronto! Tudo no esquema pra você começar a desenvolver.</p>
+<p>Referências:</p>
+<p><a href="https://docs.vagrantup.com/v2/boxes/base.html" target="_blank" rel="external">https://docs.vagrantup.com/v2/boxes/base.html</a></p>
+<p><a href="http://aruizca.com/steps-to-create-a-vagrant-base-box-with-ubuntu-14-04-desktop-gui-and-virtualbox/" target="_blank" rel="external">http://aruizca.com/steps-to-create-a-vagrant-base-box-with-ubuntu-14-04-desktop-gui-and-virtualbox/</a></p>
+<p>Se você curtiu a dica, compartilha, se ficou com alguma dúvida, estou a disposição, pode deixar sua dúvida nos comentários.</p>
+]]></content>
+    <summary type="html">
+    <![CDATA[<p>Conforme vai usando o <a href="/tags/Vagrant/">Vagrant</a> surje a necessidade de se ter sua própria Base Box para poder compartilhar o <em>seu</em> ambiente de desenvolvimento ou mesmo para provisionar um ambiente virtual.]]>
+    
+    </summary>
+    
+      <category term="Ambiente" scheme="http://woliveiras.com.br/tags/Ambiente/"/>
+    
+      <category term="Vagrant" scheme="http://woliveiras.com.br/tags/Vagrant/"/>
+    
+      <category term="Virtualização" scheme="http://woliveiras.com.br/tags/Virtualizacao/"/>
+    
+      <category term="Ambiente" scheme="http://woliveiras.com.br/categories/Ambiente/"/>
+    
+      <category term="Vagrant" scheme="http://woliveiras.com.br/categories/Ambiente/Vagrant/"/>
+    
+      <category term="Virtualização" scheme="http://woliveiras.com.br/categories/Ambiente/Vagrant/Virtualizacao/"/>
+    
+  </entry>
+  
+  <entry>
     <title><![CDATA[Desenvolvedor Front End Iniciante: Trilha/Guia de estudos]]></title>
     <link href="http://woliveiras.com.br/posts/guia-de-estudos-desenvolvedor-front-end-iniciante/"/>
     <id>http://woliveiras.com.br/posts/guia-de-estudos-desenvolvedor-front-end-iniciante/</id>
@@ -454,6 +526,174 @@
       <category term="HTML" scheme="http://woliveiras.com.br/categories/Carreira/CSS/Dicas/Front-End/HTML/"/>
     
       <category term="Javascript" scheme="http://woliveiras.com.br/categories/Carreira/CSS/Dicas/Front-End/HTML/Javascript/"/>
+    
+  </entry>
+  
+  <entry>
+    <title><![CDATA[Vagrant no Windows com Putty]]></title>
+    <link href="http://woliveiras.com.br/posts/vagrant-no-windows/"/>
+    <id>http://woliveiras.com.br/posts/vagrant-no-windows/</id>
+    <published>2014-08-17T19:42:14.000Z</published>
+    <updated>2015-08-10T11:13:28.479Z</updated>
+    <content type="html"><![CDATA[<h2 id="Usando_o_Putty_para_acessar_ambientes_Vagrant">Usando o Putty para acessar ambientes Vagrant</h2><p>Após a <a href="/posts/instalacao-vagrant/ &quot;Crie e compartilhe ambientes com o Vagrant (Instalação">instalação do Vagrant</a>, precisamos acessar a máquina virtual com SSH. Nos ambientes Linux/Mac é facinho, basta rodar ssh usuario@porta, mas no Windows é um pouco diferente…<br>No Windows precisamos de um programa bem útil chamado Putty.<a id="more"></a></p>
+<h2 id="Obtendo_e_configurando_o_Putty">Obtendo e configurando o Putty</h2><p>Acesse o <a href="http://www.putty.org/" title="Putty" target="_blank" rel="external">site do Putty</a>, baixe o <strong>putty.exe</strong> e o <strong>puttygen.exe</strong>.</p>
+<p>Execute o <strong>Puttygen</strong></p>
+<p><img src="../../public/images/puttygen.png" alt="Puttygen"></p>
+<p>Clique em “<strong>Load</strong>”, selecione o arquivo <strong>C:/Users/&lt;usuário&gt;/.vagrant.d/insecure_private_key</strong> e clique em “<strong>Abrir</strong>”</p>
+<p><img src="../../public/images/load-ssh.png" alt="Load"></p>
+<p>Uma mensagem de confirmação surgirá, pode clicar no <strong>OK</strong>.<br>Clique em “<strong>save private key</strong>” e, na tela que surgir, clique no sim.</p>
+<p><img src="../../public/images/salvando-a-chave-ssh.png" alt="Save a privatekey"></p>
+<p>No mesmo diretório do arquivo “<strong>insecure_private_key</strong>”(C:/Users/&lt;usuário&gt;/.vagrant.d/) salve este arquivo com o nome “<strong>vagrant.ppk</strong>”</p>
+<p><img src="../../public/images/vagrant-ppk.png" alt="vagrant.ppk"></p>
+<p>Após subir a máquina virtual, então surgirá um endereço de IP do servidor para acesso via ssh, provavelmente esse: <strong>127.0.0.1:2222</strong>, então seria essa a configuração no Putty:</p>
+<p><img src="../../public/images/acessando-ssh-com-putty.png" alt="Acessar ssh"></p>
+<p>Deixe um nome de sua preferência em <strong>Saved Sessions</strong>, igual onde está escrito <strong>lucid32-vagrant</strong> na imagem, para poder salvar a sessão e não precisar configurar tudo de novo toda vez que for utilizar.<br>No canto esquerdo clique na seção “<strong>Connection &gt; SSH &gt; Auth</strong>”. Clique no botão “<strong>Browse</strong>” e selecione o arquivo “<strong>vagrant.ppk</strong>”. Se você seguiu todas as instruções corretamente, ele deve ter sido salvo em <strong>C:/Users/&lt;seu usuário&gt;/.vagrant.d/vagrant.ppk</strong>.</p>
+<p><img src="../../public/images/carregando-a-chave-ppk-putty.png" alt="Configuração do Putty"></p>
+<p>Volte até a seção “<strong>Session</strong>”, digite um nome no campo “<strong>Saved Sessions</strong>” e clique no botão “<strong>Save</strong>” para salvar essas configurações.<br>Agora é só clicar em “<strong>Open</strong>” e vai aparecer uma janela assim:</p>
+<p><img src="../../public/images/primeiro-acesso-ssh-putty.png" alt="Primeiro acesso"></p>
+<p>Pode clicar no “Yes” sem medo.<br>Pronto!<br>Agora pode usar seu servidor, instalar e configurar conforme necessário.</p>
+<p>Referência: <a href="http://simplesideias.com.br/usando-o-vagrant-como-ambiente-de-desenvolvimento-no-windows" target="_blank" rel="external">http://simplesideias.com.br/usando-o-vagrant-como-ambiente-de-desenvolvimento-no-windows</a></p>
+<p>Caso não tenha entendido algo, estou a disposição, só me chamar! ;D</p>
+]]></content>
+    <summary type="html">
+    <![CDATA[<h2 id="Usando_o_Putty_para_acessar_ambientes_Vagrant">Usando o Putty para acessar ambientes Vagrant</h2><p>Após a <a href="/posts/instalacao-vagrant/ &quot;Crie e compartilhe ambientes com o Vagrant (Instalação">instalação do Vagrant</a>, precisamos acessar a máquina virtual com SSH. Nos ambientes Linux/Mac é facinho, basta rodar ssh usuario@porta, mas no Windows é um pouco diferente…<br>No Windows precisamos de um programa bem útil chamado Putty.]]>
+    
+    </summary>
+    
+      <category term="Ambiente" scheme="http://woliveiras.com.br/tags/Ambiente/"/>
+    
+      <category term="Vagrant" scheme="http://woliveiras.com.br/tags/Vagrant/"/>
+    
+      <category term="Virtualização" scheme="http://woliveiras.com.br/tags/Virtualizacao/"/>
+    
+      <category term="Ambiente" scheme="http://woliveiras.com.br/categories/Ambiente/"/>
+    
+      <category term="Putty" scheme="http://woliveiras.com.br/categories/Ambiente/Putty/"/>
+    
+      <category term="Vagrant" scheme="http://woliveiras.com.br/categories/Ambiente/Putty/Vagrant/"/>
+    
+      <category term="Virtualização" scheme="http://woliveiras.com.br/categories/Ambiente/Putty/Vagrant/Virtualizacao/"/>
+    
+  </entry>
+  
+  <entry>
+    <title><![CDATA[Vagrant - Como configurar e utilizar]]></title>
+    <link href="http://woliveiras.com.br/posts/configurar-vagrant/"/>
+    <id>http://woliveiras.com.br/posts/configurar-vagrant/</id>
+    <published>2014-08-17T19:26:00.000Z</published>
+    <updated>2015-08-10T11:13:22.883Z</updated>
+    <content type="html"><![CDATA[<p>Se você leu a <a href="/posts/instalacao-vagrant/" title="Crie e compartilhe ambientes com o Vagrant (Instalação)">primeira parte desse tutorial</a>, então podemos seguir por aqui e aprender a configurar e utilizar o Vagrant.<a id="more"></a></p>
+<h4 id="Adicionando_uma_Box">Adicionando uma Box</h4><p>Vamos utilizar uma Box que os desenvolvedores já deixaram pré configurada como exemplo, mas você verá como criar uma Box para o Vagrant nesse <a href="/posts/criar-uma-base-box-para-o-vagrant/">outro artigo</a>.<br>Para adicionar uma Box use o seguinte comando:</p>
+<figure class="highlight processing"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">vagrant <span class="built_in">box</span> <span class="built_in">add</span> <span class="string">'nome da Box'</span> <span class="string">'Local de onde será clonado'</span></span><br></pre></td></tr></table></figure>
+<p>Execute esse comando para clonar a Box pré configurada.</p>
+<figure class="highlight livecodeserver"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">vagrant box <span class="built_in">add</span> lucid32 <span class="keyword">http</span>://<span class="built_in">files</span>.vagrantup.com/lucid32.box</span><br></pre></td></tr></table></figure>
+<p>Explicação</p>
+<ul>
+<li><strong>vagrant box add</strong> é o comando para adicionar uma box.</li>
+<li><strong>lucid32</strong> é o nome da Base Box. Esse nome é que vamos usar no <strong>vagrantfile</strong> para informar qual box será a base para as VM’s que vamos subir posteriormente e que vamos usar para criar uma nova VM.</li>
+<li>O Link <em><a href="http://files.vagrantup.com/lucid32.box" target="_blank" rel="external">http://files.vagrantup.com/lucid32.box</a></em> é onde está a box no momento. Se fosse um repositório pessoal colocaríamos o link desse repo no lugar.</li>
+</ul>
+<p>Você consegue encontrar outras Base Box no repositório do Vagrant nesse link: <a href="http://vagrantbox.es/" title="Repositório de Boxes do Vagrant" target="_blank" rel="external">http://vagrantbox.es</a>.<br><em>Esse passo pode demorar um pouco dependendo da velocidade da sua conexão.</em><br>Agora, no terminal/cmd, entre na pasta do projeto – que aqui chamei de  vagrant - e execute:</p>
+<p><strong>vagrant init lucid32</strong></p>
+<p><img src="../../public/images/vagrant-init-lucid32.png" alt="Iniciando uma VM"></p>
+<p>Explicação</p>
+<ul>
+<li><strong>vagrant init </strong> iniciará uma VM de acordo com as configurações da box que você escolher. Será criado o Vagrantfile no local.</li>
+<li><strong>lucid32</strong> é a box que eu mandei ele utilizar para criar a VM. As configurações dessa Box serão clonadas para essa nova VM.</li>
+</ul>
+<p>Eu recomendo que dê uma olhada no arquivo Vagrantfile para conhecer melhor as configurações, isso fará muita diferença e facilitará futuras configurações.<br>Após as minhas configurações, meu arquivo ficou assim – Deixei esses comentários para ficar fácil de entender:</p>
+<figure class="highlight vala"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br></pre></td><td class="code"><pre><span class="line"><span class="preprocessor">#Versão da API do Vagrant</span></span><br><span class="line"></span><br><span class="line">VAGRANTFILE_API_VERSION = <span class="string">"2"</span></span><br><span class="line"></span><br><span class="line">Vagrant.configure(VAGRANTFILE_API_VERSION) <span class="keyword">do</span> |config|</span><br><span class="line"></span><br><span class="line"><span class="preprocessor">#Box a ser utilizada</span></span><br><span class="line"></span><br><span class="line">config.vm.box = <span class="string">"lucid32"</span></span><br><span class="line"></span><br><span class="line"><span class="preprocessor">#Modo de Rede</span></span><br><span class="line"></span><br><span class="line">config.vm.network : bridged</span><br><span class="line"></span><br><span class="line"><span class="preprocessor">#Porta do servidor Web</span></span><br><span class="line"></span><br><span class="line">config.vm.forward_port <span class="number">80</span>, <span class="number">8080</span></span><br><span class="line"></span><br><span class="line"><span class="preprocessor">#Porta do MySQL</span></span><br><span class="line"></span><br><span class="line">config.vm.forward_port <span class="number">3306</span>, <span class="number">3306</span></span><br><span class="line"></span><br><span class="line">end</span><br></pre></td></tr></table></figure>
+<h4 id="Iniciar_a_VM">Iniciar a VM</h4><p>Para iniciar a VM e poder utilizar seu servidor, basta rodar o comando:</p>
+<figure class="highlight nginx"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="title">vagrant</span> up</span><br></pre></td></tr></table></figure>
+<p>Na primeira vez, será importada a base Box e configurada a nova VM. Você até poderá entrar no Virtualbox e verá uma máquina com um nome esquisito.</p>
+<p><img src="../../public/images/Capturar.png" alt="Subindo a VM"></p>
+<p>Se você está usando terminal Unix, então execute o comando: <strong>vagrant ssh</strong> com o endereço e porta que o próprio vagrant mostra na tela do terminal nesse momento. Se está usando Windows você vai precisar do <a href="/posts/vagrant-no-windows/" title="Windows, Vagrant e Putty">Putty</a>. No terminal ficou um endereço de IP parecido com 127.0.0.1:2222, esse é o ip e o usuário e senha “vagrant” para acesso.<br>Fica esse comando para acesso em terminais Unix:</p>
+<figure class="highlight nginx"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="title">ssh</span> vagrant@<span class="number">127.0.0.1:2222</span></span><br></pre></td></tr></table></figure>
+<p>Na tela de boas vindas será solicitado a senha que é <em>vagrant</em>.</p>
+<p>Conectado, agora é só usar seu servidor! :D</p>
+<h4 id="Alguns_comandos_uteis">Alguns comandos uteis</h4><ul>
+<li>Quando quiser pausar sua máquina use <strong>vagrant suspend</strong> e para retomar <strong>vagrant resume</strong>.</li>
+<li>Para desligar a máquina use <strong>vagrant halt</strong>. </li>
+<li>Para, literalmente, destruir uma máquina e começar do zero use <strong>vagrant destroy</strong>. </li>
+<li>Reiniciar a máquina <strong>varant reload</strong>.</li>
+</ul>
+<p><em>Lembrando que esses comandos devem ser rodados dentro do diretório onde está o vagrantfile da VM que estiver rodando no momento.</em><br>Uma dica agora é pesquisar sobre <a href="https://pt.wikipedia.org/wiki/Shell_script" target="_blank" rel="external">Shell Script</a>, <a href="https://puppetlabs.com/" target="_blank" rel="external">Puppet</a> ou <a href="https://www.chef.io/chef/" target="_blank" rel="external">Chef</a> para automatizar a configuração do ambiente. A <a href="http://docs.vagrantup.com/v2/" target="_blank" rel="external">documentação do Vagrant</a> tem boas dicas sobre isso.</p>
+<p>Caso não tenha entendido algo, estou a disposição, só me chamar! ;D</p>
+<p>Referências:</p>
+<p><a href="http://simplesideias.com.br/usando-o-vagrant-como-ambiente-de-desenvolvimento-no-windows" target="_blank" rel="external">http://simplesideias.com.br/usando-o-vagrant-como-ambiente-de-desenvolvimento-no-windows</a></p>
+<p><a href="http://www.erikaheidi.com/blog/vagrant-101-montando-seu-ambiente-de-desenvolvimento-portatil" target="_blank" rel="external">http://www.erikaheidi.com/blog/vagrant-101-montando-seu-ambiente-de-desenvolvimento-portatil</a></p>
+<p><a href="http://www.akitaonrails.com/2013/10/25/iniciante-criando-um-ambiente-de-desenvolvimento-com-vagrant-e-chef-solo#.U-_1H_ldX2M" target="_blank" rel="external">http://www.akitaonrails.com/2013/10/25/iniciante-criando-um-ambiente-de-desenvolvimento-com-vagrant-e-chef-solo#.U-_1H_ldX2M</a></p>
+]]></content>
+    <summary type="html">
+    <![CDATA[<p>Se você leu a <a href="/posts/instalacao-vagrant/" title="Crie e compartilhe ambientes com o Vagrant (Instalação)">primeira parte desse tutorial</a>, então podemos seguir por aqui e aprender a configurar e utilizar o Vagrant.]]>
+    
+    </summary>
+    
+      <category term="Ambiente" scheme="http://woliveiras.com.br/tags/Ambiente/"/>
+    
+      <category term="Vagrant" scheme="http://woliveiras.com.br/tags/Vagrant/"/>
+    
+      <category term="Virtualização" scheme="http://woliveiras.com.br/tags/Virtualizacao/"/>
+    
+      <category term="Ambiente" scheme="http://woliveiras.com.br/categories/Ambiente/"/>
+    
+      <category term="Dicas" scheme="http://woliveiras.com.br/categories/Ambiente/Dicas/"/>
+    
+      <category term="Vagrant" scheme="http://woliveiras.com.br/categories/Ambiente/Dicas/Vagrant/"/>
+    
+      <category term="Virtualização" scheme="http://woliveiras.com.br/categories/Ambiente/Dicas/Vagrant/Virtualizacao/"/>
+    
+  </entry>
+  
+  <entry>
+    <title><![CDATA[Vagrant - Introdução e Instalação]]></title>
+    <link href="http://woliveiras.com.br/posts/vagrant-introducao-instalacao/"/>
+    <id>http://woliveiras.com.br/posts/vagrant-introducao-instalacao/</id>
+    <published>2014-08-17T18:45:05.000Z</published>
+    <updated>2015-08-10T09:43:55.198Z</updated>
+    <content type="html"><![CDATA[<p>O Vagrant é uma ferramenta que permite a criação de máquinas virtuais(VM’s) rapidamente para o ambiente de desenvolvimento, testes ou ambientes virtuais como AWS ou Digital Ocean.”<a id="more"></a><br>Executamos o Vagrant em conjunto com o Virtualbox ou VMWare. Você consegue usar o Vagrant para provisionamento do servidor. Você define tudo o que o servidor precisa(Programas, Banco de Dados, Libs, Configurações, etc) e pode até disponibilizar essa configuração junto ao seu projeto. Assim, qualquer pessoa que clonar seu projeto, consegue levantar um servidor com as mesmas configurações, sem erro.<br>É muito mais rápido possuir uma <em>Box</em> com tudo pronto e só subir com um comando.<br>Usar o Vagrant pode mudar um pouco o seu fluxo de trabalho, mas acho que a principal diferença é o fato de subirmos a máquina virtual pelo terminal/cmd e, depois, conectarmos na mesma por ssh e, a partir de então, usar o terminal da VM, porém nada que assuste.</p>
+<p><strong>Algumas terminologias importantes </strong></p>
+<p><strong>Box </strong>- É um pacote que contém a base da sua VM. Basicamente é uma imagem do S.O. Se você não sabe o que é uma imagem é como se fosse um clone do seu Sistema Operacional que pode ser executado pra subir exatamente a mesma configuração em outro computador. :)</p>
+<p><strong>Vagrantfile</strong> - arquivo que contém as definições para executar a Box. Como serviços que serão executados, arquivos compartilhados, programas que serão instalados, etc.</p>
+<p><strong>Guest</strong> - É a máquina que foi levantada. Em meios menos técnicos é sua VM.</p>
+<p><strong>Provider</strong> - O Software de virtualização(<a href="https://www.virtualbox.org" target="_blank" rel="external">Virtualbox</a> ou <a href="https://my.vmware.com/web/vmware/free" target="_blank" rel="external">VMWare</a>).</p>
+<p><strong>Provisioner</strong> - É o software que vai configurar a máquina na hora em que você ligar ela pela primeira vez e ele também vai verificar se está tudo OK quando iniciar ela de novo. As opções mais comuns são: <a href="https://pt.wikipedia.org/wiki/Shell_script" target="_blank" rel="external">Shell Script</a>, <a href="https://puppetlabs.com/" target="_blank" rel="external">Puppet</a> e <a href="https://www.chef.io/chef/" target="_blank" rel="external">Chef</a>.</p>
+<p><strong>Instalação</strong></p>
+<p>Para esse tutorial vamos usar o Virtualbox.</p>
+<ol>
+<li><p>Baixe o <a href="https://www.virtualbox.org/wiki/Downloads" title="Download do Virtualbox" target="_blank" rel="external">Virtualbox</a>.</p>
+</li>
+<li><p>Com o VBox instalado, acesse o <a href="http://www.vagrantup.com/downloads.html" title="Vagrant" target="_blank" rel="external">site do Vagrant</a> e instale.<br>OBS: Se você usa Windows vai precisar seguir <a href="/posts/vagrant-no-windows/">esse tutorial</a> para importar a chave SSH.</p>
+</li>
+<li><p>Tudo instalado, mãos a obra. Agora é só ler a <a href="/posts/configurar-vagrant/" title="Como configurar e utilizar o Vagrant">segunda parte desse tutorial</a></p>
+</li>
+</ol>
+<p>Referências:</p>
+<p><a href="http://simplesideias.com.br/usando-o-vagrant-como-ambiente-de-desenvolvimento-no-windows" target="_blank" rel="external">http://simplesideias.com.br/usando-o-vagrant-como-ambiente-de-desenvolvimento-no-windows</a></p>
+<p><a href="http://www.erikaheidi.com/blog/vagrant-101-montando-seu-ambiente-de-desenvolvimento-portatil" target="_blank" rel="external">http://www.erikaheidi.com/blog/vagrant-101-montando-seu-ambiente-de-desenvolvimento-portatil</a></p>
+<p><a href="http://www.akitaonrails.com/2013/10/25/iniciante-criando-um-ambiente-de-desenvolvimento-com-vagrant-e-chef-solo#.U-_1H_ldX2M" target="_blank" rel="external">http://www.akitaonrails.com/2013/10/25/iniciante-criando-um-ambiente-de-desenvolvimento-com-vagrant-e-chef-solo#.U-_1H_ldX2M</a></p>
+<p>&nbsp;</p>
+]]></content>
+    <summary type="html">
+    <![CDATA[<p>O Vagrant é uma ferramenta que permite a criação de máquinas virtuais(VM’s) rapidamente para o ambiente de desenvolvimento, testes ou ambientes virtuais como AWS ou Digital Ocean.”]]>
+    
+    </summary>
+    
+      <category term="Ambiente" scheme="http://woliveiras.com.br/tags/Ambiente/"/>
+    
+      <category term="Dicas" scheme="http://woliveiras.com.br/tags/Dicas/"/>
+    
+      <category term="Vagrant" scheme="http://woliveiras.com.br/tags/Vagrant/"/>
+    
+      <category term="Virtualização" scheme="http://woliveiras.com.br/tags/Virtualizacao/"/>
+    
+      <category term="Ambiente" scheme="http://woliveiras.com.br/categories/Ambiente/"/>
+    
+      <category term="Dicas" scheme="http://woliveiras.com.br/categories/Ambiente/Dicas/"/>
+    
+      <category term="Vagrant" scheme="http://woliveiras.com.br/categories/Ambiente/Dicas/Vagrant/"/>
+    
+      <category term="Virtualização" scheme="http://woliveiras.com.br/categories/Ambiente/Dicas/Vagrant/Virtualizacao/"/>
     
   </entry>
   
