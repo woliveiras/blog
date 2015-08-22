@@ -65,8 +65,10 @@
     <link href="http://woliveiras.com.br/posts/frameworks-front-end/"/>
     <id>http://woliveiras.com.br/posts/frameworks-front-end/</id>
     <published>2015-03-05T00:18:46.000Z</published>
-    <updated>2015-08-07T01:54:34.956Z</updated>
-    <content type="html"><![CDATA[<p>Já parou pra pensar quantas vezes você repete o mesmo código durante o Desenvolvimento, seja Web, Mobile ou Desktop? Já pensou em padronizar o que você faz de alguma maneira?<br>E pra você que é Gerente de Projetos, Líder ou algo do tipo: Já pensou em poder adicionar um membro no seu grupo  e ele já saber como funciona o Desenvolvimento nessa equipe e conseguir ser produtivo desde o princípio?<br>Pois é, Frameworks servem para isso… Vem comigo que vou explicar melhor. ;)<a id="more"></a></p>
+    <updated>2015-08-22T15:03:08.112Z</updated>
+    <content type="html"><![CDATA[<div class="shared-img"><br><img src="../..//public/images/FWs.jpg" alt=""><br></div>
+
+<p>Já parou pra pensar quantas vezes você repete o mesmo código durante o Desenvolvimento, seja Web, Mobile ou Desktop? Já pensou em padronizar o que você faz de alguma maneira?<br>E pra você que é Gerente de Projetos, Líder ou algo do tipo: Já pensou em poder adicionar um membro no seu grupo  e ele já saber como funciona o Desenvolvimento nessa equipe e conseguir ser produtivo desde o princípio?<br>Pois é, Frameworks servem para isso… Vem comigo que vou explicar melhor. ;)<a id="more"></a></p>
 <h2 id="O_que_são_Frameworks?">O que são Frameworks?</h2><p>Você pega aqueles códigos que se repetem entre os projetos, adiciona uma pitada de <a href="http://pt.wikipedia.org/wiki/Padr%C3%A3o_de_projeto_de_software" title="Wikipedia - Padrões de Projetos" target="_blank" rel="external">Padrões</a>, deixa conforme sua equipe precisa ou <a href="http://tableless.com.br/locaweb-style-como-iniciamos/" title="Locaweb Style - Framework Front End da Locaweb" target="_blank" rel="external">conforme sua empresa trabalha</a>, empacota tudo isso pra poder reutilizar depois e pronto, criou um Framework!<br>Só isso? Sim, só isso… Framework é uma ferramenta com os códigos, padrões, etc, que você consegue utilizar pra resolver problemas que se repetem ou mesmo pra iniciar projetos que vão possuir as mesmas características seja no Front, Back End ou mesmo para <a href="https://github.com/woliveiras/pastel" target="_blank" rel="external">Tooling(Ferramentas)</a>. Quando você utiliza um Framework como base, pode somente baixar ele, configurar ou instalar e seguir dali para as necessidades específicas de cada projeto. Isso mata muito tempo que você perderia fazendo algo que sabe que vai repetir no próximo trabalho.</p>
 <h2 id="Frameworks_são_bons_mesmo?">Frameworks são bons mesmo?</h2><p>Minha resposta é: São sim, mas eles dependem de você para não estragá-los.<br>Temos vários tipos de Frameworks pra todos os gostos e peculiaridades, porém nem sempre o mesmo que você usa para um projeto grande será interessante em um projeto pequeno. As vezes temos uma ferramenta específica só para coisas pequenas e outras só para coisas grandes.<br>Frameworks são muito bons pela praticidade em se iniciar um projeto com metade do trabalho já feito, claro, mas você tem de entender <a href="http://tableless.com.br/quando-utilizar-ou-nao-frameworks-css/" title="Quando utilizar (ou não) frameworks CSS - Talita Pagani" target="_blank" rel="external">quando utilizar e quando não utilizar</a>.<br>Temos o exemplo do <a href="http://getbootstrap.com/" title="Twitter Bootstrap" target="_blank" rel="external">Twitter Bootstrap</a> que está sendo muito utilizado na Web por esses tempos e tem gente que nem sabe utilizar o que a ferramenta lhe entrega e sai sobrepondo os estilos e deixando o projeto cada vez mais pesado ou importa todo o código do Framework sendo que só vai utilizar os Grids.</p>
 <h2 id="E_os_Frameworks_Front_End,_servem_pra_que?">E os Frameworks Front End, servem pra que?</h2><p>Normalmente eles vem com os estilos que você repete em vários projetos como tamanho de botões, tipografia, cores, estilos de tabelas/formulários, menus, navegação em abas, etc. Tudo o que é referente ao desenvolvimento de uma interface normalmente vem nessas maravilhas ou você cria um com tudo o que você sempre usa. - Pra um iniciante o melhor seria aprender como as coisas são feitas e até mesmo criar o seu próprio pelo fato de aprender mais.<br>Tem diferença entre Bibliotecas Front End e Frameworks Front End, da uma olhada <a href="http://tableless.com.br/biblioteca-css-ou-framework/" title="Biblioteca CSS ou Framework?" target="_blank" rel="external">nesse artigo</a>.</p>
@@ -82,7 +84,9 @@
 <h2 id="Bônus">Bônus</h2><p>Se você não conhece pré processadores, seria interessante aprender algum também. Recomendo essa leitura: <a href="http://blog.da2k.com.br/2015/02/15/escrevendo-css-com-stylus/" title="Escrevendo CSS com Stylus" target="_blank" rel="external">Escrevendo CSS com Stylus</a><br>Você conhece algum Framework Front End maneiro ou tem mais alguma dica sobre o assunto? Compartilha ae!</p>
 ]]></content>
     <summary type="html">
-    <![CDATA[<p>Já parou pra pensar quantas vezes você repete o mesmo código durante o Desenvolvimento, seja Web, Mobile ou Desktop? Já pensou em padronizar o que você faz de alguma maneira?<br>E pra você que é Gerente de Projetos, Líder ou algo do tipo: Já pensou em poder adicionar um membro no seu grupo  e ele já saber como funciona o Desenvolvimento nessa equipe e conseguir ser produtivo desde o princípio?<br>Pois é, Frameworks servem para isso… Vem comigo que vou explicar melhor. ;)]]>
+    <![CDATA[<div class="shared-img"><br><img src="../..//public/images/FWs.jpg" alt=""><br></div>
+
+<p>Já parou pra pensar quantas vezes você repete o mesmo código durante o Desenvolvimento, seja Web, Mobile ou Desktop? Já pensou em padronizar o que você faz de alguma maneira?<br>E pra você que é Gerente de Projetos, Líder ou algo do tipo: Já pensou em poder adicionar um membro no seu grupo  e ele já saber como funciona o Desenvolvimento nessa equipe e conseguir ser produtivo desde o princípio?<br>Pois é, Frameworks servem para isso… Vem comigo que vou explicar melhor. ;)]]>
     
     </summary>
     
@@ -111,8 +115,10 @@
     <link href="http://woliveiras.com.br/posts/contribuindo-para-projetos-open-source-no-github-mesmo-sendo-iniciante/"/>
     <id>http://woliveiras.com.br/posts/contribuindo-para-projetos-open-source-no-github-mesmo-sendo-iniciante/</id>
     <published>2015-02-09T14:12:32.000Z</published>
-    <updated>2015-08-08T14:18:28.764Z</updated>
-    <content type="html"><![CDATA[<p>Se você é iniciante já deve ter escutado: “Se quiser aprender mesmo tem de botar a mão na massa!”.<br>Sim! E eu concordo. A melhor maneira de aprender é estudando e praticando muuuuuito! Porém, nem sempre temos um projeto para iniciantes dando sopa na internet ou uma empresa que nos de a oportunidade de praticar lá e crescermos assim. Então uma ÓTIMA maneira de se praticar é auxiliando projetos no <a href="https://github.com/" title="Github" target="_blank" rel="external">Github</a>.<br>Ai você se pergunta: “Tá, mas se eu sou iniciante como eu consigo ajudar?”<br>Vamos nessa que vou tentar te ajudar.<a id="more"></a></p>
+    <updated>2015-08-22T15:03:39.501Z</updated>
+    <content type="html"><![CDATA[<div class="shared-img"><br><img src="../..//public/images/github.gif" alt=""><br></div>
+
+<p>Se você é iniciante já deve ter escutado: “Se quiser aprender mesmo tem de botar a mão na massa!”.<br>Sim! E eu concordo. A melhor maneira de aprender é estudando e praticando muuuuuito! Porém, nem sempre temos um projeto para iniciantes dando sopa na internet ou uma empresa que nos de a oportunidade de praticar lá e crescermos assim. Então uma ÓTIMA maneira de se praticar é auxiliando projetos no <a href="https://github.com/" title="Github" target="_blank" rel="external">Github</a>.<br>Ai você se pergunta: “Tá, mas se eu sou iniciante como eu consigo ajudar?”<br>Vamos nessa que vou tentar te ajudar.<a id="more"></a></p>
 <h2 id="O_Open_Source_pode_te_ajudar_muito!">O Open Source pode te ajudar muito!</h2><p>Contribuir com Open Source realmente pode mudar sua perspectiva.<br>Você pode ficar melhor naquilo em que está estudando. Se estuda Front, vai praticar Front, se estuda Back, vai praticar Back, etc.<br>Sabe aquele trampo que não te chamou por falta de experiência? Então, mostra seu Github pra eles! - Porém não saia entrando em qualquer projeto só pra ter algo a acrescentar no curriculum, entre para estudar e apoiar de verdade uma causa. Você deve se identificar com o projeto e então ajudar.<br>Além disso, você vai aprender a trabalhar bem em equipe, dominar melhor o Git e o Github e pode receber muitas dicas dos membros dos projetos sobre sua forma de trabalhar, o que vai ajudar muito seu Workflow e crescimento profissional.</p>
 <h2 id="Como_contribuir_no_Github?">Como contribuir no Github?</h2><p>Se eu te convenci, então vamos as formas de contribuição:<br>Primeiro você vai entrar no <a href="https://github.com" title="Github" target="_blank" rel="external">Github</a>(Se não tem uma conta, essa é uma boa hora de criar. ;P) e clicar em <a href="https://github.com/explore" title="Explore" target="_blank" rel="external">Explore</a>. Algumas categorias já irão aparecer e se você se interessar já pode clicar em alguma e continuar.</p>
 <p><img src="../../public/images/image32.gif" alt="Explore"></p>
@@ -123,11 +129,93 @@
 <h5 id="Sugestões_de_melhorias">Sugestões de melhorias</h5><p>Se você usa o projeto e acha que seria interessante adicionar alguma funcionalidade; algo útil no projeto, então pode entrar nas Issues e deixar sua sugestão lá também.</p>
 <h5 id="Tradução">Tradução</h5><p>Muitos projetos precisam de tradução para outros idiomas, no nosso caso para pt-br, então seria legal traduzir ela para o pt-br! Assim você está contribuindo muuuuuuito para projeto e para a comunidade. Se for um projeto que você vai utilizar no dia-a-dia então será excelente pois você vai dominar a documentação de ponta a ponta.<br>Se você está aprendendo o Inglês e precisa treinar também é uma ótima opção.<br>Você pode traduzir tanto a documentação quanto as interfaces (Quando é um CMS ou algum Sistema/Aplicação/Solução).</p>
 <h3 id="Bônus:_Como_criar_um_Pull_Request_no_Github">Bônus: Como criar um Pull Request no Github</h3><p>Se você não domina o Github ou não sabe criar um Pull Request, então confere esse vídeo do <a href="https://twitter.com/osuissa" title="@osuissa" target="_blank" rel="external">Suissa </a>ensinando fazer isso:</p>
-<div class="video-container"><br><iframe width="420" height="315" src="https://www.youtube.com/embed/E8MPe6tCMo8" frameborder="0" allowfullscreen></iframe><br></div>]]></content>
+<div class="video-container"><br><iframe width="420" height="315" src="https://www.youtube.com/embed/E8MPe6tCMo8" frameborder="0" allowfullscreen></iframe><br></div>
+]]></content>
     <summary type="html">
-    <![CDATA[<p>Se você é iniciante já deve ter escutado: “Se quiser aprender mesmo tem de botar a mão na massa!”.<br>Sim! E eu concordo. A melhor maneira de aprender é estudando e praticando muuuuuito! Porém, nem sempre temos um projeto para iniciantes dando sopa na internet ou uma empresa que nos de a oportunidade de praticar lá e crescermos assim. Então uma ÓTIMA maneira de se praticar é auxiliando projetos no <a href="https://github.com/" title="Github">Github</a>.<br>Ai você se pergunta: “Tá, mas se eu sou iniciante como eu consigo ajudar?”<br>Vamos nessa que vou tentar te ajudar.]]>
+    <![CDATA[<div class="shared-img"><br><img src="../..//public/images/github.gif" alt=""><br></div>
+
+<p>Se você é iniciante já deve ter escutado: “Se quiser aprender mesmo tem de botar a mão na massa!”.<br>Sim! E eu concordo. A melhor maneira de aprender é estudando e praticando muuuuuito! Porém, nem sempre temos um projeto para iniciantes dando sopa na internet ou uma empresa que nos de a oportunidade de praticar lá e crescermos assim. Então uma ÓTIMA maneira de se praticar é auxiliando projetos no <a href="https://github.com/" title="Github">Github</a>.<br>Ai você se pergunta: “Tá, mas se eu sou iniciante como eu consigo ajudar?”<br>Vamos nessa que vou tentar te ajudar.]]>
     
     </summary>
+    
+      <category term="Dicas" scheme="http://woliveiras.com.br/categories/Dicas/"/>
+    
+  </entry>
+  
+  <entry>
+    <title><![CDATA[Haroopad um editor Markdown maneiro!]]></title>
+    <link href="http://woliveiras.com.br/posts/haroopad-um-editor-markdown-maneiro/"/>
+    <id>http://woliveiras.com.br/posts/haroopad-um-editor-markdown-maneiro/</id>
+    <published>2015-02-09T12:53:56.000Z</published>
+    <updated>2015-08-22T15:04:06.646Z</updated>
+    <content type="html"><![CDATA[<div class="shared-img"><br><img src="../..//public/images/Haroopad.png" alt=""><br></div>
+
+<p>Todo mundo que trabalha usando <a href="http://blog.da2k.com.br/2015/02/08/aprenda-markdown/" title="Aprenda Markdown" target="_blank" rel="external">Markdown</a> ou usa a linguagem somente para descrever seus repositórios no Github gosta de ter aquele preview maneiro que o <a href="http://25.io/mou/" title="Mou" target="_blank" rel="external">Mou</a> apresenta né? Pois é, mas o Mou não funciona em outras plataformas a não ser Apple. :( <strong>#chateado</strong></p>
+<a id="more"></a>
+<h2 id="Conheça_o_Haroopad!">Conheça o Haroopad!</h2><p>Para suprir a necessidade daquele preview show eu andei pesquisando e venho utilizando o <a href="http://pad.haroopress.com/user.html" title="Haroopress" target="_blank" rel="external">Haroopad</a> a uns 4 meses. É uma ferramenta muito maneira e atende bem as necessidades. Da uma olhada nesse print:</p>
+<p><img src="../../public/images/haroopad.gif" alt="Haroopad"></p>
+<h2 id="Instalação">Instalação</h2><p>A instalação é bem simples, baixa acessar o site do <a href="http://pad.haroopress.com/user.html" title="Haroopress" target="_blank" rel="external">Haroopad</a> e escolher seu sistema operacional.</p>
+<h2 id="Algumas_qualidades_do_Editor">Algumas qualidades do Editor</h2><p>O modo Full Screen é básico em todos os editores, então nem vou comentar… ;P</p>
+<h3 id="Syntax_Help">Syntax Help</h3><p>O principal é o Syntax Help. Você ativa clicando no botão de configurações e ele aparece na lateral. Isso ajuda muito a lembrar as Tags!</p>
+<p>Ativando</p>
+<p><img src="../../public/images/Syntax-Help-Haroopad.gif" alt="Ativando o Syntax Help"></p>
+<p>A lateral com ajuda</p>
+<p><img src="../../public/images/image24.gif" alt="Help"></p>
+<h3 id="Modos_de_visualização">Modos de visualização</h3><p>Clicando em <strong>View</strong>, será apresentado um menu com algumas opções de visualização como modo somente editor e modo somente visualização.</p>
+<p><img src="../../public/images/image26.gif" alt="Modos de visualização"></p>
+<p>Ainda em <strong>View,</strong> da para colocar os números das linhas clicando em <strong>Toogle Line Number</strong>.</p>
+<p><img src="../../public/images/image27.gif" alt="Line Number"></p>
+<h3 id="Modo_de_apresentação">Modo de apresentação</h3><p>O modo de apresentação dele é bem maneiro e para ativar é no mesmo esquema: <strong>View -&gt; Presentation Mode</strong></p>
+<p><img src="../../public/images/image28.gif" alt="Presentation Mode"></p>
+<h3 id="As_opções_de_insert">As opções de insert</h3><p>Caso você esqueça algum esquema da Linguagem, você pode utilizar também o menu <strong>Insert</strong> para inserir as tags lá. (<strong>Facin</strong>)</p>
+<p><img src="../../public/images/image29.gif" alt="Insert"></p>
+<p>Eu curti bastante esse editor e venho utilizando ele. Se você tiver alguma dica, comenta ae! :D</p>
+<p>&nbsp;</p>
+]]></content>
+    <summary type="html">
+    <![CDATA[<div class="shared-img"><br><img src="../..//public/images/Haroopad.png" alt=""><br></div>
+
+<p>Todo mundo que trabalha usando <a href="http://blog.da2k.com.br/2015/02/08/aprenda-markdown/" title="Aprenda Markdown">Markdown</a> ou usa a linguagem somente para descrever seus repositórios no Github gosta de ter aquele preview maneiro que o <a href="http://25.io/mou/" title="Mou">Mou</a> apresenta né? Pois é, mas o Mou não funciona em outras plataformas a não ser Apple. :( <strong>#chateado</strong></p>]]>
+    
+    </summary>
+    
+      <category term="Ambiente" scheme="http://woliveiras.com.br/tags/Ambiente/"/>
+    
+      <category term="Dicas" scheme="http://woliveiras.com.br/tags/Dicas/"/>
+    
+      <category term="Front End" scheme="http://woliveiras.com.br/tags/Front-End/"/>
+    
+      <category term="Markdown" scheme="http://woliveiras.com.br/tags/Markdown/"/>
+    
+      <category term="Ambiente" scheme="http://woliveiras.com.br/categories/Ambiente/"/>
+    
+      <category term="Dicas" scheme="http://woliveiras.com.br/categories/Ambiente/Dicas/"/>
+    
+  </entry>
+  
+  <entry>
+    <title><![CDATA[Como detectar o dispositivo que acessa seu site]]></title>
+    <link href="http://woliveiras.com.br/posts/como-detectar-o-dispositivo-que-acessa-seu-site/"/>
+    <id>http://woliveiras.com.br/posts/como-detectar-o-dispositivo-que-acessa-seu-site/</id>
+    <published>2015-02-03T18:47:41.000Z</published>
+    <updated>2015-08-22T15:04:42.500Z</updated>
+    <content type="html"><![CDATA[<div class="shared-img"><br><img src="../..//public/images/mobiles.jpg" alt=""><br></div>
+
+<p>Uma dica rápida para quem trabalha com diversos tipos de dispositivos!</p>
+<p>Dependendo do projeto em que você está trabalhando, pode chegar a necessidade de detectar qual é o tipo de dispositivo que está acessando o site/aplicação/sistema, etc. As vezes isso é feito para redirecionar o usuário para uma outra versão do projeto, as vezes simplesmente para ativar uma funcionalidade ou não.<a id="more"></a></p>
+<p>Isso pode ser feito de diversas maneiras e um site reuniu algumas formas de fazer isso com diferentes linguagens. Esse site é o <a href="http://detectmobilebrowsers.com/" title="Detect Mobile Browsers" target="_blank" rel="external">Detect Mobile Browsers</a>!</p>
+<p>Da uma conferida nesse site, pois é muito útil!</p>
+<p>Se você conhece algum outro jeito de executar essa ação, comenta ae pra compartilhar informação com a galera! :D</p>
+]]></content>
+    <summary type="html">
+    <![CDATA[<div class="shared-img"><br><img src="../..//public/images/mobiles.jpg" alt=""><br></div>
+
+<p>Uma dica rápida para quem trabalha com diversos tipos de dispositivos!</p>
+<p>Dependendo do projeto em que você está trabalhando, pode chegar a necessidade de detectar qual é o tipo de dispositivo que está acessando o site/aplicação/sistema, etc. As vezes isso é feito para redirecionar o usuário para uma outra versão do projeto, as vezes simplesmente para ativar uma funcionalidade ou não.]]>
+    
+    </summary>
+    
+      <category term="Dicas" scheme="http://woliveiras.com.br/tags/Dicas/"/>
     
       <category term="Dicas" scheme="http://woliveiras.com.br/categories/Dicas/"/>
     
@@ -185,8 +273,10 @@
     <link href="http://woliveiras.com.br/posts/semantica-html/"/>
     <id>http://woliveiras.com.br/posts/semantica-html/</id>
     <published>2015-01-29T12:00:25.000Z</published>
-    <updated>2015-08-09T16:23:29.336Z</updated>
-    <content type="html"><![CDATA[<p>Quando estamos iniciando os estudos na área de Web aprendemos semântica e, as vezes, nem temos noção da importância disso. Aprendemos que cada tag HTML serve para alguma coisa: <strong>&lt;title&gt;</strong> para o título da página (Aquele que aparece na aba do navegador), <strong>&lt;p&gt;</strong> para parágrafos, <strong>&lt;h1,2,3,…&gt;</strong> para títulos do conteúdo, etc.<a id="more"></a><br>Porém, com o tempo, algumas pessoas param de utilizar essas tags e começam a bagunçar tudo! Usam o <strong>h1</strong> pra deixar um texto maior que o outro e não para o título em questão, usam várias tags <strong>p</strong> separando o conteúdo de uma lista em uma div com uma class <em>“list”</em>, por ai vai! Vira uma salada no HTML.<br>Isso é ruim tanto para quem vai ler seu código depois, quanto para buscadores e leitores de tela.</p>
+    <updated>2015-08-22T15:05:40.924Z</updated>
+    <content type="html"><![CDATA[<div class="shared-img"><br><img src="../..//public/images/HTML.png" alt=""><br></div>
+
+<p>Quando estamos iniciando os estudos na área de Web aprendemos semântica e, as vezes, nem temos noção da importância disso. Aprendemos que cada tag HTML serve para alguma coisa: <strong>&lt;title&gt;</strong> para o título da página (Aquele que aparece na aba do navegador), <strong>&lt;p&gt;</strong> para parágrafos, <strong>&lt;h1,2,3,…&gt;</strong> para títulos do conteúdo, etc.<a id="more"></a><br>Porém, com o tempo, algumas pessoas param de utilizar essas tags e começam a bagunçar tudo! Usam o <strong>h1</strong> pra deixar um texto maior que o outro e não para o título em questão, usam várias tags <strong>p</strong> separando o conteúdo de uma lista em uma div com uma class <em>“list”</em>, por ai vai! Vira uma salada no HTML.<br>Isso é ruim tanto para quem vai ler seu código depois, quanto para buscadores e leitores de tela.</p>
 <h2 id="Qual_a_importância_da_semântica_no_HTML?">Qual a importância da semântica no HTML?</h2><p>A semântica será importante para que o seu conteúdo tenha sentido mesmo que não tenha nenhum estilo visual. Semântica é o significado da coisa! É graças a semântica que sua página vai indexar legal ou não nos buscadores. Não somente por isso, a semântica ajuda na <strong>acessibilidade</strong> de sua página ou aplicação - Ponto que eu acho mais importante.<br>O Crawler do Google não vai ver se sua página está bonitinha, mas vai ler seu HTML e indexar conforme o conteúdo esteja estruturado. Um leitor de tela também não vai ficar falando pra pessoa com necessidades especiais que determinado botão é uma lixeira ou um xiszinho vermelho, mas vai ler as tags e identificar o que você escreveu no atributo <strong>&lt;alt&gt;</strong> e falar para o usuário.<br>Faça um teste: Instale a extensão que eu indiquei <a href="/posts/extensoes-navegador-desenvolvimento-web/" title="Extensões do Navegador para Desenvolvimento Web">nesse artigo</a>, o <a href="https://chrome.google.com/webstore/detail/chromevox/kgejglhpjiefppelpmljglcjbhoiplfn" title="ChromeVox" target="_blank" rel="external">ChromeVox</a> e ative ela para que leia as páginas pra você. Da uma navegada em alguns sites por ai e veja se conseguiria entender de uma forma legal o que o leitor diz.<br>Esses foram só alguns dos tópicos que podemos levantar a respeito da importância da Semântica…</p>
 <h2 id="E_como_escrever_um_HTML_semântico?">E como escrever um HTML semântico?</h2><p>Não é difícil, basta você utilizar as tags para o que elas foram feitas.<br>O HTML serve para <a href="https://www.eventials.com/locaweb/diego-eis-a-semantica-do-html-5/" target="_blank" rel="external">organizar a informação</a>. Use pra isso.<br>Quando for estruturar um documento HTML, analise o Layout e identifique os elementos de conteúdo da interface.</p>
 <p><strong>O que é o que?</strong></p>
@@ -197,7 +287,9 @@
 <p>Espero ter ajudado a entender um pouco mais sobre o assunto e, se você já conhecia e não praticava, te convencido a utilizar as tags da maneira correta! :D<br>Alguma dúvida, link sobre o assunto ou sugestão? Comenta ae!</p>
 ]]></content>
     <summary type="html">
-    <![CDATA[<p>Quando estamos iniciando os estudos na área de Web aprendemos semântica e, as vezes, nem temos noção da importância disso. Aprendemos que cada tag HTML serve para alguma coisa: <strong>&lt;title&gt;</strong> para o título da página (Aquele que aparece na aba do navegador), <strong>&lt;p&gt;</strong> para parágrafos, <strong>&lt;h1,2,3,…&gt;</strong> para títulos do conteúdo, etc.]]>
+    <![CDATA[<div class="shared-img"><br><img src="../..//public/images/HTML.png" alt=""><br></div>
+
+<p>Quando estamos iniciando os estudos na área de Web aprendemos semântica e, as vezes, nem temos noção da importância disso. Aprendemos que cada tag HTML serve para alguma coisa: <strong>&lt;title&gt;</strong> para o título da página (Aquele que aparece na aba do navegador), <strong>&lt;p&gt;</strong> para parágrafos, <strong>&lt;h1,2,3,…&gt;</strong> para títulos do conteúdo, etc.]]>
     
     </summary>
     
@@ -216,12 +308,76 @@
   </entry>
   
   <entry>
+    <title><![CDATA[Utilizando o Trello para gerenciar Projetos]]></title>
+    <link href="http://woliveiras.com.br/posts/gerenciar-projetos-com-trello/"/>
+    <id>http://woliveiras.com.br/posts/gerenciar-projetos-com-trello/</id>
+    <published>2015-01-28T02:00:07.000Z</published>
+    <updated>2015-08-22T15:00:47.929Z</updated>
+    <content type="html"><![CDATA[<div class="shared-img"><br><img src="../../public/images/Trello.png" alt="Trello"></div>
+
+<p>Seguindo a linha de postagens sobre <a href="/posts/como-ser-mais-produtivo/" title="Como ser mais produtivo">produtividade</a>, eu sou obrigado a falar dessa ferramenta que utilizo muito e curto demais! É com ele que eu gerencio até as postagens que eu escrevo aqui no Blog…</p>
+<p>Se você precisa de uma ferramenta para ajudar a se organizar, o <a href="https://trello.com/" title="Trello" target="_blank" rel="external">Trello</a> é uma das que atendem muito bem!<a id="more"></a></p>
+<h2 id="O_que_é_o_Trello?">O que é o Trello?</h2><p>É uma ferramenta de Gerenciamento de Projetos muito fácil de ser utilizado e prático! Ele é aquele velho quadro onde colamos os Post-its para as tarefas que usamos em metodologias ágeis como o <a href="http://pt.wikipedia.org/wiki/Scrum" title="Scrum" target="_blank" rel="external">Scrum</a></p>
+<p><img src="../../public/images/taskboard-de-projeto-em-scrum-fazer-fazendo-feito.jpg" alt="Task Board"></p>
+<p>Porém é Web e pode ser acessado pelo navegador ou outros <a href="https://trello.com/platforms" title="Plataformas" target="_blank" rel="external">dispositivos</a>.</p>
+<h2 id="Como_funciona?">Como funciona?</h2><p>É simples. Você cria sua conta na ferramenta, faz o login e pode criar suas <strong>organizações</strong> onde coloca os detalhes do cliente. Cria seus <strong>Boards</strong> (Os quadros ou o projeto em sí) onde vai aplicar as <strong>listas</strong> e incluir todos os detalhes para as tasks que vai precisar.</p>
+<p>A metodologia que vai utilizar no projeto fica ao seu critério ou da equipe.</p>
+<h2 id="Exemplo_de_utilização">Exemplo de utilização</h2><p>O Trello não tem um padrão de utilização. Você vai planejar o Board de acordo com a metodologia que escolher em seu projeto. Se usa Scrum, vai colocar os nomes das listas conforme escolhido pelo Time, se não usa nenhuma vai colocar os nomes que escolher. Por ai vai.</p>
+<p>Para esse Blog eu me organizo da seguinte maneira:</p>
+<p>Criei um Board com o nome de Blog para a organização woliveiras (Eu).</p>
+<p><img src="../../public/images/Captura-de-tela-de-2015-01-24-1457041.png" alt="Board do Blog"></p>
+<p>Criei as listas com os nomes:</p>
+<ul>
+<li><strong>Ideas</strong>: Onde eu coloco todas as ideias de Posts que eu quero escrever (Um Product Backlog talvez… E tem muita coisa lá viu! Aguarde e vai curtir as próximas postagens… ;))</li>
+<li><strong>To Do</strong>: Movo para essa lista as ideias que eu vou escrever durante a semana (Seria um Sprint Backlog). Eu não estipulo prazos para isso, pois faço de acordo com que sobra tempo. Porém minha semana é meu Sprint.</li>
+<li><strong>Review</strong>: Depois de concluído o Post, movo o item para essa lista onde ficam todas as postagens que eu vou revisar antes de agendar ou publicar.</li>
+<li><strong>Done</strong>: É o que foi finalizado. Movo para essa lista os itens que já foram revisados e agora já podem ser publicados.</li>
+</ul>
+<p><img src="../../public/images/Captura-de-tela-de-2015-01-24-151337.png" alt="Listas"></p>
+<p>Com as listas criadas vou adicionando os Cards que são os Posts que serão escritos. Os títulos dos Cards são os títulos das postagens e no próprio cartão eu coloco os links para referências, se houver, imagens que vou colocar no Post, tópicos que devo abordar, etc.</p>
+<p><img src="../../public/images/Captura-de-tela-de-2015-01-24-152028.png" alt="Card"></p>
+<p>Eu crio <strong>checklists</strong> dentro dos Cards para ir marcando o que já foi concluído.</p>
+<p>Pronto! Agora eu só vou trabalhando em cima disso.</p>
+<h2 id="Extensões_para_deixar_o_Trello_ainda_melhor">Extensões para deixar o Trello ainda melhor</h2><h3 id="Sistema_de_pontos">Sistema de pontos</h3><p>Quem usa Scrum deve utilizar algum sistema de pontos. Para isso temos o <a href="https://chrome.google.com/webstore/detail/points-for-trello/mkcpchladphoadhaclmnlphhijboljjk" title="Points for Trello" target="_blank" rel="external">Points for Trello</a>. Os pontos podem ser traduzidos para dias, horas, etc.</p>
+<h3 id="Acessando_o_Trello_direto_de_uma_extensão">Acessando o Trello direto de uma extensão</h3><p>Sabe aquele menu de ferramentas do Chrome? Então da pra colocar uma extensãozinha que agiliza o uso do Trello diretamente. É o <a href="https://chrome.google.com/webstore/detail/points-for-trello/mkcpchladphoadhaclmnlphhijboljjk" title="My Cards for Trello" target="_blank" rel="external">My Cards for Trello</a>.</p>
+<h3 id="Esconder_o_que_não_quer_ver_no_momento">Esconder o que não quer ver no momento</h3><p>Você não precisa ver todas as listas o tempo todo, então pode usar a extensão <a href="https://chrome.google.com/webstore/detail/trellists-trello-lists-ma/dgnlcodfeenegnifnpcabcclldoceeml" title="Top bar for Trello" target="_blank" rel="external">Top bar for Trello</a> para ocultar o que não quiser no momento.</p>
+<p>Essas são as que eu utilizo no dia-a-dia, porém existem várias outras. Da uma olhada <a href="https://chrome.google.com/webstore/search/Trello?utm_source=chrome-ntp-icon&amp;_category=extensions" title="Extensões para o Chrome" target="_blank" rel="external">aqui</a>.</p>
+<p><strong>Referências</strong></p>
+<p><a href="http://eltonminetto.net/blog/2012/06/27/gerenciando-projetos-com-o-trello/" title="Gerenciando projetos com o Trello" target="_blank" rel="external">Elton Minetto</a></p>
+<p><a href="http://www.seomaster.com.br/blog/as-6-melhores-extensoes-do-trello" title="As 6 melhores extensões do Trello" target="_blank" rel="external">SEOMaster</a></p>
+<p>E você tem mais alguma dica para utilização do Trello ou outras ferramentas? Comenta ai!</p>
+]]></content>
+    <summary type="html">
+    <![CDATA[<div class="shared-img"><br><img src="../../public/images/Trello.png" alt="Trello"></div>
+
+<p>Seguindo a linha de postagens sobre <a href="/posts/como-ser-mais-produtivo/" title="Como ser mais produtivo">produtividade</a>, eu sou obrigado a falar dessa ferramenta que utilizo muito e curto demais! É com ele que eu gerencio até as postagens que eu escrevo aqui no Blog…</p>
+<p>Se você precisa de uma ferramenta para ajudar a se organizar, o <a href="https://trello.com/" title="Trello">Trello</a> é uma das que atendem muito bem!]]>
+    
+    </summary>
+    
+      <category term="Dicas" scheme="http://woliveiras.com.br/tags/Dicas/"/>
+    
+      <category term="Gerenciamento de Projetos" scheme="http://woliveiras.com.br/tags/Gerenciamento-de-Projetos/"/>
+    
+      <category term="Produtividade" scheme="http://woliveiras.com.br/tags/Produtividade/"/>
+    
+      <category term="Dicas" scheme="http://woliveiras.com.br/categories/Dicas/"/>
+    
+      <category term="Gerenciamento de Projetos" scheme="http://woliveiras.com.br/categories/Dicas/Gerenciamento-de-Projetos/"/>
+    
+      <category term="Produtividade" scheme="http://woliveiras.com.br/categories/Dicas/Gerenciamento-de-Projetos/Produtividade/"/>
+    
+  </entry>
+  
+  <entry>
     <title><![CDATA[Como alcançar objetivos rapidamente nos estudos (Sem ficar louco)]]></title>
     <link href="http://woliveiras.com.br/posts/como-alcancar-objetivos-rapidamente-nos-estudos/"/>
     <id>http://woliveiras.com.br/posts/como-alcancar-objetivos-rapidamente-nos-estudos/</id>
     <published>2015-01-27T07:00:32.000Z</published>
-    <updated>2015-08-14T00:07:49.702Z</updated>
-    <content type="html"><![CDATA[<p>Essa é mais uma dica sobre produtividade, porém agora é nos estudos.<br>Nós, Desenvolvedores, temos de estudar muito. Todo dia alguma ferramenta atualiza ou algo vira tendência e passa a ser usado no serviço e temos de aprender. E como fazer para aprender tudo isso sem ficar louco e de um jeito que consiga alcançar os objetivos mais rapidamente?<a id="more"></a><br>Se você não leu meu post anterior sobre produtividade da uma olhada <a href="/posts/como-ser-mais-produtivo/" title="Como ser mais produtivo?">aqui</a>.</p>
+    <updated>2015-08-22T15:02:13.795Z</updated>
+    <content type="html"><![CDATA[<div class="shared-img"><br><img src="../..//public/images/crazy.png" alt=""><br></div>
+
+<p>Essa é mais uma dica sobre produtividade, porém agora é nos estudos.<br>Nós, Desenvolvedores, temos de estudar muito. Todo dia alguma ferramenta atualiza ou algo vira tendência e passa a ser usado no serviço e temos de aprender. E como fazer para aprender tudo isso sem ficar louco e de um jeito que consiga alcançar os objetivos mais rapidamente?<a id="more"></a><br>Se você não leu meu post anterior sobre produtividade da uma olhada <a href="/posts/como-ser-mais-produtivo/" title="Como ser mais produtivo?">aqui</a>.</p>
 <h2 id="Listas_de_novo">Listas de novo</h2><p>Eu aprendi que fazer listas para tudo é uma ótima maneira de você ter certeza que vai concluir algo. Parece que você se obriga a fazer aquilo e se apagar da lista sem concluir parece um pecado! No caso de estudos não é diferente.</p>
 <p><strong>Vamos ao passo a passo:</strong></p>
 <h3 id="O_que_você_vai_estudar?">O que você vai estudar?</h3><p>Em uma folha escreva <strong>10 itens</strong> que você precisa estudar ou que eu deseja aprender. Pode ser qualquer coisa, não necessariamente sobre programação.<br>Ex.:</p>
@@ -258,7 +414,9 @@
 <h3 id="Descanse…">Descanse…</h3><p>Entre um item e outro da lista, é necessário - Não obrigatório se você for um robô - que tire uma pausa. Dê um tempo para sua mente descansar. Se você se estressar demais, de nada vai adiantar essa lista.<br>Vai curtir um parque, dar um rolê, sei lá. É importante que, para você estudar bem, você mantenha sua mente e seu corpo saudáveis Você não é de ferro. - Pratique um esporte…<br>Essa dica serve para várias coisas, não somente para os estudos. Quando tiver alguma coisa que você não sabe por onde começar, tente usar essa técnica.<br>Se você curtiu, compartilhe o conteúdo! Se sabe alguma outra forma legal de estudar comenta aí! :D</p>
 ]]></content>
     <summary type="html">
-    <![CDATA[<p>Essa é mais uma dica sobre produtividade, porém agora é nos estudos.<br>Nós, Desenvolvedores, temos de estudar muito. Todo dia alguma ferramenta atualiza ou algo vira tendência e passa a ser usado no serviço e temos de aprender. E como fazer para aprender tudo isso sem ficar louco e de um jeito que consiga alcançar os objetivos mais rapidamente?]]>
+    <![CDATA[<div class="shared-img"><br><img src="../..//public/images/crazy.png" alt=""><br></div>
+
+<p>Essa é mais uma dica sobre produtividade, porém agora é nos estudos.<br>Nós, Desenvolvedores, temos de estudar muito. Todo dia alguma ferramenta atualiza ou algo vira tendência e passa a ser usado no serviço e temos de aprender. E como fazer para aprender tudo isso sem ficar louco e de um jeito que consiga alcançar os objetivos mais rapidamente?]]>
     
     </summary>
     
@@ -281,8 +439,10 @@
     <link href="http://woliveiras.com.br/posts/como-ser-mais-produtivo/"/>
     <id>http://woliveiras.com.br/posts/como-ser-mais-produtivo/</id>
     <published>2015-01-26T08:00:53.000Z</published>
-    <updated>2015-08-08T13:38:16.470Z</updated>
-    <content type="html"><![CDATA[<p>Uma das minhas grandes preocupações na vida é ser prdutivo! Eu gosto de fazer as coisas o mais rápido possível e estou sempre buscando maneiras de automatizar ou organizar as coisas de maneira que eu consiga cada vez mais produtividade.<a id="more"></a><br>Durante algum tempo fui testando várias abordagens e técnicas de produtividade. Técnicas que podem ser aplicadas no serviço, para estudos ou mesmo para cumprir tarefas do cotidiano(Como lembrar de pagar uma conta ou do que precisa comprar no mercado).<br>Segue algumas dicas do que melhor funcionou pra mim até agora.</p>
+    <updated>2015-08-22T15:06:11.671Z</updated>
+    <content type="html"><![CDATA[<div class="shared-img"><br><img src="../..//public/images/produtividade.jpg" alt=""><br></div>
+
+<p>Uma das minhas grandes preocupações na vida é ser prdutivo! Eu gosto de fazer as coisas o mais rápido possível e estou sempre buscando maneiras de automatizar ou organizar as coisas de maneira que eu consiga cada vez mais produtividade.<a id="more"></a><br>Durante algum tempo fui testando várias abordagens e técnicas de produtividade. Técnicas que podem ser aplicadas no serviço, para estudos ou mesmo para cumprir tarefas do cotidiano(Como lembrar de pagar uma conta ou do que precisa comprar no mercado).<br>Segue algumas dicas do que melhor funcionou pra mim até agora.</p>
 <h2 id="Faça_listas">Faça listas</h2><p>Eu faço listas com as tarefas que tenho de cumprir e, de acordo com que termino a tarefa, a marco como concluída ou apago da lista.<br>Para isso utilizo um aplicativo que da pra usar tanto no PC, quanto no Celular: O <a href="https://www.wunderlist.com/pt/" title="Wunderlist" target="_blank" rel="external">Wunderlist</a>.<br>Nele eu separo o que é projeto pessoal, o que é projeto profissional e até o que eu estou estudando/planejo estudar por pastas e nessas pastas coloco os tópicos. De acordo com que vou concluindo, marco como concluído e pronto! A tarefa fica riscadinha e oculta na lista.</p>
 <p><strong>Como usar Wunderlist no serviço?</strong></p>
 <p>Logo que chego eu vejo tudo o que tenho de fazer e já monto as listas. Caso apareça algo novo eu vou incluindo nas listas de acordo com a prioridade da tarefa (Alta, Média ou Baixa).<br>É igual fazer uma lista de compras, mas você vai organizando de acordo com o nível de importância.<br><em>Não tem como eu lhe dizer o que é mais importante, isso varia de acordo com seu serviço. Então você precisa analisar isso para organizar corretamente.</em><br>Outro aplicativo maneiro, que eu usei, é o <a href="http://keep.google.com/" title="Google Keep" target="_blank" rel="external">Google Keep</a>.<br>Se mais alguém da sua equipe utilizar esses aplicativos é maneiro compartilhar os itens da lista ou as pessoas montarem as tarefas e enviarem para você.<br>Se você é Gestor, a dica é o <a href="http://runrun.it/pt-BR?gclid=CPXjurvUp8MCFUEV7AodBGcAPA&amp;group=institucional&amp;origin=google_institucional" title="Runrunit" target="_blank" rel="external">Runrunit</a>, que é feito pensando em gerencia de equipes!</p>
@@ -291,7 +451,9 @@
 <h2 id="Estipule_prazos_para_tudo">Estipule prazos para tudo</h2><p>Sim! Dê prazos para tudo. Isso vai te ajudar a saber se está indo bem ou não. Assim você consegue entender melhor quais são os motivos dos atrasos e quais são suas maiores dificuldades. Se você identificar que todas as tarefas estão atrasadas, então precisa encontrar quais delas fizeram as outras atrasarem e trabalhe em cima daquela dificuldade até que não tenha mais problemas com isso.<br>Uma dica é colocar nas listas o horário em que precisa terminar a tarefa. No Wunderlist eu faço isso colocando um <strong>lembrete</strong> para um determinado horário.<br>E você como tem feito para ser mais produtivo?</p>
 ]]></content>
     <summary type="html">
-    <![CDATA[<p>Uma das minhas grandes preocupações na vida é ser prdutivo! Eu gosto de fazer as coisas o mais rápido possível e estou sempre buscando maneiras de automatizar ou organizar as coisas de maneira que eu consiga cada vez mais produtividade.]]>
+    <![CDATA[<div class="shared-img"><br><img src="../..//public/images/produtividade.jpg" alt=""><br></div>
+
+<p>Uma das minhas grandes preocupações na vida é ser prdutivo! Eu gosto de fazer as coisas o mais rápido possível e estou sempre buscando maneiras de automatizar ou organizar as coisas de maneira que eu consiga cada vez mais produtividade.]]>
     
     </summary>
     
@@ -308,8 +470,10 @@
     <link href="http://woliveiras.com.br/posts/requisitos-para-vagas-front-end/"/>
     <id>http://woliveiras.com.br/posts/requisitos-para-vagas-front-end/</id>
     <published>2015-01-23T10:00:19.000Z</published>
-    <updated>2015-08-07T11:09:47.575Z</updated>
-    <content type="html"><![CDATA[<p>Quantas vezes não nos deparamos com as seguintes dúvidas:</p>
+    <updated>2015-08-22T15:16:11.282Z</updated>
+    <content type="html"><![CDATA[<div class="shared-img"><br><img src="../..//public/images/trampo.jpg" alt=""><br></div>
+
+<p>Quantas vezes não nos deparamos com as seguintes dúvidas:</p>
 <ul>
 <li>Será que estou pronto para o mercado de trabalho?_</li>
 <li>Será que eu sei o suficiente para encarar aquela oportunidade em determinada empresa?</li>
@@ -330,7 +494,9 @@
 <h5 id="E_se_eu_não_passar_na_entrevista?">E se eu não passar na entrevista?</h5><p>A vida continua… Continue estudando, continue buscando, continue treinando e nunca desista do seu sonho!</p>
 ]]></content>
     <summary type="html">
-    <![CDATA[<p>Quantas vezes não nos deparamos com as seguintes dúvidas:</p>
+    <![CDATA[<div class="shared-img"><br><img src="../..//public/images/trampo.jpg" alt=""><br></div>
+
+<p>Quantas vezes não nos deparamos com as seguintes dúvidas:</p>
 <ul>
 <li>Será que estou pronto para o mercado de trabalho?_</li>
 <li>Será que eu sei o suficiente para encarar aquela oportunidade em determinada empresa?</li>
@@ -411,11 +577,271 @@
   </entry>
   
   <entry>
+    <title><![CDATA[Como deixar o Ubuntu mais rápido]]></title>
+    <link href="http://woliveiras.com.br/posts/como-deixar-o-ubuntu-mais-rapido/"/>
+    <id>http://woliveiras.com.br/posts/como-deixar-o-ubuntu-mais-rapido/</id>
+    <published>2015-01-19T07:00:19.000Z</published>
+    <updated>2015-08-22T15:20:38.574Z</updated>
+    <content type="html"><![CDATA[<div class="shared-img"><br><img src="../..//public/images/ubuntu.png" alt=""><br></div>
+
+<p>Sou fã de Linux, e deixei bem claro <a href="/posts/meu-contato-com-o-linux-e-por-que-voce-deveria-testar/" title="Meu contato com o Linux e por que você deveria testar">nesse post</a>. Atualmente estou usando o Ubuntu e muita gente tem reclamado da performance do Unity. Eu, sinceramente, detestei o Unity quando lançado e não estou gostando do rumo “Windows 8 Metro” que ele tem tomado. O pessoal quer transformar o Sistema que uso no PC o mesmo que eu vou usar no Celular e isso não tem me agradado - Porém isso é papo para outra hora. Vamos ao foco que é melhorar a velocidade do Ubuntu.<a id="more"></a><br>Minha máquina, hoje em dia, não é nem um pouco robusta - Core i3 de 3.2, 4 GB de memória, HD SATA 3 - e o primeiro PC que eu tive com Ubuntu também não era. Porém, na época era o Ubuntu 10.04, então rodava lisinho!<br>Para melhorar a velocidade do danado eu fiz as seguintes configurações(Todos os softwares podem ser instalados via Terminal ou pesquisando pelo nome deles na Central de Programas, mas aqui eu só deixei o comando. Pode fazer como você achar melhor. ;D)</p>
+<h2 id="Atualize_seu_O-S-">Atualize seu O.S.</h2><p>Muitas vezes temos problema que são resolvidos pela Canonical com atualizações e, as vezes, a performance depende disso. Portanto atualize agora! É bom ter os drivers de vídeo de fábrica instalados e não os que vem por padrão, mas não vou entrar em detalhes na instalação de Drivers por que é muito variável. Se sua placa for NVidia ou ATI, da uma olhada nesse <a href="http://www.edivaldobrito.com.br/como-instalar-os-ultimos-drivers-da-nvidia-ou-ati-no-ubuntu-e-derivados/" title="Como instalar os últimos drivers da NVIDIA ou ATI no Ubuntu e derivados" target="_blank" rel="external">post</a> no Blog do Edivaldo que você vai ter uma solução! :D<br>Execute o seguinte comando sempre que for atualizar o O.S.:<br><figure class="highlight actionscript"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">sudo apt-<span class="keyword">get</span> updade &amp;amp;&amp;amp; sudo apt-<span class="keyword">get</span> upgrade -y</span><br></pre></td></tr></table></figure></p>
+<p>Ou abra o Atualizador. ;)</p>
+<h2 id="Desligue_os_efeitos_visuais">Desligue os efeitos visuais</h2><p>Para essa dica é necessário o uso do terminal, porém é facinho…<br>Abra o Teminal e abra o arquivo <strong>~/.xprofile</strong>:<br>Se quiser use o <strong>VI</strong> ou <strong>NANO</strong> pelo terminal, senão curtir ou não conhecer você pode executar:<br><figure class="highlight nginx"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="title">sudo</span> gedit ~/.xprofile</span><br></pre></td></tr></table></figure></p>
+<p>Localize e mude a linha:<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="built_in">export</span> UNITY_LOW_GFX_MODE=<span class="number">0</span></span><br></pre></td></tr></table></figure></p>
+<p>Para:<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="built_in">export</span> UNITY_LOW_GFX_MODE=<span class="number">1</span></span><br></pre></td></tr></table></figure></p>
+<p><strong>Se o arquivo não existir</strong>, rode o comando:<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="built_in">echo</span> <span class="string">"export UNITY_LOW_GFX_MODE=1"</span> &amp;gt; ~/.xprofile</span><br></pre></td></tr></table></figure></p>
+<p>Agora é só reiniciar ou deslogar e logar novamente.</p>
+<h2 id="Compiz_Config_Settings_Manager">Compiz Config Settings Manager</h2><p>Com a configuração que passei no começo do post os efeitos visuais já serão todos desabilitados, porém ainda da pra brincar mais instalando esse aplicativo que consegue mudar tudo na interface! Mas cuidado! Esse só deve ser utilizado livremente quando você já manjar legal de Ubuntu, pois um erro aqui vai te dar um pouco de dor de cabeça…<br>Para instalar rode:<br><figure class="highlight actionscript"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">sudo apt-<span class="keyword">get</span> install compizconfig-settings-manager</span><br></pre></td></tr></table></figure></p>
+<p>E com ele instalado poderemos configurar muita coisa. Como:</p>
+<h2 id="Minimizar_com_um_clique">Minimizar com um clique</h2><p>Quando clicamos no ícone do programa na barra lateral do Ubuntu, ele não é minimizado como acontece em outros Sistemas. Para conseguirmos isso basta fazer uma pequena configuração.</p>
+<p>Abra o Compiz Config - Basta pesquisar por Compiz no Dash (Menu Iniciar do Ubuntu) - e clique em <strong>Ubuntu Unity Plugin</strong>, clique na aba <strong>Launcher</strong> e deixe marcado a opção <strong>Minimize Single Window Applications (Unsupported).</strong></p>
+<h2 id="Diminuir_ou_remover_a_sombra_nas_Janelas">Diminuir ou remover a sombra nas Janelas</h2><p>Eu diminuo a sombra por que acho bem feio a janela com aquilo… Para diminuir ou remover você vai na aba <strong>Decorations</strong> (Ainda na tela do<strong> Unity Plugin</strong> que mexemos ainda acima), selecione a caixinha <strong>Override Theme Settings </strong>e mude os valores das sombras (Shadow X, Shadow Y, Active Window Shadow). Se colocar 0 em tudo, as janelas ficarão sem nenhuma sombra.</p>
+<h2 id="Menu_das_janelas_aparecendo_num_piscar_de_olhos">Menu das janelas aparecendo num piscar de olhos</h2><p>Sabe quando você maximiza uma janela e o menu some? Então, para fazer eles aparecerem basta passar o mouse no topo da janela, porém eles vem com um efeito de Fade-in/Fade-out. Eu desativo esse efeito para eles virem mais rápido. Ainda no Compiz e na mesma janela do Unity clique na aba <strong>Menus</strong> e deixe tudo <strong>0</strong>. Pronto! Agora será instantâneo.</p>
+<h2 id="Open_GL_no_modo_Rápido">Open GL no modo Rápido</h2><p><a href="http://pt.wikipedia.org/wiki/OpenGL" title="OpenGL segundo a Wikipedia" target="_blank" rel="external">OpenGL</a> é uma API utilizada para desenvolvimento de aplicativos Gráficos (Tipo o DirectX). Volte a tela inicial do Compiz e clique em <strong>OpenGL</strong>, na opção <strong>Filtro de textura</strong>, mude para <strong>Rápido.</strong> Se a opção <strong>Sincronização</strong> <strong>VBlank</strong> não estiver ativada, ative agora. Vai dar uma boa velocidade pro PC!</p>
+<h2 id="Preload">Preload</h2><p>Em algumas distros ele está vindo por padrão, mas no Ubuntu ainda não. <strong>Essa dica é para quem tem mais de 4GB de RAM</strong>. Ele armazena os programas e libs mais utilizadas em memória fazendo com que a abertura de programas fique muito mais rápida. Olha só:</p>
+<p><img src="../../public/images/ubuntu-preload.gif" alt="ubuntu-preload"></p>
+<p>Para instalar:</p>
+<pre class="nums:false lang:sh decode:true">sudo apt-get install preload</pre>
+
+<h2 id="ZRam">ZRam</h2><p><strong>Se você utiliza SSD no lugar de HD, pode pular esse tópico</strong>.</p>
+<p>O I/O em Disco é bem mais lento que em memória RAM. Sabendo disso você pode instalar o ZRam que utiliza a memória RAM no lugar de Disco para área de troca (Swap) o que aumenta consideravelmente a velocidade do seu PC.</p>
+<figure class="highlight smali"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">sudo<span class="instruction"> add-apt-repository </span>ppa:shnatsel/zram <span class="keyword">[</span>PRESSIONE ENTER]</span><br><span class="line">sudo apt-get update <span class="keyword">[</span>PRESSIONE ENTER]</span><br><span class="line">sudo apt-get install zramswap-enabler</span><br></pre></td></tr></table></figure>
+<h2 id="Dicas_extra_pra_deixar_o_Ubuntu_mais_melhor_de_bom!">Dicas extra pra deixar o Ubuntu mais melhor de bom!</h2><h3 id="TLP">TLP</h3><p>Esse salva a minha vida! Ele serve para gerenciar melhor o consumo da bateria pelo Ubuntu.<br>Para funcionar será necessário remover o gerenciador padrão:<br><figure class="highlight vim"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">sudo apt-<span class="built_in">get</span> <span class="built_in">remove</span> laptop-<span class="built_in">mode</span>-tools</span><br></pre></td></tr></table></figure></p>
+<p>E agora instale com os comandos:</p>
+<figure class="highlight smali"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">sudo<span class="instruction"> add-apt-repository </span>ppa:linrunner/tlp <span class="keyword">[</span>PRESSIONE ENTER]</span><br><span class="line">sudo apt-get update  <span class="keyword">[</span>PRESSIONE ENTER]</span><br><span class="line">sudo apt-get install tlp tlp-rdw</span><br></pre></td></tr></table></figure>
+<p>Mas assim ele só vai ficar instalado e só vai rodar depois de reiniciar o PC, então execute o comando:</p>
+<figure class="highlight dos"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">sudo tlp <span class="built_in">start</span></span><br></pre></td></tr></table></figure>
+<p>E ele vai rodar desde já! (Não é necessário reiniciar)</p>
+<h3 id="System_Load_Indicator">System Load Indicator</h3><p>Você gosta de gerenciar o PC, ficar olhando quanto está consumindo de memória, rede, etc? Então esse programinha vai servir muito bem! Ele cria um indicador na barra superior do Ubuntu para você ficar olhando o que acontece.</p>
+<p><pre class="nums:false lang:php decode:true lang=shell">sudo apt-get install indicator-multiload</pre><br>Para configurar ele, é só clicar em cima do ícone (Que estará perto do indicador da rede) e depois clicar em preferências. Eu deixo o indicador sempre exibindo o tráfego em minha rede para monitorar se está tudo OK.</p>
+<h3 id="Keylock">Keylock</h3><p>Pra quem curte receber avisos quando o Caps Look é ativado basta rodar:</p>
+<figure class="highlight smali"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">sudo<span class="instruction"> add-apt-repository </span>ppa:tsbarnes/indicator-keylock <span class="keyword">[</span>PRESSIONE ENTER]</span><br><span class="line">sudo apt-get update <span class="keyword">[</span>PRESSIONE ENTER]</span><br><span class="line">sudo apt-get install indicator-keylock</span><br></pre></td></tr></table></figure>
+<p>Além dessas configurações, se você quiser mais performance ainda é preciso instalar outro gerenciador de Desktop no lugar do Unity (<a href="http://lxde.org/pt-br" title="LXDE" target="_blank" rel="external">LXDE</a>, <a href="http://www.xfce.org/" title="XFCE" target="_blank" rel="external">XFCE</a>, etc). Nesse caso teríamos uma alternativa bem legal que é o <a href="http://xubuntu.org/" title="Xubuntu" target="_blank" rel="external">Xubuntu</a>.</p>
+<p>Todas as dicas eu uso no meu PC, algumas foram através de testes pessoais e outras através de alguns blogs legais sobre o Ubuntu que são esses:</p>
+<ul>
+<li><a href="https://linuxtugaz.wordpress.com/2014/04/20/deixe-o-seu-ubuntu-14-04-quase-perfeito/" title="Linux Tugaz" target="_blank" rel="external">Linux Tugaz</a></li>
+<li><a href="http://elias.praciano.com/2014/05/como-melhorar-o-desempenho-do-ubuntu/" title="Elias Praciano" target="_blank" rel="external">Elias Praciano</a></li>
+<li><a href="http://www.ubuntubrsc.com/como-deixar-seu-ubuntu-mais-rapido.html" title="UbuntuBRSC" target="_blank" rel="external">Ubuntu BR SC</a></li>
+</ul>
+<p>E você tem alguma dica para melhorar ou personalizar mais as distros? Comenta ae! :D</p>
+]]></content>
+    <summary type="html">
+    <![CDATA[<div class="shared-img"><br><img src="../..//public/images/ubuntu.png" alt=""><br></div>
+
+<p>Sou fã de Linux, e deixei bem claro <a href="/posts/meu-contato-com-o-linux-e-por-que-voce-deveria-testar/" title="Meu contato com o Linux e por que você deveria testar">nesse post</a>. Atualmente estou usando o Ubuntu e muita gente tem reclamado da performance do Unity. Eu, sinceramente, detestei o Unity quando lançado e não estou gostando do rumo “Windows 8 Metro” que ele tem tomado. O pessoal quer transformar o Sistema que uso no PC o mesmo que eu vou usar no Celular e isso não tem me agradado - Porém isso é papo para outra hora. Vamos ao foco que é melhorar a velocidade do Ubuntu.]]>
+    
+    </summary>
+    
+      <category term="Ambiente" scheme="http://woliveiras.com.br/tags/Ambiente/"/>
+    
+      <category term="Dicas" scheme="http://woliveiras.com.br/tags/Dicas/"/>
+    
+      <category term="Linux" scheme="http://woliveiras.com.br/tags/Linux/"/>
+    
+      <category term="Dicas" scheme="http://woliveiras.com.br/categories/Dicas/"/>
+    
+      <category term="Linux" scheme="http://woliveiras.com.br/categories/Dicas/Linux/"/>
+    
+  </entry>
+  
+  <entry>
+    <title><![CDATA[Meu contato com o Linux e por que você deveria testar]]></title>
+    <link href="http://woliveiras.com.br/posts/meu-contato-com-o-linux-e-por-que-voce-deveria-testar/"/>
+    <id>http://woliveiras.com.br/posts/meu-contato-com-o-linux-e-por-que-voce-deveria-testar/</id>
+    <published>2015-01-16T12:10:25.000Z</published>
+    <updated>2015-08-22T13:49:35.364Z</updated>
+    <content type="html"><![CDATA[<div class="shared-img"><br><img src="../../public/images/linux-icon.png" alt="Linux"><br></div>
+
+<p>Depois de ler o artigo do Daciuk sobre <a href="http://blog.da2k.com.br/2015/01/15/como-ser-um-dev-frontend-usando-linux/" title="Como ser um dev frontend usando Linux" target="_blank" rel="external">Como ser um dev frontend usando Linux</a>, decidi comentar como foi minha experiência no mundo Linux.</p>
+<p>Minha história com <a href="http://pt.wikipedia.org/wiki/Linux" title="O que é Linux" target="_blank" rel="external">Linux</a> começou quando eu conheci o <a href="http://pt.wikipedia.org/wiki/Kurumin" title="Kurumin" target="_blank" rel="external">Kurumin Linux</a> - Sim, eu sou tiozinho com esse S.O. cara. Na época eu trabalhava com Infraestrutura e fazia manutenção de micros. Acabei lendo em algum lugar que eu precisaria manjar de Linux para ser um profissional mais completo. Pois bem… Eu fui aprender sobre o danado!<a id="more"></a></p>
+<div id="distros">Desde lá passei por várias distros como <a href="https://www.debian.org/index.pt.html" title="Debian" target="_blank" rel="external">Debian</a>, <a href="https://www.archlinux.org/" title="Arch" target="_blank" rel="external">Arch</a>, <a href="https://getfedora.org/" title="Fedora" target="_blank" rel="external">Fedora</a>, <a href="https://pt.opensuse.org/Bem-vindo_ao_openSUSE.org" title="OpenSUSE" target="_blank" rel="external">OpenSUSE</a>, <a href="http://www.ubuntu.com/" title="Ubuntu" target="_blank" rel="external">Ubuntu</a> (Que eu uso atualmente), <a href="http://elementaryos.org/" title="ElementaryOS" target="_blank" rel="external">ElementaryOS</a> e alguns que eu nem lembro o nome! E nesse artigo vou tentar te orientar um pouco sobre esse mundo maneiro do Open Source e do Software Livre ou Free.</div>
+
+<h5 id="Open_Source,_Livre,_Gratuito,_qual_a_diferença?">Open Source, Livre, Gratuito, qual a diferença?</h5><p>Daria pra escrever uma Bíblia sobre o assunto, mas é melhor você dar uma lida <a href="http://www.infowester.com/freexopen.php" title="Software livre, código aberto e software gratuito: as diferenças" target="_blank" rel="external">nesse artigo</a> e olhar <a href="http://softwarelivre.org/open-source-codigo-aberto" title="Software Livre Brasil" target="_blank" rel="external">esse site</a> para entender sobre o assunto.</p>
+<p>Eu e quase 100% dos usuários de Linux, não usamos linux simplesmente por podermos baixar e utilizar as Distribuições de graça, - Se um Software é bom e funcional a gente paga por ele também! <del>Tá tirando???</del> - mas pela estabilidade e, muitas vezes, pela praticidade em utilizar algumas coisas de Desenvolvimento ou simplesmente por ser mais leve em Hardware antigo.</p>
+<p>Eu gosto do Open Source por que sou livre para editar o meu Sistema Operacional a vontade e a comunidade é show!</p>
+<h5 id="O_que_é_uma_Distro_ou_Distribuição_Linux?">O que é uma Distro ou Distribuição Linux?</h5><p>A <a href="http://pt.wikipedia.org/wiki/Distribui%C3%A7%C3%A3o_Linux" title="Distribuição Linux" target="_blank" rel="external">Distro</a> é um conjunto do core Linux com alguns softwares formando o Sistema Operacional que você vai utilizar. No exemplo dos <a href="#distros">nomes que eu sitei</a> temos algumas das principais Distros do mercado atual, fora o <a href="http://www.linuxmint.com/" title="Linux Mint" target="_blank" rel="external">Mint</a> e <a href="http://ubuntugnome.org/" title="Ubuntu Gnome" target="_blank" rel="external">Ubuntu Gnome</a>.</p>
+<h5 id="E_por_que_eu_deveria_usar_Linux_então?">E por que eu deveria usar Linux então?</h5><p>Se você é Desenvolvedor, use pelo conhecimento da arquitetura do Sistema Operacional que, muitas vezes, será usado nos servidores que vão armazenar sua aplicação. Com o Linux você pode conseguir ser mais produtivo. - Claro que se você é produtivo no Windows e quer continuar, não tem problema, mas por que não testar outro? Vai que…</p>
+<p>Se é Usuário comum, pelo simples fato de sair da pirataria! Instala Ubuntu, abre o Chrome e fica no Facebook o dia inteiro, igualzinho você faz no seu Windows pirata cara…</p>
+<p><strong>Eu não sou Xiita</strong> e não vou falar pra você ir de vez para Linux se você descobrir que não pode por algum motivo, como um Software que só funcione em Windows ou Mac ou alguma coisa do tipo, Hardware, ou mesm por que você não quer… Simplesmente não migre… Porém, é como eu disse, não custa testar, pois é mais conhecimento adquirido.</p>
+<p>Você deve vir para esse lado da força se se sentir confortável testando o S.O. e nada te atrapalhar.</p>
+<p>Temos de ser razoáveis… Fazer gambiarra pra um software funcionar só pra dizer que usa Linux seria bobagem.</p>
+<p>Se você se sentir forçado a usar Linux, então já está quebrando o sentido do incentivoao teste. É para usar Linux para ser livre!</p>
+<h5 id="Como_começar_com_o_Linux?">Como começar com o Linux?</h5><p>Pesquise no Googlis sobre as distribuições disponíveis no mercado e como cada uma é utilizada. Saiba como elas funcionam e o ciclo de atualizações, Softwares compatíveis (É raro um software que funcione em uma distro não funcionar na outra, porém vai que…), se você não manja de Inglês, veja se tem Documentação em PT-BR.</p>
+<p>Eu indicaria Ubuntu para você que é iniciante por N motivos, mas hoje temos muito mais opções para iniciar, então é possível você achar uma e curtir mais pesquisando na net do que eu indicando as que gosto.</p>
+<p>Depois veja se seu Hardware é compatível na distribuição que você deseja testar - Eu passei muita raiva para configurar meu Wireless no Debian e no Arch. Mas calma; <strong>você não vai se matar para configurar o PC, está tudo no Google!</strong> Porém, se você pegar uma distro mais complicada pode se chatear e desistir do teste… Acontece muito com iniciantes.</p>
+<p>Para conhecer bastante sobre o assunto será bom dar uma pesquisada em foruns, ler uns artigos ou livros. Eu indico o seguinte:</p>
+<p><a href="http://www.guiafoca.org/" title="Guia Foca" target="_blank" rel="external">Guia Foca GNU/Linux</a></p>
+<p>Se for usar Ubuntu, da uma olhada <a href="http://ubuntu-br.org/comece" title="Ubuntu - Comece Aqui!" target="_blank" rel="external">aqui</a>.</p>
+<p>E se quiser um livro maneiro, tem o da <a href="http://www.casadocodigo.com.br/products/livro-linux" title="Começando com o Linux: Comandos, serviços e administração" target="_blank" rel="external">Casa do Código</a> que aborda muita coisa e o <a href="http://orgulhogeek.net/ubuntu-guia-do-iniciante/" title="Orgulho Geek" target="_blank" rel="external">Guia do Iniciante(Ubuntu)</a> do Orgulho Geek.</p>
+<p>Escolhido a Distro, verificado a compatibilidade, aprendeu um pouco… Vai pra cima! Se quiser comece instalando numa máquina virtual para ir conhecendo e testando tudo e quando se sentir confortável parte para o uso no dia-a-dia.</p>
+<p><strong>Seja Livre, use Linux! :D</strong></p>
+]]></content>
+    <summary type="html">
+    <![CDATA[<div class="shared-img"><br><img src="../../public/images/linux-icon.png" alt="Linux"><br></div>
+
+<p>Depois de ler o artigo do Daciuk sobre <a href="http://blog.da2k.com.br/2015/01/15/como-ser-um-dev-frontend-usando-linux/" title="Como ser um dev frontend usando Linux">Como ser um dev frontend usando Linux</a>, decidi comentar como foi minha experiência no mundo Linux.</p>
+<p>Minha história com <a href="http://pt.wikipedia.org/wiki/Linux" title="O que é Linux">Linux</a> começou quando eu conheci o <a href="http://pt.wikipedia.org/wiki/Kurumin" title="Kurumin">Kurumin Linux</a> - Sim, eu sou tiozinho com esse S.O. cara. Na época eu trabalhava com Infraestrutura e fazia manutenção de micros. Acabei lendo em algum lugar que eu precisaria manjar de Linux para ser um profissional mais completo. Pois bem… Eu fui aprender sobre o danado!]]>
+    
+    </summary>
+    
+      <category term="Ambiente" scheme="http://woliveiras.com.br/tags/Ambiente/"/>
+    
+      <category term="Dicas" scheme="http://woliveiras.com.br/tags/Dicas/"/>
+    
+      <category term="Linux" scheme="http://woliveiras.com.br/tags/Linux/"/>
+    
+      <category term="Ambiente" scheme="http://woliveiras.com.br/categories/Ambiente/"/>
+    
+      <category term="Dicas" scheme="http://woliveiras.com.br/categories/Ambiente/Dicas/"/>
+    
+      <category term="Linux" scheme="http://woliveiras.com.br/categories/Ambiente/Dicas/Linux/"/>
+    
+  </entry>
+  
+  <entry>
+    <title><![CDATA[CSS Reset de várias maneiras]]></title>
+    <link href="http://woliveiras.com.br/posts/css-reset-de-varias-maneiras/"/>
+    <id>http://woliveiras.com.br/posts/css-reset-de-varias-maneiras/</id>
+    <published>2015-01-15T12:00:20.000Z</published>
+    <updated>2015-08-22T15:21:10.523Z</updated>
+    <content type="html"><![CDATA[<div class="shared-img"><br><img src="../..//public/images/css.png" alt=""><br></div>
+
+<p>Todo elemento HTML tem um estilo padrão que é injetado pelo Browser. O legal é que não existe um padrão entre eles. O Chrome tem seu estilo, o Firefox tem o dele, o Safari e Opera também… <a id="more"></a></p>
+<p>Isso pode gerar incompatibilidade com o CSS que você escreve. As vezes você coloca um espaço aqui, outro ali e quando abre no IE vê que está tudo bagunçado!</p>
+<p>O CSS Reset é uma técnica que serve para evitar esse problema. Você remove ou seta valores para as propriedades dos elementos conforme necessário. Existem várias formas de se fazer um CSS Reset. Vou citar algumas que eu já utilizei.</p>
+<h5 id="Reset_Genérico">Reset Genérico</h5><p>Basta colocar esse código no início do arquivo:</p>
+<figure class="highlight css"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line">*<span class="rules">&#123;</span><br><span class="line">  <span class="rule"><span class="attribute">padding</span>:<span class="value"> <span class="number">0</span></span></span>;</span><br><span class="line">  <span class="rule"><span class="attribute">margin</span>:<span class="value"> <span class="number">0</span></span></span>;</span><br><span class="line">  <span class="rule"><span class="attribute">border</span>:<span class="value"> <span class="number">0</span></span></span>;</span><br><span class="line">  <span class="rule"><span class="attribute">box-sizing</span>:<span class="value"> border-box</span><br><span class="line">&#125;</span></span></span></span><br></pre></td></tr></table></figure>
+<p>Pronto, todos (*) os elementos ficarão sem borda, sem preenchimento e sem margem. Ai é só ir estilizando conforme for necessário.</p>
+<h5 id="Erick_Meyer_CSS_Reset">Erick Meyer CSS Reset</h5><p>Esse é muito utilizado e divulgado pela Web. Utilizei por um bom tempo!</p>
+<p>Da uma olhada nesse <a href="http://meyerweb.com/eric/tools/css/reset/index.html" title="Meyer | CSS Tools: Reset CSS" target="_blank" rel="external">link </a>para conhecer melhor.</p>
+<h5 id="CSS_Reset_do_Yahoo">CSS Reset do Yahoo</h5><p>É bem útil também! É o Reset do YUI.</p>
+<p>Basta olhar esse outro <a href="http://www.cssreset.com/scripts/yahoo-css-reset-yui-3/" title="Yahoo! (YUI 3) Reset CSS" target="_blank" rel="external">link</a>. ;)</p>
+<h5 id="Normalize-css">Normalize.css</h5><p>E agora vem o que eu mais gosto e tenho utilizado no dia-a-dia. Gosto mais desse por que ele não somente tira os estilos, mas aplica estilos padrões que deixa tudo igual em todos os Browsers.</p>
+<p>Clica nesse <a href="http://necolas.github.io/normalize.css/" title="Normalize.css" target="_blank" rel="external">link </a>e você vai conhecer o danado.</p>
+<p>Lembre-se sempre que o Reset vem antes dos estilos que você vai aplicar na interface.</p>
+]]></content>
+    <summary type="html">
+    <![CDATA[<div class="shared-img"><br><img src="../..//public/images/css.png" alt=""><br></div>
+
+<p>Todo elemento HTML tem um estilo padrão que é injetado pelo Browser. O legal é que não existe um padrão entre eles. O Chrome tem seu estilo, o Firefox tem o dele, o Safari e Opera também…]]>
+    
+    </summary>
+    
+      <category term="CSS" scheme="http://woliveiras.com.br/tags/CSS/"/>
+    
+      <category term="Front End" scheme="http://woliveiras.com.br/tags/Front-End/"/>
+    
+      <category term="CSS" scheme="http://woliveiras.com.br/categories/CSS/"/>
+    
+      <category term="Dicas" scheme="http://woliveiras.com.br/categories/CSS/Dicas/"/>
+    
+      <category term="Front End" scheme="http://woliveiras.com.br/categories/CSS/Dicas/Front-End/"/>
+    
+  </entry>
+  
+  <entry>
+    <title><![CDATA[Quanto cobrar pelo Freelance?]]></title>
+    <link href="http://woliveiras.com.br/posts/freelancer-quanto-cobrar-pelo-freelance/"/>
+    <id>http://woliveiras.com.br/posts/freelancer-quanto-cobrar-pelo-freelance/</id>
+    <published>2015-01-12T10:33:25.000Z</published>
+    <updated>2015-08-22T14:33:14.399Z</updated>
+    <content type="html"><![CDATA[<div class="shared-img"><img src="../../public/images/money.jpg" alt="saco de money"></div>
+
+<p>Muita gente, iniciante ou não, tem dúvidas de quanto cobrar por um Freelance…</p>
+<p>A resposta é:<br>Não existe um valor padrão para o Freela!</p>
+<p>Seja projeto pequeno ou grande, que demanda muito tempo ou pouco. É tudo muito variável…<br>Você tem de calcular quanto tempo vai demorar, quanto vai custar sua hora e por ai vai, mas relaxa, vou tentar ajudar aqui.<a id="more"></a></p>
+<h2 id="Primeiro_pesquise_o_Mercado">Primeiro pesquise o Mercado</h2><p>Antes de colocar qualquer preço no seu trampo, analise ao redor o quanto as outras pessoas cobram, pois você pode colocar um valor muito alto para algo que não custa tanto ou um valor muito baixo onde deveria cobrar caro por falta de experiência e conhecimento de Mercado.</p>
+<p>Veja se você tem experiência, também, para pegar aqueles projetos grandes.<br>Se não tem, cuidado. Comece por projetos pequenos e vá pegando os mais pesados gradativamente.</p>
+<h2 id="Antes_de_pegar_o_trampo_estude!_(Ou_aprenda_a_se_organizar)">Antes de pegar o trampo estude! (Ou aprenda a se organizar)</h2><p>Antes de aceitar qualquer trampo - Como eu disse ali em cima - veja se tem capacidade para assumir essa responsabilidade, seja em quesitos de conhecimento técnico ou organização.</p>
+<p>Se você tem muito conhecimento, ótimo, se não tem, procure aprender o máximo. O Freelancer normalmente se vira <strong>sozinho</strong>, portanto é bom que você manje sobre o que você vai fazer.</p>
+<p>Se você já tem conhecimento suficiente para aceitar qualquer trampo, então veja se tem <strong>organização</strong> para cumprir prazos. Se não tem, comece a estudar sobre organização. Conheça ferramentas e metodologias para se organizar.</p>
+<p>Eu, particularmente, curto a metodologia <a href="https://www.scrum.org/" title="Scrum" target="_blank" rel="external">Scrum</a>(Da uma olhada nesse <a href="http://www.casadocodigo.com.br/products/livro-scrum" target="_blank" rel="external">livro</a>, é bem maneiro), uso o <a href="/posts/gerenciar-projetos-com-trello/">Trello</a> para gerenciamento dos projetos e gosto da técnica de <a href="http://pomodorotechnique.com/" target="_blank" rel="external">Pomodoro</a> para ser produtivo.</p>
+<p>Para marcar minhas tarefas, fazer listas e tudo mais eu uso o <a href="https://wunderlist.com/" target="_blank" rel="external">Wunderlist</a>, para datas importantes <a href="https://www.google.com/calendar/" title="Agenda" target="_blank" rel="external">Google Agenda</a> e para armazenar arquivos importantes como contratos, briefings, propostas, etc, uso o <a href="drive.google.com" title="Drive">Google Drive</a>.</p>
+<h2 id="Quanto_custa_sua_hora?">Quanto custa sua hora?</h2><p>Pra se chegar ao valor de um Freela é necessário saber quanto custa sua hora. Existem algumas maneiras de se chegar ao valor final, mas eu vou pular para o jeito mais fácil aqui. Antigamente eu calculava na canetinha pra saber isso, porém conheci o site:</p>
+<p><a href="http://www.minhahora.entreoutros.com/" target="_blank" rel="external">http://www.minhahora.entreoutros.com/</a></p>
+<p>Que nos ajuda a chegar no valor final.<br><strong>Porém seja sensato ao estipular os valores ai ein…</strong></p>
+<h2 id="E_quanto_vai_custar_o_projeto?">E quanto vai custar o projeto?</h2><p>Você deve, agora, estipular quanto tempo vai levar para produzir cada etapa/tela/funcionalidade/etc do projeto.<br>Por exemplo: Sistema de Login (10 horas), Telas (10 telas 2 horas cada), etc.</p>
+<p>Some tudo e veja quantas horas o projeto inteiro vai demorar. Com o valor total de horas que o projeto vai demorar em mãos, multiplique pelo seu valor hora.  Cuidado nessa etapa jovem, se você é iniciante e colocou um valor muito alto na sua hora, seu projeto vai sair bem caro, pois é certeza que você demora mais para produzir determinadas funcionalidades e seu cliente não vai curtir nadinha(;P). Por isso você deve ter bom senso e auto crítica para colocar um valor razoável no calculo. Se você é iniciante e chutou muito alto, avalie a possibilidade de refazer o calculo anterior.</p>
+<p>Ex.: Se sua hora custar 35 <a href="http://pt.wikipedia.org/wiki/Real_%28moeda%29" title="Dilmas" target="_blank" rel="external">Dilmas</a> e o tempo total do projeto chegou a 40 horas, o projeto sairá por 1400 Dilmas! (40 horas * R$ 35,00).</p>
+<h2 id="Um_porém">Um porém</h2><p>Porém, entretanto, toda via, você não colocou ali o custo que vai ter para produzir. Ou seja, não somou com a conta de energia, internet, equipamentos, softwares… Você deve incluir isso no valor total também. Senão esse gasto vai sair somente do seu bolso(Não esquece de colocar o valor do café né meu?).</p>
+<h2 id="E_como_receber?">E como receber?</h2><p>Tem muitas formas de se receber do Cliente, seja por Paypal, Pagseguro, transferência bancária, dinheiro na mão.<br>Sinceramente, não é o meio de pagamento que é o problema nesse momento, mas como você vai receber, pois, nem sempre - Quase nunca - o cliente vai pagar a vista.</p>
+<p><strong>Então como receber?</strong></p>
+<p>Simples: Se você tem um projeto que vai custar 1400. Então você pode querer receber 50% no começo do projeto e 50% no final? (2 x 700 Dilmas)</p>
+<p>Não!!! Não faça isso meu querido! Isso é perigoso…</p>
+<p>Seguindo o exemplo do <a href="http://leandrooriente.com/freelancer-como-cobrar-por-um-freelance/" title="Como cobrar por um freelance" target="_blank" rel="external">Leandro Oriente</a> eu comecei a cobrar por etapas fazendo o seguinte:</p>
+<p>Se eu demoraria 10 horas no Sistema de Login, eu calculo quanto isso vai custar (Seguindo nosso exemplo até agora, 10 horas <em> R$ 35,00) e recebo 50% desse valor antes e 50% desse valor depois de eu terminar <strong>ESSA</strong> etapa do projeto e <em>*não do projeto inteiro</em></em>.</p>
+<p>Como fala no post do Leandro, isso também é bom para que o Cliente vá seguindo cada etapa do projeto e veja que você, realmente, está trabalhando. ;)</p>
+<p>É interessante nessa etapa você conhecer o Scrum, pois pode cobrar por Sprint entregue.</p>
+]]></content>
+    <summary type="html">
+    <![CDATA[<div class="shared-img"><img src="../../public/images/money.jpg" alt="saco de money"></div>
+
+<p>Muita gente, iniciante ou não, tem dúvidas de quanto cobrar por um Freelance…</p>
+<p>A resposta é:<br>Não existe um valor padrão para o Freela!</p>
+<p>Seja projeto pequeno ou grande, que demanda muito tempo ou pouco. É tudo muito variável…<br>Você tem de calcular quanto tempo vai demorar, quanto vai custar sua hora e por ai vai, mas relaxa, vou tentar ajudar aqui.]]>
+    
+    </summary>
+    
+      <category term="Dicas" scheme="http://woliveiras.com.br/tags/Dicas/"/>
+    
+      <category term="Freela" scheme="http://woliveiras.com.br/tags/Freela/"/>
+    
+      <category term="Freelance" scheme="http://woliveiras.com.br/tags/Freelance/"/>
+    
+      <category term="Dicas" scheme="http://woliveiras.com.br/categories/Dicas/"/>
+    
+  </entry>
+  
+  <entry>
+    <title><![CDATA[Interfaces like a boss!]]></title>
+    <link href="http://woliveiras.com.br/posts/desenvolvendo-interfaces-like-boss/"/>
+    <id>http://woliveiras.com.br/posts/desenvolvendo-interfaces-like-boss/</id>
+    <published>2014-09-13T23:00:58.000Z</published>
+    <updated>2015-08-22T14:14:59.145Z</updated>
+    <content type="html"><![CDATA[<p>É amigo, teve um tempo em que modificar um registro no banco de dados era a coisa que eu achava mas incrível do mundo, gerar um relatório em PDF com PHP então… Nem se fale! Porém, hoje, o que eu curto mesmo é desenvolver interfaces e trabalhar no Browser com JavaScript. Só que criar interfaces não é só sair desenhando no Browser com HTML e CSS, depois colocar umas ações legais com o JS… Tem de planejar a interação, tem de pensar o que vai fazer, senão o que fizer agora, vai se tornar sua dor de cabeça mais pra frente! Pensando nisso segue umas dicas maneiras pra não se enrolar todo na hora de desenvolver uma interface.<a id="more"></a></p>
+<h2 id="Começando:_Os_3_principais_elementos_da_Interface">Começando: Os 3 principais elementos da Interface</h2><p><img src="../../public/images/estrutura.png" alt="Exemplo de estrutura da interface"></p>
+<p>Lembre-se de identificar os principais elementos da interface:</p>
+<ul>
+<li><strong>Topo</strong></li>
+<li><strong>Conteúdo</strong></li>
+<li><strong>Rodapé</strong></li>
+</ul>
+<p>Você já deve ter reparado que, acho que todos, os sites na Web possuem um Topo, onde normalmente vai o Logo, os menus, depois vem o conteúdo com o conteúdo propriamente dito e por fim tem o rodapé, onde a galera coloca o Copyright, dados da empresa/site, contato, etc.<br>Identifique isso e separe. Vai ajudar muito.<br>Ex.:</p>
+<figure class="highlight xml"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="title">header</span>&gt;</span>Topo<span class="tag">&lt;/<span class="title">header</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="title">section</span> <span class="attribute">id</span>=<span class="value">”content”</span>&gt;</span>Conteúdo do Site<span class="tag">&lt;/<span class="title">section</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="title">footer</span>&gt;</span>Rodapé<span class="tag">&lt;<span class="title">footer</span>&gt;</span></span><br></pre></td></tr></table></figure>
+<h2 id="Separe_marcação,_estilos_e_ações">Separe marcação, estilos e ações</h2><p>Já deve ser uma boa prática sua separar o HTML em um arquivo, o CSS em outro e o JS em outro né?<br>Se a resposta foi não,é bom dar uma estudada nisso, pois são boas práticas de desenvolvimento e vão te ajudar muito.<br>As vezes acontece de uma página, ou mais, possuírem estilos próprios que só serão aplicados a elas. Para esses casos nós criamos um arquivo CSS que só será carregado nela. Ex.: contato.css, localizacao.css, por ai vai. Porém, tudo o que for repetido em todas as páginas deixe no arquivo principal.</p>
+<h2 id="Organização_do_código"><strong>Organização do código</strong></h2><p>Sempre comente seu código, isso faz bem pra saúde. Imagina depois de 1 ano você precisar refatorar uma interface! Você pode ficar louco tentando decifrar o que pensava antes… ;D - Quero ver lembrar o que você fez! Eu não lembro nem o que eu fiz ontem.</p>
+<h3 id="CSS">CSS</h3><p>Usar um <a href="/posts/css-reset-de-varias-maneiras">Reset CSS</a> vai ajudar muito a fazer com que sua interface seja igual em todos os navegadores (Talvez não no IE! Brincadeira).</p>
+<h4 id="Tente_abreviar_suas_declarações_CSS-">Tente abreviar suas declarações CSS.</h4><p>Ao invés de:</p>
+<figure class="highlight css"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"><span class="rule"><span class="attribute">margin-top</span>:<span class="value"> <span class="number">2px</span></span></span>;</span><br><span class="line"><span class="rule"><span class="attribute">margin-right</span>:<span class="value"> <span class="number">3px</span></span></span>;</span><br><span class="line"><span class="rule"><span class="attribute">margin-bottom</span>:<span class="value"> <span class="number">5px</span></span></span>;</span><br><span class="line"><span class="rule"><span class="attribute">margin-left</span>:<span class="value"> <span class="number">9px</span></span></span>;</span><br></pre></td></tr></table></figure>
+<p>Faça:</p>
+<figure class="highlight css"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="rule"><span class="attribute">margin</span>:<span class="value"> <span class="number">2px</span> <span class="number">3px</span> <span class="number">5px</span> <span class="number">9px</span></span></span>;</span><br></pre></td></tr></table></figure>
+<h4 id="Divida_seu_CSS_em_sessões-">Divida seu CSS em sessões.</h4><figure class="highlight applescript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br></pre></td><td class="code"><pre><span class="line">/*<span class="comment">------------------------------</span></span><br><span class="line">Reset, corpo da página, estilos padrões</span><br><span class="line">para listas, parágrafos, etc.</span><br><span class="line"><span class="comment">------------------------------*/</span></span><br><span class="line">/*<span class="comment">------------------------------</span></span><br><span class="line">Estilos de títulos</span><br><span class="line"><span class="comment">------------------------------*/</span></span><br><span class="line">/*<span class="comment">------------------------------</span></span><br><span class="line">Estilos de texto</span><br><span class="line"><span class="comment">------------------------------*/</span></span><br><span class="line">/*<span class="comment">------------------------------</span></span><br><span class="line">Navegação</span><br><span class="line"><span class="comment">------------------------------*/</span></span><br><span class="line">/*<span class="comment">------------------------------</span></span><br><span class="line">Forms</span><br><span class="line"><span class="comment">------------------------------*/</span></span><br><span class="line">/*<span class="comment">------------------------------</span></span><br><span class="line">Cabeçalho</span><br><span class="line"><span class="comment">------------------------------*/</span></span><br><span class="line">/*<span class="comment">------------------------------</span></span><br><span class="line">Corpo</span><br><span class="line"><span class="comment">------------------------------*/</span></span><br><span class="line">/*<span class="comment">------------------------------</span></span><br><span class="line">Rodapé</span><br><span class="line"><span class="comment">------------------------------*/</span></span><br></pre></td></tr></table></figure>
+<h4 id="Primeiro_aqui,_depois_ali,_em_seguida_lá…">Primeiro aqui, depois ali, em seguida lá…</h4><p>Durante o desenvolvimento vá codificando por partes. Faça todo o topo, depois faça o conteúdo, depois o rodapé. Durante o desenvolvimento do Topo, se tiver um menu, faça a estrutura do topo e depois o menu e posicione-o no lugar ceto, em seguida vá pro conteúdo e assim por diante.</p>
+<h4 id="Testes">Testes</h4><p>Durante o desenvolvimento vá testando o que fizer em todos os navegadores, isso vai agilizar bastante. Imagine, depois de ter feito toda a interface e deixado ela perfeitinha você abre no IE e está tudo quebrado! Putz…<br>Ai você modifica só um pouquinho pra funcionar no IE e quando abre em outro navegador já não está mais do jeito que tinha deixado… Que maravilha né?</p>
+<h4 id="Bônus">Bônus</h4><p><strong>Que tal testar a velocidade do seu site?</strong></p>
+<p>Dá pra fazer isso<a href="http://www.webpagetest.org/" title="Web page test" target="_blank" rel="external"> aqui</a> ou <a href="http://developers.google.com/speed/pagespeed/insights/" title="Page Speed Google" target="_blank" rel="external">aqui</a>.</p>
+<p><strong>Quer testar o site na versão mobile?</strong></p>
+<p>Fora as ferramentas dos Browsers, tem <a href="http://quirktools.com/screenfly/" title="Screenfly" target="_blank" rel="external">esse site</a>, que também é maneiro.</p>
+<p>Tem um templatezinho maneiro em HTML5 que ajuda, também, na hora de criar a estrutura do site, é o <a href="http://html5boilerplate.com/" title="html5boilerplate" target="_blank" rel="external">HTML5Boilerplate</a>.<br>Sempre pense em <a href="http://browserdiet.com/pt/" title="Browser Diet" target="_blank" rel="external">performance</a>, <a href="http://moz.com/learn/seo/on-page-factors" title="SEO" target="_blank" rel="external">SEO</a>, <a href="http://pt.wikipedia.org/wiki/Cross-browser" title="Cross-browser" target="_blank" rel="external">Cross Browser</a>, <a href="http://tableless.com.br/como-tornar-seu-website-acessivel/" title="Acessibilidade" target="_blank" rel="external">Acessibilidade</a>, <a href="http://viverdeblog.com/18-problemas-usabilidade/" title="Usabilidade" target="_blank" rel="external">Usabilidade </a>e esses termos que você tem ouvido falar muito ultimamente - Eu sei que tem ouvido sim! - pois são itens extremamente necessários para uma boa interface funcionar legal.<br>Se você tem mais alguma outra dica comenta ae! ;D</p>
+]]></content>
+    <summary type="html">
+    <![CDATA[<p>É amigo, teve um tempo em que modificar um registro no banco de dados era a coisa que eu achava mas incrível do mundo, gerar um relatório em PDF com PHP então… Nem se fale! Porém, hoje, o que eu curto mesmo é desenvolver interfaces e trabalhar no Browser com JavaScript. Só que criar interfaces não é só sair desenhando no Browser com HTML e CSS, depois colocar umas ações legais com o JS… Tem de planejar a interação, tem de pensar o que vai fazer, senão o que fizer agora, vai se tornar sua dor de cabeça mais pra frente! Pensando nisso segue umas dicas maneiras pra não se enrolar todo na hora de desenvolver uma interface.]]>
+    
+    </summary>
+    
+      <category term="CSS" scheme="http://woliveiras.com.br/categories/CSS/"/>
+    
+      <category term="Front End" scheme="http://woliveiras.com.br/categories/CSS/Front-End/"/>
+    
+  </entry>
+  
+  <entry>
     <title><![CDATA[Criar uma base box para o Vagrant]]></title>
     <link href="http://woliveiras.com.br/posts/criar-uma-base-box-para-o-vagrant/"/>
     <id>http://woliveiras.com.br/posts/criar-uma-base-box-para-o-vagrant/</id>
     <published>2014-08-21T17:17:27.000Z</published>
-    <updated>2015-08-10T11:12:51.014Z</updated>
+    <updated>2015-08-22T15:24:37.746Z</updated>
     <content type="html"><![CDATA[<p>Conforme vai usando o <a href="/tags/Vagrant/">Vagrant</a> surje a necessidade de se ter sua própria Base Box para poder compartilhar o <em>seu</em> ambiente de desenvolvimento ou mesmo para provisionar um ambiente virtual.<a id="more"></a><br>Se você é gestor ou líder, provavelmente precisa que algum funcionário novo tenha seu ambiente de desenvolvimento configurado rápidamente e para isso também vai precisar de sua própria Base Box.<br>Fazer isso não é dicífil, vamos ao passo a passo:</p>
 <p><strong>Configurações importantes no VBox</strong></p>
 <p>OBS: A quantidade de memória fica a seu critério escolher quanto vai. Eu deixei 512 simplesmente por não precisar mais que isso para os testes.<br>Para o tipo de disco rígido tem de ser <strong>VMDK</strong></p>
@@ -487,8 +913,10 @@
     <link href="http://woliveiras.com.br/posts/guia-de-estudos-desenvolvedor-front-end-iniciante/"/>
     <id>http://woliveiras.com.br/posts/guia-de-estudos-desenvolvedor-front-end-iniciante/</id>
     <published>2014-08-18T15:06:23.000Z</published>
-    <updated>2015-08-07T11:08:43.068Z</updated>
-    <content type="html"><![CDATA[<p>Muitos iniciantes se perdem ao procurar o que aprender para iniciar a carreira como Front End(Ainda mais com 1 bilhão de ferramentas aparecendo e sumindo todo dia). Pois bem, eu montei essa trilha de estudos para me organizar melhor. Então, se você também está procurando conteúdo para aprender sobre Front End é só coletar as coisas que acha importante e bora estudar!</p>
+    <updated>2015-08-22T15:25:11.310Z</updated>
+    <content type="html"><![CDATA[<div class="shared-img"><br><img src="../..//public/images/fed.png" alt=""><br></div>
+
+<p>Muitos iniciantes se perdem ao procurar o que aprender para iniciar a carreira como Front End(Ainda mais com 1 bilhão de ferramentas aparecendo e sumindo todo dia). Pois bem, eu montei essa trilha de estudos para me organizar melhor. Então, se você também está procurando conteúdo para aprender sobre Front End é só coletar as coisas que acha importante e bora estudar!</p>
 <a id="more"></a>
 <h2 id="O_guia_de_estudos_para_o_Desenvolvedor_Front_End">O guia de estudos para o Desenvolvedor Front End</h2><p>Encontrei, a um tempo atrás, um excelente artigo que está sendo essencial para meus estudos, virou uma trilha de estudos pra mim, que não sabia por onde começar ou o que fazer. O artigo foi <a href="http://leandrooriente.com/como-me-tornar-um-desenvolvedor-front-end/" title="Como me tornar um Desenvolvedor Front End" target="_blank" rel="external">esse aqui</a>  do Leandro Oriente.<br>O artigo lá é completaaaasso e aqui vou deixar só um pouco da minha experiência em busca do conhecimento por ele proposto.</p>
 <h4 id="Cursos">Cursos</h4><p>Vale a pena investir em cursos presenciais ou vídeo aulas, porém eu curto mais vídeo aulas! Tem muito conteúdo gratuito na internet, seja no Youtube ou sites sobre o assunto. Eu só invisto em curso pago se, realmente, não tiver conteúdo bom de graça (Não sou pão duro, é que ainda não sou rico e pra ficar rico tem de economizar… ;P). Porém, se você não encontrou conteúdo bom free, vão alguns nomes pagos que eu conheço e são muito bons:</p>
@@ -511,7 +939,9 @@
 <p>Claro que sempre tem algo a mais que você vai precisar aprender, mas tudo no seu tempo. Cuidado para não tentar aprender tudo de uma vez e acabar como eu em 2012, não aprendi quase nada – Depoimento de um menino que tentou aprender programação em 10 dias e quebrou a cara.<br>Curtiu?<br>Deixa seu comentário e se tiver alguma dica para me ajudar e a quem leu esse post, deixa ai também! Valeu!</p>
 ]]></content>
     <summary type="html">
-    <![CDATA[<p>Muitos iniciantes se perdem ao procurar o que aprender para iniciar a carreira como Front End(Ainda mais com 1 bilhão de ferramentas aparecendo e sumindo todo dia). Pois bem, eu montei essa trilha de estudos para me organizar melhor. Então, se você também está procurando conteúdo para aprender sobre Front End é só coletar as coisas que acha importante e bora estudar!</p>]]>
+    <![CDATA[<div class="shared-img"><br><img src="../..//public/images/fed.png" alt=""><br></div>
+
+<p>Muitos iniciantes se perdem ao procurar o que aprender para iniciar a carreira como Front End(Ainda mais com 1 bilhão de ferramentas aparecendo e sumindo todo dia). Pois bem, eu montei essa trilha de estudos para me organizar melhor. Então, se você também está procurando conteúdo para aprender sobre Front End é só coletar as coisas que acha importante e bora estudar!</p>]]>
     
     </summary>
     
@@ -573,127 +1003,6 @@
       <category term="Vagrant" scheme="http://woliveiras.com.br/categories/Ambiente/Putty/Vagrant/"/>
     
       <category term="Virtualização" scheme="http://woliveiras.com.br/categories/Ambiente/Putty/Vagrant/Virtualizacao/"/>
-    
-  </entry>
-  
-  <entry>
-    <title><![CDATA[Vagrant - Como configurar e utilizar]]></title>
-    <link href="http://woliveiras.com.br/posts/configurar-vagrant/"/>
-    <id>http://woliveiras.com.br/posts/configurar-vagrant/</id>
-    <published>2014-08-17T19:26:00.000Z</published>
-    <updated>2015-08-10T11:13:22.883Z</updated>
-    <content type="html"><![CDATA[<p>Se você leu a <a href="/posts/instalacao-vagrant/" title="Crie e compartilhe ambientes com o Vagrant (Instalação)">primeira parte desse tutorial</a>, então podemos seguir por aqui e aprender a configurar e utilizar o Vagrant.<a id="more"></a></p>
-<h4 id="Adicionando_uma_Box">Adicionando uma Box</h4><p>Vamos utilizar uma Box que os desenvolvedores já deixaram pré configurada como exemplo, mas você verá como criar uma Box para o Vagrant nesse <a href="/posts/criar-uma-base-box-para-o-vagrant/">outro artigo</a>.<br>Para adicionar uma Box use o seguinte comando:</p>
-<figure class="highlight processing"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">vagrant <span class="built_in">box</span> <span class="built_in">add</span> <span class="string">'nome da Box'</span> <span class="string">'Local de onde será clonado'</span></span><br></pre></td></tr></table></figure>
-<p>Execute esse comando para clonar a Box pré configurada.</p>
-<figure class="highlight livecodeserver"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">vagrant box <span class="built_in">add</span> lucid32 <span class="keyword">http</span>://<span class="built_in">files</span>.vagrantup.com/lucid32.box</span><br></pre></td></tr></table></figure>
-<p>Explicação</p>
-<ul>
-<li><strong>vagrant box add</strong> é o comando para adicionar uma box.</li>
-<li><strong>lucid32</strong> é o nome da Base Box. Esse nome é que vamos usar no <strong>vagrantfile</strong> para informar qual box será a base para as VM’s que vamos subir posteriormente e que vamos usar para criar uma nova VM.</li>
-<li>O Link <em><a href="http://files.vagrantup.com/lucid32.box" target="_blank" rel="external">http://files.vagrantup.com/lucid32.box</a></em> é onde está a box no momento. Se fosse um repositório pessoal colocaríamos o link desse repo no lugar.</li>
-</ul>
-<p>Você consegue encontrar outras Base Box no repositório do Vagrant nesse link: <a href="http://vagrantbox.es/" title="Repositório de Boxes do Vagrant" target="_blank" rel="external">http://vagrantbox.es</a>.<br><em>Esse passo pode demorar um pouco dependendo da velocidade da sua conexão.</em><br>Agora, no terminal/cmd, entre na pasta do projeto – que aqui chamei de  vagrant - e execute:</p>
-<p><strong>vagrant init lucid32</strong></p>
-<p><img src="../../public/images/vagrant-init-lucid32.png" alt="Iniciando uma VM"></p>
-<p>Explicação</p>
-<ul>
-<li><strong>vagrant init </strong> iniciará uma VM de acordo com as configurações da box que você escolher. Será criado o Vagrantfile no local.</li>
-<li><strong>lucid32</strong> é a box que eu mandei ele utilizar para criar a VM. As configurações dessa Box serão clonadas para essa nova VM.</li>
-</ul>
-<p>Eu recomendo que dê uma olhada no arquivo Vagrantfile para conhecer melhor as configurações, isso fará muita diferença e facilitará futuras configurações.<br>Após as minhas configurações, meu arquivo ficou assim – Deixei esses comentários para ficar fácil de entender:</p>
-<figure class="highlight vala"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br></pre></td><td class="code"><pre><span class="line"><span class="preprocessor">#Versão da API do Vagrant</span></span><br><span class="line"></span><br><span class="line">VAGRANTFILE_API_VERSION = <span class="string">"2"</span></span><br><span class="line"></span><br><span class="line">Vagrant.configure(VAGRANTFILE_API_VERSION) <span class="keyword">do</span> |config|</span><br><span class="line"></span><br><span class="line"><span class="preprocessor">#Box a ser utilizada</span></span><br><span class="line"></span><br><span class="line">config.vm.box = <span class="string">"lucid32"</span></span><br><span class="line"></span><br><span class="line"><span class="preprocessor">#Modo de Rede</span></span><br><span class="line"></span><br><span class="line">config.vm.network : bridged</span><br><span class="line"></span><br><span class="line"><span class="preprocessor">#Porta do servidor Web</span></span><br><span class="line"></span><br><span class="line">config.vm.forward_port <span class="number">80</span>, <span class="number">8080</span></span><br><span class="line"></span><br><span class="line"><span class="preprocessor">#Porta do MySQL</span></span><br><span class="line"></span><br><span class="line">config.vm.forward_port <span class="number">3306</span>, <span class="number">3306</span></span><br><span class="line"></span><br><span class="line">end</span><br></pre></td></tr></table></figure>
-<h4 id="Iniciar_a_VM">Iniciar a VM</h4><p>Para iniciar a VM e poder utilizar seu servidor, basta rodar o comando:</p>
-<figure class="highlight nginx"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="title">vagrant</span> up</span><br></pre></td></tr></table></figure>
-<p>Na primeira vez, será importada a base Box e configurada a nova VM. Você até poderá entrar no Virtualbox e verá uma máquina com um nome esquisito.</p>
-<p><img src="../../public/images/Capturar.png" alt="Subindo a VM"></p>
-<p>Se você está usando terminal Unix, então execute o comando: <strong>vagrant ssh</strong> com o endereço e porta que o próprio vagrant mostra na tela do terminal nesse momento. Se está usando Windows você vai precisar do <a href="/posts/vagrant-no-windows/" title="Windows, Vagrant e Putty">Putty</a>. No terminal ficou um endereço de IP parecido com 127.0.0.1:2222, esse é o ip e o usuário e senha “vagrant” para acesso.<br>Fica esse comando para acesso em terminais Unix:</p>
-<figure class="highlight nginx"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="title">ssh</span> vagrant@<span class="number">127.0.0.1:2222</span></span><br></pre></td></tr></table></figure>
-<p>Na tela de boas vindas será solicitado a senha que é <em>vagrant</em>.</p>
-<p>Conectado, agora é só usar seu servidor! :D</p>
-<h4 id="Alguns_comandos_uteis">Alguns comandos uteis</h4><ul>
-<li>Quando quiser pausar sua máquina use <strong>vagrant suspend</strong> e para retomar <strong>vagrant resume</strong>.</li>
-<li>Para desligar a máquina use <strong>vagrant halt</strong>. </li>
-<li>Para, literalmente, destruir uma máquina e começar do zero use <strong>vagrant destroy</strong>. </li>
-<li>Reiniciar a máquina <strong>varant reload</strong>.</li>
-</ul>
-<p><em>Lembrando que esses comandos devem ser rodados dentro do diretório onde está o vagrantfile da VM que estiver rodando no momento.</em><br>Uma dica agora é pesquisar sobre <a href="https://pt.wikipedia.org/wiki/Shell_script" target="_blank" rel="external">Shell Script</a>, <a href="https://puppetlabs.com/" target="_blank" rel="external">Puppet</a> ou <a href="https://www.chef.io/chef/" target="_blank" rel="external">Chef</a> para automatizar a configuração do ambiente. A <a href="http://docs.vagrantup.com/v2/" target="_blank" rel="external">documentação do Vagrant</a> tem boas dicas sobre isso.</p>
-<p>Caso não tenha entendido algo, estou a disposição, só me chamar! ;D</p>
-<p>Referências:</p>
-<p><a href="http://simplesideias.com.br/usando-o-vagrant-como-ambiente-de-desenvolvimento-no-windows" target="_blank" rel="external">http://simplesideias.com.br/usando-o-vagrant-como-ambiente-de-desenvolvimento-no-windows</a></p>
-<p><a href="http://www.erikaheidi.com/blog/vagrant-101-montando-seu-ambiente-de-desenvolvimento-portatil" target="_blank" rel="external">http://www.erikaheidi.com/blog/vagrant-101-montando-seu-ambiente-de-desenvolvimento-portatil</a></p>
-<p><a href="http://www.akitaonrails.com/2013/10/25/iniciante-criando-um-ambiente-de-desenvolvimento-com-vagrant-e-chef-solo#.U-_1H_ldX2M" target="_blank" rel="external">http://www.akitaonrails.com/2013/10/25/iniciante-criando-um-ambiente-de-desenvolvimento-com-vagrant-e-chef-solo#.U-_1H_ldX2M</a></p>
-]]></content>
-    <summary type="html">
-    <![CDATA[<p>Se você leu a <a href="/posts/instalacao-vagrant/" title="Crie e compartilhe ambientes com o Vagrant (Instalação)">primeira parte desse tutorial</a>, então podemos seguir por aqui e aprender a configurar e utilizar o Vagrant.]]>
-    
-    </summary>
-    
-      <category term="Ambiente" scheme="http://woliveiras.com.br/tags/Ambiente/"/>
-    
-      <category term="Vagrant" scheme="http://woliveiras.com.br/tags/Vagrant/"/>
-    
-      <category term="Virtualização" scheme="http://woliveiras.com.br/tags/Virtualizacao/"/>
-    
-      <category term="Ambiente" scheme="http://woliveiras.com.br/categories/Ambiente/"/>
-    
-      <category term="Dicas" scheme="http://woliveiras.com.br/categories/Ambiente/Dicas/"/>
-    
-      <category term="Vagrant" scheme="http://woliveiras.com.br/categories/Ambiente/Dicas/Vagrant/"/>
-    
-      <category term="Virtualização" scheme="http://woliveiras.com.br/categories/Ambiente/Dicas/Vagrant/Virtualizacao/"/>
-    
-  </entry>
-  
-  <entry>
-    <title><![CDATA[Vagrant - Introdução e Instalação]]></title>
-    <link href="http://woliveiras.com.br/posts/vagrant-introducao-instalacao/"/>
-    <id>http://woliveiras.com.br/posts/vagrant-introducao-instalacao/</id>
-    <published>2014-08-17T18:45:05.000Z</published>
-    <updated>2015-08-10T09:43:55.198Z</updated>
-    <content type="html"><![CDATA[<p>O Vagrant é uma ferramenta que permite a criação de máquinas virtuais(VM’s) rapidamente para o ambiente de desenvolvimento, testes ou ambientes virtuais como AWS ou Digital Ocean.”<a id="more"></a><br>Executamos o Vagrant em conjunto com o Virtualbox ou VMWare. Você consegue usar o Vagrant para provisionamento do servidor. Você define tudo o que o servidor precisa(Programas, Banco de Dados, Libs, Configurações, etc) e pode até disponibilizar essa configuração junto ao seu projeto. Assim, qualquer pessoa que clonar seu projeto, consegue levantar um servidor com as mesmas configurações, sem erro.<br>É muito mais rápido possuir uma <em>Box</em> com tudo pronto e só subir com um comando.<br>Usar o Vagrant pode mudar um pouco o seu fluxo de trabalho, mas acho que a principal diferença é o fato de subirmos a máquina virtual pelo terminal/cmd e, depois, conectarmos na mesma por ssh e, a partir de então, usar o terminal da VM, porém nada que assuste.</p>
-<p><strong>Algumas terminologias importantes </strong></p>
-<p><strong>Box </strong>- É um pacote que contém a base da sua VM. Basicamente é uma imagem do S.O. Se você não sabe o que é uma imagem é como se fosse um clone do seu Sistema Operacional que pode ser executado pra subir exatamente a mesma configuração em outro computador. :)</p>
-<p><strong>Vagrantfile</strong> - arquivo que contém as definições para executar a Box. Como serviços que serão executados, arquivos compartilhados, programas que serão instalados, etc.</p>
-<p><strong>Guest</strong> - É a máquina que foi levantada. Em meios menos técnicos é sua VM.</p>
-<p><strong>Provider</strong> - O Software de virtualização(<a href="https://www.virtualbox.org" target="_blank" rel="external">Virtualbox</a> ou <a href="https://my.vmware.com/web/vmware/free" target="_blank" rel="external">VMWare</a>).</p>
-<p><strong>Provisioner</strong> - É o software que vai configurar a máquina na hora em que você ligar ela pela primeira vez e ele também vai verificar se está tudo OK quando iniciar ela de novo. As opções mais comuns são: <a href="https://pt.wikipedia.org/wiki/Shell_script" target="_blank" rel="external">Shell Script</a>, <a href="https://puppetlabs.com/" target="_blank" rel="external">Puppet</a> e <a href="https://www.chef.io/chef/" target="_blank" rel="external">Chef</a>.</p>
-<p><strong>Instalação</strong></p>
-<p>Para esse tutorial vamos usar o Virtualbox.</p>
-<ol>
-<li><p>Baixe o <a href="https://www.virtualbox.org/wiki/Downloads" title="Download do Virtualbox" target="_blank" rel="external">Virtualbox</a>.</p>
-</li>
-<li><p>Com o VBox instalado, acesse o <a href="http://www.vagrantup.com/downloads.html" title="Vagrant" target="_blank" rel="external">site do Vagrant</a> e instale.<br>OBS: Se você usa Windows vai precisar seguir <a href="/posts/vagrant-no-windows/">esse tutorial</a> para importar a chave SSH.</p>
-</li>
-<li><p>Tudo instalado, mãos a obra. Agora é só ler a <a href="/posts/configurar-vagrant/" title="Como configurar e utilizar o Vagrant">segunda parte desse tutorial</a></p>
-</li>
-</ol>
-<p>Referências:</p>
-<p><a href="http://simplesideias.com.br/usando-o-vagrant-como-ambiente-de-desenvolvimento-no-windows" target="_blank" rel="external">http://simplesideias.com.br/usando-o-vagrant-como-ambiente-de-desenvolvimento-no-windows</a></p>
-<p><a href="http://www.erikaheidi.com/blog/vagrant-101-montando-seu-ambiente-de-desenvolvimento-portatil" target="_blank" rel="external">http://www.erikaheidi.com/blog/vagrant-101-montando-seu-ambiente-de-desenvolvimento-portatil</a></p>
-<p><a href="http://www.akitaonrails.com/2013/10/25/iniciante-criando-um-ambiente-de-desenvolvimento-com-vagrant-e-chef-solo#.U-_1H_ldX2M" target="_blank" rel="external">http://www.akitaonrails.com/2013/10/25/iniciante-criando-um-ambiente-de-desenvolvimento-com-vagrant-e-chef-solo#.U-_1H_ldX2M</a></p>
-<p>&nbsp;</p>
-]]></content>
-    <summary type="html">
-    <![CDATA[<p>O Vagrant é uma ferramenta que permite a criação de máquinas virtuais(VM’s) rapidamente para o ambiente de desenvolvimento, testes ou ambientes virtuais como AWS ou Digital Ocean.”]]>
-    
-    </summary>
-    
-      <category term="Ambiente" scheme="http://woliveiras.com.br/tags/Ambiente/"/>
-    
-      <category term="Dicas" scheme="http://woliveiras.com.br/tags/Dicas/"/>
-    
-      <category term="Vagrant" scheme="http://woliveiras.com.br/tags/Vagrant/"/>
-    
-      <category term="Virtualização" scheme="http://woliveiras.com.br/tags/Virtualizacao/"/>
-    
-      <category term="Ambiente" scheme="http://woliveiras.com.br/categories/Ambiente/"/>
-    
-      <category term="Dicas" scheme="http://woliveiras.com.br/categories/Ambiente/Dicas/"/>
-    
-      <category term="Vagrant" scheme="http://woliveiras.com.br/categories/Ambiente/Dicas/Vagrant/"/>
-    
-      <category term="Virtualização" scheme="http://woliveiras.com.br/categories/Ambiente/Dicas/Vagrant/Virtualizacao/"/>
     
   </entry>
   

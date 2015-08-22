@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  
+  <title>Interfaces like a boss! | William Oliveira</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  <meta name="description" content="É amigo, teve um tempo em que modificar um registro no banco de dados era a coisa que eu achava mas incrível do mundo, gerar um relatório em PDF com PHP então… Nem se fale! Porém, hoje, o que eu curto">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Interfaces like a boss!">
+<meta property="og:url" content="http://woliveiras.com.br/posts/desenvolvendo-interfaces-like-boss/index.html">
+<meta property="og:site_name" content="William Oliveira">
+<meta property="og:description" content="É amigo, teve um tempo em que modificar um registro no banco de dados era a coisa que eu achava mas incrível do mundo, gerar um relatório em PDF com PHP então… Nem se fale! Porém, hoje, o que eu curto">
+<meta property="og:image" content="http://woliveiras.com.br/../../public/images/estrutura.png">
+<meta property="og:updated_time" content="2015-08-22T14:14:59.145Z">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="Interfaces like a boss!">
+<meta name="twitter:description" content="É amigo, teve um tempo em que modificar um registro no banco de dados era a coisa que eu achava mas incrível do mundo, gerar um relatório em PDF com PHP então… Nem se fale! Porém, hoje, o que eu curto">
+<meta name="twitter:creator" content="@w_oliveiras">
+  
+    <link rel="alternative" href="/atom.xml" title="William Oliveira" type="application/atom+xml">
+  
+  
+    <link rel="icon" href="img/favicon.png">
+  
+  <link href="//fonts.googleapis.com/css?family=Source+Code+Pro" rel="stylesheet" type="text/css">
+  <link rel="stylesheet" href="/css/style.css" type="text/css">
+  
+
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-25964646-1', 'auto');
+  ga('send', 'pageview');
+
+</script>
+
+<!-- End Google Analytics -->
+
+
+  <link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+</head>
+<body>
+  <div id="container">
+    <div id="wrap">
+      <header id="header">
+  <div id="header-outer" class="outer">
+    <div id="header-inner" class="inner">
+      <ul class="navigation">
+        <li id="main-nav">
+          <a id="main-nav-toggle" class="nav-icon"></a>
+          
+            <a class="main-nav-link" href="/">Home</a>
+          
+            <a class="main-nav-link" href="/about">Contato</a>
+          
+        </li>
+        <li id="sub-nav">
+          
+            <a id="nav-rss-link" class="nav-icon" href="/atom.xml" title="RSS Feed"></a>
+          
+          <a id="nav-search-btn" class="nav-icon" title="Search"></a>
+        </li>
+        <li id="search-form-wrap">
+          <form action="//google.com/search" method="get" accept-charset="UTF-8" class="search-form"><input type="search" name="q" results="0" class="search-form-input" placeholder="Search"><button type="submit" class="search-form-submit">&#xF002;</button><input type="hidden" name="sitesearch" value="http://woliveiras.com.br"></form>
+        </li>
+      </ul>
+    </div>
+    <div id="header-title" class="inner">
+      <h1 id="logo-wrap">
+        <a href="/" id="title">William Oliveira</a>
+      </h1>
+      
+        <h2 id="subtitle-wrap">
+          <a href="/" id="subtitle">Desenvolvedor Front End</a>
+        </h2>
+      
+    </div>
+  </div>
+</header>
+
+      <div class="outer">
+        <section id="main"><article id="post-desenvolvendo-interfaces-like-boss" class="article article-type-post" itemscope itemprop="blogPost">
+  <div class="article-inner">
+    
+    
+      <header class="article-header">
+        
+  
+    <h1 class="article-title" itemprop="name">
+      Interfaces like a boss!
+    </h1>
+  
+
+      </header>
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+        <p>É amigo, teve um tempo em que modificar um registro no banco de dados era a coisa que eu achava mas incrível do mundo, gerar um relatório em PDF com PHP então… Nem se fale! Porém, hoje, o que eu curto mesmo é desenvolver interfaces e trabalhar no Browser com JavaScript. Só que criar interfaces não é só sair desenhando no Browser com HTML e CSS, depois colocar umas ações legais com o JS… Tem de planejar a interação, tem de pensar o que vai fazer, senão o que fizer agora, vai se tornar sua dor de cabeça mais pra frente! Pensando nisso segue umas dicas maneiras pra não se enrolar todo na hora de desenvolver uma interface.<a id="more"></a></p>
+<h2 id="Começando:_Os_3_principais_elementos_da_Interface">Começando: Os 3 principais elementos da Interface</h2><p><img src="../../public/images/estrutura.png" alt="Exemplo de estrutura da interface"></p>
+<p>Lembre-se de identificar os principais elementos da interface:</p>
+<ul>
+<li><strong>Topo</strong></li>
+<li><strong>Conteúdo</strong></li>
+<li><strong>Rodapé</strong></li>
+</ul>
+<p>Você já deve ter reparado que, acho que todos, os sites na Web possuem um Topo, onde normalmente vai o Logo, os menus, depois vem o conteúdo com o conteúdo propriamente dito e por fim tem o rodapé, onde a galera coloca o Copyright, dados da empresa/site, contato, etc.<br>Identifique isso e separe. Vai ajudar muito.<br>Ex.:</p>
+<figure class="highlight xml"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="title">header</span>&gt;</span>Topo<span class="tag">&lt;/<span class="title">header</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="title">section</span> <span class="attribute">id</span>=<span class="value">”content”</span>&gt;</span>Conteúdo do Site<span class="tag">&lt;/<span class="title">section</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="title">footer</span>&gt;</span>Rodapé<span class="tag">&lt;<span class="title">footer</span>&gt;</span></span><br></pre></td></tr></table></figure>
+<h2 id="Separe_marcação,_estilos_e_ações">Separe marcação, estilos e ações</h2><p>Já deve ser uma boa prática sua separar o HTML em um arquivo, o CSS em outro e o JS em outro né?<br>Se a resposta foi não,é bom dar uma estudada nisso, pois são boas práticas de desenvolvimento e vão te ajudar muito.<br>As vezes acontece de uma página, ou mais, possuírem estilos próprios que só serão aplicados a elas. Para esses casos nós criamos um arquivo CSS que só será carregado nela. Ex.: contato.css, localizacao.css, por ai vai. Porém, tudo o que for repetido em todas as páginas deixe no arquivo principal.</p>
+<h2 id="Organização_do_código"><strong>Organização do código</strong></h2><p>Sempre comente seu código, isso faz bem pra saúde. Imagina depois de 1 ano você precisar refatorar uma interface! Você pode ficar louco tentando decifrar o que pensava antes… ;D - Quero ver lembrar o que você fez! Eu não lembro nem o que eu fiz ontem.</p>
+<h3 id="CSS">CSS</h3><p>Usar um <a href="/posts/css-reset-de-varias-maneiras">Reset CSS</a> vai ajudar muito a fazer com que sua interface seja igual em todos os navegadores (Talvez não no IE! Brincadeira).</p>
+<h4 id="Tente_abreviar_suas_declarações_CSS-">Tente abreviar suas declarações CSS.</h4><p>Ao invés de:</p>
+<figure class="highlight css"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"><span class="rule"><span class="attribute">margin-top</span>:<span class="value"> <span class="number">2px</span></span></span>;</span><br><span class="line"><span class="rule"><span class="attribute">margin-right</span>:<span class="value"> <span class="number">3px</span></span></span>;</span><br><span class="line"><span class="rule"><span class="attribute">margin-bottom</span>:<span class="value"> <span class="number">5px</span></span></span>;</span><br><span class="line"><span class="rule"><span class="attribute">margin-left</span>:<span class="value"> <span class="number">9px</span></span></span>;</span><br></pre></td></tr></table></figure>
+<p>Faça:</p>
+<figure class="highlight css"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="rule"><span class="attribute">margin</span>:<span class="value"> <span class="number">2px</span> <span class="number">3px</span> <span class="number">5px</span> <span class="number">9px</span></span></span>;</span><br></pre></td></tr></table></figure>
+<h4 id="Divida_seu_CSS_em_sessões-">Divida seu CSS em sessões.</h4><figure class="highlight applescript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br></pre></td><td class="code"><pre><span class="line">/*<span class="comment">------------------------------</span></span><br><span class="line">Reset, corpo da página, estilos padrões</span><br><span class="line">para listas, parágrafos, etc.</span><br><span class="line"><span class="comment">------------------------------*/</span></span><br><span class="line">/*<span class="comment">------------------------------</span></span><br><span class="line">Estilos de títulos</span><br><span class="line"><span class="comment">------------------------------*/</span></span><br><span class="line">/*<span class="comment">------------------------------</span></span><br><span class="line">Estilos de texto</span><br><span class="line"><span class="comment">------------------------------*/</span></span><br><span class="line">/*<span class="comment">------------------------------</span></span><br><span class="line">Navegação</span><br><span class="line"><span class="comment">------------------------------*/</span></span><br><span class="line">/*<span class="comment">------------------------------</span></span><br><span class="line">Forms</span><br><span class="line"><span class="comment">------------------------------*/</span></span><br><span class="line">/*<span class="comment">------------------------------</span></span><br><span class="line">Cabeçalho</span><br><span class="line"><span class="comment">------------------------------*/</span></span><br><span class="line">/*<span class="comment">------------------------------</span></span><br><span class="line">Corpo</span><br><span class="line"><span class="comment">------------------------------*/</span></span><br><span class="line">/*<span class="comment">------------------------------</span></span><br><span class="line">Rodapé</span><br><span class="line"><span class="comment">------------------------------*/</span></span><br></pre></td></tr></table></figure>
+<h4 id="Primeiro_aqui,_depois_ali,_em_seguida_lá…">Primeiro aqui, depois ali, em seguida lá…</h4><p>Durante o desenvolvimento vá codificando por partes. Faça todo o topo, depois faça o conteúdo, depois o rodapé. Durante o desenvolvimento do Topo, se tiver um menu, faça a estrutura do topo e depois o menu e posicione-o no lugar ceto, em seguida vá pro conteúdo e assim por diante.</p>
+<h4 id="Testes">Testes</h4><p>Durante o desenvolvimento vá testando o que fizer em todos os navegadores, isso vai agilizar bastante. Imagine, depois de ter feito toda a interface e deixado ela perfeitinha você abre no IE e está tudo quebrado! Putz…<br>Ai você modifica só um pouquinho pra funcionar no IE e quando abre em outro navegador já não está mais do jeito que tinha deixado… Que maravilha né?</p>
+<h4 id="Bônus">Bônus</h4><p><strong>Que tal testar a velocidade do seu site?</strong></p>
+<p>Dá pra fazer isso<a href="http://www.webpagetest.org/" title="Web page test" target="_blank" rel="external"> aqui</a> ou <a href="http://developers.google.com/speed/pagespeed/insights/" title="Page Speed Google" target="_blank" rel="external">aqui</a>.</p>
+<p><strong>Quer testar o site na versão mobile?</strong></p>
+<p>Fora as ferramentas dos Browsers, tem <a href="http://quirktools.com/screenfly/" title="Screenfly" target="_blank" rel="external">esse site</a>, que também é maneiro.</p>
+<p>Tem um templatezinho maneiro em HTML5 que ajuda, também, na hora de criar a estrutura do site, é o <a href="http://html5boilerplate.com/" title="html5boilerplate" target="_blank" rel="external">HTML5Boilerplate</a>.<br>Sempre pense em <a href="http://browserdiet.com/pt/" title="Browser Diet" target="_blank" rel="external">performance</a>, <a href="http://moz.com/learn/seo/on-page-factors" title="SEO" target="_blank" rel="external">SEO</a>, <a href="http://pt.wikipedia.org/wiki/Cross-browser" title="Cross-browser" target="_blank" rel="external">Cross Browser</a>, <a href="http://tableless.com.br/como-tornar-seu-website-acessivel/" title="Acessibilidade" target="_blank" rel="external">Acessibilidade</a>, <a href="http://viverdeblog.com/18-problemas-usabilidade/" title="Usabilidade" target="_blank" rel="external">Usabilidade </a>e esses termos que você tem ouvido falar muito ultimamente - Eu sei que tem ouvido sim! - pois são itens extremamente necessários para uma boa interface funcionar legal.<br>Se você tem mais alguma outra dica comenta ae! ;D</p>
+
+      
+    </div>
+    <footer class="article-footer">
+      <a data-url="http://woliveiras.com.br/posts/desenvolvendo-interfaces-like-boss/" data-id="cidn8165y001n01vvnrzp15cn" class="article-share-link">Share</a>
+      
+        <a href="http://woliveiras.com.br/posts/desenvolvendo-interfaces-like-boss/#disqus_thread" class="article-comment-link">Comentários</a>
+      
+      
+    </footer>
+  </div>
+  
+    
+<nav id="article-nav">
+  
+    <a href="/posts/freelancer-quanto-cobrar-pelo-freelance/" id="article-nav-newer" class="article-nav-link-wrap">
+      <strong class="article-nav-caption">Póximo</strong>
+      <div class="article-nav-title">
+        
+          Quanto cobrar pelo Freelance?
+        
+      </div>
+    </a>
+  
+  
+    <a href="/posts/criar-uma-base-box-para-o-vagrant/" id="article-nav-older" class="article-nav-link-wrap">
+      <strong class="article-nav-caption">Anterior</strong>
+      <div class="article-nav-title">Criar uma base box para o Vagrant</div>
+    </a>
+  
+</nav>
+
+
+  
+</article>
+
+
+<section id="comments">
+  <div id="disqus_thread">
+    <noscript>Please enable JavaScript to view the <a href="//disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+  </div>
+</section>
+
+</section><!--
+         -->
+      </div>
+      <footer id="footer">
+  
+  <div id="footer-info">
+    <div class="outer">
+      &copy; 2015 William de Oliveira Powered by <a href="http://hexo.io/" target="_blank">Hexo</a>
+    </div>
+  </div>
+</footer>
+    </div>
+    <nav id="mobile-nav">
+  
+    <a href="/" class="mobile-nav-link">Home</a>
+  
+    <a href="/about" class="mobile-nav-link">Contato</a>
+  
+</nav>
+    
+<script>
+  var disqus_shortname = 'woliveiras';
+  
+  var disqus_url = 'http://woliveiras.com.br/posts/desenvolvendo-interfaces-like-boss/';
+  
+  (function(){
+    var dsq = document.createElement('script');
+    dsq.type = 'text/javascript';
+    dsq.async = true;
+    dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+    (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+  })();
+</script>
+
+
+<script src="//ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
+
+
+  <link rel="stylesheet" href="/fancybox/jquery.fancybox.css" type="text/css">
+  <script src="/fancybox/jquery.fancybox.pack.js" type="text/javascript"></script>
+
+
+<script src="/js/script.js" type="text/javascript"></script>
+
+  </div>
+</body>
+</html>
