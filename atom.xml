@@ -5,7 +5,7 @@
   <subtitle><![CDATA[Desenvolvedor Front End]]></subtitle>
   <link href="/atom.xml" rel="self"/>
   <link href="http://woliveiras.com.br//"/>
-  <updated>2015-08-14T10:05:27.789Z</updated>
+  <updated>2015-09-09T01:38:48.155Z</updated>
   <id>http://woliveiras.com.br//</id>
   
   <author>
@@ -14,6 +14,85 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title><![CDATA[Twitter Bootstrap do jeito certo]]></title>
+    <link href="http://woliveiras.com.br/posts/twitter-bootstrap-bootstrap-do-jeito-certo/"/>
+    <id>http://woliveiras.com.br/posts/twitter-bootstrap-bootstrap-do-jeito-certo/</id>
+    <published>2015-09-09T01:00:00.000Z</published>
+    <updated>2015-09-09T01:38:48.155Z</updated>
+    <content type="html"><![CDATA[<p>Muita gente critica o uso do <a href="http://getbootstrap.com/" target="_blank" rel="external">Twitter Bootstrap</a> devido a nomenclatura de suas classes e aos muitos componentes que o framework possui.</p>
+<p>Dizem que as classes não são semanticas e que o peso do framework é desnecessário.</p>
+<p>Pois bem, <strong>você não precisa das classes col-md/lg/xs-xxx no seu HTML</strong> e para projetos pequenos (que você não usa todo o potencial do framework) você pode <strong>selecionar somente o que vai utilizar no projeto</strong>.<br>Maneiro né? Da uma olhada como faz…<br><a id="more"></a><br>Se você já conhece pré processadores, será fácil aprender essa forma de utilizar o BS (Bootstrap). Se não conhece é melhor dar uma estudada no Less (que é o mais fácil para iniciantes) ou no Sass para acompanhar essa dica e absorver melhor. Depois de aprender volte aqui e continue a leitura. ;)</p>
+<h4 id="Para_aprender_Less:">Para aprender Less:</h4><ul>
+<li><a href="http://lesscss.org/" target="_blank" rel="external">http://lesscss.org/</a></li>
+<li><a href="http://blog.caelum.com.br/css-facil-flexivel-e-dinamico-com-less/" target="_blank" rel="external">http://blog.caelum.com.br/css-facil-flexivel-e-dinamico-com-less/</a></li>
+</ul>
+<h4 id="Para_aprender_Sass:">Para aprender Sass:</h4><ul>
+<li><a href="http://sass-lang.com/guide" target="_blank" rel="external">http://sass-lang.com/guide</a></li>
+<li><a href="http://pre-processadores.github.io/Sass-Guide/" target="_blank" rel="external">http://pre-processadores.github.io/Sass-Guide/</a></li>
+</ul>
+<p>Eu recomendo começar pelo Less pela sintaxe já ser mais familiar e depois migrar para o Sass, pois o BS também vai mudar para Sass na versão 4.</p>
+<h2 id="Semântica_e_CSS?">Semântica e CSS?</h2><p>Claro que a semântica nesse caso se trata da arquitetura do Front End e não da Semântica do conteúdo que o Browser vai ler, pois essa é definida pelo HTML - Comente se errei, mas não achei nada a respeito de importância semântica nos valores de classes CSS.<br>Porém é uma coisa importante… Você bater o olho em um código e identificar o que é aquele componente é algo bom. É produtivo.</p>
+<h2 id="O_que_preciso_manjar_pra_fazer_um_bom_uso_do_Bootstrap?">O que preciso manjar pra fazer um bom uso do Bootstrap?</h2><p>Antes de partir para qualquer framework, seja de CSS, JS ou algo de Backend, é necessário que possua conhecimento nas tecnologias por trás disso. Se vamos utilizar o BS para agilizar nosso Front, é primordial o conhecimento em HTML, CSS e JavaScript.<br><strong>Se você não tiver o conhecimento básico, vai correr o sério risco de estragar ainda mais o seu trabalho se usar qualquer framework.</strong></p>
+<h2 id="Bootstrap_+_Less_+_GruntJS">Bootstrap + Less + GruntJS</h2><p>Para agilizar nosso trabalho de compilar o Less, podemos usar algum Task Runner. No meu caso usei o Grunt, pois já utilizava ele a algum tempo.</p>
+<h4 id="Pastel">Pastel</h4><p>Eu já possuo um Boilerplate montado para agilizar meu trabalho. Podemos utilizar ele para facilitar nosso estudo também. Chamei ele de <a href="https://github.com/woliveiras/pastel" title="Pastel" target="_blank" rel="external">Pastel</a>! Baixe em seu PC e vamos ao trabalho.</p>
+<p>Siga o passo a passo da instalação do Pastel e depois pode então executar o comando <strong>grunt watch</strong> que já está pré configurado para monitorar os arquivos <em>.less</em> e compilar sempre que você salvar os arquivos.</p>
+<p>Caso não queira usar o Pastel, fique a vontade para utilizar suas próprias tarefas ou compilar de seu jeito se preferir pelo terminal. O uso do Pastel é somente para agilizar o Start do nosso Projeto.</p>
+<h2 id="Selecionando_somente_os_componentes_que_precisamos_utilizar_do_Bootstrap">Selecionando somente os componentes que precisamos utilizar do Bootstrap</h2><p>Antes de começar a codificar, identifique no projeto quais seriam os componentes necessários.</p>
+<p><strong>Exemplo</strong>: Será necessário utilizar abas em alguma parte da interface? Tem formulários, tabelas, etc?</p>
+<p>Essa parte é muito importante para deixar o arquivo final mais enxuto.</p>
+<p>Se você não conhece todos os componentes do BS, da uma olhada <a href="http://getbootstrap.com/components/" title="Components Bootstrap" target="_blank" rel="external">aqui</a>.</p>
+<p>Depois disso você pode abrir o arquivo <strong>default.less</strong> que está dentro de <strong>src/less</strong>. É nesse arquivo que você seleciona os componentes que vão entrar no projeto. Nele estão os <strong>imports</strong> necessários para tudo funcionar.</p>
+<p>Todas as linhas estão comentadas para que só compile o que você escolher.</p>
+<p>Ex.:</p>
+<p>Digamos que você vai utilizar modal e tooltips, então você pode remover as barras (//) do início das linhas que chamam esses componentes.</p>
+<p><strong>Antes</strong></p>
+<figure class="highlight perl"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">//<span class="variable">@import</span> <span class="string">"<span class="subst">@&#123;path_bootstrap&#125;</span>modals"</span>;</span><br><span class="line"><span class="regexp">//</span><span class="variable">@import</span> <span class="string">"<span class="subst">@&#123;path_bootstrap&#125;</span>tooltip"</span>;</span><br></pre></td></tr></table></figure>
+<p><strong>Depois de remover os comentários</strong></p>
+<figure class="highlight css"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="at_rule">@<span class="keyword">import</span> <span class="string">"@&#123;path_bootstrap&#125;modals"</span></span>;</span><br><span class="line"><span class="at_rule">@<span class="keyword">import</span> <span class="string">"@&#123;path_bootstrap&#125;tooltip"</span></span>;</span><br></pre></td></tr></table></figure>
+<p><strong>path_bootstrap</strong> é uma variável que leva o caminho completo do BS para compilação. Ele vai chamar esse arquivo para compilar e concatenar no arquivo final compilado com os estilos do BS + os seus estilos.</p>
+<p>Algumas variáveis importantes você pode conhecer <a href="http://getbootstrap.com/css/#less" title="Referência do BS com Less" target="_blank" rel="external">aqui</a>.</p>
+<p>Os componentes necessários na maioria dos projetos já estão sem as // no arquivo default do Pastel, que são esses:</p>
+<figure class="highlight css"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">/* Componentes comuns nos projetos */</span></span><br><span class="line"><span class="at_rule">@<span class="keyword">import</span> <span class="string">"@&#123;path_bootstrap&#125;scaffolding.less"</span></span>;</span><br><span class="line"><span class="at_rule">@<span class="keyword">import</span> <span class="string">"@&#123;path_bootstrap&#125;type.less"</span></span>;</span><br><span class="line"><span class="at_rule">@<span class="keyword">import</span> <span class="string">"@&#123;path_bootstrap&#125;grid.less"</span></span>;</span><br><span class="line"><span class="at_rule">@<span class="keyword">import</span> <span class="string">"@&#123;path_bootstrap&#125;utilities"</span></span>;</span><br><span class="line"><span class="at_rule">@<span class="keyword">import</span> <span class="string">"@&#123;path_bootstrap&#125;responsive-utilities"</span></span>;</span><br></pre></td></tr></table></figure>
+<p>Mas você pode ficar a vontade para remover e adicionar os componentes que quiser e confirmar você mesmo sobre o peso final do arquivo.</p>
+<p>O que acontece aqui é que o Less lê o nosso arquivo default.less que está apontando para a pasta do BS + as pastas com nossos estilos. Então ele junta tudo em um arquivo compilando para css.</p>
+<p>As variáveis que possuírem o mesmo nome que as do BS em nossos arquivos irão sobrescrever os estilos padrões do BS por estarem sendo chamados por último e assim por diante.</p>
+<p>Tudo o que precisar modificar não precisa de !important ou ficar usando id, basta sobrescrever usando essa tecnica que o Less faz o trabalho final ficar bonito.</p>
+<h2 id="Como_utilizar_o_Grid_do_Bootstrap_com_Less?">Como utilizar o Grid do Bootstrap com Less?</h2><p>No arquivo <strong>styles.less</strong> (se estiver usando o Pastel) é onde você vai colocar os estilos para seu projeto, você não vai mais colocar <strong>col-xx-xx</strong> no HTML. Ao invés disso você pode criar seus componentes de acordo com o contexto e fazer o seguinte:</p>
+<p>No arquivo styles.less:</p>
+<figure class="highlight less"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"><span class="class">.classe-que-recebe-o-grid</span>&#123;</span><br><span class="line">  <span class="class">.make-lg-column</span>(<span class="number">8</span>); <span class="comment">//Aqui será ins	erido o grid do col-lg-8</span></span><br><span class="line">  <span class="class">.make-md-column</span>(<span class="number">8</span>); <span class="comment">// e aqui o col-md-8</span></span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<p>O arquivo final ficará assim:</p>
+<figure class="highlight css"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br></pre></td><td class="code"><pre><span class="line"><span class="class">.classe-que-recebe-o-grid</span> <span class="rules">&#123;</span><br><span class="line">  <span class="rule"><span class="attribute">position</span>:<span class="value"> relative</span></span>;</span><br><span class="line">  <span class="rule"><span class="attribute">min-height</span>:<span class="value"> <span class="number">1px</span></span></span>;</span><br><span class="line">  <span class="rule"><span class="attribute">padding-left</span>:<span class="value"> <span class="number">15px</span></span></span>;</span><br><span class="line">  <span class="rule"><span class="attribute">padding-right</span>:<span class="value"> <span class="number">15px</span></span></span>;</span><br><span class="line">&#125;</span></span><br><span class="line"><span class="at_rule">@<span class="keyword">media</span> (min-width: <span class="number">1200px</span>) </span>&#123;</span><br><span class="line">  <span class="class">.classe-que-recebe-o-grid</span> <span class="rules">&#123;</span><br><span class="line">    <span class="rule"><span class="attribute">float</span>:<span class="value"> left</span></span>;</span><br><span class="line">    <span class="rule"><span class="attribute">width</span>:<span class="value"> <span class="number">66.66666667%</span></span></span>;</span><br><span class="line">  &#125;</span></span><br><span class="line">&#125;</span><br><span class="line"><span class="at_rule">@<span class="keyword">media</span> (min-width: <span class="number">992px</span>) </span>&#123;</span><br><span class="line">  <span class="class">.classe-que-recebe-o-grid</span> <span class="rules">&#123;</span><br><span class="line">    <span class="rule"><span class="attribute">float</span>:<span class="value"> left</span></span>;</span><br><span class="line">    <span class="rule"><span class="attribute">width</span>:<span class="value"> <span class="number">66.66666667%</span></span></span>;</span><br><span class="line">  &#125;</span></span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<p>Quando tiver mais de um componente que recebe o mesmo grid você pode usar o conceito de agrupamento de CSS e colocar as duas classes para receber tal estilo:</p>
+<p>Less:</p>
+<figure class="highlight less"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line"><span class="class">.classe-que-recebe-o-grid</span>, </span><br><span class="line"><span class="class">.outra-classe-com-grid</span>&#123;</span><br><span class="line">  <span class="class">.make-lg-column</span>(<span class="number">8</span>);</span><br><span class="line">  <span class="class">.make-md-column</span>(<span class="number">8</span>);</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<p>Resultado:</p>
+<figure class="highlight css"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br></pre></td><td class="code"><pre><span class="line"><span class="class">.classe-que-recebe-o-grid</span>,</span><br><span class="line"><span class="class">.outra-classe-com-grid</span> <span class="rules">&#123;</span><br><span class="line">  <span class="rule"><span class="attribute">position</span>:<span class="value"> relative</span></span>;</span><br><span class="line">  <span class="rule"><span class="attribute">min-height</span>:<span class="value"> <span class="number">1px</span></span></span>;</span><br><span class="line">  <span class="rule"><span class="attribute">padding-left</span>:<span class="value"> <span class="number">15px</span></span></span>;</span><br><span class="line">  <span class="rule"><span class="attribute">padding-right</span>:<span class="value"> <span class="number">15px</span></span></span>;</span><br><span class="line">&#125;</span></span><br><span class="line"><span class="at_rule">@<span class="keyword">media</span> (min-width: <span class="number">1200px</span>) </span>&#123;</span><br><span class="line">  <span class="class">.classe-que-recebe-o-grid</span>,</span><br><span class="line">  <span class="class">.outra-classe-com-grid</span> <span class="rules">&#123;</span><br><span class="line">    <span class="rule"><span class="attribute">float</span>:<span class="value"> left</span></span>;</span><br><span class="line">    <span class="rule"><span class="attribute">width</span>:<span class="value"> <span class="number">66.66666667%</span></span></span>;</span><br><span class="line">  &#125;</span></span><br><span class="line">&#125;</span><br><span class="line"><span class="at_rule">@<span class="keyword">media</span> (min-width: <span class="number">992px</span>) </span>&#123;</span><br><span class="line">  <span class="class">.classe-que-recebe-o-grid</span>,</span><br><span class="line">  <span class="class">.outra-classe-com-grid</span> <span class="rules">&#123;</span><br><span class="line">    <span class="rule"><span class="attribute">float</span>:<span class="value"> left</span></span>;</span><br><span class="line">    <span class="rule"><span class="attribute">width</span>:<span class="value"> <span class="number">66.66666667%</span></span></span>;</span><br><span class="line">  &#125;</span></span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<p>Os nomes de arquivos e a forma que eu utilizo não são um padrão e você não é obrigado a seguir… Basta modificar da sua maneira e modificar na tarefa less no Gruntfile.</p>
+<p><strong>Referência</strong></p>
+<p><a href="http://blog.rafamello.com/bootstrap-inteligente" title="Bootstrap Inteligente" target="_blank" rel="external">Bootstrap Inteligente - Rafa Mello</a></p>
+]]></content>
+    <summary type="html">
+    <![CDATA[Twitter Bootstrap é pesado? Twitter Bootstrap não é semântico? Será? Confira algumas dicas para usar o Twitter Bootstrap do jeito certo.]]>
+    
+    </summary>
+    
+      <category term="Bootstrap" scheme="http://woliveiras.com.br/tags/Bootstrap/"/>
+    
+      <category term="Grunt" scheme="http://woliveiras.com.br/tags/Grunt/"/>
+    
+      <category term="Less" scheme="http://woliveiras.com.br/tags/Less/"/>
+    
+      <category term="Dicas" scheme="http://woliveiras.com.br/categories/Dicas/"/>
+    
+      <category term="Front End" scheme="http://woliveiras.com.br/categories/Dicas/Front-End/"/>
+    
+      <category term="Grunt" scheme="http://woliveiras.com.br/categories/Dicas/Front-End/Grunt/"/>
+    
+      <category term="Produtividade" scheme="http://woliveiras.com.br/categories/Dicas/Front-End/Grunt/Produtividade/"/>
+    
+  </entry>
   
   <entry>
     <title><![CDATA[Migrando de WordPress para Hexo]]></title>
@@ -115,8 +194,8 @@
     <link href="http://woliveiras.com.br/posts/contribuindo-para-projetos-open-source-no-github-mesmo-sendo-iniciante/"/>
     <id>http://woliveiras.com.br/posts/contribuindo-para-projetos-open-source-no-github-mesmo-sendo-iniciante/</id>
     <published>2015-02-09T14:12:32.000Z</published>
-    <updated>2015-08-22T15:03:39.501Z</updated>
-    <content type="html"><![CDATA[<div class="shared-img"><br><img src="../..//public/images/github.gif" alt=""><br></div>
+    <updated>2015-08-29T13:42:03.369Z</updated>
+    <content type="html"><![CDATA[<div class="shared-img"><br><img src="../../public/images/github.gif" alt=""><br></div>
 
 <p>Se você é iniciante já deve ter escutado: “Se quiser aprender mesmo tem de botar a mão na massa!”.<br>Sim! E eu concordo. A melhor maneira de aprender é estudando e praticando muuuuuito! Porém, nem sempre temos um projeto para iniciantes dando sopa na internet ou uma empresa que nos de a oportunidade de praticar lá e crescermos assim. Então uma ÓTIMA maneira de se praticar é auxiliando projetos no <a href="https://github.com/" title="Github" target="_blank" rel="external">Github</a>.<br>Ai você se pergunta: “Tá, mas se eu sou iniciante como eu consigo ajudar?”<br>Vamos nessa que vou tentar te ajudar.<a id="more"></a></p>
 <h2 id="O_Open_Source_pode_te_ajudar_muito!">O Open Source pode te ajudar muito!</h2><p>Contribuir com Open Source realmente pode mudar sua perspectiva.<br>Você pode ficar melhor naquilo em que está estudando. Se estuda Front, vai praticar Front, se estuda Back, vai praticar Back, etc.<br>Sabe aquele trampo que não te chamou por falta de experiência? Então, mostra seu Github pra eles! - Porém não saia entrando em qualquer projeto só pra ter algo a acrescentar no curriculum, entre para estudar e apoiar de verdade uma causa. Você deve se identificar com o projeto e então ajudar.<br>Além disso, você vai aprender a trabalhar bem em equipe, dominar melhor o Git e o Github e pode receber muitas dicas dos membros dos projetos sobre sua forma de trabalhar, o que vai ajudar muito seu Workflow e crescimento profissional.</p>
@@ -132,7 +211,7 @@
 <div class="video-container"><br><iframe width="420" height="315" src="https://www.youtube.com/embed/E8MPe6tCMo8" frameborder="0" allowfullscreen></iframe><br></div>
 ]]></content>
     <summary type="html">
-    <![CDATA[<div class="shared-img"><br><img src="../..//public/images/github.gif" alt=""><br></div>
+    <![CDATA[<div class="shared-img"><br><img src="../../public/images/github.gif" alt=""><br></div>
 
 <p>Se você é iniciante já deve ter escutado: “Se quiser aprender mesmo tem de botar a mão na massa!”.<br>Sim! E eu concordo. A melhor maneira de aprender é estudando e praticando muuuuuito! Porém, nem sempre temos um projeto para iniciantes dando sopa na internet ou uma empresa que nos de a oportunidade de praticar lá e crescermos assim. Então uma ÓTIMA maneira de se praticar é auxiliando projetos no <a href="https://github.com/" title="Github">Github</a>.<br>Ai você se pergunta: “Tá, mas se eu sou iniciante como eu consigo ajudar?”<br>Vamos nessa que vou tentar te ajudar.]]>
     
@@ -956,53 +1035,6 @@
       <category term="HTML" scheme="http://woliveiras.com.br/categories/Carreira/CSS/Dicas/Front-End/HTML/"/>
     
       <category term="Javascript" scheme="http://woliveiras.com.br/categories/Carreira/CSS/Dicas/Front-End/HTML/Javascript/"/>
-    
-  </entry>
-  
-  <entry>
-    <title><![CDATA[Vagrant no Windows com Putty]]></title>
-    <link href="http://woliveiras.com.br/posts/vagrant-no-windows/"/>
-    <id>http://woliveiras.com.br/posts/vagrant-no-windows/</id>
-    <published>2014-08-17T19:42:14.000Z</published>
-    <updated>2015-08-10T11:13:28.479Z</updated>
-    <content type="html"><![CDATA[<h2 id="Usando_o_Putty_para_acessar_ambientes_Vagrant">Usando o Putty para acessar ambientes Vagrant</h2><p>Após a <a href="/posts/instalacao-vagrant/ &quot;Crie e compartilhe ambientes com o Vagrant (Instalação">instalação do Vagrant</a>, precisamos acessar a máquina virtual com SSH. Nos ambientes Linux/Mac é facinho, basta rodar ssh usuario@porta, mas no Windows é um pouco diferente…<br>No Windows precisamos de um programa bem útil chamado Putty.<a id="more"></a></p>
-<h2 id="Obtendo_e_configurando_o_Putty">Obtendo e configurando o Putty</h2><p>Acesse o <a href="http://www.putty.org/" title="Putty" target="_blank" rel="external">site do Putty</a>, baixe o <strong>putty.exe</strong> e o <strong>puttygen.exe</strong>.</p>
-<p>Execute o <strong>Puttygen</strong></p>
-<p><img src="../../public/images/puttygen.png" alt="Puttygen"></p>
-<p>Clique em “<strong>Load</strong>”, selecione o arquivo <strong>C:/Users/&lt;usuário&gt;/.vagrant.d/insecure_private_key</strong> e clique em “<strong>Abrir</strong>”</p>
-<p><img src="../../public/images/load-ssh.png" alt="Load"></p>
-<p>Uma mensagem de confirmação surgirá, pode clicar no <strong>OK</strong>.<br>Clique em “<strong>save private key</strong>” e, na tela que surgir, clique no sim.</p>
-<p><img src="../../public/images/salvando-a-chave-ssh.png" alt="Save a privatekey"></p>
-<p>No mesmo diretório do arquivo “<strong>insecure_private_key</strong>”(C:/Users/&lt;usuário&gt;/.vagrant.d/) salve este arquivo com o nome “<strong>vagrant.ppk</strong>”</p>
-<p><img src="../../public/images/vagrant-ppk.png" alt="vagrant.ppk"></p>
-<p>Após subir a máquina virtual, então surgirá um endereço de IP do servidor para acesso via ssh, provavelmente esse: <strong>127.0.0.1:2222</strong>, então seria essa a configuração no Putty:</p>
-<p><img src="../../public/images/acessando-ssh-com-putty.png" alt="Acessar ssh"></p>
-<p>Deixe um nome de sua preferência em <strong>Saved Sessions</strong>, igual onde está escrito <strong>lucid32-vagrant</strong> na imagem, para poder salvar a sessão e não precisar configurar tudo de novo toda vez que for utilizar.<br>No canto esquerdo clique na seção “<strong>Connection &gt; SSH &gt; Auth</strong>”. Clique no botão “<strong>Browse</strong>” e selecione o arquivo “<strong>vagrant.ppk</strong>”. Se você seguiu todas as instruções corretamente, ele deve ter sido salvo em <strong>C:/Users/&lt;seu usuário&gt;/.vagrant.d/vagrant.ppk</strong>.</p>
-<p><img src="../../public/images/carregando-a-chave-ppk-putty.png" alt="Configuração do Putty"></p>
-<p>Volte até a seção “<strong>Session</strong>”, digite um nome no campo “<strong>Saved Sessions</strong>” e clique no botão “<strong>Save</strong>” para salvar essas configurações.<br>Agora é só clicar em “<strong>Open</strong>” e vai aparecer uma janela assim:</p>
-<p><img src="../../public/images/primeiro-acesso-ssh-putty.png" alt="Primeiro acesso"></p>
-<p>Pode clicar no “Yes” sem medo.<br>Pronto!<br>Agora pode usar seu servidor, instalar e configurar conforme necessário.</p>
-<p>Referência: <a href="http://simplesideias.com.br/usando-o-vagrant-como-ambiente-de-desenvolvimento-no-windows" target="_blank" rel="external">http://simplesideias.com.br/usando-o-vagrant-como-ambiente-de-desenvolvimento-no-windows</a></p>
-<p>Caso não tenha entendido algo, estou a disposição, só me chamar! ;D</p>
-]]></content>
-    <summary type="html">
-    <![CDATA[<h2 id="Usando_o_Putty_para_acessar_ambientes_Vagrant">Usando o Putty para acessar ambientes Vagrant</h2><p>Após a <a href="/posts/instalacao-vagrant/ &quot;Crie e compartilhe ambientes com o Vagrant (Instalação">instalação do Vagrant</a>, precisamos acessar a máquina virtual com SSH. Nos ambientes Linux/Mac é facinho, basta rodar ssh usuario@porta, mas no Windows é um pouco diferente…<br>No Windows precisamos de um programa bem útil chamado Putty.]]>
-    
-    </summary>
-    
-      <category term="Ambiente" scheme="http://woliveiras.com.br/tags/Ambiente/"/>
-    
-      <category term="Vagrant" scheme="http://woliveiras.com.br/tags/Vagrant/"/>
-    
-      <category term="Virtualização" scheme="http://woliveiras.com.br/tags/Virtualizacao/"/>
-    
-      <category term="Ambiente" scheme="http://woliveiras.com.br/categories/Ambiente/"/>
-    
-      <category term="Putty" scheme="http://woliveiras.com.br/categories/Ambiente/Putty/"/>
-    
-      <category term="Vagrant" scheme="http://woliveiras.com.br/categories/Ambiente/Putty/Vagrant/"/>
-    
-      <category term="Virtualização" scheme="http://woliveiras.com.br/categories/Ambiente/Putty/Vagrant/Virtualizacao/"/>
     
   </entry>
   
