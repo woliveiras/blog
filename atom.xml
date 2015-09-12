@@ -1,12 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-  
   <title><![CDATA[William Oliveira]]></title>
   <subtitle><![CDATA[Desenvolvedor Front End]]></subtitle>
   <link href="/atom.xml" rel="self"/>
-  <link href="http://woliveiras.com.br//"/>
-  <updated>2015-09-09T01:38:48.155Z</updated>
-  <id>http://woliveiras.com.br//</id>
+  <link href="http://woliveiras.com.br/"/>
+  <updated>2015-09-12T19:56:21.000Z</updated>
+  <id>http://woliveiras.com.br/</id>
   
   <author>
     <name><![CDATA[William de Oliveira]]></name>
@@ -16,11 +15,127 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
+    <title><![CDATA[Corrigindo as permissões de usuário para o NPM no Linux]]></title>
+    <link href="http://woliveiras.com.br/posts/corrigindo-permissoes-de-usuario-linux-npm/"/>
+    <id>http://woliveiras.com.br/posts/corrigindo-permissoes-de-usuario-linux-npm/</id>
+    <published>2015-09-12T13:00:00.000Z</published>
+    <updated>2015-09-12T19:56:21.000Z</updated>
+    <content type="html"><![CDATA[<div class="shared-img"><br><img src="../..//public/images/npm.svg" alt=""><br></div>
+
+<p>Se você utiliza Linux e usa NPM para baixar pacotes Nodejs, provavelmente precisa utilizar o <em>sudo</em> para efetuar as instalações e digita sua senha a cada nova instalação. Porém tem uma forma mais fácil de se fazer isso. <a id="more"></a></p>
+<p>A pasta /usr/local é onde ficam (normalmente) os programas em geral e os pacotes Globais do Node. :)</p>
+<p>Para instalar algo ali dentro, o NPM precisa de permissão de usuário para essa pasta (assim como qualquer programa que você vá instalar em seu S.O.) e é por isso que toda vez que você tenta instalar algum pacote precisa digitar: <code>sudo npm i pacote</code></p>
+<p>Para corrigir isso vamos mudar as permissões do seu usuário para o diretório.</p>
+<p>Começe executando o comando <code>npm config get prefix</code> para verificar se o prefixo está corretamente localizado em <strong>/usr/local</strong>.</p>
+<p>Caso esteja corretamente localizado execute o comando:</p>
+<figure class="highlight perl"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">sudo <span class="keyword">chown</span> -R <span class="string">`whoami`</span> /usr/<span class="keyword">local</span></span><br></pre></td></tr></table></figure>
+<p>Será solicitado a senha do sudo e em seguida o seu terminal ficará bloqueado até que termine a execução da ação.</p>
+<p>Se você não quiser atribuir a permissão ao diretório completo, pode executar como:</p>
+<figure class="highlight crystal"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">sudo chown -<span class="constant">R</span> <span class="string">`whoami`</span> /usr/local/<span class="class"><span class="keyword">lib</span>/<span class="title">node_modules</span> /<span class="title">usr</span>/<span class="title">local</span>/<span class="title">bin</span> /<span class="title">usr</span>/<span class="title">local</span>/<span class="title">share</span></span></span><br></pre></td></tr></table></figure>
+<p>Referência: <a href="https://docs.npmjs.com/getting-started/fixing-npm-permissions" title="Fixing NPM permissions - npmjs.com" target="_blank" rel="external">Fixing NPM permissions</a></p>
+]]></content>
+    <summary type="html">
+    <![CDATA[<div class="shared-img"><br><img src="../..//public/images/npm.svg" alt=""><br></div>
+
+<p>Se você utiliza Linux e usa NPM para baixar pacotes Nodejs, provavelmente precisa utilizar o <em>sudo</em> para efetuar as instalações e digita sua senha a cada nova instalação. Porém tem uma forma mais fácil de se fazer isso.]]>
+    
+    </summary>
+    
+      <category term="JavaScript" scheme="http://woliveiras.com.br/tags/JavaScript/"/>
+    
+      <category term="NPM" scheme="http://woliveiras.com.br/tags/NPM/"/>
+    
+      <category term="Nodejs" scheme="http://woliveiras.com.br/tags/Nodejs/"/>
+    
+      <category term="Nodejs" scheme="http://woliveiras.com.br/categories/Nodejs/"/>
+    
+      <category term="JavaScript" scheme="http://woliveiras.com.br/categories/Nodejs/JavaScript/"/>
+    
+      <category term="NPM" scheme="http://woliveiras.com.br/categories/Nodejs/JavaScript/NPM/"/>
+    
+  </entry>
+  
+  <entry>
+    <title><![CDATA[Utilizando versões antigas do Nodejs]]></title>
+    <link href="http://woliveiras.com.br/posts/utilizando-versoes-antigas-do-nodejs/"/>
+    <id>http://woliveiras.com.br/posts/utilizando-versoes-antigas-do-nodejs/</id>
+    <published>2015-09-12T08:00:32.000Z</published>
+    <updated>2015-09-12T20:13:40.000Z</updated>
+    <content type="html"><![CDATA[<div class="shared-img"><br><img src="../..//public/images/nodejs.png" alt=""><br></div>
+
+<p>Se você, assim como eu, atualizou a versão do Node instalado em sua máquina para a versão <a href="https://nodejs.org/en/blog/release/v4.0.0/" title="Versão 4.0 do Nodejs" target="_blank" rel="external">4.0.0</a>, pode ser que algo pare de funcionar, como no meu caso o Hexo (<a href="http://woliveiras.com.br/posts/Migrando-de-Wordpress-para-Hexo/" title="Migrando de WordPress para Hexo">Que eu utilizo para esse Blog</a>). Porém não precisa se desesperar, além dos módulos logo se atualizarem para a nova versão, existe uma solução simples para esse tipo de problema.<a id="more"></a></p>
+<p>Existe uma ferramenta muito legal chamada <a href="https://github.com/creationix/nvm" title="Projeto NVM" target="_blank" rel="external">NVM (Node version manager)</a> que serve para trabalhar com mais de uma versão do Node isoladamente, parecido com o <a href="http://docs.python-guide.org/en/latest/dev/virtualenvs/" target="_blank" rel="external">Virtualenv</a> para Python.</p>
+<h2 id="Instalação_do_NVM">Instalação do NVM</h2><p>Para instalar o NVM execute os seguintes comandos no seu terminal:</p>
+<p><strong>Instalação das dependências</strong></p>
+<figure class="highlight q"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">sudo apt-<span class="built_in">get</span> <span class="keyword">update</span></span><br><span class="line">sudo apt-<span class="built_in">get</span> install build-essential libssl-<span class="built_in">dev</span></span><br></pre></td></tr></table></figure>
+<p><strong>Instalação do NVM</strong></p>
+<figure class="highlight vim"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">curl -<span class="keyword">o</span>- http<span class="variable">s:</span>//raw.githubusercontent.<span class="keyword">com</span>/creationix/nvm/v0.<span class="number">26.1</span>/install.<span class="keyword">sh</span> | bash</span><br></pre></td></tr></table></figure>
+<p><em>Lembrando que o comando acima vai instalar a ultima versão de quando eu escrevi esse post, poranto pode estar desatualizada. Para pegar a ultima versão do NVM, acesse o link do repositório na sessão Referência desse artigo.</em></p>
+<p>Para conseguir utilizar o NVM você precisa efetuar Logoff em seu Sistema. Se não quiser deslogar agora, pode rodar o comando <code>source ~/.profile</code></p>
+<p>Se você utiliza Windows basta seguir <a href="https://github.com/coreybutler/nvm-windows" title="NVM no Windows" target="_blank" rel="external">esse tutorial</a> para a instação.</p>
+<h2 id="Instalando_versões_isoladas_do_Nodejs">Instalando versões isoladas do Nodejs</h2><p>Para encontrar as versões disponíveis para instalação você pode executar o comando:</p>
+<figure class="highlight mel"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">nvm <span class="keyword">ls</span>-remote</span><br></pre></td></tr></table></figure>
+<p>As versões disponíveis para a instalação serão apresentadas.</p>
+<p><img src="../../public/images/nvm-ls-remote.png" alt="nvm ls remote"></p>
+<p>E agora, para instalar a versão anterior necessária, basta executar o comando:</p>
+<figure class="highlight cmake"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">nvm <span class="keyword">install</span> versão</span><br></pre></td></tr></table></figure>
+<p>No meu caso eu precisava da versão 0.12 para executar o Hexo, então executei <code>nvm install v0.12.0</code></p>
+<p><img src="../../public/images/nvm-install-v.png" alt="nvm install versao"></p>
+<h2 id="Alternado_as_versões_do_Nodejs">Alternado as versões do Nodejs</h2><p>O NVM vai executar a versão mais recente que estiver instalada por padrão, então, para executar outra versão, você precisa executar o comando:</p>
+<figure class="highlight actionscript"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">nvm <span class="keyword">use</span> versao</span><br></pre></td></tr></table></figure>
+<p>Se quiser também pode executar:</p>
+<figure class="highlight stata"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">nvm <span class="keyword">run</span> versao <span class="keyword">app</span>.js</span><br></pre></td></tr></table></figure>
+<p>Para colocar a aplicação para funcionar com a versão específica somente até finalizar a mesma.</p>
+<p>Se ouver mais de uma versão instalada, você pode executar o comando:</p>
+<figure class="highlight mel"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">nvm <span class="keyword">ls</span></span><br></pre></td></tr></table></figure>
+<p>Para ver a lista das versões.</p>
+<h2 id="Deixando_uma_versão_como_padrão">Deixando uma versão como padrão</h2><p>Se quiser setar uma versão anterior como padrão e não a mais atual, basta rodar:</p>
+<figure class="highlight ceylon"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">nvm <span class="keyword">alias</span> <span class="annotation">default</span> versão</span><br></pre></td></tr></table></figure>
+<p>Com essas configurações você pode utilizar seus pacotes do Node instalados via <a href="https://www.npmjs.com/" target="_blank" rel="external">NPM</a> normalmente. A grande diferença será que os pacotes ficarão instalados em: <code>~/.nvm/node_version/lib/node_modules/</code></p>
+<p>E todo pacote instalado Global precisará ser vinculado a um pacote local para poder ser utilizado no projeto com o comando:</p>
+<figure class="highlight coffeescript"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="built_in">npm</span> link pacote</span><br></pre></td></tr></table></figure>
+<p>Como no meu caso:</p>
+<figure class="highlight coffeescript"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="built_in">npm</span> link hexo</span><br></pre></td></tr></table></figure>
+<p>O NVM também pode ser utilizado para isolar ambientes do io.js.</p>
+<p>Para instalar a última versão do Node junto as antigas você pode fazer:</p>
+<figure class="highlight cmake"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">nvm <span class="keyword">install</span> stable</span><br></pre></td></tr></table></figure>
+<p>Rferências:</p>
+<ul>
+<li><a href="https://www.digitalocean.com/community/tutorials/how-to-install-node-js-with-nvm-node-version-manager-on-a-vps" title="Install Node and NVM on a VPS Digital Ocean." target="_blank" rel="external">Digital Ocean</a>.</li>
+<li><a href="https://github.com/creationix/nvm" title="NVM" target="_blank" rel="external">Repositório</a>.</li>
+</ul>
+]]></content>
+    <summary type="html">
+    <![CDATA[<div class="shared-img"><br><img src="../..//public/images/nodejs.png" alt=""><br></div>
+
+<p>Se você, assim como eu, atualizou a versão do Node instalado em sua máquina para a versão <a href="https://nodejs.org/en/blog/release/v4.0.0/" title="Versão 4.0 do Nodejs">4.0.0</a>, pode ser que algo pare de funcionar, como no meu caso o Hexo (<a href="http://woliveiras.com.br/posts/Migrando-de-Wordpress-para-Hexo/" title="Migrando de WordPress para Hexo">Que eu utilizo para esse Blog</a>). Porém não precisa se desesperar, além dos módulos logo se atualizarem para a nova versão, existe uma solução simples para esse tipo de problema.]]>
+    
+    </summary>
+    
+      <category term="JavaScript" scheme="http://woliveiras.com.br/tags/JavaScript/"/>
+    
+      <category term="NPM" scheme="http://woliveiras.com.br/tags/NPM/"/>
+    
+      <category term="NVM" scheme="http://woliveiras.com.br/tags/NVM/"/>
+    
+      <category term="Nodejs" scheme="http://woliveiras.com.br/tags/Nodejs/"/>
+    
+      <category term="Nodejs" scheme="http://woliveiras.com.br/categories/Nodejs/"/>
+    
+      <category term="JavaScript" scheme="http://woliveiras.com.br/categories/Nodejs/JavaScript/"/>
+    
+      <category term="NVM" scheme="http://woliveiras.com.br/categories/Nodejs/JavaScript/NVM/"/>
+    
+      <category term="NPM" scheme="http://woliveiras.com.br/categories/Nodejs/JavaScript/NVM/NPM/"/>
+    
+  </entry>
+  
+  <entry>
     <title><![CDATA[Twitter Bootstrap do jeito certo]]></title>
     <link href="http://woliveiras.com.br/posts/twitter-bootstrap-bootstrap-do-jeito-certo/"/>
     <id>http://woliveiras.com.br/posts/twitter-bootstrap-bootstrap-do-jeito-certo/</id>
     <published>2015-09-09T01:00:00.000Z</published>
-    <updated>2015-09-09T01:38:48.155Z</updated>
+    <updated>2015-09-09T01:38:48.000Z</updated>
     <content type="html"><![CDATA[<p>Muita gente critica o uso do <a href="http://getbootstrap.com/" target="_blank" rel="external">Twitter Bootstrap</a> devido a nomenclatura de suas classes e aos muitos componentes que o framework possui.</p>
 <p>Dizem que as classes não são semanticas e que o peso do framework é desnecessário.</p>
 <p>Pois bem, <strong>você não precisa das classes col-md/lg/xs-xxx no seu HTML</strong> e para projetos pequenos (que você não usa todo o potencial do framework) você pode <strong>selecionar somente o que vai utilizar no projeto</strong>.<br>Maneiro né? Da uma olhada como faz…<br><a id="more"></a><br>Se você já conhece pré processadores, será fácil aprender essa forma de utilizar o BS (Bootstrap). Se não conhece é melhor dar uma estudada no Less (que é o mais fácil para iniciantes) ou no Sass para acompanhar essa dica e absorver melhor. Depois de aprender volte aqui e continue a leitura. ;)</p>
@@ -99,7 +214,7 @@
     <link href="http://woliveiras.com.br/posts/Migrando-de-Wordpress-para-Hexo/"/>
     <id>http://woliveiras.com.br/posts/Migrando-de-Wordpress-para-Hexo/</id>
     <published>2015-08-05T02:53:41.000Z</published>
-    <updated>2015-08-14T10:05:27.789Z</updated>
+    <updated>2015-08-14T10:05:27.000Z</updated>
     <content type="html"><![CDATA[<p><div class="shared-img"><br><img src="../../public/images/hexo-logo.png" alt="Hexo Blog"><br></div>A um bom tempo sinto vontade de mudar meu Blog de WordPress para uma plataforma de  conteúdo estático, mas não achava nenhuma alternativa, pois que queria usar Nodejs. Por isso não fui para o, muito usado na comunidade, <a href="http://jekyllrb.com/" target="_blank" rel="external">Jekyll(Ruby)</a> , nem para o <a href="http://blog.getpelican.com/" target="_blank" rel="external">Pelican(Python &lt;3)</a>.<a id="more"></a><br>Em busca de uma alternativa encontrei o <a href="https://hexo.io" target="_blank" rel="external">Hexo</a> e, um pouco depois de eu conhecer essa plataforma, o <a href="http://blog.da2k.com.br/" target="_blank" rel="external">Daciuk</a> escreveu um <a href="http://blog.da2k.com.br/2014/01/05/hexo-criando-um-blog-ao-estilo-miojo/" target="_blank" rel="external">post</a> muito maneiro incentivando o seu uso. Foi então que eu decidi de vez usar essa plataforma!<br>Bora conhecer ela e como foi a migração de WordPress para Hexo?</p>
 <h3 id="Levantando_as_necessidades">Levantando as necessidades</h3><p>Antes de migrar nosso Blog(Ou o de um cliente) de uma plataforma para outra precisamos fazer um levantamento para que não tenha impacto negativo como perder os posts que já existem ou alguma funcionalidade importante aos leitores.<br>Minha primeira preocupação foi com os posts que eu já havia escrito, mas no próprio site do Hexo temos uma <a href="https://hexo.io/docs/migration.html" target="_blank" rel="external">solução para isso</a>.<br>As dicas sobre instalação do Hexo você encontra no Blog do <a href="http://blog.da2k.com.br/2014/01/05/hexo-criando-um-blog-ao-estilo-miojo/" target="_blank" rel="external">Daciuk</a> e no Blog do <a href="http://dwoond.github.io/Criando-seu-site-com-Hexo/" target="_blank" rel="external">Willian Santos</a>.</p>
 <h3 id="Como_escrever_os_posts">Como escrever os posts</h3><p>Os posts no Hexo funcionam como em qualquer outro gerador estático. Escrevemos em Markdown e a postagem é gerada em HTML.<br>Markdown não é difícil e podemos usar algumas ferramentas boas que auxiliam nisso como o <a href="http://pad.haroopress.com/" target="_blank" rel="external">Haroopad</a> ou o <a href="https://stackedit.io/editor#" target="_blank" rel="external">Stackedit</a>, mas o Hexo também tem uma espécie de wp-admin, basta instalar o <a href="https://github.com/jaredly/hexo-admin" target="_blank" rel="external">Hexo Admin</a> se você sente necessidade.</p>
@@ -117,7 +232,7 @@
 <h3 id="Comentários">Comentários</h3><p>Como eu já utilizava uma plataforma de comentários que é o <a href="https://disqus.com/" target="_blank" rel="external">Disqus</a> ficou fácil manter os comentários lá. :)<br>Basta adicionar o shortname(Que você encontra nas configurações do seu site no Disqus) do site no arquivo de configuração:</p>
 <figure class="highlight avrasm"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="preprocessor"># Disqus</span></span><br><span class="line"><span class="label">disqus_shortname:</span> &lt;shortname&gt;</span><br></pre></td></tr></table></figure>
 <h3 id="Hospedagem">Hospedagem</h3><p>Como é puro HTML, você pode hospedar em qualquer lugar! Muita gente usa o Github pages e eu também coloquei para lá.<br>Basta configurar o deploy para o caminho do seu servidor:</p>
-<figure class="highlight groovy"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line"># Deployment</span><br><span class="line">## <span class="string">Docs:</span> <span class="string">http:</span><span class="comment">//hexo.io/docs/deployment.html</span></span><br><span class="line"><span class="string">deploy:</span></span><br><span class="line"><span class="label">  type:</span> git</span><br><span class="line"><span class="label">  repo:</span> &lt;seu repositório no gh pages&gt;</span><br></pre></td></tr></table></figure>
+<figure class="highlight haskell"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line"><span class="preprocessor"># Deployment</span></span><br><span class="line"><span class="preprocessor">## Docs: http://hexo.io/docs/deployment.html</span></span><br><span class="line"><span class="title">deploy</span>:</span><br><span class="line">  <span class="typedef"><span class="keyword">type</span>: git</span></span><br><span class="line">  repo: &lt;seu repositório no gh pages&gt;</span><br></pre></td></tr></table></figure>
 <p>E, assim que executar o comando hexo deploy, o site estará atualizado.</p>
 <h3 id="Domínio">Domínio</h3><p>Você pode usar seu próprio domínio ou deixar com o .github.io, depende só de você. ;)<br>Para ter seu próprio domínio você pode seguir esses passos do <a href="http://willianjusten.com.br/dominio-proprio-no-github-pages/" target="_blank" rel="external">Willian Justen</a>(Quanto Willian/m em um só post…)</p>
 <p>Por enquanto é só isso. Logo menos vou postar mais sobre o Hexo e como está sendo meu dia-a-dia com ele. Se você já tem experiência com Hexo ou outros geradores e quer deixar sua opinião, comenta aí! ;)</p>
@@ -144,7 +259,7 @@
     <link href="http://woliveiras.com.br/posts/frameworks-front-end/"/>
     <id>http://woliveiras.com.br/posts/frameworks-front-end/</id>
     <published>2015-03-05T00:18:46.000Z</published>
-    <updated>2015-08-22T15:03:08.112Z</updated>
+    <updated>2015-08-22T15:03:08.000Z</updated>
     <content type="html"><![CDATA[<div class="shared-img"><br><img src="../..//public/images/FWs.jpg" alt=""><br></div>
 
 <p>Já parou pra pensar quantas vezes você repete o mesmo código durante o Desenvolvimento, seja Web, Mobile ou Desktop? Já pensou em padronizar o que você faz de alguma maneira?<br>E pra você que é Gerente de Projetos, Líder ou algo do tipo: Já pensou em poder adicionar um membro no seu grupo  e ele já saber como funciona o Desenvolvimento nessa equipe e conseguir ser produtivo desde o princípio?<br>Pois é, Frameworks servem para isso… Vem comigo que vou explicar melhor. ;)<a id="more"></a></p>
@@ -194,7 +309,7 @@
     <link href="http://woliveiras.com.br/posts/contribuindo-para-projetos-open-source-no-github-mesmo-sendo-iniciante/"/>
     <id>http://woliveiras.com.br/posts/contribuindo-para-projetos-open-source-no-github-mesmo-sendo-iniciante/</id>
     <published>2015-02-09T14:12:32.000Z</published>
-    <updated>2015-08-29T13:42:03.369Z</updated>
+    <updated>2015-08-29T13:42:03.000Z</updated>
     <content type="html"><![CDATA[<div class="shared-img"><br><img src="../../public/images/github.gif" alt=""><br></div>
 
 <p>Se você é iniciante já deve ter escutado: “Se quiser aprender mesmo tem de botar a mão na massa!”.<br>Sim! E eu concordo. A melhor maneira de aprender é estudando e praticando muuuuuito! Porém, nem sempre temos um projeto para iniciantes dando sopa na internet ou uma empresa que nos de a oportunidade de praticar lá e crescermos assim. Então uma ÓTIMA maneira de se praticar é auxiliando projetos no <a href="https://github.com/" title="Github" target="_blank" rel="external">Github</a>.<br>Ai você se pergunta: “Tá, mas se eu sou iniciante como eu consigo ajudar?”<br>Vamos nessa que vou tentar te ajudar.<a id="more"></a></p>
@@ -226,7 +341,7 @@
     <link href="http://woliveiras.com.br/posts/haroopad-um-editor-markdown-maneiro/"/>
     <id>http://woliveiras.com.br/posts/haroopad-um-editor-markdown-maneiro/</id>
     <published>2015-02-09T12:53:56.000Z</published>
-    <updated>2015-08-22T15:04:06.646Z</updated>
+    <updated>2015-08-22T15:04:06.000Z</updated>
     <content type="html"><![CDATA[<div class="shared-img"><br><img src="../..//public/images/Haroopad.png" alt=""><br></div>
 
 <p>Todo mundo que trabalha usando <a href="http://blog.da2k.com.br/2015/02/08/aprenda-markdown/" title="Aprenda Markdown" target="_blank" rel="external">Markdown</a> ou usa a linguagem somente para descrever seus repositórios no Github gosta de ter aquele preview maneiro que o <a href="http://25.io/mou/" title="Mou" target="_blank" rel="external">Mou</a> apresenta né? Pois é, mas o Mou não funciona em outras plataformas a não ser Apple. :( <strong>#chateado</strong></p>
@@ -277,7 +392,7 @@
     <link href="http://woliveiras.com.br/posts/como-detectar-o-dispositivo-que-acessa-seu-site/"/>
     <id>http://woliveiras.com.br/posts/como-detectar-o-dispositivo-que-acessa-seu-site/</id>
     <published>2015-02-03T18:47:41.000Z</published>
-    <updated>2015-08-22T15:04:42.500Z</updated>
+    <updated>2015-08-22T15:04:42.000Z</updated>
     <content type="html"><![CDATA[<div class="shared-img"><br><img src="../..//public/images/mobiles.jpg" alt=""><br></div>
 
 <p>Uma dica rápida para quem trabalha com diversos tipos de dispositivos!</p>
@@ -305,7 +420,7 @@
     <link href="http://woliveiras.com.br/posts/aprenda-trabalhar-em-equipes/"/>
     <id>http://woliveiras.com.br/posts/aprenda-trabalhar-em-equipes/</id>
     <published>2015-01-30T08:00:51.000Z</published>
-    <updated>2015-08-07T02:09:47.026Z</updated>
+    <updated>2015-08-07T02:09:47.000Z</updated>
     <content type="html"><![CDATA[<p>Como eu disse em <a href="/posts/requisitos-para-vagas-front-end/" title="Sobre os requisitos para vagas de emprego Front End (E outras áreas também)">um post anterior</a>, você não vai trabalhar sozinho a vida toda. Chega uma hora em que é preciso trabalhar em equipes, interagir com outras pessoas e é necessário que você aprenda isso. Mesmo que você trabalhe em casa, vai precisar enviar seu projeto para outras pessoas.<br>Existem algumas boas medidas para conseguir trabalhar bem em grandes ou pequenas equipes…<a id="more"></a></p>
 <h2 id="Organização">Organização</h2><p>As pastas que você cria para organizar seu projeto devem possuir nomes que auxiliem a entender o que tem dentro. Não somente as pastas, os nomes dos arquivos também devem ter algum significado.<br>Não crie uma pasta com o nome <strong>scripts</strong> e coloque todos os .styl, .js, .html, .php, .rb, etc, ali dentro, mas crie uma organização ou siga alguma.<br>Isso serve até mesmo para que você se encontre mais fácil no seu projeto.<br>Trabalhar com outras pessoas não é a mesma coisa de ser criança e a mãe arrumar seu quarto… Você tem de se organizar e outras pessoas tem de entender sua organização.<br>Da uma olhada aqui no meu <a href="https://github.com/woliveiras/pastel" title="Pastel | um pequeno Boilerplate que eu criei para agilizar meus projetos" target="_blank" rel="external">Scaffold </a>e veja como eu organizei os arquivos - É um exemplo beeeem básico, mas da para ter uma noção…<br>A forma como escreve seu código também faz diferença e vou falar disso agora!</p>
 <h2 id="Comentários">Comentários</h2><p>Comente seu código. Daqui a 6 meses você não vai lembrar o que aquilo fazia, afinal você evolui - Ou só esquece mesmo. E assim como você não vai saber daqui a esse tempo, pessoas que pegarem seu código <strong>hoje</strong> podem demorar a entender o que ele faz se não estiver comentado.</p>
@@ -352,7 +467,7 @@
     <link href="http://woliveiras.com.br/posts/semantica-html/"/>
     <id>http://woliveiras.com.br/posts/semantica-html/</id>
     <published>2015-01-29T12:00:25.000Z</published>
-    <updated>2015-08-22T15:05:40.924Z</updated>
+    <updated>2015-08-22T15:05:40.000Z</updated>
     <content type="html"><![CDATA[<div class="shared-img"><br><img src="../..//public/images/HTML.png" alt=""><br></div>
 
 <p>Quando estamos iniciando os estudos na área de Web aprendemos semântica e, as vezes, nem temos noção da importância disso. Aprendemos que cada tag HTML serve para alguma coisa: <strong>&lt;title&gt;</strong> para o título da página (Aquele que aparece na aba do navegador), <strong>&lt;p&gt;</strong> para parágrafos, <strong>&lt;h1,2,3,…&gt;</strong> para títulos do conteúdo, etc.<a id="more"></a><br>Porém, com o tempo, algumas pessoas param de utilizar essas tags e começam a bagunçar tudo! Usam o <strong>h1</strong> pra deixar um texto maior que o outro e não para o título em questão, usam várias tags <strong>p</strong> separando o conteúdo de uma lista em uma div com uma class <em>“list”</em>, por ai vai! Vira uma salada no HTML.<br>Isso é ruim tanto para quem vai ler seu código depois, quanto para buscadores e leitores de tela.</p>
@@ -391,7 +506,7 @@
     <link href="http://woliveiras.com.br/posts/gerenciar-projetos-com-trello/"/>
     <id>http://woliveiras.com.br/posts/gerenciar-projetos-com-trello/</id>
     <published>2015-01-28T02:00:07.000Z</published>
-    <updated>2015-08-22T15:00:47.929Z</updated>
+    <updated>2015-08-22T15:00:47.000Z</updated>
     <content type="html"><![CDATA[<div class="shared-img"><br><img src="../../public/images/Trello.png" alt="Trello"></div>
 
 <p>Seguindo a linha de postagens sobre <a href="/posts/como-ser-mais-produtivo/" title="Como ser mais produtivo">produtividade</a>, eu sou obrigado a falar dessa ferramenta que utilizo muito e curto demais! É com ele que eu gerencio até as postagens que eu escrevo aqui no Blog…</p>
@@ -453,7 +568,7 @@
     <link href="http://woliveiras.com.br/posts/como-alcancar-objetivos-rapidamente-nos-estudos/"/>
     <id>http://woliveiras.com.br/posts/como-alcancar-objetivos-rapidamente-nos-estudos/</id>
     <published>2015-01-27T07:00:32.000Z</published>
-    <updated>2015-08-22T15:02:13.795Z</updated>
+    <updated>2015-08-22T15:02:13.000Z</updated>
     <content type="html"><![CDATA[<div class="shared-img"><br><img src="../..//public/images/crazy.png" alt=""><br></div>
 
 <p>Essa é mais uma dica sobre produtividade, porém agora é nos estudos.<br>Nós, Desenvolvedores, temos de estudar muito. Todo dia alguma ferramenta atualiza ou algo vira tendência e passa a ser usado no serviço e temos de aprender. E como fazer para aprender tudo isso sem ficar louco e de um jeito que consiga alcançar os objetivos mais rapidamente?<a id="more"></a><br>Se você não leu meu post anterior sobre produtividade da uma olhada <a href="/posts/como-ser-mais-produtivo/" title="Como ser mais produtivo?">aqui</a>.</p>
@@ -518,7 +633,7 @@
     <link href="http://woliveiras.com.br/posts/como-ser-mais-produtivo/"/>
     <id>http://woliveiras.com.br/posts/como-ser-mais-produtivo/</id>
     <published>2015-01-26T08:00:53.000Z</published>
-    <updated>2015-08-22T15:06:11.671Z</updated>
+    <updated>2015-08-22T15:06:11.000Z</updated>
     <content type="html"><![CDATA[<div class="shared-img"><br><img src="../..//public/images/produtividade.jpg" alt=""><br></div>
 
 <p>Uma das minhas grandes preocupações na vida é ser prdutivo! Eu gosto de fazer as coisas o mais rápido possível e estou sempre buscando maneiras de automatizar ou organizar as coisas de maneira que eu consiga cada vez mais produtividade.<a id="more"></a><br>Durante algum tempo fui testando várias abordagens e técnicas de produtividade. Técnicas que podem ser aplicadas no serviço, para estudos ou mesmo para cumprir tarefas do cotidiano(Como lembrar de pagar uma conta ou do que precisa comprar no mercado).<br>Segue algumas dicas do que melhor funcionou pra mim até agora.</p>
@@ -549,7 +664,7 @@
     <link href="http://woliveiras.com.br/posts/requisitos-para-vagas-front-end/"/>
     <id>http://woliveiras.com.br/posts/requisitos-para-vagas-front-end/</id>
     <published>2015-01-23T10:00:19.000Z</published>
-    <updated>2015-08-22T15:16:11.282Z</updated>
+    <updated>2015-08-22T15:16:11.000Z</updated>
     <content type="html"><![CDATA[<div class="shared-img"><br><img src="../..//public/images/trampo.jpg" alt=""><br></div>
 
 <p>Quantas vezes não nos deparamos com as seguintes dúvidas:</p>
@@ -607,7 +722,7 @@
     <link href="http://woliveiras.com.br/posts/extensoes-navegador-desenvolvimento-web/"/>
     <id>http://woliveiras.com.br/posts/extensoes-navegador-desenvolvimento-web/</id>
     <published>2015-01-22T13:00:31.000Z</published>
-    <updated>2015-08-07T10:48:46.643Z</updated>
+    <updated>2015-08-07T10:48:46.000Z</updated>
     <content type="html"><![CDATA[<p>Sou fã de produtividade e, por isso, utilizo várias ferramentas que me auxiliam a ser mais produtivo - Vou citar outras em futuras postagens ;). Algumas delas são extensões para o Navegador, no meu caso o Chrome/Firefox, que eu uso o tempo todo para testes. Nesse post vou citar algumas extensões muito boas para desenvolvimento Front End<a id="more"></a></p>
 <p><em>Para instalar alguma você pode clicar direto no sub-título e será direcionado para a Chrome Web Store. Se você estiver utilizando o Firefox, só pesquisar o nome dela no menu de instalação de Addons.</em></p>
 <h5 id="Web_Developer"><a href="https://chrome.google.com/webstore/detail/web-developer/bfbameneiokkgbdmiekhjnmfkcnldhhm" title="Web Developer" target="_blank" rel="external">Web Developer</a></h5><p>Essa extensão é monstra! Tem muita funcionalidade útil reunida em uma única ferramenta. Ao instalar essa extensão vá abrindo cada abinha e vendo do que ela é capaz, você vai pirar! Ela funciona no Chrome e no Firefox. Em outros navegadores eu não testei.</p>
@@ -660,18 +775,18 @@
     <link href="http://woliveiras.com.br/posts/como-deixar-o-ubuntu-mais-rapido/"/>
     <id>http://woliveiras.com.br/posts/como-deixar-o-ubuntu-mais-rapido/</id>
     <published>2015-01-19T07:00:19.000Z</published>
-    <updated>2015-08-22T15:20:38.574Z</updated>
+    <updated>2015-08-22T15:20:38.000Z</updated>
     <content type="html"><![CDATA[<div class="shared-img"><br><img src="../..//public/images/ubuntu.png" alt=""><br></div>
 
 <p>Sou fã de Linux, e deixei bem claro <a href="/posts/meu-contato-com-o-linux-e-por-que-voce-deveria-testar/" title="Meu contato com o Linux e por que você deveria testar">nesse post</a>. Atualmente estou usando o Ubuntu e muita gente tem reclamado da performance do Unity. Eu, sinceramente, detestei o Unity quando lançado e não estou gostando do rumo “Windows 8 Metro” que ele tem tomado. O pessoal quer transformar o Sistema que uso no PC o mesmo que eu vou usar no Celular e isso não tem me agradado - Porém isso é papo para outra hora. Vamos ao foco que é melhorar a velocidade do Ubuntu.<a id="more"></a><br>Minha máquina, hoje em dia, não é nem um pouco robusta - Core i3 de 3.2, 4 GB de memória, HD SATA 3 - e o primeiro PC que eu tive com Ubuntu também não era. Porém, na época era o Ubuntu 10.04, então rodava lisinho!<br>Para melhorar a velocidade do danado eu fiz as seguintes configurações(Todos os softwares podem ser instalados via Terminal ou pesquisando pelo nome deles na Central de Programas, mas aqui eu só deixei o comando. Pode fazer como você achar melhor. ;D)</p>
 <h2 id="Atualize_seu_O-S-">Atualize seu O.S.</h2><p>Muitas vezes temos problema que são resolvidos pela Canonical com atualizações e, as vezes, a performance depende disso. Portanto atualize agora! É bom ter os drivers de vídeo de fábrica instalados e não os que vem por padrão, mas não vou entrar em detalhes na instalação de Drivers por que é muito variável. Se sua placa for NVidia ou ATI, da uma olhada nesse <a href="http://www.edivaldobrito.com.br/como-instalar-os-ultimos-drivers-da-nvidia-ou-ati-no-ubuntu-e-derivados/" title="Como instalar os últimos drivers da NVIDIA ou ATI no Ubuntu e derivados" target="_blank" rel="external">post</a> no Blog do Edivaldo que você vai ter uma solução! :D<br>Execute o seguinte comando sempre que for atualizar o O.S.:<br><figure class="highlight actionscript"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">sudo apt-<span class="keyword">get</span> updade &amp;amp;&amp;amp; sudo apt-<span class="keyword">get</span> upgrade -y</span><br></pre></td></tr></table></figure></p>
 <p>Ou abra o Atualizador. ;)</p>
 <h2 id="Desligue_os_efeitos_visuais">Desligue os efeitos visuais</h2><p>Para essa dica é necessário o uso do terminal, porém é facinho…<br>Abra o Teminal e abra o arquivo <strong>~/.xprofile</strong>:<br>Se quiser use o <strong>VI</strong> ou <strong>NANO</strong> pelo terminal, senão curtir ou não conhecer você pode executar:<br><figure class="highlight nginx"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="title">sudo</span> gedit ~/.xprofile</span><br></pre></td></tr></table></figure></p>
-<p>Localize e mude a linha:<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="built_in">export</span> UNITY_LOW_GFX_MODE=<span class="number">0</span></span><br></pre></td></tr></table></figure></p>
-<p>Para:<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="built_in">export</span> UNITY_LOW_GFX_MODE=<span class="number">1</span></span><br></pre></td></tr></table></figure></p>
+<p>Localize e mude a linha:<br><figure class="highlight cpp"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">export</span> UNITY_LOW_GFX_MODE=<span class="number">0</span></span><br></pre></td></tr></table></figure></p>
+<p>Para:<br><figure class="highlight cpp"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">export</span> UNITY_LOW_GFX_MODE=<span class="number">1</span></span><br></pre></td></tr></table></figure></p>
 <p><strong>Se o arquivo não existir</strong>, rode o comando:<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="built_in">echo</span> <span class="string">"export UNITY_LOW_GFX_MODE=1"</span> &amp;gt; ~/.xprofile</span><br></pre></td></tr></table></figure></p>
 <p>Agora é só reiniciar ou deslogar e logar novamente.</p>
-<h2 id="Compiz_Config_Settings_Manager">Compiz Config Settings Manager</h2><p>Com a configuração que passei no começo do post os efeitos visuais já serão todos desabilitados, porém ainda da pra brincar mais instalando esse aplicativo que consegue mudar tudo na interface! Mas cuidado! Esse só deve ser utilizado livremente quando você já manjar legal de Ubuntu, pois um erro aqui vai te dar um pouco de dor de cabeça…<br>Para instalar rode:<br><figure class="highlight actionscript"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">sudo apt-<span class="keyword">get</span> install compizconfig-settings-manager</span><br></pre></td></tr></table></figure></p>
+<h2 id="Compiz_Config_Settings_Manager">Compiz Config Settings Manager</h2><p>Com a configuração que passei no começo do post os efeitos visuais já serão todos desabilitados, porém ainda da pra brincar mais instalando esse aplicativo que consegue mudar tudo na interface! Mas cuidado! Esse só deve ser utilizado livremente quando você já manjar legal de Ubuntu, pois um erro aqui vai te dar um pouco de dor de cabeça…<br>Para instalar rode:<br><figure class="highlight sql"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">sudo apt-get <span class="operator"><span class="keyword">install</span> compizconfig-<span class="keyword">settings</span>-manager</span></span><br></pre></td></tr></table></figure></p>
 <p>E com ele instalado poderemos configurar muita coisa. Como:</p>
 <h2 id="Minimizar_com_um_clique">Minimizar com um clique</h2><p>Quando clicamos no ícone do programa na barra lateral do Ubuntu, ele não é minimizado como acontece em outros Sistemas. Para conseguirmos isso basta fazer uma pequena configuração.</p>
 <p>Abra o Compiz Config - Basta pesquisar por Compiz no Dash (Menu Iniciar do Ubuntu) - e clique em <strong>Ubuntu Unity Plugin</strong>, clique na aba <strong>Launcher</strong> e deixe marcado a opção <strong>Minimize Single Window Applications (Unsupported).</strong></p>
@@ -729,7 +844,7 @@
     <link href="http://woliveiras.com.br/posts/meu-contato-com-o-linux-e-por-que-voce-deveria-testar/"/>
     <id>http://woliveiras.com.br/posts/meu-contato-com-o-linux-e-por-que-voce-deveria-testar/</id>
     <published>2015-01-16T12:10:25.000Z</published>
-    <updated>2015-08-22T13:49:35.364Z</updated>
+    <updated>2015-08-22T13:49:35.000Z</updated>
     <content type="html"><![CDATA[<div class="shared-img"><br><img src="../../public/images/linux-icon.png" alt="Linux"><br></div>
 
 <p>Depois de ler o artigo do Daciuk sobre <a href="http://blog.da2k.com.br/2015/01/15/como-ser-um-dev-frontend-usando-linux/" title="Como ser um dev frontend usando Linux" target="_blank" rel="external">Como ser um dev frontend usando Linux</a>, decidi comentar como foi minha experiência no mundo Linux.</p>
@@ -783,7 +898,7 @@
     <link href="http://woliveiras.com.br/posts/css-reset-de-varias-maneiras/"/>
     <id>http://woliveiras.com.br/posts/css-reset-de-varias-maneiras/</id>
     <published>2015-01-15T12:00:20.000Z</published>
-    <updated>2015-08-22T15:21:10.523Z</updated>
+    <updated>2015-08-22T15:21:10.000Z</updated>
     <content type="html"><![CDATA[<div class="shared-img"><br><img src="../..//public/images/css.png" alt=""><br></div>
 
 <p>Todo elemento HTML tem um estilo padrão que é injetado pelo Browser. O legal é que não existe um padrão entre eles. O Chrome tem seu estilo, o Firefox tem o dele, o Safari e Opera também… <a id="more"></a></p>
@@ -824,7 +939,7 @@
     <link href="http://woliveiras.com.br/posts/freelancer-quanto-cobrar-pelo-freelance/"/>
     <id>http://woliveiras.com.br/posts/freelancer-quanto-cobrar-pelo-freelance/</id>
     <published>2015-01-12T10:33:25.000Z</published>
-    <updated>2015-08-22T14:33:14.399Z</updated>
+    <updated>2015-08-22T14:33:14.000Z</updated>
     <content type="html"><![CDATA[<div class="shared-img"><img src="../../public/images/money.jpg" alt="saco de money"></div>
 
 <p>Muita gente, iniciante ou não, tem dúvidas de quanto cobrar por um Freelance…</p>
@@ -877,7 +992,7 @@
     <link href="http://woliveiras.com.br/posts/desenvolvendo-interfaces-like-boss/"/>
     <id>http://woliveiras.com.br/posts/desenvolvendo-interfaces-like-boss/</id>
     <published>2014-09-13T23:00:58.000Z</published>
-    <updated>2015-08-22T16:45:43.937Z</updated>
+    <updated>2015-08-22T16:45:43.000Z</updated>
     <content type="html"><![CDATA[<p>É amigo, teve um tempo em que modificar um registro no banco de dados era a coisa que eu achava mas incrível do mundo, gerar um relatório em PDF com PHP então… Nem se fale! Porém, hoje, o que eu curto mesmo é desenvolver interfaces e trabalhar no Browser com JavaScript. Só que criar interfaces não é só sair desenhando no Browser com HTML e CSS, depois colocar umas ações legais com o JS… Tem de planejar a interação, tem de pensar o que vai fazer, senão o que fizer agora, vai se tornar sua dor de cabeça mais pra frente! Pensando nisso segue umas dicas maneiras pra não se enrolar todo na hora de desenvolver uma interface.<a id="more"></a></p>
 <h2 id="Começando:_Os_3_principais_elementos_da_Interface">Começando: Os 3 principais elementos da Interface</h2><p><img src="../../public/images/estrutura.png" alt="Exemplo de estrutura da interface"></p>
 <p>Lembre-se de identificar os principais elementos da interface:</p>
@@ -894,8 +1009,8 @@
 <h4 id="Tente_abreviar_suas_declarações_CSS-">Tente abreviar suas declarações CSS.</h4><p>Ao invés de:</p>
 <figure class="highlight css"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"><span class="rule"><span class="attribute">margin-top</span>:<span class="value"> <span class="number">2px</span></span></span>;</span><br><span class="line"><span class="rule"><span class="attribute">margin-right</span>:<span class="value"> <span class="number">3px</span></span></span>;</span><br><span class="line"><span class="rule"><span class="attribute">margin-bottom</span>:<span class="value"> <span class="number">5px</span></span></span>;</span><br><span class="line"><span class="rule"><span class="attribute">margin-left</span>:<span class="value"> <span class="number">9px</span></span></span>;</span><br></pre></td></tr></table></figure>
 <p>Faça:</p>
-<figure class="highlight css"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="rule"><span class="attribute">margin</span>:<span class="value"> <span class="number">2px</span> <span class="number">3px</span> <span class="number">5px</span> <span class="number">9px</span></span></span>;</span><br></pre></td></tr></table></figure>
-<h4 id="Divida_seu_CSS_em_sessões-">Divida seu CSS em sessões.</h4><figure class="highlight applescript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br></pre></td><td class="code"><pre><span class="line">/*<span class="comment">------------------------------</span></span><br><span class="line">Reset, corpo da página, estilos padrões</span><br><span class="line">para listas, parágrafos, etc.</span><br><span class="line"><span class="comment">------------------------------*/</span></span><br><span class="line">/*<span class="comment">------------------------------</span></span><br><span class="line">Estilos de títulos</span><br><span class="line"><span class="comment">------------------------------*/</span></span><br><span class="line">/*<span class="comment">------------------------------</span></span><br><span class="line">Estilos de texto</span><br><span class="line"><span class="comment">------------------------------*/</span></span><br><span class="line">/*<span class="comment">------------------------------</span></span><br><span class="line">Navegação</span><br><span class="line"><span class="comment">------------------------------*/</span></span><br><span class="line">/*<span class="comment">------------------------------</span></span><br><span class="line">Forms</span><br><span class="line"><span class="comment">------------------------------*/</span></span><br><span class="line">/*<span class="comment">------------------------------</span></span><br><span class="line">Cabeçalho</span><br><span class="line"><span class="comment">------------------------------*/</span></span><br><span class="line">/*<span class="comment">------------------------------</span></span><br><span class="line">Corpo</span><br><span class="line"><span class="comment">------------------------------*/</span></span><br><span class="line">/*<span class="comment">------------------------------</span></span><br><span class="line">Rodapé</span><br><span class="line"><span class="comment">------------------------------*/</span></span><br></pre></td></tr></table></figure>
+<figure class="highlight cpp"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">margin: <span class="number">2</span>px <span class="number">3</span>px <span class="number">5</span>px <span class="number">9</span>px;</span><br></pre></td></tr></table></figure>
+<h4 id="Divida_seu_CSS_em_sessões-">Divida seu CSS em sessões.</h4><figure class="highlight haml"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">/*------------------------------</span></span><br><span class="line">Reset, corpo da página, estilos padrões</span><br><span class="line">para listas, parágrafos, etc.</span><br><span class="line">-<span class="ruby">-----------------------------*<span class="regexp">/</span><br><span class="line"></span></span><span class="comment">/*------------------------------</span></span><br><span class="line">Estilos de títulos</span><br><span class="line">-<span class="ruby"><span class="regexp">-----------------------------*/</span></span><br><span class="line"></span><span class="comment">/*------------------------------</span></span><br><span class="line">Estilos de texto</span><br><span class="line">-<span class="ruby">-----------------------------*<span class="regexp">/</span><br><span class="line"></span></span><span class="comment">/*------------------------------</span></span><br><span class="line">Navegação</span><br><span class="line">-<span class="ruby"><span class="regexp">-----------------------------*/</span></span><br><span class="line"></span><span class="comment">/*------------------------------</span></span><br><span class="line">Forms</span><br><span class="line">-<span class="ruby">-----------------------------*<span class="regexp">/</span><br><span class="line"></span></span><span class="comment">/*------------------------------</span></span><br><span class="line">Cabeçalho</span><br><span class="line">-<span class="ruby"><span class="regexp">-----------------------------*/</span></span><br><span class="line"></span><span class="comment">/*------------------------------</span></span><br><span class="line">Corpo</span><br><span class="line">-<span class="ruby">-----------------------------*<span class="regexp">/</span><br><span class="line"></span></span><span class="comment">/*------------------------------</span></span><br><span class="line">Rodapé</span><br><span class="line">-<span class="ruby"><span class="regexp">-----------------------------*/</span></span></span><br></pre></td></tr></table></figure>
 <h4 id="Primeiro_aqui,_depois_ali,_em_seguida_lá…">Primeiro aqui, depois ali, em seguida lá…</h4><p>Durante o desenvolvimento vá codificando por partes. Faça todo o topo, depois faça o conteúdo, depois o rodapé. Durante o desenvolvimento do Topo, se tiver um menu, faça a estrutura do topo e depois o menu e posicione-o no lugar ceto, em seguida vá pro conteúdo e assim por diante.</p>
 <h4 id="Testes">Testes</h4><p>Durante o desenvolvimento vá testando o que fizer em todos os navegadores, isso vai agilizar bastante. Imagine, depois de ter feito toda a interface e deixado ela perfeitinha você abre no IE e está tudo quebrado! Putz…<br>Ai você modifica só um pouquinho pra funcionar no IE e quando abre em outro navegador já não está mais do jeito que tinha deixado… Que maravilha né?</p>
 <h4 id="Bônus">Bônus</h4><p><strong>Que tal testar a velocidade do seu site?</strong></p>
@@ -912,129 +1027,6 @@
       <category term="CSS" scheme="http://woliveiras.com.br/categories/CSS/"/>
     
       <category term="Front End" scheme="http://woliveiras.com.br/categories/CSS/Front-End/"/>
-    
-  </entry>
-  
-  <entry>
-    <title><![CDATA[Criar uma base box para o Vagrant]]></title>
-    <link href="http://woliveiras.com.br/posts/criar-uma-base-box-para-o-vagrant/"/>
-    <id>http://woliveiras.com.br/posts/criar-uma-base-box-para-o-vagrant/</id>
-    <published>2014-08-21T17:17:27.000Z</published>
-    <updated>2015-08-22T15:24:37.746Z</updated>
-    <content type="html"><![CDATA[<p>Conforme vai usando o <a href="/tags/Vagrant/">Vagrant</a> surje a necessidade de se ter sua própria Base Box para poder compartilhar o <em>seu</em> ambiente de desenvolvimento ou mesmo para provisionar um ambiente virtual.<a id="more"></a><br>Se você é gestor ou líder, provavelmente precisa que algum funcionário novo tenha seu ambiente de desenvolvimento configurado rápidamente e para isso também vai precisar de sua própria Base Box.<br>Fazer isso não é dicífil, vamos ao passo a passo:</p>
-<p><strong>Configurações importantes no VBox</strong></p>
-<p>OBS: A quantidade de memória fica a seu critério escolher quanto vai. Eu deixei 512 simplesmente por não precisar mais que isso para os testes.<br>Para o tipo de disco rígido tem de ser <strong>VMDK</strong></p>
-<p><img src="../../public/images/disco-virtualbox-vagrant.png" alt="Configurações de disco no VBOX"></p>
-<p>Deixe dinamicamente alocado para que a VM não acabe com o seu espaço em disco logo de cara. Se tiver um HD de 1 Tera no hospedeiro(Servidor ou seu PC) e colocar o HD Virtual de 500GB sem ser dinamicamente alocado, logo de cara vai perder 500 GB do seu HD. Se for dinamicamente alocado ele vai consumindo espaço conforme vai precisando.<br>A configuração de rede deve ficar como NAT.</p>
-<p><img src="../../public/images/rede-virtualbox-vagrant.png" alt="Configurações de Rede VBox"></p>
-<p>Carregue o S.O. normalmente e instale conforme suas necessidades. Porém, por convenção, usuário e senha devem ser <strong>vagrant</strong>.</p>
-<p><strong>Configurando um servidor Ubuntu como VM</strong></p>
-<p>Instale o <strong>VBox Guest Additions</strong> na VM.</p>
-<figure class="highlight sql"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">$ sudo apt-get <span class="operator"><span class="keyword">install</span> -y build-essential linux-headers-<span class="keyword">server</span></span><br><span class="line"></span><br><span class="line">$ sudo apt-<span class="keyword">get</span> <span class="keyword">install</span> dkms</span></span><br></pre></td></tr></table></figure>
-<p>“Coloque o CD do Guest Additions”</p>
-<p><img src="../../public/images/guest-additions-vagrant.png" alt="Inserindo VBox Additions"></p>
-<p>Em seguida execute:</p>
-<figure class="highlight gradle"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">$ sudo mount <span class="regexp">/dev/</span>cdrom <span class="regexp">/media/</span>cdrom</span><br><span class="line"></span><br><span class="line">$ sudo <span class="regexp">/media/</span>cdrom<span class="regexp">/VBoxLinuxAdditions.run</span></span><br></pre></td></tr></table></figure>
-<p>Atualize o S.O.</p>
-<figure class="highlight q"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ sudo apt-<span class="built_in">get</span> <span class="keyword">update</span> &amp;amp;&amp;amp; sudo apt-<span class="built_in">get</span> –y upgrade</span><br></pre></td></tr></table></figure>
-<p>Adicione o usuário Vagrant ao grupo sudoers</p>
-<figure class="highlight elixir"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="variable">$ </span>sudo su -</span><br><span class="line"></span><br><span class="line"><span class="variable">$ </span>visudo</span><br></pre></td></tr></table></figure>
-<p>Vai abrir um arquivo no Terminal, no final do arquivo, adicione a seguinte linha:</p>
-<figure class="highlight apache"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">vagrant</span> <span class="literal">ALL</span>=(<span class="literal">ALL</span>)  NOPASSWD:<span class="literal">ALL</span></span><br></pre></td></tr></table></figure>
-<p>Instalando uma chave pública</p>
-<figure class="highlight elixir"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><span class="line"><span class="variable">$ </span>mkdir -p /home/vagrant/.ssh</span><br><span class="line"></span><br><span class="line"><span class="variable">$ </span>wget --no-check-certificate <span class="symbol">https:</span>/<span class="regexp">/raw.github.com/mitchellh</span><span class="regexp">/vagrant/master</span><span class="regexp">/keys/vagrant</span>.pub -<span class="constant">O </span>/home/vagrant/.ssh/authorized_keys</span><br><span class="line"></span><br><span class="line"><span class="variable">$ </span>chmod <span class="number">0700</span> /home/vagrant/.ssh</span><br><span class="line"></span><br><span class="line"><span class="variable">$ </span>chmod <span class="number">0600</span> /home/vagrant/.ssh/authorized_keys</span><br><span class="line"></span><br><span class="line"><span class="variable">$ </span>chown -<span class="constant">R </span>vagrant  /home/vagrant/.ssh</span><br></pre></td></tr></table></figure>
-<p>Instalar e configurar o Servidor OpenSSH</p>
-<figure class="highlight elixir"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="variable">$ </span>sudo apt-get install -y openssh-server</span><br><span class="line"></span><br><span class="line"><span class="variable">$ </span>sudo vi /etc/ssh/sshd_config</span><br></pre></td></tr></table></figure>
-<p>Localize no documento as seguintes configurações  deixe conforme esse exemplo:</p>
-<figure class="highlight nginx"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line"><span class="title">Port</span> <span class="number">22</span></span><br><span class="line"></span><br><span class="line">PubKeyAuthentication <span class="built_in">yes</span></span><br><span class="line"></span><br><span class="line">AuthorizedKeysFile %h/.ssh/authorized_keys</span><br><span class="line"></span><br><span class="line">PermitEmptyPasswords <span class="built_in">no</span></span><br></pre></td></tr></table></figure>
-<p>Salve e feche o arquivo e, então, reinicie o serviço de SSH</p>
-<figure class="highlight puppet"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ sudo <span class="keyword">service</span> ssh <span class="literal">restart</span></span><br></pre></td></tr></table></figure>
-<p>Desligue a máquina virtual.</p>
-<p>Elimine tudo o que sua máquina não irá precisar - Audio, USB, etc. Deixe somente o necessário.</p>
-<p>Agora é só gerar o Box com os comandos:</p>
-<figure class="highlight cs"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ vagrant package –-<span class="keyword">base</span> [Aqui vai o nome da sua máquina <span class="keyword">virtual</span> no VBox]</span><br></pre></td></tr></table></figure>
-<p>Ex.:</p>
-<p>Máquina Virtual:</p>
-<p><img src="../../public/images/nome-base-box-vagrant.png" alt="Nome da VM"></p>
-<p>Comando para exportar:</p>
-<figure class="highlight actionscript"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ vagrant <span class="package"><span class="keyword">package</span> –-<span class="title">base</span> <span class="title">ubuntinho</span></span></span><br></pre></td></tr></table></figure>
-<p>Então execute no seu próprio computador/servidor:</p>
-<figure class="highlight actionscript"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ vagrant <span class="package"><span class="keyword">package</span> –-<span class="title">base</span> <span class="title">ubuntinho</span></span></span><br></pre></td></tr></table></figure>
-<p>Será criado um arquivo package.box no diretório onde você rodou o comando - Ex: Se no seu terminal está assim: usuario@host:/home, o arquivo será gerado na pasta home, se for no Windows e estiver assim: C:\Users\Seu Usuário, será criado na pasta do seu usuário.</p>
-<p><strong>Agora uma dica bonus! </strong></p>
-<p>O Luís Henrique do Grupo <a href="https://www.facebook.com/groups/WebDesignBR/" title="Grupo Web Design Brasil" target="_blank" rel="external">Web Design Brasil</a> no Facebook, me apresentou uma outra facilidade para configuração da box no Vagrant, o <a href="https://puphpet.com/" title="PuPHPet" target="_blank" rel="external">PuPHPet</a>, um site onde você vai escolhendo as configurações que você deseja para seu servidor e ele gera um arquivo de configurações do Puppet pra você - Tudo no automático, olha que maravilha.<br>Tem, também, um outro que eu já uso que é o <a href="http://rove.io/" title="Rove.io" target="_blank" rel="external">Rove</a>, porém esse gera a configuração para o Chef.<br>Com esses arquivos de configuração em mãos, é só deixá-los na pasta do projeto onde você vai subir o ambiente e rodar o vagrant up. Pronto! Tudo no esquema pra você começar a desenvolver.</p>
-<p>Referências:</p>
-<p><a href="https://docs.vagrantup.com/v2/boxes/base.html" target="_blank" rel="external">https://docs.vagrantup.com/v2/boxes/base.html</a></p>
-<p><a href="http://aruizca.com/steps-to-create-a-vagrant-base-box-with-ubuntu-14-04-desktop-gui-and-virtualbox/" target="_blank" rel="external">http://aruizca.com/steps-to-create-a-vagrant-base-box-with-ubuntu-14-04-desktop-gui-and-virtualbox/</a></p>
-<p>Se você curtiu a dica, compartilha, se ficou com alguma dúvida, estou a disposição, pode deixar sua dúvida nos comentários.</p>
-]]></content>
-    <summary type="html">
-    <![CDATA[<p>Conforme vai usando o <a href="/tags/Vagrant/">Vagrant</a> surje a necessidade de se ter sua própria Base Box para poder compartilhar o <em>seu</em> ambiente de desenvolvimento ou mesmo para provisionar um ambiente virtual.]]>
-    
-    </summary>
-    
-      <category term="Ambiente" scheme="http://woliveiras.com.br/tags/Ambiente/"/>
-    
-      <category term="Vagrant" scheme="http://woliveiras.com.br/tags/Vagrant/"/>
-    
-      <category term="Virtualização" scheme="http://woliveiras.com.br/tags/Virtualizacao/"/>
-    
-      <category term="Ambiente" scheme="http://woliveiras.com.br/categories/Ambiente/"/>
-    
-      <category term="Vagrant" scheme="http://woliveiras.com.br/categories/Ambiente/Vagrant/"/>
-    
-      <category term="Virtualização" scheme="http://woliveiras.com.br/categories/Ambiente/Vagrant/Virtualizacao/"/>
-    
-  </entry>
-  
-  <entry>
-    <title><![CDATA[Desenvolvedor Front End Iniciante: Trilha/Guia de estudos]]></title>
-    <link href="http://woliveiras.com.br/posts/guia-de-estudos-desenvolvedor-front-end-iniciante/"/>
-    <id>http://woliveiras.com.br/posts/guia-de-estudos-desenvolvedor-front-end-iniciante/</id>
-    <published>2014-08-18T15:06:23.000Z</published>
-    <updated>2015-08-22T15:25:11.310Z</updated>
-    <content type="html"><![CDATA[<div class="shared-img"><br><img src="../..//public/images/fed.png" alt=""><br></div>
-
-<p>Muitos iniciantes se perdem ao procurar o que aprender para iniciar a carreira como Front End(Ainda mais com 1 bilhão de ferramentas aparecendo e sumindo todo dia). Pois bem, eu montei essa trilha de estudos para me organizar melhor. Então, se você também está procurando conteúdo para aprender sobre Front End é só coletar as coisas que acha importante e bora estudar!</p>
-<a id="more"></a>
-<h2 id="O_guia_de_estudos_para_o_Desenvolvedor_Front_End">O guia de estudos para o Desenvolvedor Front End</h2><p>Encontrei, a um tempo atrás, um excelente artigo que está sendo essencial para meus estudos, virou uma trilha de estudos pra mim, que não sabia por onde começar ou o que fazer. O artigo foi <a href="http://leandrooriente.com/como-me-tornar-um-desenvolvedor-front-end/" title="Como me tornar um Desenvolvedor Front End" target="_blank" rel="external">esse aqui</a>  do Leandro Oriente.<br>O artigo lá é completaaaasso e aqui vou deixar só um pouco da minha experiência em busca do conhecimento por ele proposto.</p>
-<h4 id="Cursos">Cursos</h4><p>Vale a pena investir em cursos presenciais ou vídeo aulas, porém eu curto mais vídeo aulas! Tem muito conteúdo gratuito na internet, seja no Youtube ou sites sobre o assunto. Eu só invisto em curso pago se, realmente, não tiver conteúdo bom de graça (Não sou pão duro, é que ainda não sou rico e pra ficar rico tem de economizar… ;P). Porém, se você não encontrou conteúdo bom free, vão alguns nomes pagos que eu conheço e são muito bons:</p>
-<p><a href="http://alura.com.br" title="Alura" target="_blank" rel="external">alura.com.br</a> (Da Caelum)</p>
-<p><a href="http://code-squad.com" title="Code Squad" target="_blank" rel="external">code-squad.com</a></p>
-<p><a href="http://campus.tableless.com.br/" title="Tableless" target="_blank" rel="external">campus.tableless.com.br/</a></p>
-<h4 id="HTML_e_CSS">HTML e CSS</h4><p>Eu já sabia HTML e CSS desde 2010, então só fiz uma atualização pro HTML5  e CSS3:</p>
-<p><a href="http://design.blog.br/web-design/html5-em-15-minutos-2a-edicao" title="HTML5 em 15 minutos" target="_blank" rel="external">HTML5 em 15 minutos</a></p>
-<p><a href="http://cursoemvideo.com/course/curso-de-html5/" title="Curso em Vídeo" target="_blank" rel="external">cursoemvideo.com/course/curso-de-html5/</a></p>
-<p><a href="http://www.microsoftvirtualacademy.com/training-courses/90f7eb67-0c78-44b5-90b6-43bca793bb14" title="Introdução rápida ao desenvolvimento em HTML5 com JavaScript e CSS3" target="_blank" rel="external">Introdução rápida ao desenvolvimento em HTML5 com JavaScript e CSS3</a></p>
-<h4 id="Lógica_de_Programação">Lógica de Programação</h4><p>Base pra você conseguir programar, se você não sabe lógica eu recomendo o curso da <a href="http://www.softblue.com.br/site/curso/id/6/CURSO+LOGICA_DE_PROGRAMACAO_BASICO_ON_LINE_LO06" title="Lógica de Programação - Softblue" target="_blank" rel="external">Softblue de Lógica de Programação</a>(E no site deles também tem um curso completão <a href="http://www.softblue.com.br/site/curso/id/3/CURSO+SQL_COMPLETO_BASICO_AO_AVANCADO_ON_LINE_BD03" title="SQL - Softblue" target="_blank" rel="external">sobre SQL</a>). Fora isso, seria maneiro baixar a apostila de lógica do site da <a href="https://www.caelum.com.br" title="Caelum" target="_blank" rel="external">Caelum</a>.</p>
-<h4 id="Javascript">Javascript</h4><p>Confesso que no começo eu não gostava muito desse barato não, mas com o tempo acabei curtindo e estou até me aprofundando mais pra tentar gostar(Não é igual Python né, mas…):</p>
-<p><a href="https://www.codeschool.com/" title="Code School" target="_blank" rel="external">www.codeschool.com/</a></p>
-<p><a href="http://www.codecademy.com/" title="Code Academy" target="_blank" rel="external">www.codecademy.com/</a></p>
-<h4 id="Depuração">Depuração</h4><p>Quem trabalha com Front tem que usar o Browser como seu depurador, é nele que você vai descobrir os erros de JS, CSS e é com ele que você acessa os sites que curte e analisa o código fonte para aprender a técnica que usaram para aquela determinada funcionalidade que você curtiu.<br>É só você clicar lá em ferramentas, no seu navegador, e localizar as ferramentas do desenvolvedor ou algo do tipo. (No Chrome e no Firefox pressione F12).</p>
-<p><a href="https://www.youtube.com/playlist?list=PLOU2XLYxmsILUKyjDYUVYLeq7yyTxM_3d" title="Segredos do Chrome DevTools" target="_blank" rel="external">Dicas do Zeno Rocha para quem usa o Chrome.</a></p>
-<h4 id="Software_de_Edição_de_Imagens">Software de Edição de Imagens</h4><p>Você não precisa dominar dos efeitos ou das artes ocultas do Photoshop, por exemplo, mas você precisa saber pegar medidas, cores, recortar uma imagem aqui, um logo ali…</p>
-<h4 id="Noções_de_outras_áreas">Noções de outras áreas</h4><p>No artigo do Leandro ele diz que é necessário conhecer outras áreas e <strong>eu concordo plenamente</strong> com isso. Você precisa entender como as outras áreas funcionam para não atrapalhar ou não se perder na sua própria aplicação.<br>Com esses Skills já dá pra conseguir alguma coisa. Procure fazer uns trampos para pessoas conhecidas só pra desenvolver suas habilidades e aprender um pouco mais.<br>Depois dessas habilidades será necessário se aprofundar mais e estudar o seguinte:</p>
-<p><a href="http://leandrooriente.com/como-me-tornar-um-desenvolvedor-front-end/#perfomance" title="Performance" target="_blank" rel="external">Performance</a>, <a href="http://leandrooriente.com/como-me-tornar-um-desenvolvedor-front-end/#seo" title="SEO" target="_blank" rel="external">SEO</a>, <a href="http://leandrooriente.com/como-me-tornar-um-desenvolvedor-front-end/#oocss-e-pr-compiladores" title="Pré Compiladores" target="_blank" rel="external">Compiladores CSS</a>, <a href="End%20http://leandrooriente.com/como-me-tornar-um-desenvolvedor-front-end/#conhecimento-regular-em-algumas-linguagemns-server-side" title="Linguagem Back End">Conhecer alguma linguagem Back End</a>, <a href="http://leandrooriente.com/como-me-tornar-um-desenvolvedor-front-end/#magias-negras-em-javascript" title="Ninja em JS" target="_blank" rel="external">Virar ninja em JS</a> e…</p>
-<p>Claro que sempre tem algo a mais que você vai precisar aprender, mas tudo no seu tempo. Cuidado para não tentar aprender tudo de uma vez e acabar como eu em 2012, não aprendi quase nada – Depoimento de um menino que tentou aprender programação em 10 dias e quebrou a cara.<br>Curtiu?<br>Deixa seu comentário e se tiver alguma dica para me ajudar e a quem leu esse post, deixa ai também! Valeu!</p>
-]]></content>
-    <summary type="html">
-    <![CDATA[<div class="shared-img"><br><img src="../..//public/images/fed.png" alt=""><br></div>
-
-<p>Muitos iniciantes se perdem ao procurar o que aprender para iniciar a carreira como Front End(Ainda mais com 1 bilhão de ferramentas aparecendo e sumindo todo dia). Pois bem, eu montei essa trilha de estudos para me organizar melhor. Então, se você também está procurando conteúdo para aprender sobre Front End é só coletar as coisas que acha importante e bora estudar!</p>]]>
-    
-    </summary>
-    
-      <category term="Carreira" scheme="http://woliveiras.com.br/categories/Carreira/"/>
-    
-      <category term="CSS" scheme="http://woliveiras.com.br/categories/Carreira/CSS/"/>
-    
-      <category term="Dicas" scheme="http://woliveiras.com.br/categories/Carreira/CSS/Dicas/"/>
-    
-      <category term="Front End" scheme="http://woliveiras.com.br/categories/Carreira/CSS/Dicas/Front-End/"/>
-    
-      <category term="HTML" scheme="http://woliveiras.com.br/categories/Carreira/CSS/Dicas/Front-End/HTML/"/>
-    
-      <category term="Javascript" scheme="http://woliveiras.com.br/categories/Carreira/CSS/Dicas/Front-End/HTML/Javascript/"/>
     
   </entry>
   

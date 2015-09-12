@@ -13,7 +13,7 @@
 <meta property="og:description" content="Sou fã de Linux, e deixei bem claro nesse post. Atualmente estou usando o Ubuntu e muita gente tem reclamado da performance do Unity. Eu, sinceramente, detestei o Unity quando lançado e não estou gost">
 <meta property="og:image" content="http://woliveiras.com.br/../..//public/images/ubuntu.png">
 <meta property="og:image" content="http://woliveiras.com.br/../../public/images/ubuntu-preload.gif">
-<meta property="og:updated_time" content="2015-08-22T15:20:38.574Z">
+<meta property="og:updated_time" content="2015-08-22T15:20:38.000Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="Como deixar o Ubuntu mais rápido">
 <meta name="twitter:description" content="Sou fã de Linux, e deixei bem claro nesse post. Atualmente estou usando o Ubuntu e muita gente tem reclamado da performance do Unity. Eu, sinceramente, detestei o Unity quando lançado e não estou gost">
@@ -106,11 +106,11 @@
 <h2 id="Atualize_seu_O-S-">Atualize seu O.S.</h2><p>Muitas vezes temos problema que são resolvidos pela Canonical com atualizações e, as vezes, a performance depende disso. Portanto atualize agora! É bom ter os drivers de vídeo de fábrica instalados e não os que vem por padrão, mas não vou entrar em detalhes na instalação de Drivers por que é muito variável. Se sua placa for NVidia ou ATI, da uma olhada nesse <a href="http://www.edivaldobrito.com.br/como-instalar-os-ultimos-drivers-da-nvidia-ou-ati-no-ubuntu-e-derivados/" title="Como instalar os últimos drivers da NVIDIA ou ATI no Ubuntu e derivados" target="_blank" rel="external">post</a> no Blog do Edivaldo que você vai ter uma solução! :D<br>Execute o seguinte comando sempre que for atualizar o O.S.:<br><figure class="highlight actionscript"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">sudo apt-<span class="keyword">get</span> updade &amp;amp;&amp;amp; sudo apt-<span class="keyword">get</span> upgrade -y</span><br></pre></td></tr></table></figure></p>
 <p>Ou abra o Atualizador. ;)</p>
 <h2 id="Desligue_os_efeitos_visuais">Desligue os efeitos visuais</h2><p>Para essa dica é necessário o uso do terminal, porém é facinho…<br>Abra o Teminal e abra o arquivo <strong>~/.xprofile</strong>:<br>Se quiser use o <strong>VI</strong> ou <strong>NANO</strong> pelo terminal, senão curtir ou não conhecer você pode executar:<br><figure class="highlight nginx"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="title">sudo</span> gedit ~/.xprofile</span><br></pre></td></tr></table></figure></p>
-<p>Localize e mude a linha:<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="built_in">export</span> UNITY_LOW_GFX_MODE=<span class="number">0</span></span><br></pre></td></tr></table></figure></p>
-<p>Para:<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="built_in">export</span> UNITY_LOW_GFX_MODE=<span class="number">1</span></span><br></pre></td></tr></table></figure></p>
+<p>Localize e mude a linha:<br><figure class="highlight cpp"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">export</span> UNITY_LOW_GFX_MODE=<span class="number">0</span></span><br></pre></td></tr></table></figure></p>
+<p>Para:<br><figure class="highlight cpp"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">export</span> UNITY_LOW_GFX_MODE=<span class="number">1</span></span><br></pre></td></tr></table></figure></p>
 <p><strong>Se o arquivo não existir</strong>, rode o comando:<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="built_in">echo</span> <span class="string">"export UNITY_LOW_GFX_MODE=1"</span> &amp;gt; ~/.xprofile</span><br></pre></td></tr></table></figure></p>
 <p>Agora é só reiniciar ou deslogar e logar novamente.</p>
-<h2 id="Compiz_Config_Settings_Manager">Compiz Config Settings Manager</h2><p>Com a configuração que passei no começo do post os efeitos visuais já serão todos desabilitados, porém ainda da pra brincar mais instalando esse aplicativo que consegue mudar tudo na interface! Mas cuidado! Esse só deve ser utilizado livremente quando você já manjar legal de Ubuntu, pois um erro aqui vai te dar um pouco de dor de cabeça…<br>Para instalar rode:<br><figure class="highlight actionscript"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">sudo apt-<span class="keyword">get</span> install compizconfig-settings-manager</span><br></pre></td></tr></table></figure></p>
+<h2 id="Compiz_Config_Settings_Manager">Compiz Config Settings Manager</h2><p>Com a configuração que passei no começo do post os efeitos visuais já serão todos desabilitados, porém ainda da pra brincar mais instalando esse aplicativo que consegue mudar tudo na interface! Mas cuidado! Esse só deve ser utilizado livremente quando você já manjar legal de Ubuntu, pois um erro aqui vai te dar um pouco de dor de cabeça…<br>Para instalar rode:<br><figure class="highlight sql"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">sudo apt-get <span class="operator"><span class="keyword">install</span> compizconfig-<span class="keyword">settings</span>-manager</span></span><br></pre></td></tr></table></figure></p>
 <p>E com ele instalado poderemos configurar muita coisa. Como:</p>
 <h2 id="Minimizar_com_um_clique">Minimizar com um clique</h2><p>Quando clicamos no ícone do programa na barra lateral do Ubuntu, ele não é minimizado como acontece em outros Sistemas. Para conseguirmos isso basta fazer uma pequena configuração.</p>
 <p>Abra o Compiz Config - Basta pesquisar por Compiz no Dash (Menu Iniciar do Ubuntu) - e clique em <strong>Ubuntu Unity Plugin</strong>, clique na aba <strong>Launcher</strong> e deixe marcado a opção <strong>Minimize Single Window Applications (Unsupported).</strong></p>
@@ -147,13 +147,16 @@
       
     </div>
     <footer class="article-footer">
-      <a data-url="http://woliveiras.com.br/posts/como-deixar-o-ubuntu-mais-rapido/" data-id="cidwzwlpt004ropvv0qdiy058" class="article-share-link">Share</a>
+      <a data-url="http://woliveiras.com.br/posts/como-deixar-o-ubuntu-mais-rapido/" data-id="ciehhifqa005ugevv6s75pkzl" class="article-share-link">Share</a>
       
         <a href="http://woliveiras.com.br/posts/como-deixar-o-ubuntu-mais-rapido/#disqus_thread" class="article-comment-link">Comentários</a>
       
       
   <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/Ambiente/">Ambiente</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/Dicas/">Dicas</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/Linux/">Linux</a></li></ul>
 
+      <a href="/posts/como-deixar-o-ubuntu-mais-rapido/" class="article-date">
+  <time datetime="2015-01-19T07:00:19.000Z" itemprop="datePublished">2015-01-19</time>
+</a>
     </footer>
   </div>
   
