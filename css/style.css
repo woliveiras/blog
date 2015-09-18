@@ -100,6 +100,11 @@ td {
 a img {
   border: none;
 }
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
 input,
 button {
   margin: 0;
@@ -192,11 +197,22 @@ body {
   margin: 0 1.1111111111111%;
   padding: 10px 0;
 }
+@media screen and (max-width: 479px) {
+  .social-box {
+    text-align: center;
+    width: 100%;
+  }
+}
 .social-box a {
   display: inline;
   float: left;
   width: 20%;
   margin: 0 1.1111111111111%;
+}
+@media screen and (max-width: 479px) {
+  .social-box a {
+    width: 100%;
+  }
 }
 .article-entry h1 {
   font-size: 2em;
@@ -881,7 +897,7 @@ a.article-title:hover {
 .article-share-facebook,
 .article-share-pinterest,
 .article-share-google {
-  width: 50px;
+  width: 33.33%;
   height: 36px;
   display: block;
   float: left;

@@ -4,7 +4,7 @@
   <subtitle><![CDATA[Desenvolvedor Front End]]></subtitle>
   <link href="/atom.xml" rel="self"/>
   <link href="http://woliveiras.com.br/"/>
-  <updated>2015-09-12T19:56:21.000Z</updated>
+  <updated>2015-09-12T19:56:21.466Z</updated>
   <id>http://woliveiras.com.br/</id>
   
   <author>
@@ -19,7 +19,7 @@
     <link href="http://woliveiras.com.br/posts/corrigindo-permissoes-de-usuario-linux-npm/"/>
     <id>http://woliveiras.com.br/posts/corrigindo-permissoes-de-usuario-linux-npm/</id>
     <published>2015-09-12T13:00:00.000Z</published>
-    <updated>2015-09-12T19:56:21.000Z</updated>
+    <updated>2015-09-12T19:56:21.466Z</updated>
     <content type="html"><![CDATA[<div class="shared-img"><br><img src="../..//public/images/npm.svg" alt=""><br></div>
 
 <p>Se você utiliza Linux e usa NPM para baixar pacotes Nodejs, provavelmente precisa utilizar o <em>sudo</em> para efetuar as instalações e digita sua senha a cada nova instalação. Porém tem uma forma mais fácil de se fazer isso. <a id="more"></a></p>
@@ -60,7 +60,7 @@
     <link href="http://woliveiras.com.br/posts/utilizando-versoes-antigas-do-nodejs/"/>
     <id>http://woliveiras.com.br/posts/utilizando-versoes-antigas-do-nodejs/</id>
     <published>2015-09-12T08:00:32.000Z</published>
-    <updated>2015-09-12T22:30:12.000Z</updated>
+    <updated>2015-09-12T22:36:10.153Z</updated>
     <content type="html"><![CDATA[<div class="shared-img"><br><img src="../..//public/images/nodejs.png" alt=""><br></div>
 
 <p>Se você, assim como eu, atualizou a versão do Node instalado em sua máquina para a versão <a href="https://nodejs.org/en/blog/release/v4.0.0/" title="Versão 4.0 do Nodejs" target="_blank" rel="external">4.0.0</a>, pode ser que algo pare de funcionar, como no meu caso o Hexo (<a href="http://woliveiras.com.br/posts/Migrando-de-Wordpress-para-Hexo/" title="Migrando de WordPress para Hexo">Que eu utilizo para esse Blog</a>). Porém não precisa se desesperar, além dos módulos logo se atualizarem para a nova versão, existe uma solução simples para esse tipo de problema.<a id="more"></a></p>
@@ -143,7 +143,7 @@
     <link href="http://woliveiras.com.br/posts/twitter-bootstrap-bootstrap-do-jeito-certo/"/>
     <id>http://woliveiras.com.br/posts/twitter-bootstrap-bootstrap-do-jeito-certo/</id>
     <published>2015-09-09T01:00:00.000Z</published>
-    <updated>2015-09-09T01:38:48.000Z</updated>
+    <updated>2015-09-09T01:38:48.155Z</updated>
     <content type="html"><![CDATA[<p>Muita gente critica o uso do <a href="http://getbootstrap.com/" target="_blank" rel="external">Twitter Bootstrap</a> devido a nomenclatura de suas classes e aos muitos componentes que o framework possui.</p>
 <p>Dizem que as classes não são semanticas e que o peso do framework é desnecessário.</p>
 <p>Pois bem, <strong>você não precisa das classes col-md/lg/xs-xxx no seu HTML</strong> e para projetos pequenos (que você não usa todo o potencial do framework) você pode <strong>selecionar somente o que vai utilizar no projeto</strong>.<br>Maneiro né? Da uma olhada como faz…<br><a id="more"></a><br>Se você já conhece pré processadores, será fácil aprender essa forma de utilizar o BS (Bootstrap). Se não conhece é melhor dar uma estudada no Less (que é o mais fácil para iniciantes) ou no Sass para acompanhar essa dica e absorver melhor. Depois de aprender volte aqui e continue a leitura. ;)</p>
@@ -222,7 +222,7 @@
     <link href="http://woliveiras.com.br/posts/Migrando-de-Wordpress-para-Hexo/"/>
     <id>http://woliveiras.com.br/posts/Migrando-de-Wordpress-para-Hexo/</id>
     <published>2015-08-05T02:53:41.000Z</published>
-    <updated>2015-08-14T10:05:27.000Z</updated>
+    <updated>2015-08-14T10:05:27.789Z</updated>
     <content type="html"><![CDATA[<p><div class="shared-img"><br><img src="../../public/images/hexo-logo.png" alt="Hexo Blog"><br></div>A um bom tempo sinto vontade de mudar meu Blog de WordPress para uma plataforma de  conteúdo estático, mas não achava nenhuma alternativa, pois que queria usar Nodejs. Por isso não fui para o, muito usado na comunidade, <a href="http://jekyllrb.com/" target="_blank" rel="external">Jekyll(Ruby)</a> , nem para o <a href="http://blog.getpelican.com/" target="_blank" rel="external">Pelican(Python &lt;3)</a>.<a id="more"></a><br>Em busca de uma alternativa encontrei o <a href="https://hexo.io" target="_blank" rel="external">Hexo</a> e, um pouco depois de eu conhecer essa plataforma, o <a href="http://blog.da2k.com.br/" target="_blank" rel="external">Daciuk</a> escreveu um <a href="http://blog.da2k.com.br/2014/01/05/hexo-criando-um-blog-ao-estilo-miojo/" target="_blank" rel="external">post</a> muito maneiro incentivando o seu uso. Foi então que eu decidi de vez usar essa plataforma!<br>Bora conhecer ela e como foi a migração de WordPress para Hexo?</p>
 <h3 id="Levantando_as_necessidades">Levantando as necessidades</h3><p>Antes de migrar nosso Blog(Ou o de um cliente) de uma plataforma para outra precisamos fazer um levantamento para que não tenha impacto negativo como perder os posts que já existem ou alguma funcionalidade importante aos leitores.<br>Minha primeira preocupação foi com os posts que eu já havia escrito, mas no próprio site do Hexo temos uma <a href="https://hexo.io/docs/migration.html" target="_blank" rel="external">solução para isso</a>.<br>As dicas sobre instalação do Hexo você encontra no Blog do <a href="http://blog.da2k.com.br/2014/01/05/hexo-criando-um-blog-ao-estilo-miojo/" target="_blank" rel="external">Daciuk</a> e no Blog do <a href="http://dwoond.github.io/Criando-seu-site-com-Hexo/" target="_blank" rel="external">Willian Santos</a>.</p>
 <h3 id="Como_escrever_os_posts">Como escrever os posts</h3><p>Os posts no Hexo funcionam como em qualquer outro gerador estático. Escrevemos em Markdown e a postagem é gerada em HTML.<br>Markdown não é difícil e podemos usar algumas ferramentas boas que auxiliam nisso como o <a href="http://pad.haroopress.com/" target="_blank" rel="external">Haroopad</a> ou o <a href="https://stackedit.io/editor#" target="_blank" rel="external">Stackedit</a>, mas o Hexo também tem uma espécie de wp-admin, basta instalar o <a href="https://github.com/jaredly/hexo-admin" target="_blank" rel="external">Hexo Admin</a> se você sente necessidade.</p>
@@ -267,7 +267,7 @@
     <link href="http://woliveiras.com.br/posts/frameworks-front-end/"/>
     <id>http://woliveiras.com.br/posts/frameworks-front-end/</id>
     <published>2015-03-05T00:18:46.000Z</published>
-    <updated>2015-08-22T15:03:08.000Z</updated>
+    <updated>2015-08-22T15:03:08.112Z</updated>
     <content type="html"><![CDATA[<div class="shared-img"><br><img src="../..//public/images/FWs.jpg" alt=""><br></div>
 
 <p>Já parou pra pensar quantas vezes você repete o mesmo código durante o Desenvolvimento, seja Web, Mobile ou Desktop? Já pensou em padronizar o que você faz de alguma maneira?<br>E pra você que é Gerente de Projetos, Líder ou algo do tipo: Já pensou em poder adicionar um membro no seu grupo  e ele já saber como funciona o Desenvolvimento nessa equipe e conseguir ser produtivo desde o princípio?<br>Pois é, Frameworks servem para isso… Vem comigo que vou explicar melhor. ;)<a id="more"></a></p>
@@ -317,7 +317,7 @@
     <link href="http://woliveiras.com.br/posts/contribuindo-para-projetos-open-source-no-github-mesmo-sendo-iniciante/"/>
     <id>http://woliveiras.com.br/posts/contribuindo-para-projetos-open-source-no-github-mesmo-sendo-iniciante/</id>
     <published>2015-02-09T14:12:32.000Z</published>
-    <updated>2015-08-29T13:42:03.000Z</updated>
+    <updated>2015-08-29T13:42:03.369Z</updated>
     <content type="html"><![CDATA[<div class="shared-img"><br><img src="../../public/images/github.gif" alt=""><br></div>
 
 <p>Se você é iniciante já deve ter escutado: “Se quiser aprender mesmo tem de botar a mão na massa!”.<br>Sim! E eu concordo. A melhor maneira de aprender é estudando e praticando muuuuuito! Porém, nem sempre temos um projeto para iniciantes dando sopa na internet ou uma empresa que nos de a oportunidade de praticar lá e crescermos assim. Então uma ÓTIMA maneira de se praticar é auxiliando projetos no <a href="https://github.com/" title="Github" target="_blank" rel="external">Github</a>.<br>Ai você se pergunta: “Tá, mas se eu sou iniciante como eu consigo ajudar?”<br>Vamos nessa que vou tentar te ajudar.<a id="more"></a></p>
@@ -349,7 +349,7 @@
     <link href="http://woliveiras.com.br/posts/haroopad-um-editor-markdown-maneiro/"/>
     <id>http://woliveiras.com.br/posts/haroopad-um-editor-markdown-maneiro/</id>
     <published>2015-02-09T12:53:56.000Z</published>
-    <updated>2015-08-22T15:04:06.000Z</updated>
+    <updated>2015-08-22T15:04:06.646Z</updated>
     <content type="html"><![CDATA[<div class="shared-img"><br><img src="../..//public/images/Haroopad.png" alt=""><br></div>
 
 <p>Todo mundo que trabalha usando <a href="http://blog.da2k.com.br/2015/02/08/aprenda-markdown/" title="Aprenda Markdown" target="_blank" rel="external">Markdown</a> ou usa a linguagem somente para descrever seus repositórios no Github gosta de ter aquele preview maneiro que o <a href="http://25.io/mou/" title="Mou" target="_blank" rel="external">Mou</a> apresenta né? Pois é, mas o Mou não funciona em outras plataformas a não ser Apple. :( <strong>#chateado</strong></p>
@@ -400,7 +400,7 @@
     <link href="http://woliveiras.com.br/posts/como-detectar-o-dispositivo-que-acessa-seu-site/"/>
     <id>http://woliveiras.com.br/posts/como-detectar-o-dispositivo-que-acessa-seu-site/</id>
     <published>2015-02-03T18:47:41.000Z</published>
-    <updated>2015-08-22T15:04:42.000Z</updated>
+    <updated>2015-08-22T15:04:42.500Z</updated>
     <content type="html"><![CDATA[<div class="shared-img"><br><img src="../..//public/images/mobiles.jpg" alt=""><br></div>
 
 <p>Uma dica rápida para quem trabalha com diversos tipos de dispositivos!</p>
@@ -428,7 +428,7 @@
     <link href="http://woliveiras.com.br/posts/aprenda-trabalhar-em-equipes/"/>
     <id>http://woliveiras.com.br/posts/aprenda-trabalhar-em-equipes/</id>
     <published>2015-01-30T08:00:51.000Z</published>
-    <updated>2015-08-07T02:09:47.000Z</updated>
+    <updated>2015-08-07T02:09:47.026Z</updated>
     <content type="html"><![CDATA[<p>Como eu disse em <a href="/posts/requisitos-para-vagas-front-end/" title="Sobre os requisitos para vagas de emprego Front End (E outras áreas também)">um post anterior</a>, você não vai trabalhar sozinho a vida toda. Chega uma hora em que é preciso trabalhar em equipes, interagir com outras pessoas e é necessário que você aprenda isso. Mesmo que você trabalhe em casa, vai precisar enviar seu projeto para outras pessoas.<br>Existem algumas boas medidas para conseguir trabalhar bem em grandes ou pequenas equipes…<a id="more"></a></p>
 <h2 id="Organização">Organização</h2><p>As pastas que você cria para organizar seu projeto devem possuir nomes que auxiliem a entender o que tem dentro. Não somente as pastas, os nomes dos arquivos também devem ter algum significado.<br>Não crie uma pasta com o nome <strong>scripts</strong> e coloque todos os .styl, .js, .html, .php, .rb, etc, ali dentro, mas crie uma organização ou siga alguma.<br>Isso serve até mesmo para que você se encontre mais fácil no seu projeto.<br>Trabalhar com outras pessoas não é a mesma coisa de ser criança e a mãe arrumar seu quarto… Você tem de se organizar e outras pessoas tem de entender sua organização.<br>Da uma olhada aqui no meu <a href="https://github.com/woliveiras/pastel" title="Pastel | um pequeno Boilerplate que eu criei para agilizar meus projetos" target="_blank" rel="external">Scaffold </a>e veja como eu organizei os arquivos - É um exemplo beeeem básico, mas da para ter uma noção…<br>A forma como escreve seu código também faz diferença e vou falar disso agora!</p>
 <h2 id="Comentários">Comentários</h2><p>Comente seu código. Daqui a 6 meses você não vai lembrar o que aquilo fazia, afinal você evolui - Ou só esquece mesmo. E assim como você não vai saber daqui a esse tempo, pessoas que pegarem seu código <strong>hoje</strong> podem demorar a entender o que ele faz se não estiver comentado.</p>
@@ -475,7 +475,7 @@
     <link href="http://woliveiras.com.br/posts/semantica-html/"/>
     <id>http://woliveiras.com.br/posts/semantica-html/</id>
     <published>2015-01-29T12:00:25.000Z</published>
-    <updated>2015-08-22T15:05:40.000Z</updated>
+    <updated>2015-08-22T15:05:40.924Z</updated>
     <content type="html"><![CDATA[<div class="shared-img"><br><img src="../..//public/images/HTML.png" alt=""><br></div>
 
 <p>Quando estamos iniciando os estudos na área de Web aprendemos semântica e, as vezes, nem temos noção da importância disso. Aprendemos que cada tag HTML serve para alguma coisa: <strong>&lt;title&gt;</strong> para o título da página (Aquele que aparece na aba do navegador), <strong>&lt;p&gt;</strong> para parágrafos, <strong>&lt;h1,2,3,…&gt;</strong> para títulos do conteúdo, etc.<a id="more"></a><br>Porém, com o tempo, algumas pessoas param de utilizar essas tags e começam a bagunçar tudo! Usam o <strong>h1</strong> pra deixar um texto maior que o outro e não para o título em questão, usam várias tags <strong>p</strong> separando o conteúdo de uma lista em uma div com uma class <em>“list”</em>, por ai vai! Vira uma salada no HTML.<br>Isso é ruim tanto para quem vai ler seu código depois, quanto para buscadores e leitores de tela.</p>
@@ -514,7 +514,7 @@
     <link href="http://woliveiras.com.br/posts/gerenciar-projetos-com-trello/"/>
     <id>http://woliveiras.com.br/posts/gerenciar-projetos-com-trello/</id>
     <published>2015-01-28T02:00:07.000Z</published>
-    <updated>2015-08-22T15:00:47.000Z</updated>
+    <updated>2015-08-22T15:00:47.929Z</updated>
     <content type="html"><![CDATA[<div class="shared-img"><br><img src="../../public/images/Trello.png" alt="Trello"></div>
 
 <p>Seguindo a linha de postagens sobre <a href="/posts/como-ser-mais-produtivo/" title="Como ser mais produtivo">produtividade</a>, eu sou obrigado a falar dessa ferramenta que utilizo muito e curto demais! É com ele que eu gerencio até as postagens que eu escrevo aqui no Blog…</p>
@@ -576,7 +576,7 @@
     <link href="http://woliveiras.com.br/posts/como-alcancar-objetivos-rapidamente-nos-estudos/"/>
     <id>http://woliveiras.com.br/posts/como-alcancar-objetivos-rapidamente-nos-estudos/</id>
     <published>2015-01-27T07:00:32.000Z</published>
-    <updated>2015-08-22T15:02:13.000Z</updated>
+    <updated>2015-08-22T15:02:13.795Z</updated>
     <content type="html"><![CDATA[<div class="shared-img"><br><img src="../..//public/images/crazy.png" alt=""><br></div>
 
 <p>Essa é mais uma dica sobre produtividade, porém agora é nos estudos.<br>Nós, Desenvolvedores, temos de estudar muito. Todo dia alguma ferramenta atualiza ou algo vira tendência e passa a ser usado no serviço e temos de aprender. E como fazer para aprender tudo isso sem ficar louco e de um jeito que consiga alcançar os objetivos mais rapidamente?<a id="more"></a><br>Se você não leu meu post anterior sobre produtividade da uma olhada <a href="/posts/como-ser-mais-produtivo/" title="Como ser mais produtivo?">aqui</a>.</p>
@@ -641,7 +641,7 @@
     <link href="http://woliveiras.com.br/posts/como-ser-mais-produtivo/"/>
     <id>http://woliveiras.com.br/posts/como-ser-mais-produtivo/</id>
     <published>2015-01-26T08:00:53.000Z</published>
-    <updated>2015-08-22T15:06:11.000Z</updated>
+    <updated>2015-08-22T15:06:11.671Z</updated>
     <content type="html"><![CDATA[<div class="shared-img"><br><img src="../..//public/images/produtividade.jpg" alt=""><br></div>
 
 <p>Uma das minhas grandes preocupações na vida é ser prdutivo! Eu gosto de fazer as coisas o mais rápido possível e estou sempre buscando maneiras de automatizar ou organizar as coisas de maneira que eu consiga cada vez mais produtividade.<a id="more"></a><br>Durante algum tempo fui testando várias abordagens e técnicas de produtividade. Técnicas que podem ser aplicadas no serviço, para estudos ou mesmo para cumprir tarefas do cotidiano(Como lembrar de pagar uma conta ou do que precisa comprar no mercado).<br>Segue algumas dicas do que melhor funcionou pra mim até agora.</p>
@@ -672,7 +672,7 @@
     <link href="http://woliveiras.com.br/posts/requisitos-para-vagas-front-end/"/>
     <id>http://woliveiras.com.br/posts/requisitos-para-vagas-front-end/</id>
     <published>2015-01-23T10:00:19.000Z</published>
-    <updated>2015-08-22T15:16:11.000Z</updated>
+    <updated>2015-08-22T15:16:11.282Z</updated>
     <content type="html"><![CDATA[<div class="shared-img"><br><img src="../..//public/images/trampo.jpg" alt=""><br></div>
 
 <p>Quantas vezes não nos deparamos com as seguintes dúvidas:</p>
@@ -730,7 +730,7 @@
     <link href="http://woliveiras.com.br/posts/extensoes-navegador-desenvolvimento-web/"/>
     <id>http://woliveiras.com.br/posts/extensoes-navegador-desenvolvimento-web/</id>
     <published>2015-01-22T13:00:31.000Z</published>
-    <updated>2015-08-07T10:48:46.000Z</updated>
+    <updated>2015-08-07T10:48:46.643Z</updated>
     <content type="html"><![CDATA[<p>Sou fã de produtividade e, por isso, utilizo várias ferramentas que me auxiliam a ser mais produtivo - Vou citar outras em futuras postagens ;). Algumas delas são extensões para o Navegador, no meu caso o Chrome/Firefox, que eu uso o tempo todo para testes. Nesse post vou citar algumas extensões muito boas para desenvolvimento Front End<a id="more"></a></p>
 <p><em>Para instalar alguma você pode clicar direto no sub-título e será direcionado para a Chrome Web Store. Se você estiver utilizando o Firefox, só pesquisar o nome dela no menu de instalação de Addons.</em></p>
 <h5 id="Web_Developer"><a href="https://chrome.google.com/webstore/detail/web-developer/bfbameneiokkgbdmiekhjnmfkcnldhhm" title="Web Developer" target="_blank" rel="external">Web Developer</a></h5><p>Essa extensão é monstra! Tem muita funcionalidade útil reunida em uma única ferramenta. Ao instalar essa extensão vá abrindo cada abinha e vendo do que ela é capaz, você vai pirar! Ela funciona no Chrome e no Firefox. Em outros navegadores eu não testei.</p>
@@ -783,7 +783,7 @@
     <link href="http://woliveiras.com.br/posts/como-deixar-o-ubuntu-mais-rapido/"/>
     <id>http://woliveiras.com.br/posts/como-deixar-o-ubuntu-mais-rapido/</id>
     <published>2015-01-19T07:00:19.000Z</published>
-    <updated>2015-08-22T15:20:38.000Z</updated>
+    <updated>2015-08-22T15:20:38.574Z</updated>
     <content type="html"><![CDATA[<div class="shared-img"><br><img src="../..//public/images/ubuntu.png" alt=""><br></div>
 
 <p>Sou fã de Linux, e deixei bem claro <a href="/posts/meu-contato-com-o-linux-e-por-que-voce-deveria-testar/" title="Meu contato com o Linux e por que você deveria testar">nesse post</a>. Atualmente estou usando o Ubuntu e muita gente tem reclamado da performance do Unity. Eu, sinceramente, detestei o Unity quando lançado e não estou gostando do rumo “Windows 8 Metro” que ele tem tomado. O pessoal quer transformar o Sistema que uso no PC o mesmo que eu vou usar no Celular e isso não tem me agradado - Porém isso é papo para outra hora. Vamos ao foco que é melhorar a velocidade do Ubuntu.<a id="more"></a><br>Minha máquina, hoje em dia, não é nem um pouco robusta - Core i3 de 3.2, 4 GB de memória, HD SATA 3 - e o primeiro PC que eu tive com Ubuntu também não era. Porém, na época era o Ubuntu 10.04, então rodava lisinho!<br>Para melhorar a velocidade do danado eu fiz as seguintes configurações(Todos os softwares podem ser instalados via Terminal ou pesquisando pelo nome deles na Central de Programas, mas aqui eu só deixei o comando. Pode fazer como você achar melhor. ;D)</p>
@@ -852,7 +852,7 @@
     <link href="http://woliveiras.com.br/posts/meu-contato-com-o-linux-e-por-que-voce-deveria-testar/"/>
     <id>http://woliveiras.com.br/posts/meu-contato-com-o-linux-e-por-que-voce-deveria-testar/</id>
     <published>2015-01-16T12:10:25.000Z</published>
-    <updated>2015-08-22T13:49:35.000Z</updated>
+    <updated>2015-08-22T13:49:35.364Z</updated>
     <content type="html"><![CDATA[<div class="shared-img"><br><img src="../../public/images/linux-icon.png" alt="Linux"><br></div>
 
 <p>Depois de ler o artigo do Daciuk sobre <a href="http://blog.da2k.com.br/2015/01/15/como-ser-um-dev-frontend-usando-linux/" title="Como ser um dev frontend usando Linux" target="_blank" rel="external">Como ser um dev frontend usando Linux</a>, decidi comentar como foi minha experiência no mundo Linux.</p>
@@ -906,7 +906,7 @@
     <link href="http://woliveiras.com.br/posts/css-reset-de-varias-maneiras/"/>
     <id>http://woliveiras.com.br/posts/css-reset-de-varias-maneiras/</id>
     <published>2015-01-15T12:00:20.000Z</published>
-    <updated>2015-08-22T15:21:10.000Z</updated>
+    <updated>2015-08-22T15:21:10.523Z</updated>
     <content type="html"><![CDATA[<div class="shared-img"><br><img src="../..//public/images/css.png" alt=""><br></div>
 
 <p>Todo elemento HTML tem um estilo padrão que é injetado pelo Browser. O legal é que não existe um padrão entre eles. O Chrome tem seu estilo, o Firefox tem o dele, o Safari e Opera também… <a id="more"></a></p>
@@ -947,7 +947,7 @@
     <link href="http://woliveiras.com.br/posts/freelancer-quanto-cobrar-pelo-freelance/"/>
     <id>http://woliveiras.com.br/posts/freelancer-quanto-cobrar-pelo-freelance/</id>
     <published>2015-01-12T10:33:25.000Z</published>
-    <updated>2015-08-22T14:33:14.000Z</updated>
+    <updated>2015-08-22T14:33:14.399Z</updated>
     <content type="html"><![CDATA[<div class="shared-img"><img src="../../public/images/money.jpg" alt="saco de money"></div>
 
 <p>Muita gente, iniciante ou não, tem dúvidas de quanto cobrar por um Freelance…</p>
@@ -1000,7 +1000,7 @@
     <link href="http://woliveiras.com.br/posts/desenvolvendo-interfaces-like-boss/"/>
     <id>http://woliveiras.com.br/posts/desenvolvendo-interfaces-like-boss/</id>
     <published>2014-09-13T23:00:58.000Z</published>
-    <updated>2015-08-22T16:45:43.000Z</updated>
+    <updated>2015-08-22T16:45:43.937Z</updated>
     <content type="html"><![CDATA[<p>É amigo, teve um tempo em que modificar um registro no banco de dados era a coisa que eu achava mas incrível do mundo, gerar um relatório em PDF com PHP então… Nem se fale! Porém, hoje, o que eu curto mesmo é desenvolver interfaces e trabalhar no Browser com JavaScript. Só que criar interfaces não é só sair desenhando no Browser com HTML e CSS, depois colocar umas ações legais com o JS… Tem de planejar a interação, tem de pensar o que vai fazer, senão o que fizer agora, vai se tornar sua dor de cabeça mais pra frente! Pensando nisso segue umas dicas maneiras pra não se enrolar todo na hora de desenvolver uma interface.<a id="more"></a></p>
 <h2 id="Começando:_Os_3_principais_elementos_da_Interface">Começando: Os 3 principais elementos da Interface</h2><p><img src="../../public/images/estrutura.png" alt="Exemplo de estrutura da interface"></p>
 <p>Lembre-se de identificar os principais elementos da interface:</p>
