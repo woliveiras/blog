@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  
+  <title>Grunt | Automatizando tarefas | William Oliveira</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  <meta name="description" content="Todo processo de desenvolvimento possui algumas tarefas repetitivas como testes, minificação de arquivos, concatenação de arquivos para conseguir modularizar algo, etc.">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Grunt | Automatizando tarefas">
+<meta property="og:url" content="http://woliveiras.com.br/posts/grunt-automatizando-tarefas/index.html">
+<meta property="og:site_name" content="William Oliveira">
+<meta property="og:description" content="Todo processo de desenvolvimento possui algumas tarefas repetitivas como testes, minificação de arquivos, concatenação de arquivos para conseguir modularizar algo, etc.">
+<meta property="og:updated_time" content="2015-09-20T14:13:55.831Z">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="Grunt | Automatizando tarefas">
+<meta name="twitter:description" content="Todo processo de desenvolvimento possui algumas tarefas repetitivas como testes, minificação de arquivos, concatenação de arquivos para conseguir modularizar algo, etc.">
+<meta name="twitter:creator" content="@w_oliveiras">
+  
+    <link rel="alternative" href="/atom.xml" title="William Oliveira" type="application/atom+xml">
+  
+  
+    <link rel="icon" href="img/favicon.png">
+  
+  <link href="//fonts.googleapis.com/css?family=Source+Code+Pro" rel="stylesheet" type="text/css">
+  <link rel="stylesheet" href="/css/style.css" type="text/css">
+  
+
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-25964646-1', 'auto');
+  ga('send', 'pageview');
+
+</script>
+
+<!-- End Google Analytics -->
+
+
+  <link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+</head>
+<body>
+  <div id="container">
+    <div id="wrap">
+      <header id="header">
+  <div id="header-outer" class="outer">
+    <div id="header-inner" class="inner">
+      <ul class="navigation">
+        <li id="main-nav">
+          <a id="main-nav-toggle" class="nav-icon"></a>
+          
+            <a class="main-nav-link" href="/">Home</a>
+          
+            <a class="main-nav-link" href="/about">Contato</a>
+          
+        </li>
+        <li id="sub-nav">
+          
+            <a id="nav-rss-link" class="nav-icon" href="/atom.xml" title="RSS Feed"></a>
+          
+          <a id="nav-search-btn" class="nav-icon" title="Search"></a>
+        </li>
+        <li id="search-form-wrap">
+          <form action="//google.com/search" method="get" accept-charset="UTF-8" class="search-form"><input type="search" name="q" results="0" class="search-form-input" placeholder="Search"><button type="submit" class="search-form-submit">&#xF002;</button><input type="hidden" name="sitesearch" value="http://woliveiras.com.br"></form>
+        </li>
+      </ul>
+    </div>
+    <div id="header-title" class="inner">
+      <h1 id="logo-wrap">
+        <a href="/" id="title">William Oliveira</a>
+      </h1>
+      
+        <h2 id="subtitle-wrap">
+          <a href="/" id="subtitle">Desenvolvedor Front End</a>
+        </h2>
+      
+    </div>
+  </div>
+</header>
+
+      <div class="outer">
+        <section id="main"><article id="post-grunt-automatizando-tarefas" class="article article-type-post" itemscope itemprop="blogPost">
+  <div class="article-inner">
+    
+    
+      <header class="article-header">
+        
+  
+    <h1 class="article-title" itemprop="name">
+      Grunt | Automatizando tarefas
+    </h1>
+  
+
+      </header>
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+        <p>Todo processo de desenvolvimento possui algumas tarefas repetitivas como testes, minificação de arquivos, concatenação de arquivos para conseguir modularizar algo, etc.<a id="more"></a></p>
+<h3 id="O_que_é_o_Grunt?">O que é o Grunt?</h3><p>O Grunt é um automatizador de tarefas. Você configura de acordo com o seu <a href="https://pt.wikipedia.org/wiki/Fluxo_de_trabalho" title="Fluxo de trabalho" target="_blank" rel="external">Workflow</a> e deixa ele fazendo essas tarefas repetificas para você. <a href="http://gruntjs.com/" title="Gruntjs" target="_blank" rel="external">Mais detalhes sobre o Gruntjs aqui.</a>.</p>
+<h3 id="Instalação">Instalação</h3><p>Será necessário possuir o Node.js e o NPM instalados em sua máquina. Se não possuir o Nodejs instalado eu recomendo seguir esse tutorial para instalar com o NVM, um <a href="https://pt.wikipedia.org/wiki/Wrapper" title="O que é um Wrapper" target="_blank" rel="external">wrapper</a> para a instalação do Node com separação de versões, parecido com o <a href="https://virtualenv.pypa.io" title="Virtualenv Python" target="_blank" rel="external">Virtualenv</a>.</p>
+<p>Depois disso você precisa instalar o cliente por linha de comando do Grunt:</p>
+<figure class="highlight sql"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">npm <span class="operator"><span class="keyword">install</span> -<span class="keyword">g</span> grunt-cli</span></span><br></pre></td></tr></table></figure>
+<p>Como você percebe, foi instalado o <strong>grunt-cli</strong> não o <strong>grunt</strong>. O grunt-cli é uma interface que disponibiliza os comandos Grunt pelo terminal a partir de qualquer local.</p>
+<p>Esse <strong>-g</strong> avisa para o NPM que a instalação deve ser Global, isso significa que ele não será instalado somente para um projeto, mas sim em sua máquina, estando disponível sempre que precisar rodando o comando <strong>grunt</strong>. Esse comando irá configurar o seu <em><a href="http://www.vivaolinux.com.br/artigo/O-que-e-PATH-como-funciona-e-como-trabalhar-com-ele" title="O que é $PATH" target="_blank" rel="external">$PATH</a></em> e nós podemos prosseguir.</p>
+<p>Agora é necessário configurar as tarefas que o Grunt irá executar.</p>
+<h3 id="Configurando_as_tarefas">Configurando as tarefas</h3><h4 id="Package-json">Package.json</h4><p>Primeiro, <strong>no diretório do seu projeto</strong>, será necessário possuir o <strong>package.json</strong>, aquele arquivinho de dependências do NPM, pois todo plugin do Grunt que você instalar precisa ser referenciado como dependência nesse arquivo. Isso vai diminuir muito seu trampo depois, pois só com um comando <strong>npm install</strong> será tudo instalado, ao invés de ficar rodando tudo de novo.</p>
+<p>Você pode criar manualmente esse arquivo com o <del>Sublimetext</del> seu editor de textos favorito ou rodar o comando:</p>
+<figure class="highlight coffeescript"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="built_in">npm</span> init</span><br></pre></td></tr></table></figure>
+<p>Feito isso você pode instalar os plugins no seu projeto (Instalação Local).</p>
+<p>Um exemplo de instalação de Plugin (Não precisa fazer isso agora):</p>
+<figure class="highlight q"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">npm install grunt-contrib-cssmin --<span class="built_in">save</span>-<span class="built_in">dev</span></span><br></pre></td></tr></table></figure>
+<p>Com isso, o plugin seria instalado na pasta do seu projeto e ficaria salvo como dependência no package.json. Isso por que você passou o parâmetro <strong>—save-dev</strong>.</p>
+<p>Para que o Grunt funcione, você precisa telo instalado no projeto (Você tem uma instalação Global do cliente via terminal com o -g e agora vai instalar o Grunt localmente), para isso execute o comando:</p>
+<figure class="highlight q"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">npm install grunt --<span class="built_in">save</span>-<span class="built_in">dev</span></span><br></pre></td></tr></table></figure>
+<h4 id="Gruntfile-js">Gruntfile.js</h4><p>Depois disso, temos tudo pronto para começar a baixar os plugins e configurar o Grunt para rodar eles. A configuração das tarefas do Grunt ficam no arquivo <strong>Gruntfile.js</strong> e você pode criar ele, também, no <del>Sublime</del> seu editor favorito ou com o comando <strong>grunt init</strong>.</p>
+<p>Um exemplo de configuração básica do arquivo é o seguinte:</p>
+<figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br></pre></td><td class="code"><pre><span class="line"><span class="built_in">module</span>.exports = <span class="function"><span class="keyword">function</span>(<span class="params">grunt</span>) </span>&#123; </span><br><span class="line"><span class="comment">// Configuração do Projeto</span></span><br><span class="line">grunt.initConfig(&#123; </span><br><span class="line">    pkg: grunt.file.readJSON(<span class="string">'package.json'</span>), </span><br><span class="line">    uglify: &#123; </span><br><span class="line">      options: &#123; </span><br><span class="line">        banner: <span class="string">'/*! &amp;lt;%= pkg.name %&amp;gt; &amp;lt;%= grunt.template.today("yyyy-mm-dd") %&amp;gt; */\n'</span></span><br><span class="line">      &#125;, </span><br><span class="line">    build: &#123; </span><br><span class="line">      src: <span class="string">'src/&amp;lt;%= pkg.name %&amp;gt;.js'</span>, </span><br><span class="line">      dest: <span class="string">'build/&amp;lt;%= pkg.name %&amp;gt;.min.js'</span></span><br><span class="line">    &#125;</span><br><span class="line"> &#125; </span><br><span class="line">&#125;); </span><br><span class="line"></span><br><span class="line"><span class="comment">// Carrega o Plugin para executar a tarefa "uglify"</span></span><br><span class="line">grunt.loadNpmTasks(<span class="string">'grunt-contrib-uglify'</span>); </span><br><span class="line"></span><br><span class="line"><span class="comment">// Tarefas</span></span><br><span class="line">grunt.registerTask(<span class="string">'default'</span>, [<span class="string">'uglify'</span>]); </span><br><span class="line"></span><br><span class="line">&#125;;</span><br></pre></td></tr></table></figure>
+<p>A linha <strong>grunt.initConfig(config)</strong> especifica onde iniciam as configurações das tarefas.</p>
+<p>Todo plugin instalado, deve ser carregado, como mostrado na expressão: <strong>grunt.LoadNpmTask(‘grunt-contrib-uglify’);.</strong></p>
+<p>As tarefas que serão executadas com o comando <em>grunt (sem passar nenhum parâmetro)</em> no terminal são registradas como na expessão <strong>grunt.registerTask(‘default’, [‘uglify’]);</strong> onde foi configurado a tarefa <strong>‘default’</strong> (que é executada automaticamente com o comando grunt) que, nesse caso, chamou uma tarefa uglify, mas da para chamar várias ao mesmo tempo.</p>
+<p>Se você quisesse executar somente a tarefa uglify, poderia rodar o comando grunt com o parâmtro uglify: </p>
+<figure class="highlight nginx"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="title">grunt</span> uglify</span><br></pre></td></tr></table></figure>
+<p>Se existisse outra tarefa com o nome <em>cssmin</em>, você executaria <em>grunt cssmin</em> ou configuraria a tarefa ‘default’ para chamar também a cssmin:</p>
+<figure class="highlight prolog"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="atom">grunt</span>.<span class="atom">registerTask</span>(<span class="string">'default'</span>, [<span class="string">'uglify'</span>, <span class="string">'cssmin'</span>]);</span><br></pre></td></tr></table></figure>
+<p>Um exemplo completo de arquivo Gruntfile.js e, também, do package.json pode ser encontrado aqui no meu boilerplate, o Pastel: <a href="https://github.com/woliveiras/pastel" target="_blank" rel="external">https://github.com/woliveiras/pastel</a></p>
+<h3 id="Dica:_O_que_é_instalação_Local_e_Global?">Dica: O que é instalação Local e Global?</h3><p>Global é a instalação do Plugin em seu sistema operacional. Assim ele fica disponível em qualquer projeto bastando executar o comando respectivo, como exemplo do <a href="http://woliveiras.com.br/posts/olha-o-passarinho-falando-sobre-o-bower/" title="Olha o passarinho! (Falando sobre o Bower)">Bower</a>.<br>Local é a instalação do plugin em seu projeto - Na pasta do seu projeto.<br>Todo projeto criado deverá possuir os plugins instalados localmente para funcionar.</p>
+<p>Ai vem a duvida: Mas pra que ficar instalando localmente e sobrecarregando o HD do meu PC se eu posso instalar uma vez só Globalmente e usar em todos os projetos?</p>
+<p>A resposta é: Imagine que você usa a versão 1.0 de determinado plugin em todos os seus projetos. Meses se passam e você agora utiliza a versão 2.0 onde muita coisa mudou e, de repente, você precisa mexer em um projeto antigo. A tarefa configurada não vai funcionar, você vai ter de configurar de novo.</p>
+<p>Você pode pensar: Tá, mas é só copiar o Gruntfile.js de um projeto novo para um antigo. Sim! Isso se for para um projeto, para um plugin, imagina esse cenário acontecendo para diversos projetos e vários plugins.</p>
+<p>Portanto é melhor instalar os plugins localmente e com o comando —save-dev para salvar como dependência e deixar mais fácil a próxima instalação. ;)</p>
+<p>Para conhecer alguns plugins maneiros, da uma olhada no meu projeto - O Pastel - e olha esse <a href="http://gruntjs.com/plugins" title="Grunt plugins" target="_blank" rel="external">link também</a></p>
+<p>Um exemplo de pesquisa para esse site seria pesquisar por <strong>css</strong> e os plugins que tem relação com CSS irão aparecer.</p>
+<p>Referências:</p>
+<p><a href="http://gruntjs.com/getting-started" target="_blank" rel="external">http://gruntjs.com/getting-started</a></p>
+<p><a href="http://simplesideias.com.br/usando-gruntjs" target="_blank" rel="external">http://simplesideias.com.br/usando-gruntjs</a></p>
+<p><a href="http://blog.caelum.com.br/automacao-de-build-de-front-end-com-grunt-js/" target="_blank" rel="external">http://blog.caelum.com.br/automacao-de-build-de-front-end-com-grunt-js/</a></p>
+<p>Curtiu o Grunt? Comenta ai quais plugins está usando. Deixe sua contribuição para melhorar ainda mais nosso Workflow. ;)</p>
+
+      
+    </div>
+    <footer class="article-footer">
+      <a data-url="http://woliveiras.com.br/posts/grunt-automatizando-tarefas/" data-id="ciesl5wuv0000idvvau93cbt8" class="article-share-link">Share</a>
+      
+        <a href="http://woliveiras.com.br/posts/grunt-automatizando-tarefas/#disqus_thread" class="article-comment-link">Comentários</a>
+      
+      
+  <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/Automatizacao/">Automatização</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/Front-End/">Front End</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/Grunt/">Grunt</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/Pastel/">Pastel</a></li></ul>
+
+      <a href="/posts/grunt-automatizando-tarefas/" class="article-date">
+  <time datetime="2014-12-19T01:34:45.000Z" itemprop="datePublished">2014-12-18</time>
+</a>
+    </footer>
+  </div>
+  
+    
+<nav id="article-nav">
+  
+    <a href="/posts/freelancer-quanto-cobrar-pelo-freelance/" id="article-nav-newer" class="article-nav-link-wrap">
+      <strong class="article-nav-caption">Póximo</strong>
+      <div class="article-nav-title">
+        
+          Quanto cobrar pelo Freelance?
+        
+      </div>
+    </a>
+  
+  
+    <a href="/posts/gulp-esse-e-ligeiro/" id="article-nav-older" class="article-nav-link-wrap">
+      <strong class="article-nav-caption">Anterior</strong>
+      <div class="article-nav-title">Gulp | Esse é ligeiro</div>
+    </a>
+  
+</nav>
+
+
+  
+</article>
+
+
+<section id="comments">
+  <div id="disqus_thread">
+    <noscript>Please enable JavaScript to view the <a href="//disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+  </div>
+</section>
+
+</section><!--
+         -->
+      </div>
+      <footer id="footer">
+  
+  <div id="footer-info">
+    <div class="outer">
+      &copy; 2015 William de Oliveira Powered by <a href="http://hexo.io/" target="_blank">Hexo</a>
+    </div>
+  </div>
+</footer>
+    </div>
+    <nav id="mobile-nav">
+  
+    <a href="/" class="mobile-nav-link">Home</a>
+  
+    <a href="/about" class="mobile-nav-link">Contato</a>
+  
+</nav>
+    
+<script>
+  var disqus_shortname = 'woliveiras';
+  
+  var disqus_url = 'http://woliveiras.com.br/posts/grunt-automatizando-tarefas/';
+  
+  (function(){
+    var dsq = document.createElement('script');
+    dsq.type = 'text/javascript';
+    dsq.async = true;
+    dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+    (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+  })();
+</script>
+
+
+<script src="//ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
+
+
+  <link rel="stylesheet" href="/fancybox/jquery.fancybox.css" type="text/css">
+  <script src="/fancybox/jquery.fancybox.pack.js" type="text/javascript"></script>
+
+
+<script src="/js/script.js" type="text/javascript"></script>
+
+  </div>
+</body>
+</html>

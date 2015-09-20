@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  
+  <title>Gulp | Esse é ligeiro | William Oliveira</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  <meta name="description" content="Você é preguiçoso que eu sei! Programadores são preguiçosos… - Nem vem com Mimimi, por que você é sim - É por ser preguiçoso que o programador cria soluções que automatizam as tarefas, algo para agili">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Gulp | Esse é ligeiro">
+<meta property="og:url" content="http://woliveiras.com.br/posts/gulp-esse-e-ligeiro/index.html">
+<meta property="og:site_name" content="William Oliveira">
+<meta property="og:description" content="Você é preguiçoso que eu sei! Programadores são preguiçosos… - Nem vem com Mimimi, por que você é sim - É por ser preguiçoso que o programador cria soluções que automatizam as tarefas, algo para agili">
+<meta property="og:updated_time" content="2015-08-07T01:08:07.045Z">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="Gulp | Esse é ligeiro">
+<meta name="twitter:description" content="Você é preguiçoso que eu sei! Programadores são preguiçosos… - Nem vem com Mimimi, por que você é sim - É por ser preguiçoso que o programador cria soluções que automatizam as tarefas, algo para agili">
+<meta name="twitter:creator" content="@w_oliveiras">
+  
+    <link rel="alternative" href="/atom.xml" title="William Oliveira" type="application/atom+xml">
+  
+  
+    <link rel="icon" href="img/favicon.png">
+  
+  <link href="//fonts.googleapis.com/css?family=Source+Code+Pro" rel="stylesheet" type="text/css">
+  <link rel="stylesheet" href="/css/style.css" type="text/css">
+  
+
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-25964646-1', 'auto');
+  ga('send', 'pageview');
+
+</script>
+
+<!-- End Google Analytics -->
+
+
+  <link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+</head>
+<body>
+  <div id="container">
+    <div id="wrap">
+      <header id="header">
+  <div id="header-outer" class="outer">
+    <div id="header-inner" class="inner">
+      <ul class="navigation">
+        <li id="main-nav">
+          <a id="main-nav-toggle" class="nav-icon"></a>
+          
+            <a class="main-nav-link" href="/">Home</a>
+          
+            <a class="main-nav-link" href="/about">Contato</a>
+          
+        </li>
+        <li id="sub-nav">
+          
+            <a id="nav-rss-link" class="nav-icon" href="/atom.xml" title="RSS Feed"></a>
+          
+          <a id="nav-search-btn" class="nav-icon" title="Search"></a>
+        </li>
+        <li id="search-form-wrap">
+          <form action="//google.com/search" method="get" accept-charset="UTF-8" class="search-form"><input type="search" name="q" results="0" class="search-form-input" placeholder="Search"><button type="submit" class="search-form-submit">&#xF002;</button><input type="hidden" name="sitesearch" value="http://woliveiras.com.br"></form>
+        </li>
+      </ul>
+    </div>
+    <div id="header-title" class="inner">
+      <h1 id="logo-wrap">
+        <a href="/" id="title">William Oliveira</a>
+      </h1>
+      
+        <h2 id="subtitle-wrap">
+          <a href="/" id="subtitle">Desenvolvedor Front End</a>
+        </h2>
+      
+    </div>
+  </div>
+</header>
+
+      <div class="outer">
+        <section id="main"><article id="post-gulp-esse-e-ligeiro" class="article article-type-post" itemscope itemprop="blogPost">
+  <div class="article-inner">
+    
+    
+      <header class="article-header">
+        
+  
+    <h1 class="article-title" itemprop="name">
+      Gulp | Esse é ligeiro
+    </h1>
+  
+
+      </header>
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+        <p>Você é preguiçoso que eu sei! Programadores são preguiçosos… - Nem vem com Mimimi, por que você é sim - É por ser preguiçoso que o programador cria soluções que automatizam as tarefas, algo para agilizar as coisas chatas e sobrar tempo para as coisas legais - Como brincar com uma <a href="https://www.youtube.com/watch?v=wn0OlzoD0Xs" title="Bolinha de papel" target="_blank" rel="external">bolinha de papel</a>. E foi pra automatizar tarefas que surgiu o <a href="http://gruntjs.com/" title="Grunt" target="_blank" rel="external">Grunt</a>.</p>
+<p>Grunt? Não era Gulp?<a id="more"></a></p>
+<p>Não tem como eu falar do Gulp se você não conhece o Grunt… Se você já conhece, então pode <a href="#instalacao" title="Instalação do Gulp">clicar aqui</a> e ir direto ao ponto. Senão continue a leitura. ;D</p>
+<h4 id="Automatização">Automatização</h4><p>Quem trabalha com infra (<a href="http://woliveiras.com.br/voce-faz-o-que-voce-gosta/" title="Você faz o que você gosta?">Como eu trabalhava</a>) deve saber que da pra automatizar muita coisa com Scripts, tanto com Shell Script quanto com Powershell - Famosos arquivos .sh ou .bat - E hoje isso está acontecendo, também, no Front End.</p>
+<p>Algumas tarefas são essenciais para deixar sua aplicação melhor, como minificar o JS e CSS, fazer testes e verificar erros no código por exemplo e foi pra facilitar nossa vida que surgiu o Grunt. Com ele nós evitamos aqueles trampos repetitivos. É tipo o Rake no Ruby.</p>
+<h4 id="Então_pra_que_usar_esse_tal_de_Gulp_se_já_tem_o_Grunt?">Então pra que usar esse tal de Gulp se já tem o Grunt?</h4><p>Por que o Gulp é mais rápido e mais fácil de ser configurado. O Grunt é da hora, porém o gulpfile, que é equivalente ao gruntfile, é mais fácil se você já conhece a sintaxe do Nodejs, por exemplo, vai entender o gulpfile com muito mais facilidade e o Gulp tem uma performance melhor.</p>
+<h4 id="Instalação">Instalação</h4><p>Facinho! Se você tem o <a href="http://woliveiras.com.br/node-js-instalacao/" title="Um pouquinho de Node.js (Intro e Instalação)">Node.js instalado</a>, então execute o comando:</p>
+<pre lang="bash">npm install -g gulp</pre>
+Porém essa só é a instalação do CLI do Gulp pra que o mesmo possa ser executado pela linha de comando via terminal. Quando for usar o Gulp no projeto, você deve rodar esse comando de novo dentro do repositório:
+<pre lang="bash">npm install gulp</pre>
+Para facilitar, na hora em que for instalar plug-ins no repositório do seu projeto, instale tudo de uma vez, por exemplo:
+<pre lang="bash">npm install gulp gulp-jshint gulp-uglify</pre>
+
+<h4 id="Utilizando">Utilizando</h4><p>Você deve criar o gulpfile dentro do repositório do seu projeto, parecido como bower.json, porém você irá salvar o arquivo com a extensão <strong>.js</strong>. Olha só um gulpfile basicão:</p>
+<p><pre class="lang:php decode:true ">var&lt;/strong&gt; gulp &lt;strong&gt;=&lt;/strong&gt; require(‘gulp’);</pre></p>
+<p>gulp.task(‘default’, &lt;strong&gt;function&lt;/strong&gt;() {</p>
+<p>&lt;em&gt; // place code for your default task here&lt;/em&gt;</p>
+<p>});<br>Aqui já da pra entender mais ou menos né?</p>
+<p>Com o gulpfile.js dentro do repositório é só rodar o comando e as tarefas que estiverem na listinha serão executadas. Maneiro né?</p>
+<p>Se você quiser rodar uma task específica no lugar de rodar tudo o que estiver no arquivo basta rodar gulp e o nome da task.</p>
+<h4 id="Mas_não_pare_por_aqui,_vale_a_pena_dar_uma_conferida_nessa_outra_dica">Mas não pare por aqui, vale a pena dar uma conferida nessa outra dica</h4><p>O Gulp possui algumas tarefas básicas que precisamos entender, e elas estão <a href="https://github.com/gulpjs/gulp/blob/master/docs/API.md" target="_blank" rel="external">aqui</a>.</p>
+<p>Depois de entender isso é só dar uma pesquisada na forma em que outras pessoas estão usando o Gulp para agilizar. Por exemplo:</p>
+<p>Se eu quiser saber algum plugin para minificar os arquivos basta pesquisar no Google:</p>
+<blockquote>
+<p>“minificar arquivos gulp”<br>Com o tempo você vai conhecer muitos plugins maneiros e deixar do seu jeito o seu arquivo gulpfile.js. ;)</p>
+</blockquote>
+
+      
+    </div>
+    <footer class="article-footer">
+      <a data-url="http://woliveiras.com.br/posts/gulp-esse-e-ligeiro/" data-id="ciesl5y3t0009idvvxb006een" class="article-share-link">Share</a>
+      
+        <a href="http://woliveiras.com.br/posts/gulp-esse-e-ligeiro/#disqus_thread" class="article-comment-link">Comentários</a>
+      
+      
+      <a href="/posts/gulp-esse-e-ligeiro/" class="article-date">
+  <time datetime="2014-09-14T21:00:34.000Z" itemprop="datePublished">2014-09-14</time>
+</a>
+    </footer>
+  </div>
+  
+    
+<nav id="article-nav">
+  
+    <a href="/posts/grunt-automatizando-tarefas/" id="article-nav-newer" class="article-nav-link-wrap">
+      <strong class="article-nav-caption">Póximo</strong>
+      <div class="article-nav-title">
+        
+          Grunt | Automatizando tarefas
+        
+      </div>
+    </a>
+  
+  
+    <a href="/posts/desenvolvendo-interfaces-like-boss/" id="article-nav-older" class="article-nav-link-wrap">
+      <strong class="article-nav-caption">Anterior</strong>
+      <div class="article-nav-title">Interfaces like a boss!</div>
+    </a>
+  
+</nav>
+
+
+  
+</article>
+
+
+<section id="comments">
+  <div id="disqus_thread">
+    <noscript>Please enable JavaScript to view the <a href="//disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+  </div>
+</section>
+
+</section><!--
+         -->
+      </div>
+      <footer id="footer">
+  
+  <div id="footer-info">
+    <div class="outer">
+      &copy; 2015 William de Oliveira Powered by <a href="http://hexo.io/" target="_blank">Hexo</a>
+    </div>
+  </div>
+</footer>
+    </div>
+    <nav id="mobile-nav">
+  
+    <a href="/" class="mobile-nav-link">Home</a>
+  
+    <a href="/about" class="mobile-nav-link">Contato</a>
+  
+</nav>
+    
+<script>
+  var disqus_shortname = 'woliveiras';
+  
+  var disqus_url = 'http://woliveiras.com.br/posts/gulp-esse-e-ligeiro/';
+  
+  (function(){
+    var dsq = document.createElement('script');
+    dsq.type = 'text/javascript';
+    dsq.async = true;
+    dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+    (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+  })();
+</script>
+
+
+<script src="//ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
+
+
+  <link rel="stylesheet" href="/fancybox/jquery.fancybox.css" type="text/css">
+  <script src="/fancybox/jquery.fancybox.pack.js" type="text/javascript"></script>
+
+
+<script src="/js/script.js" type="text/javascript"></script>
+
+  </div>
+</body>
+</html>
