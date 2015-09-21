@@ -1,0 +1,134 @@
+/*
+* Resets
+*/
+* {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 14pt;
+  padding: 0;
+  margin: 0
+}
+*, *:before, *:after {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box
+}
+fieldset, input {
+  border: none
+}
+ul li {
+  list-style: none
+}
+a {
+  text-decoration: none
+}
+/*
+* Helpers
+*/
+.center-block {
+  display: block;
+  margin: 0 auto
+}
+.margin-top_small {
+  margin-top: 5px
+}
+.hidden {
+  display: none
+}
+/*
+* General
+*/
+html, body, .map_canvas {
+  height: 100%;
+  margin: 0px;
+  padding: 0px
+}
+.way-box {
+  background: white;
+  background: rgba(255, 255, 255, 0.3);
+  left: 15%;
+  position: absolute;
+  width: 70%;
+  z-index: 1
+}
+.way {
+  padding: 10px
+}
+.way-input {
+  background: white;
+  padding: 2px;
+  width: 100%
+}
+.way-time {
+  padding: 1px;
+  width: 60px
+}
+.controlers {
+  width: 100%
+}
+.controlers > button {
+    padding: 2px 10px
+}
+.new-point {
+  display: inline;
+  margin: 5px 0 5px;
+  width: 90%
+}
+.btn-add {
+  margin-right: 5px
+}
+.btn-remove {
+  padding: 2px;
+  margin-left: 3px;
+  width: 9.5%
+}
+.box-show-search {
+  position: absolute;
+  z-index: 1;
+  width: 100%;
+  text-align: center; 
+}
+.btn-show-search-box {
+  width: 30%;
+  position: absolute;
+  left: 35%
+}
+/*
+* Typography
+*/
+h1 {
+  font-size: .8em
+}
+p, input, button,
+span, .ui-menu-item {
+  font-size: .7em
+}
+.way-time {
+  font-size: .9em
+}
+/*
+* Auto complete JQuery-UI
+*/
+.ui-autocomplete {
+  list-style: none;
+  background: white;
+  font-weight: 200;
+  width: 23.9%;
+  padding: 0;
+  z-index: 1
+}
+.ui-menu-item {
+  padding: 2px 10px
+}
+.ui-autocomplete > li:hover {
+  background: #4386F8;
+  cursor: pointer
+}
+.ui-helper-hidden-accessible {
+  display: none
+}
+/*
+* Efects
+*/
+.slide-box_top {
+  top: -20%;
+}
