@@ -286,7 +286,7 @@ body {
   font-weight: bold;
 }
 #header {
-  height: 260px;
+  height: 320px;
   position: relative;
   background-image: url("images/bg.jpeg");
   border-top: 5px solid #de1b1b;
@@ -365,14 +365,14 @@ body {
 .main-nav-link {
   float: left;
   color: #de1b1b;
-  opacity: 0.6;
   text-decoration: none;
   display: block;
   padding: 20px 15px;
 }
 .nav-icon:hover,
 .main-nav-link:hover {
-  opacity: 1;
+  color: #b30707;
+  font-style: italic;
 }
 .nav-icon {
   font-family: FontAwesome;
@@ -473,7 +473,7 @@ body {
 .search-form-input {
   border: none;
   background: none;
-  color: #666;
+  color: #232323;
   width: 100%;
   font: 13px 'Open Sans', sans-serif;
   outline: none;
@@ -561,7 +561,7 @@ a.article-title:hover {
   color: #b30707;
 }
 .article-entry {
-  color: #666;
+  color: #232323;
   padding: 0 20px;
 }
 .article-entry:before,
@@ -814,7 +814,7 @@ a.article-title:hover {
   display: block;
 }
 .article-nav-link-wrap:hover {
-  color: #666;
+  color: #232323;
 }
 @media screen and (min-width: 768px) {
   .article-nav-link-wrap {
@@ -874,7 +874,7 @@ a.article-title:hover {
   box-sizing: border-box;
   font: 14px 'Open Sans', sans-serif;
   padding: 0 15px;
-  color: #666;
+  color: #232323;
   outline: none;
   border: 1px solid #ddd;
   -webkit-border-radius: 3px 3px 0 0;
@@ -1157,7 +1157,7 @@ a.article-title:hover {
   }
 }
 #page-nav .current {
-  color: #666;
+  color: #232323;
   font-weight: bold;
 }
 #page-nav .space {
@@ -1376,4 +1376,44 @@ pre .javascript .function {
   .mobile-nav-link:hover {
     color: #b30707;
   }
+}
+.contact-icons {
+  padding-top: 10px;
+}
+.contact-icons a {
+  text-decoration: none;
+}
+.contact-icons .ico {
+  display: inline-block;
+  width: 50px;
+  height: 50px;
+  margin: 10px;
+  opacity: 0.9;
+}
+.contact-icons .ico:hover {
+  opacity: 1;
+}
+.contact-icons .facebook {
+  background: url("../../../public/contact-icons/facebook.svg") no-repeat;
+  -webkit-background-size: 100%;
+  -moz-background-size: 100%;
+  background-size: 100%;
+}
+.contact-icons .twitter {
+  background: url("../../../public/contact-icons/twitter.svg") no-repeat;
+  -webkit-background-size: 100%;
+  -moz-background-size: 100%;
+  background-size: 100%;
+}
+.contact-icons .linkedin {
+  background: url("../../../public/contact-icons/linkedin.svg") no-repeat;
+  -webkit-background-size: 100%;
+  -moz-background-size: 100%;
+  background-size: 100%;
+}
+.contact-icons .github {
+  background: url("../../../public/contact-icons/github.svg") no-repeat;
+  -webkit-background-size: 100%;
+  -moz-background-size: 100%;
+  background-size: 100%;
 }
