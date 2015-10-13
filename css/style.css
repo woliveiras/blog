@@ -293,7 +293,7 @@ body {
 }
 @media screen and (max-width: 479px) {
   #header {
-    height: 175px;
+    height: 240px;
   }
 }
 #header-outer {
@@ -413,12 +413,7 @@ body {
 }
 #sub-nav {
   float: right;
-  margin-right: -15px;
-}
-@media screen and (max-width: 479px) {
-  #sub-nav {
-    margin-right: 15px;
-  }
+  margin-right: 15px;
 }
 #nav-rss-link:before {
   content: "\f09e";
