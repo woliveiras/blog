@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  
+  <title>Olha o passarinho! (Falando sobre o Bower) | William Oliveira</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  <meta name="description" content="Instalação, configuração e utilização do Bower para instalar as dependências Front End do seu Projeto">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Olha o passarinho! (Falando sobre o Bower)">
+<meta property="og:url" content="http://woliveiras.com.br/posts/olha-o-passarinho-falando-sobre-o-bower/index.html">
+<meta property="og:site_name" content="William Oliveira">
+<meta property="og:description" content="Instalação, configuração e utilização do Bower para instalar as dependências Front End do seu Projeto">
+<meta property="og:image" content="http://woliveiras.com.br/../../public/images/bower.png">
+<meta property="og:updated_time" content="2015-11-07T12:30:49.727Z">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="Olha o passarinho! (Falando sobre o Bower)">
+<meta name="twitter:description" content="Instalação, configuração e utilização do Bower para instalar as dependências Front End do seu Projeto">
+<meta name="twitter:creator" content="@w_oliveiras">
+  
+    <link rel="alternative" href="/atom.xml" title="William Oliveira" type="application/atom+xml">
+  
+  
+    <link rel="icon" href="img/favicon.png">
+  
+  <link href="//fonts.googleapis.com/css?family=Source+Code+Pro" rel="stylesheet" type="text/css">
+  <link rel="stylesheet" href="/css/style.css" type="text/css">
+  
+
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-25964646-1', 'auto');
+  ga('send', 'pageview');
+
+</script>
+
+<!-- End Google Analytics -->
+
+
+  <link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+</head>
+<body>
+  <div id="container">
+    <div id="wrap">
+      <header id="header">
+  <div id="header-outer" class="outer">
+    <div id="header-inner" class="inner">
+      <ul class="navigation">
+        <li id="main-nav">
+          <a id="main-nav-toggle" class="nav-icon"></a>
+          
+            <a class="main-nav-link" href="/">Home</a>
+          
+            <a class="main-nav-link" href="/about">Sobre mim</a>
+          
+        </li>
+        <li id="sub-nav">
+          
+            <a id="nav-rss-link" class="nav-icon" href="/atom.xml" title="RSS Feed"></a>
+          
+          <a id="nav-search-btn" class="nav-icon" title="Search"></a>
+        </li>
+        <li id="search-form-wrap">
+          <form action="//google.com/search" method="get" accept-charset="UTF-8" class="search-form"><input type="search" name="q" results="0" class="search-form-input" placeholder="Search"><button type="submit" class="search-form-submit">&#xF002;</button><input type="hidden" name="sitesearch" value="http://woliveiras.com.br"></form>
+        </li>
+      </ul>
+    </div>
+    <div id="header-title" class="inner">
+      <h1 id="logo-wrap">
+        <a href="/" id="title">William Oliveira</a>
+      </h1>
+      
+        <h2 id="subtitle-wrap">
+          <a href="/" id="subtitle">Desenvolvedor Front End</a>
+        </h2>
+      
+      <div class="contact-icons">
+	<a href="https://www.facebook.com/woliveira542"  target="_blank">
+		<i class="ico facebook"  target="_blank"></i>
+	</a>
+	<a href="https://twitter.com/w_oliveiras"  target="_blank">
+		<i class="ico twitter"  target="_blank"></i>
+	</a>
+	<a href="https://br.linkedin.com/in/woliveira542"  target="_blank">
+		<i class="ico linkedin"  target="_blank"></i>
+	</a>
+	<a href="https://github.com/woliveiras"  target="_blank">
+		<i class="ico github"></i>
+	</a>
+</div>
+    </div>
+  </div>
+</header>
+
+      <div class="outer">
+        <section id="main"><article id="post-olha-o-passarinho-falando-sobre-o-bower" class="article article-type-post" itemscope itemprop="blogPost">
+  <div class="article-inner">
+    
+    
+      <header class="article-header">
+        
+  
+    <h1 class="article-title" itemprop="name">
+      Olha o passarinho! (Falando sobre o Bower)
+    </h1>
+  
+
+      </header>
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+        <p><div class="shared-img"><br><img src="../../public/images/bower.png" alt="Bower"></div></p>
+<div class="shared-img">
+
+<p>O Bower facilitará sua vida gerenciando as dependências Front End do seu projeto de maneira prática e fácil.</p>
+<p>Você deve usar algumas libs, frameworks como JQuery, AngularJS, Bootstrap e outros facilitadores para agilizar o processo de desenvolvimento né?<br>E para isso você entra no site de cada um, baixa e utiliza.<br>O Bower serve para facilitar isso.<br>Com ele, você cria um arquivo manifesto(<a href="http://en.wikipedia.org/wiki/Manifest_file" target="_blank" rel="external">http://en.wikipedia.org/wiki/Manifest_file</a>) que vai automatizar essas tarefas.<a id="more"></a></p>
+<p>Se você já programou em Python, o Bower é parecido com o <a href="https://en.wikipedia.org/wiki/Pip_(package_manager" target="_blank" rel="external">PIP</a>), se programou em Ruby é tipo o <a href="https://en.wikipedia.org/wiki/RubyGems" target="_blank" rel="external">Rubygems</a>. -Outras linguagens também possuem gerenciadores de Dependências.</p>
+<h2 id="Instalação">Instalação</h2><p>Você vai precisar do Nodejs instalado em sua máquina, se não possuir instale pelo <a href="https://nodejs.org/en/" target="_blank" rel="external">site</a> para seu Sistema operacional.</p>
+<p>Se já tem o Node instalado, pode executar esse comando:</p>
+<figure class="highlight sql"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">npm <span class="operator"><span class="keyword">install</span> -<span class="keyword">g</span> bower</span></span><br></pre></td></tr></table></figure>
+<p>Basta esperar o NPM trabalhar.</p>
+<h2 id="Configurando_o_projeto">Configurando o projeto</h2><p>Acesse a pasta do projeto e execute o comando:</p>
+<figure class="highlight armasm"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">bower </span>init</span><br></pre></td></tr></table></figure>
+<p>Será necessário responder algumas perguntas e então será criado um arquivo com o nome bower.json no diretório. Algumas perguntas não te interessam se você não quiser compartilhar seu projeto como um novo componente, então é só pressionar o [Enter] que ele pula.<br>Esse arquivo servirá para armazenar quais dependências foram instaladas e será muito útil no futuro.</p>
+<figure class="highlight sql"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br></pre></td><td class="code"><pre><span class="line">bower init</span><br><span class="line"></span><br><span class="line">[?] name: Usando o Bower</span><br><span class="line">[?] version: 0.0.0</span><br><span class="line">[?] description: Este é só um exemplo</span><br><span class="line">[?] main file:</span><br><span class="line">[?] what types of modules does this package expose? amd, node, yui</span><br><span class="line">[?] keywords:</span><br><span class="line">[?] authors: woliveiras &amp;lt;w.oliveira542@gmail.com&amp;gt;</span><br><span class="line">[?] license: MIT</span><br><span class="line">[?] homepage: woliveiras.com.br</span><br><span class="line">[?] <span class="operator"><span class="keyword">set</span> currently installed components <span class="keyword">as</span> dependencies? Yes</span><br><span class="line">[?] <span class="keyword">add</span> commonly ignored files <span class="keyword">to</span> <span class="keyword">ignore</span> <span class="keyword">list</span>? <span class="keyword">No</span></span><br><span class="line">[?] would you <span class="keyword">like</span> <span class="keyword">to</span> mark this <span class="keyword">package</span> <span class="keyword">as</span> <span class="keyword">private</span> which prevents it <span class="keyword">from</span> being</span><br><span class="line">[?] would you <span class="keyword">like</span> <span class="keyword">to</span> mark this <span class="keyword">package</span> <span class="keyword">as</span> <span class="keyword">private</span> which prevents it <span class="keyword">from</span> being</span><br><span class="line">accidentally published <span class="keyword">to</span> the registry? Yes</span></span><br></pre></td></tr></table></figure>
+<p>E o arquivo gerado será tipo isso:</p>
+<figure class="highlight less"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br></pre></td><td class="code"><pre><span class="line">&#123;</span><br><span class="line">  <span class="attribute">name</span>: <span class="string">'Usando o Bower'</span>,</span><br><span class="line">  <span class="attribute">version</span>: <span class="string">'0.0.0'</span>,</span><br><span class="line">  <span class="attribute">authors</span>: [</span><br><span class="line">  <span class="string">'woliveiras &amp;lt;w.oliveira542@gmail.com&amp;gt;'</span></span><br><span class="line">  ],</span><br><span class="line">  <span class="attribute">description</span>: <span class="string">'Este é só um exemplo'</span>,</span><br><span class="line">  <span class="attribute">moduleType</span>: [</span><br><span class="line">  <span class="string">'amd'</span>,</span><br><span class="line">  <span class="string">'node'</span>,</span><br><span class="line">  <span class="string">'yui'</span></span><br><span class="line">  ],</span><br><span class="line">  <span class="attribute">license</span>: <span class="string">'MIT'</span>,</span><br><span class="line">  <span class="attribute">homepage</span>: <span class="string">'woliveiras.com.br'</span>,</span><br><span class="line">  <span class="attribute">private</span>: true</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<h2 id="Instalando_dependências">Instalando dependências</h2><p>É só rodar o comando bower install e o nome da dependência.</p>
+<p>Ex.:</p>
+<figure class="highlight armasm"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">bower </span>install nome_da_dependencia</span><br></pre></td></tr></table></figure>
+<p>Após isso, é necessário atualizar o arquivo bower.json e acrescentar a dependência:</p>
+<figure class="highlight sql"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">[...conteú<span class="operator"><span class="keyword">do</span> <span class="keyword">at</span>é aqui]</span><br><span class="line"></span><br><span class="line"><span class="string">"dependencies"</span>: &#123;</span><br><span class="line">  <span class="string">"nome_da_dependencia"</span>: <span class="string">"~2.1.1"</span></span><br><span class="line">&#125;</span></span><br></pre></td></tr></table></figure>
+<p><strong>Para agilizar esse trampo</strong>, quando for instalar a dependência, execute com o parâmetro <strong>—save</strong> no final do comando <strong>bower install</strong> e ele já vai adicionar a linha que você teria de escrever.<br>Sempre lembre-se desse parâmetro ou de adicionar a dependência no bower.json.</p>
+<p>Por padrão o Bower vai instalar tudo em bower_components, dentro do seu projeto, mas se você quiser mudar é só criar um arquivo com o nome <strong>.bowerrc</strong> e adicionar esse conteúdo:</p>
+<figure class="highlight json"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">&#123;</span><br><span class="line">  "<span class="attribute">directory</span>":<span class="value"><span class="string">"caminho que você deseja"</span></span><br><span class="line"></span>&#125;</span><br></pre></td></tr></table></figure>
+<h2 id="Atualizar_ou_remover_dependências">Atualizar ou remover dependências</h2><p>Para atualizar execute:</p>
+<figure class="highlight sql"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">bower <span class="operator"><span class="keyword">update</span> - Vai atualizar todas <span class="keyword">as</span> dependências</span><br><span class="line">bower <span class="keyword">update</span> nome_da_dependencia - Vai atualizar somente uma</span></span><br></pre></td></tr></table></figure>
+<p>Para remover:</p>
+<figure class="highlight armasm"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">bower </span>uninstall nome_da_dependencia</span><br></pre></td></tr></table></figure>
+<p><strong>E se eu não souber o nome do pacote?</strong></p>
+<p>Se você não souber o nome do pacote a instalar, use o comando bower search para verificar o nome correto do pacote.</p>
+<figure class="highlight armasm"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">bower </span>search jquery</span><br></pre></td></tr></table></figure>
+<p><strong>Legal, mas e agora?</strong></p>
+<p>Agora, quando você enviar seu projeto para alguém, ele só precisará acessar o diretório onde está o arquivo <strong>bowe.json</strong> e executar o comando <strong>bower install</strong> e pronto! Todos os pacotes que estão no arquivo serão baixados sem precisar fazer tudo de novo.</p>
+<p><em>Como você viu, os pacotes serão baixados dependendo somente do bower.json, então se enviar o bower_components ou o diretório que você escolheu para salvar as dependências junto com seu repositório, só irá gerar peso extra, cuidado. Se estiver usando o Git, configure esse diretório no .gitignore.</em> ;)</p>
+<p>Gostou da dica? Então comenta aqui e compartilha! \o/</p>
+</div>
+      
+    </div>
+    <footer class="article-footer">
+      <a data-url="http://woliveiras.com.br/posts/olha-o-passarinho-falando-sobre-o-bower/" data-id="cigp2m2sy0000zcvvgxkci1jt" class="article-share-link">Share</a>
+      
+        <a href="http://woliveiras.com.br/posts/olha-o-passarinho-falando-sobre-o-bower/#disqus_thread" class="article-comment-link">Comentários</a>
+      
+      
+  <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/Automatizacao/">Automatização</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/Bower/">Bower</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/Front-End/">Front End</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/Pastel/">Pastel</a></li></ul>
+
+      <a href="/posts/olha-o-passarinho-falando-sobre-o-bower/" class="article-date">
+  <time datetime="2014-09-03T03:06:41.000Z" itemprop="datePublished">2014-09-03</time>
+</a>
+    </footer>
+  </div>
+  
+    
+<nav id="article-nav">
+  
+    <a href="/posts/desenvolvendo-interfaces-like-boss/" id="article-nav-newer" class="article-nav-link-wrap">
+      <strong class="article-nav-caption">Póximo</strong>
+      <div class="article-nav-title">
+        
+          Interfaces like a boss!
+        
+      </div>
+    </a>
+  
+  
+    <a href="/posts/usando-o-sublime-text/" id="article-nav-older" class="article-nav-link-wrap">
+      <strong class="article-nav-caption">Anterior</strong>
+      <div class="article-nav-title">Usando o Sublime Text</div>
+    </a>
+  
+</nav>
+
+
+  
+</article>
+
+
+<section id="comments">
+  <div id="disqus_thread">
+    <noscript>Please enable JavaScript to view the <a href="//disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+  </div>
+</section>
+
+</section>
+      </div>
+      <footer id="footer">
+  <div id="footer-info">
+    <div class="outer">
+      &copy; 2015 William de Oliveira Powered by <a href="http://hexo.io/" target="_blank">Hexo</a>
+    </div>
+  </div>
+</footer>
+    </div>
+    <nav id="mobile-nav">
+  
+    <a href="/" class="mobile-nav-link">Home</a>
+  
+    <a href="/about" class="mobile-nav-link">Sobre mim</a>
+  
+</nav>
+    
+<script>
+  var disqus_shortname = 'woliveiras';
+  
+  var disqus_url = 'http://woliveiras.com.br/posts/olha-o-passarinho-falando-sobre-o-bower/';
+  
+  (function(){
+    var dsq = document.createElement('script');
+    dsq.type = 'text/javascript';
+    dsq.async = true;
+    dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+    (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+  })();
+</script>
+
+
+<script src="//ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
+
+
+  <link rel="stylesheet" href="/fancybox/jquery.fancybox.css" type="text/css">
+  <script src="/fancybox/jquery.fancybox.pack.js" type="text/javascript"></script>
+
+
+<script src="/js/script.js" type="text/javascript"></script>
+
+  </div>
+</body>
+</html>

@@ -935,140 +935,124 @@
   </entry>
   
   <entry>
-    <title><![CDATA[Grunt | Automatizando tarefas]]></title>
-    <link href="http://woliveiras.com.br/posts/grunt-automatizando-tarefas/"/>
-    <id>http://woliveiras.com.br/posts/grunt-automatizando-tarefas/</id>
-    <published>2014-12-19T01:34:45.000Z</published>
-    <updated>2015-11-07T11:25:55.327Z</updated>
-    <content type="html"><![CDATA[<p>Todo processo de desenvolvimento possui algumas tarefas repetitivas como testes, minificação de arquivos, concatenação de arquivos para conseguir modularizar algo, etc.<a id="more"></a></p>
-<h3 id="O_que_é_o_Grunt?">O que é o Grunt?</h3><p>O Grunt é um automatizador de tarefas. Você configura de acordo com o seu <a href="https://pt.wikipedia.org/wiki/Fluxo_de_trabalho" title="Fluxo de trabalho" target="_blank" rel="external">Workflow</a> e deixa ele fazendo essas tarefas repetificas para você. <a href="http://gruntjs.com/" title="Gruntjs" target="_blank" rel="external">Mais detalhes sobre o Gruntjs aqui.</a>.</p>
-<h3 id="Instalação">Instalação</h3><p>Será necessário possuir o Node.js e o NPM instalados em sua máquina. Se não possuir o Nodejs instalado eu recomendo seguir esse tutorial para instalar com o NVM, um <a href="https://pt.wikipedia.org/wiki/Wrapper" title="O que é um Wrapper" target="_blank" rel="external">wrapper</a> para a instalação do Node com separação de versões, parecido com o <a href="https://virtualenv.pypa.io" title="Virtualenv Python" target="_blank" rel="external">Virtualenv</a>.</p>
-<p>Depois disso você precisa instalar o cliente por linha de comando do Grunt:</p>
-<figure class="highlight sql"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">npm <span class="operator"><span class="keyword">install</span> -<span class="keyword">g</span> grunt-cli</span></span><br></pre></td></tr></table></figure>
-<p>Como você percebe, foi instalado o <strong>grunt-cli</strong> não o <strong>grunt</strong>. O grunt-cli é uma interface que disponibiliza os comandos Grunt pelo terminal a partir de qualquer local.</p>
-<p>Esse <strong>-g</strong> avisa para o NPM que a instalação deve ser Global, isso significa que ele não será instalado somente para um projeto, mas sim em sua máquina, estando disponível sempre que precisar rodando o comando <strong>grunt</strong>. Esse comando irá configurar o seu <em><a href="http://www.vivaolinux.com.br/artigo/O-que-e-PATH-como-funciona-e-como-trabalhar-com-ele" title="O que é $PATH" target="_blank" rel="external">$PATH</a></em> e nós podemos prosseguir.</p>
-<p>Agora é necessário configurar as tarefas que o Grunt irá executar.</p>
-<h3 id="Configurando_as_tarefas">Configurando as tarefas</h3><h4 id="Package-json">Package.json</h4><p>Primeiro, <strong>no diretório do seu projeto</strong>, será necessário possuir o <strong>package.json</strong>, aquele arquivinho de dependências do NPM, pois todo plugin do Grunt que você instalar precisa ser referenciado como dependência nesse arquivo. Isso vai diminuir muito seu trampo depois, pois só com um comando <strong>npm install</strong> será tudo instalado, ao invés de ficar rodando tudo de novo.</p>
-<p>Você pode criar manualmente esse arquivo com o <del>Sublimetext</del> seu editor de textos favorito ou rodar o comando:</p>
-<figure class="highlight coffeescript"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="built_in">npm</span> init</span><br></pre></td></tr></table></figure>
-<p>Feito isso você pode instalar os plugins no seu projeto (Instalação Local).</p>
-<p>Um exemplo de instalação de Plugin (Não precisa fazer isso agora):</p>
-<figure class="highlight q"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">npm install grunt-contrib-cssmin --<span class="built_in">save</span>-<span class="built_in">dev</span></span><br></pre></td></tr></table></figure>
-<p>Com isso, o plugin seria instalado na pasta do seu projeto e ficaria salvo como dependência no package.json. Isso por que você passou o parâmetro <strong>—save-dev</strong>.</p>
-<p>Para que o Grunt funcione, você precisa telo instalado no projeto (Você tem uma instalação Global do cliente via terminal com o -g e agora vai instalar o Grunt localmente), para isso execute o comando:</p>
-<figure class="highlight q"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">npm install grunt --<span class="built_in">save</span>-<span class="built_in">dev</span></span><br></pre></td></tr></table></figure>
-<h4 id="Gruntfile-js">Gruntfile.js</h4><p>Depois disso, temos tudo pronto para começar a baixar os plugins e configurar o Grunt para rodar eles. A configuração das tarefas do Grunt ficam no arquivo <strong>Gruntfile.js</strong> e você pode criar ele, também, no <del>Sublime</del> seu editor favorito ou com o comando <strong>grunt init</strong>.</p>
-<p>Um exemplo de configuração básica do arquivo é o seguinte:</p>
-<figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br></pre></td><td class="code"><pre><span class="line"><span class="built_in">module</span>.exports = <span class="function"><span class="keyword">function</span>(<span class="params">grunt</span>) </span>&#123;</span><br><span class="line"><span class="comment">// Configuração do Projeto</span></span><br><span class="line">grunt.initConfig(&#123;</span><br><span class="line">    pkg: grunt.file.readJSON(<span class="string">'package.json'</span>),</span><br><span class="line">    uglify: &#123;</span><br><span class="line">      options: &#123;</span><br><span class="line">        banner: <span class="string">'/*! &amp;lt;%= pkg.name %&amp;gt; &amp;lt;%= grunt.template.today("yyyy-mm-dd") %&amp;gt; */\n'</span></span><br><span class="line">      &#125;,</span><br><span class="line">    build: &#123;</span><br><span class="line">      src: <span class="string">'src/&amp;lt;%= pkg.name %&amp;gt;.js'</span>,</span><br><span class="line">      dest: <span class="string">'build/&amp;lt;%= pkg.name %&amp;gt;.min.js'</span></span><br><span class="line">    &#125;</span><br><span class="line"> &#125;</span><br><span class="line">&#125;);</span><br><span class="line"></span><br><span class="line"><span class="comment">// Carrega o Plugin para executar a tarefa "uglify"</span></span><br><span class="line">grunt.loadNpmTasks(<span class="string">'grunt-contrib-uglify'</span>);</span><br><span class="line"></span><br><span class="line"><span class="comment">// Tarefas</span></span><br><span class="line">grunt.registerTask(<span class="string">'default'</span>, [<span class="string">'uglify'</span>]);</span><br><span class="line"></span><br><span class="line">&#125;;</span><br></pre></td></tr></table></figure>
-<p>A linha <strong>grunt.initConfig(config)</strong> especifica onde iniciam as configurações das tarefas.</p>
-<p>Todo plugin instalado, deve ser carregado, como mostrado na expressão: <strong>grunt.LoadNpmTask(‘grunt-contrib-uglify’);.</strong></p>
-<p>As tarefas que serão executadas com o comando <em>grunt (sem passar nenhum parâmetro)</em> no terminal são registradas como na expessão <strong>grunt.registerTask(‘default’, [‘uglify’]);</strong> onde foi configurado a tarefa <strong>‘default’</strong> (que é executada automaticamente com o comando grunt) que, nesse caso, chamou uma tarefa uglify, mas da para chamar várias ao mesmo tempo.</p>
-<p>Se você quisesse executar somente a tarefa uglify, poderia rodar o comando grunt com o parâmtro uglify:</p>
-<figure class="highlight nginx"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="title">grunt</span> uglify</span><br></pre></td></tr></table></figure>
-<p>Se existisse outra tarefa com o nome <em>cssmin</em>, você executaria <em>grunt cssmin</em> ou configuraria a tarefa ‘default’ para chamar também a cssmin:</p>
-<figure class="highlight prolog"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="atom">grunt</span>.<span class="atom">registerTask</span>(<span class="string">'default'</span>, [<span class="string">'uglify'</span>, <span class="string">'cssmin'</span>]);</span><br></pre></td></tr></table></figure>
-<p>Um exemplo completo de arquivo Gruntfile.js e, também, do package.json pode ser encontrado aqui no meu boilerplate, o Pastel: <a href="https://github.com/woliveiras/pastel" target="_blank" rel="external">https://github.com/woliveiras/pastel</a></p>
-<h3 id="Dica:_O_que_é_instalação_Local_e_Global?">Dica: O que é instalação Local e Global?</h3><p>Global é a instalação do Plugin em seu sistema operacional. Assim ele fica disponível em qualquer projeto bastando executar o comando respectivo, como exemplo do <a href="http://woliveiras.com.br/posts/olha-o-passarinho-falando-sobre-o-bower/" title="Olha o passarinho! (Falando sobre o Bower)">Bower</a>.<br>Local é a instalação do plugin em seu projeto - Na pasta do seu projeto.<br>Todo projeto criado deverá possuir os plugins instalados localmente para funcionar.</p>
-<p>Ai vem a duvida: Mas pra que ficar instalando localmente e sobrecarregando o HD do meu PC se eu posso instalar uma vez só Globalmente e usar em todos os projetos?</p>
-<p>A resposta é: Imagine que você usa a versão 1.0 de determinado plugin em todos os seus projetos. Meses se passam e você agora utiliza a versão 2.0 onde muita coisa mudou e, de repente, você precisa mexer em um projeto antigo. A tarefa configurada não vai funcionar, você vai ter de configurar de novo.</p>
-<p>Você pode pensar: Tá, mas é só copiar o Gruntfile.js de um projeto novo para um antigo. Sim! Isso se for para um projeto, para um plugin, imagina esse cenário acontecendo para diversos projetos e vários plugins.</p>
-<p>Portanto é melhor instalar os plugins localmente e com o comando —save-dev para salvar como dependência e deixar mais fácil a próxima instalação. ;)</p>
-<p>Para conhecer alguns plugins maneiros, da uma olhada no meu projeto - O Pastel - e olha esse <a href="http://gruntjs.com/plugins" title="Grunt plugins" target="_blank" rel="external">link também</a></p>
-<p>Um exemplo de pesquisa para esse site seria pesquisar por <strong>css</strong> e os plugins que tem relação com CSS irão aparecer.</p>
-<p>Referências:</p>
-<p><a href="http://gruntjs.com/getting-started" target="_blank" rel="external">http://gruntjs.com/getting-started</a></p>
-<p><a href="http://simplesideias.com.br/usando-gruntjs" target="_blank" rel="external">http://simplesideias.com.br/usando-gruntjs</a></p>
-<p><a href="http://blog.caelum.com.br/automacao-de-build-de-front-end-com-grunt-js/" target="_blank" rel="external">http://blog.caelum.com.br/automacao-de-build-de-front-end-com-grunt-js/</a></p>
-<p>Curtiu o Grunt? Comenta ai quais plugins está usando. Deixe sua contribuição para melhorar ainda mais nosso Workflow. ;)</p>
+    <title><![CDATA[Instalando o Sublime Text no Ubuntu]]></title>
+    <link href="http://woliveiras.com.br/posts/instalando-o-sublime-text-no-ubuntu/"/>
+    <id>http://woliveiras.com.br/posts/instalando-o-sublime-text-no-ubuntu/</id>
+    <published>2015-01-10T21:23:40.000Z</published>
+    <updated>2015-11-07T12:11:11.456Z</updated>
+    <content type="html"><![CDATA[<div class="shared-img"><br><img src="../../public/images/sublime.png" alt="sublime text"><br></div>
+
+<p>Quem me conhece sabe que eu sou um fã do Sublime Text por ele ser um editor excelente com muitos plugins úteis e por isso eu já fiz uma <a href="/posts/usando-o-sublime-text/" title="Usando o Sublime Text">introdução anteriormente</a> sobre o editor e por que eu gosto dele.</p>
+<p>Se você usa Ubuntu ou derivados do Debian, vou ensinar como instalar o editor e configurar sem dor de cabeça. :)<a id="more"></a></p>
+<h2 id="Pelo_Terminal">Pelo Terminal</h2><p>Abra o terminal (Ctrl + Alt + T) e execute o seguinte comando:</p>
+<figure class="highlight smali"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">sudo<span class="instruction"> add-apt-repository </span>ppa:webupd8team/sublime-text-3 &amp;&amp; sudo apt-get update &amp;&amp; sudo apt-get install sublime-text-installer</span><br></pre></td></tr></table></figure>
+<h2 id="Via_pacote_-deb">Via pacote .deb</h2><p>Entre no <a href="http://www.sublimetext.com/" title="Sublime Text" target="_blank" rel="external">site do Sublime Text</a> e clique na arquitetura que utiliza (32 ou 64), após download é só dar um double click em cima do arquivo ou cambiar até a pasta pelo terminal e executar:</p>
+<figure class="highlight matlab"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">sudo dpkg -<span class="built_in">i</span></span><br></pre></td></tr></table></figure>
+<p>Assim que instalar, ele ficará como qualquer editor de textos, limpo. Só vai aparecer o arquivo aberto na tela vazio. Então eu deixei umas dicas maneiras sobre as configurações que eu fiz no meu.</p>
+<h2 id="Barra_Lateral">Barra Lateral</h2><p>Eu sempre coloco a barra lateral exibindo os arquivos abertos. Para isso basta ir em:</p>
+<p><strong>View → Sidebar → Show Open Files</strong></p>
+<p>Quando precisar de espaço na tela, use <strong>Ctrl + K + B</strong> e a barra lateral será ocultada. Se pressionar a mesma sequência de novo a barra volta.</p>
+<h2 id="Configurações_pessoais">Configurações pessoais</h2><p>Clique em <strong>Preferences → Settings – User</strong>. Vai abrir um arquivo de texto com os parâmetros do Sublime. O nome dos parâmetros são auto explicativos, mas se tiver dúvidas pode deixar um comentário que eu te ajudo. O meu está assim:</p>
+<pre><code>{
+  "<span class="attribute">font_face</span>": <span class="value"><span class="string">"Ubuntu"</span></span>,
+  "<span class="attribute">font_size</span>": <span class="value"><span class="number">12</span></span>,
+  "<span class="attribute">bold_folder_labels</span>": <span class="value"><span class="literal">true</span></span>,
+  "<span class="attribute">highlight_line</span>": <span class="value"><span class="literal">true</span></span>,
+  "<span class="attribute">highlight_modified_tabs</span>": <span class="value"><span class="literal">true</span></span>,
+  "<span class="attribute">ignored_packages</span>":
+  <span class="value">[
+    <span class="string">"Vintage"</span>
+  ]</span>,
+  "<span class="attribute">rulers</span>":
+  <span class="value">[
+    <span class="number">90</span>
+  ]</span>,
+  "<span class="attribute">show_full_path</span>": <span class="value"><span class="literal">true</span></span>,
+  "<span class="attribute">tab_size</span>": <span class="value"><span class="number">2</span></span>,
+  "<span class="attribute">translate_tabs_to_spaces</span>": <span class="value"><span class="literal">true</span></span>,
+  "<span class="attribute">trim_trailing_white_space_on_save</span>": <span class="value"><span class="literal">true</span></span>,
+  "<span class="attribute">word_wrap</span>": <span class="value"><span class="literal">true</span></span>,
+  "<span class="attribute">wrap_width</span>": <span class="value"><span class="number">90</span>
+</span>}
+</code></pre><p>Minhas configurações do Sublime estão disponíveis <a href="https://github.com/woliveiras/configs/tree/master/sublimetext" target="_blank" rel="external">aqui</a> também.</p>
+<p>Basta copiar, colar e salvar que as configurações entram em vigor.</p>
+<h2 id="Package_Control">Package Control</h2><p>O Package Control é o cara que vai te auxiliar a instalar plugins no Sublime para que ele fique mais caprichado para você. Para instalar, clique em</p>
+<p><strong>View → Show Console</strong></p>
+<p>Acesse <a href="https://packagecontrol.io/" title="Package Control" target="_blank" rel="external">esse site</a> na guia ‘<strong>Installation</strong>‘ e copie o código para instalação para a versão do Sublime que estiver utilizando.</p>
+<p>Depois da instalação do Package Control é necessário reiniciar o Sublime (Abrir e fechar o editor, não vai reiniciar seu PC não ein!)</p>
+<p>Agora veja essa <a href="/posts/plugins-sublime-text-para-desenvolvimento-web/" title="Plugins maneiros para o Sublime">lista de Plugins maneiros</a> e, se você não clicou no link sobre a introdução lá em cima, clique <a href="/posts/usando-o-sublime-text/" title="Usando o Sublimetext">aqui</a> para conhecer alguns atalhos legais!</p>
+<p>Caso tenha mais alguma dica sobre a instalação do Sublime, deixe ai nos comentários. ;D</p>
 ]]></content>
     <summary type="html">
-    <![CDATA[Automatizando tarefas com o Grunt]]>
+    <![CDATA[Como instalar o Sublime Text no Ubuntu]]>
     
     </summary>
     
-      <category term="Automatização" scheme="http://woliveiras.com.br/tags/Automatizacao/"/>
+      <category term="Configuração do Sublimetext" scheme="http://woliveiras.com.br/tags/Configuracao-do-Sublimetext/"/>
     
-      <category term="Front End" scheme="http://woliveiras.com.br/tags/Front-End/"/>
+      <category term="Instalação Sublimetext" scheme="http://woliveiras.com.br/tags/Instalacao-Sublimetext/"/>
     
-      <category term="Grunt" scheme="http://woliveiras.com.br/tags/Grunt/"/>
+      <category term="Sublimetext" scheme="http://woliveiras.com.br/tags/Sublimetext/"/>
     
-      <category term="Pastel" scheme="http://woliveiras.com.br/tags/Pastel/"/>
+      <category term="Dicas" scheme="http://woliveiras.com.br/categories/Dicas/"/>
     
-      <category term="Ambiente" scheme="http://woliveiras.com.br/categories/Ambiente/"/>
-    
-      <category term="Automatização" scheme="http://woliveiras.com.br/categories/Ambiente/Automatizacao/"/>
-    
-      <category term="Front End" scheme="http://woliveiras.com.br/categories/Ambiente/Automatizacao/Front-End/"/>
-    
-      <category term="Grunt" scheme="http://woliveiras.com.br/categories/Ambiente/Automatizacao/Front-End/Grunt/"/>
+      <category term="Sublimetext" scheme="http://woliveiras.com.br/categories/Dicas/Sublimetext/"/>
     
   </entry>
   
   <entry>
-    <title><![CDATA[Instalação do ambiente LAMP]]></title>
-    <link href="http://woliveiras.com.br/posts/instalacao-ambiente-lamp/"/>
-    <id>http://woliveiras.com.br/posts/instalacao-ambiente-lamp/</id>
-    <published>2014-11-10T10:15:26.000Z</published>
-    <updated>2015-11-07T11:27:52.905Z</updated>
-    <content type="html"><![CDATA[<p>Apesar de muita gente estar migrando para o <a href="http://pt.wikipedia.org/wiki/Nginx" title="Nginx" target="_blank" rel="external">Nginx</a>, muitos começam os estudos em PHP usando <a href="http://pt.wikipedia.org/wiki/Servidor_Apache" title="Apache" target="_blank" rel="external">Apache</a>, <a href="http://pt.wikipedia.org/wiki/MySQL" title="MySQL" target="_blank" rel="external">MySQL</a> e <a href="http://pt.wikipedia.org/wiki/Linux" title="Linux" target="_blank" rel="external">Linux </a> no servidor de hospedagem ou localmente - Se você é usuário Windows, eu recomendo fortemente a utilização do <a href="http://woliveiras.com.br/tags/Vagrant/" title="Crie e compartilhe ambientes com o Vagrant (Instalação)">Vagrant</a> para que você use o Linux em uma VM e aprenda um pouco sobre o S.O. durante seus estudos. Isso fará diferença para você conhecer melhor seu próprio servidor de Hospedagem, já que a maioria é Linux.</p>
+    <title><![CDATA[Plugins do Sublime Text para Desenvolvimento Web]]></title>
+    <link href="http://woliveiras.com.br/posts/plugins-sublime-text-para-desenvolvimento-web/"/>
+    <id>http://woliveiras.com.br/posts/plugins-sublime-text-para-desenvolvimento-web/</id>
+    <published>2015-01-10T21:23:31.000Z</published>
+    <updated>2015-11-07T12:15:32.870Z</updated>
+    <content type="html"><![CDATA[<div class="shared-img"><br><img src="../../public/images/sublime.png" alt="sublime text"><br></div>
+
+<p>Em meus posts anteriores eu deixei algumas dicas de <a href="/posts/instalando-o-sublime-text-no-ubuntu/" title="Dicas de instalação e configuração do Sublime Text">configuração</a> do Sublime e instalação no Ubuntu, <a href="/posts/usando-o-sublime-text/" title="Atalhos do Sublime">alguns atalhos legais</a>. Agora vou citar alguns plugins que eu utilizo no dia-a-dia para melhor aproveitar o editor.</p>
 <a id="more"></a>
-<p>Esse conjunto de itens é que recebe o nome de LAMP (<strong>L</strong> inux, <strong>A</strong> pache, <strong>M</strong> ySQL e <strong>P</strong> HP).</p>
-<p>Para esse tutorial eu estou utilizando um servidor <a href="http://www.ubuntu.com/download/server" title="Ubuntu Server" target="_blank" rel="external">Ubuntu Server</a>, portanto os comandos utilizados aqui servirão muito bem para você no Ubuntu ou no Debian e qualquer outro S.O. baseado no Debian.</p>
-<p>Antes de tudo, atualize seu repositório executando o comando:</p>
-<figure class="highlight q"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">sudo apt-<span class="built_in">get</span> <span class="keyword">update</span></span><br></pre></td></tr></table></figure>
-<p>No Debian, você pode ter alguma dificuldade com pacotes durante a instalação do PHP. Se isso acontecer atualize seu sources.list e nesse caso é melhor você pesquisar um padrão no Google, pois eu poderia passar algum link desatualizado dependendo da data em que você está lendo essa postagem. Basta pesquisar: sources.list Debian e já era! ;)</p>
-<h4 id="Instalação_do_MySQL">Instalação do MySQL</h4><p>Abra seu terminal e execute o seguinte comando:</p>
-<figure class="highlight axapta"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">sudo apt-get install mysql-<span class="keyword">client</span> mysql-<span class="keyword">server</span> mysql-<span class="keyword">common</span></span><br></pre></td></tr></table></figure>
-<p>Siga as telas que lhe surgirão. Durante a instalação será solicitado uma senha para o Usuário root. Se for uma instalação local, não precisa esquentar a cabeça com uma senha difícil, se for uma instalação remota, coloca uma senha boa ai mermão!!!</p>
-<h4 id="Instalação_do_Apache">Instalação do Apache</h4><p>Abra seu terminal e execute o seguinte comando:</p>
-<figure class="highlight actionscript"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">sudo apt-<span class="keyword">get</span> install -y apache2</span><br></pre></td></tr></table></figure>
-<p>Simples né? ;D</p>
-<h4 id="Instalação_do_PHP">Instalação do PHP</h4><p>Esse comando é grandinho por que possui algumas bibliotecas que eu uso para desenvolvimento com base no que eu já usei até hoje, portanto se você ver alguma que não deseja utilizar, basta remover dessa linha e executar.</p>
-<figure class="highlight vim"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">sudo apt-<span class="built_in">get</span> install -<span class="keyword">y</span> php5 libapache2-<span class="keyword">mod</span>-php5 php5-common php5-curl php5-dev php5-gd php5-idn</span><br><span class="line">php-pear php5-imagick php5-<span class="keyword">imap</span> php5-json php5-mcrypt php5-memcache php5-mhash php5-ming</span><br><span class="line">php5-mysql php5-<span class="keyword">ps</span> php5-pspell php5-recode php5-snmp php5-sqlite php5-tidy php5-xmlrpc php5-xsl</span><br></pre></td></tr></table></figure>
-<p>Depois dessa instalação é necessário<strong> reiniciar o Apache.</strong> Execute o seguinte comando:</p>
-<figure class="highlight gradle"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">sudo <span class="regexp">/etc/i</span>nit.d<span class="regexp">/apache2 restart</span></span><br></pre></td></tr></table></figure>
-<p>Alguns componentes importantes para seus estudos e para desenvolvimento também:</p>
-<h4 id="XDebug">XDebug</h4><figure class="highlight actionscript"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">sudo apt-<span class="keyword">get</span> install php5-xdebug</span><br></pre></td></tr></table></figure>
-<h4 id="PHPMyAdmin">PHPMyAdmin</h4><figure class="highlight actionscript"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">sudo apt-<span class="keyword">get</span> install -y phpmyadmin</span><br></pre></td></tr></table></figure>
-<p>Se, depois desse passo a passo, você quiser conferir se o servidor está funcionando execute o comando:</p>
-<figure class="highlight nginx"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="title">netstat</span> -tap</span><br></pre></td></tr></table></figure>
-<p>Surgirá uma saída parecida com essa no seu terminal:</p>
-<figure class="highlight cpp"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">tcp <span class="number">0</span> <span class="number">0</span> *:mysql *:* LISTEN <span class="number">3281</span>/mysqld</span><br></pre></td></tr></table></figure>
-<p>Beleza chefe, tudo instalado e agora como eu crio aplicações dentro do meu ambiente LAMP?</p>
-<p>Suas aplicações devem ficar dentro da pasta  /var/www/ e para criação de um banco de dados acesse localhost/phpmyadmin ou execute o MySQL via linha de comando. Pronto! Para acessar suas aplicações ou sites no navegador basta digitar localhost. Normalmente, o Apache estará configurado para acesso via porta 80 mesmo, caso você deseje utilizar outra porta basta editar o arquivo: <code>/etc/apache2/ports.conf</code></p>
-<p>E colocar a porta na linha Listen &lt;porta&gt;</p>
-<p>Depois configure o arquivo <code>/etc/apache2/sites-enabled/000-default</code></p>
-<p>Para o virtualhost que está executando:</p>
-<figure class="highlight crystal"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">&lt;<span class="constant">VirtualHost</span> *<span class="symbol">:porta&gt;</span></span><br></pre></td></tr></table></figure>
-<p>Faz um teste! Crie um arquivo na pasta /var/www com o seguinte conteúdo:</p>
-<figure class="highlight xml"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="php"><span class="preprocessor">&lt;?php</span></span><br><span class="line">phpinfo();</span><br><span class="line"><span class="preprocessor">?&gt;</span></span></span><br></pre></td></tr></table></figure>
-<p>E abra esse arquivo no seu navegador.</p>
-<p>Qualquer dúvida ou dica, coloque aqui nos comentários.</p>
+<p>Para instalar plugins no Sublime você já sabe que é pelo Package Control que instalamos anteriormente no Post de <a href="/posts/instalando-o-sublime-text-no-ubuntu/" title="Dicas de instalação e configuração do Sublime Text">configuração</a>.<br>Então pressione <strong>Ctrl + Shift +P</strong> e digite <strong>Install</strong>.<br>Vai aparecer uma lista com algumas opções, selecione <strong>Package Control: Install Package</strong>.<br>Agora é só digitar o nome do plugin, localizar na lista e selecionar ele.</p>
+<h2 id="Alguns_plugins_maneiros">Alguns plugins maneiros</h2><p><strong>Emmet</strong> - É um plugin que vai ajudar na codificação de HTML e CSS através de algumas expressões. Para conhecer todas as expressões é necessário dar uma olhada no <a href="http://emmet.io/" title="Emmet" target="_blank" rel="external">site do Plugin</a>.</p>
+<p><strong>Jquery Snippets</strong> - Alguns exemplos de códigos JQuery (Pra você não precisar ficar entrando no site para relembrar).</p>
+<p><strong>ColorHighlighter</strong> - Quando você clica em uma linha com nome de cor ou código hexadecimal, o plugn preenche o fundo da palavra com a cor específica.</p>
+<p><strong>HTML snipppets</strong> - Parecido com JQuery Snippet, porém trás códigos HTML.</p>
+<p><strong>BracketHighlighter</strong> - Destaca as chaves/tags/parênteses.</p>
+<p><strong>ColorPicker</strong> - Abre uma paleta de cores. No Linux e Windows usamos Ctrl + Shift + C no Mac CMD + Shift + C para abrir a paleta.</p>
+<p><strong>ClipboardHistory</strong> - Guarda uma lista dos seus Ctrl + C e digitando Ctrl + Alt + V é exibida essa lista.</p>
+<p><strong> JavaScript Next</strong> - Aplica Highlighting no código JS e ainda vem com os padrões do ES6!</p>
+<p><strong>AutoFileName</strong> - Auto completa os nomes dos arquivos e pastas que você for digitando.</p>
+<p><strong>FileDiffs</strong> - Compara arquivos com algum outro, com histórico no Clipboard ou modificados, mas não salvos.</p>
+<p>Eu uso alguns <strong>Highlighters</strong> também que são:</p>
+<p><strong>Less</strong>,<strong> Sass</strong>,<strong> Stylus</strong>,<strong> CSS3 </strong>e<strong> HTML5.</strong></p>
+<p>Se você digitar <strong>lorem</strong> e pressionar o <strong>Ctrl + Space</strong> (Ou o comando que for para autocompletar em seu Sublime) ele cria um bloco com um lorem ipsum.</p>
+<p>E tem muito mais! Só cuidado para não deixar seu editor uma carroça de tanto plugin. Instale somente os que você realmente utiliza e será feliz por muito tempo! ;D</p>
+<p>Você conhece algum outro plugin maneiro? Comenta ae.</p>
+<p>Referências:</p>
+<p><a href="http://css-tricks.com/sublime-text-front-end-developers/" target="_blank" rel="external">css-tricks.com/sublime-text-front-end-developers</a></p>
+<p><a href="http://martineau.tv/2014/07/sublime-text-for-front-end-development/" target="_blank" rel="external">martineau.tv/2014/07/sublime-text-for-front-end-development</a></p>
+<p><a href="https://github.com/kemayo/sublime-text-2-clipboard-history" target="_blank" rel="external">github.com/kemayo/sublime-text-2-clipboard-history</a></p>
+<p><a href="https://github.com/BoundInCode/AutoFileName" target="_blank" rel="external">github.com/BoundInCode/AutoFileName</a></p>
+<p><a href="https://github.com/colinta/SublimeFileDiffs" target="_blank" rel="external">github.com/colinta/SublimeFileDiffs</a></p>
 ]]></content>
     <summary type="html">
-    <![CDATA[Instalação do LAMP (Linux, Apache, MySQL e PHP)]]>
+    <![CDATA[Plugins do Sublime Text para Desenvolvimento Web Front End]]>
     
     </summary>
     
-      <category term="Apache" scheme="http://woliveiras.com.br/tags/Apache/"/>
+      <category term="Configuração Sublimetext" scheme="http://woliveiras.com.br/tags/Configuracao-Sublimetext/"/>
     
       <category term="Dicas" scheme="http://woliveiras.com.br/tags/Dicas/"/>
     
-      <category term="Linux" scheme="http://woliveiras.com.br/tags/Linux/"/>
+      <category term="Plugins" scheme="http://woliveiras.com.br/tags/Plugins/"/>
     
-      <category term="MySQL" scheme="http://woliveiras.com.br/tags/MySQL/"/>
+      <category term="Sublimetext" scheme="http://woliveiras.com.br/tags/Sublimetext/"/>
     
-      <category term="PHP" scheme="http://woliveiras.com.br/tags/PHP/"/>
+      <category term="Configuração Sublimetext" scheme="http://woliveiras.com.br/categories/Configuracao-Sublimetext/"/>
     
-      <category term="Ambiente" scheme="http://woliveiras.com.br/categories/Ambiente/"/>
+      <category term="Dicas" scheme="http://woliveiras.com.br/categories/Configuracao-Sublimetext/Dicas/"/>
     
-      <category term="Apache" scheme="http://woliveiras.com.br/categories/Ambiente/Apache/"/>
+      <category term="Sublimetext" scheme="http://woliveiras.com.br/categories/Configuracao-Sublimetext/Dicas/Sublimetext/"/>
     
-      <category term="Linux" scheme="http://woliveiras.com.br/categories/Ambiente/Apache/Linux/"/>
-    
-      <category term="MySQL" scheme="http://woliveiras.com.br/categories/Ambiente/Apache/Linux/MySQL/"/>
-    
-      <category term="PHP" scheme="http://woliveiras.com.br/categories/Ambiente/Apache/Linux/MySQL/PHP/"/>
+      <category term="Plugins" scheme="http://woliveiras.com.br/categories/Configuracao-Sublimetext/Dicas/Sublimetext/Plugins/"/>
     
   </entry>
   
