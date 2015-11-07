@@ -58,7 +58,7 @@
     <link href="http://woliveiras.com.br/posts/utilizando-versoes-antigas-do-nodejs/"/>
     <id>http://woliveiras.com.br/posts/utilizando-versoes-antigas-do-nodejs/</id>
     <published>2015-09-12T08:00:32.000Z</published>
-    <updated>2015-10-11T14:51:48.867Z</updated>
+    <updated>2015-11-07T11:30:04.719Z</updated>
     <content type="html"><![CDATA[<div class="shared-img"><br><img src="../..//public/images/nodejs.png" alt=""><br></div>
 
 <p>Se você, assim como eu, atualizou a versão do Node instalado em sua máquina para a versão <a href="https://nodejs.org/en/blog/release/v4.0.0/" title="Versão 4.0 do Nodejs" target="_blank" rel="external">4.0.0</a>, pode ser que algo pare de funcionar, como no meu caso o Hexo (<a href="http://woliveiras.com.br/posts/Migrando-de-Wordpress-para-Hexo/" title="Migrando de WordPress para Hexo">Que eu utilizo para esse Blog</a>). Porém não precisa se desesperar, além dos módulos logo se atualizarem para a nova versão, existe uma solução simples para esse tipo de problema.<a id="more"></a></p>
@@ -112,9 +112,7 @@
 </ul>
 ]]></content>
     <summary type="html">
-    <![CDATA[<div class="shared-img"><br><img src="../..//public/images/nodejs.png" alt=""><br></div>
-
-<p>Se você, assim como eu, atualizou a versão do Node instalado em sua máquina para a versão <a href="https://nodejs.org/en/blog/release/v4.0.0/" title="Versão 4.0 do Nodejs">4.0.0</a>, pode ser que algo pare de funcionar, como no meu caso o Hexo (<a href="http://woliveiras.com.br/posts/Migrando-de-Wordpress-para-Hexo/" title="Migrando de WordPress para Hexo">Que eu utilizo para esse Blog</a>). Porém não precisa se desesperar, além dos módulos logo se atualizarem para a nova versão, existe uma solução simples para esse tipo de problema.]]>
+    <![CDATA[Como utilizar mais de uma versão de Node na mesma máquina.]]>
     
     </summary>
     
@@ -141,7 +139,7 @@
     <link href="http://woliveiras.com.br/posts/twitter-bootstrap-bootstrap-do-jeito-certo/"/>
     <id>http://woliveiras.com.br/posts/twitter-bootstrap-bootstrap-do-jeito-certo/</id>
     <published>2015-09-09T01:00:00.000Z</published>
-    <updated>2015-09-09T01:38:48.155Z</updated>
+    <updated>2015-11-07T11:30:22.820Z</updated>
     <content type="html"><![CDATA[<p>Muita gente critica o uso do <a href="http://getbootstrap.com/" target="_blank" rel="external">Twitter Bootstrap</a> devido a nomenclatura de suas classes e aos muitos componentes que o framework possui.</p>
 <p>Dizem que as classes não são semanticas e que o peso do framework é desnecessário.</p>
 <p>Pois bem, <strong>você não precisa das classes col-md/lg/xs-xxx no seu HTML</strong> e para projetos pequenos (que você não usa todo o potencial do framework) você pode <strong>selecionar somente o que vai utilizar no projeto</strong>.<br>Maneiro né? Da uma olhada como faz…<br><a id="more"></a><br>Se você já conhece pré processadores, será fácil aprender essa forma de utilizar o BS (Bootstrap). Se não conhece é melhor dar uma estudada no Less (que é o mais fácil para iniciantes) ou no Sass para acompanhar essa dica e absorver melhor. Depois de aprender volte aqui e continue a leitura. ;)</p>
@@ -187,7 +185,7 @@
 <figure class="highlight css"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br></pre></td><td class="code"><pre><span class="line"><span class="class">.classe-que-recebe-o-grid</span> <span class="rules">&#123;</span><br><span class="line">  <span class="rule"><span class="attribute">position</span>:<span class="value"> relative</span></span>;</span><br><span class="line">  <span class="rule"><span class="attribute">min-height</span>:<span class="value"> <span class="number">1px</span></span></span>;</span><br><span class="line">  <span class="rule"><span class="attribute">padding-left</span>:<span class="value"> <span class="number">15px</span></span></span>;</span><br><span class="line">  <span class="rule"><span class="attribute">padding-right</span>:<span class="value"> <span class="number">15px</span></span></span>;</span><br><span class="line">&#125;</span></span><br><span class="line"><span class="at_rule">@<span class="keyword">media</span> (min-width: <span class="number">1200px</span>) </span>&#123;</span><br><span class="line">  <span class="class">.classe-que-recebe-o-grid</span> <span class="rules">&#123;</span><br><span class="line">    <span class="rule"><span class="attribute">float</span>:<span class="value"> left</span></span>;</span><br><span class="line">    <span class="rule"><span class="attribute">width</span>:<span class="value"> <span class="number">66.66666667%</span></span></span>;</span><br><span class="line">  &#125;</span></span><br><span class="line">&#125;</span><br><span class="line"><span class="at_rule">@<span class="keyword">media</span> (min-width: <span class="number">992px</span>) </span>&#123;</span><br><span class="line">  <span class="class">.classe-que-recebe-o-grid</span> <span class="rules">&#123;</span><br><span class="line">    <span class="rule"><span class="attribute">float</span>:<span class="value"> left</span></span>;</span><br><span class="line">    <span class="rule"><span class="attribute">width</span>:<span class="value"> <span class="number">66.66666667%</span></span></span>;</span><br><span class="line">  &#125;</span></span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
 <p>Quando tiver mais de um componente que recebe o mesmo grid você pode usar o conceito de agrupamento de CSS e colocar as duas classes para receber tal estilo:</p>
 <p>Less:</p>
-<figure class="highlight less"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line"><span class="class">.classe-que-recebe-o-grid</span>, </span><br><span class="line"><span class="class">.outra-classe-com-grid</span>&#123;</span><br><span class="line">  <span class="class">.make-lg-column</span>(<span class="number">8</span>);</span><br><span class="line">  <span class="class">.make-md-column</span>(<span class="number">8</span>);</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<figure class="highlight less"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line"><span class="class">.classe-que-recebe-o-grid</span>,</span><br><span class="line"><span class="class">.outra-classe-com-grid</span>&#123;</span><br><span class="line">  <span class="class">.make-lg-column</span>(<span class="number">8</span>);</span><br><span class="line">  <span class="class">.make-md-column</span>(<span class="number">8</span>);</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
 <p>Resultado:</p>
 <figure class="highlight css"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br></pre></td><td class="code"><pre><span class="line"><span class="class">.classe-que-recebe-o-grid</span>,</span><br><span class="line"><span class="class">.outra-classe-com-grid</span> <span class="rules">&#123;</span><br><span class="line">  <span class="rule"><span class="attribute">position</span>:<span class="value"> relative</span></span>;</span><br><span class="line">  <span class="rule"><span class="attribute">min-height</span>:<span class="value"> <span class="number">1px</span></span></span>;</span><br><span class="line">  <span class="rule"><span class="attribute">padding-left</span>:<span class="value"> <span class="number">15px</span></span></span>;</span><br><span class="line">  <span class="rule"><span class="attribute">padding-right</span>:<span class="value"> <span class="number">15px</span></span></span>;</span><br><span class="line">&#125;</span></span><br><span class="line"><span class="at_rule">@<span class="keyword">media</span> (min-width: <span class="number">1200px</span>) </span>&#123;</span><br><span class="line">  <span class="class">.classe-que-recebe-o-grid</span>,</span><br><span class="line">  <span class="class">.outra-classe-com-grid</span> <span class="rules">&#123;</span><br><span class="line">    <span class="rule"><span class="attribute">float</span>:<span class="value"> left</span></span>;</span><br><span class="line">    <span class="rule"><span class="attribute">width</span>:<span class="value"> <span class="number">66.66666667%</span></span></span>;</span><br><span class="line">  &#125;</span></span><br><span class="line">&#125;</span><br><span class="line"><span class="at_rule">@<span class="keyword">media</span> (min-width: <span class="number">992px</span>) </span>&#123;</span><br><span class="line">  <span class="class">.classe-que-recebe-o-grid</span>,</span><br><span class="line">  <span class="class">.outra-classe-com-grid</span> <span class="rules">&#123;</span><br><span class="line">    <span class="rule"><span class="attribute">float</span>:<span class="value"> left</span></span>;</span><br><span class="line">    <span class="rule"><span class="attribute">width</span>:<span class="value"> <span class="number">66.66666667%</span></span></span>;</span><br><span class="line">  &#125;</span></span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
 <p>Os nomes de arquivos e a forma que eu utilizo não são um padrão e você não é obrigado a seguir… Basta modificar da sua maneira e modificar na tarefa less no Gruntfile.</p>
@@ -195,7 +193,7 @@
 <p><a href="http://blog.rafamello.com/bootstrap-inteligente" title="Bootstrap Inteligente" target="_blank" rel="external">Bootstrap Inteligente - Rafa Mello</a></p>
 ]]></content>
     <summary type="html">
-    <![CDATA[Twitter Bootstrap é pesado? Twitter Bootstrap não é semântico? Será? Confira algumas dicas para usar o Twitter Bootstrap do jeito certo.]]>
+    <![CDATA[Twitter Bootstrap é pesado? Twitter Bootstrap não é semântico? Confira algumas dicas para usar o Twitter Bootstrap do jeito certo.]]>
     
     </summary>
     
@@ -220,7 +218,7 @@
     <link href="http://woliveiras.com.br/posts/Migrando-de-Wordpress-para-Hexo/"/>
     <id>http://woliveiras.com.br/posts/Migrando-de-Wordpress-para-Hexo/</id>
     <published>2015-08-05T02:53:41.000Z</published>
-    <updated>2015-08-14T10:05:27.789Z</updated>
+    <updated>2015-11-07T11:28:58.979Z</updated>
     <content type="html"><![CDATA[<p><div class="shared-img"><br><img src="../../public/images/hexo-logo.png" alt="Hexo Blog"><br></div>A um bom tempo sinto vontade de mudar meu Blog de WordPress para uma plataforma de  conteúdo estático, mas não achava nenhuma alternativa, pois que queria usar Nodejs. Por isso não fui para o, muito usado na comunidade, <a href="http://jekyllrb.com/" target="_blank" rel="external">Jekyll(Ruby)</a> , nem para o <a href="http://blog.getpelican.com/" target="_blank" rel="external">Pelican(Python &lt;3)</a>.<a id="more"></a><br>Em busca de uma alternativa encontrei o <a href="https://hexo.io" target="_blank" rel="external">Hexo</a> e, um pouco depois de eu conhecer essa plataforma, o <a href="http://blog.da2k.com.br/" target="_blank" rel="external">Daciuk</a> escreveu um <a href="http://blog.da2k.com.br/2014/01/05/hexo-criando-um-blog-ao-estilo-miojo/" target="_blank" rel="external">post</a> muito maneiro incentivando o seu uso. Foi então que eu decidi de vez usar essa plataforma!<br>Bora conhecer ela e como foi a migração de WordPress para Hexo?</p>
 <h3 id="Levantando_as_necessidades">Levantando as necessidades</h3><p>Antes de migrar nosso Blog(Ou o de um cliente) de uma plataforma para outra precisamos fazer um levantamento para que não tenha impacto negativo como perder os posts que já existem ou alguma funcionalidade importante aos leitores.<br>Minha primeira preocupação foi com os posts que eu já havia escrito, mas no próprio site do Hexo temos uma <a href="https://hexo.io/docs/migration.html" target="_blank" rel="external">solução para isso</a>.<br>As dicas sobre instalação do Hexo você encontra no Blog do <a href="http://blog.da2k.com.br/2014/01/05/hexo-criando-um-blog-ao-estilo-miojo/" target="_blank" rel="external">Daciuk</a> e no Blog do <a href="http://dwoond.github.io/Criando-seu-site-com-Hexo/" target="_blank" rel="external">Willian Santos</a>.</p>
 <h3 id="Como_escrever_os_posts">Como escrever os posts</h3><p>Os posts no Hexo funcionam como em qualquer outro gerador estático. Escrevemos em Markdown e a postagem é gerada em HTML.<br>Markdown não é difícil e podemos usar algumas ferramentas boas que auxiliam nisso como o <a href="http://pad.haroopress.com/" target="_blank" rel="external">Haroopad</a> ou o <a href="https://stackedit.io/editor#" target="_blank" rel="external">Stackedit</a>, mas o Hexo também tem uma espécie de wp-admin, basta instalar o <a href="https://github.com/jaredly/hexo-admin" target="_blank" rel="external">Hexo Admin</a> se você sente necessidade.</p>
@@ -244,7 +242,7 @@
 <p>Por enquanto é só isso. Logo menos vou postar mais sobre o Hexo e como está sendo meu dia-a-dia com ele. Se você já tem experiência com Hexo ou outros geradores e quer deixar sua opinião, comenta aí! ;)</p>
 ]]></content>
     <summary type="html">
-    <![CDATA[<p><div class="shared-img"><br><img src="../../public/images/hexo-logo.png" alt="Hexo Blog"><br></div>A um bom tempo sinto vontade de mudar meu Blog de WordPress para uma plataforma de  conteúdo estático, mas não achava nenhuma alternativa, pois que queria usar Nodejs. Por isso não fui para o, muito usado na comunidade, <a href="http://jekyllrb.com/">Jekyll(Ruby)</a> , nem para o <a href="http://blog.getpelican.com/">Pelican(Python &lt;3)</a>.]]>
+    <![CDATA[Migrar de WordPress para Hexo. Como migrar de WordPress para um gerador estático?]]>
     
     </summary>
     
@@ -265,7 +263,7 @@
     <link href="http://woliveiras.com.br/posts/frameworks-front-end/"/>
     <id>http://woliveiras.com.br/posts/frameworks-front-end/</id>
     <published>2015-03-05T00:18:46.000Z</published>
-    <updated>2015-10-11T12:49:37.123Z</updated>
+    <updated>2015-11-07T11:24:44.921Z</updated>
     <content type="html"><![CDATA[<p>Já parou pra pensar quantas vezes você repete o mesmo código durante o Desenvolvimento, seja Web, Mobile ou Desktop? Já pensou em padronizar o que você faz de alguma maneira?<br>E pra você que é Gerente de Projetos, Líder ou algo do tipo: Já pensou em poder adicionar um membro no seu grupo  e ele já saber como funciona o Desenvolvimento nessa equipe e conseguir ser produtivo desde o princípio?<br>Pois é, Frameworks servem para isso… Vem comigo que vou explicar melhor. ;)<a id="more"></a></p>
 <h2 id="O_que_são_Frameworks?">O que são Frameworks?</h2><p>Você pega aqueles códigos que se repetem entre os projetos, adiciona uma pitada de <a href="http://pt.wikipedia.org/wiki/Padr%C3%A3o_de_projeto_de_software" title="Wikipedia - Padrões de Projetos" target="_blank" rel="external">Padrões</a>, deixa conforme sua equipe precisa ou <a href="http://tableless.com.br/locaweb-style-como-iniciamos/" title="Locaweb Style - Framework Front End da Locaweb" target="_blank" rel="external">conforme sua empresa trabalha</a>, empacota tudo isso pra poder reutilizar depois e pronto, criou um Framework!<br>Só isso? Sim, só isso… Framework é uma ferramenta com os códigos, padrões, etc, que você consegue utilizar pra resolver problemas que se repetem ou mesmo pra iniciar projetos que vão possuir as mesmas características seja no Front, Back End ou mesmo para <a href="https://github.com/woliveiras/pastel" target="_blank" rel="external">Tooling(Ferramentas)</a>. Quando você utiliza um Framework como base, pode somente baixar ele, configurar ou instalar e seguir dali para as necessidades específicas de cada projeto. Isso mata muito tempo que você perderia fazendo algo que sabe que vai repetir no próximo trabalho.</p>
 <h2 id="Frameworks_são_bons_mesmo?">Frameworks são bons mesmo?</h2><p>Minha resposta é: São sim, mas eles dependem de você para não estragá-los.<br>Temos vários tipos de Frameworks pra todos os gostos e peculiaridades, porém nem sempre o mesmo que você usa para um projeto grande será interessante em um projeto pequeno. As vezes temos uma ferramenta específica só para coisas pequenas e outras só para coisas grandes.<br>Frameworks são muito bons pela praticidade em se iniciar um projeto com metade do trabalho já feito, claro, mas você tem de entender <a href="http://tableless.com.br/quando-utilizar-ou-nao-frameworks-css/" title="Quando utilizar (ou não) frameworks CSS - Talita Pagani" target="_blank" rel="external">quando utilizar e quando não utilizar</a>.<br>Temos o exemplo do <a href="http://getbootstrap.com/" title="Twitter Bootstrap" target="_blank" rel="external">Twitter Bootstrap</a> que está sendo muito utilizado na Web por esses tempos e tem gente que nem sabe utilizar o que a ferramenta lhe entrega e sai sobrepondo os estilos e deixando o projeto cada vez mais pesado ou importa todo o código do Framework sendo que só vai utilizar os Grids.</p>
@@ -282,7 +280,7 @@
 <h2 id="Bônus">Bônus</h2><p>Se você não conhece pré processadores, seria interessante aprender algum também. Recomendo essa leitura: <a href="http://blog.da2k.com.br/2015/02/15/escrevendo-css-com-stylus/" title="Escrevendo CSS com Stylus" target="_blank" rel="external">Escrevendo CSS com Stylus</a><br>Você conhece algum Framework Front End maneiro ou tem mais alguma dica sobre o assunto? Compartilha ae!</p>
 ]]></content>
     <summary type="html">
-    <![CDATA[<p>Já parou pra pensar quantas vezes você repete o mesmo código durante o Desenvolvimento, seja Web, Mobile ou Desktop? Já pensou em padronizar o que você faz de alguma maneira?<br>E pra você que é Gerente de Projetos, Líder ou algo do tipo: Já pensou em poder adicionar um membro no seu grupo  e ele já saber como funciona o Desenvolvimento nessa equipe e conseguir ser produtivo desde o princípio?<br>Pois é, Frameworks servem para isso… Vem comigo que vou explicar melhor. ;)]]>
+    <![CDATA[O que são Frameworks Front End? Quando usar um Framework?]]>
     
     </summary>
     
@@ -311,7 +309,7 @@
     <link href="http://woliveiras.com.br/posts/contribuindo-para-projetos-open-source-no-github-mesmo-sendo-iniciante/"/>
     <id>http://woliveiras.com.br/posts/contribuindo-para-projetos-open-source-no-github-mesmo-sendo-iniciante/</id>
     <published>2015-02-09T14:12:32.000Z</published>
-    <updated>2015-08-29T13:42:03.369Z</updated>
+    <updated>2015-11-07T11:21:15.919Z</updated>
     <content type="html"><![CDATA[<div class="shared-img"><br><img src="../../public/images/github.gif" alt=""><br></div>
 
 <p>Se você é iniciante já deve ter escutado: “Se quiser aprender mesmo tem de botar a mão na massa!”.<br>Sim! E eu concordo. A melhor maneira de aprender é estudando e praticando muuuuuito! Porém, nem sempre temos um projeto para iniciantes dando sopa na internet ou uma empresa que nos de a oportunidade de praticar lá e crescermos assim. Então uma ÓTIMA maneira de se praticar é auxiliando projetos no <a href="https://github.com/" title="Github" target="_blank" rel="external">Github</a>.<br>Ai você se pergunta: “Tá, mas se eu sou iniciante como eu consigo ajudar?”<br>Vamos nessa que vou tentar te ajudar.<a id="more"></a></p>
@@ -328,13 +326,21 @@
 <div class="video-container"><br><iframe width="420" height="315" src="https://www.youtube.com/embed/E8MPe6tCMo8" frameborder="0" allowfullscreen></iframe><br></div>
 ]]></content>
     <summary type="html">
-    <![CDATA[<div class="shared-img"><br><img src="../../public/images/github.gif" alt=""><br></div>
-
-<p>Se você é iniciante já deve ter escutado: “Se quiser aprender mesmo tem de botar a mão na massa!”.<br>Sim! E eu concordo. A melhor maneira de aprender é estudando e praticando muuuuuito! Porém, nem sempre temos um projeto para iniciantes dando sopa na internet ou uma empresa que nos de a oportunidade de praticar lá e crescermos assim. Então uma ÓTIMA maneira de se praticar é auxiliando projetos no <a href="https://github.com/" title="Github">Github</a>.<br>Ai você se pergunta: “Tá, mas se eu sou iniciante como eu consigo ajudar?”<br>Vamos nessa que vou tentar te ajudar.]]>
+    <![CDATA[Como um iniciante consegue contribuir no Github?]]>
     
     </summary>
     
+      <category term="Comunidade" scheme="http://woliveiras.com.br/tags/Comunidade/"/>
+    
+      <category term="Dicas" scheme="http://woliveiras.com.br/tags/Dicas/"/>
+    
+      <category term="Github" scheme="http://woliveiras.com.br/tags/Github/"/>
+    
       <category term="Dicas" scheme="http://woliveiras.com.br/categories/Dicas/"/>
+    
+      <category term="Github" scheme="http://woliveiras.com.br/categories/Dicas/Github/"/>
+    
+      <category term="Comunidade" scheme="http://woliveiras.com.br/categories/Dicas/Github/Comunidade/"/>
     
   </entry>
   
@@ -343,7 +349,7 @@
     <link href="http://woliveiras.com.br/posts/haroopad-um-editor-markdown-maneiro/"/>
     <id>http://woliveiras.com.br/posts/haroopad-um-editor-markdown-maneiro/</id>
     <published>2015-02-09T12:53:56.000Z</published>
-    <updated>2015-08-22T15:04:06.646Z</updated>
+    <updated>2015-11-07T11:27:29.462Z</updated>
     <content type="html"><![CDATA[<div class="shared-img"><br><img src="../..//public/images/Haroopad.png" alt=""><br></div>
 
 <p>Todo mundo que trabalha usando <a href="http://blog.da2k.com.br/2015/02/08/aprenda-markdown/" title="Aprenda Markdown" target="_blank" rel="external">Markdown</a> ou usa a linguagem somente para descrever seus repositórios no Github gosta de ter aquele preview maneiro que o <a href="http://25.io/mou/" title="Mou" target="_blank" rel="external">Mou</a> apresenta né? Pois é, mas o Mou não funciona em outras plataformas a não ser Apple. :( <strong>#chateado</strong></p>
@@ -369,9 +375,7 @@
 <p>&nbsp;</p>
 ]]></content>
     <summary type="html">
-    <![CDATA[<div class="shared-img"><br><img src="../..//public/images/Haroopad.png" alt=""><br></div>
-
-<p>Todo mundo que trabalha usando <a href="http://blog.da2k.com.br/2015/02/08/aprenda-markdown/" title="Aprenda Markdown">Markdown</a> ou usa a linguagem somente para descrever seus repositórios no Github gosta de ter aquele preview maneiro que o <a href="http://25.io/mou/" title="Mou">Mou</a> apresenta né? Pois é, mas o Mou não funciona em outras plataformas a não ser Apple. :( <strong>#chateado</strong></p>]]>
+    <![CDATA[Editor visual para Markdown. Escrevendo Markdown como no Word.]]>
     
     </summary>
     
@@ -394,7 +398,7 @@
     <link href="http://woliveiras.com.br/posts/como-detectar-o-dispositivo-que-acessa-seu-site/"/>
     <id>http://woliveiras.com.br/posts/como-detectar-o-dispositivo-que-acessa-seu-site/</id>
     <published>2015-02-03T18:47:41.000Z</published>
-    <updated>2015-10-11T12:50:01.225Z</updated>
+    <updated>2015-11-07T11:21:42.004Z</updated>
     <content type="html"><![CDATA[<p>Uma dica rápida para quem trabalha com diversos tipos de dispositivos!</p>
 <p>Dependendo do projeto em que você está trabalhando, pode chegar a necessidade de detectar qual é o tipo de dispositivo que está acessando o site/aplicação/sistema, etc. As vezes isso é feito para redirecionar o usuário para uma outra versão do projeto, as vezes simplesmente para ativar uma funcionalidade ou não.<a id="more"></a></p>
 <p>Isso pode ser feito de diversas maneiras e um site reuniu algumas formas de fazer isso com diferentes linguagens. Esse site é o <a href="http://detectmobilebrowsers.com/" title="Detect Mobile Browsers" target="_blank" rel="external">Detect Mobile Browsers</a>!</p>
@@ -402,14 +406,17 @@
 <p>Se você conhece algum outro jeito de executar essa ação, comenta ae pra compartilhar informação com a galera! :D</p>
 ]]></content>
     <summary type="html">
-    <![CDATA[<p>Uma dica rápida para quem trabalha com diversos tipos de dispositivos!</p>
-<p>Dependendo do projeto em que você está trabalhando, pode chegar a necessidade de detectar qual é o tipo de dispositivo que está acessando o site/aplicação/sistema, etc. As vezes isso é feito para redirecionar o usuário para uma outra versão do projeto, as vezes simplesmente para ativar uma funcionalidade ou não.]]>
+    <![CDATA[Como detectar o tipo de dispositivo que acessa seu site]]>
     
     </summary>
     
       <category term="Dicas" scheme="http://woliveiras.com.br/tags/Dicas/"/>
     
+      <category term="Mobile" scheme="http://woliveiras.com.br/tags/Mobile/"/>
+    
       <category term="Dicas" scheme="http://woliveiras.com.br/categories/Dicas/"/>
+    
+      <category term="Mobile" scheme="http://woliveiras.com.br/categories/Dicas/Mobile/"/>
     
   </entry>
   
@@ -418,7 +425,7 @@
     <link href="http://woliveiras.com.br/posts/aprenda-trabalhar-em-equipes/"/>
     <id>http://woliveiras.com.br/posts/aprenda-trabalhar-em-equipes/</id>
     <published>2015-01-30T08:00:51.000Z</published>
-    <updated>2015-08-07T02:09:47.026Z</updated>
+    <updated>2015-11-07T11:21:19.735Z</updated>
     <content type="html"><![CDATA[<p>Como eu disse em <a href="/posts/requisitos-para-vagas-front-end/" title="Sobre os requisitos para vagas de emprego Front End (E outras áreas também)">um post anterior</a>, você não vai trabalhar sozinho a vida toda. Chega uma hora em que é preciso trabalhar em equipes, interagir com outras pessoas e é necessário que você aprenda isso. Mesmo que você trabalhe em casa, vai precisar enviar seu projeto para outras pessoas.<br>Existem algumas boas medidas para conseguir trabalhar bem em grandes ou pequenas equipes…<a id="more"></a></p>
 <h2 id="Organização">Organização</h2><p>As pastas que você cria para organizar seu projeto devem possuir nomes que auxiliem a entender o que tem dentro. Não somente as pastas, os nomes dos arquivos também devem ter algum significado.<br>Não crie uma pasta com o nome <strong>scripts</strong> e coloque todos os .styl, .js, .html, .php, .rb, etc, ali dentro, mas crie uma organização ou siga alguma.<br>Isso serve até mesmo para que você se encontre mais fácil no seu projeto.<br>Trabalhar com outras pessoas não é a mesma coisa de ser criança e a mãe arrumar seu quarto… Você tem de se organizar e outras pessoas tem de entender sua organização.<br>Da uma olhada aqui no meu <a href="https://github.com/woliveiras/pastel" title="Pastel | um pequeno Boilerplate que eu criei para agilizar meus projetos" target="_blank" rel="external">Scaffold </a>e veja como eu organizei os arquivos - É um exemplo beeeem básico, mas da para ter uma noção…<br>A forma como escreve seu código também faz diferença e vou falar disso agora!</p>
 <h2 id="Comentários">Comentários</h2><p>Comente seu código. Daqui a 6 meses você não vai lembrar o que aquilo fazia, afinal você evolui - Ou só esquece mesmo. E assim como você não vai saber daqui a esse tempo, pessoas que pegarem seu código <strong>hoje</strong> podem demorar a entender o que ele faz se não estiver comentado.</p>
@@ -461,50 +468,11 @@
   </entry>
   
   <entry>
-    <title><![CDATA[Semântica HTML]]></title>
-    <link href="http://woliveiras.com.br/posts/semantica-html/"/>
-    <id>http://woliveiras.com.br/posts/semantica-html/</id>
-    <published>2015-01-29T12:00:25.000Z</published>
-    <updated>2015-08-22T15:05:40.924Z</updated>
-    <content type="html"><![CDATA[<div class="shared-img"><br><img src="../..//public/images/HTML.png" alt=""><br></div>
-
-<p>Quando estamos iniciando os estudos na área de Web aprendemos semântica e, as vezes, nem temos noção da importância disso. Aprendemos que cada tag HTML serve para alguma coisa: <strong>&lt;title&gt;</strong> para o título da página (Aquele que aparece na aba do navegador), <strong>&lt;p&gt;</strong> para parágrafos, <strong>&lt;h1,2,3,…&gt;</strong> para títulos do conteúdo, etc.<a id="more"></a><br>Porém, com o tempo, algumas pessoas param de utilizar essas tags e começam a bagunçar tudo! Usam o <strong>h1</strong> pra deixar um texto maior que o outro e não para o título em questão, usam várias tags <strong>p</strong> separando o conteúdo de uma lista em uma div com uma class <em>“list”</em>, por ai vai! Vira uma salada no HTML.<br>Isso é ruim tanto para quem vai ler seu código depois, quanto para buscadores e leitores de tela.</p>
-<h2 id="Qual_a_importância_da_semântica_no_HTML?">Qual a importância da semântica no HTML?</h2><p>A semântica será importante para que o seu conteúdo tenha sentido mesmo que não tenha nenhum estilo visual. Semântica é o significado da coisa! É graças a semântica que sua página vai indexar legal ou não nos buscadores. Não somente por isso, a semântica ajuda na <strong>acessibilidade</strong> de sua página ou aplicação - Ponto que eu acho mais importante.<br>O Crawler do Google não vai ver se sua página está bonitinha, mas vai ler seu HTML e indexar conforme o conteúdo esteja estruturado. Um leitor de tela também não vai ficar falando pra pessoa com necessidades especiais que determinado botão é uma lixeira ou um xiszinho vermelho, mas vai ler as tags e identificar o que você escreveu no atributo <strong>&lt;alt&gt;</strong> e falar para o usuário.<br>Faça um teste: Instale a extensão que eu indiquei <a href="/posts/extensoes-navegador-desenvolvimento-web/" title="Extensões do Navegador para Desenvolvimento Web">nesse artigo</a>, o <a href="https://chrome.google.com/webstore/detail/chromevox/kgejglhpjiefppelpmljglcjbhoiplfn" title="ChromeVox" target="_blank" rel="external">ChromeVox</a> e ative ela para que leia as páginas pra você. Da uma navegada em alguns sites por ai e veja se conseguiria entender de uma forma legal o que o leitor diz.<br>Esses foram só alguns dos tópicos que podemos levantar a respeito da importância da Semântica…</p>
-<h2 id="E_como_escrever_um_HTML_semântico?">E como escrever um HTML semântico?</h2><p>Não é difícil, basta você utilizar as tags para o que elas foram feitas.<br>O HTML serve para <a href="https://www.eventials.com/locaweb/diego-eis-a-semantica-do-html-5/" target="_blank" rel="external">organizar a informação</a>. Use pra isso.<br>Quando for estruturar um documento HTML, analise o Layout e identifique os elementos de conteúdo da interface.</p>
-<p><strong>O que é o que?</strong></p>
-<p>Faça a si perguntas desse tipo quando for estruturar: O que nessa tela se encaixa como um título(H1)? O que se encaixa como um subtítulo(H2)? Onde se encaixa como parágrafo? Como eu posso fazer para que uma pessoa que não enxerga saiba pra que serve esse botão vermelho?<br>Procure envolver o conteúdo com as tags corretas. Caso tenha dúvidas, procure na documentação, pesquise no Google.<br>Garanto que nada é mais recompensador que receber um elogio de um deficiente visual que consegue entender seu conteúdo sem dificuldades.<br>Alguns links úteis para entender sobre semântica:</p>
-<p><a href="http://www.uxdesign.blog.br/padroes-web/html5/entendo-a-estrutura-e-a-semantica-do-html5/" title="A estrutura e a semântica do HTML5" target="_blank" rel="external">A estrutura e a semântica do HTML5 - UXDesign Blog</a></p>
-<p><a href="http://pt.slideshare.net/diegoeis/a-verdadeira-semntica-do-html5" title="A verdadeira semântica do HTML" target="_blank" rel="external">A verdadeira semântica do HTML - Diego Eis</a></p>
-<p><a href="http://desenvolvimentoparaweb.com/html/microdata-api-schema-org-significado-html/" title="Microdata API e Schema.org: dando significado ao HTML" target="_blank" rel="external">Microdata - Desenvolvimento para Web</a></p>
-<p>Espero ter ajudado a entender um pouco mais sobre o assunto e, se você já conhecia e não praticava, te convencido a utilizar as tags da maneira correta! :D<br>Alguma dúvida, link sobre o assunto ou sugestão? Comenta ae!</p>
-]]></content>
-    <summary type="html">
-    <![CDATA[<div class="shared-img"><br><img src="../..//public/images/HTML.png" alt=""><br></div>
-
-<p>Quando estamos iniciando os estudos na área de Web aprendemos semântica e, as vezes, nem temos noção da importância disso. Aprendemos que cada tag HTML serve para alguma coisa: <strong>&lt;title&gt;</strong> para o título da página (Aquele que aparece na aba do navegador), <strong>&lt;p&gt;</strong> para parágrafos, <strong>&lt;h1,2,3,…&gt;</strong> para títulos do conteúdo, etc.]]>
-    
-    </summary>
-    
-      <category term="Boas práticas" scheme="http://woliveiras.com.br/tags/Boas-praticas/"/>
-    
-      <category term="Front End" scheme="http://woliveiras.com.br/tags/Front-End/"/>
-    
-      <category term="HTML" scheme="http://woliveiras.com.br/tags/HTML/"/>
-    
-      <category term="Boas práticas" scheme="http://woliveiras.com.br/categories/Boas-praticas/"/>
-    
-      <category term="Front End" scheme="http://woliveiras.com.br/categories/Boas-praticas/Front-End/"/>
-    
-      <category term="HTML" scheme="http://woliveiras.com.br/categories/Boas-praticas/Front-End/HTML/"/>
-    
-  </entry>
-  
-  <entry>
     <title><![CDATA[Utilizando o Trello para gerenciar Projetos]]></title>
     <link href="http://woliveiras.com.br/posts/gerenciar-projetos-com-trello/"/>
     <id>http://woliveiras.com.br/posts/gerenciar-projetos-com-trello/</id>
     <published>2015-01-28T02:00:07.000Z</published>
-    <updated>2015-08-22T15:00:47.929Z</updated>
+    <updated>2015-11-07T11:25:42.198Z</updated>
     <content type="html"><![CDATA[<div class="shared-img"><br><img src="../../public/images/Trello.png" alt="Trello"></div>
 
 <p>Seguindo a linha de postagens sobre <a href="/posts/como-ser-mais-produtivo/" title="Como ser mais produtivo">produtividade</a>, eu sou obrigado a falar dessa ferramenta que utilizo muito e curto demais! É com ele que eu gerencio até as postagens que eu escrevo aqui no Blog…</p>
@@ -540,10 +508,7 @@
 <p>E você tem mais alguma dica para utilização do Trello ou outras ferramentas? Comenta ai!</p>
 ]]></content>
     <summary type="html">
-    <![CDATA[<div class="shared-img"><br><img src="../../public/images/Trello.png" alt="Trello"></div>
-
-<p>Seguindo a linha de postagens sobre <a href="/posts/como-ser-mais-produtivo/" title="Como ser mais produtivo">produtividade</a>, eu sou obrigado a falar dessa ferramenta que utilizo muito e curto demais! É com ele que eu gerencio até as postagens que eu escrevo aqui no Blog…</p>
-<p>Se você precisa de uma ferramenta para ajudar a se organizar, o <a href="https://trello.com/" title="Trello">Trello</a> é uma das que atendem muito bem!]]>
+    <![CDATA[Como utilizar o Trello para gerenciar projetos de Software?]]>
     
     </summary>
     
@@ -566,7 +531,7 @@
     <link href="http://woliveiras.com.br/posts/como-alcancar-objetivos-rapidamente-nos-estudos/"/>
     <id>http://woliveiras.com.br/posts/como-alcancar-objetivos-rapidamente-nos-estudos/</id>
     <published>2015-01-27T07:00:32.000Z</published>
-    <updated>2015-10-11T12:50:40.162Z</updated>
+    <updated>2015-11-07T11:21:23.382Z</updated>
     <content type="html"><![CDATA[<p>Essa é mais uma dica sobre produtividade, porém agora é nos estudos.<br>Nós, Desenvolvedores, temos de estudar muito. Todo dia alguma ferramenta atualiza ou algo vira tendência e passa a ser usado no serviço e temos de aprender. E como fazer para aprender tudo isso sem ficar louco e de um jeito que consiga alcançar os objetivos mais rapidamente?<a id="more"></a><br>Se você não leu meu post anterior sobre produtividade da uma olhada <a href="/posts/como-ser-mais-produtivo/" title="Como ser mais produtivo?">aqui</a>.</p>
 <h2 id="Listas_de_novo">Listas de novo</h2><p>Eu aprendi que fazer listas para tudo é uma ótima maneira de você ter certeza que vai concluir algo. Parece que você se obriga a fazer aquilo e se apagar da lista sem concluir parece um pecado! No caso de estudos não é diferente.</p>
 <p><strong>Vamos ao passo a passo:</strong></p>
@@ -604,7 +569,7 @@
 <h3 id="Descanse…">Descanse…</h3><p>Entre um item e outro da lista, é necessário - Não obrigatório se você for um robô - que tire uma pausa. Dê um tempo para sua mente descansar. Se você se estressar demais, de nada vai adiantar essa lista.<br>Vai curtir um parque, dar um rolê, sei lá. É importante que, para você estudar bem, você mantenha sua mente e seu corpo saudáveis Você não é de ferro. - Pratique um esporte…<br>Essa dica serve para várias coisas, não somente para os estudos. Quando tiver alguma coisa que você não sabe por onde começar, tente usar essa técnica.<br>Se você curtiu, compartilhe o conteúdo! Se sabe alguma outra forma legal de estudar comenta aí! :D</p>
 ]]></content>
     <summary type="html">
-    <![CDATA[<p>Essa é mais uma dica sobre produtividade, porém agora é nos estudos.<br>Nós, Desenvolvedores, temos de estudar muito. Todo dia alguma ferramenta atualiza ou algo vira tendência e passa a ser usado no serviço e temos de aprender. E como fazer para aprender tudo isso sem ficar louco e de um jeito que consiga alcançar os objetivos mais rapidamente?]]>
+    <![CDATA[Como aprender mais rápido, como ser mais produtivo nos estudos.]]>
     
     </summary>
     
@@ -627,7 +592,7 @@
     <link href="http://woliveiras.com.br/posts/como-ser-mais-produtivo/"/>
     <id>http://woliveiras.com.br/posts/como-ser-mais-produtivo/</id>
     <published>2015-01-26T08:00:53.000Z</published>
-    <updated>2015-10-11T12:50:51.754Z</updated>
+    <updated>2015-11-07T11:21:52.158Z</updated>
     <content type="html"><![CDATA[<p>Uma das minhas grandes preocupações na vida é ser prdutivo! Eu gosto de fazer as coisas o mais rápido possível e estou sempre buscando maneiras de automatizar ou organizar as coisas de maneira que eu consiga cada vez mais produtividade.<a id="more"></a><br>Durante algum tempo fui testando várias abordagens e técnicas de produtividade. Técnicas que podem ser aplicadas no serviço, para estudos ou mesmo para cumprir tarefas do cotidiano(Como lembrar de pagar uma conta ou do que precisa comprar no mercado).<br>Segue algumas dicas do que melhor funcionou pra mim até agora.</p>
 <h2 id="Faça_listas">Faça listas</h2><p>Eu faço listas com as tarefas que tenho de cumprir e, de acordo com que termino a tarefa, a marco como concluída ou apago da lista.<br>Para isso utilizo um aplicativo que da pra usar tanto no PC, quanto no Celular: O <a href="https://www.wunderlist.com/pt/" title="Wunderlist" target="_blank" rel="external">Wunderlist</a>.<br>Nele eu separo o que é projeto pessoal, o que é projeto profissional e até o que eu estou estudando/planejo estudar por pastas e nessas pastas coloco os tópicos. De acordo com que vou concluindo, marco como concluído e pronto! A tarefa fica riscadinha e oculta na lista.</p>
 <p><strong>Como usar Wunderlist no serviço?</strong></p>
@@ -637,9 +602,11 @@
 <h2 id="Estipule_prazos_para_tudo">Estipule prazos para tudo</h2><p>Sim! Dê prazos para tudo. Isso vai te ajudar a saber se está indo bem ou não. Assim você consegue entender melhor quais são os motivos dos atrasos e quais são suas maiores dificuldades. Se você identificar que todas as tarefas estão atrasadas, então precisa encontrar quais delas fizeram as outras atrasarem e trabalhe em cima daquela dificuldade até que não tenha mais problemas com isso.<br>Uma dica é colocar nas listas o horário em que precisa terminar a tarefa. No Wunderlist eu faço isso colocando um <strong>lembrete</strong> para um determinado horário.<br>E você como tem feito para ser mais produtivo?</p>
 ]]></content>
     <summary type="html">
-    <![CDATA[<p>Uma das minhas grandes preocupações na vida é ser prdutivo! Eu gosto de fazer as coisas o mais rápido possível e estou sempre buscando maneiras de automatizar ou organizar as coisas de maneira que eu consiga cada vez mais produtividade.]]>
+    <![CDATA[Como ser mais produtivo? Como organizar a vida para alcançar os objetivos mais rapidamente?]]>
     
     </summary>
+    
+      <category term="Dicas" scheme="http://woliveiras.com.br/tags/Dicas/"/>
     
       <category term="Produtividade" scheme="http://woliveiras.com.br/tags/Produtividade/"/>
     
@@ -654,7 +621,7 @@
     <link href="http://woliveiras.com.br/posts/requisitos-para-vagas-front-end/"/>
     <id>http://woliveiras.com.br/posts/requisitos-para-vagas-front-end/</id>
     <published>2015-01-23T10:00:19.000Z</published>
-    <updated>2015-11-07T11:10:47.145Z</updated>
+    <updated>2015-11-07T11:18:19.663Z</updated>
     <content type="html"><![CDATA[<p>Quantas vezes não nos deparamos com as seguintes dúvidas:</p>
 <ul>
 <li>Será que estou pronto para o mercado de trabalho?_</li>
@@ -676,12 +643,7 @@
 <h5 id="E_se_eu_não_passar_na_entrevista?">E se eu não passar na entrevista?</h5><p>A vida continua… Continue estudando, continue buscando, continue treinando e nunca desista do seu sonho!</p>
 ]]></content>
     <summary type="html">
-    <![CDATA[<p>Quantas vezes não nos deparamos com as seguintes dúvidas:</p>
-<ul>
-<li>Será que estou pronto para o mercado de trabalho?_</li>
-<li>Será que eu sei o suficiente para encarar aquela oportunidade em determinada empresa?</li>
-</ul>
-<p>Sei que não são poucas vezes… E, por mais que nos preparemos muito, sempre ficam essas perguntas no ar…]]>
+    <![CDATA[Quais são os requisitos para vagas de desenvolvedor/programador?]]>
     
     </summary>
     
@@ -708,7 +670,7 @@
     <link href="http://woliveiras.com.br/posts/extensoes-navegador-desenvolvimento-web/"/>
     <id>http://woliveiras.com.br/posts/extensoes-navegador-desenvolvimento-web/</id>
     <published>2015-01-22T13:00:31.000Z</published>
-    <updated>2015-08-07T10:48:46.643Z</updated>
+    <updated>2015-11-07T11:24:26.221Z</updated>
     <content type="html"><![CDATA[<p>Sou fã de produtividade e, por isso, utilizo várias ferramentas que me auxiliam a ser mais produtivo - Vou citar outras em futuras postagens ;). Algumas delas são extensões para o Navegador, no meu caso o Chrome/Firefox, que eu uso o tempo todo para testes. Nesse post vou citar algumas extensões muito boas para desenvolvimento Front End<a id="more"></a></p>
 <p><em>Para instalar alguma você pode clicar direto no sub-título e será direcionado para a Chrome Web Store. Se você estiver utilizando o Firefox, só pesquisar o nome dela no menu de instalação de Addons.</em></p>
 <h5 id="Web_Developer"><a href="https://chrome.google.com/webstore/detail/web-developer/bfbameneiokkgbdmiekhjnmfkcnldhhm" title="Web Developer" target="_blank" rel="external">Web Developer</a></h5><p>Essa extensão é monstra! Tem muita funcionalidade útil reunida em uma única ferramenta. Ao instalar essa extensão vá abrindo cada abinha e vendo do que ela é capaz, você vai pirar! Ela funciona no Chrome e no Firefox. Em outros navegadores eu não testei.</p>
@@ -736,7 +698,7 @@
 <p>E se você clicar em <strong>Info</strong> vai ver um relatório gigante sobre como deixar a página filé!<br>E você utiliza alguma outra extensão maneira? Comenta ai!</p>
 ]]></content>
     <summary type="html">
-    <![CDATA[<p>Sou fã de produtividade e, por isso, utilizo várias ferramentas que me auxiliam a ser mais produtivo - Vou citar outras em futuras postagens ;). Algumas delas são extensões para o Navegador, no meu caso o Chrome/Firefox, que eu uso o tempo todo para testes. Nesse post vou citar algumas extensões muito boas para desenvolvimento Front End]]>
+    <![CDATA[Extensões do Navegador para Desenvolvimento Front End]]>
     
     </summary>
     
@@ -746,13 +708,19 @@
     
       <category term="Extensões" scheme="http://woliveiras.com.br/tags/Extensoes/"/>
     
+      <category term="Front End" scheme="http://woliveiras.com.br/tags/Front-End/"/>
+    
       <category term="Navegador" scheme="http://woliveiras.com.br/tags/Navegador/"/>
     
       <category term="Ambiente" scheme="http://woliveiras.com.br/categories/Ambiente/"/>
     
       <category term="Dicas" scheme="http://woliveiras.com.br/categories/Ambiente/Dicas/"/>
     
-      <category term="Front End" scheme="http://woliveiras.com.br/categories/Ambiente/Dicas/Front-End/"/>
+      <category term="Extensões" scheme="http://woliveiras.com.br/categories/Ambiente/Dicas/Extensoes/"/>
+    
+      <category term="Navegador" scheme="http://woliveiras.com.br/categories/Ambiente/Dicas/Extensoes/Navegador/"/>
+    
+      <category term="Front End" scheme="http://woliveiras.com.br/categories/Ambiente/Dicas/Extensoes/Navegador/Front-End/"/>
     
   </entry>
   
@@ -761,7 +729,7 @@
     <link href="http://woliveiras.com.br/posts/como-deixar-o-ubuntu-mais-rapido/"/>
     <id>http://woliveiras.com.br/posts/como-deixar-o-ubuntu-mais-rapido/</id>
     <published>2015-01-19T07:00:19.000Z</published>
-    <updated>2015-09-20T20:23:22.222Z</updated>
+    <updated>2015-11-07T11:21:33.687Z</updated>
     <content type="html"><![CDATA[<div class="shared-img"><br><img src="../..//public/images/ubuntu.png" alt=""><br></div>
 
 <p>Sou fã de Linux, e deixei bem claro <a href="/posts/meu-contato-com-o-linux-e-por-que-voce-deveria-testar/" title="Meu contato com o Linux e por que você deveria testar">nesse post</a>. Atualmente estou usando o Ubuntu e muita gente tem reclamado da performance do Unity. Eu, sinceramente, detestei o Unity quando lançado e não estou gostando do rumo “Windows 8 Metro” que ele tem tomado. O pessoal quer transformar o Sistema que uso no PC o mesmo que eu vou usar no Celular e isso não tem me agradado - Porém isso é papo para outra hora. Vamos ao foco que é melhorar a velocidade do Ubuntu.<a id="more"></a><br>Minha máquina, hoje em dia, não é nem um pouco robusta - Core i3 de 3.2, 4 GB de memória, HD SATA 3 - e o primeiro PC que eu tive com Ubuntu também não era. Porém, na época era o Ubuntu 10.04, então rodava lisinho!<br>Para melhorar a velocidade do danado eu fiz as seguintes configurações(Todos os softwares podem ser instalados via Terminal ou pesquisando pelo nome deles na Central de Programas, mas aqui eu só deixei o comando. Pode fazer como você achar melhor. ;D)</p>
@@ -807,9 +775,7 @@
 <p>E você tem alguma dica para melhorar ou personalizar mais as distros? Comenta ae! :D</p>
 ]]></content>
     <summary type="html">
-    <![CDATA[<div class="shared-img"><br><img src="../..//public/images/ubuntu.png" alt=""><br></div>
-
-<p>Sou fã de Linux, e deixei bem claro <a href="/posts/meu-contato-com-o-linux-e-por-que-voce-deveria-testar/" title="Meu contato com o Linux e por que você deveria testar">nesse post</a>. Atualmente estou usando o Ubuntu e muita gente tem reclamado da performance do Unity. Eu, sinceramente, detestei o Unity quando lançado e não estou gostando do rumo “Windows 8 Metro” que ele tem tomado. O pessoal quer transformar o Sistema que uso no PC o mesmo que eu vou usar no Celular e isso não tem me agradado - Porém isso é papo para outra hora. Vamos ao foco que é melhorar a velocidade do Ubuntu.]]>
+    <![CDATA[Como deixar o Ubuntu mais rápido mesmo com Unity]]>
     
     </summary>
     
@@ -819,9 +785,11 @@
     
       <category term="Linux" scheme="http://woliveiras.com.br/tags/Linux/"/>
     
-      <category term="Dicas" scheme="http://woliveiras.com.br/categories/Dicas/"/>
+      <category term="Ambiente" scheme="http://woliveiras.com.br/categories/Ambiente/"/>
     
-      <category term="Linux" scheme="http://woliveiras.com.br/categories/Dicas/Linux/"/>
+      <category term="Dicas" scheme="http://woliveiras.com.br/categories/Ambiente/Dicas/"/>
+    
+      <category term="Linux" scheme="http://woliveiras.com.br/categories/Ambiente/Dicas/Linux/"/>
     
   </entry>
   
@@ -830,7 +798,7 @@
     <link href="http://woliveiras.com.br/posts/meu-contato-com-o-linux-e-por-que-voce-deveria-testar/"/>
     <id>http://woliveiras.com.br/posts/meu-contato-com-o-linux-e-por-que-voce-deveria-testar/</id>
     <published>2015-01-16T12:10:25.000Z</published>
-    <updated>2015-08-22T13:49:35.364Z</updated>
+    <updated>2015-11-07T11:28:24.912Z</updated>
     <content type="html"><![CDATA[<div class="shared-img"><br><img src="../../public/images/linux-icon.png" alt="Linux"><br></div>
 
 <p>Depois de ler o artigo do Daciuk sobre <a href="http://blog.da2k.com.br/2015/01/15/como-ser-um-dev-frontend-usando-linux/" title="Como ser um dev frontend usando Linux" target="_blank" rel="external">Como ser um dev frontend usando Linux</a>, decidi comentar como foi minha experiência no mundo Linux.</p>
@@ -858,10 +826,7 @@
 <p><strong>Seja Livre, use Linux! :D</strong></p>
 ]]></content>
     <summary type="html">
-    <![CDATA[<div class="shared-img"><br><img src="../../public/images/linux-icon.png" alt="Linux"><br></div>
-
-<p>Depois de ler o artigo do Daciuk sobre <a href="http://blog.da2k.com.br/2015/01/15/como-ser-um-dev-frontend-usando-linux/" title="Como ser um dev frontend usando Linux">Como ser um dev frontend usando Linux</a>, decidi comentar como foi minha experiência no mundo Linux.</p>
-<p>Minha história com <a href="http://pt.wikipedia.org/wiki/Linux" title="O que é Linux">Linux</a> começou quando eu conheci o <a href="http://pt.wikipedia.org/wiki/Kurumin" title="Kurumin">Kurumin Linux</a> - Sim, eu sou tiozinho com esse S.O. cara. Na época eu trabalhava com Infraestrutura e fazia manutenção de micros. Acabei lendo em algum lugar que eu precisaria manjar de Linux para ser um profissional mais completo. Pois bem… Eu fui aprender sobre o danado!]]>
+    <![CDATA[Por que usar Linux? Como começar com Linux?]]>
     
     </summary>
     
@@ -884,7 +849,7 @@
     <link href="http://woliveiras.com.br/posts/css-reset-de-varias-maneiras/"/>
     <id>http://woliveiras.com.br/posts/css-reset-de-varias-maneiras/</id>
     <published>2015-01-15T12:00:20.000Z</published>
-    <updated>2015-10-11T12:50:20.329Z</updated>
+    <updated>2015-11-07T11:23:14.475Z</updated>
     <content type="html"><![CDATA[<p>Todo elemento HTML tem um estilo padrão que é injetado pelo Browser. O legal é que não existe um padrão entre eles. O Chrome tem seu estilo, o Firefox tem o dele, o Safari e Opera também… <a id="more"></a></p>
 <p>Isso pode gerar incompatibilidade com o CSS que você escreve. As vezes você coloca um espaço aqui, outro ali e quando abre no IE vê que está tudo bagunçado!</p>
 <p>O CSS Reset é uma técnica que serve para evitar esse problema. Você remove ou seta valores para as propriedades dos elementos conforme necessário. Existem várias formas de se fazer um CSS Reset. Vou citar algumas que eu já utilizei.</p>
@@ -900,7 +865,7 @@
 <p>Lembre-se sempre que o Reset vem antes dos estilos que você vai aplicar na interface.</p>
 ]]></content>
     <summary type="html">
-    <![CDATA[<p>Todo elemento HTML tem um estilo padrão que é injetado pelo Browser. O legal é que não existe um padrão entre eles. O Chrome tem seu estilo, o Firefox tem o dele, o Safari e Opera também…]]>
+    <![CDATA[Criando seu CSS Reset]]>
     
     </summary>
     
@@ -921,7 +886,7 @@
     <link href="http://woliveiras.com.br/posts/freelancer-quanto-cobrar-pelo-freelance/"/>
     <id>http://woliveiras.com.br/posts/freelancer-quanto-cobrar-pelo-freelance/</id>
     <published>2015-01-12T10:33:25.000Z</published>
-    <updated>2015-08-22T14:33:14.399Z</updated>
+    <updated>2015-11-07T11:25:18.889Z</updated>
     <content type="html"><![CDATA[<div class="shared-img"><img src="../../public/images/money.jpg" alt="saco de money"></div>
 
 <p>Muita gente, iniciante ou não, tem dúvidas de quanto cobrar por um Freelance…</p>
@@ -951,11 +916,7 @@
 <p>É interessante nessa etapa você conhecer o Scrum, pois pode cobrar por Sprint entregue.</p>
 ]]></content>
     <summary type="html">
-    <![CDATA[<div class="shared-img"><img src="../../public/images/money.jpg" alt="saco de money"></div>
-
-<p>Muita gente, iniciante ou não, tem dúvidas de quanto cobrar por um Freelance…</p>
-<p>A resposta é:<br>Não existe um valor padrão para o Freela!</p>
-<p>Seja projeto pequeno ou grande, que demanda muito tempo ou pouco. É tudo muito variável…<br>Você tem de calcular quanto tempo vai demorar, quanto vai custar sua hora e por ai vai, mas relaxa, vou tentar ajudar aqui.]]>
+    <![CDATA[Quanto cobrar por um Freelance ou quanto cobrar pela minha hora?]]>
     
     </summary>
     
@@ -967,6 +928,10 @@
     
       <category term="Dicas" scheme="http://woliveiras.com.br/categories/Dicas/"/>
     
+      <category term="Freela" scheme="http://woliveiras.com.br/categories/Dicas/Freela/"/>
+    
+      <category term="Freelance" scheme="http://woliveiras.com.br/categories/Dicas/Freela/Freelance/"/>
+    
   </entry>
   
   <entry>
@@ -974,7 +939,7 @@
     <link href="http://woliveiras.com.br/posts/grunt-automatizando-tarefas/"/>
     <id>http://woliveiras.com.br/posts/grunt-automatizando-tarefas/</id>
     <published>2014-12-19T01:34:45.000Z</published>
-    <updated>2015-09-20T14:13:55.831Z</updated>
+    <updated>2015-11-07T11:25:55.327Z</updated>
     <content type="html"><![CDATA[<p>Todo processo de desenvolvimento possui algumas tarefas repetitivas como testes, minificação de arquivos, concatenação de arquivos para conseguir modularizar algo, etc.<a id="more"></a></p>
 <h3 id="O_que_é_o_Grunt?">O que é o Grunt?</h3><p>O Grunt é um automatizador de tarefas. Você configura de acordo com o seu <a href="https://pt.wikipedia.org/wiki/Fluxo_de_trabalho" title="Fluxo de trabalho" target="_blank" rel="external">Workflow</a> e deixa ele fazendo essas tarefas repetificas para você. <a href="http://gruntjs.com/" title="Gruntjs" target="_blank" rel="external">Mais detalhes sobre o Gruntjs aqui.</a>.</p>
 <h3 id="Instalação">Instalação</h3><p>Será necessário possuir o Node.js e o NPM instalados em sua máquina. Se não possuir o Nodejs instalado eu recomendo seguir esse tutorial para instalar com o NVM, um <a href="https://pt.wikipedia.org/wiki/Wrapper" title="O que é um Wrapper" target="_blank" rel="external">wrapper</a> para a instalação do Node com separação de versões, parecido com o <a href="https://virtualenv.pypa.io" title="Virtualenv Python" target="_blank" rel="external">Virtualenv</a>.</p>
@@ -994,11 +959,11 @@
 <figure class="highlight q"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">npm install grunt --<span class="built_in">save</span>-<span class="built_in">dev</span></span><br></pre></td></tr></table></figure>
 <h4 id="Gruntfile-js">Gruntfile.js</h4><p>Depois disso, temos tudo pronto para começar a baixar os plugins e configurar o Grunt para rodar eles. A configuração das tarefas do Grunt ficam no arquivo <strong>Gruntfile.js</strong> e você pode criar ele, também, no <del>Sublime</del> seu editor favorito ou com o comando <strong>grunt init</strong>.</p>
 <p>Um exemplo de configuração básica do arquivo é o seguinte:</p>
-<figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br></pre></td><td class="code"><pre><span class="line"><span class="built_in">module</span>.exports = <span class="function"><span class="keyword">function</span>(<span class="params">grunt</span>) </span>&#123; </span><br><span class="line"><span class="comment">// Configuração do Projeto</span></span><br><span class="line">grunt.initConfig(&#123; </span><br><span class="line">    pkg: grunt.file.readJSON(<span class="string">'package.json'</span>), </span><br><span class="line">    uglify: &#123; </span><br><span class="line">      options: &#123; </span><br><span class="line">        banner: <span class="string">'/*! &amp;lt;%= pkg.name %&amp;gt; &amp;lt;%= grunt.template.today("yyyy-mm-dd") %&amp;gt; */\n'</span></span><br><span class="line">      &#125;, </span><br><span class="line">    build: &#123; </span><br><span class="line">      src: <span class="string">'src/&amp;lt;%= pkg.name %&amp;gt;.js'</span>, </span><br><span class="line">      dest: <span class="string">'build/&amp;lt;%= pkg.name %&amp;gt;.min.js'</span></span><br><span class="line">    &#125;</span><br><span class="line"> &#125; </span><br><span class="line">&#125;); </span><br><span class="line"></span><br><span class="line"><span class="comment">// Carrega o Plugin para executar a tarefa "uglify"</span></span><br><span class="line">grunt.loadNpmTasks(<span class="string">'grunt-contrib-uglify'</span>); </span><br><span class="line"></span><br><span class="line"><span class="comment">// Tarefas</span></span><br><span class="line">grunt.registerTask(<span class="string">'default'</span>, [<span class="string">'uglify'</span>]); </span><br><span class="line"></span><br><span class="line">&#125;;</span><br></pre></td></tr></table></figure>
+<figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br></pre></td><td class="code"><pre><span class="line"><span class="built_in">module</span>.exports = <span class="function"><span class="keyword">function</span>(<span class="params">grunt</span>) </span>&#123;</span><br><span class="line"><span class="comment">// Configuração do Projeto</span></span><br><span class="line">grunt.initConfig(&#123;</span><br><span class="line">    pkg: grunt.file.readJSON(<span class="string">'package.json'</span>),</span><br><span class="line">    uglify: &#123;</span><br><span class="line">      options: &#123;</span><br><span class="line">        banner: <span class="string">'/*! &amp;lt;%= pkg.name %&amp;gt; &amp;lt;%= grunt.template.today("yyyy-mm-dd") %&amp;gt; */\n'</span></span><br><span class="line">      &#125;,</span><br><span class="line">    build: &#123;</span><br><span class="line">      src: <span class="string">'src/&amp;lt;%= pkg.name %&amp;gt;.js'</span>,</span><br><span class="line">      dest: <span class="string">'build/&amp;lt;%= pkg.name %&amp;gt;.min.js'</span></span><br><span class="line">    &#125;</span><br><span class="line"> &#125;</span><br><span class="line">&#125;);</span><br><span class="line"></span><br><span class="line"><span class="comment">// Carrega o Plugin para executar a tarefa "uglify"</span></span><br><span class="line">grunt.loadNpmTasks(<span class="string">'grunt-contrib-uglify'</span>);</span><br><span class="line"></span><br><span class="line"><span class="comment">// Tarefas</span></span><br><span class="line">grunt.registerTask(<span class="string">'default'</span>, [<span class="string">'uglify'</span>]);</span><br><span class="line"></span><br><span class="line">&#125;;</span><br></pre></td></tr></table></figure>
 <p>A linha <strong>grunt.initConfig(config)</strong> especifica onde iniciam as configurações das tarefas.</p>
 <p>Todo plugin instalado, deve ser carregado, como mostrado na expressão: <strong>grunt.LoadNpmTask(‘grunt-contrib-uglify’);.</strong></p>
 <p>As tarefas que serão executadas com o comando <em>grunt (sem passar nenhum parâmetro)</em> no terminal são registradas como na expessão <strong>grunt.registerTask(‘default’, [‘uglify’]);</strong> onde foi configurado a tarefa <strong>‘default’</strong> (que é executada automaticamente com o comando grunt) que, nesse caso, chamou uma tarefa uglify, mas da para chamar várias ao mesmo tempo.</p>
-<p>Se você quisesse executar somente a tarefa uglify, poderia rodar o comando grunt com o parâmtro uglify: </p>
+<p>Se você quisesse executar somente a tarefa uglify, poderia rodar o comando grunt com o parâmtro uglify:</p>
 <figure class="highlight nginx"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="title">grunt</span> uglify</span><br></pre></td></tr></table></figure>
 <p>Se existisse outra tarefa com o nome <em>cssmin</em>, você executaria <em>grunt cssmin</em> ou configuraria a tarefa ‘default’ para chamar também a cssmin:</p>
 <figure class="highlight prolog"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="atom">grunt</span>.<span class="atom">registerTask</span>(<span class="string">'default'</span>, [<span class="string">'uglify'</span>, <span class="string">'cssmin'</span>]);</span><br></pre></td></tr></table></figure>
@@ -1017,7 +982,7 @@
 <p>Curtiu o Grunt? Comenta ai quais plugins está usando. Deixe sua contribuição para melhorar ainda mais nosso Workflow. ;)</p>
 ]]></content>
     <summary type="html">
-    <![CDATA[<p>Todo processo de desenvolvimento possui algumas tarefas repetitivas como testes, minificação de arquivos, concatenação de arquivos para conseguir modularizar algo, etc.]]>
+    <![CDATA[Automatizando tarefas com o Grunt]]>
     
     </summary>
     
@@ -1036,6 +1001,74 @@
       <category term="Front End" scheme="http://woliveiras.com.br/categories/Ambiente/Automatizacao/Front-End/"/>
     
       <category term="Grunt" scheme="http://woliveiras.com.br/categories/Ambiente/Automatizacao/Front-End/Grunt/"/>
+    
+  </entry>
+  
+  <entry>
+    <title><![CDATA[Instalação do ambiente LAMP]]></title>
+    <link href="http://woliveiras.com.br/posts/instalacao-ambiente-lamp/"/>
+    <id>http://woliveiras.com.br/posts/instalacao-ambiente-lamp/</id>
+    <published>2014-11-10T10:15:26.000Z</published>
+    <updated>2015-11-07T11:27:52.905Z</updated>
+    <content type="html"><![CDATA[<p>Apesar de muita gente estar migrando para o <a href="http://pt.wikipedia.org/wiki/Nginx" title="Nginx" target="_blank" rel="external">Nginx</a>, muitos começam os estudos em PHP usando <a href="http://pt.wikipedia.org/wiki/Servidor_Apache" title="Apache" target="_blank" rel="external">Apache</a>, <a href="http://pt.wikipedia.org/wiki/MySQL" title="MySQL" target="_blank" rel="external">MySQL</a> e <a href="http://pt.wikipedia.org/wiki/Linux" title="Linux" target="_blank" rel="external">Linux </a> no servidor de hospedagem ou localmente - Se você é usuário Windows, eu recomendo fortemente a utilização do <a href="http://woliveiras.com.br/tags/Vagrant/" title="Crie e compartilhe ambientes com o Vagrant (Instalação)">Vagrant</a> para que você use o Linux em uma VM e aprenda um pouco sobre o S.O. durante seus estudos. Isso fará diferença para você conhecer melhor seu próprio servidor de Hospedagem, já que a maioria é Linux.</p>
+<a id="more"></a>
+<p>Esse conjunto de itens é que recebe o nome de LAMP (<strong>L</strong> inux, <strong>A</strong> pache, <strong>M</strong> ySQL e <strong>P</strong> HP).</p>
+<p>Para esse tutorial eu estou utilizando um servidor <a href="http://www.ubuntu.com/download/server" title="Ubuntu Server" target="_blank" rel="external">Ubuntu Server</a>, portanto os comandos utilizados aqui servirão muito bem para você no Ubuntu ou no Debian e qualquer outro S.O. baseado no Debian.</p>
+<p>Antes de tudo, atualize seu repositório executando o comando:</p>
+<figure class="highlight q"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">sudo apt-<span class="built_in">get</span> <span class="keyword">update</span></span><br></pre></td></tr></table></figure>
+<p>No Debian, você pode ter alguma dificuldade com pacotes durante a instalação do PHP. Se isso acontecer atualize seu sources.list e nesse caso é melhor você pesquisar um padrão no Google, pois eu poderia passar algum link desatualizado dependendo da data em que você está lendo essa postagem. Basta pesquisar: sources.list Debian e já era! ;)</p>
+<h4 id="Instalação_do_MySQL">Instalação do MySQL</h4><p>Abra seu terminal e execute o seguinte comando:</p>
+<figure class="highlight axapta"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">sudo apt-get install mysql-<span class="keyword">client</span> mysql-<span class="keyword">server</span> mysql-<span class="keyword">common</span></span><br></pre></td></tr></table></figure>
+<p>Siga as telas que lhe surgirão. Durante a instalação será solicitado uma senha para o Usuário root. Se for uma instalação local, não precisa esquentar a cabeça com uma senha difícil, se for uma instalação remota, coloca uma senha boa ai mermão!!!</p>
+<h4 id="Instalação_do_Apache">Instalação do Apache</h4><p>Abra seu terminal e execute o seguinte comando:</p>
+<figure class="highlight actionscript"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">sudo apt-<span class="keyword">get</span> install -y apache2</span><br></pre></td></tr></table></figure>
+<p>Simples né? ;D</p>
+<h4 id="Instalação_do_PHP">Instalação do PHP</h4><p>Esse comando é grandinho por que possui algumas bibliotecas que eu uso para desenvolvimento com base no que eu já usei até hoje, portanto se você ver alguma que não deseja utilizar, basta remover dessa linha e executar.</p>
+<figure class="highlight vim"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">sudo apt-<span class="built_in">get</span> install -<span class="keyword">y</span> php5 libapache2-<span class="keyword">mod</span>-php5 php5-common php5-curl php5-dev php5-gd php5-idn</span><br><span class="line">php-pear php5-imagick php5-<span class="keyword">imap</span> php5-json php5-mcrypt php5-memcache php5-mhash php5-ming</span><br><span class="line">php5-mysql php5-<span class="keyword">ps</span> php5-pspell php5-recode php5-snmp php5-sqlite php5-tidy php5-xmlrpc php5-xsl</span><br></pre></td></tr></table></figure>
+<p>Depois dessa instalação é necessário<strong> reiniciar o Apache.</strong> Execute o seguinte comando:</p>
+<figure class="highlight gradle"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">sudo <span class="regexp">/etc/i</span>nit.d<span class="regexp">/apache2 restart</span></span><br></pre></td></tr></table></figure>
+<p>Alguns componentes importantes para seus estudos e para desenvolvimento também:</p>
+<h4 id="XDebug">XDebug</h4><figure class="highlight actionscript"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">sudo apt-<span class="keyword">get</span> install php5-xdebug</span><br></pre></td></tr></table></figure>
+<h4 id="PHPMyAdmin">PHPMyAdmin</h4><figure class="highlight actionscript"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">sudo apt-<span class="keyword">get</span> install -y phpmyadmin</span><br></pre></td></tr></table></figure>
+<p>Se, depois desse passo a passo, você quiser conferir se o servidor está funcionando execute o comando:</p>
+<figure class="highlight nginx"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="title">netstat</span> -tap</span><br></pre></td></tr></table></figure>
+<p>Surgirá uma saída parecida com essa no seu terminal:</p>
+<figure class="highlight cpp"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">tcp <span class="number">0</span> <span class="number">0</span> *:mysql *:* LISTEN <span class="number">3281</span>/mysqld</span><br></pre></td></tr></table></figure>
+<p>Beleza chefe, tudo instalado e agora como eu crio aplicações dentro do meu ambiente LAMP?</p>
+<p>Suas aplicações devem ficar dentro da pasta  /var/www/ e para criação de um banco de dados acesse localhost/phpmyadmin ou execute o MySQL via linha de comando. Pronto! Para acessar suas aplicações ou sites no navegador basta digitar localhost. Normalmente, o Apache estará configurado para acesso via porta 80 mesmo, caso você deseje utilizar outra porta basta editar o arquivo: <code>/etc/apache2/ports.conf</code></p>
+<p>E colocar a porta na linha Listen &lt;porta&gt;</p>
+<p>Depois configure o arquivo <code>/etc/apache2/sites-enabled/000-default</code></p>
+<p>Para o virtualhost que está executando:</p>
+<figure class="highlight crystal"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">&lt;<span class="constant">VirtualHost</span> *<span class="symbol">:porta&gt;</span></span><br></pre></td></tr></table></figure>
+<p>Faz um teste! Crie um arquivo na pasta /var/www com o seguinte conteúdo:</p>
+<figure class="highlight xml"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="php"><span class="preprocessor">&lt;?php</span></span><br><span class="line">phpinfo();</span><br><span class="line"><span class="preprocessor">?&gt;</span></span></span><br></pre></td></tr></table></figure>
+<p>E abra esse arquivo no seu navegador.</p>
+<p>Qualquer dúvida ou dica, coloque aqui nos comentários.</p>
+]]></content>
+    <summary type="html">
+    <![CDATA[Instalação do LAMP (Linux, Apache, MySQL e PHP)]]>
+    
+    </summary>
+    
+      <category term="Apache" scheme="http://woliveiras.com.br/tags/Apache/"/>
+    
+      <category term="Dicas" scheme="http://woliveiras.com.br/tags/Dicas/"/>
+    
+      <category term="Linux" scheme="http://woliveiras.com.br/tags/Linux/"/>
+    
+      <category term="MySQL" scheme="http://woliveiras.com.br/tags/MySQL/"/>
+    
+      <category term="PHP" scheme="http://woliveiras.com.br/tags/PHP/"/>
+    
+      <category term="Ambiente" scheme="http://woliveiras.com.br/categories/Ambiente/"/>
+    
+      <category term="Apache" scheme="http://woliveiras.com.br/categories/Ambiente/Apache/"/>
+    
+      <category term="Linux" scheme="http://woliveiras.com.br/categories/Ambiente/Apache/Linux/"/>
+    
+      <category term="MySQL" scheme="http://woliveiras.com.br/categories/Ambiente/Apache/Linux/MySQL/"/>
+    
+      <category term="PHP" scheme="http://woliveiras.com.br/categories/Ambiente/Apache/Linux/MySQL/PHP/"/>
     
   </entry>
   
