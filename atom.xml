@@ -588,6 +588,51 @@
   </entry>
   
   <entry>
+    <title><![CDATA[O que é linguagem de programação de alto/baixo nível?]]></title>
+    <link href="http://woliveiras.com.br/posts/o-que-e-linguagem-de-programacao-de-alto-nivel/"/>
+    <id>http://woliveiras.com.br/posts/o-que-e-linguagem-de-programacao-de-alto-nivel/</id>
+    <published>2015-01-27T03:51:01.000Z</published>
+    <updated>2015-12-03T01:47:25.547Z</updated>
+    <content type="html"><![CDATA[<p>Se você vem seguindo o mesmo <a href="http://woliveiras.com.br/posts/guia-de-estudos-desenvolvedor-front-end-iniciante">guia de estudos</a>, vai chegar uma hora em que vai partir pro JavaScript e mais cedo ou mais tarde vai se aprofundar ainda mais em programação e é aí que você ouve alguns termos meio confusos como esse:</p>
+<p><em>JavaScript é uma linguagem de programação de alto nível.</em></p>
+<p>Mas e dae? Quer dizer que ela é uma linguagem de programação da realeza? É uma princesa? Ou um princeso? O que significa isso? <a id="more"></a></p>
+<h2 id="Linguagem_de_alto_nível">Linguagem de alto nível</h2><p>Essas são aquelas cuja <a href="https://pt.wikipedia.org/wiki/Sintaxe" target="_blank" rel="external">sintaxe</a> se aproxima mais da nossa linguagem e se distanciam mais da linguagem de máquina.</p>
+<p>Elas possuem um nível de abstração que faz com que você entenda aquele código mais facilmente, pois foi removido da sintaxe o que você não precisa entender em um primeiro contato com programação ou pra quem nunca vai mexer com linguagens de baixo nível.</p>
+<p>Você não vai precisar conhecer coisas como <a href="http://pt.wikipedia.org/wiki/Registrador_%28inform%C3%A1tica%29" title="Registradores - Wikipedia" target="_blank" rel="external">registradores</a> ou <a href="http://pt.wikipedia.org/wiki/Instru%C3%A7%C3%A3o_%28inform%C3%A1tica%29" title="Instruções - Wikipedia" target="_blank" rel="external">instruções</a> do processador para conseguir fazer seu Hello World. - <em>Apesar que ninguém ensina isso antes de te mostrar o Hello World mesmo em linguagens de baixo nível né, mas deu pra entender a mensagem… ;)</em></p>
+<p>Alguns exemplos de linguagens de alto nível:</p>
+<ul>
+<li>JavaScript <strong>&lt;3 +++</strong></li>
+<li>Python <strong>&lt;3 +++</strong></li>
+<li>PHP <strong>&lt;3 ++</strong></li>
+<li>Ruby <strong>&lt;3 +</strong></li>
+</ul>
+<h2 id="E_a_linguagem_de_baixo_nível?">E a linguagem de baixo nível?</h2><p>É aquela que se aproxima mais da linguagem de máquina.</p>
+<p>Essas são as que você precisa ter o conhecimento direto da arquitetura do computador para fazer alguma coisa. Tem um pouquinho mais para conhecer sobre elas <a href="http://pt.wikipedia.org/wiki/Linguagem_de_programa%C3%A7%C3%A3o_de_baixo_n%C3%ADvel" title="Linguagem de programação de baixo nível - Wikipedia" target="_blank" rel="external">aqui</a>.</p>
+<h2 id="Qual_é_mais_difícil_de_se_trabalhar?">Qual é mais difícil de se trabalhar?</h2><p>Nenhuma.</p>
+<p>Ambas tem suas características e seus objetivos, então não tem qual é mais fácil ou difícil de se trabalhar.</p>
+<p>É a mesma coisa de ficar na briga de qual linguagem de programação é melhor ou qual S.O. é melhor. Não tem, não existe. <strong>Cada uma se aplica a um cenário/uma necessidade</strong>.</p>
+<p>Claro que um <strong>iniciante</strong>, só com lógica de programação, aprende a programar em uma linguagem de alto nível como Python, PHP, JS facilmente, porém ele vai sentir alguma dificuldade para uma de baixo nível. Mas não é nada que ele não se acostume ou que não aprenda com dedicação.</p>
+<p>Se você planeja aprender uma linguagem de baixo nível, vai sem medo. O que vai acontecer é você ter de pesquisar mais no Google se não tiver conhecimento da arquitetura.</p>
+<h2 id="Exemplos">Exemplos</h2><p>Pega esse Hello World em JS (Alto nível):<br><figure class="highlight autoit"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">console.<span class="built_in">log</span>(<span class="string">'Hello World!'</span>)<span class="comment">;</span></span><br></pre></td></tr></table></figure></p>
+<p>Agora em Assembly (Baixo nível):<br><figure class="highlight mojolicious"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br><span class="line">44</span><br><span class="line">45</span><br><span class="line">46</span><br><span class="line">47</span><br><span class="line">48</span><br><span class="line">49</span><br><span class="line">50</span><br><span class="line">51</span><br><span class="line">52</span><br></pre></td><td class="code"><pre><span class="line"><span class="xml"></span><span class="perl"><span class="variable">%ifdef</span>  NetBSD</span><span class="xml"></span><br><span class="line">section .note.netbsd.ident</span><br><span class="line">        dd      7,4,1</span><br><span class="line">        db      "NetBSD",0,0</span><br><span class="line">        dd      200000000       ; amd64 supported since 2.0</span><br><span class="line"></span><span class="perl"><span class="variable">%endif</span></span><span class="xml"></span><br><span class="line"></span><span class="perl"></span><br><span class="line"><span class="variable">%ifdef</span>  OpenBSD</span><span class="xml"></span><br><span class="line">section .note.openbsd.ident</span><br><span class="line">        align   2</span><br><span class="line">        dd      8,4,1</span><br><span class="line">        db      "OpenBSD",0</span><br><span class="line">        dd      0</span><br><span class="line">        align   2</span><br><span class="line"></span><span class="perl"><span class="variable">%endif</span></span><span class="xml"></span><br><span class="line"></span><br><span class="line">section .text</span><br><span class="line"></span><span class="perl"></span><br><span class="line"><span class="variable">%ifidn</span> __OUTPUT_FORMAT_<span class="number">_</span>, macho64       ; MacOS X</span><span class="xml"></span><br><span class="line"></span><span class="perl">        <span class="variable">%define</span> SYS_exit        <span class="number">0x2000001</span></span><span class="xml"></span><br><span class="line"></span><span class="perl">        <span class="variable">%define</span> SYS_write       <span class="number">0x2000004</span></span><span class="xml"></span><br><span class="line"></span><br><span class="line">        global  start</span><br><span class="line">        start:</span><br><span class="line"></span><span class="perl"><span class="variable">%elifidn</span> __OUTPUT_FORMAT_<span class="number">_</span>, elf64</span><span class="xml"></span><br><span class="line"></span><span class="perl">        <span class="variable">%ifdef</span>  UNIX            ; Solaris/OI/FreeBSD/NetBSD/OpenBSD/DragonFly</span><span class="xml"></span><br><span class="line"></span><span class="perl">                <span class="variable">%define</span> SYS_exit        <span class="number">1</span></span><span class="xml"></span><br><span class="line"></span><span class="perl">                <span class="variable">%define</span> SYS_write       <span class="number">4</span></span><span class="xml"></span><br><span class="line"></span><span class="perl">        <span class="variable">%else</span>                   ; Linux</span><span class="xml"></span><br><span class="line"></span><span class="perl">                <span class="variable">%define</span> SYS_exit        <span class="number">60</span></span><span class="xml"></span><br><span class="line"></span><span class="perl">                <span class="variable">%define</span> SYS_write       <span class="number">1</span></span><span class="xml"></span><br><span class="line"></span><span class="perl">        <span class="variable">%endif</span></span><span class="xml"></span><br><span class="line"></span><br><span class="line">        global  _start</span><br><span class="line">        _start:</span><br><span class="line"></span><span class="perl"><span class="variable">%else</span></span><span class="xml"></span><br><span class="line"></span><span class="perl">        <span class="variable">%error</span>  <span class="string">"Unsupported platform"</span></span><span class="xml"></span><br><span class="line"></span><span class="perl"><span class="variable">%endif</span></span><span class="xml"></span><br><span class="line"></span><br><span class="line">        mov     rax,SYS_write</span><br><span class="line">        mov     rdi,1           ; stdout</span><br><span class="line">        mov     rsi,msg</span><br><span class="line">        mov     rdx,len</span><br><span class="line">        syscall</span><br><span class="line">        mov     rax,SYS_exit</span><br><span class="line">        xor     rdi,rdi         ; exit code 0</span><br><span class="line">        syscall</span><br><span class="line"></span><br><span class="line">section .data</span><br><span class="line"></span><br><span class="line">msg     db      "Hello, world!",10</span><br><span class="line">len     equ     $-msg</span></span><br></pre></td></tr></table></figure></p>
+<p>Outros exemplos <a href="http://en.wikipedia.org/wiki/List_of_Hello_world_program_examples" title="Exemplos de hello world" target="_blank" rel="external">aqui ;)</a>.</p>
+]]></content>
+    <summary type="html">
+    <![CDATA[O que é uma linguagem de programação de alto nível? E linguagem de programação de baixo nível? Acompanhe...]]>
+    
+    </summary>
+    
+      <category term="Programação" scheme="http://woliveiras.com.br/tags/Programacao/"/>
+    
+      <category term="Teoria" scheme="http://woliveiras.com.br/tags/Teoria/"/>
+    
+      <category term="Programação" scheme="http://woliveiras.com.br/categories/Programacao/"/>
+    
+      <category term="Teoria" scheme="http://woliveiras.com.br/categories/Programacao/Teoria/"/>
+    
+  </entry>
+  
+  <entry>
     <title><![CDATA[Como ser mais produtivo?]]></title>
     <link href="http://woliveiras.com.br/posts/como-ser-mais-produtivo/"/>
     <id>http://woliveiras.com.br/posts/como-ser-mais-produtivo/</id>
@@ -997,62 +1042,6 @@
       <category term="Dicas" scheme="http://woliveiras.com.br/categories/Dicas/"/>
     
       <category term="Sublimetext" scheme="http://woliveiras.com.br/categories/Dicas/Sublimetext/"/>
-    
-  </entry>
-  
-  <entry>
-    <title><![CDATA[Plugins do Sublime Text para Desenvolvimento Web]]></title>
-    <link href="http://woliveiras.com.br/posts/plugins-sublime-text-para-desenvolvimento-web/"/>
-    <id>http://woliveiras.com.br/posts/plugins-sublime-text-para-desenvolvimento-web/</id>
-    <published>2015-01-10T21:23:31.000Z</published>
-    <updated>2015-11-07T12:15:32.870Z</updated>
-    <content type="html"><![CDATA[<div class="shared-img"><br><img src="../../public/images/sublime.png" alt="sublime text"><br></div>
-
-<p>Em meus posts anteriores eu deixei algumas dicas de <a href="/posts/instalando-o-sublime-text-no-ubuntu/" title="Dicas de instalação e configuração do Sublime Text">configuração</a> do Sublime e instalação no Ubuntu, <a href="/posts/usando-o-sublime-text/" title="Atalhos do Sublime">alguns atalhos legais</a>. Agora vou citar alguns plugins que eu utilizo no dia-a-dia para melhor aproveitar o editor.</p>
-<a id="more"></a>
-<p>Para instalar plugins no Sublime você já sabe que é pelo Package Control que instalamos anteriormente no Post de <a href="/posts/instalando-o-sublime-text-no-ubuntu/" title="Dicas de instalação e configuração do Sublime Text">configuração</a>.<br>Então pressione <strong>Ctrl + Shift +P</strong> e digite <strong>Install</strong>.<br>Vai aparecer uma lista com algumas opções, selecione <strong>Package Control: Install Package</strong>.<br>Agora é só digitar o nome do plugin, localizar na lista e selecionar ele.</p>
-<h2 id="Alguns_plugins_maneiros">Alguns plugins maneiros</h2><p><strong>Emmet</strong> - É um plugin que vai ajudar na codificação de HTML e CSS através de algumas expressões. Para conhecer todas as expressões é necessário dar uma olhada no <a href="http://emmet.io/" title="Emmet" target="_blank" rel="external">site do Plugin</a>.</p>
-<p><strong>Jquery Snippets</strong> - Alguns exemplos de códigos JQuery (Pra você não precisar ficar entrando no site para relembrar).</p>
-<p><strong>ColorHighlighter</strong> - Quando você clica em uma linha com nome de cor ou código hexadecimal, o plugn preenche o fundo da palavra com a cor específica.</p>
-<p><strong>HTML snipppets</strong> - Parecido com JQuery Snippet, porém trás códigos HTML.</p>
-<p><strong>BracketHighlighter</strong> - Destaca as chaves/tags/parênteses.</p>
-<p><strong>ColorPicker</strong> - Abre uma paleta de cores. No Linux e Windows usamos Ctrl + Shift + C no Mac CMD + Shift + C para abrir a paleta.</p>
-<p><strong>ClipboardHistory</strong> - Guarda uma lista dos seus Ctrl + C e digitando Ctrl + Alt + V é exibida essa lista.</p>
-<p><strong> JavaScript Next</strong> - Aplica Highlighting no código JS e ainda vem com os padrões do ES6!</p>
-<p><strong>AutoFileName</strong> - Auto completa os nomes dos arquivos e pastas que você for digitando.</p>
-<p><strong>FileDiffs</strong> - Compara arquivos com algum outro, com histórico no Clipboard ou modificados, mas não salvos.</p>
-<p>Eu uso alguns <strong>Highlighters</strong> também que são:</p>
-<p><strong>Less</strong>,<strong> Sass</strong>,<strong> Stylus</strong>,<strong> CSS3 </strong>e<strong> HTML5.</strong></p>
-<p>Se você digitar <strong>lorem</strong> e pressionar o <strong>Ctrl + Space</strong> (Ou o comando que for para autocompletar em seu Sublime) ele cria um bloco com um lorem ipsum.</p>
-<p>E tem muito mais! Só cuidado para não deixar seu editor uma carroça de tanto plugin. Instale somente os que você realmente utiliza e será feliz por muito tempo! ;D</p>
-<p>Você conhece algum outro plugin maneiro? Comenta ae.</p>
-<p>Referências:</p>
-<p><a href="http://css-tricks.com/sublime-text-front-end-developers/" target="_blank" rel="external">css-tricks.com/sublime-text-front-end-developers</a></p>
-<p><a href="http://martineau.tv/2014/07/sublime-text-for-front-end-development/" target="_blank" rel="external">martineau.tv/2014/07/sublime-text-for-front-end-development</a></p>
-<p><a href="https://github.com/kemayo/sublime-text-2-clipboard-history" target="_blank" rel="external">github.com/kemayo/sublime-text-2-clipboard-history</a></p>
-<p><a href="https://github.com/BoundInCode/AutoFileName" target="_blank" rel="external">github.com/BoundInCode/AutoFileName</a></p>
-<p><a href="https://github.com/colinta/SublimeFileDiffs" target="_blank" rel="external">github.com/colinta/SublimeFileDiffs</a></p>
-]]></content>
-    <summary type="html">
-    <![CDATA[Plugins do Sublime Text para Desenvolvimento Web Front End]]>
-    
-    </summary>
-    
-      <category term="Configuração Sublimetext" scheme="http://woliveiras.com.br/tags/Configuracao-Sublimetext/"/>
-    
-      <category term="Dicas" scheme="http://woliveiras.com.br/tags/Dicas/"/>
-    
-      <category term="Plugins" scheme="http://woliveiras.com.br/tags/Plugins/"/>
-    
-      <category term="Sublimetext" scheme="http://woliveiras.com.br/tags/Sublimetext/"/>
-    
-      <category term="Configuração Sublimetext" scheme="http://woliveiras.com.br/categories/Configuracao-Sublimetext/"/>
-    
-      <category term="Dicas" scheme="http://woliveiras.com.br/categories/Configuracao-Sublimetext/Dicas/"/>
-    
-      <category term="Sublimetext" scheme="http://woliveiras.com.br/categories/Configuracao-Sublimetext/Dicas/Sublimetext/"/>
-    
-      <category term="Plugins" scheme="http://woliveiras.com.br/categories/Configuracao-Sublimetext/Dicas/Sublimetext/Plugins/"/>
     
   </entry>
   
