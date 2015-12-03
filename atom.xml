@@ -4,7 +4,7 @@
   <subtitle><![CDATA[Desenvolvedor Front End]]></subtitle>
   <link href="/atom.xml" rel="self"/>
   <link href="http://woliveiras.com.br/"/>
-  <updated>2015-11-07T11:13:50.869Z</updated>
+  <updated>2015-12-03T09:24:59.943Z</updated>
   <id>http://woliveiras.com.br/</id>
   
   <author>
@@ -19,7 +19,7 @@
     <link href="http://woliveiras.com.br/posts/corrigindo-permissoes-de-usuario-linux-npm/"/>
     <id>http://woliveiras.com.br/posts/corrigindo-permissoes-de-usuario-linux-npm/</id>
     <published>2015-09-12T13:00:00.000Z</published>
-    <updated>2015-11-07T11:13:50.869Z</updated>
+    <updated>2015-12-03T09:24:59.943Z</updated>
     <content type="html"><![CDATA[<div class="shared-img"><br><img src="../../public/images/npm.svg" alt=""><br></div>
 
 <p>Se você utiliza Linux e usa NPM para baixar pacotes Nodejs, provavelmente precisa utilizar o <em>sudo</em> para efetuar as instalações e digita sua senha a cada nova instalação. Porém tem uma forma mais fácil de se fazer isso. <a id="more"></a></p>
@@ -58,7 +58,7 @@
     <link href="http://woliveiras.com.br/posts/utilizando-versoes-antigas-do-nodejs/"/>
     <id>http://woliveiras.com.br/posts/utilizando-versoes-antigas-do-nodejs/</id>
     <published>2015-09-12T08:00:32.000Z</published>
-    <updated>2015-11-07T11:30:04.719Z</updated>
+    <updated>2015-12-03T09:24:59.959Z</updated>
     <content type="html"><![CDATA[<div class="shared-img"><br><img src="../..//public/images/nodejs.png" alt=""><br></div>
 
 <p>Se você, assim como eu, atualizou a versão do Node instalado em sua máquina para a versão <a href="https://nodejs.org/en/blog/release/v4.0.0/" title="Versão 4.0 do Nodejs" target="_blank" rel="external">4.0.0</a>, pode ser que algo pare de funcionar, como no meu caso o Hexo (<a href="http://woliveiras.com.br/posts/Migrando-de-Wordpress-para-Hexo/" title="Migrando de WordPress para Hexo">Que eu utilizo para esse Blog</a>). Porém não precisa se desesperar, além dos módulos logo se atualizarem para a nova versão, existe uma solução simples para esse tipo de problema.<a id="more"></a></p>
@@ -139,7 +139,7 @@
     <link href="http://woliveiras.com.br/posts/twitter-bootstrap-bootstrap-do-jeito-certo/"/>
     <id>http://woliveiras.com.br/posts/twitter-bootstrap-bootstrap-do-jeito-certo/</id>
     <published>2015-09-09T01:00:00.000Z</published>
-    <updated>2015-11-07T11:30:22.820Z</updated>
+    <updated>2015-12-03T09:24:59.957Z</updated>
     <content type="html"><![CDATA[<p>Muita gente critica o uso do <a href="http://getbootstrap.com/" target="_blank" rel="external">Twitter Bootstrap</a> devido a nomenclatura de suas classes e aos muitos componentes que o framework possui.</p>
 <p>Dizem que as classes não são semanticas e que o peso do framework é desnecessário.</p>
 <p>Pois bem, <strong>você não precisa das classes col-md/lg/xs-xxx no seu HTML</strong> e para projetos pequenos (que você não usa todo o potencial do framework) você pode <strong>selecionar somente o que vai utilizar no projeto</strong>.<br>Maneiro né? Da uma olhada como faz…<br><a id="more"></a><br>Se você já conhece pré processadores, será fácil aprender essa forma de utilizar o BS (Bootstrap). Se não conhece é melhor dar uma estudada no Less (que é o mais fácil para iniciantes) ou no Sass para acompanhar essa dica e absorver melhor. Depois de aprender volte aqui e continue a leitura. ;)</p>
@@ -218,7 +218,7 @@
     <link href="http://woliveiras.com.br/posts/Migrando-de-Wordpress-para-Hexo/"/>
     <id>http://woliveiras.com.br/posts/Migrando-de-Wordpress-para-Hexo/</id>
     <published>2015-08-05T02:53:41.000Z</published>
-    <updated>2015-11-07T11:28:58.979Z</updated>
+    <updated>2015-12-03T09:24:59.938Z</updated>
     <content type="html"><![CDATA[<p><div class="shared-img"><br><img src="../../public/images/hexo-logo.png" alt="Hexo Blog"><br></div>A um bom tempo sinto vontade de mudar meu Blog de WordPress para uma plataforma de  conteúdo estático, mas não achava nenhuma alternativa, pois que queria usar Nodejs. Por isso não fui para o, muito usado na comunidade, <a href="http://jekyllrb.com/" target="_blank" rel="external">Jekyll(Ruby)</a> , nem para o <a href="http://blog.getpelican.com/" target="_blank" rel="external">Pelican(Python &lt;3)</a>.<a id="more"></a><br>Em busca de uma alternativa encontrei o <a href="https://hexo.io" target="_blank" rel="external">Hexo</a> e, um pouco depois de eu conhecer essa plataforma, o <a href="http://blog.da2k.com.br/" target="_blank" rel="external">Daciuk</a> escreveu um <a href="http://blog.da2k.com.br/2014/01/05/hexo-criando-um-blog-ao-estilo-miojo/" target="_blank" rel="external">post</a> muito maneiro incentivando o seu uso. Foi então que eu decidi de vez usar essa plataforma!<br>Bora conhecer ela e como foi a migração de WordPress para Hexo?</p>
 <h3 id="Levantando_as_necessidades">Levantando as necessidades</h3><p>Antes de migrar nosso Blog(Ou o de um cliente) de uma plataforma para outra precisamos fazer um levantamento para que não tenha impacto negativo como perder os posts que já existem ou alguma funcionalidade importante aos leitores.<br>Minha primeira preocupação foi com os posts que eu já havia escrito, mas no próprio site do Hexo temos uma <a href="https://hexo.io/docs/migration.html" target="_blank" rel="external">solução para isso</a>.<br>As dicas sobre instalação do Hexo você encontra no Blog do <a href="http://blog.da2k.com.br/2014/01/05/hexo-criando-um-blog-ao-estilo-miojo/" target="_blank" rel="external">Daciuk</a> e no Blog do <a href="http://dwoond.github.io/Criando-seu-site-com-Hexo/" target="_blank" rel="external">Willian Santos</a>.</p>
 <h3 id="Como_escrever_os_posts">Como escrever os posts</h3><p>Os posts no Hexo funcionam como em qualquer outro gerador estático. Escrevemos em Markdown e a postagem é gerada em HTML.<br>Markdown não é difícil e podemos usar algumas ferramentas boas que auxiliam nisso como o <a href="http://pad.haroopress.com/" target="_blank" rel="external">Haroopad</a> ou o <a href="https://stackedit.io/editor#" target="_blank" rel="external">Stackedit</a>, mas o Hexo também tem uma espécie de wp-admin, basta instalar o <a href="https://github.com/jaredly/hexo-admin" target="_blank" rel="external">Hexo Admin</a> se você sente necessidade.</p>
@@ -263,7 +263,7 @@
     <link href="http://woliveiras.com.br/posts/frameworks-front-end/"/>
     <id>http://woliveiras.com.br/posts/frameworks-front-end/</id>
     <published>2015-03-05T00:18:46.000Z</published>
-    <updated>2015-11-07T11:24:44.921Z</updated>
+    <updated>2015-12-03T09:24:59.947Z</updated>
     <content type="html"><![CDATA[<p>Já parou pra pensar quantas vezes você repete o mesmo código durante o Desenvolvimento, seja Web, Mobile ou Desktop? Já pensou em padronizar o que você faz de alguma maneira?<br>E pra você que é Gerente de Projetos, Líder ou algo do tipo: Já pensou em poder adicionar um membro no seu grupo  e ele já saber como funciona o Desenvolvimento nessa equipe e conseguir ser produtivo desde o princípio?<br>Pois é, Frameworks servem para isso… Vem comigo que vou explicar melhor. ;)<a id="more"></a></p>
 <h2 id="O_que_são_Frameworks?">O que são Frameworks?</h2><p>Você pega aqueles códigos que se repetem entre os projetos, adiciona uma pitada de <a href="http://pt.wikipedia.org/wiki/Padr%C3%A3o_de_projeto_de_software" title="Wikipedia - Padrões de Projetos" target="_blank" rel="external">Padrões</a>, deixa conforme sua equipe precisa ou <a href="http://tableless.com.br/locaweb-style-como-iniciamos/" title="Locaweb Style - Framework Front End da Locaweb" target="_blank" rel="external">conforme sua empresa trabalha</a>, empacota tudo isso pra poder reutilizar depois e pronto, criou um Framework!<br>Só isso? Sim, só isso… Framework é uma ferramenta com os códigos, padrões, etc, que você consegue utilizar pra resolver problemas que se repetem ou mesmo pra iniciar projetos que vão possuir as mesmas características seja no Front, Back End ou mesmo para <a href="https://github.com/woliveiras/pastel" target="_blank" rel="external">Tooling(Ferramentas)</a>. Quando você utiliza um Framework como base, pode somente baixar ele, configurar ou instalar e seguir dali para as necessidades específicas de cada projeto. Isso mata muito tempo que você perderia fazendo algo que sabe que vai repetir no próximo trabalho.</p>
 <h2 id="Frameworks_são_bons_mesmo?">Frameworks são bons mesmo?</h2><p>Minha resposta é: São sim, mas eles dependem de você para não estragá-los.<br>Temos vários tipos de Frameworks pra todos os gostos e peculiaridades, porém nem sempre o mesmo que você usa para um projeto grande será interessante em um projeto pequeno. As vezes temos uma ferramenta específica só para coisas pequenas e outras só para coisas grandes.<br>Frameworks são muito bons pela praticidade em se iniciar um projeto com metade do trabalho já feito, claro, mas você tem de entender <a href="http://tableless.com.br/quando-utilizar-ou-nao-frameworks-css/" title="Quando utilizar (ou não) frameworks CSS - Talita Pagani" target="_blank" rel="external">quando utilizar e quando não utilizar</a>.<br>Temos o exemplo do <a href="http://getbootstrap.com/" title="Twitter Bootstrap" target="_blank" rel="external">Twitter Bootstrap</a> que está sendo muito utilizado na Web por esses tempos e tem gente que nem sabe utilizar o que a ferramenta lhe entrega e sai sobrepondo os estilos e deixando o projeto cada vez mais pesado ou importa todo o código do Framework sendo que só vai utilizar os Grids.</p>
@@ -309,7 +309,7 @@
     <link href="http://woliveiras.com.br/posts/contribuindo-para-projetos-open-source-no-github-mesmo-sendo-iniciante/"/>
     <id>http://woliveiras.com.br/posts/contribuindo-para-projetos-open-source-no-github-mesmo-sendo-iniciante/</id>
     <published>2015-02-09T14:12:32.000Z</published>
-    <updated>2015-11-07T11:21:15.919Z</updated>
+    <updated>2015-12-03T09:24:59.943Z</updated>
     <content type="html"><![CDATA[<div class="shared-img"><br><img src="../../public/images/github.gif" alt=""><br></div>
 
 <p>Se você é iniciante já deve ter escutado: “Se quiser aprender mesmo tem de botar a mão na massa!”.<br>Sim! E eu concordo. A melhor maneira de aprender é estudando e praticando muuuuuito! Porém, nem sempre temos um projeto para iniciantes dando sopa na internet ou uma empresa que nos de a oportunidade de praticar lá e crescermos assim. Então uma ÓTIMA maneira de se praticar é auxiliando projetos no <a href="https://github.com/" title="Github" target="_blank" rel="external">Github</a>.<br>Ai você se pergunta: “Tá, mas se eu sou iniciante como eu consigo ajudar?”<br>Vamos nessa que vou tentar te ajudar.<a id="more"></a></p>
@@ -349,7 +349,7 @@
     <link href="http://woliveiras.com.br/posts/haroopad-um-editor-markdown-maneiro/"/>
     <id>http://woliveiras.com.br/posts/haroopad-um-editor-markdown-maneiro/</id>
     <published>2015-02-09T12:53:56.000Z</published>
-    <updated>2015-11-07T11:27:29.462Z</updated>
+    <updated>2015-12-03T09:24:59.951Z</updated>
     <content type="html"><![CDATA[<div class="shared-img"><br><img src="../..//public/images/Haroopad.png" alt=""><br></div>
 
 <p>Todo mundo que trabalha usando <a href="http://blog.da2k.com.br/2015/02/08/aprenda-markdown/" title="Aprenda Markdown" target="_blank" rel="external">Markdown</a> ou usa a linguagem somente para descrever seus repositórios no Github gosta de ter aquele preview maneiro que o <a href="http://25.io/mou/" title="Mou" target="_blank" rel="external">Mou</a> apresenta né? Pois é, mas o Mou não funciona em outras plataformas a não ser Apple. :( <strong>#chateado</strong></p>
@@ -398,7 +398,7 @@
     <link href="http://woliveiras.com.br/posts/como-detectar-o-dispositivo-que-acessa-seu-site/"/>
     <id>http://woliveiras.com.br/posts/como-detectar-o-dispositivo-que-acessa-seu-site/</id>
     <published>2015-02-03T18:47:41.000Z</published>
-    <updated>2015-11-07T11:21:42.004Z</updated>
+    <updated>2015-12-03T09:24:59.941Z</updated>
     <content type="html"><![CDATA[<p>Uma dica rápida para quem trabalha com diversos tipos de dispositivos!</p>
 <p>Dependendo do projeto em que você está trabalhando, pode chegar a necessidade de detectar qual é o tipo de dispositivo que está acessando o site/aplicação/sistema, etc. As vezes isso é feito para redirecionar o usuário para uma outra versão do projeto, as vezes simplesmente para ativar uma funcionalidade ou não.<a id="more"></a></p>
 <p>Isso pode ser feito de diversas maneiras e um site reuniu algumas formas de fazer isso com diferentes linguagens. Esse site é o <a href="http://detectmobilebrowsers.com/" title="Detect Mobile Browsers" target="_blank" rel="external">Detect Mobile Browsers</a>!</p>
@@ -425,7 +425,7 @@
     <link href="http://woliveiras.com.br/posts/aprenda-trabalhar-em-equipes/"/>
     <id>http://woliveiras.com.br/posts/aprenda-trabalhar-em-equipes/</id>
     <published>2015-01-30T08:00:51.000Z</published>
-    <updated>2015-11-07T11:21:19.735Z</updated>
+    <updated>2015-12-03T09:24:59.939Z</updated>
     <content type="html"><![CDATA[<p>Como eu disse em <a href="/posts/requisitos-para-vagas-front-end/" title="Sobre os requisitos para vagas de emprego Front End (E outras áreas também)">um post anterior</a>, você não vai trabalhar sozinho a vida toda. Chega uma hora em que é preciso trabalhar em equipes, interagir com outras pessoas e é necessário que você aprenda isso. Mesmo que você trabalhe em casa, vai precisar enviar seu projeto para outras pessoas.<br>Existem algumas boas medidas para conseguir trabalhar bem em grandes ou pequenas equipes…<a id="more"></a></p>
 <h2 id="Organização">Organização</h2><p>As pastas que você cria para organizar seu projeto devem possuir nomes que auxiliem a entender o que tem dentro. Não somente as pastas, os nomes dos arquivos também devem ter algum significado.<br>Não crie uma pasta com o nome <strong>scripts</strong> e coloque todos os .styl, .js, .html, .php, .rb, etc, ali dentro, mas crie uma organização ou siga alguma.<br>Isso serve até mesmo para que você se encontre mais fácil no seu projeto.<br>Trabalhar com outras pessoas não é a mesma coisa de ser criança e a mãe arrumar seu quarto… Você tem de se organizar e outras pessoas tem de entender sua organização.<br>Da uma olhada aqui no meu <a href="https://github.com/woliveiras/pastel" title="Pastel | um pequeno Boilerplate que eu criei para agilizar meus projetos" target="_blank" rel="external">Scaffold </a>e veja como eu organizei os arquivos - É um exemplo beeeem básico, mas da para ter uma noção…<br>A forma como escreve seu código também faz diferença e vou falar disso agora!</p>
 <h2 id="Comentários">Comentários</h2><p>Comente seu código. Daqui a 6 meses você não vai lembrar o que aquilo fazia, afinal você evolui - Ou só esquece mesmo. E assim como você não vai saber daqui a esse tempo, pessoas que pegarem seu código <strong>hoje</strong> podem demorar a entender o que ele faz se não estiver comentado.</p>
@@ -472,7 +472,7 @@
     <link href="http://woliveiras.com.br/posts/gerenciar-projetos-com-trello/"/>
     <id>http://woliveiras.com.br/posts/gerenciar-projetos-com-trello/</id>
     <published>2015-01-28T02:00:07.000Z</published>
-    <updated>2015-11-07T11:25:42.198Z</updated>
+    <updated>2015-12-03T09:24:59.948Z</updated>
     <content type="html"><![CDATA[<div class="shared-img"><br><img src="../../public/images/Trello.png" alt="Trello"></div>
 
 <p>Seguindo a linha de postagens sobre <a href="/posts/como-ser-mais-produtivo/" title="Como ser mais produtivo">produtividade</a>, eu sou obrigado a falar dessa ferramenta que utilizo muito e curto demais! É com ele que eu gerencio até as postagens que eu escrevo aqui no Blog…</p>
@@ -531,7 +531,7 @@
     <link href="http://woliveiras.com.br/posts/como-alcancar-objetivos-rapidamente-nos-estudos/"/>
     <id>http://woliveiras.com.br/posts/como-alcancar-objetivos-rapidamente-nos-estudos/</id>
     <published>2015-01-27T07:00:32.000Z</published>
-    <updated>2015-11-07T11:21:23.382Z</updated>
+    <updated>2015-12-03T09:24:59.940Z</updated>
     <content type="html"><![CDATA[<p>Essa é mais uma dica sobre produtividade, porém agora é nos estudos.<br>Nós, Desenvolvedores, temos de estudar muito. Todo dia alguma ferramenta atualiza ou algo vira tendência e passa a ser usado no serviço e temos de aprender. E como fazer para aprender tudo isso sem ficar louco e de um jeito que consiga alcançar os objetivos mais rapidamente?<a id="more"></a><br>Se você não leu meu post anterior sobre produtividade da uma olhada <a href="/posts/como-ser-mais-produtivo/" title="Como ser mais produtivo?">aqui</a>.</p>
 <h2 id="Listas_de_novo">Listas de novo</h2><p>Eu aprendi que fazer listas para tudo é uma ótima maneira de você ter certeza que vai concluir algo. Parece que você se obriga a fazer aquilo e se apagar da lista sem concluir parece um pecado! No caso de estudos não é diferente.</p>
 <p><strong>Vamos ao passo a passo:</strong></p>
@@ -592,7 +592,7 @@
     <link href="http://woliveiras.com.br/posts/o-que-e-linguagem-de-programacao-de-alto-nivel/"/>
     <id>http://woliveiras.com.br/posts/o-que-e-linguagem-de-programacao-de-alto-nivel/</id>
     <published>2015-01-27T03:51:01.000Z</published>
-    <updated>2015-12-03T01:47:25.547Z</updated>
+    <updated>2015-12-03T09:24:59.955Z</updated>
     <content type="html"><![CDATA[<p>Se você vem seguindo o mesmo <a href="http://woliveiras.com.br/posts/guia-de-estudos-desenvolvedor-front-end-iniciante">guia de estudos</a>, vai chegar uma hora em que vai partir pro JavaScript e mais cedo ou mais tarde vai se aprofundar ainda mais em programação e é aí que você ouve alguns termos meio confusos como esse:</p>
 <p><em>JavaScript é uma linguagem de programação de alto nível.</em></p>
 <p>Mas e dae? Quer dizer que ela é uma linguagem de programação da realeza? É uma princesa? Ou um princeso? O que significa isso? <a id="more"></a></p>
@@ -637,7 +637,7 @@
     <link href="http://woliveiras.com.br/posts/como-ser-mais-produtivo/"/>
     <id>http://woliveiras.com.br/posts/como-ser-mais-produtivo/</id>
     <published>2015-01-26T08:00:53.000Z</published>
-    <updated>2015-11-07T11:21:52.158Z</updated>
+    <updated>2015-12-03T09:24:59.941Z</updated>
     <content type="html"><![CDATA[<p>Uma das minhas grandes preocupações na vida é ser prdutivo! Eu gosto de fazer as coisas o mais rápido possível e estou sempre buscando maneiras de automatizar ou organizar as coisas de maneira que eu consiga cada vez mais produtividade.<a id="more"></a><br>Durante algum tempo fui testando várias abordagens e técnicas de produtividade. Técnicas que podem ser aplicadas no serviço, para estudos ou mesmo para cumprir tarefas do cotidiano(Como lembrar de pagar uma conta ou do que precisa comprar no mercado).<br>Segue algumas dicas do que melhor funcionou pra mim até agora.</p>
 <h2 id="Faça_listas">Faça listas</h2><p>Eu faço listas com as tarefas que tenho de cumprir e, de acordo com que termino a tarefa, a marco como concluída ou apago da lista.<br>Para isso utilizo um aplicativo que da pra usar tanto no PC, quanto no Celular: O <a href="https://www.wunderlist.com/pt/" title="Wunderlist" target="_blank" rel="external">Wunderlist</a>.<br>Nele eu separo o que é projeto pessoal, o que é projeto profissional e até o que eu estou estudando/planejo estudar por pastas e nessas pastas coloco os tópicos. De acordo com que vou concluindo, marco como concluído e pronto! A tarefa fica riscadinha e oculta na lista.</p>
 <p><strong>Como usar Wunderlist no serviço?</strong></p>
@@ -666,7 +666,7 @@
     <link href="http://woliveiras.com.br/posts/requisitos-para-vagas-front-end/"/>
     <id>http://woliveiras.com.br/posts/requisitos-para-vagas-front-end/</id>
     <published>2015-01-23T10:00:19.000Z</published>
-    <updated>2015-11-07T11:18:19.663Z</updated>
+    <updated>2015-12-03T09:24:59.956Z</updated>
     <content type="html"><![CDATA[<p>Quantas vezes não nos deparamos com as seguintes dúvidas:</p>
 <ul>
 <li>Será que estou pronto para o mercado de trabalho?_</li>
@@ -715,7 +715,7 @@
     <link href="http://woliveiras.com.br/posts/extensoes-navegador-desenvolvimento-web/"/>
     <id>http://woliveiras.com.br/posts/extensoes-navegador-desenvolvimento-web/</id>
     <published>2015-01-22T13:00:31.000Z</published>
-    <updated>2015-11-07T11:24:26.221Z</updated>
+    <updated>2015-12-03T09:24:59.946Z</updated>
     <content type="html"><![CDATA[<p>Sou fã de produtividade e, por isso, utilizo várias ferramentas que me auxiliam a ser mais produtivo - Vou citar outras em futuras postagens ;). Algumas delas são extensões para o Navegador, no meu caso o Chrome/Firefox, que eu uso o tempo todo para testes. Nesse post vou citar algumas extensões muito boas para desenvolvimento Front End<a id="more"></a></p>
 <p><em>Para instalar alguma você pode clicar direto no sub-título e será direcionado para a Chrome Web Store. Se você estiver utilizando o Firefox, só pesquisar o nome dela no menu de instalação de Addons.</em></p>
 <h5 id="Web_Developer"><a href="https://chrome.google.com/webstore/detail/web-developer/bfbameneiokkgbdmiekhjnmfkcnldhhm" title="Web Developer" target="_blank" rel="external">Web Developer</a></h5><p>Essa extensão é monstra! Tem muita funcionalidade útil reunida em uma única ferramenta. Ao instalar essa extensão vá abrindo cada abinha e vendo do que ela é capaz, você vai pirar! Ela funciona no Chrome e no Firefox. Em outros navegadores eu não testei.</p>
@@ -774,7 +774,7 @@
     <link href="http://woliveiras.com.br/posts/como-deixar-o-ubuntu-mais-rapido/"/>
     <id>http://woliveiras.com.br/posts/como-deixar-o-ubuntu-mais-rapido/</id>
     <published>2015-01-19T07:00:19.000Z</published>
-    <updated>2015-11-07T11:21:33.687Z</updated>
+    <updated>2015-12-03T09:24:59.940Z</updated>
     <content type="html"><![CDATA[<div class="shared-img"><br><img src="../..//public/images/ubuntu.png" alt=""><br></div>
 
 <p>Sou fã de Linux, e deixei bem claro <a href="/posts/meu-contato-com-o-linux-e-por-que-voce-deveria-testar/" title="Meu contato com o Linux e por que você deveria testar">nesse post</a>. Atualmente estou usando o Ubuntu e muita gente tem reclamado da performance do Unity. Eu, sinceramente, detestei o Unity quando lançado e não estou gostando do rumo “Windows 8 Metro” que ele tem tomado. O pessoal quer transformar o Sistema que uso no PC o mesmo que eu vou usar no Celular e isso não tem me agradado - Porém isso é papo para outra hora. Vamos ao foco que é melhorar a velocidade do Ubuntu.<a id="more"></a><br>Minha máquina, hoje em dia, não é nem um pouco robusta - Core i3 de 3.2, 4 GB de memória, HD SATA 3 - e o primeiro PC que eu tive com Ubuntu também não era. Porém, na época era o Ubuntu 10.04, então rodava lisinho!<br>Para melhorar a velocidade do danado eu fiz as seguintes configurações(Todos os softwares podem ser instalados via Terminal ou pesquisando pelo nome deles na Central de Programas, mas aqui eu só deixei o comando. Pode fazer como você achar melhor. ;D)</p>
@@ -843,7 +843,7 @@
     <link href="http://woliveiras.com.br/posts/meu-contato-com-o-linux-e-por-que-voce-deveria-testar/"/>
     <id>http://woliveiras.com.br/posts/meu-contato-com-o-linux-e-por-que-voce-deveria-testar/</id>
     <published>2015-01-16T12:10:25.000Z</published>
-    <updated>2015-11-07T11:28:24.912Z</updated>
+    <updated>2015-12-03T09:24:59.954Z</updated>
     <content type="html"><![CDATA[<div class="shared-img"><br><img src="../../public/images/linux-icon.png" alt="Linux"><br></div>
 
 <p>Depois de ler o artigo do Daciuk sobre <a href="http://blog.da2k.com.br/2015/01/15/como-ser-um-dev-frontend-usando-linux/" title="Como ser um dev frontend usando Linux" target="_blank" rel="external">Como ser um dev frontend usando Linux</a>, decidi comentar como foi minha experiência no mundo Linux.</p>
@@ -894,7 +894,7 @@
     <link href="http://woliveiras.com.br/posts/css-reset-de-varias-maneiras/"/>
     <id>http://woliveiras.com.br/posts/css-reset-de-varias-maneiras/</id>
     <published>2015-01-15T12:00:20.000Z</published>
-    <updated>2015-11-07T11:23:14.475Z</updated>
+    <updated>2015-12-03T09:24:59.945Z</updated>
     <content type="html"><![CDATA[<p>Todo elemento HTML tem um estilo padrão que é injetado pelo Browser. O legal é que não existe um padrão entre eles. O Chrome tem seu estilo, o Firefox tem o dele, o Safari e Opera também… <a id="more"></a></p>
 <p>Isso pode gerar incompatibilidade com o CSS que você escreve. As vezes você coloca um espaço aqui, outro ali e quando abre no IE vê que está tudo bagunçado!</p>
 <p>O CSS Reset é uma técnica que serve para evitar esse problema. Você remove ou seta valores para as propriedades dos elementos conforme necessário. Existem várias formas de se fazer um CSS Reset. Vou citar algumas que eu já utilizei.</p>
@@ -931,7 +931,7 @@
     <link href="http://woliveiras.com.br/posts/freelancer-quanto-cobrar-pelo-freelance/"/>
     <id>http://woliveiras.com.br/posts/freelancer-quanto-cobrar-pelo-freelance/</id>
     <published>2015-01-12T10:33:25.000Z</published>
-    <updated>2015-11-07T11:25:18.889Z</updated>
+    <updated>2015-12-03T09:24:59.947Z</updated>
     <content type="html"><![CDATA[<div class="shared-img"><img src="../../public/images/money.jpg" alt="saco de money"></div>
 
 <p>Muita gente, iniciante ou não, tem dúvidas de quanto cobrar por um Freelance…</p>
@@ -984,7 +984,7 @@
     <link href="http://woliveiras.com.br/posts/instalando-o-sublime-text-no-ubuntu/"/>
     <id>http://woliveiras.com.br/posts/instalando-o-sublime-text-no-ubuntu/</id>
     <published>2015-01-10T21:23:40.000Z</published>
-    <updated>2015-11-07T12:11:11.456Z</updated>
+    <updated>2015-12-03T09:24:59.953Z</updated>
     <content type="html"><![CDATA[<div class="shared-img"><br><img src="../../public/images/sublime.png" alt="sublime text"><br></div>
 
 <p>Quem me conhece sabe que eu sou um fã do Sublime Text por ele ser um editor excelente com muitos plugins úteis e por isso eu já fiz uma <a href="/posts/usando-o-sublime-text/" title="Usando o Sublime Text">introdução anteriormente</a> sobre o editor e por que eu gosto dele.</p>
