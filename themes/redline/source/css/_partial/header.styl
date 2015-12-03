@@ -1,0 +1,174 @@
+#header
+  height: banner-height
+  position: relative
+  background-image: url("images/bg.jpeg")
+  border-top: 5px solid #DE1B1B;
+  @media mq-mobile
+    height: (banner-height - 80)
+
+#header-outer
+  height: 100%
+  position: relative
+  max-width: 1024px
+
+#header-inner
+  position: relative
+  overflow: hidden
+
+#banner
+  position: absolute
+  top: 0
+  left: 0
+  width: 100%
+  height: 100%
+  background: url(banner-url) center #000
+  background-size: cover
+  z-index: -1
+
+$logo-text
+  text-decoration: none
+  color: #DE1B1B
+  font-weight: bold
+
+#header-title
+  font-size: 2.8rem
+  text-align: center
+  line-height: 0.8
+  margin-top: 30px
+  @media mq-mobile
+    font-size: 2rem
+  #title
+    @extend $logo-text
+    &:hover
+      color: color-link
+
+#logo
+  display: block
+  @extend $logo-text
+  font-size: logo-size
+  line-height: logo-size
+  letter-spacing: 2px
+  img
+    width: 100px
+
+#subtitle
+  @extend $logo-text
+  font-size: subtitle-size
+  line-height: subtitle-size
+  letter-spacing: 1px
+
+#main-nav
+  float: left
+  margin-left: -15px
+  @media mq-mobile
+    margin: 0
+
+$nav-link
+  float: left
+  color: #DE1B1B
+  text-decoration: none
+  display: block
+  padding: 20px 15px
+  &:hover
+    color: color-link
+    font-style: italic
+
+.nav-icon
+  @extend $nav-link
+  font-family: font-icon
+  text-align: center
+  font-size: font-size
+  width: font-size
+  height: font-size
+  padding: 20px 15px
+  position: relative
+  cursor: pointer
+  @media mq-mobile
+    font-size: 28px
+    height: inherit
+    width: inherit
+
+
+.main-nav-link
+  @extend $nav-link
+  font-weight: 300
+  letter-spacing: 1px
+  @media mq-mobile
+    display: none!important
+
+#main-nav-toggle
+  display: none
+  &:before
+    content: "\f0c9"
+  @media mq-mobile
+    display: block
+
+#sub-nav
+  float: right
+  margin-right: 15px
+
+#nav-rss-link
+  &:before
+    content: "\f09e"
+
+#nav-search-btn
+  &:before
+    content: "\f002"
+
+#search-form-wrap
+  position: absolute
+  top: 15px
+  width: 150px
+  height: 30px
+  right: -100%
+  opacity: 0
+  transition: 0.2s ease-out
+  &.on
+    opacity: 1;
+    width: 25%;
+    right: 30px;
+    position: absolute;
+    margin: 0px 10px;
+    @media mq-tablet
+      width: 85%
+    @media mq-mobile
+      width: 85%
+      margin: 0 auto
+
+.search-form
+  position: absolute
+  top: 0
+  left: 0
+  right: 0
+  background: #fff
+  padding: 5px 15px
+  border: 1px solid rgba(0, 0, 0, 0.3)
+  @media mq-mobile
+    padding: 10px 25px
+
+.search-form-input
+  border: none
+  background: none
+  color: color-default
+  width: 100%
+  font: 13px font-sans
+  outline: none
+  &::-webkit-search-results-decoration
+  &::-webkit-search-cancel-button
+    -webkit-appearance: none
+  @media mq-mobile
+   font-size: 20px
+
+
+.search-form-submit
+  position: absolute
+  top: 50%
+  right: 10px
+  margin-top: -7px
+  font: 13px font-icon
+  border: none
+  background: none
+  color: #bbb
+  cursor: pointer
+  &:hover, &:focus
+    color: #777
