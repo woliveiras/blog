@@ -4,7 +4,7 @@
   <subtitle><![CDATA[Desenvolvedor Front End]]></subtitle>
   <link href="/atom.xml" rel="self"/>
   <link href="http://woliveiras.com.br/"/>
-  <updated>2015-12-03T09:24:59.943Z</updated>
+  <updated>2015-12-04T12:10:09.394Z</updated>
   <id>http://woliveiras.com.br/</id>
   
   <author>
@@ -13,6 +13,54 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title><![CDATA[Um ano (ou um pouco mais) como desenvolvedor Front End]]></title>
+    <link href="http://woliveiras.com.br/posts/um-ano-como-desenvolvedor-front-end/"/>
+    <id>http://woliveiras.com.br/posts/um-ano-como-desenvolvedor-front-end/</id>
+    <published>2015-12-01T12:00:00.000Z</published>
+    <updated>2015-12-04T12:10:09.394Z</updated>
+    <content type="html"><![CDATA[<div class="shared-img"><br><img src="../..//public/images/web-developer.jpg" alt=""><br></div>
+
+<p>Todo mundo tem uma história legal pra contar sobre como começou na área de Desenvolvimento, seja Web, Mobile, Desktop ou tanto faz. Sempre temos algo interessante para passar para os novos desenvolvedores que estão entrando no mercado e que, as vezes, tem medo de se arriscar, achando que <a href="http://woliveiras.com.br/posts/requisitos-para-vagas-front-end/">precisam saber de tudo para investir no primeiro trampo</a>.</p>
+<p>Conheça um pouco sobre como foi meu primeiro ano como Desenvolvedor Front End. Medos, frustrações, desespero, alegria, festas e algumas dicas para se preparar para o mercado de trabalho.</p>
+<a id="more"></a>
+<p>Eu trabalho a um bom tempo com informática, comecei com manutenção de micros e passei por Analista de Suporte I e II em uma empresa até <a href="https://www.linkedin.com/in/woliveira542" target="_blank" rel="external">grandinha</a>, já até treinei equipes na área de Infra. Porém eu sempre quis me tornar um desenvolvedor e soltar a criatividade/criar coisas/automatizar tarefas/acelerar processos.</p>
+<p>Minha história como desenvolvedor começou, de fato, a um ano atrás (ou um ano e dois/três meses) quando tive a oportunidade de participar de alguns freelas com uns camaradas que conheci nas redes sociais. Não ganhava dinheiro, pois eramos todos iniciantes e pegávamos os serviços só para aprender mesmo.</p>
+<p>Foi assim que eu aprendi mais sobre <a href="http://woliveiras.com.br/posts/instalando-o-git-windows/">Git</a>, <a href="http://woliveiras.com.br/posts/gerenciar-projetos-com-trello/">Trello</a>, conheci um pouquinho de Python &lt;3 e aprendi até a dar <a href="http://woliveiras.com.br/posts/freelancer-quanto-cobrar-pelo-freelance/">preço para as coisas</a>.</p>
+<p>Consegui meu primeiro trampo fixo como Desenvolvedor Web em uma agência aqui na cidade onde eu moro, mas ainda nem imaginava o que era Front End. Lá eu fazia desde o Design (sim… Photoshop, UX, UI…), até o HTML e CSS e PHP com MySQL. Lá eu tive a oportunidade de poder implementar muita coisa e por isso eu via muito vídeo de palestras de desenvolvimento web, para não fazer algo errado, e foi assim que eu conheci o mundo Front End. - E também foi lá que eu criei o <a href="https://github.com/woliveiras/pastel" target="_blank" rel="external">Pastel</a>.</p>
+<h2 id="Começando_a_me_apaixonar_pelo_Front_End">Começando a me apaixonar pelo Front End</h2><p>Conheci várias comunidades tanto de Front quanto Back End e comecei a tomar gosto pela coisa, mas me apaixonei por Front quando ouvi falar sobre <a href="https://www.youtube.com/watch?v=hmw0bFD7GHw" target="_blank" rel="external">Acessibilidade</a>, mas não parou por aí, fiquei sabendo que o Front é responsável por grande parte da <a href="https://developer.yahoo.com/blogs/ydn/high-performance-sites-importance-front-end-performance-7160.html" target="_blank" rel="external">performance</a> de um site/sistema web e isso só foi me fazendo ficar cada vez mais apaixonado pela área e eu nem imaginava <a href="http://tableless.com.br/desafios-de-um-desenvolvedor-front-end/" target="_blank" rel="external">o que estava por vir</a>.</p>
+<p>Eu curtia escrever HTML e CSS e fazer de tudo um pouco, mas o que eu gosto mesmo é da parte de lógica da coisa, então estava faltando algo pra eu ficar mais feliz com isso. Foi ai que houve uma explosão de JavaScript pra todo lado nas comunidades, mercado de trabalho, etc… Pronto, achei onde eu iria investir meu tempo.</p>
+<p>No Front eu consigo programar e ainda fazer uma coisa que eu gosto muito: <strong>Cuidar do usuário</strong> (por isso que acho que sou um dos únicos que curtia a área de Suporte) <strong>e ainda da imagem da empresa</strong> (vai dizer que não acha a empresa fo#@ quando o site gigante carrega super rápido e funciona tudo certinho?).</p>
+<p>Então, no começo desse ano recebi a oportunidade de trabalhar em uma grande empresa na área de turismo como Front e lá <a href="http://tableless.com.br/trabalhe-ao-lado-de-gente-boa-e-seja-a-gente-boa/" target="_blank" rel="external">conheci muita gente MONSTRA em programação</a> e foi ali que eu tomei meu rumo. Com eles aprendi muita coisa e vou carregar alguns conselhos pro resto da vida.</p>
+<p>Mas também foi lá que eu conheci o peso da profissão programador.</p>
+<h2 id="As_vezes_bate_um_desespero…">As vezes bate um desespero…</h2><p>Durante esse ano eu já pensei em desistir e isso por conta do tanto de coisa que precisava aprender e dos desafios que ainda estavam por vir. - Quem nunca? Quando chegava uma tarefa e eu não sabia nem por onde começar parecia que eu havia estudado tanto a toa. Parecia que eu não sabia nada.</p>
+<p>Eu percebi que a falta do inglês e do conhecimento que um mentor poderia me passar (e um probleminha com ansiedade) me fizeram muito mal.</p>
+<p>Com o inglês eu poderia ter pego coisas (que eu já deveria saber) em artigos/livros/videos do exterior e um mentor poderia ter me dito por onde ir, o que fazer e se estava ficando bom.</p>
+<p>Quando comecei os estudos não tinha foco e por isso aprendi de tudo um pouco, mas não me especializei em nada. - Conhecia de tudo um pouco, mas de nada sabia.<br>Eu estudava, estudava, estudava e achava que não estava aprendendo nada. Acho que você, iniciante também passa por isso, mas calma… Tenho alguns bons conselhos pra você.</p>
+<h2 id="Um_conselho_difícil">Um conselho difícil</h2><p>Um conselho que dou é: Não desista.</p>
+<p>Tenha paciência. Não precisa abraçar o mundo e querer aprender tudo para amanhã. Se fizer isso vai se arrepender.</p>
+<h2 id="Agora_parte_mais_demorada">Agora parte mais demorada</h2><p>Aprenda <a href="http://www.igorapa.com/fui-aprender-ingles.html" target="_blank" rel="external">inglês</a>, busque <a href="https://uptodate.frontendrescue.org/#follow-cool-people" target="_blank" rel="external">seguir as pessoas legais</a> (me segue também se quiser, eu sou legalzinho ;)), procure tirar dúvidas e não tenha medo de buscar ajuda.</p>
+<p>Seja cara de pau, o medo só vai te limitar, eu tirei muita dúvida por email com uns caras “tops da comunidade” que escrevem em alguns blogs, aparecem em palestras e blablabla e achava que eles nunca responderiam um noobão começando, mas eles respondem. Achava que os caras são super heróis, mas são apenas pessoas normais. Você pode chegar lá também sabia? Deixe de ser bobo, <a href="http://danielfilho.github.io/2014/08/20/queime-seus-idolos/" target="_blank" rel="external">queime seus idolos</a>.</p>
+<p>Se você ainda está estudando, tenha foco, <a href="http://woliveiras.com.br/posts/guia-de-estudos-desenvolvedor-front-end-iniciante">crie um plano de estudos</a> e siga.<br>Se está buscando emprego, não desista, corra atrás e fique de olho nas <a href="https://www.facebook.com/groups/frontendvagas/" target="_blank" rel="external">comunidades</a>.<br>Se você está na área e bateu aquela frustração, calma… <a href="https://www.linkedin.com/pulse/20140911044818-57651957-stress-literalmente-deixa-os-programadores-loucos-e-a-s%C3%ADndrome-do-impostor" target="_blank" rel="external">O stress pode te fazer muito mal</a>. Procure alternativas para controlar seus <a href="https://www.javascriptmasters.com.br/blog/mindfulness/o-que-e-mindfulness/" target="_blank" rel="external">pensamentos e emoções</a> e terá <a href="https://www.javascriptmasters.com.br/blog/mindfulness/como-ter-superpoderes-na-programacao/" target="_blank" rel="external">super poderes</a>!</p>
+<p>Claro que minha história está só começando e muita coisa ainda vai acontecer. Espero poder compartilhar tudo com você que precisa de uma palavrinha.</p>
+<p>E você que já trabalha na área ou está começando, como foi o seu começo ou o seu ano na área de Desenvolvimento? Se tiver alguma dica escreva também nos comentários.</p>
+<p>E espalhe a palavra.</p>
+]]></content>
+    <summary type="html">
+    <![CDATA[Conheça um pouco sobre como foi meu primeiro ano como Desenvolvedor Front End. Medos, frustrações, desespero, alegria, festas e algumas dicas para se preparar para o mercado de trabalho.]]>
+    
+    </summary>
+    
+      <category term="Carreira" scheme="http://woliveiras.com.br/tags/Carreira/"/>
+    
+      <category term="Front End" scheme="http://woliveiras.com.br/tags/Front-End/"/>
+    
+      <category term="Carreira" scheme="http://woliveiras.com.br/categories/Carreira/"/>
+    
+      <category term="Front End" scheme="http://woliveiras.com.br/categories/Carreira/Front-End/"/>
+    
+  </entry>
   
   <entry>
     <title><![CDATA[Corrigindo as permissões de usuário para o NPM no Linux]]></title>
@@ -464,6 +512,43 @@
       <category term="Produtividade" scheme="http://woliveiras.com.br/categories/Boas-praticas/Dicas/Produtividade/"/>
     
       <category term="Programação" scheme="http://woliveiras.com.br/categories/Boas-praticas/Dicas/Produtividade/Programacao/"/>
+    
+  </entry>
+  
+  <entry>
+    <title><![CDATA[Semântica HTML]]></title>
+    <link href="http://woliveiras.com.br/posts/semantica-html/"/>
+    <id>http://woliveiras.com.br/posts/semantica-html/</id>
+    <published>2015-01-29T12:00:25.000Z</published>
+    <updated>2015-12-04T11:57:37.702Z</updated>
+    <content type="html"><![CDATA[<div class="shared-img"><br><img src="../..//public/images/HTML.png" alt=""><br></div>
+
+<p>Quando estamos iniciando os estudos na área de Web aprendemos semântica e, as vezes, nem temos noção da importância disso. Aprendemos que cada tag HTML serve para alguma coisa: <strong>&lt;title&gt;</strong> para o título da página (Aquele que aparece na aba do navegador), <strong>&lt;p&gt;</strong> para parágrafos, <strong>&lt;h1,2,3,…&gt;</strong> para títulos do conteúdo, etc.<a id="more"></a><br>Porém, com o tempo, algumas pessoas param de utilizar essas tags e começam a bagunçar tudo! Usam o <strong>h1</strong> pra deixar um texto maior que o outro e não para o título em questão, usam várias tags <strong>p</strong> separando o conteúdo de uma lista em uma div com uma class <em>“list”</em>, por ai vai! Vira uma salada no HTML.<br>Isso é ruim tanto para quem vai ler seu código depois, quanto para buscadores e leitores de tela.</p>
+<h2 id="Qual_a_importância_da_semântica_no_HTML?">Qual a importância da semântica no HTML?</h2><p>A semântica será importante para que o seu conteúdo tenha sentido mesmo que não tenha nenhum estilo visual. Semântica é o significado da coisa! É graças a semântica que sua página vai indexar legal ou não nos buscadores. Não somente por isso, a semântica ajuda na <strong>acessibilidade</strong> de sua página ou aplicação - Ponto que eu acho mais importante.<br>O Crawler do Google não vai ver se sua página está bonitinha, mas vai ler seu HTML e indexar conforme o conteúdo esteja estruturado. Um leitor de tela também não vai ficar falando pra pessoa com necessidades especiais que determinado botão é uma lixeira ou um xiszinho vermelho, mas vai ler as tags e identificar o que você escreveu no atributo <strong>&lt;alt&gt;</strong> e falar para o usuário.<br>Faça um teste: Instale a extensão que eu indiquei <a href="/posts/extensoes-navegador-desenvolvimento-web/" title="Extensões do Navegador para Desenvolvimento Web">nesse artigo</a>, o <a href="https://chrome.google.com/webstore/detail/chromevox/kgejglhpjiefppelpmljglcjbhoiplfn" title="ChromeVox" target="_blank" rel="external">ChromeVox</a> e ative ela para que leia as páginas pra você. Da uma navegada em alguns sites por ai e veja se conseguiria entender de uma forma legal o que o leitor diz.<br>Esses foram só alguns dos tópicos que podemos levantar a respeito da importância da Semântica…</p>
+<h2 id="E_como_escrever_um_HTML_semântico?">E como escrever um HTML semântico?</h2><p>Não é difícil, basta você utilizar as tags para o que elas foram feitas.<br>O HTML serve para <a href="https://www.eventials.com/locaweb/diego-eis-a-semantica-do-html-5/" target="_blank" rel="external">organizar a informação</a>. Use pra isso.<br>Quando for estruturar um documento HTML, analise o Layout e identifique os elementos de conteúdo da interface.</p>
+<p><strong>O que é o que?</strong></p>
+<p>Faça a si perguntas desse tipo quando for estruturar: O que nessa tela se encaixa como um título(H1)? O que se encaixa como um subtítulo(H2)? Onde se encaixa como parágrafo? Como eu posso fazer para que uma pessoa que não enxerga saiba pra que serve esse botão vermelho?<br>Procure envolver o conteúdo com as tags corretas. Caso tenha dúvidas, procure na documentação, pesquise no Google.<br>Garanto que nada é mais recompensador que receber um elogio de um deficiente visual que consegue entender seu conteúdo sem dificuldades.<br>Alguns links úteis para entender sobre semântica:</p>
+<p><a href="http://www.uxdesign.blog.br/padroes-web/html5/entendo-a-estrutura-e-a-semantica-do-html5/" title="A estrutura e a semântica do HTML5" target="_blank" rel="external">A estrutura e a semântica do HTML5 - UXDesign Blog</a></p>
+<p><a href="http://pt.slideshare.net/diegoeis/a-verdadeira-semntica-do-html5" title="A verdadeira semântica do HTML" target="_blank" rel="external">A verdadeira semântica do HTML - Diego Eis</a></p>
+<p><a href="http://desenvolvimentoparaweb.com/html/microdata-api-schema-org-significado-html/" title="Microdata API e Schema.org: dando significado ao HTML" target="_blank" rel="external">Microdata - Desenvolvimento para Web</a></p>
+<p>Espero ter ajudado a entender um pouco mais sobre o assunto e, se você já conhecia e não praticava, te convencido a utilizar as tags da maneira correta! :D<br>Alguma dúvida, link sobre o assunto ou sugestão? Comenta ae!</p>
+]]></content>
+    <summary type="html">
+    <![CDATA[Boas práticas em HTML Semântica. Como escrever HTML direito.]]>
+    
+    </summary>
+    
+      <category term="Boas práticas" scheme="http://woliveiras.com.br/tags/Boas-praticas/"/>
+    
+      <category term="Front End" scheme="http://woliveiras.com.br/tags/Front-End/"/>
+    
+      <category term="HTML" scheme="http://woliveiras.com.br/tags/HTML/"/>
+    
+      <category term="Boas práticas" scheme="http://woliveiras.com.br/categories/Boas-praticas/"/>
+    
+      <category term="Front End" scheme="http://woliveiras.com.br/categories/Boas-praticas/Front-End/"/>
+    
+      <category term="HTML" scheme="http://woliveiras.com.br/categories/Boas-praticas/Front-End/HTML/"/>
     
   </entry>
   
@@ -923,125 +1008,6 @@
       <category term="Dicas" scheme="http://woliveiras.com.br/categories/CSS/Dicas/"/>
     
       <category term="Front End" scheme="http://woliveiras.com.br/categories/CSS/Dicas/Front-End/"/>
-    
-  </entry>
-  
-  <entry>
-    <title><![CDATA[Quanto cobrar pelo Freelance?]]></title>
-    <link href="http://woliveiras.com.br/posts/freelancer-quanto-cobrar-pelo-freelance/"/>
-    <id>http://woliveiras.com.br/posts/freelancer-quanto-cobrar-pelo-freelance/</id>
-    <published>2015-01-12T10:33:25.000Z</published>
-    <updated>2015-12-03T09:24:59.947Z</updated>
-    <content type="html"><![CDATA[<div class="shared-img"><img src="../../public/images/money.jpg" alt="saco de money"></div>
-
-<p>Muita gente, iniciante ou não, tem dúvidas de quanto cobrar por um Freelance…</p>
-<p>A resposta é:<br>Não existe um valor padrão para o Freela!</p>
-<p>Seja projeto pequeno ou grande, que demanda muito tempo ou pouco. É tudo muito variável…<br>Você tem de calcular quanto tempo vai demorar, quanto vai custar sua hora e por ai vai, mas relaxa, vou tentar ajudar aqui.<a id="more"></a></p>
-<h2 id="Primeiro_pesquise_o_Mercado">Primeiro pesquise o Mercado</h2><p>Antes de colocar qualquer preço no seu trampo, analise ao redor o quanto as outras pessoas cobram, pois você pode colocar um valor muito alto para algo que não custa tanto ou um valor muito baixo onde deveria cobrar caro por falta de experiência e conhecimento de Mercado.</p>
-<p>Veja se você tem experiência, também, para pegar aqueles projetos grandes.<br>Se não tem, cuidado. Comece por projetos pequenos e vá pegando os mais pesados gradativamente.</p>
-<h2 id="Antes_de_pegar_o_trampo_estude!_(Ou_aprenda_a_se_organizar)">Antes de pegar o trampo estude! (Ou aprenda a se organizar)</h2><p>Antes de aceitar qualquer trampo - Como eu disse ali em cima - veja se tem capacidade para assumir essa responsabilidade, seja em quesitos de conhecimento técnico ou organização.</p>
-<p>Se você tem muito conhecimento, ótimo, se não tem, procure aprender o máximo. O Freelancer normalmente se vira <strong>sozinho</strong>, portanto é bom que você manje sobre o que você vai fazer.</p>
-<p>Se você já tem conhecimento suficiente para aceitar qualquer trampo, então veja se tem <strong>organização</strong> para cumprir prazos. Se não tem, comece a estudar sobre organização. Conheça ferramentas e metodologias para se organizar.</p>
-<p>Eu, particularmente, curto a metodologia <a href="https://www.scrum.org/" title="Scrum" target="_blank" rel="external">Scrum</a>(Da uma olhada nesse <a href="http://www.casadocodigo.com.br/products/livro-scrum" target="_blank" rel="external">livro</a>, é bem maneiro), uso o <a href="/posts/gerenciar-projetos-com-trello/">Trello</a> para gerenciamento dos projetos e gosto da técnica de <a href="http://pomodorotechnique.com/" target="_blank" rel="external">Pomodoro</a> para ser produtivo.</p>
-<p>Para marcar minhas tarefas, fazer listas e tudo mais eu uso o <a href="https://wunderlist.com/" target="_blank" rel="external">Wunderlist</a>, para datas importantes <a href="https://www.google.com/calendar/" title="Agenda" target="_blank" rel="external">Google Agenda</a> e para armazenar arquivos importantes como contratos, briefings, propostas, etc, uso o <a href="drive.google.com" title="Drive">Google Drive</a>.</p>
-<h2 id="Quanto_custa_sua_hora?">Quanto custa sua hora?</h2><p>Pra se chegar ao valor de um Freela é necessário saber quanto custa sua hora. Existem algumas maneiras de se chegar ao valor final, mas eu vou pular para o jeito mais fácil aqui. Antigamente eu calculava na canetinha pra saber isso, porém conheci o site:</p>
-<p><a href="http://www.minhahora.entreoutros.com/" target="_blank" rel="external">http://www.minhahora.entreoutros.com/</a></p>
-<p>Que nos ajuda a chegar no valor final.<br><strong>Porém seja sensato ao estipular os valores ai ein…</strong></p>
-<h2 id="E_quanto_vai_custar_o_projeto?">E quanto vai custar o projeto?</h2><p>Você deve, agora, estipular quanto tempo vai levar para produzir cada etapa/tela/funcionalidade/etc do projeto.<br>Por exemplo: Sistema de Login (10 horas), Telas (10 telas 2 horas cada), etc.</p>
-<p>Some tudo e veja quantas horas o projeto inteiro vai demorar. Com o valor total de horas que o projeto vai demorar em mãos, multiplique pelo seu valor hora.  Cuidado nessa etapa jovem, se você é iniciante e colocou um valor muito alto na sua hora, seu projeto vai sair bem caro, pois é certeza que você demora mais para produzir determinadas funcionalidades e seu cliente não vai curtir nadinha(;P). Por isso você deve ter bom senso e auto crítica para colocar um valor razoável no calculo. Se você é iniciante e chutou muito alto, avalie a possibilidade de refazer o calculo anterior.</p>
-<p>Ex.: Se sua hora custar 35 <a href="http://pt.wikipedia.org/wiki/Real_%28moeda%29" title="Dilmas" target="_blank" rel="external">Dilmas</a> e o tempo total do projeto chegou a 40 horas, o projeto sairá por 1400 Dilmas! (40 horas * R$ 35,00).</p>
-<h2 id="Um_porém">Um porém</h2><p>Porém, entretanto, toda via, você não colocou ali o custo que vai ter para produzir. Ou seja, não somou com a conta de energia, internet, equipamentos, softwares… Você deve incluir isso no valor total também. Senão esse gasto vai sair somente do seu bolso(Não esquece de colocar o valor do café né meu?).</p>
-<h2 id="E_como_receber?">E como receber?</h2><p>Tem muitas formas de se receber do Cliente, seja por Paypal, Pagseguro, transferência bancária, dinheiro na mão.<br>Sinceramente, não é o meio de pagamento que é o problema nesse momento, mas como você vai receber, pois, nem sempre - Quase nunca - o cliente vai pagar a vista.</p>
-<p><strong>Então como receber?</strong></p>
-<p>Simples: Se você tem um projeto que vai custar 1400. Então você pode querer receber 50% no começo do projeto e 50% no final? (2 x 700 Dilmas)</p>
-<p>Não!!! Não faça isso meu querido! Isso é perigoso…</p>
-<p>Seguindo o exemplo do <a href="http://leandrooriente.com/freelancer-como-cobrar-por-um-freelance/" title="Como cobrar por um freelance" target="_blank" rel="external">Leandro Oriente</a> eu comecei a cobrar por etapas fazendo o seguinte:</p>
-<p>Se eu demoraria 10 horas no Sistema de Login, eu calculo quanto isso vai custar (Seguindo nosso exemplo até agora, 10 horas <em> R$ 35,00) e recebo 50% desse valor antes e 50% desse valor depois de eu terminar <strong>ESSA</strong> etapa do projeto e <em>*não do projeto inteiro</em></em>.</p>
-<p>Como fala no post do Leandro, isso também é bom para que o Cliente vá seguindo cada etapa do projeto e veja que você, realmente, está trabalhando. ;)</p>
-<p>É interessante nessa etapa você conhecer o Scrum, pois pode cobrar por Sprint entregue.</p>
-]]></content>
-    <summary type="html">
-    <![CDATA[Quanto cobrar por um Freelance ou quanto cobrar pela minha hora?]]>
-    
-    </summary>
-    
-      <category term="Dicas" scheme="http://woliveiras.com.br/tags/Dicas/"/>
-    
-      <category term="Freela" scheme="http://woliveiras.com.br/tags/Freela/"/>
-    
-      <category term="Freelance" scheme="http://woliveiras.com.br/tags/Freelance/"/>
-    
-      <category term="Dicas" scheme="http://woliveiras.com.br/categories/Dicas/"/>
-    
-      <category term="Freela" scheme="http://woliveiras.com.br/categories/Dicas/Freela/"/>
-    
-      <category term="Freelance" scheme="http://woliveiras.com.br/categories/Dicas/Freela/Freelance/"/>
-    
-  </entry>
-  
-  <entry>
-    <title><![CDATA[Instalando o Sublime Text no Ubuntu]]></title>
-    <link href="http://woliveiras.com.br/posts/instalando-o-sublime-text-no-ubuntu/"/>
-    <id>http://woliveiras.com.br/posts/instalando-o-sublime-text-no-ubuntu/</id>
-    <published>2015-01-10T21:23:40.000Z</published>
-    <updated>2015-12-03T09:24:59.953Z</updated>
-    <content type="html"><![CDATA[<div class="shared-img"><br><img src="../../public/images/sublime.png" alt="sublime text"><br></div>
-
-<p>Quem me conhece sabe que eu sou um fã do Sublime Text por ele ser um editor excelente com muitos plugins úteis e por isso eu já fiz uma <a href="/posts/usando-o-sublime-text/" title="Usando o Sublime Text">introdução anteriormente</a> sobre o editor e por que eu gosto dele.</p>
-<p>Se você usa Ubuntu ou derivados do Debian, vou ensinar como instalar o editor e configurar sem dor de cabeça. :)<a id="more"></a></p>
-<h2 id="Pelo_Terminal">Pelo Terminal</h2><p>Abra o terminal (Ctrl + Alt + T) e execute o seguinte comando:</p>
-<figure class="highlight smali"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">sudo<span class="instruction"> add-apt-repository </span>ppa:webupd8team/sublime-text-3 &amp;&amp; sudo apt-get update &amp;&amp; sudo apt-get install sublime-text-installer</span><br></pre></td></tr></table></figure>
-<h2 id="Via_pacote_-deb">Via pacote .deb</h2><p>Entre no <a href="http://www.sublimetext.com/" title="Sublime Text" target="_blank" rel="external">site do Sublime Text</a> e clique na arquitetura que utiliza (32 ou 64), após download é só dar um double click em cima do arquivo ou cambiar até a pasta pelo terminal e executar:</p>
-<figure class="highlight matlab"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">sudo dpkg -<span class="built_in">i</span></span><br></pre></td></tr></table></figure>
-<p>Assim que instalar, ele ficará como qualquer editor de textos, limpo. Só vai aparecer o arquivo aberto na tela vazio. Então eu deixei umas dicas maneiras sobre as configurações que eu fiz no meu.</p>
-<h2 id="Barra_Lateral">Barra Lateral</h2><p>Eu sempre coloco a barra lateral exibindo os arquivos abertos. Para isso basta ir em:</p>
-<p><strong>View → Sidebar → Show Open Files</strong></p>
-<p>Quando precisar de espaço na tela, use <strong>Ctrl + K + B</strong> e a barra lateral será ocultada. Se pressionar a mesma sequência de novo a barra volta.</p>
-<h2 id="Configurações_pessoais">Configurações pessoais</h2><p>Clique em <strong>Preferences → Settings – User</strong>. Vai abrir um arquivo de texto com os parâmetros do Sublime. O nome dos parâmetros são auto explicativos, mas se tiver dúvidas pode deixar um comentário que eu te ajudo. O meu está assim:</p>
-<pre><code>{
-  "<span class="attribute">font_face</span>": <span class="value"><span class="string">"Ubuntu"</span></span>,
-  "<span class="attribute">font_size</span>": <span class="value"><span class="number">12</span></span>,
-  "<span class="attribute">bold_folder_labels</span>": <span class="value"><span class="literal">true</span></span>,
-  "<span class="attribute">highlight_line</span>": <span class="value"><span class="literal">true</span></span>,
-  "<span class="attribute">highlight_modified_tabs</span>": <span class="value"><span class="literal">true</span></span>,
-  "<span class="attribute">ignored_packages</span>":
-  <span class="value">[
-    <span class="string">"Vintage"</span>
-  ]</span>,
-  "<span class="attribute">rulers</span>":
-  <span class="value">[
-    <span class="number">90</span>
-  ]</span>,
-  "<span class="attribute">show_full_path</span>": <span class="value"><span class="literal">true</span></span>,
-  "<span class="attribute">tab_size</span>": <span class="value"><span class="number">2</span></span>,
-  "<span class="attribute">translate_tabs_to_spaces</span>": <span class="value"><span class="literal">true</span></span>,
-  "<span class="attribute">trim_trailing_white_space_on_save</span>": <span class="value"><span class="literal">true</span></span>,
-  "<span class="attribute">word_wrap</span>": <span class="value"><span class="literal">true</span></span>,
-  "<span class="attribute">wrap_width</span>": <span class="value"><span class="number">90</span>
-</span>}
-</code></pre><p>Minhas configurações do Sublime estão disponíveis <a href="https://github.com/woliveiras/configs/tree/master/sublimetext" target="_blank" rel="external">aqui</a> também.</p>
-<p>Basta copiar, colar e salvar que as configurações entram em vigor.</p>
-<h2 id="Package_Control">Package Control</h2><p>O Package Control é o cara que vai te auxiliar a instalar plugins no Sublime para que ele fique mais caprichado para você. Para instalar, clique em</p>
-<p><strong>View → Show Console</strong></p>
-<p>Acesse <a href="https://packagecontrol.io/" title="Package Control" target="_blank" rel="external">esse site</a> na guia ‘<strong>Installation</strong>‘ e copie o código para instalação para a versão do Sublime que estiver utilizando.</p>
-<p>Depois da instalação do Package Control é necessário reiniciar o Sublime (Abrir e fechar o editor, não vai reiniciar seu PC não ein!)</p>
-<p>Agora veja essa <a href="/posts/plugins-sublime-text-para-desenvolvimento-web/" title="Plugins maneiros para o Sublime">lista de Plugins maneiros</a> e, se você não clicou no link sobre a introdução lá em cima, clique <a href="/posts/usando-o-sublime-text/" title="Usando o Sublimetext">aqui</a> para conhecer alguns atalhos legais!</p>
-<p>Caso tenha mais alguma dica sobre a instalação do Sublime, deixe ai nos comentários. ;D</p>
-]]></content>
-    <summary type="html">
-    <![CDATA[Como instalar o Sublime Text no Ubuntu]]>
-    
-    </summary>
-    
-      <category term="Configuração do Sublimetext" scheme="http://woliveiras.com.br/tags/Configuracao-do-Sublimetext/"/>
-    
-      <category term="Instalação Sublimetext" scheme="http://woliveiras.com.br/tags/Instalacao-Sublimetext/"/>
-    
-      <category term="Sublimetext" scheme="http://woliveiras.com.br/tags/Sublimetext/"/>
-    
-      <category term="Dicas" scheme="http://woliveiras.com.br/categories/Dicas/"/>
-    
-      <category term="Sublimetext" scheme="http://woliveiras.com.br/categories/Dicas/Sublimetext/"/>
     
   </entry>
   
