@@ -1,7 +1,7 @@
 language: node_js
 branches:
     only:
-        - master
+        - development
 before_install:
     - openssl aes-256-cbc -K $encrypted_82b2539e5ab9_key -iv $encrypted_82b2539e5ab9_iv -in publish-key.enc -out publish-key -d
     - chmod u=rw,og= ~/.ssh/publish-key
