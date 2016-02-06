@@ -6,7 +6,7 @@ categories:
   - Dicas
   - Produtividade
 date: 2015-01-26 06:00:53
-description: Como ser mais produtivo? Como organizar a vida para alcançar os objetivos mais rapidamente? Travis CI
+description: Como ser mais produtivo? Como organizar a vida para alcançar os objetivos mais rapidamente? Teste com Travis CI
 ---
 
 Uma das minhas grandes preocupações na vida é ser prdutivo! Eu gosto de fazer as coisas o mais rápido possível e estou sempre buscando maneiras de automatizar ou organizar as coisas de maneira que eu consiga cada vez mais produtividade.<!--more-->
