@@ -78,5 +78,5 @@ disqus_shortname: woliveiras
 ## Docs: http://hexo.io/docs/deployment.html
 deploy:
   type: git
-  repo: https://github.com/woliveiras/woliveiras.github.io.git
+  repo: git@github.com:woliveiras/woliveiras.github.io.git
   branch: master
