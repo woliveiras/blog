@@ -12,7 +12,7 @@ categories:
   - Travis CI
 description: Utilizando o Travis CI para fazer deploy de blogs com Hexo. Como fazer Deploy com Travis CI e GitHub Pages.
 ---
-Confesso que fiquei tentado a migrar para o [Jekyll (Ruby)](https://jekyllrb.com/) depois que um [amigo](http://jotateles.com.br/) me mostrou que da para postar no blog direto do GitHub sem ter o Jekyll instalado na máquina. Porém eu não desisti do meu queridinho, o [Hexo (feito com Node <3)](http://hexo.io/).
+Confesso que fiquei tentado a migrar para o [Jekyll (Ruby)](https://jekyllrb.com/) depois que um [amigo](http://jotateles.com.br/) me mostrou que da para postar no blog direto do GitHub sem ter o Jekyll instalado na máquina. Porém eu não desisti do meu queridinho, o [Hexo (feito com Node <3)](http://hexo.io/).<!--more-->
 
 *Se você não conhece o Hexo, da uma olhada [nesse artigo](http://woliveiras.com.br/posts/Migrando-de-Wordpress-para-Hexo/).*
 
