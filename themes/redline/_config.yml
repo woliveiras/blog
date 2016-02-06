@@ -1,7 +1,8 @@
 # Header
 menu:
   Home: /
-  Sobre mim: /about
+  Sobre: /about
+  Colabore: /bug-report
 rss: /atom.xml
 
 # Content

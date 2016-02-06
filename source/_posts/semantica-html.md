@@ -8,7 +8,7 @@ categories:
   - Front End
   - HTML
 date: 2015-01-29 10:00:25
-description: Boas práticas em HTML: Semântica. Como escrever HTML direito.
+description: Boas práticas em HTML Semântica. Como escrever HTML direito.
 ---
 <div class="shared-img">
 ![](../..//public/images/HTML.png)
