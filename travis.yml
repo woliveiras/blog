@@ -1,0 +1,17 @@
+language: node_js
+branches:
+  only:
+    - development
+before_install:
+  - openssl aes-256-cbc -K $encrypted_82b2539e5ab9_key -iv $encrypted_82b2539e5ab9_iv -in publish-key.enc -out publish-key -d
+  - chmod u=rw,og= ~/.ssh/publish-key
+  - echo "Host github.com" >> ~/.ssh/config
+  - echo "  IdentityFile ~/.ssh/publish-key" >> ~/.ssh/config
+  - git remote set-url origin git@github.com:woliveiras/woliveiras.github.io.git
+  - git fetch origin -f master:master
+  - npm install -g hexo
+  - npm install
+install:
+  - hexo generate
+script:
+  - hexo deploy --silent
