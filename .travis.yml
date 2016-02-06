@@ -1,19 +1,29 @@
 language: node_js
+
 branches:
   only:
   - development
+
 before_install:
 - npm install -g hexo
+
+install:
 - npm install
+
 before_script:
 - git config --global user.name 'woliveiras'
 - git config --global user.email 'w.oliveira542@gmail.com'
-- sed -i'' "s~git@github.com:woliveiras/woliveiras.github.io.git~https://${GH_TOKEN}:x-oauth-basic@github.com/woliveiras.github.io.git~"
-  _config.yml
-install:
-- hexo generate
+
 script:
-- hexo deploy --silent
-env:
-  global:
-    secure: pMshKO/n3s+8u1CsJ4clsmH3pUan1GGLhlqR9UXpSqg/h4kojsW0O0r1GEh8h0VBU/f8LBYcMg9qCmufNxeCAExD1GTq3aKex5QFlR0I/RULqUaFrqhxSlV3963lA7daXSn1bRr8a6aFUYNzB7nr8C/z8QkzGZbpXnblSWzJRPaTT8FyxaKBiof2g9eYl1gQ+TFHEJ3UOs96EA8zc0cR8zZgpErRslrWieR6Rq8E28n4v3tjazncncJUp+R2nnd7fMvx2sDLLTaJZ7qvC+Y2MsbZqqrx+CbdPFlZF8xe9ni3pdqdkc5iA9m1hDSo5bLFcaikK/MJphMP8MpFTCXgi9DwMRsZ2zmfM8wlMQTxoSv+ux4XVyOi4tbtuIv0tH289HM2Gg/O+gusDFStNHv8iDmUvwA1hOkG9ALi5YPFvqawBtslv4n8NoPNtuNFSzDAyFH1JowUdVzgk1ARxG5+1+camP19HXWwmvoK5PPfcCNi0UTGbOzZkjU3w5g44wrDqOAQQbboiggeewIRYpsuihYqe8xmJszohKJz8lD+acxBuL2iKbGLYbNOV9dY78cF8gSAoqzoIunYtY6dTz0ReREqB815UlbHwILRLOrpThQSkO6OsP8mnnyHhrLuNxI8SAcra8w3NZbVoz2M3xh6Drx/UNZ1Qlmp/ZiNv6kItgs=
+- hexo generate
+
+after_success:
+- mkdir .deploy
+- cd .deploy
+- git clone --depth 1 --branch master --single-branch $DEPLOY . || (git init && git remote add -t master origin $DEPLOY)
+- rm -rf ./*
+- cp -r ../public/* .
+- git add -A .
+- git commit -m 'Site updated'
+- git branch -m master
+- git push -q -u origin master
