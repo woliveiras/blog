@@ -6,7 +6,7 @@ before_install:
 - npm install -g hexo
 - npm install
 before_script:
-- git config --global user.name 'Will via Travis CI'
+- git config --global user.name 'woliveiras'
 - git config --global user.email 'w.oliveira542@gmail.com'
 - sed -i'' "s~git@github.com:woliveiras/woliveiras.github.io.git~https://${GH_TOKEN}:x-oauth-basic@github.com/woliveiras.github.io.git~"
   _config.yml
@@ -16,4 +16,4 @@ script:
 - hexo deploy
 env:
   global:
-  - secure: dxDezMyNbL1D7yjTdFuLS5giwk9JTJgZZ3AAoVPBMUDIi3UJ/Fww3tLpxiI8r+UnSu7lhCo6Pu6koehruDJ8oDPg1jxrZJUpndvKWXlCsN76ySItXcfgDD7XvWN8BXggLGCTqARcIJuvk0TVbJzj+eZvFhtz5Y7mLnDjQr3qbtB30Kl1Y3Oe795blgIHBTDfn3UxjwOOqBKfhrePROfFbfEov3+EfafVWYf38Id/5ljSNm7fYaxaMymBWuQYtvlE7w9hdwhj9kJlPl34MhtAhz3kg2btN0o1VLFi0XU7d2/JnH97a6OtIgfWhzYAvrMWx+CNSs+QNdbkojmt8iicayqqUSOLUhRlFkir4sjRoBYcyQ+Yo+MLbCRxSnu4gMDYsxZZYjyzZ7hVbjB8DpyF3vzVWCUJB62CaFzNLiPgYW9m2nu3fz1Y2O6Ao7CzoLJ9kwzqJeVP5IgwsJ9m671mUJ5Xyhh0e8yh/1jaqzjXvG8IDgbbP82DHBv2Lk6XxBQuBMFSmSgA+yDlZ992W8cyglHxHKwNzYUmyFXWSL1/9W1si3qBWsN0OYGcdqk3RdY5OOybuIqZlJZ4fCH6IJH47oZ45qh4wifxx8hDUX6t8rbjfyG1NQ3b1InmdtnqLC8bJ2ZKfBqaU5jM2KV3Zal55kBISlbkUFW/EL1yqimvz+A=
+    secure: pMshKO/n3s+8u1CsJ4clsmH3pUan1GGLhlqR9UXpSqg/h4kojsW0O0r1GEh8h0VBU/f8LBYcMg9qCmufNxeCAExD1GTq3aKex5QFlR0I/RULqUaFrqhxSlV3963lA7daXSn1bRr8a6aFUYNzB7nr8C/z8QkzGZbpXnblSWzJRPaTT8FyxaKBiof2g9eYl1gQ+TFHEJ3UOs96EA8zc0cR8zZgpErRslrWieR6Rq8E28n4v3tjazncncJUp+R2nnd7fMvx2sDLLTaJZ7qvC+Y2MsbZqqrx+CbdPFlZF8xe9ni3pdqdkc5iA9m1hDSo5bLFcaikK/MJphMP8MpFTCXgi9DwMRsZ2zmfM8wlMQTxoSv+ux4XVyOi4tbtuIv0tH289HM2Gg/O+gusDFStNHv8iDmUvwA1hOkG9ALi5YPFvqawBtslv4n8NoPNtuNFSzDAyFH1JowUdVzgk1ARxG5+1+camP19HXWwmvoK5PPfcCNi0UTGbOzZkjU3w5g44wrDqOAQQbboiggeewIRYpsuihYqe8xmJszohKJz8lD+acxBuL2iKbGLYbNOV9dY78cF8gSAoqzoIunYtY6dTz0ReREqB815UlbHwILRLOrpThQSkO6OsP8mnnyHhrLuNxI8SAcra8w3NZbVoz2M3xh6Drx/UNZ1Qlmp/ZiNv6kItgs=
