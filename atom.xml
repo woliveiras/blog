@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://woliveiras.com.br/"/>
-  <updated>2016-02-06T21:17:33.094Z</updated>
+  <updated>2016-02-06T23:41:13.586Z</updated>
   <id>http://woliveiras.com.br/</id>
   
   <author>
@@ -16,11 +16,86 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>Postando no blog estático direto pelo GitHub com Hexo e Travis CI</title>
+    <link href="http://woliveiras.com.br/posts/postando-no-blog-est%C3%A1tico-direto-pelo-github-com-hexo-e-travis-ci/"/>
+    <id>http://woliveiras.com.br/posts/postando-no-blog-estático-direto-pelo-github-com-hexo-e-travis-ci/</id>
+    <published>2016-02-07T00:00:00.000Z</published>
+    <updated>2016-02-06T23:41:13.586Z</updated>
+    
+    <content type="html">&lt;p&gt;Confesso que fiquei tentado a migrar para o &lt;a href=&quot;https://jekyllrb.com/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Jekyll (Ruby)&lt;/a&gt; depois que um &lt;a href=&quot;http://jotateles.com.br/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;amigo&lt;/a&gt; me mostrou que da para postar no blog direto do GitHub sem ter o Jekyll instalado na máquina. Porém eu não desisti do meu queridinho, o &lt;a href=&quot;http://hexo.io/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Hexo (feito com Node &amp;lt;3)&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;Se você não conhece o Hexo, da uma olhada &lt;a href=&quot;http://woliveiras.com.br/posts/Migrando-de-Wordpress-para-Hexo/&quot;&gt;nesse artigo&lt;/a&gt;.&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;Andei pesquisando sobre como postar no Blog direto pelo GitHub Pages através de outras plataformas e cheguei até &lt;a href=&quot;http://df.python.org.br/blog/github-pages-com-pelican-e-travis-ci/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;esse artigo&lt;/a&gt; do &lt;a href=&quot;http://df.python.org.br/blog/autores/humberto-rocha/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Humberto Rocha&lt;/a&gt; ensinando a usar o Travis CI para rodar o Build do projeto com o &lt;strong&gt;Pelican&lt;/strong&gt;. Quando vi isso logo imaginei que dava para fazer o mesmo com Hexo e poder escrever/revisar direto pelo GitHub. - E dá!&lt;/p&gt;
+&lt;h2 id=&quot;Configurando_o_Travis_CI_reposit_F3rio_do_seu_Blog&quot;&gt;&lt;a href=&quot;#Configurando_o_Travis_CI_reposit_F3rio_do_seu_Blog&quot; class=&quot;headerlink&quot; title=&quot;Configurando o Travis CI repositório do seu Blog&quot;&gt;&lt;/a&gt;Configurando o Travis CI repositório do seu Blog&lt;/h2&gt;&lt;p&gt;Acesse o site do &lt;a href=&quot;https://travis-ci.org/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Travis CI&lt;/a&gt; e habilite para o repositório do seu Blog clicando em &lt;strong&gt;Add new repository&lt;/strong&gt;. - Aquele &lt;strong&gt;+&lt;/strong&gt; do lado de &lt;strong&gt;My repositories&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;http://s13.postimg.org/nbewg0mon/Add_new_repository.png&quot; alt=&quot;Add new repository&quot;&gt;&lt;/p&gt;
+&lt;p&gt;Localize o repositório e ative o Travis CI.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;http://s14.postimg.org/rkepps2ch/Ativando_o_Travis_CI_no_Git_Hub_Pages.png&quot; alt=&quot;Ativando o Travis no GitHub Pages&quot;&gt;&lt;/p&gt;
+&lt;p&gt;Agora acesse as configurações desse repositório clicando na &lt;strong&gt;engrenagem ao lado do nome&lt;/strong&gt; e desabilite a opção de &lt;strong&gt;Build pull requests&lt;/strong&gt; para que o seu Blog não seja atualizado se alguém abrir um &lt;em&gt;Pull Request&lt;/em&gt; e habilite o &lt;strong&gt;Build only if .travis.yml is present&lt;/strong&gt; para que a branch com o travis.yml seja a única a gerar atualizações.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;http://s29.postimg.org/osd8wkcdz/configuracoes_de_build.png&quot; alt=&quot;Configurações de Build&quot;&gt;&lt;/p&gt;
+&lt;h2 id=&quot;Criando_um_token_para_autorizar_o_Travis_CI_a_publicar_no_GitHub&quot;&gt;&lt;a href=&quot;#Criando_um_token_para_autorizar_o_Travis_CI_a_publicar_no_GitHub&quot; class=&quot;headerlink&quot; title=&quot;Criando um token para autorizar o Travis CI a publicar no GitHub&quot;&gt;&lt;/a&gt;Criando um token para autorizar o Travis CI a publicar no GitHub&lt;/h2&gt;&lt;p&gt;Não utilizaremos a chave SSH para o Travis poder acessar o repositório, mas um Token gerado via GitHub mesmo. Para isso acesse &lt;a href=&quot;https://github.com/settings/tokens&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;esse link&lt;/a&gt; e crie um token. No ultimo passo da criação irá aparecer o número que você deve salvar. Anote esse número. &lt;/p&gt;
+&lt;p&gt;Agora volte a tela de configuração do repositório no Travis (aquela engrenagem do lado do nome do repositório) e configure a opção &lt;strong&gt;Environment Variables&lt;/strong&gt; com o seguinte:&lt;/p&gt;
+&lt;p&gt;Em &lt;em&gt;name&lt;/em&gt; deixe: &lt;strong&gt;DEPLOY_REPO&lt;/strong&gt;.&lt;/p&gt;
+&lt;p&gt;E em &lt;em&gt;value&lt;/em&gt; coloque: &lt;a href=&quot;https://**O&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;https://**O&lt;/a&gt; TOKEN DO GITHUB&lt;strong&gt;@github.com/&lt;/strong&gt;USUÁRIO NO GITHUB&lt;strong&gt;/&lt;/strong&gt;REPOSITORIO DO BLOG**.git&lt;/p&gt;
+&lt;p&gt;Isso fará com que exista uma variável de ambiente no sistema operacional chamada DEPLOY_REPO que utilizaremos para o Build com o token do GitHub. Isso vai garantir a segurança do repositório para que outras pessoas não possam gerar o build.&lt;/p&gt;
+&lt;p&gt;O nome dessa variável pode ser diferente, de acordo com o que achar mais semantico ou melhor, basta alterar as próximas confiurações para o nome que você colocou.&lt;/p&gt;
+&lt;h2 id=&quot;Configura_E7_E3o_do_-travis-yml_para_o_Blog&quot;&gt;&lt;a href=&quot;#Configura_E7_E3o_do_-travis-yml_para_o_Blog&quot; class=&quot;headerlink&quot; title=&quot;Configuração do .travis.yml para o Blog&quot;&gt;&lt;/a&gt;Configuração do .travis.yml para o Blog&lt;/h2&gt;&lt;p&gt;No seu projeto, adicione o arquivo &lt;strong&gt;.travis.yml&lt;/strong&gt; com as seguintes configurações, substituindo onde é necessário:&lt;/p&gt;
+&lt;figure class=&quot;highlight http&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;3&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;4&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;5&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;6&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;7&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;8&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;9&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;10&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;11&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;12&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;13&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;14&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;15&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;16&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;17&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;18&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;19&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;20&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;21&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;22&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;23&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;24&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;25&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;26&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;27&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;28&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;29&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;30&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;31&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;32&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;33&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;attribute&quot;&gt;language&lt;/span&gt;: &lt;span class=&quot;string&quot;&gt;node_js&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;haml&quot;&gt;# Adicione a branch onde está a instalação do Hexo&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;branches:&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;  only:&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;  -&lt;span class=&quot;ruby&quot;&gt; &lt;span class=&quot;constant&quot;&gt;BRANCH&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;before_install:&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;-&lt;span class=&quot;ruby&quot;&gt; npm install -g hexo&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;install:&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;-&lt;span class=&quot;ruby&quot;&gt; npm install&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;# Configure seu nome de usuário e e-mail&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;before_script:&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;-&lt;span class=&quot;ruby&quot;&gt; git config --global user.name &lt;span class=&quot;string&quot;&gt;&#39;SEU NOME DE USUARIO&#39;&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;/span&gt;-&lt;span class=&quot;ruby&quot;&gt; git config --global user.email &lt;span class=&quot;string&quot;&gt;&#39;SEU EMAIL&#39;&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;script:&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;-&lt;span class=&quot;ruby&quot;&gt; hexo generate&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;# Configure a Branch a ser feito o deploy&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;after_success:&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;-&lt;span class=&quot;ruby&quot;&gt; mkdir .deploy&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;/span&gt;-&lt;span class=&quot;ruby&quot;&gt; cd .deploy&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;/span&gt;-&lt;span class=&quot;ruby&quot;&gt; git clone --depth &lt;span class=&quot;number&quot;&gt;1&lt;/span&gt; --branch &lt;span class=&quot;constant&quot;&gt;BRANCH&lt;/span&gt; --single-branch &lt;span class=&quot;variable&quot;&gt;$DEPLOY_REPO&lt;/span&gt; . || (git init &amp;amp;&amp;amp; git remote add -t &lt;span class=&quot;constant&quot;&gt;BRANCH&lt;/span&gt; origin &lt;span class=&quot;variable&quot;&gt;$DEPLOY_REPO&lt;/span&gt;)&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;/span&gt;-&lt;span class=&quot;ruby&quot;&gt; rm -rf ./*&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;/span&gt;-&lt;span class=&quot;ruby&quot;&gt; cp -r ../public/* .&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;/span&gt;-&lt;span class=&quot;ruby&quot;&gt; git add -&lt;span class=&quot;constant&quot;&gt;A&lt;/span&gt; .&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;/span&gt;-&lt;span class=&quot;ruby&quot;&gt; git commit -m &lt;span class=&quot;string&quot;&gt;&#39;Site updated&#39;&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;/span&gt;-&lt;span class=&quot;ruby&quot;&gt; git branch -m &lt;span class=&quot;constant&quot;&gt;BRANCH&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;/span&gt;-&lt;span class=&quot;ruby&quot;&gt; git push -q -u origin &lt;span class=&quot;constant&quot;&gt;BRANCH&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+&lt;p&gt;Recomendo que você use um arquivo &lt;a href=&quot;http://woliveiras.com.br/posts/utilizando-versoes-antigas-do-nodejs/&quot;&gt;.nvmrc&lt;/a&gt; com a versão do Node em que está rodando o Hexo. O Travis irá reconhecer isso automaticamente e vai setar a versão escolhida na hora do build. Isso vai previnir alguma atualização do Node no servidor do Travis que quebre o build.&lt;/p&gt;
+&lt;p&gt;Agora configure o Hexo para fazer o deploy com seu usuário via Token com a seguinte linha no arquivo &lt;strong&gt;_config.yml&lt;/strong&gt; do seu Blog, substituindo onde for necessário:&lt;/p&gt;
+&lt;figure class=&quot;highlight less&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;3&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;4&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;attribute&quot;&gt;deploy&lt;/span&gt;:&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;  &lt;span class=&quot;attribute&quot;&gt;type&lt;/span&gt;: git&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;  &lt;span class=&quot;attribute&quot;&gt;repo&lt;/span&gt;: git&lt;span class=&quot;variable&quot;&gt;@github&lt;/span&gt;.&lt;span class=&quot;attribute&quot;&gt;com&lt;/span&gt;:USUARIO/REPOSITORIO.git&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;  &lt;span class=&quot;attribute&quot;&gt;branch&lt;/span&gt;: BRANCH&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+&lt;p&gt;Para que o deploy para o GitHub aconteça, será necessário instalar, caso ainda não tenha feito, o plugin que faz o deploy com o seguinte comando:&lt;/p&gt;
+&lt;figure class=&quot;highlight q&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;npm install hexo-deployer-git --&lt;span class=&quot;built_in&quot;&gt;save&lt;/span&gt;-&lt;span class=&quot;built_in&quot;&gt;dev&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+&lt;p&gt;Isso vai atualizar seu &lt;strong&gt;package.json&lt;/strong&gt; com a dependência que será instalada no servidor de integração do Travis durante a execução do build.&lt;/p&gt;
+&lt;h2 id=&quot;Salvando_tudo_e_subindo_para_o_GitHub&quot;&gt;&lt;a href=&quot;#Salvando_tudo_e_subindo_para_o_GitHub&quot; class=&quot;headerlink&quot; title=&quot;Salvando tudo e subindo para o GitHub&quot;&gt;&lt;/a&gt;Salvando tudo e subindo para o GitHub&lt;/h2&gt;&lt;p&gt;Você vai salvar os arquivos:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;.travis.yml&lt;/li&gt;
+&lt;li&gt;_config.yml&lt;/li&gt;
+&lt;li&gt;packages.json&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Portanto execute:&lt;/p&gt;
+&lt;figure class=&quot;highlight stylus&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;3&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;git add &lt;span class=&quot;class&quot;&gt;.travis&lt;/span&gt;&lt;span class=&quot;class&quot;&gt;.yml&lt;/span&gt; _config&lt;span class=&quot;class&quot;&gt;.yml&lt;/span&gt; packages&lt;span class=&quot;class&quot;&gt;.json&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;git commit -m “Add travis integration”&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;git push&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+&lt;p&gt;Agora observe no site do Travis que ele ficará configurado para fazer o build do projeto.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;http://s7.postimg.org/exqnlxcgr/travis_configurado.png&quot; alt=&quot;Travis configurado&quot;&gt;&lt;/p&gt;
+&lt;p&gt;Esse post foi para produção via deploy com o Travis! ;D&lt;/p&gt;
+&lt;p&gt;Caso ainda fique dúvidas, de uma olhada no &lt;a href=&quot;https://github.com/woliveiras/woliveiras.github.io/tree/development&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;meu repositório&lt;/a&gt; ou deixe um comentário. &lt;/p&gt;
+&lt;p&gt;Compartilhe a palavra.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Referencia:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://github.com/jkeylu/deploy-hexo-site-by-travis-ci/blob/master/_travis.yml&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;https://github.com/jkeylu/deploy-hexo-site-by-travis-ci/blob/master/_travis.yml&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://df.python.org.br/blog/github-pages-com-pelican-e-travis-ci/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;http://df.python.org.br/blog/github-pages-com-pelican-e-travis-ci/&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</content>
+    
+    <summary type="html">
+    
+      Utilizando o Travis CI para fazer deploy de blogs com Hexo. Como fazer Deploy com Travis CI e GitHub Pages.
+    
+    </summary>
+    
+      <category term="Hexo" scheme="http://woliveiras.com.br/categories/Hexo/"/>
+    
+      <category term="Blog" scheme="http://woliveiras.com.br/categories/Hexo/Blog/"/>
+    
+      <category term="Travis CI" scheme="http://woliveiras.com.br/categories/Hexo/Blog/Travis-CI/"/>
+    
+    
+      <category term="Blog" scheme="http://woliveiras.com.br/tags/Blog/"/>
+    
+      <category term="Continuous Integration" scheme="http://woliveiras.com.br/tags/Continuous-Integration/"/>
+    
+      <category term="Dicas" scheme="http://woliveiras.com.br/tags/Dicas/"/>
+    
+      <category term="Hexo" scheme="http://woliveiras.com.br/tags/Hexo/"/>
+    
+      <category term="Travis CI" scheme="http://woliveiras.com.br/tags/Travis-CI/"/>
+    
+  </entry>
+  
+  <entry>
     <title>Um ano (ou um pouco mais) como desenvolvedor Front End</title>
     <link href="http://woliveiras.com.br/posts/um-ano-como-desenvolvedor-front-end/"/>
     <id>http://woliveiras.com.br/posts/um-ano-como-desenvolvedor-front-end/</id>
     <published>2015-12-01T12:00:00.000Z</published>
-    <updated>2016-02-06T21:17:33.094Z</updated>
+    <updated>2016-02-06T23:41:13.586Z</updated>
     
     <content type="html">&lt;div class=&quot;shared-img&quot;&gt;&lt;br&gt;&lt;img src=&quot;../..//public/images/web-developer.jpg&quot; alt=&quot;&quot;&gt;&lt;br&gt;&lt;/div&gt;
 
@@ -72,7 +147,7 @@
     <link href="http://woliveiras.com.br/posts/corrigindo-permissoes-de-usuario-linux-npm/"/>
     <id>http://woliveiras.com.br/posts/corrigindo-permissoes-de-usuario-linux-npm/</id>
     <published>2015-09-12T13:00:00.000Z</published>
-    <updated>2016-02-06T21:17:33.094Z</updated>
+    <updated>2016-02-06T23:41:13.586Z</updated>
     
     <content type="html">&lt;div class=&quot;shared-img&quot;&gt;&lt;br&gt;&lt;img src=&quot;../../public/images/npm.svg&quot; alt=&quot;&quot;&gt;&lt;br&gt;&lt;/div&gt;
 
@@ -115,7 +190,7 @@
     <link href="http://woliveiras.com.br/posts/utilizando-versoes-antigas-do-nodejs/"/>
     <id>http://woliveiras.com.br/posts/utilizando-versoes-antigas-do-nodejs/</id>
     <published>2015-09-12T08:00:32.000Z</published>
-    <updated>2016-02-06T21:17:33.094Z</updated>
+    <updated>2016-02-06T23:41:13.586Z</updated>
     
     <content type="html">&lt;div class=&quot;shared-img&quot;&gt;&lt;br&gt;&lt;img src=&quot;../..//public/images/nodejs.png&quot; alt=&quot;&quot;&gt;&lt;br&gt;&lt;/div&gt;
 
@@ -200,7 +275,7 @@
     <link href="http://woliveiras.com.br/posts/twitter-bootstrap-bootstrap-do-jeito-certo/"/>
     <id>http://woliveiras.com.br/posts/twitter-bootstrap-bootstrap-do-jeito-certo/</id>
     <published>2015-09-09T01:00:00.000Z</published>
-    <updated>2016-02-06T21:17:33.094Z</updated>
+    <updated>2016-02-06T23:41:13.586Z</updated>
     
     <content type="html">&lt;p&gt;Muita gente critica o uso do &lt;a href=&quot;http://getbootstrap.com/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Twitter Bootstrap&lt;/a&gt; devido a nomenclatura de suas classes e aos muitos componentes que o framework possui.&lt;/p&gt;
 &lt;p&gt;Dizem que as classes não são semanticas e que o peso do framework é desnecessário.&lt;/p&gt;
@@ -283,7 +358,7 @@
     <link href="http://woliveiras.com.br/posts/Migrando-de-Wordpress-para-Hexo/"/>
     <id>http://woliveiras.com.br/posts/Migrando-de-Wordpress-para-Hexo/</id>
     <published>2015-08-05T02:53:41.000Z</published>
-    <updated>2016-02-06T21:17:33.090Z</updated>
+    <updated>2016-02-06T23:41:13.586Z</updated>
     
     <content type="html">&lt;p&gt;&lt;div class=&quot;shared-img&quot;&gt;&lt;br&gt;&lt;img src=&quot;../../public/images/hexo-logo.png&quot; alt=&quot;Hexo Blog&quot;&gt;&lt;br&gt;&lt;/div&gt;A um bom tempo sinto vontade de mudar meu Blog de WordPress para uma plataforma de  conteúdo estático, mas não achava nenhuma alternativa, pois que queria usar Nodejs. Por isso não fui para o, muito usado na comunidade, &lt;a href=&quot;http://jekyllrb.com/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Jekyll(Ruby)&lt;/a&gt; , nem para o &lt;a href=&quot;http://blog.getpelican.com/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Pelican(Python &amp;lt;3)&lt;/a&gt;.&lt;a id=&quot;more&quot;&gt;&lt;/a&gt;&lt;br&gt;Em busca de uma alternativa encontrei o &lt;a href=&quot;https://hexo.io&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Hexo&lt;/a&gt; e, um pouco depois de eu conhecer essa plataforma, o &lt;a href=&quot;http://blog.da2k.com.br/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Daciuk&lt;/a&gt; escreveu um &lt;a href=&quot;http://blog.da2k.com.br/2014/01/05/hexo-criando-um-blog-ao-estilo-miojo/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;post&lt;/a&gt; muito maneiro incentivando o seu uso. Foi então que eu decidi de vez usar essa plataforma!&lt;br&gt;Bora conhecer ela e como foi a migração de WordPress para Hexo?&lt;/p&gt;
 &lt;p&gt;###Levantando as necessidades&lt;/p&gt;
@@ -338,7 +413,7 @@
     <link href="http://woliveiras.com.br/posts/frameworks-front-end/"/>
     <id>http://woliveiras.com.br/posts/frameworks-front-end/</id>
     <published>2015-03-05T00:18:46.000Z</published>
-    <updated>2016-02-06T21:17:33.094Z</updated>
+    <updated>2016-02-06T23:41:13.586Z</updated>
     
     <content type="html">&lt;p&gt;Já parou pra pensar quantas vezes você repete o mesmo código durante o Desenvolvimento, seja Web, Mobile ou Desktop? Já pensou em padronizar o que você faz de alguma maneira?&lt;br&gt;E pra você que é Gerente de Projetos, Líder ou algo do tipo: Já pensou em poder adicionar um membro no seu grupo  e ele já saber como funciona o Desenvolvimento nessa equipe e conseguir ser produtivo desde o princípio?&lt;br&gt;Pois é, Frameworks servem para isso… Vem comigo que vou explicar melhor. ;)&lt;a id=&quot;more&quot;&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;h2 id=&quot;O_que_s_E3o_Frameworks_3F&quot;&gt;&lt;a href=&quot;#O_que_s_E3o_Frameworks_3F&quot; class=&quot;headerlink&quot; title=&quot;O que são Frameworks?&quot;&gt;&lt;/a&gt;O que são Frameworks?&lt;/h2&gt;&lt;p&gt;Você pega aqueles códigos que se repetem entre os projetos, adiciona uma pitada de &lt;a href=&quot;http://pt.wikipedia.org/wiki/Padr%C3%A3o_de_projeto_de_software&quot; title=&quot;Wikipedia - Padrões de Projetos&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Padrões&lt;/a&gt;, deixa conforme sua equipe precisa ou &lt;a href=&quot;http://tableless.com.br/locaweb-style-como-iniciamos/&quot; title=&quot;Locaweb Style - Framework Front End da Locaweb&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;conforme sua empresa trabalha&lt;/a&gt;, empacota tudo isso pra poder reutilizar depois e pronto, criou um Framework!&lt;br&gt;Só isso? Sim, só isso… Framework é uma ferramenta com os códigos, padrões, etc, que você consegue utilizar pra resolver problemas que se repetem ou mesmo pra iniciar projetos que vão possuir as mesmas características seja no Front, Back End ou mesmo para &lt;a href=&quot;https://github.com/woliveiras/pastel&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Tooling(Ferramentas)&lt;/a&gt;. Quando você utiliza um Framework como base, pode somente baixar ele, configurar ou instalar e seguir dali para as necessidades específicas de cada projeto. Isso mata muito tempo que você perderia fazendo algo que sabe que vai repetir no próximo trabalho.&lt;/p&gt;
@@ -388,7 +463,7 @@
     <link href="http://woliveiras.com.br/posts/contribuindo-para-projetos-open-source-no-github-mesmo-sendo-iniciante/"/>
     <id>http://woliveiras.com.br/posts/contribuindo-para-projetos-open-source-no-github-mesmo-sendo-iniciante/</id>
     <published>2015-02-09T14:12:32.000Z</published>
-    <updated>2016-02-06T21:17:33.094Z</updated>
+    <updated>2016-02-06T23:41:13.586Z</updated>
     
     <content type="html">&lt;div class=&quot;shared-img&quot;&gt;&lt;br&gt;&lt;img src=&quot;../../public/images/github.gif&quot; alt=&quot;&quot;&gt;&lt;br&gt;&lt;/div&gt;
 
@@ -432,7 +507,7 @@
     <link href="http://woliveiras.com.br/posts/haroopad-um-editor-markdown-maneiro/"/>
     <id>http://woliveiras.com.br/posts/haroopad-um-editor-markdown-maneiro/</id>
     <published>2015-02-09T12:53:56.000Z</published>
-    <updated>2016-02-06T21:17:33.094Z</updated>
+    <updated>2016-02-06T23:41:13.586Z</updated>
     
     <content type="html">&lt;div class=&quot;shared-img&quot;&gt;&lt;br&gt;&lt;img src=&quot;../..//public/images/Haroopad.png&quot; alt=&quot;&quot;&gt;&lt;br&gt;&lt;/div&gt;
 
@@ -485,7 +560,7 @@
     <link href="http://woliveiras.com.br/posts/como-detectar-o-dispositivo-que-acessa-seu-site/"/>
     <id>http://woliveiras.com.br/posts/como-detectar-o-dispositivo-que-acessa-seu-site/</id>
     <published>2015-02-03T18:47:41.000Z</published>
-    <updated>2016-02-06T21:17:33.094Z</updated>
+    <updated>2016-02-06T23:41:13.586Z</updated>
     
     <content type="html">&lt;p&gt;Uma dica rápida para quem trabalha com diversos tipos de dispositivos!&lt;/p&gt;
 &lt;p&gt;Dependendo do projeto em que você está trabalhando, pode chegar a necessidade de detectar qual é o tipo de dispositivo que está acessando o site/aplicação/sistema, etc. As vezes isso é feito para redirecionar o usuário para uma outra versão do projeto, as vezes simplesmente para ativar uma funcionalidade ou não.&lt;a id=&quot;more&quot;&gt;&lt;/a&gt;&lt;/p&gt;
@@ -516,7 +591,7 @@
     <link href="http://woliveiras.com.br/posts/aprenda-trabalhar-em-equipes/"/>
     <id>http://woliveiras.com.br/posts/aprenda-trabalhar-em-equipes/</id>
     <published>2015-01-30T08:00:51.000Z</published>
-    <updated>2016-02-06T21:17:33.094Z</updated>
+    <updated>2016-02-06T23:41:13.586Z</updated>
     
     <content type="html">&lt;p&gt;Como eu disse em &lt;a href=&quot;/posts/requisitos-para-vagas-front-end/&quot; title=&quot;Sobre os requisitos para vagas de emprego Front End (E outras áreas também)&quot;&gt;um post anterior&lt;/a&gt;, você não vai trabalhar sozinho a vida toda. Chega uma hora em que é preciso trabalhar em equipes, interagir com outras pessoas e é necessário que você aprenda isso. Mesmo que você trabalhe em casa, vai precisar enviar seu projeto para outras pessoas.&lt;br&gt;Existem algumas boas medidas para conseguir trabalhar bem em grandes ou pequenas equipes…&lt;a id=&quot;more&quot;&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;h2 id=&quot;Organiza_E7_E3o&quot;&gt;&lt;a href=&quot;#Organiza_E7_E3o&quot; class=&quot;headerlink&quot; title=&quot;Organização&quot;&gt;&lt;/a&gt;Organização&lt;/h2&gt;&lt;p&gt;As pastas que você cria para organizar seu projeto devem possuir nomes que auxiliem a entender o que tem dentro. Não somente as pastas, os nomes dos arquivos também devem ter algum significado.&lt;br&gt;Não crie uma pasta com o nome &lt;strong&gt;scripts&lt;/strong&gt; e coloque todos os .styl, .js, .html, .php, .rb, etc, ali dentro, mas crie uma organização ou siga alguma.&lt;br&gt;Isso serve até mesmo para que você se encontre mais fácil no seu projeto.&lt;br&gt;Trabalhar com outras pessoas não é a mesma coisa de ser criança e a mãe arrumar seu quarto… Você tem de se organizar e outras pessoas tem de entender sua organização.&lt;br&gt;Da uma olhada aqui no meu &lt;a href=&quot;https://github.com/woliveiras/pastel&quot; title=&quot;Pastel | um pequeno Boilerplate que eu criei para agilizar meus projetos&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Scaffold &lt;/a&gt;e veja como eu organizei os arquivos - É um exemplo beeeem básico, mas da para ter uma noção…&lt;br&gt;A forma como escreve seu código também faz diferença e vou falar disso agora!&lt;/p&gt;
@@ -567,7 +642,7 @@
     <link href="http://woliveiras.com.br/posts/semantica-html/"/>
     <id>http://woliveiras.com.br/posts/semantica-html/</id>
     <published>2015-01-29T12:00:25.000Z</published>
-    <updated>2016-02-06T21:17:33.094Z</updated>
+    <updated>2016-02-06T23:41:13.586Z</updated>
     
     <content type="html">&lt;div class=&quot;shared-img&quot;&gt;&lt;br&gt;&lt;img src=&quot;../..//public/images/HTML.png&quot; alt=&quot;&quot;&gt;&lt;br&gt;&lt;/div&gt;
 
@@ -608,7 +683,7 @@
     <link href="http://woliveiras.com.br/posts/gerenciar-projetos-com-trello/"/>
     <id>http://woliveiras.com.br/posts/gerenciar-projetos-com-trello/</id>
     <published>2015-01-28T02:00:07.000Z</published>
-    <updated>2016-02-06T21:17:33.094Z</updated>
+    <updated>2016-02-06T23:41:13.586Z</updated>
     
     <content type="html">&lt;div class=&quot;shared-img&quot;&gt;&lt;br&gt;&lt;img src=&quot;../../public/images/Trello.png&quot; alt=&quot;Trello&quot;&gt;&lt;/div&gt;
 
@@ -671,7 +746,7 @@
     <link href="http://woliveiras.com.br/posts/como-alcancar-objetivos-rapidamente-nos-estudos/"/>
     <id>http://woliveiras.com.br/posts/como-alcancar-objetivos-rapidamente-nos-estudos/</id>
     <published>2015-01-27T07:00:32.000Z</published>
-    <updated>2016-02-06T21:17:33.094Z</updated>
+    <updated>2016-02-06T23:41:13.586Z</updated>
     
     <content type="html">&lt;p&gt;Essa é mais uma dica sobre produtividade, porém agora é nos estudos.&lt;br&gt;Nós, Desenvolvedores, temos de estudar muito. Todo dia alguma ferramenta atualiza ou algo vira tendência e passa a ser usado no serviço e temos de aprender. E como fazer para aprender tudo isso sem ficar louco e de um jeito que consiga alcançar os objetivos mais rapidamente?&lt;a id=&quot;more&quot;&gt;&lt;/a&gt;&lt;br&gt;Se você não leu meu post anterior sobre produtividade da uma olhada &lt;a href=&quot;/posts/como-ser-mais-produtivo/&quot; title=&quot;Como ser mais produtivo?&quot;&gt;aqui&lt;/a&gt;.&lt;/p&gt;
 &lt;h2 id=&quot;Listas_de_novo&quot;&gt;&lt;a href=&quot;#Listas_de_novo&quot; class=&quot;headerlink&quot; title=&quot;Listas de novo&quot;&gt;&lt;/a&gt;Listas de novo&lt;/h2&gt;&lt;p&gt;Eu aprendi que fazer listas para tudo é uma ótima maneira de você ter certeza que vai concluir algo. Parece que você se obriga a fazer aquilo e se apagar da lista sem concluir parece um pecado! No caso de estudos não é diferente.&lt;/p&gt;
@@ -736,7 +811,7 @@
     <link href="http://woliveiras.com.br/posts/o-que-e-linguagem-de-programacao-de-alto-nivel/"/>
     <id>http://woliveiras.com.br/posts/o-que-e-linguagem-de-programacao-de-alto-nivel/</id>
     <published>2015-01-27T03:51:01.000Z</published>
-    <updated>2016-02-06T21:17:33.094Z</updated>
+    <updated>2016-02-06T23:41:13.586Z</updated>
     
     <content type="html">&lt;p&gt;Se você vem seguindo o mesmo &lt;a href=&quot;http://woliveiras.com.br/posts/guia-de-estudos-desenvolvedor-front-end-iniciante&quot;&gt;guia de estudos&lt;/a&gt;, vai chegar uma hora em que vai partir pro JavaScript e mais cedo ou mais tarde vai se aprofundar ainda mais em programação e é aí que você ouve alguns termos meio confusos como esse:&lt;/p&gt;
 &lt;p&gt;&lt;em&gt;JavaScript é uma linguagem de programação de alto nível.&lt;/em&gt;&lt;/p&gt;
@@ -785,7 +860,7 @@
     <link href="http://woliveiras.com.br/posts/como-ser-mais-produtivo/"/>
     <id>http://woliveiras.com.br/posts/como-ser-mais-produtivo/</id>
     <published>2015-01-26T08:00:53.000Z</published>
-    <updated>2016-02-06T21:17:33.094Z</updated>
+    <updated>2016-02-06T23:41:13.586Z</updated>
     
     <content type="html">&lt;p&gt;Uma das minhas grandes preocupações na vida é ser prdutivo! Eu gosto de fazer as coisas o mais rápido possível e estou sempre buscando maneiras de automatizar ou organizar as coisas de maneira que eu consiga cada vez mais produtividade.&lt;a id=&quot;more&quot;&gt;&lt;/a&gt;&lt;br&gt;Durante algum tempo fui testando várias abordagens e técnicas de produtividade. Técnicas que podem ser aplicadas no serviço, para estudos ou mesmo para cumprir tarefas do cotidiano(Como lembrar de pagar uma conta ou do que precisa comprar no mercado).&lt;br&gt;Segue algumas dicas do que melhor funcionou pra mim até agora.&lt;/p&gt;
 &lt;h2 id=&quot;Fa_E7a_listas&quot;&gt;&lt;a href=&quot;#Fa_E7a_listas&quot; class=&quot;headerlink&quot; title=&quot;Faça listas&quot;&gt;&lt;/a&gt;Faça listas&lt;/h2&gt;&lt;p&gt;Eu faço listas com as tarefas que tenho de cumprir e, de acordo com que termino a tarefa, a marco como concluída ou apago da lista.&lt;br&gt;Para isso utilizo um aplicativo que da pra usar tanto no PC, quanto no Celular: O &lt;a href=&quot;https://www.wunderlist.com/pt/&quot; title=&quot;Wunderlist&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Wunderlist&lt;/a&gt;.&lt;br&gt;Nele eu separo o que é projeto pessoal, o que é projeto profissional e até o que eu estou estudando/planejo estudar por pastas e nessas pastas coloco os tópicos. De acordo com que vou concluindo, marco como concluído e pronto! A tarefa fica riscadinha e oculta na lista.&lt;/p&gt;
@@ -818,7 +893,7 @@
     <link href="http://woliveiras.com.br/posts/requisitos-para-vagas-front-end/"/>
     <id>http://woliveiras.com.br/posts/requisitos-para-vagas-front-end/</id>
     <published>2015-01-23T10:00:19.000Z</published>
-    <updated>2016-02-06T21:17:33.094Z</updated>
+    <updated>2016-02-06T23:41:13.586Z</updated>
     
     <content type="html">&lt;p&gt;Quantas vezes não nos deparamos com as seguintes dúvidas:&lt;/p&gt;
 &lt;ul&gt;
@@ -871,7 +946,7 @@
     <link href="http://woliveiras.com.br/posts/extensoes-navegador-desenvolvimento-web/"/>
     <id>http://woliveiras.com.br/posts/extensoes-navegador-desenvolvimento-web/</id>
     <published>2015-01-22T13:00:31.000Z</published>
-    <updated>2016-02-06T21:17:33.094Z</updated>
+    <updated>2016-02-06T23:41:13.586Z</updated>
     
     <content type="html">&lt;p&gt;Sou fã de produtividade e, por isso, utilizo várias ferramentas que me auxiliam a ser mais produtivo - Vou citar outras em futuras postagens ;). Algumas delas são extensões para o Navegador, no meu caso o Chrome/Firefox, que eu uso o tempo todo para testes. Nesse post vou citar algumas extensões muito boas para desenvolvimento Front End&lt;a id=&quot;more&quot;&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;&lt;em&gt;Para instalar alguma você pode clicar direto no sub-título e será direcionado para a Chrome Web Store. Se você estiver utilizando o Firefox, só pesquisar o nome dela no menu de instalação de Addons.&lt;/em&gt;&lt;/p&gt;
@@ -934,7 +1009,7 @@
     <link href="http://woliveiras.com.br/posts/como-deixar-o-ubuntu-mais-rapido/"/>
     <id>http://woliveiras.com.br/posts/como-deixar-o-ubuntu-mais-rapido/</id>
     <published>2015-01-19T07:00:19.000Z</published>
-    <updated>2016-02-06T21:17:33.094Z</updated>
+    <updated>2016-02-06T23:41:13.586Z</updated>
     
     <content type="html">&lt;div class=&quot;shared-img&quot;&gt;&lt;br&gt;&lt;img src=&quot;../..//public/images/ubuntu.png&quot; alt=&quot;&quot;&gt;&lt;br&gt;&lt;/div&gt;
 
@@ -1007,7 +1082,7 @@
     <link href="http://woliveiras.com.br/posts/meu-contato-com-o-linux-e-por-que-voce-deveria-testar/"/>
     <id>http://woliveiras.com.br/posts/meu-contato-com-o-linux-e-por-que-voce-deveria-testar/</id>
     <published>2015-01-16T12:10:25.000Z</published>
-    <updated>2016-02-06T21:17:33.094Z</updated>
+    <updated>2016-02-06T23:41:13.586Z</updated>
     
     <content type="html">&lt;div class=&quot;shared-img&quot;&gt;&lt;br&gt;&lt;img src=&quot;../../public/images/linux-icon.png&quot; alt=&quot;Linux&quot;&gt;&lt;br&gt;&lt;/div&gt;
 
@@ -1054,47 +1129,6 @@
       <category term="Dicas" scheme="http://woliveiras.com.br/tags/Dicas/"/>
     
       <category term="Linux" scheme="http://woliveiras.com.br/tags/Linux/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>CSS Reset de várias maneiras</title>
-    <link href="http://woliveiras.com.br/posts/css-reset-de-varias-maneiras/"/>
-    <id>http://woliveiras.com.br/posts/css-reset-de-varias-maneiras/</id>
-    <published>2015-01-15T12:00:20.000Z</published>
-    <updated>2016-02-06T21:17:33.094Z</updated>
-    
-    <content type="html">&lt;p&gt;Todo elemento HTML tem um estilo padrão que é injetado pelo Browser. O legal é que não existe um padrão entre eles. O Chrome tem seu estilo, o Firefox tem o dele, o Safari e Opera também… &lt;a id=&quot;more&quot;&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;Isso pode gerar incompatibilidade com o CSS que você escreve. As vezes você coloca um espaço aqui, outro ali e quando abre no IE vê que está tudo bagunçado!&lt;/p&gt;
-&lt;p&gt;O CSS Reset é uma técnica que serve para evitar esse problema. Você remove ou seta valores para as propriedades dos elementos conforme necessário. Existem várias formas de se fazer um CSS Reset. Vou citar algumas que eu já utilizei.&lt;/p&gt;
-&lt;h5 id=&quot;Reset_Gen_E9rico&quot;&gt;&lt;a href=&quot;#Reset_Gen_E9rico&quot; class=&quot;headerlink&quot; title=&quot;Reset Genérico&quot;&gt;&lt;/a&gt;Reset Genérico&lt;/h5&gt;&lt;p&gt;Basta colocar esse código no início do arquivo:&lt;/p&gt;
-&lt;figure class=&quot;highlight css&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;3&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;4&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;5&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;6&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;*&lt;span class=&quot;rules&quot;&gt;&amp;#123;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;  &lt;span class=&quot;rule&quot;&gt;&lt;span class=&quot;attribute&quot;&gt;padding&lt;/span&gt;:&lt;span class=&quot;value&quot;&gt; &lt;span class=&quot;number&quot;&gt;0&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;  &lt;span class=&quot;rule&quot;&gt;&lt;span class=&quot;attribute&quot;&gt;margin&lt;/span&gt;:&lt;span class=&quot;value&quot;&gt; &lt;span class=&quot;number&quot;&gt;0&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;  &lt;span class=&quot;rule&quot;&gt;&lt;span class=&quot;attribute&quot;&gt;border&lt;/span&gt;:&lt;span class=&quot;value&quot;&gt; &lt;span class=&quot;number&quot;&gt;0&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;  &lt;span class=&quot;rule&quot;&gt;&lt;span class=&quot;attribute&quot;&gt;box-sizing&lt;/span&gt;:&lt;span class=&quot;value&quot;&gt; border-box&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&amp;#125;&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
-&lt;p&gt;Pronto, todos (*) os elementos ficarão sem borda, sem preenchimento e sem margem. Ai é só ir estilizando conforme for necessário.&lt;/p&gt;
-&lt;h5 id=&quot;Erick_Meyer_CSS_Reset&quot;&gt;&lt;a href=&quot;#Erick_Meyer_CSS_Reset&quot; class=&quot;headerlink&quot; title=&quot;Erick Meyer CSS Reset&quot;&gt;&lt;/a&gt;Erick Meyer CSS Reset&lt;/h5&gt;&lt;p&gt;Esse é muito utilizado e divulgado pela Web. Utilizei por um bom tempo!&lt;/p&gt;
-&lt;p&gt;Da uma olhada nesse &lt;a href=&quot;http://meyerweb.com/eric/tools/css/reset/index.html&quot; title=&quot;Meyer | CSS Tools: Reset CSS&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;link &lt;/a&gt;para conhecer melhor.&lt;/p&gt;
-&lt;h5 id=&quot;CSS_Reset_do_Yahoo&quot;&gt;&lt;a href=&quot;#CSS_Reset_do_Yahoo&quot; class=&quot;headerlink&quot; title=&quot;CSS Reset do Yahoo&quot;&gt;&lt;/a&gt;CSS Reset do Yahoo&lt;/h5&gt;&lt;p&gt;É bem útil também! É o Reset do YUI.&lt;/p&gt;
-&lt;p&gt;Basta olhar esse outro &lt;a href=&quot;http://www.cssreset.com/scripts/yahoo-css-reset-yui-3/&quot; title=&quot;Yahoo! (YUI 3) Reset CSS&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;link&lt;/a&gt;. ;)&lt;/p&gt;
-&lt;h5 id=&quot;Normalize-css&quot;&gt;&lt;a href=&quot;#Normalize-css&quot; class=&quot;headerlink&quot; title=&quot;Normalize.css&quot;&gt;&lt;/a&gt;Normalize.css&lt;/h5&gt;&lt;p&gt;E agora vem o que eu mais gosto e tenho utilizado no dia-a-dia. Gosto mais desse por que ele não somente tira os estilos, mas aplica estilos padrões que deixa tudo igual em todos os Browsers.&lt;/p&gt;
-&lt;p&gt;Clica nesse &lt;a href=&quot;http://necolas.github.io/normalize.css/&quot; title=&quot;Normalize.css&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;link &lt;/a&gt;e você vai conhecer o danado.&lt;/p&gt;
-&lt;p&gt;Lembre-se sempre que o Reset vem antes dos estilos que você vai aplicar na interface.&lt;/p&gt;
-</content>
-    
-    <summary type="html">
-    
-      Criando seu CSS Reset
-    
-    </summary>
-    
-      <category term="CSS" scheme="http://woliveiras.com.br/categories/CSS/"/>
-    
-      <category term="Dicas" scheme="http://woliveiras.com.br/categories/CSS/Dicas/"/>
-    
-      <category term="Front End" scheme="http://woliveiras.com.br/categories/CSS/Dicas/Front-End/"/>
-    
-    
-      <category term="CSS" scheme="http://woliveiras.com.br/tags/CSS/"/>
-    
-      <category term="Front End" scheme="http://woliveiras.com.br/tags/Front-End/"/>
     
   </entry>
   
