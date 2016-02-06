@@ -1,7 +1,7 @@
 language: node_js
 branches:
   only:
-  - master
+  - development
 before_install:
 - npm install -g hexo
 - npm install
