@@ -131,7 +131,7 @@ Caso ainda fique dúvidas, de uma olhada no [meu repositório](https://github.co
 
 Compartilhe a palavra.
 
-**Referencia:**
+**Referência:**
 
 * https://github.com/jkeylu/deploy-hexo-site-by-travis-ci/blob/master/_travis.yml
 * http://df.python.org.br/blog/github-pages-com-pelican-e-travis-ci/
