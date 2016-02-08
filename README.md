@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/woliveiras/woliveiras.github.io.svg?branch=master)](https://travis-ci.org/woliveiras/woliveiras.github.io)
+
 # How to contribute with me
 
 ## Found a bug?
