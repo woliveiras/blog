@@ -18,12 +18,4 @@ script:
 - hexo generate
 
 after_success:
-- mkdir .deploy
-- cd .deploy
-- git clone --depth 1 --branch master --single-branch $DEPLOY . || (git init && git remote add -t master origin $DEPLOY)
-- rm -rf ./*
-- cp -r ../public/* .
-- git add -all
-- git commit -m 'Site updated'
-- git branch -m master
-- git push -q -u origin master
+- hexo deploy
