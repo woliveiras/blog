@@ -15,7 +15,4 @@ before_script:
 - git config --global user.email 'w.oliveira542@gmail.com'
 
 script:
-- hexo generate
-
-after_success:
-- hexo deploy
+- hexo generate --deploy
