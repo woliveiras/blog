@@ -15,4 +15,14 @@ before_script:
 - git config --global user.email 'w.oliveira542@gmail.com'
 
 script:
-- hexo generate --deploy
+- hexo generate
+
+after_success:
+    - mkdir .deploy
+    - cd .deploy
+    - git init
+    - git remote add origin $DEPLOY
+    - cp -r ../public/* .
+    - git add -A .
+    - git commit -m 'Site updated'
+    - git push u origin master
