@@ -12,7 +12,7 @@
 <meta property="og:site_name" content="William Oliveira">
 <meta property="og:description" content="Como instalar o Sublime Text no Ubuntu">
 <meta property="og:image" content="http://woliveiras.com.br/../../public/images/sublime.png">
-<meta property="og:updated_time" content="2016-02-11T13:43:57.968Z">
+<meta property="og:updated_time" content="2016-02-13T17:45:36.330Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="Instalando o Sublime Text no Ubuntu">
 <meta name="twitter:description" content="Como instalar o Sublime Text no Ubuntu">
@@ -119,15 +119,15 @@
 
 <p>Quem me conhece sabe que eu sou um fã do Sublime Text por ele ser um editor excelente com muitos plugins úteis e por isso eu já fiz uma <a href="/posts/usando-o-sublime-text/" title="Usando o Sublime Text">introdução anteriormente</a> sobre o editor e por que eu gosto dele.</p>
 <p>Se você usa Ubuntu ou derivados do Debian, vou ensinar como instalar o editor e configurar sem dor de cabeça. :)<a id="more"></a></p>
-<h2 id="Pelo_Terminal"><a href="#Pelo_Terminal" class="headerlink" title="Pelo Terminal"></a>Pelo Terminal</h2><p>Abra o terminal (Ctrl + Alt + T) e execute o seguinte comando:</p>
+<h2 id="Pelo-Terminal"><a href="#Pelo-Terminal" class="headerlink" title="Pelo Terminal"></a>Pelo Terminal</h2><p>Abra o terminal (Ctrl + Alt + T) e execute o seguinte comando:</p>
 <figure class="highlight smali"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">sudo<span class="instruction"> add-apt-repository </span>ppa:webupd8team/sublime-text-3 &amp;&amp; sudo apt-get update &amp;&amp; sudo apt-get install sublime-text-installer</span><br></pre></td></tr></table></figure>
-<h2 id="Via_pacote_-deb"><a href="#Via_pacote_-deb" class="headerlink" title="Via pacote .deb"></a>Via pacote .deb</h2><p>Entre no <a href="http://www.sublimetext.com/" title="Sublime Text" target="_blank" rel="external">site do Sublime Text</a> e clique na arquitetura que utiliza (32 ou 64), após download é só dar um double click em cima do arquivo ou cambiar até a pasta pelo terminal e executar:</p>
+<h2 id="Via-pacote-deb"><a href="#Via-pacote-deb" class="headerlink" title="Via pacote .deb"></a>Via pacote .deb</h2><p>Entre no <a href="http://www.sublimetext.com/" title="Sublime Text" target="_blank" rel="external">site do Sublime Text</a> e clique na arquitetura que utiliza (32 ou 64), após download é só dar um double click em cima do arquivo ou cambiar até a pasta pelo terminal e executar:</p>
 <figure class="highlight matlab"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">sudo dpkg -<span class="built_in">i</span></span><br></pre></td></tr></table></figure>
 <p>Assim que instalar, ele ficará como qualquer editor de textos, limpo. Só vai aparecer o arquivo aberto na tela vazio. Então eu deixei umas dicas maneiras sobre as configurações que eu fiz no meu.</p>
-<h2 id="Barra_Lateral"><a href="#Barra_Lateral" class="headerlink" title="Barra Lateral"></a>Barra Lateral</h2><p>Eu sempre coloco a barra lateral exibindo os arquivos abertos. Para isso basta ir em:</p>
+<h2 id="Barra-Lateral"><a href="#Barra-Lateral" class="headerlink" title="Barra Lateral"></a>Barra Lateral</h2><p>Eu sempre coloco a barra lateral exibindo os arquivos abertos. Para isso basta ir em:</p>
 <p><strong>View → Sidebar → Show Open Files</strong></p>
 <p>Quando precisar de espaço na tela, use <strong>Ctrl + K + B</strong> e a barra lateral será ocultada. Se pressionar a mesma sequência de novo a barra volta.</p>
-<h2 id="Configura_E7_F5es_pessoais"><a href="#Configura_E7_F5es_pessoais" class="headerlink" title="Configurações pessoais"></a>Configurações pessoais</h2><p>Clique em <strong>Preferences → Settings – User</strong>. Vai abrir um arquivo de texto com os parâmetros do Sublime. O nome dos parâmetros são auto explicativos, mas se tiver dúvidas pode deixar um comentário que eu te ajudo. O meu está assim:</p>
+<h2 id="Configuracoes-pessoais"><a href="#Configuracoes-pessoais" class="headerlink" title="Configurações pessoais"></a>Configurações pessoais</h2><p>Clique em <strong>Preferences → Settings – User</strong>. Vai abrir um arquivo de texto com os parâmetros do Sublime. O nome dos parâmetros são auto explicativos, mas se tiver dúvidas pode deixar um comentário que eu te ajudo. O meu está assim:</p>
 <pre><code>{
   &quot;font_face&quot;: &quot;Ubuntu&quot;,
   &quot;font_size&quot;: 12,
@@ -151,7 +151,7 @@
 }
 </code></pre><p>Minhas configurações do Sublime estão disponíveis <a href="https://github.com/woliveiras/configs/tree/master/sublimetext" target="_blank" rel="external">aqui</a> também.</p>
 <p>Basta copiar, colar e salvar que as configurações entram em vigor.</p>
-<h2 id="Package_Control"><a href="#Package_Control" class="headerlink" title="Package Control"></a>Package Control</h2><p>O Package Control é o cara que vai te auxiliar a instalar plugins no Sublime para que ele fique mais caprichado para você. Para instalar, clique em</p>
+<h2 id="Package-Control"><a href="#Package-Control" class="headerlink" title="Package Control"></a>Package Control</h2><p>O Package Control é o cara que vai te auxiliar a instalar plugins no Sublime para que ele fique mais caprichado para você. Para instalar, clique em</p>
 <p><strong>View → Show Console</strong></p>
 <p>Acesse <a href="https://packagecontrol.io/" title="Package Control" target="_blank" rel="external">esse site</a> na guia ‘<strong>Installation</strong>‘ e copie o código para instalação para a versão do Sublime que estiver utilizando.</p>
 <p>Depois da instalação do Package Control é necessário reiniciar o Sublime (Abrir e fechar o editor, não vai reiniciar seu PC não ein!)</p>

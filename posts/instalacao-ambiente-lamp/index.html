@@ -11,7 +11,7 @@
 <meta property="og:url" content="http://woliveiras.com.br/posts/instalacao-ambiente-lamp/index.html">
 <meta property="og:site_name" content="William Oliveira">
 <meta property="og:description" content="Instalação do LAMP (Linux, Apache, MySQL e PHP)">
-<meta property="og:updated_time" content="2016-02-11T13:43:57.968Z">
+<meta property="og:updated_time" content="2016-02-13T17:45:36.330Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="Instalação do ambiente LAMP">
 <meta name="twitter:description" content="Instalação do LAMP (Linux, Apache, MySQL e PHP)">
@@ -121,13 +121,13 @@
 <p>Antes de tudo, atualize seu repositório executando o comando:</p>
 <figure class="highlight q"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">sudo apt-<span class="built_in">get</span> <span class="keyword">update</span></span><br></pre></td></tr></table></figure>
 <p>No Debian, você pode ter alguma dificuldade com pacotes durante a instalação do PHP. Se isso acontecer atualize seu sources.list e nesse caso é melhor você pesquisar um padrão no Google, pois eu poderia passar algum link desatualizado dependendo da data em que você está lendo essa postagem. Basta pesquisar: sources.list Debian e já era! ;)</p>
-<h4 id="Instala_E7_E3o_do_MySQL"><a href="#Instala_E7_E3o_do_MySQL" class="headerlink" title="Instalação do MySQL"></a>Instalação do MySQL</h4><p>Abra seu terminal e execute o seguinte comando:</p>
+<h4 id="Instalacao-do-MySQL"><a href="#Instalacao-do-MySQL" class="headerlink" title="Instalação do MySQL"></a>Instalação do MySQL</h4><p>Abra seu terminal e execute o seguinte comando:</p>
 <figure class="highlight axapta"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">sudo apt-get install mysql-<span class="keyword">client</span> mysql-<span class="keyword">server</span> mysql-<span class="keyword">common</span></span><br></pre></td></tr></table></figure>
 <p>Siga as telas que lhe surgirão. Durante a instalação será solicitado uma senha para o Usuário root. Se for uma instalação local, não precisa esquentar a cabeça com uma senha difícil, se for uma instalação remota, coloca uma senha boa ai mermão!!!</p>
-<h4 id="Instala_E7_E3o_do_Apache"><a href="#Instala_E7_E3o_do_Apache" class="headerlink" title="Instalação do Apache"></a>Instalação do Apache</h4><p>Abra seu terminal e execute o seguinte comando:</p>
+<h4 id="Instalacao-do-Apache"><a href="#Instalacao-do-Apache" class="headerlink" title="Instalação do Apache"></a>Instalação do Apache</h4><p>Abra seu terminal e execute o seguinte comando:</p>
 <figure class="highlight actionscript"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">sudo apt-<span class="keyword">get</span> install -y apache2</span><br></pre></td></tr></table></figure>
 <p>Simples né? ;D</p>
-<h4 id="Instala_E7_E3o_do_PHP"><a href="#Instala_E7_E3o_do_PHP" class="headerlink" title="Instalação do PHP"></a>Instalação do PHP</h4><p>Esse comando é grandinho por que possui algumas bibliotecas que eu uso para desenvolvimento com base no que eu já usei até hoje, portanto se você ver alguma que não deseja utilizar, basta remover dessa linha e executar.</p>
+<h4 id="Instalacao-do-PHP"><a href="#Instalacao-do-PHP" class="headerlink" title="Instalação do PHP"></a>Instalação do PHP</h4><p>Esse comando é grandinho por que possui algumas bibliotecas que eu uso para desenvolvimento com base no que eu já usei até hoje, portanto se você ver alguma que não deseja utilizar, basta remover dessa linha e executar.</p>
 <figure class="highlight vim"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">sudo apt-<span class="built_in">get</span> install -<span class="keyword">y</span> php5 libapache2-<span class="keyword">mod</span>-php5 php5-common php5-curl php5-dev php5-gd php5-idn</span><br><span class="line">php-pear php5-imagick php5-<span class="keyword">imap</span> php5-json php5-mcrypt php5-memcache php5-mhash php5-ming</span><br><span class="line">php5-mysql php5-<span class="keyword">ps</span> php5-pspell php5-recode php5-snmp php5-sqlite php5-tidy php5-xmlrpc php5-xsl</span><br></pre></td></tr></table></figure>
 <p>Depois dessa instalação é necessário<strong> reiniciar o Apache.</strong> Execute o seguinte comando:</p>
 <figure class="highlight gradle"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">sudo <span class="regexp">/etc/i</span>nit.d<span class="regexp">/apache2 restart</span></span><br></pre></td></tr></table></figure>
