@@ -1,4 +1,4 @@
-title: Sobre os requisitos para vagas de emprego Front End (E outras áreas também)
+title: Sobre os requisitos para vagas de emprego Front End (e outras áreas também)
 tags:
   - Carreira
   - Dicas
