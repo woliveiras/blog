@@ -31,7 +31,7 @@ Se você é Gestor, a dica é o [Runrunit](http://runrun.it/pt-BR?gclid=CPXjurv
 ## Qual horário você é mais produtivo?
 
 Para se organizar melhor será necessário identificar em qual horário você é mais produtivo. Eu, por exemplo, trabalho muito bem de manhã e a noite, porém a tarde (Por volta de umas 15 horas até as 19) eu não sou tão ágil. Isso é normal e vai do organismo/costumes de cada um...
-~~O melhor é tomar uns anabolizantes pra ser prdutivo o dia inteiro.~~
+~~O melhor é tomar uns anabolizantes pra ser produtivo o dia inteiro.~~
 O melhor para não ser atrapalhado pelo seu próprio organismo é montar a lista de um jeito que as tarefas mais complicadas sejam feitas no horário que você é mais produtivo e as menos complicadas no outro horário. Eu, por exemplo, coloco as buchas para o período da manhã e as mais facinhas para o período da tarde.
 Claro que se surgir um imprevisto fora do seu horário de produtividade você tem de dar um jeito! Não vai usar o horário que é menos produtivo como desculpa! Saiba priorizar as coisas e deixar a preguiça de lado.
 
