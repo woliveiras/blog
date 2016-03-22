@@ -15,10 +15,11 @@
 <meta property="og:image" content="http://woliveiras.com.br/../../public/images/rede-virtualbox-vagrant.png">
 <meta property="og:image" content="http://woliveiras.com.br/../../public/images/guest-additions-vagrant.png">
 <meta property="og:image" content="http://woliveiras.com.br/../../public/images/nome-base-box-vagrant.png">
-<meta property="og:updated_time" content="2016-02-21T10:52:58.814Z">
+<meta property="og:updated_time" content="2016-03-22T17:32:22.879Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="Criar uma base box para o Vagrant">
 <meta name="twitter:description" content="Como criar uma base box para Vagrant com minhas configurações?">
+<meta name="twitter:image" content="http://woliveiras.com.br/../../public/images/disco-virtualbox-vagrant.png">
 <meta name="twitter:creator" content="@w_oliveiras">
   
     <link rel="alternative" href="/atom.xml" title="William Oliveira" type="application/atom+xml">
@@ -27,7 +28,7 @@
     <link rel="icon" href="img/favicon.png">
   
   <link href="//fonts.googleapis.com/css?family=Source+Code+Pro" rel="stylesheet" type="text/css">
-  <link rel="stylesheet" href="/css/style.css" type="text/css">
+  <link rel="stylesheet" href="/css/style.css">
   
 
 <script>
@@ -127,25 +128,25 @@
 <p>Carregue o S.O. normalmente e instale conforme suas necessidades. Porém, por convenção, usuário e senha devem ser <strong>vagrant</strong>.</p>
 <p><strong>Configurando um servidor Ubuntu como VM</strong></p>
 <p>Instale o <strong>VBox Guest Additions</strong> na VM.</p>
-<figure class="highlight sql"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">$ sudo apt-get <span class="operator"><span class="keyword">install</span> -y <span class="keyword">build</span>-essential linux-headers-<span class="keyword">server</span></span><br><span class="line"></span><br><span class="line">$ sudo apt-<span class="keyword">get</span> <span class="keyword">install</span> dkms</span></span><br></pre></td></tr></table></figure>
+<figure class="highlight sql"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">$ sudo apt-get <span class="keyword">install</span> -y <span class="keyword">build</span>-essential linux-headers-<span class="keyword">server</span></span><br><span class="line"></span><br><span class="line">$ sudo apt-<span class="keyword">get</span> <span class="keyword">install</span> dkms</span><br></pre></td></tr></table></figure>
 <p>“Coloque o CD do Guest Additions”</p>
 <p><img src="../../public/images/guest-additions-vagrant.png" alt="Inserindo VBox Additions"></p>
 <p>Em seguida execute:</p>
-<figure class="highlight gradle"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">$ sudo mount <span class="regexp">/dev/</span>cdrom <span class="regexp">/media/</span>cdrom</span><br><span class="line"></span><br><span class="line">$ sudo <span class="regexp">/media/</span>cdrom<span class="regexp">/VBoxLinuxAdditions.run</span></span><br></pre></td></tr></table></figure>
+<figure class="highlight dts"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">$ sudo mount <span class="meta-keyword">/dev/</span>cdrom <span class="meta-keyword">/media/</span>cdrom</span><br><span class="line"></span><br><span class="line">$ sudo <span class="meta-keyword">/media/</span>cdrom/VBoxLinuxAdditions.run</span><br></pre></td></tr></table></figure>
 <p>Atualize o S.O.</p>
 <figure class="highlight q"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ sudo apt-<span class="built_in">get</span> <span class="keyword">update</span> &amp;amp;&amp;amp; sudo apt-<span class="built_in">get</span> –y upgrade</span><br></pre></td></tr></table></figure>
 <p>Adicione o usuário Vagrant ao grupo sudoers</p>
-<figure class="highlight crystal"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="variable">$ </span>sudo su -</span><br><span class="line"></span><br><span class="line"><span class="variable">$ </span>visudo</span><br></pre></td></tr></table></figure>
+<figure class="highlight elixir"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="variable">$ </span>sudo su -</span><br><span class="line"></span><br><span class="line"><span class="variable">$ </span>visudo</span><br></pre></td></tr></table></figure>
 <p>Vai abrir um arquivo no Terminal, no final do arquivo, adicione a seguinte linha:</p>
-<figure class="highlight apache"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">vagrant</span> <span class="literal">ALL</span>=(<span class="literal">ALL</span>)  NOPASSWD:<span class="literal">ALL</span></span><br></pre></td></tr></table></figure>
+<figure class="highlight apache"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="attribute">vagrant</span> <span class="literal">ALL</span>=(<span class="literal">ALL</span>)  NOPASSWD:<span class="literal">ALL</span></span><br></pre></td></tr></table></figure>
 <p>Instalando uma chave pública</p>
-<figure class="highlight crystal"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><span class="line"><span class="variable">$ </span>mkdir -p /home/vagrant/.ssh</span><br><span class="line"></span><br><span class="line"><span class="variable">$ </span>wget --no-check-certificate <span class="symbol">https:</span>/<span class="regexp">/raw.github.com/mitchellh</span><span class="regexp">/vagrant/master</span><span class="regexp">/keys/vagrant</span>.pub -<span class="constant">O</span> /home/vagrant/.ssh/authorized_keys</span><br><span class="line"></span><br><span class="line"><span class="variable">$ </span>chmod <span class="number">0700</span> /home/vagrant/.ssh</span><br><span class="line"></span><br><span class="line"><span class="variable">$ </span>chmod <span class="number">0600</span> /home/vagrant/.ssh/authorized_keys</span><br><span class="line"></span><br><span class="line"><span class="variable">$ </span>chown -<span class="constant">R</span> vagrant  /home/vagrant/.ssh</span><br></pre></td></tr></table></figure>
+<figure class="highlight elixir"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><span class="line"><span class="variable">$ </span>mkdir -p /home/vagrant/.ssh</span><br><span class="line"></span><br><span class="line"><span class="variable">$ </span>wget --no-check-certificate <span class="symbol">https:</span>/<span class="regexp">/raw.github.com/mitchellh</span><span class="regexp">/vagrant/master</span><span class="regexp">/keys/vagrant</span>.pub -O /home/vagrant/.ssh/authorized_keys</span><br><span class="line"></span><br><span class="line"><span class="variable">$ </span>chmod <span class="number">0700</span> /home/vagrant/.ssh</span><br><span class="line"></span><br><span class="line"><span class="variable">$ </span>chmod <span class="number">0600</span> /home/vagrant/.ssh/authorized_keys</span><br><span class="line"></span><br><span class="line"><span class="variable">$ </span>chown -R vagrant  /home/vagrant/.ssh</span><br></pre></td></tr></table></figure>
 <p>Instalar e configurar o Servidor OpenSSH</p>
-<figure class="highlight crystal"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="variable">$ </span>sudo apt-get install -y openssh-server</span><br><span class="line"></span><br><span class="line"><span class="variable">$ </span>sudo vi /etc/ssh/sshd_config</span><br></pre></td></tr></table></figure>
+<figure class="highlight elixir"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="variable">$ </span>sudo apt-get install -y openssh-server</span><br><span class="line"></span><br><span class="line"><span class="variable">$ </span>sudo vi /etc/ssh/sshd_config</span><br></pre></td></tr></table></figure>
 <p>Localize no documento as seguintes configurações  deixe conforme esse exemplo:</p>
-<figure class="highlight nginx"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line"><span class="title">Port</span> <span class="number">22</span></span><br><span class="line"></span><br><span class="line">PubKeyAuthentication <span class="built_in">yes</span></span><br><span class="line"></span><br><span class="line">AuthorizedKeysFile %h/.ssh/authorized_keys</span><br><span class="line"></span><br><span class="line">PermitEmptyPasswords <span class="built_in">no</span></span><br></pre></td></tr></table></figure>
+<figure class="highlight nginx"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line"><span class="attribute">Port</span> <span class="number">22</span></span><br><span class="line"></span><br><span class="line">PubKeyAuthentication <span class="literal">yes</span></span><br><span class="line"></span><br><span class="line">AuthorizedKeysFile %h/.ssh/authorized_keys</span><br><span class="line"></span><br><span class="line">PermitEmptyPasswords <span class="literal">no</span></span><br></pre></td></tr></table></figure>
 <p>Salve e feche o arquivo e, então, reinicie o serviço de SSH</p>
-<figure class="highlight crystal"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="variable">$ </span>sudo service ssh restart</span><br></pre></td></tr></table></figure>
+<figure class="highlight elixir"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="variable">$ </span>sudo service ssh restart</span><br></pre></td></tr></table></figure>
 <p>Desligue a máquina virtual.</p>
 <p>Elimine tudo o que sua máquina não irá precisar - Audio, USB, etc. Deixe somente o necessário.</p>
 <p>Agora é só gerar o Box com os comandos:</p>
@@ -154,9 +155,9 @@
 <p>Máquina Virtual:</p>
 <p><img src="../../public/images/nome-base-box-vagrant.png" alt="Nome da VM"></p>
 <p>Comando para exportar:</p>
-<figure class="highlight actionscript"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ vagrant <span class="package"><span class="keyword">package</span> –-<span class="title">base</span> <span class="title">ubuntinho</span></span></span><br></pre></td></tr></table></figure>
+<figure class="highlight actionscript"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ vagrant <span class="class"><span class="keyword">package</span> –-<span class="title">base</span> <span class="title">ubuntinho</span></span></span><br></pre></td></tr></table></figure>
 <p>Então execute no seu próprio computador/servidor:</p>
-<figure class="highlight actionscript"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ vagrant <span class="package"><span class="keyword">package</span> –-<span class="title">base</span> <span class="title">ubuntinho</span></span></span><br></pre></td></tr></table></figure>
+<figure class="highlight actionscript"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ vagrant <span class="class"><span class="keyword">package</span> –-<span class="title">base</span> <span class="title">ubuntinho</span></span></span><br></pre></td></tr></table></figure>
 <p>Será criado um arquivo package.box no diretório onde você rodou o comando - Ex: Se no seu terminal está assim: usuario@host:/home, o arquivo será gerado na pasta home, se for no Windows e estiver assim: C:\Users\Seu Usuário, será criado na pasta do seu usuário.</p>
 <p><strong>Agora uma dica bonus! </strong></p>
 <p>O Luís Henrique do Grupo <a href="https://www.facebook.com/groups/WebDesignBR/" title="Grupo Web Design Brasil" target="_blank" rel="external">Web Design Brasil</a> no Facebook, me apresentou uma outra facilidade para configuração da box no Vagrant, o <a href="https://puphpet.com/" title="PuPHPet" target="_blank" rel="external">PuPHPet</a>, um site onde você vai escolhendo as configurações que você deseja para seu servidor e ele gera um arquivo de configurações do Puppet pra você - Tudo no automático, olha que maravilha.<br>Tem, também, um outro que eu já uso que é o <a href="http://rove.io/" title="Rove.io" target="_blank" rel="external">Rove</a>, porém esse gera a configuração para o Chef.<br>Com esses arquivos de configuração em mãos, é só deixá-los na pasta do projeto onde você vai subir o ambiente e rodar o vagrant up. Pronto! Tudo no esquema pra você começar a desenvolver.</p>
@@ -249,11 +250,11 @@
 <script src="//ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
 
 
-  <link rel="stylesheet" href="/fancybox/jquery.fancybox.css" type="text/css">
-  <script src="/fancybox/jquery.fancybox.pack.js" type="text/javascript"></script>
+  <link rel="stylesheet" href="/fancybox/jquery.fancybox.css">
+  <script src="/fancybox/jquery.fancybox.pack.js"></script>
 
 
-<script src="/js/script.js" type="text/javascript"></script>
+<script src="/js/script.js"></script>
 
   </div>
 </body>

@@ -13,10 +13,11 @@
 <meta property="og:description" content="Como configurar e utilizar o Vagrant para Desenvolvimento">
 <meta property="og:image" content="http://woliveiras.com.br/../../public/images/vagrant-init-lucid32.png">
 <meta property="og:image" content="http://woliveiras.com.br/../../public/images/Capturar.png">
-<meta property="og:updated_time" content="2016-02-21T10:52:58.814Z">
+<meta property="og:updated_time" content="2016-03-22T17:32:22.879Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="Vagrant - Como configurar e utilizar">
 <meta name="twitter:description" content="Como configurar e utilizar o Vagrant para Desenvolvimento">
+<meta name="twitter:image" content="http://woliveiras.com.br/../../public/images/vagrant-init-lucid32.png">
 <meta name="twitter:creator" content="@w_oliveiras">
   
     <link rel="alternative" href="/atom.xml" title="William Oliveira" type="application/atom+xml">
@@ -25,7 +26,7 @@
     <link rel="icon" href="img/favicon.png">
   
   <link href="//fonts.googleapis.com/css?family=Source+Code+Pro" rel="stylesheet" type="text/css">
-  <link rel="stylesheet" href="/css/style.css" type="text/css">
+  <link rel="stylesheet" href="/css/style.css">
   
 
 <script>
@@ -136,13 +137,13 @@
 <li><strong>lucid32</strong> é a box que eu mandei ele utilizar para criar a VM. As configurações dessa Box serão clonadas para essa nova VM.</li>
 </ul>
 <p>Eu recomendo que dê uma olhada no arquivo Vagrantfile para conhecer melhor as configurações, isso fará muita diferença e facilitará futuras configurações.<br>Após as minhas configurações, meu arquivo ficou assim – Deixei esses comentários para ficar fácil de entender:</p>
-<figure class="highlight vala"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br></pre></td><td class="code"><pre><span class="line"><span class="preprocessor">#Versão da API do Vagrant</span></span><br><span class="line"></span><br><span class="line">VAGRANTFILE_API_VERSION = <span class="string">"2"</span></span><br><span class="line"></span><br><span class="line">Vagrant.configure(VAGRANTFILE_API_VERSION) <span class="keyword">do</span> |config|</span><br><span class="line"></span><br><span class="line"><span class="preprocessor">#Box a ser utilizada</span></span><br><span class="line"></span><br><span class="line">config.vm.box = <span class="string">"lucid32"</span></span><br><span class="line"></span><br><span class="line"><span class="preprocessor">#Modo de Rede</span></span><br><span class="line"></span><br><span class="line">config.vm.network : bridged</span><br><span class="line"></span><br><span class="line"><span class="preprocessor">#Porta do servidor Web</span></span><br><span class="line"></span><br><span class="line">config.vm.forward_port <span class="number">80</span>, <span class="number">8080</span></span><br><span class="line"></span><br><span class="line"><span class="preprocessor">#Porta do MySQL</span></span><br><span class="line"></span><br><span class="line">config.vm.forward_port <span class="number">3306</span>, <span class="number">3306</span></span><br><span class="line"></span><br><span class="line">end</span><br></pre></td></tr></table></figure>
+<figure class="highlight arduino"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">#Versão da API do Vagrant</span></span><br><span class="line"></span><br><span class="line">VAGRANTFILE_API_VERSION = <span class="string">"2"</span></span><br><span class="line"></span><br><span class="line">Vagrant.configure(VAGRANTFILE_API_VERSION) <span class="built_in">do</span> |<span class="built_in">config</span>|</span><br><span class="line"></span><br><span class="line"><span class="meta">#Box a ser utilizada</span></span><br><span class="line"></span><br><span class="line"><span class="built_in">config</span>.vm.box = <span class="string">"lucid32"</span></span><br><span class="line"></span><br><span class="line"><span class="meta">#Modo de Rede</span></span><br><span class="line"></span><br><span class="line"><span class="built_in">config</span>.vm.network : bridged</span><br><span class="line"></span><br><span class="line"><span class="meta">#Porta do servidor Web</span></span><br><span class="line"></span><br><span class="line"><span class="built_in">config</span>.vm.forward_port <span class="number">80</span>, <span class="number">8080</span></span><br><span class="line"></span><br><span class="line"><span class="meta">#Porta do MySQL</span></span><br><span class="line"></span><br><span class="line"><span class="built_in">config</span>.vm.forward_port <span class="number">3306</span>, <span class="number">3306</span></span><br><span class="line"></span><br><span class="line"><span class="built_in">end</span></span><br></pre></td></tr></table></figure>
 <h4 id="Iniciar-a-VM"><a href="#Iniciar-a-VM" class="headerlink" title="Iniciar a VM"></a>Iniciar a VM</h4><p>Para iniciar a VM e poder utilizar seu servidor, basta rodar o comando:</p>
-<figure class="highlight nginx"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="title">vagrant</span> up</span><br></pre></td></tr></table></figure>
+<figure class="highlight nginx"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="attribute">vagrant</span> up</span><br></pre></td></tr></table></figure>
 <p>Na primeira vez, será importada a base Box e configurada a nova VM. Você até poderá entrar no Virtualbox e verá uma máquina com um nome esquisito.</p>
 <p><img src="../../public/images/Capturar.png" alt="Subindo a VM"></p>
 <p>Se você está usando terminal Unix, então execute o comando: <strong>vagrant ssh</strong> com o endereço e porta que o próprio vagrant mostra na tela do terminal nesse momento. Se está usando Windows você vai precisar do <a href="/posts/vagrant-no-windows/" title="Windows, Vagrant e Putty">Putty</a>. No terminal ficou um endereço de IP parecido com 127.0.0.1:2222, esse é o ip e o usuário e senha “vagrant” para acesso.<br>Fica esse comando para acesso em terminais Unix:</p>
-<figure class="highlight cpp"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">ssh vagrant@<span class="number">127.0</span><span class="number">.0</span><span class="number">.1</span>:<span class="number">2222</span></span><br></pre></td></tr></table></figure>
+<figure class="highlight nginx"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="attribute">ssh</span> vagrant@<span class="number">127.0.0.1:2222</span></span><br></pre></td></tr></table></figure>
 <p>Na tela de boas vindas será solicitado a senha que é <em>vagrant</em>.</p>
 <p>Conectado, agora é só usar seu servidor! :D</p>
 <h4 id="Alguns-comandos-uteis"><a href="#Alguns-comandos-uteis" class="headerlink" title="Alguns comandos uteis"></a>Alguns comandos uteis</h4><ul>
@@ -242,11 +243,11 @@
 <script src="//ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
 
 
-  <link rel="stylesheet" href="/fancybox/jquery.fancybox.css" type="text/css">
-  <script src="/fancybox/jquery.fancybox.pack.js" type="text/javascript"></script>
+  <link rel="stylesheet" href="/fancybox/jquery.fancybox.css">
+  <script src="/fancybox/jquery.fancybox.pack.js"></script>
 
 
-<script src="/js/script.js" type="text/javascript"></script>
+<script src="/js/script.js"></script>
 
   </div>
 </body>

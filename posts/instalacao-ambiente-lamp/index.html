@@ -11,7 +11,7 @@
 <meta property="og:url" content="http://woliveiras.com.br/posts/instalacao-ambiente-lamp/index.html">
 <meta property="og:site_name" content="William Oliveira">
 <meta property="og:description" content="Instalação do LAMP (Linux, Apache, MySQL e PHP)">
-<meta property="og:updated_time" content="2016-02-21T10:52:58.814Z">
+<meta property="og:updated_time" content="2016-03-22T17:32:22.883Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="Instalação do ambiente LAMP">
 <meta name="twitter:description" content="Instalação do LAMP (Linux, Apache, MySQL e PHP)">
@@ -23,7 +23,7 @@
     <link rel="icon" href="img/favicon.png">
   
   <link href="//fonts.googleapis.com/css?family=Source+Code+Pro" rel="stylesheet" type="text/css">
-  <link rel="stylesheet" href="/css/style.css" type="text/css">
+  <link rel="stylesheet" href="/css/style.css">
   
 
 <script>
@@ -128,24 +128,24 @@
 <figure class="highlight actionscript"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">sudo apt-<span class="keyword">get</span> install -y apache2</span><br></pre></td></tr></table></figure>
 <p>Simples né? ;D</p>
 <h4 id="Instalacao-do-PHP"><a href="#Instalacao-do-PHP" class="headerlink" title="Instalação do PHP"></a>Instalação do PHP</h4><p>Esse comando é grandinho por que possui algumas bibliotecas que eu uso para desenvolvimento com base no que eu já usei até hoje, portanto se você ver alguma que não deseja utilizar, basta remover dessa linha e executar.</p>
-<figure class="highlight vim"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">sudo apt-<span class="built_in">get</span> install -<span class="keyword">y</span> php5 libapache2-<span class="keyword">mod</span>-php5 php5-common php5-curl php5-dev php5-gd php5-idn</span><br><span class="line">php-pear php5-imagick php5-<span class="keyword">imap</span> php5-json php5-mcrypt php5-memcache php5-mhash php5-ming</span><br><span class="line">php5-mysql php5-<span class="keyword">ps</span> php5-pspell php5-recode php5-snmp php5-sqlite php5-tidy php5-xmlrpc php5-xsl</span><br></pre></td></tr></table></figure>
+<figure class="highlight smali"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">sudo apt-get install -y php5 libapache2-mod-php5 php5-common php5-curl php5-dev php5-gd php5-idn</span><br><span class="line">php-pear php5-imagick php5-imap php5-json php5-mcrypt php5-memcache php5-mhash php5-ming</span><br><span class="line">php5-mysql php5-ps php5-pspell php5-recode php5-snmp php5-sqlite php5-tidy php5-xmlrpc php5-xsl</span><br></pre></td></tr></table></figure>
 <p>Depois dessa instalação é necessário<strong> reiniciar o Apache.</strong> Execute o seguinte comando:</p>
-<figure class="highlight gradle"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">sudo <span class="regexp">/etc/i</span>nit.d<span class="regexp">/apache2 restart</span></span><br></pre></td></tr></table></figure>
+<figure class="highlight cos"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">sudo /etc/init.<span class="keyword">d</span>/apache2 restart</span><br></pre></td></tr></table></figure>
 <p>Alguns componentes importantes para seus estudos e para desenvolvimento também:</p>
 <h4 id="XDebug"><a href="#XDebug" class="headerlink" title="XDebug"></a>XDebug</h4><figure class="highlight actionscript"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">sudo apt-<span class="keyword">get</span> install php5-xdebug</span><br></pre></td></tr></table></figure>
 <h4 id="PHPMyAdmin"><a href="#PHPMyAdmin" class="headerlink" title="PHPMyAdmin"></a>PHPMyAdmin</h4><figure class="highlight actionscript"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">sudo apt-<span class="keyword">get</span> install -y phpmyadmin</span><br></pre></td></tr></table></figure>
 <p>Se, depois desse passo a passo, você quiser conferir se o servidor está funcionando execute o comando:</p>
-<figure class="highlight nginx"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="title">netstat</span> -tap</span><br></pre></td></tr></table></figure>
+<figure class="highlight nginx"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="attribute">netstat</span> -tap</span><br></pre></td></tr></table></figure>
 <p>Surgirá uma saída parecida com essa no seu terminal:</p>
-<figure class="highlight cpp"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">tcp <span class="number">0</span> <span class="number">0</span> *:mysql *:* LISTEN <span class="number">3281</span>/mysqld</span><br></pre></td></tr></table></figure>
+<figure class="highlight gherkin"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">tcp 0 0 <span class="keyword">*</span>:mysql <span class="keyword">*</span>:<span class="keyword">*</span> LISTEN 3281/mysqld</span><br></pre></td></tr></table></figure>
 <p>Beleza chefe, tudo instalado e agora como eu crio aplicações dentro do meu ambiente LAMP?</p>
 <p>Suas aplicações devem ficar dentro da pasta  /var/www/ e para criação de um banco de dados acesse localhost/phpmyadmin ou execute o MySQL via linha de comando. Pronto! Para acessar suas aplicações ou sites no navegador basta digitar localhost. Normalmente, o Apache estará configurado para acesso via porta 80 mesmo, caso você deseje utilizar outra porta basta editar o arquivo: <code>/etc/apache2/ports.conf</code></p>
 <p>E colocar a porta na linha Listen &lt;porta&gt;</p>
 <p>Depois configure o arquivo <code>/etc/apache2/sites-enabled/000-default</code></p>
 <p>Para o virtualhost que está executando:</p>
-<figure class="highlight elixir"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">&lt;<span class="constant">VirtualHost </span>*<span class="symbol">:porta&gt;</span></span><br></pre></td></tr></table></figure>
+<figure class="highlight elixir"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">&lt;VirtualHost *<span class="symbol">:porta&gt;</span></span><br></pre></td></tr></table></figure>
 <p>Faz um teste! Crie um arquivo na pasta /var/www com o seguinte conteúdo:</p>
-<figure class="highlight xml"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="php"><span class="preprocessor">&lt;?php</span></span><br><span class="line">phpinfo();</span><br><span class="line"><span class="preprocessor">?&gt;</span></span></span><br></pre></td></tr></table></figure>
+<figure class="highlight xml"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="php"><span class="meta">&lt;?php</span></span><br><span class="line">phpinfo();</span><br><span class="line"><span class="meta">?&gt;</span></span></span><br></pre></td></tr></table></figure>
 <p>E abra esse arquivo no seu navegador.</p>
 <p>Qualquer dúvida ou dica, coloque aqui nos comentários.</p>
 
@@ -233,11 +233,11 @@
 <script src="//ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
 
 
-  <link rel="stylesheet" href="/fancybox/jquery.fancybox.css" type="text/css">
-  <script src="/fancybox/jquery.fancybox.pack.js" type="text/javascript"></script>
+  <link rel="stylesheet" href="/fancybox/jquery.fancybox.css">
+  <script src="/fancybox/jquery.fancybox.pack.js"></script>
 
 
-<script src="/js/script.js" type="text/javascript"></script>
+<script src="/js/script.js"></script>
 
   </div>
 </body>

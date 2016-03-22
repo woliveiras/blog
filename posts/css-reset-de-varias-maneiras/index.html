@@ -11,7 +11,7 @@
 <meta property="og:url" content="http://woliveiras.com.br/posts/css-reset-de-varias-maneiras/index.html">
 <meta property="og:site_name" content="William Oliveira">
 <meta property="og:description" content="Criando seu CSS Reset">
-<meta property="og:updated_time" content="2016-02-21T10:52:58.814Z">
+<meta property="og:updated_time" content="2016-03-22T17:32:22.879Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="CSS Reset de várias maneiras">
 <meta name="twitter:description" content="Criando seu CSS Reset">
@@ -23,7 +23,7 @@
     <link rel="icon" href="img/favicon.png">
   
   <link href="//fonts.googleapis.com/css?family=Source+Code+Pro" rel="stylesheet" type="text/css">
-  <link rel="stylesheet" href="/css/style.css" type="text/css">
+  <link rel="stylesheet" href="/css/style.css">
   
 
 <script>
@@ -118,7 +118,7 @@
 <p>Isso pode gerar incompatibilidade com o CSS que você escreve. As vezes você coloca um espaço aqui, outro ali e quando abre no IE vê que está tudo bagunçado!</p>
 <p>O CSS Reset é uma técnica que serve para evitar esse problema. Você remove ou seta valores para as propriedades dos elementos conforme necessário. Existem várias formas de se fazer um CSS Reset. Vou citar algumas que eu já utilizei.</p>
 <h5 id="Reset-Generico"><a href="#Reset-Generico" class="headerlink" title="Reset Genérico"></a>Reset Genérico</h5><p>Basta colocar esse código no início do arquivo:</p>
-<figure class="highlight css"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line">*<span class="rules">&#123;</span><br><span class="line">  <span class="rule"><span class="attribute">padding</span>:<span class="value"> <span class="number">0</span></span></span>;</span><br><span class="line">  <span class="rule"><span class="attribute">margin</span>:<span class="value"> <span class="number">0</span></span></span>;</span><br><span class="line">  <span class="rule"><span class="attribute">border</span>:<span class="value"> <span class="number">0</span></span></span>;</span><br><span class="line">  <span class="rule"><span class="attribute">box-sizing</span>:<span class="value"> border-box</span><br><span class="line"></span></span></span>&#125;</span><br></pre></td></tr></table></figure>
+<figure class="highlight css"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line">*&#123;</span><br><span class="line">  <span class="attribute">padding</span>: <span class="number">0</span>;</span><br><span class="line">  <span class="attribute">margin</span>: <span class="number">0</span>;</span><br><span class="line">  <span class="attribute">border</span>: <span class="number">0</span>;</span><br><span class="line">  <span class="attribute">box-sizing</span>: border-box</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
 <p>Pronto, todos (*) os elementos ficarão sem borda, sem preenchimento e sem margem. Ai é só ir estilizando conforme for necessário.</p>
 <h5 id="Erick-Meyer-CSS-Reset"><a href="#Erick-Meyer-CSS-Reset" class="headerlink" title="Erick Meyer CSS Reset"></a>Erick Meyer CSS Reset</h5><p>Esse é muito utilizado e divulgado pela Web. Utilizei por um bom tempo!</p>
 <p>Da uma olhada nesse <a href="http://meyerweb.com/eric/tools/css/reset/index.html" title="Meyer | CSS Tools: Reset CSS" target="_blank" rel="external">link </a>para conhecer melhor.</p>
@@ -212,11 +212,11 @@
 <script src="//ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
 
 
-  <link rel="stylesheet" href="/fancybox/jquery.fancybox.css" type="text/css">
-  <script src="/fancybox/jquery.fancybox.pack.js" type="text/javascript"></script>
+  <link rel="stylesheet" href="/fancybox/jquery.fancybox.css">
+  <script src="/fancybox/jquery.fancybox.pack.js"></script>
 
 
-<script src="/js/script.js" type="text/javascript"></script>
+<script src="/js/script.js"></script>
 
   </div>
 </body>

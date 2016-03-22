@@ -12,10 +12,11 @@
 <meta property="og:site_name" content="William Oliveira">
 <meta property="og:description" content="Se você já teve problemas para instalar pacotes com NPM no Linux, esse artigo vai te ajudar bastante!">
 <meta property="og:image" content="http://woliveiras.com.br/../../public/images/npm.svg">
-<meta property="og:updated_time" content="2016-02-21T10:52:58.814Z">
+<meta property="og:updated_time" content="2016-03-22T17:32:22.879Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="Corrigindo as permissões de usuário para o NPM no Linux">
 <meta name="twitter:description" content="Se você já teve problemas para instalar pacotes com NPM no Linux, esse artigo vai te ajudar bastante!">
+<meta name="twitter:image" content="http://woliveiras.com.br/../../public/images/npm.svg">
 <meta name="twitter:creator" content="@w_oliveiras">
   
     <link rel="alternative" href="/atom.xml" title="William Oliveira" type="application/atom+xml">
@@ -24,7 +25,7 @@
     <link rel="icon" href="img/favicon.png">
   
   <link href="//fonts.googleapis.com/css?family=Source+Code+Pro" rel="stylesheet" type="text/css">
-  <link rel="stylesheet" href="/css/style.css" type="text/css">
+  <link rel="stylesheet" href="/css/style.css">
   
 
 <script>
@@ -126,7 +127,7 @@
 <figure class="highlight perl"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">sudo <span class="keyword">chown</span> -R <span class="string">`whoami`</span> /usr/<span class="keyword">local</span></span><br></pre></td></tr></table></figure>
 <p>Será solicitado a senha do sudo e em seguida o seu terminal ficará bloqueado até que termine a execução da ação.</p>
 <p>Se você não quiser atribuir a permissão ao diretório completo, pode executar como:</p>
-<figure class="highlight crystal"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">sudo chown -<span class="constant">R</span> <span class="string">`whoami`</span> /usr/local/<span class="class"><span class="keyword">lib</span>/<span class="title">node_modules</span> /<span class="title">usr</span>/<span class="title">local</span>/<span class="title">bin</span> /<span class="title">usr</span>/<span class="title">local</span>/<span class="title">share</span></span></span><br></pre></td></tr></table></figure>
+<figure class="highlight crystal"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">sudo chown -R <span class="string">`whoami`</span> /usr/local/<span class="class"><span class="keyword">lib</span>/<span class="title">node_modules</span> /<span class="title">usr</span>/<span class="title">local</span>/<span class="title">bin</span> /<span class="title">usr</span>/<span class="title">local</span>/<span class="title">share</span></span></span><br></pre></td></tr></table></figure>
 <p>Referência: <a href="https://docs.npmjs.com/getting-started/fixing-npm-permissions" title="Fixing NPM permissions - npmjs.com" target="_blank" rel="external">Fixing NPM permissions</a></p>
 
       
@@ -213,11 +214,11 @@
 <script src="//ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
 
 
-  <link rel="stylesheet" href="/fancybox/jquery.fancybox.css" type="text/css">
-  <script src="/fancybox/jquery.fancybox.pack.js" type="text/javascript"></script>
+  <link rel="stylesheet" href="/fancybox/jquery.fancybox.css">
+  <script src="/fancybox/jquery.fancybox.pack.js"></script>
 
 
-<script src="/js/script.js" type="text/javascript"></script>
+<script src="/js/script.js"></script>
 
   </div>
 </body>

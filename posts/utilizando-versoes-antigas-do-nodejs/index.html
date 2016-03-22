@@ -16,10 +16,11 @@
 <meta property="og:image" content="http://woliveiras.com.br/../../public/images/nvm-install-v.png">
 <meta property="og:image" content="http://woliveiras.com.br/../../public/images/terminal-with-nvmrc.png">
 <meta property="og:image" content="http://woliveiras.com.br/../../public/images/nvm-install-nvmrc.png">
-<meta property="og:updated_time" content="2016-02-21T10:52:58.818Z">
+<meta property="og:updated_time" content="2016-03-22T17:32:22.883Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="Utilizando versões antigas do Nodejs">
 <meta name="twitter:description" content="Como utilizar mais de uma versão de Node na mesma máquina.">
+<meta name="twitter:image" content="http://woliveiras.com.br/../..//public/images/nodejs.png">
 <meta name="twitter:creator" content="@w_oliveiras">
   
     <link rel="alternative" href="/atom.xml" title="William Oliveira" type="application/atom+xml">
@@ -28,7 +29,7 @@
     <link rel="icon" href="img/favicon.png">
   
   <link href="//fonts.googleapis.com/css?family=Source+Code+Pro" rel="stylesheet" type="text/css">
-  <link rel="stylesheet" href="/css/style.css" type="text/css">
+  <link rel="stylesheet" href="/css/style.css">
   
 
 <script>
@@ -148,7 +149,7 @@
 <figure class="highlight mel"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">nvm <span class="keyword">ls</span></span><br></pre></td></tr></table></figure>
 <p>Para ver a lista das versões.</p>
 <h2 id="Deixando-uma-versao-como-padrao"><a href="#Deixando-uma-versao-como-padrao" class="headerlink" title="Deixando uma versão como padrão"></a>Deixando uma versão como padrão</h2><p>Se quiser setar uma versão anterior como padrão e não a mais atual, basta rodar:</p>
-<figure class="highlight ceylon"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">nvm <span class="keyword">alias</span> <span class="annotation">default</span> versão</span><br></pre></td></tr></table></figure>
+<figure class="highlight ceylon"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">nvm <span class="keyword">alias</span> <span class="keyword">default</span> versão</span><br></pre></td></tr></table></figure>
 <p>Com essas configurações você pode utilizar seus pacotes do Node instalados via <a href="https://www.npmjs.com/" target="_blank" rel="external">NPM</a> normalmente. A grande diferença será que os pacotes ficarão instalados em: <code>~/.nvm/node_version/lib/node_modules/</code></p>
 <p>E todo pacote instalado Global precisará ser vinculado a um pacote local para poder ser utilizado no projeto com o comando:</p>
 <figure class="highlight coffeescript"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="built_in">npm</span> link pacote</span><br></pre></td></tr></table></figure>
@@ -255,11 +256,11 @@
 <script src="//ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
 
 
-  <link rel="stylesheet" href="/fancybox/jquery.fancybox.css" type="text/css">
-  <script src="/fancybox/jquery.fancybox.pack.js" type="text/javascript"></script>
+  <link rel="stylesheet" href="/fancybox/jquery.fancybox.css">
+  <script src="/fancybox/jquery.fancybox.pack.js"></script>
 
 
-<script src="/js/script.js" type="text/javascript"></script>
+<script src="/js/script.js"></script>
 
   </div>
 </body>
