@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://woliveiras.com.br/"/>
-  <updated>2016-03-22T17:34:59.664Z</updated>
+  <updated>2016-03-23T17:50:00.670Z</updated>
   <id>http://woliveiras.com.br/</id>
   
   <author>
@@ -20,7 +20,7 @@
     <link href="http://woliveiras.com.br/posts/postando-no-blog-est%C3%A1tico-direto-pelo-github-com-hexo-e-travis-ci/"/>
     <id>http://woliveiras.com.br/posts/postando-no-blog-estático-direto-pelo-github-com-hexo-e-travis-ci/</id>
     <published>2016-02-07T00:00:00.000Z</published>
-    <updated>2016-03-22T17:34:59.664Z</updated>
+    <updated>2016-03-23T17:50:00.670Z</updated>
     
     <content type="html">&lt;p&gt;Confesso que fiquei tentado a migrar para o &lt;a href=&quot;https://jekyllrb.com/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Jekyll (Ruby)&lt;/a&gt; depois que um &lt;a href=&quot;http://jotateles.com.br/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;amigo&lt;/a&gt; me mostrou que da para postar no blog direto do GitHub sem ter o Jekyll instalado na máquina. Porém eu não desisti do meu queridinho, o &lt;a href=&quot;http://hexo.io/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Hexo (feito com Node &amp;lt;3)&lt;/a&gt;.&lt;a id=&quot;more&quot;&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;&lt;em&gt;Se você não conhece o Hexo, da uma olhada &lt;a href=&quot;http://woliveiras.com.br/posts/Migrando-de-Wordpress-para-Hexo/&quot;&gt;nesse artigo&lt;/a&gt;.&lt;/em&gt;&lt;/p&gt;
@@ -78,11 +78,11 @@
       <category term="Travis CI" scheme="http://woliveiras.com.br/categories/Hexo/Blog/Travis-CI/"/>
     
     
-      <category term="Dicas" scheme="http://woliveiras.com.br/tags/Dicas/"/>
-    
       <category term="Blog" scheme="http://woliveiras.com.br/tags/Blog/"/>
     
       <category term="Hexo" scheme="http://woliveiras.com.br/tags/Hexo/"/>
+    
+      <category term="Dicas" scheme="http://woliveiras.com.br/tags/Dicas/"/>
     
       <category term="Travis CI" scheme="http://woliveiras.com.br/tags/Travis-CI/"/>
     
@@ -95,7 +95,7 @@
     <link href="http://woliveiras.com.br/posts/um-ano-como-desenvolvedor-front-end/"/>
     <id>http://woliveiras.com.br/posts/um-ano-como-desenvolvedor-front-end/</id>
     <published>2015-12-01T12:00:00.000Z</published>
-    <updated>2016-03-22T17:34:59.664Z</updated>
+    <updated>2016-03-23T17:50:00.670Z</updated>
     
     <content type="html">&lt;div class=&quot;shared-img&quot;&gt;&lt;br&gt;&lt;img src=&quot;../..//public/images/web-developer.jpg&quot; alt=&quot;&quot;&gt;&lt;br&gt;&lt;/div&gt;
 
@@ -147,7 +147,7 @@
     <link href="http://woliveiras.com.br/posts/corrigindo-permissoes-de-usuario-linux-npm/"/>
     <id>http://woliveiras.com.br/posts/corrigindo-permissoes-de-usuario-linux-npm/</id>
     <published>2015-09-12T13:00:00.000Z</published>
-    <updated>2016-03-22T17:34:59.664Z</updated>
+    <updated>2016-03-23T17:50:00.670Z</updated>
     
     <content type="html">&lt;div class=&quot;shared-img&quot;&gt;&lt;br&gt;&lt;img src=&quot;../../public/images/npm.svg&quot; alt=&quot;&quot;&gt;&lt;br&gt;&lt;/div&gt;
 
@@ -190,7 +190,7 @@
     <link href="http://woliveiras.com.br/posts/utilizando-versoes-antigas-do-nodejs/"/>
     <id>http://woliveiras.com.br/posts/utilizando-versoes-antigas-do-nodejs/</id>
     <published>2015-09-12T08:00:32.000Z</published>
-    <updated>2016-03-22T17:34:59.664Z</updated>
+    <updated>2016-03-23T17:50:00.670Z</updated>
     
     <content type="html">&lt;div class=&quot;shared-img&quot;&gt;&lt;br&gt;&lt;img src=&quot;../..//public/images/nodejs.png&quot; alt=&quot;&quot;&gt;&lt;br&gt;&lt;/div&gt;
 
@@ -275,7 +275,7 @@
     <link href="http://woliveiras.com.br/posts/twitter-bootstrap-bootstrap-do-jeito-certo/"/>
     <id>http://woliveiras.com.br/posts/twitter-bootstrap-bootstrap-do-jeito-certo/</id>
     <published>2015-09-09T01:00:00.000Z</published>
-    <updated>2016-03-22T17:34:59.664Z</updated>
+    <updated>2016-03-23T17:50:00.670Z</updated>
     
     <content type="html">&lt;p&gt;Muita gente critica o uso do &lt;a href=&quot;http://getbootstrap.com/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Twitter Bootstrap&lt;/a&gt; devido a nomenclatura de suas classes e aos muitos componentes que o framework possui.&lt;/p&gt;
 &lt;p&gt;Dizem que as classes não são semanticas e que o peso do framework é desnecessário.&lt;/p&gt;
@@ -345,9 +345,9 @@
       <category term="Produtividade" scheme="http://woliveiras.com.br/categories/Dicas/Front-End/Grunt/Produtividade/"/>
     
     
-      <category term="Less" scheme="http://woliveiras.com.br/tags/Less/"/>
-    
       <category term="Grunt" scheme="http://woliveiras.com.br/tags/Grunt/"/>
+    
+      <category term="Less" scheme="http://woliveiras.com.br/tags/Less/"/>
     
       <category term="Bootstrap" scheme="http://woliveiras.com.br/tags/Bootstrap/"/>
     
@@ -358,7 +358,7 @@
     <link href="http://woliveiras.com.br/posts/Migrando-de-Wordpress-para-Hexo/"/>
     <id>http://woliveiras.com.br/posts/Migrando-de-Wordpress-para-Hexo/</id>
     <published>2015-08-05T02:53:41.000Z</published>
-    <updated>2016-03-22T17:34:59.664Z</updated>
+    <updated>2016-03-23T17:50:00.670Z</updated>
     
     <content type="html">&lt;p&gt;&lt;div class=&quot;shared-img&quot;&gt;&lt;br&gt;&lt;img src=&quot;../../public/images/hexo-logo.png&quot; alt=&quot;Hexo Blog&quot;&gt;&lt;br&gt;&lt;/div&gt;A um bom tempo sinto vontade de mudar meu Blog de WordPress para uma plataforma de  conteúdo estático, mas não achava nenhuma alternativa, pois que queria usar Nodejs. Por isso não fui para o, muito usado na comunidade, &lt;a href=&quot;http://jekyllrb.com/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Jekyll(Ruby)&lt;/a&gt; , nem para o &lt;a href=&quot;http://blog.getpelican.com/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Pelican(Python &amp;lt;3)&lt;/a&gt;.&lt;a id=&quot;more&quot;&gt;&lt;/a&gt;&lt;br&gt;Em busca de uma alternativa encontrei o &lt;a href=&quot;https://hexo.io&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Hexo&lt;/a&gt; e, um pouco depois de eu conhecer essa plataforma, o &lt;a href=&quot;http://blog.da2k.com.br/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Daciuk&lt;/a&gt; escreveu um &lt;a href=&quot;http://blog.da2k.com.br/2014/01/05/hexo-criando-um-blog-ao-estilo-miojo/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;post&lt;/a&gt; muito maneiro incentivando o seu uso. Foi então que eu decidi de vez usar essa plataforma!&lt;br&gt;Bora conhecer ela e como foi a migração de WordPress para Hexo?&lt;/p&gt;
 &lt;p&gt;###Levantando as necessidades&lt;/p&gt;
@@ -400,11 +400,11 @@
       <category term="Blog" scheme="http://woliveiras.com.br/categories/Hexo/Blog/"/>
     
     
-      <category term="Dicas" scheme="http://woliveiras.com.br/tags/Dicas/"/>
-    
       <category term="Blog" scheme="http://woliveiras.com.br/tags/Blog/"/>
     
       <category term="Hexo" scheme="http://woliveiras.com.br/tags/Hexo/"/>
+    
+      <category term="Dicas" scheme="http://woliveiras.com.br/tags/Dicas/"/>
     
   </entry>
   
@@ -413,7 +413,7 @@
     <link href="http://woliveiras.com.br/posts/frameworks-front-end/"/>
     <id>http://woliveiras.com.br/posts/frameworks-front-end/</id>
     <published>2015-03-05T00:18:46.000Z</published>
-    <updated>2016-03-22T17:34:59.664Z</updated>
+    <updated>2016-03-23T17:50:00.670Z</updated>
     
     <content type="html">&lt;p&gt;Já parou pra pensar quantas vezes você repete o mesmo código durante o Desenvolvimento, seja Web, Mobile ou Desktop? Já pensou em padronizar o que você faz de alguma maneira?&lt;br&gt;E pra você que é Gerente de Projetos, Líder ou algo do tipo: Já pensou em poder adicionar um membro no seu grupo  e ele já saber como funciona o Desenvolvimento nessa equipe e conseguir ser produtivo desde o princípio?&lt;br&gt;Pois é, Frameworks servem para isso… Vem comigo que vou explicar melhor. ;)&lt;a id=&quot;more&quot;&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;h2 id=&quot;O-que-sao-Frameworks&quot;&gt;&lt;a href=&quot;#O-que-sao-Frameworks&quot; class=&quot;headerlink&quot; title=&quot;O que são Frameworks?&quot;&gt;&lt;/a&gt;O que são Frameworks?&lt;/h2&gt;&lt;p&gt;Você pega aqueles códigos que se repetem entre os projetos, adiciona uma pitada de &lt;a href=&quot;http://pt.wikipedia.org/wiki/Padr%C3%A3o_de_projeto_de_software&quot; title=&quot;Wikipedia - Padrões de Projetos&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Padrões&lt;/a&gt;, deixa conforme sua equipe precisa ou &lt;a href=&quot;http://tableless.com.br/locaweb-style-como-iniciamos/&quot; title=&quot;Locaweb Style - Framework Front End da Locaweb&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;conforme sua empresa trabalha&lt;/a&gt;, empacota tudo isso pra poder reutilizar depois e pronto, criou um Framework!&lt;br&gt;Só isso? Sim, só isso… Framework é uma ferramenta com os códigos, padrões, etc, que você consegue utilizar pra resolver problemas que se repetem ou mesmo pra iniciar projetos que vão possuir as mesmas características seja no Front, Back End ou mesmo para &lt;a href=&quot;https://github.com/woliveiras/pastel&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Tooling(Ferramentas)&lt;/a&gt;. Quando você utiliza um Framework como base, pode somente baixar ele, configurar ou instalar e seguir dali para as necessidades específicas de cada projeto. Isso mata muito tempo que você perderia fazendo algo que sabe que vai repetir no próximo trabalho.&lt;/p&gt;
@@ -448,13 +448,13 @@
       <category term="Produtividade" scheme="http://woliveiras.com.br/categories/CSS/Dicas/Front-End/Javascript/Produtividade/"/>
     
     
-      <category term="Javascript" scheme="http://woliveiras.com.br/tags/Javascript/"/>
-    
       <category term="Produtividade" scheme="http://woliveiras.com.br/tags/Produtividade/"/>
     
       <category term="CSS" scheme="http://woliveiras.com.br/tags/CSS/"/>
     
       <category term="Front End" scheme="http://woliveiras.com.br/tags/Front-End/"/>
+    
+      <category term="Javascript" scheme="http://woliveiras.com.br/tags/Javascript/"/>
     
   </entry>
   
@@ -463,7 +463,7 @@
     <link href="http://woliveiras.com.br/posts/contribuindo-para-projetos-open-source-no-github-mesmo-sendo-iniciante/"/>
     <id>http://woliveiras.com.br/posts/contribuindo-para-projetos-open-source-no-github-mesmo-sendo-iniciante/</id>
     <published>2015-02-09T14:12:32.000Z</published>
-    <updated>2016-03-22T17:34:59.664Z</updated>
+    <updated>2016-03-23T17:50:00.670Z</updated>
     
     <content type="html">&lt;div class=&quot;shared-img&quot;&gt;&lt;br&gt;&lt;img src=&quot;../../public/images/github.gif&quot; alt=&quot;&quot;&gt;&lt;br&gt;&lt;/div&gt;
 
@@ -507,7 +507,7 @@
     <link href="http://woliveiras.com.br/posts/haroopad-um-editor-markdown-maneiro/"/>
     <id>http://woliveiras.com.br/posts/haroopad-um-editor-markdown-maneiro/</id>
     <published>2015-02-09T12:53:56.000Z</published>
-    <updated>2016-03-22T17:34:59.664Z</updated>
+    <updated>2016-03-23T17:50:00.670Z</updated>
     
     <content type="html">&lt;div class=&quot;shared-img&quot;&gt;&lt;br&gt;&lt;img src=&quot;../..//public/images/Haroopad.png&quot; alt=&quot;&quot;&gt;&lt;br&gt;&lt;/div&gt;
 
@@ -560,7 +560,7 @@
     <link href="http://woliveiras.com.br/posts/como-detectar-o-dispositivo-que-acessa-seu-site/"/>
     <id>http://woliveiras.com.br/posts/como-detectar-o-dispositivo-que-acessa-seu-site/</id>
     <published>2015-02-03T18:47:41.000Z</published>
-    <updated>2016-03-22T17:34:59.664Z</updated>
+    <updated>2016-03-23T17:50:00.670Z</updated>
     
     <content type="html">&lt;p&gt;Uma dica rápida para quem trabalha com diversos tipos de dispositivos!&lt;/p&gt;
 &lt;p&gt;Dependendo do projeto em que você está trabalhando, pode chegar a necessidade de detectar qual é o tipo de dispositivo que está acessando o site/aplicação/sistema, etc. As vezes isso é feito para redirecionar o usuário para uma outra versão do projeto, as vezes simplesmente para ativar uma funcionalidade ou não.&lt;a id=&quot;more&quot;&gt;&lt;/a&gt;&lt;/p&gt;
@@ -591,7 +591,7 @@
     <link href="http://woliveiras.com.br/posts/aprenda-trabalhar-em-equipes/"/>
     <id>http://woliveiras.com.br/posts/aprenda-trabalhar-em-equipes/</id>
     <published>2015-01-30T08:00:51.000Z</published>
-    <updated>2016-03-22T17:34:59.664Z</updated>
+    <updated>2016-03-23T17:50:00.670Z</updated>
     
     <content type="html">&lt;p&gt;Como eu disse em &lt;a href=&quot;/posts/requisitos-para-vagas-front-end/&quot; title=&quot;Sobre os requisitos para vagas de emprego Front End (E outras áreas também)&quot;&gt;um post anterior&lt;/a&gt;, você não vai trabalhar sozinho a vida toda. Chega uma hora em que é preciso trabalhar em equipes, interagir com outras pessoas e é necessário que você aprenda isso. Mesmo que você trabalhe em casa, vai precisar enviar seu projeto para outras pessoas.&lt;br&gt;Existem algumas boas medidas para conseguir trabalhar bem em grandes ou pequenas equipes…&lt;a id=&quot;more&quot;&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;h2 id=&quot;Organizacao&quot;&gt;&lt;a href=&quot;#Organizacao&quot; class=&quot;headerlink&quot; title=&quot;Organização&quot;&gt;&lt;/a&gt;Organização&lt;/h2&gt;&lt;p&gt;As pastas que você cria para organizar seu projeto devem possuir nomes que auxiliem a entender o que tem dentro. Não somente as pastas, os nomes dos arquivos também devem ter algum significado.&lt;br&gt;Não crie uma pasta com o nome &lt;strong&gt;scripts&lt;/strong&gt; e coloque todos os .styl, .js, .html, .php, .rb, etc, ali dentro, mas crie uma organização ou siga alguma.&lt;br&gt;Isso serve até mesmo para que você se encontre mais fácil no seu projeto.&lt;br&gt;Trabalhar com outras pessoas não é a mesma coisa de ser criança e a mãe arrumar seu quarto… Você tem de se organizar e outras pessoas tem de entender sua organização.&lt;br&gt;Da uma olhada aqui no meu &lt;a href=&quot;https://github.com/woliveiras/pastel&quot; title=&quot;Pastel | um pequeno Boilerplate que eu criei para agilizar meus projetos&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Scaffold &lt;/a&gt;e veja como eu organizei os arquivos - É um exemplo beeeem básico, mas da para ter uma noção…&lt;br&gt;A forma como escreve seu código também faz diferença e vou falar disso agora!&lt;/p&gt;
@@ -642,7 +642,7 @@
     <link href="http://woliveiras.com.br/posts/semantica-html/"/>
     <id>http://woliveiras.com.br/posts/semantica-html/</id>
     <published>2015-01-29T12:00:25.000Z</published>
-    <updated>2016-03-22T17:34:59.664Z</updated>
+    <updated>2016-03-23T17:50:00.670Z</updated>
     
     <content type="html">&lt;div class=&quot;shared-img&quot;&gt;&lt;br&gt;&lt;img src=&quot;../..//public/images/HTML.png&quot; alt=&quot;&quot;&gt;&lt;br&gt;&lt;/div&gt;
 
@@ -683,7 +683,7 @@
     <link href="http://woliveiras.com.br/posts/gerenciar-projetos-com-trello/"/>
     <id>http://woliveiras.com.br/posts/gerenciar-projetos-com-trello/</id>
     <published>2015-01-28T02:00:07.000Z</published>
-    <updated>2016-03-22T17:34:59.664Z</updated>
+    <updated>2016-03-23T17:50:00.670Z</updated>
     
     <content type="html">&lt;div class=&quot;shared-img&quot;&gt;&lt;br&gt;&lt;img src=&quot;../../public/images/Trello.png&quot; alt=&quot;Trello&quot;&gt;&lt;/div&gt;
 
@@ -746,7 +746,7 @@
     <link href="http://woliveiras.com.br/posts/como-alcancar-objetivos-rapidamente-nos-estudos/"/>
     <id>http://woliveiras.com.br/posts/como-alcancar-objetivos-rapidamente-nos-estudos/</id>
     <published>2015-01-27T07:00:32.000Z</published>
-    <updated>2016-03-22T17:34:59.664Z</updated>
+    <updated>2016-03-23T17:50:00.670Z</updated>
     
     <content type="html">&lt;p&gt;Essa é mais uma dica sobre produtividade, porém agora é nos estudos.&lt;br&gt;Nós, Desenvolvedores, temos de estudar muito. Todo dia alguma ferramenta atualiza ou algo vira tendência e passa a ser usado no serviço e temos de aprender. E como fazer para aprender tudo isso sem ficar louco e de um jeito que consiga alcançar os objetivos mais rapidamente?&lt;a id=&quot;more&quot;&gt;&lt;/a&gt;&lt;br&gt;Se você não leu meu post anterior sobre produtividade da uma olhada &lt;a href=&quot;/posts/como-ser-mais-produtivo/&quot; title=&quot;Como ser mais produtivo?&quot;&gt;aqui&lt;/a&gt;.&lt;/p&gt;
 &lt;h2 id=&quot;Listas-de-novo&quot;&gt;&lt;a href=&quot;#Listas-de-novo&quot; class=&quot;headerlink&quot; title=&quot;Listas de novo&quot;&gt;&lt;/a&gt;Listas de novo&lt;/h2&gt;&lt;p&gt;Eu aprendi que fazer listas para tudo é uma ótima maneira de você ter certeza que vai concluir algo. Parece que você se obriga a fazer aquilo e se apagar da lista sem concluir parece um pecado! No caso de estudos não é diferente.&lt;/p&gt;
@@ -811,7 +811,7 @@
     <link href="http://woliveiras.com.br/posts/o-que-e-linguagem-de-programacao-de-alto-nivel/"/>
     <id>http://woliveiras.com.br/posts/o-que-e-linguagem-de-programacao-de-alto-nivel/</id>
     <published>2015-01-27T03:51:01.000Z</published>
-    <updated>2016-03-22T17:34:59.664Z</updated>
+    <updated>2016-03-23T17:50:00.670Z</updated>
     
     <content type="html">&lt;p&gt;Se você vem seguindo o mesmo &lt;a href=&quot;http://woliveiras.com.br/posts/guia-de-estudos-desenvolvedor-front-end-iniciante&quot;&gt;guia de estudos&lt;/a&gt;, vai chegar uma hora em que vai partir pro JavaScript e mais cedo ou mais tarde vai se aprofundar ainda mais em programação e é aí que você ouve alguns termos meio confusos como esse:&lt;/p&gt;
 &lt;p&gt;&lt;em&gt;JavaScript é uma linguagem de programação de alto nível.&lt;/em&gt;&lt;/p&gt;
@@ -860,7 +860,7 @@
     <link href="http://woliveiras.com.br/posts/como-ser-mais-produtivo/"/>
     <id>http://woliveiras.com.br/posts/como-ser-mais-produtivo/</id>
     <published>2015-01-26T08:00:53.000Z</published>
-    <updated>2016-03-22T17:34:59.664Z</updated>
+    <updated>2016-03-23T17:50:00.670Z</updated>
     
     <content type="html">&lt;p&gt;Uma das minhas grandes preocupações na vida é ser prdutivo! Eu gosto de fazer as coisas o mais rápido possível e estou sempre buscando maneiras de automatizar ou organizar as coisas de maneira que eu consiga cada vez mais produtividade.&lt;a id=&quot;more&quot;&gt;&lt;/a&gt;&lt;br&gt;Durante algum tempo fui testando várias abordagens e técnicas de produtividade. Técnicas que podem ser aplicadas no serviço, para estudos ou mesmo para cumprir tarefas do cotidiano(Como lembrar de pagar uma conta ou do que precisa comprar no mercado).&lt;br&gt;Segue algumas dicas do que melhor funcionou pra mim até agora.&lt;/p&gt;
 &lt;h2 id=&quot;Faca-listas&quot;&gt;&lt;a href=&quot;#Faca-listas&quot; class=&quot;headerlink&quot; title=&quot;Faça listas&quot;&gt;&lt;/a&gt;Faça listas&lt;/h2&gt;&lt;p&gt;Eu faço listas com as tarefas que tenho de cumprir e, de acordo com que termino a tarefa, a marco como concluída ou apago da lista.&lt;br&gt;Para isso utilizo um aplicativo que da pra usar tanto no PC, quanto no Celular: O &lt;a href=&quot;https://www.wunderlist.com/pt/&quot; title=&quot;Wunderlist&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Wunderlist&lt;/a&gt;.&lt;br&gt;Nele eu separo o que é projeto pessoal, o que é projeto profissional e até o que eu estou estudando/planejo estudar por pastas e nessas pastas coloco os tópicos. De acordo com que vou concluindo, marco como concluído e pronto! A tarefa fica riscadinha e oculta na lista.&lt;/p&gt;
@@ -893,7 +893,7 @@
     <link href="http://woliveiras.com.br/posts/requisitos-para-vagas-front-end/"/>
     <id>http://woliveiras.com.br/posts/requisitos-para-vagas-front-end/</id>
     <published>2015-01-23T10:00:19.000Z</published>
-    <updated>2016-03-22T17:34:59.664Z</updated>
+    <updated>2016-03-23T17:50:00.670Z</updated>
     
     <content type="html">&lt;p&gt;Quantas vezes não nos deparamos com as seguintes dúvidas:&lt;/p&gt;
 &lt;ul&gt;
@@ -946,7 +946,7 @@
     <link href="http://woliveiras.com.br/posts/extensoes-navegador-desenvolvimento-web/"/>
     <id>http://woliveiras.com.br/posts/extensoes-navegador-desenvolvimento-web/</id>
     <published>2015-01-22T13:00:31.000Z</published>
-    <updated>2016-03-22T17:34:59.664Z</updated>
+    <updated>2016-03-23T17:50:00.670Z</updated>
     
     <content type="html">&lt;p&gt;Sou fã de produtividade e, por isso, utilizo várias ferramentas que me auxiliam a ser mais produtivo - Vou citar outras em futuras postagens ;). Algumas delas são extensões para o Navegador, no meu caso o Chrome/Firefox, que eu uso o tempo todo para testes. Nesse post vou citar algumas extensões muito boas para desenvolvimento Front End&lt;a id=&quot;more&quot;&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;&lt;em&gt;Para instalar alguma você pode clicar direto no sub-título e será direcionado para a Chrome Web Store. Se você estiver utilizando o Firefox, só pesquisar o nome dela no menu de instalação de Addons.&lt;/em&gt;&lt;/p&gt;
@@ -1005,130 +1005,108 @@
   </entry>
   
   <entry>
-    <title>Como deixar o Ubuntu mais rápido</title>
-    <link href="http://woliveiras.com.br/posts/como-deixar-o-ubuntu-mais-rapido/"/>
-    <id>http://woliveiras.com.br/posts/como-deixar-o-ubuntu-mais-rapido/</id>
-    <published>2015-01-19T07:00:19.000Z</published>
-    <updated>2016-03-22T17:34:59.664Z</updated>
+    <title>Protocolo HTTP</title>
+    <link href="http://woliveiras.com.br/posts/protocolo-http/"/>
+    <id>http://woliveiras.com.br/posts/protocolo-http/</id>
+    <published>2015-01-21T13:00:57.000Z</published>
+    <updated>2016-03-23T17:50:00.670Z</updated>
     
-    <content type="html">&lt;div class=&quot;shared-img&quot;&gt;&lt;br&gt;&lt;img src=&quot;../..//public/images/ubuntu.png&quot; alt=&quot;&quot;&gt;&lt;br&gt;&lt;/div&gt;
-
-&lt;p&gt;Sou fã de Linux, e deixei bem claro &lt;a href=&quot;/posts/meu-contato-com-o-linux-e-por-que-voce-deveria-testar/&quot; title=&quot;Meu contato com o Linux e por que você deveria testar&quot;&gt;nesse post&lt;/a&gt;. Atualmente estou usando o Ubuntu e muita gente tem reclamado da performance do Unity. Eu, sinceramente, detestei o Unity quando lançado e não estou gostando do rumo “Windows 8 Metro” que ele tem tomado. O pessoal quer transformar o Sistema que uso no PC o mesmo que eu vou usar no Celular e isso não tem me agradado - Porém isso é papo para outra hora. Vamos ao foco que é melhorar a velocidade do Ubuntu.&lt;a id=&quot;more&quot;&gt;&lt;/a&gt;&lt;br&gt;Minha máquina, hoje em dia, não é nem um pouco robusta - Core i3 de 3.2, 4 GB de memória, HD SATA 3 - e o primeiro PC que eu tive com Ubuntu também não era. Porém, na época era o Ubuntu 10.04, então rodava lisinho!&lt;br&gt;Para melhorar a velocidade do danado eu fiz as seguintes configurações(Todos os softwares podem ser instalados via Terminal ou pesquisando pelo nome deles na Central de Programas, mas aqui eu só deixei o comando. Pode fazer como você achar melhor. ;D)&lt;/p&gt;
-&lt;h2 id=&quot;Atualize-seu-O-S&quot;&gt;&lt;a href=&quot;#Atualize-seu-O-S&quot; class=&quot;headerlink&quot; title=&quot;Atualize seu O.S.&quot;&gt;&lt;/a&gt;Atualize seu O.S.&lt;/h2&gt;&lt;p&gt;Muitas vezes temos problema que são resolvidos pela Canonical com atualizações e, as vezes, a performance depende disso. Portanto atualize agora! É bom ter os drivers de vídeo de fábrica instalados e não os que vem por padrão, mas não vou entrar em detalhes na instalação de Drivers por que é muito variável. Se sua placa for NVidia ou ATI, da uma olhada nesse &lt;a href=&quot;http://www.edivaldobrito.com.br/como-instalar-os-ultimos-drivers-da-nvidia-ou-ati-no-ubuntu-e-derivados/&quot; title=&quot;Como instalar os últimos drivers da NVIDIA ou ATI no Ubuntu e derivados&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;post&lt;/a&gt; no Blog do Edivaldo que você vai ter uma solução! :D&lt;br&gt;Execute o seguinte comando sempre que for atualizar o O.S.:&lt;br&gt;&lt;figure class=&quot;highlight actionscript&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;sudo apt-&lt;span class=&quot;keyword&quot;&gt;get&lt;/span&gt; updade &amp;amp;&amp;amp; sudo apt-&lt;span class=&quot;keyword&quot;&gt;get&lt;/span&gt; upgrade -y&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;/p&gt;
-&lt;p&gt;Ou abra o Atualizador. ;)&lt;/p&gt;
-&lt;h2 id=&quot;Desligue-os-efeitos-visuais&quot;&gt;&lt;a href=&quot;#Desligue-os-efeitos-visuais&quot; class=&quot;headerlink&quot; title=&quot;Desligue os efeitos visuais&quot;&gt;&lt;/a&gt;Desligue os efeitos visuais&lt;/h2&gt;&lt;p&gt;Para essa dica é necessário o uso do terminal, porém é facinho…&lt;br&gt;Abra o Teminal e abra o arquivo &lt;strong&gt;~/.xprofile&lt;/strong&gt;:&lt;br&gt;Se quiser use o &lt;strong&gt;VI&lt;/strong&gt; ou &lt;strong&gt;NANO&lt;/strong&gt; pelo terminal, senão curtir ou não conhecer você pode executar:&lt;br&gt;&lt;figure class=&quot;highlight nginx&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;attribute&quot;&gt;sudo&lt;/span&gt; gedit ~/.xprofile&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;/p&gt;
-&lt;p&gt;Localize e mude a linha:&lt;br&gt;&lt;figure class=&quot;highlight arduino&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;keyword&quot;&gt;export&lt;/span&gt; UNITY_LOW_GFX_MODE=&lt;span class=&quot;number&quot;&gt;0&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;/p&gt;
-&lt;p&gt;Para:&lt;br&gt;&lt;figure class=&quot;highlight arduino&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;keyword&quot;&gt;export&lt;/span&gt; UNITY_LOW_GFX_MODE=&lt;span class=&quot;number&quot;&gt;1&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Se o arquivo não existir&lt;/strong&gt;, rode o comando:&lt;br&gt;&lt;figure class=&quot;highlight bash&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;built_in&quot;&gt;echo&lt;/span&gt; &lt;span class=&quot;string&quot;&gt;&quot;export UNITY_LOW_GFX_MODE=1&quot;&lt;/span&gt; &amp;amp;gt; ~/.xprofile&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;/p&gt;
-&lt;p&gt;Agora é só reiniciar ou deslogar e logar novamente.&lt;/p&gt;
-&lt;h2 id=&quot;Compiz-Config-Settings-Manager&quot;&gt;&lt;a href=&quot;#Compiz-Config-Settings-Manager&quot; class=&quot;headerlink&quot; title=&quot;Compiz Config Settings Manager&quot;&gt;&lt;/a&gt;Compiz Config Settings Manager&lt;/h2&gt;&lt;p&gt;Com a configuração que passei no começo do post os efeitos visuais já serão todos desabilitados, porém ainda da pra brincar mais instalando esse aplicativo que consegue mudar tudo na interface! Mas cuidado! Esse só deve ser utilizado livremente quando você já manjar legal de Ubuntu, pois um erro aqui vai te dar um pouco de dor de cabeça…&lt;br&gt;Para instalar rode:&lt;br&gt;&lt;figure class=&quot;highlight sql&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;sudo apt-get &lt;span class=&quot;keyword&quot;&gt;install&lt;/span&gt; compizconfig-&lt;span class=&quot;keyword&quot;&gt;settings&lt;/span&gt;-manager&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;/p&gt;
-&lt;p&gt;E com ele instalado poderemos configurar muita coisa. Como:&lt;/p&gt;
-&lt;h2 id=&quot;Minimizar-com-um-clique&quot;&gt;&lt;a href=&quot;#Minimizar-com-um-clique&quot; class=&quot;headerlink&quot; title=&quot;Minimizar com um clique&quot;&gt;&lt;/a&gt;Minimizar com um clique&lt;/h2&gt;&lt;p&gt;Quando clicamos no ícone do programa na barra lateral do Ubuntu, ele não é minimizado como acontece em outros Sistemas. Para conseguirmos isso basta fazer uma pequena configuração.&lt;/p&gt;
-&lt;p&gt;Abra o Compiz Config - Basta pesquisar por Compiz no Dash (Menu Iniciar do Ubuntu) - e clique em &lt;strong&gt;Ubuntu Unity Plugin&lt;/strong&gt;, clique na aba &lt;strong&gt;Launcher&lt;/strong&gt; e deixe marcado a opção &lt;strong&gt;Minimize Single Window Applications (Unsupported).&lt;/strong&gt;&lt;/p&gt;
-&lt;h2 id=&quot;Diminuir-ou-remover-a-sombra-nas-Janelas&quot;&gt;&lt;a href=&quot;#Diminuir-ou-remover-a-sombra-nas-Janelas&quot; class=&quot;headerlink&quot; title=&quot;Diminuir ou remover a sombra nas Janelas&quot;&gt;&lt;/a&gt;Diminuir ou remover a sombra nas Janelas&lt;/h2&gt;&lt;p&gt;Eu diminuo a sombra por que acho bem feio a janela com aquilo… Para diminuir ou remover você vai na aba &lt;strong&gt;Decorations&lt;/strong&gt; (Ainda na tela do&lt;strong&gt; Unity Plugin&lt;/strong&gt; que mexemos ainda acima), selecione a caixinha &lt;strong&gt;Override Theme Settings &lt;/strong&gt;e mude os valores das sombras (Shadow X, Shadow Y, Active Window Shadow). Se colocar 0 em tudo, as janelas ficarão sem nenhuma sombra.&lt;/p&gt;
-&lt;h2 id=&quot;Menu-das-janelas-aparecendo-num-piscar-de-olhos&quot;&gt;&lt;a href=&quot;#Menu-das-janelas-aparecendo-num-piscar-de-olhos&quot; class=&quot;headerlink&quot; title=&quot;Menu das janelas aparecendo num piscar de olhos&quot;&gt;&lt;/a&gt;Menu das janelas aparecendo num piscar de olhos&lt;/h2&gt;&lt;p&gt;Sabe quando você maximiza uma janela e o menu some? Então, para fazer eles aparecerem basta passar o mouse no topo da janela, porém eles vem com um efeito de Fade-in/Fade-out. Eu desativo esse efeito para eles virem mais rápido. Ainda no Compiz e na mesma janela do Unity clique na aba &lt;strong&gt;Menus&lt;/strong&gt; e deixe tudo &lt;strong&gt;0&lt;/strong&gt;. Pronto! Agora será instantâneo.&lt;/p&gt;
-&lt;h2 id=&quot;Open-GL-no-modo-Rapido&quot;&gt;&lt;a href=&quot;#Open-GL-no-modo-Rapido&quot; class=&quot;headerlink&quot; title=&quot;Open GL no modo Rápido&quot;&gt;&lt;/a&gt;Open GL no modo Rápido&lt;/h2&gt;&lt;p&gt;&lt;a href=&quot;http://pt.wikipedia.org/wiki/OpenGL&quot; title=&quot;OpenGL segundo a Wikipedia&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;OpenGL&lt;/a&gt; é uma API utilizada para desenvolvimento de aplicativos Gráficos (Tipo o DirectX). Volte a tela inicial do Compiz e clique em &lt;strong&gt;OpenGL&lt;/strong&gt;, na opção &lt;strong&gt;Filtro de textura&lt;/strong&gt;, mude para &lt;strong&gt;Rápido.&lt;/strong&gt; Se a opção &lt;strong&gt;Sincronização&lt;/strong&gt; &lt;strong&gt;VBlank&lt;/strong&gt; não estiver ativada, ative agora. Vai dar uma boa velocidade pro PC!&lt;/p&gt;
-&lt;h2 id=&quot;Preload&quot;&gt;&lt;a href=&quot;#Preload&quot; class=&quot;headerlink&quot; title=&quot;Preload&quot;&gt;&lt;/a&gt;Preload&lt;/h2&gt;&lt;p&gt;Em algumas distros ele está vindo por padrão, mas no Ubuntu ainda não. &lt;strong&gt;Essa dica é para quem tem mais de 4GB de RAM&lt;/strong&gt;. Ele armazena os programas e libs mais utilizadas em memória fazendo com que a abertura de programas fique muito mais rápida. Olha só:&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;../../public/images/ubuntu-preload.gif&quot; alt=&quot;ubuntu-preload&quot;&gt;&lt;/p&gt;
-&lt;p&gt;Para instalar:&lt;/p&gt;
-&lt;pre class=&quot;nums:false lang:sh decode:true&quot;&gt;sudo apt-get install preload&lt;/pre&gt;
-
-&lt;h2 id=&quot;ZRam&quot;&gt;&lt;a href=&quot;#ZRam&quot; class=&quot;headerlink&quot; title=&quot;ZRam&quot;&gt;&lt;/a&gt;ZRam&lt;/h2&gt;&lt;p&gt;&lt;strong&gt;Se você utiliza SSD no lugar de HD, pode pular esse tópico&lt;/strong&gt;.&lt;/p&gt;
-&lt;p&gt;O I/O em Disco é bem mais lento que em memória RAM. Sabendo disso você pode instalar o ZRam que utiliza a memória RAM no lugar de Disco para área de troca (Swap) o que aumenta consideravelmente a velocidade do seu PC.&lt;/p&gt;
-&lt;figure class=&quot;highlight smali&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;3&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;sudo&lt;span class=&quot;built_in&quot;&gt; add-apt-repository &lt;/span&gt;ppa:shnatsel/zram [PRESSIONE ENTER]&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;sudo apt-get update [PRESSIONE ENTER]&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;sudo apt-get install zramswap-enabler&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
-&lt;h2 id=&quot;Dicas-extra-pra-deixar-o-Ubuntu-mais-melhor-de-bom&quot;&gt;&lt;a href=&quot;#Dicas-extra-pra-deixar-o-Ubuntu-mais-melhor-de-bom&quot; class=&quot;headerlink&quot; title=&quot;Dicas extra pra deixar o Ubuntu mais melhor de bom!&quot;&gt;&lt;/a&gt;Dicas extra pra deixar o Ubuntu mais melhor de bom!&lt;/h2&gt;&lt;h3 id=&quot;TLP&quot;&gt;&lt;a href=&quot;#TLP&quot; class=&quot;headerlink&quot; title=&quot;TLP&quot;&gt;&lt;/a&gt;TLP&lt;/h3&gt;&lt;p&gt;Esse salva a minha vida! Ele serve para gerenciar melhor o consumo da bateria pelo Ubuntu.&lt;br&gt;Para funcionar será necessário remover o gerenciador padrão:&lt;br&gt;&lt;figure class=&quot;highlight vim&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;sudo apt-&lt;span class=&quot;built_in&quot;&gt;get&lt;/span&gt; &lt;span class=&quot;built_in&quot;&gt;remove&lt;/span&gt; laptop-&lt;span class=&quot;keyword&quot;&gt;mode&lt;/span&gt;-tools&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;/p&gt;
-&lt;p&gt;E agora instale com os comandos:&lt;/p&gt;
-&lt;figure class=&quot;highlight smali&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;3&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;sudo&lt;span class=&quot;built_in&quot;&gt; add-apt-repository &lt;/span&gt;ppa:linrunner/tlp [PRESSIONE ENTER]&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;sudo apt-get update  [PRESSIONE ENTER]&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;sudo apt-get install tlp tlp-rdw&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
-&lt;p&gt;Mas assim ele só vai ficar instalado e só vai rodar depois de reiniciar o PC, então execute o comando:&lt;/p&gt;
-&lt;figure class=&quot;highlight crmsh&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;sudo tlp &lt;span class=&quot;literal&quot;&gt;start&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
-&lt;p&gt;E ele vai rodar desde já! (Não é necessário reiniciar)&lt;/p&gt;
-&lt;h3 id=&quot;System-Load-Indicator&quot;&gt;&lt;a href=&quot;#System-Load-Indicator&quot; class=&quot;headerlink&quot; title=&quot;System Load Indicator&quot;&gt;&lt;/a&gt;System Load Indicator&lt;/h3&gt;&lt;p&gt;Você gosta de gerenciar o PC, ficar olhando quanto está consumindo de memória, rede, etc? Então esse programinha vai servir muito bem! Ele cria um indicador na barra superior do Ubuntu para você ficar olhando o que acontece.&lt;/p&gt;
-&lt;p&gt;&lt;pre class=&quot;nums:false lang:php decode:true lang=shell&quot;&gt;sudo apt-get install indicator-multiload&lt;/pre&gt;&lt;br&gt;Para configurar ele, é só clicar em cima do ícone (Que estará perto do indicador da rede) e depois clicar em preferências. Eu deixo o indicador sempre exibindo o tráfego em minha rede para monitorar se está tudo OK.&lt;/p&gt;
-&lt;h3 id=&quot;Keylock&quot;&gt;&lt;a href=&quot;#Keylock&quot; class=&quot;headerlink&quot; title=&quot;Keylock&quot;&gt;&lt;/a&gt;Keylock&lt;/h3&gt;&lt;p&gt;Pra quem curte receber avisos quando o Caps Look é ativado basta rodar:&lt;/p&gt;
-&lt;figure class=&quot;highlight smali&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;3&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;sudo&lt;span class=&quot;built_in&quot;&gt; add-apt-repository &lt;/span&gt;ppa:tsbarnes/indicator-keylock [PRESSIONE ENTER]&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;sudo apt-get update [PRESSIONE ENTER]&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;sudo apt-get install indicator-keylock&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
-&lt;p&gt;Além dessas configurações, se você quiser mais performance ainda é preciso instalar outro gerenciador de Desktop no lugar do Unity (&lt;a href=&quot;http://lxde.org/pt-br&quot; title=&quot;LXDE&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;LXDE&lt;/a&gt;, &lt;a href=&quot;http://www.xfce.org/&quot; title=&quot;XFCE&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;XFCE&lt;/a&gt;, etc). Nesse caso teríamos uma alternativa bem legal que é o &lt;a href=&quot;http://xubuntu.org/&quot; title=&quot;Xubuntu&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Xubuntu&lt;/a&gt;.&lt;/p&gt;
-&lt;p&gt;Todas as dicas eu uso no meu PC, algumas foram através de testes pessoais e outras através de alguns blogs legais sobre o Ubuntu que são esses:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&quot;https://linuxtugaz.wordpress.com/2014/04/20/deixe-o-seu-ubuntu-14-04-quase-perfeito/&quot; title=&quot;Linux Tugaz&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Linux Tugaz&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;http://elias.praciano.com/2014/05/como-melhorar-o-desempenho-do-ubuntu/&quot; title=&quot;Elias Praciano&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Elias Praciano&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;http://www.ubuntubrsc.com/como-deixar-seu-ubuntu-mais-rapido.html&quot; title=&quot;UbuntuBRSC&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Ubuntu BR SC&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;E você tem alguma dica para melhorar ou personalizar mais as distros? Comenta ae! :D&lt;/p&gt;
+    <content type="html">&lt;p&gt;No post &lt;a href=&quot;http://woliveiras.com.br/posts/url-uri-qual-diferenca/&quot; title=&quot;URL ou URI, qual a diferença?&quot;&gt;anterior&lt;/a&gt; eu expliquei a diferença entre URL, URI e URN e fiz uma pequena introdução sobre o Protocolo HTTP. Da uma lidinha na introdução lá e volte aqui para continuar estudando sobre esse interessante protocolo de comunicação das Internetsss! :D&lt;a id=&quot;more&quot;&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Como eu disse, toda a especificação está &lt;a href=&quot;http://tools.ietf.org/html/rfc2616&quot; title=&quot;RFC2616&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;aqui&lt;/a&gt; e eu só estou dando uma pequena pincelada sobre o assunto.&lt;/p&gt;
+&lt;h2 id=&quot;Metodos-HTTP&quot;&gt;&lt;a href=&quot;#Metodos-HTTP&quot; class=&quot;headerlink&quot; title=&quot;Métodos HTTP&quot;&gt;&lt;/a&gt;Métodos HTTP&lt;/h2&gt;&lt;p&gt;Durante a requisição é utilizado um Método de requisição (Ou Verbo), como você viu no exemplo que foi o GET. Existem 8 métodos: GET, POST, DELETE, HEAD, PUT, OPTIONS, TRACE e CONNECT. Você já deve ter utilizado POST e GET em algum formulário. ;)&lt;/p&gt;
+&lt;p&gt;Os mais utilizados são:&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;GET&lt;/strong&gt; - Utilizado para solicitar um recurso. Não utilize para executar uma ação, somente para recuperar informações.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;POST&lt;/strong&gt; - Esse é o que deve ser utilizado para executar uma ação ou criar um novo recurso.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;PUT&lt;/strong&gt; - Atualiza um recurso na URI. A diferença entre POST e PUT é que POST pode processar informações também.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;DELETE&lt;/strong&gt; - Remove um recurso.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;HEAD&lt;/strong&gt; - Recupera as informações sobre um recurso.&lt;/p&gt;
+&lt;h2 id=&quot;Status-Code&quot;&gt;&lt;a href=&quot;#Status-Code&quot; class=&quot;headerlink&quot; title=&quot;Status Code&quot;&gt;&lt;/a&gt;Status Code&lt;/h2&gt;&lt;p&gt;É o código de status da resposta. Sabe quando você entra em um site e cai na página 404? O que aconteceu foi que o servidor recebeu uma requisição, processou e gerou o status code 404, então a aplicação (Que já está previamente configurada para isso) devolve a página de erro 404. E o mesmo acontece para tudo. Existem muitos status e vou citar só alguns que você já deve ter ouvido falar:&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;200&lt;/strong&gt; - A requisição foi bem sucedida.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;301&lt;/strong&gt; - O recurso foi movido para outro URI.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;403&lt;/strong&gt; - O servidor se recusa a atender sua requisição (Tá brabo) e o client não deve tentar de novo.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;404&lt;/strong&gt; - Não foi localizado no servidor.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;500&lt;/strong&gt; - Deu algum erro inesperado no servidor. (Normalmente quando fazemos alguma cagada e é mais fácil botar a culpa no estagiário. #ficaadica)&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;503&lt;/strong&gt; - O servidor está temporariamente indisponível.&lt;/p&gt;
+&lt;p&gt;E tem muito mais a se estudar. Porém com esse conteúdo você não fica mais boiando quando ver determinadas chamadas nas aplicações. ;)&lt;/p&gt;
 </content>
     
     <summary type="html">
     
-      Como deixar o Ubuntu mais rápido mesmo com Unity
+      &lt;p&gt;No post &lt;a href=&quot;http://woliveiras.com.br/posts/url-uri-qual-diferenca/&quot; title=&quot;URL ou URI, qual a diferença?&quot;&gt;anterior&lt;/a&gt; eu expliquei a diferença entre URL, URI e URN e fiz uma pequena introdução sobre o Protocolo HTTP. Da uma lidinha na introdução lá e volte aqui para continuar estudando sobre esse interessante protocolo de comunicação das Internetsss! :D
     
     </summary>
     
-      <category term="Ambiente" scheme="http://woliveiras.com.br/categories/Ambiente/"/>
+      <category term="Dicas" scheme="http://woliveiras.com.br/categories/Dicas/"/>
     
-      <category term="Dicas" scheme="http://woliveiras.com.br/categories/Ambiente/Dicas/"/>
-    
-      <category term="Linux" scheme="http://woliveiras.com.br/categories/Ambiente/Dicas/Linux/"/>
+      <category term="HTTP" scheme="http://woliveiras.com.br/categories/Dicas/HTTP/"/>
     
     
       <category term="Dicas" scheme="http://woliveiras.com.br/tags/Dicas/"/>
     
-      <category term="Ambiente" scheme="http://woliveiras.com.br/tags/Ambiente/"/>
-    
-      <category term="Linux" scheme="http://woliveiras.com.br/tags/Linux/"/>
+      <category term="HTTP" scheme="http://woliveiras.com.br/tags/HTTP/"/>
     
   </entry>
   
   <entry>
-    <title>Meu contato com o Linux e por que você deveria testar</title>
-    <link href="http://woliveiras.com.br/posts/meu-contato-com-o-linux-e-por-que-voce-deveria-testar/"/>
-    <id>http://woliveiras.com.br/posts/meu-contato-com-o-linux-e-por-que-voce-deveria-testar/</id>
-    <published>2015-01-16T12:10:25.000Z</published>
-    <updated>2016-03-22T17:34:59.664Z</updated>
+    <title>URL ou URI, qual a diferença?</title>
+    <link href="http://woliveiras.com.br/posts/url-uri-qual-diferenca/"/>
+    <id>http://woliveiras.com.br/posts/url-uri-qual-diferenca/</id>
+    <published>2015-01-20T12:00:42.000Z</published>
+    <updated>2016-03-23T17:50:00.670Z</updated>
     
-    <content type="html">&lt;div class=&quot;shared-img&quot;&gt;&lt;br&gt;&lt;img src=&quot;../../public/images/linux-icon.png&quot; alt=&quot;Linux&quot;&gt;&lt;br&gt;&lt;/div&gt;
-
-&lt;p&gt;Depois de ler o artigo do Daciuk sobre &lt;a href=&quot;http://blog.da2k.com.br/2015/01/15/como-ser-um-dev-frontend-usando-linux/&quot; title=&quot;Como ser um dev frontend usando Linux&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Como ser um dev frontend usando Linux&lt;/a&gt;, decidi comentar como foi minha experiência no mundo Linux.&lt;/p&gt;
-&lt;p&gt;Minha história com &lt;a href=&quot;http://pt.wikipedia.org/wiki/Linux&quot; title=&quot;O que é Linux&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Linux&lt;/a&gt; começou quando eu conheci o &lt;a href=&quot;http://pt.wikipedia.org/wiki/Kurumin&quot; title=&quot;Kurumin&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Kurumin Linux&lt;/a&gt; - Sim, eu sou tiozinho com esse S.O. cara. Na época eu trabalhava com Infraestrutura e fazia manutenção de micros. Acabei lendo em algum lugar que eu precisaria manjar de Linux para ser um profissional mais completo. Pois bem… Eu fui aprender sobre o danado!&lt;a id=&quot;more&quot;&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;div id=&quot;distros&quot;&gt;Desde lá passei por várias distros como &lt;a href=&quot;https://www.debian.org/index.pt.html&quot; title=&quot;Debian&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Debian&lt;/a&gt;, &lt;a href=&quot;https://www.archlinux.org/&quot; title=&quot;Arch&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Arch&lt;/a&gt;, &lt;a href=&quot;https://getfedora.org/&quot; title=&quot;Fedora&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Fedora&lt;/a&gt;, &lt;a href=&quot;https://pt.opensuse.org/Bem-vindo_ao_openSUSE.org&quot; title=&quot;OpenSUSE&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;OpenSUSE&lt;/a&gt;, &lt;a href=&quot;http://www.ubuntu.com/&quot; title=&quot;Ubuntu&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Ubuntu&lt;/a&gt; (Que eu uso atualmente), &lt;a href=&quot;http://elementaryos.org/&quot; title=&quot;ElementaryOS&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;ElementaryOS&lt;/a&gt; e alguns que eu nem lembro o nome! E nesse artigo vou tentar te orientar um pouco sobre esse mundo maneiro do Open Source e do Software Livre ou Free.&lt;/div&gt;
-
-&lt;h5 id=&quot;Open-Source-Livre-Gratuito-qual-a-diferenca&quot;&gt;&lt;a href=&quot;#Open-Source-Livre-Gratuito-qual-a-diferenca&quot; class=&quot;headerlink&quot; title=&quot;Open Source, Livre, Gratuito, qual a diferença?&quot;&gt;&lt;/a&gt;Open Source, Livre, Gratuito, qual a diferença?&lt;/h5&gt;&lt;p&gt;Daria pra escrever uma Bíblia sobre o assunto, mas é melhor você dar uma lida &lt;a href=&quot;http://www.infowester.com/freexopen.php&quot; title=&quot;Software livre, código aberto e software gratuito: as diferenças&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;nesse artigo&lt;/a&gt; e olhar &lt;a href=&quot;http://softwarelivre.org/open-source-codigo-aberto&quot; title=&quot;Software Livre Brasil&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;esse site&lt;/a&gt; para entender sobre o assunto.&lt;/p&gt;
-&lt;p&gt;Eu e quase 100% dos usuários de Linux, não usamos linux simplesmente por podermos baixar e utilizar as Distribuições de graça, - Se um Software é bom e funcional a gente paga por ele também! &lt;del&gt;Tá tirando???&lt;/del&gt; - mas pela estabilidade e, muitas vezes, pela praticidade em utilizar algumas coisas de Desenvolvimento ou simplesmente por ser mais leve em Hardware antigo.&lt;/p&gt;
-&lt;p&gt;Eu gosto do Open Source por que sou livre para editar o meu Sistema Operacional a vontade e a comunidade é show!&lt;/p&gt;
-&lt;h5 id=&quot;O-que-e-uma-Distro-ou-Distribuicao-Linux&quot;&gt;&lt;a href=&quot;#O-que-e-uma-Distro-ou-Distribuicao-Linux&quot; class=&quot;headerlink&quot; title=&quot;O que é uma Distro ou Distribuição Linux?&quot;&gt;&lt;/a&gt;O que é uma Distro ou Distribuição Linux?&lt;/h5&gt;&lt;p&gt;A &lt;a href=&quot;http://pt.wikipedia.org/wiki/Distribui%C3%A7%C3%A3o_Linux&quot; title=&quot;Distribuição Linux&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Distro&lt;/a&gt; é um conjunto do core Linux com alguns softwares formando o Sistema Operacional que você vai utilizar. No exemplo dos &lt;a href=&quot;#distros&quot;&gt;nomes que eu sitei&lt;/a&gt; temos algumas das principais Distros do mercado atual, fora o &lt;a href=&quot;http://www.linuxmint.com/&quot; title=&quot;Linux Mint&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Mint&lt;/a&gt; e &lt;a href=&quot;http://ubuntugnome.org/&quot; title=&quot;Ubuntu Gnome&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Ubuntu Gnome&lt;/a&gt;.&lt;/p&gt;
-&lt;h5 id=&quot;E-por-que-eu-deveria-usar-Linux-entao&quot;&gt;&lt;a href=&quot;#E-por-que-eu-deveria-usar-Linux-entao&quot; class=&quot;headerlink&quot; title=&quot;E por que eu deveria usar Linux então?&quot;&gt;&lt;/a&gt;E por que eu deveria usar Linux então?&lt;/h5&gt;&lt;p&gt;Se você é Desenvolvedor, use pelo conhecimento da arquitetura do Sistema Operacional que, muitas vezes, será usado nos servidores que vão armazenar sua aplicação. Com o Linux você pode conseguir ser mais produtivo. - Claro que se você é produtivo no Windows e quer continuar, não tem problema, mas por que não testar outro? Vai que…&lt;/p&gt;
-&lt;p&gt;Se é Usuário comum, pelo simples fato de sair da pirataria! Instala Ubuntu, abre o Chrome e fica no Facebook o dia inteiro, igualzinho você faz no seu Windows pirata cara…&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Eu não sou Xiita&lt;/strong&gt; e não vou falar pra você ir de vez para Linux se você descobrir que não pode por algum motivo, como um Software que só funcione em Windows ou Mac ou alguma coisa do tipo, Hardware, ou mesm por que você não quer… Simplesmente não migre… Porém, é como eu disse, não custa testar, pois é mais conhecimento adquirido.&lt;/p&gt;
-&lt;p&gt;Você deve vir para esse lado da força se se sentir confortável testando o S.O. e nada te atrapalhar.&lt;/p&gt;
-&lt;p&gt;Temos de ser razoáveis… Fazer gambiarra pra um software funcionar só pra dizer que usa Linux seria bobagem.&lt;/p&gt;
-&lt;p&gt;Se você se sentir forçado a usar Linux, então já está quebrando o sentido do incentivoao teste. É para usar Linux para ser livre!&lt;/p&gt;
-&lt;h5 id=&quot;Como-comecar-com-o-Linux&quot;&gt;&lt;a href=&quot;#Como-comecar-com-o-Linux&quot; class=&quot;headerlink&quot; title=&quot;Como começar com o Linux?&quot;&gt;&lt;/a&gt;Como começar com o Linux?&lt;/h5&gt;&lt;p&gt;Pesquise no Googlis sobre as distribuições disponíveis no mercado e como cada uma é utilizada. Saiba como elas funcionam e o ciclo de atualizações, Softwares compatíveis (É raro um software que funcione em uma distro não funcionar na outra, porém vai que…), se você não manja de Inglês, veja se tem Documentação em PT-BR.&lt;/p&gt;
-&lt;p&gt;Eu indicaria Ubuntu para você que é iniciante por N motivos, mas hoje temos muito mais opções para iniciar, então é possível você achar uma e curtir mais pesquisando na net do que eu indicando as que gosto.&lt;/p&gt;
-&lt;p&gt;Depois veja se seu Hardware é compatível na distribuição que você deseja testar - Eu passei muita raiva para configurar meu Wireless no Debian e no Arch. Mas calma; &lt;strong&gt;você não vai se matar para configurar o PC, está tudo no Google!&lt;/strong&gt; Porém, se você pegar uma distro mais complicada pode se chatear e desistir do teste… Acontece muito com iniciantes.&lt;/p&gt;
-&lt;p&gt;Para conhecer bastante sobre o assunto será bom dar uma pesquisada em foruns, ler uns artigos ou livros. Eu indico o seguinte:&lt;/p&gt;
-&lt;p&gt;&lt;a href=&quot;http://www.guiafoca.org/&quot; title=&quot;Guia Foca&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Guia Foca GNU/Linux&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;Se for usar Ubuntu, da uma olhada &lt;a href=&quot;http://ubuntu-br.org/comece&quot; title=&quot;Ubuntu - Comece Aqui!&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;aqui&lt;/a&gt;.&lt;/p&gt;
-&lt;p&gt;E se quiser um livro maneiro, tem o da &lt;a href=&quot;http://www.casadocodigo.com.br/products/livro-linux&quot; title=&quot;Começando com o Linux: Comandos, serviços e administração&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Casa do Código&lt;/a&gt; que aborda muita coisa e o &lt;a href=&quot;http://orgulhogeek.net/ubuntu-guia-do-iniciante/&quot; title=&quot;Orgulho Geek&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Guia do Iniciante(Ubuntu)&lt;/a&gt; do Orgulho Geek.&lt;/p&gt;
-&lt;p&gt;Escolhido a Distro, verificado a compatibilidade, aprendeu um pouco… Vai pra cima! Se quiser comece instalando numa máquina virtual para ir conhecendo e testando tudo e quando se sentir confortável parte para o uso no dia-a-dia.&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Seja Livre, use Linux! :D&lt;/strong&gt;&lt;/p&gt;
+    <content type="html">&lt;p&gt;Essa dúvida já passou pela cabeça de muita gente e creio que se você é iniciante e já ouviu esses termos alguma vez também deve estar se confundindo. É normal essa confusão no começo, afinal você cria aplicações para consumir API’s ou constrói/melhora API’s o tempo todo no seu dia-a-dia, então você escuta esses termos direto.&lt;/p&gt;
+&lt;p&gt;Mas afinal, qual a diferença entre URL e URI?&lt;a id=&quot;more&quot;&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id=&quot;O-Protocolo-HTTP&quot;&gt;&lt;a href=&quot;#O-Protocolo-HTTP&quot; class=&quot;headerlink&quot; title=&quot;O Protocolo HTTP&quot;&gt;&lt;/a&gt;O Protocolo HTTP&lt;/h2&gt;&lt;p&gt;Não da para abordar o assunto URI, URL, URN sem explicar um pouco sobre o HTTP. Se você já manja sobre HTTP, pode pular para a parte de &lt;a href=&quot;#url&quot; title=&quot;URL&quot;&gt;URL&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;O protocolo &lt;a href=&quot;http://pt.wikipedia.org/wiki/Hypertext_Transfer_Protocol&quot; title=&quot;Protocolo HTTP&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;HTTP&lt;/a&gt; é um conjunto de regras de transmissão de dados que permitem que máquinas com diferentes configurações possam se comunicar com um mesmo “idioma”. A especificação do Protocolo você encontra &lt;a href=&quot;http://tools.ietf.org/html/rfc2616&quot; title=&quot;RFC2616&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;aqui&lt;/a&gt; e o conhecimento sobre o assunto vai mais além, envolvendo Verbos, Cabeçalhos HTTP, etc.&lt;/p&gt;
+&lt;p&gt;Esse protocolo é baseado em requisição e resposta entre client e server. Quando o client (Ou user agent) solicita um recurso na internet ele envia um &lt;a href=&quot;http://pt.wikipedia.org/wiki/Pacote&quot; title=&quot;Pacote de dados&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;pacote de dados&lt;/a&gt; com cabeçalhos (Headers) a um URI (Ou URL) e o destinatário (Provavelmente um Servidor) vai devolver uma resposta que pode ser um &lt;a href=&quot;http://pt.wikipedia.org/wiki/Rede_de_computadores&quot; title=&quot;Recursos&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;recurso&lt;/a&gt; ou outro cabeçalho.&lt;/p&gt;
+&lt;p&gt;Para ver como tudo isso acontece faça o seguinte:&lt;/p&gt;
+&lt;p&gt;Abra uma nova aba no seu navegador - No meu exemplo estou usando o Chrome e vou acessar o Google -, pressione &lt;strong&gt;F12&lt;/strong&gt; ou abra as &lt;strong&gt;Ferramentas&lt;/strong&gt; &lt;strong&gt;de&lt;/strong&gt; &lt;strong&gt;Desenvolvedor&lt;/strong&gt; e clique em &lt;strong&gt;Network&lt;/strong&gt; e acesse um site qualquer. Você vai reparar que serão baixados alguns arquivos, clique em qualquer um e clique em &lt;strong&gt;headers&lt;/strong&gt;. Vai aparecer algo igual a isso:&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;../../public/images/google-headers.png&quot; alt=&quot;&quot; title=&quot;Google headers&quot;&gt;&lt;/p&gt;
+&lt;p&gt;Ali você consegue identificar o &lt;strong&gt;endereço remoto&lt;/strong&gt; (173.194.118.197:443), a &lt;strong&gt;URL&lt;/strong&gt; que foi requisitada, o &lt;strong&gt;método&lt;/strong&gt; que foi utilizado (GET), o &lt;strong&gt;Status Code&lt;/strong&gt; (200 - OK) e mais um monte de informação - Incluindo os cabeçalhos da resposta (&lt;strong&gt;Response Headers&lt;/strong&gt;).&lt;/p&gt;
+&lt;p&gt;E é assim que acontece a comunicação.&lt;br&gt;No momento não vou aprofundar no Protocolo HTTP para voltarmos ao foco do post, porém vou citar mais algumas coisas legais na próxima postagem. ;)&lt;/p&gt;
+&lt;h2 id=&quot;URL-–-Uniform-Resource-Locator&quot;&gt;&lt;a href=&quot;#URL-–-Uniform-Resource-Locator&quot; class=&quot;headerlink&quot; title=&quot;URL – Uniform Resource Locator&quot;&gt;&lt;/a&gt;URL – Uniform Resource Locator&lt;/h2&gt;&lt;p&gt;Em português: &lt;strong&gt;Localizador de Recursos Universal &lt;/strong&gt;e como o próprio nome diz, se refere ao local, o Host que você quer acessar determinado recurso. O objetivo da URL é associar um endereço remoto com um nome de recurso na Internet.&lt;/p&gt;
+&lt;p&gt;Exemplo de URL&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;woliveiras.com.br&lt;/li&gt;
+&lt;li&gt;woliveiras.org&lt;/li&gt;
+&lt;li&gt;woliveiras.xxx&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Ou seja, acessando esses endereços você cai no servidor onde está minha página - Só exemplo - e o servidor vai se encarregar de processar sua solicitação.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;A URL é parte da URI.&lt;/strong&gt;&lt;/p&gt;
+&lt;h2 id=&quot;URN-–-Uniform-Resource-Name&quot;&gt;&lt;a href=&quot;#URN-–-Uniform-Resource-Name&quot; class=&quot;headerlink&quot; title=&quot;URN – Uniform Resource Name&quot;&gt;&lt;/a&gt;URN – Uniform Resource Name&lt;/h2&gt;&lt;p&gt;Em português: &lt;strong&gt;Nome de Recursos Universal&lt;/strong&gt; é o nome do recurso que será acessado e &lt;strong&gt;também fará parte da URI&lt;/strong&gt;.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;home.html&lt;/li&gt;
+&lt;li&gt;contato.php&lt;/li&gt;
+&lt;li&gt;servicos.html&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;É comum associarmos URN a página que estamos acessando.&lt;/p&gt;
+&lt;p&gt;Outro ex.: /api/v01/exemplo/usuarios&lt;/p&gt;
+&lt;h2 id=&quot;URI-–-Uniform-Resource-Identifier&quot;&gt;&lt;a href=&quot;#URI-–-Uniform-Resource-Identifier&quot; class=&quot;headerlink&quot; title=&quot;URI – Uniform Resource Identifier&quot;&gt;&lt;/a&gt;URI – Uniform Resource Identifier&lt;/h2&gt;&lt;p&gt;Em português: &lt;strong&gt;Identificador de Recursos Universal&lt;/strong&gt;, como diz o próprio nome, é o identificador do recurso. Pode ser uma imagem, uma página, etc, pois tudo o que está disponível na internet precisa de um identificador único para que não seja confundido.&lt;/p&gt;
+&lt;p&gt;Exemplos de URI&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;http://woliveiras.com.br/desenvolvedor-front-end/&quot;&gt;http://woliveiras.com.br/desenvolvedor-front-end/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://pt.wikipedia.org/wiki/Hypertext_Transfer_Protocol&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;http://pt.wikipedia.org/wiki/Hypertext_Transfer_Protocol&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Pra ficar mais fácil de entender, pois sei que deve ter dado um nó agora:&lt;/p&gt;
+&lt;p&gt;A URI une o &lt;strong&gt;Protocolo&lt;/strong&gt; (http://) a &lt;strong&gt;localização do recurso&lt;/strong&gt; (URL - woliveiras.com.br) e o &lt;strong&gt;nome do recurso&lt;/strong&gt; (URN - /desenvolvedor-front-end/) para que você acesse as coisas na Web.&lt;/p&gt;
+&lt;p&gt;Alguma dúvida ou dica para melhorar o post? Comenta ae!&lt;/p&gt;
 </content>
     
     <summary type="html">
     
-      Por que usar Linux? Como começar com Linux?
+      &lt;p&gt;Essa dúvida já passou pela cabeça de muita gente e creio que se você é iniciante e já ouviu esses termos alguma vez também deve estar se confundindo. É normal essa confusão no começo, afinal você cria aplicações para consumir API’s ou constrói/melhora API’s o tempo todo no seu dia-a-dia, então você escuta esses termos direto.&lt;/p&gt;
+&lt;p&gt;Mas afinal, qual a diferença entre URL e URI?
     
     </summary>
     
-      <category term="Ambiente" scheme="http://woliveiras.com.br/categories/Ambiente/"/>
+      <category term="Dicas" scheme="http://woliveiras.com.br/categories/Dicas/"/>
     
-      <category term="Dicas" scheme="http://woliveiras.com.br/categories/Ambiente/Dicas/"/>
-    
-      <category term="Linux" scheme="http://woliveiras.com.br/categories/Ambiente/Dicas/Linux/"/>
+      <category term="HTTP" scheme="http://woliveiras.com.br/categories/Dicas/HTTP/"/>
     
     
       <category term="Dicas" scheme="http://woliveiras.com.br/tags/Dicas/"/>
     
-      <category term="Ambiente" scheme="http://woliveiras.com.br/tags/Ambiente/"/>
-    
-      <category term="Linux" scheme="http://woliveiras.com.br/tags/Linux/"/>
+      <category term="HTTP" scheme="http://woliveiras.com.br/tags/HTTP/"/>
     
   </entry>
   

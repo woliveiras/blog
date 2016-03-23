@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  
+  <title>Pré processadores CSS | William Oliveira</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  <meta name="description" content="Tem gente que apoia o uso, tem gente que não apoia e, as vezes, falar disso da até briga nas comunidades do Facebook/Google/etc… Porém é algo que está sendo amplamente utilizado e, muitas vezes, é req">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Pré processadores CSS">
+<meta property="og:url" content="http://woliveiras.com.br/posts/pre-processadores-css/index.html">
+<meta property="og:site_name" content="William Oliveira">
+<meta property="og:description" content="Tem gente que apoia o uso, tem gente que não apoia e, as vezes, falar disso da até briga nas comunidades do Facebook/Google/etc… Porém é algo que está sendo amplamente utilizado e, muitas vezes, é req">
+<meta property="og:updated_time" content="2016-03-23T17:50:00.670Z">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="Pré processadores CSS">
+<meta name="twitter:description" content="Tem gente que apoia o uso, tem gente que não apoia e, as vezes, falar disso da até briga nas comunidades do Facebook/Google/etc… Porém é algo que está sendo amplamente utilizado e, muitas vezes, é req">
+<meta name="twitter:creator" content="@w_oliveiras">
+  
+    <link rel="alternative" href="/atom.xml" title="William Oliveira" type="application/atom+xml">
+  
+  
+    <link rel="icon" href="img/favicon.png">
+  
+  <link href="//fonts.googleapis.com/css?family=Source+Code+Pro" rel="stylesheet" type="text/css">
+  <link rel="stylesheet" href="/css/style.css">
+  
+
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-25964646-1', 'auto');
+  ga('send', 'pageview');
+
+</script>
+
+<!-- End Google Analytics -->
+
+
+  <link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+</head>
+<body>
+  <div id="container">
+    <div id="wrap">
+      <header id="header">
+  <div id="header-outer" class="outer">
+    <div id="header-inner" class="inner">
+      <ul class="navigation">
+        <li id="main-nav">
+          <a id="main-nav-toggle" class="nav-icon"></a>
+          
+            <a class="main-nav-link" href="/">Home</a>
+          
+            <a class="main-nav-link" href="/about">Sobre</a>
+          
+            <a class="main-nav-link" href="/colabore-comigo">Colabore</a>
+          
+        </li>
+        <li id="sub-nav">
+          
+            <a id="nav-rss-link" class="nav-icon" href="/atom.xml" title="RSS Feed"></a>
+          
+          <a id="nav-search-btn" class="nav-icon" title="Search"></a>
+        </li>
+        <li id="search-form-wrap">
+          <form action="//google.com/search" method="get" accept-charset="UTF-8" class="search-form"><input type="search" name="q" results="0" class="search-form-input" placeholder="Search"><button type="submit" class="search-form-submit">&#xF002;</button><input type="hidden" name="sitesearch" value="http://woliveiras.com.br"></form>
+        </li>
+      </ul>
+    </div>
+    <div id="header-title" class="inner">
+      <h1 id="logo-wrap">
+        <a href="/" id="title">William Oliveira</a>
+      </h1>
+      
+        <h2 id="subtitle-wrap">
+          <a href="/" id="subtitle">Desenvolvedor Front End</a>
+        </h2>
+      
+      <div class="contact-icons">
+	<a href="https://www.facebook.com/woliveira542"  target="_blank">
+		<i class="ico facebook"  target="_blank"></i>
+	</a>
+	<a href="https://twitter.com/w_oliveiras"  target="_blank">
+		<i class="ico twitter"  target="_blank"></i>
+	</a>
+	<a href="https://br.linkedin.com/in/woliveira542"  target="_blank">
+		<i class="ico linkedin"  target="_blank"></i>
+	</a>
+	<a href="https://github.com/woliveiras"  target="_blank">
+		<i class="ico github"></i>
+	</a>
+</div>
+    </div>
+  </div>
+</header>
+
+      <div class="outer">
+        <section id="main"><article id="post-pre-processadores-css" class="article article-type-post" itemscope itemprop="blogPost">
+  <div class="article-inner">
+    
+    
+      <header class="article-header">
+        
+  
+    <h1 class="article-title" itemprop="name">
+      Pré processadores CSS
+    </h1>
+  
+
+      </header>
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+        <p>Tem <a href="http://blog.caelum.com.br/css-facil-flexivel-e-dinamico-com-less/" title="CSS fácil, flexível e dinâmico com LESS" target="_blank" rel="external">gente que apoia o uso</a>, tem <a href="http://tableless.com.br/pre-processadores-usar-ou-nao-usar/" title="Pré-processadores: usar ou não usar?" target="_blank" rel="external">gente que não apoia</a> e, as vezes, falar disso da até briga nas comunidades do Facebook/Google/etc… Porém é algo que está sendo amplamente utilizado e, muitas vezes, é requisito para vagas na área. Se você não sabe o que é, ou sabe, mas tem dúvidas de qual utilizar ou tem alguma outra dúvida sobre pré processadores, eu vou tentar te ajudar agora!</p>
+<a id="more"></a>
+<h2 id="Antes-de-falar-diretamente-dos-pre-processadores-preciso-dizer-algo"><a href="#Antes-de-falar-diretamente-dos-pre-processadores-preciso-dizer-algo" class="headerlink" title="Antes de falar diretamente dos pré processadores preciso dizer algo!"></a>Antes de falar diretamente dos pré processadores preciso dizer algo!</h2><p>Uma coisa importante a ressaltar sobre o assunto é que: utilizar pré processadores é fácil… Não é uma coisa de outro mundo como alguns pensam.</p>
+<p>Porém é <span style="color: #ff0000;">importante</span> (Muiiiito importante) que você saiba bem CSS antes de começar a utilizar um pré processador . Senão o que você vai fazer com ele será pior do que o que você pode fazer com CSS puro!</p>
+<h2 id="O-que-e-um-pre-processador"><a href="#O-que-e-um-pre-processador" class="headerlink" title="O que é um pré processador"></a>O que é um pré processador</h2><p>Basicamente é como se você programasse em uma linguagem de programação compilada. Você escreve na sintaxe definida (Less/Sass/etc) e o pré processador compila para CSS e então você acrescenta o arquivo CSS a sua página normalmente.</p>
+<h2 id="Pontos-positivos-do-uso-de-pre-processadores"><a href="#Pontos-positivos-do-uso-de-pre-processadores" class="headerlink" title="Pontos positivos do uso de pré processadores"></a>Pontos positivos do uso de pré processadores</h2><p>Alguns dos pontos positivos são:</p>
+<ul>
+<li>Você pode ficar mais produtivo usando um pré processador</li>
+<li>Pode ficar mais fácil organizar seus diretórios ou mesmo trabalhar com componentes.</li>
+<li>O fato de você usar variáveis e conseguir mudar a cor do site inteiro somente mudando um campo. Você acaba com aquele problema de ficar copiando e colando a cor de um determinado elemento para outro.</li>
+<li>Algumas opções de pré processadores (Acho que todas) tornam fácil o aninhamento de seletores.</li>
+<li>O uso de funções/mixins para agilizar algumas coisas também é excelente!</li>
+<li>Você pode acabar com problemas comuns do dia-a-dia como ficar escrevendo os prefixos dos navegadores.</li>
+<li>Acabar com aqueles arquivos .css de 300 mil linhas!</li>
+</ul>
+<h2 id="Pontos-negativos"><a href="#Pontos-negativos" class="headerlink" title="Pontos negativos"></a>Pontos negativos</h2><p>Antigamente o pessoal reclamava de ter de instalar Ruby na máquina para usar Sass… Hoje reclamam de ter de instalar NodeJS e Grunt, pois com uma task no Grunt conseguimos compilar os arquivos sem precisar do Ruby. Portanto o fato de ter de instalar uma coisa ou outra eu já acho furada! Sempre vai ter essa de não querer instalar isso ou aquilo no PC…</p>
+<p>Deixa de ser chataummm! Instala num ambiente isolado com o <a href="http://woliveiras.com.br/category/vagrant/" title="Tudo sobre Vagrant">Vagrant </a>então, se você não quer instalar nada no seu OS. Sempre, mais cedo ou mais tarde, você tem de ter uma lib ou outra instalada em sua máquina, então eu não vejo problema em você instalar o Node ai! Aproveita e <a href="http://woliveiras.com.br/node-js-instalacao/" title="Um pouquinho de Node.js (Intro e Instalação)">instala agora</a>, pois vou da uma olhada nesse esquema para compilar o <a href="http://woliveiras.com.br/workflow-otimizado-com-grunt/" title="Workflow otimizado com o Grunt">Less com o Grunt</a>.</p>
+<p>O medo do terminal… Muitos programadores tem medo de usar o Terminal (Ou preguiça), mas isso também não é motivo para desistir de aprender algo que vai aumentar sua produtividade. Seria ótimo pra você aprender a usar o Terminal… Acredite! Porém se não quiser, não é motivo para desistir também, pois com uma tarefinha no Grunt, vai bastar salvar o arquivo que o mesmo será compilado.</p>
+<h2 id="Qual-usar"><a href="#Qual-usar" class="headerlink" title="Qual usar?"></a>Qual usar?</h2><p>Temos muitos nomes fortes no mercado como <a href="http://lesscss.org/" title="Less" target="_blank" rel="external">Less</a>, <a href="http://sass-lang.com/" title="Sass" target="_blank" rel="external">Sass</a>, <a href="http://learnboost.github.io/stylus/" title="Stylus" target="_blank" rel="external">Stylus</a>… Por ai vai! E alguns possuem ótimos Frameworks que os utilizam por padrão obrigando você a aprender a sintaxe antes de ir para o Framework.</p>
+<p>Eu estou usando nos meus projetos os Less. Foi o que eu aprendi primeiro por causa de sua sintaxe ser muito parecida com o CSS puro. Porém não é o que eu vou indicar para você hoje!</p>
+<p>O que eu eu recomendo é que você acesse o site de cada um dos pré processadores e veja o que mais te interessa ou agrada conforme sua experiência e o que te atenderia caso queira usar determinado Framework. Por exemplo: Quer usar o <a href="http://compass-style.org/" title="Compass" target="_blank" rel="external">Compass</a>, aprenda Sass.</p>
+<p>O que eu mais vejo como requisito em vagas de emprego é o Sass. Talvez por que muitas empresas estão adotando o uso de <a href="https://www.ruby-lang.org/pt/" title="Ruby" target="_blank" rel="external">Ruby</a> em suas aplicações… Porém isso é pessoal. Você deve escolher conforme sua necessidade para atender projetos ou conforme seu plano de carreira.</p>
+
+      
+    </div>
+    <footer class="article-footer">
+      
+        <a href="http://woliveiras.com.br/posts/pre-processadores-css/#disqus_thread" class="article-comment-link">Comentários</a>
+      
+      
+  <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/Less/">Less</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/Pastel/">Pastel</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/Pre-Processadores/">Pre Processadores</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/Sass/">Sass</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/Stylus/">Stylus</a></li></ul>
+
+      <a href="/posts/pre-processadores-css/" class="article-date">
+  <time datetime="2015-01-14T16:02:22.000Z" itemprop="datePublished">2015-01-14</time>
+</a>
+    </footer>
+  </div>
+  
+    
+<nav id="article-nav">
+  
+    <a href="/posts/css-reset-de-varias-maneiras/" id="article-nav-newer" class="article-nav-link-wrap">
+      <strong class="article-nav-caption">Póximo</strong>
+      <div class="article-nav-title">
+        
+          CSS Reset de várias maneiras
+        
+      </div>
+    </a>
+  
+  
+    <a href="/posts/freelancer-quanto-cobrar-pelo-freelance/" id="article-nav-older" class="article-nav-link-wrap">
+      <strong class="article-nav-caption">Anterior</strong>
+      <div class="article-nav-title">Quanto cobrar pelo Freelance?</div>
+    </a>
+  
+</nav>
+
+
+  
+</article>
+
+
+<section id="comments">
+  <div id="disqus_thread">
+    <noscript>Please enable JavaScript to view the <a href="//disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+  </div>
+</section>
+
+</section>
+      </div>
+      <footer id="footer">
+  <div id="footer-info">
+    <div class="outer">
+      &copy; 2016 William de Oliveira Powered by <a href="http://hexo.io/" target="_blank">Hexo</a>
+    </div>
+  </div>
+</footer>
+    </div>
+    <nav id="mobile-nav">
+  
+    <a href="/" class="mobile-nav-link">Home</a>
+  
+    <a href="/about" class="mobile-nav-link">Sobre</a>
+  
+    <a href="/colabore-comigo" class="mobile-nav-link">Colabore</a>
+  
+</nav>
+    
+<script>
+  var disqus_shortname = 'woliveiras';
+  
+  var disqus_url = 'http://woliveiras.com.br/posts/pre-processadores-css/';
+  
+  (function(){
+    var dsq = document.createElement('script');
+    dsq.type = 'text/javascript';
+    dsq.async = true;
+    dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+    (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+  })();
+</script>
+
+
+<script src="//ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
+
+
+  <link rel="stylesheet" href="/fancybox/jquery.fancybox.css">
+  <script src="/fancybox/jquery.fancybox.pack.js"></script>
+
+
+<script src="/js/script.js"></script>
+
+  </div>
+</body>
+</html>

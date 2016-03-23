@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  
+  <title>URL ou URI, qual a diferença? | William Oliveira</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  <meta name="description" content="Essa dúvida já passou pela cabeça de muita gente e creio que se você é iniciante e já ouviu esses termos alguma vez também deve estar se confundindo. É normal essa confusão no começo, afinal você cria">
+<meta property="og:type" content="article">
+<meta property="og:title" content="URL ou URI, qual a diferença?">
+<meta property="og:url" content="http://woliveiras.com.br/posts/url-uri-qual-diferenca/index.html">
+<meta property="og:site_name" content="William Oliveira">
+<meta property="og:description" content="Essa dúvida já passou pela cabeça de muita gente e creio que se você é iniciante e já ouviu esses termos alguma vez também deve estar se confundindo. É normal essa confusão no começo, afinal você cria">
+<meta property="og:image" content="http://woliveiras.com.br/../../public/images/google-headers.png">
+<meta property="og:updated_time" content="2016-03-23T17:50:00.670Z">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="URL ou URI, qual a diferença?">
+<meta name="twitter:description" content="Essa dúvida já passou pela cabeça de muita gente e creio que se você é iniciante e já ouviu esses termos alguma vez também deve estar se confundindo. É normal essa confusão no começo, afinal você cria">
+<meta name="twitter:image" content="http://woliveiras.com.br/../../public/images/google-headers.png">
+<meta name="twitter:creator" content="@w_oliveiras">
+  
+    <link rel="alternative" href="/atom.xml" title="William Oliveira" type="application/atom+xml">
+  
+  
+    <link rel="icon" href="img/favicon.png">
+  
+  <link href="//fonts.googleapis.com/css?family=Source+Code+Pro" rel="stylesheet" type="text/css">
+  <link rel="stylesheet" href="/css/style.css">
+  
+
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-25964646-1', 'auto');
+  ga('send', 'pageview');
+
+</script>
+
+<!-- End Google Analytics -->
+
+
+  <link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+</head>
+<body>
+  <div id="container">
+    <div id="wrap">
+      <header id="header">
+  <div id="header-outer" class="outer">
+    <div id="header-inner" class="inner">
+      <ul class="navigation">
+        <li id="main-nav">
+          <a id="main-nav-toggle" class="nav-icon"></a>
+          
+            <a class="main-nav-link" href="/">Home</a>
+          
+            <a class="main-nav-link" href="/about">Sobre</a>
+          
+            <a class="main-nav-link" href="/colabore-comigo">Colabore</a>
+          
+        </li>
+        <li id="sub-nav">
+          
+            <a id="nav-rss-link" class="nav-icon" href="/atom.xml" title="RSS Feed"></a>
+          
+          <a id="nav-search-btn" class="nav-icon" title="Search"></a>
+        </li>
+        <li id="search-form-wrap">
+          <form action="//google.com/search" method="get" accept-charset="UTF-8" class="search-form"><input type="search" name="q" results="0" class="search-form-input" placeholder="Search"><button type="submit" class="search-form-submit">&#xF002;</button><input type="hidden" name="sitesearch" value="http://woliveiras.com.br"></form>
+        </li>
+      </ul>
+    </div>
+    <div id="header-title" class="inner">
+      <h1 id="logo-wrap">
+        <a href="/" id="title">William Oliveira</a>
+      </h1>
+      
+        <h2 id="subtitle-wrap">
+          <a href="/" id="subtitle">Desenvolvedor Front End</a>
+        </h2>
+      
+      <div class="contact-icons">
+	<a href="https://www.facebook.com/woliveira542"  target="_blank">
+		<i class="ico facebook"  target="_blank"></i>
+	</a>
+	<a href="https://twitter.com/w_oliveiras"  target="_blank">
+		<i class="ico twitter"  target="_blank"></i>
+	</a>
+	<a href="https://br.linkedin.com/in/woliveira542"  target="_blank">
+		<i class="ico linkedin"  target="_blank"></i>
+	</a>
+	<a href="https://github.com/woliveiras"  target="_blank">
+		<i class="ico github"></i>
+	</a>
+</div>
+    </div>
+  </div>
+</header>
+
+      <div class="outer">
+        <section id="main"><article id="post-url-uri-qual-diferenca" class="article article-type-post" itemscope itemprop="blogPost">
+  <div class="article-inner">
+    
+    
+      <header class="article-header">
+        
+  
+    <h1 class="article-title" itemprop="name">
+      URL ou URI, qual a diferença?
+    </h1>
+  
+
+      </header>
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+        <p>Essa dúvida já passou pela cabeça de muita gente e creio que se você é iniciante e já ouviu esses termos alguma vez também deve estar se confundindo. É normal essa confusão no começo, afinal você cria aplicações para consumir API’s ou constrói/melhora API’s o tempo todo no seu dia-a-dia, então você escuta esses termos direto.</p>
+<p>Mas afinal, qual a diferença entre URL e URI?<a id="more"></a></p>
+<h2 id="O-Protocolo-HTTP"><a href="#O-Protocolo-HTTP" class="headerlink" title="O Protocolo HTTP"></a>O Protocolo HTTP</h2><p>Não da para abordar o assunto URI, URL, URN sem explicar um pouco sobre o HTTP. Se você já manja sobre HTTP, pode pular para a parte de <a href="#url" title="URL">URL</a>.</p>
+<p>O protocolo <a href="http://pt.wikipedia.org/wiki/Hypertext_Transfer_Protocol" title="Protocolo HTTP" target="_blank" rel="external">HTTP</a> é um conjunto de regras de transmissão de dados que permitem que máquinas com diferentes configurações possam se comunicar com um mesmo “idioma”. A especificação do Protocolo você encontra <a href="http://tools.ietf.org/html/rfc2616" title="RFC2616" target="_blank" rel="external">aqui</a> e o conhecimento sobre o assunto vai mais além, envolvendo Verbos, Cabeçalhos HTTP, etc.</p>
+<p>Esse protocolo é baseado em requisição e resposta entre client e server. Quando o client (Ou user agent) solicita um recurso na internet ele envia um <a href="http://pt.wikipedia.org/wiki/Pacote" title="Pacote de dados" target="_blank" rel="external">pacote de dados</a> com cabeçalhos (Headers) a um URI (Ou URL) e o destinatário (Provavelmente um Servidor) vai devolver uma resposta que pode ser um <a href="http://pt.wikipedia.org/wiki/Rede_de_computadores" title="Recursos" target="_blank" rel="external">recurso</a> ou outro cabeçalho.</p>
+<p>Para ver como tudo isso acontece faça o seguinte:</p>
+<p>Abra uma nova aba no seu navegador - No meu exemplo estou usando o Chrome e vou acessar o Google -, pressione <strong>F12</strong> ou abra as <strong>Ferramentas</strong> <strong>de</strong> <strong>Desenvolvedor</strong> e clique em <strong>Network</strong> e acesse um site qualquer. Você vai reparar que serão baixados alguns arquivos, clique em qualquer um e clique em <strong>headers</strong>. Vai aparecer algo igual a isso:</p>
+<p><img src="../../public/images/google-headers.png" alt="" title="Google headers"></p>
+<p>Ali você consegue identificar o <strong>endereço remoto</strong> (173.194.118.197:443), a <strong>URL</strong> que foi requisitada, o <strong>método</strong> que foi utilizado (GET), o <strong>Status Code</strong> (200 - OK) e mais um monte de informação - Incluindo os cabeçalhos da resposta (<strong>Response Headers</strong>).</p>
+<p>E é assim que acontece a comunicação.<br>No momento não vou aprofundar no Protocolo HTTP para voltarmos ao foco do post, porém vou citar mais algumas coisas legais na próxima postagem. ;)</p>
+<h2 id="URL-–-Uniform-Resource-Locator"><a href="#URL-–-Uniform-Resource-Locator" class="headerlink" title="URL – Uniform Resource Locator"></a>URL – Uniform Resource Locator</h2><p>Em português: <strong>Localizador de Recursos Universal </strong>e como o próprio nome diz, se refere ao local, o Host que você quer acessar determinado recurso. O objetivo da URL é associar um endereço remoto com um nome de recurso na Internet.</p>
+<p>Exemplo de URL</p>
+<ul>
+<li>woliveiras.com.br</li>
+<li>woliveiras.org</li>
+<li>woliveiras.xxx</li>
+</ul>
+<p>Ou seja, acessando esses endereços você cai no servidor onde está minha página - Só exemplo - e o servidor vai se encarregar de processar sua solicitação.</p>
+<p><strong>A URL é parte da URI.</strong></p>
+<h2 id="URN-–-Uniform-Resource-Name"><a href="#URN-–-Uniform-Resource-Name" class="headerlink" title="URN – Uniform Resource Name"></a>URN – Uniform Resource Name</h2><p>Em português: <strong>Nome de Recursos Universal</strong> é o nome do recurso que será acessado e <strong>também fará parte da URI</strong>.</p>
+<ul>
+<li>home.html</li>
+<li>contato.php</li>
+<li>servicos.html</li>
+</ul>
+<p>É comum associarmos URN a página que estamos acessando.</p>
+<p>Outro ex.: /api/v01/exemplo/usuarios</p>
+<h2 id="URI-–-Uniform-Resource-Identifier"><a href="#URI-–-Uniform-Resource-Identifier" class="headerlink" title="URI – Uniform Resource Identifier"></a>URI – Uniform Resource Identifier</h2><p>Em português: <strong>Identificador de Recursos Universal</strong>, como diz o próprio nome, é o identificador do recurso. Pode ser uma imagem, uma página, etc, pois tudo o que está disponível na internet precisa de um identificador único para que não seja confundido.</p>
+<p>Exemplos de URI</p>
+<ul>
+<li><a href="http://woliveiras.com.br/desenvolvedor-front-end/">http://woliveiras.com.br/desenvolvedor-front-end/</a></li>
+<li><a href="http://pt.wikipedia.org/wiki/Hypertext_Transfer_Protocol" target="_blank" rel="external">http://pt.wikipedia.org/wiki/Hypertext_Transfer_Protocol</a></li>
+</ul>
+<p>Pra ficar mais fácil de entender, pois sei que deve ter dado um nó agora:</p>
+<p>A URI une o <strong>Protocolo</strong> (http://) a <strong>localização do recurso</strong> (URL - woliveiras.com.br) e o <strong>nome do recurso</strong> (URN - /desenvolvedor-front-end/) para que você acesse as coisas na Web.</p>
+<p>Alguma dúvida ou dica para melhorar o post? Comenta ae!</p>
+
+      
+    </div>
+    <footer class="article-footer">
+      
+        <a href="http://woliveiras.com.br/posts/url-uri-qual-diferenca/#disqus_thread" class="article-comment-link">Comentários</a>
+      
+      
+  <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/Dicas/">Dicas</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/HTTP/">HTTP</a></li></ul>
+
+      <a href="/posts/url-uri-qual-diferenca/" class="article-date">
+  <time datetime="2015-01-20T12:00:42.000Z" itemprop="datePublished">2015-01-20</time>
+</a>
+    </footer>
+  </div>
+  
+    
+<nav id="article-nav">
+  
+    <a href="/posts/protocolo-http/" id="article-nav-newer" class="article-nav-link-wrap">
+      <strong class="article-nav-caption">Póximo</strong>
+      <div class="article-nav-title">
+        
+          Protocolo HTTP
+        
+      </div>
+    </a>
+  
+  
+    <a href="/posts/como-deixar-o-ubuntu-mais-rapido/" id="article-nav-older" class="article-nav-link-wrap">
+      <strong class="article-nav-caption">Anterior</strong>
+      <div class="article-nav-title">Como deixar o Ubuntu mais rápido</div>
+    </a>
+  
+</nav>
+
+
+  
+</article>
+
+
+<section id="comments">
+  <div id="disqus_thread">
+    <noscript>Please enable JavaScript to view the <a href="//disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+  </div>
+</section>
+
+</section>
+      </div>
+      <footer id="footer">
+  <div id="footer-info">
+    <div class="outer">
+      &copy; 2016 William de Oliveira Powered by <a href="http://hexo.io/" target="_blank">Hexo</a>
+    </div>
+  </div>
+</footer>
+    </div>
+    <nav id="mobile-nav">
+  
+    <a href="/" class="mobile-nav-link">Home</a>
+  
+    <a href="/about" class="mobile-nav-link">Sobre</a>
+  
+    <a href="/colabore-comigo" class="mobile-nav-link">Colabore</a>
+  
+</nav>
+    
+<script>
+  var disqus_shortname = 'woliveiras';
+  
+  var disqus_url = 'http://woliveiras.com.br/posts/url-uri-qual-diferenca/';
+  
+  (function(){
+    var dsq = document.createElement('script');
+    dsq.type = 'text/javascript';
+    dsq.async = true;
+    dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+    (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+  })();
+</script>
+
+
+<script src="//ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
+
+
+  <link rel="stylesheet" href="/fancybox/jquery.fancybox.css">
+  <script src="/fancybox/jquery.fancybox.pack.js"></script>
+
+
+<script src="/js/script.js"></script>
+
+  </div>
+</body>
+</html>
