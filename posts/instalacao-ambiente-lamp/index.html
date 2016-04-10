@@ -11,7 +11,7 @@
 <meta property="og:url" content="http://woliveiras.com.br/posts/instalacao-ambiente-lamp/index.html">
 <meta property="og:site_name" content="William Oliveira">
 <meta property="og:description" content="Instalação do LAMP (Linux, Apache, MySQL e PHP)">
-<meta property="og:updated_time" content="2016-03-23T17:50:00.670Z">
+<meta property="og:updated_time" content="2016-04-10T13:27:43.449Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="Instalação do ambiente LAMP">
 <meta name="twitter:description" content="Instalação do LAMP (Linux, Apache, MySQL e PHP)">
@@ -137,7 +137,7 @@
 <p>Se, depois desse passo a passo, você quiser conferir se o servidor está funcionando execute o comando:</p>
 <figure class="highlight nginx"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="attribute">netstat</span> -tap</span><br></pre></td></tr></table></figure>
 <p>Surgirá uma saída parecida com essa no seu terminal:</p>
-<figure class="highlight gherkin"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">tcp 0 0 <span class="keyword">*</span>:mysql <span class="keyword">*</span>:<span class="keyword">*</span> LISTEN 3281/mysqld</span><br></pre></td></tr></table></figure>
+<figure class="highlight elixir"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">tcp <span class="number">0</span> <span class="number">0</span> *<span class="symbol">:mysql</span> *<span class="symbol">:*</span> LISTEN <span class="number">3281</span>/mysqld</span><br></pre></td></tr></table></figure>
 <p>Beleza chefe, tudo instalado e agora como eu crio aplicações dentro do meu ambiente LAMP?</p>
 <p>Suas aplicações devem ficar dentro da pasta  /var/www/ e para criação de um banco de dados acesse localhost/phpmyadmin ou execute o MySQL via linha de comando. Pronto! Para acessar suas aplicações ou sites no navegador basta digitar localhost. Normalmente, o Apache estará configurado para acesso via porta 80 mesmo, caso você deseje utilizar outra porta basta editar o arquivo: <code>/etc/apache2/ports.conf</code></p>
 <p>E colocar a porta na linha Listen &lt;porta&gt;</p>
