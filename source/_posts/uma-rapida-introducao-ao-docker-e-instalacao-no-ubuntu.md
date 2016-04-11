@@ -40,7 +40,7 @@ Sim, porém existem alternativas melhores.
 
 ## Vagrant
 
-Por um bom tempo usei o [Vagrant](http://woliveiras.com.br/posts/vagrant-introducao-instalacao/) que trabalha com a API do VirtualBox, porém é mais rápido e utiliza um [dot-file](https://en.wikipedia.org/wiki/Dot-file), o Vagrantfile, dentre outras alternativas, como [Puppet](https://puppet.com/) ou [Chef](https://www.chef.io/), para automatizar a instalação e configuração de tudo o que precisamos no nosso ambiente de desenvolvimento.
+Por um bom tempo usei o [Vagrant](/posts/vagrant-introducao-instalacao/) que trabalha com a API do VirtualBox, porém é mais rápido e utiliza um [dot-file](https://en.wikipedia.org/wiki/Dot-file), o Vagrantfile, dentre outras alternativas, como [Puppet](https://puppet.com/) ou [Chef](https://www.chef.io/), para automatizar a instalação e configuração de tudo o que precisamos no nosso ambiente de desenvolvimento.
 
 Para subir um ambiente completo, só precisamos do VirtualBox e Vagrant instalados na máquina e um Vagrantfile com as configurações que vamos precisar. Ao iniciar o nosso ambiente com o Vagrant tudo será instalado e configurado automaticamente.
 
