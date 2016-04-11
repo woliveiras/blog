@@ -1,5 +1,5 @@
 title: O que é uma imagem e o que é um container Docker?
-date: 2016-04-10 08:03:47
+date: 2016-04-11 14:00:00
 tags:
 	- docker
 	- virtualização
