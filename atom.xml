@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://woliveiras.com.br/"/>
-  <updated>2016-04-11T11:43:05.648Z</updated>
+  <updated>2016-04-11T16:59:03.845Z</updated>
   <id>http://woliveiras.com.br/</id>
   
   <author>
@@ -16,11 +16,90 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>O que é uma imagem e o que é um container Docker?</title>
+    <link href="http://woliveiras.com.br/posts/imagem-docker-ou-um-container-docker/"/>
+    <id>http://woliveiras.com.br/posts/imagem-docker-ou-um-container-docker/</id>
+    <published>2016-04-10T11:03:47.000Z</published>
+    <updated>2016-04-11T16:59:03.845Z</updated>
+    
+    <content type="html">&lt;p&gt;Se você viu a primeira parte dessa sequência de artigos, percebeu que existem dois termos muito utilizados quando falamos de Docker: &lt;strong&gt;Imagens&lt;/strong&gt; e &lt;strong&gt;Containers&lt;/strong&gt;. Você deve se perguntar: qual é a diferença entre imagem e container Docker? Ou então: O que eu rodo com o &lt;code&gt;docker run&lt;/code&gt;, uma imagem ou um container? &lt;a id=&quot;more&quot;&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Se você não viu o primeiro artigo, da uma olhada &lt;a href=&quot;/posts/uma-rapida-introducao-ao-docker-e-instalacao-no-ubuntu/&quot;&gt;aqui&lt;/a&gt;.&lt;/p&gt;
+&lt;h2 id=&quot;O-que-sao-Imagens-Docker&quot;&gt;&lt;a href=&quot;#O-que-sao-Imagens-Docker&quot; class=&quot;headerlink&quot; title=&quot;O que são Imagens Docker?&quot;&gt;&lt;/a&gt;O que são Imagens Docker?&lt;/h2&gt;&lt;p&gt;Pense nas imagens Docker como uma &lt;a href=&quot;/posts/criar-uma-base-box-para-o-vagrant/&quot;&gt;Base Box do Vagrant&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Ela é o template (imagine uma classe em OOP) para rodar um container.&lt;/p&gt;
+&lt;p&gt;Você precisa baixar as imagens para rodar os containers ou pegar de algum lugar (como passar de um PC pro outro pelo Pen Drive, por exemplo) e telas em seu repositório local para que o Docker utilize para criar um container quando você roda o &lt;code&gt;docker run...&lt;/code&gt;.&lt;/p&gt;
+&lt;p&gt;As imagens Docker ficam armazenadas no &lt;a href=&quot;https://hub.docker.com/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Docker Hub&lt;/a&gt; e, para baixar uma, funciona igualzinho utilizar o Git com Github.&lt;/p&gt;
+&lt;h2 id=&quot;Baixando-e-utilizando-uma-Imagem-Docker&quot;&gt;&lt;a href=&quot;#Baixando-e-utilizando-uma-Imagem-Docker&quot; class=&quot;headerlink&quot; title=&quot;Baixando e utilizando uma Imagem Docker&quot;&gt;&lt;/a&gt;Baixando e utilizando uma Imagem Docker&lt;/h2&gt;&lt;p&gt;Para baixar uma imagem (vamos utilizar o exemplo da imagem do Ubuntu), utilize o comando:&lt;/p&gt;
+&lt;figure class=&quot;highlight nginx&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;attribute&quot;&gt;docker&lt;/span&gt; pull ubuntu&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+&lt;p&gt;Você pode listar as imagens baixadas em seu PC com o comando:&lt;/p&gt;
+&lt;figure class=&quot;highlight nginx&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;attribute&quot;&gt;docker&lt;/span&gt; images&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+&lt;p&gt;E usar a imagem para subir um container:&lt;/p&gt;
+&lt;figure class=&quot;highlight applescript&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;docker &lt;span class=&quot;built_in&quot;&gt;run&lt;/span&gt; ubuntu&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+&lt;p&gt;Esse comando vai usar a &lt;strong&gt;imagem&lt;/strong&gt; &lt;em&gt;ubuntu&lt;/em&gt;, que você baixou em seu PC, para criar um novo Container.&lt;/p&gt;
+&lt;p&gt;Caso a imagem não exista no seu PC, o Docker vai baixar do Docker Hub e subir esse container automaticamente.&lt;/p&gt;
+&lt;p&gt;Poderia ser de outro local, também, mas vamos falar primeiro do Docker Hub.&lt;/p&gt;
+&lt;p&gt;Você também pode remover imagens locais com o comando:&lt;/p&gt;
+&lt;figure class=&quot;highlight autohotkey&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;docker rmi ID_ou_nome_d&lt;span class=&quot;built_in&quot;&gt;a_imagem&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+&lt;h2 id=&quot;Pesquisando-por-uma-Imagem-Docker&quot;&gt;&lt;a href=&quot;#Pesquisando-por-uma-Imagem-Docker&quot; class=&quot;headerlink&quot; title=&quot;Pesquisando por uma Imagem Docker&quot;&gt;&lt;/a&gt;Pesquisando por uma Imagem Docker&lt;/h2&gt;&lt;p&gt;Você pode pesquisar imagens no Docker Hub direto do Terminal usando o comando &lt;code&gt;search&lt;/code&gt;:&lt;/p&gt;
+&lt;figure class=&quot;highlight nginx&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;attribute&quot;&gt;docker&lt;/span&gt; search ubuntu&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+&lt;p&gt;Todas as imagens com o nome ubuntu no meio irão aparecer no seu terminal para escolher alguma para baixar. Recomendo que olhe no site para ver se tem mais informações.&lt;/p&gt;
+&lt;p&gt;Você também pode criar sua própria imagem e distribuir no Docker Hub ou em outro local, mas vou falar mais sobre isso nos próximos posts. ;P&lt;/p&gt;
+&lt;h2 id=&quot;Docker-Hub&quot;&gt;&lt;a href=&quot;#Docker-Hub&quot; class=&quot;headerlink&quot; title=&quot;Docker Hub&quot;&gt;&lt;/a&gt;Docker Hub&lt;/h2&gt;&lt;p&gt;O Docker Hub é parecido com o nosso querido &lt;a href=&quot;https://github.com/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;GitHub&lt;/a&gt;, porém somente de imagens Docker.&lt;/p&gt;
+&lt;p&gt;Existem várias imagens prontas com serviços mais utilizados pra você só baixar e usar, mas recomendo que aprenda a criar uma e bagunce um pouco antes de baixar alguma pronta.&lt;/p&gt;
+&lt;p&gt;Vale a pena brincar um pouco com a criação e utilização de imagens no Docker, é algo tão simples que é divertido. Vale o aprendizado.&lt;/p&gt;
+&lt;p&gt;Uma boa maneira de conhecer o Docker Hub é com &lt;a href=&quot;https://docs.docker.com/docker-hub/overview/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;esse overview&lt;/a&gt;, do próprio site.&lt;/p&gt;
+&lt;h2 id=&quot;Como-diferenciar-uma-imagem-oficial-de-uma-imagem-nao-oficial&quot;&gt;&lt;a href=&quot;#Como-diferenciar-uma-imagem-oficial-de-uma-imagem-nao-oficial&quot; class=&quot;headerlink&quot; title=&quot;Como diferenciar uma imagem oficial de uma imagem não oficial?&quot;&gt;&lt;/a&gt;Como diferenciar uma imagem oficial de uma imagem não oficial?&lt;/h2&gt;&lt;p&gt;Algumas imagens são criadas por empresas ou organizações (ou alguém que mande em um projeto que você esteja utilizando agora) e são mantidas por elas, essas são imagens oficiais. As não oficiais são as que usuários comuns (eu e você, reles mortais) sobem para o repositóro.&lt;/p&gt;
+&lt;p&gt;Então como sabemos qual é uma imagem oficial?&lt;/p&gt;
+&lt;p&gt;É bem simples. Observando a URL do Docker Hub, você percebe que a imagem do NGINX está no repositório:&lt;/p&gt;
+&lt;figure class=&quot;highlight dts&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;symbol&quot;&gt;https:&lt;/span&gt;&lt;span class=&quot;comment&quot;&gt;//hub.docker.com/_/nginx/&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+&lt;p&gt;E a do Ubuntu em:&lt;/p&gt;
+&lt;figure class=&quot;highlight dts&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;symbol&quot;&gt;https:&lt;/span&gt;&lt;span class=&quot;comment&quot;&gt;//hub.docker.com/_/ubuntu/&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+&lt;p&gt;E mais esse exemplo do MySQL:&lt;/p&gt;
+&lt;figure class=&quot;highlight dts&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;symbol&quot;&gt;https:&lt;/span&gt;&lt;span class=&quot;comment&quot;&gt;//hub.docker.com/_/mysql/&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+&lt;p&gt;Percebe um padrão?&lt;/p&gt;
+&lt;p&gt;As imagens em &lt;code&gt;https://hub.docker.com/_/imagem&lt;/code&gt; são as oficiais.&lt;/p&gt;
+&lt;p&gt;As não oficiais vem com o padrão &lt;code&gt;usuario/imagem&lt;/code&gt;, sem esse &lt;code&gt;/_/&lt;/code&gt;.&lt;/p&gt;
+&lt;h2 id=&quot;Containers&quot;&gt;&lt;a href=&quot;#Containers&quot; class=&quot;headerlink&quot; title=&quot;Containers&quot;&gt;&lt;/a&gt;Containers&lt;/h2&gt;&lt;p&gt;O Container é uma instância de uma Imagem em execução naquele momento.&lt;/p&gt;
+&lt;p&gt;Imagine baixar a imagem do Ubuntu.&lt;/p&gt;
+&lt;figure class=&quot;highlight nginx&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;attribute&quot;&gt;docker&lt;/span&gt; pull ubuntu&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+&lt;p&gt;E depois executar um:&lt;/p&gt;
+&lt;figure class=&quot;highlight applescript&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;docker &lt;span class=&quot;built_in&quot;&gt;run&lt;/span&gt; ubuntu&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+&lt;p&gt;Com isso você está instanciando um Container que usa como template a imagem do Ubuntu, baixada no primeiro comando.&lt;/p&gt;
+&lt;p&gt;Você pode listar os Containers em execução com o comando:&lt;/p&gt;
+&lt;figure class=&quot;highlight bash&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;docker ps &lt;span class=&quot;_&quot;&gt;-a&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+&lt;p&gt;&lt;img src=&quot;../../public/images/docker_ps_a.png&quot; alt=&quot;docker ps -a&quot;&gt;&lt;/p&gt;
+&lt;p&gt;Ou somente o ID do Container do topo da lista com:&lt;/p&gt;
+&lt;figure class=&quot;highlight vim&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;docker &lt;span class=&quot;keyword&quot;&gt;ps&lt;/span&gt; -&lt;span class=&quot;keyword&quot;&gt;qa&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+&lt;p&gt;&lt;img src=&quot;../../public/images/docker_ps_qa.png&quot; alt=&quot;docker ps -qa&quot;&gt;&lt;/p&gt;
+&lt;p&gt;Pode, também remover um Container com o:&lt;/p&gt;
+&lt;figure class=&quot;highlight bash&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;Docker rm ID_ou_apelido_&lt;span class=&quot;keyword&quot;&gt;do&lt;/span&gt;_container&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+&lt;p&gt;Ficou claro quem é quem?&lt;/p&gt;
+&lt;p&gt;Caso ainda possua dúvidas ou alguma dica, comenta aqui em baixo.&lt;/p&gt;
+&lt;p&gt;Espalhe a palavra.&lt;/p&gt;
+</content>
+    
+    <summary type="html">
+    
+      O que é uma imagem e o que é um container Docker? Uma breve explicação sobre esses dois termos que podem confundir um iniciante e uma introdução sobre o Docker Hub.
+    
+    </summary>
+    
+    
+      <category term="docker" scheme="http://woliveiras.com.br/tags/docker/"/>
+    
+      <category term="virtualização" scheme="http://woliveiras.com.br/tags/virtualizacao/"/>
+    
+      <category term="ambiente" scheme="http://woliveiras.com.br/tags/ambiente/"/>
+    
+      <category term="devops" scheme="http://woliveiras.com.br/tags/devops/"/>
+    
+  </entry>
+  
+  <entry>
     <title>Uma rápida introdução ao Docker e instalação no Ubuntu</title>
     <link href="http://woliveiras.com.br/posts/uma-rapida-introducao-ao-docker-e-instalacao-no-ubuntu/"/>
     <id>http://woliveiras.com.br/posts/uma-rapida-introducao-ao-docker-e-instalacao-no-ubuntu/</id>
     <published>2016-04-10T11:03:47.000Z</published>
-    <updated>2016-04-11T11:43:05.648Z</updated>
+    <updated>2016-04-11T16:59:03.845Z</updated>
     
     <content type="html">&lt;p&gt;&lt;div class=&quot;shared-img&quot;&gt;&lt;br&gt;&lt;img src=&quot;../../public/images/docker.png&quot; alt=&quot;Docker&quot;&gt;&lt;br&gt;&lt;/div&gt;Você já deve ter ouvido falar, pelo menos uma vez, sobre &lt;a href=&quot;https://www.docker.com/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Docker&lt;/a&gt; em algum lugar. Seja em palestras, blogs, vídeos ou em qualquer outra fonte de estudos sobre desenvolvimento, uma hora sempre comentamos sobre virtualização de ambientes e o Docker é a ferramenta que mais tem se destacado para tal. Ele é uma das 8 maravilhas das atualidades mais atuais. Vamos entender um pouco, então, o que é o Docker e como instalar no nosso Ubuntu.&lt;a id=&quot;more&quot;&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;h2 id=&quot;Introducao&quot;&gt;&lt;a href=&quot;#Introducao&quot; class=&quot;headerlink&quot; title=&quot;Introdução&quot;&gt;&lt;/a&gt;Introdução&lt;/h2&gt;&lt;p&gt;Eu também já ouvia falar do Docker a um bom tempo, porém nunca havia me aprofundado mais nessa ferramenta.&lt;/p&gt;
@@ -34,7 +113,7 @@
 &lt;p&gt;Uma alternativa é instalar o &lt;a href=&quot;https://www.virtualbox.org/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;VirtualBox&lt;/a&gt; e virtualizar nosso ambiente de desenvolvimento em uma &lt;a href=&quot;https://pt.wikipedia.org/wiki/M%C3%A1quina_virtual&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;VM&lt;/a&gt;. Isso isola a nossa aplicação dentro dessa VM e não precisamos instalar tudo no nosso SO principal. Caso precisemos formatar o nosso PC, basta exportar essa VM e deixar guardadinha, instalar o VirtualBox de novo e importar a VM. Pronto!&lt;/p&gt;
 &lt;p&gt;Menos trabalho e mais performance em nosso SO principal, né?&lt;/p&gt;
 &lt;p&gt;Sim, porém existem alternativas melhores.&lt;/p&gt;
-&lt;h2 id=&quot;Vagrant&quot;&gt;&lt;a href=&quot;#Vagrant&quot; class=&quot;headerlink&quot; title=&quot;Vagrant&quot;&gt;&lt;/a&gt;Vagrant&lt;/h2&gt;&lt;p&gt;Por um bom tempo usei o &lt;a href=&quot;http://woliveiras.com.br/posts/vagrant-introducao-instalacao/&quot;&gt;Vagrant&lt;/a&gt; que trabalha com a API do VirtualBox, porém é mais rápido e utiliza um &lt;a href=&quot;https://en.wikipedia.org/wiki/Dot-file&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;dot-file&lt;/a&gt;, o Vagrantfile, dentre outras alternativas, como &lt;a href=&quot;https://puppet.com/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Puppet&lt;/a&gt; ou &lt;a href=&quot;https://www.chef.io/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Chef&lt;/a&gt;, para automatizar a instalação e configuração de tudo o que precisamos no nosso ambiente de desenvolvimento.&lt;/p&gt;
+&lt;h2 id=&quot;Vagrant&quot;&gt;&lt;a href=&quot;#Vagrant&quot; class=&quot;headerlink&quot; title=&quot;Vagrant&quot;&gt;&lt;/a&gt;Vagrant&lt;/h2&gt;&lt;p&gt;Por um bom tempo usei o &lt;a href=&quot;/posts/vagrant-introducao-instalacao/&quot;&gt;Vagrant&lt;/a&gt; que trabalha com a API do VirtualBox, porém é mais rápido e utiliza um &lt;a href=&quot;https://en.wikipedia.org/wiki/Dot-file&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;dot-file&lt;/a&gt;, o Vagrantfile, dentre outras alternativas, como &lt;a href=&quot;https://puppet.com/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Puppet&lt;/a&gt; ou &lt;a href=&quot;https://www.chef.io/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Chef&lt;/a&gt;, para automatizar a instalação e configuração de tudo o que precisamos no nosso ambiente de desenvolvimento.&lt;/p&gt;
 &lt;p&gt;Para subir um ambiente completo, só precisamos do VirtualBox e Vagrant instalados na máquina e um Vagrantfile com as configurações que vamos precisar. Ao iniciar o nosso ambiente com o Vagrant tudo será instalado e configurado automaticamente.&lt;/p&gt;
 &lt;p&gt;Maravilhoso, certo?&lt;/p&gt;
 &lt;p&gt;Sim, mas ainda da para melhorar.&lt;/p&gt;
@@ -106,7 +185,7 @@
     <link href="http://woliveiras.com.br/posts/postando-no-blog-est%C3%A1tico-direto-pelo-github-com-hexo-e-travis-ci/"/>
     <id>http://woliveiras.com.br/posts/postando-no-blog-estático-direto-pelo-github-com-hexo-e-travis-ci/</id>
     <published>2016-02-07T00:00:00.000Z</published>
-    <updated>2016-04-11T11:43:05.648Z</updated>
+    <updated>2016-04-11T16:59:03.845Z</updated>
     
     <content type="html">&lt;p&gt;Confesso que fiquei tentado a migrar para o &lt;a href=&quot;https://jekyllrb.com/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Jekyll (Ruby)&lt;/a&gt; depois que um &lt;a href=&quot;http://jotateles.com.br/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;amigo&lt;/a&gt; me mostrou que da para postar no blog direto do GitHub sem ter o Jekyll instalado na máquina. Porém eu não desisti do meu queridinho, o &lt;a href=&quot;http://hexo.io/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Hexo (feito com Node &amp;lt;3)&lt;/a&gt;.&lt;a id=&quot;more&quot;&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;&lt;em&gt;Se você não conhece o Hexo, da uma olhada &lt;a href=&quot;http://woliveiras.com.br/posts/Migrando-de-Wordpress-para-Hexo/&quot;&gt;nesse artigo&lt;/a&gt;.&lt;/em&gt;&lt;/p&gt;
@@ -181,7 +260,7 @@
     <link href="http://woliveiras.com.br/posts/um-ano-como-desenvolvedor-front-end/"/>
     <id>http://woliveiras.com.br/posts/um-ano-como-desenvolvedor-front-end/</id>
     <published>2015-12-01T12:00:00.000Z</published>
-    <updated>2016-04-11T11:43:05.648Z</updated>
+    <updated>2016-04-11T16:59:03.845Z</updated>
     
     <content type="html">&lt;div class=&quot;shared-img&quot;&gt;&lt;br&gt;&lt;img src=&quot;../..//public/images/web-developer.jpg&quot; alt=&quot;&quot;&gt;&lt;br&gt;&lt;/div&gt;
 
@@ -233,7 +312,7 @@
     <link href="http://woliveiras.com.br/posts/corrigindo-permissoes-de-usuario-linux-npm/"/>
     <id>http://woliveiras.com.br/posts/corrigindo-permissoes-de-usuario-linux-npm/</id>
     <published>2015-09-12T13:00:00.000Z</published>
-    <updated>2016-04-11T11:43:05.648Z</updated>
+    <updated>2016-04-11T16:59:03.845Z</updated>
     
     <content type="html">&lt;div class=&quot;shared-img&quot;&gt;&lt;br&gt;&lt;img src=&quot;../../public/images/npm.svg&quot; alt=&quot;&quot;&gt;&lt;br&gt;&lt;/div&gt;
 
@@ -276,7 +355,7 @@
     <link href="http://woliveiras.com.br/posts/utilizando-versoes-antigas-do-nodejs/"/>
     <id>http://woliveiras.com.br/posts/utilizando-versoes-antigas-do-nodejs/</id>
     <published>2015-09-12T08:00:32.000Z</published>
-    <updated>2016-04-11T11:43:05.648Z</updated>
+    <updated>2016-04-11T16:59:03.845Z</updated>
     
     <content type="html">&lt;div class=&quot;shared-img&quot;&gt;&lt;br&gt;&lt;img src=&quot;../..//public/images/nodejs.png&quot; alt=&quot;&quot;&gt;&lt;br&gt;&lt;/div&gt;
 
@@ -361,7 +440,7 @@
     <link href="http://woliveiras.com.br/posts/twitter-bootstrap-bootstrap-do-jeito-certo/"/>
     <id>http://woliveiras.com.br/posts/twitter-bootstrap-bootstrap-do-jeito-certo/</id>
     <published>2015-09-09T01:00:00.000Z</published>
-    <updated>2016-04-11T11:43:05.648Z</updated>
+    <updated>2016-04-11T16:59:03.845Z</updated>
     
     <content type="html">&lt;p&gt;Muita gente critica o uso do &lt;a href=&quot;http://getbootstrap.com/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Twitter Bootstrap&lt;/a&gt; devido a nomenclatura de suas classes e aos muitos componentes que o framework possui.&lt;/p&gt;
 &lt;p&gt;Dizem que as classes não são semanticas e que o peso do framework é desnecessário.&lt;/p&gt;
@@ -444,7 +523,7 @@
     <link href="http://woliveiras.com.br/posts/Migrando-de-Wordpress-para-Hexo/"/>
     <id>http://woliveiras.com.br/posts/Migrando-de-Wordpress-para-Hexo/</id>
     <published>2015-08-05T02:53:41.000Z</published>
-    <updated>2016-04-11T11:43:05.648Z</updated>
+    <updated>2016-04-11T16:59:03.845Z</updated>
     
     <content type="html">&lt;p&gt;&lt;div class=&quot;shared-img&quot;&gt;&lt;br&gt;&lt;img src=&quot;../../public/images/hexo-logo.png&quot; alt=&quot;Hexo Blog&quot;&gt;&lt;br&gt;&lt;/div&gt;A um bom tempo sinto vontade de mudar meu Blog de WordPress para uma plataforma de  conteúdo estático, mas não achava nenhuma alternativa, pois que queria usar Nodejs. Por isso não fui para o, muito usado na comunidade, &lt;a href=&quot;http://jekyllrb.com/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Jekyll(Ruby)&lt;/a&gt; , nem para o &lt;a href=&quot;http://blog.getpelican.com/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Pelican(Python &amp;lt;3)&lt;/a&gt;.&lt;a id=&quot;more&quot;&gt;&lt;/a&gt;&lt;br&gt;Em busca de uma alternativa encontrei o &lt;a href=&quot;https://hexo.io&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Hexo&lt;/a&gt; e, um pouco depois de eu conhecer essa plataforma, o &lt;a href=&quot;http://blog.da2k.com.br/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Daciuk&lt;/a&gt; escreveu um &lt;a href=&quot;http://blog.da2k.com.br/2014/01/05/hexo-criando-um-blog-ao-estilo-miojo/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;post&lt;/a&gt; muito maneiro incentivando o seu uso. Foi então que eu decidi de vez usar essa plataforma!&lt;br&gt;Bora conhecer ela e como foi a migração de WordPress para Hexo?&lt;/p&gt;
 &lt;p&gt;###Levantando as necessidades&lt;/p&gt;
@@ -499,7 +578,7 @@
     <link href="http://woliveiras.com.br/posts/frameworks-front-end/"/>
     <id>http://woliveiras.com.br/posts/frameworks-front-end/</id>
     <published>2015-03-05T00:18:46.000Z</published>
-    <updated>2016-04-11T11:43:05.648Z</updated>
+    <updated>2016-04-11T16:59:03.845Z</updated>
     
     <content type="html">&lt;p&gt;Já parou pra pensar quantas vezes você repete o mesmo código durante o Desenvolvimento, seja Web, Mobile ou Desktop? Já pensou em padronizar o que você faz de alguma maneira?&lt;br&gt;E pra você que é Gerente de Projetos, Líder ou algo do tipo: Já pensou em poder adicionar um membro no seu grupo  e ele já saber como funciona o Desenvolvimento nessa equipe e conseguir ser produtivo desde o princípio?&lt;br&gt;Pois é, Frameworks servem para isso… Vem comigo que vou explicar melhor. ;)&lt;a id=&quot;more&quot;&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;h2 id=&quot;O-que-sao-Frameworks&quot;&gt;&lt;a href=&quot;#O-que-sao-Frameworks&quot; class=&quot;headerlink&quot; title=&quot;O que são Frameworks?&quot;&gt;&lt;/a&gt;O que são Frameworks?&lt;/h2&gt;&lt;p&gt;Você pega aqueles códigos que se repetem entre os projetos, adiciona uma pitada de &lt;a href=&quot;http://pt.wikipedia.org/wiki/Padr%C3%A3o_de_projeto_de_software&quot; title=&quot;Wikipedia - Padrões de Projetos&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Padrões&lt;/a&gt;, deixa conforme sua equipe precisa ou &lt;a href=&quot;http://tableless.com.br/locaweb-style-como-iniciamos/&quot; title=&quot;Locaweb Style - Framework Front End da Locaweb&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;conforme sua empresa trabalha&lt;/a&gt;, empacota tudo isso pra poder reutilizar depois e pronto, criou um Framework!&lt;br&gt;Só isso? Sim, só isso… Framework é uma ferramenta com os códigos, padrões, etc, que você consegue utilizar pra resolver problemas que se repetem ou mesmo pra iniciar projetos que vão possuir as mesmas características seja no Front, Back End ou mesmo para &lt;a href=&quot;https://github.com/woliveiras/pastel&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Tooling(Ferramentas)&lt;/a&gt;. Quando você utiliza um Framework como base, pode somente baixar ele, configurar ou instalar e seguir dali para as necessidades específicas de cada projeto. Isso mata muito tempo que você perderia fazendo algo que sabe que vai repetir no próximo trabalho.&lt;/p&gt;
@@ -549,7 +628,7 @@
     <link href="http://woliveiras.com.br/posts/contribuindo-para-projetos-open-source-no-github-mesmo-sendo-iniciante/"/>
     <id>http://woliveiras.com.br/posts/contribuindo-para-projetos-open-source-no-github-mesmo-sendo-iniciante/</id>
     <published>2015-02-09T14:12:32.000Z</published>
-    <updated>2016-04-11T11:43:05.648Z</updated>
+    <updated>2016-04-11T16:59:03.845Z</updated>
     
     <content type="html">&lt;div class=&quot;shared-img&quot;&gt;&lt;br&gt;&lt;img src=&quot;../../public/images/github.gif&quot; alt=&quot;&quot;&gt;&lt;br&gt;&lt;/div&gt;
 
@@ -593,7 +672,7 @@
     <link href="http://woliveiras.com.br/posts/haroopad-um-editor-markdown-maneiro/"/>
     <id>http://woliveiras.com.br/posts/haroopad-um-editor-markdown-maneiro/</id>
     <published>2015-02-09T12:53:56.000Z</published>
-    <updated>2016-04-11T11:43:05.648Z</updated>
+    <updated>2016-04-11T16:59:03.845Z</updated>
     
     <content type="html">&lt;div class=&quot;shared-img&quot;&gt;&lt;br&gt;&lt;img src=&quot;../..//public/images/Haroopad.png&quot; alt=&quot;&quot;&gt;&lt;br&gt;&lt;/div&gt;
 
@@ -646,7 +725,7 @@
     <link href="http://woliveiras.com.br/posts/como-detectar-o-dispositivo-que-acessa-seu-site/"/>
     <id>http://woliveiras.com.br/posts/como-detectar-o-dispositivo-que-acessa-seu-site/</id>
     <published>2015-02-03T18:47:41.000Z</published>
-    <updated>2016-04-11T11:43:05.648Z</updated>
+    <updated>2016-04-11T16:59:03.845Z</updated>
     
     <content type="html">&lt;p&gt;Uma dica rápida para quem trabalha com diversos tipos de dispositivos!&lt;/p&gt;
 &lt;p&gt;Dependendo do projeto em que você está trabalhando, pode chegar a necessidade de detectar qual é o tipo de dispositivo que está acessando o site/aplicação/sistema, etc. As vezes isso é feito para redirecionar o usuário para uma outra versão do projeto, as vezes simplesmente para ativar uma funcionalidade ou não.&lt;a id=&quot;more&quot;&gt;&lt;/a&gt;&lt;/p&gt;
@@ -677,7 +756,7 @@
     <link href="http://woliveiras.com.br/posts/aprenda-trabalhar-em-equipes/"/>
     <id>http://woliveiras.com.br/posts/aprenda-trabalhar-em-equipes/</id>
     <published>2015-01-30T08:00:51.000Z</published>
-    <updated>2016-04-11T11:43:05.648Z</updated>
+    <updated>2016-04-11T16:59:03.845Z</updated>
     
     <content type="html">&lt;p&gt;Como eu disse em &lt;a href=&quot;/posts/requisitos-para-vagas-front-end/&quot; title=&quot;Sobre os requisitos para vagas de emprego Front End (E outras áreas também)&quot;&gt;um post anterior&lt;/a&gt;, você não vai trabalhar sozinho a vida toda. Chega uma hora em que é preciso trabalhar em equipes, interagir com outras pessoas e é necessário que você aprenda isso. Mesmo que você trabalhe em casa, vai precisar enviar seu projeto para outras pessoas.&lt;br&gt;Existem algumas boas medidas para conseguir trabalhar bem em grandes ou pequenas equipes…&lt;a id=&quot;more&quot;&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;h2 id=&quot;Organizacao&quot;&gt;&lt;a href=&quot;#Organizacao&quot; class=&quot;headerlink&quot; title=&quot;Organização&quot;&gt;&lt;/a&gt;Organização&lt;/h2&gt;&lt;p&gt;As pastas que você cria para organizar seu projeto devem possuir nomes que auxiliem a entender o que tem dentro. Não somente as pastas, os nomes dos arquivos também devem ter algum significado.&lt;br&gt;Não crie uma pasta com o nome &lt;strong&gt;scripts&lt;/strong&gt; e coloque todos os .styl, .js, .html, .php, .rb, etc, ali dentro, mas crie uma organização ou siga alguma.&lt;br&gt;Isso serve até mesmo para que você se encontre mais fácil no seu projeto.&lt;br&gt;Trabalhar com outras pessoas não é a mesma coisa de ser criança e a mãe arrumar seu quarto… Você tem de se organizar e outras pessoas tem de entender sua organização.&lt;br&gt;Da uma olhada aqui no meu &lt;a href=&quot;https://github.com/woliveiras/pastel&quot; title=&quot;Pastel | um pequeno Boilerplate que eu criei para agilizar meus projetos&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Scaffold &lt;/a&gt;e veja como eu organizei os arquivos - É um exemplo beeeem básico, mas da para ter uma noção…&lt;br&gt;A forma como escreve seu código também faz diferença e vou falar disso agora!&lt;/p&gt;
@@ -728,7 +807,7 @@
     <link href="http://woliveiras.com.br/posts/semantica-html/"/>
     <id>http://woliveiras.com.br/posts/semantica-html/</id>
     <published>2015-01-29T12:00:25.000Z</published>
-    <updated>2016-04-11T11:43:05.648Z</updated>
+    <updated>2016-04-11T16:59:03.845Z</updated>
     
     <content type="html">&lt;div class=&quot;shared-img&quot;&gt;&lt;br&gt;&lt;img src=&quot;../..//public/images/HTML.png&quot; alt=&quot;&quot;&gt;&lt;br&gt;&lt;/div&gt;
 
@@ -769,7 +848,7 @@
     <link href="http://woliveiras.com.br/posts/gerenciar-projetos-com-trello/"/>
     <id>http://woliveiras.com.br/posts/gerenciar-projetos-com-trello/</id>
     <published>2015-01-28T02:00:07.000Z</published>
-    <updated>2016-04-11T11:43:05.648Z</updated>
+    <updated>2016-04-11T16:59:03.845Z</updated>
     
     <content type="html">&lt;div class=&quot;shared-img&quot;&gt;&lt;br&gt;&lt;img src=&quot;../../public/images/Trello.png&quot; alt=&quot;Trello&quot;&gt;&lt;/div&gt;
 
@@ -832,7 +911,7 @@
     <link href="http://woliveiras.com.br/posts/como-alcancar-objetivos-rapidamente-nos-estudos/"/>
     <id>http://woliveiras.com.br/posts/como-alcancar-objetivos-rapidamente-nos-estudos/</id>
     <published>2015-01-27T07:00:32.000Z</published>
-    <updated>2016-04-11T11:43:05.648Z</updated>
+    <updated>2016-04-11T16:59:03.845Z</updated>
     
     <content type="html">&lt;p&gt;Essa é mais uma dica sobre produtividade, porém agora é nos estudos.&lt;br&gt;Nós, Desenvolvedores, temos de estudar muito. Todo dia alguma ferramenta atualiza ou algo vira tendência e passa a ser usado no serviço e temos de aprender. E como fazer para aprender tudo isso sem ficar louco e de um jeito que consiga alcançar os objetivos mais rapidamente?&lt;a id=&quot;more&quot;&gt;&lt;/a&gt;&lt;br&gt;Se você não leu meu post anterior sobre produtividade da uma olhada &lt;a href=&quot;/posts/como-ser-mais-produtivo/&quot; title=&quot;Como ser mais produtivo?&quot;&gt;aqui&lt;/a&gt;.&lt;/p&gt;
 &lt;h2 id=&quot;Listas-de-novo&quot;&gt;&lt;a href=&quot;#Listas-de-novo&quot; class=&quot;headerlink&quot; title=&quot;Listas de novo&quot;&gt;&lt;/a&gt;Listas de novo&lt;/h2&gt;&lt;p&gt;Eu aprendi que fazer listas para tudo é uma ótima maneira de você ter certeza que vai concluir algo. Parece que você se obriga a fazer aquilo e se apagar da lista sem concluir parece um pecado! No caso de estudos não é diferente.&lt;/p&gt;
@@ -897,7 +976,7 @@
     <link href="http://woliveiras.com.br/posts/o-que-e-linguagem-de-programacao-de-alto-nivel/"/>
     <id>http://woliveiras.com.br/posts/o-que-e-linguagem-de-programacao-de-alto-nivel/</id>
     <published>2015-01-27T03:51:01.000Z</published>
-    <updated>2016-04-11T11:43:05.648Z</updated>
+    <updated>2016-04-11T16:59:03.845Z</updated>
     
     <content type="html">&lt;p&gt;Se você vem seguindo o mesmo &lt;a href=&quot;http://woliveiras.com.br/posts/guia-de-estudos-desenvolvedor-front-end-iniciante&quot;&gt;guia de estudos&lt;/a&gt;, vai chegar uma hora em que vai partir pro JavaScript e mais cedo ou mais tarde vai se aprofundar ainda mais em programação e é aí que você ouve alguns termos meio confusos como esse:&lt;/p&gt;
 &lt;p&gt;&lt;em&gt;JavaScript é uma linguagem de programação de alto nível.&lt;/em&gt;&lt;/p&gt;
@@ -946,7 +1025,7 @@
     <link href="http://woliveiras.com.br/posts/como-ser-mais-produtivo/"/>
     <id>http://woliveiras.com.br/posts/como-ser-mais-produtivo/</id>
     <published>2015-01-26T08:00:53.000Z</published>
-    <updated>2016-04-11T11:43:05.648Z</updated>
+    <updated>2016-04-11T16:59:03.845Z</updated>
     
     <content type="html">&lt;p&gt;Uma das minhas grandes preocupações na vida é ser prdutivo! Eu gosto de fazer as coisas o mais rápido possível e estou sempre buscando maneiras de automatizar ou organizar as coisas de maneira que eu consiga cada vez mais produtividade.&lt;a id=&quot;more&quot;&gt;&lt;/a&gt;&lt;br&gt;Durante algum tempo fui testando várias abordagens e técnicas de produtividade. Técnicas que podem ser aplicadas no serviço, para estudos ou mesmo para cumprir tarefas do cotidiano(Como lembrar de pagar uma conta ou do que precisa comprar no mercado).&lt;br&gt;Segue algumas dicas do que melhor funcionou pra mim até agora.&lt;/p&gt;
 &lt;h2 id=&quot;Faca-listas&quot;&gt;&lt;a href=&quot;#Faca-listas&quot; class=&quot;headerlink&quot; title=&quot;Faça listas&quot;&gt;&lt;/a&gt;Faça listas&lt;/h2&gt;&lt;p&gt;Eu faço listas com as tarefas que tenho de cumprir e, de acordo com que termino a tarefa, a marco como concluída ou apago da lista.&lt;br&gt;Para isso utilizo um aplicativo que da pra usar tanto no PC, quanto no Celular: O &lt;a href=&quot;https://www.wunderlist.com/pt/&quot; title=&quot;Wunderlist&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Wunderlist&lt;/a&gt;.&lt;br&gt;Nele eu separo o que é projeto pessoal, o que é projeto profissional e até o que eu estou estudando/planejo estudar por pastas e nessas pastas coloco os tópicos. De acordo com que vou concluindo, marco como concluído e pronto! A tarefa fica riscadinha e oculta na lista.&lt;/p&gt;
@@ -979,7 +1058,7 @@
     <link href="http://woliveiras.com.br/posts/requisitos-para-vagas-front-end/"/>
     <id>http://woliveiras.com.br/posts/requisitos-para-vagas-front-end/</id>
     <published>2015-01-23T10:00:19.000Z</published>
-    <updated>2016-04-11T11:43:05.648Z</updated>
+    <updated>2016-04-11T16:59:03.845Z</updated>
     
     <content type="html">&lt;p&gt;Quantas vezes não nos deparamos com as seguintes dúvidas:&lt;/p&gt;
 &lt;ul&gt;
@@ -1032,7 +1111,7 @@
     <link href="http://woliveiras.com.br/posts/extensoes-navegador-desenvolvimento-web/"/>
     <id>http://woliveiras.com.br/posts/extensoes-navegador-desenvolvimento-web/</id>
     <published>2015-01-22T13:00:31.000Z</published>
-    <updated>2016-04-11T11:43:05.648Z</updated>
+    <updated>2016-04-11T16:59:03.845Z</updated>
     
     <content type="html">&lt;p&gt;Sou fã de produtividade e, por isso, utilizo várias ferramentas que me auxiliam a ser mais produtivo - Vou citar outras em futuras postagens ;). Algumas delas são extensões para o Navegador, no meu caso o Chrome/Firefox, que eu uso o tempo todo para testes. Nesse post vou citar algumas extensões muito boas para desenvolvimento Front End&lt;a id=&quot;more&quot;&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;&lt;em&gt;Para instalar alguma você pode clicar direto no sub-título e será direcionado para a Chrome Web Store. Se você estiver utilizando o Firefox, só pesquisar o nome dela no menu de instalação de Addons.&lt;/em&gt;&lt;/p&gt;
@@ -1087,49 +1166,6 @@
       <category term="Extensões" scheme="http://woliveiras.com.br/tags/Extensoes/"/>
     
       <category term="Navegador" scheme="http://woliveiras.com.br/tags/Navegador/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Protocolo HTTP</title>
-    <link href="http://woliveiras.com.br/posts/protocolo-http/"/>
-    <id>http://woliveiras.com.br/posts/protocolo-http/</id>
-    <published>2015-01-21T13:00:57.000Z</published>
-    <updated>2016-04-11T11:43:05.648Z</updated>
-    
-    <content type="html">&lt;p&gt;No post &lt;a href=&quot;http://woliveiras.com.br/posts/url-uri-qual-diferenca/&quot; title=&quot;URL ou URI, qual a diferença?&quot;&gt;anterior&lt;/a&gt; eu expliquei a diferença entre URL, URI e URN e fiz uma pequena introdução sobre o Protocolo HTTP. Da uma lidinha na introdução lá e volte aqui para continuar estudando sobre esse interessante protocolo de comunicação das Internetsss! :D&lt;a id=&quot;more&quot;&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;Como eu disse, toda a especificação está &lt;a href=&quot;http://tools.ietf.org/html/rfc2616&quot; title=&quot;RFC2616&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;aqui&lt;/a&gt; e eu só estou dando uma pequena pincelada sobre o assunto.&lt;/p&gt;
-&lt;h2 id=&quot;Metodos-HTTP&quot;&gt;&lt;a href=&quot;#Metodos-HTTP&quot; class=&quot;headerlink&quot; title=&quot;Métodos HTTP&quot;&gt;&lt;/a&gt;Métodos HTTP&lt;/h2&gt;&lt;p&gt;Durante a requisição é utilizado um Método de requisição (Ou Verbo), como você viu no exemplo que foi o GET. Existem 8 métodos: GET, POST, DELETE, HEAD, PUT, OPTIONS, TRACE e CONNECT. Você já deve ter utilizado POST e GET em algum formulário. ;)&lt;/p&gt;
-&lt;p&gt;Os mais utilizados são:&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;GET&lt;/strong&gt; - Utilizado para solicitar um recurso. Não utilize para executar uma ação, somente para recuperar informações.&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;POST&lt;/strong&gt; - Esse é o que deve ser utilizado para executar uma ação ou criar um novo recurso.&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;PUT&lt;/strong&gt; - Atualiza um recurso na URI. A diferença entre POST e PUT é que POST pode processar informações também.&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;DELETE&lt;/strong&gt; - Remove um recurso.&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;HEAD&lt;/strong&gt; - Recupera as informações sobre um recurso.&lt;/p&gt;
-&lt;h2 id=&quot;Status-Code&quot;&gt;&lt;a href=&quot;#Status-Code&quot; class=&quot;headerlink&quot; title=&quot;Status Code&quot;&gt;&lt;/a&gt;Status Code&lt;/h2&gt;&lt;p&gt;É o código de status da resposta. Sabe quando você entra em um site e cai na página 404? O que aconteceu foi que o servidor recebeu uma requisição, processou e gerou o status code 404, então a aplicação (Que já está previamente configurada para isso) devolve a página de erro 404. E o mesmo acontece para tudo. Existem muitos status e vou citar só alguns que você já deve ter ouvido falar:&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;200&lt;/strong&gt; - A requisição foi bem sucedida.&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;301&lt;/strong&gt; - O recurso foi movido para outro URI.&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;403&lt;/strong&gt; - O servidor se recusa a atender sua requisição (Tá brabo) e o client não deve tentar de novo.&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;404&lt;/strong&gt; - Não foi localizado no servidor.&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;500&lt;/strong&gt; - Deu algum erro inesperado no servidor. (Normalmente quando fazemos alguma cagada e é mais fácil botar a culpa no estagiário. #ficaadica)&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;503&lt;/strong&gt; - O servidor está temporariamente indisponível.&lt;/p&gt;
-&lt;p&gt;E tem muito mais a se estudar. Porém com esse conteúdo você não fica mais boiando quando ver determinadas chamadas nas aplicações. ;)&lt;/p&gt;
-</content>
-    
-    <summary type="html">
-    
-      &lt;p&gt;No post &lt;a href=&quot;http://woliveiras.com.br/posts/url-uri-qual-diferenca/&quot; title=&quot;URL ou URI, qual a diferença?&quot;&gt;anterior&lt;/a&gt; eu expliquei a diferença entre URL, URI e URN e fiz uma pequena introdução sobre o Protocolo HTTP. Da uma lidinha na introdução lá e volte aqui para continuar estudando sobre esse interessante protocolo de comunicação das Internetsss! :D
-    
-    </summary>
-    
-      <category term="Dicas" scheme="http://woliveiras.com.br/categories/Dicas/"/>
-    
-      <category term="HTTP" scheme="http://woliveiras.com.br/categories/Dicas/HTTP/"/>
-    
-    
-      <category term="Dicas" scheme="http://woliveiras.com.br/tags/Dicas/"/>
-    
-      <category term="HTTP" scheme="http://woliveiras.com.br/tags/HTTP/"/>
     
   </entry>
   

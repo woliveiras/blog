@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  
+  <title>O que é uma imagem e o que é um container Docker? | William Oliveira</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  <meta name="description" content="O que é uma imagem e o que é um container Docker? Uma breve explicação sobre esses dois termos que podem confundir um iniciante e uma introdução sobre o Docker Hub.">
+<meta property="og:type" content="article">
+<meta property="og:title" content="O que é uma imagem e o que é um container Docker?">
+<meta property="og:url" content="http://woliveiras.com.br/posts/imagem-docker-ou-um-container-docker/index.html">
+<meta property="og:site_name" content="William Oliveira">
+<meta property="og:description" content="O que é uma imagem e o que é um container Docker? Uma breve explicação sobre esses dois termos que podem confundir um iniciante e uma introdução sobre o Docker Hub.">
+<meta property="og:image" content="http://woliveiras.com.br/../../public/images/docker_ps_a.png">
+<meta property="og:image" content="http://woliveiras.com.br/../../public/images/docker_ps_qa.png">
+<meta property="og:updated_time" content="2016-04-11T16:59:03.845Z">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="O que é uma imagem e o que é um container Docker?">
+<meta name="twitter:description" content="O que é uma imagem e o que é um container Docker? Uma breve explicação sobre esses dois termos que podem confundir um iniciante e uma introdução sobre o Docker Hub.">
+<meta name="twitter:image" content="http://woliveiras.com.br/../../public/images/docker_ps_a.png">
+<meta name="twitter:creator" content="@w_oliveiras">
+  
+    <link rel="alternative" href="/atom.xml" title="William Oliveira" type="application/atom+xml">
+  
+  
+    <link rel="icon" href="img/favicon.png">
+  
+  <link href="//fonts.googleapis.com/css?family=Source+Code+Pro" rel="stylesheet" type="text/css">
+  <link rel="stylesheet" href="/css/style.css">
+  
+
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-25964646-1', 'auto');
+  ga('send', 'pageview');
+
+</script>
+
+<!-- End Google Analytics -->
+
+
+  <link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+</head>
+<body>
+  <div id="container">
+    <div id="wrap">
+      <header id="header">
+  <div id="header-outer" class="outer">
+    <div id="header-inner" class="inner">
+      <ul class="navigation">
+        <li id="main-nav">
+          <a id="main-nav-toggle" class="nav-icon"></a>
+          
+            <a class="main-nav-link" href="/">Home</a>
+          
+            <a class="main-nav-link" href="/about">Sobre</a>
+          
+            <a class="main-nav-link" href="/colabore-comigo">Colabore</a>
+          
+            <a class="main-nav-link" href="https://github.com/woliveiras/resume">Resume</a>
+          
+        </li>
+        <li id="sub-nav">
+          
+            <a id="nav-rss-link" class="nav-icon" href="/atom.xml" title="RSS Feed"></a>
+          
+          <a id="nav-search-btn" class="nav-icon" title="Search"></a>
+        </li>
+        <li id="search-form-wrap">
+          <form action="//google.com/search" method="get" accept-charset="UTF-8" class="search-form"><input type="search" name="q" results="0" class="search-form-input" placeholder="Search"><button type="submit" class="search-form-submit">&#xF002;</button><input type="hidden" name="sitesearch" value="http://woliveiras.com.br"></form>
+        </li>
+      </ul>
+    </div>
+    <div id="header-title" class="inner">
+      <h1 id="logo-wrap">
+        <a href="/" id="title">William Oliveira</a>
+      </h1>
+      
+        <h2 id="subtitle-wrap">
+          <a href="/" id="subtitle">Desenvolvedor Front End</a>
+        </h2>
+      
+      <div class="contact-icons">
+	<a href="https://www.facebook.com/woliveira542"  target="_blank">
+		<i class="ico facebook"  target="_blank"></i>
+	</a>
+	<a href="https://twitter.com/w_oliveiras"  target="_blank">
+		<i class="ico twitter"  target="_blank"></i>
+	</a>
+	<a href="https://br.linkedin.com/in/woliveira542"  target="_blank">
+		<i class="ico linkedin"  target="_blank"></i>
+	</a>
+	<a href="https://github.com/woliveiras"  target="_blank">
+		<i class="ico github"></i>
+	</a>
+</div>
+    </div>
+  </div>
+</header>
+
+      <div class="outer">
+        <section id="main"><article id="post-imagem-docker-ou-um-container-docker" class="article article-type-post" itemscope itemprop="blogPost">
+  <div class="article-inner">
+    
+    
+      <header class="article-header">
+        
+  
+    <h1 class="article-title" itemprop="name">
+      O que é uma imagem e o que é um container Docker?
+    </h1>
+  
+
+      </header>
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+        <p>Se você viu a primeira parte dessa sequência de artigos, percebeu que existem dois termos muito utilizados quando falamos de Docker: <strong>Imagens</strong> e <strong>Containers</strong>. Você deve se perguntar: qual é a diferença entre imagem e container Docker? Ou então: O que eu rodo com o <code>docker run</code>, uma imagem ou um container? <a id="more"></a></p>
+<p>Se você não viu o primeiro artigo, da uma olhada <a href="/posts/uma-rapida-introducao-ao-docker-e-instalacao-no-ubuntu/">aqui</a>.</p>
+<h2 id="O-que-sao-Imagens-Docker"><a href="#O-que-sao-Imagens-Docker" class="headerlink" title="O que são Imagens Docker?"></a>O que são Imagens Docker?</h2><p>Pense nas imagens Docker como uma <a href="/posts/criar-uma-base-box-para-o-vagrant/">Base Box do Vagrant</a>.</p>
+<p>Ela é o template (imagine uma classe em OOP) para rodar um container.</p>
+<p>Você precisa baixar as imagens para rodar os containers ou pegar de algum lugar (como passar de um PC pro outro pelo Pen Drive, por exemplo) e telas em seu repositório local para que o Docker utilize para criar um container quando você roda o <code>docker run...</code>.</p>
+<p>As imagens Docker ficam armazenadas no <a href="https://hub.docker.com/" target="_blank" rel="external">Docker Hub</a> e, para baixar uma, funciona igualzinho utilizar o Git com Github.</p>
+<h2 id="Baixando-e-utilizando-uma-Imagem-Docker"><a href="#Baixando-e-utilizando-uma-Imagem-Docker" class="headerlink" title="Baixando e utilizando uma Imagem Docker"></a>Baixando e utilizando uma Imagem Docker</h2><p>Para baixar uma imagem (vamos utilizar o exemplo da imagem do Ubuntu), utilize o comando:</p>
+<figure class="highlight nginx"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="attribute">docker</span> pull ubuntu</span><br></pre></td></tr></table></figure>
+<p>Você pode listar as imagens baixadas em seu PC com o comando:</p>
+<figure class="highlight nginx"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="attribute">docker</span> images</span><br></pre></td></tr></table></figure>
+<p>E usar a imagem para subir um container:</p>
+<figure class="highlight applescript"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">docker <span class="built_in">run</span> ubuntu</span><br></pre></td></tr></table></figure>
+<p>Esse comando vai usar a <strong>imagem</strong> <em>ubuntu</em>, que você baixou em seu PC, para criar um novo Container.</p>
+<p>Caso a imagem não exista no seu PC, o Docker vai baixar do Docker Hub e subir esse container automaticamente.</p>
+<p>Poderia ser de outro local, também, mas vamos falar primeiro do Docker Hub.</p>
+<p>Você também pode remover imagens locais com o comando:</p>
+<figure class="highlight autohotkey"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">docker rmi ID_ou_nome_d<span class="built_in">a_imagem</span></span><br></pre></td></tr></table></figure>
+<h2 id="Pesquisando-por-uma-Imagem-Docker"><a href="#Pesquisando-por-uma-Imagem-Docker" class="headerlink" title="Pesquisando por uma Imagem Docker"></a>Pesquisando por uma Imagem Docker</h2><p>Você pode pesquisar imagens no Docker Hub direto do Terminal usando o comando <code>search</code>:</p>
+<figure class="highlight nginx"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="attribute">docker</span> search ubuntu</span><br></pre></td></tr></table></figure>
+<p>Todas as imagens com o nome ubuntu no meio irão aparecer no seu terminal para escolher alguma para baixar. Recomendo que olhe no site para ver se tem mais informações.</p>
+<p>Você também pode criar sua própria imagem e distribuir no Docker Hub ou em outro local, mas vou falar mais sobre isso nos próximos posts. ;P</p>
+<h2 id="Docker-Hub"><a href="#Docker-Hub" class="headerlink" title="Docker Hub"></a>Docker Hub</h2><p>O Docker Hub é parecido com o nosso querido <a href="https://github.com/" target="_blank" rel="external">GitHub</a>, porém somente de imagens Docker.</p>
+<p>Existem várias imagens prontas com serviços mais utilizados pra você só baixar e usar, mas recomendo que aprenda a criar uma e bagunce um pouco antes de baixar alguma pronta.</p>
+<p>Vale a pena brincar um pouco com a criação e utilização de imagens no Docker, é algo tão simples que é divertido. Vale o aprendizado.</p>
+<p>Uma boa maneira de conhecer o Docker Hub é com <a href="https://docs.docker.com/docker-hub/overview/" target="_blank" rel="external">esse overview</a>, do próprio site.</p>
+<h2 id="Como-diferenciar-uma-imagem-oficial-de-uma-imagem-nao-oficial"><a href="#Como-diferenciar-uma-imagem-oficial-de-uma-imagem-nao-oficial" class="headerlink" title="Como diferenciar uma imagem oficial de uma imagem não oficial?"></a>Como diferenciar uma imagem oficial de uma imagem não oficial?</h2><p>Algumas imagens são criadas por empresas ou organizações (ou alguém que mande em um projeto que você esteja utilizando agora) e são mantidas por elas, essas são imagens oficiais. As não oficiais são as que usuários comuns (eu e você, reles mortais) sobem para o repositóro.</p>
+<p>Então como sabemos qual é uma imagem oficial?</p>
+<p>É bem simples. Observando a URL do Docker Hub, você percebe que a imagem do NGINX está no repositório:</p>
+<figure class="highlight dts"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="symbol">https:</span><span class="comment">//hub.docker.com/_/nginx/</span></span><br></pre></td></tr></table></figure>
+<p>E a do Ubuntu em:</p>
+<figure class="highlight dts"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="symbol">https:</span><span class="comment">//hub.docker.com/_/ubuntu/</span></span><br></pre></td></tr></table></figure>
+<p>E mais esse exemplo do MySQL:</p>
+<figure class="highlight dts"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="symbol">https:</span><span class="comment">//hub.docker.com/_/mysql/</span></span><br></pre></td></tr></table></figure>
+<p>Percebe um padrão?</p>
+<p>As imagens em <code>https://hub.docker.com/_/imagem</code> são as oficiais.</p>
+<p>As não oficiais vem com o padrão <code>usuario/imagem</code>, sem esse <code>/_/</code>.</p>
+<h2 id="Containers"><a href="#Containers" class="headerlink" title="Containers"></a>Containers</h2><p>O Container é uma instância de uma Imagem em execução naquele momento.</p>
+<p>Imagine baixar a imagem do Ubuntu.</p>
+<figure class="highlight nginx"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="attribute">docker</span> pull ubuntu</span><br></pre></td></tr></table></figure>
+<p>E depois executar um:</p>
+<figure class="highlight applescript"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">docker <span class="built_in">run</span> ubuntu</span><br></pre></td></tr></table></figure>
+<p>Com isso você está instanciando um Container que usa como template a imagem do Ubuntu, baixada no primeiro comando.</p>
+<p>Você pode listar os Containers em execução com o comando:</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">docker ps <span class="_">-a</span></span><br></pre></td></tr></table></figure>
+<p><img src="../../public/images/docker_ps_a.png" alt="docker ps -a"></p>
+<p>Ou somente o ID do Container do topo da lista com:</p>
+<figure class="highlight vim"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">docker <span class="keyword">ps</span> -<span class="keyword">qa</span></span><br></pre></td></tr></table></figure>
+<p><img src="../../public/images/docker_ps_qa.png" alt="docker ps -qa"></p>
+<p>Pode, também remover um Container com o:</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">Docker rm ID_ou_apelido_<span class="keyword">do</span>_container</span><br></pre></td></tr></table></figure>
+<p>Ficou claro quem é quem?</p>
+<p>Caso ainda possua dúvidas ou alguma dica, comenta aqui em baixo.</p>
+<p>Espalhe a palavra.</p>
+
+      
+    </div>
+    <footer class="article-footer">
+      
+        <a href="http://woliveiras.com.br/posts/imagem-docker-ou-um-container-docker/#disqus_thread" class="article-comment-link">Comentários</a>
+      
+      
+  <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/ambiente/">ambiente</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/devops/">devops</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/docker/">docker</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/virtualizacao/">virtualização</a></li></ul>
+
+      <a href="/posts/imagem-docker-ou-um-container-docker/" class="article-date">
+  <time datetime="2016-04-10T11:03:47.000Z" itemprop="datePublished">2016-04-10</time>
+</a>
+    </footer>
+  </div>
+  
+    
+<nav id="article-nav">
+  
+  
+    <a href="/posts/uma-rapida-introducao-ao-docker-e-instalacao-no-ubuntu/" id="article-nav-older" class="article-nav-link-wrap">
+      <strong class="article-nav-caption">Anterior</strong>
+      <div class="article-nav-title">Uma rápida introdução ao Docker e instalação no Ubuntu</div>
+    </a>
+  
+</nav>
+
+
+  
+</article>
+
+
+<section id="comments">
+  <div id="disqus_thread">
+    <noscript>Please enable JavaScript to view the <a href="//disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+  </div>
+</section>
+
+</section>
+      </div>
+      <footer id="footer">
+  <div id="footer-info">
+    <div class="outer">
+      &copy; 2016 William de Oliveira Powered by <a href="http://hexo.io/" target="_blank">Hexo</a>
+    </div>
+  </div>
+</footer>
+    </div>
+    <nav id="mobile-nav">
+  
+    <a href="/" class="mobile-nav-link">Home</a>
+  
+    <a href="/about" class="mobile-nav-link">Sobre</a>
+  
+    <a href="/colabore-comigo" class="mobile-nav-link">Colabore</a>
+  
+    <a href="https://github.com/woliveiras/resume" class="mobile-nav-link">Resume</a>
+  
+</nav>
+    
+<script>
+  var disqus_shortname = 'woliveiras';
+  
+  var disqus_url = 'http://woliveiras.com.br/posts/imagem-docker-ou-um-container-docker/';
+  
+  (function(){
+    var dsq = document.createElement('script');
+    dsq.type = 'text/javascript';
+    dsq.async = true;
+    dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+    (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+  })();
+</script>
+
+
+<script src="//ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
+
+
+  <link rel="stylesheet" href="/fancybox/jquery.fancybox.css">
+  <script src="/fancybox/jquery.fancybox.pack.js"></script>
+
+
+<script src="/js/script.js"></script>
+
+  </div>
+</body>
+</html>
