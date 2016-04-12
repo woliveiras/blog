@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://woliveiras.com.br/"/>
-  <updated>2016-04-11T17:16:12.365Z</updated>
+  <updated>2016-04-12T02:46:42.863Z</updated>
   <id>http://woliveiras.com.br/</id>
   
   <author>
@@ -16,11 +16,249 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>Criando uma imagem Docker personalizada</title>
+    <link href="http://woliveiras.com.br/posts/Criando-uma-imagem-Docker-personalizada/"/>
+    <id>http://woliveiras.com.br/posts/Criando-uma-imagem-Docker-personalizada/</id>
+    <published>2016-04-12T01:18:59.000Z</published>
+    <updated>2016-04-12T02:46:42.863Z</updated>
+    
+    <content type="html">&lt;p&gt;É muito legal poder baixar uma imagem do &lt;a href=&quot;http://hub.docker.com/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Docker Hub&lt;/a&gt; e já sair criando os containers, modificando e brincando, mas e depois?&lt;/p&gt;
+&lt;p&gt;Como fazemos para levar essa imagem para outro host?&lt;/p&gt;
+&lt;p&gt;Podemos fazer isso subindo a imagem para o Docker Hub ou mesmo compactando a imagem em formato .tar.&lt;/p&gt;
+&lt;p&gt;Para criar uma imagem personalizada, primeiro precisamos conhecer o Dockerfile, depois voltamos a criação da imagem própriamente dita. ;)&lt;a id=&quot;more&quot;&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id=&quot;Dockerfile&quot;&gt;&lt;a href=&quot;#Dockerfile&quot; class=&quot;headerlink&quot; title=&quot;Dockerfile&quot;&gt;&lt;/a&gt;Dockerfile&lt;/h2&gt;&lt;p&gt;Já vimos que podemos utilizar a linha de &lt;a href=&quot;/posts/comandos-mais-utilizados-no-docker&quot;&gt;comando para inicializar um Docker container&lt;/a&gt; com um parâmetro que é o comando a ser executado direto no container para inicializar algum serviço, trazer alguma informação sobre o container em execução, etc.&lt;/p&gt;
+&lt;p&gt;Ex.:&lt;/p&gt;
+&lt;p&gt;Executando um container do &lt;a href=&quot;https://www.nginx.com/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;NGINX&lt;/a&gt; com o comando para startar o Web Server:&lt;/p&gt;
+&lt;figure class=&quot;highlight stata&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;docker &lt;span class=&quot;keyword&quot;&gt;run&lt;/span&gt; -&lt;span class=&quot;keyword&quot;&gt;d&lt;/span&gt; -p 8080:80 nginx /usr/sbin/nginx -&lt;span class=&quot;keyword&quot;&gt;g&lt;/span&gt; &lt;span class=&quot;string&quot;&gt;&quot;daemon off;&quot;&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+&lt;p&gt;Com esse comando vamos criar o container com a imagem do &lt;code&gt;nginx&lt;/code&gt; passando os parâmetros para inicializar o servidor e listar a porta 80 do container na 8080 do nosso host.&lt;/p&gt;
+&lt;p&gt;Agora, imagine utilizar essa linha inteira para esse serviço e/ou outros mais que possam ser executados como um MySQL, Redis, MongoDB, etc.&lt;/p&gt;
+&lt;p&gt;Isso pode é bem pouco produtivo.&lt;/p&gt;
+&lt;p&gt;A maneira de automatizar essas tarefas é utilizando um Dockerfile para passar os parâmetros e configurações para a imagem.&lt;/p&gt;
+&lt;p&gt;Dockerfile é o arquivo de configuração do Docker, parecido com o Vagrantfile como já citei no &lt;a href=&quot;/posts/uma-rapida-introducao-ao-docker-e-instalacao-no-ubuntu/&quot;&gt;post anterior&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Ao contrário do Vagrantfile, nós só precisamos do Dockerfile para cirar a imagem, fazer o build e, depois de gerada com as configurações passadas, basta usar a imagem. Não vamos mais precisar do Dockerfile no mesmo diretório da nossa aplicação.&lt;/p&gt;
+&lt;p&gt;Os comandos no Dockerfile são iguais utilizar Shell Script.&lt;/p&gt;
+&lt;h2 id=&quot;Exemplo-de-Dockerfile-e-configuracao-de-um-Web-Server-no-Ubuntu&quot;&gt;&lt;a href=&quot;#Exemplo-de-Dockerfile-e-configuracao-de-um-Web-Server-no-Ubuntu&quot; class=&quot;headerlink&quot; title=&quot;Exemplo de Dockerfile e configuração de um Web Server no Ubuntu&quot;&gt;&lt;/a&gt;Exemplo de Dockerfile e configuração de um Web Server no Ubuntu&lt;/h2&gt;&lt;p&gt;Imagine o seguinte cenário:&lt;/p&gt;
+&lt;p&gt;Você vai subir um container com a imagem do Ubuntu e instalar e configurar o Servidor Web NGINX.&lt;/p&gt;
+&lt;p&gt;Nosso Dockerfile pode ficar assim:&lt;/p&gt;
+&lt;figure class=&quot;highlight dockerfile&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;3&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;4&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;5&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;6&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;7&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;8&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;9&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;10&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;11&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;12&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;13&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;14&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;15&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;16&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;17&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;18&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;19&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;20&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;21&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;keyword&quot;&gt;FROM&lt;/span&gt; ubuntu&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;keyword&quot;&gt;MAINTAINER&lt;/span&gt; William de Oliveira Souza &amp;lt;w.oliveira542@gmail.com&amp;gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;keyword&quot;&gt;RUN&lt;/span&gt; &lt;span class=&quot;bash&quot;&gt;apt-get update&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;keyword&quot;&gt;RUN&lt;/span&gt; &lt;span class=&quot;bash&quot;&gt;apt-get install -y nginx &amp;amp;&amp;amp; apt-get clean&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;keyword&quot;&gt;ADD&lt;/span&gt; &lt;span class=&quot;bash&quot;&gt;./configs/nginx.conf /etc/nginx/sites-enabled/default&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;keyword&quot;&gt;RUN&lt;/span&gt; &lt;span class=&quot;bash&quot;&gt;ln -sf /dev/stdout /var/&lt;span class=&quot;built_in&quot;&gt;log&lt;/span&gt;/nginx/access.log&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;keyword&quot;&gt;RUN&lt;/span&gt; &lt;span class=&quot;bash&quot;&gt;ln -sf /dev/stderr /var/&lt;span class=&quot;built_in&quot;&gt;log&lt;/span&gt;/nginx/error.log&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;keyword&quot;&gt;RUN&lt;/span&gt; &lt;span class=&quot;bash&quot;&gt;&lt;span class=&quot;built_in&quot;&gt;echo&lt;/span&gt; &lt;span class=&quot;string&quot;&gt;&quot;daemon off;&quot;&lt;/span&gt; &amp;gt;&amp;gt; /etc/nginx/nginx.conf&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;keyword&quot;&gt;EXPOSE&lt;/span&gt; &lt;span class=&quot;number&quot;&gt;8080&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;keyword&quot;&gt;ENTRYPOINT&lt;/span&gt; &lt;span class=&quot;bash&quot;&gt;[“/usr/sbin/nginx”]&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;keyword&quot;&gt;CMD&lt;/span&gt; &lt;span class=&quot;bash&quot;&gt;[“start”, “-g”]&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+&lt;p&gt;Onde:&lt;/p&gt;
+&lt;h2 id=&quot;Imagem-base&quot;&gt;&lt;a href=&quot;#Imagem-base&quot; class=&quot;headerlink&quot; title=&quot;Imagem base&quot;&gt;&lt;/a&gt;Imagem base&lt;/h2&gt;&lt;p&gt;O parâmetro &lt;code&gt;FROM&lt;/code&gt; é a imagem que você vai usar como base para a criação de sua nova imagem.&lt;/p&gt;
+&lt;p&gt;Você pode usar o nome da imagem, como no exemplo:&lt;/p&gt;
+&lt;figure class=&quot;highlight dockerfile&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;keyword&quot;&gt;FROM&lt;/span&gt; ubuntu&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+&lt;p&gt;Ou com com a tag específica:&lt;/p&gt;
+&lt;figure class=&quot;highlight css&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;selector-tag&quot;&gt;FROM&lt;/span&gt; &lt;span class=&quot;selector-tag&quot;&gt;ubuntu&lt;/span&gt;&lt;span class=&quot;selector-pseudo&quot;&gt;:latest&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+&lt;h2 id=&quot;Mantenedor-da-imagem&quot;&gt;&lt;a href=&quot;#Mantenedor-da-imagem&quot; class=&quot;headerlink&quot; title=&quot;Mantenedor da imagem&quot;&gt;&lt;/a&gt;Mantenedor da imagem&lt;/h2&gt;&lt;p&gt;É a pessoa, empresa ou org que mantém essa imagem.&lt;/p&gt;
+&lt;p&gt;Quando você criar sua própria imagem para subir no Docker Hub, vai precisar deixar isso como seu contato para o mundo.&lt;/p&gt;
+&lt;figure class=&quot;highlight css&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;selector-tag&quot;&gt;MAINTAINER&lt;/span&gt; &lt;span class=&quot;selector-tag&quot;&gt;William&lt;/span&gt; &lt;span class=&quot;selector-tag&quot;&gt;de&lt;/span&gt; &lt;span class=&quot;selector-tag&quot;&gt;Oliveira&lt;/span&gt; &lt;span class=&quot;selector-tag&quot;&gt;Souza&lt;/span&gt; &amp;lt;&lt;span class=&quot;selector-tag&quot;&gt;w&lt;/span&gt;&lt;span class=&quot;selector-class&quot;&gt;.oliveira542&lt;/span&gt;@&lt;span class=&quot;keyword&quot;&gt;gmail&lt;/span&gt;.&lt;span class=&quot;keyword&quot;&gt;com&lt;/span&gt;&amp;gt;&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+&lt;h2 id=&quot;Executando-comandos-no-container&quot;&gt;&lt;a href=&quot;#Executando-comandos-no-container&quot; class=&quot;headerlink&quot; title=&quot;Executando comandos no container&quot;&gt;&lt;/a&gt;Executando comandos no container&lt;/h2&gt;&lt;p&gt;Agora as coisas legais.&lt;/p&gt;
+&lt;p&gt;O comando &lt;code&gt;RUN&lt;/code&gt; serve para executar comandos dentro do seu container, assim que você criar ele.&lt;/p&gt;
+&lt;p&gt;No exemplo, estou atualizando o sistema, instalando o NGINX e depois removendo os pacotes que o sistema não vai precisar (para deixar a imagem mais limpa).&lt;/p&gt;
+&lt;figure class=&quot;highlight dockerfile&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;3&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;keyword&quot;&gt;RUN&lt;/span&gt; &lt;span class=&quot;bash&quot;&gt;apt-get update&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;keyword&quot;&gt;RUN&lt;/span&gt; &lt;span class=&quot;bash&quot;&gt;apt-get install -y nginx &amp;amp;&amp;amp; apt-get clean&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+&lt;p&gt;Outra forma de executar comandos via Dockerfile é vista mais abaixo, o &lt;code&gt;ENTRYPOINT&lt;/code&gt; junto com o &lt;code&gt;CMD&lt;/code&gt;&lt;/p&gt;
+&lt;figure class=&quot;highlight dockerfile&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;3&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;keyword&quot;&gt;ENTRYPOINT&lt;/span&gt; &lt;span class=&quot;bash&quot;&gt;[“/usr/sbin/nginx”]&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;keyword&quot;&gt;CMD&lt;/span&gt; &lt;span class=&quot;bash&quot;&gt;[“start”, “-g”]&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+&lt;p&gt;Aqui estamos inicializando nosso Web Server.&lt;/p&gt;
+&lt;p&gt;O &lt;strong&gt;ENTRYPOINT&lt;/strong&gt; é quem vai receber os comandos passados pelo &lt;strong&gt;CMD&lt;/strong&gt;. Caso não use o ENTRYPOINT, pode-se passar os comandos somente com o &lt;strong&gt;CMD&lt;/strong&gt;:&lt;/p&gt;
+&lt;figure class=&quot;highlight dockerfile&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;keyword&quot;&gt;CMD&lt;/span&gt; &lt;span class=&quot;bash&quot;&gt;service nginx start -g&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+&lt;h2 id=&quot;Adicionando-arquivos-de-configuracao-no-container&quot;&gt;&lt;a href=&quot;#Adicionando-arquivos-de-configuracao-no-container&quot; class=&quot;headerlink&quot; title=&quot;Adicionando arquivos de configuração no container&quot;&gt;&lt;/a&gt;Adicionando arquivos de configuração no container&lt;/h2&gt;&lt;p&gt;Para melhorar a organização, podemos deixar arquivos de configuração dos serviços (Web Server, Banco de Dados, Interpretador, etc) em locais separados.&lt;/p&gt;
+&lt;p&gt;No exemplo eu usei o arquivo &lt;code&gt;configs/nginx.conf&lt;/code&gt;, que será copiado para dentro do container no diretório &lt;code&gt;/etc/nginx/sites-enabled/&lt;/code&gt;, com o nome de &lt;code&gt;default&lt;/code&gt;.&lt;/p&gt;
+&lt;figure class=&quot;highlight gradle&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;ADD .&lt;span class=&quot;regexp&quot;&gt;/configs/&lt;/span&gt;nginx.conf &lt;span class=&quot;regexp&quot;&gt;/etc/&lt;/span&gt;nginx&lt;span class=&quot;regexp&quot;&gt;/sites-enabled/&lt;/span&gt;&lt;span class=&quot;keyword&quot;&gt;default&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+&lt;p&gt;O conteúdo do arquivo &lt;code&gt;nginx.conf&lt;/code&gt; é o seguinte:&lt;/p&gt;
+&lt;figure class=&quot;highlight nginx&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;3&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;4&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;5&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;6&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;7&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;section&quot;&gt;server&lt;/span&gt; &amp;#123;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;    &lt;span class=&quot;attribute&quot;&gt;listen&lt;/span&gt; &lt;span class=&quot;number&quot;&gt;8080&lt;/span&gt; default_server;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;    &lt;span class=&quot;attribute&quot;&gt;server_name&lt;/span&gt; localhost;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;    &lt;span class=&quot;attribute&quot;&gt;root&lt;/span&gt; /usr/share/nginx/html;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;    &lt;span class=&quot;attribute&quot;&gt;index&lt;/span&gt; index.html index.htm;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&amp;#125;&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+&lt;p&gt;Só uma configuração basica para o NGINX.&lt;/p&gt;
+&lt;h2 id=&quot;Monitorando-os-logs-do-container&quot;&gt;&lt;a href=&quot;#Monitorando-os-logs-do-container&quot; class=&quot;headerlink&quot; title=&quot;Monitorando os logs do container&quot;&gt;&lt;/a&gt;Monitorando os logs do container&lt;/h2&gt;&lt;p&gt;Algo interessante que podemos fazer com o Docker é monitorar os logs de uma maneira mais prática. O Docker pega os logs em &lt;code&gt;stdout&lt;/code&gt; e &lt;code&gt;stderr&lt;/code&gt;. Podemos capturar esses logs e ver de maneira mais rápida (do que entrar pelo container) pelo comando &lt;code&gt;docker logs&lt;/code&gt;.&lt;/p&gt;
+&lt;p&gt;E para deixar isso automático na nossa imagem, deixamos as seguintes linhas no Dockerfile:&lt;/p&gt;
+&lt;figure class=&quot;highlight gauss&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;3&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;keyword&quot;&gt;RUN&lt;/span&gt; &lt;span class=&quot;built_in&quot;&gt;ln&lt;/span&gt; -sf /dev/stdout /var/&lt;span class=&quot;built_in&quot;&gt;log&lt;/span&gt;/nginx/access.&lt;span class=&quot;built_in&quot;&gt;log&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;keyword&quot;&gt;RUN&lt;/span&gt; &lt;span class=&quot;built_in&quot;&gt;ln&lt;/span&gt; -sf /dev/stderr /var/&lt;span class=&quot;built_in&quot;&gt;log&lt;/span&gt;/nginx/&lt;span class=&quot;built_in&quot;&gt;error&lt;/span&gt;.&lt;span class=&quot;built_in&quot;&gt;log&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+&lt;p&gt;Nesse caso, estamos capturando os logs do NGINX.&lt;/p&gt;
+&lt;p&gt;Depois que o container estiver ativo, podemos usar o comando &lt;code&gt;docker logs id_ou_apelido_do_container&lt;/code&gt;.&lt;/p&gt;
+&lt;h2 id=&quot;Expondo-portas-do-container&quot;&gt;&lt;a href=&quot;#Expondo-portas-do-container&quot; class=&quot;headerlink&quot; title=&quot;Expondo portas do container&quot;&gt;&lt;/a&gt;Expondo portas do container&lt;/h2&gt;&lt;p&gt;Para expor a porta que o nosso Web Server vai utilizar, usamos o parâmetro &lt;code&gt;EXPOSE&lt;/code&gt; com o número da porta:&lt;/p&gt;
+&lt;figure class=&quot;highlight dockerfile&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;keyword&quot;&gt;EXPOSE&lt;/span&gt; &lt;span class=&quot;number&quot;&gt;8080&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+&lt;p&gt;Aqui é bem simples, ele vai expor a porta &lt;code&gt;8080&lt;/code&gt;.&lt;/p&gt;
+&lt;p&gt;Para saber qual porta o host está utilizando como ponte para acesso a porta do container, podemos procurar com o comando:&lt;/p&gt;
+&lt;figure class=&quot;highlight elm&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;title&quot;&gt;docker&lt;/span&gt; &lt;span class=&quot;keyword&quot;&gt;port&lt;/span&gt; id_ou_apelido_do_container&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+&lt;p&gt;Ou usar um:&lt;/p&gt;
+&lt;figure class=&quot;highlight bash&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;docker inspect id_ou_apelido_&lt;span class=&quot;keyword&quot;&gt;do&lt;/span&gt;_container&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+&lt;p&gt;Na &lt;a href=&quot;https://docs.docker.com/engine/reference/builder/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;documentação oficial do Docker&lt;/a&gt; você encontrará outras informações legais sobre os comandos que podem ser executados no Dockerfile.&lt;/p&gt;
+&lt;h2 id=&quot;Como-gerar-a-nova-imagem&quot;&gt;&lt;a href=&quot;#Como-gerar-a-nova-imagem&quot; class=&quot;headerlink&quot; title=&quot;Como gerar a nova imagem&quot;&gt;&lt;/a&gt;Como gerar a nova imagem&lt;/h2&gt;&lt;p&gt;Com nosso arquivo Dockfile configurado, podemos gerar nossa nova imagem.&lt;/p&gt;
+&lt;p&gt;Para tal, execute o comando &lt;code&gt;build&lt;/code&gt;:&lt;/p&gt;
+&lt;figure class=&quot;highlight armasm&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;symbol&quot;&gt;docker&lt;/span&gt; &lt;span class=&quot;keyword&quot;&gt;build &lt;/span&gt;-t woliveiras/nginx .&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+&lt;p&gt;O comando &lt;code&gt;build&lt;/code&gt;, como o nome diz, é responsável por executar o build da imagem. Com isso vamos criar uma nova imagem com as configurações do nosso Dockerfile.&lt;/p&gt;
+&lt;p&gt;O &lt;code&gt;-t&lt;/code&gt; é um parâmetro para informar que a imagem pertence ao meu usuário.&lt;/p&gt;
+&lt;p&gt;Em seguida vem o nome da imagem. Aqui coloquei como &lt;code&gt;woliveiras/nginx&lt;/code&gt; para ficar fácil de localizar no Docker Hub.&lt;/p&gt;
+&lt;p&gt;Depois vem o “&lt;strong&gt;.&lt;/strong&gt;“” que significa o diretório corrente, pois eu executei o comando build dentro da pasta onde se encontra meu Dockerfile (para facilitar a vida).&lt;/p&gt;
+&lt;p&gt;Basta aguardar o processo de build, que pode demorar dependendo de sua conexão, quantos programas você colocou para instalar, etc.&lt;/p&gt;
+&lt;p&gt;Finalizado o processo, você pode ver sua nova imagem com o comando &lt;code&gt;docker images&lt;/code&gt;.&lt;/p&gt;
+&lt;h2 id=&quot;Exportando-a-imagem-para-tar&quot;&gt;&lt;a href=&quot;#Exportando-a-imagem-para-tar&quot; class=&quot;headerlink&quot; title=&quot;Exportando a imagem para .tar&quot;&gt;&lt;/a&gt;Exportando a imagem para .tar&lt;/h2&gt;&lt;p&gt;Você pode querer, agora, carregar essa imagem em um Pen Drive.&lt;/p&gt;
+&lt;p&gt;Para isso, utilize o comando &lt;code&gt;save&lt;/code&gt;:&lt;/p&gt;
+&lt;figure class=&quot;highlight crystal&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;docker save woliveiras/nginx &amp;gt; &lt;span class=&quot;regexp&quot;&gt;/tmp/meu&lt;/span&gt;_web_server.tar&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+&lt;p&gt;Você deve passar o ID da imagem ou o nome.&lt;/p&gt;
+&lt;p&gt;O Docker vai exportar a imagem e compactar em formato .tar.&lt;/p&gt;
+&lt;p&gt;Agora você pode carregar por Pen Drive, subir em algum lugar para um amigo baixar (ou você mesmo), etc.&lt;/p&gt;
+&lt;h2 id=&quot;Importando-a-imagem-de-um-tar&quot;&gt;&lt;a href=&quot;#Importando-a-imagem-de-um-tar&quot; class=&quot;headerlink&quot; title=&quot;Importando a imagem de um .tar&quot;&gt;&lt;/a&gt;Importando a imagem de um .tar&lt;/h2&gt;&lt;p&gt;Como importar essa imagem gerada via comando &lt;code&gt;save&lt;/code&gt;?&lt;/p&gt;
+&lt;p&gt;Usando o comando &lt;code&gt;load&lt;/code&gt;.&lt;/p&gt;
+&lt;figure class=&quot;highlight crystal&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;docker load &amp;lt; &lt;span class=&quot;regexp&quot;&gt;/tmp/meu&lt;/span&gt;_web_server.tar&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+&lt;p&gt;O Docker vai importar sua imagem com o nome, tag, etc, que a imagem já possuia antes, não com o nome do arquivo gerado.&lt;/p&gt;
+&lt;p&gt;Para ver se deu tudo certo, basta rodar o &lt;code&gt;docker images&lt;/code&gt; também.&lt;/p&gt;
+&lt;h2 id=&quot;Subindo-a-imagem-para-o-Docker-Hub&quot;&gt;&lt;a href=&quot;#Subindo-a-imagem-para-o-Docker-Hub&quot; class=&quot;headerlink&quot; title=&quot;Subindo a imagem para o Docker Hub&quot;&gt;&lt;/a&gt;Subindo a imagem para o Docker Hub&lt;/h2&gt;&lt;p&gt;Para subir uma imagem para o Docker Hub, primeiro precisará de uma conta no &lt;a href=&quot;http://hub.docker.com/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;site&lt;/a&gt;. Caso não possua, não precisa entrar no site agora (calma apressado(a)), durante o Login, é criado sua conta via Terminal mesmo.&lt;/p&gt;
+&lt;p&gt;Faça login com sua conta no Terminal usando o comando &lt;code&gt;docker login&lt;/code&gt;:&lt;/p&gt;
+&lt;figure class=&quot;highlight nginx&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;attribute&quot;&gt;docker&lt;/span&gt; login&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+&lt;p&gt;Para subir a imagem, basta fazer um &lt;code&gt;push&lt;/code&gt;, parecido com o nosso querido &lt;a href=&quot;https://git-scm.com/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Git&lt;/a&gt;.&lt;/p&gt;
+&lt;figure class=&quot;highlight armasm&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;symbol&quot;&gt;docker&lt;/span&gt; &lt;span class=&quot;keyword&quot;&gt;push &lt;/span&gt;nome_da_imagem&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+&lt;p&gt;Ex.:&lt;/p&gt;
+&lt;figure class=&quot;highlight armasm&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;symbol&quot;&gt;docker&lt;/span&gt; &lt;span class=&quot;keyword&quot;&gt;push &lt;/span&gt;woliveiras/nginx&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+&lt;p&gt;Essa imagem, de exemplo, você pode ver nesse link do &lt;a href=&quot;https://hub.docker.com/r/woliveiras/nginx/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Docker Hub&lt;/a&gt; e os arquivos de configuração do exemplo (Dockerfile e nginx.conf) &lt;a href=&quot;https://github.com/woliveiras/docker-example/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;nesse repositório&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Gostou desse artigo? Comente aqui em baixo, compartilhe nas redes sociais, com o amigo, chefe, com o irmão, com o cachorro, gato, papagaio…&lt;/p&gt;
+&lt;p&gt;Espalhe a palavra.&lt;/p&gt;
+</content>
+    
+    <summary type="html">
+    
+      Criando uma imagem Docker personalizada e conhecendo o Dockerfile.
+    
+    </summary>
+    
+    
+      <category term="docker" scheme="http://woliveiras.com.br/tags/docker/"/>
+    
+      <category term="virtualização" scheme="http://woliveiras.com.br/tags/virtualizacao/"/>
+    
+      <category term="ambiente" scheme="http://woliveiras.com.br/tags/ambiente/"/>
+    
+      <category term="devops" scheme="http://woliveiras.com.br/tags/devops/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Comandos mais utilizados no Docker</title>
+    <link href="http://woliveiras.com.br/posts/comandos-mais-utilizados-no-docker/"/>
+    <id>http://woliveiras.com.br/posts/comandos-mais-utilizados-no-docker/</id>
+    <published>2016-04-12T00:00:08.000Z</published>
+    <updated>2016-04-12T02:46:42.863Z</updated>
+    
+    <content type="html">&lt;p&gt;Um post rapidinho com os comandos mais utilizados do Docker para não esquecer e consultar facilmente. :D&lt;/p&gt;
+&lt;p&gt;Se você não viu a primeira parte dessa sequência, clique &lt;a href=&quot;/posts/uma-rapida-introducao-ao-docker-e-instalacao-no-ubuntu/&quot;&gt;aqui&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;E a segunda parte, &lt;a href=&quot;/posts/imagem-docker-ou-um-container-docker/&quot;&gt;aqui&lt;/a&gt;&lt;a id=&quot;more&quot;&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id=&quot;Como-eu-sei-quais-as-imagens-disponiveis-no-meu-repositorio-local&quot;&gt;&lt;a href=&quot;#Como-eu-sei-quais-as-imagens-disponiveis-no-meu-repositorio-local&quot; class=&quot;headerlink&quot; title=&quot;Como eu sei quais as imagens disponíveis no meu repositório local?&quot;&gt;&lt;/a&gt;Como eu sei quais as imagens disponíveis no meu repositório local?&lt;/h2&gt;&lt;p&gt;Utilize o comando &lt;code&gt;images&lt;/code&gt; para listar:&lt;/p&gt;
+&lt;figure class=&quot;highlight nginx&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;attribute&quot;&gt;docker&lt;/span&gt; images&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+&lt;p&gt;Será apresentado uma tabela no seu Terminal com:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;REPOSITORY&lt;/strong&gt; - repositório&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;TAG&lt;/strong&gt; - a tag utilizada no repositório (é setado pelo mantenedor)&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;IMAGE ID&lt;/strong&gt; - o ID da Imagem&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;CREATED&lt;/strong&gt; - quando essa imagem foi criada&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;SIZE&lt;/strong&gt; - tamanho dessa imagem&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&quot;Como-adicionar-imagens-locais&quot;&gt;&lt;a href=&quot;#Como-adicionar-imagens-locais&quot; class=&quot;headerlink&quot; title=&quot;Como adicionar imagens locais?&quot;&gt;&lt;/a&gt;Como adicionar imagens locais?&lt;/h2&gt;&lt;p&gt;Utilize o comando &lt;code&gt;search&lt;/code&gt; para procurar a imagem e o comando &lt;code&gt;pull&lt;/code&gt; para baixar:&lt;/p&gt;
+&lt;figure class=&quot;highlight nginx&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;attribute&quot;&gt;docker&lt;/span&gt; search ubuntu&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+&lt;p&gt;Encontrado a imagem correta, utilize &lt;code&gt;pull&lt;/code&gt; com o nome dessa imagem:&lt;/p&gt;
+&lt;figure class=&quot;highlight nginx&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;attribute&quot;&gt;docker&lt;/span&gt; pull ubuntu&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+&lt;h2 id=&quot;Como-remover-imagens-locais&quot;&gt;&lt;a href=&quot;#Como-remover-imagens-locais&quot; class=&quot;headerlink&quot; title=&quot;Como remover imagens locais?&quot;&gt;&lt;/a&gt;Como remover imagens locais?&lt;/h2&gt;&lt;p&gt;Localize o ID ou nome do repositório com o comando &lt;code&gt;docker images&lt;/code&gt;.&lt;/p&gt;
+&lt;p&gt;Com o id ou o nome do repositório em mãos, utilize o comando &lt;code&gt;rmi&lt;/code&gt; para excluir as imagens.&lt;/p&gt;
+&lt;figure class=&quot;highlight autohotkey&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;docker rmi ID_ou_nome_d&lt;span class=&quot;built_in&quot;&gt;a_imagem&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+&lt;h2 id=&quot;Criar-um-container&quot;&gt;&lt;a href=&quot;#Criar-um-container&quot; class=&quot;headerlink&quot; title=&quot;Criar um container&quot;&gt;&lt;/a&gt;Criar um container&lt;/h2&gt;&lt;p&gt;Para executar um container utilize o comando &lt;code&gt;run&lt;/code&gt; com o nome da imagem que vá utilizar para a criação:&lt;/p&gt;
+&lt;figure class=&quot;highlight applescript&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;docker &lt;span class=&quot;built_in&quot;&gt;run&lt;/span&gt; nome_da_imagem&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+&lt;h2 id=&quot;Criar-um-container-e-entrar-no-Terminal&quot;&gt;&lt;a href=&quot;#Criar-um-container-e-entrar-no-Terminal&quot; class=&quot;headerlink&quot; title=&quot;Criar um container e entrar no Terminal&quot;&gt;&lt;/a&gt;Criar um container e entrar no Terminal&lt;/h2&gt;&lt;p&gt;Conseguimos criar um container e já entrar nesse container com o comando &lt;code&gt;-it&lt;/code&gt;:&lt;/p&gt;
+&lt;figure class=&quot;highlight applescript&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;docker &lt;span class=&quot;built_in&quot;&gt;run&lt;/span&gt; -&lt;span class=&quot;keyword&quot;&gt;it&lt;/span&gt; ubuntu /bin/bash&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+&lt;p&gt;Vai subir um container com o Ubuntu e entrar no Bash.&lt;/p&gt;
+&lt;p&gt;O &lt;code&gt;-i&lt;/code&gt; significa interatividade e o &lt;code&gt;-t&lt;/code&gt; que queremos um link com o Terminal do container.&lt;/p&gt;
+&lt;h2 id=&quot;Criar-um-container-com-um-apelido&quot;&gt;&lt;a href=&quot;#Criar-um-container-com-um-apelido&quot; class=&quot;headerlink&quot; title=&quot;Criar um container com um apelido&quot;&gt;&lt;/a&gt;Criar um container com um apelido&lt;/h2&gt;&lt;p&gt;Você pode colocar apelidos nos containers para facilitar sua organização passando por parâmetro o &lt;code&gt;--name&lt;/code&gt; para o comando &lt;code&gt;docker run&lt;/code&gt;:&lt;/p&gt;
+&lt;figure class=&quot;highlight applescript&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;docker &lt;span class=&quot;built_in&quot;&gt;run&lt;/span&gt; &lt;span class=&quot;comment&quot;&gt;--name ubuntinho ubuntu&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+&lt;p&gt;Perceba que logo depois do parâmetro &lt;code&gt;--name&lt;/code&gt; vem o nome que deseja e o nome da imagem que vai ser utilizada para gerar o container.&lt;/p&gt;
+&lt;p&gt;Nesse caso a imagem &lt;code&gt;ubuntu&lt;/code&gt; e o alias &lt;code&gt;ubuntinho&lt;/code&gt;.&lt;/p&gt;
+&lt;h2 id=&quot;Verificar-o-estado-ou-encontrar-o-ID-de-um-container&quot;&gt;&lt;a href=&quot;#Verificar-o-estado-ou-encontrar-o-ID-de-um-container&quot; class=&quot;headerlink&quot; title=&quot;Verificar o estado ou encontrar o ID de um container&quot;&gt;&lt;/a&gt;Verificar o estado ou encontrar o ID de um container&lt;/h2&gt;&lt;p&gt;Você consegue uma lista dos containers ativos com o comando &lt;code&gt;ps&lt;/code&gt;:&lt;/p&gt;
+&lt;figure class=&quot;highlight nginx&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;attribute&quot;&gt;docker&lt;/span&gt; ps&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+&lt;p&gt;Vai aparecer uma tabela com&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;CONTAINER ID&lt;/strong&gt; - ID do container&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;IMAGE&lt;/strong&gt; - a imagem que foi utilizada para gerar esse container&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;COMMAND&lt;/strong&gt; - o comando passado como parâmetro para esse container (exemplo o /bin/bash)&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;CREATED&lt;/strong&gt; - a data da criação do container&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;STATUS&lt;/strong&gt; - o estado do container (parado ou em funcionamento)&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;PORTS&lt;/strong&gt; - as portas compartilhadas entre host e container&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;NAMES&lt;/strong&gt; - e o nome que você deu ao container, se o fez&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;O &lt;code&gt;ps&lt;/code&gt; só vai mostrar os containers que estão em atividade, para verificar todos os containers criados, incluindo os que estiverem parados, utilize o &lt;code&gt;ps -a&lt;/code&gt;:&lt;/p&gt;
+&lt;figure class=&quot;highlight bash&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;docker ps &lt;span class=&quot;_&quot;&gt;-a&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+&lt;p&gt;Para pegar apenas o ID do container do topo da tabela, utilize o comando &lt;code&gt;ps -qa&lt;/code&gt;&lt;/p&gt;
+&lt;h2 id=&quot;Remover-um-container&quot;&gt;&lt;a href=&quot;#Remover-um-container&quot; class=&quot;headerlink&quot; title=&quot;Remover um container&quot;&gt;&lt;/a&gt;Remover um container&lt;/h2&gt;&lt;p&gt;Remover um container seria o mesmo que desligar a máquina virtual.&lt;/p&gt;
+&lt;p&gt;Utilize o comando &lt;code&gt;rm&lt;/code&gt; para remover o container com o ID que você pode pegar com o &lt;code&gt;docker ps&lt;/code&gt; ou o apelido que você escolheu:&lt;/p&gt;
+&lt;figure class=&quot;highlight nginx&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;attribute&quot;&gt;docker&lt;/span&gt; rm id_ou_apelido&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+&lt;h2 id=&quot;Outras-informacoes-uteis-que-o-Docker-pode-nos-passar-sobre-o-container&quot;&gt;&lt;a href=&quot;#Outras-informacoes-uteis-que-o-Docker-pode-nos-passar-sobre-o-container&quot; class=&quot;headerlink&quot; title=&quot;Outras informações úteis que o Docker pode nos passar sobre o container&quot;&gt;&lt;/a&gt;Outras informações úteis que o Docker pode nos passar sobre o container&lt;/h2&gt;&lt;p&gt;Informações de uso de Hardware do container:&lt;/p&gt;
+&lt;figure class=&quot;highlight nginx&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;attribute&quot;&gt;docker&lt;/span&gt; stats id_ou_apelido&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+&lt;p&gt;Veremos informações como:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;CONTAINER&lt;/strong&gt; - ID do Container&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;CPU %&lt;/strong&gt; - uso de CPU em porcentagem&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;MEM USAGE / LIMIT&lt;/strong&gt; - Memória usada/Limite que você pode ter setado&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;MEM&lt;/strong&gt; - uso de memória em porcentagem&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;NET I/O&lt;/strong&gt; - I/O de Internet&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;BLOCK IO&lt;/strong&gt; - Outros processos de I/O.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;figure class=&quot;highlight gradle&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;docker &lt;span class=&quot;keyword&quot;&gt;inspect&lt;/span&gt; id_ou_apelido&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+&lt;p&gt;Esse comando trás muita informação útil, então é bom dar uma olhada na &lt;a href=&quot;https://docs.docker.com/engine/reference/commandline/inspect/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;documentação oficial&lt;/a&gt; para não se perder pelas linhas!&lt;/p&gt;
+&lt;h2 id=&quot;Commitar-alteracoes-em-uma-imagem&quot;&gt;&lt;a href=&quot;#Commitar-alteracoes-em-uma-imagem&quot; class=&quot;headerlink&quot; title=&quot;Commitar alterações em uma imagem&quot;&gt;&lt;/a&gt;Commitar alterações em uma imagem&lt;/h2&gt;&lt;p&gt;As alterações que você faz em um container, durante sua execução, não são salvas, a menos que você gere uma nova imagem com base nesse container.&lt;/p&gt;
+&lt;p&gt;Para commitar o que você fez em uma imagem, utilize o comando &lt;code&gt;commit&lt;/code&gt;:&lt;/p&gt;
+&lt;figure class=&quot;highlight sql&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;docker &lt;span class=&quot;keyword&quot;&gt;commit&lt;/span&gt; &lt;span class=&quot;keyword&quot;&gt;ID&lt;/span&gt;/apelido nome_da_nova_imagem&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+&lt;p&gt;Ele vai gerar uma nova imagem a partir desse commit.&lt;/p&gt;
+&lt;h2 id=&quot;Mapeando-uma-porta-para-o-container&quot;&gt;&lt;a href=&quot;#Mapeando-uma-porta-para-o-container&quot; class=&quot;headerlink&quot; title=&quot;Mapeando uma porta para o container&quot;&gt;&lt;/a&gt;Mapeando uma porta para o container&lt;/h2&gt;&lt;p&gt;Usamos o comando &lt;code&gt;-p&lt;/code&gt;:&lt;/p&gt;
+&lt;figure class=&quot;highlight applescript&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;docker &lt;span class=&quot;built_in&quot;&gt;run&lt;/span&gt; -&lt;span class=&quot;keyword&quot;&gt;it&lt;/span&gt; -p &lt;span class=&quot;number&quot;&gt;8080&lt;/span&gt;:&lt;span class=&quot;number&quot;&gt;80&lt;/span&gt; ubuntu&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+&lt;p&gt;Bem útil para listar uma porta para um servidor web:&lt;/p&gt;
+&lt;figure class=&quot;highlight applescript&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;docker &lt;span class=&quot;built_in&quot;&gt;run&lt;/span&gt; -&lt;span class=&quot;keyword&quot;&gt;it&lt;/span&gt; -p &lt;span class=&quot;number&quot;&gt;8080&lt;/span&gt;:&lt;span class=&quot;number&quot;&gt;80&lt;/span&gt; nginx&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+&lt;p&gt;Estamos informando que a porta 8080 no Host é aberta e deve ser mapeada na porta 80 do container.&lt;/p&gt;
+&lt;h2 id=&quot;Montar-containers-auto-destrutivos&quot;&gt;&lt;a href=&quot;#Montar-containers-auto-destrutivos&quot; class=&quot;headerlink&quot; title=&quot;Montar containers auto destrutivos&quot;&gt;&lt;/a&gt;Montar containers auto destrutivos&lt;/h2&gt;&lt;p&gt;Usando o comando &lt;code&gt;--rm&lt;/code&gt;, podemos montar containers que se destroem ao sairmos da sessão.&lt;/p&gt;
+&lt;p&gt;Exemplo utilizando o &lt;a href=&quot;https://www.nginx.com/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;NGINX&lt;/a&gt;.&lt;/p&gt;
+&lt;figure class=&quot;highlight applescript&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;docker &lt;span class=&quot;built_in&quot;&gt;run&lt;/span&gt; -&lt;span class=&quot;keyword&quot;&gt;it&lt;/span&gt; &lt;span class=&quot;comment&quot;&gt;--rm -p 8080:80 nginx /bin/bash&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+&lt;p&gt;Ao usar um &lt;code&gt;exit&lt;/code&gt; para sair do Terminal do SO rodando no container, o mesmo será removido.&lt;/p&gt;
+&lt;h2 id=&quot;Executando-containers-em-segundo-plano&quot;&gt;&lt;a href=&quot;#Executando-containers-em-segundo-plano&quot; class=&quot;headerlink&quot; title=&quot;Executando containers em segundo plano&quot;&gt;&lt;/a&gt;Executando containers em segundo plano&lt;/h2&gt;&lt;p&gt;Podemos executar o container e deixar ele em segundo plano, sem precisar ficar conectado pelo Shell, com o comando &lt;code&gt;-d&lt;/code&gt;.&lt;/p&gt;
+&lt;p&gt;Exemplo utilizando o NGINX.&lt;/p&gt;
+&lt;figure class=&quot;highlight stata&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;docker &lt;span class=&quot;keyword&quot;&gt;run&lt;/span&gt; -&lt;span class=&quot;keyword&quot;&gt;d&lt;/span&gt; -p 8080:80 nginx /usr/sbin/nginx -&lt;span class=&quot;keyword&quot;&gt;g&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+&lt;p&gt;Para controlar esse container usamos os comandos &lt;code&gt;stop&lt;/code&gt; e &lt;code&gt;start&lt;/code&gt;:&lt;/p&gt;
+&lt;figure class=&quot;highlight arduino&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;docker &lt;span class=&quot;built_in&quot;&gt;stop&lt;/span&gt; id_ou_apelido&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+&lt;p&gt;Para parar e:&lt;/p&gt;
+&lt;figure class=&quot;highlight crmsh&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;docker &lt;span class=&quot;literal&quot;&gt;start&lt;/span&gt; id_ou_apelido&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+&lt;p&gt;Para ativar o container.&lt;/p&gt;
+&lt;h2 id=&quot;Removendo-todos-os-containers-e-imagens-de-uma-so-vez&quot;&gt;&lt;a href=&quot;#Removendo-todos-os-containers-e-imagens-de-uma-so-vez&quot; class=&quot;headerlink&quot; title=&quot;Removendo todos os containers e imagens de uma só vez&quot;&gt;&lt;/a&gt;Removendo todos os containers e imagens de uma só vez&lt;/h2&gt;&lt;p&gt;Usamos um pouquinho de &lt;a href=&quot;http://aurelio.net/shell/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Shell Script&lt;/a&gt; e conseguimos automatizar o processo de remoção de todos os containers ativos com:&lt;/p&gt;
+&lt;figure class=&quot;highlight vim&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;docker rm $(docker &lt;span class=&quot;keyword&quot;&gt;ps&lt;/span&gt; -&lt;span class=&quot;keyword&quot;&gt;qa&lt;/span&gt;)&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+&lt;p&gt;Para entender o que o &lt;code&gt;$(docker ps -qa)&lt;/code&gt; está fazendo, execute somente esse comando no Terminal e veja o retorno.&lt;/p&gt;
+&lt;figure class=&quot;highlight vim&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;$(docker &lt;span class=&quot;keyword&quot;&gt;ps&lt;/span&gt; -&lt;span class=&quot;keyword&quot;&gt;qa&lt;/span&gt;)&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+&lt;p&gt;Para imagens&lt;/p&gt;
+&lt;figure class=&quot;highlight cos&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;docker rmi $(docker images -&lt;span class=&quot;keyword&quot;&gt;q&lt;/span&gt;)&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+&lt;h2 id=&quot;Como-executar-comandos-sem-precisar-estar-dentro-do-container&quot;&gt;&lt;a href=&quot;#Como-executar-comandos-sem-precisar-estar-dentro-do-container&quot; class=&quot;headerlink&quot; title=&quot;Como executar comandos, sem precisar estar dentro do container?&quot;&gt;&lt;/a&gt;Como executar comandos, sem precisar estar dentro do container?&lt;/h2&gt;&lt;p&gt;Para não precisar acessar um container para executar comandos basicos, podemos usar o &lt;code&gt;exec&lt;/code&gt;:&lt;/p&gt;
+&lt;figure class=&quot;highlight applescript&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;docker exec -&lt;span class=&quot;keyword&quot;&gt;it&lt;/span&gt; id_ou_apelido comando&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+&lt;p&gt;Ex.:&lt;/p&gt;
+&lt;figure class=&quot;highlight applescript&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;docker exec -&lt;span class=&quot;keyword&quot;&gt;it&lt;/span&gt; ubuntinho ifconfig eth0&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+&lt;p&gt;Vai retornar o endereço de IP do container.&lt;/p&gt;
+&lt;p&gt;Esses são os comandos mais básicos para sobreviver os primeiros dias com o Docker, depois vai ficar fixado na cabeça e é só alegria.&lt;/p&gt;
+&lt;p&gt;Nos próximos artigos vou falar sobre como utilizar o Dockerfile para automatizar a criação de containers e como criar sua própria imagem com as suas configurações.&lt;/p&gt;
+&lt;p&gt;Não perca.&lt;/p&gt;
+&lt;p&gt;Gostou? Comenta aqui em baixo.&lt;/p&gt;
+&lt;p&gt;Acha que da para incrementar com mais comandos legais?&lt;/p&gt;
+&lt;p&gt;Abre uma &lt;a href=&quot;https://github.com/woliveiras/woliveiras.github.io/issues&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;issue&lt;/a&gt;, comenta aqui em baixo ou &lt;a href=&quot;https://github.com/woliveiras/woliveiras.github.io/tree/development&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;adiciona direto no Blog&lt;/a&gt; pra mim!&lt;/p&gt;
+&lt;p&gt;Espalhe a palavra.&lt;/p&gt;
+</content>
+    
+    <summary type="html">
+    
+      Comandos mais utilizados durante o Workflow com Docker
+    
+    </summary>
+    
+    
+      <category term="docker" scheme="http://woliveiras.com.br/tags/docker/"/>
+    
+      <category term="virtualização" scheme="http://woliveiras.com.br/tags/virtualizacao/"/>
+    
+      <category term="ambiente" scheme="http://woliveiras.com.br/tags/ambiente/"/>
+    
+      <category term="devops" scheme="http://woliveiras.com.br/tags/devops/"/>
+    
+  </entry>
+  
+  <entry>
     <title>O que é uma imagem e o que é um container Docker?</title>
     <link href="http://woliveiras.com.br/posts/imagem-docker-ou-um-container-docker/"/>
     <id>http://woliveiras.com.br/posts/imagem-docker-ou-um-container-docker/</id>
     <published>2016-04-11T17:00:00.000Z</published>
-    <updated>2016-04-11T17:16:12.365Z</updated>
+    <updated>2016-04-12T02:46:42.867Z</updated>
     
     <content type="html">&lt;p&gt;Se você viu a primeira parte dessa sequência de artigos, percebeu que existem dois termos muito utilizados quando falamos de Docker: &lt;strong&gt;Imagens&lt;/strong&gt; e &lt;strong&gt;Containers&lt;/strong&gt;. Você deve se perguntar: qual é a diferença entre imagem e container Docker? Ou então: O que eu rodo com o &lt;code&gt;docker run&lt;/code&gt;, uma imagem ou um container? &lt;a id=&quot;more&quot;&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;Se você não viu o primeiro artigo, da uma olhada &lt;a href=&quot;/posts/uma-rapida-introducao-ao-docker-e-instalacao-no-ubuntu/&quot;&gt;aqui&lt;/a&gt;.&lt;/p&gt;
@@ -99,7 +337,7 @@
     <link href="http://woliveiras.com.br/posts/uma-rapida-introducao-ao-docker-e-instalacao-no-ubuntu/"/>
     <id>http://woliveiras.com.br/posts/uma-rapida-introducao-ao-docker-e-instalacao-no-ubuntu/</id>
     <published>2016-04-10T11:03:47.000Z</published>
-    <updated>2016-04-11T17:16:12.365Z</updated>
+    <updated>2016-04-12T02:46:42.867Z</updated>
     
     <content type="html">&lt;p&gt;&lt;div class=&quot;shared-img&quot;&gt;&lt;br&gt;&lt;img src=&quot;../../public/images/docker.png&quot; alt=&quot;Docker&quot;&gt;&lt;br&gt;&lt;/div&gt;Você já deve ter ouvido falar, pelo menos uma vez, sobre &lt;a href=&quot;https://www.docker.com/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Docker&lt;/a&gt; em algum lugar. Seja em palestras, blogs, vídeos ou em qualquer outra fonte de estudos sobre desenvolvimento, uma hora sempre comentamos sobre virtualização de ambientes e o Docker é a ferramenta que mais tem se destacado para tal. Ele é uma das 8 maravilhas das atualidades mais atuais. Vamos entender um pouco, então, o que é o Docker e como instalar no nosso Ubuntu.&lt;a id=&quot;more&quot;&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;h2 id=&quot;Introducao&quot;&gt;&lt;a href=&quot;#Introducao&quot; class=&quot;headerlink&quot; title=&quot;Introdução&quot;&gt;&lt;/a&gt;Introdução&lt;/h2&gt;&lt;p&gt;Eu também já ouvia falar do Docker a um bom tempo, porém nunca havia me aprofundado mais nessa ferramenta.&lt;/p&gt;
@@ -185,7 +423,7 @@
     <link href="http://woliveiras.com.br/posts/postando-no-blog-est%C3%A1tico-direto-pelo-github-com-hexo-e-travis-ci/"/>
     <id>http://woliveiras.com.br/posts/postando-no-blog-estático-direto-pelo-github-com-hexo-e-travis-ci/</id>
     <published>2016-02-07T00:00:00.000Z</published>
-    <updated>2016-04-11T17:16:12.365Z</updated>
+    <updated>2016-04-12T02:46:42.867Z</updated>
     
     <content type="html">&lt;p&gt;Confesso que fiquei tentado a migrar para o &lt;a href=&quot;https://jekyllrb.com/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Jekyll (Ruby)&lt;/a&gt; depois que um &lt;a href=&quot;http://jotateles.com.br/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;amigo&lt;/a&gt; me mostrou que da para postar no blog direto do GitHub sem ter o Jekyll instalado na máquina. Porém eu não desisti do meu queridinho, o &lt;a href=&quot;http://hexo.io/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Hexo (feito com Node &amp;lt;3)&lt;/a&gt;.&lt;a id=&quot;more&quot;&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;&lt;em&gt;Se você não conhece o Hexo, da uma olhada &lt;a href=&quot;http://woliveiras.com.br/posts/Migrando-de-Wordpress-para-Hexo/&quot;&gt;nesse artigo&lt;/a&gt;.&lt;/em&gt;&lt;/p&gt;
@@ -260,7 +498,7 @@
     <link href="http://woliveiras.com.br/posts/um-ano-como-desenvolvedor-front-end/"/>
     <id>http://woliveiras.com.br/posts/um-ano-como-desenvolvedor-front-end/</id>
     <published>2015-12-01T12:00:00.000Z</published>
-    <updated>2016-04-11T17:16:12.365Z</updated>
+    <updated>2016-04-12T02:46:42.867Z</updated>
     
     <content type="html">&lt;div class=&quot;shared-img&quot;&gt;&lt;br&gt;&lt;img src=&quot;../..//public/images/web-developer.jpg&quot; alt=&quot;&quot;&gt;&lt;br&gt;&lt;/div&gt;
 
@@ -312,7 +550,7 @@
     <link href="http://woliveiras.com.br/posts/corrigindo-permissoes-de-usuario-linux-npm/"/>
     <id>http://woliveiras.com.br/posts/corrigindo-permissoes-de-usuario-linux-npm/</id>
     <published>2015-09-12T13:00:00.000Z</published>
-    <updated>2016-04-11T17:16:12.361Z</updated>
+    <updated>2016-04-12T02:46:42.867Z</updated>
     
     <content type="html">&lt;div class=&quot;shared-img&quot;&gt;&lt;br&gt;&lt;img src=&quot;../../public/images/npm.svg&quot; alt=&quot;&quot;&gt;&lt;br&gt;&lt;/div&gt;
 
@@ -355,7 +593,7 @@
     <link href="http://woliveiras.com.br/posts/utilizando-versoes-antigas-do-nodejs/"/>
     <id>http://woliveiras.com.br/posts/utilizando-versoes-antigas-do-nodejs/</id>
     <published>2015-09-12T08:00:32.000Z</published>
-    <updated>2016-04-11T17:16:12.365Z</updated>
+    <updated>2016-04-12T02:46:42.867Z</updated>
     
     <content type="html">&lt;div class=&quot;shared-img&quot;&gt;&lt;br&gt;&lt;img src=&quot;../..//public/images/nodejs.png&quot; alt=&quot;&quot;&gt;&lt;br&gt;&lt;/div&gt;
 
@@ -440,7 +678,7 @@
     <link href="http://woliveiras.com.br/posts/twitter-bootstrap-bootstrap-do-jeito-certo/"/>
     <id>http://woliveiras.com.br/posts/twitter-bootstrap-bootstrap-do-jeito-certo/</id>
     <published>2015-09-09T01:00:00.000Z</published>
-    <updated>2016-04-11T17:16:12.365Z</updated>
+    <updated>2016-04-12T02:46:42.867Z</updated>
     
     <content type="html">&lt;p&gt;Muita gente critica o uso do &lt;a href=&quot;http://getbootstrap.com/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Twitter Bootstrap&lt;/a&gt; devido a nomenclatura de suas classes e aos muitos componentes que o framework possui.&lt;/p&gt;
 &lt;p&gt;Dizem que as classes não são semanticas e que o peso do framework é desnecessário.&lt;/p&gt;
@@ -523,7 +761,7 @@
     <link href="http://woliveiras.com.br/posts/Migrando-de-Wordpress-para-Hexo/"/>
     <id>http://woliveiras.com.br/posts/Migrando-de-Wordpress-para-Hexo/</id>
     <published>2015-08-05T02:53:41.000Z</published>
-    <updated>2016-04-11T17:16:12.361Z</updated>
+    <updated>2016-04-12T02:46:42.863Z</updated>
     
     <content type="html">&lt;p&gt;&lt;div class=&quot;shared-img&quot;&gt;&lt;br&gt;&lt;img src=&quot;../../public/images/hexo-logo.png&quot; alt=&quot;Hexo Blog&quot;&gt;&lt;br&gt;&lt;/div&gt;A um bom tempo sinto vontade de mudar meu Blog de WordPress para uma plataforma de  conteúdo estático, mas não achava nenhuma alternativa, pois que queria usar Nodejs. Por isso não fui para o, muito usado na comunidade, &lt;a href=&quot;http://jekyllrb.com/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Jekyll(Ruby)&lt;/a&gt; , nem para o &lt;a href=&quot;http://blog.getpelican.com/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Pelican(Python &amp;lt;3)&lt;/a&gt;.&lt;a id=&quot;more&quot;&gt;&lt;/a&gt;&lt;br&gt;Em busca de uma alternativa encontrei o &lt;a href=&quot;https://hexo.io&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Hexo&lt;/a&gt; e, um pouco depois de eu conhecer essa plataforma, o &lt;a href=&quot;http://blog.da2k.com.br/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Daciuk&lt;/a&gt; escreveu um &lt;a href=&quot;http://blog.da2k.com.br/2014/01/05/hexo-criando-um-blog-ao-estilo-miojo/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;post&lt;/a&gt; muito maneiro incentivando o seu uso. Foi então que eu decidi de vez usar essa plataforma!&lt;br&gt;Bora conhecer ela e como foi a migração de WordPress para Hexo?&lt;/p&gt;
 &lt;p&gt;###Levantando as necessidades&lt;/p&gt;
@@ -578,7 +816,7 @@
     <link href="http://woliveiras.com.br/posts/frameworks-front-end/"/>
     <id>http://woliveiras.com.br/posts/frameworks-front-end/</id>
     <published>2015-03-05T00:18:46.000Z</published>
-    <updated>2016-04-11T17:16:12.361Z</updated>
+    <updated>2016-04-12T02:46:42.867Z</updated>
     
     <content type="html">&lt;p&gt;Já parou pra pensar quantas vezes você repete o mesmo código durante o Desenvolvimento, seja Web, Mobile ou Desktop? Já pensou em padronizar o que você faz de alguma maneira?&lt;br&gt;E pra você que é Gerente de Projetos, Líder ou algo do tipo: Já pensou em poder adicionar um membro no seu grupo  e ele já saber como funciona o Desenvolvimento nessa equipe e conseguir ser produtivo desde o princípio?&lt;br&gt;Pois é, Frameworks servem para isso… Vem comigo que vou explicar melhor. ;)&lt;a id=&quot;more&quot;&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;h2 id=&quot;O-que-sao-Frameworks&quot;&gt;&lt;a href=&quot;#O-que-sao-Frameworks&quot; class=&quot;headerlink&quot; title=&quot;O que são Frameworks?&quot;&gt;&lt;/a&gt;O que são Frameworks?&lt;/h2&gt;&lt;p&gt;Você pega aqueles códigos que se repetem entre os projetos, adiciona uma pitada de &lt;a href=&quot;http://pt.wikipedia.org/wiki/Padr%C3%A3o_de_projeto_de_software&quot; title=&quot;Wikipedia - Padrões de Projetos&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Padrões&lt;/a&gt;, deixa conforme sua equipe precisa ou &lt;a href=&quot;http://tableless.com.br/locaweb-style-como-iniciamos/&quot; title=&quot;Locaweb Style - Framework Front End da Locaweb&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;conforme sua empresa trabalha&lt;/a&gt;, empacota tudo isso pra poder reutilizar depois e pronto, criou um Framework!&lt;br&gt;Só isso? Sim, só isso… Framework é uma ferramenta com os códigos, padrões, etc, que você consegue utilizar pra resolver problemas que se repetem ou mesmo pra iniciar projetos que vão possuir as mesmas características seja no Front, Back End ou mesmo para &lt;a href=&quot;https://github.com/woliveiras/pastel&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Tooling(Ferramentas)&lt;/a&gt;. Quando você utiliza um Framework como base, pode somente baixar ele, configurar ou instalar e seguir dali para as necessidades específicas de cada projeto. Isso mata muito tempo que você perderia fazendo algo que sabe que vai repetir no próximo trabalho.&lt;/p&gt;
@@ -628,7 +866,7 @@
     <link href="http://woliveiras.com.br/posts/contribuindo-para-projetos-open-source-no-github-mesmo-sendo-iniciante/"/>
     <id>http://woliveiras.com.br/posts/contribuindo-para-projetos-open-source-no-github-mesmo-sendo-iniciante/</id>
     <published>2015-02-09T14:12:32.000Z</published>
-    <updated>2016-04-11T17:16:12.361Z</updated>
+    <updated>2016-04-12T02:46:42.867Z</updated>
     
     <content type="html">&lt;div class=&quot;shared-img&quot;&gt;&lt;br&gt;&lt;img src=&quot;../../public/images/github.gif&quot; alt=&quot;&quot;&gt;&lt;br&gt;&lt;/div&gt;
 
@@ -672,7 +910,7 @@
     <link href="http://woliveiras.com.br/posts/haroopad-um-editor-markdown-maneiro/"/>
     <id>http://woliveiras.com.br/posts/haroopad-um-editor-markdown-maneiro/</id>
     <published>2015-02-09T12:53:56.000Z</published>
-    <updated>2016-04-11T17:16:12.361Z</updated>
+    <updated>2016-04-12T02:46:42.867Z</updated>
     
     <content type="html">&lt;div class=&quot;shared-img&quot;&gt;&lt;br&gt;&lt;img src=&quot;../..//public/images/Haroopad.png&quot; alt=&quot;&quot;&gt;&lt;br&gt;&lt;/div&gt;
 
@@ -725,7 +963,7 @@
     <link href="http://woliveiras.com.br/posts/como-detectar-o-dispositivo-que-acessa-seu-site/"/>
     <id>http://woliveiras.com.br/posts/como-detectar-o-dispositivo-que-acessa-seu-site/</id>
     <published>2015-02-03T18:47:41.000Z</published>
-    <updated>2016-04-11T17:16:12.361Z</updated>
+    <updated>2016-04-12T02:46:42.863Z</updated>
     
     <content type="html">&lt;p&gt;Uma dica rápida para quem trabalha com diversos tipos de dispositivos!&lt;/p&gt;
 &lt;p&gt;Dependendo do projeto em que você está trabalhando, pode chegar a necessidade de detectar qual é o tipo de dispositivo que está acessando o site/aplicação/sistema, etc. As vezes isso é feito para redirecionar o usuário para uma outra versão do projeto, as vezes simplesmente para ativar uma funcionalidade ou não.&lt;a id=&quot;more&quot;&gt;&lt;/a&gt;&lt;/p&gt;
@@ -756,7 +994,7 @@
     <link href="http://woliveiras.com.br/posts/aprenda-trabalhar-em-equipes/"/>
     <id>http://woliveiras.com.br/posts/aprenda-trabalhar-em-equipes/</id>
     <published>2015-01-30T08:00:51.000Z</published>
-    <updated>2016-04-11T17:16:12.361Z</updated>
+    <updated>2016-04-12T02:46:42.863Z</updated>
     
     <content type="html">&lt;p&gt;Como eu disse em &lt;a href=&quot;/posts/requisitos-para-vagas-front-end/&quot; title=&quot;Sobre os requisitos para vagas de emprego Front End (E outras áreas também)&quot;&gt;um post anterior&lt;/a&gt;, você não vai trabalhar sozinho a vida toda. Chega uma hora em que é preciso trabalhar em equipes, interagir com outras pessoas e é necessário que você aprenda isso. Mesmo que você trabalhe em casa, vai precisar enviar seu projeto para outras pessoas.&lt;br&gt;Existem algumas boas medidas para conseguir trabalhar bem em grandes ou pequenas equipes…&lt;a id=&quot;more&quot;&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;h2 id=&quot;Organizacao&quot;&gt;&lt;a href=&quot;#Organizacao&quot; class=&quot;headerlink&quot; title=&quot;Organização&quot;&gt;&lt;/a&gt;Organização&lt;/h2&gt;&lt;p&gt;As pastas que você cria para organizar seu projeto devem possuir nomes que auxiliem a entender o que tem dentro. Não somente as pastas, os nomes dos arquivos também devem ter algum significado.&lt;br&gt;Não crie uma pasta com o nome &lt;strong&gt;scripts&lt;/strong&gt; e coloque todos os .styl, .js, .html, .php, .rb, etc, ali dentro, mas crie uma organização ou siga alguma.&lt;br&gt;Isso serve até mesmo para que você se encontre mais fácil no seu projeto.&lt;br&gt;Trabalhar com outras pessoas não é a mesma coisa de ser criança e a mãe arrumar seu quarto… Você tem de se organizar e outras pessoas tem de entender sua organização.&lt;br&gt;Da uma olhada aqui no meu &lt;a href=&quot;https://github.com/woliveiras/pastel&quot; title=&quot;Pastel | um pequeno Boilerplate que eu criei para agilizar meus projetos&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Scaffold &lt;/a&gt;e veja como eu organizei os arquivos - É um exemplo beeeem básico, mas da para ter uma noção…&lt;br&gt;A forma como escreve seu código também faz diferença e vou falar disso agora!&lt;/p&gt;
@@ -807,7 +1045,7 @@
     <link href="http://woliveiras.com.br/posts/semantica-html/"/>
     <id>http://woliveiras.com.br/posts/semantica-html/</id>
     <published>2015-01-29T12:00:25.000Z</published>
-    <updated>2016-04-11T17:16:12.365Z</updated>
+    <updated>2016-04-12T02:46:42.867Z</updated>
     
     <content type="html">&lt;div class=&quot;shared-img&quot;&gt;&lt;br&gt;&lt;img src=&quot;../..//public/images/HTML.png&quot; alt=&quot;&quot;&gt;&lt;br&gt;&lt;/div&gt;
 
@@ -848,7 +1086,7 @@
     <link href="http://woliveiras.com.br/posts/gerenciar-projetos-com-trello/"/>
     <id>http://woliveiras.com.br/posts/gerenciar-projetos-com-trello/</id>
     <published>2015-01-28T02:00:07.000Z</published>
-    <updated>2016-04-11T17:16:12.361Z</updated>
+    <updated>2016-04-12T02:46:42.867Z</updated>
     
     <content type="html">&lt;div class=&quot;shared-img&quot;&gt;&lt;br&gt;&lt;img src=&quot;../../public/images/Trello.png&quot; alt=&quot;Trello&quot;&gt;&lt;/div&gt;
 
@@ -911,7 +1149,7 @@
     <link href="http://woliveiras.com.br/posts/como-alcancar-objetivos-rapidamente-nos-estudos/"/>
     <id>http://woliveiras.com.br/posts/como-alcancar-objetivos-rapidamente-nos-estudos/</id>
     <published>2015-01-27T07:00:32.000Z</published>
-    <updated>2016-04-11T17:16:12.361Z</updated>
+    <updated>2016-04-12T02:46:42.863Z</updated>
     
     <content type="html">&lt;p&gt;Essa é mais uma dica sobre produtividade, porém agora é nos estudos.&lt;br&gt;Nós, Desenvolvedores, temos de estudar muito. Todo dia alguma ferramenta atualiza ou algo vira tendência e passa a ser usado no serviço e temos de aprender. E como fazer para aprender tudo isso sem ficar louco e de um jeito que consiga alcançar os objetivos mais rapidamente?&lt;a id=&quot;more&quot;&gt;&lt;/a&gt;&lt;br&gt;Se você não leu meu post anterior sobre produtividade da uma olhada &lt;a href=&quot;/posts/como-ser-mais-produtivo/&quot; title=&quot;Como ser mais produtivo?&quot;&gt;aqui&lt;/a&gt;.&lt;/p&gt;
 &lt;h2 id=&quot;Listas-de-novo&quot;&gt;&lt;a href=&quot;#Listas-de-novo&quot; class=&quot;headerlink&quot; title=&quot;Listas de novo&quot;&gt;&lt;/a&gt;Listas de novo&lt;/h2&gt;&lt;p&gt;Eu aprendi que fazer listas para tudo é uma ótima maneira de você ter certeza que vai concluir algo. Parece que você se obriga a fazer aquilo e se apagar da lista sem concluir parece um pecado! No caso de estudos não é diferente.&lt;/p&gt;
@@ -976,7 +1214,7 @@
     <link href="http://woliveiras.com.br/posts/o-que-e-linguagem-de-programacao-de-alto-nivel/"/>
     <id>http://woliveiras.com.br/posts/o-que-e-linguagem-de-programacao-de-alto-nivel/</id>
     <published>2015-01-27T03:51:01.000Z</published>
-    <updated>2016-04-11T17:16:12.365Z</updated>
+    <updated>2016-04-12T02:46:42.867Z</updated>
     
     <content type="html">&lt;p&gt;Se você vem seguindo o mesmo &lt;a href=&quot;http://woliveiras.com.br/posts/guia-de-estudos-desenvolvedor-front-end-iniciante&quot;&gt;guia de estudos&lt;/a&gt;, vai chegar uma hora em que vai partir pro JavaScript e mais cedo ou mais tarde vai se aprofundar ainda mais em programação e é aí que você ouve alguns termos meio confusos como esse:&lt;/p&gt;
 &lt;p&gt;&lt;em&gt;JavaScript é uma linguagem de programação de alto nível.&lt;/em&gt;&lt;/p&gt;
@@ -1025,7 +1263,7 @@
     <link href="http://woliveiras.com.br/posts/como-ser-mais-produtivo/"/>
     <id>http://woliveiras.com.br/posts/como-ser-mais-produtivo/</id>
     <published>2015-01-26T08:00:53.000Z</published>
-    <updated>2016-04-11T17:16:12.361Z</updated>
+    <updated>2016-04-12T02:46:42.863Z</updated>
     
     <content type="html">&lt;p&gt;Uma das minhas grandes preocupações na vida é ser prdutivo! Eu gosto de fazer as coisas o mais rápido possível e estou sempre buscando maneiras de automatizar ou organizar as coisas de maneira que eu consiga cada vez mais produtividade.&lt;a id=&quot;more&quot;&gt;&lt;/a&gt;&lt;br&gt;Durante algum tempo fui testando várias abordagens e técnicas de produtividade. Técnicas que podem ser aplicadas no serviço, para estudos ou mesmo para cumprir tarefas do cotidiano(Como lembrar de pagar uma conta ou do que precisa comprar no mercado).&lt;br&gt;Segue algumas dicas do que melhor funcionou pra mim até agora.&lt;/p&gt;
 &lt;h2 id=&quot;Faca-listas&quot;&gt;&lt;a href=&quot;#Faca-listas&quot; class=&quot;headerlink&quot; title=&quot;Faça listas&quot;&gt;&lt;/a&gt;Faça listas&lt;/h2&gt;&lt;p&gt;Eu faço listas com as tarefas que tenho de cumprir e, de acordo com que termino a tarefa, a marco como concluída ou apago da lista.&lt;br&gt;Para isso utilizo um aplicativo que da pra usar tanto no PC, quanto no Celular: O &lt;a href=&quot;https://www.wunderlist.com/pt/&quot; title=&quot;Wunderlist&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Wunderlist&lt;/a&gt;.&lt;br&gt;Nele eu separo o que é projeto pessoal, o que é projeto profissional e até o que eu estou estudando/planejo estudar por pastas e nessas pastas coloco os tópicos. De acordo com que vou concluindo, marco como concluído e pronto! A tarefa fica riscadinha e oculta na lista.&lt;/p&gt;
@@ -1050,122 +1288,6 @@
       <category term="Dicas" scheme="http://woliveiras.com.br/tags/Dicas/"/>
     
       <category term="Produtividade" scheme="http://woliveiras.com.br/tags/Produtividade/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Sobre os requisitos para vagas de emprego Front End (e outras áreas também)</title>
-    <link href="http://woliveiras.com.br/posts/requisitos-para-vagas-front-end/"/>
-    <id>http://woliveiras.com.br/posts/requisitos-para-vagas-front-end/</id>
-    <published>2015-01-23T10:00:19.000Z</published>
-    <updated>2016-04-11T17:16:12.365Z</updated>
-    
-    <content type="html">&lt;p&gt;Quantas vezes não nos deparamos com as seguintes dúvidas:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;Será que estou pronto para o mercado de trabalho?_&lt;/li&gt;
-&lt;li&gt;Será que eu sei o suficiente para encarar aquela oportunidade em determinada empresa?&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;Sei que não são poucas vezes… E, por mais que nos preparemos muito, sempre ficam essas perguntas no ar…&lt;a id=&quot;more&quot;&gt;&lt;/a&gt;&lt;br&gt;Depois de encher o saco de muita gente que eu conheço na área perguntando sobre requisitos para trabalhar como Front eu cheguei a seguinte conclusão:&lt;br&gt;Não existe uma lista de requisitos que todo mundo precisa saber para entrar em uma empresa ou encarar determinada função… Cada empresa pede o que lhe convém. Porém existem pequenas atitudes que te ajudam a se preparar e ter sua própria noção de mercado de trabalho e isso é que vai te ajudar a se organizar melhor para conseguir se destacar.&lt;br&gt;A primeira dica que deixo, e que acho a mais importante, é a seguinte:&lt;/p&gt;
-&lt;h5 id=&quot;Estude&quot;&gt;&lt;a href=&quot;#Estude&quot; class=&quot;headerlink&quot; title=&quot;Estude!&quot;&gt;&lt;/a&gt;Estude!&lt;/h5&gt;&lt;p&gt;&lt;strong&gt;Estude&lt;/strong&gt; muito e &lt;strong&gt;pratique&lt;/strong&gt; mais ainda para que não tenha dúvidas de que gosta do que faz. Sim! Não é estudar só pra se preparar para a vaga, mas para ver se gosta mesmo do que está fazendo (Se está começando em Front End e não sabe como fazer, da uma olhada &lt;a href=&quot;/posts/guia-de-estudos-desenvolvedor-front-end-iniciante/&quot; title=&quot;Trilha/Guia de estudos&quot;&gt;aqui&lt;/a&gt;).&lt;br&gt;Preste atenção se está gostando de estudar isso… Gostar do que faz não é só enquanto está trabalhando. Se enquanto está aprendendo já não estiver gostando do que vê é sinal que você precisa rever seus caminhos e se realmente é isso que deseja.&lt;/p&gt;
-&lt;h5 id=&quot;Conheca-o-mercado&quot;&gt;&lt;a href=&quot;#Conheca-o-mercado&quot; class=&quot;headerlink&quot; title=&quot;Conheça o mercado&quot;&gt;&lt;/a&gt;Conheça o mercado&lt;/h5&gt;&lt;p&gt;O único jeito de saber se você tem conhecimento para encarar certas funções, e também saber se você é considerado Junior, Pleno ou Sênior para as empresas, é pesquisando em sites de vagas ou nos sites das empresas para ver o que eles estão pedindo como “requisitos”.&lt;br&gt;O nível Junior, Pleno ou Sênior é muito variável. Cada empresa coloca isso de forma diferente nas vagas e o único jeito de se preparar é pesquisando e fazendo uma lista dos requisitos encontrados. - Isso mesmo, uma lista. &lt;strong&gt;Vasculhe as descrições das vagas e faça uma lista dos requisitos que você reparar que se repetem e busque aprender aquilo&lt;/strong&gt;. Quando manjar dos tópicos da lista é sinal que tem os requisitos necessários, então vai pra cima!&lt;/p&gt;
-&lt;h5 id=&quot;Crie-coragem&quot;&gt;&lt;a href=&quot;#Crie-coragem&quot; class=&quot;headerlink&quot; title=&quot;Crie coragem&quot;&gt;&lt;/a&gt;Crie coragem&lt;/h5&gt;&lt;p&gt;O &lt;strong&gt;não&lt;/strong&gt; você já tem se não se candidatar!&lt;br&gt;Você olhou os requisitos e sabe alguma coisa daquilo, vai pra cima!&lt;br&gt;Não tenha medo quando olhar aquelas listas imensas nas vagas,algumas (Senão todas) são escritas pelo pessoal do RH, que muitas vezes não dominam nada da área, e eles olham em outros sites, copiam tudo e colam lá.&lt;br&gt;Eu já vi Vaga para Programador Jr. pedindo 4 anos de experiência, domínio de PHP, Java, JavaScript, Haskell, C, C++, C#, Python, Lisp, Ruby, Lua, e vai indo… O cara deve ter pesquisado no &lt;a href=&quot;http://pt.wikipedia.org/wiki/Linguagem_de_programa%C3%A7%C3%A3o#Lista_de_linguagens&quot; title=&quot;Linguagens de Programação&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Wikipedia&lt;/a&gt; as linguagens de programação, copiou tudo e colou como requisito para a vaga!&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;E se eu passar em uma oportunidade que eu não domino 100%?&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;Aí você volta a primeira parte desse artigo: &lt;strong&gt;Estude&lt;/strong&gt;!&lt;br&gt;Você não vai ser mandado embora se não souber algo, mas pode ser se não aprender nunca…&lt;br&gt;Você é facilmente substituível se não busca se adequar ao conteúdo que a empresa precisa. Ninguém quer uma âncora puxando a equipe para baixo.&lt;br&gt;Na entrevista exponha o que você sabe e o que você não sabe e seja franco. Senão domina ou não manja de alguma coisa, deixe isso claro ali. - Sinceridade é a chave.&lt;/p&gt;
-&lt;h5 id=&quot;Saiba-outras-coisas&quot;&gt;&lt;a href=&quot;#Saiba-outras-coisas&quot; class=&quot;headerlink&quot; title=&quot;Saiba outras coisas&quot;&gt;&lt;/a&gt;Saiba outras coisas&lt;/h5&gt;&lt;p&gt;Sinceramente, de nada vai adiantar todo o seu conhecimento se você não souber algumas coisinhas essenciais para o ser humano:&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Aprenda a trabalhar em equipe&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;Aprenda a se comunicar com outras pessoas com as mais variadas opiniões. Você vai trabalhar com gente que curte seu estilo de música e gente que detesta, com aqueles que tem a mesma ideologia sobre política e outros que são completamente contra. Saiba balancear isso para que não afete seu relacionamento com as pessoas. - Essas dicas servem não só para o serviço, mas para a vida! ;)&lt;br&gt;Procure entender as outras pessoas e aprenda a utilizar uma coisa que é pouco lembrada hoje em dia: a &lt;a href=&quot;http://www.significados.com.br/empatia/&quot; title=&quot;Empatia&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;empatia&lt;/a&gt;. Se coloque no lugar da outra pessoa antes de fechar a cara pra ela por que ela entrou na sala sem cumprimentar ninguém. Pode ser algum problema pessoal e a pessoa nem reparou que não cumprimentou e não alguma coisa contra você. Deixa de mimimi.&lt;br&gt;Um bom relacionamento com sua equipe vai resultar em mais produtividade.&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Aprenda Gestão&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;Mesmo sendo programador é bom você entender sobre Gestão, assim você consegue administrar melhor o seu tempo e ajuda muito mais sua equipe. Fora outros benefícios como entender muito mais fácil algumas coisas que seu Gestor diz… ;D&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Conheça outras áreas&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;Além de Gestão, aprenda um pouco sobre outras áreas. Fica mais fácil entender o que o Designer quer se você entende um pouco de Design. Vai ser mais rápido implementar funcionalidades na página sabendo usar corretamente as funções que o Back End criou. E o mais interessante: É mais fácil passar na entrevista se você souber como o entrevistador está pensando para responder de forma concisa.&lt;/p&gt;
-&lt;h5 id=&quot;E-se-eu-nao-passar-na-entrevista&quot;&gt;&lt;a href=&quot;#E-se-eu-nao-passar-na-entrevista&quot; class=&quot;headerlink&quot; title=&quot;E se eu não passar na entrevista?&quot;&gt;&lt;/a&gt;E se eu não passar na entrevista?&lt;/h5&gt;&lt;p&gt;A vida continua… Continue estudando, continue buscando, continue treinando e nunca desista do seu sonho!&lt;/p&gt;
-</content>
-    
-    <summary type="html">
-    
-      Quais são os requisitos para vagas de desenvolvedor/programador?
-    
-    </summary>
-    
-      <category term="Carreira" scheme="http://woliveiras.com.br/categories/Carreira/"/>
-    
-      <category term="Dicas" scheme="http://woliveiras.com.br/categories/Carreira/Dicas/"/>
-    
-      <category term="Front End" scheme="http://woliveiras.com.br/categories/Carreira/Dicas/Front-End/"/>
-    
-      <category term="Motivação" scheme="http://woliveiras.com.br/categories/Carreira/Dicas/Front-End/Motivacao/"/>
-    
-    
-      <category term="Dicas" scheme="http://woliveiras.com.br/tags/Dicas/"/>
-    
-      <category term="Carreira" scheme="http://woliveiras.com.br/tags/Carreira/"/>
-    
-      <category term="Front End" scheme="http://woliveiras.com.br/tags/Front-End/"/>
-    
-      <category term="Motivação" scheme="http://woliveiras.com.br/tags/Motivacao/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Extensões do Navegador para Desenvolvimento Web</title>
-    <link href="http://woliveiras.com.br/posts/extensoes-navegador-desenvolvimento-web/"/>
-    <id>http://woliveiras.com.br/posts/extensoes-navegador-desenvolvimento-web/</id>
-    <published>2015-01-22T13:00:31.000Z</published>
-    <updated>2016-04-11T17:16:12.361Z</updated>
-    
-    <content type="html">&lt;p&gt;Sou fã de produtividade e, por isso, utilizo várias ferramentas que me auxiliam a ser mais produtivo - Vou citar outras em futuras postagens ;). Algumas delas são extensões para o Navegador, no meu caso o Chrome/Firefox, que eu uso o tempo todo para testes. Nesse post vou citar algumas extensões muito boas para desenvolvimento Front End&lt;a id=&quot;more&quot;&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;em&gt;Para instalar alguma você pode clicar direto no sub-título e será direcionado para a Chrome Web Store. Se você estiver utilizando o Firefox, só pesquisar o nome dela no menu de instalação de Addons.&lt;/em&gt;&lt;/p&gt;
-&lt;h5 id=&quot;Web-Developer&quot;&gt;&lt;a href=&quot;#Web-Developer&quot; class=&quot;headerlink&quot; title=&quot;Web Developer&quot;&gt;&lt;/a&gt;&lt;a href=&quot;https://chrome.google.com/webstore/detail/web-developer/bfbameneiokkgbdmiekhjnmfkcnldhhm&quot; title=&quot;Web Developer&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Web Developer&lt;/a&gt;&lt;/h5&gt;&lt;p&gt;Essa extensão é monstra! Tem muita funcionalidade útil reunida em uma única ferramenta. Ao instalar essa extensão vá abrindo cada abinha e vendo do que ela é capaz, você vai pirar! Ela funciona no Chrome e no Firefox. Em outros navegadores eu não testei.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;../../public/images/web-developer.gif&quot; alt=&quot;Web Developer&quot;&gt;&lt;/p&gt;
-&lt;p&gt;Uma dica para testar em diferentes resoluções:&lt;br&gt;Existem várias formas de testar a aplicação em diferentes resoluções. Com essa extensão você clica em &lt;strong&gt;Resize&lt;/strong&gt; e muda conforme você pré definiu ou clicando em &lt;strong&gt;View Responsive Layouts&lt;/strong&gt;. Para definir as dimensões personalizadas você vai em &lt;strong&gt;Resize&lt;/strong&gt; e clica em &lt;strong&gt;Edit Resize Dimensions…&lt;/strong&gt; e pode colocar como achar mais conveniente clicando em &lt;strong&gt;Add&lt;/strong&gt;.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;../../public/images/web-developer-resize.gif&quot; alt=&quot;Web Developer Resize&quot;&gt;&lt;/p&gt;
-&lt;p&gt;Ela já possui ferramentas para validar o HTML, CSS, Links e WAI-ARIA que você pode alterar clicando em &lt;strong&gt;Options, Options.&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;../../public/images/web-developer-validations.gif&quot; alt=&quot;Web Developer Validation&quot;&gt;&lt;/p&gt;
-&lt;h5 id=&quot;Frameworks&quot;&gt;&lt;a href=&quot;#Frameworks&quot; class=&quot;headerlink&quot; title=&quot;Frameworks&quot;&gt;&lt;/a&gt;&lt;a href=&quot;https://chrome.google.com/webstore/detail/frameworks/jgghnecdoiloelcogfmgjgcacadpaejf&quot; title=&quot;Frameworks&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Frameworks&lt;/a&gt;&lt;/h5&gt;&lt;p&gt;Com essa você vai ver as ferramentas que os sites que acessa estão utilizando como JQuery, Backbone, Angular, etc. Vai tudo aparecer no topo do seu navegador e basta acessar o site que já vai aparecer na barra de endereços.&lt;br&gt;Essa eu não testei em outros navegadores.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;../../public/images/frameworks-extension.gif&quot; alt=&quot;Frameworks&quot;&gt;&lt;/p&gt;
-&lt;h5 id=&quot;ChromeVox&quot;&gt;&lt;a href=&quot;#ChromeVox&quot; class=&quot;headerlink&quot; title=&quot;ChromeVox&quot;&gt;&lt;/a&gt;&lt;a href=&quot;https://chrome.google.com/webstore/detail/chromevox/kgejglhpjiefppelpmljglcjbhoiplfn&quot; title=&quot;Chrome Vox&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;ChromeVox&lt;/a&gt;&lt;/h5&gt;&lt;p&gt;É um leitor de telas para o Chrome, com ele você vai conseguir ter a experiência de como pessoas com necessidades especiais irão navegar em sua aplicação, podendo melhorar ainda mais a nossa Web!&lt;br&gt;Para ativar e desativar a extensão você vai no menu do Chrome, mais ferramentas, extensões e pode ativar ou desativar quando for efetuar os testes.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;../../public/images/active-chrome-vox.gif&quot; alt=&quot;Chrome Vox&quot;&gt;&lt;/p&gt;
-&lt;h5 id=&quot;ColorZilla&quot;&gt;&lt;a href=&quot;#ColorZilla&quot; class=&quot;headerlink&quot; title=&quot;ColorZilla&quot;&gt;&lt;/a&gt;&lt;a href=&quot;https://chrome.google.com/webstore/detail/colorzilla/bhlhnicpbhignbdhedgjhgdocnmhomnp&quot; title=&quot;ColorZilla&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;ColorZilla&lt;/a&gt;&lt;/h5&gt;&lt;p&gt;Com essa você vai conseguir capturar cores em sites e testar também pela janelinha dela, como mostro na imagem abaixo:&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;../../public/images/colorzilla.gif&quot; alt=&quot;Colorzilla&quot;&gt;&lt;/p&gt;
-&lt;p&gt;Funciona no Chrome e Firefox.&lt;/p&gt;
-&lt;h5 id=&quot;WhatFont&quot;&gt;&lt;a href=&quot;#WhatFont&quot; class=&quot;headerlink&quot; title=&quot;WhatFont&quot;&gt;&lt;/a&gt;&lt;a href=&quot;https://chrome.google.com/webstore/detail/whatfont/jabopobgcpjmedljpbcaablpmlmfcogm&quot; title=&quot;WhatFont&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;WhatFont&lt;/a&gt;&lt;/h5&gt;&lt;p&gt;Sabe quando você vê uma fonte maneira em um site, mas fica com preguiça de abrir o código fonte? Então, é só usar essa extensão que ela pega o nome da fonte pra você! ;D&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;../../public/images/what-font.gif&quot; alt=&quot;WhatFont&quot;&gt;&lt;/p&gt;
-&lt;h5 id=&quot;PageSpeed&quot;&gt;&lt;a href=&quot;#PageSpeed&quot; class=&quot;headerlink&quot; title=&quot;PageSpeed&quot;&gt;&lt;/a&gt;&lt;a href=&quot;https://chrome.google.com/webstore/detail/pagespeed-insights-by-goo/gplegfbjlmmehdoakndmohflojccocli&quot; title=&quot;PageSpeed&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;PageSpeed&lt;/a&gt;&lt;/h5&gt;&lt;p&gt;Excelente para testar a velocidade da página!&lt;br&gt;Para utilizar você vai abrir as &lt;strong&gt;Ferramentas de Desenvolvedor&lt;/strong&gt; do navegador &lt;strong&gt;(F12)&lt;/strong&gt; e clicar em &lt;strong&gt;PageSpeed&lt;/strong&gt;.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;../../public/images/page-speed.gif&quot; alt=&quot;PageSpeed&quot;&gt;&lt;/p&gt;
-&lt;p&gt;Depois é só clicar em &lt;strong&gt;Analisar&lt;/strong&gt; e a extensão vai trazer um relatório de todas as possíveis melhorias.&lt;br&gt;Funciona no Chrome e Firefox.&lt;/p&gt;
-&lt;h5 id=&quot;Fireshot&quot;&gt;&lt;a href=&quot;#Fireshot&quot; class=&quot;headerlink&quot; title=&quot;Fireshot&quot;&gt;&lt;/a&gt;&lt;a href=&quot;https://chrome.google.com/webstore/detail/capture-webpage-screensho/mcbpblocgmgfnpjjppndjkmgjaogfceg&quot; title=&quot;Fireshot&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Fireshot&lt;/a&gt;&lt;/h5&gt;&lt;p&gt;Essa é para quando você precisa de um print da página inteira. Seu uso é bem intuitivo e também funciona para Chrome e Firefox.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;../../public/images/fireshot.gif&quot; alt=&quot;Fireshot&quot;&gt;&lt;/p&gt;
-&lt;h5 id=&quot;SEOQuake&quot;&gt;&lt;a href=&quot;#SEOQuake&quot; class=&quot;headerlink&quot; title=&quot;SEOQuake&quot;&gt;&lt;/a&gt;&lt;a href=&quot;https://chrome.google.com/webstore/detail/seoquake/akdgnmcogleenhbclghghlkkdndkjdjc&quot; title=&quot;SEOQuake&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;SEOQuake&lt;/a&gt;&lt;/h5&gt;&lt;p&gt;É uma função nossa se preocupar com o SEO na página também e para isso da para se apoiar no SEOQuake. Quando você abre a página ele já carrega as informações importantes na tela:&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;../../public/images/seo-quake.gif&quot; alt=&quot;SEOQuake&quot;&gt;&lt;/p&gt;
-&lt;p&gt;E se você clicar em &lt;strong&gt;Info&lt;/strong&gt; vai ver um relatório gigante sobre como deixar a página filé!&lt;br&gt;E você utiliza alguma outra extensão maneira? Comenta ai!&lt;/p&gt;
-</content>
-    
-    <summary type="html">
-    
-      Extensões do Navegador para Desenvolvimento Front End
-    
-    </summary>
-    
-      <category term="Ambiente" scheme="http://woliveiras.com.br/categories/Ambiente/"/>
-    
-      <category term="Dicas" scheme="http://woliveiras.com.br/categories/Ambiente/Dicas/"/>
-    
-      <category term="Extensões" scheme="http://woliveiras.com.br/categories/Ambiente/Dicas/Extensoes/"/>
-    
-      <category term="Navegador" scheme="http://woliveiras.com.br/categories/Ambiente/Dicas/Extensoes/Navegador/"/>
-    
-      <category term="Front End" scheme="http://woliveiras.com.br/categories/Ambiente/Dicas/Extensoes/Navegador/Front-End/"/>
-    
-    
-      <category term="Dicas" scheme="http://woliveiras.com.br/tags/Dicas/"/>
-    
-      <category term="Ambiente" scheme="http://woliveiras.com.br/tags/Ambiente/"/>
-    
-      <category term="Front End" scheme="http://woliveiras.com.br/tags/Front-End/"/>
-    
-      <category term="Extensões" scheme="http://woliveiras.com.br/tags/Extensoes/"/>
-    
-      <category term="Navegador" scheme="http://woliveiras.com.br/tags/Navegador/"/>
     
   </entry>
   

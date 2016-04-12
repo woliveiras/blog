@@ -1,0 +1,314 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  
+  <title>Comandos mais utilizados no Docker | William Oliveira</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  <meta name="description" content="Comandos mais utilizados durante o Workflow com Docker">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Comandos mais utilizados no Docker">
+<meta property="og:url" content="http://woliveiras.com.br/posts/comandos-mais-utilizados-no-docker/index.html">
+<meta property="og:site_name" content="William Oliveira">
+<meta property="og:description" content="Comandos mais utilizados durante o Workflow com Docker">
+<meta property="og:updated_time" content="2016-04-12T02:46:42.863Z">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="Comandos mais utilizados no Docker">
+<meta name="twitter:description" content="Comandos mais utilizados durante o Workflow com Docker">
+<meta name="twitter:creator" content="@w_oliveiras">
+  
+    <link rel="alternative" href="/atom.xml" title="William Oliveira" type="application/atom+xml">
+  
+  
+    <link rel="icon" href="img/favicon.png">
+  
+  <link href="//fonts.googleapis.com/css?family=Source+Code+Pro" rel="stylesheet" type="text/css">
+  <link rel="stylesheet" href="/css/style.css">
+  
+
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-25964646-1', 'auto');
+  ga('send', 'pageview');
+
+</script>
+
+<!-- End Google Analytics -->
+
+
+  <link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+</head>
+<body>
+  <div id="container">
+    <div id="wrap">
+      <header id="header">
+  <div id="header-outer" class="outer">
+    <div id="header-inner" class="inner">
+      <ul class="navigation">
+        <li id="main-nav">
+          <a id="main-nav-toggle" class="nav-icon"></a>
+          
+            <a class="main-nav-link" href="/">Home</a>
+          
+            <a class="main-nav-link" href="/about">Sobre</a>
+          
+            <a class="main-nav-link" href="/colabore-comigo">Colabore</a>
+          
+            <a class="main-nav-link" href="https://github.com/woliveiras/resume">Resume</a>
+          
+        </li>
+        <li id="sub-nav">
+          
+            <a id="nav-rss-link" class="nav-icon" href="/atom.xml" title="RSS Feed"></a>
+          
+          <a id="nav-search-btn" class="nav-icon" title="Search"></a>
+        </li>
+        <li id="search-form-wrap">
+          <form action="//google.com/search" method="get" accept-charset="UTF-8" class="search-form"><input type="search" name="q" results="0" class="search-form-input" placeholder="Search"><button type="submit" class="search-form-submit">&#xF002;</button><input type="hidden" name="sitesearch" value="http://woliveiras.com.br"></form>
+        </li>
+      </ul>
+    </div>
+    <div id="header-title" class="inner">
+      <h1 id="logo-wrap">
+        <a href="/" id="title">William Oliveira</a>
+      </h1>
+      
+        <h2 id="subtitle-wrap">
+          <a href="/" id="subtitle">Desenvolvedor Front End</a>
+        </h2>
+      
+      <div class="contact-icons">
+	<a href="https://www.facebook.com/woliveira542"  target="_blank">
+		<i class="ico facebook"  target="_blank"></i>
+	</a>
+	<a href="https://twitter.com/w_oliveiras"  target="_blank">
+		<i class="ico twitter"  target="_blank"></i>
+	</a>
+	<a href="https://br.linkedin.com/in/woliveira542"  target="_blank">
+		<i class="ico linkedin"  target="_blank"></i>
+	</a>
+	<a href="https://github.com/woliveiras"  target="_blank">
+		<i class="ico github"></i>
+	</a>
+</div>
+    </div>
+  </div>
+</header>
+
+      <div class="outer">
+        <section id="main"><article id="post-comandos-mais-utilizados-no-docker" class="article article-type-post" itemscope itemprop="blogPost">
+  <div class="article-inner">
+    
+    
+      <header class="article-header">
+        
+  
+    <h1 class="article-title" itemprop="name">
+      Comandos mais utilizados no Docker
+    </h1>
+  
+
+      </header>
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+        <p>Um post rapidinho com os comandos mais utilizados do Docker para não esquecer e consultar facilmente. :D</p>
+<p>Se você não viu a primeira parte dessa sequência, clique <a href="/posts/uma-rapida-introducao-ao-docker-e-instalacao-no-ubuntu/">aqui</a>.</p>
+<p>E a segunda parte, <a href="/posts/imagem-docker-ou-um-container-docker/">aqui</a><a id="more"></a></p>
+<h2 id="Como-eu-sei-quais-as-imagens-disponiveis-no-meu-repositorio-local"><a href="#Como-eu-sei-quais-as-imagens-disponiveis-no-meu-repositorio-local" class="headerlink" title="Como eu sei quais as imagens disponíveis no meu repositório local?"></a>Como eu sei quais as imagens disponíveis no meu repositório local?</h2><p>Utilize o comando <code>images</code> para listar:</p>
+<figure class="highlight nginx"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="attribute">docker</span> images</span><br></pre></td></tr></table></figure>
+<p>Será apresentado uma tabela no seu Terminal com:</p>
+<ul>
+<li><strong>REPOSITORY</strong> - repositório</li>
+<li><strong>TAG</strong> - a tag utilizada no repositório (é setado pelo mantenedor)</li>
+<li><strong>IMAGE ID</strong> - o ID da Imagem</li>
+<li><strong>CREATED</strong> - quando essa imagem foi criada</li>
+<li><strong>SIZE</strong> - tamanho dessa imagem</li>
+</ul>
+<h2 id="Como-adicionar-imagens-locais"><a href="#Como-adicionar-imagens-locais" class="headerlink" title="Como adicionar imagens locais?"></a>Como adicionar imagens locais?</h2><p>Utilize o comando <code>search</code> para procurar a imagem e o comando <code>pull</code> para baixar:</p>
+<figure class="highlight nginx"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="attribute">docker</span> search ubuntu</span><br></pre></td></tr></table></figure>
+<p>Encontrado a imagem correta, utilize <code>pull</code> com o nome dessa imagem:</p>
+<figure class="highlight nginx"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="attribute">docker</span> pull ubuntu</span><br></pre></td></tr></table></figure>
+<h2 id="Como-remover-imagens-locais"><a href="#Como-remover-imagens-locais" class="headerlink" title="Como remover imagens locais?"></a>Como remover imagens locais?</h2><p>Localize o ID ou nome do repositório com o comando <code>docker images</code>.</p>
+<p>Com o id ou o nome do repositório em mãos, utilize o comando <code>rmi</code> para excluir as imagens.</p>
+<figure class="highlight autohotkey"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">docker rmi ID_ou_nome_d<span class="built_in">a_imagem</span></span><br></pre></td></tr></table></figure>
+<h2 id="Criar-um-container"><a href="#Criar-um-container" class="headerlink" title="Criar um container"></a>Criar um container</h2><p>Para executar um container utilize o comando <code>run</code> com o nome da imagem que vá utilizar para a criação:</p>
+<figure class="highlight applescript"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">docker <span class="built_in">run</span> nome_da_imagem</span><br></pre></td></tr></table></figure>
+<h2 id="Criar-um-container-e-entrar-no-Terminal"><a href="#Criar-um-container-e-entrar-no-Terminal" class="headerlink" title="Criar um container e entrar no Terminal"></a>Criar um container e entrar no Terminal</h2><p>Conseguimos criar um container e já entrar nesse container com o comando <code>-it</code>:</p>
+<figure class="highlight applescript"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">docker <span class="built_in">run</span> -<span class="keyword">it</span> ubuntu /bin/bash</span><br></pre></td></tr></table></figure>
+<p>Vai subir um container com o Ubuntu e entrar no Bash.</p>
+<p>O <code>-i</code> significa interatividade e o <code>-t</code> que queremos um link com o Terminal do container.</p>
+<h2 id="Criar-um-container-com-um-apelido"><a href="#Criar-um-container-com-um-apelido" class="headerlink" title="Criar um container com um apelido"></a>Criar um container com um apelido</h2><p>Você pode colocar apelidos nos containers para facilitar sua organização passando por parâmetro o <code>--name</code> para o comando <code>docker run</code>:</p>
+<figure class="highlight applescript"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">docker <span class="built_in">run</span> <span class="comment">--name ubuntinho ubuntu</span></span><br></pre></td></tr></table></figure>
+<p>Perceba que logo depois do parâmetro <code>--name</code> vem o nome que deseja e o nome da imagem que vai ser utilizada para gerar o container.</p>
+<p>Nesse caso a imagem <code>ubuntu</code> e o alias <code>ubuntinho</code>.</p>
+<h2 id="Verificar-o-estado-ou-encontrar-o-ID-de-um-container"><a href="#Verificar-o-estado-ou-encontrar-o-ID-de-um-container" class="headerlink" title="Verificar o estado ou encontrar o ID de um container"></a>Verificar o estado ou encontrar o ID de um container</h2><p>Você consegue uma lista dos containers ativos com o comando <code>ps</code>:</p>
+<figure class="highlight nginx"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="attribute">docker</span> ps</span><br></pre></td></tr></table></figure>
+<p>Vai aparecer uma tabela com</p>
+<ul>
+<li><strong>CONTAINER ID</strong> - ID do container</li>
+<li><strong>IMAGE</strong> - a imagem que foi utilizada para gerar esse container</li>
+<li><strong>COMMAND</strong> - o comando passado como parâmetro para esse container (exemplo o /bin/bash)</li>
+<li><strong>CREATED</strong> - a data da criação do container</li>
+<li><strong>STATUS</strong> - o estado do container (parado ou em funcionamento)</li>
+<li><strong>PORTS</strong> - as portas compartilhadas entre host e container</li>
+<li><strong>NAMES</strong> - e o nome que você deu ao container, se o fez</li>
+</ul>
+<p>O <code>ps</code> só vai mostrar os containers que estão em atividade, para verificar todos os containers criados, incluindo os que estiverem parados, utilize o <code>ps -a</code>:</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">docker ps <span class="_">-a</span></span><br></pre></td></tr></table></figure>
+<p>Para pegar apenas o ID do container do topo da tabela, utilize o comando <code>ps -qa</code></p>
+<h2 id="Remover-um-container"><a href="#Remover-um-container" class="headerlink" title="Remover um container"></a>Remover um container</h2><p>Remover um container seria o mesmo que desligar a máquina virtual.</p>
+<p>Utilize o comando <code>rm</code> para remover o container com o ID que você pode pegar com o <code>docker ps</code> ou o apelido que você escolheu:</p>
+<figure class="highlight nginx"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="attribute">docker</span> rm id_ou_apelido</span><br></pre></td></tr></table></figure>
+<h2 id="Outras-informacoes-uteis-que-o-Docker-pode-nos-passar-sobre-o-container"><a href="#Outras-informacoes-uteis-que-o-Docker-pode-nos-passar-sobre-o-container" class="headerlink" title="Outras informações úteis que o Docker pode nos passar sobre o container"></a>Outras informações úteis que o Docker pode nos passar sobre o container</h2><p>Informações de uso de Hardware do container:</p>
+<figure class="highlight nginx"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="attribute">docker</span> stats id_ou_apelido</span><br></pre></td></tr></table></figure>
+<p>Veremos informações como:</p>
+<ul>
+<li><strong>CONTAINER</strong> - ID do Container</li>
+<li><strong>CPU %</strong> - uso de CPU em porcentagem</li>
+<li><strong>MEM USAGE / LIMIT</strong> - Memória usada/Limite que você pode ter setado</li>
+<li><strong>MEM</strong> - uso de memória em porcentagem</li>
+<li><strong>NET I/O</strong> - I/O de Internet</li>
+<li><strong>BLOCK IO</strong> - Outros processos de I/O.</li>
+</ul>
+<figure class="highlight gradle"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">docker <span class="keyword">inspect</span> id_ou_apelido</span><br></pre></td></tr></table></figure>
+<p>Esse comando trás muita informação útil, então é bom dar uma olhada na <a href="https://docs.docker.com/engine/reference/commandline/inspect/" target="_blank" rel="external">documentação oficial</a> para não se perder pelas linhas!</p>
+<h2 id="Commitar-alteracoes-em-uma-imagem"><a href="#Commitar-alteracoes-em-uma-imagem" class="headerlink" title="Commitar alterações em uma imagem"></a>Commitar alterações em uma imagem</h2><p>As alterações que você faz em um container, durante sua execução, não são salvas, a menos que você gere uma nova imagem com base nesse container.</p>
+<p>Para commitar o que você fez em uma imagem, utilize o comando <code>commit</code>:</p>
+<figure class="highlight sql"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">docker <span class="keyword">commit</span> <span class="keyword">ID</span>/apelido nome_da_nova_imagem</span><br></pre></td></tr></table></figure>
+<p>Ele vai gerar uma nova imagem a partir desse commit.</p>
+<h2 id="Mapeando-uma-porta-para-o-container"><a href="#Mapeando-uma-porta-para-o-container" class="headerlink" title="Mapeando uma porta para o container"></a>Mapeando uma porta para o container</h2><p>Usamos o comando <code>-p</code>:</p>
+<figure class="highlight applescript"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">docker <span class="built_in">run</span> -<span class="keyword">it</span> -p <span class="number">8080</span>:<span class="number">80</span> ubuntu</span><br></pre></td></tr></table></figure>
+<p>Bem útil para listar uma porta para um servidor web:</p>
+<figure class="highlight applescript"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">docker <span class="built_in">run</span> -<span class="keyword">it</span> -p <span class="number">8080</span>:<span class="number">80</span> nginx</span><br></pre></td></tr></table></figure>
+<p>Estamos informando que a porta 8080 no Host é aberta e deve ser mapeada na porta 80 do container.</p>
+<h2 id="Montar-containers-auto-destrutivos"><a href="#Montar-containers-auto-destrutivos" class="headerlink" title="Montar containers auto destrutivos"></a>Montar containers auto destrutivos</h2><p>Usando o comando <code>--rm</code>, podemos montar containers que se destroem ao sairmos da sessão.</p>
+<p>Exemplo utilizando o <a href="https://www.nginx.com/" target="_blank" rel="external">NGINX</a>.</p>
+<figure class="highlight applescript"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">docker <span class="built_in">run</span> -<span class="keyword">it</span> <span class="comment">--rm -p 8080:80 nginx /bin/bash</span></span><br></pre></td></tr></table></figure>
+<p>Ao usar um <code>exit</code> para sair do Terminal do SO rodando no container, o mesmo será removido.</p>
+<h2 id="Executando-containers-em-segundo-plano"><a href="#Executando-containers-em-segundo-plano" class="headerlink" title="Executando containers em segundo plano"></a>Executando containers em segundo plano</h2><p>Podemos executar o container e deixar ele em segundo plano, sem precisar ficar conectado pelo Shell, com o comando <code>-d</code>.</p>
+<p>Exemplo utilizando o NGINX.</p>
+<figure class="highlight stata"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">docker <span class="keyword">run</span> -<span class="keyword">d</span> -p 8080:80 nginx /usr/sbin/nginx -<span class="keyword">g</span></span><br></pre></td></tr></table></figure>
+<p>Para controlar esse container usamos os comandos <code>stop</code> e <code>start</code>:</p>
+<figure class="highlight arduino"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">docker <span class="built_in">stop</span> id_ou_apelido</span><br></pre></td></tr></table></figure>
+<p>Para parar e:</p>
+<figure class="highlight crmsh"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">docker <span class="literal">start</span> id_ou_apelido</span><br></pre></td></tr></table></figure>
+<p>Para ativar o container.</p>
+<h2 id="Removendo-todos-os-containers-e-imagens-de-uma-so-vez"><a href="#Removendo-todos-os-containers-e-imagens-de-uma-so-vez" class="headerlink" title="Removendo todos os containers e imagens de uma só vez"></a>Removendo todos os containers e imagens de uma só vez</h2><p>Usamos um pouquinho de <a href="http://aurelio.net/shell/" target="_blank" rel="external">Shell Script</a> e conseguimos automatizar o processo de remoção de todos os containers ativos com:</p>
+<figure class="highlight vim"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">docker rm $(docker <span class="keyword">ps</span> -<span class="keyword">qa</span>)</span><br></pre></td></tr></table></figure>
+<p>Para entender o que o <code>$(docker ps -qa)</code> está fazendo, execute somente esse comando no Terminal e veja o retorno.</p>
+<figure class="highlight vim"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$(docker <span class="keyword">ps</span> -<span class="keyword">qa</span>)</span><br></pre></td></tr></table></figure>
+<p>Para imagens</p>
+<figure class="highlight cos"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">docker rmi $(docker images -<span class="keyword">q</span>)</span><br></pre></td></tr></table></figure>
+<h2 id="Como-executar-comandos-sem-precisar-estar-dentro-do-container"><a href="#Como-executar-comandos-sem-precisar-estar-dentro-do-container" class="headerlink" title="Como executar comandos, sem precisar estar dentro do container?"></a>Como executar comandos, sem precisar estar dentro do container?</h2><p>Para não precisar acessar um container para executar comandos basicos, podemos usar o <code>exec</code>:</p>
+<figure class="highlight applescript"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">docker exec -<span class="keyword">it</span> id_ou_apelido comando</span><br></pre></td></tr></table></figure>
+<p>Ex.:</p>
+<figure class="highlight applescript"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">docker exec -<span class="keyword">it</span> ubuntinho ifconfig eth0</span><br></pre></td></tr></table></figure>
+<p>Vai retornar o endereço de IP do container.</p>
+<p>Esses são os comandos mais básicos para sobreviver os primeiros dias com o Docker, depois vai ficar fixado na cabeça e é só alegria.</p>
+<p>Nos próximos artigos vou falar sobre como utilizar o Dockerfile para automatizar a criação de containers e como criar sua própria imagem com as suas configurações.</p>
+<p>Não perca.</p>
+<p>Gostou? Comenta aqui em baixo.</p>
+<p>Acha que da para incrementar com mais comandos legais?</p>
+<p>Abre uma <a href="https://github.com/woliveiras/woliveiras.github.io/issues" target="_blank" rel="external">issue</a>, comenta aqui em baixo ou <a href="https://github.com/woliveiras/woliveiras.github.io/tree/development" target="_blank" rel="external">adiciona direto no Blog</a> pra mim!</p>
+<p>Espalhe a palavra.</p>
+
+      
+    </div>
+    <footer class="article-footer">
+      
+        <a href="http://woliveiras.com.br/posts/comandos-mais-utilizados-no-docker/#disqus_thread" class="article-comment-link">Comentários</a>
+      
+      
+  <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/ambiente/">ambiente</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/devops/">devops</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/docker/">docker</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/virtualizacao/">virtualização</a></li></ul>
+
+      <a href="/posts/comandos-mais-utilizados-no-docker/" class="article-date">
+  <time datetime="2016-04-12T00:00:08.000Z" itemprop="datePublished">2016-04-11</time>
+</a>
+    </footer>
+  </div>
+  
+    
+<nav id="article-nav">
+  
+    <a href="/posts/Criando-uma-imagem-Docker-personalizada/" id="article-nav-newer" class="article-nav-link-wrap">
+      <strong class="article-nav-caption">Póximo</strong>
+      <div class="article-nav-title">
+        
+          Criando uma imagem Docker personalizada
+        
+      </div>
+    </a>
+  
+  
+    <a href="/posts/imagem-docker-ou-um-container-docker/" id="article-nav-older" class="article-nav-link-wrap">
+      <strong class="article-nav-caption">Anterior</strong>
+      <div class="article-nav-title">O que é uma imagem e o que é um container Docker?</div>
+    </a>
+  
+</nav>
+
+
+  
+</article>
+
+
+<section id="comments">
+  <div id="disqus_thread">
+    <noscript>Please enable JavaScript to view the <a href="//disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+  </div>
+</section>
+
+</section>
+      </div>
+      <footer id="footer">
+  <div id="footer-info">
+    <div class="outer">
+      &copy; 2016 William de Oliveira Powered by <a href="http://hexo.io/" target="_blank">Hexo</a>
+    </div>
+  </div>
+</footer>
+    </div>
+    <nav id="mobile-nav">
+  
+    <a href="/" class="mobile-nav-link">Home</a>
+  
+    <a href="/about" class="mobile-nav-link">Sobre</a>
+  
+    <a href="/colabore-comigo" class="mobile-nav-link">Colabore</a>
+  
+    <a href="https://github.com/woliveiras/resume" class="mobile-nav-link">Resume</a>
+  
+</nav>
+    
+<script>
+  var disqus_shortname = 'woliveiras';
+  
+  var disqus_url = 'http://woliveiras.com.br/posts/comandos-mais-utilizados-no-docker/';
+  
+  (function(){
+    var dsq = document.createElement('script');
+    dsq.type = 'text/javascript';
+    dsq.async = true;
+    dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+    (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+  })();
+</script>
+
+
+<script src="//ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
+
+
+  <link rel="stylesheet" href="/fancybox/jquery.fancybox.css">
+  <script src="/fancybox/jquery.fancybox.pack.js"></script>
+
+
+<script src="/js/script.js"></script>
+
+  </div>
+</body>
+</html>
