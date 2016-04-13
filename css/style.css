@@ -648,10 +648,13 @@ a.article-title:hover {
   padding: 10px 0;
 }
 .article-entry blockquote {
-  font-family: Georgia, "Times New Roman", serif;
-  font-size: 1.4em;
-  margin: 1.6em 20px;
-  text-align: center;
+  color: #5d6163;
+  font-size: 1em;
+}
+.article-entry blockquote p:before {
+  content: ">";
+  display: inline-block;
+  margin: 0 10px;
 }
 .article-entry blockquote footer {
   font-size: 19px;
