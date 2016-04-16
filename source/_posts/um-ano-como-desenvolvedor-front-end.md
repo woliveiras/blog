@@ -10,10 +10,6 @@ description: Conheça um pouco sobre como foi meu primeiro ano como Desenvolvedo
 date: 2015-12-01 10:00:00
 ---
 
-<div class="shared-img">
-![](../..//public/images/web-developer.jpg)
-</div>
-
 Todo mundo tem uma história legal pra contar sobre como começou na área de Desenvolvimento, seja Web, Mobile, Desktop ou tanto faz. Sempre temos algo interessante para passar para os novos desenvolvedores que estão entrando no mercado e que, as vezes, tem medo de se arriscar, achando que [precisam saber de tudo para investir no primeiro trampo](http://woliveiras.com.br/posts/requisitos-para-vagas-front-end/).
 
 Conheça um pouco sobre como foi meu primeiro ano como Desenvolvedor Front End. Medos, frustrações, desespero, alegria, festas e algumas dicas para se preparar para o mercado de trabalho.
