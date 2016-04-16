@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://woliveiras.com.br/"/>
-  <updated>2016-04-13T11:30:45.713Z</updated>
+  <updated>2016-04-16T13:01:20.376Z</updated>
   <id>http://woliveiras.com.br/</id>
   
   <author>
@@ -16,11 +16,104 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>Por que você desistiu de ser Cientista?</title>
+    <link href="http://woliveiras.com.br/posts/Por-que-voce-desistiu-de-ser-Cientista/"/>
+    <id>http://woliveiras.com.br/posts/Por-que-voce-desistiu-de-ser-Cientista/</id>
+    <published>2016-04-16T11:55:36.000Z</published>
+    <updated>2016-04-16T13:01:20.376Z</updated>
+    
+    <content type="html">&lt;p&gt;Há algum tempo venho observando as pessoas, mais especificamente as pessoas da área de Desenvolvimento de Software. Há mais tempo ainda eu observo as outras pessoas, o ser humano em geral. E desde sempre percebi um padrão:&lt;/p&gt;
+&lt;p&gt;Ao crescer, as pessoas abandonam a profissão que nasce com elas, a profissão de &lt;strong&gt;cientista&lt;/strong&gt;.&lt;a id=&quot;more&quot;&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Deve existir uma razão psicológica, sociológica, filosófica -  não sei -, mas nesse momento quero somente deixar minha reflexão pra você, que &lt;strong&gt;desistiu de ser cientista&lt;/strong&gt; e não sabe mais experimentar as coisas e tentar te mostrar como ser um Desenvolvedor de Software melhor que a média.&lt;/p&gt;
+&lt;h2 id=&quot;O-que-faz-um-cientista&quot;&gt;&lt;a href=&quot;#O-que-faz-um-cientista&quot; class=&quot;headerlink&quot; title=&quot;O que faz um cientista?&quot;&gt;&lt;/a&gt;O que faz um cientista?&lt;/h2&gt;&lt;p&gt;Acho que esse primeiro trecho da definição da &lt;a href=&quot;https://pt.wikipedia.org/wiki/Cientista&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Wikipedia&lt;/a&gt;, para o termo, é a melhor que eu poderia utilizar para explicar meu ponto de vista:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Um &lt;strong&gt;cientista&lt;/strong&gt;, em um sentido mais amplo, refere-se a qualquer pessoa que exerça uma atividade sistemática para obter &lt;a href=&quot;https://pt.wikipedia.org/wiki/Conhecimento&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;conhecimento&lt;/a&gt;.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;Todos nascemos assim, cientistas. Crescendo buscando conhecimento, querendo aprender, explorando as coisas ao nosso redor.&lt;/p&gt;
+&lt;p&gt;Mas a quanto tempo você não experimentado algo novo?&lt;/p&gt;
+&lt;p&gt;Quando foi a ultima vez que criou algo sem olhar no Google a solução pronta de outra pessoa?&lt;/p&gt;
+&lt;p&gt;Quando crianças nós fazemos muito disso: Experimentamos, criamos, buscamos. Porém, o tempo mata essa busca, mata essa &lt;strong&gt;criatividade&lt;/strong&gt; e Desenvolvedores de Software precisam ser criativos.&lt;/p&gt;
+&lt;p&gt;Eu tenho minha opinião sobre quem deixa de ser cientista:&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Essa pessoa deixou morrer a criança interior&lt;/strong&gt;.&lt;/p&gt;
+&lt;h2 id=&quot;Quando-e-que-deixamos-de-ser-cientistas&quot;&gt;&lt;a href=&quot;#Quando-e-que-deixamos-de-ser-cientistas&quot; class=&quot;headerlink&quot; title=&quot;Quando é que deixamos de ser cientistas?&quot;&gt;&lt;/a&gt;Quando é que deixamos de ser cientistas?&lt;/h2&gt;&lt;p&gt;Crianças são excelentes cientistas. Você já foi criança. A busca por conhecimento que as crianças possuem é visível externamente e o medo de experimentar está longe deles.&lt;/p&gt;
+&lt;p&gt;Eu compartilho do pensamento desse cara:&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://pt.wikipedia.org/wiki/Ken_Robinson&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;&lt;strong&gt;Sir Ken Robinson&lt;/strong&gt;&lt;/a&gt;, um dos grandes nomes em questão de estudo da criatividade, diz que &lt;em&gt;“As escolas acabam com a criatividade das crianças”&lt;/em&gt;.&lt;/p&gt;
+&lt;iframe src=&quot;https://embed-ssl.ted.com/talks/ken_robinson_says_schools_kill_creativity.html&quot; width=&quot;100%&quot; height=&quot;473px&quot; frameborder=&quot;0&quot; scrolling=&quot;no&quot; allowfullscreen&gt;&lt;/iframe&gt;
+
+&lt;p&gt;Pra mim, o sistema educacional é falho em estimular a criatividade das crianças pois estão tão preocupados com padrões da sociedade, MEC (para escolas brasileiras), teorias do próprio professor, religião, dentre outras coisas que não estimulam a criatividade das crianças.&lt;/p&gt;
+&lt;p&gt;Somente ensinam o que precisam para o jovem passar num vestibular (nem isso em escolas públicas), aprender a ler, escrever e falar. Não estimulam as &lt;a href=&quot;https://pt.wikipedia.org/wiki/Intelig%C3%AAncias_m%C3%BAltiplas&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;diferentes inteligências&lt;/a&gt; que temos, nem que continuemos criativos e sedentos por conhecimento.&lt;/p&gt;
+&lt;p&gt;Quando estávamos nas escolas, só queríamos que acabasse logo.&lt;/p&gt;
+&lt;p&gt;Não culpo a escola, os professores, a culpa é da sociedade que foi se limitando com o tempo. As escolas só são um reflexo disso tudo.&lt;/p&gt;
+&lt;p&gt;Claro que você também tem parte de culpa nessa história, você é parte da sociedade. Não vamos jogar a culpa somente nas escolas, pois existem professores que lutam dia após dia para tentar estimular as crianças de maneira diferente da que a escola ordena. Esses são verdadeiros guerreiros que deveriam ser os líderes das instituições, mas não é o que acontece.&lt;/p&gt;
+&lt;p&gt;Tem, também, os pais que não querem que a criança aprenda algo novo que &lt;strong&gt;elas&lt;/strong&gt; buscam, mas que aprendam algo que &lt;strong&gt;eles&lt;/strong&gt; acham que será útil no futuro dessa criança. Mas isso tudo é mais uma busca pessoal por conhecimento sobre Pedagogia do que o foco desse artigo, vamos voltar a falar sobre o Desenvolvedor de Software.&lt;/p&gt;
+&lt;p&gt;Para ser um bom Desenvolvedor de Software, não adianta somente bater tecla, escrever na linguagem de programação mais rápida, mais bonita (Python &amp;lt;3) ou mesmo ficar lendo requisitos e cuspindo código na tela como um robô. Você precisa ser criativo para criar bons algoritmos, criar boas soluções ou soluções que ninguém pensava em criar. Isso é o que difere o &lt;strong&gt;bom&lt;/strong&gt; Desenvolvedor do Desenvolvedor &lt;strong&gt;comum&lt;/strong&gt;.&lt;/p&gt;
+&lt;p&gt;Deveríamos nos espelhar nas crianças para nunca deixarmos de ser cientistas!&lt;/p&gt;
+&lt;h2 id=&quot;Por-que-as-criancas-sao-os-maiores-cientistas-aos-quais-podemos-nos-espelhar&quot;&gt;&lt;a href=&quot;#Por-que-as-criancas-sao-os-maiores-cientistas-aos-quais-podemos-nos-espelhar&quot; class=&quot;headerlink&quot; title=&quot;Por que as crianças são os maiores cientistas aos quais podemos nos espelhar?&quot;&gt;&lt;/a&gt;Por que as crianças são os maiores cientistas aos quais podemos nos espelhar?&lt;/h2&gt;&lt;p&gt;As crianças, sem dúvidas, são os exemplos de carreira cientifica que você deveria seguir. Esquece aquele cientista famoso que você tanto admira ou aquele Desenvolvedor &lt;em&gt;pika das galáxia&lt;/em&gt; do serviço ou aquele que é “referência” na sua área.&lt;/p&gt;
+&lt;p&gt;Se voê quer ser um bom Desenvolvedor de Software, então você precisa aprender a ser como uma criança.&lt;/p&gt;
+&lt;h2 id=&quot;Criancas-sao-curiosas&quot;&gt;&lt;a href=&quot;#Criancas-sao-curiosas&quot; class=&quot;headerlink&quot; title=&quot;Crianças são curiosas&quot;&gt;&lt;/a&gt;Crianças são curiosas&lt;/h2&gt;&lt;p&gt;Um traço da personalidade dos cientistas (profissionais) é que eles são curiosos e toda criança também é muito curiosa. Elas chegam a nos deixar sem respostas quando começam a fazer um monte de perguntas.&lt;/p&gt;
+&lt;p&gt;É incrivel como as crianças estão o tempo todo tentando entender o mundo ou descobrir como algo funciona. Eles tem uma sede de conhecimento quase insassiável. Quando colocam aquele pedaço de terra na boca é pra saber o que é, quando te perguntam de onde vem os bebês, etc. Existem muitos exemplos que eu poderia citar, mas você já deve ter passado por essas situações com crianças ou visto alguma vez elas trabalhando em busca de conhecimento.&lt;/p&gt;
+&lt;p&gt;Você também ainda é curioso(a), mas acabou deixando morrer a curiosidade de descobrir o mundo a sua volta e tem se esforçado em saber quem vai morrer na novela/no filme/na série, por que ela morreu, o que aconteceu, você quer saber o que seus amigos estão fazendo nas Redes Sociais, quer saber quem está namorando com quem, e por ai vai…&lt;/p&gt;
+&lt;p&gt;Não quero dizer que isso seja fútil, você nunca vai deixar de ser curioso(a) nesse ponto. Porém seria bom se você exercitásse mais essa curiosidade a fins de adquirir conhecimento ou experimentar algo novo.&lt;/p&gt;
+&lt;p&gt;Não quero que você pense que eu estou tentando te limitar a buscar conhecimento no que EU acho útil, ao contrário, só quero dizer que você poderia buscar, além dessas coisas que citei, coisas para agregar mais conhecimento.&lt;/p&gt;
+&lt;p&gt;Quando foi a ultima vez que você parou para pesquisar sobre como alguma coisa que você utiliza funciona?&lt;/p&gt;
+&lt;p&gt;Até mesmo essa internet que você está conectado(a) agora, as páginas, os aplicativos de celular, a internet das coisas, o sistema operacional… Exemplos simples, mas que nem todo mundo teve curiosidade para descobrir como funcionam.&lt;/p&gt;
+&lt;h2 id=&quot;Criancas-sao-insistentes&quot;&gt;&lt;a href=&quot;#Criancas-sao-insistentes&quot; class=&quot;headerlink&quot; title=&quot;Crianças são insistentes&quot;&gt;&lt;/a&gt;Crianças são insistentes&lt;/h2&gt;&lt;p&gt;As crianças não desistem de entender como algo funciona.&lt;/p&gt;
+&lt;p&gt;Tente enrolar uma criança, sem responder a uma pergunta que ela te fez, e verá como elas conseguem te deixar doido(a) perguntando sempre sobre aquele assunto.&lt;/p&gt;
+&lt;p&gt;E mesmo que você responda a pergunta, algo poderá mudar a teoria dentro da cabeça dessa criança e ela vai voltar a procurar as respostas para as novas questões. Elas não desistem e não param de inventar.&lt;/p&gt;
+&lt;p&gt;Já você, desiste muito rápido de aprender alguma coisa. Só de pensar na dificuldade de procurar material para aprender algo você já se cansa. Acha que vai perder seu tempo se aprender algo diferente do que está utilizando no dia a dia. - Talvez sim, mas talvez seja muito recompensador para sua criatividade.&lt;/p&gt;
+&lt;h2 id=&quot;Criancas-inventam&quot;&gt;&lt;a href=&quot;#Criancas-inventam&quot; class=&quot;headerlink&quot; title=&quot;Crianças inventam&quot;&gt;&lt;/a&gt;Crianças inventam&lt;/h2&gt;&lt;p&gt;Eu nem vou falar muito sobre isso, prefiro que você veja esse vídeo:&lt;/p&gt;
+&lt;iframe width=&quot;100%&quot; height=&quot;473px&quot; src=&quot;https://www.youtube.com/embed/Ks0SWd5oPDg&quot; frameborder=&quot;0&quot; allowfullscreen&gt;&lt;/iframe&gt;
+
+&lt;p&gt;Quando foi a ultima vez que você inventou umas histórias bem loucas dessas?&lt;/p&gt;
+&lt;p&gt;Ta bom que, com o tempo, você não pode falar algo que não sabe, não pode ficar inventando histórias para os outros, porém, você poderia colocar a mão na massa e inventar algum Software com sua criatividade, algo só por diversão, por experiência pessoal ou para aprender algo novo.&lt;/p&gt;
+&lt;p&gt;Ah, e por falar em experiências…&lt;/p&gt;
+&lt;h2 id=&quot;Criancas-nao-tem-medo-de-experimentar-algo-novo&quot;&gt;&lt;a href=&quot;#Criancas-nao-tem-medo-de-experimentar-algo-novo&quot; class=&quot;headerlink&quot; title=&quot;Crianças não tem medo de experimentar algo novo&quot;&gt;&lt;/a&gt;Crianças não tem medo de experimentar algo novo&lt;/h2&gt;&lt;p&gt;Claro que, depois de um tempo, com os pais, escolas e sociedade impondo as regras, as crianças acabam parando de fazer as coisas, porém elas estão sempre experimentando algo novo, independente de tudo. Elas nunca param de fazer experiências.&lt;/p&gt;
+&lt;p&gt;Lembra que falei acima sobre colocar terra na boca?&lt;/p&gt;
+&lt;p&gt;Falta em você, para ser um cientista, falta que experimente mais em busca de conhecimento.&lt;/p&gt;
+&lt;p&gt;Você já deve ter perguntado em algum forum:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;Gente, como eu faço esse efeito?&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;Galera, como eu crio isso aqui?&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Mas essas perguntas deveriam ser respondidas por você mesmo! Você deveria testar, experimentar as coisas, tentar inventar. Ou, pelo menos, ter pesquisado mais no Googole. Depois era só buscar uma maneira de melhorar o que você criou.&lt;/p&gt;
+&lt;p&gt;As pessoas que te respondem são as que experimentaram, buscaram e adquiriram assim mais conhecimento.&lt;/p&gt;
+&lt;p&gt;Talvez você pensou: &lt;em&gt;“Ah, mas precisamos ser ágeis no dia-a-dia, não da para ficar reinventando a roda”&lt;/em&gt;.&lt;/p&gt;
+&lt;p&gt;Concordo 100% contigo, no dia-a-dia de um Desenvolvedor de Software, não da tempo de ficar experimentando muitas coisas, mas desde quando isso te limita a aprender algo novo?&lt;/p&gt;
+&lt;p&gt;Na faculdade, você aprendeu C e Java ou outra, isso te limitou a não buscar aprender outras linguagens?&lt;/p&gt;
+&lt;p&gt;Isso pra quem fez faculdade, os autodidatas da vida vivem experimentando e em determinado ponto param por algum motivo. Isso deveria ser revisto!&lt;/p&gt;
+&lt;p&gt;Aquele papo de amar o que faz (diferente de amar a profissão), se divertir programando é só pra passar na entrevista?&lt;/p&gt;
+&lt;p&gt;E experimentar algo novo, praticar, brincar com uma nova tecnologia ou inventar uma coisa nova com suas ideias, não é o mesmo que ser &lt;a href=&quot;https://pt.wikipedia.org/wiki/Trabalhador_compulsivo&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Workaholic&lt;/a&gt;. Estou tentando te dizer que você pode brincar com o que você faz.&lt;/p&gt;
+&lt;p&gt;Nossa profissão não nos limita a uma empresa, nós podemos nos divertir fazendo o que fazemos no serviço e também podemos nos divertir fazendo algo legal/aprendendo algo legal em casa.&lt;/p&gt;
+&lt;p&gt;Ah, Will, mas eu quero sair, quero me divertir, quero viver fora da bolha da tecnologia. Eu concordo contigo, novamente, e não quero dizer que precisa deixar de fazer essas coisas (jamé!!!), essas outras coisas também são importantes, as crianças também brincam e isso não os limita a parar de explorar.&lt;/p&gt;
+&lt;h2 id=&quot;Sair-da-zona-de-conforto&quot;&gt;&lt;a href=&quot;#Sair-da-zona-de-conforto&quot; class=&quot;headerlink&quot; title=&quot;Sair da zona de conforto&quot;&gt;&lt;/a&gt;Sair da zona de conforto&lt;/h2&gt;&lt;p&gt;Talvez o ponto crucial desse artigo seja agora:&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Você precisa parar de ser preguiçoso!&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Isso está matando sua criatividade.&lt;/p&gt;
+&lt;p&gt;Enquanto você não experimenta, existe alguém desenvolvendo a próxima ferramenta que você vai utilizar ou o próximo Software de sucesso ou escrevendo um artigo para te alertar que você precisa &lt;a href=&quot;https://medium.com/@zenorocha/o-que-voc%C3%AA-est%C3%A1-esperando-f58bbc970054#.pklouaib2&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;sair da sua zona de conforto&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Hoje você já não é mais uma criança (eu acho), não tem mais a escola te limitando ou seus pais impondo o que voê precisa fazer. Está na hora de você tomar as rédeas da busca por conhecimento. Vai logo aprender algo novo ou vai colocar um pouco de terra na boca para conhecer o mundo!&lt;/p&gt;
+&lt;p&gt;Volte a ser cientista e vá experimentar algo novo para adquirir conhecimento ou simplesmente para estimular sua criatividade.&lt;/p&gt;
+&lt;p&gt;Talvez esse não foi o melhor artigo que você leu ou vai ler sobre criatividade e inteligência, mas eu estou experimentando essa outra maneira de ajudar as pessoas a serem bons Desenvolvedores de Software. E você, já experimentou algo novo essa semana? ;)&lt;/p&gt;
+&lt;p&gt;Se gostou desse artigo, comenta aqui em baixo!&lt;/p&gt;
+&lt;p&gt;Se curtiu, compartilha nas redes sociais.&lt;/p&gt;
+&lt;p&gt;Espalhe a palavra.&lt;/p&gt;
+</content>
+    
+    <summary type="html">
+    
+      Um artigo sobre como ser um bom Desenvolvedor de Software observando como as crianças são bons cientistas.
+    
+    </summary>
+    
+    
+      <category term="opinião" scheme="http://woliveiras.com.br/tags/opiniao/"/>
+    
+  </entry>
+  
+  <entry>
     <title>Produtividade, uma re-introdução</title>
     <link href="http://woliveiras.com.br/posts/produtividade-uma-re-introducao/"/>
     <id>http://woliveiras.com.br/posts/produtividade-uma-re-introducao/</id>
     <published>2016-04-13T10:58:34.000Z</published>
-    <updated>2016-04-13T11:30:45.713Z</updated>
+    <updated>2016-04-16T13:01:20.380Z</updated>
     
     <content type="html">&lt;p&gt;No ritmo frenético em que vivemos, ser produtivo já não é mais qualidade de ninguém, precisa ser uma característica de todos.&lt;/p&gt;
 &lt;p&gt;Nós queremos fazer um amontoado de coisas todos os dias e toda hora aparece alguma outra coisa pra se fazer.&lt;/p&gt;
@@ -84,7 +177,7 @@
     <link href="http://woliveiras.com.br/posts/Criando-uma-imagem-Docker-personalizada/"/>
     <id>http://woliveiras.com.br/posts/Criando-uma-imagem-Docker-personalizada/</id>
     <published>2016-04-12T01:18:59.000Z</published>
-    <updated>2016-04-13T11:30:45.709Z</updated>
+    <updated>2016-04-16T13:01:20.376Z</updated>
     
     <content type="html">&lt;p&gt;É muito legal poder baixar uma imagem do &lt;a href=&quot;http://hub.docker.com/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Docker Hub&lt;/a&gt; e já sair criando os containers, modificando e brincando, mas e depois?&lt;/p&gt;
 &lt;p&gt;Como fazemos para levar essa imagem para outro host?&lt;/p&gt;
@@ -196,7 +289,7 @@
     <link href="http://woliveiras.com.br/posts/comandos-mais-utilizados-no-docker/"/>
     <id>http://woliveiras.com.br/posts/comandos-mais-utilizados-no-docker/</id>
     <published>2016-04-12T00:00:08.000Z</published>
-    <updated>2016-04-13T11:30:45.709Z</updated>
+    <updated>2016-04-16T13:01:20.376Z</updated>
     
     <content type="html">&lt;p&gt;Um post rapidinho com os comandos mais utilizados do Docker para não esquecer e consultar facilmente. :D&lt;/p&gt;
 &lt;p&gt;Se você não viu a primeira parte dessa sequência, clique &lt;a href=&quot;/posts/uma-rapida-introducao-ao-docker-e-instalacao-no-ubuntu/&quot;&gt;aqui&lt;/a&gt;.&lt;/p&gt;
@@ -322,7 +415,7 @@
     <link href="http://woliveiras.com.br/posts/imagem-docker-ou-um-container-docker/"/>
     <id>http://woliveiras.com.br/posts/imagem-docker-ou-um-container-docker/</id>
     <published>2016-04-11T17:00:00.000Z</published>
-    <updated>2016-04-13T11:30:45.713Z</updated>
+    <updated>2016-04-16T13:01:20.380Z</updated>
     
     <content type="html">&lt;p&gt;Se você viu a primeira parte dessa sequência de artigos, percebeu que existem dois termos muito utilizados quando falamos de Docker: &lt;strong&gt;Imagens&lt;/strong&gt; e &lt;strong&gt;Containers&lt;/strong&gt;. Você deve se perguntar: qual é a diferença entre imagem e container Docker? Ou então: O que eu rodo com o &lt;code&gt;docker run&lt;/code&gt;, uma imagem ou um container? &lt;a id=&quot;more&quot;&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;Se você não viu o primeiro artigo, da uma olhada &lt;a href=&quot;/posts/uma-rapida-introducao-ao-docker-e-instalacao-no-ubuntu/&quot;&gt;aqui&lt;/a&gt;.&lt;/p&gt;
@@ -401,7 +494,7 @@
     <link href="http://woliveiras.com.br/posts/uma-rapida-introducao-ao-docker-e-instalacao-no-ubuntu/"/>
     <id>http://woliveiras.com.br/posts/uma-rapida-introducao-ao-docker-e-instalacao-no-ubuntu/</id>
     <published>2016-04-10T11:03:47.000Z</published>
-    <updated>2016-04-13T11:30:45.713Z</updated>
+    <updated>2016-04-16T13:01:20.380Z</updated>
     
     <content type="html">&lt;p&gt;&lt;div class=&quot;shared-img&quot;&gt;&lt;br&gt;&lt;img src=&quot;../../public/images/docker.png&quot; alt=&quot;Docker&quot;&gt;&lt;br&gt;&lt;/div&gt;Você já deve ter ouvido falar, pelo menos uma vez, sobre &lt;a href=&quot;https://www.docker.com/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Docker&lt;/a&gt; em algum lugar. Seja em palestras, blogs, vídeos ou em qualquer outra fonte de estudos sobre desenvolvimento, uma hora sempre comentamos sobre virtualização de ambientes e o Docker é a ferramenta que mais tem se destacado para tal. Ele é uma das 8 maravilhas das atualidades mais atuais. Vamos entender um pouco, então, o que é o Docker e como instalar no nosso Ubuntu.&lt;a id=&quot;more&quot;&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;h2 id=&quot;Introducao&quot;&gt;&lt;a href=&quot;#Introducao&quot; class=&quot;headerlink&quot; title=&quot;Introdução&quot;&gt;&lt;/a&gt;Introdução&lt;/h2&gt;&lt;p&gt;Eu também já ouvia falar do Docker a um bom tempo, porém nunca havia me aprofundado mais nessa ferramenta.&lt;/p&gt;
@@ -487,7 +580,7 @@
     <link href="http://woliveiras.com.br/posts/postando-no-blog-est%C3%A1tico-direto-pelo-github-com-hexo-e-travis-ci/"/>
     <id>http://woliveiras.com.br/posts/postando-no-blog-estático-direto-pelo-github-com-hexo-e-travis-ci/</id>
     <published>2016-02-07T00:00:00.000Z</published>
-    <updated>2016-04-13T11:30:45.713Z</updated>
+    <updated>2016-04-16T13:01:20.380Z</updated>
     
     <content type="html">&lt;p&gt;Confesso que fiquei tentado a migrar para o &lt;a href=&quot;https://jekyllrb.com/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Jekyll (Ruby)&lt;/a&gt; depois que um &lt;a href=&quot;http://jotateles.com.br/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;amigo&lt;/a&gt; me mostrou que da para postar no blog direto do GitHub sem ter o Jekyll instalado na máquina. Porém eu não desisti do meu queridinho, o &lt;a href=&quot;http://hexo.io/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Hexo (feito com Node &amp;lt;3)&lt;/a&gt;.&lt;a id=&quot;more&quot;&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;&lt;em&gt;Se você não conhece o Hexo, da uma olhada &lt;a href=&quot;http://woliveiras.com.br/posts/Migrando-de-Wordpress-para-Hexo/&quot;&gt;nesse artigo&lt;/a&gt;.&lt;/em&gt;&lt;/p&gt;
@@ -562,7 +655,7 @@
     <link href="http://woliveiras.com.br/posts/um-ano-como-desenvolvedor-front-end/"/>
     <id>http://woliveiras.com.br/posts/um-ano-como-desenvolvedor-front-end/</id>
     <published>2015-12-01T12:00:00.000Z</published>
-    <updated>2016-04-13T11:30:45.713Z</updated>
+    <updated>2016-04-16T13:01:20.380Z</updated>
     
     <content type="html">&lt;div class=&quot;shared-img&quot;&gt;&lt;br&gt;&lt;img src=&quot;../..//public/images/web-developer.jpg&quot; alt=&quot;&quot;&gt;&lt;br&gt;&lt;/div&gt;
 
@@ -614,7 +707,7 @@
     <link href="http://woliveiras.com.br/posts/corrigindo-permissoes-de-usuario-linux-npm/"/>
     <id>http://woliveiras.com.br/posts/corrigindo-permissoes-de-usuario-linux-npm/</id>
     <published>2015-09-12T13:00:00.000Z</published>
-    <updated>2016-04-13T11:30:45.713Z</updated>
+    <updated>2016-04-16T13:01:20.380Z</updated>
     
     <content type="html">&lt;div class=&quot;shared-img&quot;&gt;&lt;br&gt;&lt;img src=&quot;../../public/images/npm.svg&quot; alt=&quot;&quot;&gt;&lt;br&gt;&lt;/div&gt;
 
@@ -657,7 +750,7 @@
     <link href="http://woliveiras.com.br/posts/utilizando-versoes-antigas-do-nodejs/"/>
     <id>http://woliveiras.com.br/posts/utilizando-versoes-antigas-do-nodejs/</id>
     <published>2015-09-12T08:00:32.000Z</published>
-    <updated>2016-04-13T11:30:45.713Z</updated>
+    <updated>2016-04-16T13:01:20.380Z</updated>
     
     <content type="html">&lt;div class=&quot;shared-img&quot;&gt;&lt;br&gt;&lt;img src=&quot;../..//public/images/nodejs.png&quot; alt=&quot;&quot;&gt;&lt;br&gt;&lt;/div&gt;
 
@@ -742,7 +835,7 @@
     <link href="http://woliveiras.com.br/posts/twitter-bootstrap-bootstrap-do-jeito-certo/"/>
     <id>http://woliveiras.com.br/posts/twitter-bootstrap-bootstrap-do-jeito-certo/</id>
     <published>2015-09-09T01:00:00.000Z</published>
-    <updated>2016-04-13T11:30:45.713Z</updated>
+    <updated>2016-04-16T13:01:20.380Z</updated>
     
     <content type="html">&lt;p&gt;Muita gente critica o uso do &lt;a href=&quot;http://getbootstrap.com/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Twitter Bootstrap&lt;/a&gt; devido a nomenclatura de suas classes e aos muitos componentes que o framework possui.&lt;/p&gt;
 &lt;p&gt;Dizem que as classes não são semanticas e que o peso do framework é desnecessário.&lt;/p&gt;
@@ -825,7 +918,7 @@
     <link href="http://woliveiras.com.br/posts/Migrando-de-Wordpress-para-Hexo/"/>
     <id>http://woliveiras.com.br/posts/Migrando-de-Wordpress-para-Hexo/</id>
     <published>2015-08-05T02:53:41.000Z</published>
-    <updated>2016-04-13T11:30:45.709Z</updated>
+    <updated>2016-04-16T13:01:20.376Z</updated>
     
     <content type="html">&lt;p&gt;&lt;div class=&quot;shared-img&quot;&gt;&lt;br&gt;&lt;img src=&quot;../../public/images/hexo-logo.png&quot; alt=&quot;Hexo Blog&quot;&gt;&lt;br&gt;&lt;/div&gt;A um bom tempo sinto vontade de mudar meu Blog de WordPress para uma plataforma de  conteúdo estático, mas não achava nenhuma alternativa, pois que queria usar Nodejs. Por isso não fui para o, muito usado na comunidade, &lt;a href=&quot;http://jekyllrb.com/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Jekyll(Ruby)&lt;/a&gt; , nem para o &lt;a href=&quot;http://blog.getpelican.com/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Pelican(Python &amp;lt;3)&lt;/a&gt;.&lt;a id=&quot;more&quot;&gt;&lt;/a&gt;&lt;br&gt;Em busca de uma alternativa encontrei o &lt;a href=&quot;https://hexo.io&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Hexo&lt;/a&gt; e, um pouco depois de eu conhecer essa plataforma, o &lt;a href=&quot;http://blog.da2k.com.br/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Daciuk&lt;/a&gt; escreveu um &lt;a href=&quot;http://blog.da2k.com.br/2014/01/05/hexo-criando-um-blog-ao-estilo-miojo/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;post&lt;/a&gt; muito maneiro incentivando o seu uso. Foi então que eu decidi de vez usar essa plataforma!&lt;br&gt;Bora conhecer ela e como foi a migração de WordPress para Hexo?&lt;/p&gt;
 &lt;p&gt;###Levantando as necessidades&lt;/p&gt;
@@ -880,7 +973,7 @@
     <link href="http://woliveiras.com.br/posts/frameworks-front-end/"/>
     <id>http://woliveiras.com.br/posts/frameworks-front-end/</id>
     <published>2015-03-05T00:18:46.000Z</published>
-    <updated>2016-04-13T11:30:45.713Z</updated>
+    <updated>2016-04-16T13:01:20.380Z</updated>
     
     <content type="html">&lt;p&gt;Já parou pra pensar quantas vezes você repete o mesmo código durante o Desenvolvimento, seja Web, Mobile ou Desktop? Já pensou em padronizar o que você faz de alguma maneira?&lt;br&gt;E pra você que é Gerente de Projetos, Líder ou algo do tipo: Já pensou em poder adicionar um membro no seu grupo  e ele já saber como funciona o Desenvolvimento nessa equipe e conseguir ser produtivo desde o princípio?&lt;br&gt;Pois é, Frameworks servem para isso… Vem comigo que vou explicar melhor. ;)&lt;a id=&quot;more&quot;&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;h2 id=&quot;O-que-sao-Frameworks&quot;&gt;&lt;a href=&quot;#O-que-sao-Frameworks&quot; class=&quot;headerlink&quot; title=&quot;O que são Frameworks?&quot;&gt;&lt;/a&gt;O que são Frameworks?&lt;/h2&gt;&lt;p&gt;Você pega aqueles códigos que se repetem entre os projetos, adiciona uma pitada de &lt;a href=&quot;http://pt.wikipedia.org/wiki/Padr%C3%A3o_de_projeto_de_software&quot; title=&quot;Wikipedia - Padrões de Projetos&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Padrões&lt;/a&gt;, deixa conforme sua equipe precisa ou &lt;a href=&quot;http://tableless.com.br/locaweb-style-como-iniciamos/&quot; title=&quot;Locaweb Style - Framework Front End da Locaweb&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;conforme sua empresa trabalha&lt;/a&gt;, empacota tudo isso pra poder reutilizar depois e pronto, criou um Framework!&lt;br&gt;Só isso? Sim, só isso… Framework é uma ferramenta com os códigos, padrões, etc, que você consegue utilizar pra resolver problemas que se repetem ou mesmo pra iniciar projetos que vão possuir as mesmas características seja no Front, Back End ou mesmo para &lt;a href=&quot;https://github.com/woliveiras/pastel&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Tooling(Ferramentas)&lt;/a&gt;. Quando você utiliza um Framework como base, pode somente baixar ele, configurar ou instalar e seguir dali para as necessidades específicas de cada projeto. Isso mata muito tempo que você perderia fazendo algo que sabe que vai repetir no próximo trabalho.&lt;/p&gt;
@@ -930,7 +1023,7 @@
     <link href="http://woliveiras.com.br/posts/contribuindo-para-projetos-open-source-no-github-mesmo-sendo-iniciante/"/>
     <id>http://woliveiras.com.br/posts/contribuindo-para-projetos-open-source-no-github-mesmo-sendo-iniciante/</id>
     <published>2015-02-09T14:12:32.000Z</published>
-    <updated>2016-04-13T11:30:45.713Z</updated>
+    <updated>2016-04-16T13:01:20.380Z</updated>
     
     <content type="html">&lt;div class=&quot;shared-img&quot;&gt;&lt;br&gt;&lt;img src=&quot;../../public/images/github.gif&quot; alt=&quot;&quot;&gt;&lt;br&gt;&lt;/div&gt;
 
@@ -974,7 +1067,7 @@
     <link href="http://woliveiras.com.br/posts/haroopad-um-editor-markdown-maneiro/"/>
     <id>http://woliveiras.com.br/posts/haroopad-um-editor-markdown-maneiro/</id>
     <published>2015-02-09T12:53:56.000Z</published>
-    <updated>2016-04-13T11:30:45.713Z</updated>
+    <updated>2016-04-16T13:01:20.380Z</updated>
     
     <content type="html">&lt;div class=&quot;shared-img&quot;&gt;&lt;br&gt;&lt;img src=&quot;../..//public/images/Haroopad.png&quot; alt=&quot;&quot;&gt;&lt;br&gt;&lt;/div&gt;
 
@@ -1027,7 +1120,7 @@
     <link href="http://woliveiras.com.br/posts/como-detectar-o-dispositivo-que-acessa-seu-site/"/>
     <id>http://woliveiras.com.br/posts/como-detectar-o-dispositivo-que-acessa-seu-site/</id>
     <published>2015-02-03T18:47:41.000Z</published>
-    <updated>2016-04-13T11:30:45.713Z</updated>
+    <updated>2016-04-16T13:01:20.376Z</updated>
     
     <content type="html">&lt;p&gt;Uma dica rápida para quem trabalha com diversos tipos de dispositivos!&lt;/p&gt;
 &lt;p&gt;Dependendo do projeto em que você está trabalhando, pode chegar a necessidade de detectar qual é o tipo de dispositivo que está acessando o site/aplicação/sistema, etc. As vezes isso é feito para redirecionar o usuário para uma outra versão do projeto, as vezes simplesmente para ativar uma funcionalidade ou não.&lt;a id=&quot;more&quot;&gt;&lt;/a&gt;&lt;/p&gt;
@@ -1058,7 +1151,7 @@
     <link href="http://woliveiras.com.br/posts/aprenda-trabalhar-em-equipes/"/>
     <id>http://woliveiras.com.br/posts/aprenda-trabalhar-em-equipes/</id>
     <published>2015-01-30T08:00:51.000Z</published>
-    <updated>2016-04-13T11:30:45.709Z</updated>
+    <updated>2016-04-16T13:01:20.376Z</updated>
     
     <content type="html">&lt;p&gt;Como eu disse em &lt;a href=&quot;/posts/requisitos-para-vagas-front-end/&quot; title=&quot;Sobre os requisitos para vagas de emprego Front End (E outras áreas também)&quot;&gt;um post anterior&lt;/a&gt;, você não vai trabalhar sozinho a vida toda. Chega uma hora em que é preciso trabalhar em equipes, interagir com outras pessoas e é necessário que você aprenda isso. Mesmo que você trabalhe em casa, vai precisar enviar seu projeto para outras pessoas.&lt;br&gt;Existem algumas boas medidas para conseguir trabalhar bem em grandes ou pequenas equipes…&lt;a id=&quot;more&quot;&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;h2 id=&quot;Organizacao&quot;&gt;&lt;a href=&quot;#Organizacao&quot; class=&quot;headerlink&quot; title=&quot;Organização&quot;&gt;&lt;/a&gt;Organização&lt;/h2&gt;&lt;p&gt;As pastas que você cria para organizar seu projeto devem possuir nomes que auxiliem a entender o que tem dentro. Não somente as pastas, os nomes dos arquivos também devem ter algum significado.&lt;br&gt;Não crie uma pasta com o nome &lt;strong&gt;scripts&lt;/strong&gt; e coloque todos os .styl, .js, .html, .php, .rb, etc, ali dentro, mas crie uma organização ou siga alguma.&lt;br&gt;Isso serve até mesmo para que você se encontre mais fácil no seu projeto.&lt;br&gt;Trabalhar com outras pessoas não é a mesma coisa de ser criança e a mãe arrumar seu quarto… Você tem de se organizar e outras pessoas tem de entender sua organização.&lt;br&gt;Da uma olhada aqui no meu &lt;a href=&quot;https://github.com/woliveiras/pastel&quot; title=&quot;Pastel | um pequeno Boilerplate que eu criei para agilizar meus projetos&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Scaffold &lt;/a&gt;e veja como eu organizei os arquivos - É um exemplo beeeem básico, mas da para ter uma noção…&lt;br&gt;A forma como escreve seu código também faz diferença e vou falar disso agora!&lt;/p&gt;
@@ -1109,7 +1202,7 @@
     <link href="http://woliveiras.com.br/posts/semantica-html/"/>
     <id>http://woliveiras.com.br/posts/semantica-html/</id>
     <published>2015-01-29T12:00:25.000Z</published>
-    <updated>2016-04-13T11:30:45.713Z</updated>
+    <updated>2016-04-16T13:01:20.380Z</updated>
     
     <content type="html">&lt;div class=&quot;shared-img&quot;&gt;&lt;br&gt;&lt;img src=&quot;../..//public/images/HTML.png&quot; alt=&quot;&quot;&gt;&lt;br&gt;&lt;/div&gt;
 
@@ -1150,7 +1243,7 @@
     <link href="http://woliveiras.com.br/posts/gerenciar-projetos-com-trello/"/>
     <id>http://woliveiras.com.br/posts/gerenciar-projetos-com-trello/</id>
     <published>2015-01-28T02:00:07.000Z</published>
-    <updated>2016-04-13T11:30:45.713Z</updated>
+    <updated>2016-04-16T13:01:20.380Z</updated>
     
     <content type="html">&lt;div class=&quot;shared-img&quot;&gt;&lt;br&gt;&lt;img src=&quot;../../public/images/Trello.png&quot; alt=&quot;Trello&quot;&gt;&lt;/div&gt;
 
@@ -1213,7 +1306,7 @@
     <link href="http://woliveiras.com.br/posts/como-alcancar-objetivos-rapidamente-nos-estudos/"/>
     <id>http://woliveiras.com.br/posts/como-alcancar-objetivos-rapidamente-nos-estudos/</id>
     <published>2015-01-27T07:00:32.000Z</published>
-    <updated>2016-04-13T11:30:45.709Z</updated>
+    <updated>2016-04-16T13:01:20.376Z</updated>
     
     <content type="html">&lt;p&gt;Essa é mais uma dica sobre produtividade, porém agora é nos estudos.&lt;br&gt;Nós, Desenvolvedores, temos de estudar muito. Todo dia alguma ferramenta atualiza ou algo vira tendência e passa a ser usado no serviço e temos de aprender. E como fazer para aprender tudo isso sem ficar louco e de um jeito que consiga alcançar os objetivos mais rapidamente?&lt;a id=&quot;more&quot;&gt;&lt;/a&gt;&lt;br&gt;Se você não leu meu post anterior sobre produtividade da uma olhada &lt;a href=&quot;/posts/como-ser-mais-produtivo/&quot; title=&quot;Como ser mais produtivo?&quot;&gt;aqui&lt;/a&gt;.&lt;/p&gt;
 &lt;h2 id=&quot;Listas-de-novo&quot;&gt;&lt;a href=&quot;#Listas-de-novo&quot; class=&quot;headerlink&quot; title=&quot;Listas de novo&quot;&gt;&lt;/a&gt;Listas de novo&lt;/h2&gt;&lt;p&gt;Eu aprendi que fazer listas para tudo é uma ótima maneira de você ter certeza que vai concluir algo. Parece que você se obriga a fazer aquilo e se apagar da lista sem concluir parece um pecado! No caso de estudos não é diferente.&lt;/p&gt;
@@ -1270,55 +1363,6 @@
       <category term="Produtividade" scheme="http://woliveiras.com.br/tags/Produtividade/"/>
     
       <category term="Carreira" scheme="http://woliveiras.com.br/tags/Carreira/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>O que é linguagem de programação de alto/baixo nível?</title>
-    <link href="http://woliveiras.com.br/posts/o-que-e-linguagem-de-programacao-de-alto-nivel/"/>
-    <id>http://woliveiras.com.br/posts/o-que-e-linguagem-de-programacao-de-alto-nivel/</id>
-    <published>2015-01-27T03:51:01.000Z</published>
-    <updated>2016-04-13T11:30:45.713Z</updated>
-    
-    <content type="html">&lt;p&gt;Se você vem seguindo o mesmo &lt;a href=&quot;http://woliveiras.com.br/posts/guia-de-estudos-desenvolvedor-front-end-iniciante&quot;&gt;guia de estudos&lt;/a&gt;, vai chegar uma hora em que vai partir pro JavaScript e mais cedo ou mais tarde vai se aprofundar ainda mais em programação e é aí que você ouve alguns termos meio confusos como esse:&lt;/p&gt;
-&lt;p&gt;&lt;em&gt;JavaScript é uma linguagem de programação de alto nível.&lt;/em&gt;&lt;/p&gt;
-&lt;p&gt;Mas e dae? Quer dizer que ela é uma linguagem de programação da realeza? É uma princesa? Ou um princeso? O que significa isso? &lt;a id=&quot;more&quot;&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;h2 id=&quot;Linguagem-de-alto-nivel&quot;&gt;&lt;a href=&quot;#Linguagem-de-alto-nivel&quot; class=&quot;headerlink&quot; title=&quot;Linguagem de alto nível&quot;&gt;&lt;/a&gt;Linguagem de alto nível&lt;/h2&gt;&lt;p&gt;Essas são aquelas cuja &lt;a href=&quot;https://pt.wikipedia.org/wiki/Sintaxe&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;sintaxe&lt;/a&gt; se aproxima mais da nossa linguagem e se distanciam mais da linguagem de máquina.&lt;/p&gt;
-&lt;p&gt;Elas possuem um nível de abstração que faz com que você entenda aquele código mais facilmente, pois foi removido da sintaxe o que você não precisa entender em um primeiro contato com programação ou pra quem nunca vai mexer com linguagens de baixo nível.&lt;/p&gt;
-&lt;p&gt;Você não vai precisar conhecer coisas como &lt;a href=&quot;http://pt.wikipedia.org/wiki/Registrador_%28inform%C3%A1tica%29&quot; title=&quot;Registradores - Wikipedia&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;registradores&lt;/a&gt; ou &lt;a href=&quot;http://pt.wikipedia.org/wiki/Instru%C3%A7%C3%A3o_%28inform%C3%A1tica%29&quot; title=&quot;Instruções - Wikipedia&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;instruções&lt;/a&gt; do processador para conseguir fazer seu Hello World. - &lt;em&gt;Apesar que ninguém ensina isso antes de te mostrar o Hello World mesmo em linguagens de baixo nível né, mas deu pra entender a mensagem… ;)&lt;/em&gt;&lt;/p&gt;
-&lt;p&gt;Alguns exemplos de linguagens de alto nível:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;JavaScript &lt;strong&gt;&amp;lt;3 +++&lt;/strong&gt;&lt;/li&gt;
-&lt;li&gt;Python &lt;strong&gt;&amp;lt;3 +++&lt;/strong&gt;&lt;/li&gt;
-&lt;li&gt;PHP &lt;strong&gt;&amp;lt;3 ++&lt;/strong&gt;&lt;/li&gt;
-&lt;li&gt;Ruby &lt;strong&gt;&amp;lt;3 +&lt;/strong&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2 id=&quot;E-a-linguagem-de-baixo-nivel&quot;&gt;&lt;a href=&quot;#E-a-linguagem-de-baixo-nivel&quot; class=&quot;headerlink&quot; title=&quot;E a linguagem de baixo nível?&quot;&gt;&lt;/a&gt;E a linguagem de baixo nível?&lt;/h2&gt;&lt;p&gt;É aquela que se aproxima mais da linguagem de máquina.&lt;/p&gt;
-&lt;p&gt;Essas são as que você precisa ter o conhecimento direto da arquitetura do computador para fazer alguma coisa. Tem um pouquinho mais para conhecer sobre elas &lt;a href=&quot;http://pt.wikipedia.org/wiki/Linguagem_de_programa%C3%A7%C3%A3o_de_baixo_n%C3%ADvel&quot; title=&quot;Linguagem de programação de baixo nível - Wikipedia&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;aqui&lt;/a&gt;.&lt;/p&gt;
-&lt;h2 id=&quot;Qual-e-mais-dificil-de-se-trabalhar&quot;&gt;&lt;a href=&quot;#Qual-e-mais-dificil-de-se-trabalhar&quot; class=&quot;headerlink&quot; title=&quot;Qual é mais difícil de se trabalhar?&quot;&gt;&lt;/a&gt;Qual é mais difícil de se trabalhar?&lt;/h2&gt;&lt;p&gt;Nenhuma.&lt;/p&gt;
-&lt;p&gt;Ambas tem suas características e seus objetivos, então não tem qual é mais fácil ou difícil de se trabalhar.&lt;/p&gt;
-&lt;p&gt;É a mesma coisa de ficar na briga de qual linguagem de programação é melhor ou qual S.O. é melhor. Não tem, não existe. &lt;strong&gt;Cada uma se aplica a um cenário/uma necessidade&lt;/strong&gt;.&lt;/p&gt;
-&lt;p&gt;Claro que um &lt;strong&gt;iniciante&lt;/strong&gt;, só com lógica de programação, aprende a programar em uma linguagem de alto nível como Python, PHP, JS facilmente, porém ele vai sentir alguma dificuldade para uma de baixo nível. Mas não é nada que ele não se acostume ou que não aprenda com dedicação.&lt;/p&gt;
-&lt;p&gt;Se você planeja aprender uma linguagem de baixo nível, vai sem medo. O que vai acontecer é você ter de pesquisar mais no Google se não tiver conhecimento da arquitetura.&lt;/p&gt;
-&lt;h2 id=&quot;Exemplos&quot;&gt;&lt;a href=&quot;#Exemplos&quot; class=&quot;headerlink&quot; title=&quot;Exemplos&quot;&gt;&lt;/a&gt;Exemplos&lt;/h2&gt;&lt;p&gt;Pega esse Hello World em JS (Alto nível):&lt;br&gt;&lt;figure class=&quot;highlight less&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;console&lt;span class=&quot;selector-class&quot;&gt;.log&lt;/span&gt;(&lt;span class=&quot;string&quot;&gt;&#39;Hello World!&#39;&lt;/span&gt;);&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;/p&gt;
-&lt;p&gt;Agora em Assembly (Baixo nível):&lt;br&gt;&lt;figure class=&quot;highlight x86asm&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;3&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;4&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;5&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;6&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;7&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;8&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;9&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;10&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;11&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;12&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;13&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;14&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;15&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;16&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;17&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;18&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;19&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;20&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;21&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;22&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;23&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;24&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;25&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;26&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;27&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;28&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;29&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;30&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;31&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;32&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;33&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;34&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;35&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;36&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;37&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;38&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;39&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;40&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;41&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;42&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;43&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;44&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;45&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;46&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;47&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;48&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;49&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;50&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;51&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;52&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;%ifdef  NetBSD&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;meta&quot;&gt;section&lt;/span&gt; &lt;span class=&quot;string&quot;&gt;.note&lt;/span&gt;.netbsd.ident&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;        &lt;span class=&quot;built_in&quot;&gt;dd&lt;/span&gt;      &lt;span class=&quot;number&quot;&gt;7&lt;/span&gt;,&lt;span class=&quot;number&quot;&gt;4&lt;/span&gt;,&lt;span class=&quot;number&quot;&gt;1&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;        &lt;span class=&quot;built_in&quot;&gt;db&lt;/span&gt;      &lt;span class=&quot;string&quot;&gt;&quot;NetBSD&quot;&lt;/span&gt;,&lt;span class=&quot;number&quot;&gt;0&lt;/span&gt;,&lt;span class=&quot;number&quot;&gt;0&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;        &lt;span class=&quot;built_in&quot;&gt;dd&lt;/span&gt;      &lt;span class=&quot;number&quot;&gt;200000000&lt;/span&gt;       &lt;span class=&quot;comment&quot;&gt;; amd64 supported since 2.0&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;meta&quot;&gt;%endif&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;%ifdef  OpenBSD&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;meta&quot;&gt;section&lt;/span&gt; &lt;span class=&quot;string&quot;&gt;.note&lt;/span&gt;.openbsd.ident&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;        &lt;span class=&quot;meta&quot;&gt;align&lt;/span&gt;   &lt;span class=&quot;number&quot;&gt;2&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;        &lt;span class=&quot;built_in&quot;&gt;dd&lt;/span&gt;      &lt;span class=&quot;number&quot;&gt;8&lt;/span&gt;,&lt;span class=&quot;number&quot;&gt;4&lt;/span&gt;,&lt;span class=&quot;number&quot;&gt;1&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;        &lt;span class=&quot;built_in&quot;&gt;db&lt;/span&gt;      &lt;span class=&quot;string&quot;&gt;&quot;OpenBSD&quot;&lt;/span&gt;,&lt;span class=&quot;number&quot;&gt;0&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;        &lt;span class=&quot;built_in&quot;&gt;dd&lt;/span&gt;      &lt;span class=&quot;number&quot;&gt;0&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;        &lt;span class=&quot;meta&quot;&gt;align&lt;/span&gt;   &lt;span class=&quot;number&quot;&gt;2&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;meta&quot;&gt;%endif&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;meta&quot;&gt;section&lt;/span&gt; &lt;span class=&quot;string&quot;&gt;.text&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;meta&quot;&gt;%ifidn&lt;/span&gt; __OUTPUT_FORMAT__, macho64       &lt;span class=&quot;comment&quot;&gt;; MacOS X&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;        &lt;span class=&quot;meta&quot;&gt;%define&lt;/span&gt; SYS_exit        &lt;span class=&quot;number&quot;&gt;0x2000001&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;        &lt;span class=&quot;meta&quot;&gt;%define&lt;/span&gt; SYS_write       &lt;span class=&quot;number&quot;&gt;0x2000004&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;        &lt;span class=&quot;meta&quot;&gt;global&lt;/span&gt;  start&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;symbol&quot;&gt;        start:&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;%elifidn __OUTPUT_FORMAT__, elf64&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;        %ifdef  UNIX            &lt;span class=&quot;comment&quot;&gt;; Solaris/OI/FreeBSD/NetBSD/OpenBSD/DragonFly&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;                &lt;span class=&quot;meta&quot;&gt;%define&lt;/span&gt; SYS_exit        &lt;span class=&quot;number&quot;&gt;1&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;                &lt;span class=&quot;meta&quot;&gt;%define&lt;/span&gt; SYS_write       &lt;span class=&quot;number&quot;&gt;4&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;        &lt;span class=&quot;meta&quot;&gt;%else&lt;/span&gt;                   &lt;span class=&quot;comment&quot;&gt;; Linux&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;                &lt;span class=&quot;meta&quot;&gt;%define&lt;/span&gt; SYS_exit        &lt;span class=&quot;number&quot;&gt;60&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;                &lt;span class=&quot;meta&quot;&gt;%define&lt;/span&gt; SYS_write       &lt;span class=&quot;number&quot;&gt;1&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;        &lt;span class=&quot;meta&quot;&gt;%endif&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;        &lt;span class=&quot;meta&quot;&gt;global&lt;/span&gt;  _start&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;symbol&quot;&gt;        _start:&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;meta&quot;&gt;%else&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;        &lt;span class=&quot;meta&quot;&gt;%error&lt;/span&gt;  &lt;span class=&quot;string&quot;&gt;&quot;Unsupported platform&quot;&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;meta&quot;&gt;%endif&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;        &lt;span class=&quot;keyword&quot;&gt;mov&lt;/span&gt;     &lt;span class=&quot;built_in&quot;&gt;rax&lt;/span&gt;,SYS_write&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;        &lt;span class=&quot;keyword&quot;&gt;mov&lt;/span&gt;     &lt;span class=&quot;built_in&quot;&gt;rdi&lt;/span&gt;,&lt;span class=&quot;number&quot;&gt;1&lt;/span&gt;           &lt;span class=&quot;comment&quot;&gt;; stdout&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;        &lt;span class=&quot;keyword&quot;&gt;mov&lt;/span&gt;     &lt;span class=&quot;built_in&quot;&gt;rsi&lt;/span&gt;,msg&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;        &lt;span class=&quot;keyword&quot;&gt;mov&lt;/span&gt;     &lt;span class=&quot;built_in&quot;&gt;rdx&lt;/span&gt;,len&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;        &lt;span class=&quot;keyword&quot;&gt;syscall&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;        &lt;span class=&quot;keyword&quot;&gt;mov&lt;/span&gt;     &lt;span class=&quot;built_in&quot;&gt;rax&lt;/span&gt;,SYS_exit&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;        &lt;span class=&quot;keyword&quot;&gt;xor&lt;/span&gt;     &lt;span class=&quot;built_in&quot;&gt;rdi&lt;/span&gt;,&lt;span class=&quot;built_in&quot;&gt;rdi&lt;/span&gt;         &lt;span class=&quot;comment&quot;&gt;; exit code 0&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;        &lt;span class=&quot;keyword&quot;&gt;syscall&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;meta&quot;&gt;section&lt;/span&gt; &lt;span class=&quot;string&quot;&gt;.data&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;msg     &lt;span class=&quot;built_in&quot;&gt;db&lt;/span&gt;      &lt;span class=&quot;string&quot;&gt;&quot;Hello, world!&quot;&lt;/span&gt;,&lt;span class=&quot;number&quot;&gt;10&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;len     &lt;span class=&quot;built_in&quot;&gt;equ&lt;/span&gt;     $-msg&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;/p&gt;
-&lt;p&gt;Outros exemplos &lt;a href=&quot;http://en.wikipedia.org/wiki/List_of_Hello_world_program_examples&quot; title=&quot;Exemplos de hello world&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;aqui ;)&lt;/a&gt;.&lt;/p&gt;
-</content>
-    
-    <summary type="html">
-    
-      O que é uma linguagem de programação de alto nível? E linguagem de programação de baixo nível? Acompanhe...
-    
-    </summary>
-    
-      <category term="Programação" scheme="http://woliveiras.com.br/categories/Programacao/"/>
-    
-      <category term="Teoria" scheme="http://woliveiras.com.br/categories/Programacao/Teoria/"/>
-    
-    
-      <category term="Programação" scheme="http://woliveiras.com.br/tags/Programacao/"/>
-    
-      <category term="Teoria" scheme="http://woliveiras.com.br/tags/Teoria/"/>
     
   </entry>
   
