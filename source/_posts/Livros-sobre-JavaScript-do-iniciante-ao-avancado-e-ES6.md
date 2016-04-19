@@ -94,8 +94,8 @@ Ainda não li esses livros, mas já estão na fila!
 
 Onde eu montei essa minha trilha de estudos com livros sobre JavaScript?
 
-- [The book is on the table](http://www.vitorbritto.com.br/blog/the-book-is-on-the-table/)
-- [JavaScript Path](https://github.com/javascript-society/javascript-path)
+- [The book is on the table, do Vitor Brito](http://www.vitorbritto.com.br/blog/the-book-is-on-the-table/)
+- [JavaScript Path, no GitHub do JavaScript Society](https://github.com/javascript-society/javascript-path)
 
 Se curtiu essa dica, compartilha nas redes sociais!
 
