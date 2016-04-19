@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://woliveiras.com.br/"/>
-  <updated>2016-04-18T12:12:14.554Z</updated>
+  <updated>2016-04-19T10:54:27.895Z</updated>
   <id>http://woliveiras.com.br/</id>
   
   <author>
@@ -16,11 +16,78 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>Livros sobre JavaScript, do iniciante ao avançado e ES6</title>
+    <link href="http://woliveiras.com.br/posts/Livros-sobre-JavaScript-do-iniciante-ao-avancado-e-ES6/"/>
+    <id>http://woliveiras.com.br/posts/Livros-sobre-JavaScript-do-iniciante-ao-avancado-e-ES6/</id>
+    <published>2016-04-19T10:24:08.000Z</published>
+    <updated>2016-04-19T10:54:27.895Z</updated>
+    
+    <content type="html">&lt;p&gt;Existem excelentes livros sobre JavaScript no mercado, mas são tantos que nos perdemos em qual ler primeiro, qual ler depois, qual nem vale a pena ler em determinado nível de conhecimento… São várias dúvidas.&lt;/p&gt;
+&lt;p&gt;Nesse artigo vou tentar ajudar a escolher os melhores livros para seu nível de conhecimento e montar uma sequência legal de leitura para virar um JavaScript Master!&lt;a id=&quot;more&quot;&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Alguns livros desses eu já li e alguns ainda estão na fila para estudo.&lt;/p&gt;
+&lt;h2 id=&quot;Nivel-iniciante&quot;&gt;&lt;a href=&quot;#Nivel-iniciante&quot; class=&quot;headerlink&quot; title=&quot;Nível iniciante&quot;&gt;&lt;/a&gt;Nível iniciante&lt;/h2&gt;&lt;p&gt;Se encaixa nesse nível pessoas que nunca programaram em nenhuma linguagem ou que estão começando a aprender JavaScript do zero.&lt;/p&gt;
+&lt;p&gt;Antes de começar a comprar os livros é importante que você saiba qual o caminho que quer seguir: JavaScript no Servidor (Back End com Nodejs) ou JavaScript no navegador (Front End).&lt;/p&gt;
+&lt;p&gt;Mesmo que você escolha o Front End, é interessante que aprenda ao menos o básico de Node para que consiga criar boas tarefas no seu Task Runner (&lt;a href=&quot;http://blog.caelum.com.br/bye-bye-grunt-js-hello-gulp-js/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Gulp&lt;/a&gt;/&lt;a href=&quot;/posts/grunt-automatizando-tarefas/&quot;&gt;Grunt&lt;/a&gt;/&lt;a href=&quot;https://css-tricks.com/why-npm-scripts/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;NPM Scripts&lt;/a&gt;) favorito ou mesmo que consiga criar algum plugin caso não encontre algo que sirva para o seu problema.&lt;/p&gt;
+&lt;p&gt;Como meu foco, até agora, está em JavaScript no Front End, vou indicar os livros sobre JavaScript no Browser e criação de &lt;a href=&quot;https://en.wikipedia.org/wiki/Single-page_application&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;SPA’s&lt;/a&gt;.&lt;/p&gt;
+&lt;h2 id=&quot;JavaScript-para-quem-nunca-programou&quot;&gt;&lt;a href=&quot;#JavaScript-para-quem-nunca-programou&quot; class=&quot;headerlink&quot; title=&quot;JavaScript para quem nunca programou&quot;&gt;&lt;/a&gt;JavaScript para quem nunca programou&lt;/h2&gt;&lt;p&gt;Alguns livros não são indicados para quem nunca desenvolveu na vida, pois podem apresentar conceitos avançados que confundem a cabeça do iniciante, principalmente se for o primeiro contato com lógica. Portanto eu indicaria esse livro, da &lt;a href=&quot;https://www.casadocodigo.com.br&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Casa do Código&lt;/a&gt;, se quiser aprender Lógica de Programação COM JavaScript:&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://www.casadocodigo.com.br/products/livro-programacao&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Lógica de Programação, crie seus primeiros programas usando Javascript e HTML&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id=&quot;JavaScript-para-iniciantes-em-JavaScript&quot;&gt;&lt;a href=&quot;#JavaScript-para-iniciantes-em-JavaScript&quot; class=&quot;headerlink&quot; title=&quot;JavaScript para iniciantes em JavaScript&quot;&gt;&lt;/a&gt;JavaScript para iniciantes em JavaScript&lt;/h2&gt;&lt;p&gt;Se você já desenvolve ou já sabe lógica de programação, agora vem os livros sobre JavaScript que você vai curtir.&lt;/p&gt;
+&lt;p&gt;No começo, não foque em &lt;a href=&quot;/posts/frameworks-front-end/&quot;&gt;Frameworks&lt;/a&gt;, seu foco deve ser aprender a linguagem. Frameworks são só ferramentas para facilitar seu dia-a-dia, mas sem eles você também consegue trabalhar.&lt;/p&gt;
+&lt;p&gt;Tem gente que recomenda o &lt;a href=&quot;http://www.buscape.com.br/livros/javascript-guia-definitivo&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;JavaScript, o guia definitivo&lt;/a&gt; para iniciantes ou mesmo indica o &lt;a href=&quot;http://www.buscape.com.br/livros/javascript-good-parts&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;JavaScript, the good parts&lt;/a&gt;. Eu não acho esses livros bons para quem está pegando JavaScript do zero.&lt;/p&gt;
+&lt;p&gt;O primeiro apresenta tanta coisa que é melhor telo como livro de referência sobre a linguagem do que para aprender do zero. Porém existem trilhas de estudos focadas nele pela Web, então pode ser uma boa você seguir a &lt;strong&gt;trilha de estudos&lt;/strong&gt; ao invés de comprar o livro e sair lendo do zero.&lt;/p&gt;
+&lt;p&gt;Já o segundo só apresenta “as melhores partes”, “as coisas boas” do JavaScript. O iniciante não sabe nem quais são as partes ruins, então não vai aprender algo útil para o dia-a-dia (diga-se pegar aquele bug que outro dev gerou) se ele só souber alguns detalhes da linguagem.&lt;/p&gt;
+&lt;p&gt;Livros que eu indico a quem deseja aprender JavaScript do zero:&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;http://novatec.com.br/livros/aprendendojavascript/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Aprendendo JavaScript, Adicione brilho e vida às suas páginas web&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;A autora aborda desde os principios do JavaScript, passa por debug, Cross Browser, Ajax e algumas técnicas para escapar de algumas armadilhas da linguagem.&lt;/p&gt;
+&lt;p&gt;Outro livro excelente que apresenta um overview completasso sobre a linguagem é o:&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;http://eloquentjavascript.net/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Eloquent JavaScript&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Esses sim ensinam do começo e com boa didática para um primeiro contato com JS.&lt;/p&gt;
+&lt;h2 id=&quot;Nivel-intermediario&quot;&gt;&lt;a href=&quot;#Nivel-intermediario&quot; class=&quot;headerlink&quot; title=&quot;Nível intermediário&quot;&gt;&lt;/a&gt;Nível intermediário&lt;/h2&gt;&lt;p&gt;Agora que você já sabe como a linguagem funciona, como o navegador se comporta com seus scripts e debugar, é hora de aprender algumas coisas sobre organização de código e performance.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;http://www.buscape.com.br/segredos-do-ninja-javascript-john-resig-bear-bibeault-8575223283&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Segredos do JavaScript Ninja&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Apresenta muita coisa boa da linguagem, OOP, uma base de Programação Funcional, modularizar seu código, cuidados com Cross Browser, dentre outras técnicas muito boas de debug e até TDD.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;http://www.buscape.com.br/padroes-javascript-construa-aplicacoes-mais-robustas-usando-padroes-de-projeto-e-programacao-stoyan-stefanov-857522266x&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Padrões Javascript - Construa Aplicações Mais Robustas Usando Padrões de Projeto e Programação&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Ou o:&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://addyosmani.com/resources/essentialjsdesignpatterns/book/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Learning JavaScript Design Patterns&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Para aprender Padrões de Projetos aplicando a linguagem JavaScript. Algo muito importante para quem deseja criar aplicações escaláveis e trabalhar em equipe.&lt;/p&gt;
+&lt;p&gt;E para deixar sua aplicação voando:&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;http://www.buscape.com.br/javascript-de-alto-desempenho-nicholas-c-zakas-8575222414&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Javascript de Alto Desempenho&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Com boas práticas de desenvolvimento pensando em performance.&lt;/p&gt;
+&lt;p&gt;Agora sim, eu indicaria o &lt;a href=&quot;http://www.buscape.com.br/livros/javascript-good-parts&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;JavaScript, the good parts&lt;/a&gt; caso você leia o sumário e ache algo que lhe interesse depois desses outros livros.&lt;/p&gt;
+&lt;h2 id=&quot;Subindo-de-nivel&quot;&gt;&lt;a href=&quot;#Subindo-de-nivel&quot; class=&quot;headerlink&quot; title=&quot;Subindo de nível&quot;&gt;&lt;/a&gt;Subindo de nível&lt;/h2&gt;&lt;p&gt;Agora que você já conhece muita coisa da linguagem, é hora de aprender coisas legais como Testes (que você já tem uma introdução no Segredos do JavaScript Ninja) e ES6. Não indico ES6 pra quem está aprendendo do zero, pois até hoje (Abril de 2016) não são todas as empresas, frameworks, libs e navegadores que suportam a linguagem. :,(&lt;/p&gt;
+&lt;p&gt;Ainda não li esses livros, mas já estão na fila!&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;http://www.buscape.com.br/single-page-web-applications-javascript-end-to-end-michael-mikowski-josh-powell-1617290750&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Livros Single Page Web Applications: JavaScript end-to-end&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;http://shop.oreilly.com/product/0636920024699.do&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Testable JavaScript&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;http://exploringjs.com/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Exploring ES6: Upgrade to the next version of JavaScript&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://leanpub.com/understandinges6/read/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Understanding ECMAScript 6&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;É interessante aprender mais sobre Programação Funcional com JavaScript, mas ainda não olhei com carinho nenhum livro sobre esse assunto. Se você conhecer um livro bom. sobre isso, indica aqui em baixo nos comentários.&lt;/p&gt;
+&lt;p&gt;Onde eu montei essa minha trilha de estudos com livros sobre JavaScript?&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;http://www.vitorbritto.com.br/blog/the-book-is-on-the-table/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;The book is on the table&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://github.com/javascript-society/javascript-path&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;JavaScript Path&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Se curtiu essa dica, compartilha nas redes sociais!&lt;/p&gt;
+&lt;p&gt;Espalhe a palavra.&lt;/p&gt;
+</content>
+    
+    <summary type="html">
+    
+      Livros sobre JavaScript do iniciante ao avançado em sequência para estudo. Trilha de estudos com livros sobre JavaScript
+    
+    </summary>
+    
+    
+      <category term="livros" scheme="http://woliveiras.com.br/tags/livros/"/>
+    
+      <category term="javascript" scheme="http://woliveiras.com.br/tags/javascript/"/>
+    
+  </entry>
+  
+  <entry>
     <title>Produtividade, conhece-te a ti mesmo</title>
     <link href="http://woliveiras.com.br/posts/Produtividade-conhece-te-a-ti-mesmo/"/>
     <id>http://woliveiras.com.br/posts/Produtividade-conhece-te-a-ti-mesmo/</id>
     <published>2016-04-18T11:48:58.000Z</published>
-    <updated>2016-04-18T12:12:14.554Z</updated>
+    <updated>2016-04-19T10:54:27.895Z</updated>
     
     <content type="html">&lt;p&gt;O autoconhecimento é muito importante para você se tornar produtivo.&lt;/p&gt;
 &lt;p&gt;De nada adianta aprender milhares de técnicas, receber diversas dicas sobre produtividade, se nenhuma delas se encaixa em você. Claro que é necessário um pouco de esforço de sua parte para que as metodologias deem certo, porém, dentre milhares de técnicas, você vai precisar achar uma que se encaixe em seu estilo de vida e na sua forma de pensar e agir. &lt;a id=&quot;more&quot;&gt;&lt;/a&gt;&lt;/p&gt;
@@ -98,7 +165,7 @@
     <link href="http://woliveiras.com.br/posts/Por-que-voce-desistiu-de-ser-Cientista/"/>
     <id>http://woliveiras.com.br/posts/Por-que-voce-desistiu-de-ser-Cientista/</id>
     <published>2016-04-16T11:55:36.000Z</published>
-    <updated>2016-04-18T12:12:14.554Z</updated>
+    <updated>2016-04-19T10:54:27.895Z</updated>
     
     <content type="html">&lt;p&gt;Há algum tempo venho observando as pessoas, mais especificamente as pessoas da área de Desenvolvimento de Software. Há mais tempo ainda eu observo as outras pessoas, o ser humano em geral. E desde sempre percebi um padrão:&lt;/p&gt;
 &lt;p&gt;Ao crescer, as pessoas abandonam a profissão que nasce com elas, a profissão de &lt;strong&gt;cientista&lt;/strong&gt;.&lt;a id=&quot;more&quot;&gt;&lt;/a&gt;&lt;/p&gt;
@@ -191,7 +258,7 @@
     <link href="http://woliveiras.com.br/posts/produtividade-uma-re-introducao/"/>
     <id>http://woliveiras.com.br/posts/produtividade-uma-re-introducao/</id>
     <published>2016-04-13T10:58:34.000Z</published>
-    <updated>2016-04-18T12:12:14.554Z</updated>
+    <updated>2016-04-19T10:54:27.895Z</updated>
     
     <content type="html">&lt;p&gt;No ritmo frenético em que vivemos, ser produtivo já não é mais qualidade de ninguém, precisa ser uma característica de todos.&lt;/p&gt;
 &lt;p&gt;Nós queremos fazer um amontoado de coisas todos os dias e toda hora aparece alguma outra coisa pra se fazer.&lt;/p&gt;
@@ -255,7 +322,7 @@
     <link href="http://woliveiras.com.br/posts/Criando-uma-imagem-Docker-personalizada/"/>
     <id>http://woliveiras.com.br/posts/Criando-uma-imagem-Docker-personalizada/</id>
     <published>2016-04-12T01:18:59.000Z</published>
-    <updated>2016-04-18T12:12:14.554Z</updated>
+    <updated>2016-04-19T10:54:27.895Z</updated>
     
     <content type="html">&lt;p&gt;É muito legal poder baixar uma imagem do &lt;a href=&quot;http://hub.docker.com/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Docker Hub&lt;/a&gt; e já sair criando os containers, modificando e brincando, mas e depois?&lt;/p&gt;
 &lt;p&gt;Como fazemos para levar essa imagem para outro host?&lt;/p&gt;
@@ -367,7 +434,7 @@
     <link href="http://woliveiras.com.br/posts/comandos-mais-utilizados-no-docker/"/>
     <id>http://woliveiras.com.br/posts/comandos-mais-utilizados-no-docker/</id>
     <published>2016-04-12T00:00:08.000Z</published>
-    <updated>2016-04-18T12:12:14.554Z</updated>
+    <updated>2016-04-19T10:54:27.895Z</updated>
     
     <content type="html">&lt;p&gt;Um post rapidinho com os comandos mais utilizados do Docker para não esquecer e consultar facilmente. :D&lt;/p&gt;
 &lt;p&gt;Se você não viu a primeira parte dessa sequência, clique &lt;a href=&quot;/posts/uma-rapida-introducao-ao-docker-e-instalacao-no-ubuntu/&quot;&gt;aqui&lt;/a&gt;.&lt;/p&gt;
@@ -493,7 +560,7 @@
     <link href="http://woliveiras.com.br/posts/imagem-docker-ou-um-container-docker/"/>
     <id>http://woliveiras.com.br/posts/imagem-docker-ou-um-container-docker/</id>
     <published>2016-04-11T17:00:00.000Z</published>
-    <updated>2016-04-18T12:12:14.554Z</updated>
+    <updated>2016-04-19T10:54:27.895Z</updated>
     
     <content type="html">&lt;p&gt;Se você viu a primeira parte dessa sequência de artigos, percebeu que existem dois termos muito utilizados quando falamos de Docker: &lt;strong&gt;Imagens&lt;/strong&gt; e &lt;strong&gt;Containers&lt;/strong&gt;. Você deve se perguntar: qual é a diferença entre imagem e container Docker? Ou então: O que eu rodo com o &lt;code&gt;docker run&lt;/code&gt;, uma imagem ou um container? &lt;a id=&quot;more&quot;&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;Se você não viu o primeiro artigo, da uma olhada &lt;a href=&quot;/posts/uma-rapida-introducao-ao-docker-e-instalacao-no-ubuntu/&quot;&gt;aqui&lt;/a&gt;.&lt;/p&gt;
@@ -572,7 +639,7 @@
     <link href="http://woliveiras.com.br/posts/uma-rapida-introducao-ao-docker-e-instalacao-no-ubuntu/"/>
     <id>http://woliveiras.com.br/posts/uma-rapida-introducao-ao-docker-e-instalacao-no-ubuntu/</id>
     <published>2016-04-10T11:03:47.000Z</published>
-    <updated>2016-04-18T12:12:14.554Z</updated>
+    <updated>2016-04-19T10:54:27.895Z</updated>
     
     <content type="html">&lt;p&gt;&lt;div class=&quot;shared-img&quot;&gt;&lt;br&gt;&lt;img src=&quot;../../public/images/docker.png&quot; alt=&quot;Docker&quot;&gt;&lt;br&gt;&lt;/div&gt;Você já deve ter ouvido falar, pelo menos uma vez, sobre &lt;a href=&quot;https://www.docker.com/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Docker&lt;/a&gt; em algum lugar. Seja em palestras, blogs, vídeos ou em qualquer outra fonte de estudos sobre desenvolvimento, uma hora sempre comentamos sobre virtualização de ambientes e o Docker é a ferramenta que mais tem se destacado para tal. Ele é uma das 8 maravilhas das atualidades mais atuais. Vamos entender um pouco, então, o que é o Docker e como instalar no nosso Ubuntu.&lt;a id=&quot;more&quot;&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;h2 id=&quot;Introducao&quot;&gt;&lt;a href=&quot;#Introducao&quot; class=&quot;headerlink&quot; title=&quot;Introdução&quot;&gt;&lt;/a&gt;Introdução&lt;/h2&gt;&lt;p&gt;Eu também já ouvia falar do Docker a um bom tempo, porém nunca havia me aprofundado mais nessa ferramenta.&lt;/p&gt;
@@ -658,7 +725,7 @@
     <link href="http://woliveiras.com.br/posts/postando-no-blog-est%C3%A1tico-direto-pelo-github-com-hexo-e-travis-ci/"/>
     <id>http://woliveiras.com.br/posts/postando-no-blog-estático-direto-pelo-github-com-hexo-e-travis-ci/</id>
     <published>2016-02-07T00:00:00.000Z</published>
-    <updated>2016-04-18T12:12:14.554Z</updated>
+    <updated>2016-04-19T10:54:27.895Z</updated>
     
     <content type="html">&lt;p&gt;Confesso que fiquei tentado a migrar para o &lt;a href=&quot;https://jekyllrb.com/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Jekyll (Ruby)&lt;/a&gt; depois que um &lt;a href=&quot;http://jotateles.com.br/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;amigo&lt;/a&gt; me mostrou que da para postar no blog direto do GitHub sem ter o Jekyll instalado na máquina. Porém eu não desisti do meu queridinho, o &lt;a href=&quot;http://hexo.io/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Hexo (feito com Node &amp;lt;3)&lt;/a&gt;.&lt;a id=&quot;more&quot;&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;&lt;em&gt;Se você não conhece o Hexo, da uma olhada &lt;a href=&quot;http://woliveiras.com.br/posts/Migrando-de-Wordpress-para-Hexo/&quot;&gt;nesse artigo&lt;/a&gt;.&lt;/em&gt;&lt;/p&gt;
@@ -733,7 +800,7 @@
     <link href="http://woliveiras.com.br/posts/um-ano-como-desenvolvedor-front-end/"/>
     <id>http://woliveiras.com.br/posts/um-ano-como-desenvolvedor-front-end/</id>
     <published>2015-12-01T12:00:00.000Z</published>
-    <updated>2016-04-18T12:12:14.554Z</updated>
+    <updated>2016-04-19T10:54:27.895Z</updated>
     
     <content type="html">&lt;p&gt;Todo mundo tem uma história legal pra contar sobre como começou na área de Desenvolvimento, seja Web, Mobile, Desktop ou tanto faz. Sempre temos algo interessante para passar para os novos desenvolvedores que estão entrando no mercado e que, as vezes, tem medo de se arriscar, achando que &lt;a href=&quot;http://woliveiras.com.br/posts/requisitos-para-vagas-front-end/&quot;&gt;precisam saber de tudo para investir no primeiro trampo&lt;/a&gt;.&lt;/p&gt;
 &lt;p&gt;Conheça um pouco sobre como foi meu primeiro ano como Desenvolvedor Front End. Medos, frustrações, desespero, alegria, festas e algumas dicas para se preparar para o mercado de trabalho.&lt;/p&gt;
@@ -783,7 +850,7 @@
     <link href="http://woliveiras.com.br/posts/corrigindo-permissoes-de-usuario-linux-npm/"/>
     <id>http://woliveiras.com.br/posts/corrigindo-permissoes-de-usuario-linux-npm/</id>
     <published>2015-09-12T13:00:00.000Z</published>
-    <updated>2016-04-18T12:12:14.554Z</updated>
+    <updated>2016-04-19T10:54:27.895Z</updated>
     
     <content type="html">&lt;div class=&quot;shared-img&quot;&gt;&lt;br&gt;&lt;img src=&quot;../../public/images/npm.svg&quot; alt=&quot;&quot;&gt;&lt;br&gt;&lt;/div&gt;
 
@@ -826,7 +893,7 @@
     <link href="http://woliveiras.com.br/posts/utilizando-versoes-antigas-do-nodejs/"/>
     <id>http://woliveiras.com.br/posts/utilizando-versoes-antigas-do-nodejs/</id>
     <published>2015-09-12T08:00:32.000Z</published>
-    <updated>2016-04-18T12:12:14.554Z</updated>
+    <updated>2016-04-19T10:54:27.899Z</updated>
     
     <content type="html">&lt;div class=&quot;shared-img&quot;&gt;&lt;br&gt;&lt;img src=&quot;../..//public/images/nodejs.png&quot; alt=&quot;&quot;&gt;&lt;br&gt;&lt;/div&gt;
 
@@ -911,7 +978,7 @@
     <link href="http://woliveiras.com.br/posts/twitter-bootstrap-bootstrap-do-jeito-certo/"/>
     <id>http://woliveiras.com.br/posts/twitter-bootstrap-bootstrap-do-jeito-certo/</id>
     <published>2015-09-09T01:00:00.000Z</published>
-    <updated>2016-04-18T12:12:14.554Z</updated>
+    <updated>2016-04-19T10:54:27.895Z</updated>
     
     <content type="html">&lt;p&gt;Muita gente critica o uso do &lt;a href=&quot;http://getbootstrap.com/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Twitter Bootstrap&lt;/a&gt; devido a nomenclatura de suas classes e aos muitos componentes que o framework possui.&lt;/p&gt;
 &lt;p&gt;Dizem que as classes não são semanticas e que o peso do framework é desnecessário.&lt;/p&gt;
@@ -994,7 +1061,7 @@
     <link href="http://woliveiras.com.br/posts/Migrando-de-Wordpress-para-Hexo/"/>
     <id>http://woliveiras.com.br/posts/Migrando-de-Wordpress-para-Hexo/</id>
     <published>2015-08-05T02:53:41.000Z</published>
-    <updated>2016-04-18T12:12:14.554Z</updated>
+    <updated>2016-04-19T10:54:27.895Z</updated>
     
     <content type="html">&lt;p&gt;&lt;div class=&quot;shared-img&quot;&gt;&lt;br&gt;&lt;img src=&quot;../../public/images/hexo-logo.png&quot; alt=&quot;Hexo Blog&quot;&gt;&lt;br&gt;&lt;/div&gt;A um bom tempo sinto vontade de mudar meu Blog de WordPress para uma plataforma de  conteúdo estático, mas não achava nenhuma alternativa, pois que queria usar Nodejs. Por isso não fui para o, muito usado na comunidade, &lt;a href=&quot;http://jekyllrb.com/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Jekyll(Ruby)&lt;/a&gt; , nem para o &lt;a href=&quot;http://blog.getpelican.com/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Pelican(Python &amp;lt;3)&lt;/a&gt;.&lt;a id=&quot;more&quot;&gt;&lt;/a&gt;&lt;br&gt;Em busca de uma alternativa encontrei o &lt;a href=&quot;https://hexo.io&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Hexo&lt;/a&gt; e, um pouco depois de eu conhecer essa plataforma, o &lt;a href=&quot;http://blog.da2k.com.br/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Daciuk&lt;/a&gt; escreveu um &lt;a href=&quot;http://blog.da2k.com.br/2014/01/05/hexo-criando-um-blog-ao-estilo-miojo/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;post&lt;/a&gt; muito maneiro incentivando o seu uso. Foi então que eu decidi de vez usar essa plataforma!&lt;br&gt;Bora conhecer ela e como foi a migração de WordPress para Hexo?&lt;/p&gt;
 &lt;p&gt;###Levantando as necessidades&lt;/p&gt;
@@ -1049,7 +1116,7 @@
     <link href="http://woliveiras.com.br/posts/frameworks-front-end/"/>
     <id>http://woliveiras.com.br/posts/frameworks-front-end/</id>
     <published>2015-03-05T00:18:46.000Z</published>
-    <updated>2016-04-18T12:12:14.554Z</updated>
+    <updated>2016-04-19T10:54:27.895Z</updated>
     
     <content type="html">&lt;p&gt;Já parou pra pensar quantas vezes você repete o mesmo código durante o Desenvolvimento, seja Web, Mobile ou Desktop? Já pensou em padronizar o que você faz de alguma maneira?&lt;br&gt;E pra você que é Gerente de Projetos, Líder ou algo do tipo: Já pensou em poder adicionar um membro no seu grupo  e ele já saber como funciona o Desenvolvimento nessa equipe e conseguir ser produtivo desde o princípio?&lt;br&gt;Pois é, Frameworks servem para isso… Vem comigo que vou explicar melhor. ;)&lt;a id=&quot;more&quot;&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;h2 id=&quot;O-que-sao-Frameworks&quot;&gt;&lt;a href=&quot;#O-que-sao-Frameworks&quot; class=&quot;headerlink&quot; title=&quot;O que são Frameworks?&quot;&gt;&lt;/a&gt;O que são Frameworks?&lt;/h2&gt;&lt;p&gt;Você pega aqueles códigos que se repetem entre os projetos, adiciona uma pitada de &lt;a href=&quot;http://pt.wikipedia.org/wiki/Padr%C3%A3o_de_projeto_de_software&quot; title=&quot;Wikipedia - Padrões de Projetos&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Padrões&lt;/a&gt;, deixa conforme sua equipe precisa ou &lt;a href=&quot;http://tableless.com.br/locaweb-style-como-iniciamos/&quot; title=&quot;Locaweb Style - Framework Front End da Locaweb&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;conforme sua empresa trabalha&lt;/a&gt;, empacota tudo isso pra poder reutilizar depois e pronto, criou um Framework!&lt;br&gt;Só isso? Sim, só isso… Framework é uma ferramenta com os códigos, padrões, etc, que você consegue utilizar pra resolver problemas que se repetem ou mesmo pra iniciar projetos que vão possuir as mesmas características seja no Front, Back End ou mesmo para &lt;a href=&quot;https://github.com/woliveiras/pastel&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Tooling(Ferramentas)&lt;/a&gt;. Quando você utiliza um Framework como base, pode somente baixar ele, configurar ou instalar e seguir dali para as necessidades específicas de cada projeto. Isso mata muito tempo que você perderia fazendo algo que sabe que vai repetir no próximo trabalho.&lt;/p&gt;
@@ -1099,7 +1166,7 @@
     <link href="http://woliveiras.com.br/posts/contribuindo-para-projetos-open-source-no-github-mesmo-sendo-iniciante/"/>
     <id>http://woliveiras.com.br/posts/contribuindo-para-projetos-open-source-no-github-mesmo-sendo-iniciante/</id>
     <published>2015-02-09T14:12:32.000Z</published>
-    <updated>2016-04-18T12:12:14.554Z</updated>
+    <updated>2016-04-19T10:54:27.895Z</updated>
     
     <content type="html">&lt;div class=&quot;shared-img&quot;&gt;&lt;br&gt;&lt;img src=&quot;../../public/images/github.gif&quot; alt=&quot;&quot;&gt;&lt;br&gt;&lt;/div&gt;
 
@@ -1143,7 +1210,7 @@
     <link href="http://woliveiras.com.br/posts/haroopad-um-editor-markdown-maneiro/"/>
     <id>http://woliveiras.com.br/posts/haroopad-um-editor-markdown-maneiro/</id>
     <published>2015-02-09T12:53:56.000Z</published>
-    <updated>2016-04-18T12:12:14.554Z</updated>
+    <updated>2016-04-19T10:54:27.895Z</updated>
     
     <content type="html">&lt;div class=&quot;shared-img&quot;&gt;&lt;br&gt;&lt;img src=&quot;../..//public/images/Haroopad.png&quot; alt=&quot;&quot;&gt;&lt;br&gt;&lt;/div&gt;
 
@@ -1196,7 +1263,7 @@
     <link href="http://woliveiras.com.br/posts/como-detectar-o-dispositivo-que-acessa-seu-site/"/>
     <id>http://woliveiras.com.br/posts/como-detectar-o-dispositivo-que-acessa-seu-site/</id>
     <published>2015-02-03T18:47:41.000Z</published>
-    <updated>2016-04-18T12:12:14.554Z</updated>
+    <updated>2016-04-19T10:54:27.895Z</updated>
     
     <content type="html">&lt;p&gt;Uma dica rápida para quem trabalha com diversos tipos de dispositivos!&lt;/p&gt;
 &lt;p&gt;Dependendo do projeto em que você está trabalhando, pode chegar a necessidade de detectar qual é o tipo de dispositivo que está acessando o site/aplicação/sistema, etc. As vezes isso é feito para redirecionar o usuário para uma outra versão do projeto, as vezes simplesmente para ativar uma funcionalidade ou não.&lt;a id=&quot;more&quot;&gt;&lt;/a&gt;&lt;/p&gt;
@@ -1227,7 +1294,7 @@
     <link href="http://woliveiras.com.br/posts/aprenda-trabalhar-em-equipes/"/>
     <id>http://woliveiras.com.br/posts/aprenda-trabalhar-em-equipes/</id>
     <published>2015-01-30T08:00:51.000Z</published>
-    <updated>2016-04-18T12:12:14.554Z</updated>
+    <updated>2016-04-19T10:54:27.895Z</updated>
     
     <content type="html">&lt;p&gt;Como eu disse em &lt;a href=&quot;/posts/requisitos-para-vagas-front-end/&quot; title=&quot;Sobre os requisitos para vagas de emprego Front End (E outras áreas também)&quot;&gt;um post anterior&lt;/a&gt;, você não vai trabalhar sozinho a vida toda. Chega uma hora em que é preciso trabalhar em equipes, interagir com outras pessoas e é necessário que você aprenda isso. Mesmo que você trabalhe em casa, vai precisar enviar seu projeto para outras pessoas.&lt;br&gt;Existem algumas boas medidas para conseguir trabalhar bem em grandes ou pequenas equipes…&lt;a id=&quot;more&quot;&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;h2 id=&quot;Organizacao&quot;&gt;&lt;a href=&quot;#Organizacao&quot; class=&quot;headerlink&quot; title=&quot;Organização&quot;&gt;&lt;/a&gt;Organização&lt;/h2&gt;&lt;p&gt;As pastas que você cria para organizar seu projeto devem possuir nomes que auxiliem a entender o que tem dentro. Não somente as pastas, os nomes dos arquivos também devem ter algum significado.&lt;br&gt;Não crie uma pasta com o nome &lt;strong&gt;scripts&lt;/strong&gt; e coloque todos os .styl, .js, .html, .php, .rb, etc, ali dentro, mas crie uma organização ou siga alguma.&lt;br&gt;Isso serve até mesmo para que você se encontre mais fácil no seu projeto.&lt;br&gt;Trabalhar com outras pessoas não é a mesma coisa de ser criança e a mãe arrumar seu quarto… Você tem de se organizar e outras pessoas tem de entender sua organização.&lt;br&gt;Da uma olhada aqui no meu &lt;a href=&quot;https://github.com/woliveiras/pastel&quot; title=&quot;Pastel | um pequeno Boilerplate que eu criei para agilizar meus projetos&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Scaffold &lt;/a&gt;e veja como eu organizei os arquivos - É um exemplo beeeem básico, mas da para ter uma noção…&lt;br&gt;A forma como escreve seu código também faz diferença e vou falar disso agora!&lt;/p&gt;
@@ -1278,7 +1345,7 @@
     <link href="http://woliveiras.com.br/posts/semantica-html/"/>
     <id>http://woliveiras.com.br/posts/semantica-html/</id>
     <published>2015-01-29T12:00:25.000Z</published>
-    <updated>2016-04-18T12:12:14.554Z</updated>
+    <updated>2016-04-19T10:54:27.895Z</updated>
     
     <content type="html">&lt;div class=&quot;shared-img&quot;&gt;&lt;br&gt;&lt;img src=&quot;../..//public/images/HTML.png&quot; alt=&quot;&quot;&gt;&lt;br&gt;&lt;/div&gt;
 
@@ -1311,69 +1378,6 @@
       <category term="Front End" scheme="http://woliveiras.com.br/tags/Front-End/"/>
     
       <category term="HTML" scheme="http://woliveiras.com.br/tags/HTML/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Utilizando o Trello para gerenciar Projetos</title>
-    <link href="http://woliveiras.com.br/posts/gerenciar-projetos-com-trello/"/>
-    <id>http://woliveiras.com.br/posts/gerenciar-projetos-com-trello/</id>
-    <published>2015-01-28T02:00:07.000Z</published>
-    <updated>2016-04-18T12:12:14.554Z</updated>
-    
-    <content type="html">&lt;div class=&quot;shared-img&quot;&gt;&lt;br&gt;&lt;img src=&quot;../../public/images/Trello.png&quot; alt=&quot;Trello&quot;&gt;&lt;/div&gt;
-
-&lt;p&gt;Seguindo a linha de postagens sobre &lt;a href=&quot;/posts/como-ser-mais-produtivo/&quot; title=&quot;Como ser mais produtivo&quot;&gt;produtividade&lt;/a&gt;, eu sou obrigado a falar dessa ferramenta que utilizo muito e curto demais! É com ele que eu gerencio até as postagens que eu escrevo aqui no Blog…&lt;/p&gt;
-&lt;p&gt;Se você precisa de uma ferramenta para ajudar a se organizar, o &lt;a href=&quot;https://trello.com/&quot; title=&quot;Trello&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Trello&lt;/a&gt; é uma das que atendem muito bem!&lt;a id=&quot;more&quot;&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;h2 id=&quot;O-que-e-o-Trello&quot;&gt;&lt;a href=&quot;#O-que-e-o-Trello&quot; class=&quot;headerlink&quot; title=&quot;O que é o Trello?&quot;&gt;&lt;/a&gt;O que é o Trello?&lt;/h2&gt;&lt;p&gt;É uma ferramenta de Gerenciamento de Projetos muito fácil de ser utilizado e prático! Ele é aquele velho quadro onde colamos os Post-its para as tarefas que usamos em metodologias ágeis como o &lt;a href=&quot;http://pt.wikipedia.org/wiki/Scrum&quot; title=&quot;Scrum&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Scrum&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;../../public/images/taskboard-de-projeto-em-scrum-fazer-fazendo-feito.jpg&quot; alt=&quot;Task Board&quot;&gt;&lt;/p&gt;
-&lt;p&gt;Porém é Web e pode ser acessado pelo navegador ou outros &lt;a href=&quot;https://trello.com/platforms&quot; title=&quot;Plataformas&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;dispositivos&lt;/a&gt;.&lt;/p&gt;
-&lt;h2 id=&quot;Como-funciona&quot;&gt;&lt;a href=&quot;#Como-funciona&quot; class=&quot;headerlink&quot; title=&quot;Como funciona?&quot;&gt;&lt;/a&gt;Como funciona?&lt;/h2&gt;&lt;p&gt;É simples. Você cria sua conta na ferramenta, faz o login e pode criar suas &lt;strong&gt;organizações&lt;/strong&gt; onde coloca os detalhes do cliente. Cria seus &lt;strong&gt;Boards&lt;/strong&gt; (Os quadros ou o projeto em sí) onde vai aplicar as &lt;strong&gt;listas&lt;/strong&gt; e incluir todos os detalhes para as tasks que vai precisar.&lt;/p&gt;
-&lt;p&gt;A metodologia que vai utilizar no projeto fica ao seu critério ou da equipe.&lt;/p&gt;
-&lt;h2 id=&quot;Exemplo-de-utilizacao&quot;&gt;&lt;a href=&quot;#Exemplo-de-utilizacao&quot; class=&quot;headerlink&quot; title=&quot;Exemplo de utilização&quot;&gt;&lt;/a&gt;Exemplo de utilização&lt;/h2&gt;&lt;p&gt;O Trello não tem um padrão de utilização. Você vai planejar o Board de acordo com a metodologia que escolher em seu projeto. Se usa Scrum, vai colocar os nomes das listas conforme escolhido pelo Time, se não usa nenhuma vai colocar os nomes que escolher. Por ai vai.&lt;/p&gt;
-&lt;p&gt;Para esse Blog eu me organizo da seguinte maneira:&lt;/p&gt;
-&lt;p&gt;Criei um Board com o nome de Blog para a organização woliveiras (Eu).&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;../../public/images/Captura-de-tela-de-2015-01-24-1457041.png&quot; alt=&quot;Board do Blog&quot;&gt;&lt;/p&gt;
-&lt;p&gt;Criei as listas com os nomes:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;Ideas&lt;/strong&gt;: Onde eu coloco todas as ideias de Posts que eu quero escrever (Um Product Backlog talvez… E tem muita coisa lá viu! Aguarde e vai curtir as próximas postagens… ;))&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;To Do&lt;/strong&gt;: Movo para essa lista as ideias que eu vou escrever durante a semana (Seria um Sprint Backlog). Eu não estipulo prazos para isso, pois faço de acordo com que sobra tempo. Porém minha semana é meu Sprint.&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Review&lt;/strong&gt;: Depois de concluído o Post, movo o item para essa lista onde ficam todas as postagens que eu vou revisar antes de agendar ou publicar.&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Done&lt;/strong&gt;: É o que foi finalizado. Movo para essa lista os itens que já foram revisados e agora já podem ser publicados.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;&lt;img src=&quot;../../public/images/Captura-de-tela-de-2015-01-24-151337.png&quot; alt=&quot;Listas&quot;&gt;&lt;/p&gt;
-&lt;p&gt;Com as listas criadas vou adicionando os Cards que são os Posts que serão escritos. Os títulos dos Cards são os títulos das postagens e no próprio cartão eu coloco os links para referências, se houver, imagens que vou colocar no Post, tópicos que devo abordar, etc.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;../../public/images/Captura-de-tela-de-2015-01-24-152028.png&quot; alt=&quot;Card&quot;&gt;&lt;/p&gt;
-&lt;p&gt;Eu crio &lt;strong&gt;checklists&lt;/strong&gt; dentro dos Cards para ir marcando o que já foi concluído.&lt;/p&gt;
-&lt;p&gt;Pronto! Agora eu só vou trabalhando em cima disso.&lt;/p&gt;
-&lt;h2 id=&quot;Extensoes-para-deixar-o-Trello-ainda-melhor&quot;&gt;&lt;a href=&quot;#Extensoes-para-deixar-o-Trello-ainda-melhor&quot; class=&quot;headerlink&quot; title=&quot;Extensões para deixar o Trello ainda melhor&quot;&gt;&lt;/a&gt;Extensões para deixar o Trello ainda melhor&lt;/h2&gt;&lt;h3 id=&quot;Sistema-de-pontos&quot;&gt;&lt;a href=&quot;#Sistema-de-pontos&quot; class=&quot;headerlink&quot; title=&quot;Sistema de pontos&quot;&gt;&lt;/a&gt;Sistema de pontos&lt;/h3&gt;&lt;p&gt;Quem usa Scrum deve utilizar algum sistema de pontos. Para isso temos o &lt;a href=&quot;https://chrome.google.com/webstore/detail/points-for-trello/mkcpchladphoadhaclmnlphhijboljjk&quot; title=&quot;Points for Trello&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Points for Trello&lt;/a&gt;. Os pontos podem ser traduzidos para dias, horas, etc.&lt;/p&gt;
-&lt;h3 id=&quot;Acessando-o-Trello-direto-de-uma-extensao&quot;&gt;&lt;a href=&quot;#Acessando-o-Trello-direto-de-uma-extensao&quot; class=&quot;headerlink&quot; title=&quot;Acessando o Trello direto de uma extensão&quot;&gt;&lt;/a&gt;Acessando o Trello direto de uma extensão&lt;/h3&gt;&lt;p&gt;Sabe aquele menu de ferramentas do Chrome? Então da pra colocar uma extensãozinha que agiliza o uso do Trello diretamente. É o &lt;a href=&quot;https://chrome.google.com/webstore/detail/points-for-trello/mkcpchladphoadhaclmnlphhijboljjk&quot; title=&quot;My Cards for Trello&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;My Cards for Trello&lt;/a&gt;.&lt;/p&gt;
-&lt;h3 id=&quot;Esconder-o-que-nao-quer-ver-no-momento&quot;&gt;&lt;a href=&quot;#Esconder-o-que-nao-quer-ver-no-momento&quot; class=&quot;headerlink&quot; title=&quot;Esconder o que não quer ver no momento&quot;&gt;&lt;/a&gt;Esconder o que não quer ver no momento&lt;/h3&gt;&lt;p&gt;Você não precisa ver todas as listas o tempo todo, então pode usar a extensão &lt;a href=&quot;https://chrome.google.com/webstore/detail/trellists-trello-lists-ma/dgnlcodfeenegnifnpcabcclldoceeml&quot; title=&quot;Top bar for Trello&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Top bar for Trello&lt;/a&gt; para ocultar o que não quiser no momento.&lt;/p&gt;
-&lt;p&gt;Essas são as que eu utilizo no dia-a-dia, porém existem várias outras. Da uma olhada &lt;a href=&quot;https://chrome.google.com/webstore/search/Trello?utm_source=chrome-ntp-icon&amp;amp;_category=extensions&quot; title=&quot;Extensões para o Chrome&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;aqui&lt;/a&gt;.&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Referências&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a href=&quot;http://eltonminetto.net/blog/2012/06/27/gerenciando-projetos-com-o-trello/&quot; title=&quot;Gerenciando projetos com o Trello&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Elton Minetto&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a href=&quot;http://www.seomaster.com.br/blog/as-6-melhores-extensoes-do-trello&quot; title=&quot;As 6 melhores extensões do Trello&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;SEOMaster&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;E você tem mais alguma dica para utilização do Trello ou outras ferramentas? Comenta ai!&lt;/p&gt;
-</content>
-    
-    <summary type="html">
-    
-      Como utilizar o Trello para gerenciar projetos de Software?
-    
-    </summary>
-    
-      <category term="Dicas" scheme="http://woliveiras.com.br/categories/Dicas/"/>
-    
-      <category term="Gerenciamento de Projetos" scheme="http://woliveiras.com.br/categories/Dicas/Gerenciamento-de-Projetos/"/>
-    
-      <category term="Produtividade" scheme="http://woliveiras.com.br/categories/Dicas/Gerenciamento-de-Projetos/Produtividade/"/>
-    
-    
-      <category term="Dicas" scheme="http://woliveiras.com.br/tags/Dicas/"/>
-    
-      <category term="Produtividade" scheme="http://woliveiras.com.br/tags/Produtividade/"/>
-    
-      <category term="Gerenciamento de Projetos" scheme="http://woliveiras.com.br/tags/Gerenciamento-de-Projetos/"/>
     
   </entry>
   
