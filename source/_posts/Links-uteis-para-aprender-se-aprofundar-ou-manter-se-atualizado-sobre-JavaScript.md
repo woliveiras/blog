@@ -104,7 +104,7 @@ A maioria dessas comunidades possuem canais no [Slack](http://slack.com/). É um
 
 O site [Como manter-se atualizado nas  Tecnologias Front-End](https://uptodate.frontendrescue.org/pt/) é um local onde você vai achar muito mais pessoas legais para seguir, conteúdo interessante, sites bons e palestras legais sobre Front End e, por consequência, JavaScript
 
-## Meus links preciosos
+## Meus links mais preciosos
 
 Tem muito mais links úteis nesse mundão a fora, por isso eu mantenho um repo com meus links favoritos. Tanto esses da barrinha do navegador, quanto artigos que eu gostaria de deixar guardado pra utilizar depois. Da uma conferida lá, pode ter algo legal pra você. ;)
 
