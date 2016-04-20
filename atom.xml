@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://woliveiras.com.br/"/>
-  <updated>2016-04-19T11:05:45.995Z</updated>
+  <updated>2016-04-20T09:46:51.715Z</updated>
   <id>http://woliveiras.com.br/</id>
   
   <author>
@@ -16,11 +16,123 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>Links úteis para aprender, se aprofundar ou manter-se atualizado sobre JavaScript</title>
+    <link href="http://woliveiras.com.br/posts/Links-uteis-para-aprender-se-aprofundar-ou-manter-se-atualizado-sobre-JavaScript/"/>
+    <id>http://woliveiras.com.br/posts/Links-uteis-para-aprender-se-aprofundar-ou-manter-se-atualizado-sobre-JavaScript/</id>
+    <published>2016-04-20T09:00:19.000Z</published>
+    <updated>2016-04-20T09:46:51.715Z</updated>
+    
+    <content type="html">&lt;p&gt;Existe muito recurso legal disponível na internet para quem deseja aprender ou se aprofundar em JavaScript. Tanto recursos gratuitos, quanto recursos pagos. Existem muitos &lt;a href=&quot;/posts/Livros-sobre-JavaScript-do-iniciante-ao-avancado-e-ES6/&quot;&gt;livros bons&lt;/a&gt; sobre a linguagem também.&lt;/p&gt;
+&lt;p&gt;Nesse post, vou tentar deixar um compilado de links úteis para quem quer se aprofundar na linguagem da Web!&lt;a id=&quot;more&quot;&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;Claro que não vou colocar tudo o que eu já li aqui, porém os ultimos links que me lembro.&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;Deixei os links organizados na seguinte estrutura:&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Nome do site/blog/projeto&lt;/strong&gt;&lt;br&gt;&lt;em&gt;Alguns links legais&lt;/em&gt;&lt;/p&gt;
+&lt;h2 id=&quot;Sites-Blogs-e-Links-legais-sobre-JavaScript&quot;&gt;&lt;a href=&quot;#Sites-Blogs-e-Links-legais-sobre-JavaScript&quot; class=&quot;headerlink&quot; title=&quot;Sites/Blogs e Links legais sobre JavaScript&quot;&gt;&lt;/a&gt;Sites/Blogs e Links legais sobre JavaScript&lt;/h2&gt;&lt;p&gt;O Site da Mozilla é meu link de referência favorito:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://developer.mozilla.org/en-US/docs/Web/JavaScript&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;MDN | JavaScript&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;O Tableless é outro site que acompanho desde que comecei a ouvir falar de Web.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;http://tableless.com.br/code/javascript/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Tableless | JavaScript&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Recentemente conheci o blog do &lt;a href=&quot;https://matheuslima.com/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Matheus Lima&lt;/a&gt; com muita coisa maneira sobre JS e Talks excelentes sobre Programação Funcional:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://medium.com/@matheusml/o-que-todo-desenvolvedor-javascript-precisa-saber-2cc33daedb86#.2cgg4847e&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;O que TODO desenvolvedor JavaScript precisa saber&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://medium.com/@matheusml/o-guia-do-es6-tudo-que-voc%C3%AA-precisa-saber-8c287876325f#.7i6fowrsv&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;O Guia do ES6: TUDO que você precisa saber&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://medium.com/@matheusml/entendendo-programa%C3%A7%C3%A3o-funcional-em-javascript-de-uma-vez-c676489be08b#.yuoqt9vkk&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Entendendo Programação Funcional em JavaScript de uma vez&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://www.youtube.com/user/matheusml90&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;AngularJS pra Zumbis&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;No seu canal no YouTube, o Rodrigo Branas ensina JavaScript, AngularJS e, agora, Nodejs:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://www.youtube.com/user/rodrigobranas&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Canal do Rodrigo Branas no YouTube&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Na descrição do canal você encontra os links para os perfis do Rodrigo nas redes sociais.&lt;/p&gt;
+&lt;p&gt;Blog do &lt;a href=&quot;http://blog.da2k.com.br/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Fernando Daciuk&lt;/a&gt;:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;http://blog.da2k.com.br/2015/02/27/javascript-como-funcionam-as-funcoes-recursivas/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Javascript - como funcionam as funções recursivas&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://blog.da2k.com.br/2015/03/05/javascript-entendendo-e-criando-suas-proprias-promises/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Javascript - entendendo e criando suas próprias Promises&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://blog.da2k.com.br/2015/02/20/os-segredos-da-iife/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Os segredos da IIFE&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://blog.da2k.com.br/2015/02/13/escalando-javascript-no-browser/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Escalando Javascript no browser&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://blog.da2k.com.br/2015/02/07/javascript-assistindo-mudancas-no-dom-sem-temporizadores/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Javascript - assistindo mudanças no DOM sem temporizadores&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://blog.da2k.com.br/2015/01/22/clean-code-em-javascript-troque-seu-if-gigante-por-metodos/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Clean code em Javascript - troque seu if gigante por métodos&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;E tem muito mais.&lt;/p&gt;
+&lt;p&gt;Blog do &lt;a href=&quot;http://udgwebdev.com/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Caio Ribeiro Pereira&lt;/a&gt;:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;http://udgwebdev.com/frontend-moderno-com-browserify-e-babel&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Frontend moderno com Browserify e Babel&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Blog do &lt;a href=&quot;http://jcemer.com/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Jean Carlo Emer&lt;/a&gt;:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;http://jcemer.com/revisitando-como-atribuir-comportamento-a-componentes.html&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Revisitando como atribuir comportamento a componentes&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Blog da &lt;a href=&quot;http://blog.caelum.com.br/category/web-design/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Caelum&lt;/a&gt;:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;http://blog.caelum.com.br/sera-que-o-onclick-e-do-mal-as-varias-formas-de-ouvir-eventos-em-uma-pagina/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Será que o onclick é do mal? As várias formas de escutar eventos em uma página&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Blog do &lt;a href=&quot;http://jotateles.com.br/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Jota Teles&lt;/a&gt;:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;http://jotateles.com.br/javascript/2016/02/21/provider-angularjs.html&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Provider no angular: o que é, para que serve e como criar um&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Blog do &lt;a href=&quot;http://willianjusten.com.br/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Willian Justen&lt;/a&gt;:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;http://willianjusten.com.br/analisando-seu-codigo-js-com-linter/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Analisando seu código JS com um linter&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Blog da &lt;a href=&quot;https://braziljs.org&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;BrazilJS&lt;/a&gt;:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://braziljs.org/#artigos&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Artigos&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Links essenciais sobre JavaScript, por Eric Elliott e a comunidade no GitHub:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://github.com/ericelliott/essential-javascript-links#essential-javascript-links&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Essential JavaScript Links&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Uma lista imensa de Blogs no &lt;a href=&quot;https://github.com/cerebrobr/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Cerebro&lt;/a&gt;:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://github.com/cerebrobr/comunidade/blob/master/blogs.md&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;cerebrobr | blogs&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;No repositório ainda tem muito mais fonte de informação útil. Aconselho que de uma boa navegada por lá.&lt;/p&gt;
+&lt;p&gt;JavaScript Society, uma org no GitHub sobre JavaScript!&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://github.com/javascript-society&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;JavaScript Society&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Além de ler os artigos, também recomendo que siga esses autores nas redes sociais, pois estão sempre compartilhando coisa boa.&lt;/p&gt;
+&lt;h2 id=&quot;Foruns&quot;&gt;&lt;a href=&quot;#Foruns&quot; class=&quot;headerlink&quot; title=&quot;Foruns&quot;&gt;&lt;/a&gt;Foruns&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://github.com/frontendbr/forum&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;FrontEndBR | forum&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://forum.tableless.com.br/c/javascript&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Tableless&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://www.facebook.com/groups/meanstackbrasil&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;MEAN Stack Brasil no Facebook&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://www.facebook.com/groups/nodejsbrasil&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;NodeJS Brasil no Facebook&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://www.facebook.com/groups/javascriptbrasil&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;JavaScript Brasil no Facebook&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;A maioria dessas comunidades possuem canais no &lt;a href=&quot;http://slack.com/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Slack&lt;/a&gt;. É uma boa você entrar nesses canais e participar das discussões, pois consegue tirar suas dúvidas e ajudar outras pessoas em real time!&lt;/p&gt;
+&lt;h2 id=&quot;Mais-pessoas-legais-para-seguir-mais-fontes-de-conteudo-e-palestras&quot;&gt;&lt;a href=&quot;#Mais-pessoas-legais-para-seguir-mais-fontes-de-conteudo-e-palestras&quot; class=&quot;headerlink&quot; title=&quot;Mais pessoas legais para seguir, mais fontes de conteúdo e palestras&quot;&gt;&lt;/a&gt;Mais pessoas legais para seguir, mais fontes de conteúdo e palestras&lt;/h2&gt;&lt;p&gt;O site &lt;a href=&quot;https://uptodate.frontendrescue.org/pt/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Como manter-se atualizado nas  Tecnologias Front-End&lt;/a&gt; é um local onde você vai achar muito mais pessoas legais para seguir, conteúdo interessante, sites bons e palestras legais sobre Front End e, por consequência, JavaScript&lt;/p&gt;
+&lt;h2 id=&quot;Meus-links-preciosos&quot;&gt;&lt;a href=&quot;#Meus-links-preciosos&quot; class=&quot;headerlink&quot; title=&quot;Meus links preciosos&quot;&gt;&lt;/a&gt;Meus links preciosos&lt;/h2&gt;&lt;p&gt;Tem muito mais links úteis nesse mundão a fora, por isso eu mantenho um repo com meus links favoritos. Tanto esses da barrinha do navegador, quanto artigos que eu gostaria de deixar guardado pra utilizar depois. Da uma conferida lá, pode ter algo legal pra você. ;)&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://github.com/woliveiras/my-precious-links/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;My precious links&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Você conhece mais algum link maneiro sobre JavaScript?&lt;/p&gt;
+&lt;p&gt;Comente aqui em baixo.&lt;/p&gt;
+&lt;p&gt;Gostou do artigo, compartilhe com a galera nas redes sociais!&lt;/p&gt;
+&lt;p&gt;Espalhe a palavra.&lt;/p&gt;
+</content>
+    
+    <summary type="html">
+    
+      Um compilado de links úteis para aprender, se aprofundar ou manter-se atualizado sobre JavaScript.
+    
+    </summary>
+    
+    
+      <category term="dicas" scheme="http://woliveiras.com.br/tags/dicas/"/>
+    
+      <category term="javascript" scheme="http://woliveiras.com.br/tags/javascript/"/>
+    
+  </entry>
+  
+  <entry>
     <title>Livros sobre JavaScript, do iniciante ao avançado e ES6</title>
     <link href="http://woliveiras.com.br/posts/Livros-sobre-JavaScript-do-iniciante-ao-avancado-e-ES6/"/>
     <id>http://woliveiras.com.br/posts/Livros-sobre-JavaScript-do-iniciante-ao-avancado-e-ES6/</id>
     <published>2016-04-19T10:24:08.000Z</published>
-    <updated>2016-04-19T11:05:45.995Z</updated>
+    <updated>2016-04-20T09:46:51.715Z</updated>
     
     <content type="html">&lt;p&gt;Existem excelentes livros sobre JavaScript no mercado, mas são tantos que nos perdemos em qual ler primeiro, qual ler depois, qual nem vale a pena ler em determinado nível de conhecimento… São várias dúvidas.&lt;/p&gt;
 &lt;p&gt;Nesse artigo vou tentar ajudar a escolher os melhores livros para seu nível de conhecimento e montar uma sequência legal de leitura para virar um JavaScript Master!&lt;a id=&quot;more&quot;&gt;&lt;/a&gt;&lt;/p&gt;
@@ -76,9 +188,9 @@
     </summary>
     
     
-      <category term="livros" scheme="http://woliveiras.com.br/tags/livros/"/>
-    
       <category term="javascript" scheme="http://woliveiras.com.br/tags/javascript/"/>
+    
+      <category term="livros" scheme="http://woliveiras.com.br/tags/livros/"/>
     
   </entry>
   
@@ -87,7 +199,7 @@
     <link href="http://woliveiras.com.br/posts/Produtividade-conhece-te-a-ti-mesmo/"/>
     <id>http://woliveiras.com.br/posts/Produtividade-conhece-te-a-ti-mesmo/</id>
     <published>2016-04-18T11:48:58.000Z</published>
-    <updated>2016-04-19T11:05:45.995Z</updated>
+    <updated>2016-04-20T09:46:51.715Z</updated>
     
     <content type="html">&lt;p&gt;O autoconhecimento é muito importante para você se tornar produtivo.&lt;/p&gt;
 &lt;p&gt;De nada adianta aprender milhares de técnicas, receber diversas dicas sobre produtividade, se nenhuma delas se encaixa em você. Claro que é necessário um pouco de esforço de sua parte para que as metodologias deem certo, porém, dentre milhares de técnicas, você vai precisar achar uma que se encaixe em seu estilo de vida e na sua forma de pensar e agir. &lt;a id=&quot;more&quot;&gt;&lt;/a&gt;&lt;/p&gt;
@@ -154,9 +266,9 @@
     </summary>
     
     
-      <category term="produtividade" scheme="http://woliveiras.com.br/tags/produtividade/"/>
-    
       <category term="dicas" scheme="http://woliveiras.com.br/tags/dicas/"/>
+    
+      <category term="produtividade" scheme="http://woliveiras.com.br/tags/produtividade/"/>
     
   </entry>
   
@@ -165,7 +277,7 @@
     <link href="http://woliveiras.com.br/posts/Por-que-voce-desistiu-de-ser-Cientista/"/>
     <id>http://woliveiras.com.br/posts/Por-que-voce-desistiu-de-ser-Cientista/</id>
     <published>2016-04-16T11:55:36.000Z</published>
-    <updated>2016-04-19T11:05:45.995Z</updated>
+    <updated>2016-04-20T09:46:51.715Z</updated>
     
     <content type="html">&lt;p&gt;Há algum tempo venho observando as pessoas, mais especificamente as pessoas da área de Desenvolvimento de Software. Há mais tempo ainda eu observo as outras pessoas, o ser humano em geral. E desde sempre percebi um padrão:&lt;/p&gt;
 &lt;p&gt;Ao crescer, as pessoas abandonam a profissão que nasce com elas, a profissão de &lt;strong&gt;cientista&lt;/strong&gt;.&lt;a id=&quot;more&quot;&gt;&lt;/a&gt;&lt;/p&gt;
@@ -258,7 +370,7 @@
     <link href="http://woliveiras.com.br/posts/produtividade-uma-re-introducao/"/>
     <id>http://woliveiras.com.br/posts/produtividade-uma-re-introducao/</id>
     <published>2016-04-13T10:58:34.000Z</published>
-    <updated>2016-04-19T11:05:45.999Z</updated>
+    <updated>2016-04-20T09:46:51.719Z</updated>
     
     <content type="html">&lt;p&gt;No ritmo frenético em que vivemos, ser produtivo já não é mais qualidade de ninguém, precisa ser uma característica de todos.&lt;/p&gt;
 &lt;p&gt;Nós queremos fazer um amontoado de coisas todos os dias e toda hora aparece alguma outra coisa pra se fazer.&lt;/p&gt;
@@ -311,9 +423,9 @@
     </summary>
     
     
-      <category term="produtividade" scheme="http://woliveiras.com.br/tags/produtividade/"/>
-    
       <category term="dicas" scheme="http://woliveiras.com.br/tags/dicas/"/>
+    
+      <category term="produtividade" scheme="http://woliveiras.com.br/tags/produtividade/"/>
     
   </entry>
   
@@ -322,7 +434,7 @@
     <link href="http://woliveiras.com.br/posts/Criando-uma-imagem-Docker-personalizada/"/>
     <id>http://woliveiras.com.br/posts/Criando-uma-imagem-Docker-personalizada/</id>
     <published>2016-04-12T01:18:59.000Z</published>
-    <updated>2016-04-19T11:05:45.995Z</updated>
+    <updated>2016-04-20T09:46:51.715Z</updated>
     
     <content type="html">&lt;p&gt;É muito legal poder baixar uma imagem do &lt;a href=&quot;http://hub.docker.com/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Docker Hub&lt;/a&gt; e já sair criando os containers, modificando e brincando, mas e depois?&lt;/p&gt;
 &lt;p&gt;Como fazemos para levar essa imagem para outro host?&lt;/p&gt;
@@ -434,7 +546,7 @@
     <link href="http://woliveiras.com.br/posts/comandos-mais-utilizados-no-docker/"/>
     <id>http://woliveiras.com.br/posts/comandos-mais-utilizados-no-docker/</id>
     <published>2016-04-12T00:00:08.000Z</published>
-    <updated>2016-04-19T11:05:45.995Z</updated>
+    <updated>2016-04-20T09:46:51.715Z</updated>
     
     <content type="html">&lt;p&gt;Um post rapidinho com os comandos mais utilizados do Docker para não esquecer e consultar facilmente. :D&lt;/p&gt;
 &lt;p&gt;Se você não viu a primeira parte dessa sequência, clique &lt;a href=&quot;/posts/uma-rapida-introducao-ao-docker-e-instalacao-no-ubuntu/&quot;&gt;aqui&lt;/a&gt;.&lt;/p&gt;
@@ -560,7 +672,7 @@
     <link href="http://woliveiras.com.br/posts/imagem-docker-ou-um-container-docker/"/>
     <id>http://woliveiras.com.br/posts/imagem-docker-ou-um-container-docker/</id>
     <published>2016-04-11T17:00:00.000Z</published>
-    <updated>2016-04-19T11:05:45.995Z</updated>
+    <updated>2016-04-20T09:46:51.719Z</updated>
     
     <content type="html">&lt;p&gt;Se você viu a primeira parte dessa sequência de artigos, percebeu que existem dois termos muito utilizados quando falamos de Docker: &lt;strong&gt;Imagens&lt;/strong&gt; e &lt;strong&gt;Containers&lt;/strong&gt;. Você deve se perguntar: qual é a diferença entre imagem e container Docker? Ou então: O que eu rodo com o &lt;code&gt;docker run&lt;/code&gt;, uma imagem ou um container? &lt;a id=&quot;more&quot;&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;Se você não viu o primeiro artigo, da uma olhada &lt;a href=&quot;/posts/uma-rapida-introducao-ao-docker-e-instalacao-no-ubuntu/&quot;&gt;aqui&lt;/a&gt;.&lt;/p&gt;
@@ -639,7 +751,7 @@
     <link href="http://woliveiras.com.br/posts/uma-rapida-introducao-ao-docker-e-instalacao-no-ubuntu/"/>
     <id>http://woliveiras.com.br/posts/uma-rapida-introducao-ao-docker-e-instalacao-no-ubuntu/</id>
     <published>2016-04-10T11:03:47.000Z</published>
-    <updated>2016-04-19T11:05:45.999Z</updated>
+    <updated>2016-04-20T09:46:51.719Z</updated>
     
     <content type="html">&lt;p&gt;&lt;div class=&quot;shared-img&quot;&gt;&lt;br&gt;&lt;img src=&quot;../../public/images/docker.png&quot; alt=&quot;Docker&quot;&gt;&lt;br&gt;&lt;/div&gt;Você já deve ter ouvido falar, pelo menos uma vez, sobre &lt;a href=&quot;https://www.docker.com/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Docker&lt;/a&gt; em algum lugar. Seja em palestras, blogs, vídeos ou em qualquer outra fonte de estudos sobre desenvolvimento, uma hora sempre comentamos sobre virtualização de ambientes e o Docker é a ferramenta que mais tem se destacado para tal. Ele é uma das 8 maravilhas das atualidades mais atuais. Vamos entender um pouco, então, o que é o Docker e como instalar no nosso Ubuntu.&lt;a id=&quot;more&quot;&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;h2 id=&quot;Introducao&quot;&gt;&lt;a href=&quot;#Introducao&quot; class=&quot;headerlink&quot; title=&quot;Introdução&quot;&gt;&lt;/a&gt;Introdução&lt;/h2&gt;&lt;p&gt;Eu também já ouvia falar do Docker a um bom tempo, porém nunca havia me aprofundado mais nessa ferramenta.&lt;/p&gt;
@@ -725,7 +837,7 @@
     <link href="http://woliveiras.com.br/posts/postando-no-blog-est%C3%A1tico-direto-pelo-github-com-hexo-e-travis-ci/"/>
     <id>http://woliveiras.com.br/posts/postando-no-blog-estático-direto-pelo-github-com-hexo-e-travis-ci/</id>
     <published>2016-02-07T00:00:00.000Z</published>
-    <updated>2016-04-19T11:05:45.999Z</updated>
+    <updated>2016-04-20T09:46:51.719Z</updated>
     
     <content type="html">&lt;p&gt;Confesso que fiquei tentado a migrar para o &lt;a href=&quot;https://jekyllrb.com/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Jekyll (Ruby)&lt;/a&gt; depois que um &lt;a href=&quot;http://jotateles.com.br/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;amigo&lt;/a&gt; me mostrou que da para postar no blog direto do GitHub sem ter o Jekyll instalado na máquina. Porém eu não desisti do meu queridinho, o &lt;a href=&quot;http://hexo.io/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Hexo (feito com Node &amp;lt;3)&lt;/a&gt;.&lt;a id=&quot;more&quot;&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;&lt;em&gt;Se você não conhece o Hexo, da uma olhada &lt;a href=&quot;http://woliveiras.com.br/posts/Migrando-de-Wordpress-para-Hexo/&quot;&gt;nesse artigo&lt;/a&gt;.&lt;/em&gt;&lt;/p&gt;
@@ -800,7 +912,7 @@
     <link href="http://woliveiras.com.br/posts/um-ano-como-desenvolvedor-front-end/"/>
     <id>http://woliveiras.com.br/posts/um-ano-como-desenvolvedor-front-end/</id>
     <published>2015-12-01T12:00:00.000Z</published>
-    <updated>2016-04-19T11:05:45.999Z</updated>
+    <updated>2016-04-20T09:46:51.719Z</updated>
     
     <content type="html">&lt;p&gt;Todo mundo tem uma história legal pra contar sobre como começou na área de Desenvolvimento, seja Web, Mobile, Desktop ou tanto faz. Sempre temos algo interessante para passar para os novos desenvolvedores que estão entrando no mercado e que, as vezes, tem medo de se arriscar, achando que &lt;a href=&quot;http://woliveiras.com.br/posts/requisitos-para-vagas-front-end/&quot;&gt;precisam saber de tudo para investir no primeiro trampo&lt;/a&gt;.&lt;/p&gt;
 &lt;p&gt;Conheça um pouco sobre como foi meu primeiro ano como Desenvolvedor Front End. Medos, frustrações, desespero, alegria, festas e algumas dicas para se preparar para o mercado de trabalho.&lt;/p&gt;
@@ -850,7 +962,7 @@
     <link href="http://woliveiras.com.br/posts/corrigindo-permissoes-de-usuario-linux-npm/"/>
     <id>http://woliveiras.com.br/posts/corrigindo-permissoes-de-usuario-linux-npm/</id>
     <published>2015-09-12T13:00:00.000Z</published>
-    <updated>2016-04-19T11:05:45.995Z</updated>
+    <updated>2016-04-20T09:46:51.715Z</updated>
     
     <content type="html">&lt;div class=&quot;shared-img&quot;&gt;&lt;br&gt;&lt;img src=&quot;../../public/images/npm.svg&quot; alt=&quot;&quot;&gt;&lt;br&gt;&lt;/div&gt;
 
@@ -893,7 +1005,7 @@
     <link href="http://woliveiras.com.br/posts/utilizando-versoes-antigas-do-nodejs/"/>
     <id>http://woliveiras.com.br/posts/utilizando-versoes-antigas-do-nodejs/</id>
     <published>2015-09-12T08:00:32.000Z</published>
-    <updated>2016-04-19T11:05:45.999Z</updated>
+    <updated>2016-04-20T09:46:51.719Z</updated>
     
     <content type="html">&lt;div class=&quot;shared-img&quot;&gt;&lt;br&gt;&lt;img src=&quot;../..//public/images/nodejs.png&quot; alt=&quot;&quot;&gt;&lt;br&gt;&lt;/div&gt;
 
@@ -978,7 +1090,7 @@
     <link href="http://woliveiras.com.br/posts/twitter-bootstrap-bootstrap-do-jeito-certo/"/>
     <id>http://woliveiras.com.br/posts/twitter-bootstrap-bootstrap-do-jeito-certo/</id>
     <published>2015-09-09T01:00:00.000Z</published>
-    <updated>2016-04-19T11:05:45.999Z</updated>
+    <updated>2016-04-20T09:46:51.719Z</updated>
     
     <content type="html">&lt;p&gt;Muita gente critica o uso do &lt;a href=&quot;http://getbootstrap.com/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Twitter Bootstrap&lt;/a&gt; devido a nomenclatura de suas classes e aos muitos componentes que o framework possui.&lt;/p&gt;
 &lt;p&gt;Dizem que as classes não são semanticas e que o peso do framework é desnecessário.&lt;/p&gt;
@@ -1061,7 +1173,7 @@
     <link href="http://woliveiras.com.br/posts/Migrando-de-Wordpress-para-Hexo/"/>
     <id>http://woliveiras.com.br/posts/Migrando-de-Wordpress-para-Hexo/</id>
     <published>2015-08-05T02:53:41.000Z</published>
-    <updated>2016-04-19T11:05:45.995Z</updated>
+    <updated>2016-04-20T09:46:51.715Z</updated>
     
     <content type="html">&lt;p&gt;&lt;div class=&quot;shared-img&quot;&gt;&lt;br&gt;&lt;img src=&quot;../../public/images/hexo-logo.png&quot; alt=&quot;Hexo Blog&quot;&gt;&lt;br&gt;&lt;/div&gt;A um bom tempo sinto vontade de mudar meu Blog de WordPress para uma plataforma de  conteúdo estático, mas não achava nenhuma alternativa, pois que queria usar Nodejs. Por isso não fui para o, muito usado na comunidade, &lt;a href=&quot;http://jekyllrb.com/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Jekyll(Ruby)&lt;/a&gt; , nem para o &lt;a href=&quot;http://blog.getpelican.com/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Pelican(Python &amp;lt;3)&lt;/a&gt;.&lt;a id=&quot;more&quot;&gt;&lt;/a&gt;&lt;br&gt;Em busca de uma alternativa encontrei o &lt;a href=&quot;https://hexo.io&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Hexo&lt;/a&gt; e, um pouco depois de eu conhecer essa plataforma, o &lt;a href=&quot;http://blog.da2k.com.br/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Daciuk&lt;/a&gt; escreveu um &lt;a href=&quot;http://blog.da2k.com.br/2014/01/05/hexo-criando-um-blog-ao-estilo-miojo/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;post&lt;/a&gt; muito maneiro incentivando o seu uso. Foi então que eu decidi de vez usar essa plataforma!&lt;br&gt;Bora conhecer ela e como foi a migração de WordPress para Hexo?&lt;/p&gt;
 &lt;p&gt;###Levantando as necessidades&lt;/p&gt;
@@ -1116,7 +1228,7 @@
     <link href="http://woliveiras.com.br/posts/frameworks-front-end/"/>
     <id>http://woliveiras.com.br/posts/frameworks-front-end/</id>
     <published>2015-03-05T00:18:46.000Z</published>
-    <updated>2016-04-19T11:05:45.995Z</updated>
+    <updated>2016-04-20T09:46:51.715Z</updated>
     
     <content type="html">&lt;p&gt;Já parou pra pensar quantas vezes você repete o mesmo código durante o Desenvolvimento, seja Web, Mobile ou Desktop? Já pensou em padronizar o que você faz de alguma maneira?&lt;br&gt;E pra você que é Gerente de Projetos, Líder ou algo do tipo: Já pensou em poder adicionar um membro no seu grupo  e ele já saber como funciona o Desenvolvimento nessa equipe e conseguir ser produtivo desde o princípio?&lt;br&gt;Pois é, Frameworks servem para isso… Vem comigo que vou explicar melhor. ;)&lt;a id=&quot;more&quot;&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;h2 id=&quot;O-que-sao-Frameworks&quot;&gt;&lt;a href=&quot;#O-que-sao-Frameworks&quot; class=&quot;headerlink&quot; title=&quot;O que são Frameworks?&quot;&gt;&lt;/a&gt;O que são Frameworks?&lt;/h2&gt;&lt;p&gt;Você pega aqueles códigos que se repetem entre os projetos, adiciona uma pitada de &lt;a href=&quot;http://pt.wikipedia.org/wiki/Padr%C3%A3o_de_projeto_de_software&quot; title=&quot;Wikipedia - Padrões de Projetos&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Padrões&lt;/a&gt;, deixa conforme sua equipe precisa ou &lt;a href=&quot;http://tableless.com.br/locaweb-style-como-iniciamos/&quot; title=&quot;Locaweb Style - Framework Front End da Locaweb&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;conforme sua empresa trabalha&lt;/a&gt;, empacota tudo isso pra poder reutilizar depois e pronto, criou um Framework!&lt;br&gt;Só isso? Sim, só isso… Framework é uma ferramenta com os códigos, padrões, etc, que você consegue utilizar pra resolver problemas que se repetem ou mesmo pra iniciar projetos que vão possuir as mesmas características seja no Front, Back End ou mesmo para &lt;a href=&quot;https://github.com/woliveiras/pastel&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Tooling(Ferramentas)&lt;/a&gt;. Quando você utiliza um Framework como base, pode somente baixar ele, configurar ou instalar e seguir dali para as necessidades específicas de cada projeto. Isso mata muito tempo que você perderia fazendo algo que sabe que vai repetir no próximo trabalho.&lt;/p&gt;
@@ -1166,7 +1278,7 @@
     <link href="http://woliveiras.com.br/posts/contribuindo-para-projetos-open-source-no-github-mesmo-sendo-iniciante/"/>
     <id>http://woliveiras.com.br/posts/contribuindo-para-projetos-open-source-no-github-mesmo-sendo-iniciante/</id>
     <published>2015-02-09T14:12:32.000Z</published>
-    <updated>2016-04-19T11:05:45.995Z</updated>
+    <updated>2016-04-20T09:46:51.715Z</updated>
     
     <content type="html">&lt;div class=&quot;shared-img&quot;&gt;&lt;br&gt;&lt;img src=&quot;../../public/images/github.gif&quot; alt=&quot;&quot;&gt;&lt;br&gt;&lt;/div&gt;
 
@@ -1210,7 +1322,7 @@
     <link href="http://woliveiras.com.br/posts/haroopad-um-editor-markdown-maneiro/"/>
     <id>http://woliveiras.com.br/posts/haroopad-um-editor-markdown-maneiro/</id>
     <published>2015-02-09T12:53:56.000Z</published>
-    <updated>2016-04-19T11:05:45.995Z</updated>
+    <updated>2016-04-20T09:46:51.715Z</updated>
     
     <content type="html">&lt;div class=&quot;shared-img&quot;&gt;&lt;br&gt;&lt;img src=&quot;../..//public/images/Haroopad.png&quot; alt=&quot;&quot;&gt;&lt;br&gt;&lt;/div&gt;
 
@@ -1263,7 +1375,7 @@
     <link href="http://woliveiras.com.br/posts/como-detectar-o-dispositivo-que-acessa-seu-site/"/>
     <id>http://woliveiras.com.br/posts/como-detectar-o-dispositivo-que-acessa-seu-site/</id>
     <published>2015-02-03T18:47:41.000Z</published>
-    <updated>2016-04-19T11:05:45.995Z</updated>
+    <updated>2016-04-20T09:46:51.715Z</updated>
     
     <content type="html">&lt;p&gt;Uma dica rápida para quem trabalha com diversos tipos de dispositivos!&lt;/p&gt;
 &lt;p&gt;Dependendo do projeto em que você está trabalhando, pode chegar a necessidade de detectar qual é o tipo de dispositivo que está acessando o site/aplicação/sistema, etc. As vezes isso é feito para redirecionar o usuário para uma outra versão do projeto, as vezes simplesmente para ativar uma funcionalidade ou não.&lt;a id=&quot;more&quot;&gt;&lt;/a&gt;&lt;/p&gt;
@@ -1294,7 +1406,7 @@
     <link href="http://woliveiras.com.br/posts/aprenda-trabalhar-em-equipes/"/>
     <id>http://woliveiras.com.br/posts/aprenda-trabalhar-em-equipes/</id>
     <published>2015-01-30T08:00:51.000Z</published>
-    <updated>2016-04-19T11:05:45.995Z</updated>
+    <updated>2016-04-20T09:46:51.715Z</updated>
     
     <content type="html">&lt;p&gt;Como eu disse em &lt;a href=&quot;/posts/requisitos-para-vagas-front-end/&quot; title=&quot;Sobre os requisitos para vagas de emprego Front End (E outras áreas também)&quot;&gt;um post anterior&lt;/a&gt;, você não vai trabalhar sozinho a vida toda. Chega uma hora em que é preciso trabalhar em equipes, interagir com outras pessoas e é necessário que você aprenda isso. Mesmo que você trabalhe em casa, vai precisar enviar seu projeto para outras pessoas.&lt;br&gt;Existem algumas boas medidas para conseguir trabalhar bem em grandes ou pequenas equipes…&lt;a id=&quot;more&quot;&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;h2 id=&quot;Organizacao&quot;&gt;&lt;a href=&quot;#Organizacao&quot; class=&quot;headerlink&quot; title=&quot;Organização&quot;&gt;&lt;/a&gt;Organização&lt;/h2&gt;&lt;p&gt;As pastas que você cria para organizar seu projeto devem possuir nomes que auxiliem a entender o que tem dentro. Não somente as pastas, os nomes dos arquivos também devem ter algum significado.&lt;br&gt;Não crie uma pasta com o nome &lt;strong&gt;scripts&lt;/strong&gt; e coloque todos os .styl, .js, .html, .php, .rb, etc, ali dentro, mas crie uma organização ou siga alguma.&lt;br&gt;Isso serve até mesmo para que você se encontre mais fácil no seu projeto.&lt;br&gt;Trabalhar com outras pessoas não é a mesma coisa de ser criança e a mãe arrumar seu quarto… Você tem de se organizar e outras pessoas tem de entender sua organização.&lt;br&gt;Da uma olhada aqui no meu &lt;a href=&quot;https://github.com/woliveiras/pastel&quot; title=&quot;Pastel | um pequeno Boilerplate que eu criei para agilizar meus projetos&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Scaffold &lt;/a&gt;e veja como eu organizei os arquivos - É um exemplo beeeem básico, mas da para ter uma noção…&lt;br&gt;A forma como escreve seu código também faz diferença e vou falar disso agora!&lt;/p&gt;
@@ -1337,47 +1449,6 @@
       <category term="Produtividade" scheme="http://woliveiras.com.br/tags/Produtividade/"/>
     
       <category term="Programação" scheme="http://woliveiras.com.br/tags/Programacao/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Semântica HTML</title>
-    <link href="http://woliveiras.com.br/posts/semantica-html/"/>
-    <id>http://woliveiras.com.br/posts/semantica-html/</id>
-    <published>2015-01-29T12:00:25.000Z</published>
-    <updated>2016-04-19T11:05:45.999Z</updated>
-    
-    <content type="html">&lt;div class=&quot;shared-img&quot;&gt;&lt;br&gt;&lt;img src=&quot;../..//public/images/HTML.png&quot; alt=&quot;&quot;&gt;&lt;br&gt;&lt;/div&gt;
-
-&lt;p&gt;Quando estamos iniciando os estudos na área de Web aprendemos semântica e, as vezes, nem temos noção da importância disso. Aprendemos que cada tag HTML serve para alguma coisa: &lt;strong&gt;&amp;lt;title&amp;gt;&lt;/strong&gt; para o título da página (Aquele que aparece na aba do navegador), &lt;strong&gt;&amp;lt;p&amp;gt;&lt;/strong&gt; para parágrafos, &lt;strong&gt;&amp;lt;h1,2,3,…&amp;gt;&lt;/strong&gt; para títulos do conteúdo, etc.&lt;a id=&quot;more&quot;&gt;&lt;/a&gt;&lt;br&gt;Porém, com o tempo, algumas pessoas param de utilizar essas tags e começam a bagunçar tudo! Usam o &lt;strong&gt;h1&lt;/strong&gt; pra deixar um texto maior que o outro e não para o título em questão, usam várias tags &lt;strong&gt;p&lt;/strong&gt; separando o conteúdo de uma lista em uma div com uma class &lt;em&gt;“list”&lt;/em&gt;, por ai vai! Vira uma salada no HTML.&lt;br&gt;Isso é ruim tanto para quem vai ler seu código depois, quanto para buscadores e leitores de tela.&lt;/p&gt;
-&lt;h2 id=&quot;Qual-a-importancia-da-semantica-no-HTML&quot;&gt;&lt;a href=&quot;#Qual-a-importancia-da-semantica-no-HTML&quot; class=&quot;headerlink&quot; title=&quot;Qual a importância da semântica no HTML?&quot;&gt;&lt;/a&gt;Qual a importância da semântica no HTML?&lt;/h2&gt;&lt;p&gt;A semântica será importante para que o seu conteúdo tenha sentido mesmo que não tenha nenhum estilo visual. Semântica é o significado da coisa! É graças a semântica que sua página vai indexar legal ou não nos buscadores. Não somente por isso, a semântica ajuda na &lt;strong&gt;acessibilidade&lt;/strong&gt; de sua página ou aplicação - Ponto que eu acho mais importante.&lt;br&gt;O Crawler do Google não vai ver se sua página está bonitinha, mas vai ler seu HTML e indexar conforme o conteúdo esteja estruturado. Um leitor de tela também não vai ficar falando pra pessoa com necessidades especiais que determinado botão é uma lixeira ou um xiszinho vermelho, mas vai ler as tags e identificar o que você escreveu no atributo &lt;strong&gt;&amp;lt;alt&amp;gt;&lt;/strong&gt; e falar para o usuário.&lt;br&gt;Faça um teste: Instale a extensão que eu indiquei &lt;a href=&quot;/posts/extensoes-navegador-desenvolvimento-web/&quot; title=&quot;Extensões do Navegador para Desenvolvimento Web&quot;&gt;nesse artigo&lt;/a&gt;, o &lt;a href=&quot;https://chrome.google.com/webstore/detail/chromevox/kgejglhpjiefppelpmljglcjbhoiplfn&quot; title=&quot;ChromeVox&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;ChromeVox&lt;/a&gt; e ative ela para que leia as páginas pra você. Da uma navegada em alguns sites por ai e veja se conseguiria entender de uma forma legal o que o leitor diz.&lt;br&gt;Esses foram só alguns dos tópicos que podemos levantar a respeito da importância da Semântica…&lt;/p&gt;
-&lt;h2 id=&quot;E-como-escrever-um-HTML-semantico&quot;&gt;&lt;a href=&quot;#E-como-escrever-um-HTML-semantico&quot; class=&quot;headerlink&quot; title=&quot;E como escrever um HTML semântico?&quot;&gt;&lt;/a&gt;E como escrever um HTML semântico?&lt;/h2&gt;&lt;p&gt;Não é difícil, basta você utilizar as tags para o que elas foram feitas.&lt;br&gt;O HTML serve para &lt;a href=&quot;https://www.eventials.com/locaweb/diego-eis-a-semantica-do-html-5/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;organizar a informação&lt;/a&gt;. Use pra isso.&lt;br&gt;Quando for estruturar um documento HTML, analise o Layout e identifique os elementos de conteúdo da interface.&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;O que é o que?&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;Faça a si perguntas desse tipo quando for estruturar: O que nessa tela se encaixa como um título(H1)? O que se encaixa como um subtítulo(H2)? Onde se encaixa como parágrafo? Como eu posso fazer para que uma pessoa que não enxerga saiba pra que serve esse botão vermelho?&lt;br&gt;Procure envolver o conteúdo com as tags corretas. Caso tenha dúvidas, procure na documentação, pesquise no Google.&lt;br&gt;Garanto que nada é mais recompensador que receber um elogio de um deficiente visual que consegue entender seu conteúdo sem dificuldades.&lt;br&gt;Alguns links úteis para entender sobre semântica:&lt;/p&gt;
-&lt;p&gt;&lt;a href=&quot;http://www.uxdesign.blog.br/padroes-web/html5/entendo-a-estrutura-e-a-semantica-do-html5/&quot; title=&quot;A estrutura e a semântica do HTML5&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;A estrutura e a semântica do HTML5 - UXDesign Blog&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a href=&quot;http://pt.slideshare.net/diegoeis/a-verdadeira-semntica-do-html5&quot; title=&quot;A verdadeira semântica do HTML&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;A verdadeira semântica do HTML - Diego Eis&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a href=&quot;http://desenvolvimentoparaweb.com/html/microdata-api-schema-org-significado-html/&quot; title=&quot;Microdata API e Schema.org: dando significado ao HTML&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Microdata - Desenvolvimento para Web&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;Espero ter ajudado a entender um pouco mais sobre o assunto e, se você já conhecia e não praticava, te convencido a utilizar as tags da maneira correta! :D&lt;br&gt;Alguma dúvida, link sobre o assunto ou sugestão? Comenta ae!&lt;/p&gt;
-</content>
-    
-    <summary type="html">
-    
-      Boas práticas em HTML Semântica. Como escrever HTML direito.
-    
-    </summary>
-    
-      <category term="Boas práticas" scheme="http://woliveiras.com.br/categories/Boas-praticas/"/>
-    
-      <category term="Front End" scheme="http://woliveiras.com.br/categories/Boas-praticas/Front-End/"/>
-    
-      <category term="HTML" scheme="http://woliveiras.com.br/categories/Boas-praticas/Front-End/HTML/"/>
-    
-    
-      <category term="Boas práticas" scheme="http://woliveiras.com.br/tags/Boas-praticas/"/>
-    
-      <category term="Front End" scheme="http://woliveiras.com.br/tags/Front-End/"/>
-    
-      <category term="HTML" scheme="http://woliveiras.com.br/tags/HTML/"/>
     
   </entry>
   
