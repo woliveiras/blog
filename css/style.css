@@ -335,6 +335,9 @@ body {
     font-size: 2rem;
   }
 }
+#header-title #title {
+  display: block;
+}
 #header-title #title:hover {
   color: #b30707;
 }
