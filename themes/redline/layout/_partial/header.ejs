@@ -22,12 +22,12 @@
     <div id="header-title" class="inner">
       <h1 id="logo-wrap">
         <a href="<%- url_for() %>" id="title"><%= config.title %></a>
+        <% if (theme.subtitle){ %>
+          <span id="subtitle-wrap">
+            <a href="<%- url_for() %>" id="subtitle"><%= theme.subtitle %></a>
+          </span>
+        <% } %>
       </h1>
-      <% if (theme.subtitle){ %>
-        <h2 id="subtitle-wrap">
-          <a href="<%- url_for() %>" id="subtitle"><%= theme.subtitle %></a>
-        </h2>
-      <% } %>
       <%- partial('_partial/contact-icons') %>
     </div>
   </div>
