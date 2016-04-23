@@ -5,7 +5,7 @@
 # Site
 title: William Oliveira
 subtitle: Desenvolvedor Front End
-description: Tudo sobre Desenvolvimento Web desde o HTML, CSS e JavaScript até as mais variádas ferramentas e metodologias de desenvolvimento.
+description: Um blog sobre Desenvolvimento de Software, Web, HTML, CSS, Sass, Stylus, JavaScript, Node, Python, Linux, até as mais variádas Ferramentas e Metodologias de Desenvolvimento.
 author: William de Oliveira
 language: default
 timezone: America/Sao_Paulo
@@ -80,3 +80,7 @@ deploy:
   type: git
   repo: git@github.com:woliveiras/woliveiras.github.io.git
   branch: master
+
+#SEO
+sitemap:
+    path: sitemap.xml
