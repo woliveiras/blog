@@ -2,456 +2,456 @@
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
     <url>
-        <loc>http://woliveiras.com.br/tags/Automatizacao/</loc>
-        <lastmod>2016-04-23T09:19:01.159Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
-        <loc>http://woliveiras.com.br/tags/Grunt/</loc>
-        <lastmod>2016-04-23T09:19:01.159Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
-        <loc>http://woliveiras.com.br/tags/Pastel/</loc>
-        <lastmod>2016-04-23T09:19:01.159Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
-        <loc>http://woliveiras.com.br/tags/docker/</loc>
-        <lastmod>2016-04-23T09:19:01.159Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
-        <loc>http://woliveiras.com.br/tags/virtualizacao/</loc>
-        <lastmod>2016-04-23T09:19:01.159Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
-        <loc>http://woliveiras.com.br/tags/ambiente/</loc>
-        <lastmod>2016-04-23T09:19:01.159Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
-        <loc>http://woliveiras.com.br/tags/devops/</loc>
-        <lastmod>2016-04-23T09:19:01.159Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
-        <loc>http://woliveiras.com.br/tags/dicas/</loc>
-        <lastmod>2016-04-23T09:19:01.159Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
         <loc>http://woliveiras.com.br/tags/javascript/</loc>
-        <lastmod>2016-04-23T09:19:01.159Z</lastmod>
+        <lastmod>2016-04-23T10:35:28.582Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
 
     <url>
         <loc>http://woliveiras.com.br/tags/livros/</loc>
-        <lastmod>2016-04-23T09:19:01.159Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
-        <loc>http://woliveiras.com.br/tags/Blog/</loc>
-        <lastmod>2016-04-23T09:19:01.159Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
-        <loc>http://woliveiras.com.br/tags/Hexo/</loc>
-        <lastmod>2016-04-23T09:19:01.159Z</lastmod>
+        <lastmod>2016-04-23T10:35:28.582Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
 
     <url>
         <loc>http://woliveiras.com.br/tags/opiniao/</loc>
-        <lastmod>2016-04-23T09:19:01.159Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
-        <loc>http://woliveiras.com.br/tags/produtividade/</loc>
-        <lastmod>2016-04-23T09:19:01.159Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
-        <loc>http://woliveiras.com.br/tags/Boas-praticas/</loc>
-        <lastmod>2016-04-23T09:19:01.159Z</lastmod>
+        <lastmod>2016-04-23T10:35:28.582Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
 
     <url>
         <loc>http://woliveiras.com.br/tags/Padroes/</loc>
-        <lastmod>2016-04-23T09:19:01.159Z</lastmod>
+        <lastmod>2016-04-23T10:35:28.582Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
 
     <url>
         <loc>http://woliveiras.com.br/tags/Produtividade/</loc>
-        <lastmod>2016-04-23T09:19:01.159Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
-        <loc>http://woliveiras.com.br/tags/Programacao/</loc>
-        <lastmod>2016-04-23T09:19:01.159Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
-        <loc>http://woliveiras.com.br/tags/Carreira/</loc>
-        <lastmod>2016-04-23T09:19:01.159Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
-        <loc>http://woliveiras.com.br/tags/Linux/</loc>
-        <lastmod>2016-04-23T09:19:01.159Z</lastmod>
+        <lastmod>2016-04-23T10:35:28.582Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
 
     <url>
         <loc>http://woliveiras.com.br/tags/Mobile/</loc>
-        <lastmod>2016-04-23T09:19:01.159Z</lastmod>
+        <lastmod>2016-04-23T10:35:28.582Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
 
     <url>
         <loc>http://woliveiras.com.br/tags/Github/</loc>
-        <lastmod>2016-04-23T09:19:01.159Z</lastmod>
+        <lastmod>2016-04-23T10:35:28.582Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
 
     <url>
         <loc>http://woliveiras.com.br/tags/Comunidade/</loc>
-        <lastmod>2016-04-23T09:19:01.159Z</lastmod>
+        <lastmod>2016-04-23T10:35:28.582Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
 
     <url>
         <loc>http://woliveiras.com.br/tags/CSS/</loc>
-        <lastmod>2016-04-23T09:19:01.159Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
-        <loc>http://woliveiras.com.br/tags/Front-End/</loc>
-        <lastmod>2016-04-23T09:19:01.159Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
-        <loc>http://woliveiras.com.br/tags/HTML/</loc>
-        <lastmod>2016-04-23T09:19:01.159Z</lastmod>
+        <lastmod>2016-04-23T10:35:28.582Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
 
     <url>
         <loc>http://woliveiras.com.br/tags/Extensoes/</loc>
-        <lastmod>2016-04-23T09:19:01.159Z</lastmod>
+        <lastmod>2016-04-23T10:35:28.582Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
 
     <url>
         <loc>http://woliveiras.com.br/tags/Navegador/</loc>
-        <lastmod>2016-04-23T09:19:01.159Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
-        <loc>http://woliveiras.com.br/tags/Javascript/</loc>
-        <lastmod>2016-04-23T09:19:01.159Z</lastmod>
+        <lastmod>2016-04-23T10:35:28.582Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
 
     <url>
         <loc>http://woliveiras.com.br/tags/Freela/</loc>
-        <lastmod>2016-04-23T09:19:01.159Z</lastmod>
+        <lastmod>2016-04-23T10:35:28.582Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
 
     <url>
         <loc>http://woliveiras.com.br/tags/Freelance/</loc>
-        <lastmod>2016-04-23T09:19:01.159Z</lastmod>
+        <lastmod>2016-04-23T10:35:28.582Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
 
     <url>
         <loc>http://woliveiras.com.br/tags/Gerenciamento-de-Projetos/</loc>
-        <lastmod>2016-04-23T09:19:01.159Z</lastmod>
+        <lastmod>2016-04-23T10:35:28.582Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
 
     <url>
-        <loc>http://woliveiras.com.br/tags/Node-js/</loc>
-        <lastmod>2016-04-23T09:19:01.159Z</lastmod>
+        <loc>http://woliveiras.com.br/tags/Automatizacao/</loc>
+        <lastmod>2016-04-23T10:35:28.586Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
 
     <url>
-        <loc>http://woliveiras.com.br/tags/Gulpjs/</loc>
-        <lastmod>2016-04-23T09:19:01.159Z</lastmod>
+        <loc>http://woliveiras.com.br/tags/Grunt/</loc>
+        <lastmod>2016-04-23T10:35:28.586Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
 
     <url>
-        <loc>http://woliveiras.com.br/tags/Markdown/</loc>
-        <lastmod>2016-04-23T09:19:01.159Z</lastmod>
+        <loc>http://woliveiras.com.br/tags/Pastel/</loc>
+        <lastmod>2016-04-23T10:35:28.586Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
 
     <url>
-        <loc>http://woliveiras.com.br/tags/Apache/</loc>
-        <lastmod>2016-04-23T09:19:01.159Z</lastmod>
+        <loc>http://woliveiras.com.br/tags/docker/</loc>
+        <lastmod>2016-04-23T10:35:28.586Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
 
     <url>
-        <loc>http://woliveiras.com.br/tags/MySQL/</loc>
-        <lastmod>2016-04-23T09:19:01.159Z</lastmod>
+        <loc>http://woliveiras.com.br/tags/virtualizacao/</loc>
+        <lastmod>2016-04-23T10:35:28.586Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
 
     <url>
-        <loc>http://woliveiras.com.br/tags/PHP/</loc>
-        <lastmod>2016-04-23T09:19:01.159Z</lastmod>
+        <loc>http://woliveiras.com.br/tags/ambiente/</loc>
+        <lastmod>2016-04-23T10:35:28.586Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
 
     <url>
-        <loc>http://woliveiras.com.br/tags/Git/</loc>
-        <lastmod>2016-04-23T09:19:01.159Z</lastmod>
+        <loc>http://woliveiras.com.br/tags/devops/</loc>
+        <lastmod>2016-04-23T10:35:28.586Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
 
     <url>
-        <loc>http://woliveiras.com.br/tags/Versionamento/</loc>
-        <lastmod>2016-04-23T09:19:01.159Z</lastmod>
+        <loc>http://woliveiras.com.br/tags/dicas/</loc>
+        <lastmod>2016-04-23T10:35:28.586Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
 
     <url>
-        <loc>http://woliveiras.com.br/tags/Windows/</loc>
-        <lastmod>2016-04-23T09:19:01.159Z</lastmod>
+        <loc>http://woliveiras.com.br/tags/Blog/</loc>
+        <lastmod>2016-04-23T10:35:28.586Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
 
     <url>
-        <loc>http://woliveiras.com.br/tags/Configuracao-do-Sublimetext/</loc>
-        <lastmod>2016-04-23T09:19:01.159Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
-        <loc>http://woliveiras.com.br/tags/Teoria/</loc>
-        <lastmod>2016-04-23T09:19:01.159Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
-        <loc>http://woliveiras.com.br/tags/Bower/</loc>
-        <lastmod>2016-04-23T09:19:01.159Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
-        <loc>http://woliveiras.com.br/tags/Plugins/</loc>
-        <lastmod>2016-04-23T09:19:01.159Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
-        <loc>http://woliveiras.com.br/tags/Travis-CI/</loc>
-        <lastmod>2016-04-23T09:19:01.159Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
-        <loc>http://woliveiras.com.br/tags/Continuous-Integration/</loc>
-        <lastmod>2016-04-23T09:19:01.159Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
-        <loc>http://woliveiras.com.br/tags/Less/</loc>
-        <lastmod>2016-04-23T09:19:01.159Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
-        <loc>http://woliveiras.com.br/tags/Pre-Processadores/</loc>
-        <lastmod>2016-04-23T09:19:01.159Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
-        <loc>http://woliveiras.com.br/tags/Sass/</loc>
-        <lastmod>2016-04-23T09:19:01.159Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
-        <loc>http://woliveiras.com.br/tags/Stylus/</loc>
-        <lastmod>2016-04-23T09:19:01.159Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
-        <loc>http://woliveiras.com.br/tags/HTTP/</loc>
-        <lastmod>2016-04-23T09:19:01.159Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
-        <loc>http://woliveiras.com.br/tags/Motivacao/</loc>
-        <lastmod>2016-04-23T09:19:01.159Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
-        <loc>http://woliveiras.com.br/tags/Bootstrap/</loc>
-        <lastmod>2016-04-23T09:19:01.159Z</lastmod>
+        <loc>http://woliveiras.com.br/tags/Hexo/</loc>
+        <lastmod>2016-04-23T10:35:28.586Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
 
     <url>
         <loc>http://woliveiras.com.br/tags/Dicas/</loc>
-        <lastmod>2016-04-23T09:19:01.163Z</lastmod>
+        <lastmod>2016-04-23T10:35:28.586Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>http://woliveiras.com.br/tags/produtividade/</loc>
+        <lastmod>2016-04-23T10:35:28.586Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>http://woliveiras.com.br/tags/Boas-praticas/</loc>
+        <lastmod>2016-04-23T10:35:28.586Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>http://woliveiras.com.br/tags/Programacao/</loc>
+        <lastmod>2016-04-23T10:35:28.586Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>http://woliveiras.com.br/tags/Carreira/</loc>
+        <lastmod>2016-04-23T10:35:28.586Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
 
     <url>
         <loc>http://woliveiras.com.br/tags/Ambiente/</loc>
-        <lastmod>2016-04-23T09:19:01.163Z</lastmod>
+        <lastmod>2016-04-23T10:35:28.586Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>http://woliveiras.com.br/tags/Linux/</loc>
+        <lastmod>2016-04-23T10:35:28.586Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
 
     <url>
         <loc>http://woliveiras.com.br/tags/Vagrant/</loc>
-        <lastmod>2016-04-23T09:19:01.163Z</lastmod>
+        <lastmod>2016-04-23T10:35:28.586Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
 
     <url>
         <loc>http://woliveiras.com.br/tags/Virtualizacao/</loc>
-        <lastmod>2016-04-23T09:19:01.163Z</lastmod>
+        <lastmod>2016-04-23T10:35:28.586Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
 
     <url>
         <loc>http://woliveiras.com.br/tags/Nodejs/</loc>
-        <lastmod>2016-04-23T09:19:01.163Z</lastmod>
+        <lastmod>2016-04-23T10:35:28.586Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
 
     <url>
         <loc>http://woliveiras.com.br/tags/JavaScript/</loc>
-        <lastmod>2016-04-23T09:19:01.163Z</lastmod>
+        <lastmod>2016-04-23T10:35:28.586Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
 
     <url>
         <loc>http://woliveiras.com.br/tags/NPM/</loc>
-        <lastmod>2016-04-23T09:19:01.163Z</lastmod>
+        <lastmod>2016-04-23T10:35:28.586Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>http://woliveiras.com.br/tags/Front-End/</loc>
+        <lastmod>2016-04-23T10:35:28.586Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>http://woliveiras.com.br/tags/HTML/</loc>
+        <lastmod>2016-04-23T10:35:28.586Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>http://woliveiras.com.br/tags/Javascript/</loc>
+        <lastmod>2016-04-23T10:35:28.586Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>http://woliveiras.com.br/tags/Node-js/</loc>
+        <lastmod>2016-04-23T10:35:28.586Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>http://woliveiras.com.br/tags/Gulpjs/</loc>
+        <lastmod>2016-04-23T10:35:28.586Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>http://woliveiras.com.br/tags/Markdown/</loc>
+        <lastmod>2016-04-23T10:35:28.586Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>http://woliveiras.com.br/tags/Apache/</loc>
+        <lastmod>2016-04-23T10:35:28.586Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>http://woliveiras.com.br/tags/MySQL/</loc>
+        <lastmod>2016-04-23T10:35:28.586Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>http://woliveiras.com.br/tags/PHP/</loc>
+        <lastmod>2016-04-23T10:35:28.586Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>http://woliveiras.com.br/tags/Git/</loc>
+        <lastmod>2016-04-23T10:35:28.586Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>http://woliveiras.com.br/tags/Versionamento/</loc>
+        <lastmod>2016-04-23T10:35:28.586Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>http://woliveiras.com.br/tags/Windows/</loc>
+        <lastmod>2016-04-23T10:35:28.586Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>http://woliveiras.com.br/tags/Configuracao-do-Sublimetext/</loc>
+        <lastmod>2016-04-23T10:35:28.586Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
 
     <url>
         <loc>http://woliveiras.com.br/tags/Instalacao-Sublimetext/</loc>
-        <lastmod>2016-04-23T09:19:01.163Z</lastmod>
+        <lastmod>2016-04-23T10:35:28.586Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
 
     <url>
         <loc>http://woliveiras.com.br/tags/Sublimetext/</loc>
-        <lastmod>2016-04-23T09:19:01.163Z</lastmod>
+        <lastmod>2016-04-23T10:35:28.586Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>http://woliveiras.com.br/tags/Teoria/</loc>
+        <lastmod>2016-04-23T10:35:28.586Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>http://woliveiras.com.br/tags/Bower/</loc>
+        <lastmod>2016-04-23T10:35:28.586Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
 
     <url>
         <loc>http://woliveiras.com.br/tags/Configuracao-Sublimetext/</loc>
-        <lastmod>2016-04-23T09:19:01.163Z</lastmod>
+        <lastmod>2016-04-23T10:35:28.586Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>http://woliveiras.com.br/tags/Plugins/</loc>
+        <lastmod>2016-04-23T10:35:28.586Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>http://woliveiras.com.br/tags/Travis-CI/</loc>
+        <lastmod>2016-04-23T10:35:28.586Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>http://woliveiras.com.br/tags/Continuous-Integration/</loc>
+        <lastmod>2016-04-23T10:35:28.586Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>http://woliveiras.com.br/tags/Less/</loc>
+        <lastmod>2016-04-23T10:35:28.586Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>http://woliveiras.com.br/tags/Pre-Processadores/</loc>
+        <lastmod>2016-04-23T10:35:28.586Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>http://woliveiras.com.br/tags/Sass/</loc>
+        <lastmod>2016-04-23T10:35:28.586Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>http://woliveiras.com.br/tags/Stylus/</loc>
+        <lastmod>2016-04-23T10:35:28.586Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>http://woliveiras.com.br/tags/HTTP/</loc>
+        <lastmod>2016-04-23T10:35:28.586Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>http://woliveiras.com.br/tags/Motivacao/</loc>
+        <lastmod>2016-04-23T10:35:28.586Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>http://woliveiras.com.br/tags/Bootstrap/</loc>
+        <lastmod>2016-04-23T10:35:28.586Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
 
     <url>
         <loc>http://woliveiras.com.br/tags/NVM/</loc>
-        <lastmod>2016-04-23T09:19:01.163Z</lastmod>
+        <lastmod>2016-04-23T10:35:28.586Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
