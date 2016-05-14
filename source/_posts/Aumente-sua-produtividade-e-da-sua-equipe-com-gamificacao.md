@@ -109,7 +109,7 @@ Assim como pode editar os atributos, você poderia criar um hábito positivo e f
 
 O joguinho ainda possui APP para [IOS](https://itunes.apple.com/us/app/habitica/id994882113?ls=1&mt=8), [Android](https://play.google.com/store/apps/details?id=com.habitrpg.android.habitica), um [FAQ](https://habitica.com/static/faq/) maneiro e uma [documentação](http://habitica.wikia.com/wiki/Habitica_Wiki) muito boa. Aconselho dar uma olhada no vídeo abaixo e no [Blog](http://blog.habitrpg.com/) deles também.
 
-<iframe src="https://player.vimeo.com/video/57654086" width="640" height="400" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+<iframe src="https://player.vimeo.com/video/57654086" width="100%" height="473px" frameborder="0" allowfullscreen></iframe>
 <p><a href="https://vimeo.com/57654086">HabitRPG Tutorial #1: Tasks</a> from <a href="https://vimeo.com/tylerrenelle">Tyler Renelle</a> on <a href="https://vimeo.com">Vimeo</a>.</p>
 
 Vale a pena conferir.
