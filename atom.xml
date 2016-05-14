@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://woliveiras.com.br/"/>
-  <updated>2016-04-23T10:35:28.582Z</updated>
+  <updated>2016-05-14T22:26:50.318Z</updated>
   <id>http://woliveiras.com.br/</id>
   
   <author>
@@ -16,11 +16,82 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>Aumente sua produtividade e da sua equipe com gamificação e um RPG arretado</title>
+    <link href="http://woliveiras.com.br/posts/Aumente-sua-produtividade-e-da-sua-equipe-com-gamificacao/"/>
+    <id>http://woliveiras.com.br/posts/Aumente-sua-produtividade-e-da-sua-equipe-com-gamificacao/</id>
+    <published>2016-05-14T18:00:34.000Z</published>
+    <updated>2016-05-14T22:26:50.318Z</updated>
+    
+    <content type="html">&lt;p&gt;Todos nós gostamos de jogos, seja no PC, Celular ou qualquer outro tipo… Simplesmente, gostamos. Agora imagine utilizar jogos para ser mais produtivo, cuidar da saúde, aprender algo novo ou qualquer outro objetivo pessoal.&lt;/p&gt;
+&lt;p&gt;Imagine transformar sua vida em um jogo de RPG!&lt;a id=&quot;more&quot;&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Transformar tarefas diárias, habitos rotineiros ou afazeres em pequenos desafios para ficar mais interessante e motivacional o processo de cumprir essas tarefas é algo que fazemos com frequência, mesmo sem perceber ou utilizar nenhuma técnica ou meio para isso, só para facilitar nossa vida mesmo.&lt;/p&gt;
+&lt;p&gt;E todo mundo quer ser produtivo, seja para ter mais tempo livre para atividades legais ou para entregar algo importante no serviço.&lt;/p&gt;
+&lt;p&gt;Posts anteriores sobre produtividade:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;/posts/produtividade-uma-re-introducao/&quot;&gt;Produtividade, uma re-introdução&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;/posts/Produtividade-conhece-te-a-ti-mesmo/&quot;&gt;Produtividade, conhece-te a ti mesmo&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;/posts/Produtividade-priorizacao-de-tarefas-execucao-e-melhoria-do-processo/&quot;&gt;Produtividade: priorização de tarefas, execução e melhoria do processo&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&quot;O-que-e-Gamificacao&quot;&gt;&lt;a href=&quot;#O-que-e-Gamificacao&quot; class=&quot;headerlink&quot; title=&quot;O que é Gamificação?&quot;&gt;&lt;/a&gt;O que é Gamificação?&lt;/h2&gt;&lt;p&gt;Esse processo de transformar uma atividade (muitas vezes chata) em um desafio que gera recompensas, criar uma competitividade sadia entre pessoas ou algum reconhecimento, é chamado de &lt;a href=&quot;http://www.mjv.com.br/biblioteca/infografico-o-que-e-gamificacao&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Gamificação&lt;/a&gt; ou &lt;a href=&quot;https://pt.wikipedia.org/wiki/Ludifica%C3%A7%C3%A3o&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Ludificação&lt;/a&gt; se for usar um termo mais técnico.&lt;/p&gt;
+&lt;p&gt;Muitas empresas já adotam Gamificação para os mais diversos fins, sendo o principal o &lt;strong&gt;engajamento&lt;/strong&gt; dos clientes em utilizar suas plataformas. E isso já não é mais uma coisa tão anormal nos ambientes de trabalho, também, para motivar os funcionários da empresa, mas você já se imaginou transformando sua vida e sua rotina de serviço em um jogo de RPG para que tudo fique mais legal?&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Parece que estou fazendo marketing para o um produto, mas eu não ganhei nada por isso viu. ;D&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;A algum tempo (especificamente em 2015) eu conheci o jogo &lt;a href=&quot;http://habitica.com&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;HabiticaRPG&lt;/a&gt;, por indicação de um amigo. O Habitica é uma plataforma muito legal com uma dinâmica de jogo impressionante. É um dos jogos com dinâmica mais bem feita que eu conheço. - De verdade&lt;/p&gt;
+&lt;p&gt;Além disso ele é de &lt;a href=&quot;https://github.com/habitrpg/habitrpg/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;código aberto&lt;/a&gt;, utiliza &lt;a href=&quot;https://angularjs.org/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;AngularJS&lt;/a&gt;, &lt;a href=&quot;http://nodejs.org/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;NodeJS&lt;/a&gt; e mais algumas coisinhas bem legais daquela velha sopa de letrinhas das tecnologias mais descoladas atualmente.&lt;/p&gt;
+&lt;p&gt;Eu brinquei um pouco com esse jogo, porém não fui muito a fundo. Só que hoje estamos usando ele no trabalho para nos incentivar a ser mais produtivos e isso acabou me impressionando, pois o resultado já é visível no quadro do &lt;a href=&quot;https://pt.wikipedia.org/wiki/Kanban&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Kanban&lt;/a&gt; que utilizamos para refletir as issues do &lt;a href=&quot;https://www.atlassian.com/software/jira&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Jira&lt;/a&gt;, no engajamento da equipe e no nosso dia-a-dia.&lt;/p&gt;
+&lt;h2 id=&quot;Como-funciona-o-processo-de-Gamificacao-da-rotina-pessoal&quot;&gt;&lt;a href=&quot;#Como-funciona-o-processo-de-Gamificacao-da-rotina-pessoal&quot; class=&quot;headerlink&quot; title=&quot;Como funciona o processo de Gamificação da rotina pessoal?&quot;&gt;&lt;/a&gt;Como funciona o processo de Gamificação da rotina pessoal?&lt;/h2&gt;&lt;p&gt;Basicamente você vai criar um personagem de jogo que completa desafios para ganhar experiência, dinheiro e outras coisas do game (&lt;a href=&quot;http://habitica.wikia.com/wiki/The_Fowl_Frost&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;como um pinguim&lt;/a&gt;). Igual qualquer outro jogo de RPG, mas esses desafios são seus hábitos pessoais, suas atividades diárias, seus afazeres e até desafios globais ou missões em equipe (sim, você pode ter uma Guild, igual nos MMORPG). Você vai enfrentar monstros que podem te matar (no jogo, claro) e seus hábitos negativos podem te levar ao fundo do poço (tanto na vida real, quanto no jogo).&lt;/p&gt;
+&lt;p&gt;Imagine que precisa cultivar o &lt;strong&gt;hábito positivo&lt;/strong&gt; de comer frutas.  Esse hábito vai te dar experiência, dinheiro e outros bonus dentro do jogo.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Exemplos&lt;/strong&gt;:&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;http://s32.postimg.org/7mueoovlh/habito_positivo_habitica.png&quot; alt=&quot;Habito positivo Habitica&quot;&gt;&lt;/p&gt;
+&lt;p&gt;Mas, você também pode perder pontos com &lt;strong&gt;hábitos negativos&lt;/strong&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;http://s32.postimg.org/z119o4n3p/habitos_negativo_habitica.png&quot; alt=&quot;Habitos negativos Habitica&quot;&gt;&lt;/p&gt;
+&lt;p&gt;Ou ainda pior, pode perder pontos no jogo &lt;strong&gt;e a namorada&lt;/strong&gt; por seus hábitos negativos!&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;http://s32.postimg.org/iumlc0cxh/habito_negativo_habitica.png&quot; alt=&quot;Habito negativo Habitica&quot;&gt;&lt;/p&gt;
+&lt;p&gt; Pode rir… Eu já quase morri por esse hábito.&lt;/p&gt;
+&lt;p&gt;Você pode criar uma tarefa diária para &lt;strong&gt;aprender/treinar um novo idioma&lt;/strong&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;http://s32.postimg.org/pelp7czg5/habitica_e_duolingo.png&quot; alt=&quot;Habitica e Duolingo&quot;&gt;&lt;/p&gt;
+&lt;p&gt;Eu ainda uso muito o &lt;a href=&quot;http://wunderlist.com/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Wunderlist&lt;/a&gt; para cadastrar minha lista de afazeres, mas, ultimamente, tenho passado as coisas para a lista de afazeres do Jogo para conseguir subir de nível mais rápido e ganhar mais pontos, etc.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;http://s32.postimg.org/5wwk7wprp/afazeres_habitica.png&quot; alt=&quot;Afazeres Habitica&quot;&gt;&lt;/p&gt;
+&lt;h2 id=&quot;Mas-como-utilizar-isso-para-ser-mais-produtivo-no-servico&quot;&gt;&lt;a href=&quot;#Mas-como-utilizar-isso-para-ser-mais-produtivo-no-servico&quot; class=&quot;headerlink&quot; title=&quot;Mas como utilizar isso para ser mais produtivo no serviço?&quot;&gt;&lt;/a&gt;Mas como utilizar isso para ser mais produtivo no serviço?&lt;/h2&gt;&lt;p&gt;Existem &lt;strong&gt;N&lt;/strong&gt; maneiras de utilizar algo desse tipo na sua empresa ou equipe para tornar todos mais produtivos, no nosso caso criamos alguns &lt;strong&gt;Desafios&lt;/strong&gt; focados em nossas atividades diárias e até um desafio gigante para aprender uma técnica nova de gestão de tempo chamada &lt;a href=&quot;http://efetividade.net/2011/11/ztd-um-jeito-zen-e-minimalista-de-buscar-a-produtividade-pessoal.html&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;ZTD&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;http://s32.postimg.org/f2gwp1e2d/desafios_da_equipe.png&quot; alt=&quot;Desafios da equipe&quot;&gt;&lt;/p&gt;
+&lt;p&gt;Exemplos:&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;http://s32.postimg.org/etfxpzj91/salvar_a_decoracao_do_planeta.png&quot; alt=&quot;Salvar a Decoração do Planeta&quot;&gt;&lt;/p&gt;
+&lt;p&gt;Claro que ainda existem vários outros hábitos nessa lista, mas não coube no print.&lt;/p&gt;
+&lt;p&gt;Assim como funciona com as atividades pessoais, cadastramos as atividades rotineiras no trabalho e, durante a semana, vamos cadastrando e finalizando os afazeres.&lt;/p&gt;
+&lt;p&gt;Logo nas primeiras semanas foi visível a empolgação do pessoal com o esquema de joguinho. - Tomara que continue ;D&lt;/p&gt;
+&lt;p&gt;Nenhuma das tarefas exibidas foram inventadas agora, para o post, de fato sigo esses desafios durante os dias. Inclusive, escrever um post me da pontos!&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;http://s32.postimg.org/bpp0yaat1/pontos_por_escrever_um_post.png&quot; alt=&quot;Pontos por escrever um post&quot;&gt;&lt;/p&gt;
+&lt;p&gt;O joguinho ainda possui APP para Celular e uma documentação muito boa.&lt;/p&gt;
+&lt;p&gt;Vale a pena conferir.&lt;/p&gt;
+&lt;p&gt;Esse é meu personagem atualmente exibindo o seu Dragão Vermelho!&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;http://s32.postimg.org/objeok8xh/meu_char_e_dragao.png&quot; alt=&quot;Meu char com a montaria do Dragão Vermelho&quot;&gt;&lt;/p&gt;
+&lt;p&gt;E ai, curtiu essa dica?&lt;/p&gt;
+&lt;p&gt;Então comenta aqui em baixo ou compartilha nas redes sociais, cria sua conta no Joguinho me manda &lt;a href=&quot;http://habitica.wikia.com/wiki/Party&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;seu ID&lt;/a&gt; para eu adicionar na equipe e vamos vencer alguns monstros e desafios!&lt;/p&gt;
+&lt;p&gt;Espalhe a palavra.&lt;/p&gt;
+</content>
+    
+    <summary type="html">
+    
+      Aumente sua produtividade e da sua equipe com gamificação das tarefas e hábitos produtivos
+    
+    </summary>
+    
+    
+      <category term="produtividade" scheme="http://woliveiras.com.br/tags/produtividade/"/>
+    
+      <category term="dicas" scheme="http://woliveiras.com.br/tags/dicas/"/>
+    
+      <category term="jogos" scheme="http://woliveiras.com.br/tags/jogos/"/>
+    
+  </entry>
+  
+  <entry>
     <title>Produtividade: priorização de tarefas, execução e melhoria do processo</title>
     <link href="http://woliveiras.com.br/posts/Produtividade-priorizacao-de-tarefas-execucao-e-melhoria-do-processo/"/>
     <id>http://woliveiras.com.br/posts/Produtividade-priorizacao-de-tarefas-execucao-e-melhoria-do-processo/</id>
     <published>2016-04-21T12:31:46.000Z</published>
-    <updated>2016-04-23T10:35:28.582Z</updated>
+    <updated>2016-05-14T22:26:50.322Z</updated>
     
     <content type="html">&lt;p&gt;Continuando a série sobre Produtividade, já sabemos &lt;a href=&quot;/posts/produtividade-uma-re-introducao/&quot;&gt;o que é produtividade&lt;/a&gt; e &lt;a href=&quot;/posts/Produtividade-conhece-te-a-ti-mesmo/&quot;&gt;como nosso cérebro funciona&lt;/a&gt;, agora precisamos aprender a planejar as coisas para que nosso cérebro não nos atrapalhe em nossa meta de sermos mais produtivos. &lt;a id=&quot;more&quot;&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;O planejamento, aqui, pode ser dividido em:&lt;/p&gt;
@@ -95,9 +166,9 @@
     </summary>
     
     
-      <category term="dicas" scheme="http://woliveiras.com.br/tags/dicas/"/>
-    
       <category term="produtividade" scheme="http://woliveiras.com.br/tags/produtividade/"/>
+    
+      <category term="dicas" scheme="http://woliveiras.com.br/tags/dicas/"/>
     
   </entry>
   
@@ -106,7 +177,7 @@
     <link href="http://woliveiras.com.br/posts/Links-uteis-para-aprender-se-aprofundar-ou-manter-se-atualizado-sobre-JavaScript/"/>
     <id>http://woliveiras.com.br/posts/Links-uteis-para-aprender-se-aprofundar-ou-manter-se-atualizado-sobre-JavaScript/</id>
     <published>2016-04-20T09:00:19.000Z</published>
-    <updated>2016-04-23T10:35:28.582Z</updated>
+    <updated>2016-05-14T22:26:50.318Z</updated>
     
     <content type="html">&lt;p&gt;Existe muito recurso legal disponível na internet para quem deseja aprender ou se aprofundar em JavaScript. Tanto recursos gratuitos, quanto recursos pagos. Existem muitos &lt;a href=&quot;/posts/Livros-sobre-JavaScript-do-iniciante-ao-avancado-e-ES6/&quot;&gt;livros bons&lt;/a&gt; sobre a linguagem também.&lt;/p&gt;
 &lt;p&gt;Nesse post, vou tentar deixar um compilado de links úteis para quem quer se aprofundar na linguagem da Web!&lt;a id=&quot;more&quot;&gt;&lt;/a&gt;&lt;/p&gt;
@@ -218,7 +289,7 @@
     <link href="http://woliveiras.com.br/posts/Livros-sobre-JavaScript-do-iniciante-ao-avancado-e-ES6/"/>
     <id>http://woliveiras.com.br/posts/Livros-sobre-JavaScript-do-iniciante-ao-avancado-e-ES6/</id>
     <published>2016-04-19T10:24:08.000Z</published>
-    <updated>2016-04-23T10:35:28.582Z</updated>
+    <updated>2016-05-14T22:26:50.318Z</updated>
     
     <content type="html">&lt;p&gt;Existem excelentes livros sobre JavaScript no mercado, mas são tantos que nos perdemos em qual ler primeiro, qual ler depois, qual nem vale a pena ler em determinado nível de conhecimento… São várias dúvidas.&lt;/p&gt;
 &lt;p&gt;Nesse artigo vou tentar ajudar a escolher os melhores livros para seu nível de conhecimento e montar uma sequência legal de leitura para virar um JavaScript Master!&lt;a id=&quot;more&quot;&gt;&lt;/a&gt;&lt;/p&gt;
@@ -285,7 +356,7 @@
     <link href="http://woliveiras.com.br/posts/Produtividade-conhece-te-a-ti-mesmo/"/>
     <id>http://woliveiras.com.br/posts/Produtividade-conhece-te-a-ti-mesmo/</id>
     <published>2016-04-18T11:48:58.000Z</published>
-    <updated>2016-04-23T10:35:28.582Z</updated>
+    <updated>2016-05-14T22:26:50.318Z</updated>
     
     <content type="html">&lt;p&gt;O autoconhecimento é muito importante para você se tornar produtivo.&lt;/p&gt;
 &lt;p&gt;De nada adianta aprender milhares de técnicas, receber diversas dicas sobre produtividade, se nenhuma delas se encaixa em você. Claro que é necessário um pouco de esforço de sua parte para que as metodologias deem certo, porém, dentre milhares de técnicas, você vai precisar achar uma que se encaixe em seu estilo de vida e na sua forma de pensar e agir. &lt;a id=&quot;more&quot;&gt;&lt;/a&gt;&lt;/p&gt;
@@ -352,9 +423,9 @@
     </summary>
     
     
-      <category term="dicas" scheme="http://woliveiras.com.br/tags/dicas/"/>
-    
       <category term="produtividade" scheme="http://woliveiras.com.br/tags/produtividade/"/>
+    
+      <category term="dicas" scheme="http://woliveiras.com.br/tags/dicas/"/>
     
   </entry>
   
@@ -363,7 +434,7 @@
     <link href="http://woliveiras.com.br/posts/Por-que-voce-desistiu-de-ser-Cientista/"/>
     <id>http://woliveiras.com.br/posts/Por-que-voce-desistiu-de-ser-Cientista/</id>
     <published>2016-04-16T11:55:36.000Z</published>
-    <updated>2016-04-23T10:35:28.582Z</updated>
+    <updated>2016-05-14T22:26:50.318Z</updated>
     
     <content type="html">&lt;p&gt;Há algum tempo venho observando as pessoas, mais especificamente as pessoas da área de Desenvolvimento de Software. Há mais tempo ainda eu observo as outras pessoas, o ser humano em geral. E desde sempre percebi um padrão:&lt;/p&gt;
 &lt;p&gt;Ao crescer, as pessoas abandonam a profissão que nasce com elas, a profissão de &lt;strong&gt;cientista&lt;/strong&gt;.&lt;a id=&quot;more&quot;&gt;&lt;/a&gt;&lt;/p&gt;
@@ -456,7 +527,7 @@
     <link href="http://woliveiras.com.br/posts/produtividade-uma-re-introducao/"/>
     <id>http://woliveiras.com.br/posts/produtividade-uma-re-introducao/</id>
     <published>2016-04-13T10:58:34.000Z</published>
-    <updated>2016-04-23T10:35:28.586Z</updated>
+    <updated>2016-05-14T22:26:50.322Z</updated>
     
     <content type="html">&lt;p&gt;No ritmo frenético em que vivemos, ser produtivo já não é mais qualidade de ninguém, precisa ser uma característica de todos.&lt;/p&gt;
 &lt;p&gt;Nós queremos fazer um amontoado de coisas todos os dias e toda hora aparece alguma outra coisa pra se fazer.&lt;/p&gt;
@@ -509,9 +580,9 @@
     </summary>
     
     
-      <category term="dicas" scheme="http://woliveiras.com.br/tags/dicas/"/>
-    
       <category term="produtividade" scheme="http://woliveiras.com.br/tags/produtividade/"/>
+    
+      <category term="dicas" scheme="http://woliveiras.com.br/tags/dicas/"/>
     
   </entry>
   
@@ -520,7 +591,7 @@
     <link href="http://woliveiras.com.br/posts/Criando-uma-imagem-Docker-personalizada/"/>
     <id>http://woliveiras.com.br/posts/Criando-uma-imagem-Docker-personalizada/</id>
     <published>2016-04-12T01:18:59.000Z</published>
-    <updated>2016-04-23T10:35:28.582Z</updated>
+    <updated>2016-05-14T22:26:50.318Z</updated>
     
     <content type="html">&lt;p&gt;É muito legal poder baixar uma imagem do &lt;a href=&quot;http://hub.docker.com/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Docker Hub&lt;/a&gt; e já sair criando os containers, modificando e brincando, mas e depois?&lt;/p&gt;
 &lt;p&gt;Como fazemos para levar essa imagem para outro host?&lt;/p&gt;
@@ -632,7 +703,7 @@
     <link href="http://woliveiras.com.br/posts/comandos-mais-utilizados-no-docker/"/>
     <id>http://woliveiras.com.br/posts/comandos-mais-utilizados-no-docker/</id>
     <published>2016-04-12T00:00:08.000Z</published>
-    <updated>2016-04-23T10:35:28.582Z</updated>
+    <updated>2016-05-14T22:26:50.322Z</updated>
     
     <content type="html">&lt;p&gt;Um post rapidinho com os comandos mais utilizados do Docker para não esquecer e consultar facilmente. :D&lt;/p&gt;
 &lt;p&gt;Se você não viu a primeira parte dessa sequência, clique &lt;a href=&quot;/posts/uma-rapida-introducao-ao-docker-e-instalacao-no-ubuntu/&quot;&gt;aqui&lt;/a&gt;.&lt;/p&gt;
@@ -758,7 +829,7 @@
     <link href="http://woliveiras.com.br/posts/imagem-docker-ou-um-container-docker/"/>
     <id>http://woliveiras.com.br/posts/imagem-docker-ou-um-container-docker/</id>
     <published>2016-04-11T17:00:00.000Z</published>
-    <updated>2016-04-23T10:35:28.586Z</updated>
+    <updated>2016-05-14T22:26:50.322Z</updated>
     
     <content type="html">&lt;p&gt;Se você viu a primeira parte dessa sequência de artigos, percebeu que existem dois termos muito utilizados quando falamos de Docker: &lt;strong&gt;Imagens&lt;/strong&gt; e &lt;strong&gt;Containers&lt;/strong&gt;. Você deve se perguntar: qual é a diferença entre imagem e container Docker? Ou então: O que eu rodo com o &lt;code&gt;docker run&lt;/code&gt;, uma imagem ou um container? &lt;a id=&quot;more&quot;&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;Se você não viu o primeiro artigo, da uma olhada &lt;a href=&quot;/posts/uma-rapida-introducao-ao-docker-e-instalacao-no-ubuntu/&quot;&gt;aqui&lt;/a&gt;.&lt;/p&gt;
@@ -837,7 +908,7 @@
     <link href="http://woliveiras.com.br/posts/uma-rapida-introducao-ao-docker-e-instalacao-no-ubuntu/"/>
     <id>http://woliveiras.com.br/posts/uma-rapida-introducao-ao-docker-e-instalacao-no-ubuntu/</id>
     <published>2016-04-10T11:03:47.000Z</published>
-    <updated>2016-04-23T10:35:28.586Z</updated>
+    <updated>2016-05-14T22:26:50.322Z</updated>
     
     <content type="html">&lt;p&gt;&lt;div class=&quot;shared-img&quot;&gt;&lt;br&gt;&lt;img src=&quot;../../public/images/docker.png&quot; alt=&quot;Docker&quot;&gt;&lt;br&gt;&lt;/div&gt;Você já deve ter ouvido falar, pelo menos uma vez, sobre &lt;a href=&quot;https://www.docker.com/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Docker&lt;/a&gt; em algum lugar. Seja em palestras, blogs, vídeos ou em qualquer outra fonte de estudos sobre desenvolvimento, uma hora sempre comentamos sobre virtualização de ambientes e o Docker é a ferramenta que mais tem se destacado para tal. Ele é uma das 8 maravilhas das atualidades mais atuais. Vamos entender um pouco, então, o que é o Docker e como instalar no nosso Ubuntu.&lt;a id=&quot;more&quot;&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;h2 id=&quot;Introducao&quot;&gt;&lt;a href=&quot;#Introducao&quot; class=&quot;headerlink&quot; title=&quot;Introdução&quot;&gt;&lt;/a&gt;Introdução&lt;/h2&gt;&lt;p&gt;Eu também já ouvia falar do Docker a um bom tempo, porém nunca havia me aprofundado mais nessa ferramenta.&lt;/p&gt;
@@ -923,7 +994,7 @@
     <link href="http://woliveiras.com.br/posts/postando-no-blog-est%C3%A1tico-direto-pelo-github-com-hexo-e-travis-ci/"/>
     <id>http://woliveiras.com.br/posts/postando-no-blog-estático-direto-pelo-github-com-hexo-e-travis-ci/</id>
     <published>2016-02-07T00:00:00.000Z</published>
-    <updated>2016-04-23T10:35:28.586Z</updated>
+    <updated>2016-05-14T22:26:50.322Z</updated>
     
     <content type="html">&lt;p&gt;Confesso que fiquei tentado a migrar para o &lt;a href=&quot;https://jekyllrb.com/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Jekyll (Ruby)&lt;/a&gt; depois que um &lt;a href=&quot;http://jotateles.com.br/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;amigo&lt;/a&gt; me mostrou que da para postar no blog direto do GitHub sem ter o Jekyll instalado na máquina. Porém eu não desisti do meu queridinho, o &lt;a href=&quot;http://hexo.io/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Hexo (feito com Node &amp;lt;3)&lt;/a&gt;.&lt;a id=&quot;more&quot;&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;&lt;em&gt;Se você não conhece o Hexo, da uma olhada &lt;a href=&quot;http://woliveiras.com.br/posts/Migrando-de-Wordpress-para-Hexo/&quot;&gt;nesse artigo&lt;/a&gt;.&lt;/em&gt;&lt;/p&gt;
@@ -998,7 +1069,7 @@
     <link href="http://woliveiras.com.br/posts/um-ano-como-desenvolvedor-front-end/"/>
     <id>http://woliveiras.com.br/posts/um-ano-como-desenvolvedor-front-end/</id>
     <published>2015-12-01T12:00:00.000Z</published>
-    <updated>2016-04-23T10:35:28.586Z</updated>
+    <updated>2016-05-14T22:26:50.322Z</updated>
     
     <content type="html">&lt;p&gt;Todo mundo tem uma história legal pra contar sobre como começou na área de Desenvolvimento, seja Web, Mobile, Desktop ou tanto faz. Sempre temos algo interessante para passar para os novos desenvolvedores que estão entrando no mercado e que, as vezes, tem medo de se arriscar, achando que &lt;a href=&quot;http://woliveiras.com.br/posts/requisitos-para-vagas-front-end/&quot;&gt;precisam saber de tudo para investir no primeiro trampo&lt;/a&gt;.&lt;/p&gt;
 &lt;p&gt;Conheça um pouco sobre como foi meu primeiro ano como Desenvolvedor Front End. Medos, frustrações, desespero, alegria, festas e algumas dicas para se preparar para o mercado de trabalho.&lt;/p&gt;
@@ -1048,7 +1119,7 @@
     <link href="http://woliveiras.com.br/posts/corrigindo-permissoes-de-usuario-linux-npm/"/>
     <id>http://woliveiras.com.br/posts/corrigindo-permissoes-de-usuario-linux-npm/</id>
     <published>2015-09-12T13:00:00.000Z</published>
-    <updated>2016-04-23T10:35:28.582Z</updated>
+    <updated>2016-05-14T22:26:50.322Z</updated>
     
     <content type="html">&lt;div class=&quot;shared-img&quot;&gt;&lt;br&gt;&lt;img src=&quot;../../public/images/npm.svg&quot; alt=&quot;&quot;&gt;&lt;br&gt;&lt;/div&gt;
 
@@ -1091,7 +1162,7 @@
     <link href="http://woliveiras.com.br/posts/utilizando-versoes-antigas-do-nodejs/"/>
     <id>http://woliveiras.com.br/posts/utilizando-versoes-antigas-do-nodejs/</id>
     <published>2015-09-12T08:00:32.000Z</published>
-    <updated>2016-04-23T10:35:28.586Z</updated>
+    <updated>2016-05-14T22:26:50.322Z</updated>
     
     <content type="html">&lt;div class=&quot;shared-img&quot;&gt;&lt;br&gt;&lt;img src=&quot;../..//public/images/nodejs.png&quot; alt=&quot;&quot;&gt;&lt;br&gt;&lt;/div&gt;
 
@@ -1176,7 +1247,7 @@
     <link href="http://woliveiras.com.br/posts/twitter-bootstrap-bootstrap-do-jeito-certo/"/>
     <id>http://woliveiras.com.br/posts/twitter-bootstrap-bootstrap-do-jeito-certo/</id>
     <published>2015-09-09T01:00:00.000Z</published>
-    <updated>2016-04-23T10:35:28.586Z</updated>
+    <updated>2016-05-14T22:26:50.322Z</updated>
     
     <content type="html">&lt;p&gt;Muita gente critica o uso do &lt;a href=&quot;http://getbootstrap.com/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Twitter Bootstrap&lt;/a&gt; devido a nomenclatura de suas classes e aos muitos componentes que o framework possui.&lt;/p&gt;
 &lt;p&gt;Dizem que as classes não são semanticas e que o peso do framework é desnecessário.&lt;/p&gt;
@@ -1259,7 +1330,7 @@
     <link href="http://woliveiras.com.br/posts/Migrando-de-Wordpress-para-Hexo/"/>
     <id>http://woliveiras.com.br/posts/Migrando-de-Wordpress-para-Hexo/</id>
     <published>2015-08-05T02:53:41.000Z</published>
-    <updated>2016-04-23T10:35:28.582Z</updated>
+    <updated>2016-05-14T22:26:50.318Z</updated>
     
     <content type="html">&lt;p&gt;&lt;div class=&quot;shared-img&quot;&gt;&lt;br&gt;&lt;img src=&quot;../../public/images/hexo-logo.png&quot; alt=&quot;Hexo Blog&quot;&gt;&lt;br&gt;&lt;/div&gt;A um bom tempo sinto vontade de mudar meu Blog de WordPress para uma plataforma de  conteúdo estático, mas não achava nenhuma alternativa, pois que queria usar Nodejs. Por isso não fui para o, muito usado na comunidade, &lt;a href=&quot;http://jekyllrb.com/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Jekyll(Ruby)&lt;/a&gt; , nem para o &lt;a href=&quot;http://blog.getpelican.com/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Pelican(Python &amp;lt;3)&lt;/a&gt;.&lt;a id=&quot;more&quot;&gt;&lt;/a&gt;&lt;br&gt;Em busca de uma alternativa encontrei o &lt;a href=&quot;https://hexo.io&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Hexo&lt;/a&gt; e, um pouco depois de eu conhecer essa plataforma, o &lt;a href=&quot;http://blog.da2k.com.br/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Daciuk&lt;/a&gt; escreveu um &lt;a href=&quot;http://blog.da2k.com.br/2014/01/05/hexo-criando-um-blog-ao-estilo-miojo/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;post&lt;/a&gt; muito maneiro incentivando o seu uso. Foi então que eu decidi de vez usar essa plataforma!&lt;br&gt;Bora conhecer ela e como foi a migração de WordPress para Hexo?&lt;/p&gt;
 &lt;p&gt;###Levantando as necessidades&lt;/p&gt;
@@ -1314,7 +1385,7 @@
     <link href="http://woliveiras.com.br/posts/frameworks-front-end/"/>
     <id>http://woliveiras.com.br/posts/frameworks-front-end/</id>
     <published>2015-03-05T00:18:46.000Z</published>
-    <updated>2016-04-23T10:35:28.582Z</updated>
+    <updated>2016-05-14T22:26:50.322Z</updated>
     
     <content type="html">&lt;p&gt;Já parou pra pensar quantas vezes você repete o mesmo código durante o Desenvolvimento, seja Web, Mobile ou Desktop? Já pensou em padronizar o que você faz de alguma maneira?&lt;br&gt;E pra você que é Gerente de Projetos, Líder ou algo do tipo: Já pensou em poder adicionar um membro no seu grupo  e ele já saber como funciona o Desenvolvimento nessa equipe e conseguir ser produtivo desde o princípio?&lt;br&gt;Pois é, Frameworks servem para isso… Vem comigo que vou explicar melhor. ;)&lt;a id=&quot;more&quot;&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;h2 id=&quot;O-que-sao-Frameworks&quot;&gt;&lt;a href=&quot;#O-que-sao-Frameworks&quot; class=&quot;headerlink&quot; title=&quot;O que são Frameworks?&quot;&gt;&lt;/a&gt;O que são Frameworks?&lt;/h2&gt;&lt;p&gt;Você pega aqueles códigos que se repetem entre os projetos, adiciona uma pitada de &lt;a href=&quot;http://pt.wikipedia.org/wiki/Padr%C3%A3o_de_projeto_de_software&quot; title=&quot;Wikipedia - Padrões de Projetos&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Padrões&lt;/a&gt;, deixa conforme sua equipe precisa ou &lt;a href=&quot;http://tableless.com.br/locaweb-style-como-iniciamos/&quot; title=&quot;Locaweb Style - Framework Front End da Locaweb&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;conforme sua empresa trabalha&lt;/a&gt;, empacota tudo isso pra poder reutilizar depois e pronto, criou um Framework!&lt;br&gt;Só isso? Sim, só isso… Framework é uma ferramenta com os códigos, padrões, etc, que você consegue utilizar pra resolver problemas que se repetem ou mesmo pra iniciar projetos que vão possuir as mesmas características seja no Front, Back End ou mesmo para &lt;a href=&quot;https://github.com/woliveiras/pastel&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Tooling(Ferramentas)&lt;/a&gt;. Quando você utiliza um Framework como base, pode somente baixar ele, configurar ou instalar e seguir dali para as necessidades específicas de cada projeto. Isso mata muito tempo que você perderia fazendo algo que sabe que vai repetir no próximo trabalho.&lt;/p&gt;
@@ -1364,7 +1435,7 @@
     <link href="http://woliveiras.com.br/posts/contribuindo-para-projetos-open-source-no-github-mesmo-sendo-iniciante/"/>
     <id>http://woliveiras.com.br/posts/contribuindo-para-projetos-open-source-no-github-mesmo-sendo-iniciante/</id>
     <published>2015-02-09T14:12:32.000Z</published>
-    <updated>2016-04-23T10:35:28.582Z</updated>
+    <updated>2016-05-14T22:26:50.322Z</updated>
     
     <content type="html">&lt;div class=&quot;shared-img&quot;&gt;&lt;br&gt;&lt;img src=&quot;../../public/images/github.gif&quot; alt=&quot;&quot;&gt;&lt;br&gt;&lt;/div&gt;
 
@@ -1408,7 +1479,7 @@
     <link href="http://woliveiras.com.br/posts/haroopad-um-editor-markdown-maneiro/"/>
     <id>http://woliveiras.com.br/posts/haroopad-um-editor-markdown-maneiro/</id>
     <published>2015-02-09T12:53:56.000Z</published>
-    <updated>2016-04-23T10:35:28.586Z</updated>
+    <updated>2016-05-14T22:26:50.322Z</updated>
     
     <content type="html">&lt;div class=&quot;shared-img&quot;&gt;&lt;br&gt;&lt;img src=&quot;../..//public/images/Haroopad.png&quot; alt=&quot;&quot;&gt;&lt;br&gt;&lt;/div&gt;
 
@@ -1453,37 +1524,6 @@
       <category term="Front End" scheme="http://woliveiras.com.br/tags/Front-End/"/>
     
       <category term="Markdown" scheme="http://woliveiras.com.br/tags/Markdown/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Como detectar o dispositivo que acessa seu site</title>
-    <link href="http://woliveiras.com.br/posts/como-detectar-o-dispositivo-que-acessa-seu-site/"/>
-    <id>http://woliveiras.com.br/posts/como-detectar-o-dispositivo-que-acessa-seu-site/</id>
-    <published>2015-02-03T18:47:41.000Z</published>
-    <updated>2016-04-23T10:35:28.582Z</updated>
-    
-    <content type="html">&lt;p&gt;Uma dica rápida para quem trabalha com diversos tipos de dispositivos!&lt;/p&gt;
-&lt;p&gt;Dependendo do projeto em que você está trabalhando, pode chegar a necessidade de detectar qual é o tipo de dispositivo que está acessando o site/aplicação/sistema, etc. As vezes isso é feito para redirecionar o usuário para uma outra versão do projeto, as vezes simplesmente para ativar uma funcionalidade ou não.&lt;a id=&quot;more&quot;&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;Isso pode ser feito de diversas maneiras e um site reuniu algumas formas de fazer isso com diferentes linguagens. Esse site é o &lt;a href=&quot;http://detectmobilebrowsers.com/&quot; title=&quot;Detect Mobile Browsers&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Detect Mobile Browsers&lt;/a&gt;!&lt;/p&gt;
-&lt;p&gt;Da uma conferida nesse site, pois é muito útil!&lt;/p&gt;
-&lt;p&gt;Se você conhece algum outro jeito de executar essa ação, comenta ae pra compartilhar informação com a galera! :D&lt;/p&gt;
-</content>
-    
-    <summary type="html">
-    
-      Como detectar o tipo de dispositivo que acessa seu site
-    
-    </summary>
-    
-      <category term="Dicas" scheme="http://woliveiras.com.br/categories/Dicas/"/>
-    
-      <category term="Mobile" scheme="http://woliveiras.com.br/categories/Dicas/Mobile/"/>
-    
-    
-      <category term="Dicas" scheme="http://woliveiras.com.br/tags/Dicas/"/>
-    
-      <category term="Mobile" scheme="http://woliveiras.com.br/tags/Mobile/"/>
     
   </entry>
   
