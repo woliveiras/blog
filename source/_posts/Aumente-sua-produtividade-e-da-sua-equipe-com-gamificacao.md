@@ -83,7 +83,34 @@ Nenhuma das tarefas exibidas foram inventadas agora, para o post, de fato sigo e
 
 ![Pontos por escrever um post](http://s32.postimg.org/bpp0yaat1/pontos_por_escrever_um_post.png)
 
-O joguinho ainda possui APP para Celular e uma documentação muito boa.
+## O ponto principal desse jogo, a honestidade
+
+O jogo é todo editável. E quando digo todo, é todo mesmo.
+
+Você pode criar bonus ou recompensas personalizadas.
+
+Ex.:
+
+![Bonus personalizados](http://s32.postimg.org/nimkbtvxx/bonus_personalizados.png)
+
+Você pode, inclusive, entrar nas configurações e aumentar seu level, quantidade de dinheiro, etc.
+
+![Edição dos atributos do personagem](http://s32.postimg.org/n26emieid/edicao_dos_atributos.png)
+
+E é nesse ponto que entramos na coisa mais importante desse jogo e a que eu acho mais legal: a **honestidade**.
+
+Para você cultivar seus hábitos você precisa ser honesto consigo mesmo e nesse jogo não é diferente. Você pode ficar tentado(a) a modificar os atributos do seu personagem, mas o que você ganharia com isso? Você só estaria se enganando e perdendo pontos consigo mesmo.
+
+Note o que o próprio jogo já alerta sobre isso:
+
+> Sim, isso cria a possibilidade de trapacear: use essa ferramenta com sabedoria, ou sabotará sua própria construção de hábitos.
+
+Assim como pode editar os atributos, você poderia criar um hábito positivo e ficar clicando várias vezes pra ganhar pontos, mas aí entra o mesmo ponto: O que você ganharia com isso?
+
+O joguinho ainda possui APP para [IOS](https://itunes.apple.com/us/app/habitica/id994882113?ls=1&mt=8), [Android](https://play.google.com/store/apps/details?id=com.habitrpg.android.habitica), um [FAQ](https://habitica.com/static/faq/) maneiro e uma [documentação](http://habitica.wikia.com/wiki/Habitica_Wiki) muito boa. Aconselho dar uma olhada no vídeo abaixo e no [Blog](http://blog.habitrpg.com/) deles também.
+
+<iframe src="https://player.vimeo.com/video/57654086" width="640" height="400" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+<p><a href="https://vimeo.com/57654086">HabitRPG Tutorial #1: Tasks</a> from <a href="https://vimeo.com/tylerrenelle">Tyler Renelle</a> on <a href="https://vimeo.com">Vimeo</a>.</p>
 
 Vale a pena conferir.
 
