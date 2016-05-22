@@ -1,4 +1,4 @@
-title: 'Começando com o Editor de Texto VIM'
+title: 'Começando com VIM: O Editor de Texto'
 date: 2016-05-22 10:30
 tags:
     - produtividade
