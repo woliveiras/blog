@@ -1,0 +1,938 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"inpu",
+				"inputName"
+			],
+			[
+				"inp",
+				"inputName"
+			],
+			[
+				"develo",
+				"developers"
+			],
+			[
+				"dis",
+				"display"
+			],
+			[
+				"argumen",
+				"arguments	(JSNINJA.js)"
+			],
+			[
+				"acumula",
+				"acumulated"
+			],
+			[
+				"app",
+				"apply"
+			],
+			[
+				"MyFunc",
+				"MyFunction"
+			],
+			[
+				"last",
+				"lastName"
+			],
+			[
+				"proto",
+				"prototype"
+			],
+			[
+				"add",
+				"addEventListener"
+			],
+			[
+				"query",
+				"document.querySelector(selectors)	Document"
+			],
+			[
+				"queryS",
+				"querySelectorAll(selectors)	Element"
+			],
+			[
+				"getEleme",
+				"getElementsByClassName(names)	Element"
+			],
+			[
+				"documet",
+				"document	(challenge-20.js)"
+			],
+			[
+				"stri",
+				"strict"
+			],
+			[
+				"cp",
+				"cpfs"
+			],
+			[
+				"function",
+				"function without name"
+			],
+			[
+				"console",
+				"console.log()"
+			],
+			[
+				"la",
+				"layout.styl"
+			],
+			[
+				"apt",
+				"apt-get"
+			],
+			[
+				"install",
+				"install-apps/"
+			],
+			[
+				"inst",
+				"install-apps"
+			],
+			[
+				"esta",
+				"estado"
+			],
+			[
+				"ke",
+				"keys"
+			],
+			[
+				"bo",
+				"books"
+			],
+			[
+				"consol",
+				"console.log()"
+			],
+			[
+				"dow",
+				"do while()"
+			],
+			[
+				"type",
+				"typeof"
+			],
+			[
+				"G",
+				"GH_TOKEN"
+			],
+			[
+				"subtr",
+				"subtraction"
+			],
+			[
+				"calc",
+				"calculator"
+			],
+			[
+				"conso",
+				"contains(${0:otherNode})	Node"
+			],
+			[
+				"Date",
+				"getDate()	Date"
+			],
+			[
+				"settime",
+				"setTimeout(${0:func}, delay)	Window"
+			],
+			[
+				"func",
+				"setInterval(${0:func}, delay)	Window"
+			],
+			[
+				"fun",
+				"function(){\n	$0\n})();	(function(){\n	$0\n})();"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"contents": "function foo() {\n	console.log(\"foo\");\n}\n\nUm artigo baum desse tem de ser espalhado cara! :D",
+			"settings":
+			{
+				"buffer_size": 91,
+				"line_ending": "Unix",
+				"name": "function foo() {"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 96.0,
+		"last_filter": "docker",
+		"selected_items":
+		[
+			[
+				"docker",
+				"Set Syntax: Dockerfile"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"shell",
+				"Set Syntax: Shell Script (Bash)"
+			],
+			[
+				"remove",
+				"Package Control: Remove Package"
+			],
+			[
+				"html",
+				"Set Syntax: HTML"
+			],
+			[
+				"open ",
+				"File: Open In Browser - Production Server"
+			],
+			[
+				"git",
+				"GitGutter: Show Comparing Against"
+			],
+			[
+				"markd",
+				"Set Syntax: Markdown"
+			],
+			[
+				"diff",
+				"Set Syntax: Diff"
+			],
+			[
+				"settings",
+				"AutoFileName: Quick Settings"
+			],
+			[
+				"markdown",
+				"Set Syntax: Markdown"
+			],
+			[
+				"mar",
+				"Set Syntax: Markdown"
+			],
+			[
+				"javas",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"settings ur",
+				"Preferences: Settings - User"
+			],
+			[
+				"package setti",
+				"Preferences: Package Control Settings – User"
+			],
+			[
+				"package settin",
+				"Preferences: Package Control Settings – User"
+			],
+			[
+				"git pus",
+				"Git: Push"
+			],
+			[
+				"git add",
+				"Git: Add All"
+			],
+			[
+				"git stat",
+				"Git: Status"
+			],
+			[
+				"Git add all",
+				"Git: Add All"
+			],
+			[
+				"git sta",
+				"Git: Status"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"stylus",
+				"Set Syntax: Stylus"
+			],
+			[
+				"css",
+				"Set Syntax: CSS"
+			],
+			[
+				"mark",
+				"Markdown Preview: Preview in Browser"
+			]
+		],
+		"width": 521.0
+	},
+	"console":
+	{
+		"height": 146.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = '2915d1851351e5ee549c20394736b442' + '8bc59f460fa1548d1514676163dafc88'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/media/william/DATA/WORKSPACE/Projects/woliveiras.github.io"
+	],
+	"file_history":
+	[
+		"/media/william/DATA/WORKSPACE/Projects/front-end-career/translations/pt-br/sources/developer.md",
+		"/media/william/DATA/WORKSPACE/Projects/front-end-career/translations/pt-br/sources/engineer.md",
+		"/media/william/DATA/WORKSPACE/Projects/front-end-career/translations/pt-br/sources/ui-developer.md",
+		"/media/william/DATA/WORKSPACE/Projects/front-end-career/translations/pt-br/front-end-ui-developer/levels/senior.md",
+		"/media/william/DATA/WORKSPACE/Projects/front-end-career/translations/pt-br/front-end-ui-developer/levels/pleno.md",
+		"/media/william/DATA/WORKSPACE/Projects/front-end-career/translations/pt-br/front-end-ui-developer/levels/junior.md",
+		"/media/william/DATA/WORKSPACE/Projects/front-end-career/translations/pt-br/front-end-engineer/levels/junior.md",
+		"/media/william/DATA/WORKSPACE/Projects/front-end-career/translations/pt-br/front-end-engineer/levels/pleno.md",
+		"/media/william/DATA/WORKSPACE/Projects/front-end-career/translations/pt-br/front-end-engineer/levels/senior.md",
+		"/media/william/DATA/WORKSPACE/Projects/front-end-career/translations/pt-br/README.md",
+		"/media/william/DATA/WORKSPACE/Projects/front-end-career/translations/pt-br/developer/levels/senior.md",
+		"/media/william/DATA/WORKSPACE/Projects/front-end-career/translations/pt-br/developer/levels/pleno.md",
+		"/media/william/DATA/WORKSPACE/Projects/front-end-career/translations/pt-br/developer/levels/junior.md",
+		"/media/william/DATA/WORKSPACE/Projects/front-end-career/translations/pt-br/developer/README.md",
+		"/media/william/DATA/WORKSPACE/Projects/mentoria/mentores/.swp",
+		"/media/william/DATA/WORKSPACE/Projects/mentoria/pupilos/README.md",
+		"/media/william/DATA/WORKSPACE/Projects/woliveiras.github.io/source/_posts/produtividade-uma-re-introducao.md",
+		"/media/william/DATA/WORKSPACE/Projects/curso-javascript-ninja/challenge-25/style.css",
+		"/media/william/DATA/WORKSPACE/Projects/curso-javascript-ninja/challenge-25/challenge-25.js",
+		"/media/william/DATA/WORKSPACE/Projects/curso-javascript-ninja/challenge-25/index.html",
+		"/media/william/DATA/WORKSPACE/Projects/mentoria/mentores/README.md",
+		"/home/william/Desktop/JSNINJA.js",
+		"/media/william/DATA/WORKSPACE/Projects/front-end-career/translations/pt-br/front-end-developer/levels/senior.md",
+		"/media/william/DATA/WORKSPACE/Projects/front-end-career/translations/pt-br/front-end-developer/levels/pleno.md",
+		"/media/william/DATA/WORKSPACE/Projects/front-end-career/translations/pt-br/front-end-developer/levels/junior.md",
+		"/home/william/.config/sublime-text-3/Packages/User/Preferences.sublime-settings",
+		"/media/william/DATA/WORKSPACE/wp-docker-env/start.sh",
+		"/media/william/DATA/WORKSPACE/wp-docker-env/configs/nginx.conf",
+		"/media/william/DATA/WORKSPACE/wp-docker-env/configs/wp-config.local",
+		"/media/william/DATA/WORKSPACE/wp-docker-env/Dockerfile",
+		"/media/william/DATA/WORKSPACE/wp-docker-env/docker-compose.yml",
+		"/media/william/DATA/WORKSPACE/Projects/woliveiras.github.io/package.json",
+		"/media/william/DATA/WORKSPACE/Projects/woliveiras.github.io/.editorconfig",
+		"/media/william/DATA/WORKSPACE/Projects/woliveiras.github.io/_config.yml",
+		"/media/william/DATA/WORKSPACE/Projects/woliveiras.github.io/themes/redline/layout/_partial/head.ejs",
+		"/media/william/DATA/WORKSPACE/Projects/woliveiras.github.io/gulp.config.js",
+		"/media/william/DATA/WORKSPACE/Projects/woliveiras.github.io/gulpfile.js",
+		"/media/william/DATA/WORKSPACE/Projects/woliveiras.github.io/themes/redline/_config.yml",
+		"/media/william/DATA/WORKSPACE/Projects/woliveiras.github.io/public/js/script.js",
+		"/media/william/DATA/WORKSPACE/Projects/woliveiras.github.io/public/index.html",
+		"/media/william/DATA/WORKSPACE/Projects/woliveiras.github.io/themes/redline/layout/_partial/header.ejs",
+		"/media/william/DATA/WORKSPACE/Projects/woliveiras.github.io/themes/redline/layout/_partial/article.ejs",
+		"/media/william/DATA/WORKSPACE/Projects/woliveiras.github.io/themes/redline/layout/_partial/footer.ejs",
+		"/media/william/DATA/WORKSPACE/Projects/woliveiras.github.io/themes/redline/layout/_partial/after-footer.ejs",
+		"/media/william/DATA/WORKSPACE/Projects/woliveiras.github.io/themes/redline/layout/index.ejs",
+		"/media/william/DATA/WORKSPACE/Projects/woliveiras.github.io/themes/redline/layout/layout.ejs",
+		"/media/william/DATA/WORKSPACE/Projects/woliveiras.github.io/themes/redline/Gruntfile.js",
+		"/media/william/DATA/WORKSPACE/Projects/woliveiras.github.io/node_modules/hexo/lib/extend/helper.js",
+		"/media/william/DATA/WORKSPACE/Projects/woliveiras.github.io/node_modules/hexo/lib/theme/processors/source.js",
+		"/media/william/DATA/WORKSPACE/Projects/woliveiras.github.io/node_modules/hexo/lib/hexo/scaffold.js",
+		"/media/william/DATA/WORKSPACE/Projects/woliveiras.github.io/node_modules/hexo/bin/hexo",
+		"/media/william/DATA/WORKSPACE/Projects/woliveiras.github.io/themes/redline/layout/_partial/archive.ejs",
+		"/media/william/DATA/WORKSPACE/Projects/woliveiras.github.io/themes/redline/layout/_partial/post/title.ejs",
+		"/media/william/DATA/WORKSPACE/Projects/woliveiras.github.io/themes/redline/layout/_partial/archive-post.ejs",
+		"/media/william/DATA/WORKSPACE/Projects/woliveiras.github.io/themes/redline/source/css/_partial/header.styl",
+		"/media/william/DATA/WORKSPACE/Projects/woliveiras.github.io/themes/redline/layout/_partial/post/tag.ejs",
+		"/media/william/DATA/WORKSPACE/Projects/woliveiras.github.io/themes/redline/layout/post.ejs",
+		"/media/william/DATA/WORKSPACE/Projects/woliveiras.github.io/source/_posts/Produtividade-priorizacao-de-tarefas-execucao-e-melhoria-do-processo.md",
+		"/media/william/DATA/WORKSPACE/Projects/woliveiras.github.io/source/_posts/Produtividade-conhece-te-a-ti-mesmo.md",
+		"/media/william/DATA/WORKSPACE/Projects/woliveiras.github.io/source/_posts/Links-uteis-para-aprender-se-aprofundar-ou-manter-se-atualizado-sobre-JavaScript.md",
+		"/media/william/DATA/WORKSPACE/Projects/woliveiras.github.io/source/_posts/Por-que-voce-desistiu-de-ser-Cientista.md",
+		"/media/william/DATA/WORKSPACE/Projects/woliveiras.github.io/source/_posts/Migrando-de-Wordpress-para-Hexo.md",
+		"/media/william/DATA/WORKSPACE/Projects/woliveiras.github.io/source/_posts/Criando-uma-imagem-Docker-personalizada.md",
+		"/home/william/Downloads/form-masks/js/lib/form-masks.js",
+		"/home/william/Downloads/form-masks/js/main.js",
+		"/media/william/DATA/WORKSPACE/Projects/curso-javascript-ninja/challenge-22/challenge-22.js",
+		"/media/william/DATA/WORKSPACE/Projects/woliveiras.github.io/source/_posts/um-ano-como-desenvolvedor-front-end.md",
+		"/media/william/DATA/WORKSPACE/Projects/woliveiras.github.io/themes/redline/source/css/_partial/article.styl",
+		"/media/william/DATA/WORKSPACE/Projects/woliveiras.github.io/source/_posts/uma-rapida-introducao-ao-docker-e-instalacao-no-ubuntu.md",
+		"/media/william/DATA/WORKSPACE/Projects/woliveiras.github.io/source/_posts/imagem-docker-ou-um-container-docker.md",
+		"/media/william/DATA/WORKSPACE/Projects/woliveiras.github.io/source/_posts/vagrant-introducao-instalacao.md",
+		"/media/william/DATA/WORKSPACE/Docker/configs/nginx_config",
+		"/media/william/DATA/WORKSPACE/Docker/configs/nginx.config",
+		"/media/william/DATA/WORKSPACE/Docker/nginx_config",
+		"/media/william/DATA/WORKSPACE/Docker/Dockerfile",
+		"/home/william/www/index.html",
+		"/media/william/DATA/WORKSPACE/Docker/workdir/index.html",
+		"/media/william/DATA/WORKSPACE/Projects/woliveiras.github.io/source/_posts/vagrant-no-windows.md",
+		"/media/william/DATA/WORKSPACE/Projects/curso-javascript-ninja/challenge-22/index.html",
+		"/media/william/DATA/WORKSPACE/Projects/curso-javascript-ninja/.editorconfig",
+		"/media/william/DATA/WORKSPACE/Projects/curso-javascript-ninja/challenge-21/challenge-21.js",
+		"/media/william/DATA/WORKSPACE/Projects/curso-javascript-ninja/challenge-21/index.html",
+		"/media/william/DATA/WORKSPACE/Projects/100-coisas-dev/_config.yml",
+		"/media/william/DATA/WORKSPACE/Projects/100-coisas-dev/_includes/disqus.html",
+		"/media/william/DATA/WORKSPACE/Projects/100-coisas-dev/_posts/listas/2016-01-13-william-oliveira.markdown",
+		"/media/william/DATA/WORKSPACE/Projects/100-coisas-dev/_layouts/post.html",
+		"/media/william/DATA/WORKSPACE/Projects/100-coisas-dev/index.md",
+		"/media/william/DATA/WORKSPACE/Projects/curso-javascript-ninja/challenge-20/index.html",
+		"/media/william/DATA/WORKSPACE/Projects/curso-javascript-ninja/challenge-20/challenge-20.js",
+		"/media/william/DATA/WORKSPACE/Projects/100-coisas-dev/readme.md",
+		"/home/william/Desktop/js-ninja/index.html",
+		"/home/william/Desktop/js-ninja/main.js",
+		"/media/william/DATA/WORKSPACE/Projects/curso-javascript-ninja/challenge-19/challenge-19.js",
+		"/media/william/DATA/WORKSPACE/Projects/curso-javascript-ninja/challenge-19/index.html",
+		"/media/william/DATA/WORKSPACE/Projects/FEMUG-ABC/femug-abc.github.io/.travis.yml",
+		"/media/william/DATA/WORKSPACE/Projects/FEMUG-ABC/femug-abc.github.io/test",
+		"/media/william/DATA/WORKSPACE/Projects/curso-javascript-ninja/challenge-18/challenge-18.js",
+		"/media/william/DATA/WORKSPACE/Projects/curso-javascript-ninja/challenge-18/index.html",
+		"/media/william/DATA/WORKSPACE/Projects/slackabcdev/Makefile",
+		"/media/william/DATA/WORKSPACE/Projects/slackabcdev/Procfile",
+		"/media/william/DATA/WORKSPACE/Projects/slackabcdev/package.json",
+		"/media/william/DATA/WORKSPACE/Projects/slackabcdev/lib/assets/badge.js",
+		"/media/william/DATA/WORKSPACE/Projects/slackabcdev/lib/badge.js",
+		"/media/william/DATA/WORKSPACE/Projects/curso-javascript-ninja/challenge-16/challenge-16.js",
+		"/media/william/DATA/WORKSPACE/vim-para-noobs/book.json",
+		"/media/william/DATA/WORKSPACE/curso-javascript-ninja/challenge-16/index.html",
+		"/media/william/DATA/WORKSPACE/curso-javascript-ninja/challenge-16/challenge-16.js",
+		"/media/william/DATA/WORKSPACE/guest-post/src/styl/base/base.styl",
+		"/media/william/DATA/WORKSPACE/guest-post/src/styl/base/borders.styl",
+		"/media/william/DATA/WORKSPACE/guest-post/src/styl/module/blog-box-flex-list.styl",
+		"/media/william/DATA/WORKSPACE/guest-post/src/styl/layout/footer.styl",
+		"/media/william/DATA/WORKSPACE/guest-post/src/index.html",
+		"/media/william/DATA/WORKSPACE/guest-post/src/styl/module/navigation.styl",
+		"/media/william/DATA/WORKSPACE/guest-post/src/styl/style.styl",
+		"/media/william/DATA/WORKSPACE/guest-post/tasks/styl.js",
+		"/media/william/DATA/WORKSPACE/guest-post/src/styl/module/navigation-header.styl",
+		"/home/william/.bashrc",
+		"/media/william/DATA/WORKSPACE/guest-post/src/styl/module/module.styl",
+		"/media/william/DATA/WORKSPACE/guest-post/src/js/components/navigation-header/templates/navigation-header.template.html",
+		"/media/william/DATA/WORKSPACE/guest-post/src/js/components/navigation-header/directives/navigation-header.directive.js",
+		"/media/william/DATA/WORKSPACE/guest-post/tasks/default.js",
+		"/media/william/DATA/WORKSPACE/guest-post/src/styl/module/grids.styl",
+		"/media/william/DATA/WORKSPACE/guest-post/src/styl/layout/layout.styl",
+		"/media/william/DATA/WORKSPACE/guest-post/src/styl/base/keyframes.styl",
+		"/media/william/DATA/WORKSPACE/guest-post/src/styl/base/html-body-asterisk.styl",
+		"/media/william/DATA/WORKSPACE/guest-post/src/styl/base/breakpoints.styl",
+		"/media/william/DATA/WORKSPACE/guest-post/tasks/open.js",
+		"/media/william/DATA/WORKSPACE/guest-post/tasks/inject.js"
+	],
+	"find":
+	{
+		"height": 35.0
+	},
+	"find_in_files":
+	{
+		"height": 93.0,
+		"where_history":
+		[
+			" !node_modules, /media/william/DATA/WORKSPACE/Projects/woliveiras.github.io/node_modules/hexo",
+			"/media/william/DATA/WORKSPACE/Projects/woliveiras.github.io/node_modules/hexo, !node_modules",
+			"/media/william/DATA/WORKSPACE/Projects/woliveiras.github.io/node_modules/hexo",
+			"/media/william/DATA/WORKSPACE/Projects/woliveiras.github.io/themes",
+			"/media/william/DATA/WORKSPACE/Projects/slackabcdev",
+			"",
+			"*.styl",
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"###",
+			"##",
+			"#",
+			"activateKeys",
+			"allowedKeys",
+			"activateCheats",
+			"w-33",
+			"\">",
+			">",
+			"<p",
+			"$visor.value += this.value",
+			"if(",
+			"if",
+			"function (",
+			"document",
+			"(/",
+			"\n",
+			"title",
+			"css",
+			"st",
+			"styl",
+			"css",
+			"css(",
+			"script",
+			"javasc",
+			"#title",
+			"id=\"subtitle-wrap\"",
+			"article-title",
+			"h1",
+			"title",
+			"body",
+			"index",
+			"/woliveiras/campinas/raw/patch-1/",
+			"class=\"unchanged rich-diff-level-one\"",
+			"accum",
+			"/",
+			"*",
+			"removeLastOperator",
+			"buttonOperation",
+			"calculateResult",
+			"clearScreen",
+			"removeOperatorFromLastChar",
+			"operClickHandler",
+			"numClickHandler",
+			"buttonNumber",
+			"\"button",
+			"button",
+			"Button",
+			"button",
+			"powered by",
+			"subtitulo",
+			";",
+			"blockquote",
+			"log",
+			" **|** ",
+			"this",
+			"acumulated",
+			"someNumbers",
+			"buttonReset",
+			"buttonStop",
+			"buttonStart",
+			"counter",
+			"timerID",
+			"$timer",
+			"btnReset",
+			"btnStop",
+			"btn-",
+			"inputText",
+			"\n  ",
+			"  <",
+			">\n",
+			"start",
+			"la",
+			"\n      ",
+			"9fb5ebab92763a85dfbab889088c8f8b234207ee",
+			")\n",
+			"9fb5ebab92763a85dfbab889088c8f8b234207ee",
+			"- ",
+			"1b1ab045966fd60fe6be236c7b0e5ed966eef349",
+			"DEPLOY",
+			"\"",
+			"femug",
+			"femu",
+			"femug",
+			"item",
+			"navigation-header",
+			"Warning",
+			"Red",
+			"Alert",
+			"'",
+			"manoel",
+			"joao",
+			"jean",
+			" );",
+			");",
+			"( ",
+			" ",
+			"actual",
+			"jsFiles",
+			"build/",
+			"/js/",
+			"js/",
+			"./js",
+			"/js/",
+			"/dist/j",
+			"js/",
+			"dist/",
+			"/js",
+			"/dist/",
+			"/js",
+			"/js/",
+			"/js",
+			"js/",
+			"js/l",
+			"`",
+			"\n    number1 = 22;\n    number2 = 11;",
+			"Não utilizaremos a chave SSH para o Travis poder acessar o repositório, mas um Token gerado via GitHub mesmo. Para isso acesse",
+			"article-share-link",
+			"share",
+			"twi",
+			"GH_TOKEN",
+			"<<",
+			"git",
+			"janelas",
+			"copiar e ",
+			"http://vimawesome.com/\n",
+			"./",
+			"02"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 91,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								91,
+								91
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"auto_name": "function foo() {",
+							"bh_regions":
+							[
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content"
+							],
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 25.0
+	},
+	"input":
+	{
+		"height": 33.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"output.git":
+	{
+		"height": 500.0
+	},
+	"pinned_build_system": "",
+	"project": "woliveiras.sublime-project",
+	"replace":
+	{
+		"height": 46.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"package.",
+				"package.json"
+			],
+			[
+				"linksjavasc",
+				"source/_posts/Links-uteis-para-aprender-ou-se-aprofundar-sobre-JavaScript.md"
+			],
+			[
+				"umano",
+				"source/_posts/um-ano-como-desenvolvedor-front-end.md"
+			],
+			[
+				"porque",
+				"source/_posts/Por-que-voce-desistiu-de-ser-Cientista.md"
+			],
+			[
+				"cop",
+				"tasks/copy.js"
+			],
+			[
+				"postanto",
+				"source/_posts/postando-no-blog-estático-direto-pelo-github-com-hexo-e-travis-ci.md"
+			],
+			[
+				"temas",
+				"chapters/temas-legais.md"
+			],
+			[
+				"comandosu",
+				"chapters/comandos-uteis-no-vimrc.md"
+			],
+			[
+				"",
+				"SUMMARY.md"
+			],
+			[
+				"person",
+				"chapters/personalize.md"
+			],
+			[
+				"exemplo",
+				"chapters/exemplos-de-vimrc.md"
+			],
+			[
+				"perso",
+				"chapters/personalize.md"
+			],
+			[
+				"des",
+				"chapters/desfazendo-as-coisas.md"
+			],
+			[
+				"subis",
+				"chapters/substituir-replace.md"
+			],
+			[
+				"copia",
+				"chapters/copiar-para-o-clipboard.md"
+			],
+			[
+				"recor",
+				"chapters/recortar-e-colar.md"
+			],
+			[
+				"movendo",
+				"chapters/movendo-o-cursor.md"
+			],
+			[
+				"comandos",
+				"chapters/comandos.md"
+			],
+			[
+				"modos",
+				"chapters/modos.md"
+			],
+			[
+				"sumar",
+				"SUMMARY.md"
+			],
+			[
+				"int",
+				"intro.md"
+			],
+			[
+				"windows",
+				"chapters/windows.md"
+			],
+			[
+				"janelas",
+				"chapters/dividindo-em-janelas.md"
+			],
+			[
+				"abas",
+				"chapters/trabalhando-com-abas-no-vim.md"
+			],
+			[
+				"sumary",
+				"SUMMARY.md"
+			],
+			[
+				"git",
+				".gitignore"
+			],
+			[
+				"pluginsmane",
+				"chapters/alguns-plugins-maneiros.md"
+			],
+			[
+				"comandosuteis",
+				"chapters/comandos-uteis-no-vimrc.md"
+			],
+			[
+				"gitin",
+				".gitignore"
+			],
+			[
+				"alguns",
+				"chapters/alguns-plugins-maneiros.md"
+			],
+			[
+				"mudan",
+				"chapters/mudando-o-tema.md"
+			],
+			[
+				"sugge",
+				"chapters/suggestions.md"
+			],
+			[
+				"plugins",
+				"chapters/plugins.md"
+			],
+			[
+				"pesq",
+				"chapters/pesquisando-por-plugins-no-vundle.md"
+			],
+			[
+				"perz",
+				"chapters/personalize.md"
+			],
+			[
+				"persona",
+				"vim-for-noobs/chapters/personalize.md"
+			],
+			[
+				"criando",
+				"vim-for-noobs/chapters/criando-comandos-e-atalhos-personalizados.md"
+			],
+			[
+				"naoprec",
+				"vim-for-noobs/chapters/nao-precisar-setar-configurações-sempre.md"
+			],
+			[
+				"adiciona",
+				"vim-for-noobs/chapters/adicionando-sintaxes.md"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": false,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 284.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
