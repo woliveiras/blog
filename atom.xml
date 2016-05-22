@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-  <title>William Oliveira</title>
+  <title>William Oliveira - Desenvolvedor Front End</title>
   <subtitle>Desenvolvedor Front End</subtitle>
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://woliveiras.com.br/"/>
-  <updated>2016-05-22T14:15:20.787Z</updated>
+  <updated>2016-05-22T14:23:45.591Z</updated>
   <id>http://woliveiras.com.br/</id>
   
   <author>
@@ -20,7 +20,7 @@
     <link href="http://woliveiras.com.br/posts/Comecando-com-o-editor-de-texto-VIM/"/>
     <id>http://woliveiras.com.br/posts/Comecando-com-o-editor-de-texto-VIM/</id>
     <published>2016-05-22T13:30:00.000Z</published>
-    <updated>2016-05-22T14:15:20.787Z</updated>
+    <updated>2016-05-22T14:23:45.591Z</updated>
     
     <content type="html">&lt;p&gt;A tarefa que um Desenvolvedor de Software precisa cumprir com a maior agilidade é a escrita/edição de texto. Depois de pensar por algumas horas, planejar o que vai fazer e como fazer (quais funções, métodos, classes criar), nós partimos para a escrita do código fonte no nosso editor de texto favorito ou em uma &lt;a href=&quot;https://pt.wikipedia.org/wiki/Ambiente_de_desenvolvimento_integrado&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;IDE&lt;/a&gt;.&lt;/p&gt;
 &lt;p&gt;Existem &lt;a href=&quot;http://pt.wikihow.com/Digitar-Mais-R%C3%A1pido&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;várias técnicas&lt;/a&gt; para você ficar fera no teclado, porém hoje vou apresentar outra forma de agilizar as coisas. Vou apresentar (pela minha perspectiva) o &lt;strong&gt;VIM&lt;/strong&gt;. &lt;a id=&quot;more&quot;&gt;&lt;/a&gt;&lt;/p&gt;
@@ -193,7 +193,7 @@
     <link href="http://woliveiras.com.br/posts/Aumente-sua-produtividade-e-da-sua-equipe-com-gamificacao/"/>
     <id>http://woliveiras.com.br/posts/Aumente-sua-produtividade-e-da-sua-equipe-com-gamificacao/</id>
     <published>2016-05-14T18:00:34.000Z</published>
-    <updated>2016-05-22T14:15:20.787Z</updated>
+    <updated>2016-05-22T14:23:45.591Z</updated>
     
     <content type="html">&lt;p&gt;Todos nós gostamos de jogos, seja no PC, Celular ou qualquer outro tipo… Simplesmente, gostamos. Agora imagine utilizar jogos para ser mais produtivo, cuidar da saúde, aprender algo novo ou qualquer outro objetivo pessoal.&lt;/p&gt;
 &lt;p&gt;Imagine transformar sua vida em um jogo de RPG!&lt;a id=&quot;more&quot;&gt;&lt;/a&gt;&lt;/p&gt;
@@ -280,7 +280,7 @@
     <link href="http://woliveiras.com.br/posts/Produtividade-priorizacao-de-tarefas-execucao-e-melhoria-do-processo/"/>
     <id>http://woliveiras.com.br/posts/Produtividade-priorizacao-de-tarefas-execucao-e-melhoria-do-processo/</id>
     <published>2016-04-21T12:31:46.000Z</published>
-    <updated>2016-05-22T14:15:20.787Z</updated>
+    <updated>2016-05-22T14:23:45.591Z</updated>
     
     <content type="html">&lt;p&gt;Continuando a série sobre Produtividade, já sabemos &lt;a href=&quot;/posts/produtividade-uma-re-introducao/&quot;&gt;o que é produtividade&lt;/a&gt; e &lt;a href=&quot;/posts/Produtividade-conhece-te-a-ti-mesmo/&quot;&gt;como nosso cérebro funciona&lt;/a&gt;, agora precisamos aprender a planejar as coisas para que nosso cérebro não nos atrapalhe em nossa meta de sermos mais produtivos. &lt;a id=&quot;more&quot;&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;O planejamento, aqui, pode ser dividido em:&lt;/p&gt;
@@ -366,7 +366,7 @@
     <link href="http://woliveiras.com.br/posts/Links-uteis-para-aprender-se-aprofundar-ou-manter-se-atualizado-sobre-JavaScript/"/>
     <id>http://woliveiras.com.br/posts/Links-uteis-para-aprender-se-aprofundar-ou-manter-se-atualizado-sobre-JavaScript/</id>
     <published>2016-04-20T09:00:19.000Z</published>
-    <updated>2016-05-22T14:15:20.787Z</updated>
+    <updated>2016-05-22T14:23:45.591Z</updated>
     
     <content type="html">&lt;p&gt;Existe muito recurso legal disponível na internet para quem deseja aprender ou se aprofundar em JavaScript. Tanto recursos gratuitos, quanto recursos pagos. Existem muitos &lt;a href=&quot;/posts/Livros-sobre-JavaScript-do-iniciante-ao-avancado-e-ES6/&quot;&gt;livros bons&lt;/a&gt; sobre a linguagem também.&lt;/p&gt;
 &lt;p&gt;Nesse post, vou tentar deixar um compilado de links úteis para quem quer se aprofundar na linguagem da Web!&lt;a id=&quot;more&quot;&gt;&lt;/a&gt;&lt;/p&gt;
@@ -478,7 +478,7 @@
     <link href="http://woliveiras.com.br/posts/Livros-sobre-JavaScript-do-iniciante-ao-avancado-e-ES6/"/>
     <id>http://woliveiras.com.br/posts/Livros-sobre-JavaScript-do-iniciante-ao-avancado-e-ES6/</id>
     <published>2016-04-19T10:24:08.000Z</published>
-    <updated>2016-05-22T14:15:20.787Z</updated>
+    <updated>2016-05-22T14:23:45.591Z</updated>
     
     <content type="html">&lt;p&gt;Existem excelentes livros sobre JavaScript no mercado, mas são tantos que nos perdemos em qual ler primeiro, qual ler depois, qual nem vale a pena ler em determinado nível de conhecimento… São várias dúvidas.&lt;/p&gt;
 &lt;p&gt;Nesse artigo vou tentar ajudar a escolher os melhores livros para seu nível de conhecimento e montar uma sequência legal de leitura para virar um JavaScript Master!&lt;a id=&quot;more&quot;&gt;&lt;/a&gt;&lt;/p&gt;
@@ -545,7 +545,7 @@
     <link href="http://woliveiras.com.br/posts/Produtividade-conhece-te-a-ti-mesmo/"/>
     <id>http://woliveiras.com.br/posts/Produtividade-conhece-te-a-ti-mesmo/</id>
     <published>2016-04-18T11:48:58.000Z</published>
-    <updated>2016-05-22T14:15:20.787Z</updated>
+    <updated>2016-05-22T14:23:45.591Z</updated>
     
     <content type="html">&lt;p&gt;O autoconhecimento é muito importante para você se tornar produtivo.&lt;/p&gt;
 &lt;p&gt;De nada adianta aprender milhares de técnicas, receber diversas dicas sobre produtividade, se nenhuma delas se encaixa em você. Claro que é necessário um pouco de esforço de sua parte para que as metodologias deem certo, porém, dentre milhares de técnicas, você vai precisar achar uma que se encaixe em seu estilo de vida e na sua forma de pensar e agir. &lt;a id=&quot;more&quot;&gt;&lt;/a&gt;&lt;/p&gt;
@@ -623,7 +623,7 @@
     <link href="http://woliveiras.com.br/posts/Por-que-voce-desistiu-de-ser-Cientista/"/>
     <id>http://woliveiras.com.br/posts/Por-que-voce-desistiu-de-ser-Cientista/</id>
     <published>2016-04-16T11:55:36.000Z</published>
-    <updated>2016-05-22T14:15:20.787Z</updated>
+    <updated>2016-05-22T14:23:45.591Z</updated>
     
     <content type="html">&lt;p&gt;Há algum tempo venho observando as pessoas, mais especificamente as pessoas da área de Desenvolvimento de Software. Há mais tempo ainda eu observo as outras pessoas, o ser humano em geral. E desde sempre percebi um padrão:&lt;/p&gt;
 &lt;p&gt;Ao crescer, as pessoas abandonam a profissão que nasce com elas, a profissão de &lt;strong&gt;cientista&lt;/strong&gt;.&lt;a id=&quot;more&quot;&gt;&lt;/a&gt;&lt;/p&gt;
@@ -716,7 +716,7 @@
     <link href="http://woliveiras.com.br/posts/produtividade-uma-re-introducao/"/>
     <id>http://woliveiras.com.br/posts/produtividade-uma-re-introducao/</id>
     <published>2016-04-13T10:58:34.000Z</published>
-    <updated>2016-05-22T14:15:20.791Z</updated>
+    <updated>2016-05-22T14:23:45.595Z</updated>
     
     <content type="html">&lt;p&gt;No ritmo frenético em que vivemos, ser produtivo já não é mais qualidade de ninguém, precisa ser uma característica de todos.&lt;/p&gt;
 &lt;p&gt;Nós queremos fazer um amontoado de coisas todos os dias e toda hora aparece alguma outra coisa pra se fazer.&lt;/p&gt;
@@ -780,7 +780,7 @@
     <link href="http://woliveiras.com.br/posts/Criando-uma-imagem-Docker-personalizada/"/>
     <id>http://woliveiras.com.br/posts/Criando-uma-imagem-Docker-personalizada/</id>
     <published>2016-04-12T01:18:59.000Z</published>
-    <updated>2016-05-22T14:15:20.787Z</updated>
+    <updated>2016-05-22T14:23:45.591Z</updated>
     
     <content type="html">&lt;p&gt;É muito legal poder baixar uma imagem do &lt;a href=&quot;http://hub.docker.com/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Docker Hub&lt;/a&gt; e já sair criando os containers, modificando e brincando, mas e depois?&lt;/p&gt;
 &lt;p&gt;Como fazemos para levar essa imagem para outro host?&lt;/p&gt;
@@ -892,7 +892,7 @@
     <link href="http://woliveiras.com.br/posts/comandos-mais-utilizados-no-docker/"/>
     <id>http://woliveiras.com.br/posts/comandos-mais-utilizados-no-docker/</id>
     <published>2016-04-12T00:00:08.000Z</published>
-    <updated>2016-05-22T14:15:20.787Z</updated>
+    <updated>2016-05-22T14:23:45.591Z</updated>
     
     <content type="html">&lt;p&gt;Um post rapidinho com os comandos mais utilizados do Docker para não esquecer e consultar facilmente. :D&lt;/p&gt;
 &lt;p&gt;Se você não viu a primeira parte dessa sequência, clique &lt;a href=&quot;/posts/uma-rapida-introducao-ao-docker-e-instalacao-no-ubuntu/&quot;&gt;aqui&lt;/a&gt;.&lt;/p&gt;
@@ -1018,7 +1018,7 @@
     <link href="http://woliveiras.com.br/posts/imagem-docker-ou-um-container-docker/"/>
     <id>http://woliveiras.com.br/posts/imagem-docker-ou-um-container-docker/</id>
     <published>2016-04-11T17:00:00.000Z</published>
-    <updated>2016-05-22T14:15:20.791Z</updated>
+    <updated>2016-05-22T14:23:45.595Z</updated>
     
     <content type="html">&lt;p&gt;Se você viu a primeira parte dessa sequência de artigos, percebeu que existem dois termos muito utilizados quando falamos de Docker: &lt;strong&gt;Imagens&lt;/strong&gt; e &lt;strong&gt;Containers&lt;/strong&gt;. Você deve se perguntar: qual é a diferença entre imagem e container Docker? Ou então: O que eu rodo com o &lt;code&gt;docker run&lt;/code&gt;, uma imagem ou um container? &lt;a id=&quot;more&quot;&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;Se você não viu o primeiro artigo, da uma olhada &lt;a href=&quot;/posts/uma-rapida-introducao-ao-docker-e-instalacao-no-ubuntu/&quot;&gt;aqui&lt;/a&gt;.&lt;/p&gt;
@@ -1097,7 +1097,7 @@
     <link href="http://woliveiras.com.br/posts/uma-rapida-introducao-ao-docker-e-instalacao-no-ubuntu/"/>
     <id>http://woliveiras.com.br/posts/uma-rapida-introducao-ao-docker-e-instalacao-no-ubuntu/</id>
     <published>2016-04-10T11:03:47.000Z</published>
-    <updated>2016-05-22T14:15:20.791Z</updated>
+    <updated>2016-05-22T14:23:45.595Z</updated>
     
     <content type="html">&lt;p&gt;&lt;div class=&quot;shared-img&quot;&gt;&lt;br&gt;&lt;img src=&quot;../../public/images/docker.png&quot; alt=&quot;Docker&quot;&gt;&lt;br&gt;&lt;/div&gt;Você já deve ter ouvido falar, pelo menos uma vez, sobre &lt;a href=&quot;https://www.docker.com/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Docker&lt;/a&gt; em algum lugar. Seja em palestras, blogs, vídeos ou em qualquer outra fonte de estudos sobre desenvolvimento, uma hora sempre comentamos sobre virtualização de ambientes e o Docker é a ferramenta que mais tem se destacado para tal. Ele é uma das 8 maravilhas das atualidades mais atuais. Vamos entender um pouco, então, o que é o Docker e como instalar no nosso Ubuntu.&lt;a id=&quot;more&quot;&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;h2 id=&quot;Introducao&quot;&gt;&lt;a href=&quot;#Introducao&quot; class=&quot;headerlink&quot; title=&quot;Introdução&quot;&gt;&lt;/a&gt;Introdução&lt;/h2&gt;&lt;p&gt;Eu também já ouvia falar do Docker a um bom tempo, porém nunca havia me aprofundado mais nessa ferramenta.&lt;/p&gt;
@@ -1183,7 +1183,7 @@
     <link href="http://woliveiras.com.br/posts/postando-no-blog-est%C3%A1tico-direto-pelo-github-com-hexo-e-travis-ci/"/>
     <id>http://woliveiras.com.br/posts/postando-no-blog-estático-direto-pelo-github-com-hexo-e-travis-ci/</id>
     <published>2016-02-07T00:00:00.000Z</published>
-    <updated>2016-05-22T14:15:20.791Z</updated>
+    <updated>2016-05-22T14:23:45.595Z</updated>
     
     <content type="html">&lt;p&gt;Confesso que fiquei tentado a migrar para o &lt;a href=&quot;https://jekyllrb.com/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Jekyll (Ruby)&lt;/a&gt; depois que um &lt;a href=&quot;http://jotateles.com.br/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;amigo&lt;/a&gt; me mostrou que da para postar no blog direto do GitHub sem ter o Jekyll instalado na máquina. Porém eu não desisti do meu queridinho, o &lt;a href=&quot;http://hexo.io/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Hexo (feito com Node &amp;lt;3)&lt;/a&gt;.&lt;a id=&quot;more&quot;&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;&lt;em&gt;Se você não conhece o Hexo, da uma olhada &lt;a href=&quot;http://woliveiras.com.br/posts/Migrando-de-Wordpress-para-Hexo/&quot;&gt;nesse artigo&lt;/a&gt;.&lt;/em&gt;&lt;/p&gt;
@@ -1258,7 +1258,7 @@
     <link href="http://woliveiras.com.br/posts/um-ano-como-desenvolvedor-front-end/"/>
     <id>http://woliveiras.com.br/posts/um-ano-como-desenvolvedor-front-end/</id>
     <published>2015-12-01T12:00:00.000Z</published>
-    <updated>2016-05-22T14:15:20.791Z</updated>
+    <updated>2016-05-22T14:23:45.595Z</updated>
     
     <content type="html">&lt;p&gt;Todo mundo tem uma história legal pra contar sobre como começou na área de Desenvolvimento, seja Web, Mobile, Desktop ou tanto faz. Sempre temos algo interessante para passar para os novos desenvolvedores que estão entrando no mercado e que, as vezes, tem medo de se arriscar, achando que &lt;a href=&quot;http://woliveiras.com.br/posts/requisitos-para-vagas-front-end/&quot;&gt;precisam saber de tudo para investir no primeiro trampo&lt;/a&gt;.&lt;/p&gt;
 &lt;p&gt;Conheça um pouco sobre como foi meu primeiro ano como Desenvolvedor Front End. Medos, frustrações, desespero, alegria, festas e algumas dicas para se preparar para o mercado de trabalho.&lt;/p&gt;
@@ -1308,7 +1308,7 @@
     <link href="http://woliveiras.com.br/posts/corrigindo-permissoes-de-usuario-linux-npm/"/>
     <id>http://woliveiras.com.br/posts/corrigindo-permissoes-de-usuario-linux-npm/</id>
     <published>2015-09-12T13:00:00.000Z</published>
-    <updated>2016-05-22T14:15:20.787Z</updated>
+    <updated>2016-05-22T14:23:45.595Z</updated>
     
     <content type="html">&lt;div class=&quot;shared-img&quot;&gt;&lt;br&gt;&lt;img src=&quot;../../public/images/npm.svg&quot; alt=&quot;&quot;&gt;&lt;br&gt;&lt;/div&gt;
 
@@ -1351,7 +1351,7 @@
     <link href="http://woliveiras.com.br/posts/utilizando-versoes-antigas-do-nodejs/"/>
     <id>http://woliveiras.com.br/posts/utilizando-versoes-antigas-do-nodejs/</id>
     <published>2015-09-12T08:00:32.000Z</published>
-    <updated>2016-05-22T14:15:20.791Z</updated>
+    <updated>2016-05-22T14:23:45.595Z</updated>
     
     <content type="html">&lt;div class=&quot;shared-img&quot;&gt;&lt;br&gt;&lt;img src=&quot;../..//public/images/nodejs.png&quot; alt=&quot;&quot;&gt;&lt;br&gt;&lt;/div&gt;
 
@@ -1436,7 +1436,7 @@
     <link href="http://woliveiras.com.br/posts/twitter-bootstrap-bootstrap-do-jeito-certo/"/>
     <id>http://woliveiras.com.br/posts/twitter-bootstrap-bootstrap-do-jeito-certo/</id>
     <published>2015-09-09T01:00:00.000Z</published>
-    <updated>2016-05-22T14:15:20.791Z</updated>
+    <updated>2016-05-22T14:23:45.595Z</updated>
     
     <content type="html">&lt;p&gt;Muita gente critica o uso do &lt;a href=&quot;http://getbootstrap.com/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Twitter Bootstrap&lt;/a&gt; devido a nomenclatura de suas classes e aos muitos componentes que o framework possui.&lt;/p&gt;
 &lt;p&gt;Dizem que as classes não são semanticas e que o peso do framework é desnecessário.&lt;/p&gt;
@@ -1519,7 +1519,7 @@
     <link href="http://woliveiras.com.br/posts/Migrando-de-Wordpress-para-Hexo/"/>
     <id>http://woliveiras.com.br/posts/Migrando-de-Wordpress-para-Hexo/</id>
     <published>2015-08-05T02:53:41.000Z</published>
-    <updated>2016-05-22T14:15:20.787Z</updated>
+    <updated>2016-05-22T14:23:45.591Z</updated>
     
     <content type="html">&lt;p&gt;&lt;div class=&quot;shared-img&quot;&gt;&lt;br&gt;&lt;img src=&quot;../../public/images/hexo-logo.png&quot; alt=&quot;Hexo Blog&quot;&gt;&lt;br&gt;&lt;/div&gt;A um bom tempo sinto vontade de mudar meu Blog de WordPress para uma plataforma de  conteúdo estático, mas não achava nenhuma alternativa, pois que queria usar Nodejs. Por isso não fui para o, muito usado na comunidade, &lt;a href=&quot;http://jekyllrb.com/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Jekyll(Ruby)&lt;/a&gt; , nem para o &lt;a href=&quot;http://blog.getpelican.com/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Pelican(Python &amp;lt;3)&lt;/a&gt;.&lt;a id=&quot;more&quot;&gt;&lt;/a&gt;&lt;br&gt;Em busca de uma alternativa encontrei o &lt;a href=&quot;https://hexo.io&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Hexo&lt;/a&gt; e, um pouco depois de eu conhecer essa plataforma, o &lt;a href=&quot;http://blog.da2k.com.br/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Daciuk&lt;/a&gt; escreveu um &lt;a href=&quot;http://blog.da2k.com.br/2014/01/05/hexo-criando-um-blog-ao-estilo-miojo/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;post&lt;/a&gt; muito maneiro incentivando o seu uso. Foi então que eu decidi de vez usar essa plataforma!&lt;br&gt;Bora conhecer ela e como foi a migração de WordPress para Hexo?&lt;/p&gt;
 &lt;p&gt;###Levantando as necessidades&lt;/p&gt;
@@ -1574,7 +1574,7 @@
     <link href="http://woliveiras.com.br/posts/frameworks-front-end/"/>
     <id>http://woliveiras.com.br/posts/frameworks-front-end/</id>
     <published>2015-03-05T00:18:46.000Z</published>
-    <updated>2016-05-22T14:15:20.791Z</updated>
+    <updated>2016-05-22T14:23:45.595Z</updated>
     
     <content type="html">&lt;p&gt;Já parou pra pensar quantas vezes você repete o mesmo código durante o Desenvolvimento, seja Web, Mobile ou Desktop? Já pensou em padronizar o que você faz de alguma maneira?&lt;br&gt;E pra você que é Gerente de Projetos, Líder ou algo do tipo: Já pensou em poder adicionar um membro no seu grupo  e ele já saber como funciona o Desenvolvimento nessa equipe e conseguir ser produtivo desde o princípio?&lt;br&gt;Pois é, Frameworks servem para isso… Vem comigo que vou explicar melhor. ;)&lt;a id=&quot;more&quot;&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;h2 id=&quot;O-que-sao-Frameworks&quot;&gt;&lt;a href=&quot;#O-que-sao-Frameworks&quot; class=&quot;headerlink&quot; title=&quot;O que são Frameworks?&quot;&gt;&lt;/a&gt;O que são Frameworks?&lt;/h2&gt;&lt;p&gt;Você pega aqueles códigos que se repetem entre os projetos, adiciona uma pitada de &lt;a href=&quot;http://pt.wikipedia.org/wiki/Padr%C3%A3o_de_projeto_de_software&quot; title=&quot;Wikipedia - Padrões de Projetos&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Padrões&lt;/a&gt;, deixa conforme sua equipe precisa ou &lt;a href=&quot;http://tableless.com.br/locaweb-style-como-iniciamos/&quot; title=&quot;Locaweb Style - Framework Front End da Locaweb&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;conforme sua empresa trabalha&lt;/a&gt;, empacota tudo isso pra poder reutilizar depois e pronto, criou um Framework!&lt;br&gt;Só isso? Sim, só isso… Framework é uma ferramenta com os códigos, padrões, etc, que você consegue utilizar pra resolver problemas que se repetem ou mesmo pra iniciar projetos que vão possuir as mesmas características seja no Front, Back End ou mesmo para &lt;a href=&quot;https://github.com/woliveiras/pastel&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Tooling(Ferramentas)&lt;/a&gt;. Quando você utiliza um Framework como base, pode somente baixar ele, configurar ou instalar e seguir dali para as necessidades específicas de cada projeto. Isso mata muito tempo que você perderia fazendo algo que sabe que vai repetir no próximo trabalho.&lt;/p&gt;
@@ -1624,7 +1624,7 @@
     <link href="http://woliveiras.com.br/posts/contribuindo-para-projetos-open-source-no-github-mesmo-sendo-iniciante/"/>
     <id>http://woliveiras.com.br/posts/contribuindo-para-projetos-open-source-no-github-mesmo-sendo-iniciante/</id>
     <published>2015-02-09T14:12:32.000Z</published>
-    <updated>2016-05-22T14:15:20.787Z</updated>
+    <updated>2016-05-22T14:23:45.595Z</updated>
     
     <content type="html">&lt;div class=&quot;shared-img&quot;&gt;&lt;br&gt;&lt;img src=&quot;../../public/images/github.gif&quot; alt=&quot;&quot;&gt;&lt;br&gt;&lt;/div&gt;
 
