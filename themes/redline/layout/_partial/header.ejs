@@ -21,7 +21,7 @@
     </div>
     <div id="header-title" class="inner">
       <h1 id="logo-wrap">
-        <a href="<%- url_for() %>" id="title"><%= config.title %></a>
+        <a href="<%- url_for() %>" id="title"><%=  theme.blog_title %></a>
         <% if (theme.subtitle){ %>
           <span id="subtitle-wrap">
             <a href="<%- url_for() %>" id="subtitle"><%= theme.subtitle %></a>
