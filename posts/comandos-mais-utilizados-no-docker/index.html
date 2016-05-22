@@ -13,7 +13,7 @@
 <meta property="og:url" content="http://woliveiras.com.br/posts/comandos-mais-utilizados-no-docker/index.html">
 <meta property="og:site_name" content="William Oliveira">
 <meta property="og:description" content="Comandos mais utilizados durante o Workflow com Docker">
-<meta property="og:updated_time" content="2016-05-14T23:41:05.081Z">
+<meta property="og:updated_time" content="2016-05-22T14:05:51.150Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="Comandos mais utilizados no Docker">
 <meta name="twitter:description" content="Comandos mais utilizados durante o Workflow com Docker">
@@ -194,7 +194,7 @@
 <p>Ao usar um <code>exit</code> para sair do Terminal do SO rodando no container, o mesmo será removido.</p>
 <h2 id="Executando-containers-em-segundo-plano"><a href="#Executando-containers-em-segundo-plano" class="headerlink" title="Executando containers em segundo plano"></a>Executando containers em segundo plano</h2><p>Podemos executar o container e deixar ele em segundo plano, sem precisar ficar conectado pelo Shell, com o comando <code>-d</code>.</p>
 <p>Exemplo utilizando o NGINX.</p>
-<figure class="highlight stata"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">docker <span class="keyword">run</span> -<span class="keyword">d</span> -p 8080:80 nginx /usr/sbin/nginx -<span class="keyword">g</span></span><br></pre></td></tr></table></figure>
+<figure class="highlight stylus"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">docker run -d -<span class="selector-tag">p</span> <span class="number">8080</span>:<span class="number">80</span> nginx /usr/sbin/nginx -g</span><br></pre></td></tr></table></figure>
 <p>Para controlar esse container usamos os comandos <code>stop</code> e <code>start</code>:</p>
 <figure class="highlight arduino"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">docker <span class="built_in">stop</span> id_ou_apelido</span><br></pre></td></tr></table></figure>
 <p>Para parar e:</p>

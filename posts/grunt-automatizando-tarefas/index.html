@@ -13,7 +13,7 @@
 <meta property="og:url" content="http://woliveiras.com.br/posts/grunt-automatizando-tarefas/index.html">
 <meta property="og:site_name" content="William Oliveira">
 <meta property="og:description" content="Automatizando tarefas com o Grunt">
-<meta property="og:updated_time" content="2016-05-14T23:41:05.081Z">
+<meta property="og:updated_time" content="2016-05-22T14:05:51.150Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="Grunt | Automatizando tarefas">
 <meta name="twitter:description" content="Automatizando tarefas com o Grunt">
@@ -122,7 +122,7 @@
 <h3 id="O-que-e-o-Grunt"><a href="#O-que-e-o-Grunt" class="headerlink" title="O que é o Grunt?"></a>O que é o Grunt?</h3><p>O Grunt é um automatizador de tarefas. Você configura de acordo com o seu <a href="https://pt.wikipedia.org/wiki/Fluxo_de_trabalho" title="Fluxo de trabalho" target="_blank" rel="external">Workflow</a> e deixa ele fazendo essas tarefas repetificas para você. <a href="http://gruntjs.com/" title="Gruntjs" target="_blank" rel="external">Mais detalhes sobre o Gruntjs aqui.</a>.</p>
 <h3 id="Instalacao"><a href="#Instalacao" class="headerlink" title="Instalação"></a>Instalação</h3><p>Será necessário possuir o Node.js e o NPM instalados em sua máquina. Se não possuir o Nodejs instalado eu recomendo seguir esse tutorial para instalar com o NVM, um <a href="https://pt.wikipedia.org/wiki/Wrapper" title="O que é um Wrapper" target="_blank" rel="external">wrapper</a> para a instalação do Node com separação de versões, parecido com o <a href="https://virtualenv.pypa.io" title="Virtualenv Python" target="_blank" rel="external">Virtualenv</a>.</p>
 <p>Depois disso você precisa instalar o cliente por linha de comando do Grunt:</p>
-<figure class="highlight stata"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">npm install -<span class="keyword">g</span> grunt-<span class="keyword">cli</span></span><br></pre></td></tr></table></figure>
+<figure class="highlight avrasm"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">npm install -g grunt-<span class="keyword">cli</span></span><br></pre></td></tr></table></figure>
 <p>Como você percebe, foi instalado o <strong>grunt-cli</strong> não o <strong>grunt</strong>. O grunt-cli é uma interface que disponibiliza os comandos Grunt pelo terminal a partir de qualquer local.</p>
 <p>Esse <strong>-g</strong> avisa para o NPM que a instalação deve ser Global, isso significa que ele não será instalado somente para um projeto, mas sim em sua máquina, estando disponível sempre que precisar rodando o comando <strong>grunt</strong>. Esse comando irá configurar o seu <em><a href="http://www.vivaolinux.com.br/artigo/O-que-e-PATH-como-funciona-e-como-trabalhar-com-ele" title="O que é $PATH" target="_blank" rel="external">$PATH</a></em> e nós podemos prosseguir.</p>
 <p>Agora é necessário configurar as tarefas que o Grunt irá executar.</p>

@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://woliveiras.com.br/"/>
-  <updated>2016-05-14T23:41:05.077Z</updated>
+  <updated>2016-05-22T14:05:51.150Z</updated>
   <id>http://woliveiras.com.br/</id>
   
   <author>
@@ -16,11 +16,184 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>Começando com o Editor de Texto VIM</title>
+    <link href="http://woliveiras.com.br/posts/Comecando-com-o-editor-de-texto-VIM/"/>
+    <id>http://woliveiras.com.br/posts/Comecando-com-o-editor-de-texto-VIM/</id>
+    <published>2016-05-22T13:30:00.000Z</published>
+    <updated>2016-05-22T14:05:51.150Z</updated>
+    
+    <content type="html">&lt;p&gt;A tarefa que um Desenvolvedor de Software precisa cumprir com a maior agilidade é a escrita/edição de texto. Depois de pensar por algumas horas, planejar o que vai fazer e como fazer (quais funções, métodos, classes criar), nós partimos para a escrita do código fonte no nosso editor de texto favorito ou em uma &lt;a href=&quot;https://pt.wikipedia.org/wiki/Ambiente_de_desenvolvimento_integrado&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;IDE&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Existem &lt;a href=&quot;http://pt.wikihow.com/Digitar-Mais-R%C3%A1pido&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;várias técnicas&lt;/a&gt; para você ficar fera no teclado, porém hoje vou apresentar outra forma de agilizar as coisas. Vou apresentar (pela minha perspectiva) o &lt;strong&gt;VIM&lt;/strong&gt;. &lt;a id=&quot;more&quot;&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;O VIM é um editor de texto muito amado por alguns e odiado por outros. A primeira vez que você abre o VIM, você pensa: &lt;em&gt;como é que eu faço pra sair daqui.&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;Existe até uma piada (velha) que diz:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Por que o programador usa VIM?&lt;/li&gt;
+&lt;li&gt;Por que ele entrou no VIM uma vez e nunca descobriu o comando pra sair.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;blockquote&gt;
+&lt;p&gt;HUE HUE HUE.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;Eu sou apaixonado pelo Sublime Text a alguns anos e você pode sentir isso &lt;a href=&quot;/posts/usando-o-sublime-text/&quot;&gt;nesse post&lt;/a&gt;, onde eu falo sobre o uso do Sublime Text no dia-a-dia, &lt;a href=&quot;/posts/instalando-o-sublime-text-no-ubuntu/&quot;&gt;nesse outro post&lt;/a&gt;, onde eu ensino instalar e configurar o Sublime no Ubuntu, nesse &lt;a href=&quot;/posts/plugins-sublime-text-para-desenvolvimento-web/&quot;&gt;outro post&lt;/a&gt;, que eu mostrei alguns plugins que uso diariamente e no meu &lt;a href=&quot;https://github.com/woliveiras/dotfiles/tree/master/sublimetext&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;.dotfiles&lt;/a&gt;, onde você encontra mais plugins e configurações legais para o Sublime.&lt;/p&gt;
+&lt;p&gt;Mas, se o Sublime Text atende hoje 100% meu Workflow e eu sou apaixonado por esse editor, então por que eu fui inventar de aprender usar o VIM?&lt;/p&gt;
+&lt;p&gt;A resposta é simples: &lt;strong&gt;fui experimentar&lt;/strong&gt;.&lt;/p&gt;
+&lt;h2 id=&quot;Prologo&quot;&gt;&lt;a href=&quot;#Prologo&quot; class=&quot;headerlink&quot; title=&quot;Prólogo&quot;&gt;&lt;/a&gt;Prólogo&lt;/h2&gt;&lt;p&gt;Eu sempre vi algumas pessoas aclamando o editor como se ele fosse um deus de alguma religião, e de fato é. Existe até uma &lt;a href=&quot;https://medium.com/@avelino0/church-vim-2ddadebe5acc#.gbqzpwuc3&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Igreja do VIM&lt;/a&gt;, onde você pode aprender como exorcizar um computador!&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;http://gifnoria.com.br/wp-content/uploads/2016/03/Oq-q-%C3%A9-esse-bagulho-que-fica-atras-de-mim-sai-capeta.gif&quot; alt=&quot;Sai capeta&quot;&gt;&lt;br&gt;Achei muito interessante essa comunidade em cima de um editor de texto e fui conhecer melhor. Em São Paulo existe até um grupo de Meetup, o &lt;a href=&quot;http://www.meetup.com/pt-BR/Vim-Sao-Paulo-Meetup/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;VIM-SP&lt;/a&gt;. Gostei bastante da galera que usa o editor e acabei me interessando mais em aprender a usa-lo.&lt;/p&gt;
+&lt;p&gt;Também foi quando eu vi o site, extremamente futurista, do &lt;a href=&quot;http://www.vim.org/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;VIM&lt;/a&gt;, que logo eu decidi que deveria testar de verdade esse negócio!&lt;/p&gt;
+&lt;p&gt;Então, sem mais delongas, vamos a minha visão da coisa.&lt;/p&gt;
+&lt;h2 id=&quot;Primeiros-contatos-com-o-VIM&quot;&gt;&lt;a href=&quot;#Primeiros-contatos-com-o-VIM&quot; class=&quot;headerlink&quot; title=&quot;Primeiros contatos com o VIM&quot;&gt;&lt;/a&gt;Primeiros contatos com o VIM&lt;/h2&gt;&lt;p&gt;O primeiro contato com o VIM pode ser bem esquisito. Você pensa: Pra que que eu vou sair do meu super editor pra vir pra esse negócio, dentro do Terminal, cheio de atalhos que eu tenho que decorar???&lt;/p&gt;
+&lt;p&gt;A primeira vez que eu abri o VIM para editar um texto grande, me senti usando uma dessas:&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://openclipart.org/download/192053/remington-typewriter.svg&quot; alt=&quot;Maquina de escrever&quot; width=&quot;50%&quot;&gt;&lt;/p&gt;
+&lt;p&gt;Mas a primeira impressão não bastou pra mim.&lt;/p&gt;
+&lt;p&gt;Acabei descobrindo que estava &lt;a href=&quot;http://www.qualeagiria.com.br/giria/botar-o-carro-na-frente-dos-bois/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;colocando o carro na frente dos bois&lt;/a&gt;.&lt;/p&gt;
+&lt;h2 id=&quot;A-tal-da-agilidade-usando-VIM&quot;&gt;&lt;a href=&quot;#A-tal-da-agilidade-usando-VIM&quot; class=&quot;headerlink&quot; title=&quot;A tal da agilidade usando VIM&quot;&gt;&lt;/a&gt;A tal da agilidade usando VIM&lt;/h2&gt;&lt;p&gt;A primeira coisa que você precisa entender, quando começa a usar o VIM, é que você não precisa forçar para decorar TODOS os comandos de uma só vez. Você só precisa aprender os básicos e depois vai, gradualmente, aumentando seu nível de uso do editor e sua agilidade ao usar o mesmo.&lt;/p&gt;
+&lt;p&gt;É igual usar qualquer outro editor. Você não sai digitando extremamente rápido quando começa a usar uma IDE. Demora para você pegar todos os comandos, o mesmo funciona com os editores de texto e o VIM não é diferente disso.&lt;/p&gt;
+&lt;p&gt;Durante o aprendizado eu fui salvando os comandos que eu ia aprendendo em um repositório no meu GitHub, que acabou se tornando um GitBook chamado &lt;a href=&quot;/vimparanoobs/&quot;&gt;VIM para Noobs&lt;/a&gt;, onde você pode encontrar vários comandos, plugins úteis, temas e mais fonte de informação sobre o editor, mas não caia de cabeça nele agora. Continue a leitura.&lt;/p&gt;
+&lt;p&gt;Acho que o principal problema de quem começa com o VIM é a ideia de que, se outras pessoas dizem que escrevem texto super rápido no editor, logo no primeiro dia eu preciso escrever assim também.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://media.giphy.com/media/26E2gwqxVzvn7KZji/giphy.gif&quot; alt=&quot;Fast type writer&quot;&gt;&lt;/p&gt;
+&lt;p&gt;Mas não é bem assim.&lt;/p&gt;
+&lt;p&gt;Se imagine aprendendo uma nova linguagem de programação, no primeiro dia você já sai dando aula? - Se você for um prodigio, não responda, por favor. ;P&lt;/p&gt;
+&lt;h2 id=&quot;Antes-de-comecar-a-usar-o-VIM-saiba&quot;&gt;&lt;a href=&quot;#Antes-de-comecar-a-usar-o-VIM-saiba&quot; class=&quot;headerlink&quot; title=&quot;Antes de começar a usar o VIM, saiba&quot;&gt;&lt;/a&gt;Antes de começar a usar o VIM, saiba&lt;/h2&gt;&lt;p&gt;O VIM trabalha com modos de operação. Onde, se você está em um modo ele possui determinados comandos e em outro modo os mesmos comandos podem fazer outra coisa. Os modos do VIM são os seguintes:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Modo normal:&lt;/strong&gt; quando você entra no VIM. Nesse modo você pode ler o texto, mas não vai conseguir inserir. Você consegue executar comandos de edição de texto, mas o VIM possui um modo somente para inserção. Quando você estiver em qualquer outro modo, você pode usar o &lt;code&gt;ESC&lt;/code&gt; para voltar ao Normal Mode;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Modo de inserção:&lt;/strong&gt; quando você, de fato, vai inserir texto no arquivo. Você acessa esse modo pressionando &lt;code&gt;i&lt;/code&gt;;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Modo visual: &lt;/strong&gt; serve, principalmente, para seleção de grandes blocos de texto. Você acessa esse modo usando o &lt;code&gt;v&lt;/code&gt;;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Modo de comandos (command mode): &lt;/strong&gt; Onde você executa alguns comandos no VIM ou externos (como usar comandos do Git de dentro do VIM), consegue configurar o editor em tempo real, sair do editor, salvar arquivos, etc.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;O modo em que você está fica marcado na parte de baixo do editor.&lt;/p&gt;
+&lt;p&gt;Ex.:&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;http://s32.postimg.org/6tgxgetrp/Screenshot_from_2016_05_22_09_25_45.png&quot; alt=&quot;Modo de inserção&quot;&gt;&lt;/p&gt;
+&lt;p&gt;Alguns comandos do VIM aparecem nos tutoriais como letra maiúscula. Significa que você usa &lt;code&gt;SHIFT&lt;/code&gt; &lt;strong&gt;+&lt;/strong&gt; &lt;code&gt;letra&lt;/code&gt; para executar o comando.&lt;/p&gt;
+&lt;p&gt;A maioria dos comandos é executado em Modo Normal.&lt;/p&gt;
+&lt;p&gt;Agora vamos conhecer os comandos que, realmente, vamos utilizar muito no começo.&lt;/p&gt;
+&lt;p&gt;Foque neles, nos primeiros dias, até aprender bem.&lt;/p&gt;
+&lt;h2 id=&quot;Abrir-um-arquivo&quot;&gt;&lt;a href=&quot;#Abrir-um-arquivo&quot; class=&quot;headerlink&quot; title=&quot;Abrir um arquivo&quot;&gt;&lt;/a&gt;Abrir um arquivo&lt;/h2&gt;&lt;p&gt;No Terminal, você pode cambiar até a pasta onde está o arquivo que você vai abrir e então basta digitar: &lt;/p&gt;
+&lt;figure class=&quot;highlight bash&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;vim nome_&lt;span class=&quot;keyword&quot;&gt;do&lt;/span&gt;_arquivo&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+&lt;p&gt;Mas você também pode usar o comando direto:&lt;/p&gt;
+&lt;figure class=&quot;highlight bash&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;vim diretorio/outro_diretorio/nome_&lt;span class=&quot;keyword&quot;&gt;do&lt;/span&gt;_arquivo&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+&lt;h2 id=&quot;Sintaxes&quot;&gt;&lt;a href=&quot;#Sintaxes&quot; class=&quot;headerlink&quot; title=&quot;Sintaxes&quot;&gt;&lt;/a&gt;Sintaxes&lt;/h2&gt;&lt;p&gt;O VIM vai reconhecer a sintaxe automaticamente quando você abrir um arquivo com extensão específica, mas, se você começar a partir do VIM a criar um arquivo que ainda não existe no sistema, você pode executar o comando:&lt;/p&gt;
+&lt;figure class=&quot;highlight stata&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;keyword&quot;&gt;set&lt;/span&gt; &lt;span class=&quot;keyword&quot;&gt;syntax&lt;/span&gt;=sintaxe&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+&lt;p&gt;Ex.:&lt;/p&gt;
+&lt;figure class=&quot;highlight stata&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;keyword&quot;&gt;set&lt;/span&gt; &lt;span class=&quot;keyword&quot;&gt;syntax&lt;/span&gt;=javascript&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+&lt;p&gt;Para que o VIM passe a reconhecer a sintaxe que você está digitando.&lt;/p&gt;
+&lt;h2 id=&quot;Se-movimentando-dentro-de-um-texto&quot;&gt;&lt;a href=&quot;#Se-movimentando-dentro-de-um-texto&quot; class=&quot;headerlink&quot; title=&quot;Se movimentando dentro de um texto&quot;&gt;&lt;/a&gt;Se movimentando dentro de um texto&lt;/h2&gt;&lt;p&gt;Você pode usar as setinhas do teclado no começo, mas com o tempo vai aprender a usar mais as próprias letras, então você poderá usar:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;h&lt;/strong&gt;: Esquerda&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;j&lt;/strong&gt;: Baixo&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;k&lt;/strong&gt;: Cima&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;l&lt;/strong&gt;: Direita&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Isso no Modo Normal.&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Uma maneira de se acostumar a usar os movimentos pelas letras é brincar um pouco no &lt;a href=&quot;http://vim-adventures.com/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;VIM Adventures&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Existe, ainda, algumas coisinhas legais que você vai usar bastante:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Para ir ao final de um arquivo use: &lt;code&gt;G&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Para voltar ao topo: &lt;code&gt;gg&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Para mover ao &lt;strong&gt;final&lt;/strong&gt; de uma palavra: &lt;code&gt;e&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Para mover até o &lt;strong&gt;começo&lt;/strong&gt; da próxima palavra: &lt;code&gt;w&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Para mover ao pŕoximo caractere específico use: &lt;code&gt;f[caractere]&lt;/code&gt;. Ex.: &lt;code&gt;f{&lt;/code&gt; para ir ao próximo &lt;code&gt;{&lt;/code&gt;.&lt;/li&gt;
+&lt;li&gt;Para mover ao começo de uma linha, use: &lt;code&gt;0&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Para mover ao final de uma linha, use: &lt;code&gt;$&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Para pular ao final de um parágrafo: &lt;code&gt;}&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Para pular para o fechamento de um parentese/colchete/chaves use: &lt;code&gt;%&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Da para formar comandos com contadores para agilizar ainda mais as coisas.&lt;/p&gt;
+&lt;p&gt;Imagine que você precisa pular 10 linhas no texto, você pode usar &lt;code&gt;10j&lt;/code&gt;.&lt;/p&gt;
+&lt;h2 id=&quot;Inserindo-texto-com-VIM&quot;&gt;&lt;a href=&quot;#Inserindo-texto-com-VIM&quot; class=&quot;headerlink&quot; title=&quot;Inserindo texto com VIM&quot;&gt;&lt;/a&gt;Inserindo texto com VIM&lt;/h2&gt;&lt;p&gt;Saber se movimentar vai servir para ler um texto ou para posicionar o cursor para executar um comando, mas como escrever um texto?&lt;/p&gt;
+&lt;p&gt;É bem simples, você pode pressionar o &lt;code&gt;i&lt;/code&gt; para entrar no modo de inserção onde o cursor estiver posicionado e pode sair digitando a vontade.&lt;/p&gt;
+&lt;p&gt;Claro que, também, tem alguns comandinhos legais que você pode usar:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;I&lt;/strong&gt; (maiúsculo)   - Entra no modo de inserção no começo da linha&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;a&lt;/strong&gt;   - Entra no modo de inserção na frente de onde o cursor se encontra&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;A&lt;/strong&gt; (maiúsculo)   - Entra no modo de inserção no final da linha&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;o&lt;/strong&gt;   - Adiciona uma linha abaixo de onde estiver o cursor e entra em modo de inserção&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;O&lt;/strong&gt; (maiúsculo)   - Adiciona uma linha acima e entra em modo de inserção&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&quot;Como-apagar-um-texto&quot;&gt;&lt;a href=&quot;#Como-apagar-um-texto&quot; class=&quot;headerlink&quot; title=&quot;Como apagar um texto&quot;&gt;&lt;/a&gt;Como apagar um texto&lt;/h2&gt;&lt;p&gt;Você pode usar:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;x&lt;/strong&gt;  - Deleta o caractere onde o cursor estiver&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;X&lt;/strong&gt;  - Deleta o caractere de trás do cursor&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;dw&lt;/strong&gt; - Deleta a partir do cursor até o começo da próxima palavra&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;d$&lt;/strong&gt; - Deleta do cursor até o fim da linha&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;dd&lt;/strong&gt; - Deleta a linha iteira, incluindo o [enter] que ouver no final&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;C&lt;/strong&gt; (maiúsculo) - Deleta de onde o cursor estiver até o final da linha e entra em modo de inserção a partir dali&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;ce&lt;/strong&gt; - Deleta do cursor até o final da palavra e entra em modo de inserção&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&quot;Como-copiar-e-colar-ou-recortar-texto-usando-o-VIM&quot;&gt;&lt;a href=&quot;#Como-copiar-e-colar-ou-recortar-texto-usando-o-VIM&quot; class=&quot;headerlink&quot; title=&quot;Como copiar e colar ou recortar texto usando o VIM&quot;&gt;&lt;/a&gt;Como copiar e colar ou recortar texto usando o VIM&lt;/h2&gt;&lt;p&gt;Para copiar e colar você vai usar o comando &lt;code&gt;y&lt;/code&gt;, para copiar, e o &lt;code&gt;p&lt;/code&gt;, para colar.&lt;/p&gt;
+&lt;p&gt;Para facilitar a vida:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Você pode usar &lt;code&gt;yy&lt;/code&gt; para copiar uma linha inteira.&lt;/li&gt;
+&lt;li&gt;Você pode entrar no modo visual (&lt;code&gt;v&lt;/code&gt;), selecionar um texto e pressionar o &lt;code&gt;y&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Já para &lt;strong&gt;recortar&lt;/strong&gt; um texto é, ainda, mais simples.&lt;/p&gt;
+&lt;p&gt;Toda vez que você deleta um texto usando &lt;code&gt;x&lt;/code&gt;, &lt;code&gt;dd&lt;/code&gt;, &lt;code&gt;dw&lt;/code&gt;, etc, o VIM não joga fora de uma vez, ele armazena em cache e você pode usar o &lt;code&gt;p&lt;/code&gt; para colar em outro lugar.&lt;/p&gt;
+&lt;p&gt;Ex.:&lt;/p&gt;
+&lt;p&gt;Você pode deletar uma linha inteira usando &lt;code&gt;dd&lt;/code&gt; e depois colar em outro lugar usando o &lt;code&gt;p&lt;/code&gt;.&lt;/p&gt;
+&lt;p&gt;Para &lt;strong&gt;copiar para o Clipboard&lt;/strong&gt; e poder colar fora do VIM, você vai selecionar o texto usando o modo visual (&lt;code&gt;v&lt;/code&gt;) e usar o comando &lt;code&gt;&amp;quot;+y&lt;/code&gt;.&lt;/p&gt;
+&lt;p&gt;Para &lt;strong&gt;colar a partir do Clipboard&lt;/strong&gt; você pode usar &lt;code&gt;&amp;quot;+p&lt;/code&gt;.&lt;/p&gt;
+&lt;p&gt;E o mesmo esquema de montar comandos com contadores funciona para os de copiar e colar.&lt;/p&gt;
+&lt;p&gt;Ex.:&lt;/p&gt;
+&lt;p&gt;Copiar 10 linhas de um texto &lt;/p&gt;
+&lt;figure class=&quot;highlight&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;10yy&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+&lt;h2 id=&quot;Como-desfazer-alguma-coisa&quot;&gt;&lt;a href=&quot;#Como-desfazer-alguma-coisa&quot; class=&quot;headerlink&quot; title=&quot;Como desfazer alguma coisa&quot;&gt;&lt;/a&gt;Como desfazer alguma coisa&lt;/h2&gt;&lt;p&gt;Quando fazemos algo errado, podemos usar o famoso CTRL+Z nos editores comuns, mas no VIM é um pouco diferente.&lt;/p&gt;
+&lt;p&gt;Você vai utilizar os comandos:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;u&lt;/strong&gt; - Para desfaz a ultima alteração&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;U&lt;/strong&gt; - Para desfaz todas as mudanças efetuadas em uma linha inteira&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;CTRL+R&lt;/strong&gt; - Para refazer a ultima coisa que você desfez&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&quot;Como-localizar-uma-palavra-dentro-de-um-texto&quot;&gt;&lt;a href=&quot;#Como-localizar-uma-palavra-dentro-de-um-texto&quot; class=&quot;headerlink&quot; title=&quot;Como localizar uma palavra dentro de um texto&quot;&gt;&lt;/a&gt;Como localizar uma palavra dentro de um texto&lt;/h2&gt;&lt;p&gt;Você pressionaria o CTRL+F em editores comuns, mas no VIM você vai usar somente RegEx!&lt;/p&gt;
+&lt;p&gt;No modo normal, você pode pressionar &lt;code&gt;/&lt;/code&gt;, digitar o texto, pressionar enter e a busca vai acontecer.&lt;/p&gt;
+&lt;p&gt;Para pular de uma ocorrencia para outra você pode usar &lt;code&gt;n&lt;/code&gt; para ir para a próxima e &lt;code&gt;N&lt;/code&gt; para voltar.&lt;/p&gt;
+&lt;h2 id=&quot;Salvando-ou-saindo-de-um-arquivo&quot;&gt;&lt;a href=&quot;#Salvando-ou-saindo-de-um-arquivo&quot; class=&quot;headerlink&quot; title=&quot;Salvando ou saindo de um arquivo&quot;&gt;&lt;/a&gt;Salvando ou saindo de um arquivo&lt;/h2&gt;&lt;p&gt;Depois de editar o texto, conforme ensinado, como salvar as coisas agora?&lt;/p&gt;
+&lt;p&gt;É bem simples, você vai usar os comandos, no modo normal:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;:q&lt;/strong&gt; - Sai sem salvar. Será solicitado confirmação se existirem alterações não salvas.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;:q!&lt;/strong&gt; - Sai sem salvar descartando as alterações&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;:w&lt;/strong&gt; - Salva o arquivo (escreve)&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;:wq&lt;/strong&gt; - Salva e sai do arquivo&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Se você quiser salvar o arquivo com outro nome, então pode utilizar o &lt;code&gt;:w novo_nome&lt;/code&gt; e pronto!&lt;/p&gt;
+&lt;p&gt;Ainda se quiser salvar com um novo nome e sair do arquivo, pode usar: &lt;code&gt;:wq novo_nome&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;E se você não quiser ficar digitando &lt;code&gt;:wq&lt;/code&gt;, pode ainda usar o &lt;code&gt;ZZ&lt;/code&gt;, que também salva e sai do arquivo&lt;/p&gt;
+&lt;h2 id=&quot;Historia-do-VIM-e-mais-comandos-legais&quot;&gt;&lt;a href=&quot;#Historia-do-VIM-e-mais-comandos-legais&quot; class=&quot;headerlink&quot; title=&quot;História do VIM e mais comandos legais&quot;&gt;&lt;/a&gt;História do VIM e mais comandos legais&lt;/h2&gt;&lt;p&gt;Se você quiser conhecer a história por trás dos comandos do VIM, da uma olhada nesse vídeo do &lt;a href=&quot;https://twitter.com/mind_bend&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Magnun Leno&lt;/a&gt;, no Grupylango.&lt;/p&gt;
+&lt;p&gt;Você vai entender o por que dos comandos específicos.&lt;/p&gt;
+&lt;iframe width=&quot;100%&quot; height=&quot;473px&quot; src=&quot;https://www.youtube.com/embed/UUzW46SeLhg&quot; frameborder=&quot;0&quot; allowfullscreen&gt;&lt;/iframe&gt;
+
+&lt;p&gt;Dizem que, se usarmos o VIM por muito tempo, logo estaremos digitando extremamente rápido. Igual esse gatinho:&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://media.giphy.com/media/xT0BKvIDgNYugS3m3C/giphy.gif&quot; alt=&quot;Gatinho digitando&quot;&gt;&lt;/p&gt;
+&lt;h2 id=&quot;Plugins-temas-janelas-abas-sintaxes-configuracoes-especiais-e-magia-negra&quot;&gt;&lt;a href=&quot;#Plugins-temas-janelas-abas-sintaxes-configuracoes-especiais-e-magia-negra&quot; class=&quot;headerlink&quot; title=&quot;Plugins, temas, janelas, abas, sintaxes configurações especiais e magia negra&quot;&gt;&lt;/a&gt;Plugins, temas, janelas, abas, sintaxes configurações especiais e magia negra&lt;/h2&gt;&lt;p&gt;O VIM ainda possui MUUUUUITO mais coisas para se aprender.&lt;/p&gt;
+&lt;p&gt;O mais legal do VIM é que ele é extremamente “Hackeavel” (não que o Sublime também não seja). Você pode deixar o SEU VIM com sua cara, sua forma de digitar, suas manias, etc. &lt;/p&gt;
+&lt;p&gt;Isso você vai conseguir através de configurações no &lt;code&gt;.vimrc&lt;/code&gt;, que é o arquivo de configuração do VIM, com plugins e até criando seus comandos e macros.&lt;/p&gt;
+&lt;p&gt;Como eu disse foque nos comandos principais na primeira semana, pelo menos, e depois vá se aprofundando, instalando plugins, criando comandos, etc.&lt;/p&gt;
+&lt;p&gt;Mas as primeiras configurações, como mudar um tema, você pode fazer logo de começo.&lt;/p&gt;
+&lt;p&gt;Você vai encontrar temas legais &lt;a href=&quot;http://vimcolors.com/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;nesse site&lt;/a&gt; e, normalmente, a forma de instalar o tema, consta na documentação dos mesmos.&lt;/p&gt;
+&lt;p&gt;O esquema de cores que eu curto é &lt;a href=&quot;https://github.com/sickill/vim-monokai&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;esse aqui&lt;/a&gt;, parecido com o &lt;a href=&quot;https://studiostyl.es/schemes/monokai&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Monokai&lt;/a&gt; do Sublime.&lt;/p&gt;
+&lt;p&gt;Se quiser, pode até criar seu próprio tema rapidamente &lt;a href=&quot;http://mswift42.github.io/themecreator/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;aqui&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Tudo isso e um pouco mais, você encontra no &lt;a href=&quot;/vimparanoobs/&quot;&gt;VIM para Noobs&lt;/a&gt;, depois de passar uma semana com o VIM, da uma olhada lá para aprender um pouco mais. :D&lt;/p&gt;
+&lt;p&gt;E ai, curtiu conhecer o VIM?&lt;/p&gt;
+&lt;p&gt;Eu ainda não utilizo ele 100%. O Sublime ainda é meu editor principal, mas, aos poucos, eu estou migrando para o VIM.&lt;/p&gt;
+&lt;p&gt;Logo logo postarei mais sobre minhas experiências com esse negócio!&lt;/p&gt;
+&lt;p&gt;Se curtiu esse artigo, compartilhe com os amigos nas Redes Sociais, espalhe nos grupos, mostra pro seu Gatinho.&lt;/p&gt;
+&lt;p&gt;Espalhe a palavra.&lt;/p&gt;
+</content>
+    
+    <summary type="html">
+    
+      Primeiros passos com VIM. Dicas de VIM para iniciantes. Como começar a usar o VIM.
+    
+    </summary>
+    
+    
+      <category term="produtividade" scheme="http://woliveiras.com.br/tags/produtividade/"/>
+    
+  </entry>
+  
+  <entry>
     <title>Aumente sua produtividade e da sua equipe com gamificação e um RPG arretado</title>
     <link href="http://woliveiras.com.br/posts/Aumente-sua-produtividade-e-da-sua-equipe-com-gamificacao/"/>
     <id>http://woliveiras.com.br/posts/Aumente-sua-produtividade-e-da-sua-equipe-com-gamificacao/</id>
     <published>2016-05-14T18:00:34.000Z</published>
-    <updated>2016-05-14T23:41:05.077Z</updated>
+    <updated>2016-05-22T14:05:51.150Z</updated>
     
     <content type="html">&lt;p&gt;Todos nós gostamos de jogos, seja no PC, Celular ou qualquer outro tipo… Simplesmente, gostamos. Agora imagine utilizar jogos para ser mais produtivo, cuidar da saúde, aprender algo novo ou qualquer outro objetivo pessoal.&lt;/p&gt;
 &lt;p&gt;Imagine transformar sua vida em um jogo de RPG!&lt;a id=&quot;more&quot;&gt;&lt;/a&gt;&lt;/p&gt;
@@ -107,7 +280,7 @@
     <link href="http://woliveiras.com.br/posts/Produtividade-priorizacao-de-tarefas-execucao-e-melhoria-do-processo/"/>
     <id>http://woliveiras.com.br/posts/Produtividade-priorizacao-de-tarefas-execucao-e-melhoria-do-processo/</id>
     <published>2016-04-21T12:31:46.000Z</published>
-    <updated>2016-05-14T23:41:05.081Z</updated>
+    <updated>2016-05-22T14:05:51.150Z</updated>
     
     <content type="html">&lt;p&gt;Continuando a série sobre Produtividade, já sabemos &lt;a href=&quot;/posts/produtividade-uma-re-introducao/&quot;&gt;o que é produtividade&lt;/a&gt; e &lt;a href=&quot;/posts/Produtividade-conhece-te-a-ti-mesmo/&quot;&gt;como nosso cérebro funciona&lt;/a&gt;, agora precisamos aprender a planejar as coisas para que nosso cérebro não nos atrapalhe em nossa meta de sermos mais produtivos. &lt;a id=&quot;more&quot;&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;O planejamento, aqui, pode ser dividido em:&lt;/p&gt;
@@ -193,7 +366,7 @@
     <link href="http://woliveiras.com.br/posts/Links-uteis-para-aprender-se-aprofundar-ou-manter-se-atualizado-sobre-JavaScript/"/>
     <id>http://woliveiras.com.br/posts/Links-uteis-para-aprender-se-aprofundar-ou-manter-se-atualizado-sobre-JavaScript/</id>
     <published>2016-04-20T09:00:19.000Z</published>
-    <updated>2016-05-14T23:41:05.077Z</updated>
+    <updated>2016-05-22T14:05:51.150Z</updated>
     
     <content type="html">&lt;p&gt;Existe muito recurso legal disponível na internet para quem deseja aprender ou se aprofundar em JavaScript. Tanto recursos gratuitos, quanto recursos pagos. Existem muitos &lt;a href=&quot;/posts/Livros-sobre-JavaScript-do-iniciante-ao-avancado-e-ES6/&quot;&gt;livros bons&lt;/a&gt; sobre a linguagem também.&lt;/p&gt;
 &lt;p&gt;Nesse post, vou tentar deixar um compilado de links úteis para quem quer se aprofundar na linguagem da Web!&lt;a id=&quot;more&quot;&gt;&lt;/a&gt;&lt;/p&gt;
@@ -305,7 +478,7 @@
     <link href="http://woliveiras.com.br/posts/Livros-sobre-JavaScript-do-iniciante-ao-avancado-e-ES6/"/>
     <id>http://woliveiras.com.br/posts/Livros-sobre-JavaScript-do-iniciante-ao-avancado-e-ES6/</id>
     <published>2016-04-19T10:24:08.000Z</published>
-    <updated>2016-05-14T23:41:05.077Z</updated>
+    <updated>2016-05-22T14:05:51.150Z</updated>
     
     <content type="html">&lt;p&gt;Existem excelentes livros sobre JavaScript no mercado, mas são tantos que nos perdemos em qual ler primeiro, qual ler depois, qual nem vale a pena ler em determinado nível de conhecimento… São várias dúvidas.&lt;/p&gt;
 &lt;p&gt;Nesse artigo vou tentar ajudar a escolher os melhores livros para seu nível de conhecimento e montar uma sequência legal de leitura para virar um JavaScript Master!&lt;a id=&quot;more&quot;&gt;&lt;/a&gt;&lt;/p&gt;
@@ -372,7 +545,7 @@
     <link href="http://woliveiras.com.br/posts/Produtividade-conhece-te-a-ti-mesmo/"/>
     <id>http://woliveiras.com.br/posts/Produtividade-conhece-te-a-ti-mesmo/</id>
     <published>2016-04-18T11:48:58.000Z</published>
-    <updated>2016-05-14T23:41:05.081Z</updated>
+    <updated>2016-05-22T14:05:51.150Z</updated>
     
     <content type="html">&lt;p&gt;O autoconhecimento é muito importante para você se tornar produtivo.&lt;/p&gt;
 &lt;p&gt;De nada adianta aprender milhares de técnicas, receber diversas dicas sobre produtividade, se nenhuma delas se encaixa em você. Claro que é necessário um pouco de esforço de sua parte para que as metodologias deem certo, porém, dentre milhares de técnicas, você vai precisar achar uma que se encaixe em seu estilo de vida e na sua forma de pensar e agir. &lt;a id=&quot;more&quot;&gt;&lt;/a&gt;&lt;/p&gt;
@@ -450,7 +623,7 @@
     <link href="http://woliveiras.com.br/posts/Por-que-voce-desistiu-de-ser-Cientista/"/>
     <id>http://woliveiras.com.br/posts/Por-que-voce-desistiu-de-ser-Cientista/</id>
     <published>2016-04-16T11:55:36.000Z</published>
-    <updated>2016-05-14T23:41:05.077Z</updated>
+    <updated>2016-05-22T14:05:51.150Z</updated>
     
     <content type="html">&lt;p&gt;Há algum tempo venho observando as pessoas, mais especificamente as pessoas da área de Desenvolvimento de Software. Há mais tempo ainda eu observo as outras pessoas, o ser humano em geral. E desde sempre percebi um padrão:&lt;/p&gt;
 &lt;p&gt;Ao crescer, as pessoas abandonam a profissão que nasce com elas, a profissão de &lt;strong&gt;cientista&lt;/strong&gt;.&lt;a id=&quot;more&quot;&gt;&lt;/a&gt;&lt;/p&gt;
@@ -543,7 +716,7 @@
     <link href="http://woliveiras.com.br/posts/produtividade-uma-re-introducao/"/>
     <id>http://woliveiras.com.br/posts/produtividade-uma-re-introducao/</id>
     <published>2016-04-13T10:58:34.000Z</published>
-    <updated>2016-05-14T23:41:05.081Z</updated>
+    <updated>2016-05-22T14:05:51.150Z</updated>
     
     <content type="html">&lt;p&gt;No ritmo frenético em que vivemos, ser produtivo já não é mais qualidade de ninguém, precisa ser uma característica de todos.&lt;/p&gt;
 &lt;p&gt;Nós queremos fazer um amontoado de coisas todos os dias e toda hora aparece alguma outra coisa pra se fazer.&lt;/p&gt;
@@ -607,7 +780,7 @@
     <link href="http://woliveiras.com.br/posts/Criando-uma-imagem-Docker-personalizada/"/>
     <id>http://woliveiras.com.br/posts/Criando-uma-imagem-Docker-personalizada/</id>
     <published>2016-04-12T01:18:59.000Z</published>
-    <updated>2016-05-14T23:41:05.077Z</updated>
+    <updated>2016-05-22T14:05:51.150Z</updated>
     
     <content type="html">&lt;p&gt;É muito legal poder baixar uma imagem do &lt;a href=&quot;http://hub.docker.com/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Docker Hub&lt;/a&gt; e já sair criando os containers, modificando e brincando, mas e depois?&lt;/p&gt;
 &lt;p&gt;Como fazemos para levar essa imagem para outro host?&lt;/p&gt;
@@ -616,7 +789,7 @@
 &lt;h2 id=&quot;Dockerfile&quot;&gt;&lt;a href=&quot;#Dockerfile&quot; class=&quot;headerlink&quot; title=&quot;Dockerfile&quot;&gt;&lt;/a&gt;Dockerfile&lt;/h2&gt;&lt;p&gt;Já vimos que podemos utilizar a linha de &lt;a href=&quot;/posts/comandos-mais-utilizados-no-docker&quot;&gt;comando para inicializar um Docker container&lt;/a&gt; com um parâmetro que é o comando a ser executado direto no container para inicializar algum serviço, trazer alguma informação sobre o container em execução, etc.&lt;/p&gt;
 &lt;p&gt;Ex.:&lt;/p&gt;
 &lt;p&gt;Executando um container do &lt;a href=&quot;https://www.nginx.com/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;NGINX&lt;/a&gt; com o comando para startar o Web Server:&lt;/p&gt;
-&lt;figure class=&quot;highlight stata&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;docker &lt;span class=&quot;keyword&quot;&gt;run&lt;/span&gt; -&lt;span class=&quot;keyword&quot;&gt;d&lt;/span&gt; -p 8080:80 nginx /usr/sbin/nginx -&lt;span class=&quot;keyword&quot;&gt;g&lt;/span&gt; &lt;span class=&quot;string&quot;&gt;&quot;daemon off;&quot;&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+&lt;figure class=&quot;highlight stylus&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;docker run -d -&lt;span class=&quot;selector-tag&quot;&gt;p&lt;/span&gt; &lt;span class=&quot;number&quot;&gt;8080&lt;/span&gt;:&lt;span class=&quot;number&quot;&gt;80&lt;/span&gt; nginx /usr/sbin/nginx -g &lt;span class=&quot;string&quot;&gt;&quot;daemon off;&quot;&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
 &lt;p&gt;Com esse comando vamos criar o container com a imagem do &lt;code&gt;nginx&lt;/code&gt; passando os parâmetros para inicializar o servidor e listar a porta 80 do container na 8080 do nosso host.&lt;/p&gt;
 &lt;p&gt;Agora, imagine utilizar essa linha inteira para esse serviço e/ou outros mais que possam ser executados como um MySQL, Redis, MongoDB, etc.&lt;/p&gt;
 &lt;p&gt;Isso pode é bem pouco produtivo.&lt;/p&gt;
@@ -661,7 +834,7 @@
 &lt;figure class=&quot;highlight dockerfile&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;keyword&quot;&gt;EXPOSE&lt;/span&gt; &lt;span class=&quot;number&quot;&gt;8080&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
 &lt;p&gt;Aqui é bem simples, ele vai expor a porta &lt;code&gt;8080&lt;/code&gt;.&lt;/p&gt;
 &lt;p&gt;Para saber qual porta o host está utilizando como ponte para acesso a porta do container, podemos procurar com o comando:&lt;/p&gt;
-&lt;figure class=&quot;highlight elm&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;title&quot;&gt;docker&lt;/span&gt; &lt;span class=&quot;keyword&quot;&gt;port&lt;/span&gt; id_ou_apelido_do_container&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+&lt;figure class=&quot;highlight bash&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;docker port id_ou_apelido_&lt;span class=&quot;keyword&quot;&gt;do&lt;/span&gt;_container&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
 &lt;p&gt;Ou usar um:&lt;/p&gt;
 &lt;figure class=&quot;highlight bash&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;docker inspect id_ou_apelido_&lt;span class=&quot;keyword&quot;&gt;do&lt;/span&gt;_container&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
 &lt;p&gt;Na &lt;a href=&quot;https://docs.docker.com/engine/reference/builder/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;documentação oficial do Docker&lt;/a&gt; você encontrará outras informações legais sobre os comandos que podem ser executados no Dockerfile.&lt;/p&gt;
@@ -719,7 +892,7 @@
     <link href="http://woliveiras.com.br/posts/comandos-mais-utilizados-no-docker/"/>
     <id>http://woliveiras.com.br/posts/comandos-mais-utilizados-no-docker/</id>
     <published>2016-04-12T00:00:08.000Z</published>
-    <updated>2016-05-14T23:41:05.081Z</updated>
+    <updated>2016-05-22T14:05:51.150Z</updated>
     
     <content type="html">&lt;p&gt;Um post rapidinho com os comandos mais utilizados do Docker para não esquecer e consultar facilmente. :D&lt;/p&gt;
 &lt;p&gt;Se você não viu a primeira parte dessa sequência, clique &lt;a href=&quot;/posts/uma-rapida-introducao-ao-docker-e-instalacao-no-ubuntu/&quot;&gt;aqui&lt;/a&gt;.&lt;/p&gt;
@@ -797,7 +970,7 @@
 &lt;p&gt;Ao usar um &lt;code&gt;exit&lt;/code&gt; para sair do Terminal do SO rodando no container, o mesmo será removido.&lt;/p&gt;
 &lt;h2 id=&quot;Executando-containers-em-segundo-plano&quot;&gt;&lt;a href=&quot;#Executando-containers-em-segundo-plano&quot; class=&quot;headerlink&quot; title=&quot;Executando containers em segundo plano&quot;&gt;&lt;/a&gt;Executando containers em segundo plano&lt;/h2&gt;&lt;p&gt;Podemos executar o container e deixar ele em segundo plano, sem precisar ficar conectado pelo Shell, com o comando &lt;code&gt;-d&lt;/code&gt;.&lt;/p&gt;
 &lt;p&gt;Exemplo utilizando o NGINX.&lt;/p&gt;
-&lt;figure class=&quot;highlight stata&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;docker &lt;span class=&quot;keyword&quot;&gt;run&lt;/span&gt; -&lt;span class=&quot;keyword&quot;&gt;d&lt;/span&gt; -p 8080:80 nginx /usr/sbin/nginx -&lt;span class=&quot;keyword&quot;&gt;g&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+&lt;figure class=&quot;highlight stylus&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;docker run -d -&lt;span class=&quot;selector-tag&quot;&gt;p&lt;/span&gt; &lt;span class=&quot;number&quot;&gt;8080&lt;/span&gt;:&lt;span class=&quot;number&quot;&gt;80&lt;/span&gt; nginx /usr/sbin/nginx -g&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
 &lt;p&gt;Para controlar esse container usamos os comandos &lt;code&gt;stop&lt;/code&gt; e &lt;code&gt;start&lt;/code&gt;:&lt;/p&gt;
 &lt;figure class=&quot;highlight arduino&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;docker &lt;span class=&quot;built_in&quot;&gt;stop&lt;/span&gt; id_ou_apelido&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
 &lt;p&gt;Para parar e:&lt;/p&gt;
@@ -845,7 +1018,7 @@
     <link href="http://woliveiras.com.br/posts/imagem-docker-ou-um-container-docker/"/>
     <id>http://woliveiras.com.br/posts/imagem-docker-ou-um-container-docker/</id>
     <published>2016-04-11T17:00:00.000Z</published>
-    <updated>2016-05-14T23:41:05.081Z</updated>
+    <updated>2016-05-22T14:05:51.150Z</updated>
     
     <content type="html">&lt;p&gt;Se você viu a primeira parte dessa sequência de artigos, percebeu que existem dois termos muito utilizados quando falamos de Docker: &lt;strong&gt;Imagens&lt;/strong&gt; e &lt;strong&gt;Containers&lt;/strong&gt;. Você deve se perguntar: qual é a diferença entre imagem e container Docker? Ou então: O que eu rodo com o &lt;code&gt;docker run&lt;/code&gt;, uma imagem ou um container? &lt;a id=&quot;more&quot;&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;Se você não viu o primeiro artigo, da uma olhada &lt;a href=&quot;/posts/uma-rapida-introducao-ao-docker-e-instalacao-no-ubuntu/&quot;&gt;aqui&lt;/a&gt;.&lt;/p&gt;
@@ -924,7 +1097,7 @@
     <link href="http://woliveiras.com.br/posts/uma-rapida-introducao-ao-docker-e-instalacao-no-ubuntu/"/>
     <id>http://woliveiras.com.br/posts/uma-rapida-introducao-ao-docker-e-instalacao-no-ubuntu/</id>
     <published>2016-04-10T11:03:47.000Z</published>
-    <updated>2016-05-14T23:41:05.081Z</updated>
+    <updated>2016-05-22T14:05:51.154Z</updated>
     
     <content type="html">&lt;p&gt;&lt;div class=&quot;shared-img&quot;&gt;&lt;br&gt;&lt;img src=&quot;../../public/images/docker.png&quot; alt=&quot;Docker&quot;&gt;&lt;br&gt;&lt;/div&gt;Você já deve ter ouvido falar, pelo menos uma vez, sobre &lt;a href=&quot;https://www.docker.com/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Docker&lt;/a&gt; em algum lugar. Seja em palestras, blogs, vídeos ou em qualquer outra fonte de estudos sobre desenvolvimento, uma hora sempre comentamos sobre virtualização de ambientes e o Docker é a ferramenta que mais tem se destacado para tal. Ele é uma das 8 maravilhas das atualidades mais atuais. Vamos entender um pouco, então, o que é o Docker e como instalar no nosso Ubuntu.&lt;a id=&quot;more&quot;&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;h2 id=&quot;Introducao&quot;&gt;&lt;a href=&quot;#Introducao&quot; class=&quot;headerlink&quot; title=&quot;Introdução&quot;&gt;&lt;/a&gt;Introdução&lt;/h2&gt;&lt;p&gt;Eu também já ouvia falar do Docker a um bom tempo, porém nunca havia me aprofundado mais nessa ferramenta.&lt;/p&gt;
@@ -957,7 +1130,7 @@
 &lt;p&gt;E adicione a GPG Key - se você não sabe o que é uma GPG, &lt;a href=&quot;https://pt.wikipedia.org/wiki/GNU_Privacy_Guard&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;clique aqui&lt;/a&gt;:&lt;/p&gt;
 &lt;figure class=&quot;highlight brainfuck&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;comment&quot;&gt;sudo&lt;/span&gt; &lt;span class=&quot;comment&quot;&gt;apt&lt;/span&gt;&lt;span class=&quot;literal&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;comment&quot;&gt;key&lt;/span&gt; &lt;span class=&quot;comment&quot;&gt;adv&lt;/span&gt; &lt;span class=&quot;literal&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;literal&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;comment&quot;&gt;keyserver&lt;/span&gt; &lt;span class=&quot;comment&quot;&gt;hkp://p80&lt;/span&gt;&lt;span class=&quot;string&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;comment&quot;&gt;pool&lt;/span&gt;&lt;span class=&quot;string&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;comment&quot;&gt;sks&lt;/span&gt;&lt;span class=&quot;literal&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;comment&quot;&gt;keyservers&lt;/span&gt;&lt;span class=&quot;string&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;comment&quot;&gt;net:80&lt;/span&gt; &lt;span class=&quot;literal&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;literal&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;comment&quot;&gt;recv&lt;/span&gt;&lt;span class=&quot;literal&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;comment&quot;&gt;keys&lt;/span&gt; &lt;span class=&quot;comment&quot;&gt;58118E89F3A912897C070ADBF76221572C52609D&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
 &lt;p&gt;Abra o arquivo &lt;code&gt;/etc/apt/sources.list.d/docker.list&lt;/code&gt; ou, caso o mesmo não exista, crie ele com o comando:&lt;/p&gt;
-&lt;figure class=&quot;highlight stata&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;sudo vi /etc/apt/sources.&lt;span class=&quot;keyword&quot;&gt;list&lt;/span&gt;.&lt;span class=&quot;keyword&quot;&gt;d&lt;/span&gt;/docker.&lt;span class=&quot;keyword&quot;&gt;list&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+&lt;figure class=&quot;highlight stylus&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;sudo vi /etc/apt/sources&lt;span class=&quot;selector-class&quot;&gt;.list&lt;/span&gt;&lt;span class=&quot;selector-class&quot;&gt;.d&lt;/span&gt;/docker.list&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
 &lt;p&gt;Você pode usar o &lt;code&gt;gedit&lt;/code&gt; no lugar do VI se preferir.&lt;/p&gt;
 &lt;p&gt;Apague o conteúdo desse arquivo.&lt;/p&gt;
 &lt;p&gt;Supondo que você esteja utilizando a versão 14.04 (LTS) do Ubuntu, cole o seguinte conteúdo:&lt;/p&gt;
@@ -1010,7 +1183,7 @@
     <link href="http://woliveiras.com.br/posts/postando-no-blog-est%C3%A1tico-direto-pelo-github-com-hexo-e-travis-ci/"/>
     <id>http://woliveiras.com.br/posts/postando-no-blog-estático-direto-pelo-github-com-hexo-e-travis-ci/</id>
     <published>2016-02-07T00:00:00.000Z</published>
-    <updated>2016-05-14T23:41:05.081Z</updated>
+    <updated>2016-05-22T14:05:51.150Z</updated>
     
     <content type="html">&lt;p&gt;Confesso que fiquei tentado a migrar para o &lt;a href=&quot;https://jekyllrb.com/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Jekyll (Ruby)&lt;/a&gt; depois que um &lt;a href=&quot;http://jotateles.com.br/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;amigo&lt;/a&gt; me mostrou que da para postar no blog direto do GitHub sem ter o Jekyll instalado na máquina. Porém eu não desisti do meu queridinho, o &lt;a href=&quot;http://hexo.io/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Hexo (feito com Node &amp;lt;3)&lt;/a&gt;.&lt;a id=&quot;more&quot;&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;&lt;em&gt;Se você não conhece o Hexo, da uma olhada &lt;a href=&quot;http://woliveiras.com.br/posts/Migrando-de-Wordpress-para-Hexo/&quot;&gt;nesse artigo&lt;/a&gt;.&lt;/em&gt;&lt;/p&gt;
@@ -1085,7 +1258,7 @@
     <link href="http://woliveiras.com.br/posts/um-ano-como-desenvolvedor-front-end/"/>
     <id>http://woliveiras.com.br/posts/um-ano-como-desenvolvedor-front-end/</id>
     <published>2015-12-01T12:00:00.000Z</published>
-    <updated>2016-05-14T23:41:05.081Z</updated>
+    <updated>2016-05-22T14:05:51.154Z</updated>
     
     <content type="html">&lt;p&gt;Todo mundo tem uma história legal pra contar sobre como começou na área de Desenvolvimento, seja Web, Mobile, Desktop ou tanto faz. Sempre temos algo interessante para passar para os novos desenvolvedores que estão entrando no mercado e que, as vezes, tem medo de se arriscar, achando que &lt;a href=&quot;http://woliveiras.com.br/posts/requisitos-para-vagas-front-end/&quot;&gt;precisam saber de tudo para investir no primeiro trampo&lt;/a&gt;.&lt;/p&gt;
 &lt;p&gt;Conheça um pouco sobre como foi meu primeiro ano como Desenvolvedor Front End. Medos, frustrações, desespero, alegria, festas e algumas dicas para se preparar para o mercado de trabalho.&lt;/p&gt;
@@ -1135,7 +1308,7 @@
     <link href="http://woliveiras.com.br/posts/corrigindo-permissoes-de-usuario-linux-npm/"/>
     <id>http://woliveiras.com.br/posts/corrigindo-permissoes-de-usuario-linux-npm/</id>
     <published>2015-09-12T13:00:00.000Z</published>
-    <updated>2016-05-14T23:41:05.081Z</updated>
+    <updated>2016-05-22T14:05:51.150Z</updated>
     
     <content type="html">&lt;div class=&quot;shared-img&quot;&gt;&lt;br&gt;&lt;img src=&quot;../../public/images/npm.svg&quot; alt=&quot;&quot;&gt;&lt;br&gt;&lt;/div&gt;
 
@@ -1178,7 +1351,7 @@
     <link href="http://woliveiras.com.br/posts/utilizando-versoes-antigas-do-nodejs/"/>
     <id>http://woliveiras.com.br/posts/utilizando-versoes-antigas-do-nodejs/</id>
     <published>2015-09-12T08:00:32.000Z</published>
-    <updated>2016-05-14T23:41:05.081Z</updated>
+    <updated>2016-05-22T14:05:51.154Z</updated>
     
     <content type="html">&lt;div class=&quot;shared-img&quot;&gt;&lt;br&gt;&lt;img src=&quot;../..//public/images/nodejs.png&quot; alt=&quot;&quot;&gt;&lt;br&gt;&lt;/div&gt;
 
@@ -1263,7 +1436,7 @@
     <link href="http://woliveiras.com.br/posts/twitter-bootstrap-bootstrap-do-jeito-certo/"/>
     <id>http://woliveiras.com.br/posts/twitter-bootstrap-bootstrap-do-jeito-certo/</id>
     <published>2015-09-09T01:00:00.000Z</published>
-    <updated>2016-05-14T23:41:05.081Z</updated>
+    <updated>2016-05-22T14:05:51.150Z</updated>
     
     <content type="html">&lt;p&gt;Muita gente critica o uso do &lt;a href=&quot;http://getbootstrap.com/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Twitter Bootstrap&lt;/a&gt; devido a nomenclatura de suas classes e aos muitos componentes que o framework possui.&lt;/p&gt;
 &lt;p&gt;Dizem que as classes não são semanticas e que o peso do framework é desnecessário.&lt;/p&gt;
@@ -1346,7 +1519,7 @@
     <link href="http://woliveiras.com.br/posts/Migrando-de-Wordpress-para-Hexo/"/>
     <id>http://woliveiras.com.br/posts/Migrando-de-Wordpress-para-Hexo/</id>
     <published>2015-08-05T02:53:41.000Z</published>
-    <updated>2016-05-14T23:41:05.077Z</updated>
+    <updated>2016-05-22T14:05:51.150Z</updated>
     
     <content type="html">&lt;p&gt;&lt;div class=&quot;shared-img&quot;&gt;&lt;br&gt;&lt;img src=&quot;../../public/images/hexo-logo.png&quot; alt=&quot;Hexo Blog&quot;&gt;&lt;br&gt;&lt;/div&gt;A um bom tempo sinto vontade de mudar meu Blog de WordPress para uma plataforma de  conteúdo estático, mas não achava nenhuma alternativa, pois que queria usar Nodejs. Por isso não fui para o, muito usado na comunidade, &lt;a href=&quot;http://jekyllrb.com/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Jekyll(Ruby)&lt;/a&gt; , nem para o &lt;a href=&quot;http://blog.getpelican.com/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Pelican(Python &amp;lt;3)&lt;/a&gt;.&lt;a id=&quot;more&quot;&gt;&lt;/a&gt;&lt;br&gt;Em busca de uma alternativa encontrei o &lt;a href=&quot;https://hexo.io&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Hexo&lt;/a&gt; e, um pouco depois de eu conhecer essa plataforma, o &lt;a href=&quot;http://blog.da2k.com.br/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Daciuk&lt;/a&gt; escreveu um &lt;a href=&quot;http://blog.da2k.com.br/2014/01/05/hexo-criando-um-blog-ao-estilo-miojo/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;post&lt;/a&gt; muito maneiro incentivando o seu uso. Foi então que eu decidi de vez usar essa plataforma!&lt;br&gt;Bora conhecer ela e como foi a migração de WordPress para Hexo?&lt;/p&gt;
 &lt;p&gt;###Levantando as necessidades&lt;/p&gt;
@@ -1401,7 +1574,7 @@
     <link href="http://woliveiras.com.br/posts/frameworks-front-end/"/>
     <id>http://woliveiras.com.br/posts/frameworks-front-end/</id>
     <published>2015-03-05T00:18:46.000Z</published>
-    <updated>2016-05-14T23:41:05.081Z</updated>
+    <updated>2016-05-22T14:05:51.150Z</updated>
     
     <content type="html">&lt;p&gt;Já parou pra pensar quantas vezes você repete o mesmo código durante o Desenvolvimento, seja Web, Mobile ou Desktop? Já pensou em padronizar o que você faz de alguma maneira?&lt;br&gt;E pra você que é Gerente de Projetos, Líder ou algo do tipo: Já pensou em poder adicionar um membro no seu grupo  e ele já saber como funciona o Desenvolvimento nessa equipe e conseguir ser produtivo desde o princípio?&lt;br&gt;Pois é, Frameworks servem para isso… Vem comigo que vou explicar melhor. ;)&lt;a id=&quot;more&quot;&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;h2 id=&quot;O-que-sao-Frameworks&quot;&gt;&lt;a href=&quot;#O-que-sao-Frameworks&quot; class=&quot;headerlink&quot; title=&quot;O que são Frameworks?&quot;&gt;&lt;/a&gt;O que são Frameworks?&lt;/h2&gt;&lt;p&gt;Você pega aqueles códigos que se repetem entre os projetos, adiciona uma pitada de &lt;a href=&quot;http://pt.wikipedia.org/wiki/Padr%C3%A3o_de_projeto_de_software&quot; title=&quot;Wikipedia - Padrões de Projetos&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Padrões&lt;/a&gt;, deixa conforme sua equipe precisa ou &lt;a href=&quot;http://tableless.com.br/locaweb-style-como-iniciamos/&quot; title=&quot;Locaweb Style - Framework Front End da Locaweb&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;conforme sua empresa trabalha&lt;/a&gt;, empacota tudo isso pra poder reutilizar depois e pronto, criou um Framework!&lt;br&gt;Só isso? Sim, só isso… Framework é uma ferramenta com os códigos, padrões, etc, que você consegue utilizar pra resolver problemas que se repetem ou mesmo pra iniciar projetos que vão possuir as mesmas características seja no Front, Back End ou mesmo para &lt;a href=&quot;https://github.com/woliveiras/pastel&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Tooling(Ferramentas)&lt;/a&gt;. Quando você utiliza um Framework como base, pode somente baixar ele, configurar ou instalar e seguir dali para as necessidades específicas de cada projeto. Isso mata muito tempo que você perderia fazendo algo que sabe que vai repetir no próximo trabalho.&lt;/p&gt;
@@ -1451,7 +1624,7 @@
     <link href="http://woliveiras.com.br/posts/contribuindo-para-projetos-open-source-no-github-mesmo-sendo-iniciante/"/>
     <id>http://woliveiras.com.br/posts/contribuindo-para-projetos-open-source-no-github-mesmo-sendo-iniciante/</id>
     <published>2015-02-09T14:12:32.000Z</published>
-    <updated>2016-05-14T23:41:05.081Z</updated>
+    <updated>2016-05-22T14:05:51.150Z</updated>
     
     <content type="html">&lt;div class=&quot;shared-img&quot;&gt;&lt;br&gt;&lt;img src=&quot;../../public/images/github.gif&quot; alt=&quot;&quot;&gt;&lt;br&gt;&lt;/div&gt;
 
@@ -1487,59 +1660,6 @@
       <category term="Github" scheme="http://woliveiras.com.br/tags/Github/"/>
     
       <category term="Comunidade" scheme="http://woliveiras.com.br/tags/Comunidade/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Haroopad um editor Markdown maneiro!</title>
-    <link href="http://woliveiras.com.br/posts/haroopad-um-editor-markdown-maneiro/"/>
-    <id>http://woliveiras.com.br/posts/haroopad-um-editor-markdown-maneiro/</id>
-    <published>2015-02-09T12:53:56.000Z</published>
-    <updated>2016-05-14T23:41:05.081Z</updated>
-    
-    <content type="html">&lt;div class=&quot;shared-img&quot;&gt;&lt;br&gt;&lt;img src=&quot;../..//public/images/Haroopad.png&quot; alt=&quot;&quot;&gt;&lt;br&gt;&lt;/div&gt;
-
-&lt;p&gt;Todo mundo que trabalha usando &lt;a href=&quot;http://blog.da2k.com.br/2015/02/08/aprenda-markdown/&quot; title=&quot;Aprenda Markdown&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Markdown&lt;/a&gt; ou usa a linguagem somente para descrever seus repositórios no Github gosta de ter aquele preview maneiro que o &lt;a href=&quot;http://25.io/mou/&quot; title=&quot;Mou&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Mou&lt;/a&gt; apresenta né? Pois é, mas o Mou não funciona em outras plataformas a não ser Apple. :( &lt;strong&gt;#chateado&lt;/strong&gt;&lt;/p&gt;
-&lt;a id=&quot;more&quot;&gt;&lt;/a&gt;
-&lt;h2 id=&quot;Conheca-o-Haroopad&quot;&gt;&lt;a href=&quot;#Conheca-o-Haroopad&quot; class=&quot;headerlink&quot; title=&quot;Conheça o Haroopad!&quot;&gt;&lt;/a&gt;Conheça o Haroopad!&lt;/h2&gt;&lt;p&gt;Para suprir a necessidade daquele preview show eu andei pesquisando e venho utilizando o &lt;a href=&quot;http://pad.haroopress.com/user.html&quot; title=&quot;Haroopress&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Haroopad&lt;/a&gt; a uns 4 meses. É uma ferramenta muito maneira e atende bem as necessidades. Da uma olhada nesse print:&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;../../public/images/haroopad.gif&quot; alt=&quot;Haroopad&quot;&gt;&lt;/p&gt;
-&lt;h2 id=&quot;Instalacao&quot;&gt;&lt;a href=&quot;#Instalacao&quot; class=&quot;headerlink&quot; title=&quot;Instalação&quot;&gt;&lt;/a&gt;Instalação&lt;/h2&gt;&lt;p&gt;A instalação é bem simples, baixa acessar o site do &lt;a href=&quot;http://pad.haroopress.com/user.html&quot; title=&quot;Haroopress&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Haroopad&lt;/a&gt; e escolher seu sistema operacional.&lt;/p&gt;
-&lt;h2 id=&quot;Algumas-qualidades-do-Editor&quot;&gt;&lt;a href=&quot;#Algumas-qualidades-do-Editor&quot; class=&quot;headerlink&quot; title=&quot;Algumas qualidades do Editor&quot;&gt;&lt;/a&gt;Algumas qualidades do Editor&lt;/h2&gt;&lt;p&gt;O modo Full Screen é básico em todos os editores, então nem vou comentar… ;P&lt;/p&gt;
-&lt;h3 id=&quot;Syntax-Help&quot;&gt;&lt;a href=&quot;#Syntax-Help&quot; class=&quot;headerlink&quot; title=&quot;Syntax Help&quot;&gt;&lt;/a&gt;Syntax Help&lt;/h3&gt;&lt;p&gt;O principal é o Syntax Help. Você ativa clicando no botão de configurações e ele aparece na lateral. Isso ajuda muito a lembrar as Tags!&lt;/p&gt;
-&lt;p&gt;Ativando&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;../../public/images/Syntax-Help-Haroopad.gif&quot; alt=&quot;Ativando o Syntax Help&quot;&gt;&lt;/p&gt;
-&lt;p&gt;A lateral com ajuda&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;../../public/images/image24.gif&quot; alt=&quot;Help&quot;&gt;&lt;/p&gt;
-&lt;h3 id=&quot;Modos-de-visualizacao&quot;&gt;&lt;a href=&quot;#Modos-de-visualizacao&quot; class=&quot;headerlink&quot; title=&quot;Modos de visualização&quot;&gt;&lt;/a&gt;Modos de visualização&lt;/h3&gt;&lt;p&gt;Clicando em &lt;strong&gt;View&lt;/strong&gt;, será apresentado um menu com algumas opções de visualização como modo somente editor e modo somente visualização.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;../../public/images/image26.gif&quot; alt=&quot;Modos de visualização&quot;&gt;&lt;/p&gt;
-&lt;p&gt;Ainda em &lt;strong&gt;View,&lt;/strong&gt; da para colocar os números das linhas clicando em &lt;strong&gt;Toogle Line Number&lt;/strong&gt;.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;../../public/images/image27.gif&quot; alt=&quot;Line Number&quot;&gt;&lt;/p&gt;
-&lt;h3 id=&quot;Modo-de-apresentacao&quot;&gt;&lt;a href=&quot;#Modo-de-apresentacao&quot; class=&quot;headerlink&quot; title=&quot;Modo de apresentação&quot;&gt;&lt;/a&gt;Modo de apresentação&lt;/h3&gt;&lt;p&gt;O modo de apresentação dele é bem maneiro e para ativar é no mesmo esquema: &lt;strong&gt;View -&amp;gt; Presentation Mode&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;../../public/images/image28.gif&quot; alt=&quot;Presentation Mode&quot;&gt;&lt;/p&gt;
-&lt;h3 id=&quot;As-opcoes-de-insert&quot;&gt;&lt;a href=&quot;#As-opcoes-de-insert&quot; class=&quot;headerlink&quot; title=&quot;As opções de insert&quot;&gt;&lt;/a&gt;As opções de insert&lt;/h3&gt;&lt;p&gt;Caso você esqueça algum esquema da Linguagem, você pode utilizar também o menu &lt;strong&gt;Insert&lt;/strong&gt; para inserir as tags lá. (&lt;strong&gt;Facin&lt;/strong&gt;)&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;../../public/images/image29.gif&quot; alt=&quot;Insert&quot;&gt;&lt;/p&gt;
-&lt;p&gt;Eu curti bastante esse editor e venho utilizando ele. Se você tiver alguma dica, comenta ae! :D&lt;/p&gt;
-&lt;p&gt;&amp;nbsp;&lt;/p&gt;
-</content>
-    
-    <summary type="html">
-    
-      Editor visual para Markdown. Escrevendo Markdown como no Word.
-    
-    </summary>
-    
-      <category term="Ambiente" scheme="http://woliveiras.com.br/categories/Ambiente/"/>
-    
-      <category term="Dicas" scheme="http://woliveiras.com.br/categories/Ambiente/Dicas/"/>
-    
-    
-      <category term="Dicas" scheme="http://woliveiras.com.br/tags/Dicas/"/>
-    
-      <category term="Ambiente" scheme="http://woliveiras.com.br/tags/Ambiente/"/>
-    
-      <category term="Front End" scheme="http://woliveiras.com.br/tags/Front-End/"/>
-    
-      <category term="Markdown" scheme="http://woliveiras.com.br/tags/Markdown/"/>
     
   </entry>
   

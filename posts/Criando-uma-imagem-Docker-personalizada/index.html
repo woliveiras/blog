@@ -13,7 +13,7 @@
 <meta property="og:url" content="http://woliveiras.com.br/posts/Criando-uma-imagem-Docker-personalizada/index.html">
 <meta property="og:site_name" content="William Oliveira">
 <meta property="og:description" content="Criando uma imagem Docker personalizada e conhecendo o Dockerfile.">
-<meta property="og:updated_time" content="2016-05-14T23:41:05.077Z">
+<meta property="og:updated_time" content="2016-05-22T14:05:51.150Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="Criando uma imagem Docker personalizada">
 <meta name="twitter:description" content="Criando uma imagem Docker personalizada e conhecendo o Dockerfile.">
@@ -125,7 +125,7 @@
 <h2 id="Dockerfile"><a href="#Dockerfile" class="headerlink" title="Dockerfile"></a>Dockerfile</h2><p>Já vimos que podemos utilizar a linha de <a href="/posts/comandos-mais-utilizados-no-docker">comando para inicializar um Docker container</a> com um parâmetro que é o comando a ser executado direto no container para inicializar algum serviço, trazer alguma informação sobre o container em execução, etc.</p>
 <p>Ex.:</p>
 <p>Executando um container do <a href="https://www.nginx.com/" target="_blank" rel="external">NGINX</a> com o comando para startar o Web Server:</p>
-<figure class="highlight stata"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">docker <span class="keyword">run</span> -<span class="keyword">d</span> -p 8080:80 nginx /usr/sbin/nginx -<span class="keyword">g</span> <span class="string">"daemon off;"</span></span><br></pre></td></tr></table></figure>
+<figure class="highlight stylus"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">docker run -d -<span class="selector-tag">p</span> <span class="number">8080</span>:<span class="number">80</span> nginx /usr/sbin/nginx -g <span class="string">"daemon off;"</span></span><br></pre></td></tr></table></figure>
 <p>Com esse comando vamos criar o container com a imagem do <code>nginx</code> passando os parâmetros para inicializar o servidor e listar a porta 80 do container na 8080 do nosso host.</p>
 <p>Agora, imagine utilizar essa linha inteira para esse serviço e/ou outros mais que possam ser executados como um MySQL, Redis, MongoDB, etc.</p>
 <p>Isso pode é bem pouco produtivo.</p>
@@ -170,7 +170,7 @@
 <figure class="highlight dockerfile"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">EXPOSE</span> <span class="number">8080</span></span><br></pre></td></tr></table></figure>
 <p>Aqui é bem simples, ele vai expor a porta <code>8080</code>.</p>
 <p>Para saber qual porta o host está utilizando como ponte para acesso a porta do container, podemos procurar com o comando:</p>
-<figure class="highlight elm"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="title">docker</span> <span class="keyword">port</span> id_ou_apelido_do_container</span><br></pre></td></tr></table></figure>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">docker port id_ou_apelido_<span class="keyword">do</span>_container</span><br></pre></td></tr></table></figure>
 <p>Ou usar um:</p>
 <figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">docker inspect id_ou_apelido_<span class="keyword">do</span>_container</span><br></pre></td></tr></table></figure>
 <p>Na <a href="https://docs.docker.com/engine/reference/builder/" target="_blank" rel="external">documentação oficial do Docker</a> você encontrará outras informações legais sobre os comandos que podem ser executados no Dockerfile.</p>

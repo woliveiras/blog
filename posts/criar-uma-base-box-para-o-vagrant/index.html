@@ -17,7 +17,7 @@
 <meta property="og:image" content="http://woliveiras.com.br/../../public/images/rede-virtualbox-vagrant.png">
 <meta property="og:image" content="http://woliveiras.com.br/../../public/images/guest-additions-vagrant.png">
 <meta property="og:image" content="http://woliveiras.com.br/../../public/images/nome-base-box-vagrant.png">
-<meta property="og:updated_time" content="2016-05-14T23:41:05.081Z">
+<meta property="og:updated_time" content="2016-05-22T14:05:51.150Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="Criar uma base box para o Vagrant">
 <meta name="twitter:description" content="Como criar uma base box para Vagrant com minhas configurações?">
@@ -142,7 +142,7 @@
 <p>Adicione o usuário Vagrant ao grupo sudoers</p>
 <figure class="highlight elixir"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="variable">$ </span>sudo su -</span><br><span class="line"></span><br><span class="line"><span class="variable">$ </span>visudo</span><br></pre></td></tr></table></figure>
 <p>Vai abrir um arquivo no Terminal, no final do arquivo, adicione a seguinte linha:</p>
-<figure class="highlight apache"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="attribute">vagrant</span> <span class="literal">ALL</span>=(<span class="literal">ALL</span>)  NOPASSWD:<span class="literal">ALL</span></span><br></pre></td></tr></table></figure>
+<figure class="highlight ada"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">vagrant <span class="keyword">ALL</span>=(<span class="keyword">ALL</span>)  NOPASSWD:<span class="keyword">ALL</span></span><br></pre></td></tr></table></figure>
 <p>Instalando uma chave pública</p>
 <figure class="highlight elixir"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><span class="line"><span class="variable">$ </span>mkdir -p /home/vagrant/.ssh</span><br><span class="line"></span><br><span class="line"><span class="variable">$ </span>wget --no-check-certificate <span class="symbol">https:</span>/<span class="regexp">/raw.github.com/mitchellh</span><span class="regexp">/vagrant/master</span><span class="regexp">/keys/vagrant</span>.pub -O /home/vagrant/.ssh/authorized_keys</span><br><span class="line"></span><br><span class="line"><span class="variable">$ </span>chmod <span class="number">0700</span> /home/vagrant/.ssh</span><br><span class="line"></span><br><span class="line"><span class="variable">$ </span>chmod <span class="number">0600</span> /home/vagrant/.ssh/authorized_keys</span><br><span class="line"></span><br><span class="line"><span class="variable">$ </span>chown -R vagrant  /home/vagrant/.ssh</span><br></pre></td></tr></table></figure>
 <p>Instalar e configurar o Servidor OpenSSH</p>
@@ -154,14 +154,14 @@
 <p>Desligue a máquina virtual.</p>
 <p>Elimine tudo o que sua máquina não irá precisar - Audio, USB, etc. Deixe somente o necessário.</p>
 <p>Agora é só gerar o Box com os comandos:</p>
-<figure class="highlight cs"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ vagrant package –-<span class="keyword">base</span> [Aqui vai o nome da sua máquina <span class="keyword">virtual</span> no VBox]</span><br></pre></td></tr></table></figure>
+<figure class="highlight ada"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ vagrant <span class="keyword">package</span> <span class="title">–-base [Aqui vai o nome da sua máquina virtual no VBox]</span></span><br></pre></td></tr></table></figure>
 <p>Ex.:</p>
 <p>Máquina Virtual:</p>
 <p><img src="../../public/images/nome-base-box-vagrant.png" alt="Nome da VM"></p>
 <p>Comando para exportar:</p>
-<figure class="highlight actionscript"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ vagrant <span class="class"><span class="keyword">package</span> –-<span class="title">base</span> <span class="title">ubuntinho</span></span></span><br></pre></td></tr></table></figure>
+<figure class="highlight ada"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ vagrant <span class="keyword">package</span> <span class="title">–-base ubuntinho</span></span><br></pre></td></tr></table></figure>
 <p>Então execute no seu próprio computador/servidor:</p>
-<figure class="highlight actionscript"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ vagrant <span class="class"><span class="keyword">package</span> –-<span class="title">base</span> <span class="title">ubuntinho</span></span></span><br></pre></td></tr></table></figure>
+<figure class="highlight ada"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ vagrant <span class="keyword">package</span> <span class="title">–-base ubuntinho</span></span><br></pre></td></tr></table></figure>
 <p>Será criado um arquivo package.box no diretório onde você rodou o comando - Ex: Se no seu terminal está assim: usuario@host:/home, o arquivo será gerado na pasta home, se for no Windows e estiver assim: C:\Users\Seu Usuário, será criado na pasta do seu usuário.</p>
 <p><strong>Agora uma dica bonus! </strong></p>
 <p>O Luís Henrique do Grupo <a href="https://www.facebook.com/groups/WebDesignBR/" title="Grupo Web Design Brasil" target="_blank" rel="external">Web Design Brasil</a> no Facebook, me apresentou uma outra facilidade para configuração da box no Vagrant, o <a href="https://puphpet.com/" title="PuPHPet" target="_blank" rel="external">PuPHPet</a>, um site onde você vai escolhendo as configurações que você deseja para seu servidor e ele gera um arquivo de configurações do Puppet pra você - Tudo no automático, olha que maravilha.<br>Tem, também, um outro que eu já uso que é o <a href="http://rove.io/" title="Rove.io" target="_blank" rel="external">Rove</a>, porém esse gera a configuração para o Chef.<br>Com esses arquivos de configuração em mãos, é só deixá-los na pasta do projeto onde você vai subir o ambiente e rodar o vagrant up. Pronto! Tudo no esquema pra você começar a desenvolver.</p>

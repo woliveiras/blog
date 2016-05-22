@@ -14,7 +14,7 @@
 <meta property="og:site_name" content="William Oliveira">
 <meta property="og:description" content="Uma rápida introdução ao Docker e instalação no Ubuntu para iniciantes. Dicas para não precisar de sudo ao executar o Docker e como iniciar o Docker junto com o Sistema Operacional.">
 <meta property="og:image" content="http://woliveiras.com.br/../../public/images/docker.png">
-<meta property="og:updated_time" content="2016-05-14T23:41:05.081Z">
+<meta property="og:updated_time" content="2016-05-22T14:05:51.154Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="Uma rápida introdução ao Docker e instalação no Ubuntu">
 <meta name="twitter:description" content="Uma rápida introdução ao Docker e instalação no Ubuntu para iniciantes. Dicas para não precisar de sudo ao executar o Docker e como iniciar o Docker junto com o Sistema Operacional.">
@@ -151,7 +151,7 @@
 <p>E adicione a GPG Key - se você não sabe o que é uma GPG, <a href="https://pt.wikipedia.org/wiki/GNU_Privacy_Guard" target="_blank" rel="external">clique aqui</a>:</p>
 <figure class="highlight brainfuck"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">sudo</span> <span class="comment">apt</span><span class="literal">-</span><span class="comment">key</span> <span class="comment">adv</span> <span class="literal">-</span><span class="literal">-</span><span class="comment">keyserver</span> <span class="comment">hkp://p80</span><span class="string">.</span><span class="comment">pool</span><span class="string">.</span><span class="comment">sks</span><span class="literal">-</span><span class="comment">keyservers</span><span class="string">.</span><span class="comment">net:80</span> <span class="literal">-</span><span class="literal">-</span><span class="comment">recv</span><span class="literal">-</span><span class="comment">keys</span> <span class="comment">58118E89F3A912897C070ADBF76221572C52609D</span></span><br></pre></td></tr></table></figure>
 <p>Abra o arquivo <code>/etc/apt/sources.list.d/docker.list</code> ou, caso o mesmo não exista, crie ele com o comando:</p>
-<figure class="highlight stata"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">sudo vi /etc/apt/sources.<span class="keyword">list</span>.<span class="keyword">d</span>/docker.<span class="keyword">list</span></span><br></pre></td></tr></table></figure>
+<figure class="highlight stylus"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">sudo vi /etc/apt/sources<span class="selector-class">.list</span><span class="selector-class">.d</span>/docker.list</span><br></pre></td></tr></table></figure>
 <p>Você pode usar o <code>gedit</code> no lugar do VI se preferir.</p>
 <p>Apague o conteúdo desse arquivo.</p>
 <p>Supondo que você esteja utilizando a versão 14.04 (LTS) do Ubuntu, cole o seguinte conteúdo:</p>
