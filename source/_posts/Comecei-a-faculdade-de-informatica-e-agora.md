@@ -1,4 +1,4 @@
-title: 'Comecei a faculdade, e agora José?'
+title: 'Comecei a faculdade de Informática, e agora José?'
 date: 2016-05-29 23:19:11
 tags:
 description: Faculdade é importante para o Desenvolvedor de Software? Faculdade faz diferença no mercado de trabalho? Fazer ou não fazer Faculdade?
