@@ -22,7 +22,7 @@ Eu, de verdade, não acho que uma faculdade seja motivo pra se achar o cara mais
 
 *[preconceito_mode=off]*
 
-Sem possuir um diploma universitário eu entrei em [bons empregos](https://br.linkedin.com/in/woliveira542) e, posteriormente, na [ára que eu queria e gosto de atuar](/posts/um-ano-como-desenvolvedor-front-end/), [aprendi a contribuir](/posts/contribuindo-para-projetos-open-source-no-github-mesmo-sendo-iniciante/) e [contribuo em projetos Open Source](http://github.com/woliveiras), dentre diversas outras conquistas diárias.
+Sem possuir um diploma universitário eu entrei em [bons empregos](https://br.linkedin.com/in/woliveira542) e, posteriormente, na [área que eu queria e gosto de atuar](/posts/um-ano-como-desenvolvedor-front-end/), [aprendi a contribuir](/posts/contribuindo-para-projetos-open-source-no-github-mesmo-sendo-iniciante/) e [contribuo em projetos Open Source](http://github.com/woliveiras), dentre diversas outras conquistas diárias.
 
 ## O conteúdo que algumas Faculdades transmitem é desanimador
 
@@ -51,7 +51,7 @@ Acontece que algumas pessoas autodidatas acabam não possuindo um bom nível de 
 
 ## Trabalho no exterior
 
-Observando algumas discussões nos foruns sobre Desenvolvimento eu percebo que a galera diz que o inglês é *default* para arrumar um emprego no exterior, então só o inglês (principalmente o meu que é bem fraco) não vai ajudar tanto numa entrevista pra fora.
+Observando algumas discussões nos foruns sobre Desenvolvimento eu percebo que a galera diz que o inglês é *default* para arrumar um emprego no exterior, então só o inglês não vai ajudar tanto numa entrevista pra fora.
 
 Podemos ver em alguns  [comentários](https://github.com/frontendbr/forum/issues/56) que a faculdade ajuda no tipo do visto e isso é um plus na sua contratação caso você se candidate par uma vaga fora do país.
 
