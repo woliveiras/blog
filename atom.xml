@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://woliveiras.com.br/"/>
-  <updated>2016-06-05T11:08:37.865Z</updated>
+  <updated>2016-06-05T16:45:02.354Z</updated>
   <id>http://woliveiras.com.br/</id>
   
   <author>
@@ -16,11 +16,71 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>Mudança de ares FEMUG-ABC</title>
+    <link href="http://woliveiras.com.br/posts/novos-ares-para-o-femug-abc/"/>
+    <id>http://woliveiras.com.br/posts/novos-ares-para-o-femug-abc/</id>
+    <published>2016-06-05T14:00:00.000Z</published>
+    <updated>2016-06-05T16:45:02.354Z</updated>
+    
+    <content type="html">&lt;p&gt;Eu &lt;strong&gt;nunca fui em um evento de Desenvolvedores Front End&lt;/strong&gt;, antes de 2015.&lt;/p&gt;
+&lt;p&gt;Moro em uma região bem ruim de se locomover de ônibus. Pra eu ir pra São Paulo, em um evento legal como o SampaJS, eu demoraria de 2:30 a 3 horas de rolê. Isso em um dia sem chuva, pois nesses dias demora entre 3:30 a 4 horas. Coisa linda né? &lt;a id=&quot;more&quot;&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;Quase deixo escapar um comentário de raiva contra nossos queridos políticos agora.&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;Eu só comecei a ir em eventos de Desenvolvimento Front End em SP quando eu comprei uma Motoca e mesmo assim, somente em 2016, pois comecei a trabalhar em SP e ficava mais fácil ir para os eventos e voltar pra casa.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://s33.postimg.org/snax2z667/motoca.jpg&quot; alt=&quot;Minha motoca&quot;&gt;&lt;/p&gt;
+&lt;p&gt;Apesar de eu curtir muuuuuiiiito eventos e comunidades eu também adoro curtir minha saúde e um bom período de descanso.&lt;/p&gt;
+&lt;h2 id=&quot;A-necessidade-gera-iniciativas&quot;&gt;&lt;a href=&quot;#A-necessidade-gera-iniciativas&quot; class=&quot;headerlink&quot; title=&quot;A necessidade gera iniciativas&quot;&gt;&lt;/a&gt;A necessidade gera iniciativas&lt;/h2&gt;&lt;p&gt;Eu sentia muita falta de eventos de Front End aqui no Grande ABC. Eventos em geral mesmo, não somente encontros presenciais.&lt;/p&gt;
+&lt;p&gt;Na nossa região existem muitos bons devs escondidos e muitos outros querendo contribuir com eventos e com a comunidade, mas é bem complicado isso acontecer, pois a maioria mora no ABC e trabalha em SP. Então colaboram por lá, em SP, mesmo.&lt;/p&gt;
+&lt;p&gt;Com o intúito de começar algo legal no Grande ABC, a um ano atrás, em Maio, eu criei o ABCDFront (mas que nome bos…):&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://s33.postimg.org/4hbnr6agv/Screenshot_from_2016_05_28_08_34_09.png&quot; alt=&quot;ABCDFront&quot;&gt;&lt;/p&gt;
+&lt;p&gt;Confesso que eu nunca fui muito bom em dar nomes as coisas. Já tive um cachorro chamado Pau de Fumo e meu projetinho mais legal se chama &lt;a href=&quot;https://github.com/woliveiras/kibe&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Kibe&lt;/a&gt;, então pensa no que pior poderia ter vindo.&lt;/p&gt;
+&lt;p&gt;Mais pra frente mudei o nome do Grupo para &lt;a href=&quot;https://github.com/front-abc&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Front-ABC&lt;/a&gt;, pra ficar mais chique.&lt;/p&gt;
+&lt;p&gt;Desde que criei o Grupo, abri uma espécie de Call4Papers para fazer alguma reunião para começar a esquentar o grupo e os debates sobre tecnologia ou palestras começacem a pegar na região.&lt;/p&gt;
+&lt;p&gt;Recebi, logo de cara, milhares de pessoas querendo contribuir:&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;http://s33.postimg.org/aylp9wxkv/Screenshot_from_2016_06_05_12_42_09.png&quot; alt=&quot;Milhares de pessoas querendo palestrar&quot;&gt;&lt;/p&gt;
+&lt;p&gt;Esses caras estão no grupo até hoje e colaboram muito! &lt;/p&gt;
+&lt;p&gt;Sem essas pessoas, a nossa comunidade (&lt;a href=&quot;https://github.com/abc-dev&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;ABC-Dev&lt;/a&gt;) não teria nascido.&lt;/p&gt;
+&lt;p&gt;No dia 15 de Julho, fizemos nosso &lt;a href=&quot;http://www.meetup.com/pt-BR/femug-abc/events/223452463/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;primeiro encontro&lt;/a&gt;, como Front-ABC, em um Starbucks, no Shopping ABC em Santo André.&lt;/p&gt;
+&lt;p&gt;Nesse econtro compareceram o Felipe Uliana, na época meu colega de serviço, o Mario Leme, o &lt;a href=&quot;https://twitter.com/danvitoriano&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Danilo Vitoriano&lt;/a&gt; com o Gabriel Oziecki,  o &lt;a href=&quot;https://twitter.com/marquinhusgonc&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Marquinhhus&lt;/a&gt; (aquele que queria colaborar, mesmo sendo iniciante) e o Marcio Hiroyuki Miyamoto, deve ter mais algum que eu não me recordo e que deve ter ficado mais calado, por isso não lembro.&lt;/p&gt;
+&lt;p&gt;Nesse econtro o Danilo e o Marquinhos, natos frequentadores de eventos, indicaram pra que começássemos um &lt;a href=&quot;https://github.com/femug/femug&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;FEMUG&lt;/a&gt; na nossa região. Eu nem sabia que era fácil assim começar um FEMUG. Tipo, só precisa ter gente disposta a ajudar e compartilhar conhecimento. Coisa linda de se fazer.&lt;/p&gt;
+&lt;p&gt;Então foi! Mudei o nome do Grupo para FEMUG-ABC, &lt;a href=&quot;https://github.com/femug/femug/commit/c1d74ab3d0c90e235dd13f6c8e757363ee727513&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;enviei o PR&lt;/a&gt; para o repositório do FEMUG e já demos início a nossa contribuição para a região!&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;Perceba: &lt;strong&gt;…demos início&lt;/strong&gt; &lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;E logo depois veio a &lt;a href=&quot;http://www.meetup.com/pt-BR/femug-abc/events/222745657/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;primeira palestra&lt;/a&gt; como FEMUG-ABC, com o &lt;a href=&quot;https://twitter.com/ubirajarapelli&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Ubirajara Pelli&lt;/a&gt;, sobre &lt;a href=&quot;http://femug-abc.github.io/femug-1-acessibilidade&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Acessibilidade&lt;/a&gt; na Omega Systems com o coffee patrocinado pelo &lt;a href=&quot;http://www.fullcircle.com.br/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Danilo&lt;/a&gt; e com direito a brindes da &lt;a href=&quot;https://www.caelum.com.br/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Caelum&lt;/a&gt; e cupom de desconto para o curso do &lt;a href=&quot;http://blog.da2k.com.br/cursos/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Fernando Daciuk&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Depois disso, a maioria dos eventos foi na sede da Midia Performa, pelo apoio do &lt;a href=&quot;https://twitter.com/Ramirodss&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Ramiro Silva&lt;/a&gt;, que se dispos a nos ajudar com o espaço super profissional e vem colaborando, também, até hoje.&lt;/p&gt;
+&lt;h2 id=&quot;A-comunidade-e-que-tem-o-poder&quot;&gt;&lt;a href=&quot;#A-comunidade-e-que-tem-o-poder&quot; class=&quot;headerlink&quot; title=&quot;A comunidade é que tem o poder&quot;&gt;&lt;/a&gt;A comunidade é que tem o poder&lt;/h2&gt;&lt;p&gt;Tudo isso foi muito bom e logo em seguida foram rolando vários eventos do FEMUG, inclusive rolou um &lt;a href=&quot;https://github.com/front-abc/hackathon&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Hackathon&lt;/a&gt; &lt;strong&gt;na casa&lt;/strong&gt; da &lt;a href=&quot;https://twitter.com/akfzambrana&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Andréa Zambrana&lt;/a&gt;, &lt;a href=&quot;http://www.meetup.com/pt-BR/femug-abc/events/225254505/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Dojo online&lt;/a&gt; e &lt;a href=&quot;http://www.eventick.com.br/workshop-sass-me&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;muito mais&lt;/a&gt;!&lt;/p&gt;
+&lt;p&gt;Você percebe uma coisa nessa trajetória?&lt;/p&gt;
+&lt;p&gt;Depois que eu comecei o Grupo veio surgindo mais e mais gente com mais iniciativas e o negócio não parou mais!&lt;/p&gt;
+&lt;p&gt;Hoje em dia o grupo é altamente auto sustentável. Eles não precisam de um “líder” para gerenciar nada. Todos dão bronca quando veem algo errado, todos buscam locais para fazermos os encontros, todos estão aqui pra ajudar no coffee break e todos se ajudam como bons amigos. - Rola até umas baladas em grupo.&lt;/p&gt;
+&lt;p&gt;Isso é tão bom que eu me sinto bem em falar que: Se não fosse por cada um desse grupo não aconteceria nada do que já fizemos e ainda vamos fazer.&lt;/p&gt;
+&lt;p&gt;Todos estão no meu &lt;strong&gt;s2&lt;/strong&gt;!&lt;/p&gt;
+&lt;p&gt;Porém precisamos de um líder para que ele ajude a centralizar as responsabilidades e tomadas de decisão.&lt;/p&gt;
+&lt;h2 id=&quot;Mudancas-sao-sempre-bom&quot;&gt;&lt;a href=&quot;#Mudancas-sao-sempre-bom&quot; class=&quot;headerlink&quot; title=&quot;Mudanças são sempre bom&quot;&gt;&lt;/a&gt;Mudanças são sempre bom&lt;/h2&gt;&lt;p&gt;Mudanças são coisa boa. Foi graças a minha mudança de &lt;a href=&quot;https://woliveiras.com.br/posts/um-ano-como-desenvolvedor-front-end/&quot;&gt;sair de Infraestrutura e ir para Desenvolvimento de Software&lt;/a&gt; que eu conheci essa galera sensacional.&lt;/p&gt;
+&lt;p&gt;Sinto que fiz minha parte.&lt;/p&gt;
+&lt;p&gt;Mas agora chegou a vez de outra pessoa assumir o papel de &lt;strong&gt;responsável&lt;/strong&gt; pelo FEMUG-ABC.&lt;/p&gt;
+&lt;p&gt;Ultimamente tenho ficado sem tempo por conta da Faculdade, emprego mais longe de casa e por &lt;a href=&quot;https://medium.com/@woliveiras/relatos-de-um-experimento-pessoal-sobre-a-ansiedade-dcad55611be4&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;outros fatores&lt;/a&gt; preciso diminuir a quantidade de responsabilidades. E todo mundo sabe que eu me envolvo em muitos projetos, pois sou apaixonado por &lt;a href=&quot;https://woliveiras.com.br/posts/contribuindo-para-projetos-open-source-no-github-mesmo-sendo-iniciante/&quot;&gt;Open Source&lt;/a&gt; e amo colaborar com o &lt;a href=&quot;https://github.com/woliveiras/front-end-career&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;desenvolvimento profissional&lt;/a&gt; das pessoas. Então preciso diminuir o ritmo, senão o motor pode fundir.&lt;/p&gt;
+&lt;p&gt;Eu não escolheria ninguém mais do que algum dos que sempre estiveram conosco desde os princípios e estivesse participando de forma ativa e com muita iniciativa pelo grupo. Portanto escolhi o mano &lt;strong&gt;Ubirajara Pelli&lt;/strong&gt; para o cargo.&lt;/p&gt;
+&lt;p&gt;Um dos primeiros a se candidatar para palestrar, um dos que são mais presentes em todos os encontros que rolaram até agora e já até conseguiu &lt;a href=&quot;http://www.meetup.com/pt-BR/femug-abc/events/230870633/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;espaço fixo&lt;/a&gt; para quando precisarmos!&lt;/p&gt;
+&lt;p&gt;Tenho certeza que vai vir muita coisa boa desse cara e o grupo vai continuar evoluindo.&lt;/p&gt;
+&lt;p&gt;Finalizo esse artigo com a frase de uma sábia contemporânea: “A comunidade são seus membros, sem ela o líder é não passa de um babaca tentando falar em voz alta”.&lt;/p&gt;
+&lt;p&gt;Vocês tem o poder!&lt;/p&gt;
+</content>
+    
+    <summary type="html">
+    
+      Uma mudança muito boa para o FEMUG-ABC.
+    
+    </summary>
+    
+    
+      <category term="comunidade" scheme="http://woliveiras.com.br/tags/comunidade/"/>
+    
+  </entry>
+  
+  <entry>
     <title>Comecei a faculdade de Informática, e agora José?</title>
     <link href="http://woliveiras.com.br/posts/Comecei-a-faculdade-de-informatica-e-agora/"/>
     <id>http://woliveiras.com.br/posts/Comecei-a-faculdade-de-informatica-e-agora/</id>
     <published>2016-05-30T02:19:11.000Z</published>
-    <updated>2016-06-05T11:08:37.865Z</updated>
+    <updated>2016-06-05T16:45:02.354Z</updated>
     
     <content type="html">&lt;div class=&quot;shared-img&quot;&gt;&lt;br&gt;    &lt;img src=&quot;https://s33.postimg.org/fputcjr1r/universidade_monstros_personagem_mike.jpg&quot; alt=&quot;Mike Universidade Monstro&quot;&gt;&lt;br&gt;&lt;/div&gt;
 
@@ -79,7 +139,7 @@
     <link href="http://woliveiras.com.br/posts/Comecando-com-o-editor-de-texto-VIM/"/>
     <id>http://woliveiras.com.br/posts/Comecando-com-o-editor-de-texto-VIM/</id>
     <published>2016-05-22T13:30:00.000Z</published>
-    <updated>2016-06-05T11:08:37.865Z</updated>
+    <updated>2016-06-05T16:45:02.354Z</updated>
     
     <content type="html">&lt;p&gt;A tarefa que um Desenvolvedor de Software precisa cumprir com a maior agilidade é a escrita/edição de texto. Depois de pensar por algumas horas, planejar o que vai fazer e como fazer (quais funções, métodos, classes criar), nós partimos para a escrita do código fonte no nosso editor de texto favorito ou em uma &lt;a href=&quot;https://pt.wikipedia.org/wiki/Ambiente_de_desenvolvimento_integrado&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;IDE&lt;/a&gt;.&lt;/p&gt;
 &lt;p&gt;Existem &lt;a href=&quot;http://pt.wikihow.com/Digitar-Mais-R%C3%A1pido&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;várias técnicas&lt;/a&gt; para você ficar fera no teclado, porém hoje vou apresentar outra forma de agilizar as coisas. Vou apresentar (pela minha perspectiva) o &lt;strong&gt;VIM&lt;/strong&gt;. &lt;a id=&quot;more&quot;&gt;&lt;/a&gt;&lt;/p&gt;
@@ -252,7 +312,7 @@
     <link href="http://woliveiras.com.br/posts/Aumente-sua-produtividade-e-da-sua-equipe-com-gamificacao/"/>
     <id>http://woliveiras.com.br/posts/Aumente-sua-produtividade-e-da-sua-equipe-com-gamificacao/</id>
     <published>2016-05-14T18:00:34.000Z</published>
-    <updated>2016-06-05T11:08:37.865Z</updated>
+    <updated>2016-06-05T16:45:02.354Z</updated>
     
     <content type="html">&lt;p&gt;Todos nós gostamos de jogos, seja no PC, Celular ou qualquer outro tipo… Simplesmente, gostamos. Agora imagine utilizar jogos para ser mais produtivo, cuidar da saúde, aprender algo novo ou qualquer outro objetivo pessoal.&lt;/p&gt;
 &lt;p&gt;Imagine transformar sua vida em um jogo de RPG!&lt;a id=&quot;more&quot;&gt;&lt;/a&gt;&lt;/p&gt;
@@ -339,7 +399,7 @@
     <link href="http://woliveiras.com.br/posts/Produtividade-priorizacao-de-tarefas-execucao-e-melhoria-do-processo/"/>
     <id>http://woliveiras.com.br/posts/Produtividade-priorizacao-de-tarefas-execucao-e-melhoria-do-processo/</id>
     <published>2016-04-21T12:31:46.000Z</published>
-    <updated>2016-06-05T11:08:37.865Z</updated>
+    <updated>2016-06-05T16:45:02.354Z</updated>
     
     <content type="html">&lt;p&gt;Continuando a série sobre Produtividade, já sabemos &lt;a href=&quot;/posts/produtividade-uma-re-introducao/&quot;&gt;o que é produtividade&lt;/a&gt; e &lt;a href=&quot;/posts/Produtividade-conhece-te-a-ti-mesmo/&quot;&gt;como nosso cérebro funciona&lt;/a&gt;, agora precisamos aprender a planejar as coisas para que nosso cérebro não nos atrapalhe em nossa meta de sermos mais produtivos. &lt;a id=&quot;more&quot;&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;O planejamento, aqui, pode ser dividido em:&lt;/p&gt;
@@ -425,7 +485,7 @@
     <link href="http://woliveiras.com.br/posts/Links-uteis-para-aprender-se-aprofundar-ou-manter-se-atualizado-sobre-JavaScript/"/>
     <id>http://woliveiras.com.br/posts/Links-uteis-para-aprender-se-aprofundar-ou-manter-se-atualizado-sobre-JavaScript/</id>
     <published>2016-04-20T09:00:19.000Z</published>
-    <updated>2016-06-05T11:08:37.865Z</updated>
+    <updated>2016-06-05T16:45:02.354Z</updated>
     
     <content type="html">&lt;p&gt;Existe muito recurso legal disponível na internet para quem deseja aprender ou se aprofundar em JavaScript. Tanto recursos gratuitos, quanto recursos pagos. Existem muitos &lt;a href=&quot;/posts/Livros-sobre-JavaScript-do-iniciante-ao-avancado-e-ES6/&quot;&gt;livros bons&lt;/a&gt; sobre a linguagem também.&lt;/p&gt;
 &lt;p&gt;Nesse post, vou tentar deixar um compilado de links úteis para quem quer se aprofundar na linguagem da Web!&lt;a id=&quot;more&quot;&gt;&lt;/a&gt;&lt;/p&gt;
@@ -537,7 +597,7 @@
     <link href="http://woliveiras.com.br/posts/Livros-sobre-JavaScript-do-iniciante-ao-avancado-e-ES6/"/>
     <id>http://woliveiras.com.br/posts/Livros-sobre-JavaScript-do-iniciante-ao-avancado-e-ES6/</id>
     <published>2016-04-19T10:24:08.000Z</published>
-    <updated>2016-06-05T11:08:37.865Z</updated>
+    <updated>2016-06-05T16:45:02.354Z</updated>
     
     <content type="html">&lt;p&gt;Existem excelentes livros sobre JavaScript no mercado, mas são tantos que nos perdemos em qual ler primeiro, qual ler depois, qual nem vale a pena ler em determinado nível de conhecimento… São várias dúvidas.&lt;/p&gt;
 &lt;p&gt;Nesse artigo vou tentar ajudar a escolher os melhores livros para seu nível de conhecimento e montar uma sequência legal de leitura para virar um JavaScript Master!&lt;a id=&quot;more&quot;&gt;&lt;/a&gt;&lt;/p&gt;
@@ -604,7 +664,7 @@
     <link href="http://woliveiras.com.br/posts/Produtividade-conhece-te-a-ti-mesmo/"/>
     <id>http://woliveiras.com.br/posts/Produtividade-conhece-te-a-ti-mesmo/</id>
     <published>2016-04-18T11:48:58.000Z</published>
-    <updated>2016-06-05T11:08:37.865Z</updated>
+    <updated>2016-06-05T16:45:02.354Z</updated>
     
     <content type="html">&lt;p&gt;O autoconhecimento é muito importante para você se tornar produtivo.&lt;/p&gt;
 &lt;p&gt;De nada adianta aprender milhares de técnicas, receber diversas dicas sobre produtividade, se nenhuma delas se encaixa em você. Claro que é necessário um pouco de esforço de sua parte para que as metodologias deem certo, porém, dentre milhares de técnicas, você vai precisar achar uma que se encaixe em seu estilo de vida e na sua forma de pensar e agir. &lt;a id=&quot;more&quot;&gt;&lt;/a&gt;&lt;/p&gt;
@@ -682,7 +742,7 @@
     <link href="http://woliveiras.com.br/posts/Por-que-voce-desistiu-de-ser-Cientista/"/>
     <id>http://woliveiras.com.br/posts/Por-que-voce-desistiu-de-ser-Cientista/</id>
     <published>2016-04-16T11:55:36.000Z</published>
-    <updated>2016-06-05T11:08:37.865Z</updated>
+    <updated>2016-06-05T16:45:02.354Z</updated>
     
     <content type="html">&lt;p&gt;Há algum tempo venho observando as pessoas, mais especificamente as pessoas da área de Desenvolvimento de Software. Há mais tempo ainda eu observo as outras pessoas, o ser humano em geral. E desde sempre percebi um padrão:&lt;/p&gt;
 &lt;p&gt;Ao crescer, as pessoas abandonam a profissão que nasce com elas, a profissão de &lt;strong&gt;cientista&lt;/strong&gt;.&lt;a id=&quot;more&quot;&gt;&lt;/a&gt;&lt;/p&gt;
@@ -775,7 +835,7 @@
     <link href="http://woliveiras.com.br/posts/produtividade-uma-re-introducao/"/>
     <id>http://woliveiras.com.br/posts/produtividade-uma-re-introducao/</id>
     <published>2016-04-13T10:58:34.000Z</published>
-    <updated>2016-06-05T11:08:37.869Z</updated>
+    <updated>2016-06-05T16:45:02.358Z</updated>
     
     <content type="html">&lt;p&gt;No ritmo frenético em que vivemos, ser produtivo já não é mais qualidade de ninguém, precisa ser uma característica de todos.&lt;/p&gt;
 &lt;p&gt;Nós queremos fazer um amontoado de coisas todos os dias e toda hora aparece alguma outra coisa pra se fazer.&lt;/p&gt;
@@ -839,7 +899,7 @@
     <link href="http://woliveiras.com.br/posts/Criando-uma-imagem-Docker-personalizada/"/>
     <id>http://woliveiras.com.br/posts/Criando-uma-imagem-Docker-personalizada/</id>
     <published>2016-04-12T01:18:59.000Z</published>
-    <updated>2016-06-05T11:08:37.865Z</updated>
+    <updated>2016-06-05T16:45:02.354Z</updated>
     
     <content type="html">&lt;p&gt;É muito legal poder baixar uma imagem do &lt;a href=&quot;http://hub.docker.com/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Docker Hub&lt;/a&gt; e já sair criando os containers, modificando e brincando, mas e depois?&lt;/p&gt;
 &lt;p&gt;Como fazemos para levar essa imagem para outro host?&lt;/p&gt;
@@ -951,7 +1011,7 @@
     <link href="http://woliveiras.com.br/posts/comandos-mais-utilizados-no-docker/"/>
     <id>http://woliveiras.com.br/posts/comandos-mais-utilizados-no-docker/</id>
     <published>2016-04-12T00:00:08.000Z</published>
-    <updated>2016-06-05T11:08:37.865Z</updated>
+    <updated>2016-06-05T16:45:02.354Z</updated>
     
     <content type="html">&lt;p&gt;Um post rapidinho com os comandos mais utilizados do Docker para não esquecer e consultar facilmente. :D&lt;/p&gt;
 &lt;p&gt;Se você não viu a primeira parte dessa sequência, clique &lt;a href=&quot;/posts/uma-rapida-introducao-ao-docker-e-instalacao-no-ubuntu/&quot;&gt;aqui&lt;/a&gt;.&lt;/p&gt;
@@ -1077,7 +1137,7 @@
     <link href="http://woliveiras.com.br/posts/imagem-docker-ou-um-container-docker/"/>
     <id>http://woliveiras.com.br/posts/imagem-docker-ou-um-container-docker/</id>
     <published>2016-04-11T17:00:00.000Z</published>
-    <updated>2016-06-05T11:08:37.869Z</updated>
+    <updated>2016-06-05T16:45:02.354Z</updated>
     
     <content type="html">&lt;p&gt;Se você viu a primeira parte dessa sequência de artigos, percebeu que existem dois termos muito utilizados quando falamos de Docker: &lt;strong&gt;Imagens&lt;/strong&gt; e &lt;strong&gt;Containers&lt;/strong&gt;. Você deve se perguntar: qual é a diferença entre imagem e container Docker? Ou então: O que eu rodo com o &lt;code&gt;docker run&lt;/code&gt;, uma imagem ou um container? &lt;a id=&quot;more&quot;&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;Se você não viu o primeiro artigo, da uma olhada &lt;a href=&quot;/posts/uma-rapida-introducao-ao-docker-e-instalacao-no-ubuntu/&quot;&gt;aqui&lt;/a&gt;.&lt;/p&gt;
@@ -1156,7 +1216,7 @@
     <link href="http://woliveiras.com.br/posts/uma-rapida-introducao-ao-docker-e-instalacao-no-ubuntu/"/>
     <id>http://woliveiras.com.br/posts/uma-rapida-introducao-ao-docker-e-instalacao-no-ubuntu/</id>
     <published>2016-04-10T11:03:47.000Z</published>
-    <updated>2016-06-05T11:08:37.869Z</updated>
+    <updated>2016-06-05T16:45:02.358Z</updated>
     
     <content type="html">&lt;p&gt;&lt;div class=&quot;shared-img&quot;&gt;&lt;br&gt;&lt;img src=&quot;../../public/images/docker.png&quot; alt=&quot;Docker&quot;&gt;&lt;br&gt;&lt;/div&gt;Você já deve ter ouvido falar, pelo menos uma vez, sobre &lt;a href=&quot;https://www.docker.com/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Docker&lt;/a&gt; em algum lugar. Seja em palestras, blogs, vídeos ou em qualquer outra fonte de estudos sobre desenvolvimento, uma hora sempre comentamos sobre virtualização de ambientes e o Docker é a ferramenta que mais tem se destacado para tal. Ele é uma das 8 maravilhas das atualidades mais atuais. Vamos entender um pouco, então, o que é o Docker e como instalar no nosso Ubuntu.&lt;a id=&quot;more&quot;&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;h2 id=&quot;Introducao&quot;&gt;&lt;a href=&quot;#Introducao&quot; class=&quot;headerlink&quot; title=&quot;Introdução&quot;&gt;&lt;/a&gt;Introdução&lt;/h2&gt;&lt;p&gt;Eu também já ouvia falar do Docker a um bom tempo, porém nunca havia me aprofundado mais nessa ferramenta.&lt;/p&gt;
@@ -1242,7 +1302,7 @@
     <link href="http://woliveiras.com.br/posts/postando-no-blog-est%C3%A1tico-direto-pelo-github-com-hexo-e-travis-ci/"/>
     <id>http://woliveiras.com.br/posts/postando-no-blog-estático-direto-pelo-github-com-hexo-e-travis-ci/</id>
     <published>2016-02-07T00:00:00.000Z</published>
-    <updated>2016-06-05T11:08:37.869Z</updated>
+    <updated>2016-06-05T16:45:02.358Z</updated>
     
     <content type="html">&lt;p&gt;Confesso que fiquei tentado a migrar para o &lt;a href=&quot;https://jekyllrb.com/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Jekyll (Ruby)&lt;/a&gt; depois que um &lt;a href=&quot;http://jotateles.com.br/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;amigo&lt;/a&gt; me mostrou que da para postar no blog direto do GitHub sem ter o Jekyll instalado na máquina. Porém eu não desisti do meu queridinho, o &lt;a href=&quot;http://hexo.io/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Hexo (feito com Node &amp;lt;3)&lt;/a&gt;.&lt;a id=&quot;more&quot;&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;&lt;em&gt;Se você não conhece o Hexo, da uma olhada &lt;a href=&quot;http://woliveiras.com.br/posts/Migrando-de-Wordpress-para-Hexo/&quot;&gt;nesse artigo&lt;/a&gt;.&lt;/em&gt;&lt;/p&gt;
@@ -1317,7 +1377,7 @@
     <link href="http://woliveiras.com.br/posts/um-ano-como-desenvolvedor-front-end/"/>
     <id>http://woliveiras.com.br/posts/um-ano-como-desenvolvedor-front-end/</id>
     <published>2015-12-01T12:00:00.000Z</published>
-    <updated>2016-06-05T11:08:37.869Z</updated>
+    <updated>2016-06-05T16:45:02.358Z</updated>
     
     <content type="html">&lt;p&gt;Todo mundo tem uma história legal pra contar sobre como começou na área de Desenvolvimento, seja Web, Mobile, Desktop ou tanto faz. Sempre temos algo interessante para passar para os novos desenvolvedores que estão entrando no mercado e que, as vezes, tem medo de se arriscar, achando que &lt;a href=&quot;http://woliveiras.com.br/posts/requisitos-para-vagas-front-end/&quot;&gt;precisam saber de tudo para investir no primeiro trampo&lt;/a&gt;.&lt;/p&gt;
 &lt;p&gt;Conheça um pouco sobre como foi meu primeiro ano como Desenvolvedor Front End. Medos, frustrações, desespero, alegria, festas e algumas dicas para se preparar para o mercado de trabalho.&lt;/p&gt;
@@ -1367,7 +1427,7 @@
     <link href="http://woliveiras.com.br/posts/corrigindo-permissoes-de-usuario-linux-npm/"/>
     <id>http://woliveiras.com.br/posts/corrigindo-permissoes-de-usuario-linux-npm/</id>
     <published>2015-09-12T13:00:00.000Z</published>
-    <updated>2016-06-05T11:08:37.865Z</updated>
+    <updated>2016-06-05T16:45:02.354Z</updated>
     
     <content type="html">&lt;div class=&quot;shared-img&quot;&gt;&lt;br&gt;&lt;img src=&quot;../../public/images/npm.svg&quot; alt=&quot;&quot;&gt;&lt;br&gt;&lt;/div&gt;
 
@@ -1410,7 +1470,7 @@
     <link href="http://woliveiras.com.br/posts/utilizando-versoes-antigas-do-nodejs/"/>
     <id>http://woliveiras.com.br/posts/utilizando-versoes-antigas-do-nodejs/</id>
     <published>2015-09-12T08:00:32.000Z</published>
-    <updated>2016-06-05T11:08:37.869Z</updated>
+    <updated>2016-06-05T16:45:02.358Z</updated>
     
     <content type="html">&lt;div class=&quot;shared-img&quot;&gt;&lt;br&gt;&lt;img src=&quot;../..//public/images/nodejs.png&quot; alt=&quot;&quot;&gt;&lt;br&gt;&lt;/div&gt;
 
@@ -1495,7 +1555,7 @@
     <link href="http://woliveiras.com.br/posts/twitter-bootstrap-bootstrap-do-jeito-certo/"/>
     <id>http://woliveiras.com.br/posts/twitter-bootstrap-bootstrap-do-jeito-certo/</id>
     <published>2015-09-09T01:00:00.000Z</published>
-    <updated>2016-06-05T11:08:37.869Z</updated>
+    <updated>2016-06-05T16:45:02.358Z</updated>
     
     <content type="html">&lt;p&gt;Muita gente critica o uso do &lt;a href=&quot;http://getbootstrap.com/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Twitter Bootstrap&lt;/a&gt; devido a nomenclatura de suas classes e aos muitos componentes que o framework possui.&lt;/p&gt;
 &lt;p&gt;Dizem que as classes não são semanticas e que o peso do framework é desnecessário.&lt;/p&gt;
@@ -1578,7 +1638,7 @@
     <link href="http://woliveiras.com.br/posts/Migrando-de-Wordpress-para-Hexo/"/>
     <id>http://woliveiras.com.br/posts/Migrando-de-Wordpress-para-Hexo/</id>
     <published>2015-08-05T02:53:41.000Z</published>
-    <updated>2016-06-05T11:08:37.865Z</updated>
+    <updated>2016-06-05T16:45:02.354Z</updated>
     
     <content type="html">&lt;p&gt;&lt;div class=&quot;shared-img&quot;&gt;&lt;br&gt;&lt;img src=&quot;../../public/images/hexo-logo.png&quot; alt=&quot;Hexo Blog&quot;&gt;&lt;br&gt;&lt;/div&gt;A um bom tempo sinto vontade de mudar meu Blog de WordPress para uma plataforma de  conteúdo estático, mas não achava nenhuma alternativa, pois que queria usar Nodejs. Por isso não fui para o, muito usado na comunidade, &lt;a href=&quot;http://jekyllrb.com/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Jekyll(Ruby)&lt;/a&gt; , nem para o &lt;a href=&quot;http://blog.getpelican.com/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Pelican(Python &amp;lt;3)&lt;/a&gt;.&lt;a id=&quot;more&quot;&gt;&lt;/a&gt;&lt;br&gt;Em busca de uma alternativa encontrei o &lt;a href=&quot;https://hexo.io&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Hexo&lt;/a&gt; e, um pouco depois de eu conhecer essa plataforma, o &lt;a href=&quot;http://blog.da2k.com.br/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Daciuk&lt;/a&gt; escreveu um &lt;a href=&quot;http://blog.da2k.com.br/2014/01/05/hexo-criando-um-blog-ao-estilo-miojo/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;post&lt;/a&gt; muito maneiro incentivando o seu uso. Foi então que eu decidi de vez usar essa plataforma!&lt;br&gt;Bora conhecer ela e como foi a migração de WordPress para Hexo?&lt;/p&gt;
 &lt;p&gt;###Levantando as necessidades&lt;/p&gt;
@@ -1625,56 +1685,6 @@
       <category term="Hexo" scheme="http://woliveiras.com.br/tags/Hexo/"/>
     
       <category term="Dicas" scheme="http://woliveiras.com.br/tags/Dicas/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Frameworks Front End</title>
-    <link href="http://woliveiras.com.br/posts/frameworks-front-end/"/>
-    <id>http://woliveiras.com.br/posts/frameworks-front-end/</id>
-    <published>2015-03-05T00:18:46.000Z</published>
-    <updated>2016-06-05T11:08:37.869Z</updated>
-    
-    <content type="html">&lt;p&gt;Já parou pra pensar quantas vezes você repete o mesmo código durante o Desenvolvimento, seja Web, Mobile ou Desktop? Já pensou em padronizar o que você faz de alguma maneira?&lt;br&gt;E pra você que é Gerente de Projetos, Líder ou algo do tipo: Já pensou em poder adicionar um membro no seu grupo  e ele já saber como funciona o Desenvolvimento nessa equipe e conseguir ser produtivo desde o princípio?&lt;br&gt;Pois é, Frameworks servem para isso… Vem comigo que vou explicar melhor. ;)&lt;a id=&quot;more&quot;&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;h2 id=&quot;O-que-sao-Frameworks&quot;&gt;&lt;a href=&quot;#O-que-sao-Frameworks&quot; class=&quot;headerlink&quot; title=&quot;O que são Frameworks?&quot;&gt;&lt;/a&gt;O que são Frameworks?&lt;/h2&gt;&lt;p&gt;Você pega aqueles códigos que se repetem entre os projetos, adiciona uma pitada de &lt;a href=&quot;http://pt.wikipedia.org/wiki/Padr%C3%A3o_de_projeto_de_software&quot; title=&quot;Wikipedia - Padrões de Projetos&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Padrões&lt;/a&gt;, deixa conforme sua equipe precisa ou &lt;a href=&quot;http://tableless.com.br/locaweb-style-como-iniciamos/&quot; title=&quot;Locaweb Style - Framework Front End da Locaweb&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;conforme sua empresa trabalha&lt;/a&gt;, empacota tudo isso pra poder reutilizar depois e pronto, criou um Framework!&lt;br&gt;Só isso? Sim, só isso… Framework é uma ferramenta com os códigos, padrões, etc, que você consegue utilizar pra resolver problemas que se repetem ou mesmo pra iniciar projetos que vão possuir as mesmas características seja no Front, Back End ou mesmo para &lt;a href=&quot;https://github.com/woliveiras/pastel&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Tooling(Ferramentas)&lt;/a&gt;. Quando você utiliza um Framework como base, pode somente baixar ele, configurar ou instalar e seguir dali para as necessidades específicas de cada projeto. Isso mata muito tempo que você perderia fazendo algo que sabe que vai repetir no próximo trabalho.&lt;/p&gt;
-&lt;h2 id=&quot;Frameworks-sao-bons-mesmo&quot;&gt;&lt;a href=&quot;#Frameworks-sao-bons-mesmo&quot; class=&quot;headerlink&quot; title=&quot;Frameworks são bons mesmo?&quot;&gt;&lt;/a&gt;Frameworks são bons mesmo?&lt;/h2&gt;&lt;p&gt;Minha resposta é: São sim, mas eles dependem de você para não estragá-los.&lt;br&gt;Temos vários tipos de Frameworks pra todos os gostos e peculiaridades, porém nem sempre o mesmo que você usa para um projeto grande será interessante em um projeto pequeno. As vezes temos uma ferramenta específica só para coisas pequenas e outras só para coisas grandes.&lt;br&gt;Frameworks são muito bons pela praticidade em se iniciar um projeto com metade do trabalho já feito, claro, mas você tem de entender &lt;a href=&quot;http://tableless.com.br/quando-utilizar-ou-nao-frameworks-css/&quot; title=&quot;Quando utilizar (ou não) frameworks CSS - Talita Pagani&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;quando utilizar e quando não utilizar&lt;/a&gt;.&lt;br&gt;Temos o exemplo do &lt;a href=&quot;http://getbootstrap.com/&quot; title=&quot;Twitter Bootstrap&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Twitter Bootstrap&lt;/a&gt; que está sendo muito utilizado na Web por esses tempos e tem gente que nem sabe utilizar o que a ferramenta lhe entrega e sai sobrepondo os estilos e deixando o projeto cada vez mais pesado ou importa todo o código do Framework sendo que só vai utilizar os Grids.&lt;/p&gt;
-&lt;h2 id=&quot;E-os-Frameworks-Front-End-servem-pra-que&quot;&gt;&lt;a href=&quot;#E-os-Frameworks-Front-End-servem-pra-que&quot; class=&quot;headerlink&quot; title=&quot;E os Frameworks Front End, servem pra que?&quot;&gt;&lt;/a&gt;E os Frameworks Front End, servem pra que?&lt;/h2&gt;&lt;p&gt;Normalmente eles vem com os estilos que você repete em vários projetos como tamanho de botões, tipografia, cores, estilos de tabelas/formulários, menus, navegação em abas, etc. Tudo o que é referente ao desenvolvimento de uma interface normalmente vem nessas maravilhas ou você cria um com tudo o que você sempre usa. - Pra um iniciante o melhor seria aprender como as coisas são feitas e até mesmo criar o seu próprio pelo fato de aprender mais.&lt;br&gt;Tem diferença entre Bibliotecas Front End e Frameworks Front End, da uma olhada &lt;a href=&quot;http://tableless.com.br/biblioteca-css-ou-framework/&quot; title=&quot;Biblioteca CSS ou Framework?&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;nesse artigo&lt;/a&gt;.&lt;/p&gt;
-&lt;h2 id=&quot;Vantagens-do-uso-dos-Frameworks&quot;&gt;&lt;a href=&quot;#Vantagens-do-uso-dos-Frameworks&quot; class=&quot;headerlink&quot; title=&quot;Vantagens do uso dos Frameworks&quot;&gt;&lt;/a&gt;Vantagens do uso dos Frameworks&lt;/h2&gt;&lt;p&gt;Algumas das vantagens que eu percebi:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;Como eu disse: Metade do trabalho está feito, então você tem agilidade na entrega dos projetos.&lt;/li&gt;
-&lt;li&gt;Uma pessoa que conhece o Framework que você utiliza na empresa consegue entrar na sua equipe e já ser mais produtiva do que aprender do zero como funciona o Workflow de vocês.&lt;/li&gt;
-&lt;li&gt;A documentação dos Frameworks estão sempre atualizadas e são referências para buscar conteúdo.&lt;/li&gt;
-&lt;li&gt;Padronização no desenvolvimento.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2 id=&quot;Desvantagens-do-uso-dos-Frameworks&quot;&gt;&lt;a href=&quot;#Desvantagens-do-uso-dos-Frameworks&quot; class=&quot;headerlink&quot; title=&quot;Desvantagens do uso dos Frameworks&quot;&gt;&lt;/a&gt;Desvantagens do uso dos Frameworks&lt;/h2&gt;&lt;p&gt;Se você é iniciante e não sabe como as coisas funcionam por baixo dos panos, então fique longe deles. Aprenda a programar de verdade antes de usar uma ferramenta pronta, pois isso pode ser um tiro no pé e uma hora você vai se enroscar por causa da falta de conhecimento.&lt;br&gt;Ter de estudar como ele funciona… Se você não conhece bem a ferramenta, pra que serve, qual o objetivo de quem a criou e quais os prós e contras dela, então também não comece a utilizar de uma vez. A falta do conhecimento vai tornar ela muito mais trabalhosa pra se usar e você pode usar um parafuso pensando que é prego.&lt;br&gt;Todo dia nasce um Framework com alguma coisinh a mais que as vezes faz toda a diferença e você vai ter de estudar tudo de novo! (Triste realidade… :/)&lt;/p&gt;
-&lt;h2 id=&quot;Os-Frameworks-mais-maneiros&quot;&gt;&lt;a href=&quot;#Os-Frameworks-mais-maneiros&quot; class=&quot;headerlink&quot; title=&quot;Os Frameworks mais maneiros&quot;&gt;&lt;/a&gt;Os Frameworks mais maneiros&lt;/h2&gt;&lt;p&gt;&lt;a href=&quot;http://usablica.github.io/front-end-frameworks/compare.html&quot; title=&quot;FRONT-END FRAMEWORKS&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Nessa página&lt;/a&gt; temos uma lista de alguns Frameworks CSS e&lt;a href=&quot;http://todomvc.com/&quot; title=&quot;TodoMVC&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt; nessa outra&lt;/a&gt; alguns Frameworks JavaScript, da uma conferida e veja qual se adapta a sua necessidade.&lt;br&gt;Eu utilizo no dia-a-dia o Bootstrap e ele tem me atendido muito bem, porém não posso te indicar algum só por que eu gosto dele. O melhor é você levantar o máximo de informação sobre os que estão sendo mais utilizados e testar cada um pra ver se te atende legal.&lt;/p&gt;
-&lt;h2 id=&quot;Bonus&quot;&gt;&lt;a href=&quot;#Bonus&quot; class=&quot;headerlink&quot; title=&quot;Bônus&quot;&gt;&lt;/a&gt;Bônus&lt;/h2&gt;&lt;p&gt;Se você não conhece pré processadores, seria interessante aprender algum também. Recomendo essa leitura: &lt;a href=&quot;http://blog.da2k.com.br/2015/02/15/escrevendo-css-com-stylus/&quot; title=&quot;Escrevendo CSS com Stylus&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Escrevendo CSS com Stylus&lt;/a&gt;&lt;br&gt;Você conhece algum Framework Front End maneiro ou tem mais alguma dica sobre o assunto? Compartilha ae!&lt;/p&gt;
-</content>
-    
-    <summary type="html">
-    
-      O que são Frameworks Front End? Quando usar um Framework?
-    
-    </summary>
-    
-      <category term="CSS" scheme="http://woliveiras.com.br/categories/CSS/"/>
-    
-      <category term="Dicas" scheme="http://woliveiras.com.br/categories/CSS/Dicas/"/>
-    
-      <category term="Front End" scheme="http://woliveiras.com.br/categories/CSS/Dicas/Front-End/"/>
-    
-      <category term="Javascript" scheme="http://woliveiras.com.br/categories/CSS/Dicas/Front-End/Javascript/"/>
-    
-      <category term="Produtividade" scheme="http://woliveiras.com.br/categories/CSS/Dicas/Front-End/Javascript/Produtividade/"/>
-    
-    
-      <category term="Produtividade" scheme="http://woliveiras.com.br/tags/Produtividade/"/>
-    
-      <category term="CSS" scheme="http://woliveiras.com.br/tags/CSS/"/>
-    
-      <category term="Front End" scheme="http://woliveiras.com.br/tags/Front-End/"/>
-    
-      <category term="Javascript" scheme="http://woliveiras.com.br/tags/Javascript/"/>
     
   </entry>
   
