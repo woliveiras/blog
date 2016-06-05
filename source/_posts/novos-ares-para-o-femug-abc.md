@@ -35,7 +35,7 @@ Desde que criei o Grupo, abri uma espécie de Call4Papers para fazer alguma reun
 
 Recebi, logo de cara, milhares de pessoas querendo contribuir:
 
-![Milhares de pessoas querendo palestrar](http://s33.postimg.org/aylp9wxkv/Screenshot_from_2016_06_05_12_42_09.png)
+![Milhares de pessoas querendo palestrar](https://s33.postimg.org/aylp9wxkv/Screenshot_from_2016_06_05_12_42_09.png)
 
 Esses caras estão no grupo até hoje e colaboram muito! 
 
