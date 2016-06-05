@@ -5,7 +5,7 @@ description: Faculdade é importante para o Desenvolvedor de Software? Faculdade
 ---
 
 <div class="shared-img">
-    <img src="http://s33.postimg.org/fputcjr1r/universidade_monstros_personagem_mike.jpg" alt="Mike Universidade Monstro">
+    <img src="https://s33.postimg.org/fputcjr1r/universidade_monstros_personagem_mike.jpg" alt="Mike Universidade Monstro">
 </div>
 
 Apesar de eu amar estudar, de coração, e ter criado [minha própria rotina](/posts/como-alcancar-objetivos-rapidamente-nos-estudos/) de estudos, quem me conhece pessoalmente sabe que eu não gosto muito de Faculdade. Eu tenho uma séria resistência com **diplomas**. <!--more-->
