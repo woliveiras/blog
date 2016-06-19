@@ -87,7 +87,7 @@ Perceba que, no exemplo do argumento dedutivo, a primeira premissa diz que **Só
 
 Já no exemplo do argumento indutivo, a primeira premissa diz **É comum que...**. “É comum” não diz que **sempre** acontecerá algo quando a primeira coisa acontecer. É um argumento tão **subjetivo** que não é possível provar que a premissa tem a conclusão valida.
 
-Ou seja, os argumentos dedutivos são claros e objetivos, já os indutivos são subjetivos e por isso não determinam sua veraciade como um padrão.
+Ou seja, os argumentos dedutivos são claros e objetivos, já os indutivos são subjetivos e por isso não determinam sua veracidade como um padrão.
 
 As premissas e a conclusão são formuladas em uma **linguagem estruturada** para que o argumento possa ter uma analise lógica apropriada.
 
