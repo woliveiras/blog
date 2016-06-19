@@ -73,13 +73,13 @@ Porém precisamos de um líder para que ele ajude a centralizar as responsabilid
 
 ## Mudanças são sempre bom
 
-Mudanças são coisa boa. Foi graças a minha mudança de [sair de Infraestrutura e ir para Desenvolvimento de Software](https://woliveiras.com.br/posts/um-ano-como-desenvolvedor-front-end/) que eu conheci essa galera sensacional.
+Mudanças são coisa boa. Foi graças a minha mudança de [sair de Infraestrutura e ir para Desenvolvimento de Software](/posts/um-ano-como-desenvolvedor-front-end/) que eu conheci essa galera sensacional.
 
 Sinto que fiz minha parte.
 
 Mas agora chegou a vez de outra pessoa assumir o papel de **responsável** pelo FEMUG-ABC.
 
-Ultimamente tenho ficado sem tempo por conta da Faculdade, emprego mais longe de casa e por [outros fatores](https://medium.com/@woliveiras/relatos-de-um-experimento-pessoal-sobre-a-ansiedade-dcad55611be4) preciso diminuir a quantidade de responsabilidades. E todo mundo sabe que eu me envolvo em muitos projetos, pois sou apaixonado por [Open Source](https://woliveiras.com.br/posts/contribuindo-para-projetos-open-source-no-github-mesmo-sendo-iniciante/) e amo colaborar com o [desenvolvimento profissional](https://github.com/woliveiras/front-end-career) das pessoas. Então preciso diminuir o ritmo, senão o motor pode fundir.
+Ultimamente tenho ficado sem tempo por conta da Faculdade, emprego mais longe de casa e por [outros fatores](https://medium.com/@woliveiras/relatos-de-um-experimento-pessoal-sobre-a-ansiedade-dcad55611be4) preciso diminuir a quantidade de responsabilidades. E todo mundo sabe que eu me envolvo em muitos projetos, pois sou apaixonado por [Open Source](/posts/contribuindo-para-projetos-open-source-no-github-mesmo-sendo-iniciante/) e amo colaborar com o [desenvolvimento profissional](https://github.com/woliveiras/front-end-career) das pessoas. Então preciso diminuir o ritmo, senão o motor pode fundir.
 
 Eu não escolheria ninguém mais do que algum dos que sempre estiveram conosco desde os princípios e estivesse participando de forma ativa e com muita iniciativa pelo grupo. Portanto escolhi o mano **Ubirajara Pelli** para o cargo.
 
