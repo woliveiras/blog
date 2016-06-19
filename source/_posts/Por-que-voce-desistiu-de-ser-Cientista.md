@@ -59,7 +59,7 @@ Deveríamos nos espelhar nas crianças para nunca deixarmos de ser cientistas!
 
 As crianças, sem dúvidas, são os exemplos de carreira cientifica que você deveria seguir. Esquece aquele cientista famoso que você tanto admira ou aquele Desenvolvedor *pika das galáxia* do serviço ou aquele que é "referência" na sua área.
 
-Se voê quer ser um bom Desenvolvedor de Software, então você precisa aprender a ser como uma criança.
+Se você quer ser um bom Desenvolvedor de Software, então você precisa aprender a ser como uma criança.
 
 ## Crianças são curiosas
 
