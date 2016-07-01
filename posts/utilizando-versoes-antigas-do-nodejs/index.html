@@ -18,7 +18,7 @@
 <meta property="og:image" content="http://woliveiras.com.br/../../public/images/nvm-install-v.png">
 <meta property="og:image" content="http://woliveiras.com.br/../../public/images/terminal-with-nvmrc.png">
 <meta property="og:image" content="http://woliveiras.com.br/../../public/images/nvm-install-nvmrc.png">
-<meta property="og:updated_time" content="2016-06-19T19:32:00.485Z">
+<meta property="og:updated_time" content="2016-07-01T10:19:06.731Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="Utilizando versões antigas do Nodejs">
 <meta name="twitter:description" content="Como utilizar mais de uma versão de Node na mesma máquina.">
@@ -130,38 +130,38 @@
 <p>Existe uma ferramenta muito legal chamada <a href="https://github.com/creationix/nvm" title="Projeto NVM" target="_blank" rel="external">NVM (Node version manager)</a> que serve para trabalhar com mais de uma versão do Node isoladamente, parecido com o <a href="http://docs.python-guide.org/en/latest/dev/virtualenvs/" target="_blank" rel="external">Virtualenv</a> para Python.</p>
 <h2 id="Instalacao-do-NVM"><a href="#Instalacao-do-NVM" class="headerlink" title="Instalação do NVM"></a>Instalação do NVM</h2><p>Se você utiliza Linux Ubuntu/Debian ou derivados execute os seguintes comandos no seu terminal para instalação do NVM:</p>
 <p><strong>Instalação das dependências</strong></p>
-<figure class="highlight q"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">sudo apt-<span class="built_in">get</span> <span class="keyword">update</span></span><br><span class="line">sudo apt-<span class="built_in">get</span> install build-essential libssl-<span class="built_in">dev</span></span><br></pre></td></tr></table></figure>
+<figure class="highlight q"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line">sudo apt-<span class="built_in">get</span> <span class="keyword">update</span></div><div class="line">sudo apt-<span class="built_in">get</span> install build-essential libssl-<span class="built_in">dev</span></div></pre></td></tr></table></figure>
 <p><strong>Instalação do NVM</strong></p>
-<figure class="highlight vim"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">curl -<span class="keyword">o</span>- http<span class="variable">s:</span>//raw.githubusercontent.<span class="keyword">com</span>/creationix/nvm/v0.<span class="number">26.1</span>/install.<span class="keyword">sh</span> | bash</span><br></pre></td></tr></table></figure>
+<figure class="highlight vim"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">curl -<span class="keyword">o</span>- http<span class="variable">s:</span>//raw.githubusercontent.<span class="keyword">com</span>/creationix/nvm/v0.<span class="number">26.1</span>/install.<span class="keyword">sh</span> | bash</div></pre></td></tr></table></figure>
 <p><em>Lembrando que o comando acima vai instalar a ultima versão de quando eu escrevi esse post, poranto pode estar desatualizada. Para pegar a ultima versão do NVM, acesse o link do repositório na sessão Referência desse artigo.</em></p>
 <p>Para conseguir utilizar o NVM você precisa efetuar Logoff em seu Sistema. Se não quiser deslogar agora, pode rodar o comando <code>source ~/.profile</code></p>
 <p><strong>Se você utiliza Windows basta seguir <a href="https://github.com/coreybutler/nvm-windows" title="NVM no Windows" target="_blank" rel="external">esse tutorial</a> para a instação.</strong></p>
 <h2 id="Instalando-versoes-isoladas-do-Nodejs"><a href="#Instalando-versoes-isoladas-do-Nodejs" class="headerlink" title="Instalando versões isoladas do Nodejs"></a>Instalando versões isoladas do Nodejs</h2><p>Para encontrar as versões disponíveis para instalação você pode executar o comando:</p>
-<figure class="highlight mel"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">nvm <span class="keyword">ls</span>-remote</span><br></pre></td></tr></table></figure>
+<figure class="highlight mel"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">nvm <span class="keyword">ls</span>-remote</div></pre></td></tr></table></figure>
 <p>As versões disponíveis para a instalação serão apresentadas.</p>
 <p><img src="../../public/images/nvm-ls-remote.png" alt="nvm ls remote"></p>
 <p>E agora, para instalar a versão anterior necessária, basta executar o comando:</p>
-<figure class="highlight cmake"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">nvm <span class="keyword">install</span> versão</span><br></pre></td></tr></table></figure>
+<figure class="highlight cmake"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">nvm <span class="keyword">install</span> versão</div></pre></td></tr></table></figure>
 <p>No meu caso eu precisava da versão 0.12 para executar o Hexo, então executei <code>nvm install v0.12.0</code></p>
 <p><img src="../../public/images/nvm-install-v.png" alt="nvm install versao"></p>
 <h2 id="Alternado-as-versoes-do-Nodejs"><a href="#Alternado-as-versoes-do-Nodejs" class="headerlink" title="Alternado as versões do Nodejs"></a>Alternado as versões do Nodejs</h2><p>O NVM vai executar a versão mais recente que estiver instalada por padrão, então, para executar outra versão, você precisa executar o comando:</p>
-<figure class="highlight actionscript"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">nvm <span class="keyword">use</span> versao</span><br></pre></td></tr></table></figure>
+<figure class="highlight actionscript"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">nvm <span class="keyword">use</span> versao</div></pre></td></tr></table></figure>
 <p>Se quiser também pode executar:</p>
-<figure class="highlight stata"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">nvm <span class="keyword">run</span> versao <span class="keyword">app</span>.js</span><br></pre></td></tr></table></figure>
+<figure class="highlight stata"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">nvm <span class="keyword">run</span> versao <span class="keyword">app</span>.js</div></pre></td></tr></table></figure>
 <p>Para colocar a aplicação para funcionar com a versão específica somente até finalizar a mesma.</p>
 <p>Se ouver mais de uma versão instalada, você pode executar o comando:</p>
-<figure class="highlight mel"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">nvm <span class="keyword">ls</span></span><br></pre></td></tr></table></figure>
+<figure class="highlight mel"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">nvm <span class="keyword">ls</span></div></pre></td></tr></table></figure>
 <p>Para ver a lista das versões.</p>
 <h2 id="Deixando-uma-versao-como-padrao"><a href="#Deixando-uma-versao-como-padrao" class="headerlink" title="Deixando uma versão como padrão"></a>Deixando uma versão como padrão</h2><p>Se quiser setar uma versão anterior como padrão e não a mais atual, basta rodar:</p>
-<figure class="highlight ceylon"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">nvm <span class="keyword">alias</span> <span class="keyword">default</span> versão</span><br></pre></td></tr></table></figure>
+<figure class="highlight ceylon"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">nvm <span class="keyword">alias</span> <span class="keyword">default</span> versão</div></pre></td></tr></table></figure>
 <p>Com essas configurações você pode utilizar seus pacotes do Node instalados via <a href="https://www.npmjs.com/" target="_blank" rel="external">NPM</a> normalmente. A grande diferença será que os pacotes ficarão instalados em: <code>~/.nvm/node_version/lib/node_modules/</code></p>
 <p>E todo pacote instalado Global precisará ser vinculado a um pacote local para poder ser utilizado no projeto com o comando:</p>
-<figure class="highlight coffeescript"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="built_in">npm</span> link pacote</span><br></pre></td></tr></table></figure>
+<figure class="highlight coffeescript"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line"><span class="built_in">npm</span> link pacote</div></pre></td></tr></table></figure>
 <p>Como no meu caso:</p>
-<figure class="highlight coffeescript"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="built_in">npm</span> link hexo</span><br></pre></td></tr></table></figure>
+<figure class="highlight coffeescript"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line"><span class="built_in">npm</span> link hexo</div></pre></td></tr></table></figure>
 <p>O NVM também pode ser utilizado para isolar ambientes do io.js.</p>
 <p>Para instalar a última versão do Node junto as antigas você pode fazer:</p>
-<figure class="highlight cmake"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">nvm <span class="keyword">install</span> stable</span><br></pre></td></tr></table></figure>
+<figure class="highlight cmake"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">nvm <span class="keyword">install</span> stable</div></pre></td></tr></table></figure>
 <h2 id="Utilizando-o-nvmrc-para-especificar-a-versao"><a href="#Utilizando-o-nvmrc-para-especificar-a-versao" class="headerlink" title="Utilizando o .nvmrc para especificar a versão"></a>Utilizando o .nvmrc para especificar a versão</h2><p>Quando você compartilha seu código, em algum momento será necessário especificar a versão do Node que seu projeto precisa. Você pode fazer isso através de um arquio .nvmrc ao invés de deixar em algum local como um README. - Evitando também que a outra pessoa esqueça de rodar um <code>nvm use versao</code>.</p>
 <p>Utilize qualquer editor de texto para criação do arquivo. O mesmo deve ser criado dentro do diretório do seu projeto. Se estiver usando Windows e Notepad será necessário salvar como <em>“Todos os formatos”</em> e no <em>nome do arquivo</em> colocar “.nvmrc” (com aspas).</p>
 <p>No arquivo coloque a versão que vai utilizar, <em>ex.: 0.12</em>.</p>

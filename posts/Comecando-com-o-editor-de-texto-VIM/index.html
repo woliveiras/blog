@@ -18,7 +18,7 @@
 <meta property="og:image" content="https://media.giphy.com/media/26E2gwqxVzvn7KZji/giphy.gif">
 <meta property="og:image" content="http://s32.postimg.org/6tgxgetrp/Screenshot_from_2016_05_22_09_25_45.png">
 <meta property="og:image" content="https://media.giphy.com/media/xT0BKvIDgNYugS3m3C/giphy.gif">
-<meta property="og:updated_time" content="2016-06-19T19:32:00.481Z">
+<meta property="og:updated_time" content="2016-07-01T10:19:06.731Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="Começando com VIM: O Editor de Texto">
 <meta name="twitter:description" content="Primeiros passos com VIM. Dicas de VIM para iniciantes. Como começar a usar o VIM.">
@@ -169,13 +169,13 @@
 <p>Agora vamos conhecer os comandos que, realmente, vamos utilizar muito no começo.</p>
 <p>Foque neles, nos primeiros dias, até aprender bem.</p>
 <h2 id="Abrir-um-arquivo"><a href="#Abrir-um-arquivo" class="headerlink" title="Abrir um arquivo"></a>Abrir um arquivo</h2><p>No Terminal, você pode cambiar até a pasta onde está o arquivo que você vai abrir e então basta digitar: </p>
-<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">vim nome_<span class="keyword">do</span>_arquivo</span><br></pre></td></tr></table></figure>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">vim nome_<span class="keyword">do</span>_arquivo</div></pre></td></tr></table></figure>
 <p>Mas você também pode usar o comando direto:</p>
-<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">vim diretorio/outro_diretorio/nome_<span class="keyword">do</span>_arquivo</span><br></pre></td></tr></table></figure>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">vim diretorio/outro_diretorio/nome_<span class="keyword">do</span>_arquivo</div></pre></td></tr></table></figure>
 <h2 id="Sintaxes"><a href="#Sintaxes" class="headerlink" title="Sintaxes"></a>Sintaxes</h2><p>O VIM vai reconhecer a sintaxe automaticamente quando você abrir um arquivo com extensão específica, mas, se você começar a partir do VIM a criar um arquivo que ainda não existe no sistema, você pode executar o comando:</p>
-<figure class="highlight stata"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">set</span> <span class="keyword">syntax</span>=sintaxe</span><br></pre></td></tr></table></figure>
+<figure class="highlight stata"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line"><span class="keyword">set</span> <span class="keyword">syntax</span>=sintaxe</div></pre></td></tr></table></figure>
 <p>Ex.:</p>
-<figure class="highlight stata"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">set</span> <span class="keyword">syntax</span>=javascript</span><br></pre></td></tr></table></figure>
+<figure class="highlight stata"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line"><span class="keyword">set</span> <span class="keyword">syntax</span>=javascript</div></pre></td></tr></table></figure>
 <p>Para que o VIM passe a reconhecer a sintaxe que você está digitando.</p>
 <h2 id="Se-movimentando-dentro-de-um-texto"><a href="#Se-movimentando-dentro-de-um-texto" class="headerlink" title="Se movimentando dentro de um texto"></a>Se movimentando dentro de um texto</h2><p>Você pode usar as setinhas do teclado no começo, mas com o tempo vai aprender a usar mais as próprias letras, então você poderá usar:</p>
 <ul>
@@ -235,7 +235,7 @@
 <p>E o mesmo esquema de montar comandos com contadores funciona para os de copiar e colar.</p>
 <p>Ex.:</p>
 <p>Copiar 10 linhas de um texto </p>
-<figure class="highlight"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">10yy</span><br></pre></td></tr></table></figure>
+<figure class="highlight lsl"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line"><span class="number">10</span>yy</div></pre></td></tr></table></figure>
 <h2 id="Como-desfazer-alguma-coisa"><a href="#Como-desfazer-alguma-coisa" class="headerlink" title="Como desfazer alguma coisa"></a>Como desfazer alguma coisa</h2><p>Quando fazemos algo errado, podemos usar o famoso CTRL+Z nos editores comuns, mas no VIM é um pouco diferente.</p>
 <p>Você vai utilizar os comandos:</p>
 <ul>
