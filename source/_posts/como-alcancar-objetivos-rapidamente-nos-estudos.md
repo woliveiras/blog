@@ -26,16 +26,16 @@ Eu aprendi que fazer listas para tudo é uma ótima maneira de você ter certeza
 Em uma folha escreva **10 itens** que você precisa estudar ou que eu deseja aprender. Pode ser qualquer coisa, não necessariamente sobre programação.
 Ex.:
 
-1.  Como ser ninja em AngularJS
-2.  Como manjar muito de NodeJS
-3.  Como destruir com MongoDB
-4.  SMACSS
-5.  OOCSS
-6.  BEM
-7.  Design Patterns com JS
-8.  Hipnotizar animais
-9.  Domar a namorada brava
-10.  Convencer minha mãe não cobrar o dinheiro que peguei emprestado com ela.
+1. Como ser ninja em AngularJS
+2. Como manjar muito de NodeJS
+3. Como destruir com MongoDB
+4. SMACSS
+5. OOCSS
+6. BEM
+7. Design Patterns com JS
+8. Hipnotizar animais
+9. Como não deixar a pessoa que você namora brava
+10. Convencer minha mãe não cobrar o dinheiro que peguei emprestado com ela.
 
 
 Deixe essa folha separada. Ela servirá como um índice do que você quer aprender.
