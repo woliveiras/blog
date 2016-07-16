@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://woliveiras.com.br/"/>
-  <updated>2016-07-16T00:15:14.436Z</updated>
+  <updated>2016-07-16T02:03:20.229Z</updated>
   <id>http://woliveiras.com.br/</id>
   
   <author>
@@ -16,11 +16,148 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>Introdução ao Cálculo Proposicional</title>
+    <link href="http://woliveiras.com.br/posts/Introducao-ao-Calculo-Proposicional/"/>
+    <id>http://woliveiras.com.br/posts/Introducao-ao-Calculo-Proposicional/</id>
+    <published>2016-06-19T14:50:29.000Z</published>
+    <updated>2016-07-16T02:03:20.229Z</updated>
+    
+    <content type="html">&lt;p&gt;Como introduzido no post anterior falando sobre &lt;a href=&quot;posts/Introducao-ao-Raciocinio-Logico/&quot;&gt;Raciocínio Lógico&lt;/a&gt; vamos continuar com os estudos sobre Lógica.&lt;/p&gt;
+&lt;p&gt;Se você pesquisou sobre a Classificação Lógica ou leu os artigos que deixei no final do post, deve ter visto sobre a Lógica Matemática.&lt;/p&gt;
+&lt;p&gt;A Matemática falada aqui é voltada para o pensamento do calculo das proposições e não para o famoso 1+1, 1-1, 1*1, 1/1. &lt;a id=&quot;more&quot;&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Na Lógica Matemática usamos formulas para validar as “premissas” e possuímos uma linguagem para efetuar os cálculos proposicionais.&lt;/p&gt;
+&lt;p&gt;Calculo Proposicional, Calculo Sentencial ou Calculo das Sentenças é uma das partes indispensáveis da Lógica Matemática.&lt;/p&gt;
+&lt;p&gt;Vamos conhecer um pouco mais sobre isso.&lt;/p&gt;
+&lt;h2 id=&quot;Proposicoes&quot;&gt;&lt;a href=&quot;#Proposicoes&quot; class=&quot;headerlink&quot; title=&quot;Proposições&quot;&gt;&lt;/a&gt;Proposições&lt;/h2&gt;&lt;p&gt;Antes de falar do cálculo propriamente dito, precisamos entender alguns conceitos básicos e conhecer alguns novos termos e um deles é a &lt;strong&gt;proposição&lt;/strong&gt;.&lt;/p&gt;
+&lt;p&gt;Proposições são sentenças &lt;strong&gt;declarativas&lt;/strong&gt;, &lt;strong&gt;afirmativas&lt;/strong&gt; e que tenham sentido em afirmar que sejam &lt;strong&gt;verdadeiras&lt;/strong&gt; ou &lt;strong&gt;falsas&lt;/strong&gt;. A proposição também pode ser expressada por símbolos, que veremos mais pra frente nesse post.&lt;/p&gt;
+&lt;p&gt;Ex.:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;10 é um número inteiro&lt;/li&gt;
+&lt;li&gt;Mario é Desenvolvedor de Software&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;São frases afirmativas e podem ser classificadas por verdadeiro ou falso.&lt;/p&gt;
+&lt;p&gt;Imagine:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;10 é um número inteiro? (V ou F)&lt;/li&gt;
+&lt;li&gt;Mario é Desenvolvedor de Software? (V ou F)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Outro exemplo seria:&lt;/p&gt;
+&lt;p&gt;7 + 5 = 10&lt;/p&gt;
+&lt;p&gt;Isso é uma sentença declarativa e pode receber valor lógico de verdadeiro ou falso.&lt;/p&gt;
+&lt;p&gt;7 + 5 é igual a 10? (V ou F)&lt;/p&gt;
+&lt;p&gt;Isso por que não fazemos o calculo de números como na Matemática comum, mas buscamos resultado lógico para a sentença.&lt;/p&gt;
+&lt;p&gt;Porém:&lt;/p&gt;
+&lt;p&gt;x + 5 = 10&lt;/p&gt;
+&lt;p&gt;Não é uma proposição, pois não sabemos o valor de X, então não tem como descobrirmos se o valor lógico dessa sentença é verdadeiro ou falso.&lt;/p&gt;
+&lt;h2 id=&quot;O-que-nao-sao-proposicoes&quot;&gt;&lt;a href=&quot;#O-que-nao-sao-proposicoes&quot; class=&quot;headerlink&quot; title=&quot;O que não são proposições&quot;&gt;&lt;/a&gt;O que não são proposições&lt;/h2&gt;&lt;p&gt;Se proposições são sempre sentenças afirmativas. Então, automaticamente eliminamos algumas sentenças dessa categoria, como:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Interrogativas: Quem é você?&lt;/li&gt;
+&lt;li&gt;Imperativas: Vai lavar a louça.&lt;/li&gt;
+&lt;li&gt;Exclamativas: Putz!&lt;/li&gt;
+&lt;li&gt;Poemas&lt;/li&gt;
+&lt;li&gt;Abertas (como o x + 5 citado acima)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&quot;Principios-sobre-as-proposicoes&quot;&gt;&lt;a href=&quot;#Principios-sobre-as-proposicoes&quot; class=&quot;headerlink&quot; title=&quot;Princípios sobre as proposições&quot;&gt;&lt;/a&gt;Princípios sobre as proposições&lt;/h2&gt;&lt;p&gt;Alguns princípios básicos que regem as proposições, são:&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Princípio da Identidade:&lt;/strong&gt; Uma proposição Verdadeira é Verdadeira, e uma proposição Falsa é Falsa&lt;br&gt;&lt;strong&gt;Princípio do Terceiro Excluído:&lt;/strong&gt; Uma proposição ou é verdadeira ou falsa não existindo uma terceira possibilidade&lt;br&gt;&lt;strong&gt;Princípio da Não-Contradição:&lt;/strong&gt; Uma proposição não pode ser verdadeira e falsa simultaneamente&lt;/p&gt;
+&lt;h2 id=&quot;Proposicao-simples-e-compostas&quot;&gt;&lt;a href=&quot;#Proposicao-simples-e-compostas&quot; class=&quot;headerlink&quot; title=&quot;Proposição simples e compostas&quot;&gt;&lt;/a&gt;Proposição simples e compostas&lt;/h2&gt;&lt;p&gt;As proposições ainda podem ser classificadas em:&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Proposição simples:&lt;/strong&gt; que são representadas de forma única.&lt;/p&gt;
+&lt;p&gt;Ex: O cachorro é um mamífero&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Proposição composta:&lt;/strong&gt; que são formadas por um &lt;code&gt;conjunto&lt;/code&gt; de proposições simples, ( duas ou mais proposições simples ligadas por “conectivos lógicos”).&lt;/p&gt;
+&lt;p&gt;Ex.: Brasília  é a capital do Brasil  ou  Lima é a capital do Peru&lt;/p&gt;
+&lt;p&gt;Com essa pequena introdução do que são proposições simples e compostas começamos a esbarrar em uma coisa chamada conectivos lógicos.&lt;/p&gt;
+&lt;h2 id=&quot;Simbolos-da-linguagem-do-Calculo-Proposicional-e-Conectivos-Logicos&quot;&gt;&lt;a href=&quot;#Simbolos-da-linguagem-do-Calculo-Proposicional-e-Conectivos-Logicos&quot; class=&quot;headerlink&quot; title=&quot;Símbolos da linguagem do Cálculo Proposicional e Conectivos Lógicos&quot;&gt;&lt;/a&gt;Símbolos da linguagem do Cálculo Proposicional e Conectivos Lógicos&lt;/h2&gt;&lt;p&gt;Antes de falar dos Conectivos Lógicos, vamos falar dos Símbolos do Cálculo Proposicional para facilitar a escrita dos exemplos. ;)&lt;/p&gt;
+&lt;p&gt;Dentro da Lógica Proposicional, cada sentença (proposição) pode ser representada por um símbolo chamado &lt;code&gt;variável proposicional&lt;/code&gt;. Esses simbolos são letras minúsculas a partir da letra &lt;strong&gt;p&lt;/strong&gt;.&lt;/p&gt;
+&lt;p&gt;Ex.: &lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;A Lua é quadrada: &lt;strong&gt;p&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;O cachorro é bonito: &lt;strong&gt;q&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;Python é legal: &lt;strong&gt;r&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Isso seria para nossas proposições simples. Para proposições compostas, entram nossos simbolos para os conectivos lógicos.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;O que são os conectivos lógicos?&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;São as ligações entre uma proposição simples e outra, assim como aquele &lt;strong&gt;ou&lt;/strong&gt; no exemplo &lt;code&gt;Brasília  é a capital do Brasil  OU  Lima é a capital do Peru&lt;/code&gt;.&lt;/p&gt;
+&lt;p&gt;Os conectivos são: E, OU, SE… ENTÃO, SE E SOMENTE SE e NÃO e são representados pelos símbolos:&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;^&lt;/code&gt; :  &lt;strong&gt;E&lt;/strong&gt; (conjunctos)&lt;br&gt;&lt;code&gt;v&lt;/code&gt; : OU (disjunctos)&lt;br&gt;&lt;code&gt;-&amp;gt;&lt;/code&gt; : SE… ENTÃO (implicação)&lt;br&gt;&lt;code&gt;&amp;lt;-&amp;gt;&lt;/code&gt; : SE E SOMENTE SE (Bi-implicação)&lt;br&gt;&lt;code&gt;~&lt;/code&gt; : NÃO (negação)&lt;/p&gt;
+&lt;p&gt;Então conseguimos expressar o exemplo &lt;code&gt;Brasília  é a capital do Brasil  OU  Lima é a capital do Peru&lt;/code&gt; da seguinte maneira: &lt;strong&gt;p v q&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Onde &lt;strong&gt;p&lt;/strong&gt; equivale a “Brasília  é a capital do Brasil”, &lt;strong&gt;v&lt;/strong&gt; OU e &lt;strong&gt;q&lt;/strong&gt; é “Lima é a capital do Peru”.&lt;/p&gt;
+&lt;h2 id=&quot;Os-simbolos-auxiliares&quot;&gt;&lt;a href=&quot;#Os-simbolos-auxiliares&quot; class=&quot;headerlink&quot; title=&quot;Os simbolos auxiliáres&quot;&gt;&lt;/a&gt;Os simbolos auxiliáres&lt;/h2&gt;&lt;p&gt;Assim como na matemática, os cálculos podem começar a ficar mais profundos e chega uma hora que precisamos de simbolos auxiliáres para facilitar um pouco nossa vida.&lt;/p&gt;
+&lt;p&gt;( ) , parênteses que servem para denotar o “alcance” dos conectivos.&lt;/p&gt;
+&lt;p&gt;Exemplo:&lt;/p&gt;
+&lt;p&gt;A lua &lt;strong&gt;não&lt;/strong&gt; é quadrada &lt;strong&gt;se e somente se&lt;/strong&gt; a neve é branca: ((~p) &amp;lt;-&amp;gt; q)&lt;/p&gt;
+&lt;p&gt;E os parênteses são usados seguindo a ordem: ~, v, ^, -&amp;gt; e &amp;lt;-&amp;gt;&lt;/p&gt;
+&lt;p&gt;Ou seja, primeiro colocamos parênteses onde tivermos &lt;strong&gt;não&lt;/strong&gt;, depois onde tiver &lt;strong&gt;ou&lt;/strong&gt; e assim por diante.&lt;/p&gt;
+&lt;p&gt;A lua &lt;strong&gt;não&lt;/strong&gt;¹ é quadrada &lt;strong&gt;se e somente se&lt;/strong&gt;² a neve é branca: ((~p)¹ &amp;lt;-&amp;gt; q)²&lt;/p&gt;
+&lt;p&gt;E se existirem repetição dos mesmos operadores, adota-se a convenção de começar o cálculo pela &lt;strong&gt;direita&lt;/strong&gt;.&lt;/p&gt;
+&lt;h2 id=&quot;Precedencia-dos-operadores&quot;&gt;&lt;a href=&quot;#Precedencia-dos-operadores&quot; class=&quot;headerlink&quot; title=&quot;Precedencia dos operadores&quot;&gt;&lt;/a&gt;Precedencia dos operadores&lt;/h2&gt;&lt;p&gt;Assim como na matemática, no calculo proposicional temos a precedência dos operadores, ou seja, quem resolver primeiro.&lt;/p&gt;
+&lt;p&gt;Essa ordem da precedência de operadores é:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;code&gt;~&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;^&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;v&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;-&amp;gt;&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;&amp;lt;-&amp;gt;&lt;/code&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;Exemplo: p v q ^ ~ r -&amp;gt; p -&amp;gt; ~ q&lt;/p&gt;
+&lt;p&gt;Imagine que esse monte de variáveis são várias proposições que podem ser verdadeiras ou falsas.&lt;/p&gt;
+&lt;p&gt;Como resolver isso?&lt;/p&gt;
+&lt;p&gt;Com os parênteses: (((p v q) ^ (~r) -&amp;gt; (p -&amp;gt; (~q)))&lt;/p&gt;
+&lt;p&gt;Primeiro resolvemos (~q) mais a direita, pois, como existem duas negações, adotamos a convenção. &lt;/p&gt;
+&lt;p&gt;(((p v q) ^ (~r) -&amp;gt; (p -&amp;gt; &lt;code&gt;(~q)&lt;/code&gt;))&lt;/p&gt;
+&lt;p&gt;Em seguida o (~r)&lt;/p&gt;
+&lt;p&gt;(((p v q) ^ &lt;code&gt;(~r)&lt;/code&gt; -&amp;gt; (p -&amp;gt; (~q)))&lt;/p&gt;
+&lt;p&gt;Depois fazemos (p v q), pois o (~r) isolou o (p v q). &lt;/p&gt;
+&lt;p&gt;(((&lt;code&gt;(p v q)&lt;/code&gt; ^ (~r) -&amp;gt; (p -&amp;gt; (~q)))&lt;/p&gt;
+&lt;p&gt;Em seguida pegamos o resultado de (p v q) e fazemos o ^ com resultado do (~r) &lt;/p&gt;
+&lt;p&gt;(((&lt;code&gt;(p v q) ^ (~r)&lt;/code&gt; -&amp;gt; (p -&amp;gt; (~q)))&lt;/p&gt;
+&lt;p&gt;Agora podemos fazer o -&amp;gt; do resultado de (p v q) ^ (~r) com o resultado de (p -&amp;gt; (~q))&lt;/p&gt;
+&lt;p&gt;Basicamente vimos várias regras para auxiliar a calcular as proposições e chegar a um resultado de verdadeiro ou falso.&lt;/p&gt;
+&lt;p&gt;Agora que conhecemos esses símbolos e regras, podemos ver como confirmar o que calculamos com as &lt;strong&gt;Tabelas Verdade&lt;/strong&gt;.&lt;/p&gt;
+&lt;p&gt;Para isso podemos ver os vídeos a seguir que confirma o que aprendemos e apresenta algumas coisas a mais e as tabelas verdade:&lt;/p&gt;
+&lt;iframe src=&quot;https://www.youtube.com/embed/GlVa3RA9tKI&quot; width=&quot;100%&quot; height=&quot;473px&quot; frameborder=&quot;0&quot; scrolling=&quot;no&quot; allowfullscreen&gt;&lt;/iframe&gt;
+
+&lt;iframe src=&quot;https://www.youtube.com/embed/DwfCk1lguTQ&quot; width=&quot;100%&quot; height=&quot;473px&quot; frameborder=&quot;0&quot; scrolling=&quot;no&quot; allowfullscreen&gt;&lt;/iframe&gt;
+
+&lt;iframe src=&quot;https://www.youtube.com/embed/rjr-RqFM3uc&quot; width=&quot;100%&quot; height=&quot;473px&quot; frameborder=&quot;0&quot; scrolling=&quot;no&quot; allowfullscreen&gt;&lt;/iframe&gt;
+
+&lt;iframe src=&quot;https://www.youtube.com/embed/6E9P-eVOVFA&quot; width=&quot;100%&quot; height=&quot;473px&quot; frameborder=&quot;0&quot; scrolling=&quot;no&quot; allowfullscreen&gt;&lt;/iframe&gt;
+
+&lt;iframe src=&quot;https://www.youtube.com/embed/DmE9OLOZzwE&quot; width=&quot;100%&quot; height=&quot;473px&quot; frameborder=&quot;0&quot; scrolling=&quot;no&quot; allowfullscreen&gt;&lt;/iframe&gt;
+
+&lt;iframe src=&quot;https://www.youtube.com/embed/LoJCfDWziX4&quot; width=&quot;100%&quot; height=&quot;473px&quot; frameborder=&quot;0&quot; scrolling=&quot;no&quot; allowfullscreen&gt;&lt;/iframe&gt;
+
+&lt;iframe src=&quot;https://www.youtube.com/embed/oVOdh0-JSYs&quot; width=&quot;100%&quot; height=&quot;473px&quot; frameborder=&quot;0&quot; scrolling=&quot;no&quot; allowfullscreen&gt;&lt;/iframe&gt;
+
+&lt;iframe src=&quot;https://www.youtube.com/embed/B0NVw76v31U&quot; width=&quot;100%&quot; height=&quot;473px&quot; frameborder=&quot;0&quot; scrolling=&quot;no&quot; allowfullscreen&gt;&lt;/iframe&gt;
+
+&lt;h2 id=&quot;Referencias&quot;&gt;&lt;a href=&quot;#Referencias&quot; class=&quot;headerlink&quot; title=&quot;Referências:&quot;&gt;&lt;/a&gt;Referências:&lt;/h2&gt;&lt;p&gt;&lt;a href=&quot;https://pt.wikiversity.org/wiki/L%C3%B3gica_Matem%C3%A1tica/C%C3%A1lculo_Proposicional&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;https://pt.wikiversity.org/wiki/L%C3%B3gica_Matem%C3%A1tica/C%C3%A1lculo_Proposicional&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://pt.wikipedia.org/wiki/L%C3%B3gica_proposicional&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;https://pt.wikipedia.org/wiki/L%C3%B3gica_proposicional&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://pt.wikipedia.org/wiki/L%C3%B3gica_matem%C3%A1tica&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;https://pt.wikipedia.org/wiki/L%C3%B3gica_matem%C3%A1tica&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;http://www4.pucsp.br/~logica/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;http://www4.pucsp.br/~logica/&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://pt.wikipedia.org/wiki/Tabela_verdade&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;https://pt.wikipedia.org/wiki/Tabela_verdade&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;http://www.infoescola.com/matematica/classificacao-de-proposicoes-logicas/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;http://www.infoescola.com/matematica/classificacao-de-proposicoes-logicas/&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;http://www.infoescola.com/matematica/conectivos-logicos/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;http://www.infoescola.com/matematica/conectivos-logicos/&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;http://www.infoescola.com/matematica/logica-proposicional/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;http://www.infoescola.com/matematica/logica-proposicional/&lt;/a&gt;&lt;/p&gt;
+</content>
+    
+    <summary type="html">
+    
+      Nesse artigo você encontra uma introdução rápida ao Cálculo Proposicional e alguns termos importantes para o estudo do assunto.
+    
+    </summary>
+    
+    
+      <category term="teoria" scheme="http://woliveiras.com.br/tags/teoria/"/>
+    
+      <category term="fundamentos" scheme="http://woliveiras.com.br/tags/fundamentos/"/>
+    
+  </entry>
+  
+  <entry>
     <title>Introdução ao Raciocínio Lógico</title>
     <link href="http://woliveiras.com.br/posts/Introducao-ao-Raciocinio-Logico/"/>
     <id>http://woliveiras.com.br/posts/Introducao-ao-Raciocinio-Logico/</id>
     <published>2016-06-19T14:50:29.000Z</published>
-    <updated>2016-07-16T00:15:14.436Z</updated>
+    <updated>2016-07-16T02:03:20.229Z</updated>
     
     <content type="html">&lt;p&gt;Sempre que alguém pergunta o que precisa conhecer para aprender a programar é padrão que respondamos: Lógica de Programação e uma Linguagem de Programação. Sendo a Lógica de Programação o tema mais importante desses dois citados. &lt;a id=&quot;more&quot;&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;Em todo &lt;a href=&quot;https://www.google.com/about/careers/students/guide-to-technical-development.html&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;guia para iniciantes&lt;/a&gt; ou &lt;a href=&quot;https://woliveiras.com.br/posts/guia-de-estudos-desenvolvedor-front-end-iniciante/&quot;&gt;trilha de estudos&lt;/a&gt; para novos desenvolvedores, sempre abordamos o assunto lógica como algo muito importante para o Desenvolvedor de Software.&lt;/p&gt;
@@ -101,7 +238,7 @@
     <link href="http://woliveiras.com.br/posts/novos-ares-para-o-femug-abc/"/>
     <id>http://woliveiras.com.br/posts/novos-ares-para-o-femug-abc/</id>
     <published>2016-06-05T14:00:00.000Z</published>
-    <updated>2016-07-16T00:15:14.436Z</updated>
+    <updated>2016-07-16T02:03:20.233Z</updated>
     
     <content type="html">&lt;p&gt;Eu &lt;strong&gt;nunca fui em um evento de Desenvolvedores Front End&lt;/strong&gt;, antes de 2015.&lt;/p&gt;
 &lt;p&gt;Moro em uma região bem ruim de se locomover de ônibus. Pra eu ir pra São Paulo, em um evento legal como o SampaJS, eu demoraria de 2:30 a 3 horas de rolê. Isso em um dia sem chuva, pois nesses dias demora entre 3:30 a 4 horas. Coisa linda né? &lt;a id=&quot;more&quot;&gt;&lt;/a&gt;&lt;/p&gt;
@@ -161,7 +298,7 @@
     <link href="http://woliveiras.com.br/posts/Comecei-a-faculdade-de-informatica-e-agora/"/>
     <id>http://woliveiras.com.br/posts/Comecei-a-faculdade-de-informatica-e-agora/</id>
     <published>2016-05-30T02:19:11.000Z</published>
-    <updated>2016-07-16T00:15:14.436Z</updated>
+    <updated>2016-07-16T02:03:20.229Z</updated>
     
     <content type="html">&lt;div class=&quot;shared-img&quot;&gt;&lt;br&gt;    &lt;img src=&quot;https://s33.postimg.org/fputcjr1r/universidade_monstros_personagem_mike.jpg&quot; alt=&quot;Mike Universidade Monstro&quot;&gt;&lt;br&gt;&lt;/div&gt;
 
@@ -220,7 +357,7 @@
     <link href="http://woliveiras.com.br/posts/Comecando-com-o-editor-de-texto-VIM/"/>
     <id>http://woliveiras.com.br/posts/Comecando-com-o-editor-de-texto-VIM/</id>
     <published>2016-05-22T13:30:00.000Z</published>
-    <updated>2016-07-16T00:15:14.436Z</updated>
+    <updated>2016-07-16T02:03:20.229Z</updated>
     
     <content type="html">&lt;p&gt;A tarefa que um Desenvolvedor de Software precisa cumprir com a maior agilidade é a escrita/edição de texto. Depois de pensar por algumas horas, planejar o que vai fazer e como fazer (quais funções, métodos, classes criar), nós partimos para a escrita do código fonte no nosso editor de texto favorito ou em uma &lt;a href=&quot;https://pt.wikipedia.org/wiki/Ambiente_de_desenvolvimento_integrado&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;IDE&lt;/a&gt;.&lt;/p&gt;
 &lt;p&gt;Existem &lt;a href=&quot;http://pt.wikihow.com/Digitar-Mais-R%C3%A1pido&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;várias técnicas&lt;/a&gt; para você ficar fera no teclado, porém hoje vou apresentar outra forma de agilizar as coisas. Vou apresentar (pela minha perspectiva) o &lt;strong&gt;VIM&lt;/strong&gt;. &lt;a id=&quot;more&quot;&gt;&lt;/a&gt;&lt;/p&gt;
@@ -393,7 +530,7 @@
     <link href="http://woliveiras.com.br/posts/Aumente-sua-produtividade-e-da-sua-equipe-com-gamificacao/"/>
     <id>http://woliveiras.com.br/posts/Aumente-sua-produtividade-e-da-sua-equipe-com-gamificacao/</id>
     <published>2016-05-14T18:00:34.000Z</published>
-    <updated>2016-07-16T00:15:14.436Z</updated>
+    <updated>2016-07-16T02:03:20.229Z</updated>
     
     <content type="html">&lt;p&gt;Todos nós gostamos de jogos, seja no PC, Celular ou qualquer outro tipo… Simplesmente, gostamos. Agora imagine utilizar jogos para ser mais produtivo, cuidar da saúde, aprender algo novo ou qualquer outro objetivo pessoal.&lt;/p&gt;
 &lt;p&gt;Imagine transformar sua vida em um jogo de RPG!&lt;a id=&quot;more&quot;&gt;&lt;/a&gt;&lt;/p&gt;
@@ -480,7 +617,7 @@
     <link href="http://woliveiras.com.br/posts/Produtividade-priorizacao-de-tarefas-execucao-e-melhoria-do-processo/"/>
     <id>http://woliveiras.com.br/posts/Produtividade-priorizacao-de-tarefas-execucao-e-melhoria-do-processo/</id>
     <published>2016-04-21T12:31:46.000Z</published>
-    <updated>2016-07-16T00:15:14.436Z</updated>
+    <updated>2016-07-16T02:03:20.229Z</updated>
     
     <content type="html">&lt;p&gt;Continuando a série sobre Produtividade, já sabemos &lt;a href=&quot;/posts/produtividade-uma-re-introducao/&quot;&gt;o que é produtividade&lt;/a&gt; e &lt;a href=&quot;/posts/Produtividade-conhece-te-a-ti-mesmo/&quot;&gt;como nosso cérebro funciona&lt;/a&gt;, agora precisamos aprender a planejar as coisas para que nosso cérebro não nos atrapalhe em nossa meta de sermos mais produtivos. &lt;a id=&quot;more&quot;&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;O planejamento, aqui, pode ser dividido em:&lt;/p&gt;
@@ -566,7 +703,7 @@
     <link href="http://woliveiras.com.br/posts/Links-uteis-para-aprender-se-aprofundar-ou-manter-se-atualizado-sobre-JavaScript/"/>
     <id>http://woliveiras.com.br/posts/Links-uteis-para-aprender-se-aprofundar-ou-manter-se-atualizado-sobre-JavaScript/</id>
     <published>2016-04-20T09:00:19.000Z</published>
-    <updated>2016-07-16T00:15:14.436Z</updated>
+    <updated>2016-07-16T02:03:20.229Z</updated>
     
     <content type="html">&lt;p&gt;Existe muito recurso legal disponível na internet para quem deseja aprender ou se aprofundar em JavaScript. Tanto recursos gratuitos, quanto recursos pagos. Existem muitos &lt;a href=&quot;/posts/Livros-sobre-JavaScript-do-iniciante-ao-avancado-e-ES6/&quot;&gt;livros bons&lt;/a&gt; sobre a linguagem também.&lt;/p&gt;
 &lt;p&gt;Nesse post, vou tentar deixar um compilado de links úteis para quem quer se aprofundar na linguagem da Web!&lt;a id=&quot;more&quot;&gt;&lt;/a&gt;&lt;/p&gt;
@@ -678,7 +815,7 @@
     <link href="http://woliveiras.com.br/posts/Livros-sobre-JavaScript-do-iniciante-ao-avancado-e-ES6/"/>
     <id>http://woliveiras.com.br/posts/Livros-sobre-JavaScript-do-iniciante-ao-avancado-e-ES6/</id>
     <published>2016-04-19T10:24:08.000Z</published>
-    <updated>2016-07-16T00:15:14.436Z</updated>
+    <updated>2016-07-16T02:03:20.229Z</updated>
     
     <content type="html">&lt;p&gt;Existem excelentes livros sobre JavaScript no mercado, mas são tantos que nos perdemos em qual ler primeiro, qual ler depois, qual nem vale a pena ler em determinado nível de conhecimento… São várias dúvidas.&lt;/p&gt;
 &lt;p&gt;Nesse artigo vou tentar ajudar a escolher os melhores livros para seu nível de conhecimento e montar uma sequência legal de leitura para virar um JavaScript Master!&lt;a id=&quot;more&quot;&gt;&lt;/a&gt;&lt;/p&gt;
@@ -745,7 +882,7 @@
     <link href="http://woliveiras.com.br/posts/Produtividade-conhece-te-a-ti-mesmo/"/>
     <id>http://woliveiras.com.br/posts/Produtividade-conhece-te-a-ti-mesmo/</id>
     <published>2016-04-18T11:48:58.000Z</published>
-    <updated>2016-07-16T00:15:14.436Z</updated>
+    <updated>2016-07-16T02:03:20.229Z</updated>
     
     <content type="html">&lt;p&gt;O autoconhecimento é muito importante para você se tornar produtivo.&lt;/p&gt;
 &lt;p&gt;De nada adianta aprender milhares de técnicas, receber diversas dicas sobre produtividade, se nenhuma delas se encaixa em você. Claro que é necessário um pouco de esforço de sua parte para que as metodologias deem certo, porém, dentre milhares de técnicas, você vai precisar achar uma que se encaixe em seu estilo de vida e na sua forma de pensar e agir. &lt;a id=&quot;more&quot;&gt;&lt;/a&gt;&lt;/p&gt;
@@ -823,7 +960,7 @@
     <link href="http://woliveiras.com.br/posts/Por-que-voce-desistiu-de-ser-Cientista/"/>
     <id>http://woliveiras.com.br/posts/Por-que-voce-desistiu-de-ser-Cientista/</id>
     <published>2016-04-16T11:55:36.000Z</published>
-    <updated>2016-07-16T00:15:14.436Z</updated>
+    <updated>2016-07-16T02:03:20.229Z</updated>
     
     <content type="html">&lt;p&gt;Há algum tempo venho observando as pessoas, mais especificamente as pessoas da área de Desenvolvimento de Software. Há mais tempo ainda eu observo as outras pessoas, o ser humano em geral. E desde sempre percebi um padrão:&lt;/p&gt;
 &lt;p&gt;Ao crescer, as pessoas abandonam a profissão que nasce com elas, a profissão de &lt;strong&gt;cientista&lt;/strong&gt;.&lt;a id=&quot;more&quot;&gt;&lt;/a&gt;&lt;/p&gt;
@@ -916,7 +1053,7 @@
     <link href="http://woliveiras.com.br/posts/produtividade-uma-re-introducao/"/>
     <id>http://woliveiras.com.br/posts/produtividade-uma-re-introducao/</id>
     <published>2016-04-13T10:58:34.000Z</published>
-    <updated>2016-07-16T00:15:14.436Z</updated>
+    <updated>2016-07-16T02:03:20.233Z</updated>
     
     <content type="html">&lt;p&gt;No ritmo frenético em que vivemos, ser produtivo já não é mais qualidade de ninguém, precisa ser uma característica de todos.&lt;/p&gt;
 &lt;p&gt;Nós queremos fazer um amontoado de coisas todos os dias e toda hora aparece alguma outra coisa pra se fazer.&lt;/p&gt;
@@ -980,7 +1117,7 @@
     <link href="http://woliveiras.com.br/posts/Criando-uma-imagem-Docker-personalizada/"/>
     <id>http://woliveiras.com.br/posts/Criando-uma-imagem-Docker-personalizada/</id>
     <published>2016-04-12T01:18:59.000Z</published>
-    <updated>2016-07-16T00:15:14.436Z</updated>
+    <updated>2016-07-16T02:03:20.229Z</updated>
     
     <content type="html">&lt;p&gt;É muito legal poder baixar uma imagem do &lt;a href=&quot;http://hub.docker.com/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Docker Hub&lt;/a&gt; e já sair criando os containers, modificando e brincando, mas e depois?&lt;/p&gt;
 &lt;p&gt;Como fazemos para levar essa imagem para outro host?&lt;/p&gt;
@@ -1092,7 +1229,7 @@
     <link href="http://woliveiras.com.br/posts/comandos-mais-utilizados-no-docker/"/>
     <id>http://woliveiras.com.br/posts/comandos-mais-utilizados-no-docker/</id>
     <published>2016-04-12T00:00:08.000Z</published>
-    <updated>2016-07-16T00:15:14.436Z</updated>
+    <updated>2016-07-16T02:03:20.229Z</updated>
     
     <content type="html">&lt;p&gt;Um post rapidinho com os comandos mais utilizados do Docker para não esquecer e consultar facilmente. :D&lt;/p&gt;
 &lt;p&gt;Se você não viu a primeira parte dessa sequência, clique &lt;a href=&quot;/posts/uma-rapida-introducao-ao-docker-e-instalacao-no-ubuntu/&quot;&gt;aqui&lt;/a&gt;.&lt;/p&gt;
@@ -1218,7 +1355,7 @@
     <link href="http://woliveiras.com.br/posts/imagem-docker-ou-um-container-docker/"/>
     <id>http://woliveiras.com.br/posts/imagem-docker-ou-um-container-docker/</id>
     <published>2016-04-11T17:00:00.000Z</published>
-    <updated>2016-07-16T00:15:14.436Z</updated>
+    <updated>2016-07-16T02:03:20.233Z</updated>
     
     <content type="html">&lt;p&gt;Se você viu a primeira parte dessa sequência de artigos, percebeu que existem dois termos muito utilizados quando falamos de Docker: &lt;strong&gt;Imagens&lt;/strong&gt; e &lt;strong&gt;Containers&lt;/strong&gt;. Você deve se perguntar: qual é a diferença entre imagem e container Docker? Ou então: O que eu rodo com o &lt;code&gt;docker run&lt;/code&gt;, uma imagem ou um container? &lt;a id=&quot;more&quot;&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;Se você não viu o primeiro artigo, da uma olhada &lt;a href=&quot;/posts/uma-rapida-introducao-ao-docker-e-instalacao-no-ubuntu/&quot;&gt;aqui&lt;/a&gt;.&lt;/p&gt;
@@ -1297,7 +1434,7 @@
     <link href="http://woliveiras.com.br/posts/uma-rapida-introducao-ao-docker-e-instalacao-no-ubuntu/"/>
     <id>http://woliveiras.com.br/posts/uma-rapida-introducao-ao-docker-e-instalacao-no-ubuntu/</id>
     <published>2016-04-10T11:03:47.000Z</published>
-    <updated>2016-07-16T00:15:14.440Z</updated>
+    <updated>2016-07-16T02:03:20.233Z</updated>
     
     <content type="html">&lt;p&gt;&lt;div class=&quot;shared-img&quot;&gt;&lt;br&gt;&lt;img src=&quot;../../public/images/docker.png&quot; alt=&quot;Docker&quot;&gt;&lt;br&gt;&lt;/div&gt;Você já deve ter ouvido falar, pelo menos uma vez, sobre &lt;a href=&quot;https://www.docker.com/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Docker&lt;/a&gt; em algum lugar. Seja em palestras, blogs, vídeos ou em qualquer outra fonte de estudos sobre desenvolvimento, uma hora sempre comentamos sobre virtualização de ambientes e o Docker é a ferramenta que mais tem se destacado para tal. Ele é uma das 8 maravilhas das atualidades mais atuais. Vamos entender um pouco, então, o que é o Docker e como instalar no nosso Ubuntu.&lt;a id=&quot;more&quot;&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;h2 id=&quot;Introducao&quot;&gt;&lt;a href=&quot;#Introducao&quot; class=&quot;headerlink&quot; title=&quot;Introdução&quot;&gt;&lt;/a&gt;Introdução&lt;/h2&gt;&lt;p&gt;Eu também já ouvia falar do Docker a um bom tempo, porém nunca havia me aprofundado mais nessa ferramenta.&lt;/p&gt;
@@ -1383,7 +1520,7 @@
     <link href="http://woliveiras.com.br/posts/postando-no-blog-est%C3%A1tico-direto-pelo-github-com-hexo-e-travis-ci/"/>
     <id>http://woliveiras.com.br/posts/postando-no-blog-estático-direto-pelo-github-com-hexo-e-travis-ci/</id>
     <published>2016-02-07T00:00:00.000Z</published>
-    <updated>2016-07-16T00:15:14.436Z</updated>
+    <updated>2016-07-16T02:03:20.233Z</updated>
     
     <content type="html">&lt;p&gt;Confesso que fiquei tentado a migrar para o &lt;a href=&quot;https://jekyllrb.com/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Jekyll (Ruby)&lt;/a&gt; depois que um &lt;a href=&quot;http://jotateles.com.br/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;amigo&lt;/a&gt; me mostrou que da para postar no blog direto do GitHub sem ter o Jekyll instalado na máquina. Porém eu não desisti do meu queridinho, o &lt;a href=&quot;http://hexo.io/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Hexo (feito com Node &amp;lt;3)&lt;/a&gt;.&lt;a id=&quot;more&quot;&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;&lt;em&gt;Se você não conhece o Hexo, da uma olhada &lt;a href=&quot;http://woliveiras.com.br/posts/Migrando-de-Wordpress-para-Hexo/&quot;&gt;nesse artigo&lt;/a&gt;.&lt;/em&gt;&lt;/p&gt;
@@ -1458,7 +1595,7 @@
     <link href="http://woliveiras.com.br/posts/um-ano-como-desenvolvedor-front-end/"/>
     <id>http://woliveiras.com.br/posts/um-ano-como-desenvolvedor-front-end/</id>
     <published>2015-12-01T12:00:00.000Z</published>
-    <updated>2016-07-16T00:15:14.440Z</updated>
+    <updated>2016-07-16T02:03:20.233Z</updated>
     
     <content type="html">&lt;p&gt;Todo mundo tem uma história legal pra contar sobre como começou na área de Desenvolvimento, seja Web, Mobile, Desktop ou tanto faz. Sempre temos algo interessante para passar para os novos desenvolvedores que estão entrando no mercado e que, as vezes, tem medo de se arriscar, achando que &lt;a href=&quot;http://woliveiras.com.br/posts/requisitos-para-vagas-front-end/&quot;&gt;precisam saber de tudo para investir no primeiro trampo&lt;/a&gt;.&lt;/p&gt;
 &lt;p&gt;Conheça um pouco sobre como foi meu primeiro ano como Desenvolvedor Front End. Medos, frustrações, desespero, alegria, festas e algumas dicas para se preparar para o mercado de trabalho.&lt;/p&gt;
@@ -1508,7 +1645,7 @@
     <link href="http://woliveiras.com.br/posts/corrigindo-permissoes-de-usuario-linux-npm/"/>
     <id>http://woliveiras.com.br/posts/corrigindo-permissoes-de-usuario-linux-npm/</id>
     <published>2015-09-12T13:00:00.000Z</published>
-    <updated>2016-07-16T00:15:14.436Z</updated>
+    <updated>2016-07-16T02:03:20.229Z</updated>
     
     <content type="html">&lt;div class=&quot;shared-img&quot;&gt;&lt;br&gt;&lt;img src=&quot;../../public/images/npm.svg&quot; alt=&quot;&quot;&gt;&lt;br&gt;&lt;/div&gt;
 
@@ -1551,7 +1688,7 @@
     <link href="http://woliveiras.com.br/posts/utilizando-versoes-antigas-do-nodejs/"/>
     <id>http://woliveiras.com.br/posts/utilizando-versoes-antigas-do-nodejs/</id>
     <published>2015-09-12T08:00:32.000Z</published>
-    <updated>2016-07-16T00:15:14.440Z</updated>
+    <updated>2016-07-16T02:03:20.233Z</updated>
     
     <content type="html">&lt;div class=&quot;shared-img&quot;&gt;&lt;br&gt;&lt;img src=&quot;../..//public/images/nodejs.png&quot; alt=&quot;&quot;&gt;&lt;br&gt;&lt;/div&gt;
 
@@ -1628,89 +1765,6 @@
       <category term="NPM" scheme="http://woliveiras.com.br/tags/NPM/"/>
     
       <category term="NVM" scheme="http://woliveiras.com.br/tags/NVM/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Twitter Bootstrap do jeito certo</title>
-    <link href="http://woliveiras.com.br/posts/twitter-bootstrap-bootstrap-do-jeito-certo/"/>
-    <id>http://woliveiras.com.br/posts/twitter-bootstrap-bootstrap-do-jeito-certo/</id>
-    <published>2015-09-09T01:00:00.000Z</published>
-    <updated>2016-07-16T00:15:14.436Z</updated>
-    
-    <content type="html">&lt;p&gt;Muita gente critica o uso do &lt;a href=&quot;http://getbootstrap.com/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Twitter Bootstrap&lt;/a&gt; devido a nomenclatura de suas classes e aos muitos componentes que o framework possui.&lt;/p&gt;
-&lt;p&gt;Dizem que as classes não são semanticas e que o peso do framework é desnecessário.&lt;/p&gt;
-&lt;p&gt;Pois bem, &lt;strong&gt;você não precisa das classes col-md/lg/xs-xxx no seu HTML&lt;/strong&gt; e para projetos pequenos (que você não usa todo o potencial do framework) você pode &lt;strong&gt;selecionar somente o que vai utilizar no projeto&lt;/strong&gt;.&lt;br&gt;Maneiro né? Da uma olhada como faz…&lt;br&gt;&lt;a id=&quot;more&quot;&gt;&lt;/a&gt;&lt;br&gt;Se você já conhece pré processadores, será fácil aprender essa forma de utilizar o BS (Bootstrap). Se não conhece é melhor dar uma estudada no Less (que é o mais fácil para iniciantes) ou no Sass para acompanhar essa dica e absorver melhor. Depois de aprender volte aqui e continue a leitura. ;)&lt;/p&gt;
-&lt;h4 id=&quot;Para-aprender-Less&quot;&gt;&lt;a href=&quot;#Para-aprender-Less&quot; class=&quot;headerlink&quot; title=&quot;Para aprender Less:&quot;&gt;&lt;/a&gt;Para aprender Less:&lt;/h4&gt;&lt;ul&gt;
-&lt;li&gt;&lt;a href=&quot;http://lesscss.org/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;http://lesscss.org/&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;http://blog.caelum.com.br/css-facil-flexivel-e-dinamico-com-less/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;http://blog.caelum.com.br/css-facil-flexivel-e-dinamico-com-less/&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h4 id=&quot;Para-aprender-Sass&quot;&gt;&lt;a href=&quot;#Para-aprender-Sass&quot; class=&quot;headerlink&quot; title=&quot;Para aprender Sass:&quot;&gt;&lt;/a&gt;Para aprender Sass:&lt;/h4&gt;&lt;ul&gt;
-&lt;li&gt;&lt;a href=&quot;http://sass-lang.com/guide&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;http://sass-lang.com/guide&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;http://pre-processadores.github.io/Sass-Guide/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;http://pre-processadores.github.io/Sass-Guide/&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;Eu recomendo começar pelo Less pela sintaxe já ser mais familiar e depois migrar para o Sass, pois o BS também vai mudar para Sass na versão 4.&lt;/p&gt;
-&lt;h2 id=&quot;Semantica-e-CSS&quot;&gt;&lt;a href=&quot;#Semantica-e-CSS&quot; class=&quot;headerlink&quot; title=&quot;Semântica e CSS?&quot;&gt;&lt;/a&gt;Semântica e CSS?&lt;/h2&gt;&lt;p&gt;Claro que a semântica nesse caso se trata da arquitetura do Front End e não da Semântica do conteúdo que o Browser vai ler, pois essa é definida pelo HTML - Comente se errei, mas não achei nada a respeito de importância semântica nos valores de classes CSS.&lt;br&gt;Porém é uma coisa importante… Você bater o olho em um código e identificar o que é aquele componente é algo bom. É produtivo.&lt;/p&gt;
-&lt;h2 id=&quot;O-que-preciso-manjar-pra-fazer-um-bom-uso-do-Bootstrap&quot;&gt;&lt;a href=&quot;#O-que-preciso-manjar-pra-fazer-um-bom-uso-do-Bootstrap&quot; class=&quot;headerlink&quot; title=&quot;O que preciso manjar pra fazer um bom uso do Bootstrap?&quot;&gt;&lt;/a&gt;O que preciso manjar pra fazer um bom uso do Bootstrap?&lt;/h2&gt;&lt;p&gt;Antes de partir para qualquer framework, seja de CSS, JS ou algo de Backend, é necessário que possua conhecimento nas tecnologias por trás disso. Se vamos utilizar o BS para agilizar nosso Front, é primordial o conhecimento em HTML, CSS e JavaScript.&lt;br&gt;&lt;strong&gt;Se você não tiver o conhecimento básico, vai correr o sério risco de estragar ainda mais o seu trabalho se usar qualquer framework.&lt;/strong&gt;&lt;/p&gt;
-&lt;h2 id=&quot;Bootstrap-Less-GruntJS&quot;&gt;&lt;a href=&quot;#Bootstrap-Less-GruntJS&quot; class=&quot;headerlink&quot; title=&quot;Bootstrap + Less + GruntJS&quot;&gt;&lt;/a&gt;Bootstrap + Less + GruntJS&lt;/h2&gt;&lt;p&gt;Para agilizar nosso trabalho de compilar o Less, podemos usar algum Task Runner. No meu caso usei o Grunt, pois já utilizava ele a algum tempo.&lt;/p&gt;
-&lt;h4 id=&quot;Pastel&quot;&gt;&lt;a href=&quot;#Pastel&quot; class=&quot;headerlink&quot; title=&quot;Pastel&quot;&gt;&lt;/a&gt;Pastel&lt;/h4&gt;&lt;p&gt;Eu já possuo um Boilerplate montado para agilizar meu trabalho. Podemos utilizar ele para facilitar nosso estudo também. Chamei ele de &lt;a href=&quot;https://github.com/woliveiras/pastel&quot; title=&quot;Pastel&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Pastel&lt;/a&gt;! Baixe em seu PC e vamos ao trabalho.&lt;/p&gt;
-&lt;p&gt;Siga o passo a passo da instalação do Pastel e depois pode então executar o comando &lt;strong&gt;grunt watch&lt;/strong&gt; que já está pré configurado para monitorar os arquivos &lt;em&gt;.less&lt;/em&gt; e compilar sempre que você salvar os arquivos.&lt;/p&gt;
-&lt;p&gt;Caso não queira usar o Pastel, fique a vontade para utilizar suas próprias tarefas ou compilar de seu jeito se preferir pelo terminal. O uso do Pastel é somente para agilizar o Start do nosso Projeto.&lt;/p&gt;
-&lt;h2 id=&quot;Selecionando-somente-os-componentes-que-precisamos-utilizar-do-Bootstrap&quot;&gt;&lt;a href=&quot;#Selecionando-somente-os-componentes-que-precisamos-utilizar-do-Bootstrap&quot; class=&quot;headerlink&quot; title=&quot;Selecionando somente os componentes que precisamos utilizar do Bootstrap&quot;&gt;&lt;/a&gt;Selecionando somente os componentes que precisamos utilizar do Bootstrap&lt;/h2&gt;&lt;p&gt;Antes de começar a codificar, identifique no projeto quais seriam os componentes necessários.&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Exemplo&lt;/strong&gt;: Será necessário utilizar abas em alguma parte da interface? Tem formulários, tabelas, etc?&lt;/p&gt;
-&lt;p&gt;Essa parte é muito importante para deixar o arquivo final mais enxuto.&lt;/p&gt;
-&lt;p&gt;Se você não conhece todos os componentes do BS, da uma olhada &lt;a href=&quot;http://getbootstrap.com/components/&quot; title=&quot;Components Bootstrap&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;aqui&lt;/a&gt;.&lt;/p&gt;
-&lt;p&gt;Depois disso você pode abrir o arquivo &lt;strong&gt;default.less&lt;/strong&gt; que está dentro de &lt;strong&gt;src/less&lt;/strong&gt;. É nesse arquivo que você seleciona os componentes que vão entrar no projeto. Nele estão os &lt;strong&gt;imports&lt;/strong&gt; necessários para tudo funcionar.&lt;/p&gt;
-&lt;p&gt;Todas as linhas estão comentadas para que só compile o que você escolher.&lt;/p&gt;
-&lt;p&gt;Ex.:&lt;/p&gt;
-&lt;p&gt;Digamos que você vai utilizar modal e tooltips, então você pode remover as barras (//) do início das linhas que chamam esses componentes.&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Antes&lt;/strong&gt;&lt;/p&gt;
-&lt;figure class=&quot;highlight perl&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;div class=&quot;line&quot;&gt;1&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;2&lt;/div&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;div class=&quot;line&quot;&gt;//@import &lt;span class=&quot;string&quot;&gt;&quot;&lt;span class=&quot;subst&quot;&gt;@&amp;#123;path_bootstrap&amp;#125;&lt;/span&gt;modals&quot;&lt;/span&gt;;&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;&lt;span class=&quot;regexp&quot;&gt;//&lt;/span&gt;@import &lt;span class=&quot;string&quot;&gt;&quot;&lt;span class=&quot;subst&quot;&gt;@&amp;#123;path_bootstrap&amp;#125;&lt;/span&gt;tooltip&quot;&lt;/span&gt;;&lt;/div&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
-&lt;p&gt;&lt;strong&gt;Depois de remover os comentários&lt;/strong&gt;&lt;/p&gt;
-&lt;figure class=&quot;highlight css&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;div class=&quot;line&quot;&gt;1&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;2&lt;/div&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;div class=&quot;line&quot;&gt;@&lt;span class=&quot;keyword&quot;&gt;import&lt;/span&gt; &lt;span class=&quot;string&quot;&gt;&quot;@&amp;#123;path_bootstrap&amp;#125;modals&quot;&lt;/span&gt;;&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;@&lt;span class=&quot;keyword&quot;&gt;import&lt;/span&gt; &lt;span class=&quot;string&quot;&gt;&quot;@&amp;#123;path_bootstrap&amp;#125;tooltip&quot;&lt;/span&gt;;&lt;/div&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
-&lt;p&gt;&lt;strong&gt;path_bootstrap&lt;/strong&gt; é uma variável que leva o caminho completo do BS para compilação. Ele vai chamar esse arquivo para compilar e concatenar no arquivo final compilado com os estilos do BS + os seus estilos.&lt;/p&gt;
-&lt;p&gt;Algumas variáveis importantes você pode conhecer &lt;a href=&quot;http://getbootstrap.com/css/#less&quot; title=&quot;Referência do BS com Less&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;aqui&lt;/a&gt;.&lt;/p&gt;
-&lt;p&gt;Os componentes necessários na maioria dos projetos já estão sem as // no arquivo default do Pastel, que são esses:&lt;/p&gt;
-&lt;figure class=&quot;highlight css&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;div class=&quot;line&quot;&gt;1&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;2&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;3&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;4&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;5&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;6&lt;/div&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;div class=&quot;line&quot;&gt;&lt;span class=&quot;comment&quot;&gt;/* Componentes comuns nos projetos */&lt;/span&gt;&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;@&lt;span class=&quot;keyword&quot;&gt;import&lt;/span&gt; &lt;span class=&quot;string&quot;&gt;&quot;@&amp;#123;path_bootstrap&amp;#125;scaffolding.less&quot;&lt;/span&gt;;&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;@&lt;span class=&quot;keyword&quot;&gt;import&lt;/span&gt; &lt;span class=&quot;string&quot;&gt;&quot;@&amp;#123;path_bootstrap&amp;#125;type.less&quot;&lt;/span&gt;;&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;@&lt;span class=&quot;keyword&quot;&gt;import&lt;/span&gt; &lt;span class=&quot;string&quot;&gt;&quot;@&amp;#123;path_bootstrap&amp;#125;grid.less&quot;&lt;/span&gt;;&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;@&lt;span class=&quot;keyword&quot;&gt;import&lt;/span&gt; &lt;span class=&quot;string&quot;&gt;&quot;@&amp;#123;path_bootstrap&amp;#125;utilities&quot;&lt;/span&gt;;&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;@&lt;span class=&quot;keyword&quot;&gt;import&lt;/span&gt; &lt;span class=&quot;string&quot;&gt;&quot;@&amp;#123;path_bootstrap&amp;#125;responsive-utilities&quot;&lt;/span&gt;;&lt;/div&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
-&lt;p&gt;Mas você pode ficar a vontade para remover e adicionar os componentes que quiser e confirmar você mesmo sobre o peso final do arquivo.&lt;/p&gt;
-&lt;p&gt;O que acontece aqui é que o Less lê o nosso arquivo default.less que está apontando para a pasta do BS + as pastas com nossos estilos. Então ele junta tudo em um arquivo compilando para css.&lt;/p&gt;
-&lt;p&gt;As variáveis que possuírem o mesmo nome que as do BS em nossos arquivos irão sobrescrever os estilos padrões do BS por estarem sendo chamados por último e assim por diante.&lt;/p&gt;
-&lt;p&gt;Tudo o que precisar modificar não precisa de !important ou ficar usando id, basta sobrescrever usando essa tecnica que o Less faz o trabalho final ficar bonito.&lt;/p&gt;
-&lt;h2 id=&quot;Como-utilizar-o-Grid-do-Bootstrap-com-Less&quot;&gt;&lt;a href=&quot;#Como-utilizar-o-Grid-do-Bootstrap-com-Less&quot; class=&quot;headerlink&quot; title=&quot;Como utilizar o Grid do Bootstrap com Less?&quot;&gt;&lt;/a&gt;Como utilizar o Grid do Bootstrap com Less?&lt;/h2&gt;&lt;p&gt;No arquivo &lt;strong&gt;styles.less&lt;/strong&gt; (se estiver usando o Pastel) é onde você vai colocar os estilos para seu projeto, você não vai mais colocar &lt;strong&gt;col-xx-xx&lt;/strong&gt; no HTML. Ao invés disso você pode criar seus componentes de acordo com o contexto e fazer o seguinte:&lt;/p&gt;
-&lt;p&gt;No arquivo styles.less:&lt;/p&gt;
-&lt;figure class=&quot;highlight less&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;div class=&quot;line&quot;&gt;1&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;2&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;3&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;4&lt;/div&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;div class=&quot;line&quot;&gt;&lt;span class=&quot;selector-class&quot;&gt;.classe-que-recebe-o-grid&lt;/span&gt;&amp;#123;&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;  &lt;span class=&quot;selector-class&quot;&gt;.make-lg-column&lt;/span&gt;(&lt;span class=&quot;number&quot;&gt;8&lt;/span&gt;); &lt;span class=&quot;comment&quot;&gt;//Aqui será ins	erido o grid do col-lg-8&lt;/span&gt;&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;  &lt;span class=&quot;selector-class&quot;&gt;.make-md-column&lt;/span&gt;(&lt;span class=&quot;number&quot;&gt;8&lt;/span&gt;); &lt;span class=&quot;comment&quot;&gt;// e aqui o col-md-8&lt;/span&gt;&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;&amp;#125;&lt;/div&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
-&lt;p&gt;O arquivo final ficará assim:&lt;/p&gt;
-&lt;figure class=&quot;highlight css&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;div class=&quot;line&quot;&gt;1&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;2&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;3&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;4&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;5&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;6&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;7&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;8&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;9&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;10&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;11&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;12&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;13&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;14&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;15&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;16&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;17&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;18&lt;/div&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;div class=&quot;line&quot;&gt;&lt;span class=&quot;selector-class&quot;&gt;.classe-que-recebe-o-grid&lt;/span&gt; &amp;#123;&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;  &lt;span class=&quot;attribute&quot;&gt;position&lt;/span&gt;: relative;&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;  &lt;span class=&quot;attribute&quot;&gt;min-height&lt;/span&gt;: &lt;span class=&quot;number&quot;&gt;1px&lt;/span&gt;;&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;  &lt;span class=&quot;attribute&quot;&gt;padding-left&lt;/span&gt;: &lt;span class=&quot;number&quot;&gt;15px&lt;/span&gt;;&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;  &lt;span class=&quot;attribute&quot;&gt;padding-right&lt;/span&gt;: &lt;span class=&quot;number&quot;&gt;15px&lt;/span&gt;;&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;&amp;#125;&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;@&lt;span class=&quot;keyword&quot;&gt;media&lt;/span&gt; (min-width: &lt;span class=&quot;number&quot;&gt;1200px&lt;/span&gt;) &amp;#123;&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;  &lt;span class=&quot;selector-class&quot;&gt;.classe-que-recebe-o-grid&lt;/span&gt; &amp;#123;&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;    &lt;span class=&quot;attribute&quot;&gt;float&lt;/span&gt;: left;&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;    &lt;span class=&quot;attribute&quot;&gt;width&lt;/span&gt;: &lt;span class=&quot;number&quot;&gt;66.66666667%&lt;/span&gt;;&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;  &amp;#125;&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;&amp;#125;&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;@&lt;span class=&quot;keyword&quot;&gt;media&lt;/span&gt; (min-width: &lt;span class=&quot;number&quot;&gt;992px&lt;/span&gt;) &amp;#123;&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;  &lt;span class=&quot;selector-class&quot;&gt;.classe-que-recebe-o-grid&lt;/span&gt; &amp;#123;&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;    &lt;span class=&quot;attribute&quot;&gt;float&lt;/span&gt;: left;&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;    &lt;span class=&quot;attribute&quot;&gt;width&lt;/span&gt;: &lt;span class=&quot;number&quot;&gt;66.66666667%&lt;/span&gt;;&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;  &amp;#125;&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;&amp;#125;&lt;/div&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
-&lt;p&gt;Quando tiver mais de um componente que recebe o mesmo grid você pode usar o conceito de agrupamento de CSS e colocar as duas classes para receber tal estilo:&lt;/p&gt;
-&lt;p&gt;Less:&lt;/p&gt;
-&lt;figure class=&quot;highlight less&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;div class=&quot;line&quot;&gt;1&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;2&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;3&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;4&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;5&lt;/div&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;div class=&quot;line&quot;&gt;&lt;span class=&quot;selector-class&quot;&gt;.classe-que-recebe-o-grid&lt;/span&gt;,&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;&lt;span class=&quot;selector-class&quot;&gt;.outra-classe-com-grid&lt;/span&gt;&amp;#123;&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;  &lt;span class=&quot;selector-class&quot;&gt;.make-lg-column&lt;/span&gt;(&lt;span class=&quot;number&quot;&gt;8&lt;/span&gt;);&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;  &lt;span class=&quot;selector-class&quot;&gt;.make-md-column&lt;/span&gt;(&lt;span class=&quot;number&quot;&gt;8&lt;/span&gt;);&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;&amp;#125;&lt;/div&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
-&lt;p&gt;Resultado:&lt;/p&gt;
-&lt;figure class=&quot;highlight css&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;div class=&quot;line&quot;&gt;1&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;2&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;3&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;4&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;5&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;6&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;7&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;8&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;9&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;10&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;11&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;12&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;13&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;14&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;15&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;16&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;17&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;18&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;19&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;20&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;21&lt;/div&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;div class=&quot;line&quot;&gt;&lt;span class=&quot;selector-class&quot;&gt;.classe-que-recebe-o-grid&lt;/span&gt;,&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;&lt;span class=&quot;selector-class&quot;&gt;.outra-classe-com-grid&lt;/span&gt; &amp;#123;&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;  &lt;span class=&quot;attribute&quot;&gt;position&lt;/span&gt;: relative;&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;  &lt;span class=&quot;attribute&quot;&gt;min-height&lt;/span&gt;: &lt;span class=&quot;number&quot;&gt;1px&lt;/span&gt;;&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;  &lt;span class=&quot;attribute&quot;&gt;padding-left&lt;/span&gt;: &lt;span class=&quot;number&quot;&gt;15px&lt;/span&gt;;&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;  &lt;span class=&quot;attribute&quot;&gt;padding-right&lt;/span&gt;: &lt;span class=&quot;number&quot;&gt;15px&lt;/span&gt;;&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;&amp;#125;&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;@&lt;span class=&quot;keyword&quot;&gt;media&lt;/span&gt; (min-width: &lt;span class=&quot;number&quot;&gt;1200px&lt;/span&gt;) &amp;#123;&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;  &lt;span class=&quot;selector-class&quot;&gt;.classe-que-recebe-o-grid&lt;/span&gt;,&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;  &lt;span class=&quot;selector-class&quot;&gt;.outra-classe-com-grid&lt;/span&gt; &amp;#123;&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;    &lt;span class=&quot;attribute&quot;&gt;float&lt;/span&gt;: left;&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;    &lt;span class=&quot;attribute&quot;&gt;width&lt;/span&gt;: &lt;span class=&quot;number&quot;&gt;66.66666667%&lt;/span&gt;;&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;  &amp;#125;&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;&amp;#125;&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;@&lt;span class=&quot;keyword&quot;&gt;media&lt;/span&gt; (min-width: &lt;span class=&quot;number&quot;&gt;992px&lt;/span&gt;) &amp;#123;&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;  &lt;span class=&quot;selector-class&quot;&gt;.classe-que-recebe-o-grid&lt;/span&gt;,&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;  &lt;span class=&quot;selector-class&quot;&gt;.outra-classe-com-grid&lt;/span&gt; &amp;#123;&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;    &lt;span class=&quot;attribute&quot;&gt;float&lt;/span&gt;: left;&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;    &lt;span class=&quot;attribute&quot;&gt;width&lt;/span&gt;: &lt;span class=&quot;number&quot;&gt;66.66666667%&lt;/span&gt;;&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;  &amp;#125;&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;&amp;#125;&lt;/div&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
-&lt;p&gt;Os nomes de arquivos e a forma que eu utilizo não são um padrão e você não é obrigado a seguir… Basta modificar da sua maneira e modificar na tarefa less no Gruntfile.&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Referência&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a href=&quot;http://blog.rafamello.com/bootstrap-inteligente&quot; title=&quot;Bootstrap Inteligente&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Bootstrap Inteligente - Rafa Mello&lt;/a&gt;&lt;/p&gt;
-</content>
-    
-    <summary type="html">
-    
-      Twitter Bootstrap é pesado? Twitter Bootstrap não é semântico? Confira algumas dicas para usar o Twitter Bootstrap do jeito certo.
-    
-    </summary>
-    
-      <category term="Dicas" scheme="http://woliveiras.com.br/categories/Dicas/"/>
-    
-      <category term="Front End" scheme="http://woliveiras.com.br/categories/Dicas/Front-End/"/>
-    
-      <category term="Grunt" scheme="http://woliveiras.com.br/categories/Dicas/Front-End/Grunt/"/>
-    
-      <category term="Produtividade" scheme="http://woliveiras.com.br/categories/Dicas/Front-End/Grunt/Produtividade/"/>
-    
-    
-      <category term="Grunt" scheme="http://woliveiras.com.br/tags/Grunt/"/>
-    
-      <category term="Less" scheme="http://woliveiras.com.br/tags/Less/"/>
-    
-      <category term="Bootstrap" scheme="http://woliveiras.com.br/tags/Bootstrap/"/>
     
   </entry>
   
