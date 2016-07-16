@@ -97,7 +97,7 @@ No exemplo do carro a premissa descarta a possibilidade de alguém empurrar esse
 
 ## Concluindo
 
-Esse post foi uma introdução ao Raciocínio Lógico, mas ainda temos outros tópicos a abordar como Proposições, Conectívos, Operações Lógicas, Construção de Tabelas Verdade, dentre outros. Se eu falasse tudo aqui, iram ser umas 2 horinhas de leitura e sintese fácilmente, então preferi dividir em uma série de artigos.
+Esse post foi uma introdução ao Raciocínio Lógico, mas ainda temos outros tópicos a abordar como Proposições, Conectívos, Operações Lógicas, Construção de Tabelas Verdade, dentre outros. Se eu falasse tudo aqui, iram ser umas 2 horinhas de leitura e sintese fácilmente, então preferi dividir o assunto.
 
 Eu não abordei, nesse artigo, a classificação da lógica, pois implica em mais história da lógica, então de uma olhadinha nesses artigos para aprender um pouco mais sobre isso e se preparar para os próximos artigos:
 
