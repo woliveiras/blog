@@ -1,5 +1,5 @@
 title: Introdução ao Cálculo Proposicional
-date: 2016-06-19 11:50:29
+date: 2016-07-15 23:00:00
 tags:
     - teoria
     - fundamentos
