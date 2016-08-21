@@ -13,7 +13,7 @@
 <meta property="og:url" content="http://woliveiras.com.br/posts/grunt-automatizando-tarefas/index.html">
 <meta property="og:site_name" content="William Oliveira - Desenvolvedor Front End">
 <meta property="og:description" content="Automatizando tarefas com o Grunt">
-<meta property="og:updated_time" content="2016-07-27T10:06:07.850Z">
+<meta property="og:updated_time" content="2016-08-21T20:26:48.457Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="Grunt | Automatizando tarefas">
 <meta name="twitter:description" content="Automatizando tarefas com o Grunt">
@@ -142,7 +142,7 @@
 <p>Todo plugin instalado, deve ser carregado, como mostrado na expressão: <strong>grunt.LoadNpmTask(‘grunt-contrib-uglify’);.</strong></p>
 <p>As tarefas que serão executadas com o comando <em>grunt (sem passar nenhum parâmetro)</em> no terminal são registradas como na expessão <strong>grunt.registerTask(‘default’, [‘uglify’]);</strong> onde foi configurado a tarefa <strong>‘default’</strong> (que é executada automaticamente com o comando grunt) que, nesse caso, chamou uma tarefa uglify, mas da para chamar várias ao mesmo tempo.</p>
 <p>Se você quisesse executar somente a tarefa uglify, poderia rodar o comando grunt com o parâmtro uglify:</p>
-<figure class="highlight nginx"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line"><span class="attribute">grunt</span> uglify</div></pre></td></tr></table></figure>
+<figure class="highlight ebnf"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line"><span class="attribute">grunt uglify</span></div></pre></td></tr></table></figure>
 <p>Se existisse outra tarefa com o nome <em>cssmin</em>, você executaria <em>grunt cssmin</em> ou configuraria a tarefa ‘default’ para chamar também a cssmin:</p>
 <figure class="highlight less"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">grunt<span class="selector-class">.registerTask</span>(<span class="string">'default'</span>, [<span class="string">'uglify'</span>, <span class="string">'cssmin'</span>]);</div></pre></td></tr></table></figure>
 <p>Um exemplo completo de arquivo Gruntfile.js e, também, do package.json pode ser encontrado aqui no meu boilerplate, o Pastel: <a href="https://github.com/woliveiras/pastel" target="_blank" rel="external">https://github.com/woliveiras/pastel</a></p>

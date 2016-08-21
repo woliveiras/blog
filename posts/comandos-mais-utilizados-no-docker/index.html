@@ -13,7 +13,7 @@
 <meta property="og:url" content="http://woliveiras.com.br/posts/comandos-mais-utilizados-no-docker/index.html">
 <meta property="og:site_name" content="William Oliveira - Desenvolvedor Front End">
 <meta property="og:description" content="Comandos mais utilizados durante o Workflow com Docker">
-<meta property="og:updated_time" content="2016-07-27T10:06:07.846Z">
+<meta property="og:updated_time" content="2016-08-21T20:26:48.457Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="Comandos mais utilizados no Docker">
 <meta name="twitter:description" content="Comandos mais utilizados durante o Workflow com Docker">
@@ -122,7 +122,7 @@
 <p>Se você não viu a primeira parte dessa sequência, clique <a href="/posts/uma-rapida-introducao-ao-docker-e-instalacao-no-ubuntu/">aqui</a>.</p>
 <p>E a segunda parte, <a href="/posts/imagem-docker-ou-um-container-docker/">aqui</a><a id="more"></a></p>
 <h2 id="Como-eu-sei-quais-as-imagens-disponiveis-no-meu-repositorio-local"><a href="#Como-eu-sei-quais-as-imagens-disponiveis-no-meu-repositorio-local" class="headerlink" title="Como eu sei quais as imagens disponíveis no meu repositório local?"></a>Como eu sei quais as imagens disponíveis no meu repositório local?</h2><p>Utilize o comando <code>images</code> para listar:</p>
-<figure class="highlight nginx"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line"><span class="attribute">docker</span> images</div></pre></td></tr></table></figure>
+<figure class="highlight ebnf"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line"><span class="attribute">docker images</span></div></pre></td></tr></table></figure>
 <p>Será apresentado uma tabela no seu Terminal com:</p>
 <ul>
 <li><strong>REPOSITORY</strong> - repositório</li>
@@ -132,9 +132,9 @@
 <li><strong>SIZE</strong> - tamanho dessa imagem</li>
 </ul>
 <h2 id="Como-adicionar-imagens-locais"><a href="#Como-adicionar-imagens-locais" class="headerlink" title="Como adicionar imagens locais?"></a>Como adicionar imagens locais?</h2><p>Utilize o comando <code>search</code> para procurar a imagem e o comando <code>pull</code> para baixar:</p>
-<figure class="highlight excel"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">docker <span class="built_in">search</span> ubuntu</div></pre></td></tr></table></figure>
+<figure class="highlight ebnf"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line"><span class="attribute">docker search ubuntu</span></div></pre></td></tr></table></figure>
 <p>Encontrado a imagem correta, utilize <code>pull</code> com o nome dessa imagem:</p>
-<figure class="highlight nginx"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line"><span class="attribute">docker</span> pull ubuntu</div></pre></td></tr></table></figure>
+<figure class="highlight ebnf"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line"><span class="attribute">docker pull ubuntu</span></div></pre></td></tr></table></figure>
 <h2 id="Como-remover-imagens-locais"><a href="#Como-remover-imagens-locais" class="headerlink" title="Como remover imagens locais?"></a>Como remover imagens locais?</h2><p>Localize o ID ou nome do repositório com o comando <code>docker images</code>.</p>
 <p>Com o id ou o nome do repositório em mãos, utilize o comando <code>rmi</code> para excluir as imagens.</p>
 <figure class="highlight autohotkey"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">docker rmi ID_ou_nome_d<span class="built_in">a_imagem</span></div></pre></td></tr></table></figure>
@@ -149,7 +149,7 @@
 <p>Perceba que logo depois do parâmetro <code>--name</code> vem o nome que deseja e o nome da imagem que vai ser utilizada para gerar o container.</p>
 <p>Nesse caso a imagem <code>ubuntu</code> e o alias <code>ubuntinho</code>.</p>
 <h2 id="Verificar-o-estado-ou-encontrar-o-ID-de-um-container"><a href="#Verificar-o-estado-ou-encontrar-o-ID-de-um-container" class="headerlink" title="Verificar o estado ou encontrar o ID de um container"></a>Verificar o estado ou encontrar o ID de um container</h2><p>Você consegue uma lista dos containers ativos com o comando <code>ps</code>:</p>
-<figure class="highlight nginx"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line"><span class="attribute">docker</span> ps</div></pre></td></tr></table></figure>
+<figure class="highlight ebnf"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line"><span class="attribute">docker ps</span></div></pre></td></tr></table></figure>
 <p>Vai aparecer uma tabela com</p>
 <ul>
 <li><strong>CONTAINER ID</strong> - ID do container</li>

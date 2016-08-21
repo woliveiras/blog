@@ -13,7 +13,7 @@
 <meta property="og:url" content="http://woliveiras.com.br/posts/Criando-uma-imagem-Docker-personalizada/index.html">
 <meta property="og:site_name" content="William Oliveira - Desenvolvedor Front End">
 <meta property="og:description" content="Criando uma imagem Docker personalizada e conhecendo o Dockerfile.">
-<meta property="og:updated_time" content="2016-07-27T10:06:07.846Z">
+<meta property="og:updated_time" content="2016-08-21T20:26:48.453Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="Criando uma imagem Docker personalizada">
 <meta name="twitter:description" content="Criando uma imagem Docker personalizada e conhecendo o Dockerfile.">
@@ -170,9 +170,9 @@
 <figure class="highlight dockerfile"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line"><span class="keyword">EXPOSE</span> <span class="number">8080</span></div></pre></td></tr></table></figure>
 <p>Aqui é bem simples, ele vai expor a porta <code>8080</code>.</p>
 <p>Para saber qual porta o host está utilizando como ponte para acesso a porta do container, podemos procurar com o comando:</p>
-<figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">docker port id_ou_apelido_<span class="keyword">do</span>_container</div></pre></td></tr></table></figure>
+<figure class="highlight elm"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line"><span class="title">docker</span> <span class="keyword">port</span> id_ou_apelido_do_container</div></pre></td></tr></table></figure>
 <p>Ou usar um:</p>
-<figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">docker inspect id_ou_apelido_<span class="keyword">do</span>_container</div></pre></td></tr></table></figure>
+<figure class="highlight gradle"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">docker <span class="keyword">inspect</span> id_ou_apelido_do_container</div></pre></td></tr></table></figure>
 <p>Na <a href="https://docs.docker.com/engine/reference/builder/" target="_blank" rel="external">documentação oficial do Docker</a> você encontrará outras informações legais sobre os comandos que podem ser executados no Dockerfile.</p>
 <h2 id="Como-gerar-a-nova-imagem"><a href="#Como-gerar-a-nova-imagem" class="headerlink" title="Como gerar a nova imagem"></a>Como gerar a nova imagem</h2><p>Com nosso arquivo Dockfile configurado, podemos gerar nossa nova imagem.</p>
 <p>Para tal, execute o comando <code>build</code>:</p>
@@ -185,18 +185,18 @@
 <p>Finalizado o processo, você pode ver sua nova imagem com o comando <code>docker images</code>.</p>
 <h2 id="Exportando-a-imagem-para-tar"><a href="#Exportando-a-imagem-para-tar" class="headerlink" title="Exportando a imagem para .tar"></a>Exportando a imagem para .tar</h2><p>Você pode querer, agora, carregar essa imagem em um Pen Drive.</p>
 <p>Para isso, utilize o comando <code>save</code>:</p>
-<figure class="highlight crystal"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">docker save woliveiras/nginx &gt; <span class="regexp">/tmp/meu</span>_web_server.tar</div></pre></td></tr></table></figure>
+<figure class="highlight awk"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">docker save woliveiras<span class="regexp">/nginx &gt; /</span>tmp<span class="regexp">/meu_web_server.tar</span></div></pre></td></tr></table></figure>
 <p>Você deve passar o ID da imagem ou o nome.</p>
 <p>O Docker vai exportar a imagem e compactar em formato .tar.</p>
 <p>Agora você pode carregar por Pen Drive, subir em algum lugar para um amigo baixar (ou você mesmo), etc.</p>
 <h2 id="Importando-a-imagem-de-um-tar"><a href="#Importando-a-imagem-de-um-tar" class="headerlink" title="Importando a imagem de um .tar"></a>Importando a imagem de um .tar</h2><p>Como importar essa imagem gerada via comando <code>save</code>?</p>
 <p>Usando o comando <code>load</code>.</p>
-<figure class="highlight crystal"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">docker load &lt; <span class="regexp">/tmp/meu</span>_web_server.tar</div></pre></td></tr></table></figure>
+<figure class="highlight awk"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">docker load &lt; <span class="regexp">/tmp/m</span>eu_web_server.tar</div></pre></td></tr></table></figure>
 <p>O Docker vai importar sua imagem com o nome, tag, etc, que a imagem já possuia antes, não com o nome do arquivo gerado.</p>
 <p>Para ver se deu tudo certo, basta rodar o <code>docker images</code> também.</p>
 <h2 id="Subindo-a-imagem-para-o-Docker-Hub"><a href="#Subindo-a-imagem-para-o-Docker-Hub" class="headerlink" title="Subindo a imagem para o Docker Hub"></a>Subindo a imagem para o Docker Hub</h2><p>Para subir uma imagem para o Docker Hub, primeiro precisará de uma conta no <a href="http://hub.docker.com/" target="_blank" rel="external">site</a>. Caso não possua, não precisa entrar no site agora (calma apressado(a)), durante o Login, é criado sua conta via Terminal mesmo.</p>
 <p>Faça login com sua conta no Terminal usando o comando <code>docker login</code>:</p>
-<figure class="highlight nginx"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line"><span class="attribute">docker</span> login</div></pre></td></tr></table></figure>
+<figure class="highlight ebnf"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line"><span class="attribute">docker login</span></div></pre></td></tr></table></figure>
 <p>Para subir a imagem, basta fazer um <code>push</code>, parecido com o nosso querido <a href="https://git-scm.com/" target="_blank" rel="external">Git</a>.</p>
 <figure class="highlight armasm"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line"><span class="symbol">docker</span> <span class="keyword">push </span>nome_da_imagem</div></pre></td></tr></table></figure>
 <p>Ex.:</p>

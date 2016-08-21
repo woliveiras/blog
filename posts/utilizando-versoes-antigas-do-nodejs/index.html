@@ -18,7 +18,7 @@
 <meta property="og:image" content="http://woliveiras.com.br/../../public/images/nvm-install-v.png">
 <meta property="og:image" content="http://woliveiras.com.br/../../public/images/terminal-with-nvmrc.png">
 <meta property="og:image" content="http://woliveiras.com.br/../../public/images/nvm-install-nvmrc.png">
-<meta property="og:updated_time" content="2016-07-27T10:06:07.850Z">
+<meta property="og:updated_time" content="2016-08-21T20:26:48.457Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="Utilizando versões antigas do Nodejs">
 <meta name="twitter:description" content="Como utilizar mais de uma versão de Node na mesma máquina.">
@@ -132,12 +132,12 @@
 <p><strong>Instalação das dependências</strong></p>
 <figure class="highlight q"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line">sudo apt-<span class="built_in">get</span> <span class="keyword">update</span></div><div class="line">sudo apt-<span class="built_in">get</span> install build-essential libssl-<span class="built_in">dev</span></div></pre></td></tr></table></figure>
 <p><strong>Instalação do NVM</strong></p>
-<figure class="highlight vim"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">curl -<span class="keyword">o</span>- http<span class="variable">s:</span>//raw.githubusercontent.<span class="keyword">com</span>/creationix/nvm/v0.<span class="number">26.1</span>/install.<span class="keyword">sh</span> | bash</div></pre></td></tr></table></figure>
+<figure class="highlight awk"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">curl -o- https:<span class="regexp">//</span>raw.githubusercontent.com<span class="regexp">/creationix/</span>nvm<span class="regexp">/v0.26.1/i</span>nstall.sh | bash</div></pre></td></tr></table></figure>
 <p><em>Lembrando que o comando acima vai instalar a ultima versão de quando eu escrevi esse post, poranto pode estar desatualizada. Para pegar a ultima versão do NVM, acesse o link do repositório na sessão Referência desse artigo.</em></p>
 <p>Para conseguir utilizar o NVM você precisa efetuar Logoff em seu Sistema. Se não quiser deslogar agora, pode rodar o comando <code>source ~/.profile</code></p>
 <p><strong>Se você utiliza Windows basta seguir <a href="https://github.com/coreybutler/nvm-windows" title="NVM no Windows" target="_blank" rel="external">esse tutorial</a> para a instação.</strong></p>
 <h2 id="Instalando-versoes-isoladas-do-Nodejs"><a href="#Instalando-versoes-isoladas-do-Nodejs" class="headerlink" title="Instalando versões isoladas do Nodejs"></a>Instalando versões isoladas do Nodejs</h2><p>Para encontrar as versões disponíveis para instalação você pode executar o comando:</p>
-<figure class="highlight mel"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">nvm <span class="keyword">ls</span>-remote</div></pre></td></tr></table></figure>
+<figure class="highlight ebnf"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line"><span class="attribute">nvm ls-remote</span></div></pre></td></tr></table></figure>
 <p>As versões disponíveis para a instalação serão apresentadas.</p>
 <p><img src="../../public/images/nvm-ls-remote.png" alt="nvm ls remote"></p>
 <p>E agora, para instalar a versão anterior necessária, basta executar o comando:</p>
@@ -150,7 +150,7 @@
 <figure class="highlight stata"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">nvm <span class="keyword">run</span> versao <span class="keyword">app</span>.js</div></pre></td></tr></table></figure>
 <p>Para colocar a aplicação para funcionar com a versão específica somente até finalizar a mesma.</p>
 <p>Se ouver mais de uma versão instalada, você pode executar o comando:</p>
-<figure class="highlight mel"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">nvm <span class="keyword">ls</span></div></pre></td></tr></table></figure>
+<figure class="highlight ebnf"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line"><span class="attribute">nvm ls</span></div></pre></td></tr></table></figure>
 <p>Para ver a lista das versões.</p>
 <h2 id="Deixando-uma-versao-como-padrao"><a href="#Deixando-uma-versao-como-padrao" class="headerlink" title="Deixando uma versão como padrão"></a>Deixando uma versão como padrão</h2><p>Se quiser setar uma versão anterior como padrão e não a mais atual, basta rodar:</p>
 <figure class="highlight ceylon"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">nvm <span class="keyword">alias</span> <span class="keyword">default</span> versão</div></pre></td></tr></table></figure>

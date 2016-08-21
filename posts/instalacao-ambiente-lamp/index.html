@@ -13,7 +13,7 @@
 <meta property="og:url" content="http://woliveiras.com.br/posts/instalacao-ambiente-lamp/index.html">
 <meta property="og:site_name" content="William Oliveira - Desenvolvedor Front End">
 <meta property="og:description" content="Instalação do LAMP (Linux, Apache, MySQL e PHP)">
-<meta property="og:updated_time" content="2016-07-27T10:06:07.850Z">
+<meta property="og:updated_time" content="2016-08-21T20:26:48.457Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="Instalação do ambiente LAMP">
 <meta name="twitter:description" content="Instalação do LAMP (Linux, Apache, MySQL e PHP)">
@@ -134,12 +134,12 @@
 <h4 id="Instalacao-do-PHP"><a href="#Instalacao-do-PHP" class="headerlink" title="Instalação do PHP"></a>Instalação do PHP</h4><p>Esse comando é grandinho por que possui algumas bibliotecas que eu uso para desenvolvimento com base no que eu já usei até hoje, portanto se você ver alguma que não deseja utilizar, basta remover dessa linha e executar.</p>
 <figure class="highlight smali"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line">sudo apt-get install -y php5 libapache2-mod-php5 php5-common php5-curl php5-dev php5-gd php5-idn</div><div class="line">php-pear php5-imagick php5-imap php5-json php5-mcrypt php5-memcache php5-mhash php5-ming</div><div class="line">php5-mysql php5-ps php5-pspell php5-recode php5-snmp php5-sqlite php5-tidy php5-xmlrpc php5-xsl</div></pre></td></tr></table></figure>
 <p>Depois dessa instalação é necessário<strong> reiniciar o Apache.</strong> Execute o seguinte comando:</p>
-<figure class="highlight dts"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">sudo <span class="meta-keyword">/etc/</span>init.d/apache2 restart</div></pre></td></tr></table></figure>
+<figure class="highlight awk"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">sudo <span class="regexp">/etc/i</span>nit.d<span class="regexp">/apache2 restart</span></div></pre></td></tr></table></figure>
 <p>Alguns componentes importantes para seus estudos e para desenvolvimento também:</p>
 <h4 id="XDebug"><a href="#XDebug" class="headerlink" title="XDebug"></a>XDebug</h4><figure class="highlight actionscript"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">sudo apt-<span class="keyword">get</span> install php5-xdebug</div></pre></td></tr></table></figure>
 <h4 id="PHPMyAdmin"><a href="#PHPMyAdmin" class="headerlink" title="PHPMyAdmin"></a>PHPMyAdmin</h4><figure class="highlight actionscript"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">sudo apt-<span class="keyword">get</span> install -y phpmyadmin</div></pre></td></tr></table></figure>
 <p>Se, depois desse passo a passo, você quiser conferir se o servidor está funcionando execute o comando:</p>
-<figure class="highlight nginx"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line"><span class="attribute">netstat</span> -tap</div></pre></td></tr></table></figure>
+<figure class="highlight ebnf"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line"><span class="attribute">netstat -tap</span></div></pre></td></tr></table></figure>
 <p>Surgirá uma saída parecida com essa no seu terminal:</p>
 <figure class="highlight elixir"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">tcp <span class="number">0</span> <span class="number">0</span> *<span class="symbol">:mysql</span> *<span class="symbol">:*</span> LISTEN <span class="number">3281</span>/mysqld</div></pre></td></tr></table></figure>
 <p>Beleza chefe, tudo instalado e agora como eu crio aplicações dentro do meu ambiente LAMP?</p>

@@ -17,7 +17,7 @@
 <meta property="og:image" content="http://woliveiras.com.br/../../public/images/rede-virtualbox-vagrant.png">
 <meta property="og:image" content="http://woliveiras.com.br/../../public/images/guest-additions-vagrant.png">
 <meta property="og:image" content="http://woliveiras.com.br/../../public/images/nome-base-box-vagrant.png">
-<meta property="og:updated_time" content="2016-07-27T10:06:07.846Z">
+<meta property="og:updated_time" content="2016-08-21T20:26:48.457Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="Criar uma base box para o Vagrant">
 <meta name="twitter:description" content="Como criar uma base box para Vagrant com minhas configurações?">
@@ -136,7 +136,7 @@
 <p>“Coloque o CD do Guest Additions”</p>
 <p><img src="../../public/images/guest-additions-vagrant.png" alt="Inserindo VBox Additions"></p>
 <p>Em seguida execute:</p>
-<figure class="highlight dts"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line">$ sudo mount <span class="meta-keyword">/dev/</span>cdrom <span class="meta-keyword">/media/</span>cdrom</div><div class="line"></div><div class="line">$ sudo <span class="meta-keyword">/media/</span>cdrom/VBoxLinuxAdditions.run</div></pre></td></tr></table></figure>
+<figure class="highlight awk"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line">$ sudo mount <span class="regexp">/dev/</span>cdrom <span class="regexp">/media/</span>cdrom</div><div class="line"></div><div class="line">$ sudo <span class="regexp">/media/</span>cdrom<span class="regexp">/VBoxLinuxAdditions.run</span></div></pre></td></tr></table></figure>
 <p>Atualize o S.O.</p>
 <figure class="highlight q"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ sudo apt-<span class="built_in">get</span> <span class="keyword">update</span> &amp;amp;&amp;amp; sudo apt-<span class="built_in">get</span> –y upgrade</div></pre></td></tr></table></figure>
 <p>Adicione o usuário Vagrant ao grupo sudoers</p>
