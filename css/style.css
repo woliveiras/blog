@@ -566,7 +566,7 @@ a.article-title:hover {
 .article-entry p,
 .article-entry table {
   line-height: 1.6em;
-  margin: 1.6em 0;
+  margin: 0.8em 0;
 }
 @media screen and (max-width: 479px) {
   .article-entry p,
