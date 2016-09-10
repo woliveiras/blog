@@ -286,14 +286,9 @@ body {
   font-weight: bold;
 }
 #header {
-  height: 320px;
   position: relative;
-  border-top: 5px solid #de1b1b;
-}
-@media screen and (max-width: 479px) {
-  #header {
-    height: 240px;
-  }
+  border-top: 2px solid #de1b1b;
+  margin-bottom: 20px;
 }
 #header-outer {
   height: 100%;
@@ -499,9 +494,6 @@ body {
 .search-form-submit:focus {
   color: #777;
 }
-.article {
-  margin: 15px 0;
-}
 .article-inner {
   overflow: hidden;
 }
@@ -532,10 +524,7 @@ body {
   margin: 0 12px 1em;
 }
 .article-header {
-  padding: 20px 20px 0;
   text-align: center;
-}
-@media screen and (max-width: 479px) {
 }
 .article-title {
   text-decoration: none;
@@ -1158,8 +1147,6 @@ a.article-title:hover {
   color: #ddd;
 }
 #footer {
-  background: #262a30;
-  padding-top: 50px;
   color: #999;
 }
 #footer a {
