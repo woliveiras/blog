@@ -1363,15 +1363,16 @@ pre .javascript .function {
 }
 .contact-icons a {
   text-decoration: none;
+  display: inline-block;
 }
 .contact-icons .ico {
   display: inline-block;
   width: 50px;
   height: 50px;
-  margin: 10px;
+  margin: 5px;
   opacity: 0.9;
 }
-.contact-icons .ico:hover {
+.contact-icons:hover {
   opacity: 1;
 }
 .contact-icons .facebook {
