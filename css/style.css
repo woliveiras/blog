@@ -699,18 +699,10 @@ a.article-title:hover {
 .article-more-link a {
   display: inline-block;
   line-height: 1em;
-  padding: 6px 15px;
+  padding: 15px 15px 15px 0px;
   border-radius: 15px;
-  background: #eee;
-  color: #999;
   text-shadow: 0 1px #fff;
   text-decoration: none;
-}
-.article-more-link a:hover {
-  background: #b30707;
-  color: #fff;
-  text-decoration: none;
-  text-shadow: 0 1px #8f0606;
 }
 .article-footer {
   font-size: 0.85em;
