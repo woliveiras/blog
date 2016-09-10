@@ -12,7 +12,7 @@ tags:
 description: Como configurar e utilizar o Vagrant para Desenvolvimento
 ---
 
-Se você leu a [primeira parte desse tutorial](/posts/instalacao-vagrant/ "Crie e compartilhe ambientes com o Vagrant (Instalação)"), então podemos seguir por aqui e aprender a configurar e utilizar o Vagrant.<!--more-->
+Se você leu a [primeira parte desse tutorial](/posts/vagrant-introducao-instalacao/ "Crie e compartilhe ambientes com o Vagrant (Instalação)"), então podemos seguir por aqui e aprender a configurar e utilizar o Vagrant.<!--more-->
 
 #### Adicionando uma Box
 

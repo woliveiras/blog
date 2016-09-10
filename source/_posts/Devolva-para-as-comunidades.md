@@ -9,7 +9,7 @@ description: Todos os dias usamos as comunidades e coisas que as comunidades cri
 
 Todos os dias ficamos devendo para as comunidades e nem percebemos isso.
 
-Utilizamos Softwares Open Source ([VIM](https://github.com/vim/vim), [Atom](https://github.com/atom/atom), [VS Code](https://github.com/Microsoft/vscode)) para editar nossos códigos fonte, para navegar na internet ([Firefox](https://developer.mozilla.org/pt-BR/docs/Developer_Guide/Codigo_Fonte/Downloading_Source_Archives), [Chromium](https://chromium.googlesource.com/)), escrevemos códigos para rodar em [plataformas abertas](https://github.com/nodejs/node), buscamos respostas em [foruns](https://github.com/frontendbr/forum)... Enfim, são muitos os casos em que as comunidades nos ajudam, mas será que estamos retribuindo isso de alguma maneira ou estamos deixando passar a oportunidade de contribuir de com a vida das pessoas?<!--more-->
+Utilizamos Softwares Open Source ([VIM](https://github.com/vim/vim), [Atom](https://github.com/atom/atom), [VS Code](https://github.com/Microsoft/vscode)) para editar nossos códigos fonte, para navegar na internet ([Firefox](https://developer.mozilla.org/pt-BR/docs/Developer_Guide/Codigo_Fonte/Downloading_Source_Archives), [Chromium](https://chromium.googlesource.com/)), escrevemos códigos para rodar em [plataformas abertas](https://github.com/nodejs/node), buscamos respostas em [foruns](https://github.com/frontendbr/forum)... Enfim, são muitos os casos em que as comunidades nos ajudam, mas será que estamos retribuindo isso de alguma maneira ou estamos deixando passar a oportunidade de contribuir com a vida das pessoas?<!--more-->
 
 ## Comunidades são legais
 
