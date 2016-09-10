@@ -84,29 +84,3 @@ deploy:
 #SEO
 sitemap:
     path: sitemap.xml
-
-# Performance
-html_minifier:
-  enable: true
-  exclude:
-
-css_minifier:
-  enable: true
-  exclude:
-    - '*.min.css'
-
-js_minifier:
-  enable: true
-  mangle: true
-  output:
-  compress:
-  exclude:
-    - '*.min.js'
-
-image_minifier:
-  enable: true
-  interlaced: false
-  multipass: false
-  optimizationLevel: 5
-  pngquant: false
-  progressive: true
