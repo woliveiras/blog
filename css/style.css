@@ -288,7 +288,7 @@ body {
 #header {
   position: relative;
   border-top: 2px solid #de1b1b;
-  padding-bottom: 30px;
+  height: 300px;
 }
 #header-outer {
   height: 100%;
@@ -322,7 +322,7 @@ body {
   font-size: 2.8rem;
   text-align: center;
   line-height: 0.8;
-  margin-top: 30px;
+  padding-top: 80px;
 }
 @media screen and (max-width: 479px) {
   #header-title {
@@ -465,7 +465,7 @@ body {
 .search-form-input {
   border: none;
   background: none;
-  color: #232323;
+  color: rgba(0,0,0,0.7);
   width: 100%;
   font: 13px 'Open Sans', sans-serif;
   outline: none;
@@ -548,7 +548,7 @@ a.article-title:hover {
   color: #b30707;
 }
 .article-entry {
-  color: #232323;
+  color: rgba(0,0,0,0.7);
   padding: 0 10px;
 }
 .article-entry:before,
@@ -794,7 +794,7 @@ a.article-title:hover {
   display: block;
 }
 .article-nav-link-wrap:hover {
-  color: #232323;
+  color: rgba(0,0,0,0.7);
 }
 @media screen and (min-width: 768px) {
   .article-nav-link-wrap {
@@ -853,7 +853,7 @@ a.article-title:hover {
   box-sizing: border-box;
   font: 14px 'Open Sans', sans-serif;
   padding: 0 15px;
-  color: #232323;
+  color: rgba(0,0,0,0.7);
   outline: none;
   border: 1px solid #ddd;
   border-radius: 3px 3px 0 0;
@@ -1088,12 +1088,12 @@ a.article-title:hover {
   display: block;
 }
 #page-nav {
-  margin: 50px auto;
+  margin-top: 50px;
+  margin-bottom: 20px;
   background: #fff;
-  border-top: 1px solid #ddd;
   border-radius: 3px;
   text-align: center;
-  color: #999;
+  color: rgba(0,0,0,0.7);
   overflow: hidden;
 }
 #page-nav:before,
@@ -1111,12 +1111,11 @@ a.article-title:hover {
   height: 4ex;
 }
 #page-nav a {
-  color: #999;
+  color: rgba(0,0,0,0.7);
   text-decoration: none;
 }
 #page-nav a:hover {
-  background: #b30707;
-  color: #fff;
+  color: #b30707;
 }
 #page-nav .prev {
   float: left;
@@ -1133,7 +1132,7 @@ a.article-title:hover {
   }
 }
 #page-nav .current {
-  color: #232323;
+  color: rgba(0,0,0,0.7);
   font-weight: bold;
 }
 #page-nav .space {
@@ -1352,7 +1351,8 @@ pre .javascript .function {
   }
 }
 .contact-icons {
-  padding-top: 10px;
+  padding: 20px 0;
+  text-align: center;
 }
 .contact-icons a {
   text-decoration: none;
@@ -1363,32 +1363,38 @@ pre .javascript .function {
   width: 50px;
   height: 50px;
   margin: 5px;
-  opacity: 0.9;
+  opacity: 0.7;
 }
-.contact-icons:hover {
+.contact-icons .ico:hover {
   opacity: 1;
 }
 .contact-icons .facebook {
-  background: url("../../../public/contact-icons/facebook.svg") no-repeat;
-  -webkit-background-size: 100%;
-  -moz-background-size: 100%;
-  background-size: 100%;
+  background: url("../../../public/contact-icons/contact-icons.svg") no-repeat;
+  -webkit-background-size: 45px;
+  -moz-background-size: 45px;
+  background-size: 45px;
+  background-position-y: 4px;
+  background-position-x: 17px;
 }
 .contact-icons .twitter {
-  background: url("../../../public/contact-icons/twitter.svg") no-repeat;
-  -webkit-background-size: 100%;
-  -moz-background-size: 100%;
-  background-size: 100%;
+  background: url("../../../public/contact-icons/contact-icons.svg") no-repeat;
+  -webkit-background-size: 50px;
+  -moz-background-size: 50px;
+  background-size: 50px;
+  background-position-y: -115px;
 }
 .contact-icons .linkedin {
-  background: url("../../../public/contact-icons/linkedin.svg") no-repeat;
-  -webkit-background-size: 100%;
-  -moz-background-size: 100%;
-  background-size: 100%;
+  background: url("../../../public/contact-icons/contact-icons.svg") no-repeat;
+  -webkit-background-size: 45px;
+  -moz-background-size: 45px;
+  background-size: 45px;
+  background-position-y: -57px;
+  background-position-x: 2px;
 }
 .contact-icons .github {
-  background: url("../../../public/contact-icons/github.svg") no-repeat;
-  -webkit-background-size: 100%;
-  -moz-background-size: 100%;
-  background-size: 100%;
+  background: url("../../../public/contact-icons/contact-icons.svg") no-repeat;
+  -webkit-background-size: 180px;
+  -moz-background-size: 180px;
+  background-size: 180px;
+  background-position-y: -180px;
 }
