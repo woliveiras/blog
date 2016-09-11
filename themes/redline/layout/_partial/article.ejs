@@ -18,10 +18,6 @@
         <%- post.content %>
       <% } %>
     </div>
-    <footer class="article-footer">
-      <%- partial('post/tag') %>
-      <%- partial('post/date', {class_name: 'article-date', date_format: null}) %>
-    </footer>
   </div>
   <% if (!index){ %>
     <%- partial('post/nav') %>
