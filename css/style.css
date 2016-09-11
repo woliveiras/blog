@@ -288,7 +288,7 @@ body {
 #header {
   position: relative;
   border-top: 2px solid #de1b1b;
-  margin-bottom: 20px;
+  padding-bottom: 50px;
 }
 #header-outer {
   height: 100%;

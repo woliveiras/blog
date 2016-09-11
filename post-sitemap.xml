@@ -7,272 +7,8 @@
     </url>
 
     <url>
-        <loc>http://woliveiras.com.br/posts/utilizando-versoes-antigas-do-nodejs/</loc>
-        <lastmod>2016-09-10T23:56:24.909Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.6</priority>
-
-    </url>
-
-    <url>
-        <loc>http://woliveiras.com.br/posts/vagrant-introducao-instalacao/</loc>
-        <lastmod>2016-09-10T23:56:24.909Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.6</priority>
-
-    </url>
-
-    <url>
-        <loc>http://woliveiras.com.br/posts/vagrant-no-windows/</loc>
-        <lastmod>2016-09-10T23:56:24.909Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.6</priority>
-
-    </url>
-
-    <url>
-        <loc>http://woliveiras.com.br/posts/Comecando-com-o-editor-de-texto-VIM/</loc>
-        <lastmod>2016-09-10T23:56:24.905Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.6</priority>
-
-    </url>
-
-    <url>
-        <loc>http://woliveiras.com.br/posts/Comecei-a-faculdade-de-informatica-e-agora/</loc>
-        <lastmod>2016-09-10T23:56:24.905Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.6</priority>
-
-    </url>
-
-    <url>
-        <loc>http://woliveiras.com.br/posts/Criando-uma-imagem-Docker-personalizada/</loc>
-        <lastmod>2016-09-10T23:56:24.905Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.6</priority>
-
-    </url>
-
-    <url>
-        <loc>http://woliveiras.com.br/posts/Devolva-para-as-comunidades/</loc>
-        <lastmod>2016-09-10T23:56:24.905Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.6</priority>
-
-    </url>
-
-    <url>
-        <loc>http://woliveiras.com.br/posts/Introducao-ao-Calculo-Proposicional/</loc>
-        <lastmod>2016-09-10T23:56:24.905Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.6</priority>
-
-    </url>
-
-    <url>
-        <loc>http://woliveiras.com.br/posts/Introducao-ao-Raciocinio-Logico/</loc>
-        <lastmod>2016-09-10T23:56:24.905Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.6</priority>
-
-    </url>
-
-    <url>
-        <loc>http://woliveiras.com.br/posts/Links-uteis-para-aprender-se-aprofundar-ou-manter-se-atualizado-sobre-JavaScript/</loc>
-        <lastmod>2016-09-10T23:56:24.905Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.6</priority>
-
-    </url>
-
-    <url>
-        <loc>http://woliveiras.com.br/posts/Livros-sobre-JavaScript-do-iniciante-ao-avancado-e-ES6/</loc>
-        <lastmod>2016-09-10T23:56:24.905Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.6</priority>
-
-    </url>
-
-    <url>
-        <loc>http://woliveiras.com.br/posts/Migrando-de-Wordpress-para-Hexo/</loc>
-        <lastmod>2016-09-10T23:56:24.905Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.6</priority>
-
-    </url>
-
-    <url>
-        <loc>http://woliveiras.com.br/posts/Por-que-voce-desistiu-de-ser-Cientista/</loc>
-        <lastmod>2016-09-10T23:56:24.905Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.6</priority>
-
-    </url>
-
-    <url>
-        <loc>http://woliveiras.com.br/posts/Produtividade-conhece-te-a-ti-mesmo/</loc>
-        <lastmod>2016-09-10T23:56:24.905Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.6</priority>
-
-    </url>
-
-    <url>
-        <loc>http://woliveiras.com.br/posts/Produtividade-priorizacao-de-tarefas-execucao-e-melhoria-do-processo/</loc>
-        <lastmod>2016-09-10T23:56:24.905Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.6</priority>
-
-    </url>
-
-    <url>
-        <loc>http://woliveiras.com.br/posts/aprenda-trabalhar-em-equipes/</loc>
-        <lastmod>2016-09-10T23:56:24.905Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.6</priority>
-
-    </url>
-
-    <url>
-        <loc>http://woliveiras.com.br/posts/comandos-mais-utilizados-no-docker/</loc>
-        <lastmod>2016-09-10T23:56:24.905Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.6</priority>
-
-    </url>
-
-    <url>
-        <loc>http://woliveiras.com.br/posts/como-alcancar-objetivos-rapidamente-nos-estudos/</loc>
-        <lastmod>2016-09-10T23:56:24.905Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.6</priority>
-
-    </url>
-
-    <url>
-        <loc>http://woliveiras.com.br/posts/como-deixar-o-ubuntu-mais-rapido/</loc>
-        <lastmod>2016-09-10T23:56:24.905Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.6</priority>
-
-    </url>
-
-    <url>
-        <loc>http://woliveiras.com.br/posts/como-detectar-o-dispositivo-que-acessa-seu-site/</loc>
-        <lastmod>2016-09-10T23:56:24.905Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.6</priority>
-
-    </url>
-
-    <url>
-        <loc>http://woliveiras.com.br/posts/como-ser-mais-produtivo/</loc>
-        <lastmod>2016-09-10T23:56:24.905Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.6</priority>
-
-    </url>
-
-    <url>
-        <loc>http://woliveiras.com.br/posts/configurar-vagrant/</loc>
-        <lastmod>2016-09-10T23:56:24.905Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.6</priority>
-
-    </url>
-
-    <url>
-        <loc>http://woliveiras.com.br/posts/contribuindo-para-projetos-open-source-no-github-mesmo-sendo-iniciante/</loc>
-        <lastmod>2016-09-10T23:56:24.905Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.6</priority>
-
-    </url>
-
-    <url>
-        <loc>http://woliveiras.com.br/posts/corrigindo-permissoes-de-usuario-linux-npm/</loc>
-        <lastmod>2016-09-10T23:56:24.905Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.6</priority>
-
-    </url>
-
-    <url>
-        <loc>http://woliveiras.com.br/posts/criar-uma-base-box-para-o-vagrant/</loc>
-        <lastmod>2016-09-10T23:56:24.905Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.6</priority>
-
-    </url>
-
-    <url>
-        <loc>http://woliveiras.com.br/posts/css-reset-de-varias-maneiras/</loc>
-        <lastmod>2016-09-10T23:56:24.905Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.6</priority>
-
-    </url>
-
-    <url>
-        <loc>http://woliveiras.com.br/posts/desenvolvendo-interfaces-like-boss/</loc>
-        <lastmod>2016-09-10T23:56:24.905Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.6</priority>
-
-    </url>
-
-    <url>
-        <loc>http://woliveiras.com.br/posts/extensoes-navegador-desenvolvimento-web/</loc>
-        <lastmod>2016-09-10T23:56:24.905Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.6</priority>
-
-    </url>
-
-    <url>
-        <loc>http://woliveiras.com.br/posts/frameworks-front-end/</loc>
-        <lastmod>2016-09-10T23:56:24.905Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.6</priority>
-
-    </url>
-
-    <url>
-        <loc>http://woliveiras.com.br/posts/freelancer-quanto-cobrar-pelo-freelance/</loc>
-        <lastmod>2016-09-10T23:56:24.905Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.6</priority>
-
-    </url>
-
-    <url>
-        <loc>http://woliveiras.com.br/posts/gerenciar-projetos-com-trello/</loc>
-        <lastmod>2016-09-10T23:56:24.905Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.6</priority>
-
-    </url>
-
-    <url>
-        <loc>http://woliveiras.com.br/posts/grunt-automatizando-tarefas/</loc>
-        <lastmod>2016-09-10T23:56:24.905Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.6</priority>
-
-    </url>
-
-    <url>
-        <loc>http://woliveiras.com.br/posts/guia-de-estudos-desenvolvedor-front-end-iniciante/</loc>
-        <lastmod>2016-09-10T23:56:24.905Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.6</priority>
-
-    </url>
-
-    <url>
         <loc>http://woliveiras.com.br/posts/gulp-esse-e-ligeiro/</loc>
-        <lastmod>2016-09-10T23:56:24.905Z</lastmod>
+        <lastmod>2016-09-11T15:20:19.838Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
 
@@ -280,7 +16,7 @@
 
     <url>
         <loc>http://woliveiras.com.br/posts/haroopad-um-editor-markdown-maneiro/</loc>
-        <lastmod>2016-09-10T23:56:24.905Z</lastmod>
+        <lastmod>2016-09-11T15:20:19.838Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
 
@@ -288,7 +24,7 @@
 
     <url>
         <loc>http://woliveiras.com.br/posts/imagem-docker-ou-um-container-docker/</loc>
-        <lastmod>2016-09-10T23:56:24.905Z</lastmod>
+        <lastmod>2016-09-11T15:20:19.838Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
 
@@ -296,7 +32,7 @@
 
     <url>
         <loc>http://woliveiras.com.br/posts/instalacao-ambiente-lamp/</loc>
-        <lastmod>2016-09-10T23:56:24.905Z</lastmod>
+        <lastmod>2016-09-11T15:20:19.838Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
 
@@ -304,7 +40,7 @@
 
     <url>
         <loc>http://woliveiras.com.br/posts/instalando-o-git-windows/</loc>
-        <lastmod>2016-09-10T23:56:24.905Z</lastmod>
+        <lastmod>2016-09-11T15:20:19.838Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
 
@@ -312,7 +48,7 @@
 
     <url>
         <loc>http://woliveiras.com.br/posts/instalando-o-sublime-text-no-ubuntu/</loc>
-        <lastmod>2016-09-10T23:56:24.905Z</lastmod>
+        <lastmod>2016-09-11T15:20:19.838Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
 
@@ -320,7 +56,7 @@
 
     <url>
         <loc>http://woliveiras.com.br/posts/meu-contato-com-o-linux-e-por-que-voce-deveria-testar/</loc>
-        <lastmod>2016-09-10T23:56:24.905Z</lastmod>
+        <lastmod>2016-09-11T15:20:19.838Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
 
@@ -328,7 +64,7 @@
 
     <url>
         <loc>http://woliveiras.com.br/posts/minificar-pra-que/</loc>
-        <lastmod>2016-09-10T23:56:24.905Z</lastmod>
+        <lastmod>2016-09-11T15:20:19.838Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
 
@@ -336,7 +72,7 @@
 
     <url>
         <loc>http://woliveiras.com.br/posts/novos-ares-para-o-femug-abc/</loc>
-        <lastmod>2016-09-10T23:56:24.905Z</lastmod>
+        <lastmod>2016-09-11T15:20:19.838Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
 
@@ -344,7 +80,7 @@
 
     <url>
         <loc>http://woliveiras.com.br/posts/o-que-e-linguagem-de-programacao-de-alto-nivel/</loc>
-        <lastmod>2016-09-10T23:56:24.905Z</lastmod>
+        <lastmod>2016-09-11T15:20:19.838Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
 
@@ -352,7 +88,7 @@
 
     <url>
         <loc>http://woliveiras.com.br/posts/olha-o-passarinho-falando-sobre-o-bower/</loc>
-        <lastmod>2016-09-10T23:56:24.905Z</lastmod>
+        <lastmod>2016-09-11T15:20:19.838Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
 
@@ -360,7 +96,7 @@
 
     <url>
         <loc>http://woliveiras.com.br/posts/plugins-sublime-text-para-desenvolvimento-web/</loc>
-        <lastmod>2016-09-10T23:56:24.905Z</lastmod>
+        <lastmod>2016-09-11T15:20:19.838Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
 
@@ -368,7 +104,7 @@
 
     <url>
         <loc>http://woliveiras.com.br/posts/postando-no-blog-est%C3%A1tico-direto-pelo-github-com-hexo-e-travis-ci/</loc>
-        <lastmod>2016-09-10T23:56:24.905Z</lastmod>
+        <lastmod>2016-09-11T15:20:19.838Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
 
@@ -376,7 +112,7 @@
 
     <url>
         <loc>http://woliveiras.com.br/posts/pre-processadores-css/</loc>
-        <lastmod>2016-09-10T23:56:24.905Z</lastmod>
+        <lastmod>2016-09-11T15:20:19.838Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
 
@@ -384,7 +120,7 @@
 
     <url>
         <loc>http://woliveiras.com.br/posts/produtividade-uma-re-introducao/</loc>
-        <lastmod>2016-09-10T23:56:24.905Z</lastmod>
+        <lastmod>2016-09-11T15:20:19.838Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
 
@@ -392,7 +128,7 @@
 
     <url>
         <loc>http://woliveiras.com.br/posts/protocolo-http/</loc>
-        <lastmod>2016-09-10T23:56:24.905Z</lastmod>
+        <lastmod>2016-09-11T15:20:19.838Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
 
@@ -400,7 +136,7 @@
 
     <url>
         <loc>http://woliveiras.com.br/posts/requisitos-para-vagas-front-end/</loc>
-        <lastmod>2016-09-10T23:56:24.905Z</lastmod>
+        <lastmod>2016-09-11T15:20:19.838Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
 
@@ -408,7 +144,7 @@
 
     <url>
         <loc>http://woliveiras.com.br/posts/semantica-html/</loc>
-        <lastmod>2016-09-10T23:56:24.905Z</lastmod>
+        <lastmod>2016-09-11T15:20:19.838Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
 
@@ -416,7 +152,7 @@
 
     <url>
         <loc>http://woliveiras.com.br/posts/twitter-bootstrap-bootstrap-do-jeito-certo/</loc>
-        <lastmod>2016-09-10T23:56:24.905Z</lastmod>
+        <lastmod>2016-09-11T15:20:19.838Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
 
@@ -424,7 +160,7 @@
 
     <url>
         <loc>http://woliveiras.com.br/posts/um-ano-como-desenvolvedor-front-end/</loc>
-        <lastmod>2016-09-10T23:56:24.905Z</lastmod>
+        <lastmod>2016-09-11T15:20:19.838Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
 
@@ -432,7 +168,7 @@
 
     <url>
         <loc>http://woliveiras.com.br/posts/uma-rapida-introducao-ao-docker-e-instalacao-no-ubuntu/</loc>
-        <lastmod>2016-09-10T23:56:24.905Z</lastmod>
+        <lastmod>2016-09-11T15:20:19.838Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
 
@@ -440,7 +176,7 @@
 
     <url>
         <loc>http://woliveiras.com.br/posts/url-uri-qual-diferenca/</loc>
-        <lastmod>2016-09-10T23:56:24.905Z</lastmod>
+        <lastmod>2016-09-11T15:20:19.838Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
 
@@ -448,7 +184,31 @@
 
     <url>
         <loc>http://woliveiras.com.br/posts/usando-o-sublime-text/</loc>
-        <lastmod>2016-09-10T23:56:24.905Z</lastmod>
+        <lastmod>2016-09-11T15:20:19.838Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>http://woliveiras.com.br/posts/utilizando-versoes-antigas-do-nodejs/</loc>
+        <lastmod>2016-09-11T15:20:19.838Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>http://woliveiras.com.br/posts/vagrant-introducao-instalacao/</loc>
+        <lastmod>2016-09-11T15:20:19.838Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>http://woliveiras.com.br/posts/vagrant-no-windows/</loc>
+        <lastmod>2016-09-11T15:20:19.838Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
 
@@ -456,7 +216,247 @@
 
     <url>
         <loc>http://woliveiras.com.br/posts/Aumente-sua-produtividade-e-da-sua-equipe-com-gamificacao/</loc>
-        <lastmod>2016-09-10T23:56:24.901Z</lastmod>
+        <lastmod>2016-09-11T15:20:19.834Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>http://woliveiras.com.br/posts/Comecando-com-o-editor-de-texto-VIM/</loc>
+        <lastmod>2016-09-11T15:20:19.834Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>http://woliveiras.com.br/posts/Comecei-a-faculdade-de-informatica-e-agora/</loc>
+        <lastmod>2016-09-11T15:20:19.834Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>http://woliveiras.com.br/posts/Criando-uma-imagem-Docker-personalizada/</loc>
+        <lastmod>2016-09-11T15:20:19.834Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>http://woliveiras.com.br/posts/Devolva-para-as-comunidades/</loc>
+        <lastmod>2016-09-11T15:20:19.834Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>http://woliveiras.com.br/posts/Introducao-ao-Calculo-Proposicional/</loc>
+        <lastmod>2016-09-11T15:20:19.834Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>http://woliveiras.com.br/posts/Introducao-ao-Raciocinio-Logico/</loc>
+        <lastmod>2016-09-11T15:20:19.834Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>http://woliveiras.com.br/posts/Links-uteis-para-aprender-se-aprofundar-ou-manter-se-atualizado-sobre-JavaScript/</loc>
+        <lastmod>2016-09-11T15:20:19.834Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>http://woliveiras.com.br/posts/Livros-sobre-JavaScript-do-iniciante-ao-avancado-e-ES6/</loc>
+        <lastmod>2016-09-11T15:20:19.834Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>http://woliveiras.com.br/posts/Migrando-de-Wordpress-para-Hexo/</loc>
+        <lastmod>2016-09-11T15:20:19.834Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>http://woliveiras.com.br/posts/Por-que-voce-desistiu-de-ser-Cientista/</loc>
+        <lastmod>2016-09-11T15:20:19.834Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>http://woliveiras.com.br/posts/Produtividade-conhece-te-a-ti-mesmo/</loc>
+        <lastmod>2016-09-11T15:20:19.834Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>http://woliveiras.com.br/posts/Produtividade-priorizacao-de-tarefas-execucao-e-melhoria-do-processo/</loc>
+        <lastmod>2016-09-11T15:20:19.834Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>http://woliveiras.com.br/posts/aprenda-trabalhar-em-equipes/</loc>
+        <lastmod>2016-09-11T15:20:19.834Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>http://woliveiras.com.br/posts/comandos-mais-utilizados-no-docker/</loc>
+        <lastmod>2016-09-11T15:20:19.834Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>http://woliveiras.com.br/posts/como-alcancar-objetivos-rapidamente-nos-estudos/</loc>
+        <lastmod>2016-09-11T15:20:19.834Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>http://woliveiras.com.br/posts/como-deixar-o-ubuntu-mais-rapido/</loc>
+        <lastmod>2016-09-11T15:20:19.834Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>http://woliveiras.com.br/posts/como-detectar-o-dispositivo-que-acessa-seu-site/</loc>
+        <lastmod>2016-09-11T15:20:19.834Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>http://woliveiras.com.br/posts/como-ser-mais-produtivo/</loc>
+        <lastmod>2016-09-11T15:20:19.834Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>http://woliveiras.com.br/posts/configurar-vagrant/</loc>
+        <lastmod>2016-09-11T15:20:19.834Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>http://woliveiras.com.br/posts/contribuindo-para-projetos-open-source-no-github-mesmo-sendo-iniciante/</loc>
+        <lastmod>2016-09-11T15:20:19.834Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>http://woliveiras.com.br/posts/corrigindo-permissoes-de-usuario-linux-npm/</loc>
+        <lastmod>2016-09-11T15:20:19.834Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>http://woliveiras.com.br/posts/criar-uma-base-box-para-o-vagrant/</loc>
+        <lastmod>2016-09-11T15:20:19.834Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>http://woliveiras.com.br/posts/css-reset-de-varias-maneiras/</loc>
+        <lastmod>2016-09-11T15:20:19.834Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>http://woliveiras.com.br/posts/desenvolvendo-interfaces-like-boss/</loc>
+        <lastmod>2016-09-11T15:20:19.834Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>http://woliveiras.com.br/posts/extensoes-navegador-desenvolvimento-web/</loc>
+        <lastmod>2016-09-11T15:20:19.834Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>http://woliveiras.com.br/posts/frameworks-front-end/</loc>
+        <lastmod>2016-09-11T15:20:19.834Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>http://woliveiras.com.br/posts/freelancer-quanto-cobrar-pelo-freelance/</loc>
+        <lastmod>2016-09-11T15:20:19.834Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>http://woliveiras.com.br/posts/gerenciar-projetos-com-trello/</loc>
+        <lastmod>2016-09-11T15:20:19.834Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>http://woliveiras.com.br/posts/grunt-automatizando-tarefas/</loc>
+        <lastmod>2016-09-11T15:20:19.834Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>http://woliveiras.com.br/posts/guia-de-estudos-desenvolvedor-front-end-iniciante/</loc>
+        <lastmod>2016-09-11T15:20:19.834Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
 
