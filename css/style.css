@@ -288,12 +288,12 @@ body {
 #header {
   position: relative;
   border-top: 2px solid #de1b1b;
-  padding-bottom: 50px;
+  padding-bottom: 30px;
 }
 #header-outer {
   height: 100%;
   position: relative;
-  max-width: 1024px;
+  max-width: 920px;
 }
 #header-inner {
   position: relative;
@@ -525,6 +525,7 @@ body {
 }
 .article-header {
   text-align: center;
+  padding: 20px 0;
 }
 .article-title {
   text-decoration: none;
@@ -548,7 +549,7 @@ a.article-title:hover {
 }
 .article-entry {
   color: #232323;
-  padding: 0 20px;
+  padding: 0 10px;
 }
 .article-entry:before,
 .article-entry:after {
