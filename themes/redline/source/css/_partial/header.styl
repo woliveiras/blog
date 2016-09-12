@@ -73,26 +73,16 @@ $nav-link
 
 .nav-icon
   @extend $nav-link
-  font-family: font-icon
   text-align: center
-  font-size: font-size
-  width: font-size
-  height: font-size
-  padding: 20px 15px
-  position: relative
+  padding: 10px 15px
   cursor: pointer
-  @media mq-mobile
-    font-size: 28px
-    height: inherit
-    width: inherit
-
 
 .main-nav-link
   @extend $nav-link
   font-weight: 300
   letter-spacing: 1px
   @media mq-mobile
-    display: none!important
+    padding: 20px 10px
 
 #main-nav-toggle
   display: none
@@ -103,11 +93,13 @@ $nav-link
 
 #sub-nav
   float: right
-  margin-right: 15px
+  @media mq-mobile
+    display: none
 
 #nav-rss-link
-  &:before
-    content: "\f09e"
+  svg
+    fill: #de1b1b
+    width: 30px
 
 #nav-search-btn
   &:before
