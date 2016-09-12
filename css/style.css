@@ -366,8 +366,13 @@ body {
 }
 .nav-icon {
   text-align: center;
-  padding: 10px 15px;
+  padding: 12px 10px;
   cursor: pointer;
+}
+@media screen and (max-width: 479px) {
+  .nav-icon {
+    padding: 10px 10px;
+  }
 }
 .main-nav-link {
   font-weight: 300;
@@ -375,7 +380,7 @@ body {
 }
 @media screen and (max-width: 479px) {
   .main-nav-link {
-    padding: 20px 10px;
+    padding: 20px 8px;
   }
 }
 #main-nav-toggle {
@@ -391,11 +396,6 @@ body {
 }
 #sub-nav {
   float: right;
-}
-@media screen and (max-width: 479px) {
-  #sub-nav {
-    display: none;
-  }
 }
 #nav-rss-link svg {
   fill: #de1b1b;
