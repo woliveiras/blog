@@ -1,4 +1,4 @@
-title: Colaborar
+title: Colabore comigo
 date: 2015-08-10 08:20:19
 ---
 Se você veio até aqui é por que encontrou algo errado ou deseja colaborar com o Blog de alguma maneira, então siga os passos:
