@@ -28,6 +28,10 @@
     <link rel="alternative" href="<%- theme.rss %>" title="<%= config.title %>" type="application/atom+xml">
   <% } %>
   <link rel="icon" href="/img/favicon.ico">
-  <%- css('css/style') %>
+  <style>
+    body {
+      color: #202020;
+    }
+  </style>
   <%- partial('google-analytics') %>
 </head>
