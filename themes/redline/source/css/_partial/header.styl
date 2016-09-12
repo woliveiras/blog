@@ -74,15 +74,17 @@ $nav-link
 .nav-icon
   @extend $nav-link
   text-align: center
-  padding: 10px 15px
+  padding: 12px 10px
   cursor: pointer
+  @media mq-mobile
+    padding: 10px 10px
 
 .main-nav-link
   @extend $nav-link
   font-weight: 300
   letter-spacing: 1px
   @media mq-mobile
-    padding: 20px 10px
+    padding: 20px 8px
 
 #main-nav-toggle
   display: none
@@ -93,8 +95,6 @@ $nav-link
 
 #sub-nav
   float: right
-  @media mq-mobile
-    display: none
 
 #nav-rss-link
   svg
