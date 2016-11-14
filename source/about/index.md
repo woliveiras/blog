@@ -10,4 +10,6 @@ Em 2015 tive a oportunidade de trabalhar mais com JavaScript e conheci o Nodejs.
 
 Adoro desenvolver para resolver problemas, automatizar coisas e ajudar pessoas. Em meu tempo livre gosto de praticar esportes, praticar programação e ensinar quem tem vontade de aprender!
 
+Você pode ver meu curriculum no GitHub, clicando [nesse link](https://github.com/woliveiras/resume).
+
 Quer entrar em contato comigo, me manda um <a href="mailto:w.oliveira542@gmail.com">email</a>. :D
