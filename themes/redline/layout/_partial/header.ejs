@@ -29,14 +29,14 @@
             <% } %>
           </h1>
         <% } else { %>
-          <h2 id="logo-wrap">
+          <span id="logo-wrap">
             <a href="<%- url_for() %>" id="title"><%=  theme.blog_title %></a>
             <% if (theme.subtitle){ %>
               <span id="subtitle-wrap">
                 <a href="<%- url_for() %>" id="subtitle"><%= theme.subtitle %></a>
               </span>
             <% } %>
-          </h2>
+          </span>
         <% } %>
     </div>
   </div>
