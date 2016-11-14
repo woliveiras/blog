@@ -19,14 +19,25 @@
       </ul>
     </div>
     <div id="header-title" class="inner">
-      <h1 id="logo-wrap">
-        <a href="<%- url_for() %>" id="title"><%=  theme.blog_title %></a>
-        <% if (theme.subtitle){ %>
-          <span id="subtitle-wrap">
-            <a href="<%- url_for() %>" id="subtitle"><%= theme.subtitle %></a>
-          </span>
+        <% if(page.__index) { %>
+          <h1 id="logo-wrap">
+            <a href="<%- url_for() %>" id="title"><%=  theme.blog_title %></a>
+            <% if (theme.subtitle){ %>
+              <span id="subtitle-wrap">
+                <a href="<%- url_for() %>" id="subtitle"><%= theme.subtitle %></a>
+              </span>
+            <% } %>
+          </h1>
+        <% } else { %>
+          <h2 id="logo-wrap">
+            <a href="<%- url_for() %>" id="title"><%=  theme.blog_title %></a>
+            <% if (theme.subtitle){ %>
+              <span id="subtitle-wrap">
+                <a href="<%- url_for() %>" id="subtitle"><%= theme.subtitle %></a>
+              </span>
+            <% } %>
+          </h2>
         <% } %>
-      </h1>
     </div>
   </div>
 </header>
