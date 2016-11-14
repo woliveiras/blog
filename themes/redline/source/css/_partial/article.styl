@@ -42,7 +42,7 @@
   @extend $base-style
   clearfix()
   color: color-default
-  padding: 0 10px
+  padding: 0 20px
   @media mq-mobile
     font-size: 18px
   p, table
@@ -70,6 +70,8 @@
     height: auto
     display: block
     margin: auto
+    @media mq-mobile
+        max-width: 240px
   iframe
     border: none
   table
