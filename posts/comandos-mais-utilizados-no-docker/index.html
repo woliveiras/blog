@@ -13,7 +13,7 @@
 <meta property="og:url" content="http://woliveiras.com.br/posts/comandos-mais-utilizados-no-docker/index.html">
 <meta property="og:site_name" content="William Oliveira - Desenvolvedor Front End">
 <meta property="og:description" content="Comandos mais utilizados durante o Workflow com Docker">
-<meta property="og:updated_time" content="2016-09-12T00:55:03.954Z">
+<meta property="og:updated_time" content="2016-11-14T15:20:59.199Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="Comandos mais utilizados no Docker">
 <meta name="twitter:description" content="Comandos mais utilizados durante o Workflow com Docker">
@@ -60,8 +60,6 @@
             <a class="main-nav-link" href="/about">Sobre</a>
           
             <a class="main-nav-link" href="/colabore-comigo">Colabore</a>
-          
-            <a class="main-nav-link" href="https://github.com/woliveiras/resume">Resume</a>
           
         </li>
         <li id="sub-nav">
@@ -126,7 +124,7 @@
 <p>Com o id ou o nome do repositório em mãos, utilize o comando <code>rmi</code> para excluir as imagens.</p>
 <figure class="highlight autohotkey"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">docker rmi ID_ou_nome_d<span class="built_in">a_imagem</span></div></pre></td></tr></table></figure>
 <h2 id="Criar-um-container"><a href="#Criar-um-container" class="headerlink" title="Criar um container"></a>Criar um container</h2><p>Para executar um container utilize o comando <code>run</code> com o nome da imagem que vá utilizar para a criação:</p>
-<figure class="highlight applescript"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">docker <span class="built_in">run</span> nome_da_imagem</div></pre></td></tr></table></figure>
+<figure class="highlight dockerfile"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">docker <span class="keyword">run</span><span class="bash"> nome_da_imagem</span></div></pre></td></tr></table></figure>
 <h2 id="Criar-um-container-e-entrar-no-Terminal"><a href="#Criar-um-container-e-entrar-no-Terminal" class="headerlink" title="Criar um container e entrar no Terminal"></a>Criar um container e entrar no Terminal</h2><p>Conseguimos criar um container e já entrar nesse container com o comando <code>-it</code>:</p>
 <figure class="highlight applescript"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">docker <span class="built_in">run</span> -<span class="keyword">it</span> ubuntu /bin/bash</div></pre></td></tr></table></figure>
 <p>Vai subir um container com o Ubuntu e entrar no Bash.</p>
@@ -181,7 +179,7 @@
 <p>Ao usar um <code>exit</code> para sair do Terminal do SO rodando no container, o mesmo será removido.</p>
 <h2 id="Executando-containers-em-segundo-plano"><a href="#Executando-containers-em-segundo-plano" class="headerlink" title="Executando containers em segundo plano"></a>Executando containers em segundo plano</h2><p>Podemos executar o container e deixar ele em segundo plano, sem precisar ficar conectado pelo Shell, com o comando <code>-d</code>.</p>
 <p>Exemplo utilizando o NGINX.</p>
-<figure class="highlight stylus"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">docker run -d -<span class="selector-tag">p</span> <span class="number">8080</span>:<span class="number">80</span> nginx /usr/sbin/nginx -g</div></pre></td></tr></table></figure>
+<figure class="highlight dockerfile"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">docker <span class="keyword">run</span><span class="bash"> <span class="_">-d</span> -p 8080:80 nginx /usr/sbin/nginx -g</span></div></pre></td></tr></table></figure>
 <p>Para controlar esse container usamos os comandos <code>stop</code> e <code>start</code>:</p>
 <figure class="highlight arduino"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">docker <span class="built_in">stop</span> id_ou_apelido</div></pre></td></tr></table></figure>
 <p>Para parar e:</p>

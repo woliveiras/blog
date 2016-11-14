@@ -14,7 +14,7 @@
 <meta property="og:site_name" content="William Oliveira - Desenvolvedor Front End">
 <meta property="og:description" content="Uma rápida introdução ao Docker e instalação no Ubuntu para iniciantes. Dicas para não precisar de sudo ao executar o Docker e como iniciar o Docker junto com o Sistema Operacional.">
 <meta property="og:image" content="http://woliveiras.com.br/../../public/images/docker.png">
-<meta property="og:updated_time" content="2016-09-12T00:55:03.958Z">
+<meta property="og:updated_time" content="2016-11-14T15:20:59.203Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="Uma rápida introdução ao Docker e instalação no Ubuntu">
 <meta name="twitter:description" content="Uma rápida introdução ao Docker e instalação no Ubuntu para iniciantes. Dicas para não precisar de sudo ao executar o Docker e como iniciar o Docker junto com o Sistema Operacional.">
@@ -62,8 +62,6 @@
             <a class="main-nav-link" href="/about">Sobre</a>
           
             <a class="main-nav-link" href="/colabore-comigo">Colabore</a>
-          
-            <a class="main-nav-link" href="https://github.com/woliveiras/resume">Resume</a>
           
         </li>
         <li id="sub-nav">
@@ -151,12 +149,12 @@
 <p>Para inicializar o Docker, usamos o comando:</p>
 <figure class="highlight crmsh"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">sudo service docker <span class="literal">start</span></div></pre></td></tr></table></figure>
 <p>Para verificar se está tudo rodando certinho, execute o container de <em>Hello World</em> do Docker:</p>
-<figure class="highlight applescript"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">sudo docker <span class="built_in">run</span> hello-world</div></pre></td></tr></table></figure>
+<figure class="highlight dockerfile"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">sudo docker <span class="keyword">run</span><span class="bash"> hello-world</span></div></pre></td></tr></table></figure>
 <h2 id="Configurando-para-nao-precisar-de-sudo-ao-executar-o-Docker"><a href="#Configurando-para-nao-precisar-de-sudo-ao-executar-o-Docker" class="headerlink" title="Configurando para não precisar de sudo ao executar o Docker"></a>Configurando para não precisar de sudo ao executar o Docker</h2><p>Para não precisar usar o <code>sudo</code> sempre, execute o seguinte:</p>
 <figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">sudo usermod <span class="_">-a</span>G docker <span class="variable">$USER</span></div></pre></td></tr></table></figure>
 <p><em>OBS: <code>$USER</code> é uma variável do Shell para o usuário logado, caso esteja configurando para outro usuário, deve colocar o nome dele no lugar disso.</em></p>
 <p>Agora você consegue executar:</p>
-<figure class="highlight applescript"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">docker <span class="built_in">run</span> hello-world</div></pre></td></tr></table></figure>
+<figure class="highlight dockerfile"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">docker <span class="keyword">run</span><span class="bash"> hello-world</span></div></pre></td></tr></table></figure>
 <p>E pronto! Instalado e configurado. Agora você já pode começar a usar o Docker.</p>
 <p>Logo menos vou postar mais dicas sobre Docker. Fique ligado!</p>
 <p>Compartilhe a palavra.</p>

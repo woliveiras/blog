@@ -15,7 +15,7 @@
 <meta property="og:description" content="O que é uma imagem e o que é um container Docker? Uma breve explicação sobre esses dois termos que podem confundir um iniciante e uma introdução sobre o Docker Hub.">
 <meta property="og:image" content="http://woliveiras.com.br/../../public/images/docker_ps_a.png">
 <meta property="og:image" content="http://woliveiras.com.br/../../public/images/docker_ps_qa.png">
-<meta property="og:updated_time" content="2016-09-12T00:55:03.954Z">
+<meta property="og:updated_time" content="2016-11-14T15:20:59.199Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="O que é uma imagem e o que é um container Docker?">
 <meta name="twitter:description" content="O que é uma imagem e o que é um container Docker? Uma breve explicação sobre esses dois termos que podem confundir um iniciante e uma introdução sobre o Docker Hub.">
@@ -63,8 +63,6 @@
             <a class="main-nav-link" href="/about">Sobre</a>
           
             <a class="main-nav-link" href="/colabore-comigo">Colabore</a>
-          
-            <a class="main-nav-link" href="https://github.com/woliveiras/resume">Resume</a>
           
         </li>
         <li id="sub-nav">
@@ -119,7 +117,7 @@
 <p>Você pode listar as imagens baixadas em seu PC com o comando:</p>
 <figure class="highlight ebnf"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line"><span class="attribute">docker images</span></div></pre></td></tr></table></figure>
 <p>E usar a imagem para subir um container:</p>
-<figure class="highlight applescript"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">docker <span class="built_in">run</span> ubuntu</div></pre></td></tr></table></figure>
+<figure class="highlight dockerfile"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">docker <span class="keyword">run</span><span class="bash"> ubuntu</span></div></pre></td></tr></table></figure>
 <p>Esse comando vai usar a <strong>imagem</strong> <em>ubuntu</em>, que você baixou em seu PC, para criar um novo Container.</p>
 <p>Caso a imagem não exista no seu PC, o Docker vai baixar do Docker Hub e subir esse container automaticamente.</p>
 <p>Poderia ser de outro local, também, mas vamos falar primeiro do Docker Hub.</p>
@@ -148,7 +146,7 @@
 <p>Imagine baixar a imagem do Ubuntu.</p>
 <figure class="highlight ebnf"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line"><span class="attribute">docker pull ubuntu</span></div></pre></td></tr></table></figure>
 <p>E depois executar um:</p>
-<figure class="highlight applescript"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">docker <span class="built_in">run</span> ubuntu</div></pre></td></tr></table></figure>
+<figure class="highlight dockerfile"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">docker <span class="keyword">run</span><span class="bash"> ubuntu</span></div></pre></td></tr></table></figure>
 <p>Com isso você está instanciando um Container que usa como template a imagem do Ubuntu, baixada no primeiro comando.</p>
 <p>Você pode listar os Containers em execução com o comando:</p>
 <figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">docker ps <span class="_">-a</span></div></pre></td></tr></table></figure>
