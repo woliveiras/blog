@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://woliveiras.com.br/"/>
-  <updated>2016-11-14T16:13:24.160Z</updated>
+  <updated>2016-12-23T15:31:13.880Z</updated>
   <id>http://woliveiras.com.br/</id>
   
   <author>
@@ -16,11 +16,80 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>Retrospectiva 2016 - Projetos legais, Open Source, Eventos e mais</title>
+    <link href="http://woliveiras.com.br/posts/Retrospectiva-2016-projetos-open-source-eventos/"/>
+    <id>http://woliveiras.com.br/posts/Retrospectiva-2016-projetos-open-source-eventos/</id>
+    <published>2016-12-23T00:00:28.000Z</published>
+    <updated>2016-12-23T15:31:13.880Z</updated>
+    
+    <content type="html"><![CDATA[<p>Já faz algum tempo desde o meu ultimo <a href="/posts/Devolva-para-as-comunidades/">post</a> aqui no Blog. Foram muitos compromissos esse ano e muita correria. Esse artigo me ajuda a te explicar o por que dessa ausência e de quebra me ajudou a relembrar como esse ano foi bem louco. <a id="more"></a></p>
+<p>O <a href="https://twitter.com/LFeh" target="_blank" rel="external">Felipe Fialho</a> escreveu um post bem maneiro sobre <a href="https://medium.com/@lfeh/retrospectiva-2016-df06dfdf0c2e#.eikzbmnj4" target="_blank" rel="external">como foi seu ano de 2016</a>, o <a href="https://twitter.com/idlua" target="_blank" rel="external">Luan Vicente</a> também <a href="https://medium.com/@idlua/retrospectiva-2016-9871d9eb9236#.edca997t2" target="_blank" rel="external">escreveu</a> e isso me motivou a também escrever uma e, de quebra, explicar os motivos deu estar sumido!</p>
+<p>Foi bem interessante relembrar o que houve esse ano e fiquei feliz por algumas conquistas enquanto escrevia o post.</p>
+<h2 id="Open-Source"><a href="#Open-Source" class="headerlink" title="Open Source"></a>Open Source</h2><p>Esse ano criei mais projetos do que no ano passado.</p>
+<p><strong>Fevereiro</strong></p>
+<ul>
+<li><a href="https://github.com/woliveiras/modularize-your-gulpfile" target="_blank" rel="external">Modularize your Gulpfile</a>: Baseado <a href="http://macr.ae/article/splitting-gulpfile-multiple-files.html" target="_blank" rel="external">nesse artigo</a> montei um esquema para facilitar a modularização das tasks quando eu criar um novo projeto utilizando Gulp;</li>
+<li><a href="https://github.com/woliveiras/my-precious-links" target="_blank" rel="external">My precious links</a>: Inicialmente montei um Dailylog, parecido com o do Zeh Fernando e do Felipe Fialho, mas percebi que não manteria o ritmo e, seguindo a dica do <a href="https://github.com/marquinhusgoncalves" target="_blank" rel="external">@marquinhusgoncalves</a>, mudei o foco do projeto para salvar meus links favoritos para futuras consultas;</li>
+</ul>
+<p><strong>Abril</strong></p>
+<ul>
+<li><a href="https://github.com/woliveiras/front-end-career" target="_blank" rel="external">Carreira Front End</a>: Um dos projetos que mais me alegram. Um guia de carreira para quem deseja se tornar Desenvolvedor Front End, bem parecido com o que já fiz <a href="https://woliveiras.com.br/posts/guia-de-estudos-desenvolvedor-front-end-iniciante/">aqui no blog</a>, porém bem mais completo e aberto a futuras alterações pela própria comunidade;</li>
+</ul>
+<p><strong>Maio</strong></p>
+<ul>
+<li><a href="https://github.com/woliveiras/FFAQ" target="_blank" rel="external">FFAQ</a>: Aqui eu tento reunir as perguntas mais frequentes sobre o mundo de Front End em issues para outras pessoas discutirem e juntas chegarem num consenço e depois consolido em uma lista - Um pouco parado, mas logo quero voltar a atualizar isso;</li>
+<li><a href="https://github.com/woliveiras/redline-hexo-theme" target="_blank" rel="external">Redline Hexo Theme</a>: Disponibilizei o tema desse blog para outras pessoas poderem utilizar no Hexo;</li>
+</ul>
+<p><strong>Junho</strong></p>
+<ul>
+<li><a href="https://github.com/woliveiras/metamorfose" target="_blank" rel="external">Metamorfose</a>: Baseado no que algumas pessoas já fazem, montei uma lista do que uso no meu Workflow para que outras pessoas possam opinar sobre o que tenho usado emelhorar meu fluxo</li>
+</ul>
+<p><strong>Setembro</strong></p>
+<ul>
+<li><a href="https://github.com/woliveiras/__s" target="_blank" rel="external">Dunders</a>: Sempre que procuro um tema para Jekyll ele vem meio poluido de JS e CSS. O uso abusivo de frameworks CSS e plugins jQuery me desanimam a utilizar certos temas. Por isso fiz um tema em branco para Jekyll estilo o Underscores, para WordPress, que logo será a base para o tema desse blog;</li>
+</ul>
+<p>Ainda em Abril criamos o projeto <a href="https://github.com/training-center/mentoria" target="_blank" rel="external">Mentoria</a> no <a href="https://medium.com/trainingcenter/hello-world-conhe%C3%A7a-o-centro-de-treinamento-4a47a1230b0c#.i3722q6bd" target="_blank" rel="external">Centro de Treinamento</a>. Deixei para comentar em um espaço especial, pois é um projeto que me deixa muito contente com a comunidade: Muita gente está contribuindo com a carreira de outras pessoas e isso é bom demais.</p>
+<p>Quero aqui agradecer a cada um que tem ajudado o <a href="https://twitter.com/ct_org" target="_blank" rel="external">CT</a> de alguma maneira, pois é graças a vocês que várias pessoas tem conseguido motivação para continuar sua luta pela carreira dos seus sonhos e até conseguido <a href="https://medium.com/trainingcenter/minha-experi%C3%AAncia-com-o-ct-centro-de-treinamento-ce08e58d247f#.lgch676ki" target="_blank" rel="external">trampos legais</a>.</p>
+<h2 id="Eventos"><a href="#Eventos" class="headerlink" title="Eventos"></a>Eventos</h2><p><strong>Organização de eventos</strong></p>
+<p>Esse ano fizemos o primeiro ABC-Dev! A primeira conferência da <a href="https://github.com/abc-dev" target="_blank" rel="external">nossa comunidade</a> no Grande ABC Paulista.</p>
+<p>Foi um evento incrível, graças ao apoio da comunidade, patrocinadores, da HPE, <a href="http://2016.abcdevelopers.org/#palestrantes" target="_blank" rel="external">excelentes palestrantes</a> e muita gente animada que participou. - Ano que vem tem mais</p>
+<p>Esse ano eu tive que <a href="https://woliveiras.com.br/posts/novos-ares-para-o-femug-abc/">deixar de ser o responsável pelo FEMUG-ABC</a> , mas continuo tentando ajudar o pessoal de alguma maneira.</p>
+<p>Fora o FEMUG-ABC, tento ajudar o <a href="http://crudabc.org/" target="_blank" rel="external">CRUD-ABC</a> que saiu da jaula esse ano para os Back Enders do Grande ABC.</p>
+<p><strong>Palestras</strong></p>
+<p>Além de ajudar na organização dos eventos eu também palestrei esse ano:</p>
+<ul>
+<li><a href="http://femug-abc.github.io/femug-8-javascript-e-o-desenvolvedor-front-end" target="_blank" rel="external">FEMUG-ABC #8 - O JavaScript e o perfil do Desenvolvedor Front End das atualidades mais atuais de todos os tempos</a>;</li>
+<li><a href="http://www.slideshare.net/williamoliveira542/voc-no-precisa-de-uma-sopa-de-letrinhas-para-criar-web-apps" target="_blank" rel="external">GDG-ABC - Você não precisa de uma sopa de letrinhas para criar web apps</a>;</li>
+<li><a href="http://crudabc.org/crud-abc-1-conteudo/" target="_blank" rel="external">CRUD-ABC #1 - Blogando feito um Hackudo usando Jekyll</a>;</li>
+</ul>
+<h2 id="Estudos"><a href="#Estudos" class="headerlink" title="Estudos"></a>Estudos</h2><p>Eis aqui o grande motivo de eu ter me afastado do Blog e até de algumas iniciativas que eu gostaria muito de ter ajudado.</p>
+<p>Esse ano eu comecei (de novo) a faculdade, você pode ver como isso era penoso pra mim <a href="https://woliveiras.com.br/posts/Comecei-a-faculdade-de-informatica-e-agora/">nesse post</a> e <a href="https://github.com/woliveiras/university-wars" target="_blank" rel="external">nesse repositório</a>. Acabou que estou gostando bastante do que estou aprendendo e estou me dedicando muito a esse estudo. Por isso estou afastado de tudo. Estou focando bastante no conteúdo da faculdade.</p>
+<p>A faculdade até reviveu uma paixão antiga: a matemática.</p>
+<p>Sistemas Operacionais e Arquitetura de Computadores também tem sido show de bola. Pro ano que vem vai vir muito Java (  :/  ), Estruturas de Dados e até Inteligência Artificial. Coisas que, se não fosse a faculdade, talvez eu não teria parado para estudar.</p>
+<p>Fora a faculdade, estou dedicando o tempo que sobra para estudar mais JavaScript.</p>
+<p>Acabamos ficando tão viciados em Frameworks (like Angular) que deixamos a linguagem nativa de lado e isso me fez dar uma enferrujada boa em Algoritmos e Padrões de Projetos (ou mesmo padrões da linguagem), por isso estou estudando mais da linguagem em si. Como quase tudo o que faço, isso também gerou um repositório: <a href="https://github.com/woliveiras/javascript-studies" target="_blank" rel="external">esse aqui</a>.</p>
+<h2 id="E-para-2017"><a href="#E-para-2017" class="headerlink" title="E para 2017"></a>E para 2017</h2><p>Para o ano que vem espero contribuir com a vida de muita gente através dos projetos e do Open Source e torço pra que eu consiga priorizar um tempo para escrever mais aqui, pois tenho muita coisa pra falar! ;D</p>
+<p>Não vou nem colocar metas, pois esse ano tentei fazer menos que 100 coisas e não consegui, da uma olhada na lista clicando <a href="http://leobalter.github.io/100-coisas-dev/listas/william-oliveira/" target="_blank" rel="external">aqui</a>, mas espero vários desafios legais para 2017.</p>
+<p>Um forte abraço e tenha um feliz ano novo.</p>
+]]></content>
+    
+    <summary type="html">
+    
+      Retrospectiva 2016 - Como foi esse ano cheio de projetos legais, open source, eventos e muito mais.
+    
+    </summary>
+    
+    
+      <category term="retrospectiva" scheme="http://woliveiras.com.br/tags/retrospectiva/"/>
+    
+  </entry>
+  
+  <entry>
     <title>Devolva para as comunidades</title>
     <link href="http://woliveiras.com.br/posts/Devolva-para-as-comunidades/"/>
     <id>http://woliveiras.com.br/posts/Devolva-para-as-comunidades/</id>
     <published>2016-07-24T14:50:15.000Z</published>
-    <updated>2016-11-14T16:13:24.160Z</updated>
+    <updated>2016-12-23T15:31:13.880Z</updated>
     
     <content type="html"><![CDATA[<p>Todos os dias ficamos devendo para as comunidades e nem percebemos isso.</p>
 <p>Utilizamos Softwares Open Source (<a href="https://github.com/vim/vim" target="_blank" rel="external">VIM</a>, <a href="https://github.com/atom/atom" target="_blank" rel="external">Atom</a>, <a href="https://github.com/Microsoft/vscode" target="_blank" rel="external">VS Code</a>) para editar nossos códigos fonte, para navegar na internet (<a href="https://developer.mozilla.org/pt-BR/docs/Developer_Guide/Codigo_Fonte/Downloading_Source_Archives" target="_blank" rel="external">Firefox</a>, <a href="https://chromium.googlesource.com/" target="_blank" rel="external">Chromium</a>), escrevemos códigos para rodar em <a href="https://github.com/nodejs/node" target="_blank" rel="external">plataformas abertas</a>, buscamos respostas em <a href="https://github.com/frontendbr/forum" target="_blank" rel="external">foruns</a>… Enfim, são muitos os casos em que as comunidades nos ajudam, mas será que estamos retribuindo isso de alguma maneira ou estamos deixando passar a oportunidade de contribuir com a vida das pessoas?<a id="more"></a></p>
@@ -95,7 +164,7 @@
     <link href="http://woliveiras.com.br/posts/Introducao-ao-Calculo-Proposicional/"/>
     <id>http://woliveiras.com.br/posts/Introducao-ao-Calculo-Proposicional/</id>
     <published>2016-07-16T02:00:00.000Z</published>
-    <updated>2016-11-14T16:13:24.160Z</updated>
+    <updated>2016-12-23T15:31:13.880Z</updated>
     
     <content type="html"><![CDATA[<p>Como introduzido no post anterior falando sobre <a href="posts/Introducao-ao-Raciocinio-Logico/">Raciocínio Lógico</a> vamos continuar com os estudos sobre Lógica.</p>
 <p>Se você pesquisou sobre a Classificação Lógica ou leu os artigos que deixei no final do post, deve ter visto sobre a Lógica Matemática.</p>
@@ -232,7 +301,7 @@
     <link href="http://woliveiras.com.br/posts/Introducao-ao-Raciocinio-Logico/"/>
     <id>http://woliveiras.com.br/posts/Introducao-ao-Raciocinio-Logico/</id>
     <published>2016-06-19T14:50:29.000Z</published>
-    <updated>2016-11-14T16:13:24.160Z</updated>
+    <updated>2016-12-23T15:31:13.880Z</updated>
     
     <content type="html"><![CDATA[<p>Sempre que alguém pergunta o que precisa conhecer para aprender a programar é padrão que respondamos: Lógica de Programação e uma Linguagem de Programação. Sendo a Lógica de Programação o tema mais importante desses dois citados. <a id="more"></a></p>
 <p>Em todo <a href="https://www.google.com/about/careers/students/guide-to-technical-development.html" target="_blank" rel="external">guia para iniciantes</a> ou <a href="https://woliveiras.com.br/posts/guia-de-estudos-desenvolvedor-front-end-iniciante/">trilha de estudos</a> para novos desenvolvedores, sempre abordamos o assunto lógica como algo muito importante para o Desenvolvedor de Software.</p>
@@ -313,7 +382,7 @@
     <link href="http://woliveiras.com.br/posts/novos-ares-para-o-femug-abc/"/>
     <id>http://woliveiras.com.br/posts/novos-ares-para-o-femug-abc/</id>
     <published>2016-06-05T14:00:00.000Z</published>
-    <updated>2016-11-14T16:13:24.160Z</updated>
+    <updated>2016-12-23T15:31:13.884Z</updated>
     
     <content type="html"><![CDATA[<p>Eu <strong>nunca fui em um evento de Desenvolvedores Front End</strong>, antes de 2015.</p>
 <p>Moro em uma região bem ruim de se locomover de ônibus. Pra eu ir pra São Paulo, em um evento legal como o SampaJS, eu demoraria de 2:30 a 3 horas de rolê. Isso em um dia sem chuva, pois nesses dias demora entre 3:30 a 4 horas. Coisa linda né? <a id="more"></a></p>
@@ -373,7 +442,7 @@
     <link href="http://woliveiras.com.br/posts/Comecei-a-faculdade-de-informatica-e-agora/"/>
     <id>http://woliveiras.com.br/posts/Comecei-a-faculdade-de-informatica-e-agora/</id>
     <published>2016-05-30T02:19:11.000Z</published>
-    <updated>2016-11-14T16:13:24.160Z</updated>
+    <updated>2016-12-23T15:31:13.880Z</updated>
     
     <content type="html"><![CDATA[<div class="shared-img"><br>    <img src="https://s33.postimg.org/fputcjr1r/universidade_monstros_personagem_mike.jpg" alt="Mike Universidade Monstro"><br></div>
 
@@ -432,7 +501,7 @@
     <link href="http://woliveiras.com.br/posts/Comecando-com-o-editor-de-texto-VIM/"/>
     <id>http://woliveiras.com.br/posts/Comecando-com-o-editor-de-texto-VIM/</id>
     <published>2016-05-22T13:30:00.000Z</published>
-    <updated>2016-11-14T16:13:24.160Z</updated>
+    <updated>2016-12-23T15:31:13.880Z</updated>
     
     <content type="html"><![CDATA[<p>A tarefa que um Desenvolvedor de Software precisa cumprir com a maior agilidade é a escrita/edição de texto. Depois de pensar por algumas horas, planejar o que vai fazer e como fazer (quais funções, métodos, classes criar), nós partimos para a escrita do código fonte no nosso editor de texto favorito ou em uma <a href="https://pt.wikipedia.org/wiki/Ambiente_de_desenvolvimento_integrado" target="_blank" rel="external">IDE</a>.</p>
 <p>Existem <a href="http://pt.wikihow.com/Digitar-Mais-R%C3%A1pido" target="_blank" rel="external">várias técnicas</a> para você ficar fera no teclado, porém hoje vou apresentar outra forma de agilizar as coisas. Vou apresentar (pela minha perspectiva) o <strong>VIM</strong>. <a id="more"></a></p>
@@ -605,7 +674,7 @@
     <link href="http://woliveiras.com.br/posts/Aumente-sua-produtividade-e-da-sua-equipe-com-gamificacao/"/>
     <id>http://woliveiras.com.br/posts/Aumente-sua-produtividade-e-da-sua-equipe-com-gamificacao/</id>
     <published>2016-05-14T18:00:34.000Z</published>
-    <updated>2016-11-14T16:13:24.160Z</updated>
+    <updated>2016-12-23T15:31:13.880Z</updated>
     
     <content type="html"><![CDATA[<p>Todos nós gostamos de jogos, seja no PC, Celular ou qualquer outro tipo… Simplesmente, gostamos. Agora imagine utilizar jogos para ser mais produtivo, cuidar da saúde, aprender algo novo ou qualquer outro objetivo pessoal.</p>
 <p>Imagine transformar sua vida em um jogo de RPG!<a id="more"></a></p>
@@ -692,7 +761,7 @@
     <link href="http://woliveiras.com.br/posts/Produtividade-priorizacao-de-tarefas-execucao-e-melhoria-do-processo/"/>
     <id>http://woliveiras.com.br/posts/Produtividade-priorizacao-de-tarefas-execucao-e-melhoria-do-processo/</id>
     <published>2016-04-21T12:31:46.000Z</published>
-    <updated>2016-11-14T16:13:24.160Z</updated>
+    <updated>2016-12-23T15:31:13.880Z</updated>
     
     <content type="html"><![CDATA[<p>Continuando a série sobre Produtividade, já sabemos <a href="/posts/produtividade-uma-re-introducao/">o que é produtividade</a> e <a href="/posts/Produtividade-conhece-te-a-ti-mesmo/">como nosso cérebro funciona</a>, agora precisamos aprender a planejar as coisas para que nosso cérebro não nos atrapalhe em nossa meta de sermos mais produtivos. <a id="more"></a></p>
 <p>O planejamento, aqui, pode ser dividido em:</p>
@@ -778,7 +847,7 @@
     <link href="http://woliveiras.com.br/posts/Links-uteis-para-aprender-se-aprofundar-ou-manter-se-atualizado-sobre-JavaScript/"/>
     <id>http://woliveiras.com.br/posts/Links-uteis-para-aprender-se-aprofundar-ou-manter-se-atualizado-sobre-JavaScript/</id>
     <published>2016-04-20T09:00:19.000Z</published>
-    <updated>2016-11-14T16:13:24.160Z</updated>
+    <updated>2016-12-23T15:31:13.880Z</updated>
     
     <content type="html"><![CDATA[<p>Existe muito recurso legal disponível na internet para quem deseja aprender ou se aprofundar em JavaScript. Tanto recursos gratuitos, quanto recursos pagos. Existem muitos <a href="/posts/Livros-sobre-JavaScript-do-iniciante-ao-avancado-e-ES6/">livros bons</a> sobre a linguagem também.</p>
 <p>Nesse post, vou tentar deixar um compilado de links úteis para quem quer se aprofundar na linguagem da Web!<a id="more"></a></p>
@@ -890,7 +959,7 @@
     <link href="http://woliveiras.com.br/posts/Livros-sobre-JavaScript-do-iniciante-ao-avancado-e-ES6/"/>
     <id>http://woliveiras.com.br/posts/Livros-sobre-JavaScript-do-iniciante-ao-avancado-e-ES6/</id>
     <published>2016-04-19T10:24:08.000Z</published>
-    <updated>2016-11-14T16:13:24.160Z</updated>
+    <updated>2016-12-23T15:31:13.880Z</updated>
     
     <content type="html"><![CDATA[<p>Existem excelentes livros sobre JavaScript no mercado, mas são tantos que nos perdemos em qual ler primeiro, qual ler depois, qual nem vale a pena ler em determinado nível de conhecimento… São várias dúvidas.</p>
 <p>Nesse artigo vou tentar ajudar a escolher os melhores livros para seu nível de conhecimento e montar uma sequência legal de leitura para virar um JavaScript Master!<a id="more"></a></p>
@@ -957,7 +1026,7 @@
     <link href="http://woliveiras.com.br/posts/Produtividade-conhece-te-a-ti-mesmo/"/>
     <id>http://woliveiras.com.br/posts/Produtividade-conhece-te-a-ti-mesmo/</id>
     <published>2016-04-18T11:48:58.000Z</published>
-    <updated>2016-11-14T16:13:24.160Z</updated>
+    <updated>2016-12-23T15:31:13.880Z</updated>
     
     <content type="html"><![CDATA[<p>O autoconhecimento é muito importante para você se tornar produtivo.</p>
 <p>De nada adianta aprender milhares de técnicas, receber diversas dicas sobre produtividade, se nenhuma delas se encaixa em você. Claro que é necessário um pouco de esforço de sua parte para que as metodologias deem certo, porém, dentre milhares de técnicas, você vai precisar achar uma que se encaixe em seu estilo de vida e na sua forma de pensar e agir. <a id="more"></a></p>
@@ -1035,7 +1104,7 @@
     <link href="http://woliveiras.com.br/posts/Por-que-voce-desistiu-de-ser-Cientista/"/>
     <id>http://woliveiras.com.br/posts/Por-que-voce-desistiu-de-ser-Cientista/</id>
     <published>2016-04-16T11:55:36.000Z</published>
-    <updated>2016-11-14T16:13:24.160Z</updated>
+    <updated>2016-12-23T15:31:13.880Z</updated>
     
     <content type="html"><![CDATA[<p>Há algum tempo venho observando as pessoas, mais especificamente as pessoas da área de Desenvolvimento de Software. Há mais tempo ainda eu observo as outras pessoas, o ser humano em geral. E desde sempre percebi um padrão:</p>
 <p>Ao crescer, as pessoas abandonam a profissão que nasce com elas, a profissão de <strong>cientista</strong>.<a id="more"></a></p>
@@ -1128,7 +1197,7 @@
     <link href="http://woliveiras.com.br/posts/produtividade-uma-re-introducao/"/>
     <id>http://woliveiras.com.br/posts/produtividade-uma-re-introducao/</id>
     <published>2016-04-13T10:58:34.000Z</published>
-    <updated>2016-11-14T16:13:24.160Z</updated>
+    <updated>2016-12-23T15:31:13.884Z</updated>
     
     <content type="html"><![CDATA[<p>No ritmo frenético em que vivemos, ser produtivo já não é mais qualidade de ninguém, precisa ser uma característica de todos.</p>
 <p>Nós queremos fazer um amontoado de coisas todos os dias e toda hora aparece alguma outra coisa pra se fazer.</p>
@@ -1192,7 +1261,7 @@
     <link href="http://woliveiras.com.br/posts/Criando-uma-imagem-Docker-personalizada/"/>
     <id>http://woliveiras.com.br/posts/Criando-uma-imagem-Docker-personalizada/</id>
     <published>2016-04-12T01:18:59.000Z</published>
-    <updated>2016-11-14T16:13:24.160Z</updated>
+    <updated>2016-12-23T15:31:13.880Z</updated>
     
     <content type="html"><![CDATA[<p>É muito legal poder baixar uma imagem do <a href="http://hub.docker.com/" target="_blank" rel="external">Docker Hub</a> e já sair criando os containers, modificando e brincando, mas e depois?</p>
 <p>Como fazemos para levar essa imagem para outro host?</p>
@@ -1304,7 +1373,7 @@
     <link href="http://woliveiras.com.br/posts/comandos-mais-utilizados-no-docker/"/>
     <id>http://woliveiras.com.br/posts/comandos-mais-utilizados-no-docker/</id>
     <published>2016-04-12T00:00:08.000Z</published>
-    <updated>2016-11-14T16:13:24.160Z</updated>
+    <updated>2016-12-23T15:31:13.884Z</updated>
     
     <content type="html"><![CDATA[<p>Um post rapidinho com os comandos mais utilizados do Docker para não esquecer e consultar facilmente. :D</p>
 <p>Se você não viu a primeira parte dessa sequência, clique <a href="/posts/uma-rapida-introducao-ao-docker-e-instalacao-no-ubuntu/">aqui</a>.</p>
@@ -1430,7 +1499,7 @@
     <link href="http://woliveiras.com.br/posts/imagem-docker-ou-um-container-docker/"/>
     <id>http://woliveiras.com.br/posts/imagem-docker-ou-um-container-docker/</id>
     <published>2016-04-11T17:00:00.000Z</published>
-    <updated>2016-11-14T16:13:24.160Z</updated>
+    <updated>2016-12-23T15:31:13.884Z</updated>
     
     <content type="html"><![CDATA[<p>Se você viu a primeira parte dessa sequência de artigos, percebeu que existem dois termos muito utilizados quando falamos de Docker: <strong>Imagens</strong> e <strong>Containers</strong>. Você deve se perguntar: qual é a diferença entre imagem e container Docker? Ou então: O que eu rodo com o <code>docker run</code>, uma imagem ou um container? <a id="more"></a></p>
 <p>Se você não viu o primeiro artigo, da uma olhada <a href="/posts/uma-rapida-introducao-ao-docker-e-instalacao-no-ubuntu/">aqui</a>.</p>
@@ -1509,7 +1578,7 @@
     <link href="http://woliveiras.com.br/posts/uma-rapida-introducao-ao-docker-e-instalacao-no-ubuntu/"/>
     <id>http://woliveiras.com.br/posts/uma-rapida-introducao-ao-docker-e-instalacao-no-ubuntu/</id>
     <published>2016-04-10T11:03:47.000Z</published>
-    <updated>2016-11-14T16:13:24.164Z</updated>
+    <updated>2016-12-23T15:31:13.884Z</updated>
     
     <content type="html"><![CDATA[<p><div class="shared-img"><br><img src="../../public/images/docker.png" alt="Docker"><br></div>Você já deve ter ouvido falar, pelo menos uma vez, sobre <a href="https://www.docker.com/" target="_blank" rel="external">Docker</a> em algum lugar. Seja em palestras, blogs, vídeos ou em qualquer outra fonte de estudos sobre desenvolvimento, uma hora sempre comentamos sobre virtualização de ambientes e o Docker é a ferramenta que mais tem se destacado para tal. Ele é uma das 8 maravilhas das atualidades mais atuais. Vamos entender um pouco, então, o que é o Docker e como instalar no nosso Ubuntu.<a id="more"></a></p>
 <h2 id="Introducao"><a href="#Introducao" class="headerlink" title="Introdução"></a>Introdução</h2><p>Eu também já ouvia falar do Docker a um bom tempo, porém nunca havia me aprofundado mais nessa ferramenta.</p>
@@ -1595,7 +1664,7 @@
     <link href="http://woliveiras.com.br/posts/postando-no-blog-est%C3%A1tico-direto-pelo-github-com-hexo-e-travis-ci/"/>
     <id>http://woliveiras.com.br/posts/postando-no-blog-estático-direto-pelo-github-com-hexo-e-travis-ci/</id>
     <published>2016-02-07T00:00:00.000Z</published>
-    <updated>2016-11-14T16:13:24.160Z</updated>
+    <updated>2016-12-23T15:31:13.884Z</updated>
     
     <content type="html"><![CDATA[<p>Confesso que fiquei tentado a migrar para o <a href="https://jekyllrb.com/" target="_blank" rel="external">Jekyll (Ruby)</a> depois que um <a href="http://jotateles.com.br/" target="_blank" rel="external">amigo</a> me mostrou que da para postar no blog direto do GitHub sem ter o Jekyll instalado na máquina. Porém eu não desisti do meu queridinho, o <a href="http://hexo.io/" target="_blank" rel="external">Hexo (feito com Node &lt;3)</a>.<a id="more"></a></p>
 <p><em>Se você não conhece o Hexo, da uma olhada <a href="http://woliveiras.com.br/posts/Migrando-de-Wordpress-para-Hexo/">nesse artigo</a>.</em></p>
@@ -1670,7 +1739,7 @@
     <link href="http://woliveiras.com.br/posts/um-ano-como-desenvolvedor-front-end/"/>
     <id>http://woliveiras.com.br/posts/um-ano-como-desenvolvedor-front-end/</id>
     <published>2015-12-01T12:00:00.000Z</published>
-    <updated>2016-11-14T16:13:24.164Z</updated>
+    <updated>2016-12-23T15:31:13.884Z</updated>
     
     <content type="html"><![CDATA[<p>Todo mundo tem uma história legal pra contar sobre como começou na área de Desenvolvimento, seja Web, Mobile, Desktop ou tanto faz. Sempre temos algo interessante para passar para os novos desenvolvedores que estão entrando no mercado e que, as vezes, tem medo de se arriscar, achando que <a href="http://woliveiras.com.br/posts/requisitos-para-vagas-front-end/">precisam saber de tudo para investir no primeiro trampo</a>.</p>
 <p>Conheça um pouco sobre como foi meu primeiro ano como Desenvolvedor Front End. Medos, frustrações, desespero, alegria, festas e algumas dicas para se preparar para o mercado de trabalho.</p>
@@ -1712,49 +1781,6 @@
       <category term="Carreira" scheme="http://woliveiras.com.br/tags/Carreira/"/>
     
       <category term="Front End" scheme="http://woliveiras.com.br/tags/Front-End/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Corrigindo as permissões de usuário para o NPM no Linux</title>
-    <link href="http://woliveiras.com.br/posts/corrigindo-permissoes-de-usuario-linux-npm/"/>
-    <id>http://woliveiras.com.br/posts/corrigindo-permissoes-de-usuario-linux-npm/</id>
-    <published>2015-09-12T13:00:00.000Z</published>
-    <updated>2016-11-14T16:13:24.160Z</updated>
-    
-    <content type="html"><![CDATA[<div class="shared-img"><br><img src="../../public/images/npm.svg" alt=""><br></div>
-
-<p>Se você utiliza Linux e usa NPM para baixar pacotes Nodejs, provavelmente precisa utilizar o <em>sudo</em> para efetuar as instalações e digita sua senha a cada nova instalação. Porém tem uma forma mais fácil de se fazer isso. <a id="more"></a></p>
-<p>A pasta /usr/local é onde ficam (normalmente) os programas em geral e os pacotes Globais do Node. :)</p>
-<p>Para instalar algo ali dentro, o NPM precisa de permissão de usuário para essa pasta (assim como qualquer programa que você vá instalar em seu S.O.) e é por isso que toda vez que você tenta instalar algum pacote precisa digitar: <code>sudo npm i pacote</code></p>
-<p>Para corrigir isso vamos mudar as permissões do seu usuário para o diretório.</p>
-<p>Começe executando o comando <code>npm config get prefix</code> para verificar se o prefixo está corretamente localizado em <strong>/usr/local</strong>.</p>
-<p>Caso esteja corretamente localizado execute o comando:</p>
-<figure class="highlight perl"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">sudo <span class="keyword">chown</span> -R <span class="string">`whoami`</span> /usr/<span class="keyword">local</span></div></pre></td></tr></table></figure>
-<p>Será solicitado a senha do sudo e em seguida o seu terminal ficará bloqueado até que termine a execução da ação.</p>
-<p>Se você não quiser atribuir a permissão ao diretório completo, pode executar como:</p>
-<figure class="highlight crystal"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">sudo chown -R <span class="string">`whoami`</span> /usr/local/<span class="class"><span class="keyword">lib</span>/<span class="title">node_modules</span> /<span class="title">usr</span>/<span class="title">local</span>/<span class="title">bin</span> /<span class="title">usr</span>/<span class="title">local</span>/<span class="title">share</span></span></div></pre></td></tr></table></figure>
-<p>Referência: <a href="https://docs.npmjs.com/getting-started/fixing-npm-permissions" title="Fixing NPM permissions - npmjs.com" target="_blank" rel="external">Fixing NPM permissions</a></p>
-]]></content>
-    
-    <summary type="html">
-    
-      Se você já teve problemas para instalar pacotes com NPM no Linux, esse artigo vai te ajudar bastante!
-    
-    </summary>
-    
-      <category term="Nodejs" scheme="http://woliveiras.com.br/categories/Nodejs/"/>
-    
-      <category term="JavaScript" scheme="http://woliveiras.com.br/categories/Nodejs/JavaScript/"/>
-    
-      <category term="NPM" scheme="http://woliveiras.com.br/categories/Nodejs/JavaScript/NPM/"/>
-    
-    
-      <category term="Nodejs" scheme="http://woliveiras.com.br/tags/Nodejs/"/>
-    
-      <category term="JavaScript" scheme="http://woliveiras.com.br/tags/JavaScript/"/>
-    
-      <category term="NPM" scheme="http://woliveiras.com.br/tags/NPM/"/>
     
   </entry>
   
