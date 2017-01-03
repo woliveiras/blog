@@ -1,7 +1,8 @@
-title: Metas para 2017 -  vai ter muito JavaScript esse ano
+title: Metas para 2017 -  vai ter muito JavaScript, Nodejs, ES6 e Haskell esse ano
 date: 2017-01-02 01:11:32
 tags:
-description:
+    - outros
+description: Metas de 2017 - vai ter muito javascript, nodejs, es6, haskell e muito mais esse ano
 ---
 O ano passado foi bem agitado pra mim. Apesar de tantos problemas no país e no resto do mundo, como o [Fernando Daciuk](https://twitter.com/fdaciuk) comenta no [seu post de retrospectiva](http://blog.da2k.com.br/2017/01/01/retrospectiva-2016/), pra mim foi um ano de muitas conquistas e prazeres conforme você pode ver na minha retrospectiva no post anterior, [aqui](/posts/Retrospectiva-2016-projetos-open-source-eventos/).
 
