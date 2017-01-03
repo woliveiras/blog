@@ -3,16 +3,11 @@ date: 2016-05-29 23:19:11
 tags:
 description: Faculdade é importante para o Desenvolvedor de Software? Faculdade faz diferença no mercado de trabalho? Fazer ou não fazer Faculdade?
 ---
-
-<div class="shared-img">
-    <img src="https://s33.postimg.org/fputcjr1r/universidade_monstros_personagem_mike.jpg" alt="Mike Universidade Monstro">
-</div>
-
-Apesar de eu amar estudar, de coração, e ter criado [minha própria rotina](/posts/como-alcancar-objetivos-rapidamente-nos-estudos/) de estudos, quem me conhece pessoalmente sabe que eu não gosto muito de Faculdade. Eu tenho uma séria resistência com **diplomas**. <!--more-->
+Apesar de eu amar estudar, de coração, e ter criado [minha própria rotina](/posts/como-alcancar-objetivos-rapidamente-nos-estudos/) de estudos, quem me conhece pessoalmente sabe que eu não gosto muito de Faculdade. Eu tenho uma séria resistência com **diplomas**. 
 
 *[preconceito_mode=on]*
 
-Pode ser preconceito de minha parte, por conta de alguns profissionais que eu conheci durante a carreira que, por possuir um certificado de Java, ITIL, PMP ou um Bacharelado, se achavam os reis do Desenvolvimento de Software e os donos da verdade.
+Pode ser preconceito de minha parte, por conta de alguns profissionais que eu conheci durante a carreira que, por possuir um certificado de Java, ITIL, PMP ou um Bacharelado, se achavam os reis do Desenvolvimento de Software e os donos da verdade.<!--more-->
 
 Nem comento sobre os caras que fazem Federal e outros que estudam em uma Faculdade mais cara…
 

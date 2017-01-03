@@ -5,9 +5,9 @@ tags:
 description: Retrospectiva 2016 - Como foi esse ano cheio de projetos legais, open source, eventos e muito mais.
 ---
 
-Já faz algum tempo desde o meu ultimo [post](/posts/Devolva-para-as-comunidades/) aqui no Blog. Foram muitos compromissos esse ano e muita correria. Esse artigo me ajuda a te explicar o por que dessa ausência e de quebra me ajudou a relembrar como esse ano foi bem louco. <!-- more -->
+Já faz algum tempo desde o meu ultimo [post](/posts/Devolva-para-as-comunidades/) aqui no Blog. Foram muitos compromissos esse ano e muita correria. Esse artigo me ajuda a te explicar o por que dessa ausência e de quebra me ajudou a relembrar como esse ano foi bem louco.
 
-O [Felipe Fialho](https://twitter.com/LFeh) escreveu um post bem maneiro sobre [como foi seu ano de 2016](https://medium.com/@lfeh/retrospectiva-2016-df06dfdf0c2e#.eikzbmnj4), o [Luan Vicente](https://twitter.com/idlua) também [escreveu](https://medium.com/@idlua/retrospectiva-2016-9871d9eb9236#.edca997t2) e isso me motivou a também escrever uma e, de quebra, explicar os motivos deu estar sumido!
+O [Felipe Fialho](https://twitter.com/LFeh) escreveu um post bem maneiro sobre [como foi seu ano de 2016](https://medium.com/@lfeh/retrospectiva-2016-df06dfdf0c2e#.eikzbmnj4), o [Luan Vicente](https://twitter.com/idlua) também [escreveu](https://medium.com/@idlua/retrospectiva-2016-9871d9eb9236#.edca997t2) e isso me motivou a também escrever uma e, de quebra, explicar os motivos deu estar sumido!<!-- more -->
 
 Foi bem interessante relembrar o que houve esse ano e fiquei feliz por algumas conquistas enquanto escrevia o post.
 

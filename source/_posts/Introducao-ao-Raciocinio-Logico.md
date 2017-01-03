@@ -6,9 +6,9 @@ tags:
 description: Nesse artigo você encontra uma introdução rápida ao Raciocínio Lógico e alguns termos importantes para o estudo do assunto.
 ---
 
-Sempre que alguém pergunta o que precisa conhecer para aprender a programar é padrão que respondamos: Lógica de Programação e uma Linguagem de Programação. Sendo a Lógica de Programação o tema mais importante desses dois citados. <!-- more -->
+Sempre que alguém pergunta o que precisa conhecer para aprender a programar é padrão que respondamos: Lógica de Programação e uma Linguagem de Programação. Sendo a Lógica de Programação o tema mais importante desses dois citados.
 
-Em todo [guia para iniciantes](https://www.google.com/about/careers/students/guide-to-technical-development.html) ou [trilha de estudos](https://woliveiras.com.br/posts/guia-de-estudos-desenvolvedor-front-end-iniciante/) para novos desenvolvedores, sempre abordamos o assunto lógica como algo muito importante para o Desenvolvedor de Software.
+Em todo [guia para iniciantes](https://www.google.com/about/careers/students/guide-to-technical-development.html) ou [trilha de estudos](https://woliveiras.com.br/posts/guia-de-estudos-desenvolvedor-front-end-iniciante/) para novos desenvolvedores, sempre abordamos o assunto lógica como algo muito importante para o Desenvolvedor de Software.<!-- more -->
 
 Porém, também existe algo muito importante, que vem até antes da lógica de programação, algo que, com ele, é mais fácil aprender a programar, criar algoritmos mais conscisos, é o Raciocínio Lógico.
 
