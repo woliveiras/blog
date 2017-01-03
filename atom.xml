@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://woliveiras.com.br/"/>
-  <updated>2016-12-23T15:31:13.880Z</updated>
+  <updated>2017-01-03T13:40:03.109Z</updated>
   <id>http://woliveiras.com.br/</id>
   
   <author>
@@ -16,14 +16,82 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>Metas para 2017 -  vai ter muito JavaScript esse ano</title>
+    <link href="http://woliveiras.com.br/posts/Metas-para-2017/"/>
+    <id>http://woliveiras.com.br/posts/Metas-para-2017/</id>
+    <published>2017-01-02T03:11:32.000Z</published>
+    <updated>2017-01-03T13:40:03.109Z</updated>
+    
+    <content type="html"><![CDATA[<p>O ano passado foi bem agitado pra mim. Apesar de tantos problemas no país e no resto do mundo, como o <a href="https://twitter.com/fdaciuk" target="_blank" rel="external">Fernando Daciuk</a> comenta no <a href="http://blog.da2k.com.br/2017/01/01/retrospectiva-2016/" target="_blank" rel="external">seu post de retrospectiva</a>, pra mim foi um ano de muitas conquistas e prazeres conforme você pode ver na minha retrospectiva no post anterior, <a href="/posts/Retrospectiva-2016-projetos-open-source-eventos/">aqui</a>.</p>
+<p>Pra esse ano eu não espero menos. Ao contrário, quero tentar priorizar meu tempo para conseguir fazer cada vez mais coisas legais para a comunidade online e de onde eu estou.<a id="more"></a></p>
+<p>Fora as contribuições com as comunidades, preciso de muito foco na <a href="/posts/Comecei-a-faculdade-de-informatica-e-agora/">faculdade</a> e nos <a href="/posts/Livros-sobre-JavaScript-do-iniciante-ao-avancado-e-ES6/">estudos sobre JavaScript</a>.</p>
+<p>Como sou viciado no assunto <a href="/posts/produtividade-uma-re-introducao/">produtividade</a> não poderia deixar de fazer uma lista de tarefas do que pretendo para esse ano, mas dessa vez não vou me comprometer com <a href="http://leobalter.github.io/100-coisas-dev/listas/william-oliveira/" target="_blank" rel="external">100 coisas</a>, pois no ano passado eu não consegui cumprir isso por conta dos imprevistos.</p>
+<p>Pensando em motivar outras pessoas, pensei em deixar minha lista aqui no Blog. Então, lá vai.</p>
+<h2 id="1-Metas-de-estudos"><a href="#1-Metas-de-estudos" class="headerlink" title="1. Metas de estudos"></a>1. Metas de estudos</h2><p>Vai faltar espaço na cachola pra tanta coisa que quero estudar esse ano. Talvez eu precise desistir de alguma coisa durante os estudos para priorizar outras, mas faz parte.</p>
+<p>Vamos por partes então, começando pelo <strong>meu JS minha vida</strong>:</p>
+<p>Já faz um tempo desde o meu primeiro <a href="https://github.com/woliveiras/googlemapsapp" target="_blank" rel="external">exercício em JavaScript</a> que foi motivado por um líder de equipe, que me ensinou bastante coisa por sinal, para praticar mais do uso do JS (não JS puro, mas foi ótimo para aprender). - Na época toda a equipe me ajudava muito para aprender programação e gerou até uma motivação para que eu escrevesse sobre o ambiente de trabalaho no <a href="https://tableless.com.br/trabalhe-ao-lado-de-gente-boa-e-seja-a-gente-boa/" target="_blank" rel="external">Tableless</a>.</p>
+<p>Depois disso eu precisei dar uma boa estudada na linguagem e esse ano não será diferente.</p>
+<h3 id="1-1-JavaScript-Ninja"><a href="#1-1-JavaScript-Ninja" class="headerlink" title="1.1 JavaScript Ninja"></a>1.1 JavaScript Ninja</h3><p>Esse ano eu preciso terminar, <strong>de uma vez por todas</strong>, o <a href="https://github.com/da2k/curso-javascript-ninja" target="_blank" rel="external">curso JavaScript Ninja</a>, que só me faltam dois exercícios <em>e um pouco de vergonha na cara</em>. O curso está sendo muito útil pra mim, pois eu relembrei muita coisa de JavaScript puro que eu não praticava desde que aprendi a linguagem devido ao uso de jQuery e AngularJS e isso me motivou a voltar a estudar a linguagem sem libs ou frameworks.</p>
+<p>Assim que eu finalizar o JS Ninja parto direto para o curso de <a href="http://blog.da2k.com.br/curso-reactjs-ninja/" target="_blank" rel="external">React</a>, também do Daciuk.</p>
+<h3 id="1-2-Livros-sobre-JavaScript"><a href="#1-2-Livros-sobre-JavaScript" class="headerlink" title="1.2 Livros sobre JavaScript"></a>1.2 Livros sobre JavaScript</h3><p>No ano passado eu lí (por cima) o livro Segredos do JavaScript Ninja, do <a href="https://twitter.com/jeresig" target="_blank" rel="external">John Resig</a> para pegar umas coisas legais da linguagem. Depois eu fui para o Padrões JavaScript do <a href="https://twitter.com/stoyanstefanov" target="_blank" rel="external">Stoyan Stefanov</a> para aprender mais sobre padrões (claro) e deixei os códigos que <a href="https://github.com/woliveiras/javascript-studies/tree/master/js-patterns" target="_blank" rel="external">fiz nesse repositório</a>. Livros excelentes que <a href="/posts/Livros-sobre-JavaScript-do-iniciante-ao-avancado-e-ES6/">sempre recomendo</a> para quem quer estudar a linguagem.</p>
+<p>Para esse ano pretendo ler o livro JavaScript de Alto Desempenho do <a href="https://twitter.com/slicknet" target="_blank" rel="external">Nicholas C. Zakas</a> e o Exploring ES6: Upgrade to the next version of JavaScript, do <a href="https://twitter.com/rauschma" target="_blank" rel="external">Axel Rauschmayer</a> para dar um upgrade nos meus projetos e aprender, de fato, ES6.</p>
+<h3 id="1-3-Faculdade"><a href="#1-3-Faculdade" class="headerlink" title="1.3 Faculdade"></a>1.3 Faculdade</h3><p>Esse ano vou continuar minha rotina normal de <a href="/posts/Comecei-a-faculdade-de-informatica-e-agora/">estudos da faculdade</a> e quero tentar não conflitar os assuntos de lá com os assuntos que eu quero estudar por conta. Espero que um não atrapalhe o outro.</p>
+<p>Sei que isso vai ser, como foi ano passado, complicado. As vezes o conteúdo da faculdade é completamente desconhecido por mim e nesse momento preciso deixar de lado o que eu gosto de estudar para aprender o que a faculdade pede. Saber <a href="https://woliveiras.com.br/posts/Produtividade-priorizacao-de-tarefas-execucao-e-melhoria-do-processo/">priorizar as coisas</a> é muito importante para cumprirmos nossas metas.</p>
+<h3 id="1-4-Nodejs"><a href="#1-4-Nodejs" class="headerlink" title="1.4 Nodejs"></a>1.4 Nodejs</h3><p>Ano passado eu fiquei de aprender mais sobre Nodejs, porém o estudo de JavaScript no Front End não me deixou estudar essa maravilha das atualidades. - Tudo bem. Agora tem mais conteúdo ainda para estudar!</p>
+<p>Então, esse ano, eu vou estudar mais Nodejs, também. Para isso eu já estou lendo o livro Aplicações web real-time com Node.js, do <a href="https://twitter.com/crp_underground" target="_blank" rel="external">Caio Ribeiro</a> e depois vou ler o Construindo APIs REST com Node.js, do mesmo autor.</p>
+<p>Talvez eu crie algum projetinho para praticar. Tomara que eu consiga!</p>
+<p>Os exercícios e código dos livros e outros recursos que acho sobre Nodejs estou armazenando <a href="https://github.com/woliveiras/learning-nodejs" target="_blank" rel="external">aqui</a>.</p>
+<p>Também pretendo postar sobre o que eu aprender.</p>
+<h3 id="1-5-Programacao-Funcional"><a href="#1-5-Programacao-Funcional" class="headerlink" title="1.5 Programação Funcional"></a>1.5 Programação Funcional</h3><p>Eu sempre mantenho contato com Programação Funcional, dentre outras coisas, todos os dias para ir aprendendo de forma <a href="http://www.coladaweb.com/pedagogia/aprendizagem-conceitos-e-caracteristicas" target="_blank" rel="external">cumulativa</a> até conseguir um tempo para estudar a fundo sobre o assunto e praticar mais.</p>
+<p>Esse ano quero tentar estudar mais sobre esse paradigma e aplicar nos meus códigos JavaScript.</p>
+<p>Talvez eu utilize Haskell com <a href="http://learnyouahaskell.com/chapters" target="_blank" rel="external">esse conteúdo</a> para isso, por ser uma linguagem altamente recomendada para isso. Se você tiver alguma dica, comente aqui para me ajudar nesse objetivo. ;)</p>
+<h2 id="2-Projetos"><a href="#2-Projetos" class="headerlink" title="2. Projetos"></a>2. Projetos</h2><p>O que eu mais gosto na nossa área são os projetos Open Source. Então não tem como eu passar um ano sem falar, criar ou me aproximar deles.</p>
+<h3 id="2-1-Mudanca-do-tema-desse-Blog"><a href="#2-1-Mudanca-do-tema-desse-Blog" class="headerlink" title="2.1 Mudança do tema desse Blog"></a>2.1 Mudança do tema desse Blog</h3><p>Faz tempo que uso esse tema no meu Blog, até <a href="https://github.com/woliveiras/redline-hexo-theme" target="_blank" rel="external">disponibilizei ele para outras pessoas</a> poderem utilizar também. Porém esse ano eu vou mudar as coisas por aqui. Pretendo mudar tudo no background.</p>
+<p>Quero criar tudo do zero, seja com Hexo mesmo ou com Jekyll.</p>
+<h3 id="2-2-Mais-posts"><a href="#2-2-Mais-posts" class="headerlink" title="2.2 Mais posts"></a>2.2 Mais posts</h3><p>Esse ano eu quero tentar escrever mais. Pelo menos um post por mês.</p>
+<p>Ano passado aprendi muita coisa, mas por conta da má priorização do meu tempo eu não consegui transmitir nada por aqui.</p>
+<h3 id="2-3-Atualizar-ou-finalizar-meus-projetos-no-GitHub"><a href="#2-3-Atualizar-ou-finalizar-meus-projetos-no-GitHub" class="headerlink" title="2.3 Atualizar ou finalizar meus projetos no GitHub"></a>2.3 Atualizar ou finalizar meus projetos no GitHub</h3><p>Alguns projetos pessoais estão meio parados e preciso voltar a mexer neles.</p>
+<p>Alguns tem issues em aberto que posso finalizar e outros precisam de uma boa atualização.</p>
+<p>Se você quiser pode tentar me ajudar. Da uma olhada <a href="https://github.com/woliveiras?tab=repositories" target="_blank" rel="external">aqui</a>.</p>
+<p>Algumas das coisas que vou fazer nesses projetos:</p>
+<ul>
+<li>Atualizar o <a href="https://github.com/woliveiras/vimparanoobs" target="_blank" rel="external">Vim para Noobs</a> com alguns outros exemplos e mais conteúdo - está tudo pronto na minha cabeça, só falta transpilar pro GitBook!</li>
+<li>Dar uma bela revisada na versão inglês do <a href="https://github.com/woliveiras/front-end-career" target="_blank" rel="external">Carreira Front End</a></li>
+<li>Finalizar o <a href="https://github.com/woliveiras/__s" target="_blank" rel="external">Dunders</a> (deixar mais usual e com uma documentação mais completa)</li>
+<li>Montar um <a href="https://github.com/woliveiras/dunders.demo" target="_blank" rel="external">Demo</a> melhor para o Dunders</li>
+<li>Fazer um site ou, ao menos, um post sobre o <a href="https://github.com/woliveiras/dunders" target="_blank" rel="external">Dunders</a></li>
+<li>Melhorar a maneira de adicionar links no <a href="https://github.com/woliveiras/my-precious-links" target="_blank" rel="external">My Precious Links</a> - para isso vou utilizar <a href="https://www.smashingmagazine.com/2016/02/content-modeling-with-jekyll/" target="_blank" rel="external">esse esquema</a> </li>
+<li>Pretendo, também, atualizar meu <a href="https://github.com/woliveiras/dotfiles" target="_blank" rel="external">Dotfiles</a> para uma estrutura melhor</li>
+</ul>
+<p>Esse ano vou tentar evitar criar novos projetos e dar um foco nos que preciso finalizar ou ajustar.</p>
+<p>E é isso ai!</p>
+<p>Esse ano meu foco será quase 100% nos estudos e quero transmitir o que eu aprender seja em forma de <a href="https://github.com/training-center/mentoria" target="_blank" rel="external">Mentoria</a> no <a href="https://medium.com/trainingcenter/hello-world-conheça-o-centro-de-treinamento-4a47a1230b0c" target="_blank" rel="external">CT</a>, seja através dos posts aqui no Blog ou mesmo em palestras pelo Brasil afora.</p>
+<p>Espero conseguir conquistar esses poucos objetivos que coloquei, pois sei que muita coisa acontece em um ano e tudo isso pode mudar da noite pro dia.</p>
+<p>E você, já planejou como será seu ano de 2017? Comenta ai!</p>
+<p>Gostou do artigo ou acha o que eu disse pode ajudar alguém a planejar seu ano de 2017?</p>
+<p>Então compartilhe nas redes sociais, manda pros amigos, envia no grupo de Whatsapp ou Telegram da faculdade, manda seu cachorro dar uma olhada, etc.</p>
+<p>Espalhe a palavra e tenha um ótimo 2017!</p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;O ano passado foi bem agitado pra mim. Apesar de tantos problemas no país e no resto do mundo, como o &lt;a href=&quot;https://twitter.com/fdaciuk&quot;&gt;Fernando Daciuk&lt;/a&gt; comenta no &lt;a href=&quot;http://blog.da2k.com.br/2017/01/01/retrospectiva-2016/&quot;&gt;seu post de retrospectiva&lt;/a&gt;, pra mim foi um ano de muitas conquistas e prazeres conforme você pode ver na minha retrospectiva no post anterior, &lt;a href=&quot;/posts/Retrospectiva-2016-projetos-open-source-eventos/&quot;&gt;aqui&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Pra esse ano eu não espero menos. Ao contrário, quero tentar priorizar meu tempo para conseguir fazer cada vez mais coisas legais para a comunidade online e de onde eu estou.
+    
+    </summary>
+    
+    
+  </entry>
+  
+  <entry>
     <title>Retrospectiva 2016 - Projetos legais, Open Source, Eventos e mais</title>
     <link href="http://woliveiras.com.br/posts/Retrospectiva-2016-projetos-open-source-eventos/"/>
     <id>http://woliveiras.com.br/posts/Retrospectiva-2016-projetos-open-source-eventos/</id>
     <published>2016-12-23T00:00:28.000Z</published>
-    <updated>2016-12-23T15:31:13.880Z</updated>
+    <updated>2017-01-03T13:40:03.109Z</updated>
     
-    <content type="html"><![CDATA[<p>Já faz algum tempo desde o meu ultimo <a href="/posts/Devolva-para-as-comunidades/">post</a> aqui no Blog. Foram muitos compromissos esse ano e muita correria. Esse artigo me ajuda a te explicar o por que dessa ausência e de quebra me ajudou a relembrar como esse ano foi bem louco. <a id="more"></a></p>
-<p>O <a href="https://twitter.com/LFeh" target="_blank" rel="external">Felipe Fialho</a> escreveu um post bem maneiro sobre <a href="https://medium.com/@lfeh/retrospectiva-2016-df06dfdf0c2e#.eikzbmnj4" target="_blank" rel="external">como foi seu ano de 2016</a>, o <a href="https://twitter.com/idlua" target="_blank" rel="external">Luan Vicente</a> também <a href="https://medium.com/@idlua/retrospectiva-2016-9871d9eb9236#.edca997t2" target="_blank" rel="external">escreveu</a> e isso me motivou a também escrever uma e, de quebra, explicar os motivos deu estar sumido!</p>
+    <content type="html"><![CDATA[<p>Já faz algum tempo desde o meu ultimo <a href="/posts/Devolva-para-as-comunidades/">post</a> aqui no Blog. Foram muitos compromissos esse ano e muita correria. Esse artigo me ajuda a te explicar o por que dessa ausência e de quebra me ajudou a relembrar como esse ano foi bem louco.</p>
+<p>O <a href="https://twitter.com/LFeh" target="_blank" rel="external">Felipe Fialho</a> escreveu um post bem maneiro sobre <a href="https://medium.com/@lfeh/retrospectiva-2016-df06dfdf0c2e#.eikzbmnj4" target="_blank" rel="external">como foi seu ano de 2016</a>, o <a href="https://twitter.com/idlua" target="_blank" rel="external">Luan Vicente</a> também <a href="https://medium.com/@idlua/retrospectiva-2016-9871d9eb9236#.edca997t2" target="_blank" rel="external">escreveu</a> e isso me motivou a também escrever uma e, de quebra, explicar os motivos deu estar sumido!<a id="more"></a></p>
 <p>Foi bem interessante relembrar o que houve esse ano e fiquei feliz por algumas conquistas enquanto escrevia o post.</p>
 <h2 id="Open-Source"><a href="#Open-Source" class="headerlink" title="Open Source"></a>Open Source</h2><p>Esse ano criei mais projetos do que no ano passado.</p>
 <p><strong>Fevereiro</strong></p>
@@ -89,7 +157,7 @@
     <link href="http://woliveiras.com.br/posts/Devolva-para-as-comunidades/"/>
     <id>http://woliveiras.com.br/posts/Devolva-para-as-comunidades/</id>
     <published>2016-07-24T14:50:15.000Z</published>
-    <updated>2016-12-23T15:31:13.880Z</updated>
+    <updated>2017-01-03T13:40:03.109Z</updated>
     
     <content type="html"><![CDATA[<p>Todos os dias ficamos devendo para as comunidades e nem percebemos isso.</p>
 <p>Utilizamos Softwares Open Source (<a href="https://github.com/vim/vim" target="_blank" rel="external">VIM</a>, <a href="https://github.com/atom/atom" target="_blank" rel="external">Atom</a>, <a href="https://github.com/Microsoft/vscode" target="_blank" rel="external">VS Code</a>) para editar nossos códigos fonte, para navegar na internet (<a href="https://developer.mozilla.org/pt-BR/docs/Developer_Guide/Codigo_Fonte/Downloading_Source_Archives" target="_blank" rel="external">Firefox</a>, <a href="https://chromium.googlesource.com/" target="_blank" rel="external">Chromium</a>), escrevemos códigos para rodar em <a href="https://github.com/nodejs/node" target="_blank" rel="external">plataformas abertas</a>, buscamos respostas em <a href="https://github.com/frontendbr/forum" target="_blank" rel="external">foruns</a>… Enfim, são muitos os casos em que as comunidades nos ajudam, mas será que estamos retribuindo isso de alguma maneira ou estamos deixando passar a oportunidade de contribuir com a vida das pessoas?<a id="more"></a></p>
@@ -164,11 +232,11 @@
     <link href="http://woliveiras.com.br/posts/Introducao-ao-Calculo-Proposicional/"/>
     <id>http://woliveiras.com.br/posts/Introducao-ao-Calculo-Proposicional/</id>
     <published>2016-07-16T02:00:00.000Z</published>
-    <updated>2016-12-23T15:31:13.880Z</updated>
+    <updated>2017-01-03T13:40:03.109Z</updated>
     
     <content type="html"><![CDATA[<p>Como introduzido no post anterior falando sobre <a href="posts/Introducao-ao-Raciocinio-Logico/">Raciocínio Lógico</a> vamos continuar com os estudos sobre Lógica.</p>
 <p>Se você pesquisou sobre a Classificação Lógica ou leu os artigos que deixei no final do post, deve ter visto sobre a Lógica Matemática.</p>
-<p>A Matemática falada aqui é voltada para o pensamento do calculo das proposições e não para o famoso 1+1, 1-1, 1*1, 1/1. <a id="more"></a></p>
+<p>A Matemática falada aqui é voltada para o pensamento do calculo das proposições e não para o famoso 1+1, 1-1, 1*1, 1/1.<a id="more"></a></p>
 <p>Na Lógica Matemática usamos formulas para validar as “premissas” e possuímos uma linguagem para efetuar os cálculos proposicionais.</p>
 <p>Calculo Proposicional, Calculo Sentencial ou Calculo das Sentenças é uma das partes indispensáveis da Lógica Matemática.</p>
 <p>Vamos conhecer um pouco mais sobre isso.</p>
@@ -301,10 +369,10 @@
     <link href="http://woliveiras.com.br/posts/Introducao-ao-Raciocinio-Logico/"/>
     <id>http://woliveiras.com.br/posts/Introducao-ao-Raciocinio-Logico/</id>
     <published>2016-06-19T14:50:29.000Z</published>
-    <updated>2016-12-23T15:31:13.880Z</updated>
+    <updated>2017-01-03T13:40:03.109Z</updated>
     
-    <content type="html"><![CDATA[<p>Sempre que alguém pergunta o que precisa conhecer para aprender a programar é padrão que respondamos: Lógica de Programação e uma Linguagem de Programação. Sendo a Lógica de Programação o tema mais importante desses dois citados. <a id="more"></a></p>
-<p>Em todo <a href="https://www.google.com/about/careers/students/guide-to-technical-development.html" target="_blank" rel="external">guia para iniciantes</a> ou <a href="https://woliveiras.com.br/posts/guia-de-estudos-desenvolvedor-front-end-iniciante/">trilha de estudos</a> para novos desenvolvedores, sempre abordamos o assunto lógica como algo muito importante para o Desenvolvedor de Software.</p>
+    <content type="html"><![CDATA[<p>Sempre que alguém pergunta o que precisa conhecer para aprender a programar é padrão que respondamos: Lógica de Programação e uma Linguagem de Programação. Sendo a Lógica de Programação o tema mais importante desses dois citados.</p>
+<p>Em todo <a href="https://www.google.com/about/careers/students/guide-to-technical-development.html" target="_blank" rel="external">guia para iniciantes</a> ou <a href="https://woliveiras.com.br/posts/guia-de-estudos-desenvolvedor-front-end-iniciante/">trilha de estudos</a> para novos desenvolvedores, sempre abordamos o assunto lógica como algo muito importante para o Desenvolvedor de Software.<a id="more"></a></p>
 <p>Porém, também existe algo muito importante, que vem até antes da lógica de programação, algo que, com ele, é mais fácil aprender a programar, criar algoritmos mais conscisos, é o Raciocínio Lógico.</p>
 <p>Será mais fácil aprender a fazer os seus Algoritmos Computacionais se você já tiver o Raciocínio Lógico fixado em sua mente.</p>
 <p>Encare o raciocínio lógico, aqui, como uma ferramenta que vai facilitar o entendimento da lógica de programação e seja feliz!</p>
@@ -382,7 +450,7 @@
     <link href="http://woliveiras.com.br/posts/novos-ares-para-o-femug-abc/"/>
     <id>http://woliveiras.com.br/posts/novos-ares-para-o-femug-abc/</id>
     <published>2016-06-05T14:00:00.000Z</published>
-    <updated>2016-12-23T15:31:13.884Z</updated>
+    <updated>2017-01-03T13:40:03.109Z</updated>
     
     <content type="html"><![CDATA[<p>Eu <strong>nunca fui em um evento de Desenvolvedores Front End</strong>, antes de 2015.</p>
 <p>Moro em uma região bem ruim de se locomover de ônibus. Pra eu ir pra São Paulo, em um evento legal como o SampaJS, eu demoraria de 2:30 a 3 horas de rolê. Isso em um dia sem chuva, pois nesses dias demora entre 3:30 a 4 horas. Coisa linda né? <a id="more"></a></p>
@@ -442,13 +510,11 @@
     <link href="http://woliveiras.com.br/posts/Comecei-a-faculdade-de-informatica-e-agora/"/>
     <id>http://woliveiras.com.br/posts/Comecei-a-faculdade-de-informatica-e-agora/</id>
     <published>2016-05-30T02:19:11.000Z</published>
-    <updated>2016-12-23T15:31:13.880Z</updated>
+    <updated>2017-01-03T13:40:03.109Z</updated>
     
-    <content type="html"><![CDATA[<div class="shared-img"><br>    <img src="https://s33.postimg.org/fputcjr1r/universidade_monstros_personagem_mike.jpg" alt="Mike Universidade Monstro"><br></div>
-
-<p>Apesar de eu amar estudar, de coração, e ter criado <a href="/posts/como-alcancar-objetivos-rapidamente-nos-estudos/">minha própria rotina</a> de estudos, quem me conhece pessoalmente sabe que eu não gosto muito de Faculdade. Eu tenho uma séria resistência com <strong>diplomas</strong>. <a id="more"></a></p>
+    <content type="html"><![CDATA[<p>Apesar de eu amar estudar, de coração, e ter criado <a href="/posts/como-alcancar-objetivos-rapidamente-nos-estudos/">minha própria rotina</a> de estudos, quem me conhece pessoalmente sabe que eu não gosto muito de Faculdade. Eu tenho uma séria resistência com <strong>diplomas</strong>. </p>
 <p><em>[preconceito_mode=on]</em></p>
-<p>Pode ser preconceito de minha parte, por conta de alguns profissionais que eu conheci durante a carreira que, por possuir um certificado de Java, ITIL, PMP ou um Bacharelado, se achavam os reis do Desenvolvimento de Software e os donos da verdade.</p>
+<p>Pode ser preconceito de minha parte, por conta de alguns profissionais que eu conheci durante a carreira que, por possuir um certificado de Java, ITIL, PMP ou um Bacharelado, se achavam os reis do Desenvolvimento de Software e os donos da verdade.<a id="more"></a></p>
 <p>Nem comento sobre os caras que fazem Federal e outros que estudam em uma Faculdade mais cara…</p>
 <p>Esses caras me fizeram querer distância de Faculdade por um bom tempo.</p>
 <p>Eu, de verdade, não acho que uma faculdade seja motivo pra se achar o cara mais importante das galáxias (seja Bacharel, Mestrado, Doutorado ou o que for), pois conheci excelentes profissionais sem diploma. Eu não queria entrar em um ensino superior e ser só mais um. </p>
@@ -501,7 +567,7 @@
     <link href="http://woliveiras.com.br/posts/Comecando-com-o-editor-de-texto-VIM/"/>
     <id>http://woliveiras.com.br/posts/Comecando-com-o-editor-de-texto-VIM/</id>
     <published>2016-05-22T13:30:00.000Z</published>
-    <updated>2016-12-23T15:31:13.880Z</updated>
+    <updated>2017-01-03T13:40:03.109Z</updated>
     
     <content type="html"><![CDATA[<p>A tarefa que um Desenvolvedor de Software precisa cumprir com a maior agilidade é a escrita/edição de texto. Depois de pensar por algumas horas, planejar o que vai fazer e como fazer (quais funções, métodos, classes criar), nós partimos para a escrita do código fonte no nosso editor de texto favorito ou em uma <a href="https://pt.wikipedia.org/wiki/Ambiente_de_desenvolvimento_integrado" target="_blank" rel="external">IDE</a>.</p>
 <p>Existem <a href="http://pt.wikihow.com/Digitar-Mais-R%C3%A1pido" target="_blank" rel="external">várias técnicas</a> para você ficar fera no teclado, porém hoje vou apresentar outra forma de agilizar as coisas. Vou apresentar (pela minha perspectiva) o <strong>VIM</strong>. <a id="more"></a></p>
@@ -674,7 +740,7 @@
     <link href="http://woliveiras.com.br/posts/Aumente-sua-produtividade-e-da-sua-equipe-com-gamificacao/"/>
     <id>http://woliveiras.com.br/posts/Aumente-sua-produtividade-e-da-sua-equipe-com-gamificacao/</id>
     <published>2016-05-14T18:00:34.000Z</published>
-    <updated>2016-12-23T15:31:13.880Z</updated>
+    <updated>2017-01-03T13:40:03.105Z</updated>
     
     <content type="html"><![CDATA[<p>Todos nós gostamos de jogos, seja no PC, Celular ou qualquer outro tipo… Simplesmente, gostamos. Agora imagine utilizar jogos para ser mais produtivo, cuidar da saúde, aprender algo novo ou qualquer outro objetivo pessoal.</p>
 <p>Imagine transformar sua vida em um jogo de RPG!<a id="more"></a></p>
@@ -761,7 +827,7 @@
     <link href="http://woliveiras.com.br/posts/Produtividade-priorizacao-de-tarefas-execucao-e-melhoria-do-processo/"/>
     <id>http://woliveiras.com.br/posts/Produtividade-priorizacao-de-tarefas-execucao-e-melhoria-do-processo/</id>
     <published>2016-04-21T12:31:46.000Z</published>
-    <updated>2016-12-23T15:31:13.880Z</updated>
+    <updated>2017-01-03T13:40:03.109Z</updated>
     
     <content type="html"><![CDATA[<p>Continuando a série sobre Produtividade, já sabemos <a href="/posts/produtividade-uma-re-introducao/">o que é produtividade</a> e <a href="/posts/Produtividade-conhece-te-a-ti-mesmo/">como nosso cérebro funciona</a>, agora precisamos aprender a planejar as coisas para que nosso cérebro não nos atrapalhe em nossa meta de sermos mais produtivos. <a id="more"></a></p>
 <p>O planejamento, aqui, pode ser dividido em:</p>
@@ -847,7 +913,7 @@
     <link href="http://woliveiras.com.br/posts/Links-uteis-para-aprender-se-aprofundar-ou-manter-se-atualizado-sobre-JavaScript/"/>
     <id>http://woliveiras.com.br/posts/Links-uteis-para-aprender-se-aprofundar-ou-manter-se-atualizado-sobre-JavaScript/</id>
     <published>2016-04-20T09:00:19.000Z</published>
-    <updated>2016-12-23T15:31:13.880Z</updated>
+    <updated>2017-01-03T13:40:03.109Z</updated>
     
     <content type="html"><![CDATA[<p>Existe muito recurso legal disponível na internet para quem deseja aprender ou se aprofundar em JavaScript. Tanto recursos gratuitos, quanto recursos pagos. Existem muitos <a href="/posts/Livros-sobre-JavaScript-do-iniciante-ao-avancado-e-ES6/">livros bons</a> sobre a linguagem também.</p>
 <p>Nesse post, vou tentar deixar um compilado de links úteis para quem quer se aprofundar na linguagem da Web!<a id="more"></a></p>
@@ -959,7 +1025,7 @@
     <link href="http://woliveiras.com.br/posts/Livros-sobre-JavaScript-do-iniciante-ao-avancado-e-ES6/"/>
     <id>http://woliveiras.com.br/posts/Livros-sobre-JavaScript-do-iniciante-ao-avancado-e-ES6/</id>
     <published>2016-04-19T10:24:08.000Z</published>
-    <updated>2016-12-23T15:31:13.880Z</updated>
+    <updated>2017-01-03T13:40:03.109Z</updated>
     
     <content type="html"><![CDATA[<p>Existem excelentes livros sobre JavaScript no mercado, mas são tantos que nos perdemos em qual ler primeiro, qual ler depois, qual nem vale a pena ler em determinado nível de conhecimento… São várias dúvidas.</p>
 <p>Nesse artigo vou tentar ajudar a escolher os melhores livros para seu nível de conhecimento e montar uma sequência legal de leitura para virar um JavaScript Master!<a id="more"></a></p>
@@ -1015,9 +1081,9 @@
     </summary>
     
     
-      <category term="javascript" scheme="http://woliveiras.com.br/tags/javascript/"/>
-    
       <category term="livros" scheme="http://woliveiras.com.br/tags/livros/"/>
+    
+      <category term="javascript" scheme="http://woliveiras.com.br/tags/javascript/"/>
     
   </entry>
   
@@ -1026,7 +1092,7 @@
     <link href="http://woliveiras.com.br/posts/Produtividade-conhece-te-a-ti-mesmo/"/>
     <id>http://woliveiras.com.br/posts/Produtividade-conhece-te-a-ti-mesmo/</id>
     <published>2016-04-18T11:48:58.000Z</published>
-    <updated>2016-12-23T15:31:13.880Z</updated>
+    <updated>2017-01-03T13:40:03.109Z</updated>
     
     <content type="html"><![CDATA[<p>O autoconhecimento é muito importante para você se tornar produtivo.</p>
 <p>De nada adianta aprender milhares de técnicas, receber diversas dicas sobre produtividade, se nenhuma delas se encaixa em você. Claro que é necessário um pouco de esforço de sua parte para que as metodologias deem certo, porém, dentre milhares de técnicas, você vai precisar achar uma que se encaixe em seu estilo de vida e na sua forma de pensar e agir. <a id="more"></a></p>
@@ -1104,7 +1170,7 @@
     <link href="http://woliveiras.com.br/posts/Por-que-voce-desistiu-de-ser-Cientista/"/>
     <id>http://woliveiras.com.br/posts/Por-que-voce-desistiu-de-ser-Cientista/</id>
     <published>2016-04-16T11:55:36.000Z</published>
-    <updated>2016-12-23T15:31:13.880Z</updated>
+    <updated>2017-01-03T13:40:03.109Z</updated>
     
     <content type="html"><![CDATA[<p>Há algum tempo venho observando as pessoas, mais especificamente as pessoas da área de Desenvolvimento de Software. Há mais tempo ainda eu observo as outras pessoas, o ser humano em geral. E desde sempre percebi um padrão:</p>
 <p>Ao crescer, as pessoas abandonam a profissão que nasce com elas, a profissão de <strong>cientista</strong>.<a id="more"></a></p>
@@ -1197,7 +1263,7 @@
     <link href="http://woliveiras.com.br/posts/produtividade-uma-re-introducao/"/>
     <id>http://woliveiras.com.br/posts/produtividade-uma-re-introducao/</id>
     <published>2016-04-13T10:58:34.000Z</published>
-    <updated>2016-12-23T15:31:13.884Z</updated>
+    <updated>2017-01-03T13:40:03.113Z</updated>
     
     <content type="html"><![CDATA[<p>No ritmo frenético em que vivemos, ser produtivo já não é mais qualidade de ninguém, precisa ser uma característica de todos.</p>
 <p>Nós queremos fazer um amontoado de coisas todos os dias e toda hora aparece alguma outra coisa pra se fazer.</p>
@@ -1261,7 +1327,7 @@
     <link href="http://woliveiras.com.br/posts/Criando-uma-imagem-Docker-personalizada/"/>
     <id>http://woliveiras.com.br/posts/Criando-uma-imagem-Docker-personalizada/</id>
     <published>2016-04-12T01:18:59.000Z</published>
-    <updated>2016-12-23T15:31:13.880Z</updated>
+    <updated>2017-01-03T13:40:03.109Z</updated>
     
     <content type="html"><![CDATA[<p>É muito legal poder baixar uma imagem do <a href="http://hub.docker.com/" target="_blank" rel="external">Docker Hub</a> e já sair criando os containers, modificando e brincando, mas e depois?</p>
 <p>Como fazemos para levar essa imagem para outro host?</p>
@@ -1373,7 +1439,7 @@
     <link href="http://woliveiras.com.br/posts/comandos-mais-utilizados-no-docker/"/>
     <id>http://woliveiras.com.br/posts/comandos-mais-utilizados-no-docker/</id>
     <published>2016-04-12T00:00:08.000Z</published>
-    <updated>2016-12-23T15:31:13.884Z</updated>
+    <updated>2017-01-03T13:40:03.109Z</updated>
     
     <content type="html"><![CDATA[<p>Um post rapidinho com os comandos mais utilizados do Docker para não esquecer e consultar facilmente. :D</p>
 <p>Se você não viu a primeira parte dessa sequência, clique <a href="/posts/uma-rapida-introducao-ao-docker-e-instalacao-no-ubuntu/">aqui</a>.</p>
@@ -1499,7 +1565,7 @@
     <link href="http://woliveiras.com.br/posts/imagem-docker-ou-um-container-docker/"/>
     <id>http://woliveiras.com.br/posts/imagem-docker-ou-um-container-docker/</id>
     <published>2016-04-11T17:00:00.000Z</published>
-    <updated>2016-12-23T15:31:13.884Z</updated>
+    <updated>2017-01-03T13:40:03.109Z</updated>
     
     <content type="html"><![CDATA[<p>Se você viu a primeira parte dessa sequência de artigos, percebeu que existem dois termos muito utilizados quando falamos de Docker: <strong>Imagens</strong> e <strong>Containers</strong>. Você deve se perguntar: qual é a diferença entre imagem e container Docker? Ou então: O que eu rodo com o <code>docker run</code>, uma imagem ou um container? <a id="more"></a></p>
 <p>Se você não viu o primeiro artigo, da uma olhada <a href="/posts/uma-rapida-introducao-ao-docker-e-instalacao-no-ubuntu/">aqui</a>.</p>
@@ -1578,7 +1644,7 @@
     <link href="http://woliveiras.com.br/posts/uma-rapida-introducao-ao-docker-e-instalacao-no-ubuntu/"/>
     <id>http://woliveiras.com.br/posts/uma-rapida-introducao-ao-docker-e-instalacao-no-ubuntu/</id>
     <published>2016-04-10T11:03:47.000Z</published>
-    <updated>2016-12-23T15:31:13.884Z</updated>
+    <updated>2017-01-03T13:40:03.113Z</updated>
     
     <content type="html"><![CDATA[<p><div class="shared-img"><br><img src="../../public/images/docker.png" alt="Docker"><br></div>Você já deve ter ouvido falar, pelo menos uma vez, sobre <a href="https://www.docker.com/" target="_blank" rel="external">Docker</a> em algum lugar. Seja em palestras, blogs, vídeos ou em qualquer outra fonte de estudos sobre desenvolvimento, uma hora sempre comentamos sobre virtualização de ambientes e o Docker é a ferramenta que mais tem se destacado para tal. Ele é uma das 8 maravilhas das atualidades mais atuais. Vamos entender um pouco, então, o que é o Docker e como instalar no nosso Ubuntu.<a id="more"></a></p>
 <h2 id="Introducao"><a href="#Introducao" class="headerlink" title="Introdução"></a>Introdução</h2><p>Eu também já ouvia falar do Docker a um bom tempo, porém nunca havia me aprofundado mais nessa ferramenta.</p>
@@ -1664,7 +1730,7 @@
     <link href="http://woliveiras.com.br/posts/postando-no-blog-est%C3%A1tico-direto-pelo-github-com-hexo-e-travis-ci/"/>
     <id>http://woliveiras.com.br/posts/postando-no-blog-estático-direto-pelo-github-com-hexo-e-travis-ci/</id>
     <published>2016-02-07T00:00:00.000Z</published>
-    <updated>2016-12-23T15:31:13.884Z</updated>
+    <updated>2017-01-03T13:40:03.109Z</updated>
     
     <content type="html"><![CDATA[<p>Confesso que fiquei tentado a migrar para o <a href="https://jekyllrb.com/" target="_blank" rel="external">Jekyll (Ruby)</a> depois que um <a href="http://jotateles.com.br/" target="_blank" rel="external">amigo</a> me mostrou que da para postar no blog direto do GitHub sem ter o Jekyll instalado na máquina. Porém eu não desisti do meu queridinho, o <a href="http://hexo.io/" target="_blank" rel="external">Hexo (feito com Node &lt;3)</a>.<a id="more"></a></p>
 <p><em>Se você não conhece o Hexo, da uma olhada <a href="http://woliveiras.com.br/posts/Migrando-de-Wordpress-para-Hexo/">nesse artigo</a>.</em></p>
@@ -1731,56 +1797,6 @@
       <category term="Travis CI" scheme="http://woliveiras.com.br/tags/Travis-CI/"/>
     
       <category term="Continuous Integration" scheme="http://woliveiras.com.br/tags/Continuous-Integration/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Um ano (ou um pouco mais) como desenvolvedor Front End</title>
-    <link href="http://woliveiras.com.br/posts/um-ano-como-desenvolvedor-front-end/"/>
-    <id>http://woliveiras.com.br/posts/um-ano-como-desenvolvedor-front-end/</id>
-    <published>2015-12-01T12:00:00.000Z</published>
-    <updated>2016-12-23T15:31:13.884Z</updated>
-    
-    <content type="html"><![CDATA[<p>Todo mundo tem uma história legal pra contar sobre como começou na área de Desenvolvimento, seja Web, Mobile, Desktop ou tanto faz. Sempre temos algo interessante para passar para os novos desenvolvedores que estão entrando no mercado e que, as vezes, tem medo de se arriscar, achando que <a href="http://woliveiras.com.br/posts/requisitos-para-vagas-front-end/">precisam saber de tudo para investir no primeiro trampo</a>.</p>
-<p>Conheça um pouco sobre como foi meu primeiro ano como Desenvolvedor Front End. Medos, frustrações, desespero, alegria, festas e algumas dicas para se preparar para o mercado de trabalho.</p>
-<a id="more"></a>
-<p>Eu trabalho a um bom tempo com informática, comecei com manutenção de micros e passei por Analista de Suporte I e II em uma empresa até <a href="https://www.linkedin.com/in/woliveira542" target="_blank" rel="external">grandinha</a>, já até treinei equipes na área de Infra. Porém eu sempre quis me tornar um desenvolvedor e soltar a criatividade/criar coisas/automatizar tarefas/acelerar processos.</p>
-<p>Minha história como desenvolvedor começou, de fato, a um ano atrás (ou um ano e dois/três meses) quando tive a oportunidade de participar de alguns freelas com uns camaradas que conheci nas redes sociais. Não ganhava dinheiro, pois eramos todos iniciantes e pegávamos os serviços só para aprender mesmo.</p>
-<p>Foi assim que eu aprendi mais sobre <a href="http://woliveiras.com.br/posts/instalando-o-git-windows/">Git</a>, <a href="http://woliveiras.com.br/posts/gerenciar-projetos-com-trello/">Trello</a>, conheci um pouquinho de Python &lt;3 e aprendi até a dar <a href="http://woliveiras.com.br/posts/freelancer-quanto-cobrar-pelo-freelance/">preço para as coisas</a>.</p>
-<p>Consegui meu primeiro trampo fixo como Desenvolvedor Web em uma agência aqui na cidade onde eu moro, mas ainda nem imaginava o que era Front End. Lá eu fazia desde o Design (sim… Photoshop, UX, UI…), até o HTML e CSS e PHP com MySQL. Lá eu tive a oportunidade de poder implementar muita coisa e por isso eu via muito vídeo de palestras de desenvolvimento web, para não fazer algo errado, e foi assim que eu conheci o mundo Front End. - E também foi lá que eu criei o <a href="https://github.com/woliveiras/pastel" target="_blank" rel="external">Pastel</a>.</p>
-<h2 id="Comecando-a-me-apaixonar-pelo-Front-End"><a href="#Comecando-a-me-apaixonar-pelo-Front-End" class="headerlink" title="Começando a me apaixonar pelo Front End"></a>Começando a me apaixonar pelo Front End</h2><p>Conheci várias comunidades tanto de Front quanto Back End e comecei a tomar gosto pela coisa, mas me apaixonei por Front quando ouvi falar sobre <a href="https://www.youtube.com/watch?v=hmw0bFD7GHw" target="_blank" rel="external">Acessibilidade</a>, mas não parou por aí, fiquei sabendo que o Front é responsável por grande parte da <a href="https://developer.yahoo.com/blogs/ydn/high-performance-sites-importance-front-end-performance-7160.html" target="_blank" rel="external">performance</a> de um site/sistema web e isso só foi me fazendo ficar cada vez mais apaixonado pela área e eu nem imaginava <a href="http://tableless.com.br/desafios-de-um-desenvolvedor-front-end/" target="_blank" rel="external">o que estava por vir</a>.</p>
-<p>Eu curtia escrever HTML e CSS e fazer de tudo um pouco, mas o que eu gosto mesmo é da parte de lógica da coisa, então estava faltando algo pra eu ficar mais feliz com isso. Foi ai que houve uma explosão de JavaScript pra todo lado nas comunidades, mercado de trabalho, etc… Pronto, achei onde eu iria investir meu tempo.</p>
-<p>No Front eu consigo programar e ainda fazer uma coisa que eu gosto muito: <strong>Cuidar do usuário</strong> (por isso que acho que sou um dos únicos que curtia a área de Suporte) <strong>e ainda da imagem da empresa</strong> (vai dizer que não acha a empresa fo#@ quando o site gigante carrega super rápido e funciona tudo certinho?).</p>
-<p>Então, no começo desse ano recebi a oportunidade de trabalhar em uma grande empresa na área de turismo como Front e lá <a href="http://tableless.com.br/trabalhe-ao-lado-de-gente-boa-e-seja-a-gente-boa/" target="_blank" rel="external">conheci muita gente MONSTRA em programação</a> e foi ali que eu tomei meu rumo. Com eles aprendi muita coisa e vou carregar alguns conselhos pro resto da vida.</p>
-<p>Mas também foi lá que eu conheci o peso da profissão programador.</p>
-<h2 id="As-vezes-bate-um-desespero…"><a href="#As-vezes-bate-um-desespero…" class="headerlink" title="As vezes bate um desespero…"></a>As vezes bate um desespero…</h2><p>Durante esse ano eu já pensei em desistir e isso por conta do tanto de coisa que precisava aprender e dos desafios que ainda estavam por vir. - Quem nunca? Quando chegava uma tarefa e eu não sabia nem por onde começar parecia que eu havia estudado tanto a toa. Parecia que eu não sabia nada.</p>
-<p>Eu percebi que a falta do inglês e do conhecimento que um mentor poderia me passar (e um probleminha com ansiedade) me fizeram muito mal.</p>
-<p>Com o inglês eu poderia ter pego coisas (que eu já deveria saber) em artigos/livros/videos do exterior e um mentor poderia ter me dito por onde ir, o que fazer e se estava ficando bom.</p>
-<p>Quando comecei os estudos não tinha foco e por isso aprendi de tudo um pouco, mas não me especializei em nada. - Conhecia de tudo um pouco, mas de nada sabia.<br>Eu estudava, estudava, estudava e achava que não estava aprendendo nada. Acho que você, iniciante também passa por isso, mas calma… Tenho alguns bons conselhos pra você.</p>
-<h2 id="Um-conselho-dificil"><a href="#Um-conselho-dificil" class="headerlink" title="Um conselho difícil"></a>Um conselho difícil</h2><p>Um conselho que dou é: Não desista.</p>
-<p>Tenha paciência. Não precisa abraçar o mundo e querer aprender tudo para amanhã. Se fizer isso vai se arrepender.</p>
-<h2 id="Agora-parte-mais-demorada"><a href="#Agora-parte-mais-demorada" class="headerlink" title="Agora parte mais demorada"></a>Agora parte mais demorada</h2><p>Aprenda <a href="http://www.igorapa.com/fui-aprender-ingles.html" target="_blank" rel="external">inglês</a>, busque <a href="https://uptodate.frontendrescue.org/#follow-cool-people" target="_blank" rel="external">seguir as pessoas legais</a> (me segue também se quiser, eu sou legalzinho ;)), procure tirar dúvidas e não tenha medo de buscar ajuda.</p>
-<p>Seja cara de pau, o medo só vai te limitar, eu tirei muita dúvida por email com uns caras “tops da comunidade” que escrevem em alguns blogs, aparecem em palestras e blablabla e achava que eles nunca responderiam um noobão começando, mas eles respondem. Achava que os caras são super heróis, mas são apenas pessoas normais. Você pode chegar lá também sabia? Deixe de ser bobo, <a href="http://danielfilho.github.io/2014/08/20/queime-seus-idolos/" target="_blank" rel="external">queime seus idolos</a>.</p>
-<p>Se você ainda está estudando, tenha foco, <a href="http://woliveiras.com.br/posts/guia-de-estudos-desenvolvedor-front-end-iniciante">crie um plano de estudos</a> e siga.<br>Se está buscando emprego, não desista, corra atrás e fique de olho nas <a href="https://www.facebook.com/groups/frontendvagas/" target="_blank" rel="external">comunidades</a>.<br>Se você está na área e bateu aquela frustração, calma… <a href="https://www.linkedin.com/pulse/20140911044818-57651957-stress-literalmente-deixa-os-programadores-loucos-e-a-s%C3%ADndrome-do-impostor" target="_blank" rel="external">O stress pode te fazer muito mal</a>. Procure alternativas para controlar seus <a href="https://www.javascriptmasters.com.br/blog/mindfulness/o-que-e-mindfulness/" target="_blank" rel="external">pensamentos e emoções</a> e terá <a href="https://www.javascriptmasters.com.br/blog/mindfulness/como-ter-superpoderes-na-programacao/" target="_blank" rel="external">super poderes</a>!</p>
-<p>Claro que minha história está só começando e muita coisa ainda vai acontecer. Espero poder compartilhar tudo com você que precisa de uma palavrinha.</p>
-<p>E você que já trabalha na área ou está começando, como foi o seu começo ou o seu ano na área de Desenvolvimento? Se tiver alguma dica escreva também nos comentários.</p>
-<p>E espalhe a palavra.</p>
-]]></content>
-    
-    <summary type="html">
-    
-      Conheça um pouco sobre como foi meu primeiro ano como Desenvolvedor Front End. Medos, frustrações, desespero, alegria, festas e algumas dicas para se preparar para o mercado de trabalho.
-    
-    </summary>
-    
-      <category term="Carreira" scheme="http://woliveiras.com.br/categories/Carreira/"/>
-    
-      <category term="Front End" scheme="http://woliveiras.com.br/categories/Carreira/Front-End/"/>
-    
-    
-      <category term="Carreira" scheme="http://woliveiras.com.br/tags/Carreira/"/>
-    
-      <category term="Front End" scheme="http://woliveiras.com.br/tags/Front-End/"/>
     
   </entry>
   
