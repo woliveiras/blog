@@ -2,15 +2,15 @@ title: Utilizando versões antigas do Nodejs
 categories:
   - Nodejs
   - JavaScript
-  - NVM
   - NPM
 tags:
   - Nodejs
   - JavaScript
   - NVM
   - NPM
+  - dicas
 date: 2015-09-12 05:00:32
-description: Como utilizar mais de uma versão de Node na mesma máquina.
+description: Como utilizar mais de uma versão de Nodejs no mesmo Sistema Operacional. Configurando seu ambiente local Nodejs.
 ---
 <div class="shared-img">
 ![](../..//public/images/nodejs.png)
