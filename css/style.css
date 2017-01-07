@@ -125,7 +125,7 @@ body {
   -webkit-text-size-adjust: 100%;
 }
 .outer {
-  max-width: 920px;
+  max-width: 800px;
   margin: 0 auto;
   padding: 0 20px;
 }
@@ -281,7 +281,7 @@ body {
 #header {
   position: relative;
   border-top: 2px solid #de1b1b;
-  height: 300px;
+  height: 260px;
 }
 #header-outer {
   height: 100%;
@@ -312,7 +312,7 @@ body {
   font-weight: bold;
 }
 #header-title {
-  font-size: 2.8rem;
+  font-size: 3.5rem;
   text-align: center;
   line-height: 0.8;
   padding-top: 80px;
@@ -451,7 +451,7 @@ body {
 .search-form-input {
   border: none;
   background: none;
-  color: rgba(0,0,0,0.7);
+  color: rgba(0,0,0,0.8);
   width: 100%;
   font: 13px 'Open Sans', sans-serif;
   outline: none;
@@ -515,7 +515,7 @@ body {
 }
 .article-title {
   text-decoration: none;
-  font-size: 2em;
+  font-size: 2.5em;
   font-weight: bold;
   color: #de1b1b;
   line-height: 1;
@@ -528,14 +528,16 @@ body {
   .article-title {
     font-size: 1.5rem;
     line-height: 1.5;
+    padding: 10px;
   }
 }
 a.article-title:hover {
   color: #b30707;
 }
 .article-entry {
-  color: rgba(0,0,0,0.7);
+  color: rgba(0,0,0,0.8);
   padding: 0 20px;
+  font-size: 1.2em;
 }
 .article-entry:before,
 .article-entry:after {
@@ -544,11 +546,6 @@ a.article-title:hover {
 }
 .article-entry:after {
   clear: both;
-}
-@media screen and (max-width: 479px) {
-  .article-entry {
-    font-size: 18px;
-  }
 }
 .article-entry p,
 .article-entry table {
@@ -786,7 +783,7 @@ a.article-title:hover {
   display: block;
 }
 .article-nav-link-wrap:hover {
-  color: rgba(0,0,0,0.7);
+  color: rgba(0,0,0,0.8);
 }
 @media screen and (min-width: 768px) {
   .article-nav-link-wrap {
@@ -845,7 +842,7 @@ a.article-title:hover {
   box-sizing: border-box;
   font: 14px 'Open Sans', sans-serif;
   padding: 0 15px;
-  color: rgba(0,0,0,0.7);
+  color: rgba(0,0,0,0.8);
   outline: none;
   border: 1px solid #ddd;
   border-radius: 3px 3px 0 0;
@@ -1085,7 +1082,7 @@ a.article-title:hover {
   background: #fff;
   border-radius: 3px;
   text-align: center;
-  color: rgba(0,0,0,0.7);
+  color: rgba(0,0,0,0.8);
   overflow: hidden;
 }
 #page-nav:before,
@@ -1103,7 +1100,7 @@ a.article-title:hover {
   height: 4ex;
 }
 #page-nav a {
-  color: rgba(0,0,0,0.7);
+  color: rgba(0,0,0,0.8);
   text-decoration: none;
 }
 #page-nav a:hover {
@@ -1124,7 +1121,7 @@ a.article-title:hover {
   }
 }
 #page-nav .current {
-  color: rgba(0,0,0,0.7);
+  color: rgba(0,0,0,0.8);
   font-weight: bold;
 }
 #page-nav .space {
