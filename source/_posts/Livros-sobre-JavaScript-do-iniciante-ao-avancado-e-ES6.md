@@ -42,7 +42,7 @@ Já o segundo só apresenta “as melhores partes”, “as coisas boas” do Ja
 
 Livros que eu indico a quem deseja aprender JavaScript do zero:
 
-[Aprendendo JavaScript, Adicione brilho e vida às suas páginas web](http://novatec.com.br/livros/aprendendojavascript/)
+[Aprendendo JavaScript, Adicione brilho e vida às suas páginas web](http://novatec.com.br/livros/aprendendo-javascript/)
 
 A autora aborda desde os principios do JavaScript, passa por debug, Cross Browser, Ajax e algumas técnicas para escapar de algumas armadilhas da linguagem.
 
