@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://woliveiras.com.br/"/>
-  <updated>2017-02-09T11:01:45.656Z</updated>
+  <updated>2017-02-09T11:03:24.598Z</updated>
   <id>http://woliveiras.com.br/</id>
   
   <author>
@@ -20,7 +20,7 @@
     <link href="http://woliveiras.com.br/posts/Como-e-uma-entrevista-de-emprego-para-desenvolvimento-front-end-JavaScript/"/>
     <id>http://woliveiras.com.br/posts/Como-e-uma-entrevista-de-emprego-para-desenvolvimento-front-end-JavaScript/</id>
     <published>2017-02-09T08:00:11.000Z</published>
-    <updated>2017-02-09T11:01:45.656Z</updated>
+    <updated>2017-02-09T11:03:24.598Z</updated>
     
     <content type="html"><![CDATA[<p>Muita gente me pergunta como é uma entrevista de emprego para a área de desenvolvimento front end ou JavaScript.</p>
 <p>Dúvidas como “O que temos que fazer nessas entrevistas?” ou “É muito difícil?” são comuns nas conversas que tenho com pessoas que busca um emprego na área.</p>
@@ -119,7 +119,7 @@
     <link href="http://woliveiras.com.br/posts/Facilitando-o-desenvolvimento-Nodejs-com-Nodemon/"/>
     <id>http://woliveiras.com.br/posts/Facilitando-o-desenvolvimento-Nodejs-com-Nodemon/</id>
     <published>2017-01-06T09:51:38.000Z</published>
-    <updated>2017-02-09T11:01:45.656Z</updated>
+    <updated>2017-02-09T11:03:24.598Z</updated>
     
     <content type="html"><![CDATA[<p>Criar um script Nodejs e rodar no Terminal é algo muito fácil. Basta escrever seus comandos em um arquivo JavaScript (.js) e rodar o comando <code>node script.js</code> ou <code>node script</code>. Claro, tem que ter o Nodejs instalado em seu SO.</p>
 <p>Para facilitar mais a nossa vida no ambiente de desenvolvimento ainda podemos utilizar o <a href="/posts/utilizando-versoes-antigas-do-nodejs/">NVM para gerenciar versões do Nodejs</a> em nosso SO. Assim podemos ter várias versões, além da mais atual e podemos rodar nossa aplicação ou aplicações em seu ambiente mais favorável.</p>
@@ -185,7 +185,7 @@
     <link href="http://woliveiras.com.br/posts/Metas-para-2017-javascript-nodejs-es6-haskell/"/>
     <id>http://woliveiras.com.br/posts/Metas-para-2017-javascript-nodejs-es6-haskell/</id>
     <published>2017-01-02T03:11:32.000Z</published>
-    <updated>2017-02-09T11:01:45.660Z</updated>
+    <updated>2017-02-09T11:03:24.602Z</updated>
     
     <content type="html"><![CDATA[<p>O ano passado foi bem agitado pra mim. Apesar de tantos problemas no país e no resto do mundo, como o <a href="https://twitter.com/fdaciuk" target="_blank" rel="external">Fernando Daciuk</a> comenta no <a href="http://blog.da2k.com.br/2017/01/01/retrospectiva-2016/" target="_blank" rel="external">seu post de retrospectiva</a>, pra mim foi um ano de muitas conquistas e prazeres conforme você pode ver na minha retrospectiva no post anterior, <a href="/posts/Retrospectiva-2016-projetos-open-source-eventos/">aqui</a>.</p>
 <p>Pra esse ano eu não espero menos. Ao contrário, quero tentar priorizar meu tempo para conseguir fazer cada vez mais coisas legais para a comunidade online e de onde eu estou.<a id="more"></a></p>
@@ -254,7 +254,7 @@
     <link href="http://woliveiras.com.br/posts/Retrospectiva-2016-projetos-open-source-eventos/"/>
     <id>http://woliveiras.com.br/posts/Retrospectiva-2016-projetos-open-source-eventos/</id>
     <published>2016-12-23T00:00:28.000Z</published>
-    <updated>2017-02-09T11:01:45.660Z</updated>
+    <updated>2017-02-09T11:03:24.602Z</updated>
     
     <content type="html"><![CDATA[<p>Já faz algum tempo desde o meu ultimo <a href="/posts/Devolva-para-as-comunidades/">post</a> aqui no Blog. Foram muitos compromissos esse ano e muita correria. Esse artigo me ajuda a te explicar o por que dessa ausência e de quebra me ajudou a relembrar como esse ano foi bem louco.</p>
 <p>O <a href="https://twitter.com/LFeh" target="_blank" rel="external">Felipe Fialho</a> escreveu um post bem maneiro sobre <a href="https://medium.com/@lfeh/retrospectiva-2016-df06dfdf0c2e#.eikzbmnj4" target="_blank" rel="external">como foi seu ano de 2016</a>, o <a href="https://twitter.com/idlua" target="_blank" rel="external">Luan Vicente</a> também <a href="https://medium.com/@idlua/retrospectiva-2016-9871d9eb9236#.edca997t2" target="_blank" rel="external">escreveu</a> e isso me motivou a também escrever uma e, de quebra, explicar os motivos deu estar sumido!<a id="more"></a></p>
@@ -323,7 +323,7 @@
     <link href="http://woliveiras.com.br/posts/Devolva-para-as-comunidades/"/>
     <id>http://woliveiras.com.br/posts/Devolva-para-as-comunidades/</id>
     <published>2016-07-24T14:50:15.000Z</published>
-    <updated>2017-02-09T11:01:45.656Z</updated>
+    <updated>2017-02-09T11:03:24.598Z</updated>
     
     <content type="html"><![CDATA[<p>Todos os dias ficamos devendo para as comunidades e nem percebemos isso.</p>
 <p>Utilizamos Softwares Open Source (<a href="https://github.com/vim/vim" target="_blank" rel="external">VIM</a>, <a href="https://github.com/atom/atom" target="_blank" rel="external">Atom</a>, <a href="https://github.com/Microsoft/vscode" target="_blank" rel="external">VS Code</a>) para editar nossos códigos fonte, para navegar na internet (<a href="https://developer.mozilla.org/pt-BR/docs/Developer_Guide/Codigo_Fonte/Downloading_Source_Archives" target="_blank" rel="external">Firefox</a>, <a href="https://chromium.googlesource.com/" target="_blank" rel="external">Chromium</a>), escrevemos códigos para rodar em <a href="https://github.com/nodejs/node" target="_blank" rel="external">plataformas abertas</a>, buscamos respostas em <a href="https://github.com/frontendbr/forum" target="_blank" rel="external">foruns</a>… Enfim, são muitos os casos em que as comunidades nos ajudam, mas será que estamos retribuindo isso de alguma maneira ou estamos deixando passar a oportunidade de contribuir com a vida das pessoas?<a id="more"></a></p>
@@ -398,7 +398,7 @@
     <link href="http://woliveiras.com.br/posts/Introducao-ao-Calculo-Proposicional/"/>
     <id>http://woliveiras.com.br/posts/Introducao-ao-Calculo-Proposicional/</id>
     <published>2016-07-16T02:00:00.000Z</published>
-    <updated>2017-02-09T11:01:45.656Z</updated>
+    <updated>2017-02-09T11:03:24.602Z</updated>
     
     <content type="html"><![CDATA[<p>Como introduzido no post anterior falando sobre <a href="posts/Introducao-ao-Raciocinio-Logico/">Raciocínio Lógico</a> vamos continuar com os estudos sobre Lógica.</p>
 <p>Se você pesquisou sobre a Classificação Lógica ou leu os artigos que deixei no final do post, deve ter visto sobre a Lógica Matemática.</p>
@@ -535,7 +535,7 @@
     <link href="http://woliveiras.com.br/posts/Introducao-ao-Raciocinio-Logico/"/>
     <id>http://woliveiras.com.br/posts/Introducao-ao-Raciocinio-Logico/</id>
     <published>2016-06-19T14:50:29.000Z</published>
-    <updated>2017-02-09T11:01:45.660Z</updated>
+    <updated>2017-02-09T11:03:24.602Z</updated>
     
     <content type="html"><![CDATA[<p>Sempre que alguém pergunta o que precisa conhecer para aprender a programar é padrão que respondamos: Lógica de Programação e uma Linguagem de Programação. Sendo a Lógica de Programação o tema mais importante desses dois citados.</p>
 <p>Em todo <a href="https://www.google.com/about/careers/students/guide-to-technical-development.html" target="_blank" rel="external">guia para iniciantes</a> ou <a href="https://woliveiras.com.br/posts/guia-de-estudos-desenvolvedor-front-end-iniciante/">trilha de estudos</a> para novos desenvolvedores, sempre abordamos o assunto lógica como algo muito importante para o Desenvolvedor de Software.<a id="more"></a></p>
@@ -616,7 +616,7 @@
     <link href="http://woliveiras.com.br/posts/novos-ares-para-o-femug-abc/"/>
     <id>http://woliveiras.com.br/posts/novos-ares-para-o-femug-abc/</id>
     <published>2016-06-05T14:00:00.000Z</published>
-    <updated>2017-02-09T11:01:45.660Z</updated>
+    <updated>2017-02-09T11:03:24.602Z</updated>
     
     <content type="html"><![CDATA[<p>Eu <strong>nunca fui em um evento de Desenvolvedores Front End</strong>, antes de 2015.</p>
 <p>Moro em uma região bem ruim de se locomover de ônibus. Pra eu ir pra São Paulo, em um evento legal como o SampaJS, eu demoraria de 2:30 a 3 horas de rolê. Isso em um dia sem chuva, pois nesses dias demora entre 3:30 a 4 horas. Coisa linda né? <a id="more"></a></p>
@@ -676,7 +676,7 @@
     <link href="http://woliveiras.com.br/posts/Comecei-a-faculdade-de-informatica-e-agora/"/>
     <id>http://woliveiras.com.br/posts/Comecei-a-faculdade-de-informatica-e-agora/</id>
     <published>2016-05-30T02:19:11.000Z</published>
-    <updated>2017-02-09T11:01:45.656Z</updated>
+    <updated>2017-02-09T11:03:24.598Z</updated>
     
     <content type="html"><![CDATA[<p>Apesar de eu amar estudar, de coração, e ter criado <a href="/posts/como-alcancar-objetivos-rapidamente-nos-estudos/">minha própria rotina</a> de estudos, quem me conhece pessoalmente sabe que eu não gosto muito de Faculdade. Eu tenho uma séria resistência com <strong>diplomas</strong>. </p>
 <p><em>[preconceito_mode=on]</em></p>
@@ -733,7 +733,7 @@
     <link href="http://woliveiras.com.br/posts/Comecando-com-o-editor-de-texto-VIM/"/>
     <id>http://woliveiras.com.br/posts/Comecando-com-o-editor-de-texto-VIM/</id>
     <published>2016-05-22T13:30:00.000Z</published>
-    <updated>2017-02-09T11:01:45.656Z</updated>
+    <updated>2017-02-09T11:03:24.598Z</updated>
     
     <content type="html"><![CDATA[<p>A tarefa que um Desenvolvedor de Software precisa cumprir com a maior agilidade é a escrita/edição de texto. Depois de pensar por algumas horas, planejar o que vai fazer e como fazer (quais funções, métodos, classes criar), nós partimos para a escrita do código fonte no nosso editor de texto favorito ou em uma <a href="https://pt.wikipedia.org/wiki/Ambiente_de_desenvolvimento_integrado" target="_blank" rel="external">IDE</a>.</p>
 <p>Existem <a href="http://pt.wikihow.com/Digitar-Mais-R%C3%A1pido" target="_blank" rel="external">várias técnicas</a> para você ficar fera no teclado, porém hoje vou apresentar outra forma de agilizar as coisas. Vou apresentar (pela minha perspectiva) o <strong>VIM</strong>. <a id="more"></a></p>
@@ -906,7 +906,7 @@
     <link href="http://woliveiras.com.br/posts/Aumente-sua-produtividade-e-da-sua-equipe-com-gamificacao/"/>
     <id>http://woliveiras.com.br/posts/Aumente-sua-produtividade-e-da-sua-equipe-com-gamificacao/</id>
     <published>2016-05-14T18:00:34.000Z</published>
-    <updated>2017-02-09T11:01:45.656Z</updated>
+    <updated>2017-02-09T11:03:24.598Z</updated>
     
     <content type="html"><![CDATA[<p>Todos nós gostamos de jogos, seja no PC, Celular ou qualquer outro tipo… Simplesmente, gostamos. Agora imagine utilizar jogos para ser mais produtivo, cuidar da saúde, aprender algo novo ou qualquer outro objetivo pessoal.</p>
 <p>Imagine transformar sua vida em um jogo de RPG!<a id="more"></a></p>
@@ -993,7 +993,7 @@
     <link href="http://woliveiras.com.br/posts/Produtividade-priorizacao-de-tarefas-execucao-e-melhoria-do-processo/"/>
     <id>http://woliveiras.com.br/posts/Produtividade-priorizacao-de-tarefas-execucao-e-melhoria-do-processo/</id>
     <published>2016-04-21T12:31:46.000Z</published>
-    <updated>2017-02-09T11:01:45.660Z</updated>
+    <updated>2017-02-09T11:03:24.602Z</updated>
     
     <content type="html"><![CDATA[<p>Continuando a série sobre Produtividade, já sabemos <a href="/posts/produtividade-uma-re-introducao/">o que é produtividade</a> e <a href="/posts/Produtividade-conhece-te-a-ti-mesmo/">como nosso cérebro funciona</a>, agora precisamos aprender a planejar as coisas para que nosso cérebro não nos atrapalhe em nossa meta de sermos mais produtivos. <a id="more"></a></p>
 <p>O planejamento, aqui, pode ser dividido em:</p>
@@ -1079,7 +1079,7 @@
     <link href="http://woliveiras.com.br/posts/Links-uteis-para-aprender-se-aprofundar-ou-manter-se-atualizado-sobre-JavaScript/"/>
     <id>http://woliveiras.com.br/posts/Links-uteis-para-aprender-se-aprofundar-ou-manter-se-atualizado-sobre-JavaScript/</id>
     <published>2016-04-20T09:00:19.000Z</published>
-    <updated>2017-02-09T11:01:45.660Z</updated>
+    <updated>2017-02-09T11:03:24.602Z</updated>
     
     <content type="html"><![CDATA[<p>Existe muito recurso legal disponível na internet para quem deseja aprender ou se aprofundar em JavaScript. Tanto recursos gratuitos, quanto recursos pagos. Existem muitos <a href="/posts/Livros-sobre-JavaScript-do-iniciante-ao-avancado-e-ES6/">livros bons</a> sobre a linguagem também.</p>
 <p>Nesse post, vou tentar deixar um compilado de links úteis para quem quer se aprofundar na linguagem da Web!<a id="more"></a></p>
@@ -1191,7 +1191,7 @@
     <link href="http://woliveiras.com.br/posts/Livros-sobre-JavaScript-do-iniciante-ao-avancado-e-ES6/"/>
     <id>http://woliveiras.com.br/posts/Livros-sobre-JavaScript-do-iniciante-ao-avancado-e-ES6/</id>
     <published>2016-04-19T10:24:08.000Z</published>
-    <updated>2017-02-09T11:01:45.660Z</updated>
+    <updated>2017-02-09T11:03:24.602Z</updated>
     
     <content type="html"><![CDATA[<p>Existem excelentes livros sobre JavaScript no mercado, mas são tantos que nos perdemos em qual ler primeiro, qual ler depois, qual nem vale a pena ler em determinado nível de conhecimento… São várias dúvidas.</p>
 <p>Nesse artigo vou tentar ajudar a escolher os melhores livros para seu nível de conhecimento e montar uma sequência legal de leitura para virar um JavaScript Master!<a id="more"></a></p>
@@ -1247,9 +1247,9 @@
     </summary>
     
     
-      <category term="javascript" scheme="http://woliveiras.com.br/tags/javascript/"/>
-    
       <category term="livros" scheme="http://woliveiras.com.br/tags/livros/"/>
+    
+      <category term="javascript" scheme="http://woliveiras.com.br/tags/javascript/"/>
     
   </entry>
   
@@ -1258,7 +1258,7 @@
     <link href="http://woliveiras.com.br/posts/Produtividade-conhece-te-a-ti-mesmo/"/>
     <id>http://woliveiras.com.br/posts/Produtividade-conhece-te-a-ti-mesmo/</id>
     <published>2016-04-18T11:48:58.000Z</published>
-    <updated>2017-02-09T11:01:45.660Z</updated>
+    <updated>2017-02-09T11:03:24.602Z</updated>
     
     <content type="html"><![CDATA[<p>O autoconhecimento é muito importante para você se tornar produtivo.</p>
 <p>De nada adianta aprender milhares de técnicas, receber diversas dicas sobre produtividade, se nenhuma delas se encaixa em você. Claro que é necessário um pouco de esforço de sua parte para que as metodologias deem certo, porém, dentre milhares de técnicas, você vai precisar achar uma que se encaixe em seu estilo de vida e na sua forma de pensar e agir. <a id="more"></a></p>
@@ -1336,7 +1336,7 @@
     <link href="http://woliveiras.com.br/posts/Por-que-voce-desistiu-de-ser-Cientista/"/>
     <id>http://woliveiras.com.br/posts/Por-que-voce-desistiu-de-ser-Cientista/</id>
     <published>2016-04-16T11:55:36.000Z</published>
-    <updated>2017-02-09T11:01:45.660Z</updated>
+    <updated>2017-02-09T11:03:24.602Z</updated>
     
     <content type="html"><![CDATA[<p>Há algum tempo venho observando as pessoas, mais especificamente as pessoas da área de Desenvolvimento de Software. Há mais tempo ainda eu observo as outras pessoas, o ser humano em geral. E desde sempre percebi um padrão:</p>
 <p>Ao crescer, as pessoas abandonam a profissão que nasce com elas, a profissão de <strong>cientista</strong>.<a id="more"></a></p>
@@ -1429,7 +1429,7 @@
     <link href="http://woliveiras.com.br/posts/produtividade-uma-re-introducao/"/>
     <id>http://woliveiras.com.br/posts/produtividade-uma-re-introducao/</id>
     <published>2016-04-13T10:58:34.000Z</published>
-    <updated>2017-02-09T11:01:45.660Z</updated>
+    <updated>2017-02-09T11:03:24.602Z</updated>
     
     <content type="html"><![CDATA[<p>No ritmo frenético em que vivemos, ser produtivo já não é mais qualidade de ninguém, precisa ser uma característica de todos.</p>
 <p>Nós queremos fazer um amontoado de coisas todos os dias e toda hora aparece alguma outra coisa pra se fazer.</p>
@@ -1493,7 +1493,7 @@
     <link href="http://woliveiras.com.br/posts/Criando-uma-imagem-Docker-personalizada/"/>
     <id>http://woliveiras.com.br/posts/Criando-uma-imagem-Docker-personalizada/</id>
     <published>2016-04-12T01:18:59.000Z</published>
-    <updated>2017-02-09T11:01:45.656Z</updated>
+    <updated>2017-02-09T11:03:24.598Z</updated>
     
     <content type="html"><![CDATA[<p>É muito legal poder baixar uma imagem do <a href="http://hub.docker.com/" target="_blank" rel="external">Docker Hub</a> e já sair criando os containers, modificando e brincando, mas e depois?</p>
 <p>Como fazemos para levar essa imagem para outro host?</p>
@@ -1605,7 +1605,7 @@
     <link href="http://woliveiras.com.br/posts/comandos-mais-utilizados-no-docker/"/>
     <id>http://woliveiras.com.br/posts/comandos-mais-utilizados-no-docker/</id>
     <published>2016-04-12T00:00:08.000Z</published>
-    <updated>2017-02-09T11:01:45.660Z</updated>
+    <updated>2017-02-09T11:03:24.602Z</updated>
     
     <content type="html"><![CDATA[<p>Um post rapidinho com os comandos mais utilizados do Docker para não esquecer e consultar facilmente. :D</p>
 <p>Se você não viu a primeira parte dessa sequência, clique <a href="/posts/uma-rapida-introducao-ao-docker-e-instalacao-no-ubuntu/">aqui</a>.</p>
@@ -1731,7 +1731,7 @@
     <link href="http://woliveiras.com.br/posts/imagem-docker-ou-um-container-docker/"/>
     <id>http://woliveiras.com.br/posts/imagem-docker-ou-um-container-docker/</id>
     <published>2016-04-11T17:00:00.000Z</published>
-    <updated>2017-02-09T11:01:45.660Z</updated>
+    <updated>2017-02-09T11:03:24.602Z</updated>
     
     <content type="html"><![CDATA[<p>Se você viu a primeira parte dessa sequência de artigos, percebeu que existem dois termos muito utilizados quando falamos de Docker: <strong>Imagens</strong> e <strong>Containers</strong>. Você deve se perguntar: qual é a diferença entre imagem e container Docker? Ou então: O que eu rodo com o <code>docker run</code>, uma imagem ou um container? <a id="more"></a></p>
 <p>Se você não viu o primeiro artigo, da uma olhada <a href="/posts/uma-rapida-introducao-ao-docker-e-instalacao-no-ubuntu/">aqui</a>.</p>
