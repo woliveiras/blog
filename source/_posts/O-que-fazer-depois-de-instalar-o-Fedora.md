@@ -213,7 +213,7 @@ Para instalar o Docker basta rodar o comando:
 sudo dnf -y install docker docker-compose
 ```
 
-### Instalando o Sulimetext, Android Studio, InteliJ IDEA, Java da Oracle e muito mais
+### Instalando o Sulimetext, Android Studio, IntelliJ IDEA, Java da Oracle e muito mais
 
 O Fedora tem uma excelente ferramenta feita pela comunidade chamada Fedy.
 
