@@ -295,6 +295,9 @@
 	],
 	"file_history":
 	[
+		"/home/woliveiras/Área de trabalho/o-que-fazer-depois-de-instalar-o-fedora.md",
+		"/run/media/woliveiras/DATA/WORKSPACE/Projects/woliveiras.github.io/source/_posts/O-que-fazer-depois-de-instalar-o-Fedora.md",
+		"/home/woliveiras/Desktop/1 - Desafio Front End - Brito",
 		"/run/media/woliveiras/DATA/WORKSPACE/Projects/woliveiras.github.io/source/_posts/Aumente-sua-produtividade-e-da-sua-equipe-com-gamificacao.md",
 		"/run/media/woliveiras/DATA/WORKSPACE/Projects/woliveiras.github.io/source/_posts/Comecando-com-o-editor-de-texto-VIM.md",
 		"/run/media/woliveiras/DATA/WORKSPACE/Projects/woliveiras.github.io/source/_posts/Comecei-a-faculdade-de-informatica-e-agora.md",
@@ -419,14 +422,11 @@
 		"/media/william/DATA/WORKSPACE/Projects/100-coisas-dev/_layouts/post.html",
 		"/media/william/DATA/WORKSPACE/Projects/100-coisas-dev/index.md",
 		"/media/william/DATA/WORKSPACE/Projects/curso-javascript-ninja/challenge-20/index.html",
-		"/media/william/DATA/WORKSPACE/Projects/curso-javascript-ninja/challenge-20/challenge-20.js",
-		"/media/william/DATA/WORKSPACE/Projects/100-coisas-dev/readme.md",
-		"/home/william/Desktop/js-ninja/index.html",
-		"/home/william/Desktop/js-ninja/main.js"
+		"/media/william/DATA/WORKSPACE/Projects/curso-javascript-ninja/challenge-20/challenge-20.js"
 	],
 	"find":
 	{
-		"height": 35.0
+		"height": 34.0
 	},
 	"find_in_files":
 	{
@@ -651,6 +651,10 @@
 		"selected_items":
 		[
 			[
+				"oquefazer",
+				"source/_posts/O-que-fazer-depois-de-instalar-o-Fedora.md"
+			],
+			[
 				"config.",
 				"themes/redline/_config.yml"
 			],
@@ -866,7 +870,7 @@
 	"show_minimap": false,
 	"show_open_files": true,
 	"show_tabs": true,
-	"side_bar_visible": true,
+	"side_bar_visible": false,
 	"side_bar_width": 284.0,
 	"status_bar_visible": true,
 	"template_settings":
