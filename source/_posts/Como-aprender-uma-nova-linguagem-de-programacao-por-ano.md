@@ -1,7 +1,8 @@
 title: Como aprender uma nova linguagem de programação por ano
 date: 2017-02-10 08:02:19
 tags:
-description:
+	- dicas
+description: Como aprender uma linguagem de programação por ano pode te ajudar a aprender muitos paradigmas.
 ---
 
 Alguns desenvolvedores experientes recomendam que aprendamos **uma nova linguagem de programação por ano**. Eu concordo com isso. Acho interessante estudar um novo paradigma, novas maneiras de se fazer o que fazemos na nossa linguagem preferida. Isso é renovador.
