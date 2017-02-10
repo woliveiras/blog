@@ -21,7 +21,7 @@
 			],
 			[
 				"argumen",
-				"arguments	(JSNINJA.js)"
+				"arguments\t(JSNINJA.js)"
 			],
 			[
 				"acumula",
@@ -49,19 +49,19 @@
 			],
 			[
 				"query",
-				"document.querySelector(selectors)	Document"
+				"document.querySelector(selectors)\tDocument"
 			],
 			[
 				"queryS",
-				"querySelectorAll(selectors)	Element"
+				"querySelectorAll(selectors)\tElement"
 			],
 			[
 				"getEleme",
-				"getElementsByClassName(names)	Element"
+				"getElementsByClassName(names)\tElement"
 			],
 			[
 				"documet",
-				"document	(challenge-20.js)"
+				"document\t(challenge-20.js)"
 			],
 			[
 				"stri",
@@ -133,63 +133,28 @@
 			],
 			[
 				"conso",
-				"contains(${0:otherNode})	Node"
+				"contains(${0:otherNode})\tNode"
 			],
 			[
 				"Date",
-				"getDate()	Date"
+				"getDate()\tDate"
 			],
 			[
 				"settime",
-				"setTimeout(${0:func}, delay)	Window"
+				"setTimeout(${0:func}, delay)\tWindow"
 			],
 			[
 				"func",
-				"setInterval(${0:func}, delay)	Window"
+				"setInterval(${0:func}, delay)\tWindow"
 			],
 			[
 				"fun",
-				"function(){\n	$0\n})();	(function(){\n	$0\n})();"
+				"function(){\n\t$0\n})();\t(function(){\n\t$0\n})();"
 			]
 		]
 	},
 	"buffers":
 	[
-		{
-			"file": "themes/redline/layout/_partial/header.ejs",
-			"settings":
-			{
-				"buffer_size": 1173,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "themes/redline/_config.yml",
-			"settings":
-			{
-				"buffer_size": 319,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "_config.yml",
-			"settings":
-			{
-				"buffer_size": 1974,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"contents": "# Investimentos\n\n##Títulos públicos\n\n- São emitidos pelo Tesouro Nacional com o objetivo de captar recursos para o financiamento da dívida pública.\n- Além de financiar atividades do Governo Federal\n- São uma ótima opção de Renda Fixa\n\n## Renda Fixa\n\n- Possui data de vencimento\n- Possui indexador de rentabilidade (como a taxa SELIC e a Inflação)\n\nQuando indexados pela SELIC tem duas opções de rendimento: Pré e Pós fixado.\n\nPré-Fixado: Rendimento já fixado para um período determinado. Você já sabe quanto vai render até a data do vencimento.\n\nPós-Fixado: Seu rendimento será calculado diariamente de acordo com o movimento do indexador.\n\nTítulos Públicos indexados pela Inflação são uma mistura de Pré e Pós Fixado (IPCA + % fixada pelo tesouro nacional no momento do investimento).\n\n## Riscos\n\nPré fixado, Tesouro Nacional não pagar ou precisar resgatar antes\nPós fixado, o risco é o Tesouro Nacional não pagar.\n\n## Vantagens\n\nRende mais que poupança.\n\n## CDB e LC\n\nEsses dois títulos servem para instituições financeiras capitarem recursos.\n\nOs bancos emitem as CDB's (Certificado de Depósito Bancário) e as Financeiras as LC's\n(Letras de Cambio) e usam os recursos capitados para fornecer empréstimos para pessoas físicas.\n\n## Rentabilidade dos CDB's e LC's\n\nAmbos tem rentabilidade calculada em cima dos CDI's (Certificado de Depósito Interbancário) quee possuem variação de acordo com a Taxa de Juros do Brasil.\n\nQuanto maior a porcentagem do CDI, melhor\n\n## Riscos\n\nOs riscos estão nas Financeiras e Instituições, mas as CDBs e LCs são garantidas pelo FGC.\n\n## Vantagens\n\nRentabilidade maior que poupança\nGarantida pelo FGC\n\n\n## LCI e LCA\n\nSão títulos de crédito de livre negociação e são emitidos por instituições financeiras autorizadas.\n\nLCI (Letra de Crédito Imobiliário) - Título com base no setor Imobiliário\nLCA (Letra de Crédito de Agronegócio) - Título com base no setor Agropecuário\n\nPossuem data de vencimento e seu indexador de rentabilidade é o CDI.\n\n## Rentabilidade\n\nVocê recebe um percentual fixo do CDI, mas esse varia diariamente.\n\nQuanto maior a porcentagem sobre o CDI, maior seu rendimento.\n\nEsse investimento é isento de imposto de renda.\n\n## Riscos\n\nInstutuição Financeira, mas o Título é coberto pelo FGC\n\n\n\n\nTitulos Publicos - Governo Federal - Garantia pelo Tesouro Nacional\nLCI, LCA e CDB - Bancos (da para investir a partir de 70,00 e possui maior liquidez)\nLC - Financeiras (somente a partir de 3k e menor liquidez)\n\n## Vantagens\n\nCDB e LC melhores rentabilidades em relação a títulos públicos, possuem incidência de IR\n\nLCI e LCA não possuem incidência de IR\n\nInvestimento a Curto Prazo: Título Publico (LFT ) ou LCI e LCA\nInvestimento a Médio Prazo: CDB e LC (aliquota de IR menor) ou Título Público com tesouro pré fixado (LTN)\nInvestimento a Longo Prazo: Título Público (NTN-B)\n\n\n300 todo mês\n\n",
-			"file": "/home/william/Desktop/investimentos.txt",
-			"file_size": 2857,
-			"file_write_time": 131087065793824877,
-			"settings":
-			{
-				"buffer_size": 2836,
-				"line_ending": "Unix"
-			}
-		}
 	],
 	"build_system": "",
 	"build_system_choices":
@@ -324,15 +289,37 @@
 	},
 	"expanded_folders":
 	[
-		"/media/william/DATA/WORKSPACE/Projects/woliveiras.github.io",
-		"/media/william/DATA/WORKSPACE/Projects/woliveiras.github.io/source",
-		"/media/william/DATA/WORKSPACE/Projects/woliveiras.github.io/themes",
-		"/media/william/DATA/WORKSPACE/Projects/woliveiras.github.io/themes/redline",
-		"/media/william/DATA/WORKSPACE/Projects/woliveiras.github.io/themes/redline/layout",
-		"/media/william/DATA/WORKSPACE/Projects/woliveiras.github.io/themes/redline/layout/_partial"
+		"/run/media/woliveiras/DATA/WORKSPACE/Projects/woliveiras.github.io",
+		"/run/media/woliveiras/DATA/WORKSPACE/Projects/woliveiras.github.io/source",
+		"/run/media/woliveiras/DATA/WORKSPACE/Projects/woliveiras.github.io/source/_posts"
 	],
 	"file_history":
 	[
+		"/run/media/woliveiras/DATA/WORKSPACE/Projects/woliveiras.github.io/source/_posts/Aumente-sua-produtividade-e-da-sua-equipe-com-gamificacao.md",
+		"/run/media/woliveiras/DATA/WORKSPACE/Projects/woliveiras.github.io/source/_posts/Comecando-com-o-editor-de-texto-VIM.md",
+		"/run/media/woliveiras/DATA/WORKSPACE/Projects/woliveiras.github.io/source/_posts/Comecei-a-faculdade-de-informatica-e-agora.md",
+		"/run/media/woliveiras/DATA/WORKSPACE/Projects/woliveiras.github.io/source/_posts/Criando-uma-imagem-Docker-personalizada.md",
+		"/run/media/woliveiras/DATA/WORKSPACE/Projects/woliveiras.github.io/source/_posts/Devolva-para-as-comunidades.md",
+		"/run/media/woliveiras/DATA/WORKSPACE/Projects/woliveiras.github.io/source/_posts/Facilitando-o-desenvolvimento-Nodejs-com-Nodemon.md",
+		"/run/media/woliveiras/DATA/WORKSPACE/Projects/woliveiras.github.io/source/_posts/Introducao-ao-Calculo-Proposicional.md",
+		"/run/media/woliveiras/DATA/WORKSPACE/Projects/woliveiras.github.io/source/_posts/Introducao-ao-Raciocinio-Logico.md",
+		"/run/media/woliveiras/DATA/WORKSPACE/Projects/woliveiras.github.io/source/_posts/Introducao-ao-Raciocinio-Logico.md~",
+		"/run/media/woliveiras/DATA/WORKSPACE/Projects/woliveiras.github.io/source/_posts/Links-uteis-para-aprender-se-aprofundar-ou-manter-se-atualizado-sobre-JavaScript.md",
+		"/run/media/woliveiras/DATA/WORKSPACE/Projects/woliveiras.github.io/source/_posts/Livros-sobre-JavaScript-do-iniciante-ao-avancado-e-ES6.md",
+		"/run/media/woliveiras/DATA/WORKSPACE/Projects/woliveiras.github.io/source/_posts/Metas-para-2017-javascript-nodejs-es6-haskell.md",
+		"/run/media/woliveiras/DATA/WORKSPACE/Projects/woliveiras.github.io/source/_posts/Por-que-voce-desistiu-de-ser-Cientista.md",
+		"/run/media/woliveiras/DATA/WORKSPACE/Projects/woliveiras.github.io/source/_posts/Produtividade-conhece-te-a-ti-mesmo.md",
+		"/run/media/woliveiras/DATA/WORKSPACE/Projects/woliveiras.github.io/source/_posts/Produtividade-priorizacao-de-tarefas-execucao-e-melhoria-do-processo.md",
+		"/run/media/woliveiras/DATA/WORKSPACE/Projects/woliveiras.github.io/source/_posts/Retrospectiva-2016-projetos-open-source-eventos.md",
+		"/run/media/woliveiras/DATA/WORKSPACE/Projects/woliveiras.github.io/source/_posts/aprenda-trabalhar-em-equipes.md",
+		"/run/media/woliveiras/DATA/WORKSPACE/Projects/woliveiras.github.io/source/_posts/comandos-mais-utilizados-no-docker.md",
+		"/run/media/woliveiras/DATA/WORKSPACE/Projects/woliveiras.github.io/source/_posts/como-alcancar-objetivos-rapidamente-nos-estudos.md",
+		"/run/media/woliveiras/DATA/WORKSPACE/Projects/woliveiras.github.io/source/_posts/como-deixar-o-ubuntu-mais-rapido.md",
+		"/run/media/woliveiras/DATA/WORKSPACE/Projects/woliveiras.github.io/source/_posts/como-detectar-o-dispositivo-que-acessa-seu-site.md",
+		"/run/media/woliveiras/DATA/WORKSPACE/Projects/woliveiras.github.io/themes/redline/layout/_partial/header.ejs",
+		"/run/media/woliveiras/DATA/WORKSPACE/Projects/woliveiras.github.io/themes/redline/_config.yml",
+		"/run/media/woliveiras/DATA/WORKSPACE/Projects/woliveiras.github.io/_config.yml",
+		"/home/william/Desktop/investimentos.txt",
 		"/media/william/DATA/WORKSPACE/Projects/woliveiras.github.io/themes/redline/layout/index.ejs",
 		"/media/william/DATA/WORKSPACE/Projects/woliveiras.github.io/source/_posts/Aumente-sua-produtividade-e-da-sua-equipe-com-gamificacao.md",
 		"/media/william/DATA/WORKSPACE/Projects/woliveiras.github.io/source/_posts/Comecando-com-o-editor-de-texto-VIM.md",
@@ -435,32 +422,7 @@
 		"/media/william/DATA/WORKSPACE/Projects/curso-javascript-ninja/challenge-20/challenge-20.js",
 		"/media/william/DATA/WORKSPACE/Projects/100-coisas-dev/readme.md",
 		"/home/william/Desktop/js-ninja/index.html",
-		"/home/william/Desktop/js-ninja/main.js",
-		"/media/william/DATA/WORKSPACE/Projects/curso-javascript-ninja/challenge-19/challenge-19.js",
-		"/media/william/DATA/WORKSPACE/Projects/curso-javascript-ninja/challenge-19/index.html",
-		"/media/william/DATA/WORKSPACE/Projects/FEMUG-ABC/femug-abc.github.io/.travis.yml",
-		"/media/william/DATA/WORKSPACE/Projects/FEMUG-ABC/femug-abc.github.io/test",
-		"/media/william/DATA/WORKSPACE/Projects/curso-javascript-ninja/challenge-18/challenge-18.js",
-		"/media/william/DATA/WORKSPACE/Projects/curso-javascript-ninja/challenge-18/index.html",
-		"/media/william/DATA/WORKSPACE/Projects/slackabcdev/Makefile",
-		"/media/william/DATA/WORKSPACE/Projects/slackabcdev/Procfile",
-		"/media/william/DATA/WORKSPACE/Projects/slackabcdev/package.json",
-		"/media/william/DATA/WORKSPACE/Projects/slackabcdev/lib/assets/badge.js",
-		"/media/william/DATA/WORKSPACE/Projects/slackabcdev/lib/badge.js",
-		"/media/william/DATA/WORKSPACE/Projects/curso-javascript-ninja/challenge-16/challenge-16.js",
-		"/media/william/DATA/WORKSPACE/vim-para-noobs/book.json",
-		"/media/william/DATA/WORKSPACE/curso-javascript-ninja/challenge-16/index.html",
-		"/media/william/DATA/WORKSPACE/curso-javascript-ninja/challenge-16/challenge-16.js",
-		"/media/william/DATA/WORKSPACE/guest-post/src/styl/base/base.styl",
-		"/media/william/DATA/WORKSPACE/guest-post/src/styl/base/borders.styl",
-		"/media/william/DATA/WORKSPACE/guest-post/src/styl/module/blog-box-flex-list.styl",
-		"/media/william/DATA/WORKSPACE/guest-post/src/styl/layout/footer.styl",
-		"/media/william/DATA/WORKSPACE/guest-post/src/index.html",
-		"/media/william/DATA/WORKSPACE/guest-post/src/styl/module/navigation.styl",
-		"/media/william/DATA/WORKSPACE/guest-post/src/styl/style.styl",
-		"/media/william/DATA/WORKSPACE/guest-post/tasks/styl.js",
-		"/media/william/DATA/WORKSPACE/guest-post/src/styl/module/navigation-header.styl",
-		"/home/william/.bashrc"
+		"/home/william/Desktop/js-ninja/main.js"
 	],
 	"find":
 	{
@@ -631,372 +593,8 @@
 	"groups":
 	[
 		{
-			"selected": 3,
 			"sheets":
 			[
-				{
-					"buffer": 0,
-					"file": "themes/redline/layout/_partial/header.ejs",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 1173,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								892,
-								892
-							]
-						],
-						"settings":
-						{
-							"BracketHighlighterBusy": false,
-							"bh_regions":
-							[
-								"bh_square",
-								"bh_square_center",
-								"bh_square_open",
-								"bh_square_close",
-								"bh_square_content",
-								"bh_double_quote",
-								"bh_double_quote_center",
-								"bh_double_quote_open",
-								"bh_double_quote_close",
-								"bh_double_quote_content",
-								"bh_regex",
-								"bh_regex_center",
-								"bh_regex_open",
-								"bh_regex_close",
-								"bh_regex_content",
-								"bh_c_define",
-								"bh_c_define_center",
-								"bh_c_define_open",
-								"bh_c_define_close",
-								"bh_c_define_content",
-								"bh_curly",
-								"bh_curly_center",
-								"bh_curly_open",
-								"bh_curly_close",
-								"bh_curly_content",
-								"bh_angle",
-								"bh_angle_center",
-								"bh_angle_open",
-								"bh_angle_close",
-								"bh_angle_content",
-								"bh_round",
-								"bh_round_center",
-								"bh_round_open",
-								"bh_round_close",
-								"bh_round_content",
-								"bh_tag",
-								"bh_tag_center",
-								"bh_tag_open",
-								"bh_tag_close",
-								"bh_tag_content",
-								"bh_default",
-								"bh_default_center",
-								"bh_default_open",
-								"bh_default_close",
-								"bh_default_content",
-								"bh_unmatched",
-								"bh_unmatched_center",
-								"bh_unmatched_open",
-								"bh_unmatched_close",
-								"bh_unmatched_content",
-								"bh_single_quote",
-								"bh_single_quote_center",
-								"bh_single_quote_open",
-								"bh_single_quote_close",
-								"bh_single_quote_content"
-							],
-							"editorconfig": true,
-							"ensure_newline_at_eof_on_save": true,
-							"syntax": "Packages/EJS/EJS.tmLanguage",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true,
-							"trim_trailing_white_space_on_save": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 3,
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "themes/redline/_config.yml",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 319,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								37,
-								37
-							]
-						],
-						"settings":
-						{
-							"BracketHighlighterBusy": false,
-							"bh_regions":
-							[
-								"bh_square",
-								"bh_square_center",
-								"bh_square_open",
-								"bh_square_close",
-								"bh_square_content",
-								"bh_double_quote",
-								"bh_double_quote_center",
-								"bh_double_quote_open",
-								"bh_double_quote_close",
-								"bh_double_quote_content",
-								"bh_regex",
-								"bh_regex_center",
-								"bh_regex_open",
-								"bh_regex_close",
-								"bh_regex_content",
-								"bh_c_define",
-								"bh_c_define_center",
-								"bh_c_define_open",
-								"bh_c_define_close",
-								"bh_c_define_content",
-								"bh_curly",
-								"bh_curly_center",
-								"bh_curly_open",
-								"bh_curly_close",
-								"bh_curly_content",
-								"bh_angle",
-								"bh_angle_center",
-								"bh_angle_open",
-								"bh_angle_close",
-								"bh_angle_content",
-								"bh_round",
-								"bh_round_center",
-								"bh_round_open",
-								"bh_round_close",
-								"bh_round_content",
-								"bh_tag",
-								"bh_tag_center",
-								"bh_tag_open",
-								"bh_tag_close",
-								"bh_tag_content",
-								"bh_default",
-								"bh_default_center",
-								"bh_default_open",
-								"bh_default_close",
-								"bh_default_content",
-								"bh_unmatched",
-								"bh_unmatched_center",
-								"bh_unmatched_open",
-								"bh_unmatched_close",
-								"bh_unmatched_content",
-								"bh_single_quote",
-								"bh_single_quote_center",
-								"bh_single_quote_open",
-								"bh_single_quote_close",
-								"bh_single_quote_content"
-							],
-							"editorconfig": true,
-							"ensure_newline_at_eof_on_save": true,
-							"syntax": "Packages/YAML/YAML.tmLanguage",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true,
-							"trim_trailing_white_space_on_save": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 2,
-					"type": "text"
-				},
-				{
-					"buffer": 2,
-					"file": "_config.yml",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 1974,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								146,
-								146
-							]
-						],
-						"settings":
-						{
-							"BracketHighlighterBusy": false,
-							"bh_regions":
-							[
-								"bh_square",
-								"bh_square_center",
-								"bh_square_open",
-								"bh_square_close",
-								"bh_square_content",
-								"bh_double_quote",
-								"bh_double_quote_center",
-								"bh_double_quote_open",
-								"bh_double_quote_close",
-								"bh_double_quote_content",
-								"bh_regex",
-								"bh_regex_center",
-								"bh_regex_open",
-								"bh_regex_close",
-								"bh_regex_content",
-								"bh_c_define",
-								"bh_c_define_center",
-								"bh_c_define_open",
-								"bh_c_define_close",
-								"bh_c_define_content",
-								"bh_curly",
-								"bh_curly_center",
-								"bh_curly_open",
-								"bh_curly_close",
-								"bh_curly_content",
-								"bh_angle",
-								"bh_angle_center",
-								"bh_angle_open",
-								"bh_angle_close",
-								"bh_angle_content",
-								"bh_round",
-								"bh_round_center",
-								"bh_round_open",
-								"bh_round_close",
-								"bh_round_content",
-								"bh_tag",
-								"bh_tag_center",
-								"bh_tag_open",
-								"bh_tag_close",
-								"bh_tag_content",
-								"bh_default",
-								"bh_default_center",
-								"bh_default_open",
-								"bh_default_close",
-								"bh_default_content",
-								"bh_unmatched",
-								"bh_unmatched_center",
-								"bh_unmatched_open",
-								"bh_unmatched_close",
-								"bh_unmatched_content",
-								"bh_single_quote",
-								"bh_single_quote_center",
-								"bh_single_quote_open",
-								"bh_single_quote_close",
-								"bh_single_quote_content"
-							],
-							"editorconfig": true,
-							"ensure_newline_at_eof_on_save": true,
-							"syntax": "Packages/YAML/YAML.tmLanguage",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true,
-							"trim_trailing_white_space_on_save": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 1,
-					"type": "text"
-				},
-				{
-					"buffer": 3,
-					"file": "/home/william/Desktop/investimentos.txt",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 2836,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								2836,
-								2836
-							]
-						],
-						"settings":
-						{
-							"BracketHighlighterBusy": false,
-							"bh_regions":
-							[
-								"bh_default",
-								"bh_default_center",
-								"bh_default_open",
-								"bh_default_close",
-								"bh_default_content",
-								"bh_curly",
-								"bh_curly_center",
-								"bh_curly_open",
-								"bh_curly_close",
-								"bh_curly_content",
-								"bh_single_quote",
-								"bh_single_quote_center",
-								"bh_single_quote_open",
-								"bh_single_quote_close",
-								"bh_single_quote_content",
-								"bh_regex",
-								"bh_regex_center",
-								"bh_regex_open",
-								"bh_regex_close",
-								"bh_regex_content",
-								"bh_unmatched",
-								"bh_unmatched_center",
-								"bh_unmatched_open",
-								"bh_unmatched_close",
-								"bh_unmatched_content",
-								"bh_round",
-								"bh_round_center",
-								"bh_round_open",
-								"bh_round_close",
-								"bh_round_content",
-								"bh_tag",
-								"bh_tag_center",
-								"bh_tag_open",
-								"bh_tag_close",
-								"bh_tag_content",
-								"bh_double_quote",
-								"bh_double_quote_center",
-								"bh_double_quote_open",
-								"bh_double_quote_close",
-								"bh_double_quote_content",
-								"bh_square",
-								"bh_square_center",
-								"bh_square_open",
-								"bh_square_close",
-								"bh_square_content",
-								"bh_c_define",
-								"bh_c_define_center",
-								"bh_c_define_open",
-								"bh_c_define_close",
-								"bh_c_define_content",
-								"bh_angle",
-								"bh_angle_center",
-								"bh_angle_open",
-								"bh_angle_close",
-								"bh_angle_content"
-							],
-							"syntax": "Packages/Markdown/Markdown.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 1279.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 0,
-					"type": "text"
-				}
 			]
 		}
 	],
@@ -1268,7 +866,7 @@
 	"show_minimap": false,
 	"show_open_files": true,
 	"show_tabs": true,
-	"side_bar_visible": false,
+	"side_bar_visible": true,
 	"side_bar_width": 284.0,
 	"status_bar_visible": true,
 	"template_settings":
