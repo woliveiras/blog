@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://woliveiras.com.br/"/>
-  <updated>2017-02-10T02:24:27.153Z</updated>
+  <updated>2017-02-10T10:35:07.174Z</updated>
   <id>http://woliveiras.com.br/</id>
   
   <author>
@@ -16,11 +16,69 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>Como aprender uma nova linguagem de programação por ano</title>
+    <link href="http://woliveiras.com.br/posts/Como-aprender-uma-nova-linguagem-de-programacao-por-ano/"/>
+    <id>http://woliveiras.com.br/posts/Como-aprender-uma-nova-linguagem-de-programacao-por-ano/</id>
+    <published>2017-02-10T10:02:19.000Z</published>
+    <updated>2017-02-10T10:35:07.174Z</updated>
+    
+    <content type="html"><![CDATA[<p>Alguns desenvolvedores experientes recomendam que aprendamos <strong>uma nova linguagem de programação por ano</strong>. Eu concordo com isso. Acho interessante estudar um novo paradigma, novas maneiras de se fazer o que fazemos na nossa linguagem preferida. Isso é renovador.</p>
+<p>As vezes você está de saco cheio da linguagem de programação que você trabalha, como o JavaScript. Então, talvez seja hora de estudar uma outra linguagem como o Java para que você veja como é chato comece a dar valor as facilidades das linguagens mais modernas. - não podemos perder a oportunidade de zoar o Java <a id="more"></a></p>
+<p>Tirando a brincadeira com o Java (não levem a mal, por favor), na prática é bem complicado estudar uma linguagem por ano. Temos diversas variáveis que podem atrapalhar nesse nosso objetivo como estar em uma faculdade, curso técnico, emprego, horários, trânsito consumindo nosso tempo, os parentes pedindo pra formatar computador ou consertar o celular, etc, etc.</p>
+<p>Se você está fazendo algum curso técnico ou <a href="/posts/Comecei-a-faculdade-de-informatica-e-agora/">faculdade</a>, foque no que está estudando lá e deixe essa dica somente para quando tiver acabado. Senão você pode acabar se enrolando nos estudos.</p>
+<p>Estudar a linguagem que trabalhamos ja é complicado, ainda mais se você trabalha com JavaScript e acompanha <a href="https://medium.com/@woliveiras/sim-outro-post-sobre-ecmascript-2015-ou-es6-6d50a7f33bd4" target="_blank" rel="external">as mudanças que estão ocorrendo</a>. Não da tempo.</p>
+<p>Porém existem algumas maneiras de se <a href="/posts/como-alcancar-objetivos-rapidamente-nos-estudos/">estudar bastante coisa sem ficar louco</a> e eu vou compartilhar algumas dicas sobre isso nesse post.</p>
+<h2 id="Lendo-livros"><a href="#Lendo-livros" class="headerlink" title="Lendo livros"></a>Lendo livros</h2><p>Livros são de longe o que eu mais gosto de usar para aprender uma linguagem nova.</p>
+<p>Quando eu comecei na área de desenvolvimento comprei diversos livros sobre HTML, CSS, JavaScript e PHP, que era com o que eu trabalhava na época.</p>
+<p><a href="/posts/Livros-sobre-JavaScript-do-iniciante-ao-avancado-e-ES6/">Livros</a> são bons por que tem uma boa profundidade técnica e riqueza em detalhes. Alguns são bem ruins, de leitura complicada, porém da para acertar na aquisição de bons livros pedindo dicas nas comunidades.</p>
+<p>Uma dica é <a href="https://1motivo.com.br/kindle-poderoso/" target="_blank" rel="external">comprar um Kindle</a>. Os livros saem bem mais em conta nessa plataforma e você pode levar para qualquer lugar. Pode ler no ônibus, em uma fila grande ou naquele passeio mais longo. Tem gente que consegue trabalhar, estudar, cuidar da família e mesmo assim ainda ler <a href="https://1motivo.com.br/dicas-ler-mais-livros/" target="_blank" rel="external">41 livros em um ano</a> graças ao Kindle! Eu no ano passado eu li somente 8 livros completos e algumas partes de outros, quem dera ler 41.</p>
+<h2 id="Indo-a-eventos"><a href="#Indo-a-eventos" class="headerlink" title="Indo a eventos"></a>Indo a eventos</h2><p>As pessoas se confundem quando me vem, desenvolvedor JavaScript, no meio de palestras sobre Big Data, Machine Learning, Golang, Clojure, Android, Ruby, Scala,  e até jogos com C# e Unit. Pareço ser um intruso ali no meio.</p>
+<p>Isso não é só por causa do meu vício em aprender. Eu faço isso para ver como outras tecnologias resolvem os problemas que eu enfrento e também para acompanhar o mercado de tecnologia, afinal ele muda toda hora.</p>
+<p>Uma boa maneira de encontrar eventos na sua região é utilizando a plataforma do <a href="https://www.meetup.com/pt-BR/" target="_blank" rel="external">Meetup.com</a>. Basta entrar lá e dar uma pesquisada sobre o que você curte ou quer aprender.</p>
+<h2 id="Praticando"><a href="#Praticando" class="headerlink" title="Praticando"></a>Praticando</h2><p>Agora é a parte que eu mais gosto! </p>
+<p>Se você entrar no meu <a href="https://github.com/woliveiras" target="_blank" rel="external">GitHub</a> vai encontrar muitos repositórios sobre <a href="https://github.com/woliveiras?utf8=%E2%9C%93&amp;tab=repositories&amp;q=&amp;type=&amp;language=javascript" target="_blank" rel="external">JavaScript</a>, mas também ai aparecer repositório sobre <a href="https://github.com/woliveiras?utf8=%E2%9C%93&amp;tab=repositories&amp;q=&amp;type=&amp;language=java" target="_blank" rel="external">Android</a>, mas isso é só o que eu quis versionar… Localmente eu ainda tenho projetos (de exemplos, claro) em Ruby, Python, Go, Elixir, etc.</p>
+<p>Basicamente se eu quero conhecer uma linguagem eu vou lá e instalo e fico fazendo alguns exemplos de código que acho na internet.</p>
+<p>Claro que com isso eu não <strong>aprendo</strong> uma nova linguagem eu só passo a conhecer elas.</p>
+<p>Mas existem maneiras de realmente aprender as linguagens.</p>
+<h3 id="Exercism"><a href="#Exercism" class="headerlink" title="Exercism"></a>Exercism</h3><p>O Exercism é uma plataforma com diversos desafios em várias linguagens que podemos ir resolvendo para melhorar nossas habilidades ou mesmo aprender algo novo.</p>
+<p>Basta entrar <a href="http://exercism.io/" target="_blank" rel="external">aqui</a> com seu GitHub, instalar a CLI e baixar os exercícios na linguagem escolhida.</p>
+<p>Garanto que você vai quebrar a cabeça em alguns problemas.</p>
+<p>A única dificuldade que você pode enfrentar é se não tem familiaridade com Terminal.</p>
+<p>Atualmente eles tem mais de 30 linguagens de programação. Divirta-se!</p>
+<h3 id="RackerRank"><a href="#RackerRank" class="headerlink" title="RackerRank"></a>RackerRank</h3><p>O RackerRank, além de ser uma plataforma para você treinar suas habilidades, também é utilizado por <a href="/posts/Como-e-uma-entrevista-de-emprego-para-desenvolvimento-front-end-JavaScript/">algumas empresas como teste para entrevistas de emprego</a>.</p>
+<p>Então se você pegar o jeito nele pode ser mais fácil de passar em uma entrevista que traga algum exercício da plataforma.</p>
+<p>Basta entrar <a href="https://www.hackerrank.com/" target="_blank" rel="external">nesse endereço</a>, se cadastrar, escolher a linguagem e nível e se divertir.</p>
+<h3 id="CodeWars"><a href="#CodeWars" class="headerlink" title="CodeWars"></a>CodeWars</h3><p>O CodeWars é bem parecido com o RackerRank, porém eu gosto mais desse, pois sua interface é mais legal. - Pra mim</p>
+<p>Ainda não tem tantas linguagens como as outras plataformas que indiquei, porém tem exercícios muito legais.</p>
+<p>Basta entrar <a href="https://www.codewars.com/" target="_blank" rel="external">aqui</a> escolher a linguagem e brincar até esquecer que tem que ir trabalhar.</p>
+<h2 id="Divirta-se"><a href="#Divirta-se" class="headerlink" title="Divirta-se!"></a>Divirta-se!</h2><p>Programação é divertido. É por isso que eu escolhi entrar nessa área. Não adianta você se forçar a aprender uma linguagem por ano se você não estiver gostando.</p>
+<p>Se realmente não for do seu perfil estudar uma linguagem por ano, então não estude.</p>
+<p>Não pense que você é um programador ruim por isso.</p>
+<p>Existem diversas outras coisas que precisamos fazer para sermos bons desenvolvedores, estudar uma linguagem por ano é só uma delas e serve para aprender mais paradigmas. Porém você pode aprender tais paradigmas vendo vídeos, tutoriais, só indo as palestras ou discutindo em foruns.</p>
+<h2 id="Conclusao"><a href="#Conclusao" class="headerlink" title="Conclusão"></a>Conclusão</h2><p>Sempre se programe para aprender uma nova linguagem. Não basta entrar nessas plataformas e sair codando, é necessário um planejamento para que isso se torne um habito. Talvez estudar uma hora por dia ou estudar duas vezes por semana. Você precisa realmente marcar um compromisso com esse estudo.</p>
+<p>O RackerRank é a plataforma com mais conteúdo e todas as que eu indiquei possuem a filosofia de utilizar TDD enquanto você pratica, então é muito bom utilizar esses recursos para estudar a nova linguagem e ainda aprender sobre Testes de Software.</p>
+<p>Espero que tenha curtido essas dicas.</p>
+<p>Se gostou, comenta aqui em baixo, compartilha com seus amigos, com a sua cobra de estimação que quer estudar Python ou com aquele camelo que você troca mensagem no Telegram que quer aprender OCaml.</p>
+<p>Espalhe a palavra.</p>
+]]></content>
+    
+    <summary type="html">
+    
+      Como aprender uma linguagem de programação por ano pode te ajudar a aprender muitos paradigmas.
+    
+    </summary>
+    
+    
+      <category term="dicas" scheme="http://woliveiras.com.br/tags/dicas/"/>
+    
+  </entry>
+  
+  <entry>
     <title>O que fazer depois de instalar o Fedora</title>
     <link href="http://woliveiras.com.br/posts/O-que-fazer-depois-de-instalar-o-Fedora/"/>
     <id>http://woliveiras.com.br/posts/O-que-fazer-depois-de-instalar-o-Fedora/</id>
     <published>2017-02-10T01:28:05.000Z</published>
-    <updated>2017-02-10T02:24:27.153Z</updated>
+    <updated>2017-02-10T10:35:07.178Z</updated>
     
     <content type="html"><![CDATA[<p>Recentemente decidi migrar do Ubuntu, distro que usava a muito, muito tempo, por conta de alguns problemas com a minha máquina.</p>
 <p>Eu utilizava <a href="/posts/como-deixar-o-ubuntu-mais-rapido/">configurações para deixar ele mais rápido</a>, porém nada mais ajudou depois da ultima atualização. Começaram a aparecer alguns bugs então decidi largar de vez e testar outra distro.</p>
@@ -142,7 +200,7 @@
     <link href="http://woliveiras.com.br/posts/Como-e-uma-entrevista-de-emprego-para-desenvolvimento-front-end-JavaScript/"/>
     <id>http://woliveiras.com.br/posts/Como-e-uma-entrevista-de-emprego-para-desenvolvimento-front-end-JavaScript/</id>
     <published>2017-02-09T08:00:11.000Z</published>
-    <updated>2017-02-10T02:24:27.153Z</updated>
+    <updated>2017-02-10T10:35:07.174Z</updated>
     
     <content type="html"><![CDATA[<p>Muita gente me pergunta como é uma entrevista de emprego para a área de desenvolvimento front end ou JavaScript.</p>
 <p>Dúvidas como “O que temos que fazer nessas entrevistas?” ou “É muito difícil?” são comuns nas conversas que tenho com pessoas que busca um emprego na área.</p>
@@ -245,7 +303,7 @@
     <link href="http://woliveiras.com.br/posts/Facilitando-o-desenvolvimento-Nodejs-com-Nodemon/"/>
     <id>http://woliveiras.com.br/posts/Facilitando-o-desenvolvimento-Nodejs-com-Nodemon/</id>
     <published>2017-01-06T09:51:38.000Z</published>
-    <updated>2017-02-10T02:24:27.153Z</updated>
+    <updated>2017-02-10T10:35:07.174Z</updated>
     
     <content type="html"><![CDATA[<p>Criar um script Nodejs e rodar no Terminal é algo muito fácil. Basta escrever seus comandos em um arquivo JavaScript (.js) e rodar o comando <code>node script.js</code> ou <code>node script</code>. Claro, tem que ter o Nodejs instalado em seu SO.</p>
 <p>Para facilitar mais a nossa vida no ambiente de desenvolvimento ainda podemos utilizar o <a href="/posts/utilizando-versoes-antigas-do-nodejs/">NVM para gerenciar versões do Nodejs</a> em nosso SO. Assim podemos ter várias versões, além da mais atual e podemos rodar nossa aplicação ou aplicações em seu ambiente mais favorável.</p>
@@ -311,7 +369,7 @@
     <link href="http://woliveiras.com.br/posts/Metas-para-2017-javascript-nodejs-es6-haskell/"/>
     <id>http://woliveiras.com.br/posts/Metas-para-2017-javascript-nodejs-es6-haskell/</id>
     <published>2017-01-02T03:11:32.000Z</published>
-    <updated>2017-02-10T02:24:27.153Z</updated>
+    <updated>2017-02-10T10:35:07.174Z</updated>
     
     <content type="html"><![CDATA[<p>O ano passado foi bem agitado pra mim. Apesar de tantos problemas no país e no resto do mundo, como o <a href="https://twitter.com/fdaciuk" target="_blank" rel="external">Fernando Daciuk</a> comenta no <a href="http://blog.da2k.com.br/2017/01/01/retrospectiva-2016/" target="_blank" rel="external">seu post de retrospectiva</a>, pra mim foi um ano de muitas conquistas e prazeres conforme você pode ver na minha retrospectiva no post anterior, <a href="/posts/Retrospectiva-2016-projetos-open-source-eventos/">aqui</a>.</p>
 <p>Pra esse ano eu não espero menos. Ao contrário, quero tentar priorizar meu tempo para conseguir fazer cada vez mais coisas legais para a comunidade online e de onde eu estou.<a id="more"></a></p>
@@ -380,7 +438,7 @@
     <link href="http://woliveiras.com.br/posts/Retrospectiva-2016-projetos-open-source-eventos/"/>
     <id>http://woliveiras.com.br/posts/Retrospectiva-2016-projetos-open-source-eventos/</id>
     <published>2016-12-23T00:00:28.000Z</published>
-    <updated>2017-02-10T02:24:27.153Z</updated>
+    <updated>2017-02-10T10:35:07.178Z</updated>
     
     <content type="html"><![CDATA[<p>Já faz algum tempo desde o meu ultimo <a href="/posts/Devolva-para-as-comunidades/">post</a> aqui no Blog. Foram muitos compromissos esse ano e muita correria. Esse artigo me ajuda a te explicar o por que dessa ausência e de quebra me ajudou a relembrar como esse ano foi bem louco.</p>
 <p>O <a href="https://twitter.com/LFeh" target="_blank" rel="external">Felipe Fialho</a> escreveu um post bem maneiro sobre <a href="https://medium.com/@lfeh/retrospectiva-2016-df06dfdf0c2e#.eikzbmnj4" target="_blank" rel="external">como foi seu ano de 2016</a>, o <a href="https://twitter.com/idlua" target="_blank" rel="external">Luan Vicente</a> também <a href="https://medium.com/@idlua/retrospectiva-2016-9871d9eb9236#.edca997t2" target="_blank" rel="external">escreveu</a> e isso me motivou a também escrever uma e, de quebra, explicar os motivos deu estar sumido!<a id="more"></a></p>
@@ -449,7 +507,7 @@
     <link href="http://woliveiras.com.br/posts/Devolva-para-as-comunidades/"/>
     <id>http://woliveiras.com.br/posts/Devolva-para-as-comunidades/</id>
     <published>2016-07-24T14:50:15.000Z</published>
-    <updated>2017-02-10T02:24:27.153Z</updated>
+    <updated>2017-02-10T10:35:07.174Z</updated>
     
     <content type="html"><![CDATA[<p>Todos os dias ficamos devendo para as comunidades e nem percebemos isso.</p>
 <p>Utilizamos Softwares Open Source (<a href="https://github.com/vim/vim" target="_blank" rel="external">VIM</a>, <a href="https://github.com/atom/atom" target="_blank" rel="external">Atom</a>, <a href="https://github.com/Microsoft/vscode" target="_blank" rel="external">VS Code</a>) para editar nossos códigos fonte, para navegar na internet (<a href="https://developer.mozilla.org/pt-BR/docs/Developer_Guide/Codigo_Fonte/Downloading_Source_Archives" target="_blank" rel="external">Firefox</a>, <a href="https://chromium.googlesource.com/" target="_blank" rel="external">Chromium</a>), escrevemos códigos para rodar em <a href="https://github.com/nodejs/node" target="_blank" rel="external">plataformas abertas</a>, buscamos respostas em <a href="https://github.com/frontendbr/forum" target="_blank" rel="external">foruns</a>… Enfim, são muitos os casos em que as comunidades nos ajudam, mas será que estamos retribuindo isso de alguma maneira ou estamos deixando passar a oportunidade de contribuir com a vida das pessoas?<a id="more"></a></p>
@@ -524,7 +582,7 @@
     <link href="http://woliveiras.com.br/posts/Introducao-ao-Calculo-Proposicional/"/>
     <id>http://woliveiras.com.br/posts/Introducao-ao-Calculo-Proposicional/</id>
     <published>2016-07-16T02:00:00.000Z</published>
-    <updated>2017-02-10T02:24:27.153Z</updated>
+    <updated>2017-02-10T10:35:07.174Z</updated>
     
     <content type="html"><![CDATA[<p>Como introduzido no post anterior falando sobre <a href="posts/Introducao-ao-Raciocinio-Logico/">Raciocínio Lógico</a> vamos continuar com os estudos sobre Lógica.</p>
 <p>Se você pesquisou sobre a Classificação Lógica ou leu os artigos que deixei no final do post, deve ter visto sobre a Lógica Matemática.</p>
@@ -661,7 +719,7 @@
     <link href="http://woliveiras.com.br/posts/Introducao-ao-Raciocinio-Logico/"/>
     <id>http://woliveiras.com.br/posts/Introducao-ao-Raciocinio-Logico/</id>
     <published>2016-06-19T14:50:29.000Z</published>
-    <updated>2017-02-10T02:24:27.153Z</updated>
+    <updated>2017-02-10T10:35:07.174Z</updated>
     
     <content type="html"><![CDATA[<p>Sempre que alguém pergunta o que precisa conhecer para aprender a programar é padrão que respondamos: Lógica de Programação e uma Linguagem de Programação. Sendo a Lógica de Programação o tema mais importante desses dois citados.</p>
 <p>Em todo <a href="https://www.google.com/about/careers/students/guide-to-technical-development.html" target="_blank" rel="external">guia para iniciantes</a> ou <a href="https://woliveiras.com.br/posts/guia-de-estudos-desenvolvedor-front-end-iniciante/">trilha de estudos</a> para novos desenvolvedores, sempre abordamos o assunto lógica como algo muito importante para o Desenvolvedor de Software.<a id="more"></a></p>
@@ -742,7 +800,7 @@
     <link href="http://woliveiras.com.br/posts/novos-ares-para-o-femug-abc/"/>
     <id>http://woliveiras.com.br/posts/novos-ares-para-o-femug-abc/</id>
     <published>2016-06-05T14:00:00.000Z</published>
-    <updated>2017-02-10T02:24:27.153Z</updated>
+    <updated>2017-02-10T10:35:07.182Z</updated>
     
     <content type="html"><![CDATA[<p>Eu <strong>nunca fui em um evento de Desenvolvedores Front End</strong>, antes de 2015.</p>
 <p>Moro em uma região bem ruim de se locomover de ônibus. Pra eu ir pra São Paulo, em um evento legal como o SampaJS, eu demoraria de 2:30 a 3 horas de rolê. Isso em um dia sem chuva, pois nesses dias demora entre 3:30 a 4 horas. Coisa linda né? <a id="more"></a></p>
@@ -802,7 +860,7 @@
     <link href="http://woliveiras.com.br/posts/Comecei-a-faculdade-de-informatica-e-agora/"/>
     <id>http://woliveiras.com.br/posts/Comecei-a-faculdade-de-informatica-e-agora/</id>
     <published>2016-05-30T02:19:11.000Z</published>
-    <updated>2017-02-10T02:24:27.149Z</updated>
+    <updated>2017-02-10T10:35:07.174Z</updated>
     
     <content type="html"><![CDATA[<p>Apesar de eu amar estudar, de coração, e ter criado <a href="/posts/como-alcancar-objetivos-rapidamente-nos-estudos/">minha própria rotina</a> de estudos, quem me conhece pessoalmente sabe que eu não gosto muito de Faculdade. Eu tenho uma séria resistência com <strong>diplomas</strong>. </p>
 <p><em>[preconceito_mode=on]</em></p>
@@ -859,7 +917,7 @@
     <link href="http://woliveiras.com.br/posts/Comecando-com-o-editor-de-texto-VIM/"/>
     <id>http://woliveiras.com.br/posts/Comecando-com-o-editor-de-texto-VIM/</id>
     <published>2016-05-22T13:30:00.000Z</published>
-    <updated>2017-02-10T02:24:27.149Z</updated>
+    <updated>2017-02-10T10:35:07.174Z</updated>
     
     <content type="html"><![CDATA[<p>A tarefa que um Desenvolvedor de Software precisa cumprir com a maior agilidade é a escrita/edição de texto. Depois de pensar por algumas horas, planejar o que vai fazer e como fazer (quais funções, métodos, classes criar), nós partimos para a escrita do código fonte no nosso editor de texto favorito ou em uma <a href="https://pt.wikipedia.org/wiki/Ambiente_de_desenvolvimento_integrado" target="_blank" rel="external">IDE</a>.</p>
 <p>Existem <a href="http://pt.wikihow.com/Digitar-Mais-R%C3%A1pido" target="_blank" rel="external">várias técnicas</a> para você ficar fera no teclado, porém hoje vou apresentar outra forma de agilizar as coisas. Vou apresentar (pela minha perspectiva) o <strong>VIM</strong>. <a id="more"></a></p>
@@ -1032,7 +1090,7 @@
     <link href="http://woliveiras.com.br/posts/Aumente-sua-produtividade-e-da-sua-equipe-com-gamificacao/"/>
     <id>http://woliveiras.com.br/posts/Aumente-sua-produtividade-e-da-sua-equipe-com-gamificacao/</id>
     <published>2016-05-14T18:00:34.000Z</published>
-    <updated>2017-02-10T02:24:27.149Z</updated>
+    <updated>2017-02-10T10:35:07.174Z</updated>
     
     <content type="html"><![CDATA[<p>Todos nós gostamos de jogos, seja no PC, Celular ou qualquer outro tipo… Simplesmente, gostamos. Agora imagine utilizar jogos para ser mais produtivo, cuidar da saúde, aprender algo novo ou qualquer outro objetivo pessoal.</p>
 <p>Imagine transformar sua vida em um jogo de RPG!<a id="more"></a></p>
@@ -1119,7 +1177,7 @@
     <link href="http://woliveiras.com.br/posts/Produtividade-priorizacao-de-tarefas-execucao-e-melhoria-do-processo/"/>
     <id>http://woliveiras.com.br/posts/Produtividade-priorizacao-de-tarefas-execucao-e-melhoria-do-processo/</id>
     <published>2016-04-21T12:31:46.000Z</published>
-    <updated>2017-02-10T02:24:27.153Z</updated>
+    <updated>2017-02-10T10:35:07.178Z</updated>
     
     <content type="html"><![CDATA[<p>Continuando a série sobre Produtividade, já sabemos <a href="/posts/produtividade-uma-re-introducao/">o que é produtividade</a> e <a href="/posts/Produtividade-conhece-te-a-ti-mesmo/">como nosso cérebro funciona</a>, agora precisamos aprender a planejar as coisas para que nosso cérebro não nos atrapalhe em nossa meta de sermos mais produtivos. <a id="more"></a></p>
 <p>O planejamento, aqui, pode ser dividido em:</p>
@@ -1205,7 +1263,7 @@
     <link href="http://woliveiras.com.br/posts/Links-uteis-para-aprender-se-aprofundar-ou-manter-se-atualizado-sobre-JavaScript/"/>
     <id>http://woliveiras.com.br/posts/Links-uteis-para-aprender-se-aprofundar-ou-manter-se-atualizado-sobre-JavaScript/</id>
     <published>2016-04-20T09:00:19.000Z</published>
-    <updated>2017-02-10T02:24:27.153Z</updated>
+    <updated>2017-02-10T10:35:07.174Z</updated>
     
     <content type="html"><![CDATA[<p>Existe muito recurso legal disponível na internet para quem deseja aprender ou se aprofundar em JavaScript. Tanto recursos gratuitos, quanto recursos pagos. Existem muitos <a href="/posts/Livros-sobre-JavaScript-do-iniciante-ao-avancado-e-ES6/">livros bons</a> sobre a linguagem também.</p>
 <p>Nesse post, vou tentar deixar um compilado de links úteis para quem quer se aprofundar na linguagem da Web!<a id="more"></a></p>
@@ -1317,7 +1375,7 @@
     <link href="http://woliveiras.com.br/posts/Livros-sobre-JavaScript-do-iniciante-ao-avancado-e-ES6/"/>
     <id>http://woliveiras.com.br/posts/Livros-sobre-JavaScript-do-iniciante-ao-avancado-e-ES6/</id>
     <published>2016-04-19T10:24:08.000Z</published>
-    <updated>2017-02-10T02:24:27.153Z</updated>
+    <updated>2017-02-10T10:35:07.174Z</updated>
     
     <content type="html"><![CDATA[<p>Existem excelentes livros sobre JavaScript no mercado, mas são tantos que nos perdemos em qual ler primeiro, qual ler depois, qual nem vale a pena ler em determinado nível de conhecimento… São várias dúvidas.</p>
 <p>Nesse artigo vou tentar ajudar a escolher os melhores livros para seu nível de conhecimento e montar uma sequência legal de leitura para virar um JavaScript Master!<a id="more"></a></p>
@@ -1384,7 +1442,7 @@
     <link href="http://woliveiras.com.br/posts/Produtividade-conhece-te-a-ti-mesmo/"/>
     <id>http://woliveiras.com.br/posts/Produtividade-conhece-te-a-ti-mesmo/</id>
     <published>2016-04-18T11:48:58.000Z</published>
-    <updated>2017-02-10T02:24:27.153Z</updated>
+    <updated>2017-02-10T10:35:07.178Z</updated>
     
     <content type="html"><![CDATA[<p>O autoconhecimento é muito importante para você se tornar produtivo.</p>
 <p>De nada adianta aprender milhares de técnicas, receber diversas dicas sobre produtividade, se nenhuma delas se encaixa em você. Claro que é necessário um pouco de esforço de sua parte para que as metodologias deem certo, porém, dentre milhares de técnicas, você vai precisar achar uma que se encaixe em seu estilo de vida e na sua forma de pensar e agir. <a id="more"></a></p>
@@ -1462,7 +1520,7 @@
     <link href="http://woliveiras.com.br/posts/Por-que-voce-desistiu-de-ser-Cientista/"/>
     <id>http://woliveiras.com.br/posts/Por-que-voce-desistiu-de-ser-Cientista/</id>
     <published>2016-04-16T11:55:36.000Z</published>
-    <updated>2017-02-10T02:24:27.153Z</updated>
+    <updated>2017-02-10T10:35:07.178Z</updated>
     
     <content type="html"><![CDATA[<p>Há algum tempo venho observando as pessoas, mais especificamente as pessoas da área de Desenvolvimento de Software. Há mais tempo ainda eu observo as outras pessoas, o ser humano em geral. E desde sempre percebi um padrão:</p>
 <p>Ao crescer, as pessoas abandonam a profissão que nasce com elas, a profissão de <strong>cientista</strong>.<a id="more"></a></p>
@@ -1555,7 +1613,7 @@
     <link href="http://woliveiras.com.br/posts/produtividade-uma-re-introducao/"/>
     <id>http://woliveiras.com.br/posts/produtividade-uma-re-introducao/</id>
     <published>2016-04-13T10:58:34.000Z</published>
-    <updated>2017-02-10T02:24:27.153Z</updated>
+    <updated>2017-02-10T10:35:07.182Z</updated>
     
     <content type="html"><![CDATA[<p>No ritmo frenético em que vivemos, ser produtivo já não é mais qualidade de ninguém, precisa ser uma característica de todos.</p>
 <p>Nós queremos fazer um amontoado de coisas todos os dias e toda hora aparece alguma outra coisa pra se fazer.</p>
@@ -1619,7 +1677,7 @@
     <link href="http://woliveiras.com.br/posts/Criando-uma-imagem-Docker-personalizada/"/>
     <id>http://woliveiras.com.br/posts/Criando-uma-imagem-Docker-personalizada/</id>
     <published>2016-04-12T01:18:59.000Z</published>
-    <updated>2017-02-10T02:24:27.153Z</updated>
+    <updated>2017-02-10T10:35:07.174Z</updated>
     
     <content type="html"><![CDATA[<p>É muito legal poder baixar uma imagem do <a href="http://hub.docker.com/" target="_blank" rel="external">Docker Hub</a> e já sair criando os containers, modificando e brincando, mas e depois?</p>
 <p>Como fazemos para levar essa imagem para outro host?</p>
@@ -1712,132 +1770,6 @@
     <summary type="html">
     
       Criando uma imagem Docker personalizada e conhecendo o Dockerfile.
-    
-    </summary>
-    
-    
-      <category term="docker" scheme="http://woliveiras.com.br/tags/docker/"/>
-    
-      <category term="virtualização" scheme="http://woliveiras.com.br/tags/virtualizacao/"/>
-    
-      <category term="ambiente" scheme="http://woliveiras.com.br/tags/ambiente/"/>
-    
-      <category term="devops" scheme="http://woliveiras.com.br/tags/devops/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Comandos mais utilizados no Docker</title>
-    <link href="http://woliveiras.com.br/posts/comandos-mais-utilizados-no-docker/"/>
-    <id>http://woliveiras.com.br/posts/comandos-mais-utilizados-no-docker/</id>
-    <published>2016-04-12T00:00:08.000Z</published>
-    <updated>2017-02-10T02:24:27.153Z</updated>
-    
-    <content type="html"><![CDATA[<p>Um post rapidinho com os comandos mais utilizados do Docker para não esquecer e consultar facilmente. :D</p>
-<p>Se você não viu a primeira parte dessa sequência, clique <a href="/posts/uma-rapida-introducao-ao-docker-e-instalacao-no-ubuntu/">aqui</a>.</p>
-<p>E a segunda parte, <a href="/posts/imagem-docker-ou-um-container-docker/">aqui</a><a id="more"></a></p>
-<h2 id="Como-eu-sei-quais-as-imagens-disponiveis-no-meu-repositorio-local"><a href="#Como-eu-sei-quais-as-imagens-disponiveis-no-meu-repositorio-local" class="headerlink" title="Como eu sei quais as imagens disponíveis no meu repositório local?"></a>Como eu sei quais as imagens disponíveis no meu repositório local?</h2><p>Utilize o comando <code>images</code> para listar:</p>
-<figure class="highlight ebnf"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line"><span class="attribute">docker images</span></div></pre></td></tr></table></figure>
-<p>Será apresentado uma tabela no seu Terminal com:</p>
-<ul>
-<li><strong>REPOSITORY</strong> - repositório</li>
-<li><strong>TAG</strong> - a tag utilizada no repositório (é setado pelo mantenedor)</li>
-<li><strong>IMAGE ID</strong> - o ID da Imagem</li>
-<li><strong>CREATED</strong> - quando essa imagem foi criada</li>
-<li><strong>SIZE</strong> - tamanho dessa imagem</li>
-</ul>
-<h2 id="Como-adicionar-imagens-locais"><a href="#Como-adicionar-imagens-locais" class="headerlink" title="Como adicionar imagens locais?"></a>Como adicionar imagens locais?</h2><p>Utilize o comando <code>search</code> para procurar a imagem e o comando <code>pull</code> para baixar:</p>
-<figure class="highlight ebnf"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line"><span class="attribute">docker search ubuntu</span></div></pre></td></tr></table></figure>
-<p>Encontrado a imagem correta, utilize <code>pull</code> com o nome dessa imagem:</p>
-<figure class="highlight ebnf"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line"><span class="attribute">docker pull ubuntu</span></div></pre></td></tr></table></figure>
-<h2 id="Como-remover-imagens-locais"><a href="#Como-remover-imagens-locais" class="headerlink" title="Como remover imagens locais?"></a>Como remover imagens locais?</h2><p>Localize o ID ou nome do repositório com o comando <code>docker images</code>.</p>
-<p>Com o id ou o nome do repositório em mãos, utilize o comando <code>rmi</code> para excluir as imagens.</p>
-<figure class="highlight autohotkey"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">docker rmi ID_ou_nome_d<span class="built_in">a_imagem</span></div></pre></td></tr></table></figure>
-<h2 id="Criar-um-container"><a href="#Criar-um-container" class="headerlink" title="Criar um container"></a>Criar um container</h2><p>Para executar um container utilize o comando <code>run</code> com o nome da imagem que vá utilizar para a criação:</p>
-<figure class="highlight dockerfile"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">docker <span class="keyword">run</span><span class="bash"> nome_da_imagem</span></div></pre></td></tr></table></figure>
-<h2 id="Criar-um-container-e-entrar-no-Terminal"><a href="#Criar-um-container-e-entrar-no-Terminal" class="headerlink" title="Criar um container e entrar no Terminal"></a>Criar um container e entrar no Terminal</h2><p>Conseguimos criar um container e já entrar nesse container com o comando <code>-it</code>:</p>
-<figure class="highlight applescript"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">docker <span class="built_in">run</span> -<span class="keyword">it</span> ubuntu /bin/bash</div></pre></td></tr></table></figure>
-<p>Vai subir um container com o Ubuntu e entrar no Bash.</p>
-<p>O <code>-i</code> significa interatividade e o <code>-t</code> que queremos um link com o Terminal do container.</p>
-<h2 id="Criar-um-container-com-um-apelido"><a href="#Criar-um-container-com-um-apelido" class="headerlink" title="Criar um container com um apelido"></a>Criar um container com um apelido</h2><p>Você pode colocar apelidos nos containers para facilitar sua organização passando por parâmetro o <code>--name</code> para o comando <code>docker run</code>:</p>
-<figure class="highlight applescript"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">docker <span class="built_in">run</span> <span class="comment">--name ubuntinho ubuntu</span></div></pre></td></tr></table></figure>
-<p>Perceba que logo depois do parâmetro <code>--name</code> vem o nome que deseja e o nome da imagem que vai ser utilizada para gerar o container.</p>
-<p>Nesse caso a imagem <code>ubuntu</code> e o alias <code>ubuntinho</code>.</p>
-<h2 id="Verificar-o-estado-ou-encontrar-o-ID-de-um-container"><a href="#Verificar-o-estado-ou-encontrar-o-ID-de-um-container" class="headerlink" title="Verificar o estado ou encontrar o ID de um container"></a>Verificar o estado ou encontrar o ID de um container</h2><p>Você consegue uma lista dos containers ativos com o comando <code>ps</code>:</p>
-<figure class="highlight ebnf"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line"><span class="attribute">docker ps</span></div></pre></td></tr></table></figure>
-<p>Vai aparecer uma tabela com</p>
-<ul>
-<li><strong>CONTAINER ID</strong> - ID do container</li>
-<li><strong>IMAGE</strong> - a imagem que foi utilizada para gerar esse container</li>
-<li><strong>COMMAND</strong> - o comando passado como parâmetro para esse container (exemplo o /bin/bash)</li>
-<li><strong>CREATED</strong> - a data da criação do container</li>
-<li><strong>STATUS</strong> - o estado do container (parado ou em funcionamento)</li>
-<li><strong>PORTS</strong> - as portas compartilhadas entre host e container</li>
-<li><strong>NAMES</strong> - e o nome que você deu ao container, se o fez</li>
-</ul>
-<p>O <code>ps</code> só vai mostrar os containers que estão em atividade, para verificar todos os containers criados, incluindo os que estiverem parados, utilize o <code>ps -a</code>:</p>
-<figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">docker ps <span class="_">-a</span></div></pre></td></tr></table></figure>
-<p>Para pegar apenas o ID do container do topo da tabela, utilize o comando <code>ps -qa</code></p>
-<h2 id="Remover-um-container"><a href="#Remover-um-container" class="headerlink" title="Remover um container"></a>Remover um container</h2><p>Remover um container seria o mesmo que desligar a máquina virtual.</p>
-<p>Utilize o comando <code>rm</code> para remover o container com o ID que você pode pegar com o <code>docker ps</code> ou o apelido que você escolheu:</p>
-<figure class="highlight nginx"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line"><span class="attribute">docker</span> rm id_ou_apelido</div></pre></td></tr></table></figure>
-<h2 id="Outras-informacoes-uteis-que-o-Docker-pode-nos-passar-sobre-o-container"><a href="#Outras-informacoes-uteis-que-o-Docker-pode-nos-passar-sobre-o-container" class="headerlink" title="Outras informações úteis que o Docker pode nos passar sobre o container"></a>Outras informações úteis que o Docker pode nos passar sobre o container</h2><p>Informações de uso de Hardware do container:</p>
-<figure class="highlight nginx"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line"><span class="attribute">docker</span> stats id_ou_apelido</div></pre></td></tr></table></figure>
-<p>Veremos informações como:</p>
-<ul>
-<li><strong>CONTAINER</strong> - ID do Container</li>
-<li><strong>CPU %</strong> - uso de CPU em porcentagem</li>
-<li><strong>MEM USAGE / LIMIT</strong> - Memória usada/Limite que você pode ter setado</li>
-<li><strong>MEM</strong> - uso de memória em porcentagem</li>
-<li><strong>NET I/O</strong> - I/O de Internet</li>
-<li><strong>BLOCK IO</strong> - Outros processos de I/O.</li>
-</ul>
-<figure class="highlight gradle"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">docker <span class="keyword">inspect</span> id_ou_apelido</div></pre></td></tr></table></figure>
-<p>Esse comando trás muita informação útil, então é bom dar uma olhada na <a href="https://docs.docker.com/engine/reference/commandline/inspect/" target="_blank" rel="external">documentação oficial</a> para não se perder pelas linhas!</p>
-<h2 id="Commitar-alteracoes-em-uma-imagem"><a href="#Commitar-alteracoes-em-uma-imagem" class="headerlink" title="Commitar alterações em uma imagem"></a>Commitar alterações em uma imagem</h2><p>As alterações que você faz em um container, durante sua execução, não são salvas, a menos que você gere uma nova imagem com base nesse container.</p>
-<p>Para commitar o que você fez em uma imagem, utilize o comando <code>commit</code>:</p>
-<figure class="highlight sql"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">docker <span class="keyword">commit</span> <span class="keyword">ID</span>/apelido nome_da_nova_imagem</div></pre></td></tr></table></figure>
-<p>Ele vai gerar uma nova imagem a partir desse commit.</p>
-<h2 id="Mapeando-uma-porta-para-o-container"><a href="#Mapeando-uma-porta-para-o-container" class="headerlink" title="Mapeando uma porta para o container"></a>Mapeando uma porta para o container</h2><p>Usamos o comando <code>-p</code>:</p>
-<figure class="highlight applescript"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">docker <span class="built_in">run</span> -<span class="keyword">it</span> -p <span class="number">8080</span>:<span class="number">80</span> ubuntu</div></pre></td></tr></table></figure>
-<p>Bem útil para listar uma porta para um servidor web:</p>
-<figure class="highlight applescript"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">docker <span class="built_in">run</span> -<span class="keyword">it</span> -p <span class="number">8080</span>:<span class="number">80</span> nginx</div></pre></td></tr></table></figure>
-<p>Estamos informando que a porta 8080 no Host é aberta e deve ser mapeada na porta 80 do container.</p>
-<h2 id="Montar-containers-auto-destrutivos"><a href="#Montar-containers-auto-destrutivos" class="headerlink" title="Montar containers auto destrutivos"></a>Montar containers auto destrutivos</h2><p>Usando o comando <code>--rm</code>, podemos montar containers que se destroem ao sairmos da sessão.</p>
-<p>Exemplo utilizando o <a href="https://www.nginx.com/" target="_blank" rel="external">NGINX</a>.</p>
-<figure class="highlight applescript"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">docker <span class="built_in">run</span> -<span class="keyword">it</span> <span class="comment">--rm -p 8080:80 nginx /bin/bash</span></div></pre></td></tr></table></figure>
-<p>Ao usar um <code>exit</code> para sair do Terminal do SO rodando no container, o mesmo será removido.</p>
-<h2 id="Executando-containers-em-segundo-plano"><a href="#Executando-containers-em-segundo-plano" class="headerlink" title="Executando containers em segundo plano"></a>Executando containers em segundo plano</h2><p>Podemos executar o container e deixar ele em segundo plano, sem precisar ficar conectado pelo Shell, com o comando <code>-d</code>.</p>
-<p>Exemplo utilizando o NGINX.</p>
-<figure class="highlight dockerfile"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">docker <span class="keyword">run</span><span class="bash"> <span class="_">-d</span> -p 8080:80 nginx /usr/sbin/nginx -g</span></div></pre></td></tr></table></figure>
-<p>Para controlar esse container usamos os comandos <code>stop</code> e <code>start</code>:</p>
-<figure class="highlight arduino"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">docker <span class="built_in">stop</span> id_ou_apelido</div></pre></td></tr></table></figure>
-<p>Para parar e:</p>
-<figure class="highlight crmsh"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">docker <span class="literal">start</span> id_ou_apelido</div></pre></td></tr></table></figure>
-<p>Para ativar o container.</p>
-<h2 id="Removendo-todos-os-containers-e-imagens-de-uma-so-vez"><a href="#Removendo-todos-os-containers-e-imagens-de-uma-so-vez" class="headerlink" title="Removendo todos os containers e imagens de uma só vez"></a>Removendo todos os containers e imagens de uma só vez</h2><p>Usamos um pouquinho de <a href="http://aurelio.net/shell/" target="_blank" rel="external">Shell Script</a> e conseguimos automatizar o processo de remoção de todos os containers ativos com:</p>
-<figure class="highlight vim"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">docker rm $(docker <span class="keyword">ps</span> -<span class="keyword">qa</span>)</div></pre></td></tr></table></figure>
-<p>Para entender o que o <code>$(docker ps -qa)</code> está fazendo, execute somente esse comando no Terminal e veja o retorno.</p>
-<figure class="highlight vim"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$(docker <span class="keyword">ps</span> -<span class="keyword">qa</span>)</div></pre></td></tr></table></figure>
-<p>Para imagens</p>
-<figure class="highlight elixir"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">docker rmi <span class="variable">$(</span>docker images -q)</div></pre></td></tr></table></figure>
-<h2 id="Como-executar-comandos-sem-precisar-estar-dentro-do-container"><a href="#Como-executar-comandos-sem-precisar-estar-dentro-do-container" class="headerlink" title="Como executar comandos, sem precisar estar dentro do container?"></a>Como executar comandos, sem precisar estar dentro do container?</h2><p>Para não precisar acessar um container para executar comandos basicos, podemos usar o <code>exec</code>:</p>
-<figure class="highlight applescript"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">docker exec -<span class="keyword">it</span> id_ou_apelido comando</div></pre></td></tr></table></figure>
-<p>Ex.:</p>
-<figure class="highlight applescript"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">docker exec -<span class="keyword">it</span> ubuntinho ifconfig eth0</div></pre></td></tr></table></figure>
-<p>Vai retornar o endereço de IP do container.</p>
-<p>Esses são os comandos mais básicos para sobreviver os primeiros dias com o Docker, depois vai ficar fixado na cabeça e é só alegria.</p>
-<p>Nos próximos artigos vou falar sobre como utilizar o Dockerfile para automatizar a criação de containers e como criar sua própria imagem com as suas configurações.</p>
-<p>Não perca.</p>
-<p>Gostou? Comenta aqui em baixo.</p>
-<p>Acha que da para incrementar com mais comandos legais?</p>
-<p>Abre uma <a href="https://github.com/woliveiras/woliveiras.github.io/issues" target="_blank" rel="external">issue</a>, comenta aqui em baixo ou <a href="https://github.com/woliveiras/woliveiras.github.io/tree/development" target="_blank" rel="external">adiciona direto no Blog</a> pra mim!</p>
-<p>Espalhe a palavra.</p>
-]]></content>
-    
-    <summary type="html">
-    
-      Comandos mais utilizados durante o Workflow com Docker
     
     </summary>
     
