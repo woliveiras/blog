@@ -155,6 +155,15 @@
 	},
 	"buffers":
 	[
+		{
+			"file": "source/_posts/Escolha-um-trabalho-que-voce-ame-e-nunca-tera-que-trabalhar-uma-mentira.md",
+			"settings":
+			{
+				"buffer_size": 12122,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		}
 	],
 	"build_system": "",
 	"build_system_choices":
@@ -295,10 +304,11 @@
 	],
 	"file_history":
 	[
+		"/run/media/woliveiras/DATA/WORKSPACE/Projects/woliveiras.github.io/source/_posts/Aumente-sua-produtividade-e-da-sua-equipe-com-gamificacao.md",
+		"/run/media/woliveiras/DATA/WORKSPACE/Projects/woliveiras.github.io/source/_posts/Como-aprender-uma-nova-linguagem-de-programacao-por-ano.md",
 		"/home/woliveiras/Área de trabalho/o-que-fazer-depois-de-instalar-o-fedora.md",
 		"/run/media/woliveiras/DATA/WORKSPACE/Projects/woliveiras.github.io/source/_posts/O-que-fazer-depois-de-instalar-o-Fedora.md",
 		"/home/woliveiras/Desktop/1 - Desafio Front End - Brito",
-		"/run/media/woliveiras/DATA/WORKSPACE/Projects/woliveiras.github.io/source/_posts/Aumente-sua-produtividade-e-da-sua-equipe-com-gamificacao.md",
 		"/run/media/woliveiras/DATA/WORKSPACE/Projects/woliveiras.github.io/source/_posts/Comecando-com-o-editor-de-texto-VIM.md",
 		"/run/media/woliveiras/DATA/WORKSPACE/Projects/woliveiras.github.io/source/_posts/Comecei-a-faculdade-de-informatica-e-agora.md",
 		"/run/media/woliveiras/DATA/WORKSPACE/Projects/woliveiras.github.io/source/_posts/Criando-uma-imagem-Docker-personalizada.md",
@@ -421,8 +431,7 @@
 		"/media/william/DATA/WORKSPACE/Projects/100-coisas-dev/_posts/listas/2016-01-13-william-oliveira.markdown",
 		"/media/william/DATA/WORKSPACE/Projects/100-coisas-dev/_layouts/post.html",
 		"/media/william/DATA/WORKSPACE/Projects/100-coisas-dev/index.md",
-		"/media/william/DATA/WORKSPACE/Projects/curso-javascript-ninja/challenge-20/index.html",
-		"/media/william/DATA/WORKSPACE/Projects/curso-javascript-ninja/challenge-20/challenge-20.js"
+		"/media/william/DATA/WORKSPACE/Projects/curso-javascript-ninja/challenge-20/index.html"
 	],
 	"find":
 	{
@@ -593,8 +602,37 @@
 	"groups":
 	[
 		{
+			"selected": 0,
 			"sheets":
 			[
+				{
+					"buffer": 0,
+					"file": "source/_posts/Escolha-um-trabalho-que-voce-ame-e-nunca-tera-que-trabalhar-uma-mentira.md",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 12122,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								10638,
+								10638
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Markdown/Markdown.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
 			]
 		}
 	],
@@ -650,6 +688,14 @@
 		"last_filter": "",
 		"selected_items":
 		[
+			[
+				"escolha",
+				"source/_posts/Escolha-um-trabalho-que-voce-ame-e-nunca-tera-que-trabalhar-uma-mentira.md"
+			],
+			[
+				"comoaprender",
+				"source/_posts/Como-aprender-uma-nova-linguagem-de-programacao-por-ano.md"
+			],
 			[
 				"oquefazer",
 				"source/_posts/O-que-fazer-depois-de-instalar-o-Fedora.md"
