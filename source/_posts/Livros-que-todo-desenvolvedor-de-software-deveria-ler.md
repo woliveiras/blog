@@ -89,7 +89,7 @@ Da uma olhada [nessa entrevista sobre esse livro](https://www.infoq.com/br/artic
 
 Nem só de livro técnico viverá o dev. - escrito em pedra em algum lugar por aí
 
-Este livro ensina como como ter foco em meio a tanta informação que temos no dia a dia.
+Este livro ensina como ter foco em meio a tanta informação que temos no dia a dia.
 
 Principalmente se você for ler todos os livros que eu estou indicando, vai precisar de muito foco! ;D
 
@@ -99,9 +99,9 @@ Diversos livros de Daniel Goleman ensinam sobre isso, se tiver oportunidade leia
 
 ## Outros livros não técnicos, mas bem importantes
 
-Eu tenho uma lista de livros, ainda sobre [produtividade](/posts/produtividade-uma-re-introducao/), que ainda vou ler ou finalizar e gostaria de indicá-los pra você também:
+Eu tenho uma lista de livros, sobre [produtividade](/posts/produtividade-uma-re-introducao/), que ainda vou ler ou finalizar e gostaria de indicá-los pra você também:
 
-- [[Os 7 hábitos das pessoas altamente eficazes, por Stephen Covey](https://www.amazon.com.br/H%C3%A1bitos-das-Pessoas-Altamente-Eficazes/dp/8576843439/ref=sr_1_3?s=books&ie=UTF8&qid=1417195405&sr=1-3&keywords=stephen+covey)
+- [Os 7 hábitos das pessoas altamente eficazes, por Stephen Covey](https://www.amazon.com.br/H%C3%A1bitos-das-Pessoas-Altamente-Eficazes/dp/8576843439/ref=sr_1_3?s=books&ie=UTF8&qid=1417195405&sr=1-3&keywords=stephen+covey)
 - [O poder da ação, por Paulo Vieira](https://www.amazon.com.br/Poder-A-o-Ph-D-Paulo-Vieira/dp/854520034X/ref=oosr)
 - [Trabalhe 4 Horas por Semana, por Timothy Ferriss](https://www.amazon.com.br/Trabalhe-4-Horas-Por-Semana/dp/8576653540)
 - [Os desafios à força de vontade, por Kelly McGonigal](https://www.amazon.com.br/Os-desafios-%C3%A0-for%C3%A7a-vontade-ebook/dp/B00I12T02I)
