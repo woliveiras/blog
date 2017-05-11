@@ -77,7 +77,7 @@ O stress existe no nosso corpo para nos manter alerta. Ficar ligeiro!
 
 Quando nosso cérebro identifica uma situação complicada, ele emite sinais para que fiquemos alertas. Isso é o stress. Sem isso, talvez, teriamos virado comida de animais selvagens a muito tempo atrás.
 
-Não é o stress que ruim, mas a maneira como reagimos a ele.
+Não é o stress que é ruim, mas a maneira como reagimos a ele.
 
 É ai que você precisa ir além do autoconhecimento para o autocontrole.
 
