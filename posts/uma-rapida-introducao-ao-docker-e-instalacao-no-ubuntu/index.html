@@ -10,17 +10,18 @@
 
   <meta property='og:image' content='/img/favicon.ico'/>
   <meta name="description" content="Uma rápida introdução ao Docker e instalação no Ubuntu para iniciantes. Dicas para não precisar de sudo ao executar o Docker e como iniciar o Docker junto com o Sistema Operacional.">
+<meta name="keywords" content="docker,virtualização,ambiente,devops">
 <meta property="og:type" content="article">
 <meta property="og:title" content="Uma rápida introdução ao Docker e instalação no Ubuntu">
 <meta property="og:url" content="http://woliveiras.com.br/posts/uma-rapida-introducao-ao-docker-e-instalacao-no-ubuntu/index.html">
 <meta property="og:site_name" content="William Oliveira - Desenvolvedor Front End">
 <meta property="og:description" content="Uma rápida introdução ao Docker e instalação no Ubuntu para iniciantes. Dicas para não precisar de sudo ao executar o Docker e como iniciar o Docker junto com o Sistema Operacional.">
-<meta property="og:image" content="http://woliveiras.com.br/../../public/images/docker.png">
-<meta property="og:updated_time" content="2017-02-17T17:43:38.548Z">
+<meta property="og:image" content="http://woliveiras.com.br/public/images/docker.png">
+<meta property="og:updated_time" content="2017-05-11T20:56:45.306Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="Uma rápida introdução ao Docker e instalação no Ubuntu">
 <meta name="twitter:description" content="Uma rápida introdução ao Docker e instalação no Ubuntu para iniciantes. Dicas para não precisar de sudo ao executar o Docker e como iniciar o Docker junto com o Sistema Operacional.">
-<meta name="twitter:image" content="http://woliveiras.com.br/../../public/images/docker.png">
+<meta name="twitter:image" content="http://woliveiras.com.br/public/images/docker.png">
 <meta name="twitter:creator" content="@w_oliveiras">
   
     <link rel="alternative" href="/atom.xml" title="William Oliveira - Desenvolvedor Front End" type="application/atom+xml">
@@ -138,7 +139,7 @@
 <p>Atualize seu Sistema e instale as dependências  com os comandos:</p>
 <figure class="highlight sql"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line">sudo apt-get <span class="keyword">update</span></div><div class="line">sudo apt-<span class="keyword">get</span> <span class="keyword">install</span> apt-transport-https ca-certificates</div><div class="line">sudo apt-<span class="keyword">get</span> <span class="keyword">install</span> linux-image-extra-$(uname -r)</div></pre></td></tr></table></figure>
 <p>E adicione a GPG Key - se você não sabe o que é uma GPG, <a href="https://pt.wikipedia.org/wiki/GNU_Privacy_Guard" target="_blank" rel="external">clique aqui</a>:</p>
-<figure class="highlight brainfuck"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line"><span class="comment">sudo</span> <span class="comment">apt</span><span class="literal">-</span><span class="comment">key</span> <span class="comment">adv</span> <span class="literal">-</span><span class="literal">-</span><span class="comment">keyserver</span> <span class="comment">hkp://p80</span><span class="string">.</span><span class="comment">pool</span><span class="string">.</span><span class="comment">sks</span><span class="literal">-</span><span class="comment">keyservers</span><span class="string">.</span><span class="comment">net:80</span> <span class="literal">-</span><span class="literal">-</span><span class="comment">recv</span><span class="literal">-</span><span class="comment">keys</span> <span class="comment">58118E89F3A912897C070ADBF76221572C52609D</span></div></pre></td></tr></table></figure>
+<figure class="highlight jboss-cli"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">sudo apt-key adv <span class="params">--keyserver</span> hkp:<span class="string">//p80.pool.sks-keyservers.net</span><span class="function">:80</span> <span class="params">--recv-keys</span> 58118E89F3A912897C070ADBF76221572C52609D</div></pre></td></tr></table></figure>
 <p>Abra o arquivo <code>/etc/apt/sources.list.d/docker.list</code> ou, caso o mesmo não exista, crie ele com o comando:</p>
 <figure class="highlight stylus"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">sudo vi /etc/apt/sources<span class="selector-class">.list</span><span class="selector-class">.d</span>/docker.list</div></pre></td></tr></table></figure>
 <p>Você pode usar o <code>gedit</code> no lugar do VI se preferir.</p>

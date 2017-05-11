@@ -10,12 +10,13 @@
 
   <meta property='og:image' content='/img/favicon.ico'/>
   <meta name="description" content="Comandos mais utilizados durante o Workflow com Docker">
+<meta name="keywords" content="docker,virtualização,ambiente,devops">
 <meta property="og:type" content="article">
 <meta property="og:title" content="Comandos mais utilizados no Docker">
 <meta property="og:url" content="http://woliveiras.com.br/posts/comandos-mais-utilizados-no-docker/index.html">
 <meta property="og:site_name" content="William Oliveira - Desenvolvedor Front End">
 <meta property="og:description" content="Comandos mais utilizados durante o Workflow com Docker">
-<meta property="og:updated_time" content="2017-02-17T17:43:38.544Z">
+<meta property="og:updated_time" content="2017-05-11T20:56:45.302Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="Comandos mais utilizados no Docker">
 <meta name="twitter:description" content="Comandos mais utilizados durante o Workflow com Docker">
@@ -192,7 +193,7 @@
 <h2 id="Removendo-todos-os-containers-e-imagens-de-uma-so-vez"><a href="#Removendo-todos-os-containers-e-imagens-de-uma-so-vez" class="headerlink" title="Removendo todos os containers e imagens de uma só vez"></a>Removendo todos os containers e imagens de uma só vez</h2><p>Usamos um pouquinho de <a href="http://aurelio.net/shell/" target="_blank" rel="external">Shell Script</a> e conseguimos automatizar o processo de remoção de todos os containers ativos com:</p>
 <figure class="highlight vim"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">docker rm $(docker <span class="keyword">ps</span> -<span class="keyword">qa</span>)</div></pre></td></tr></table></figure>
 <p>Para entender o que o <code>$(docker ps -qa)</code> está fazendo, execute somente esse comando no Terminal e veja o retorno.</p>
-<figure class="highlight vim"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$(docker <span class="keyword">ps</span> -<span class="keyword">qa</span>)</div></pre></td></tr></table></figure>
+<figure class="highlight shell"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line"><span class="meta">$</span><span class="bash">(docker ps -qa)</span></div></pre></td></tr></table></figure>
 <p>Para imagens</p>
 <figure class="highlight elixir"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">docker rmi <span class="variable">$(</span>docker images -q)</div></pre></td></tr></table></figure>
 <h2 id="Como-executar-comandos-sem-precisar-estar-dentro-do-container"><a href="#Como-executar-comandos-sem-precisar-estar-dentro-do-container" class="headerlink" title="Como executar comandos, sem precisar estar dentro do container?"></a>Como executar comandos, sem precisar estar dentro do container?</h2><p>Para não precisar acessar um container para executar comandos basicos, podemos usar o <code>exec</code>:</p>
