@@ -16,8 +16,9 @@
 <meta property="og:url" content="http://woliveiras.com.br/posts/uma-rapida-introducao-ao-docker-e-instalacao-no-ubuntu/index.html">
 <meta property="og:site_name" content="William Oliveira - Desenvolvedor Front End">
 <meta property="og:description" content="Uma rápida introdução ao Docker e instalação no Ubuntu para iniciantes. Dicas para não precisar de sudo ao executar o Docker e como iniciar o Docker junto com o Sistema Operacional.">
+<meta property="og:locale" content="default">
 <meta property="og:image" content="http://woliveiras.com.br/public/images/docker.png">
-<meta property="og:updated_time" content="2017-05-11T21:03:22.019Z">
+<meta property="og:updated_time" content="2017-09-13T09:56:51.297Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="Uma rápida introdução ao Docker e instalação no Ubuntu">
 <meta name="twitter:description" content="Uma rápida introdução ao Docker e instalação no Ubuntu para iniciantes. Dicas para não precisar de sudo ao executar o Docker e como iniciar o Docker junto com o Sistema Operacional.">
@@ -137,7 +138,7 @@
 <p>Deve aparecer algo como:</p>
 <figure class="highlight lsl"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line"><span class="number">3.19</span><span class="number">.0</span><span class="number">-51</span>-generic</div></pre></td></tr></table></figure>
 <p>Atualize seu Sistema e instale as dependências  com os comandos:</p>
-<figure class="highlight sql"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line">sudo apt-get <span class="keyword">update</span></div><div class="line">sudo apt-<span class="keyword">get</span> <span class="keyword">install</span> apt-transport-https ca-certificates</div><div class="line">sudo apt-<span class="keyword">get</span> <span class="keyword">install</span> linux-image-extra-$(uname -r)</div></pre></td></tr></table></figure>
+<figure class="highlight routeros"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line">sudo apt-<span class="builtin-name">get</span> update</div><div class="line">sudo apt-<span class="builtin-name">get</span> install apt-transport-https ca-certificates</div><div class="line">sudo apt-<span class="builtin-name">get</span> install linux-image-extra-$(uname -r)</div></pre></td></tr></table></figure>
 <p>E adicione a GPG Key - se você não sabe o que é uma GPG, <a href="https://pt.wikipedia.org/wiki/GNU_Privacy_Guard" target="_blank" rel="external">clique aqui</a>:</p>
 <figure class="highlight jboss-cli"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">sudo apt-key adv <span class="params">--keyserver</span> hkp:<span class="string">//p80.pool.sks-keyservers.net</span><span class="function">:80</span> <span class="params">--recv-keys</span> 58118E89F3A912897C070ADBF76221572C52609D</div></pre></td></tr></table></figure>
 <p>Abra o arquivo <code>/etc/apt/sources.list.d/docker.list</code> ou, caso o mesmo não exista, crie ele com o comando:</p>
@@ -148,15 +149,15 @@
 <figure class="highlight groovy"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">deb <span class="string">https:</span><span class="comment">//apt.dockerproject.org/repo ubuntu-trusty main</span></div></pre></td></tr></table></figure>
 <p>Se for outra versão, verifique <a href="https://docs.docker.com/engine/installation/linux/ubuntulinux/" target="_blank" rel="external">aqui</a> o comando correto no item 7.</p>
 <p>Agora vamos atualizar o Sistema novamente e remover qualquer instalação anterior do Docker:</p>
-<figure class="highlight q"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line">sudo apt-<span class="built_in">get</span> <span class="keyword">update</span></div><div class="line">sudo apt-<span class="built_in">get</span> purge lxc-docker</div></pre></td></tr></table></figure>
+<figure class="highlight routeros"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line">sudo apt-<span class="builtin-name">get</span> update</div><div class="line">sudo apt-<span class="builtin-name">get</span> purge lxc-docker</div></pre></td></tr></table></figure>
 <p>Agora sim, instale o Docker:</p>
-<figure class="highlight sql"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">sudo apt-get <span class="keyword">install</span> docker-<span class="keyword">engine</span></div></pre></td></tr></table></figure>
+<figure class="highlight routeros"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">sudo apt-<span class="builtin-name">get</span> install docker-engine</div></pre></td></tr></table></figure>
 <p>Para inicializar o Docker, usamos o comando:</p>
-<figure class="highlight crmsh"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">sudo service docker <span class="literal">start</span></div></pre></td></tr></table></figure>
+<figure class="highlight routeros"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">sudo<span class="built_in"> service </span>docker start</div></pre></td></tr></table></figure>
 <p>Para verificar se está tudo rodando certinho, execute o container de <em>Hello World</em> do Docker:</p>
 <figure class="highlight dockerfile"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">sudo docker <span class="keyword">run</span><span class="bash"> hello-world</span></div></pre></td></tr></table></figure>
 <h2 id="Configurando-para-nao-precisar-de-sudo-ao-executar-o-Docker"><a href="#Configurando-para-nao-precisar-de-sudo-ao-executar-o-Docker" class="headerlink" title="Configurando para não precisar de sudo ao executar o Docker"></a>Configurando para não precisar de sudo ao executar o Docker</h2><p>Para não precisar usar o <code>sudo</code> sempre, execute o seguinte:</p>
-<figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">sudo usermod <span class="_">-a</span>G docker <span class="variable">$USER</span></div></pre></td></tr></table></figure>
+<figure class="highlight nginx"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line"><span class="attribute">sudo</span> usermod -aG docker <span class="variable">$USER</span></div></pre></td></tr></table></figure>
 <p><em>OBS: <code>$USER</code> é uma variável do Shell para o usuário logado, caso esteja configurando para outro usuário, deve colocar o nome dele no lugar disso.</em></p>
 <p>Agora você consegue executar:</p>
 <figure class="highlight dockerfile"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">docker <span class="keyword">run</span><span class="bash"> hello-world</span></div></pre></td></tr></table></figure>

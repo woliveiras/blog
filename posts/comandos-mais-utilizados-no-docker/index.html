@@ -16,7 +16,8 @@
 <meta property="og:url" content="http://woliveiras.com.br/posts/comandos-mais-utilizados-no-docker/index.html">
 <meta property="og:site_name" content="William Oliveira - Desenvolvedor Front End">
 <meta property="og:description" content="Comandos mais utilizados durante o Workflow com Docker">
-<meta property="og:updated_time" content="2017-05-11T21:03:22.003Z">
+<meta property="og:locale" content="default">
+<meta property="og:updated_time" content="2017-09-13T09:56:51.297Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="Comandos mais utilizados no Docker">
 <meta name="twitter:description" content="Comandos mais utilizados durante o Workflow com Docker">
@@ -151,7 +152,7 @@
 <li><strong>NAMES</strong> - e o nome que você deu ao container, se o fez</li>
 </ul>
 <p>O <code>ps</code> só vai mostrar os containers que estão em atividade, para verificar todos os containers criados, incluindo os que estiverem parados, utilize o <code>ps -a</code>:</p>
-<figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">docker ps <span class="_">-a</span></div></pre></td></tr></table></figure>
+<figure class="highlight ebnf"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line"><span class="attribute">docker ps -a</span></div></pre></td></tr></table></figure>
 <p>Para pegar apenas o ID do container do topo da tabela, utilize o comando <code>ps -qa</code></p>
 <h2 id="Remover-um-container"><a href="#Remover-um-container" class="headerlink" title="Remover um container"></a>Remover um container</h2><p>Remover um container seria o mesmo que desligar a máquina virtual.</p>
 <p>Utilize o comando <code>rm</code> para remover o container com o ID que você pode pegar com o <code>docker ps</code> ou o apelido que você escolheu:</p>
@@ -184,7 +185,7 @@
 <p>Ao usar um <code>exit</code> para sair do Terminal do SO rodando no container, o mesmo será removido.</p>
 <h2 id="Executando-containers-em-segundo-plano"><a href="#Executando-containers-em-segundo-plano" class="headerlink" title="Executando containers em segundo plano"></a>Executando containers em segundo plano</h2><p>Podemos executar o container e deixar ele em segundo plano, sem precisar ficar conectado pelo Shell, com o comando <code>-d</code>.</p>
 <p>Exemplo utilizando o NGINX.</p>
-<figure class="highlight dockerfile"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">docker <span class="keyword">run</span><span class="bash"> <span class="_">-d</span> -p 8080:80 nginx /usr/sbin/nginx -g</span></div></pre></td></tr></table></figure>
+<figure class="highlight dockerfile"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">docker <span class="keyword">run</span><span class="bash"> -d -p 8080:80 nginx /usr/sbin/nginx -g</span></div></pre></td></tr></table></figure>
 <p>Para controlar esse container usamos os comandos <code>stop</code> e <code>start</code>:</p>
 <figure class="highlight arduino"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">docker <span class="built_in">stop</span> id_ou_apelido</div></pre></td></tr></table></figure>
 <p>Para parar e:</p>

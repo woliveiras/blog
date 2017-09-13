@@ -16,7 +16,8 @@
 <meta property="og:url" content="http://woliveiras.com.br/posts/twitter-bootstrap-bootstrap-do-jeito-certo/index.html">
 <meta property="og:site_name" content="William Oliveira - Desenvolvedor Front End">
 <meta property="og:description" content="Twitter Bootstrap é pesado? Twitter Bootstrap não é semântico? Confira algumas dicas para usar o Twitter Bootstrap do jeito certo.">
-<meta property="og:updated_time" content="2017-05-11T21:03:22.015Z">
+<meta property="og:locale" content="default">
+<meta property="og:updated_time" content="2017-09-13T09:56:51.297Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="Twitter Bootstrap do jeito certo">
 <meta name="twitter:description" content="Twitter Bootstrap é pesado? Twitter Bootstrap não é semântico? Confira algumas dicas para usar o Twitter Bootstrap do jeito certo.">
@@ -135,7 +136,7 @@
 <p>Ex.:</p>
 <p>Digamos que você vai utilizar modal e tooltips, então você pode remover as barras (//) do início das linhas que chamam esses componentes.</p>
 <p><strong>Antes</strong></p>
-<figure class="highlight perl"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line">//@import <span class="string">"<span class="subst">@&#123;path_bootstrap&#125;</span>modals"</span>;</div><div class="line"><span class="regexp">//</span>@import <span class="string">"<span class="subst">@&#123;path_bootstrap&#125;</span>tooltip"</span>;</div></pre></td></tr></table></figure>
+<figure class="highlight perl"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line">//@import <span class="string">"<span class="subst">@&#123;path_bootstrap&#125;</span>modals"</span>;</div><div class="line">//@import <span class="string">"<span class="subst">@&#123;path_bootstrap&#125;</span>tooltip"</span>;</div></pre></td></tr></table></figure>
 <p><strong>Depois de remover os comentários</strong></p>
 <figure class="highlight css"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line">@<span class="keyword">import</span> <span class="string">"@&#123;path_bootstrap&#125;modals"</span>;</div><div class="line">@<span class="keyword">import</span> <span class="string">"@&#123;path_bootstrap&#125;tooltip"</span>;</div></pre></td></tr></table></figure>
 <p><strong>path_bootstrap</strong> é uma variável que leva o caminho completo do BS para compilação. Ele vai chamar esse arquivo para compilar e concatenar no arquivo final compilado com os estilos do BS + os seus estilos.</p>

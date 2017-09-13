@@ -16,9 +16,10 @@
 <meta property="og:url" content="http://woliveiras.com.br/posts/imagem-docker-ou-um-container-docker/index.html">
 <meta property="og:site_name" content="William Oliveira - Desenvolvedor Front End">
 <meta property="og:description" content="O que é uma imagem e o que é um container Docker? Uma breve explicação sobre esses dois termos que podem confundir um iniciante e uma introdução sobre o Docker Hub.">
+<meta property="og:locale" content="default">
 <meta property="og:image" content="http://woliveiras.com.br/public/images/docker_ps_a.png">
 <meta property="og:image" content="http://woliveiras.com.br/public/images/docker_ps_qa.png">
-<meta property="og:updated_time" content="2017-05-11T21:03:22.007Z">
+<meta property="og:updated_time" content="2017-09-13T09:56:51.297Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="O que é uma imagem e o que é um container Docker?">
 <meta name="twitter:description" content="O que é uma imagem e o que é um container Docker? Uma breve explicação sobre esses dois termos que podem confundir um iniciante e uma introdução sobre o Docker Hub.">
@@ -154,7 +155,7 @@
 <figure class="highlight dockerfile"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">docker <span class="keyword">run</span><span class="bash"> ubuntu</span></div></pre></td></tr></table></figure>
 <p>Com isso você está instanciando um Container que usa como template a imagem do Ubuntu, baixada no primeiro comando.</p>
 <p>Você pode listar os Containers em execução com o comando:</p>
-<figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">docker ps <span class="_">-a</span></div></pre></td></tr></table></figure>
+<figure class="highlight ebnf"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line"><span class="attribute">docker ps -a</span></div></pre></td></tr></table></figure>
 <p><img src="../../public/images/docker_ps_a.png" alt="docker ps -a"></p>
 <p>Ou somente o ID do Container do topo da lista com:</p>
 <figure class="highlight vim"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">docker <span class="keyword">ps</span> -<span class="keyword">qa</span></div></pre></td></tr></table></figure>

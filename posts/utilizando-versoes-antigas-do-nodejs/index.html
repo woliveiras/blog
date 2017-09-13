@@ -16,12 +16,13 @@
 <meta property="og:url" content="http://woliveiras.com.br/posts/utilizando-versoes-antigas-do-nodejs/index.html">
 <meta property="og:site_name" content="William Oliveira - Desenvolvedor Front End">
 <meta property="og:description" content="Como utilizar mais de uma versão de Nodejs no mesmo Sistema Operacional. Configurando seu ambiente local Nodejs.">
+<meta property="og:locale" content="default">
 <meta property="og:image" content="http://woliveiras.com.br//public/images/nodejs.png">
 <meta property="og:image" content="http://woliveiras.com.br/public/images/nvm-ls-remote.png">
 <meta property="og:image" content="http://woliveiras.com.br/public/images/nvm-install-v.png">
 <meta property="og:image" content="http://woliveiras.com.br/public/images/terminal-with-nvmrc.png">
 <meta property="og:image" content="http://woliveiras.com.br/public/images/nvm-install-nvmrc.png">
-<meta property="og:updated_time" content="2017-05-11T21:03:22.019Z">
+<meta property="og:updated_time" content="2017-09-13T09:56:51.301Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="Utilizando versões antigas do Nodejs">
 <meta name="twitter:description" content="Como utilizar mais de uma versão de Nodejs no mesmo Sistema Operacional. Configurando seu ambiente local Nodejs.">
@@ -143,7 +144,7 @@
 <figure class="highlight ebnf"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line"><span class="attribute">nvm ls</span></div></pre></td></tr></table></figure>
 <p>Para ver a lista das versões.</p>
 <h2 id="Deixando-uma-versao-como-padrao"><a href="#Deixando-uma-versao-como-padrao" class="headerlink" title="Deixando uma versão como padrão"></a>Deixando uma versão como padrão</h2><p>Se quiser setar uma versão anterior como padrão e não a mais atual, basta rodar:</p>
-<figure class="highlight ceylon"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">nvm <span class="keyword">alias</span> <span class="keyword">default</span> versão</div></pre></td></tr></table></figure>
+<figure class="highlight routeros"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">nvm alias<span class="built_in"> default </span>versão</div></pre></td></tr></table></figure>
 <p>Com essas configurações você pode utilizar seus pacotes do Node instalados via <a href="https://www.npmjs.com/" target="_blank" rel="external">NPM</a> normalmente. A grande diferença será que os pacotes ficarão instalados em: <code>~/.nvm/node_version/lib/node_modules/</code></p>
 <p>E todo pacote instalado Global precisará ser vinculado a um pacote local para poder ser utilizado no projeto com o comando:</p>
 <figure class="highlight coffeescript"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line"><span class="built_in">npm</span> link pacote</div></pre></td></tr></table></figure>

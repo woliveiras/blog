@@ -16,7 +16,8 @@
 <meta property="og:url" content="http://woliveiras.com.br/posts/instalacao-ambiente-lamp/index.html">
 <meta property="og:site_name" content="William Oliveira - Desenvolvedor Front End">
 <meta property="og:description" content="Instalação do LAMP (Linux, Apache, MySQL e PHP)">
-<meta property="og:updated_time" content="2017-05-11T21:03:22.007Z">
+<meta property="og:locale" content="default">
+<meta property="og:updated_time" content="2017-09-13T09:56:51.297Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="Instalação do ambiente LAMP">
 <meta name="twitter:description" content="Instalação do LAMP (Linux, Apache, MySQL e PHP)">
@@ -119,15 +120,15 @@
 <figure class="highlight axapta"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">sudo apt-get install mysql-<span class="keyword">client</span> mysql-<span class="keyword">server</span> mysql-<span class="keyword">common</span></div></pre></td></tr></table></figure>
 <p>Siga as telas que lhe surgirão. Durante a instalação será solicitado uma senha para o Usuário root. Se for uma instalação local, não precisa esquentar a cabeça com uma senha difícil, se for uma instalação remota, coloca uma senha boa ai mermão!!!</p>
 <h4 id="Instalacao-do-Apache"><a href="#Instalacao-do-Apache" class="headerlink" title="Instalação do Apache"></a>Instalação do Apache</h4><p>Abra seu terminal e execute o seguinte comando:</p>
-<figure class="highlight actionscript"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">sudo apt-<span class="keyword">get</span> install -y apache2</div></pre></td></tr></table></figure>
+<figure class="highlight routeros"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">sudo apt-<span class="builtin-name">get</span> install -y apache2</div></pre></td></tr></table></figure>
 <p>Simples né? ;D</p>
 <h4 id="Instalacao-do-PHP"><a href="#Instalacao-do-PHP" class="headerlink" title="Instalação do PHP"></a>Instalação do PHP</h4><p>Esse comando é grandinho por que possui algumas bibliotecas que eu uso para desenvolvimento com base no que eu já usei até hoje, portanto se você ver alguma que não deseja utilizar, basta remover dessa linha e executar.</p>
 <figure class="highlight smali"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line">sudo apt-get install -y php5 libapache2-mod-php5 php5-common php5-curl php5-dev php5-gd php5-idn</div><div class="line">php-pear php5-imagick php5-imap php5-json php5-mcrypt php5-memcache php5-mhash php5-ming</div><div class="line">php5-mysql php5-ps php5-pspell php5-recode php5-snmp php5-sqlite php5-tidy php5-xmlrpc php5-xsl</div></pre></td></tr></table></figure>
 <p>Depois dessa instalação é necessário<strong> reiniciar o Apache.</strong> Execute o seguinte comando:</p>
 <figure class="highlight awk"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">sudo <span class="regexp">/etc/i</span>nit.d<span class="regexp">/apache2 restart</span></div></pre></td></tr></table></figure>
 <p>Alguns componentes importantes para seus estudos e para desenvolvimento também:</p>
-<h4 id="XDebug"><a href="#XDebug" class="headerlink" title="XDebug"></a>XDebug</h4><figure class="highlight actionscript"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">sudo apt-<span class="keyword">get</span> install php5-xdebug</div></pre></td></tr></table></figure>
-<h4 id="PHPMyAdmin"><a href="#PHPMyAdmin" class="headerlink" title="PHPMyAdmin"></a>PHPMyAdmin</h4><figure class="highlight actionscript"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">sudo apt-<span class="keyword">get</span> install -y phpmyadmin</div></pre></td></tr></table></figure>
+<h4 id="XDebug"><a href="#XDebug" class="headerlink" title="XDebug"></a>XDebug</h4><figure class="highlight routeros"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">sudo apt-<span class="builtin-name">get</span> install php5-xdebug</div></pre></td></tr></table></figure>
+<h4 id="PHPMyAdmin"><a href="#PHPMyAdmin" class="headerlink" title="PHPMyAdmin"></a>PHPMyAdmin</h4><figure class="highlight routeros"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">sudo apt-<span class="builtin-name">get</span> install -y phpmyadmin</div></pre></td></tr></table></figure>
 <p>Se, depois desse passo a passo, você quiser conferir se o servidor está funcionando execute o comando:</p>
 <figure class="highlight ebnf"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line"><span class="attribute">netstat -tap</span></div></pre></td></tr></table></figure>
 <p>Surgirá uma saída parecida com essa no seu terminal:</p>
@@ -139,7 +140,7 @@
 <p>Para o virtualhost que está executando:</p>
 <figure class="highlight elixir"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">&lt;VirtualHost *<span class="symbol">:porta&gt;</span></div></pre></td></tr></table></figure>
 <p>Faz um teste! Crie um arquivo na pasta /var/www com o seguinte conteúdo:</p>
-<figure class="highlight xml"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line"><span class="php"><span class="meta">&lt;?php</span></span></div><div class="line">phpinfo();</div><div class="line"><span class="meta">?&gt;</span></div></pre></td></tr></table></figure>
+<figure class="highlight xml"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line"><span class="php"><span class="meta">&lt;?php</span></span></div><div class="line"><span class="php">phpinfo();</span></div><div class="line"><span class="php"><span class="meta">?&gt;</span></span></div></pre></td></tr></table></figure>
 <p>E abra esse arquivo no seu navegador.</p>
 <p>Qualquer dúvida ou dica, coloque aqui nos comentários.</p>
 
