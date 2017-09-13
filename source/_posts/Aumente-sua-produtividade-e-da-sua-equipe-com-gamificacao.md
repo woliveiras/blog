@@ -25,7 +25,7 @@ Posts anteriores sobre produtividade:
 
 Esse processo de transformar uma atividade (muitas vezes chata) em um desafio que gera recompensas, criar uma competitividade sadia entre pessoas ou algum reconhecimento, é chamado de [Gamificação](http://www.mjv.com.br/biblioteca/infografico-o-que-e-gamificacao) ou [Ludificação](https://pt.wikipedia.org/wiki/Ludifica%C3%A7%C3%A3o) se for usar um termo mais técnico.
 
-Muitas empresas já adotam Gamificação para os mais diversos fins, sendo o principal o **engajamento** dos clientes em utilizar suas plataformas. E isso já não é mais uma coisa tão anormal nos ambientes de trabalho, também, para motivar os funcionários da empresa, mas você já se imaginou transformando sua vida e sua rotina de serviço em um jogo de RPG para que tudo fique mais legal?
+Muitas empresas já adotam Gamificação para os mais diversos fins, sendo o principal o **engajamento** dos clientes em utilizar suas plataformas. E isso já não é mais uma coisa tão anormal nos ambientes de trabalho, também, para [motivar os funcionários da empresa](https://conta.mobi/blog/comportamento-organizacional-4-motivos-para-atentar-a-isso/), mas você já se imaginou transformando sua vida e sua rotina de serviço em um jogo de RPG para que tudo fique mais legal?
 
 > Parece que estou fazendo marketing para o um produto, mas eu não ganhei nada por isso viu. ;D
 
