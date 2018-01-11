@@ -22,7 +22,7 @@
 <meta property="og:image" content="https://media.giphy.com/media/26E2gwqxVzvn7KZji/giphy.gif">
 <meta property="og:image" content="http://s32.postimg.org/6tgxgetrp/Screenshot_from_2016_05_22_09_25_45.png">
 <meta property="og:image" content="https://media.giphy.com/media/xT0BKvIDgNYugS3m3C/giphy.gif">
-<meta property="og:updated_time" content="2017-09-13T09:56:51.293Z">
+<meta property="og:updated_time" content="2018-01-11T09:54:21.443Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="Começando com VIM: O Editor de Texto">
 <meta name="twitter:description" content="Primeiros passos com VIM. Dicas de VIM para iniciantes. Como começar a usar o VIM.">
@@ -115,8 +115,8 @@
     
     <div class="article-entry" itemprop="articleBody">
       
-        <p>A tarefa que um Desenvolvedor de Software precisa cumprir com a maior agilidade é a escrita/edição de texto. Depois de pensar por algumas horas, planejar o que vai fazer e como fazer (quais funções, métodos, classes criar), nós partimos para a escrita do código fonte no nosso editor de texto favorito ou em uma <a href="https://pt.wikipedia.org/wiki/Ambiente_de_desenvolvimento_integrado" target="_blank" rel="external">IDE</a>.</p>
-<p>Existem <a href="http://pt.wikihow.com/Digitar-Mais-R%C3%A1pido" target="_blank" rel="external">várias técnicas</a> para você ficar fera no teclado, porém hoje vou apresentar outra forma de agilizar as coisas. Vou apresentar (pela minha perspectiva) o <strong>VIM</strong>. <a id="more"></a></p>
+        <p>A tarefa que um Desenvolvedor de Software precisa cumprir com a maior agilidade é a escrita/edição de texto. Depois de pensar por algumas horas, planejar o que vai fazer e como fazer (quais funções, métodos, classes criar), nós partimos para a escrita do código fonte no nosso editor de texto favorito ou em uma <a href="https://pt.wikipedia.org/wiki/Ambiente_de_desenvolvimento_integrado" target="_blank" rel="noopener">IDE</a>.</p>
+<p>Existem <a href="http://pt.wikihow.com/Digitar-Mais-R%C3%A1pido" target="_blank" rel="noopener">várias técnicas</a> para você ficar fera no teclado, porém hoje vou apresentar outra forma de agilizar as coisas. Vou apresentar (pela minha perspectiva) o <strong>VIM</strong>. <a id="more"></a></p>
 <p>O VIM é um editor de texto muito amado por alguns e odiado por outros. A primeira vez que você abre o VIM, você pensa: <em>como é que eu faço pra sair daqui.</em></p>
 <p>Existe até uma piada (velha) que diz:</p>
 <ul>
@@ -126,18 +126,18 @@
 <blockquote>
 <p>HUE HUE HUE.</p>
 </blockquote>
-<p>Eu sou apaixonado pelo Sublime Text a alguns anos e você pode sentir isso <a href="/posts/usando-o-sublime-text/">nesse post</a>, onde eu falo sobre o uso do Sublime Text no dia-a-dia, <a href="/posts/instalando-o-sublime-text-no-ubuntu/">nesse outro post</a>, onde eu ensino instalar e configurar o Sublime no Ubuntu, nesse <a href="/posts/plugins-sublime-text-para-desenvolvimento-web/">outro post</a>, que eu mostrei alguns plugins que uso diariamente e no meu <a href="https://github.com/woliveiras/dotfiles/tree/master/sublimetext" target="_blank" rel="external">.dotfiles</a>, onde você encontra mais plugins e configurações legais para o Sublime.</p>
+<p>Eu sou apaixonado pelo Sublime Text a alguns anos e você pode sentir isso <a href="/posts/usando-o-sublime-text/">nesse post</a>, onde eu falo sobre o uso do Sublime Text no dia-a-dia, <a href="/posts/instalando-o-sublime-text-no-ubuntu/">nesse outro post</a>, onde eu ensino instalar e configurar o Sublime no Ubuntu, nesse <a href="/posts/plugins-sublime-text-para-desenvolvimento-web/">outro post</a>, que eu mostrei alguns plugins que uso diariamente e no meu <a href="https://github.com/woliveiras/dotfiles/tree/master/sublimetext" target="_blank" rel="noopener">.dotfiles</a>, onde você encontra mais plugins e configurações legais para o Sublime.</p>
 <p>Mas, se o Sublime Text atende hoje 100% meu Workflow e eu sou apaixonado por esse editor, então por que eu fui inventar de aprender usar o VIM?</p>
 <p>A resposta é simples: <strong>fui experimentar</strong>.</p>
-<h2 id="Prologo"><a href="#Prologo" class="headerlink" title="Prólogo"></a>Prólogo</h2><p>Eu sempre vi algumas pessoas aclamando o editor como se ele fosse um deus de alguma religião, e de fato é. Existe até uma <a href="https://medium.com/@avelino0/church-vim-2ddadebe5acc#.gbqzpwuc3" target="_blank" rel="external">Igreja do VIM</a>, onde você pode aprender como exorcizar um computador!</p>
-<p><img src="http://gifnoria.com.br/wp-content/uploads/2016/03/Oq-q-%C3%A9-esse-bagulho-que-fica-atras-de-mim-sai-capeta.gif" alt="Sai capeta"><br>Achei muito interessante essa comunidade em cima de um editor de texto e fui conhecer melhor. Em São Paulo existe até um grupo de Meetup, o <a href="http://www.meetup.com/pt-BR/Vim-Sao-Paulo-Meetup/" target="_blank" rel="external">VIM-SP</a>. Gostei bastante da galera que usa o editor e acabei me interessando mais em aprender a usa-lo.</p>
-<p>Também foi quando eu vi o site, extremamente futurista, do <a href="http://www.vim.org/" target="_blank" rel="external">VIM</a>, que logo eu decidi que deveria testar de verdade esse negócio!</p>
+<h2 id="Prologo"><a href="#Prologo" class="headerlink" title="Prólogo"></a>Prólogo</h2><p>Eu sempre vi algumas pessoas aclamando o editor como se ele fosse um deus de alguma religião, e de fato é. Existe até uma <a href="https://medium.com/@avelino0/church-vim-2ddadebe5acc#.gbqzpwuc3" target="_blank" rel="noopener">Igreja do VIM</a>, onde você pode aprender como exorcizar um computador!</p>
+<p><img src="http://gifnoria.com.br/wp-content/uploads/2016/03/Oq-q-%C3%A9-esse-bagulho-que-fica-atras-de-mim-sai-capeta.gif" alt="Sai capeta"><br>Achei muito interessante essa comunidade em cima de um editor de texto e fui conhecer melhor. Em São Paulo existe até um grupo de Meetup, o <a href="http://www.meetup.com/pt-BR/Vim-Sao-Paulo-Meetup/" target="_blank" rel="noopener">VIM-SP</a>. Gostei bastante da galera que usa o editor e acabei me interessando mais em aprender a usa-lo.</p>
+<p>Também foi quando eu vi o site, extremamente futurista, do <a href="http://www.vim.org/" target="_blank" rel="noopener">VIM</a>, que logo eu decidi que deveria testar de verdade esse negócio!</p>
 <p>Então, sem mais delongas, vamos a minha visão da coisa.</p>
 <h2 id="Primeiros-contatos-com-o-VIM"><a href="#Primeiros-contatos-com-o-VIM" class="headerlink" title="Primeiros contatos com o VIM"></a>Primeiros contatos com o VIM</h2><p>O primeiro contato com o VIM pode ser bem esquisito. Você pensa: Pra que que eu vou sair do meu super editor pra vir pra esse negócio, dentro do Terminal, cheio de atalhos que eu tenho que decorar???</p>
 <p>A primeira vez que eu abri o VIM para editar um texto grande, me senti usando uma dessas:</p>
 <p><img src="https://openclipart.org/download/192053/remington-typewriter.svg" alt="Maquina de escrever" width="50%"></p>
 <p>Mas a primeira impressão não bastou pra mim.</p>
-<p>Acabei descobrindo que estava <a href="http://www.qualeagiria.com.br/giria/botar-o-carro-na-frente-dos-bois/" target="_blank" rel="external">colocando o carro na frente dos bois</a>.</p>
+<p>Acabei descobrindo que estava <a href="http://www.qualeagiria.com.br/giria/botar-o-carro-na-frente-dos-bois/" target="_blank" rel="noopener">colocando o carro na frente dos bois</a>.</p>
 <h2 id="A-tal-da-agilidade-usando-VIM"><a href="#A-tal-da-agilidade-usando-VIM" class="headerlink" title="A tal da agilidade usando VIM"></a>A tal da agilidade usando VIM</h2><p>A primeira coisa que você precisa entender, quando começa a usar o VIM, é que você não precisa forçar para decorar TODOS os comandos de uma só vez. Você só precisa aprender os básicos e depois vai, gradualmente, aumentando seu nível de uso do editor e sua agilidade ao usar o mesmo.</p>
 <p>É igual usar qualquer outro editor. Você não sai digitando extremamente rápido quando começa a usar uma IDE. Demora para você pegar todos os comandos, o mesmo funciona com os editores de texto e o VIM não é diferente disso.</p>
 <p>Durante o aprendizado eu fui salvando os comandos que eu ia aprendendo em um repositório no meu GitHub, que acabou se tornando um GitBook chamado <a href="/vimparanoobs/">VIM para Noobs</a>, onde você pode encontrar vários comandos, plugins úteis, temas e mais fonte de informação sobre o editor, mas não caia de cabeça nele agora. Continue a leitura.</p>
@@ -160,13 +160,13 @@
 <p>Agora vamos conhecer os comandos que, realmente, vamos utilizar muito no começo.</p>
 <p>Foque neles, nos primeiros dias, até aprender bem.</p>
 <h2 id="Abrir-um-arquivo"><a href="#Abrir-um-arquivo" class="headerlink" title="Abrir um arquivo"></a>Abrir um arquivo</h2><p>No Terminal, você pode cambiar até a pasta onde está o arquivo que você vai abrir e então basta digitar: </p>
-<figure class="highlight nginx"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line"><span class="attribute">vim</span> nome_do_arquivo</div></pre></td></tr></table></figure>
+<figure class="highlight nginx"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="attribute">vim</span> nome_do_arquivo</span><br></pre></td></tr></table></figure>
 <p>Mas você também pode usar o comando direto:</p>
-<figure class="highlight awk"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">vim diretorio<span class="regexp">/outro_diretorio/</span>nome_do_arquivo</div></pre></td></tr></table></figure>
+<figure class="highlight awk"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">vim diretorio<span class="regexp">/outro_diretorio/</span>nome_do_arquivo</span><br></pre></td></tr></table></figure>
 <h2 id="Sintaxes"><a href="#Sintaxes" class="headerlink" title="Sintaxes"></a>Sintaxes</h2><p>O VIM vai reconhecer a sintaxe automaticamente quando você abrir um arquivo com extensão específica, mas, se você começar a partir do VIM a criar um arquivo que ainda não existe no sistema, você pode executar o comando:</p>
-<figure class="highlight routeros"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line"><span class="builtin-name">set</span> <span class="attribute">syntax</span>=sintaxe</div></pre></td></tr></table></figure>
+<figure class="highlight routeros"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="builtin-name">set</span> <span class="attribute">syntax</span>=sintaxe</span><br></pre></td></tr></table></figure>
 <p>Ex.:</p>
-<figure class="highlight routeros"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line"><span class="builtin-name">set</span> <span class="attribute">syntax</span>=javascript</div></pre></td></tr></table></figure>
+<figure class="highlight routeros"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="builtin-name">set</span> <span class="attribute">syntax</span>=javascript</span><br></pre></td></tr></table></figure>
 <p>Para que o VIM passe a reconhecer a sintaxe que você está digitando.</p>
 <h2 id="Se-movimentando-dentro-de-um-texto"><a href="#Se-movimentando-dentro-de-um-texto" class="headerlink" title="Se movimentando dentro de um texto"></a>Se movimentando dentro de um texto</h2><p>Você pode usar as setinhas do teclado no começo, mas com o tempo vai aprender a usar mais as próprias letras, então você poderá usar:</p>
 <ul>
@@ -176,7 +176,7 @@
 <li><strong>l</strong>: Direita</li>
 </ul>
 <p><strong>Isso no Modo Normal.</strong></p>
-<p>Uma maneira de se acostumar a usar os movimentos pelas letras é brincar um pouco no <a href="http://vim-adventures.com/" target="_blank" rel="external">VIM Adventures</a>.</p>
+<p>Uma maneira de se acostumar a usar os movimentos pelas letras é brincar um pouco no <a href="http://vim-adventures.com/" target="_blank" rel="noopener">VIM Adventures</a>.</p>
 <p>Existe, ainda, algumas coisinhas legais que você vai usar bastante:</p>
 <ul>
 <li>Para ir ao final de um arquivo use: <code>G</code></li>
@@ -226,7 +226,7 @@
 <p>E o mesmo esquema de montar comandos com contadores funciona para os de copiar e colar.</p>
 <p>Ex.:</p>
 <p>Copiar 10 linhas de um texto </p>
-<figure class="highlight lsl"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line"><span class="number">10</span>yy</div></pre></td></tr></table></figure>
+<figure class="highlight lsl"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="number">10</span>yy</span><br></pre></td></tr></table></figure>
 <h2 id="Como-desfazer-alguma-coisa"><a href="#Como-desfazer-alguma-coisa" class="headerlink" title="Como desfazer alguma coisa"></a>Como desfazer alguma coisa</h2><p>Quando fazemos algo errado, podemos usar o famoso CTRL+Z nos editores comuns, mas no VIM é um pouco diferente.</p>
 <p>Você vai utilizar os comandos:</p>
 <ul>
@@ -248,7 +248,7 @@
 <p>Se você quiser salvar o arquivo com outro nome, então pode utilizar o <code>:w novo_nome</code> e pronto!</p>
 <p>Ainda se quiser salvar com um novo nome e sair do arquivo, pode usar: <code>:wq novo_nome</code></p>
 <p>E se você não quiser ficar digitando <code>:wq</code>, pode ainda usar o <code>ZZ</code>, que também salva e sai do arquivo</p>
-<h2 id="Historia-do-VIM-e-mais-comandos-legais"><a href="#Historia-do-VIM-e-mais-comandos-legais" class="headerlink" title="História do VIM e mais comandos legais"></a>História do VIM e mais comandos legais</h2><p>Se você quiser conhecer a história por trás dos comandos do VIM, da uma olhada nesse vídeo do <a href="https://twitter.com/mind_bend" target="_blank" rel="external">Magnun Leno</a>, no Grupylango.</p>
+<h2 id="Historia-do-VIM-e-mais-comandos-legais"><a href="#Historia-do-VIM-e-mais-comandos-legais" class="headerlink" title="História do VIM e mais comandos legais"></a>História do VIM e mais comandos legais</h2><p>Se você quiser conhecer a história por trás dos comandos do VIM, da uma olhada nesse vídeo do <a href="https://twitter.com/mind_bend" target="_blank" rel="noopener">Magnun Leno</a>, no Grupylango.</p>
 <p>Você vai entender o por que dos comandos específicos.</p>
 <iframe width="100%" height="473px" src="https://www.youtube.com/embed/UUzW46SeLhg" frameborder="0" allowfullscreen></iframe>
 
@@ -259,9 +259,9 @@
 <p>Isso você vai conseguir através de configurações no <code>.vimrc</code>, que é o arquivo de configuração do VIM, com plugins e até criando seus comandos e macros.</p>
 <p>Como eu disse foque nos comandos principais na primeira semana, pelo menos, e depois vá se aprofundando, instalando plugins, criando comandos, etc.</p>
 <p>Mas as primeiras configurações, como mudar um tema, você pode fazer logo de começo.</p>
-<p>Você vai encontrar temas legais <a href="http://vimcolors.com/" target="_blank" rel="external">nesse site</a> e, normalmente, a forma de instalar o tema, consta na documentação dos mesmos.</p>
-<p>O esquema de cores que eu curto é <a href="https://github.com/sickill/vim-monokai" target="_blank" rel="external">esse aqui</a>, parecido com o <a href="https://studiostyl.es/schemes/monokai" target="_blank" rel="external">Monokai</a> do Sublime.</p>
-<p>Se quiser, pode até criar seu próprio tema rapidamente <a href="http://mswift42.github.io/themecreator/" target="_blank" rel="external">aqui</a>.</p>
+<p>Você vai encontrar temas legais <a href="http://vimcolors.com/" target="_blank" rel="noopener">nesse site</a> e, normalmente, a forma de instalar o tema, consta na documentação dos mesmos.</p>
+<p>O esquema de cores que eu curto é <a href="https://github.com/sickill/vim-monokai" target="_blank" rel="noopener">esse aqui</a>, parecido com o <a href="https://studiostyl.es/schemes/monokai" target="_blank" rel="noopener">Monokai</a> do Sublime.</p>
+<p>Se quiser, pode até criar seu próprio tema rapidamente <a href="http://mswift42.github.io/themecreator/" target="_blank" rel="noopener">aqui</a>.</p>
 <p>Tudo isso e um pouco mais, você encontra no <a href="/vimparanoobs/">VIM para Noobs</a>, depois de passar uma semana com o VIM, da uma olhada lá para aprender um pouco mais. :D</p>
 <p>E ai, curtiu conhecer o VIM?</p>
 <p>Eu ainda não utilizo ele 100%. O Sublime ainda é meu editor principal, mas, aos poucos, eu estou migrando para o VIM.</p>
@@ -314,16 +314,17 @@
 	<a href="https://twitter.com/w_oliveiras"  target="_blank">
 		<i class="ico twitter"  target="_blank"></i>
 	</a>
-	<a href="https://br.linkedin.com/in/woliveira542"  target="_blank">
+	<a href="https://www.linkedin.com/in/william-oliveira"  target="_blank">
 		<i class="ico linkedin"  target="_blank"></i>
 	</a>
 	<a href="https://github.com/woliveiras"  target="_blank">
 		<i class="ico github"></i>
 	</a>
 </div>
+
   <div id="footer-info">
     <div class="outer">
-      &copy; 2017 Escrito com o <3 por William de Oliveira Desenvolvido com o <a href="http://hexo.io/" target="_blank">Hexo</a>
+      &copy; 2018 Escrito com o <3 por William de Oliveira Desenvolvido com o <a href="http://hexo.io/" target="_blank">Hexo</a>
     </div>
   </div>
 </footer>

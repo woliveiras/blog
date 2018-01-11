@@ -17,7 +17,7 @@
 <meta property="og:site_name" content="William Oliveira - Desenvolvedor Front End">
 <meta property="og:description" content="Instalação do LAMP (Linux, Apache, MySQL e PHP)">
 <meta property="og:locale" content="default">
-<meta property="og:updated_time" content="2017-09-13T09:56:51.297Z">
+<meta property="og:updated_time" content="2018-01-11T09:54:21.447Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="Instalação do ambiente LAMP">
 <meta name="twitter:description" content="Instalação do LAMP (Linux, Apache, MySQL e PHP)">
@@ -109,38 +109,38 @@
     
     <div class="article-entry" itemprop="articleBody">
       
-        <p>Apesar de muita gente estar migrando para o <a href="http://pt.wikipedia.org/wiki/Nginx" title="Nginx" target="_blank" rel="external">Nginx</a>, muitos começam os estudos em PHP usando <a href="http://pt.wikipedia.org/wiki/Servidor_Apache" title="Apache" target="_blank" rel="external">Apache</a>, <a href="http://pt.wikipedia.org/wiki/MySQL" title="MySQL" target="_blank" rel="external">MySQL</a> e <a href="http://pt.wikipedia.org/wiki/Linux" title="Linux" target="_blank" rel="external">Linux </a> no servidor de hospedagem ou localmente - Se você é usuário Windows, eu recomendo fortemente a utilização do <a href="http://woliveiras.com.br/tags/Vagrant/" title="Crie e compartilhe ambientes com o Vagrant (Instalação)">Vagrant</a> para que você use o Linux em uma VM e aprenda um pouco sobre o S.O. durante seus estudos. Isso fará diferença para você conhecer melhor seu próprio servidor de Hospedagem, já que a maioria é Linux.</p>
+        <p>Apesar de muita gente estar migrando para o <a href="http://pt.wikipedia.org/wiki/Nginx" title="Nginx" target="_blank" rel="noopener">Nginx</a>, muitos começam os estudos em PHP usando <a href="http://pt.wikipedia.org/wiki/Servidor_Apache" title="Apache" target="_blank" rel="noopener">Apache</a>, <a href="http://pt.wikipedia.org/wiki/MySQL" title="MySQL" target="_blank" rel="noopener">MySQL</a> e <a href="http://pt.wikipedia.org/wiki/Linux" title="Linux" target="_blank" rel="noopener">Linux </a> no servidor de hospedagem ou localmente - Se você é usuário Windows, eu recomendo fortemente a utilização do <a href="http://woliveiras.com.br/tags/Vagrant/" title="Crie e compartilhe ambientes com o Vagrant (Instalação)">Vagrant</a> para que você use o Linux em uma VM e aprenda um pouco sobre o S.O. durante seus estudos. Isso fará diferença para você conhecer melhor seu próprio servidor de Hospedagem, já que a maioria é Linux.</p>
 <a id="more"></a>
 <p>Esse conjunto de itens é que recebe o nome de LAMP (<strong>L</strong> inux, <strong>A</strong> pache, <strong>M</strong> ySQL e <strong>P</strong> HP).</p>
-<p>Para esse tutorial eu estou utilizando um servidor <a href="http://www.ubuntu.com/download/server" title="Ubuntu Server" target="_blank" rel="external">Ubuntu Server</a>, portanto os comandos utilizados aqui servirão muito bem para você no Ubuntu ou no Debian e qualquer outro S.O. baseado no Debian.</p>
+<p>Para esse tutorial eu estou utilizando um servidor <a href="http://www.ubuntu.com/download/server" title="Ubuntu Server" target="_blank" rel="noopener">Ubuntu Server</a>, portanto os comandos utilizados aqui servirão muito bem para você no Ubuntu ou no Debian e qualquer outro S.O. baseado no Debian.</p>
 <p>Antes de tudo, atualize seu repositório executando o comando:</p>
-<figure class="highlight q"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">sudo apt-<span class="built_in">get</span> <span class="keyword">update</span></div></pre></td></tr></table></figure>
+<figure class="highlight q"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">sudo apt-<span class="built_in">get</span> <span class="keyword">update</span></span><br></pre></td></tr></table></figure>
 <p>No Debian, você pode ter alguma dificuldade com pacotes durante a instalação do PHP. Se isso acontecer atualize seu sources.list e nesse caso é melhor você pesquisar um padrão no Google, pois eu poderia passar algum link desatualizado dependendo da data em que você está lendo essa postagem. Basta pesquisar: sources.list Debian e já era! ;)</p>
 <h4 id="Instalacao-do-MySQL"><a href="#Instalacao-do-MySQL" class="headerlink" title="Instalação do MySQL"></a>Instalação do MySQL</h4><p>Abra seu terminal e execute o seguinte comando:</p>
-<figure class="highlight axapta"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">sudo apt-get install mysql-<span class="keyword">client</span> mysql-<span class="keyword">server</span> mysql-<span class="keyword">common</span></div></pre></td></tr></table></figure>
+<figure class="highlight axapta"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">sudo apt-get install mysql-<span class="keyword">client</span> mysql-<span class="keyword">server</span> mysql-<span class="keyword">common</span></span><br></pre></td></tr></table></figure>
 <p>Siga as telas que lhe surgirão. Durante a instalação será solicitado uma senha para o Usuário root. Se for uma instalação local, não precisa esquentar a cabeça com uma senha difícil, se for uma instalação remota, coloca uma senha boa ai mermão!!!</p>
 <h4 id="Instalacao-do-Apache"><a href="#Instalacao-do-Apache" class="headerlink" title="Instalação do Apache"></a>Instalação do Apache</h4><p>Abra seu terminal e execute o seguinte comando:</p>
-<figure class="highlight routeros"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">sudo apt-<span class="builtin-name">get</span> install -y apache2</div></pre></td></tr></table></figure>
+<figure class="highlight routeros"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">sudo apt-<span class="builtin-name">get</span> install -y apache2</span><br></pre></td></tr></table></figure>
 <p>Simples né? ;D</p>
 <h4 id="Instalacao-do-PHP"><a href="#Instalacao-do-PHP" class="headerlink" title="Instalação do PHP"></a>Instalação do PHP</h4><p>Esse comando é grandinho por que possui algumas bibliotecas que eu uso para desenvolvimento com base no que eu já usei até hoje, portanto se você ver alguma que não deseja utilizar, basta remover dessa linha e executar.</p>
-<figure class="highlight smali"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line">sudo apt-get install -y php5 libapache2-mod-php5 php5-common php5-curl php5-dev php5-gd php5-idn</div><div class="line">php-pear php5-imagick php5-imap php5-json php5-mcrypt php5-memcache php5-mhash php5-ming</div><div class="line">php5-mysql php5-ps php5-pspell php5-recode php5-snmp php5-sqlite php5-tidy php5-xmlrpc php5-xsl</div></pre></td></tr></table></figure>
+<figure class="highlight smali"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">sudo apt-get install -y php5 libapache2-mod-php5 php5-common php5-curl php5-dev php5-gd php5-idn</span><br><span class="line">php-pear php5-imagick php5-imap php5-json php5-mcrypt php5-memcache php5-mhash php5-ming</span><br><span class="line">php5-mysql php5-ps php5-pspell php5-recode php5-snmp php5-sqlite php5-tidy php5-xmlrpc php5-xsl</span><br></pre></td></tr></table></figure>
 <p>Depois dessa instalação é necessário<strong> reiniciar o Apache.</strong> Execute o seguinte comando:</p>
-<figure class="highlight awk"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">sudo <span class="regexp">/etc/i</span>nit.d<span class="regexp">/apache2 restart</span></div></pre></td></tr></table></figure>
+<figure class="highlight awk"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">sudo <span class="regexp">/etc/i</span>nit.d<span class="regexp">/apache2 restart</span></span><br></pre></td></tr></table></figure>
 <p>Alguns componentes importantes para seus estudos e para desenvolvimento também:</p>
-<h4 id="XDebug"><a href="#XDebug" class="headerlink" title="XDebug"></a>XDebug</h4><figure class="highlight routeros"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">sudo apt-<span class="builtin-name">get</span> install php5-xdebug</div></pre></td></tr></table></figure>
-<h4 id="PHPMyAdmin"><a href="#PHPMyAdmin" class="headerlink" title="PHPMyAdmin"></a>PHPMyAdmin</h4><figure class="highlight routeros"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">sudo apt-<span class="builtin-name">get</span> install -y phpmyadmin</div></pre></td></tr></table></figure>
+<h4 id="XDebug"><a href="#XDebug" class="headerlink" title="XDebug"></a>XDebug</h4><figure class="highlight routeros"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">sudo apt-<span class="builtin-name">get</span> install php5-xdebug</span><br></pre></td></tr></table></figure>
+<h4 id="PHPMyAdmin"><a href="#PHPMyAdmin" class="headerlink" title="PHPMyAdmin"></a>PHPMyAdmin</h4><figure class="highlight routeros"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">sudo apt-<span class="builtin-name">get</span> install -y phpmyadmin</span><br></pre></td></tr></table></figure>
 <p>Se, depois desse passo a passo, você quiser conferir se o servidor está funcionando execute o comando:</p>
-<figure class="highlight ebnf"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line"><span class="attribute">netstat -tap</span></div></pre></td></tr></table></figure>
+<figure class="highlight ebnf"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="attribute">netstat -tap</span></span><br></pre></td></tr></table></figure>
 <p>Surgirá uma saída parecida com essa no seu terminal:</p>
-<figure class="highlight elixir"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">tcp <span class="number">0</span> <span class="number">0</span> *<span class="symbol">:mysql</span> *<span class="symbol">:*</span> LISTEN <span class="number">3281</span>/mysqld</div></pre></td></tr></table></figure>
+<figure class="highlight elixir"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">tcp <span class="number">0</span> <span class="number">0</span> *<span class="symbol">:mysql</span> *<span class="symbol">:*</span> LISTEN <span class="number">3281</span>/mysqld</span><br></pre></td></tr></table></figure>
 <p>Beleza chefe, tudo instalado e agora como eu crio aplicações dentro do meu ambiente LAMP?</p>
 <p>Suas aplicações devem ficar dentro da pasta  /var/www/ e para criação de um banco de dados acesse localhost/phpmyadmin ou execute o MySQL via linha de comando. Pronto! Para acessar suas aplicações ou sites no navegador basta digitar localhost. Normalmente, o Apache estará configurado para acesso via porta 80 mesmo, caso você deseje utilizar outra porta basta editar o arquivo: <code>/etc/apache2/ports.conf</code></p>
 <p>E colocar a porta na linha Listen &lt;porta&gt;</p>
 <p>Depois configure o arquivo <code>/etc/apache2/sites-enabled/000-default</code></p>
 <p>Para o virtualhost que está executando:</p>
-<figure class="highlight elixir"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">&lt;VirtualHost *<span class="symbol">:porta&gt;</span></div></pre></td></tr></table></figure>
+<figure class="highlight elixir"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">&lt;VirtualHost *<span class="symbol">:porta&gt;</span></span><br></pre></td></tr></table></figure>
 <p>Faz um teste! Crie um arquivo na pasta /var/www com o seguinte conteúdo:</p>
-<figure class="highlight xml"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line"><span class="php"><span class="meta">&lt;?php</span></span></div><div class="line"><span class="php">phpinfo();</span></div><div class="line"><span class="php"><span class="meta">?&gt;</span></span></div></pre></td></tr></table></figure>
+<figure class="highlight xml"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="php"><span class="meta">&lt;?php</span></span></span><br><span class="line"><span class="php">phpinfo();</span></span><br><span class="line"><span class="php"><span class="meta">?&gt;</span></span></span><br></pre></td></tr></table></figure>
 <p>E abra esse arquivo no seu navegador.</p>
 <p>Qualquer dúvida ou dica, coloque aqui nos comentários.</p>
 
@@ -189,16 +189,17 @@
 	<a href="https://twitter.com/w_oliveiras"  target="_blank">
 		<i class="ico twitter"  target="_blank"></i>
 	</a>
-	<a href="https://br.linkedin.com/in/woliveira542"  target="_blank">
+	<a href="https://www.linkedin.com/in/william-oliveira"  target="_blank">
 		<i class="ico linkedin"  target="_blank"></i>
 	</a>
 	<a href="https://github.com/woliveiras"  target="_blank">
 		<i class="ico github"></i>
 	</a>
 </div>
+
   <div id="footer-info">
     <div class="outer">
-      &copy; 2017 Escrito com o <3 por William de Oliveira Desenvolvido com o <a href="http://hexo.io/" target="_blank">Hexo</a>
+      &copy; 2018 Escrito com o <3 por William de Oliveira Desenvolvido com o <a href="http://hexo.io/" target="_blank">Hexo</a>
     </div>
   </div>
 </footer>

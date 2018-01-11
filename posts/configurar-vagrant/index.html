@@ -19,7 +19,7 @@
 <meta property="og:locale" content="default">
 <meta property="og:image" content="http://woliveiras.com.br/public/images/vagrant-init-lucid32.png">
 <meta property="og:image" content="http://woliveiras.com.br/public/images/Capturar.png">
-<meta property="og:updated_time" content="2017-09-13T09:56:51.297Z">
+<meta property="og:updated_time" content="2018-01-11T09:54:21.447Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="Vagrant - Como configurar e utilizar">
 <meta name="twitter:description" content="Como configurar e utilizar o Vagrant para Desenvolvimento">
@@ -114,16 +114,16 @@
       
         <p>Se você leu a <a href="/posts/vagrant-introducao-instalacao/" title="Crie e compartilhe ambientes com o Vagrant (Instalação)">primeira parte desse tutorial</a>, então podemos seguir por aqui e aprender a configurar e utilizar o Vagrant.<a id="more"></a></p>
 <h4 id="Adicionando-uma-Box"><a href="#Adicionando-uma-Box" class="headerlink" title="Adicionando uma Box"></a>Adicionando uma Box</h4><p>Vamos utilizar uma Box que os desenvolvedores já deixaram pré configurada como exemplo, mas você verá como criar uma Box para o Vagrant nesse <a href="/posts/criar-uma-base-box-para-o-vagrant/">outro artigo</a>.<br>Para adicionar uma Box use o seguinte comando:</p>
-<figure class="highlight dockerfile"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">vagrant box <span class="keyword">add</span><span class="bash"> <span class="string">'nome da Box'</span> <span class="string">'Local de onde será clonado'</span></span></div></pre></td></tr></table></figure>
+<figure class="highlight dockerfile"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">vagrant box <span class="keyword">add</span><span class="bash"> <span class="string">'nome da Box'</span> <span class="string">'Local de onde será clonado'</span></span></span><br></pre></td></tr></table></figure>
 <p>Execute esse comando para clonar a Box pré configurada.</p>
-<figure class="highlight livecodeserver"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">vagrant box <span class="built_in">add</span> lucid32 <span class="keyword">http</span>://<span class="built_in">files</span>.vagrantup.com/lucid32.box</div></pre></td></tr></table></figure>
+<figure class="highlight livecodeserver"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">vagrant box <span class="built_in">add</span> lucid32 <span class="keyword">http</span>://<span class="built_in">files</span>.vagrantup.com/lucid32.box</span><br></pre></td></tr></table></figure>
 <p>Explicação</p>
 <ul>
 <li><strong>vagrant box add</strong> é o comando para adicionar uma box.</li>
 <li><strong>lucid32</strong> é o nome da Base Box. Esse nome é que vamos usar no <strong>vagrantfile</strong> para informar qual box será a base para as VM’s que vamos subir posteriormente e que vamos usar para criar uma nova VM.</li>
-<li>O Link <em><a href="http://files.vagrantup.com/lucid32.box" target="_blank" rel="external">http://files.vagrantup.com/lucid32.box</a></em> é onde está a box no momento. Se fosse um repositório pessoal colocaríamos o link desse repo no lugar.</li>
+<li>O Link <em><a href="http://files.vagrantup.com/lucid32.box" target="_blank" rel="noopener">http://files.vagrantup.com/lucid32.box</a></em> é onde está a box no momento. Se fosse um repositório pessoal colocaríamos o link desse repo no lugar.</li>
 </ul>
-<p>Você consegue encontrar outras Base Box no repositório do Vagrant nesse link: <a href="http://vagrantbox.es/" title="Repositório de Boxes do Vagrant" target="_blank" rel="external">http://vagrantbox.es</a>.<br><em>Esse passo pode demorar um pouco dependendo da velocidade da sua conexão.</em><br>Agora, no terminal/cmd, entre na pasta do projeto – que aqui chamei de  vagrant - e execute:</p>
+<p>Você consegue encontrar outras Base Box no repositório do Vagrant nesse link: <a href="http://vagrantbox.es/" title="Repositório de Boxes do Vagrant" target="_blank" rel="noopener">http://vagrantbox.es</a>.<br><em>Esse passo pode demorar um pouco dependendo da velocidade da sua conexão.</em><br>Agora, no terminal/cmd, entre na pasta do projeto – que aqui chamei de  vagrant - e execute:</p>
 <p><strong>vagrant init lucid32</strong></p>
 <p><img src="../../public/images/vagrant-init-lucid32.png" alt="Iniciando uma VM"></p>
 <p>Explicação</p>
@@ -132,13 +132,13 @@
 <li><strong>lucid32</strong> é a box que eu mandei ele utilizar para criar a VM. As configurações dessa Box serão clonadas para essa nova VM.</li>
 </ul>
 <p>Eu recomendo que dê uma olhada no arquivo Vagrantfile para conhecer melhor as configurações, isso fará muita diferença e facilitará futuras configurações.<br>Após as minhas configurações, meu arquivo ficou assim – Deixei esses comentários para ficar fácil de entender:</p>
-<figure class="highlight mipsasm"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div><div class="line">16</div><div class="line">17</div><div class="line">18</div><div class="line">19</div><div class="line">20</div><div class="line">21</div><div class="line">22</div><div class="line">23</div></pre></td><td class="code"><pre><div class="line"><span class="comment">#Versão da API do Vagrant</span></div><div class="line"></div><div class="line">VAGRANTFILE_API_VERSION = <span class="string">"2"</span></div><div class="line"></div><div class="line">Vagrant.configure(VAGRANTFILE_API_VERSION) do <span class="title">|config|</span></div><div class="line"></div><div class="line"><span class="comment">#Box a ser utilizada</span></div><div class="line"></div><div class="line"><span class="built_in">config</span>.vm.<span class="keyword">box </span>= <span class="string">"lucid32"</span></div><div class="line"></div><div class="line"><span class="comment">#Modo de Rede</span></div><div class="line"></div><div class="line"><span class="built_in">config</span>.vm.network : <span class="keyword">bridged</span></div><div class="line"><span class="keyword"></span></div><div class="line"><span class="keyword">#Porta </span>do servidor Web</div><div class="line"></div><div class="line"><span class="built_in">config</span>.vm.forward_port <span class="number">80</span>, <span class="number">8080</span></div><div class="line"></div><div class="line"><span class="comment">#Porta do MySQL</span></div><div class="line"></div><div class="line"><span class="built_in">config</span>.vm.forward_port <span class="number">3306</span>, <span class="number">3306</span></div><div class="line"></div><div class="line">end</div></pre></td></tr></table></figure>
+<figure class="highlight mipsasm"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">#Versão da API do Vagrant</span></span><br><span class="line"></span><br><span class="line">VAGRANTFILE_API_VERSION = <span class="string">"2"</span></span><br><span class="line"></span><br><span class="line">Vagrant.configure(VAGRANTFILE_API_VERSION) do <span class="title">|config|</span></span><br><span class="line"></span><br><span class="line"><span class="comment">#Box a ser utilizada</span></span><br><span class="line"></span><br><span class="line"><span class="built_in">config</span>.vm.<span class="keyword">box </span>= <span class="string">"lucid32"</span></span><br><span class="line"></span><br><span class="line"><span class="comment">#Modo de Rede</span></span><br><span class="line"></span><br><span class="line"><span class="built_in">config</span>.vm.network : <span class="keyword">bridged</span></span><br><span class="line"><span class="keyword"></span></span><br><span class="line"><span class="keyword">#Porta </span>do servidor Web</span><br><span class="line"></span><br><span class="line"><span class="built_in">config</span>.vm.forward_port <span class="number">80</span>, <span class="number">8080</span></span><br><span class="line"></span><br><span class="line"><span class="comment">#Porta do MySQL</span></span><br><span class="line"></span><br><span class="line"><span class="built_in">config</span>.vm.forward_port <span class="number">3306</span>, <span class="number">3306</span></span><br><span class="line"></span><br><span class="line">end</span><br></pre></td></tr></table></figure>
 <h4 id="Iniciar-a-VM"><a href="#Iniciar-a-VM" class="headerlink" title="Iniciar a VM"></a>Iniciar a VM</h4><p>Para iniciar a VM e poder utilizar seu servidor, basta rodar o comando:</p>
-<figure class="highlight ebnf"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line"><span class="attribute">vagrant up</span></div></pre></td></tr></table></figure>
+<figure class="highlight ebnf"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="attribute">vagrant up</span></span><br></pre></td></tr></table></figure>
 <p>Na primeira vez, será importada a base Box e configurada a nova VM. Você até poderá entrar no Virtualbox e verá uma máquina com um nome esquisito.</p>
 <p><img src="../../public/images/Capturar.png" alt="Subindo a VM"></p>
 <p>Se você está usando terminal Unix, então execute o comando: <strong>vagrant ssh</strong> com o endereço e porta que o próprio vagrant mostra na tela do terminal nesse momento. Se está usando Windows você vai precisar do <a href="/posts/vagrant-no-windows/" title="Windows, Vagrant e Putty">Putty</a>. No terminal ficou um endereço de IP parecido com 127.0.0.1:2222, esse é o ip e o usuário e senha “vagrant” para acesso.<br>Fica esse comando para acesso em terminais Unix:</p>
-<figure class="highlight nginx"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line"><span class="attribute">ssh</span> vagrant@<span class="number">127.0.0.1:2222</span></div></pre></td></tr></table></figure>
+<figure class="highlight nginx"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="attribute">ssh</span> vagrant@<span class="number">127.0.0.1:2222</span></span><br></pre></td></tr></table></figure>
 <p>Na tela de boas vindas será solicitado a senha que é <em>vagrant</em>.</p>
 <p>Conectado, agora é só usar seu servidor! :D</p>
 <h4 id="Alguns-comandos-uteis"><a href="#Alguns-comandos-uteis" class="headerlink" title="Alguns comandos uteis"></a>Alguns comandos uteis</h4><ul>
@@ -147,12 +147,12 @@
 <li>Para, literalmente, destruir uma máquina e começar do zero use <strong>vagrant destroy</strong>.</li>
 <li>Reiniciar a máquina <strong>varant reload</strong>.</li>
 </ul>
-<p><em>Lembrando que esses comandos devem ser rodados dentro do diretório onde está o vagrantfile da VM que estiver rodando no momento.</em><br>Uma dica agora é pesquisar sobre <a href="https://pt.wikipedia.org/wiki/Shell_script" target="_blank" rel="external">Shell Script</a>, <a href="https://puppetlabs.com/" target="_blank" rel="external">Puppet</a> ou <a href="https://www.chef.io/chef/" target="_blank" rel="external">Chef</a> para automatizar a configuração do ambiente. A <a href="http://docs.vagrantup.com/v2/" target="_blank" rel="external">documentação do Vagrant</a> tem boas dicas sobre isso.</p>
+<p><em>Lembrando que esses comandos devem ser rodados dentro do diretório onde está o vagrantfile da VM que estiver rodando no momento.</em><br>Uma dica agora é pesquisar sobre <a href="https://pt.wikipedia.org/wiki/Shell_script" target="_blank" rel="noopener">Shell Script</a>, <a href="https://puppetlabs.com/" target="_blank" rel="noopener">Puppet</a> ou <a href="https://www.chef.io/chef/" target="_blank" rel="noopener">Chef</a> para automatizar a configuração do ambiente. A <a href="http://docs.vagrantup.com/v2/" target="_blank" rel="noopener">documentação do Vagrant</a> tem boas dicas sobre isso.</p>
 <p>Caso não tenha entendido algo, estou a disposição, só me chamar! ;D</p>
 <p>Referências:</p>
-<p><a href="http://simplesideias.com.br/usando-o-vagrant-como-ambiente-de-desenvolvimento-no-windows" target="_blank" rel="external">http://simplesideias.com.br/usando-o-vagrant-como-ambiente-de-desenvolvimento-no-windows</a></p>
-<p><a href="http://www.erikaheidi.com/blog/vagrant-101-montando-seu-ambiente-de-desenvolvimento-portatil" target="_blank" rel="external">http://www.erikaheidi.com/blog/vagrant-101-montando-seu-ambiente-de-desenvolvimento-portatil</a></p>
-<p><a href="http://www.akitaonrails.com/2013/10/25/iniciante-criando-um-ambiente-de-desenvolvimento-com-vagrant-e-chef-solo#.U-_1H_ldX2M" target="_blank" rel="external">http://www.akitaonrails.com/2013/10/25/iniciante-criando-um-ambiente-de-desenvolvimento-com-vagrant-e-chef-solo#.U-_1H_ldX2M</a></p>
+<p><a href="http://simplesideias.com.br/usando-o-vagrant-como-ambiente-de-desenvolvimento-no-windows" target="_blank" rel="noopener">http://simplesideias.com.br/usando-o-vagrant-como-ambiente-de-desenvolvimento-no-windows</a></p>
+<p><a href="http://www.erikaheidi.com/blog/vagrant-101-montando-seu-ambiente-de-desenvolvimento-portatil" target="_blank" rel="noopener">http://www.erikaheidi.com/blog/vagrant-101-montando-seu-ambiente-de-desenvolvimento-portatil</a></p>
+<p><a href="http://www.akitaonrails.com/2013/10/25/iniciante-criando-um-ambiente-de-desenvolvimento-com-vagrant-e-chef-solo#.U-_1H_ldX2M" target="_blank" rel="noopener">http://www.akitaonrails.com/2013/10/25/iniciante-criando-um-ambiente-de-desenvolvimento-com-vagrant-e-chef-solo#.U-_1H_ldX2M</a></p>
 
       
     </div>
@@ -199,16 +199,17 @@
 	<a href="https://twitter.com/w_oliveiras"  target="_blank">
 		<i class="ico twitter"  target="_blank"></i>
 	</a>
-	<a href="https://br.linkedin.com/in/woliveira542"  target="_blank">
+	<a href="https://www.linkedin.com/in/william-oliveira"  target="_blank">
 		<i class="ico linkedin"  target="_blank"></i>
 	</a>
 	<a href="https://github.com/woliveiras"  target="_blank">
 		<i class="ico github"></i>
 	</a>
 </div>
+
   <div id="footer-info">
     <div class="outer">
-      &copy; 2017 Escrito com o <3 por William de Oliveira Desenvolvido com o <a href="http://hexo.io/" target="_blank">Hexo</a>
+      &copy; 2018 Escrito com o <3 por William de Oliveira Desenvolvido com o <a href="http://hexo.io/" target="_blank">Hexo</a>
     </div>
   </div>
 </footer>

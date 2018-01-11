@@ -21,7 +21,7 @@
 <meta property="og:image" content="https://s30.postimg.org/nlfodqoa9/fedy.png">
 <meta property="og:image" content="https://s27.postimg.org/dn8ldw9ub/terminator.png">
 <meta property="og:image" content="https://s23.postimg.org/x08s45g2j/Screenshot_from_2017_02_10_00_13_22.png">
-<meta property="og:updated_time" content="2017-09-13T09:56:51.297Z">
+<meta property="og:updated_time" content="2018-01-11T09:54:21.447Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="O que fazer depois de instalar o Fedora">
 <meta name="twitter:description" content="O que fazer depois de instalar o Fedora. Quais pacotes instalar. Como configurar o Fedora. Como instalaro Nodejs, Ruby, Docker e outros no Fedora.">
@@ -127,29 +127,29 @@
 <p>Não tem muita diferença entre Fedora e Ubuntu, portanto vai ser preciso uma pesquisa boa no Google sobre “Fedora vs Ubuntu” para que você decida se quer utilizar um ou o outro.</p>
 <p>Eu estou fazendo um teste porque o Ubuntu estava me dando um pouco de dor de cabeça que eu já não gosto mais de ter como era quando eu comecei a usar Linux como meu Sistema Operacional padrão.</p>
 <h2 id="O-que-fazer-depois-de-instalar-o-Fedora"><a href="#O-que-fazer-depois-de-instalar-o-Fedora" class="headerlink" title="O que fazer depois de instalar o Fedora"></a>O que fazer depois de instalar o Fedora</h2><h3 id="Atualizar-o-sistema"><a href="#Atualizar-o-sistema" class="headerlink" title="Atualizar o sistema"></a>Atualizar o sistema</h3><p>É meio lógico, mas eu mesmo esqueci de fazer isso quando instalei o Fedora e logo tive problemas de falta de pacotes. Pacotes esses que não me atrapalharíam se eu tivesse atualizado ele logo de primeira. Portanto rode o comando:</p>
-<figure class="highlight ebnf"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line"><span class="attribute">dnf update</span></div></pre></td></tr></table></figure>
+<figure class="highlight ebnf"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="attribute">dnf update</span></span><br></pre></td></tr></table></figure>
 <p>Para atualizar o Fedora.</p>
 <h3 id="Instale-as-ferramentas-de-desenvolvedor"><a href="#Instale-as-ferramentas-de-desenvolvedor" class="headerlink" title="Instale as ferramentas de desenvolvedor"></a>Instale as ferramentas de desenvolvedor</h3><p>Mesmo você não sendo desenvolvedor, vai precisar dessas ferramentas instaladas no seu sistema para compilar certos pacotes.</p>
 <p>Utilize o comando:</p>
-<figure class="highlight ada"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">sudo dnf groupinstall <span class="symbol">'Development</span> Tools' &amp;&amp; dnf groupinstall <span class="symbol">'C</span> Development Tools <span class="keyword">and</span> Libraries'</div></pre></td></tr></table></figure>
+<figure class="highlight ada"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">sudo dnf groupinstall <span class="symbol">'Development</span> Tools' &amp;&amp; dnf groupinstall <span class="symbol">'C</span> Development Tools <span class="keyword">and</span> Libraries'</span><br></pre></td></tr></table></figure>
 <p>Para instalar essas dependências.</p>
 <h3 id="Configure-o-hostname"><a href="#Configure-o-hostname" class="headerlink" title="Configure o hostname"></a>Configure o hostname</h3><p>Se você não configurou isso durante a instalação do Fedora, configure o hostname com os seguintes comandos: </p>
-<figure class="highlight ebnf"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line"><span class="attribute">hostnamectl</span></div></pre></td></tr></table></figure>
+<figure class="highlight ebnf"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="attribute">hostnamectl</span></span><br></pre></td></tr></table></figure>
 <p>Esse comando verifica se o hostname já está configurado, se estiver nem precisa rodar o comando abaixo.</p>
 <p>Caso não esteja configurado, rode o comando:</p>
-<figure class="highlight dsconfig"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line"><span class="string">sudo </span><span class="string">hostnamectl </span><span class="built_in">set-hostname</span> <span class="string">"nome-do-host"</span></div></pre></td></tr></table></figure>
+<figure class="highlight dsconfig"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="string">sudo </span><span class="string">hostnamectl </span><span class="built_in">set-hostname</span> <span class="string">"nome-do-host"</span></span><br></pre></td></tr></table></figure>
 <p>Não se esqueça de trocar onde está <code>nome-do-host</code> pelo nome que você quer colocar na sua máquina.</p>
 <p>Eu, por exemplo, coloco “war-machine”, porque meu PC já passou por muitas batalhas e viveu um tempo nas trincheiras. Então seria:</p>
-<figure class="highlight dsconfig"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line"><span class="string">sudo </span><span class="string">hostnamectl </span><span class="built_in">set-hostname</span> <span class="string">war-machine</span></div></pre></td></tr></table></figure>
+<figure class="highlight dsconfig"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="string">sudo </span><span class="string">hostnamectl </span><span class="built_in">set-hostname</span> <span class="string">war-machine</span></span><br></pre></td></tr></table></figure>
 <h3 id="Ative-o-repositorio-do-RPM-Fusion"><a href="#Ative-o-repositorio-do-RPM-Fusion" class="headerlink" title="Ative o repositório do RPM Fusion"></a>Ative o repositório do RPM Fusion</h3><p>Os repositórios RPM Fusion podem ser úteis pois é através dessa lista que você vai conseguir instalar codecs <strong>nonfree</strong> no seu Fedora. Você também tem uma lista de pacotes <strong>free</strong> através do RPM Fusion.</p>
 <p>Os repositórios padrão do Fedora já nos disponibilizam uma boa quantidade de pacotes, porém com RPM Fusion temos ainda mais pacotes a nossa disposição.</p>
-<p>Saiba mais sobre o RPM Fusion <a href="https://rpmfusion.org/" target="_blank" rel="external">aqui</a>.</p>
+<p>Saiba mais sobre o RPM Fusion <a href="https://rpmfusion.org/" target="_blank" rel="noopener">aqui</a>.</p>
 <p>Para ativar, basta rodar o comando:</p>
-<figure class="highlight llvm"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">rpm -ivh http://download<span class="number">1</span>.rpmfusion.org/<span class="keyword">free</span>/fedora/rpmfusion-<span class="keyword">free</span>-<span class="keyword">release</span><span class="number">-25</span>.noarch.rpm</div></pre></td></tr></table></figure>
+<figure class="highlight llvm"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">rpm -ivh http://download<span class="number">1</span>.rpmfusion.org/<span class="keyword">free</span>/fedora/rpmfusion-<span class="keyword">free</span>-<span class="keyword">release</span><span class="number">-25</span>.noarch.rpm</span><br></pre></td></tr></table></figure>
 <p><strong>Isso se você estiver utilizando a versão 25 do Fedora.</strong></p>
 <h3 id="Instale-o-Gnome-Tweak"><a href="#Instale-o-Gnome-Tweak" class="headerlink" title="Instale o Gnome Tweak"></a>Instale o Gnome Tweak</h3><p>Existem diversas configurações muito úteis para melhorar ainda mais sua experiência utilizando o Fedora e você pode conseguir isso de forma mais facilitada utilizando o Gnome Tweak.</p>
 <p>Instale esse utilitário rodando o seguinte comando:</p>
-<figure class="highlight cmake"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">sudo dnf -y <span class="keyword">install</span> gnome-tweak-tool dconf-editor</div></pre></td></tr></table></figure>
+<figure class="highlight cmake"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">sudo dnf -y <span class="keyword">install</span> gnome-tweak-tool dconf-editor</span><br></pre></td></tr></table></figure>
 <p>Para acessar o utilitário basta entrar no menu (pressionar a tecla com a bandeira do Windows em teclados comuns) e digitar <strong>tweak</strong>.</p>
 <p><img src="https://s27.postimg.org/d81l7fvxv/gnome_tweak.png" alt="Gnome Tweak"></p>
 <p>Coisas que você pode ativar no Gnome Tweak para que o Fedora fique mais amigável, se você for um novo usuário:</p>
@@ -164,52 +164,52 @@
 <h3 id="Instale-o-VLC"><a href="#Instale-o-VLC" class="headerlink" title="Instale o VLC"></a>Instale o VLC</h3><p>Se, assim como eu, você gosta de ver um filminho .mkv ou .avi, você vai precisar ter um reprodutor de qualidade.</p>
 <p>Eu utilizo o VLC a anos e recomendo sempre, por sua praticidade. É só instalar e sair utilizando.</p>
 <p>Basta rodar o comando:</p>
-<figure class="highlight cmake"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">sudo dnf -y <span class="keyword">install</span> vlc</div></pre></td></tr></table></figure>
+<figure class="highlight cmake"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">sudo dnf -y <span class="keyword">install</span> vlc</span><br></pre></td></tr></table></figure>
 <h3 id="Instale-os-plugins-para-Java"><a href="#Instale-os-plugins-para-Java" class="headerlink" title="Instale os plugins para Java"></a>Instale os plugins para Java</h3><p>Alguns sites precisam do plugin do Java para funcionar. Utilize o comando:</p>
-<figure class="highlight mipsasm"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">sudo dnf -y <span class="keyword">install </span><span class="keyword">java-openjdk </span>icedtea-web</div></pre></td></tr></table></figure>
+<figure class="highlight mipsasm"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">sudo dnf -y <span class="keyword">install </span><span class="keyword">java-openjdk </span>icedtea-web</span><br></pre></td></tr></table></figure>
 <p>Para instalar a versão Open Source e mais abaixo eu deixei explicado como instalar a versão da Oracle.</p>
 <h3 id="Instale-o-Wine"><a href="#Instale-o-Wine" class="headerlink" title="Instale o Wine"></a>Instale o Wine</h3><p>Se você tentar utilizar programas do Windows em uma distro Linux, não vai conseguir. A maneira que temos para tentar rodar esses programas é utilizando o Wine.</p>
 <p>Utilize o comando:</p>
-<figure class="highlight cmake"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">sudo dnf -y <span class="keyword">install</span> wine</div></pre></td></tr></table></figure>
+<figure class="highlight cmake"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">sudo dnf -y <span class="keyword">install</span> wine</span><br></pre></td></tr></table></figure>
 <p>Para instalar o Wine.</p>
 <h3 id="Instale-o-Gimp"><a href="#Instale-o-Gimp" class="headerlink" title="Instale o Gimp"></a>Instale o Gimp</h3><p>Caso você goste de editar imagens, o Gimp pode te ajudar.</p>
 <p>Instale rodando o comando:</p>
-<figure class="highlight cmake"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">sudo dnf -y <span class="keyword">install</span> gimp</div></pre></td></tr></table></figure>
+<figure class="highlight cmake"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">sudo dnf -y <span class="keyword">install</span> gimp</span><br></pre></td></tr></table></figure>
 <h3 id="Compatibilidade-com-rar-e-zip"><a href="#Compatibilidade-com-rar-e-zip" class="headerlink" title="Compatibilidade com .rar e .zip"></a>Compatibilidade com .rar e .zip</h3><p>Para conseguir descompactar arquivos .rar e .zip no seu Fedora será necessário instalar alguns pacotes.</p>
 <p>Execute o comando:</p>
-<figure class="highlight smali"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">sudo dnf -y install unzip p7zip p7zip-plugins unrar</div></pre></td></tr></table></figure>
+<figure class="highlight smali"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">sudo dnf -y install unzip p7zip p7zip-plugins unrar</span><br></pre></td></tr></table></figure>
 <p>Para instalar os utilitários.</p>
 <h2 id="Configurando-o-Fedora-para-Desenvolvedores"><a href="#Configurando-o-Fedora-para-Desenvolvedores" class="headerlink" title="Configurando o Fedora para Desenvolvedores"></a>Configurando o Fedora para Desenvolvedores</h2><p>Agora a parte de configuração do Fedora para Desenvolvedores de Softaware/Web.</p>
 <h3 id="Instale-o-VIM"><a href="#Instale-o-VIM" class="headerlink" title="Instale o VIM"></a>Instale o VIM</h3><p>O VIM é um ótimo <a href="/posts/Comecando-com-o-editor-de-texto-VIM/">editor de textos</a>, instale-o utilizando o comando:</p>
-<figure class="highlight cmake"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">sudo dnf -y <span class="keyword">install</span> vim</div></pre></td></tr></table></figure>
+<figure class="highlight cmake"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">sudo dnf -y <span class="keyword">install</span> vim</span><br></pre></td></tr></table></figure>
 <h3 id="Instalando-e-configurando-um-ambiente-Ruby-no-Fedora"><a href="#Instalando-e-configurando-um-ambiente-Ruby-no-Fedora" class="headerlink" title="Instalando e configurando um ambiente Ruby no Fedora"></a>Instalando e configurando um ambiente Ruby no Fedora</h3><p>Eu gosto de utilizar o RVM para configurar o Ruby na minha máquina.</p>
-<p>Como o processo de instalação pode mudar é melhor seguir <a href="https://rvm.io/" target="_blank" rel="external">esse link</a> para conferir como instalar.</p>
+<p>Como o processo de instalação pode mudar é melhor seguir <a href="https://rvm.io/" target="_blank" rel="noopener">esse link</a> para conferir como instalar.</p>
 <p>São alguns comandos simples e pronto.</p>
 <h3 id="Instalando-e-configurando-um-ambiente-Nodejs-no-Fedora"><a href="#Instalando-e-configurando-um-ambiente-Nodejs-no-Fedora" class="headerlink" title="Instalando e configurando um ambiente Nodejs no Fedora"></a>Instalando e configurando um ambiente Nodejs no Fedora</h3><p>Para a instalação do Nodejs eu também gosto de utilizar um gerenciador de versões chamado NVM.</p>
-<p>Utilize <a href="https://github.com/creationix/nvm" target="_blank" rel="external">esse link</a> para instalar o NVM no Fedora.</p>
+<p>Utilize <a href="https://github.com/creationix/nvm" target="_blank" rel="noopener">esse link</a> para instalar o NVM no Fedora.</p>
 <p>Se quiser de uma olhada <a href="posts/utilizando-versoes-antigas-do-nodejs/">nesse post</a> para saber mais.</p>
 <h3 id="Instalando-o-Docker"><a href="#Instalando-o-Docker" class="headerlink" title="Instalando o Docker"></a>Instalando o Docker</h3><p>Para instalar o Docker basta rodar o comando:</p>
-<figure class="highlight cmake"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">sudo dnf -y <span class="keyword">install</span> docker docker-compose</div></pre></td></tr></table></figure>
+<figure class="highlight cmake"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">sudo dnf -y <span class="keyword">install</span> docker docker-compose</span><br></pre></td></tr></table></figure>
 <h3 id="Instalando-o-Sulimetext-Android-Studio-IntelliJ-IDEA-Java-da-Oracle-e-muito-mais"><a href="#Instalando-o-Sulimetext-Android-Studio-IntelliJ-IDEA-Java-da-Oracle-e-muito-mais" class="headerlink" title="Instalando o Sulimetext, Android Studio, IntelliJ IDEA, Java da Oracle e muito mais"></a>Instalando o Sulimetext, Android Studio, IntelliJ IDEA, Java da Oracle e muito mais</h3><p>O Fedora tem uma excelente ferramenta feita pela comunidade chamada Fedy.</p>
 <p>Com ela você pode instalar desde o Google Chrome, até aquele Java da Oracle que sempre da trabalho no Linux.</p>
-<p>Basta acessar <a href="https://github.com/folkswithhats/fedy" target="_blank" rel="external">esse link</a>, instalar o Fedy e abrir o utilitário.</p>
+<p>Basta acessar <a href="https://github.com/folkswithhats/fedy" target="_blank" rel="noopener">esse link</a>, instalar o Fedy e abrir o utilitário.</p>
 <p>De uma pesquisada em tudo o que tem lá e vá instalando conforme sua necessidade.</p>
 <p><img src="https://s30.postimg.org/nlfodqoa9/fedy.png" alt="Fedy"></p>
 <h3 id="Instalando-o-Terminator"><a href="#Instalando-o-Terminator" class="headerlink" title="Instalando o Terminator"></a>Instalando o Terminator</h3><p>Eu gosto de dividir a tela do Terminal para facilitar minha vida com Git e servidor NodeJS/Ruby/Jekyll rodando ao mesmo tempo. No Linux eu utilizo o Terminator.</p>
 <p>Para instalar basta rodar o comando:</p>
-<figure class="highlight cmake"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">sudo dnf -y <span class="keyword">install</span> terminator</div></pre></td></tr></table></figure>
+<figure class="highlight cmake"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">sudo dnf -y <span class="keyword">install</span> terminator</span><br></pre></td></tr></table></figure>
 <p><img src="https://s27.postimg.org/dn8ldw9ub/terminator.png" alt="Terminator"></p>
 <h3 id="Instalando-o-Git-Cola"><a href="#Instalando-o-Git-Cola" class="headerlink" title="Instalando o Git Cola"></a>Instalando o Git Cola</h3><p>Eu utilizo o Git Cola para acompanhar meus diffs e fazer os commits com Git.</p>
 <p>É um utilitário simples e legal de se utilizar.</p>
 <p>Para instalar basta rodar:</p>
-<figure class="highlight cmake"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">sudo dnf -y <span class="keyword">install</span> git-cola</div></pre></td></tr></table></figure>
+<figure class="highlight cmake"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">sudo dnf -y <span class="keyword">install</span> git-cola</span><br></pre></td></tr></table></figure>
 <p>Para utilizar o Git Cola, basta entrar em um diretório que seja um repositório Git e rodar o comando <code>git cola</code>.</p>
 <p><img src="https://s23.postimg.org/x08s45g2j/Screenshot_from_2017_02_10_00_13_22.png" alt="Git cola"></p>
 <h2 id="Conclusao"><a href="#Conclusao" class="headerlink" title="Conclusão"></a>Conclusão</h2><p>Estou gostando muito do Fedora. Até agora nenhum Bug, nem de interface, nem de outros pacotes ou crashes do sistema.</p>
-<p>Tive um problema que acontece em toda distribuição que é minha placa de rede wireless, porém é facilmente resolvido com <a href="https://github.com/FreedomBen/rtl8188ce-linux-driver" target="_blank" rel="external">esse pacote</a>.</p>
+<p>Tive um problema que acontece em toda distribuição que é minha placa de rede wireless, porém é facilmente resolvido com <a href="https://github.com/FreedomBen/rtl8188ce-linux-driver" target="_blank" rel="noopener">esse pacote</a>.</p>
 <p>Quando puder eu vou migrar para o Arch Linux, porém vou continuar no Fedora por um bom tempo ainda e não me arrependi de ter saído do Ubuntu.</p>
 <p>Claro que ainda bate aquela saudade do Ubuntu por que foram anos utilizando essa distro e eu gostaria de ainda utilizá-la. Espero que o Fedora supra essa vontade. ;D</p>
-<p>Algumas outras configurações legais para devs você encontra <a href="http://imasters.com.br/desenvolvimento/personalizando-o-fedora-25-para-desenvolvedores/" target="_blank" rel="external">nesse post</a>.</p>
+<p>Algumas outras configurações legais para devs você encontra <a href="http://imasters.com.br/desenvolvimento/personalizando-o-fedora-25-para-desenvolvedores/" target="_blank" rel="noopener">nesse post</a>.</p>
 <p>Eai, curtiu esse post? Tem alguma dica sobre o Fedora para compartilhar? </p>
 <p>Comente aqui em baixo.</p>
 <p>Não se esqueça de compartilhar esse post por aí. Mande para aquele seu amigo que está insatisfeito com o Ubuntu e não quer utilizar uma distro baseada nele, envia para sua calopsita por email para que ela configure o sistema mais facilmente.</p>
@@ -260,16 +260,17 @@
 	<a href="https://twitter.com/w_oliveiras"  target="_blank">
 		<i class="ico twitter"  target="_blank"></i>
 	</a>
-	<a href="https://br.linkedin.com/in/woliveira542"  target="_blank">
+	<a href="https://www.linkedin.com/in/william-oliveira"  target="_blank">
 		<i class="ico linkedin"  target="_blank"></i>
 	</a>
 	<a href="https://github.com/woliveiras"  target="_blank">
 		<i class="ico github"></i>
 	</a>
 </div>
+
   <div id="footer-info">
     <div class="outer">
-      &copy; 2017 Escrito com o <3 por William de Oliveira Desenvolvido com o <a href="http://hexo.io/" target="_blank">Hexo</a>
+      &copy; 2018 Escrito com o <3 por William de Oliveira Desenvolvido com o <a href="http://hexo.io/" target="_blank">Hexo</a>
     </div>
   </div>
 </footer>

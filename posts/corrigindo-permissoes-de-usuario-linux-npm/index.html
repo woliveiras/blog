@@ -18,7 +18,7 @@
 <meta property="og:description" content="Se você já teve problemas para instalar pacotes com NPM no Linux, esse artigo vai te ajudar bastante!">
 <meta property="og:locale" content="default">
 <meta property="og:image" content="http://woliveiras.com.br/public/images/npm.svg">
-<meta property="og:updated_time" content="2017-09-13T09:56:51.297Z">
+<meta property="og:updated_time" content="2018-01-11T09:54:21.447Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="Corrigindo as permissões de usuário para o NPM no Linux">
 <meta name="twitter:description" content="Se você já teve problemas para instalar pacotes com NPM no Linux, esse artigo vai te ajudar bastante!">
@@ -119,11 +119,11 @@
 <p>Para corrigir isso vamos mudar as permissões do seu usuário para o diretório.</p>
 <p>Começe executando o comando <code>npm config get prefix</code> para verificar se o prefixo está corretamente localizado em <strong>/usr/local</strong>.</p>
 <p>Caso esteja corretamente localizado execute o comando:</p>
-<figure class="highlight perl"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">sudo <span class="keyword">chown</span> -R <span class="string">`whoami`</span> /usr/<span class="keyword">local</span></div></pre></td></tr></table></figure>
+<figure class="highlight perl"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">sudo <span class="keyword">chown</span> -R <span class="string">`whoami`</span> /usr/<span class="keyword">local</span></span><br></pre></td></tr></table></figure>
 <p>Será solicitado a senha do sudo e em seguida o seu terminal ficará bloqueado até que termine a execução da ação.</p>
 <p>Se você não quiser atribuir a permissão ao diretório completo, pode executar como:</p>
-<figure class="highlight crystal"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">sudo chown -R <span class="string">`whoami`</span> /usr/local/<span class="class"><span class="keyword">lib</span>/<span class="title">node_modules</span> /<span class="title">usr</span>/<span class="title">local</span>/<span class="title">bin</span> /<span class="title">usr</span>/<span class="title">local</span>/<span class="title">share</span></span></div></pre></td></tr></table></figure>
-<p>Referência: <a href="https://docs.npmjs.com/getting-started/fixing-npm-permissions" title="Fixing NPM permissions - npmjs.com" target="_blank" rel="external">Fixing NPM permissions</a></p>
+<figure class="highlight crystal"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">sudo chown -R <span class="string">`whoami`</span> /usr/local/<span class="class"><span class="keyword">lib</span>/<span class="title">node_modules</span> /<span class="title">usr</span>/<span class="title">local</span>/<span class="title">bin</span> /<span class="title">usr</span>/<span class="title">local</span>/<span class="title">share</span></span></span><br></pre></td></tr></table></figure>
+<p>Referência: <a href="https://docs.npmjs.com/getting-started/fixing-npm-permissions" title="Fixing NPM permissions - npmjs.com" target="_blank" rel="noopener">Fixing NPM permissions</a></p>
 
       
     </div>
@@ -170,16 +170,17 @@
 	<a href="https://twitter.com/w_oliveiras"  target="_blank">
 		<i class="ico twitter"  target="_blank"></i>
 	</a>
-	<a href="https://br.linkedin.com/in/woliveira542"  target="_blank">
+	<a href="https://www.linkedin.com/in/william-oliveira"  target="_blank">
 		<i class="ico linkedin"  target="_blank"></i>
 	</a>
 	<a href="https://github.com/woliveiras"  target="_blank">
 		<i class="ico github"></i>
 	</a>
 </div>
+
   <div id="footer-info">
     <div class="outer">
-      &copy; 2017 Escrito com o <3 por William de Oliveira Desenvolvido com o <a href="http://hexo.io/" target="_blank">Hexo</a>
+      &copy; 2018 Escrito com o <3 por William de Oliveira Desenvolvido com o <a href="http://hexo.io/" target="_blank">Hexo</a>
     </div>
   </div>
 </footer>

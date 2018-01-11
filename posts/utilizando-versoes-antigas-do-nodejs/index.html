@@ -22,7 +22,7 @@
 <meta property="og:image" content="http://woliveiras.com.br/public/images/nvm-install-v.png">
 <meta property="og:image" content="http://woliveiras.com.br/public/images/terminal-with-nvmrc.png">
 <meta property="og:image" content="http://woliveiras.com.br/public/images/nvm-install-nvmrc.png">
-<meta property="og:updated_time" content="2017-09-13T09:56:51.301Z">
+<meta property="og:updated_time" content="2018-01-11T09:54:21.451Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="Utilizando versões antigas do Nodejs">
 <meta name="twitter:description" content="Como utilizar mais de uma versão de Nodejs no mesmo Sistema Operacional. Configurando seu ambiente local Nodejs.">
@@ -117,42 +117,42 @@
       
         <div class="shared-img"><br><img src="../..//public/images/nodejs.png" alt=""><br></div>
 
-<p>Se você, assim como eu, atualizou a versão do Node instalado em sua máquina para a versão <a href="https://nodejs.org/en/blog/release/v4.0.0/" title="Versão 4.0 do Nodejs" target="_blank" rel="external">4.0.0</a>, pode ser que algo pare de funcionar, como no meu caso o Hexo (<a href="http://woliveiras.com.br/posts/Migrando-de-Wordpress-para-Hexo/" title="Migrando de WordPress para Hexo">Que eu utilizo para esse Blog</a>). Porém não precisa se desesperar, além dos módulos logo se atualizarem para a nova versão, existe uma solução simples para esse tipo de problema.<a id="more"></a></p>
-<p>Existe uma ferramenta muito legal chamada <a href="https://github.com/creationix/nvm" title="Projeto NVM" target="_blank" rel="external">NVM (Node version manager)</a> que serve para trabalhar com mais de uma versão do Node isoladamente, parecido com o <a href="http://docs.python-guide.org/en/latest/dev/virtualenvs/" target="_blank" rel="external">Virtualenv</a> para Python.</p>
+<p>Se você, assim como eu, atualizou a versão do Node instalado em sua máquina para a versão <a href="https://nodejs.org/en/blog/release/v4.0.0/" title="Versão 4.0 do Nodejs" target="_blank" rel="noopener">4.0.0</a>, pode ser que algo pare de funcionar, como no meu caso o Hexo (<a href="http://woliveiras.com.br/posts/Migrando-de-Wordpress-para-Hexo/" title="Migrando de WordPress para Hexo">Que eu utilizo para esse Blog</a>). Porém não precisa se desesperar, além dos módulos logo se atualizarem para a nova versão, existe uma solução simples para esse tipo de problema.<a id="more"></a></p>
+<p>Existe uma ferramenta muito legal chamada <a href="https://github.com/creationix/nvm" title="Projeto NVM" target="_blank" rel="noopener">NVM (Node version manager)</a> que serve para trabalhar com mais de uma versão do Node isoladamente, parecido com o <a href="http://docs.python-guide.org/en/latest/dev/virtualenvs/" target="_blank" rel="noopener">Virtualenv</a> para Python.</p>
 <h2 id="Instalacao-do-NVM"><a href="#Instalacao-do-NVM" class="headerlink" title="Instalação do NVM"></a>Instalação do NVM</h2><p>Se você utiliza Linux Ubuntu/Debian ou derivados execute os seguintes comandos no seu terminal para instalação do NVM:</p>
 <p><strong>Instalação das dependências</strong></p>
-<figure class="highlight q"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line">sudo apt-<span class="built_in">get</span> <span class="keyword">update</span></div><div class="line">sudo apt-<span class="built_in">get</span> install build-essential libssl-<span class="built_in">dev</span></div></pre></td></tr></table></figure>
+<figure class="highlight q"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">sudo apt-<span class="built_in">get</span> <span class="keyword">update</span></span><br><span class="line">sudo apt-<span class="built_in">get</span> install build-essential libssl-<span class="built_in">dev</span></span><br></pre></td></tr></table></figure>
 <p><strong>Instalação do NVM</strong></p>
-<figure class="highlight awk"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">curl -o- https:<span class="regexp">//</span>raw.githubusercontent.com<span class="regexp">/creationix/</span>nvm<span class="regexp">/v0.26.1/i</span>nstall.sh | bash</div></pre></td></tr></table></figure>
+<figure class="highlight awk"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">curl -o- https:<span class="regexp">//</span>raw.githubusercontent.com<span class="regexp">/creationix/</span>nvm<span class="regexp">/v0.26.1/i</span>nstall.sh | bash</span><br></pre></td></tr></table></figure>
 <p><em>Lembrando que o comando acima vai instalar a ultima versão de quando eu escrevi esse post, poranto pode estar desatualizada. Para pegar a ultima versão do NVM, acesse o link do repositório na sessão Referência desse artigo.</em></p>
 <p>Para conseguir utilizar o NVM você precisa efetuar Logoff em seu Sistema. Se não quiser deslogar agora, pode rodar o comando <code>source ~/.profile</code></p>
-<p><strong>Se você utiliza Windows basta seguir <a href="https://github.com/coreybutler/nvm-windows" title="NVM no Windows" target="_blank" rel="external">esse tutorial</a> para a instação.</strong></p>
+<p><strong>Se você utiliza Windows basta seguir <a href="https://github.com/coreybutler/nvm-windows" title="NVM no Windows" target="_blank" rel="noopener">esse tutorial</a> para a instação.</strong></p>
 <h2 id="Instalando-versoes-isoladas-do-Nodejs"><a href="#Instalando-versoes-isoladas-do-Nodejs" class="headerlink" title="Instalando versões isoladas do Nodejs"></a>Instalando versões isoladas do Nodejs</h2><p>Para encontrar as versões disponíveis para instalação você pode executar o comando:</p>
-<figure class="highlight ebnf"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line"><span class="attribute">nvm ls-remote</span></div></pre></td></tr></table></figure>
+<figure class="highlight ebnf"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="attribute">nvm ls-remote</span></span><br></pre></td></tr></table></figure>
 <p>As versões disponíveis para a instalação serão apresentadas.</p>
 <p><img src="../../public/images/nvm-ls-remote.png" alt="nvm ls remote"></p>
 <p>E agora, para instalar a versão anterior necessária, basta executar o comando:</p>
-<figure class="highlight cmake"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">nvm <span class="keyword">install</span> versão</div></pre></td></tr></table></figure>
+<figure class="highlight cmake"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">nvm <span class="keyword">install</span> versão</span><br></pre></td></tr></table></figure>
 <p>No meu caso eu precisava da versão 0.12 para executar o Hexo, então executei <code>nvm install v0.12.0</code></p>
 <p><img src="../../public/images/nvm-install-v.png" alt="nvm install versao"></p>
 <h2 id="Alternado-as-versoes-do-Nodejs"><a href="#Alternado-as-versoes-do-Nodejs" class="headerlink" title="Alternado as versões do Nodejs"></a>Alternado as versões do Nodejs</h2><p>O NVM vai executar a versão mais recente que estiver instalada por padrão, então, para executar outra versão, você precisa executar o comando:</p>
-<figure class="highlight actionscript"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">nvm <span class="keyword">use</span> versao</div></pre></td></tr></table></figure>
+<figure class="highlight actionscript"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">nvm <span class="keyword">use</span> versao</span><br></pre></td></tr></table></figure>
 <p>Se quiser também pode executar:</p>
-<figure class="highlight dockerfile"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">nvm <span class="keyword">run</span><span class="bash"> versao app.js</span></div></pre></td></tr></table></figure>
+<figure class="highlight dockerfile"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">nvm <span class="keyword">run</span><span class="bash"> versao app.js</span></span><br></pre></td></tr></table></figure>
 <p>Para colocar a aplicação para funcionar com a versão específica somente até finalizar a mesma.</p>
 <p>Se ouver mais de uma versão instalada, você pode executar o comando:</p>
-<figure class="highlight ebnf"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line"><span class="attribute">nvm ls</span></div></pre></td></tr></table></figure>
+<figure class="highlight ebnf"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="attribute">nvm ls</span></span><br></pre></td></tr></table></figure>
 <p>Para ver a lista das versões.</p>
 <h2 id="Deixando-uma-versao-como-padrao"><a href="#Deixando-uma-versao-como-padrao" class="headerlink" title="Deixando uma versão como padrão"></a>Deixando uma versão como padrão</h2><p>Se quiser setar uma versão anterior como padrão e não a mais atual, basta rodar:</p>
-<figure class="highlight routeros"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">nvm alias<span class="built_in"> default </span>versão</div></pre></td></tr></table></figure>
-<p>Com essas configurações você pode utilizar seus pacotes do Node instalados via <a href="https://www.npmjs.com/" target="_blank" rel="external">NPM</a> normalmente. A grande diferença será que os pacotes ficarão instalados em: <code>~/.nvm/node_version/lib/node_modules/</code></p>
+<figure class="highlight routeros"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">nvm alias<span class="built_in"> default </span>versão</span><br></pre></td></tr></table></figure>
+<p>Com essas configurações você pode utilizar seus pacotes do Node instalados via <a href="https://www.npmjs.com/" target="_blank" rel="noopener">NPM</a> normalmente. A grande diferença será que os pacotes ficarão instalados em: <code>~/.nvm/node_version/lib/node_modules/</code></p>
 <p>E todo pacote instalado Global precisará ser vinculado a um pacote local para poder ser utilizado no projeto com o comando:</p>
-<figure class="highlight coffeescript"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line"><span class="built_in">npm</span> link pacote</div></pre></td></tr></table></figure>
+<figure class="highlight coffeescript"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="built_in">npm</span> link pacote</span><br></pre></td></tr></table></figure>
 <p>Como no meu caso:</p>
-<figure class="highlight coffeescript"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line"><span class="built_in">npm</span> link hexo</div></pre></td></tr></table></figure>
+<figure class="highlight coffeescript"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="built_in">npm</span> link hexo</span><br></pre></td></tr></table></figure>
 <p>O NVM também pode ser utilizado para isolar ambientes do io.js.</p>
 <p>Para instalar a última versão do Node junto as antigas você pode fazer:</p>
-<figure class="highlight cmake"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">nvm <span class="keyword">install</span> stable</div></pre></td></tr></table></figure>
+<figure class="highlight cmake"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">nvm <span class="keyword">install</span> stable</span><br></pre></td></tr></table></figure>
 <h2 id="Utilizando-o-nvmrc-para-especificar-a-versao"><a href="#Utilizando-o-nvmrc-para-especificar-a-versao" class="headerlink" title="Utilizando o .nvmrc para especificar a versão"></a>Utilizando o .nvmrc para especificar a versão</h2><p>Quando você compartilha seu código, em algum momento será necessário especificar a versão do Node que seu projeto precisa. Você pode fazer isso através de um arquio .nvmrc ao invés de deixar em algum local como um README. - Evitando também que a outra pessoa esqueça de rodar um <code>nvm use versao</code>.</p>
 <p>Utilize qualquer editor de texto para criação do arquivo. O mesmo deve ser criado dentro do diretório do seu projeto. Se estiver usando Windows e Notepad será necessário salvar como <em>“Todos os formatos”</em> e no <em>nome do arquivo</em> colocar “.nvmrc” (com aspas).</p>
 <p>No arquivo coloque a versão que vai utilizar, <em>ex.: 0.12</em>.</p>
@@ -163,8 +163,8 @@
 <p><img src="../../public/images/nvm-install-nvmrc.png" alt="nvm install a partir do .nvmrc"></p>
 <p>Rferências:</p>
 <ul>
-<li><a href="https://www.digitalocean.com/community/tutorials/how-to-install-node-js-with-nvm-node-version-manager-on-a-vps" title="Install Node and NVM on a VPS Digital Ocean." target="_blank" rel="external">Digital Ocean</a>.</li>
-<li><a href="https://github.com/creationix/nvm" title="NVM" target="_blank" rel="external">Repositório</a>.</li>
+<li><a href="https://www.digitalocean.com/community/tutorials/how-to-install-node-js-with-nvm-node-version-manager-on-a-vps" title="Install Node and NVM on a VPS Digital Ocean." target="_blank" rel="noopener">Digital Ocean</a>.</li>
+<li><a href="https://github.com/creationix/nvm" title="NVM" target="_blank" rel="noopener">Repositório</a>.</li>
 </ul>
 
       
@@ -212,16 +212,17 @@
 	<a href="https://twitter.com/w_oliveiras"  target="_blank">
 		<i class="ico twitter"  target="_blank"></i>
 	</a>
-	<a href="https://br.linkedin.com/in/woliveira542"  target="_blank">
+	<a href="https://www.linkedin.com/in/william-oliveira"  target="_blank">
 		<i class="ico linkedin"  target="_blank"></i>
 	</a>
 	<a href="https://github.com/woliveiras"  target="_blank">
 		<i class="ico github"></i>
 	</a>
 </div>
+
   <div id="footer-info">
     <div class="outer">
-      &copy; 2017 Escrito com o <3 por William de Oliveira Desenvolvido com o <a href="http://hexo.io/" target="_blank">Hexo</a>
+      &copy; 2018 Escrito com o <3 por William de Oliveira Desenvolvido com o <a href="http://hexo.io/" target="_blank">Hexo</a>
     </div>
   </div>
 </footer>

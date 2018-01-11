@@ -18,7 +18,7 @@
 <meta property="og:description" content="Uma rápida introdução ao Docker e instalação no Ubuntu para iniciantes. Dicas para não precisar de sudo ao executar o Docker e como iniciar o Docker junto com o Sistema Operacional.">
 <meta property="og:locale" content="default">
 <meta property="og:image" content="http://woliveiras.com.br/public/images/docker.png">
-<meta property="og:updated_time" content="2017-09-13T09:56:51.297Z">
+<meta property="og:updated_time" content="2018-01-11T09:54:21.451Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="Uma rápida introdução ao Docker e instalação no Ubuntu">
 <meta name="twitter:description" content="Uma rápida introdução ao Docker e instalação no Ubuntu para iniciantes. Dicas para não precisar de sudo ao executar o Docker e como iniciar o Docker junto com o Sistema Operacional.">
@@ -111,65 +111,65 @@
     
     <div class="article-entry" itemprop="articleBody">
       
-        <p><div class="shared-img"><br><img src="../../public/images/docker.png" alt="Docker"><br></div>Você já deve ter ouvido falar, pelo menos uma vez, sobre <a href="https://www.docker.com/" target="_blank" rel="external">Docker</a> em algum lugar. Seja em palestras, blogs, vídeos ou em qualquer outra fonte de estudos sobre desenvolvimento, uma hora sempre comentamos sobre virtualização de ambientes e o Docker é a ferramenta que mais tem se destacado para tal. Ele é uma das 8 maravilhas das atualidades mais atuais. Vamos entender um pouco, então, o que é o Docker e como instalar no nosso Ubuntu.<a id="more"></a></p>
+        <p><div class="shared-img"><br><img src="../../public/images/docker.png" alt="Docker"><br></div>Você já deve ter ouvido falar, pelo menos uma vez, sobre <a href="https://www.docker.com/" target="_blank" rel="noopener">Docker</a> em algum lugar. Seja em palestras, blogs, vídeos ou em qualquer outra fonte de estudos sobre desenvolvimento, uma hora sempre comentamos sobre virtualização de ambientes e o Docker é a ferramenta que mais tem se destacado para tal. Ele é uma das 8 maravilhas das atualidades mais atuais. Vamos entender um pouco, então, o que é o Docker e como instalar no nosso Ubuntu.<a id="more"></a></p>
 <h2 id="Introducao"><a href="#Introducao" class="headerlink" title="Introdução"></a>Introdução</h2><p>Eu também já ouvia falar do Docker a um bom tempo, porém nunca havia me aprofundado mais nessa ferramenta.</p>
-<p>Depois do <a href="http://www.meetup.com/pt-BR/Docker-Sao-Paulo/events/229053547/" target="_blank" rel="external">Docker Birthday Party #3 Celebration + Training</a> eu decidi aprender um pouco mais e estou curtindo muito essa ferramenta!</p>
+<p>Depois do <a href="http://www.meetup.com/pt-BR/Docker-Sao-Paulo/events/229053547/" target="_blank" rel="noopener">Docker Birthday Party #3 Celebration + Training</a> eu decidi aprender um pouco mais e estou curtindo muito essa ferramenta!</p>
 <p>Durante os estudos, vou postar minhas anotações e dicas aqui no Blog. Fica ligado pra não perder nada ein. ;)</p>
 <p>Vamos partir do começo…</p>
 <p>Caso você já conheça o Docker, pode pular direto para a <a href="#Instala_E7_E3o_no_Ubuntu">instalação no Ubuntu</a>.</p>
 <h2 id="Pra-que-serve-a-virtualizacao-de-ambientes"><a href="#Pra-que-serve-a-virtualizacao-de-ambientes" class="headerlink" title="Pra que serve a virtualização de ambientes?"></a>Pra que serve a virtualização de ambientes?</h2><p>Primeiro vamos entender de que <em>ambiente</em> estamos falando.</p>
 <p>O <strong>ambiente</strong> que estou falando, nesse momento, é a infraestrutura que vamos usar para se desenvolver nossa aplicação. Falo do Servidor Web (Apache, NGINX), Banco de Dados (MySQL, PostgreSQL), o interpretador da sua linguagem de programação (Python, Node, PHP) e libs que você possa utilizar para desenvolver (como Gems do Ruby, Bibliotecas Python/PHP, pacotes do Node) que instala direto no seu Sistema Operacional.</p>
 <p>Normalmente instalamos tudo isso direto no nosso SO (Sistema Operacional) e isso pode acarretar em algum xabu mais pra frente como deixar nosso SO mais lento (digo MAIS por causa do Unity ;P) devido a quantidade de coisas que instalamos nele ou vai dar um trabalho lascado quando atualizar o SO ou formatar o PC e precisamos instalar e configurar tudo aquilo de novo. É um processo bem chato.</p>
-<p>Uma alternativa é instalar o <a href="https://www.virtualbox.org/" target="_blank" rel="external">VirtualBox</a> e virtualizar nosso ambiente de desenvolvimento em uma <a href="https://pt.wikipedia.org/wiki/M%C3%A1quina_virtual" target="_blank" rel="external">VM</a>. Isso isola a nossa aplicação dentro dessa VM e não precisamos instalar tudo no nosso SO principal. Caso precisemos formatar o nosso PC, basta exportar essa VM e deixar guardadinha, instalar o VirtualBox de novo e importar a VM. Pronto!</p>
+<p>Uma alternativa é instalar o <a href="https://www.virtualbox.org/" target="_blank" rel="noopener">VirtualBox</a> e virtualizar nosso ambiente de desenvolvimento em uma <a href="https://pt.wikipedia.org/wiki/M%C3%A1quina_virtual" target="_blank" rel="noopener">VM</a>. Isso isola a nossa aplicação dentro dessa VM e não precisamos instalar tudo no nosso SO principal. Caso precisemos formatar o nosso PC, basta exportar essa VM e deixar guardadinha, instalar o VirtualBox de novo e importar a VM. Pronto!</p>
 <p>Menos trabalho e mais performance em nosso SO principal, né?</p>
 <p>Sim, porém existem alternativas melhores.</p>
-<h2 id="Vagrant"><a href="#Vagrant" class="headerlink" title="Vagrant"></a>Vagrant</h2><p>Por um bom tempo usei o <a href="/posts/vagrant-introducao-instalacao/">Vagrant</a> que trabalha com a API do VirtualBox, porém é mais rápido e utiliza um <a href="https://en.wikipedia.org/wiki/Dot-file" target="_blank" rel="external">dot-file</a>, o Vagrantfile, dentre outras alternativas, como <a href="https://puppet.com/" target="_blank" rel="external">Puppet</a> ou <a href="https://www.chef.io/" target="_blank" rel="external">Chef</a>, para automatizar a instalação e configuração de tudo o que precisamos no nosso ambiente de desenvolvimento.</p>
+<h2 id="Vagrant"><a href="#Vagrant" class="headerlink" title="Vagrant"></a>Vagrant</h2><p>Por um bom tempo usei o <a href="/posts/vagrant-introducao-instalacao/">Vagrant</a> que trabalha com a API do VirtualBox, porém é mais rápido e utiliza um <a href="https://en.wikipedia.org/wiki/Dot-file" target="_blank" rel="noopener">dot-file</a>, o Vagrantfile, dentre outras alternativas, como <a href="https://puppet.com/" target="_blank" rel="noopener">Puppet</a> ou <a href="https://www.chef.io/" target="_blank" rel="noopener">Chef</a>, para automatizar a instalação e configuração de tudo o que precisamos no nosso ambiente de desenvolvimento.</p>
 <p>Para subir um ambiente completo, só precisamos do VirtualBox e Vagrant instalados na máquina e um Vagrantfile com as configurações que vamos precisar. Ao iniciar o nosso ambiente com o Vagrant tudo será instalado e configurado automaticamente.</p>
 <p>Maravilhoso, certo?</p>
 <p>Sim, mas ainda da para melhorar.</p>
 <h2 id="Docker"><a href="#Docker" class="headerlink" title="Docker"></a>Docker</h2><p>O Vagrant inicia todo o Sistema Operacional, parecido com usar uma VM direto pelo VirtualBox, porém de uma maneira mais prática, rápida e automatizada. Só que isso acaba sendo um pouco ruim, pois o Hardware, Discos, Processador, Rede, etc, ainda será emulado dentro da VM. Isso vai pesar no nosso SO principal (o host) e pode até causar comportamento diferente para nossa aplicação dentro da VM e fora da VM devido ao host estar sobrecarregado. Para isso temos uma boa alternativa, o Docker!</p>
 <p>Claro que da para evitar esse comportamento diferente, porém é mais trabalhoso do que com o Docker.</p>
 <p>O Docker trabalha com containers. Imagine seu computador como um navio cargueiro carregando vários containers e cada container com suas mercadorias separadas. É o que conseguimos fazer com o Docker. Ele isola os processos e serviços, mas utiliza os recursos da máquina hospedeira. O Hardware não será emulado dentro de uma VM. Ele usa diretamente o Kernel e recursos do Host. Isso o torna mais leve, pois o Kernel já fez uma boa parte do trabalho.</p>
-<h2 id="Introducao-ao-Docker"><a href="#Introducao-ao-Docker" class="headerlink" title="Introdução ao Docker"></a>Introdução ao Docker</h2><p>Se você nunca utilizou o Docker, uma excelente maneira de aprender e entender TUDO sobre essa ferramenta é assistindo a <a href="https://www.youtube.com/watch?v=0cDj7citEjE" target="_blank" rel="external">série de vídeos</a> do <a href="https://twitter.com/badtux_" target="_blank" rel="external">Jeferson Fernando</a> no seu canal <a href="https://www.youtube.com/channel/UCJnKVGmXRXrH49Tvrx5X0Sw" target="_blank" rel="external">Linux Tips</a>. No canal dele ainda tem muitos vídeos maneiros sobre <a href="https://www.youtube.com/watch?v=_aj3hsEh9iw" target="_blank" rel="external">Git</a> e Linux. Vale a pena seguir ele acompanhar o que esse mano fala sobre Infraestrutura.</p>
+<h2 id="Introducao-ao-Docker"><a href="#Introducao-ao-Docker" class="headerlink" title="Introdução ao Docker"></a>Introdução ao Docker</h2><p>Se você nunca utilizou o Docker, uma excelente maneira de aprender e entender TUDO sobre essa ferramenta é assistindo a <a href="https://www.youtube.com/watch?v=0cDj7citEjE" target="_blank" rel="noopener">série de vídeos</a> do <a href="https://twitter.com/badtux_" target="_blank" rel="noopener">Jeferson Fernando</a> no seu canal <a href="https://www.youtube.com/channel/UCJnKVGmXRXrH49Tvrx5X0Sw" target="_blank" rel="noopener">Linux Tips</a>. No canal dele ainda tem muitos vídeos maneiros sobre <a href="https://www.youtube.com/watch?v=_aj3hsEh9iw" target="_blank" rel="noopener">Git</a> e Linux. Vale a pena seguir ele acompanhar o que esse mano fala sobre Infraestrutura.</p>
 <iframe width="100%" height="473px" src="https://www.youtube.com/embed/0cDj7citEjE" frameborder="0" allowfullscreen></iframe>
 
 <h2 id="Instalacao-no-Ubuntu"><a href="#Instalacao-no-Ubuntu" class="headerlink" title="Instalação no Ubuntu"></a>Instalação no Ubuntu</h2><p>Primeiro você precisa possuir a versão do Kernel atualizada ou a 3.10. Para verificar qual a versão utilize o comando abaixo:</p>
-<figure class="highlight ebnf"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line"><span class="attribute">uname -r</span></div></pre></td></tr></table></figure>
+<figure class="highlight ebnf"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="attribute">uname -r</span></span><br></pre></td></tr></table></figure>
 <p>Deve aparecer algo como:</p>
-<figure class="highlight lsl"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line"><span class="number">3.19</span><span class="number">.0</span><span class="number">-51</span>-generic</div></pre></td></tr></table></figure>
+<figure class="highlight lsl"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="number">3.19</span><span class="number">.0</span><span class="number">-51</span>-generic</span><br></pre></td></tr></table></figure>
 <p>Atualize seu Sistema e instale as dependências  com os comandos:</p>
-<figure class="highlight routeros"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line">sudo apt-<span class="builtin-name">get</span> update</div><div class="line">sudo apt-<span class="builtin-name">get</span> install apt-transport-https ca-certificates</div><div class="line">sudo apt-<span class="builtin-name">get</span> install linux-image-extra-$(uname -r)</div></pre></td></tr></table></figure>
-<p>E adicione a GPG Key - se você não sabe o que é uma GPG, <a href="https://pt.wikipedia.org/wiki/GNU_Privacy_Guard" target="_blank" rel="external">clique aqui</a>:</p>
-<figure class="highlight jboss-cli"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">sudo apt-key adv <span class="params">--keyserver</span> hkp:<span class="string">//p80.pool.sks-keyservers.net</span><span class="function">:80</span> <span class="params">--recv-keys</span> 58118E89F3A912897C070ADBF76221572C52609D</div></pre></td></tr></table></figure>
+<figure class="highlight routeros"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">sudo apt-<span class="builtin-name">get</span> update</span><br><span class="line">sudo apt-<span class="builtin-name">get</span> install apt-transport-https ca-certificates</span><br><span class="line">sudo apt-<span class="builtin-name">get</span> install linux-image-extra-$(uname -r)</span><br></pre></td></tr></table></figure>
+<p>E adicione a GPG Key - se você não sabe o que é uma GPG, <a href="https://pt.wikipedia.org/wiki/GNU_Privacy_Guard" target="_blank" rel="noopener">clique aqui</a>:</p>
+<figure class="highlight jboss-cli"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">sudo apt-key adv <span class="params">--keyserver</span> hkp:<span class="string">//p80.pool.sks-keyservers.net</span><span class="function">:80</span> <span class="params">--recv-keys</span> 58118E89F3A912897C070ADBF76221572C52609D</span><br></pre></td></tr></table></figure>
 <p>Abra o arquivo <code>/etc/apt/sources.list.d/docker.list</code> ou, caso o mesmo não exista, crie ele com o comando:</p>
-<figure class="highlight stylus"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">sudo vi /etc/apt/sources<span class="selector-class">.list</span><span class="selector-class">.d</span>/docker.list</div></pre></td></tr></table></figure>
+<figure class="highlight stylus"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">sudo vi /etc/apt/sources<span class="selector-class">.list</span><span class="selector-class">.d</span>/docker.list</span><br></pre></td></tr></table></figure>
 <p>Você pode usar o <code>gedit</code> no lugar do VI se preferir.</p>
 <p>Apague o conteúdo desse arquivo.</p>
 <p>Supondo que você esteja utilizando a versão 14.04 (LTS) do Ubuntu, cole o seguinte conteúdo:</p>
-<figure class="highlight groovy"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">deb <span class="string">https:</span><span class="comment">//apt.dockerproject.org/repo ubuntu-trusty main</span></div></pre></td></tr></table></figure>
-<p>Se for outra versão, verifique <a href="https://docs.docker.com/engine/installation/linux/ubuntulinux/" target="_blank" rel="external">aqui</a> o comando correto no item 7.</p>
+<figure class="highlight groovy"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">deb <span class="string">https:</span><span class="comment">//apt.dockerproject.org/repo ubuntu-trusty main</span></span><br></pre></td></tr></table></figure>
+<p>Se for outra versão, verifique <a href="https://docs.docker.com/engine/installation/linux/ubuntulinux/" target="_blank" rel="noopener">aqui</a> o comando correto no item 7.</p>
 <p>Agora vamos atualizar o Sistema novamente e remover qualquer instalação anterior do Docker:</p>
-<figure class="highlight routeros"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line">sudo apt-<span class="builtin-name">get</span> update</div><div class="line">sudo apt-<span class="builtin-name">get</span> purge lxc-docker</div></pre></td></tr></table></figure>
+<figure class="highlight routeros"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">sudo apt-<span class="builtin-name">get</span> update</span><br><span class="line">sudo apt-<span class="builtin-name">get</span> purge lxc-docker</span><br></pre></td></tr></table></figure>
 <p>Agora sim, instale o Docker:</p>
-<figure class="highlight routeros"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">sudo apt-<span class="builtin-name">get</span> install docker-engine</div></pre></td></tr></table></figure>
+<figure class="highlight routeros"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">sudo apt-<span class="builtin-name">get</span> install docker-engine</span><br></pre></td></tr></table></figure>
 <p>Para inicializar o Docker, usamos o comando:</p>
-<figure class="highlight routeros"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">sudo<span class="built_in"> service </span>docker start</div></pre></td></tr></table></figure>
+<figure class="highlight routeros"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">sudo<span class="built_in"> service </span>docker start</span><br></pre></td></tr></table></figure>
 <p>Para verificar se está tudo rodando certinho, execute o container de <em>Hello World</em> do Docker:</p>
-<figure class="highlight dockerfile"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">sudo docker <span class="keyword">run</span><span class="bash"> hello-world</span></div></pre></td></tr></table></figure>
+<figure class="highlight dockerfile"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">sudo docker <span class="keyword">run</span><span class="bash"> hello-world</span></span><br></pre></td></tr></table></figure>
 <h2 id="Configurando-para-nao-precisar-de-sudo-ao-executar-o-Docker"><a href="#Configurando-para-nao-precisar-de-sudo-ao-executar-o-Docker" class="headerlink" title="Configurando para não precisar de sudo ao executar o Docker"></a>Configurando para não precisar de sudo ao executar o Docker</h2><p>Para não precisar usar o <code>sudo</code> sempre, execute o seguinte:</p>
-<figure class="highlight nginx"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line"><span class="attribute">sudo</span> usermod -aG docker <span class="variable">$USER</span></div></pre></td></tr></table></figure>
+<figure class="highlight nginx"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="attribute">sudo</span> usermod -aG docker <span class="variable">$USER</span></span><br></pre></td></tr></table></figure>
 <p><em>OBS: <code>$USER</code> é uma variável do Shell para o usuário logado, caso esteja configurando para outro usuário, deve colocar o nome dele no lugar disso.</em></p>
 <p>Agora você consegue executar:</p>
-<figure class="highlight dockerfile"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">docker <span class="keyword">run</span><span class="bash"> hello-world</span></div></pre></td></tr></table></figure>
+<figure class="highlight dockerfile"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">docker <span class="keyword">run</span><span class="bash"> hello-world</span></span><br></pre></td></tr></table></figure>
 <p>E pronto! Instalado e configurado. Agora você já pode começar a usar o Docker.</p>
 <p>Logo menos vou postar mais dicas sobre Docker. Fique ligado!</p>
 <p>Compartilhe a palavra.</p>
 <p><strong>Referências:</strong></p>
 <ul>
-<li><a href="https://www.casadocodigo.com.br/products/livro-docker" target="_blank" rel="external">Containers com Docker, do Desenvolvimento a Produção - Casa do Código</a></li>
-<li><a href="https://docs.docker.com/" target="_blank" rel="external">Documentação oficial do Docker</a></li>
-<li><a href="http://www.mundodocker.com.br/o-que-e-docker/" target="_blank" rel="external">Mundo Docker</a></li>
-<li><a href="http://www.meetup.com/pt-BR/docker-sao-paulo/" target="_blank" rel="external">Meetup Docker SP</a></li>
+<li><a href="https://www.casadocodigo.com.br/products/livro-docker" target="_blank" rel="noopener">Containers com Docker, do Desenvolvimento a Produção - Casa do Código</a></li>
+<li><a href="https://docs.docker.com/" target="_blank" rel="noopener">Documentação oficial do Docker</a></li>
+<li><a href="http://www.mundodocker.com.br/o-que-e-docker/" target="_blank" rel="noopener">Mundo Docker</a></li>
+<li><a href="http://www.meetup.com/pt-BR/docker-sao-paulo/" target="_blank" rel="noopener">Meetup Docker SP</a></li>
 </ul>
 
       
@@ -217,16 +217,17 @@
 	<a href="https://twitter.com/w_oliveiras"  target="_blank">
 		<i class="ico twitter"  target="_blank"></i>
 	</a>
-	<a href="https://br.linkedin.com/in/woliveira542"  target="_blank">
+	<a href="https://www.linkedin.com/in/william-oliveira"  target="_blank">
 		<i class="ico linkedin"  target="_blank"></i>
 	</a>
 	<a href="https://github.com/woliveiras"  target="_blank">
 		<i class="ico github"></i>
 	</a>
 </div>
+
   <div id="footer-info">
     <div class="outer">
-      &copy; 2017 Escrito com o <3 por William de Oliveira Desenvolvido com o <a href="http://hexo.io/" target="_blank">Hexo</a>
+      &copy; 2018 Escrito com o <3 por William de Oliveira Desenvolvido com o <a href="http://hexo.io/" target="_blank">Hexo</a>
     </div>
   </div>
 </footer>

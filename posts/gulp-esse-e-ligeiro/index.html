@@ -17,7 +17,7 @@
 <meta property="og:site_name" content="William Oliveira - Desenvolvedor Front End">
 <meta property="og:description" content="Começando com Gulpjs">
 <meta property="og:locale" content="default">
-<meta property="og:updated_time" content="2017-09-13T09:56:51.297Z">
+<meta property="og:updated_time" content="2018-01-11T09:54:21.447Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="Gulp | Esse é ligeiro">
 <meta name="twitter:description" content="Começando com Gulpjs">
@@ -109,23 +109,23 @@
     
     <div class="article-entry" itemprop="articleBody">
       
-        <p>Você é preguiçoso que eu sei! Programadores são preguiçosos… - Nem vem com Mimimi, por que você é sim - É por ser preguiçoso que o programador cria soluções que automatizam as tarefas, algo para agilizar as coisas chatas e sobrar tempo para as coisas legais - Como brincar com uma <a href="https://www.youtube.com/watch?v=wn0OlzoD0Xs" title="Bolinha de papel" target="_blank" rel="external">bolinha de papel</a>. E foi pra automatizar tarefas que surgiu o <a href="http://gruntjs.com/" title="Grunt" target="_blank" rel="external">Grunt</a>.</p>
+        <p>Você é preguiçoso que eu sei! Programadores são preguiçosos… - Nem vem com Mimimi, por que você é sim - É por ser preguiçoso que o programador cria soluções que automatizam as tarefas, algo para agilizar as coisas chatas e sobrar tempo para as coisas legais - Como brincar com uma <a href="https://www.youtube.com/watch?v=wn0OlzoD0Xs" title="Bolinha de papel" target="_blank" rel="noopener">bolinha de papel</a>. E foi pra automatizar tarefas que surgiu o <a href="http://gruntjs.com/" title="Grunt" target="_blank" rel="noopener">Grunt</a>.</p>
 <p>Grunt? Não era Gulp?<a id="more"></a></p>
 <h4 id="Automatizacao"><a href="#Automatizacao" class="headerlink" title="Automatização"></a>Automatização</h4><p>Quem trabalha com infra (<a href="http://woliveiras.com.br/voce-faz-o-que-voce-gosta/" title="Você faz o que você gosta?">Como eu trabalhava</a>) deve saber que da pra automatizar muita coisa com Scripts, tanto com Shell Script quanto com Powershell - Famosos arquivos .sh ou .bat - E hoje isso está acontecendo, também, no Front End.</p>
 <p>Algumas tarefas são essenciais para deixar sua aplicação melhor, como minificar o JS e CSS, fazer testes e verificar erros no código por exemplo e foi pra facilitar nossa vida que surgiu o Grunt. Com ele nós evitamos aqueles trampos repetitivos. É tipo o Rake no Ruby.</p>
 <h4 id="Entao-pra-que-usar-esse-tal-de-Gulp-se-ja-tem-o-Grunt"><a href="#Entao-pra-que-usar-esse-tal-de-Gulp-se-ja-tem-o-Grunt" class="headerlink" title="Então pra que usar esse tal de Gulp se já tem o Grunt?"></a>Então pra que usar esse tal de Gulp se já tem o Grunt?</h4><p>Por que o Gulp é mais rápido e mais fácil de ser configurado. O Grunt é da hora, porém o gulpfile, que é equivalente ao gruntfile, é mais fácil se você já conhece a sintaxe do Nodejs, por exemplo, vai entender o gulpfile com muito mais facilidade e o Gulp tem uma performance melhor.</p>
 <h4 id="Instalacao"><a href="#Instalacao" class="headerlink" title="Instalação"></a>Instalação</h4><p>Facinho! Se você tem o <a href="http://woliveiras.com.br/node-js-instalacao/" title="Um pouquinho de Node.js (Intro e Instalação)">Node.js instalado</a>, então execute o comando:</p>
-<figure class="highlight cmake"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">npm <span class="keyword">install</span> -g gulp</div></pre></td></tr></table></figure>
+<figure class="highlight cmake"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">npm <span class="keyword">install</span> -g gulp</span><br></pre></td></tr></table></figure>
 <p>Porém essa só é a instalação do CLI do Gulp pra que o mesmo possa ser executado pela linha de comando via terminal. Quando for usar o Gulp no projeto, você deve rodar esse comando de novo dentro do repositório:</p>
-<figure class="highlight cmake"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">npm <span class="keyword">install</span> gulp</div></pre></td></tr></table></figure>
+<figure class="highlight cmake"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">npm <span class="keyword">install</span> gulp</span><br></pre></td></tr></table></figure>
 <p>Para facilitar, na hora em que for instalar plug-ins no repositório do seu projeto, instale tudo de uma vez, por exemplo:</p>
-<figure class="highlight mipsasm"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">npm <span class="keyword">install </span>gulp gulp-<span class="keyword">jshint </span>gulp-uglify</div></pre></td></tr></table></figure>
+<figure class="highlight mipsasm"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">npm <span class="keyword">install </span>gulp gulp-<span class="keyword">jshint </span>gulp-uglify</span><br></pre></td></tr></table></figure>
 <h4 id="Utilizando"><a href="#Utilizando" class="headerlink" title="Utilizando"></a>Utilizando</h4><p>Você deve criar o gulpfile dentro do repositório do seu projeto, parecido como bower.json, porém você irá salvar o arquivo com a extensão <strong>.js</strong>. Olha só um gulpfile basicão:</p>
-<figure class="highlight javascript"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div></pre></td><td class="code"><pre><div class="line"><span class="keyword">var</span> gulp = <span class="built_in">require</span>(<span class="string">'gulp'</span>);</div><div class="line"></div><div class="line">gulp.task(<span class="string">'default'</span>, <span class="function"><span class="keyword">function</span> (<span class="params"></span>) </span>&#123;</div><div class="line"></div><div class="line"><span class="comment">// place code for your default task here</span></div><div class="line"></div><div class="line">&#125;);</div></pre></td></tr></table></figure>
+<figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">var</span> gulp = <span class="built_in">require</span>(<span class="string">'gulp'</span>);</span><br><span class="line"></span><br><span class="line">gulp.task(<span class="string">'default'</span>, <span class="function"><span class="keyword">function</span> (<span class="params"></span>) </span>&#123;</span><br><span class="line"></span><br><span class="line"><span class="comment">// place code for your default task here</span></span><br><span class="line"></span><br><span class="line">&#125;);</span><br></pre></td></tr></table></figure>
 <p>Aqui já da pra entender mais ou menos né?</p>
 <p>Com o gulpfile.js dentro do repositório é só rodar o comando e as tarefas que estiverem na listinha serão executadas. Maneiro né?</p>
 <p>Se você quiser rodar uma task específica no lugar de rodar tudo o que estiver no arquivo basta rodar gulp e o nome da task.</p>
-<h4 id="Mas-nao-pare-por-aqui-vale-a-pena-dar-uma-conferida-nessa-outra-dica"><a href="#Mas-nao-pare-por-aqui-vale-a-pena-dar-uma-conferida-nessa-outra-dica" class="headerlink" title="Mas não pare por aqui, vale a pena dar uma conferida nessa outra dica"></a>Mas não pare por aqui, vale a pena dar uma conferida nessa outra dica</h4><p>O Gulp possui algumas tarefas básicas que precisamos entender, e elas estão <a href="https://github.com/gulpjs/gulp/blob/master/docs/API.md" target="_blank" rel="external">aqui</a>.</p>
+<h4 id="Mas-nao-pare-por-aqui-vale-a-pena-dar-uma-conferida-nessa-outra-dica"><a href="#Mas-nao-pare-por-aqui-vale-a-pena-dar-uma-conferida-nessa-outra-dica" class="headerlink" title="Mas não pare por aqui, vale a pena dar uma conferida nessa outra dica"></a>Mas não pare por aqui, vale a pena dar uma conferida nessa outra dica</h4><p>O Gulp possui algumas tarefas básicas que precisamos entender, e elas estão <a href="https://github.com/gulpjs/gulp/blob/master/docs/API.md" target="_blank" rel="noopener">aqui</a>.</p>
 <p>Depois de entender isso é só dar uma pesquisada na forma em que outras pessoas estão usando o Gulp para agilizar. Por exemplo:</p>
 <p>Se eu quiser saber algum plugin para minificar os arquivos basta pesquisar no Google:</p>
 <blockquote>
@@ -178,16 +178,17 @@
 	<a href="https://twitter.com/w_oliveiras"  target="_blank">
 		<i class="ico twitter"  target="_blank"></i>
 	</a>
-	<a href="https://br.linkedin.com/in/woliveira542"  target="_blank">
+	<a href="https://www.linkedin.com/in/william-oliveira"  target="_blank">
 		<i class="ico linkedin"  target="_blank"></i>
 	</a>
 	<a href="https://github.com/woliveiras"  target="_blank">
 		<i class="ico github"></i>
 	</a>
 </div>
+
   <div id="footer-info">
     <div class="outer">
-      &copy; 2017 Escrito com o <3 por William de Oliveira Desenvolvido com o <a href="http://hexo.io/" target="_blank">Hexo</a>
+      &copy; 2018 Escrito com o <3 por William de Oliveira Desenvolvido com o <a href="http://hexo.io/" target="_blank">Hexo</a>
     </div>
   </div>
 </footer>

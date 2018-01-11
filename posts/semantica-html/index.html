@@ -18,7 +18,7 @@
 <meta property="og:description" content="Boas práticas em HTML Semântica. Como escrever HTML direito.">
 <meta property="og:locale" content="default">
 <meta property="og:image" content="http://woliveiras.com.br//public/images/HTML.png">
-<meta property="og:updated_time" content="2017-09-13T09:56:51.297Z">
+<meta property="og:updated_time" content="2018-01-11T09:54:21.451Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="Semântica HTML">
 <meta name="twitter:description" content="Boas práticas em HTML Semântica. Como escrever HTML direito.">
@@ -114,13 +114,13 @@
         <div class="shared-img"><br><img src="../..//public/images/HTML.png" alt=""><br></div>
 
 <p>Quando estamos iniciando os estudos na área de Web aprendemos semântica e, as vezes, nem temos noção da importância disso. Aprendemos que cada tag HTML serve para alguma coisa: <strong>&lt;title&gt;</strong> para o título da página (Aquele que aparece na aba do navegador), <strong>&lt;p&gt;</strong> para parágrafos, <strong>&lt;h1,2,3,…&gt;</strong> para títulos do conteúdo, etc.<a id="more"></a><br>Porém, com o tempo, algumas pessoas param de utilizar essas tags e começam a bagunçar tudo! Usam o <strong>h1</strong> pra deixar um texto maior que o outro e não para o título em questão, usam várias tags <strong>p</strong> separando o conteúdo de uma lista em uma div com uma class <em>“list”</em>, por ai vai! Vira uma salada no HTML.<br>Isso é ruim tanto para quem vai ler seu código depois, quanto para buscadores e leitores de tela.</p>
-<h2 id="Qual-a-importancia-da-semantica-no-HTML"><a href="#Qual-a-importancia-da-semantica-no-HTML" class="headerlink" title="Qual a importância da semântica no HTML?"></a>Qual a importância da semântica no HTML?</h2><p>A semântica será importante para que o seu conteúdo tenha sentido mesmo que não tenha nenhum estilo visual. Semântica é o significado da coisa! É graças a semântica que sua página vai indexar legal ou não nos buscadores. Não somente por isso, a semântica ajuda na <strong>acessibilidade</strong> de sua página ou aplicação - Ponto que eu acho mais importante.<br>O Crawler do Google não vai ver se sua página está bonitinha, mas vai ler seu HTML e indexar conforme o conteúdo esteja estruturado. Um leitor de tela também não vai ficar falando pra pessoa com necessidades especiais que determinado botão é uma lixeira ou um xiszinho vermelho, mas vai ler as tags e identificar o que você escreveu no atributo <strong>&lt;alt&gt;</strong> e falar para o usuário.<br>Faça um teste: Instale a extensão que eu indiquei <a href="/posts/extensoes-navegador-desenvolvimento-web/" title="Extensões do Navegador para Desenvolvimento Web">nesse artigo</a>, o <a href="https://chrome.google.com/webstore/detail/chromevox/kgejglhpjiefppelpmljglcjbhoiplfn" title="ChromeVox" target="_blank" rel="external">ChromeVox</a> e ative ela para que leia as páginas pra você. Da uma navegada em alguns sites por ai e veja se conseguiria entender de uma forma legal o que o leitor diz.<br>Esses foram só alguns dos tópicos que podemos levantar a respeito da importância da Semântica…</p>
-<h2 id="E-como-escrever-um-HTML-semantico"><a href="#E-como-escrever-um-HTML-semantico" class="headerlink" title="E como escrever um HTML semântico?"></a>E como escrever um HTML semântico?</h2><p>Não é difícil, basta você utilizar as tags para o que elas foram feitas.<br>O HTML serve para <a href="https://www.eventials.com/locaweb/diego-eis-a-semantica-do-html-5/" target="_blank" rel="external">organizar a informação</a>. Use pra isso.<br>Quando for estruturar um documento HTML, analise o Layout e identifique os elementos de conteúdo da interface.</p>
+<h2 id="Qual-a-importancia-da-semantica-no-HTML"><a href="#Qual-a-importancia-da-semantica-no-HTML" class="headerlink" title="Qual a importância da semântica no HTML?"></a>Qual a importância da semântica no HTML?</h2><p>A semântica será importante para que o seu conteúdo tenha sentido mesmo que não tenha nenhum estilo visual. Semântica é o significado da coisa! É graças a semântica que sua página vai indexar legal ou não nos buscadores. Não somente por isso, a semântica ajuda na <strong>acessibilidade</strong> de sua página ou aplicação - Ponto que eu acho mais importante.<br>O Crawler do Google não vai ver se sua página está bonitinha, mas vai ler seu HTML e indexar conforme o conteúdo esteja estruturado. Um leitor de tela também não vai ficar falando pra pessoa com necessidades especiais que determinado botão é uma lixeira ou um xiszinho vermelho, mas vai ler as tags e identificar o que você escreveu no atributo <strong>&lt;alt&gt;</strong> e falar para o usuário.<br>Faça um teste: Instale a extensão que eu indiquei <a href="/posts/extensoes-navegador-desenvolvimento-web/" title="Extensões do Navegador para Desenvolvimento Web">nesse artigo</a>, o <a href="https://chrome.google.com/webstore/detail/chromevox/kgejglhpjiefppelpmljglcjbhoiplfn" title="ChromeVox" target="_blank" rel="noopener">ChromeVox</a> e ative ela para que leia as páginas pra você. Da uma navegada em alguns sites por ai e veja se conseguiria entender de uma forma legal o que o leitor diz.<br>Esses foram só alguns dos tópicos que podemos levantar a respeito da importância da Semântica…</p>
+<h2 id="E-como-escrever-um-HTML-semantico"><a href="#E-como-escrever-um-HTML-semantico" class="headerlink" title="E como escrever um HTML semântico?"></a>E como escrever um HTML semântico?</h2><p>Não é difícil, basta você utilizar as tags para o que elas foram feitas.<br>O HTML serve para <a href="https://www.eventials.com/locaweb/diego-eis-a-semantica-do-html-5/" target="_blank" rel="noopener">organizar a informação</a>. Use pra isso.<br>Quando for estruturar um documento HTML, analise o Layout e identifique os elementos de conteúdo da interface.</p>
 <p><strong>O que é o que?</strong></p>
 <p>Faça a si perguntas desse tipo quando for estruturar: O que nessa tela se encaixa como um título(H1)? O que se encaixa como um subtítulo(H2)? Onde se encaixa como parágrafo? Como eu posso fazer para que uma pessoa que não enxerga saiba pra que serve esse botão vermelho?<br>Procure envolver o conteúdo com as tags corretas. Caso tenha dúvidas, procure na documentação, pesquise no Google.<br>Garanto que nada é mais recompensador que receber um elogio de um deficiente visual que consegue entender seu conteúdo sem dificuldades.<br>Alguns links úteis para entender sobre semântica:</p>
-<p><a href="http://www.uxdesign.blog.br/padroes-web/html5/entendo-a-estrutura-e-a-semantica-do-html5/" title="A estrutura e a semântica do HTML5" target="_blank" rel="external">A estrutura e a semântica do HTML5 - UXDesign Blog</a></p>
-<p><a href="http://pt.slideshare.net/diegoeis/a-verdadeira-semntica-do-html5" title="A verdadeira semântica do HTML" target="_blank" rel="external">A verdadeira semântica do HTML - Diego Eis</a></p>
-<p><a href="http://desenvolvimentoparaweb.com/html/microdata-api-schema-org-significado-html/" title="Microdata API e Schema.org: dando significado ao HTML" target="_blank" rel="external">Microdata - Desenvolvimento para Web</a></p>
+<p><a href="http://www.uxdesign.blog.br/padroes-web/html5/entendo-a-estrutura-e-a-semantica-do-html5/" title="A estrutura e a semântica do HTML5" target="_blank" rel="noopener">A estrutura e a semântica do HTML5 - UXDesign Blog</a></p>
+<p><a href="http://pt.slideshare.net/diegoeis/a-verdadeira-semntica-do-html5" title="A verdadeira semântica do HTML" target="_blank" rel="noopener">A verdadeira semântica do HTML - Diego Eis</a></p>
+<p><a href="http://desenvolvimentoparaweb.com/html/microdata-api-schema-org-significado-html/" title="Microdata API e Schema.org: dando significado ao HTML" target="_blank" rel="noopener">Microdata - Desenvolvimento para Web</a></p>
 <p>Espero ter ajudado a entender um pouco mais sobre o assunto e, se você já conhecia e não praticava, te convencido a utilizar as tags da maneira correta! :D<br>Alguma dúvida, link sobre o assunto ou sugestão? Comenta ae!</p>
 
       
@@ -168,16 +168,17 @@
 	<a href="https://twitter.com/w_oliveiras"  target="_blank">
 		<i class="ico twitter"  target="_blank"></i>
 	</a>
-	<a href="https://br.linkedin.com/in/woliveira542"  target="_blank">
+	<a href="https://www.linkedin.com/in/william-oliveira"  target="_blank">
 		<i class="ico linkedin"  target="_blank"></i>
 	</a>
 	<a href="https://github.com/woliveiras"  target="_blank">
 		<i class="ico github"></i>
 	</a>
 </div>
+
   <div id="footer-info">
     <div class="outer">
-      &copy; 2017 Escrito com o <3 por William de Oliveira Desenvolvido com o <a href="http://hexo.io/" target="_blank">Hexo</a>
+      &copy; 2018 Escrito com o <3 por William de Oliveira Desenvolvido com o <a href="http://hexo.io/" target="_blank">Hexo</a>
     </div>
   </div>
 </footer>
