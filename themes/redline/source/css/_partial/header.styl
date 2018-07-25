@@ -1,12 +1,12 @@
 #header
   position: relative
-  border-top: 2px solid #DE1B1B
+  border-top: 2px solid color-default
   height: 260px
 
 #header-outer
   height: 100%
   position: relative
-  max-width: 920px
+  max-width: 720px
 
 #header-inner
   position: relative
@@ -24,7 +24,7 @@
 
 $logo-text
   text-decoration: none
-  color: #DE1B1B
+  color: color-default
   font-weight: bold
 
 #header-title
@@ -38,7 +38,7 @@ $logo-text
     display: block
     @extend $logo-text
     &:hover
-      color: color-link
+      color: color-link-active
 
 #logo
   display: block
@@ -63,12 +63,12 @@ $logo-text
 
 $nav-link
   float: left
-  color: #DE1B1B
+  color: color-link
   text-decoration: none
   display: block
   padding: 20px 15px
   &:hover
-    color: color-link
+    color: color-link-active
     font-style: italic
 
 .nav-icon
@@ -98,7 +98,7 @@ $nav-link
 
 #nav-rss-link
   svg
-    fill: #de1b1b
+    fill: color-default
     width: 30px
 
 #nav-search-btn
