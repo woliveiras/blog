@@ -66,10 +66,8 @@ Muitos projetos precisam de tradução para outros idiomas, no nosso caso para p
 Se você está aprendendo o Inglês e precisa treinar também é uma ótima opção.
 Você pode traduzir tanto a documentação quanto as interfaces (Quando é um CMS ou algum Sistema/Aplicação/Solução).
 
-### Bônus: Como criar um Pull Request no Github
+## Conclusão
 
-Se você não domina o Github ou não sabe criar um Pull Request, então confere esse vídeo do [Suissa ](https://twitter.com/osuissa "@osuissa")ensinando fazer isso:
+Existem diversas maneiras de contribuir, basta que criemos coragem e façamos algo!
 
-<div class="video-container">
-<iframe width="420" height="315" src="https://www.youtube.com/embed/E8MPe6tCMo8" frameborder="0" allowfullscreen></iframe>
-</div>
+Porém não faça por senso de obrigação. Ajudar as comunidades deve ser orgânico e não algo forçado.
