@@ -1,9 +1,8 @@
 title: 'A pirataria me trouxe até aqui'
-date: 2018-07-29 07:00:34
+date: 2018-07-29 07:00:00
 tags:
     - dicas
-    - carreira
-description: Existe algo que é quase inerente a toda sociedade: se existe uma lei, ela será desafiada ou quebrada por uma parcela de pessoas
+description: Sobre como a pirataria me provel meios para estudar e hoje estou aqui
 ---
 
 Existe algo que é quase inerente a toda sociedade: se existe uma lei, ela será desafiada ou quebrada por uma parcela de pessoas.<!-- more -->
