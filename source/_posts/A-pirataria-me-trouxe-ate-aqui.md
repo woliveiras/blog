@@ -44,7 +44,7 @@ Como o exemplo da série Atlanta, temos uma cena que conta muito sobre a realida
 - Eu sou pobre, Darius.
 - E os pobres não têm tempo para investimentos, porque estamos muito ocupados tentando não ser pobres. Tenho que comer hoje, não em setembro.
 
-![Atlanta](https://s8.postimg.cc/lis9kosc5/atlanta.jpg)](https://postimg.cc/image/v3bw7kho1/)
+[![atlanta.jpg](https://s8.postimg.cc/lis9kosc5/atlanta.jpg)](https://postimg.cc/image/v3bw7kho1/)
 
 Mas podemos pensar: poxa, mesmo que muito conteúdo é pago, uma grande parcela de pessoas gera conteúdo gratuito, ensina de graça na internet!
 
