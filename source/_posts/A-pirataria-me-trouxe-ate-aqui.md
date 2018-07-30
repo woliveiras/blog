@@ -7,13 +7,13 @@ description: Sobre como a pirataria me proveu meios para estudar e hoje estou aq
 
 Existe algo que é quase inerente a toda sociedade: se existe uma lei, ela será desafiada ou quebrada por uma parcela de pessoas.
 
-Quanto a direitos autorais, existem leis contra o compartilhamento ou cópia de qualquer material protegido por licença autoral sem o pagamento dos direitos autorais ao indivíduo ou entidade que criou o objeto, **seja esse compartilhamento feito de maneira gratuita ou não**. Ou seja, quando baixamos um livro ou um curso pago por meios ilegais (como aquele link do Dropbox, Google Drive, One Drive) estamos cometendo um crime muito parecido com o roubo.
+Quanto a direitos autorais, existem leis contra o compartilhamento ou cópia de qualquer material protegido por licença autoral sem o pagamento dos direitos autorais ao indivíduo ou entidade que criou o objeto, **seja esse compartilhamento feito de maneira gratuita ou não**. Ou seja, quando baixamos um livro ou um curso pago por meios ilegais (como aquele link do Dropbox, Google Drive, One Drive) estamos cometendo um crime muito parecido com o roubo.<!-- more -->
 
 A pirataria é um dos atos de roubo/assalto mais antigos da nossa existência, que começou antes de cristo pela linha do tempo histórica do mundo, segundo a Wikipedia:
 
 > Primeiramente a pirataria marítima foi praticada por gregos que roubavam mercadores fenícios e assírios desde pelo menos 735 a.C.
 
-E hoje, a chamada **pirataria moderna** é relacionada a direitos autorais e licenças comerciais de conteúdo, software ou produtos físicos mesmo. Ainda existem os piratas no mar lá fora, porém a pirataria moderna se trata de produtos como CDs, DVDs, séries, filmes, cursos, livros, roupas, medicamentos, etc.<!-- more -->
+E hoje, a chamada **pirataria moderna** é relacionada a direitos autorais e licenças comerciais de conteúdo, software ou produtos físicos mesmo. Ainda existem os piratas no mar lá fora, porém a pirataria moderna se trata de produtos como CDs, DVDs, séries, filmes, cursos, livros, roupas, medicamentos, etc.
 
 Mesmo que só estejamos baixando algo e não compartilhando ele, estamos cometendo uma violação contra os direitos autorais, pois não estamos pagando para o/a autor(a) ou a empresa que criou esse conteúdo e podemos até mesmo tomar um processo caso descubram essa violação.
 
