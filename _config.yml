@@ -72,7 +72,7 @@ feed:
   limit: 20
 
 # Disqus
-disqus_shortname: woliveiras
+# disqus_shortname: woliveiras
 
 # Deployment
 ## Docs: http://hexo.io/docs/deployment.html
