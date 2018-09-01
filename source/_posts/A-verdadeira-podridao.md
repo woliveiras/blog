@@ -10,7 +10,7 @@ Comunidades de programação são meios muito legais de aprendermos algo novo (r
 
 Eu fui muito ajudado pelas comunidades e continuo usufruindo do conteúdo que algumas pessoas geram até hoje e, por isso, eu amo as comunidades e sempre indico que todos(as) participem o máximo possível dos grupos, eventos e qualquer outra iniciativa que surgir a partir delas.
 
-Estar em um grupo com o mesmo objetivo que o nosso nos fortalece muito! Porém, mesmo sendo algo tão importante, existem maneiras de desvirtuar esse ambiente e o tornar tóxico. Vamos chamar isso de **podridão**.
+Estar em um grupo com o mesmo objetivo que o nosso nos fortalece muito! Porém, mesmo sendo algo tão importante, existem maneiras de desvirtuar esse ambiente e o tornar tóxico. Vamos chamar isso de **podridão**. <!--more-->
 
 Em algum momento da história, as comunidades foram tomadas por pessoas que só pensam em si mesmas, que escondem a verdade atrás dos seus tweets forçados jogando a sujeira pra debaixo do tapete.
 
