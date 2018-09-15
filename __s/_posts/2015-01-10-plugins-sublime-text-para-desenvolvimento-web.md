@@ -1,26 +1,21 @@
 ---
+layout: post
 title: Plugins do Sublime Text para Desenvolvimento Web
 tags:
-  - Configuração Sublimetext
-  - Dicas
-  - Sublimetext
-  - Plugins
+  - ferramentas
+  - frontend
 categories:
-  - Configuração Sublimetext
-  - Dicas
-  - Sublimetext
-  - Plugins
+  - ferramentas
+  - frontend
 date: 2015-01-10 19:23:31
 description:  Plugins do Sublime Text para Desenvolvimento Web Front End
 ---
 
-<div class="shared-img">
-![sublime text](../../public/images/sublime.png)
-</div>
-
 Em meus posts anteriores eu deixei algumas dicas de [configuração](/posts/instalando-o-sublime-text-no-ubuntu/ "Dicas de instalação e configuração do Sublime Text") do Sublime e instalação no Ubuntu, [alguns atalhos legais](/posts/usando-o-sublime-text/ "Atalhos do Sublime"). Agora vou citar alguns plugins que eu utilizo no dia-a-dia para melhor aproveitar o editor.
 
 <!--more-->
+
+![sublime text]({{site.url}}/images/sublime.png)
 
 Para instalar plugins no Sublime você já sabe que é pelo Package Control que instalamos anteriormente no Post de [configuração](/posts/instalando-o-sublime-text-no-ubuntu/ "Dicas de instalação e configuração do Sublime Text").
 Então pressione **Ctrl + Shift +P** e digite **Install**.
@@ -61,12 +56,8 @@ Você conhece algum outro plugin maneiro? Comenta ae.
 
 Referências:
 
-[css-tricks.com/sublime-text-front-end-developers](http://css-tricks.com/sublime-text-front-end-developers/)
-
-[martineau.tv/2014/07/sublime-text-for-front-end-development](http://martineau.tv/2014/07/sublime-text-for-front-end-development/)
-
-[github.com/kemayo/sublime-text-2-clipboard-history](https://github.com/kemayo/sublime-text-2-clipboard-history)
-
-[github.com/BoundInCode/AutoFileName](https://github.com/BoundInCode/AutoFileName)
-
-[github.com/colinta/SublimeFileDiffs](https://github.com/colinta/SublimeFileDiffs)
+* <css-tricks.com/sublime-text-front-end-developers>
+* <martineau.tv/2014/07/sublime-text-for-front-end-development>
+* <github.com/kemayo/sublime-text-2-clipboard-history>
+* <github.com/BoundInCode/AutoFileName>
+* <github.com/colinta/SublimeFileDiffs>
