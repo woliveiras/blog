@@ -1,28 +1,27 @@
 ---
+layout: post
 title: Instalando o Sublime Text no Ubuntu
 tags:
-  - Configuração do Sublimetext
-  - Instalação Sublimetext
-  - Sublimetext
+  - frontend
+  - ferramentas
 categories:
-  - Dicas
-  - Sublimetext
+  - frontend
+  - ferramentas
 date: 2015-01-10 19:23:40
 description: Como instalar o Sublime Text no Ubuntu
 ---
-<div class="shared-img">
-![sublime text](../../public/images/sublime.png)
-</div>
 
 Quem me conhece sabe que eu sou um fã do Sublime Text por ele ser um editor excelente com muitos plugins úteis e por isso eu já fiz uma [introdução anteriormente](/posts/usando-o-sublime-text/ "Usando o Sublime Text") sobre o editor e por que eu gosto dele.
 
 Se você usa Ubuntu ou derivados do Debian, vou ensinar como instalar o editor e configurar sem dor de cabeça. :)<!--more-->
 
+![sublime text]({{site.url}}/images/sublime.png)
+
 ## Pelo Terminal
 
 Abra o terminal (Ctrl + Alt + T) e execute o seguinte comando:
 
-```
+```shell
 sudo add-apt-repository ppa:webupd8team/sublime-text-3 && sudo apt-get update && sudo apt-get install sublime-text-installer
 ```
 
@@ -30,7 +29,7 @@ sudo add-apt-repository ppa:webupd8team/sublime-text-3 && sudo apt-get update &
 
 Entre no [site do Sublime Text](http://www.sublimetext.com/ "Sublime Text") e clique na arquitetura que utiliza (32 ou 64), após download é só dar um double click em cima do arquivo ou cambiar até a pasta pelo terminal e executar:
 
-```
+```shell
 sudo dpkg -i
 ```
 
@@ -48,7 +47,7 @@ Quando precisar de espaço na tela, use **Ctrl + K + B** e a barra lateral será
 
 Clique em **Preferences → Settings – User**. Vai abrir um arquivo de texto com os parâmetros do Sublime. O nome dos parâmetros são auto explicativos, mas se tiver dúvidas pode deixar um comentário que eu te ajudo. O meu está assim:
 
-```
+```shell
 {
   "font_face": "Ubuntu",
   "font_size": 12,
