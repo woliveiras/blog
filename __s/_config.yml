@@ -5,13 +5,13 @@ subtitle: Pintor de software
 description: Um blog sobre Desenvolvimento de Software, Front End, HTML, CSS, Sass, Stylus, JavaScript, Nodejs, Linux até Ferramentas e Metodologias de Desenvolvimento para iniciantes ou avançados!
 author: William de Oliveira
 timezone: America/Sao_Paulo
-baseurl: "/" # the subpath of your site, e.g. /blog
+baseurl: "" # the subpath of your site, e.g. /blog
 url: https://woliveiras.com.br
 language: "pt-br"
 paginate: 5 # Number of posts on each page
 paginate_path: "/page/:num" # links format for pagination
 date_format: "%b %-d, %Y"  # dateformat of reading list, post date, and more
-permalink: posts/:title/ # use to url friendly
+permalink: /posts/:title/ # use to url friendly
 display-author-front-page: # True if you need show author name and site on home page
 display-author-post-page: true # Very usual for guest posts and the infos of author are writen in header of post.md, by default show infos of user settings
 
