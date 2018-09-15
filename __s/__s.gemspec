@@ -18,7 +18,9 @@ Gem::Specification.new do |spec|
     f.match(%r{^((_includes|_layouts|_sass|assets)/|(LICENSE|README|about|archive|categories|contact|index|tags|robots|screenshot)((\.(txt|md|markdown|html|png)|$)))}i)
   end
 
-  spec.add_development_dependency "jekyll", "~> 3.2"
+  spec.add_runtime_dependency "jekyll", "~> 3.5"
+  spec.add_runtime_dependency "jekyll-feed", "~> 0.9"
+  spec.add_runtime_dependency "jekyll-seo-tag", "~> 2.1"
   spec.add_development_dependency "bundler", "~> 1.12"
   spec.add_development_dependency "rake", "~> 10.0"
 end

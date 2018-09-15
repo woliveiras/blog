@@ -1,8 +1,3 @@
-PATH
-  remote: .
-  specs:
-    dunders (1.0.4)
-
 GEM
   remote: https://rubygems.org/
   specs:
@@ -29,6 +24,8 @@ GEM
     jekyll-paginate (1.1.0)
     jekyll-sass-converter (1.5.1)
       sass (~> 3.4)
+    jekyll-seo-tag (2.5.0)
+      jekyll (~> 3.3)
     jekyll-sitemap (1.1.1)
       jekyll (~> 3.3)
     jekyll-watch (1.5.1)
@@ -60,14 +57,13 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
-  bundler (~> 1.12)
-  dunders!
-  jekyll (~> 3.2)
   jekyll-compose
   jekyll-feed
   jekyll-paginate
+  jekyll-seo-tag
   jekyll-sitemap
-  rake (~> 10.0)
+  rake
+  rouge
 
 BUNDLED WITH
    1.15.4

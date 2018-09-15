@@ -70,7 +70,7 @@ footer-menu:
 
 # Build settings
 
-# incremental: true
+incremental: true
 markdown: kramdown
 highlighter: rouge
 sitemap: true # Generate sitemap.xml
@@ -83,7 +83,19 @@ sass:
 ## For more settings: https://jekyllrb.com/docs/configuration/
 
 # exclude files if no need build
-exclude: ['package.json', 'node_modules', 'README.md', 'LICENSE']
+exclude: [
+    'package.json',
+    'node_modules',
+    'README.md',
+    'LICENSE',
+    'Gemfile',
+    'Gemfile.lock'
+]
 
 # Gems
-gems: [jekyll-paginate, jekyll-sitemap, jekyll-feed]
+gems: [
+    jekyll-paginate,
+    jekyll-sitemap,
+    jekyll-feed,
+    jekyll-seo-tag
+]
