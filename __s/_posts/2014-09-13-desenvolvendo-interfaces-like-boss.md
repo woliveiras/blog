@@ -1,14 +1,15 @@
 ---
+layout: post
 title: 'Interfaces like a boss!'
 categories:
-  - HTML
-  - CSS
-  - Front End
+  - frontend
+  - html
+  - css
 date: 2014-09-13 20:00:58
 tags:
-  - HTML
-  - CSS
-  - Front End
+  - frontend
+  - html
+  - css
 description: Como organizar e desenvolver uma interface
 ---
 
@@ -16,19 +17,19 @@ description: Como organizar e desenvolver uma interface
 
 ## Começando: Os 3 principais elementos da Interface
 
-![Exemplo de estrutura da interface](../../public/images/estrutura.png)
+![Exemplo de estrutura da interface]({{site.url}}/images/estrutura.png)
 
 Lembre-se de identificar os principais elementos da interface:
 
-*   **Topo**
-*   **Conteúdo**
-*   **Rodapé**
+* **Topo**
+* **Conteúdo**
+* **Rodapé**
 
 Você já deve ter reparado que, acho que todos, os sites na Web possuem um Topo, onde normalmente vai o Logo, os menus, depois vem o conteúdo com o conteúdo propriamente dito e por fim tem o rodapé, onde a galera coloca o Copyright, dados da empresa/site, contato, etc.
 Identifique isso e separe. Vai ajudar muito.
 Ex.:
 
-```
+```html
 <header>Topo</header>
 <div id=”content”>Conteúdo do Site</div>
 <footer>Rodapé<footer>
@@ -48,11 +49,11 @@ Sempre comente seu código, isso faz bem pra saúde. Imagina depois de 1 ano voc
 
 Usar um [Reset CSS](/posts/css-reset-de-varias-maneiras) vai ajudar muito a fazer com que sua interface seja igual em todos os navegadores (Talvez não no IE! Brincadeira).
 
-#### Tente abreviar suas declarações CSS.
+### Tente abreviar suas declarações CSS.
 
 Ao invés de:
 
-```
+```css
 margin-top: 2px;
 margin-right: 3px;
 margin-bottom: 5px;
@@ -61,13 +62,13 @@ margin-left: 9px;
 
 Faça:
 
-```
+```css
 margin: 2px 3px 5px 9px;
 ```
 
-#### Divida seu CSS em sessões.
+### Divida seu CSS em sessões.
 
-```
+```css
 /*------------------------------
 Reset, corpo da página, estilos padrões
 para listas, parágrafos, etc.
@@ -95,16 +96,16 @@ Rodapé
 ------------------------------*/
 ```
 
-#### Primeiro aqui, depois ali, em seguida lá...
+### Primeiro aqui, depois ali, em seguida lá...
 
 Durante o desenvolvimento vá codificando por partes. Faça todo o topo, depois faça o conteúdo, depois o rodapé. Durante o desenvolvimento do Topo, se tiver um menu, faça a estrutura do topo e depois o menu e posicione-o no lugar ceto, em seguida vá pro conteúdo e assim por diante.
 
-#### Testes
+### Testes
 
 Durante o desenvolvimento vá testando o que fizer em todos os navegadores, isso vai agilizar bastante. Imagine, depois de ter feito toda a interface e deixado ela perfeitinha você abre no IE e está tudo quebrado! Putz...
 Ai você modifica só um pouquinho pra funcionar no IE e quando abre em outro navegador já não está mais do jeito que tinha deixado... Que maravilha né?
 
-#### Bônus
+## Bônus
 
 **Que tal testar a velocidade do seu site?**
 
@@ -115,5 +116,7 @@ Dá pra fazer isso[ aqui](http://www.webpagetest.org/ "Web page test") ou [aqu
 Fora as ferramentas dos Browsers, tem [esse site](http://quirktools.com/screenfly/ "Screenfly"), que também é maneiro.
 
 Tem um templatezinho maneiro em HTML5 que ajuda, também, na hora de criar a estrutura do site, é o [HTML5Boilerplate](http://html5boilerplate.com/ "html5boilerplate").
+
 Sempre pense em [performance](http://browserdiet.com/pt/ "Browser Diet"), [SEO](http://moz.com/learn/seo/on-page-factors "SEO"), [Cross Browser](http://pt.wikipedia.org/wiki/Cross-browser "Cross-browser"), [Acessibilidade](http://tableless.com.br/como-tornar-seu-website-acessivel/ "Acessibilidade"), [Usabilidade ](http://viverdeblog.com/18-problemas-usabilidade/ "Usabilidade")e esses termos que você tem ouvido falar muito ultimamente - Eu sei que tem ouvido sim! - pois são itens extremamente necessários para uma boa interface funcionar legal.
+
 Se você tem mais alguma outra dica comenta ae! ;D
