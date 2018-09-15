@@ -51,7 +51,7 @@ vagrant init lucid32
 
 ### Explicação
 
-- **vagrant init ** iniciará uma VM de acordo com as configurações da box que você escolher. Será criado o Vagrantfile no local.
+- **vagrant init** iniciará uma VM de acordo com as configurações da box que você escolher. Será criado o Vagrantfile no local.
 - **lucid32** é a box que eu mandei ele utilizar para criar a VM. As configurações dessa Box serão clonadas para essa nova VM.
 
 Eu recomendo que dê uma olhada no arquivo Vagrantfile para conhecer melhor as configurações, isso fará muita diferença e facilitará futuras configurações.
