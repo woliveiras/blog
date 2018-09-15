@@ -1,32 +1,29 @@
 ---
+layout: post
 title: 'Grunt | Automatizando tarefas'
 tags:
-  - Automatização
-  - Front End
-  - Grunt
-  - Pastel
+  - ferramentas
+  - frontend
 categories:
-  - Ambiente
-  - Automatização
-  - Front End
-  - Grunt
+  - ferramentas
+  - frontend
 date: 2014-12-18 23:34:45
 description: Automatizando tarefas com o Grunt
 ---
 
 Todo processo de desenvolvimento possui algumas tarefas repetitivas como testes, minificação de arquivos, concatenação de arquivos para conseguir modularizar algo, etc.<!--more-->
 
-### O que é o Grunt?
+## O que é o Grunt?
 
 O Grunt é um automatizador de tarefas. Você configura de acordo com o seu [Workflow](https://pt.wikipedia.org/wiki/Fluxo_de_trabalho "Fluxo de trabalho") e deixa ele fazendo essas tarefas repetificas para você. [Mais detalhes sobre o Gruntjs aqui.](http://gruntjs.com/ "Gruntjs").
 
-### Instalação
+## Instalação
 
 Será necessário possuir o Node.js e o NPM instalados em sua máquina. Se não possuir o Nodejs instalado eu recomendo seguir esse tutorial para instalar com o NVM, um [wrapper](https://pt.wikipedia.org/wiki/Wrapper "O que é um Wrapper") para a instalação do Node com separação de versões, parecido com o [Virtualenv](https://virtualenv.pypa.io "Virtualenv Python").
 
 Depois disso você precisa instalar o cliente por linha de comando do Grunt:
 
-```
+```shell
 npm install -g grunt-cli
 ```
 
@@ -36,15 +33,15 @@ Esse **-g** avisa para o NPM que a instalação deve ser Global, isso significa 
 
 Agora é necessário configurar as tarefas que o Grunt irá executar.
 
-### Configurando as tarefas
+## Configurando as tarefas
 
-#### Package.json
+### Package.json
 
 Primeiro, **no diretório do seu projeto**, será necessário possuir o **package.json**, aquele arquivinho de dependências do NPM, pois todo plugin do Grunt que você instalar precisa ser referenciado como dependência nesse arquivo. Isso vai diminuir muito seu trampo depois, pois só com um comando **npm install** será tudo instalado, ao invés de ficar rodando tudo de novo.
 
 Você pode criar manualmente esse arquivo com o ~~Sublimetext~~ seu editor de textos favorito ou rodar o comando:
 
-```
+```shell
 npm init
 ```
 
@@ -52,7 +49,7 @@ Feito isso você pode instalar os plugins no seu projeto (Instalação Local).
 
 Um exemplo de instalação de Plugin (Não precisa fazer isso agora):
 
-```
+```shell
 npm install grunt-contrib-cssmin --save-dev
 ```
 
@@ -60,17 +57,17 @@ Com isso, o plugin seria instalado na pasta do seu projeto e ficaria salvo como 
 
 Para que o Grunt funcione, você precisa telo instalado no projeto (Você tem uma instalação Global do cliente via terminal com o -g e agora vai instalar o Grunt localmente), para isso execute o comando:
 
-```
+```shell
 npm install grunt --save-dev
 ```
 
-#### Gruntfile.js
+### Gruntfile.js
 
 Depois disso, temos tudo pronto para começar a baixar os plugins e configurar o Grunt para rodar eles. A configuração das tarefas do Grunt ficam no arquivo **Gruntfile.js** e você pode criar ele, também, no ~~Sublime~~ seu editor favorito ou com o comando **grunt init**.
 
 Um exemplo de configuração básica do arquivo é o seguinte:
 
-```
+```javascript
 module.exports = function(grunt) {
 // Configuração do Projeto
 grunt.initConfig({
@@ -103,19 +100,19 @@ As tarefas que serão executadas com o comando *grunt (sem passar nenhum parâme
 
 Se você quisesse executar somente a tarefa uglify, poderia rodar o comando grunt com o parâmtro uglify:
 
-```
+```shell
 grunt uglify
 ```
 
 Se existisse outra tarefa com o nome *cssmin*, você executaria *grunt cssmin* ou configuraria a tarefa 'default' para chamar também a cssmin:
 
-```
+```shell
 grunt.registerTask('default', ['uglify', 'cssmin']);
 ```
 
 Um exemplo completo de arquivo Gruntfile.js e, também, do package.json pode ser encontrado aqui no meu boilerplate, o Pastel: https://github.com/woliveiras/pastel
 
-### Dica: O que é instalação Local e Global?
+## Dica: O que é instalação Local e Global
 
 Global é a instalação do Plugin em seu sistema operacional. Assim ele fica disponível em qualquer projeto bastando executar o comando respectivo, como exemplo do [Bower](http://woliveiras.com.br/posts/olha-o-passarinho-falando-sobre-o-bower/ "Olha o passarinho! (Falando sobre o Bower)").
 Local é a instalação do plugin em seu projeto - Na pasta do seu projeto.
@@ -135,10 +132,8 @@ Um exemplo de pesquisa para esse site seria pesquisar por **css** e os plugins q
 
 Referências:
 
-[http://gruntjs.com/getting-started](http://gruntjs.com/getting-started)
-
-[http://simplesideias.com.br/usando-gruntjs](http://simplesideias.com.br/usando-gruntjs)
-
-[http://blog.caelum.com.br/automacao-de-build-de-front-end-com-grunt-js/](http://blog.caelum.com.br/automacao-de-build-de-front-end-com-grunt-js/)
+* <http://gruntjs.com/getting-started>
+* <http://simplesideias.com.br/usando-gruntjs>
+* <http://blog.caelum.com.br/automacao-de-build-de-front-end-com-grunt-js>
 
 Curtiu o Grunt? Comenta ai quais plugins está usando. Deixe sua contribuição para melhorar ainda mais nosso Workflow. ;)
