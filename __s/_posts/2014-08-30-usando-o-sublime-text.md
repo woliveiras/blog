@@ -1,12 +1,10 @@
 ---
+layout: post
 title: Usando o Sublime Text
 tags:
-  - Configuração Sublimetext
-  - Instalação Sublimetext
-  - Sublimetext
+  - ferramentas
 categories:
-  - Dicas
-  - Sublimetext
+  - ferramentas
 date: 2014-08-30 13:30:22
 description: Utilizando o Sublime Text para Desenvolvimento Web Front End
 ---
@@ -15,7 +13,7 @@ O Sublime Text é um editor de texto maneiro que uso a algum tempo para desenvol
 
 No começo eu curti ele só por causa do tema - Sério, só por causa da cor do tema padrão mesmo... -  depois eu comecei a gostar dele por que é desenvolvido em Python - Eu amo Python (A linguagem de programação! Não vem me zoar com negócio de cobra!) -, é multi plataforma e mais um monte de atributos. Conheça melhor [clicando aqui](http://www.sublimetext.com/ "Sublime Text").
 
-**Alguns atalhos e configurações que eu uso**
+## Alguns atalhos e configurações que eu uso
 
 Para abrir um diretório clique em **Folder -&gt; Open Folder**.
 
