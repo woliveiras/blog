@@ -1,3 +1,4 @@
+---
 title: 'Escolha um trabalho que você ame e nunca terá que trabalhar: uma mentira'
 date: 2017-02-11 15:53:38
 tags:

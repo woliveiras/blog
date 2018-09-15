@@ -1,3 +1,4 @@
+---
 title: Metas para 2017 -  vai ter muito JavaScript, Nodejs, ES6 e Haskell esse ano
 date: 2017-01-02 01:11:32
 tags:

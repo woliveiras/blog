@@ -1,3 +1,4 @@
+---
 title: Como deixar o Ubuntu mais rápido
 tags:
   - Ambiente

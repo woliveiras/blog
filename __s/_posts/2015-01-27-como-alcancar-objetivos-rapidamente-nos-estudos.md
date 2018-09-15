@@ -1,3 +1,4 @@
+---
 title: Como alcançar objetivos rapidamente nos estudos (Sem ficar louco)
 tags:
   - Carreira

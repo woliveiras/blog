@@ -1,3 +1,4 @@
+---
 title: 'Aumente sua produtividade e da sua equipe com gamificação e um RPG arretado'
 date: 2016-05-14 15:00:34
 tags:

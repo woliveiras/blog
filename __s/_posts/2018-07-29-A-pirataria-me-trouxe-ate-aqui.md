@@ -1,3 +1,4 @@
+---
 title: 'A pirataria me trouxe até aqui'
 date: 2018-07-29 07:00:00
 tags:

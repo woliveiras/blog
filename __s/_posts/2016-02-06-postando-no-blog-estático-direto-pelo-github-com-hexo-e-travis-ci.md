@@ -1,3 +1,4 @@
+---
 title: Postando no blog estático direto pelo GitHub com Hexo e Travis CI
 date: 2016-02-06 22:00:00
 tags:

@@ -1,3 +1,4 @@
+---
 title: 'Desenvolvedor Front End Iniciante: Trilha/Guia de estudos'
 categories:
   - Carreira

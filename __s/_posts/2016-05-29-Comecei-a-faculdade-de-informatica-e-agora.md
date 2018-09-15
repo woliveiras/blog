@@ -1,3 +1,4 @@
+---
 title: 'Comecei a faculdade de Informática, e agora José?'
 date: 2016-05-29 23:19:11
 tags:

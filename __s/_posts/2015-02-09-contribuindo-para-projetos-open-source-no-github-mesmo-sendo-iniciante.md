@@ -1,3 +1,4 @@
+---
 title: Contribuindo para projetos Open Source no Github mesmo sendo iniciante
 categories:
   - Dicas

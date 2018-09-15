@@ -1,3 +1,4 @@
+---
 title: Links úteis para aprender, se aprofundar ou manter-se atualizado sobre JavaScript
 date: 2016-04-20 06:00:19
 tags:

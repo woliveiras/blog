@@ -1,3 +1,4 @@
+---
 title: 'Vagrant - Como configurar e utilizar'
 categories:
   - Ambiente

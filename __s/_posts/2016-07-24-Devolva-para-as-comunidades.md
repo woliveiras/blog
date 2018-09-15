@@ -1,9 +1,10 @@
+---
 title: Devolva para as comunidades
 date: 2016-07-24 11:50:15
 tags: 
-- comunidade
+    - comunidade
 categories:
-- comunidade
+    - comunidade
 description: Todos os dias usamos as comunidades e coisas que as comunidades criam e, sem perceber, não retribuimos isso.
 ---
 

@@ -1,3 +1,4 @@
+---
 title: 'Livros sobre JavaScript, do iniciante ao avançado e ES6'
 date: 2016-04-19 07:24:08
 tags:

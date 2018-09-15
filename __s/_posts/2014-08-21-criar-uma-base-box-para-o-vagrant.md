@@ -1,3 +1,4 @@
+---
 title: Criar uma base box para o Vagrant
 categories:
   - Ambiente

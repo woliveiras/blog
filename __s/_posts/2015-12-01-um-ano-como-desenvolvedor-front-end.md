@@ -1,3 +1,4 @@
+---
 title: Um ano (ou um pouco mais) como desenvolvedor Front End
 categories:
   - Carreira

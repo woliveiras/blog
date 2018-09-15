@@ -1,3 +1,4 @@
+---
 title: Minificar pra que? Uma breve explicação
 id: 171
 categories:

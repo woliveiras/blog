@@ -1,3 +1,4 @@
+---
 title: 'Gulp | Esse é ligeiro'
 categories:
   - Automatização

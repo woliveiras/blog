@@ -1,3 +1,4 @@
+---
 title: Instalando o Sublime Text no Ubuntu
 tags:
   - Configuração do Sublimetext
@@ -46,7 +47,30 @@ Quando precisar de espaço na tela, use **Ctrl + K + B** e a barra lateral será
 ## Configurações pessoais
 
 Clique em **Preferences → Settings – User**. Vai abrir um arquivo de texto com os parâmetros do Sublime. O nome dos parâmetros são auto explicativos, mas se tiver dúvidas pode deixar um comentário que eu te ajudo. O meu está assim:
-```{  "font_face": "Ubuntu",  "font_size": 12,  "bold_folder_labels": true,  "highlight_line": true,  "highlight_modified_tabs": true,  "ignored_packages":  [    "Vintage"  ],  "rulers":  [    90  ],  "show_full_path": true,  "tab_size": 2,  "translate_tabs_to_spaces": true,  "trim_trailing_white_space_on_save": true,  "word_wrap": true,  "wrap_width": 90}```
+
+```
+{
+  "font_face": "Ubuntu",
+  "font_size": 12,
+  "bold_folder_labels": true,
+  "highlight_line": true,
+  "highlight_modified_tabs": true,
+  "ignored_packages":
+  [
+    "Vintage"
+  ],
+  "rulers":
+  [
+    90
+  ],
+  "show_full_path": true,
+  "tab_size": 2,
+  "translate_tabs_to_spaces": true,
+  "trim_trailing_white_space_on_save": true,
+  "word_wrap": true,
+  "wrap_width": 90
+}
+```
 
 Minhas configurações do Sublime estão disponíveis [aqui](https://github.com/woliveiras/configs/tree/master/sublimetext) também.
 

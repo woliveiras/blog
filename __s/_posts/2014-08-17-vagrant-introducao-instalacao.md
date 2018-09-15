@@ -1,3 +1,4 @@
+---
 title: 'Vagrant - Introdução e Instalação'
 id: 23
 categories:
