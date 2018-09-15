@@ -44,8 +44,6 @@ OBS: Se você usa Windows vai precisar seguir [esse tutorial](/posts/vagrant-no-
 
 Referências:
 
-[http://simplesideias.com.br/usando-o-vagrant-como-ambiente-de-desenvolvimento-no-windows](http://simplesideias.com.br/usando-o-vagrant-como-ambiente-de-desenvolvimento-no-windows)
-
-[http://www.erikaheidi.com/blog/vagrant-101-montando-seu-ambiente-de-desenvolvimento-portatil](http://www.erikaheidi.com/blog/vagrant-101-montando-seu-ambiente-de-desenvolvimento-portatil)
-
-[http://www.akitaonrails.com/2013/10/25/iniciante-criando-um-ambiente-de-desenvolvimento-com-vagrant-e-chef-solo#.U-_1H_ldX2M](http://www.akitaonrails.com/2013/10/25/iniciante-criando-um-ambiente-de-desenvolvimento-com-vagrant-e-chef-solo#.U-_1H_ldX2M)
+* <http://simplesideias.com.br/usando-o-vagrant-como-ambiente-de-desenvolvimento-no-windows>
+* <http://www.erikaheidi.com/blog/vagrant-101-montando-seu-ambiente-de-desenvolvimento-portatil>
+* <http://www.akitaonrails.com/2013/10/25/iniciante-criando-um-ambiente-de-desenvolvimento-com-vagrant-e-chef-solo#.U-_1H_ldX2M>
