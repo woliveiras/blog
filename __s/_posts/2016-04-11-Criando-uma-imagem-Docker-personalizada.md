@@ -1,11 +1,15 @@
 ---
+layout: post
 title: Criando uma imagem Docker personalizada
 date: 2016-04-11 22:18:59
 tags:
-	- docker
-	- virtualização
-	- ambiente
-	- devops
+  - docker
+  - infraestrutura
+  - linux
+categories:
+  - docker
+  - infraestrutura
+  - linux
 description: Criando uma imagem Docker personalizada e conhecendo o Dockerfile.
 ---
 
@@ -25,7 +29,7 @@ Ex.:
 
 Executando um container do [NGINX](https://www.nginx.com/) com o comando para startar o Web Server:
 
-```
+```shell
 docker run -d -p 8080:80 nginx /usr/sbin/nginx -g "daemon off;"
 ```
 
@@ -51,7 +55,7 @@ Você vai subir um container com a imagem do Ubuntu e instalar e configurar o Se
 
 Nosso Dockerfile pode ficar assim:
 
-```
+```shell
 FROM ubuntu
 
 MAINTAINER William de Oliveira Souza <w.oliveira542@gmail.com>
@@ -83,13 +87,13 @@ O parâmetro `FROM` é a imagem que você vai usar como base para a criação de
 
 Você pode usar o nome da imagem, como no exemplo:
 
-```
+```shell
 FROM ubuntu
 ```
 
 Ou com com a tag específica:
 
-```
+```shell
 FROM ubuntu:latest
 ```
 
@@ -99,7 +103,7 @@ FROM ubuntu:latest
 
 Quando você criar sua própria imagem para subir no Docker Hub, vai precisar deixar isso como seu contato para o mundo.
 
-```
+```shell
 MAINTAINER William de Oliveira Souza <w.oliveira542@gmail.com>
 ```
 
@@ -111,14 +115,15 @@ O comando `RUN` serve para executar comandos dentro do seu container, assim que 
 
 No exemplo, estou atualizando o sistema, instalando o NGINX e depois removendo os pacotes que o sistema não vai precisar (para deixar a imagem mais limpa).
 
-```
+```shell
 RUN apt-get update
 
 RUN apt-get install -y nginx && apt-get clean
 ```
+
 Outra forma de executar comandos via Dockerfile é vista mais abaixo, o `ENTRYPOINT` junto com o `CMD`
 
-```
+```shell
 ENTRYPOINT [“/usr/sbin/nginx”]
 
 CMD [“start”, “-g”]
@@ -128,7 +133,7 @@ Aqui estamos inicializando nosso Web Server.
 
 O **ENTRYPOINT** é quem vai receber os comandos passados pelo **CMD**. Caso não use o ENTRYPOINT, pode-se passar os comandos somente com o **CMD**:
 
-```
+```shell
 CMD service nginx start -g
 ```
 
@@ -138,13 +143,13 @@ Para melhorar a organização, podemos deixar arquivos de configuração dos ser
 
 No exemplo eu usei o arquivo `configs/nginx.conf`, que será copiado para dentro do container no diretório `/etc/nginx/sites-enabled/`, com o nome de `default`.
 
-```
+```shell
 ADD ./configs/nginx.conf /etc/nginx/sites-enabled/default
 ```
 
 O conteúdo do arquivo `nginx.conf` é o seguinte:
 
-```
+```php
 server {
     listen 8080 default_server;
     server_name localhost;
@@ -162,7 +167,7 @@ Algo interessante que podemos fazer com o Docker é monitorar os logs de uma man
 
 E para deixar isso automático na nossa imagem, deixamos as seguintes linhas no Dockerfile:
 
-```
+```shell
 RUN ln -sf /dev/stdout /var/log/nginx/access.log
 
 RUN ln -sf /dev/stderr /var/log/nginx/error.log
@@ -176,7 +181,7 @@ Depois que o container estiver ativo, podemos usar o comando `docker logs id_ou_
 
 Para expor a porta que o nosso Web Server vai utilizar, usamos o parâmetro `EXPOSE` com o número da porta:
 
-```
+```shell
 EXPOSE 8080
 ```
 
@@ -184,13 +189,13 @@ Aqui é bem simples, ele vai expor a porta `8080`.
 
 Para saber qual porta o host está utilizando como ponte para acesso a porta do container, podemos procurar com o comando:
 
-```
+```shell
 docker port id_ou_apelido_do_container
 ```
 
 Ou usar um:
 
-```
+```shell
 docker inspect id_ou_apelido_do_container
 ```
 
@@ -202,7 +207,7 @@ Com nosso arquivo Dockfile configurado, podemos gerar nossa nova imagem.
 
 Para tal, execute o comando `build`:
 
-```
+```shell
 docker build -t woliveiras/nginx .
 ```
 
@@ -224,7 +229,7 @@ Você pode querer, agora, carregar essa imagem em um Pen Drive.
 
 Para isso, utilize o comando `save`:
 
-```
+```shell
 docker save woliveiras/nginx > /tmp/meu_web_server.tar
 ```
 
@@ -240,7 +245,7 @@ Como importar essa imagem gerada via comando `save`?
 
 Usando o comando `load`.
 
-```
+```shell
 docker load < /tmp/meu_web_server.tar
 ```
 
@@ -254,19 +259,19 @@ Para subir uma imagem para o Docker Hub, primeiro precisará de uma conta no [si
 
 Faça login com sua conta no Terminal usando o comando `docker login`:
 
-```
+```shell
 docker login
 ```
 
 Para subir a imagem, basta fazer um `push`, parecido com o nosso querido [Git](https://git-scm.com/).
 
-```
+```shell
 docker push nome_da_imagem
 ```
 
 Ex.:
 
-```
+```shell
 docker push woliveiras/nginx
 ```
 
