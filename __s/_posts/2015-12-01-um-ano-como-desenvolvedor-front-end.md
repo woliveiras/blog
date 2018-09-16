@@ -1,11 +1,12 @@
 ---
+layout: post
 title: Um ano (ou um pouco mais) como desenvolvedor Front End
 categories:
-  - Carreira
-  - Front End
+  - carreira
+  - frontend
 tags:
-  - Carreira
-  - Front End
+  - carreira
+  - frontend
 description: Conheça um pouco sobre como foi meu primeiro ano como Desenvolvedor Front End. Medos, frustrações, desespero, alegria, festas e algumas dicas para se preparar para o mercado de trabalho.
 
 date: 2015-12-01 10:00:00
