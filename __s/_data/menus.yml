@@ -10,16 +10,16 @@ nav-menu:
 # Footer menu
 
 footer-menu:
-  - title: Mentoria em programação
-    url: /mentoria
-  - title: Meus Links
-    url: /my-precious-links
-  - title: Pair programming
-    url: /pair-programming
-  - title: Quero me tornar frontend
-    url: /front-end-career
-  - title: Me pagar um café
+  - title: Topa me pagar um café?
     url: /donation
+  - title: Quer mentoria em programação?
+    url: /mentoria
+  - title: Vamos codar juntos?
+    url: /pair-programming
+  - title: Quer se tornar frontend?
+    url: /front-end-career
+  - title: Meus Links favoritos
+    url: /my-precious-links
   - title: Portfólio
     url: /portfolio
   - title: Curriculum
