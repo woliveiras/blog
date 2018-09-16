@@ -1,4 +1,5 @@
 ---
+layout: post
 title: 'URL ou URI, qual a diferença?'
 tags:
   - Dicas
@@ -25,7 +26,7 @@ Para ver como tudo isso acontece faça o seguinte:
 
 Abra uma nova aba no seu navegador - No meu exemplo estou usando o Chrome e vou acessar o Google -, pressione **F12** ou abra as **Ferramentas** **de** **Desenvolvedor** e clique em **Network** e acesse um site qualquer. Você vai reparar que serão baixados alguns arquivos, clique em qualquer um e clique em **headers**. Vai aparecer algo igual a isso:
 
-![](../../public/images/google-headers.png "Google headers")
+!["Headers no Google Chrome"]({{site.url}}/images/google-headers.png "Google headers")
 
 Ali você consegue identificar o **endereço remoto** (173.194.118.197:443), a **URL** que foi requisitada, o **método** que foi utilizado (GET), o **Status Code** (200 - OK) e mais um monte de informação - Incluindo os cabeçalhos da resposta (**Response Headers**).
 
@@ -40,7 +41,7 @@ Exemplo de URL
 
 * woliveiras.com.br
 * woliveiras.org
-*	woliveiras.xxx
+* woliveiras.xxx
 
 Ou seja, acessando esses endereços você cai no servidor onde está minha página - Só exemplo - e o servidor vai se encarregar de processar sua solicitação.
 
@@ -50,9 +51,9 @@ Ou seja, acessando esses endereços você cai no servidor onde está minha pág
 
 Em português: **Nome de Recursos Universal** é o nome do recurso que será acessado e **também fará parte da URI**.
 
-*	home.html
-*	contato.php
-*	servicos.html
+* home.html
+* contato.php
+* servicos.html
 
 É comum associarmos URN a página que estamos acessando.
 
@@ -64,8 +65,8 @@ Em português: **Identificador de Recursos Universal**, como diz o próprio nom
 
 Exemplos de URI
 
-*	http://woliveiras.com.br/desenvolvedor-front-end/
-*	http://pt.wikipedia.org/wiki/Hypertext_Transfer_Protocol
+* http://woliveiras.com.br/desenvolvedor-front-end/
+* http://pt.wikipedia.org/wiki/Hypertext_Transfer_Protocol
 
 Pra ficar mais fácil de entender, pois sei que deve ter dado um nó agora:
 
