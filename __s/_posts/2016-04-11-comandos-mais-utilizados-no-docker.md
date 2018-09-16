@@ -1,11 +1,15 @@
 ---
+layout: post
 title: Comandos mais utilizados no Docker
 date: 2016-04-11 21:00:08
 tags:
-	- docker
-	- virtualização
-	- ambiente
-	- devops
+  - docker
+  - infraestrutura
+  - linux
+categories:
+  - docker
+  - infraestrutura
+  - linux
 description: Comandos mais utilizados durante o Workflow com Docker
 ---
 
@@ -19,7 +23,7 @@ E a segunda parte, [aqui](/posts/imagem-docker-ou-um-container-docker/)<!--more-
 
 Utilize o comando `images` para listar:
 
-```
+```shell
 docker images
 ```
 
@@ -35,13 +39,13 @@ Será apresentado uma tabela no seu Terminal com:
 
 Utilize o comando `search` para procurar a imagem e o comando `pull` para baixar:
 
-```
+```shell
 docker search ubuntu
 ```
 
 Encontrado a imagem correta, utilize `pull` com o nome dessa imagem:
 
-```
+```shell
 docker pull ubuntu
 ```
 
@@ -51,7 +55,7 @@ Localize o ID ou nome do repositório com o comando `docker images`.
 
 Com o id ou o nome do repositório em mãos, utilize o comando `rmi` para excluir as imagens.
 
-```
+```shell
 docker rmi ID_ou_nome_da_imagem
 ```
 
@@ -59,7 +63,7 @@ docker rmi ID_ou_nome_da_imagem
 
 Para executar um container utilize o comando `run` com o nome da imagem que vá utilizar para a criação:
 
-```
+```shell
 docker run nome_da_imagem
 ```
 
@@ -67,7 +71,7 @@ docker run nome_da_imagem
 
 Conseguimos criar um container e já entrar nesse container com o comando `-it`:
 
-```
+```shell
 docker run -it ubuntu /bin/bash
 ```
 
@@ -79,7 +83,7 @@ O `-i` significa interatividade e o `-t` que queremos um link com o Terminal do 
 
 Você pode colocar apelidos nos containers para facilitar sua organização passando por parâmetro o `--name` para o comando `docker run`:
 
-```
+```shell
 docker run --name ubuntinho ubuntu
 ```
 
@@ -91,7 +95,7 @@ Nesse caso a imagem `ubuntu` e o alias `ubuntinho`.
 
 Você consegue uma lista dos containers ativos com o comando `ps`:
 
-```
+```shell
 docker ps
 ```
 
@@ -107,7 +111,7 @@ Vai aparecer uma tabela com
 
 O `ps` só vai mostrar os containers que estão em atividade, para verificar todos os containers criados, incluindo os que estiverem parados, utilize o `ps -a`:
 
-```
+```shell
 docker ps -a
 ```
 
@@ -119,7 +123,7 @@ Remover um container seria o mesmo que desligar a máquina virtual.
 
 Utilize o comando `rm` para remover o container com o ID que você pode pegar com o `docker ps` ou o apelido que você escolheu:
 
-```
+```shell
 docker rm id_ou_apelido
 ```
 
@@ -127,7 +131,7 @@ docker rm id_ou_apelido
 
 Informações de uso de Hardware do container:
 
-```
+```shell
 docker stats id_ou_apelido
 ```
 
@@ -140,7 +144,7 @@ Veremos informações como:
 * **NET I/O** - I/O de Internet
 * **BLOCK IO** - Outros processos de I/O.
 
-```
+```shell
 docker inspect id_ou_apelido
 ```
 
@@ -152,7 +156,7 @@ As alterações que você faz em um container, durante sua execução, não são
 
 Para commitar o que você fez em uma imagem, utilize o comando `commit`:
 
-```
+```shell
 docker commit ID/apelido nome_da_nova_imagem
 ```
 
@@ -162,13 +166,13 @@ Ele vai gerar uma nova imagem a partir desse commit.
 
 Usamos o comando `-p`:
 
-```
+```shell
 docker run -it -p 8080:80 ubuntu
 ```
 
 Bem útil para listar uma porta para um servidor web:
 
-```
+```shell
 docker run -it -p 8080:80 nginx
 ```
 
@@ -180,7 +184,7 @@ Usando o comando `--rm`, podemos montar containers que se destroem ao sairmos da
 
 Exemplo utilizando o [NGINX](https://www.nginx.com/).
 
-```
+```shell
 docker run -it --rm -p 8080:80 nginx /bin/bash
 ```
 
@@ -192,19 +196,19 @@ Podemos executar o container e deixar ele em segundo plano, sem precisar ficar c
 
 Exemplo utilizando o NGINX.
 
-```
+```shell
 docker run -d -p 8080:80 nginx /usr/sbin/nginx -g
 ```
 
 Para controlar esse container usamos os comandos `stop` e `start`:
 
-```
+```shell
 docker stop id_ou_apelido
 ```
 
 Para parar e:
 
-```
+```shell
 docker start id_ou_apelido
 ```
 
@@ -214,7 +218,7 @@ Para ativar o container.
 
 Usamos um pouquinho de [Shell Script](http://aurelio.net/shell/) e conseguimos automatizar o processo de remoção de todos os containers ativos com:
 
-```
+```shell
 docker rm $(docker ps -qa)
 ```
 
@@ -226,7 +230,7 @@ $(docker ps -qa)
 
 Para imagens
 
-```
+```shell
 docker rmi $(docker images -q)
 ```
 
@@ -234,13 +238,13 @@ docker rmi $(docker images -q)
 
 Para não precisar acessar um container para executar comandos basicos, podemos usar o `exec`:
 
-```
+```shell
 docker exec -it id_ou_apelido comando
 ```
 
 Ex.:
 
-```
+```shell
 docker exec -it ubuntinho ifconfig eth0
 ```
 
