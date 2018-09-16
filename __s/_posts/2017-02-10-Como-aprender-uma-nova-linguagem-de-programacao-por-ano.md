@@ -1,8 +1,13 @@
 ---
+layout: post
 title: Como aprender uma nova linguagem de programação por ano
 date: 2017-02-10 08:02:19
 tags:
-	- dicas
+  - carreira
+  - produtividade
+categories:
+  - carreira
+  - produtividade
 description: Como aprender uma linguagem de programação por ano pode te ajudar a aprender muitos paradigmas.
 ---
 
