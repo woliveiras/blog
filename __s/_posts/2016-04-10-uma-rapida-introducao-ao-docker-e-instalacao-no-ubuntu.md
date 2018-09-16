@@ -1,17 +1,21 @@
 ---
+layout: post
 title: Uma rápida introdução ao Docker e instalação no Ubuntu
 date: 2016-04-10 08:03:47
 tags:
-	- docker
-	- virtualização
-	- ambiente
-	- devops
+  - docker
+  - infraestrutura
+  - linux
+categories:
+  - docker
+  - infraestrutura
+  - linux
 description: Uma rápida introdução ao Docker e instalação no Ubuntu para iniciantes. Dicas para não precisar de sudo ao executar o Docker e como iniciar o Docker junto com o Sistema Operacional.
 ---
 
-<div class="shared-img">
-![Docker](../../public/images/docker.png)
-</div>Você já deve ter ouvido falar, pelo menos uma vez, sobre [Docker](https://www.docker.com/) em algum lugar. Seja em palestras, blogs, vídeos ou em qualquer outra fonte de estudos sobre desenvolvimento, uma hora sempre comentamos sobre virtualização de ambientes e o Docker é a ferramenta que mais tem se destacado para tal. Ele é uma das 8 maravilhas das atualidades mais atuais. Vamos entender um pouco, então, o que é o Docker e como instalar no nosso Ubuntu.<!--more-->
+Você já deve ter ouvido falar, pelo menos uma vez, sobre [Docker](https://www.docker.com/) em algum lugar. Seja em palestras, blogs, vídeos ou em qualquer outra fonte de estudos sobre desenvolvimento, uma hora sempre comentamos sobre virtualização de ambientes e o Docker é a ferramenta que mais tem se destacado para tal. Ele é uma das 8 maravilhas das atualidades mais atuais. Vamos entender um pouco, então, o que é o Docker e como instalar no nosso Ubuntu.<!--more-->
+
+![Docker]({{site.url}}/images/docker.png)
 
 ## Introdução
 
@@ -67,19 +71,19 @@ Se você nunca utilizou o Docker, uma excelente maneira de aprender e entender T
 
 Primeiro você precisa possuir a versão do Kernel atualizada ou a 3.10. Para verificar qual a versão utilize o comando abaixo:
 
-```
+```shell
 uname -r
 ```
 
 Deve aparecer algo como:
 
-```
+```shell
 3.19.0-51-generic
 ```
 
 Atualize seu Sistema e instale as dependências  com os comandos:
 
-```
+```shell
 sudo apt-get update
 sudo apt-get install apt-transport-https ca-certificates
 sudo apt-get install linux-image-extra-$(uname -r)
@@ -87,13 +91,13 @@ sudo apt-get install linux-image-extra-$(uname -r)
 
 E adicione a GPG Key - se você não sabe o que é uma GPG, [clique aqui](https://pt.wikipedia.org/wiki/GNU_Privacy_Guard):
 
-```
+```shell
 sudo apt-key adv --keyserver hkp://p80.pool.sks-keyservers.net:80 --recv-keys 58118E89F3A912897C070ADBF76221572C52609D
 ```
 
 Abra o arquivo `/etc/apt/sources.list.d/docker.list` ou, caso o mesmo não exista, crie ele com o comando:
 
-```
+```shell
 sudo vi /etc/apt/sources.list.d/docker.list
 ```
 
@@ -103,7 +107,7 @@ Apague o conteúdo desse arquivo.
 
 Supondo que você esteja utilizando a versão 14.04 (LTS) do Ubuntu, cole o seguinte conteúdo:
 
-```
+```shell
 deb https://apt.dockerproject.org/repo ubuntu-trusty main
 ```
 
@@ -111,26 +115,26 @@ Se for outra versão, verifique [aqui](https://docs.docker.com/engine/installati
 
 Agora vamos atualizar o Sistema novamente e remover qualquer instalação anterior do Docker:
 
-```
+```shell
 sudo apt-get update
 sudo apt-get purge lxc-docker
 ```
 
 Agora sim, instale o Docker:
 
-```
+```shell
 sudo apt-get install docker-engine
 ```
 
 Para inicializar o Docker, usamos o comando:
 
-```
+```shell
 sudo service docker start
 ```
 
 Para verificar se está tudo rodando certinho, execute o container de *Hello World* do Docker:
 
-```
+```shell
 sudo docker run hello-world
 ```
 
@@ -138,7 +142,7 @@ sudo docker run hello-world
 
 Para não precisar usar o `sudo` sempre, execute o seguinte:
 
-```
+```shell
 sudo usermod -aG docker $USER
 ```
 
@@ -146,7 +150,7 @@ sudo usermod -aG docker $USER
 
 Agora você consegue executar:
 
-```
+```shell
 docker run hello-world
 ```
 
@@ -156,7 +160,7 @@ Logo menos vou postar mais dicas sobre Docker. Fique ligado!
 
 Compartilhe a palavra.
 
-**Referências:**
+## Referências
 
 - [Containers com Docker, do Desenvolvimento a Produção - Casa do Código](https://www.casadocodigo.com.br/products/livro-docker)
 - [Documentação oficial do Docker](https://docs.docker.com/)
