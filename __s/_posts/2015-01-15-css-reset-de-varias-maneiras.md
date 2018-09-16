@@ -1,4 +1,5 @@
 ---
+layout: post
 title: CSS Reset de várias maneiras
 tags:
   - CSS
@@ -17,12 +18,12 @@ Isso pode gerar incompatibilidade com o CSS que você escreve. As vezes você co
 
 O CSS Reset é uma técnica que serve para evitar esse problema. Você remove ou seta valores para as propriedades dos elementos conforme necessário. Existem várias formas de se fazer um CSS Reset. Vou citar algumas que eu já utilizei.
 
-##### Reset Genérico
+## Reset Genérico
 
 Basta colocar esse código no início do arquivo:
 
-```
-*{
+```css
+* {
   padding: 0;
   margin: 0;
   border: 0;
@@ -32,19 +33,19 @@ Basta colocar esse código no início do arquivo:
 
 Pronto, todos (*) os elementos ficarão sem borda, sem preenchimento e sem margem. Ai é só ir estilizando conforme for necessário.
 
-##### Erick Meyer CSS Reset
+## Erick Meyer CSS Reset
 
 Esse é muito utilizado e divulgado pela Web. Utilizei por um bom tempo!
 
 Da uma olhada nesse [link ](http://meyerweb.com/eric/tools/css/reset/index.html "Meyer | CSS Tools: Reset CSS")para conhecer melhor.
 
-##### CSS Reset do Yahoo
+## CSS Reset do Yahoo
 
 É bem útil também! É o Reset do YUI.
 
 Basta olhar esse outro [link](http://www.cssreset.com/scripts/yahoo-css-reset-yui-3/ "Yahoo! (YUI 3) Reset CSS"). ;)
 
-##### Normalize.css
+## Normalize.css
 
 E agora vem o que eu mais gosto e tenho utilizado no dia-a-dia. Gosto mais desse por que ele não somente tira os estilos, mas aplica estilos padrões que deixa tudo igual em todos os Browsers.
 
