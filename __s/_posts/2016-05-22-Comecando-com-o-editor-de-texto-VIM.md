@@ -1,7 +1,10 @@
 ---
+layout: post
 title: 'Começando com VIM: O Editor de Texto'
 date: 2016-05-22 10:30
 tags:
+    - produtividade
+categories:
     - produtividade
 description: Primeiros passos com VIM. Dicas de VIM para iniciantes. Como começar a usar o VIM.
 ---
@@ -42,7 +45,7 @@ O primeiro contato com o VIM pode ser bem esquisito. Você pensa: Pra que que eu
 
 A primeira vez que eu abri o VIM para editar um texto grande, me senti usando uma dessas:
 
-<img src="https://openclipart.org/download/192053/remington-typewriter.svg" alt="Maquina de escrever" width="50%">
+!["Máquina de escrever"](https://openclipart.org/download/192053/remington-typewriter.svg)
 
 Mas a primeira impressão não bastou pra mim.
 
@@ -91,13 +94,13 @@ Foque neles, nos primeiros dias, até aprender bem.
 
 No Terminal, você pode cambiar até a pasta onde está o arquivo que você vai abrir e então basta digitar: 
 
-```
+```shell
 vim nome_do_arquivo
 ```
 
 Mas você também pode usar o comando direto:
 
-```
+```shell
 vim diretorio/outro_diretorio/nome_do_arquivo
 ```
 
@@ -105,13 +108,13 @@ vim diretorio/outro_diretorio/nome_do_arquivo
 
 O VIM vai reconhecer a sintaxe automaticamente quando você abrir um arquivo com extensão específica, mas, se você começar a partir do VIM a criar um arquivo que ainda não existe no sistema, você pode executar o comando:
 
-```
+```shell
 set syntax=sintaxe
 ```
 
 Ex.:
 
-```
+```shell
 set syntax=javascript
 ```
 
@@ -199,7 +202,7 @@ Ex.:
 
 Copiar 10 linhas de um texto 
 
-```
+```shell
 10yy
 ```
 
