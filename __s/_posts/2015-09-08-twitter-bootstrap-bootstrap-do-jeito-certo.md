@@ -1,14 +1,12 @@
 ---
+layout: post
 title: Twitter Bootstrap do jeito certo
 tags:
-  - Bootstrap
-  - Grunt
-  - Less
+  - frontend
+  - produtividade
 categories:
-  - Dicas
-  - Front End
-  - Grunt
-  - Produtividade
+  - frontend
+  - produtividade
 description: Twitter Bootstrap é pesado? Twitter Bootstrap não é semântico? Confira algumas dicas para usar o Twitter Bootstrap do jeito certo.
 date: 2015-09-08 22:00:00
 ---
@@ -19,15 +17,20 @@ Muita gente critica o uso do [Twitter Bootstrap](http://getbootstrap.com/) devid
 Dizem que as classes não são semanticas e que o peso do framework é desnecessário.
 
 Pois bem, **você não precisa das classes col-md/lg/xs-xxx no seu HTML** e para projetos pequenos (que você não usa todo o potencial do framework) você pode **selecionar somente o que vai utilizar no projeto**.
+
 Maneiro né? Da uma olhada como faz...
+
 <!--more-->
+
 Se você já conhece pré processadores, será fácil aprender essa forma de utilizar o BS (Bootstrap). Se não conhece é melhor dar uma estudada no Less (que é o mais fácil para iniciantes) ou no Sass para acompanhar essa dica e absorver melhor. Depois de aprender volte aqui e continue a leitura. ;)
 
 #### Para aprender Less:
+
 - http://lesscss.org/
 - http://blog.caelum.com.br/css-facil-flexivel-e-dinamico-com-less/
 
 #### Para aprender Sass:
+
 - http://sass-lang.com/guide
 - http://pre-processadores.github.io/Sass-Guide/
 
@@ -47,7 +50,7 @@ Antes de partir para qualquer framework, seja de CSS, JS ou algo de Backend, é 
 
 Para agilizar nosso trabalho de compilar o Less, podemos usar algum Task Runner. No meu caso usei o Grunt, pois já utilizava ele a algum tempo.
 
-#### Pastel
+### Pastel
 
 Eu já possuo um Boilerplate montado para agilizar meu trabalho. Podemos utilizar ele para facilitar nosso estudo também. Chamei ele de [Pastel](https://github.com/woliveiras/pastel "Pastel")! Baixe em seu PC e vamos ao trabalho.
 
@@ -75,14 +78,14 @@ Digamos que você vai utilizar modal e tooltips, então você pode remover as ba
 
 **Antes**
 
-```
+```css
 //@import "@{path_bootstrap}modals";
 //@import "@{path_bootstrap}tooltip";
 ```
 
 **Depois de remover os comentários**
 
-```
+```css
 @import "@{path_bootstrap}modals";
 @import "@{path_bootstrap}tooltip";
 ```
@@ -93,7 +96,7 @@ Algumas variáveis importantes você pode conhecer [aqui](http://getbootstrap.co
 
 Os componentes necessários na maioria dos projetos já estão sem as // no arquivo default do Pastel, que são esses:
 
-```
+```css
 /* Componentes comuns nos projetos */
 @import "@{path_bootstrap}scaffolding.less";
 @import "@{path_bootstrap}type.less";
@@ -116,7 +119,7 @@ No arquivo **styles.less** (se estiver usando o Pastel) é onde você vai coloca
 
 No arquivo styles.less:
 
-```
+```css
 .classe-que-recebe-o-grid{
   .make-lg-column(8); //Aqui será ins	erido o grid do col-lg-8
   .make-md-column(8); // e aqui o col-md-8
@@ -125,7 +128,7 @@ No arquivo styles.less:
 
 O arquivo final ficará assim:
 
-```
+```css
 .classe-que-recebe-o-grid {
   position: relative;
   min-height: 1px;
@@ -150,7 +153,7 @@ Quando tiver mais de um componente que recebe o mesmo grid você pode usar o con
 
 Less:
 
-```
+```css
 .classe-que-recebe-o-grid,
 .outra-classe-com-grid{
   .make-lg-column(8);
@@ -160,7 +163,7 @@ Less:
 
 Resultado:
 
-```
+```css
 .classe-que-recebe-o-grid,
 .outra-classe-com-grid {
   position: relative;
@@ -186,6 +189,6 @@ Resultado:
 
 Os nomes de arquivos e a forma que eu utilizo não são um padrão e você não é obrigado a seguir... Basta modificar da sua maneira e modificar na tarefa less no Gruntfile.
 
-**Referência**
+## Referência
 
 [Bootstrap Inteligente - Rafa Mello](http://blog.rafamello.com/bootstrap-inteligente "Bootstrap Inteligente")
