@@ -2,7 +2,7 @@
 
 title: William Oliveira - Desenvolvedor de Software
 subtitle: Pintor de software
-description: Um blog sobre Desenvolvimento de Software, Front End, HTML, CSS, Sass, Stylus, JavaScript, Nodejs, Linux até Ferramentas e Metodologias de Desenvolvimento para iniciantes ou avançados!
+description: Um blog sobre Desenvolvimento de Software, Front End, HTML, CSS,  JavaScript, Nodejs, Linux até Ferramentas e Metodologias de Desenvolvimento para iniciantes ou avançados!
 author: William de Oliveira
 timezone: America/Sao_Paulo
 baseurl: "" # the subpath of your site, e.g. /blog
@@ -12,8 +12,8 @@ paginate: 5 # Number of posts on each page
 paginate_path: "/page/:num" # links format for pagination
 date_format: "%b %-d, %Y"  # dateformat of reading list, post date, and more
 permalink: /posts/:title/ # use to url friendly
-display-author-front-page: # True if you need show author name and site on home page
-display-author-post-page: true # Very usual for guest posts and the infos of author are writen in header of post.md, by default show infos of user settings
+display-author-front-page: false # True if you need show author name and site on home page
+display-author-post-page: false # Very usual for guest posts and the infos of author are writen in header of post.md, by default show infos of user settings
 
 # Useful for translating into other languages.
 
@@ -38,35 +38,7 @@ author: woliveiras # put your name or a name of principal author of site/blog
 email: williamozsouza@gmail.com
 twitter_username: w_oliveiras
 github_username:  woliveiras
-# gplus_username:  dunders
 disqus_shortname: woliveiras
-
-# Navigation menu
-nav-menu:
-  - title: Home
-    url: /
-  - title: Sobre
-    url: /sobre
-  - title: Categorias
-    url: /categorias
-
-# Footer menu
-
-footer-menu:
-  - title: Mentoria em programação
-    url: /mentoria
-  - title: Meus Links
-    url: /my-precious-links
-  - title: Pair programming
-    url: /pair-programming
-  - title: Quero me tornar frontend
-    url: /front-end-career
-  - title: Me pagar um café
-    url: /donation
-  - title: Portfólio
-    url: /portfolio
-  - title: Curriculum
-    url: https://www.linkedin.com/in/william-oliveira/
 
 # Build settings
 
@@ -79,8 +51,6 @@ feed:
 sass:
   sass_dir: _sass
   style: compressed
-
-## For more settings: https://jekyllrb.com/docs/configuration/
 
 # exclude files if no need build
 exclude: [
