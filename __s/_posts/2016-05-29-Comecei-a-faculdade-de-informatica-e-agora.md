@@ -1,7 +1,13 @@
 ---
+layout: post
 title: 'Comecei a faculdade de Informática, e agora José?'
 date: 2016-05-29 23:19:11
 tags:
+  - carreira
+  - pensamentos
+categories:
+  - carreira
+  - pensamentos
 description: Faculdade é importante para o Desenvolvedor de Software? Faculdade faz diferença no mercado de trabalho? Fazer ou não fazer Faculdade?
 ---
 Apesar de eu amar estudar, de coração, e ter criado [minha própria rotina](/posts/como-alcancar-objetivos-rapidamente-nos-estudos/) de estudos, quem me conhece pessoalmente sabe que eu não gosto muito de Faculdade. Eu tenho uma séria resistência com **diplomas**. 
@@ -73,7 +79,7 @@ Sabemos que faculdade consome um bom tempo da nossa vida, como vão ficar esses 
 
 Simples, vou continuar na ativa, porém com pouco tempo disponível. Portanto, se eu demorar pra responder um comentário, basta aguardar. Se eu demorar mais ainda, me mande um email, por favor. :D
 
-## Está sendo legal :scream:
+## Está sendo legal :S
 
 Eu acabei gostando muito do conteúdo que me foi passado no começo dessa faculdade e isso me surpreendeu. Estou empolgado para aprender muito e transmitir esse conhecimento adquirido por aqui ou de alguma [outra maneira](https://github.com/).
 
