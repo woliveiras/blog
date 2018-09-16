@@ -1,4 +1,5 @@
 ---
+layout: post
 title: Pré processadores CSS
 tags:
   - Less
@@ -32,13 +33,13 @@ Basicamente é como se você programasse em uma linguagem de programação compi
 
 Alguns dos pontos positivos são:
 
-*   Você pode ficar mais produtivo usando um pré processador
-*   Pode ficar mais fácil organizar seus diretórios ou mesmo trabalhar com componentes.
-*   O fato de você usar variáveis e conseguir mudar a cor do site inteiro somente mudando um campo. Você acaba com aquele problema de ficar copiando e colando a cor de um determinado elemento para outro.
-*   Algumas opções de pré processadores (Acho que todas) tornam fácil o aninhamento de seletores.
-*   O uso de funções/mixins para agilizar algumas coisas também é excelente!
-*   Você pode acabar com problemas comuns do dia-a-dia como ficar escrevendo os prefixos dos navegadores.
-*   Acabar com aqueles arquivos .css de 300 mil linhas!
+* Você pode ficar mais produtivo usando um pré processador
+* Pode ficar mais fácil organizar seus diretórios ou mesmo trabalhar com componentes.
+* O fato de você usar variáveis e conseguir mudar a cor do site inteiro somente mudando um campo. Você acaba com aquele problema de ficar copiando e colando a cor de um determinado elemento para outro.
+* Algumas opções de pré processadores (Acho que todas) tornam fácil o aninhamento de seletores.
+* O uso de funções/mixins para agilizar algumas coisas também é excelente!
+* Você pode acabar com problemas comuns do dia-a-dia como ficar escrevendo os prefixos dos navegadores.
+* Acabar com aqueles arquivos .css de 300 mil linhas!
 
 ## Pontos negativos
 
@@ -48,7 +49,7 @@ Deixa de ser chataummm! Instala num ambiente isolado com o [Vagrant ](http://wo
 
 O medo do terminal... Muitos programadores tem medo de usar o Terminal (Ou preguiça), mas isso também não é motivo para desistir de aprender algo que vai aumentar sua produtividade. Seria ótimo pra você aprender a usar o Terminal... Acredite! Porém se não quiser, não é motivo para desistir também, pois com uma tarefinha no Grunt, vai bastar salvar o arquivo que o mesmo será compilado.
 
-##  Qual usar?
+## Qual usar
 
 Temos muitos nomes fortes no mercado como [Less](http://lesscss.org/ "Less"), [Sass](http://sass-lang.com/ "Sass"), [Stylus](http://learnboost.github.io/stylus/ "Stylus")... Por ai vai! E alguns possuem ótimos Frameworks que os utilizam por padrão obrigando você a aprender a sintaxe antes de ir para o Framework.
 
