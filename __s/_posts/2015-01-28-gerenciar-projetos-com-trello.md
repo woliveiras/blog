@@ -1,28 +1,29 @@
 ---
+layout: post
 title: Utilizando o Trello para gerenciar Projetos
 tags:
-  - Dicas
-  - Gerenciamento de Projetos
-  - Produtividade
+  - autogestão
+  - produtividade
+  - gestão
 categories:
-  - Dicas
-  - Gerenciamento de Projetos
-  - Produtividade
+  - autogestão
+  - produtividade
+  - gestão
 date: 2015-01-28 00:00:07
 description: Como utilizar o Trello para gerenciar projetos de Software?
 ---
-<div class="shared-img">
-![Trello](../../public/images/Trello.png)</div>
 
 Seguindo a linha de postagens sobre [produtividade](/posts/como-ser-mais-produtivo/ "Como ser mais produtivo"), eu sou obrigado a falar dessa ferramenta que utilizo muito e curto demais! É com ele que eu gerencio até as postagens que eu escrevo aqui no Blog...
 
 Se você precisa de uma ferramenta para ajudar a se organizar, o [Trello](https://trello.com/ "Trello") é uma das que atendem muito bem!<!--more-->
 
+![Trello]({{site.url}}/images/Trello.png)
+
 ## O que é o Trello?
 
 É uma ferramenta de Gerenciamento de Projetos muito fácil de ser utilizado e prático! Ele é aquele velho quadro onde colamos os Post-its para as tarefas que usamos em metodologias ágeis como o [Scrum](http://pt.wikipedia.org/wiki/Scrum "Scrum")
 
-![Task Board](../../public/images/taskboard-de-projeto-em-scrum-fazer-fazendo-feito.jpg)
+![Task Board]({{site.url}}/images/taskboard-de-projeto-em-scrum-fazer-fazendo-feito.jpg)
 
 Porém é Web e pode ser acessado pelo navegador ou outros [dispositivos](https://trello.com/platforms "Plataformas").
 
@@ -40,21 +41,20 @@ Para esse Blog eu me organizo da seguinte maneira:
 
 Criei um Board com o nome de Blog para a organização woliveiras (Eu).
 
-![Board do Blog](../../public/images/Captura-de-tela-de-2015-01-24-1457041.png)
+![Board do Blog]({{site.url}}/images/Captura-de-tela-de-2015-01-24-1457041.png)
 
 Criei as listas com os nomes:
 
-*   **Ideas**: Onde eu coloco todas as ideias de Posts que eu quero escrever (Um Product Backlog talvez... E tem muita coisa lá viu! Aguarde e vai curtir as próximas postagens... ;))
-*   **To Do**: Movo para essa lista as ideias que eu vou escrever durante a semana (Seria um Sprint Backlog). Eu não estipulo prazos para isso, pois faço de acordo com que sobra tempo. Porém minha semana é meu Sprint.
-*   **Review**: Depois de concluído o Post, movo o item para essa lista onde ficam todas as postagens que eu vou revisar antes de agendar ou publicar.
-*   **Done**: É o que foi finalizado. Movo para essa lista os itens que já foram revisados e agora já podem ser publicados.
+* **Ideas**: Onde eu coloco todas as ideias de Posts que eu quero escrever (Um Product Backlog talvez... E tem muita coisa lá viu! Aguarde e vai curtir as próximas postagens... ;))
+* **To Do**: Movo para essa lista as ideias que eu vou escrever durante a semana (Seria um Sprint Backlog). Eu não estipulo prazos para isso, pois faço de acordo com que sobra tempo. Porém minha semana é meu Sprint.
+* **Review**: Depois de concluído o Post, movo o item para essa lista onde ficam todas as postagens que eu vou revisar antes de agendar ou publicar.
+* **Done**: É o que foi finalizado. Movo para essa lista os itens que já foram revisados e agora já podem ser publicados.
 
-
-![Listas](../../public/images/Captura-de-tela-de-2015-01-24-151337.png)
+![Listas]({{site.url}}/images/Captura-de-tela-de-2015-01-24-151337.png)
 
 Com as listas criadas vou adicionando os Cards que são os Posts que serão escritos. Os títulos dos Cards são os títulos das postagens e no próprio cartão eu coloco os links para referências, se houver, imagens que vou colocar no Post, tópicos que devo abordar, etc.
 
-![Card](../../public/images/Captura-de-tela-de-2015-01-24-152028.png)
+![Card]({{site.url}}/images/Captura-de-tela-de-2015-01-24-152028.png)
 
 Eu crio **checklists** dentro dos Cards para ir marcando o que já foi concluído.
 
@@ -76,7 +76,7 @@ Você não precisa ver todas as listas o tempo todo, então pode usar a extensã
 
 Essas são as que eu utilizo no dia-a-dia, porém existem várias outras. Da uma olhada [aqui](https://chrome.google.com/webstore/search/Trello?utm_source=chrome-ntp-icon&amp;_category=extensions "Extensões para o Chrome").
 
-**Referências**
+## Referências
 
 [Elton Minetto](http://eltonminetto.net/blog/2012/06/27/gerenciando-projetos-com-o-trello/ "Gerenciando projetos com o Trello")
 
