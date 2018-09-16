@@ -1,9 +1,13 @@
 ---
+layout: post
 title: 'Como é uma entrevista de emprego para desenvolvimento front end - JavaScript'
 date: 2017-02-09 06:00:11
 tags:
     - carreira
-    - dicas
+    - frontend
+categories:
+    - carreira
+    - frontend
 description: Como é uma entrevista de emprego para desenvolvedores front end e JavaScript. Um relato sobre as entrevistas que já participei.
 ---
 
