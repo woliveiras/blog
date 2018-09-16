@@ -1,0 +1,26 @@
+# Navigation menu
+nav-menu:
+  - title: Home
+    url: /
+  - title: Sobre
+    url: /sobre
+  - title: Categorias
+    url: /categorias
+
+# Footer menu
+
+footer-menu:
+  - title: Mentoria em programação
+    url: /mentoria
+  - title: Meus Links
+    url: /my-precious-links
+  - title: Pair programming
+    url: /pair-programming
+  - title: Quero me tornar frontend
+    url: /front-end-career
+  - title: Me pagar um café
+    url: /donation
+  - title: Portfólio
+    url: /portfolio
+  - title: Curriculum
+    url: https://www.linkedin.com/in/william-oliveira/
