@@ -2,12 +2,11 @@
 layout: post
 title: CSS Reset de várias maneiras
 tags:
-  - CSS
-  - Front End
+  - css
+  - frontend
 categories:
-  - CSS
-  - Dicas
-  - Front End
+  - css
+  - frontend
 date: 2015-01-15 10:00:20
 description: Criando seu CSS Reset
 ---

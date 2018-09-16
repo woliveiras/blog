@@ -2,13 +2,10 @@
 layout: post
 title: Meu contato com o Linux e por que você deveria testar
 tags:
-  
-  - Dicas
-  - Linux
+  - infraestrutura
+  - linux
 categories:
-  
-  - Dicas
-  - Linux
+  - linux
 date: 2015-01-16 10:10:25
 description: Por que usar Linux? Como começar com Linux?
 ---

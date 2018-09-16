@@ -2,13 +2,10 @@
 layout: post
 title: Como deixar o Ubuntu mais rápido
 tags:
-  
-  - Dicas
-  - Linux
+  - infraestrutura
+  - linux
 categories:
-  
-  - Dicas
-  - Linux
+  - linux
 date: 2015-01-19 05:00:19
 description: Como deixar o Ubuntu mais rápido mesmo com Unity
 ---

@@ -2,16 +2,11 @@
 layout: post
 title: Pré processadores CSS
 tags:
-  - Less
-  - Pastel
-  - Pre Processadores
-  - Sass
-  - Stylus
-id: 345
+  - css
+  - frontend
 categories:
-  - Automatização
-  - Dicas
-  - Front End
+  - css
+  - frontend
 date: 2015-01-14 14:02:22
 ---
 
