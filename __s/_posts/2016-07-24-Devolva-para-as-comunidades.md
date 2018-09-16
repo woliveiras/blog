@@ -1,10 +1,11 @@
 ---
+layout: post
 title: Devolva para as comunidades
 date: 2016-07-24 11:50:15
 tags: 
-    - comunidade
+    - comunidades
 categories:
-    - comunidade
+    - comunidades
 description: Todos os dias usamos as comunidades e coisas que as comunidades criam e, sem perceber, não retribuimos isso.
 ---
 
@@ -32,7 +33,7 @@ Tento compartilhar o que acho útil para outras pessoas e incentivar quem tem in
 
 Talvez, com esse relato, você se animou um pouco com o que as comunidades fazem e quer contribuir, então como fazer isso?
 
-**Ajudando Blogs**
+### Ajudando Blogs
 
 - Sabe aquele post que te ajudou a solucionar um problema?
 
@@ -46,7 +47,7 @@ Comenta o quanto ele te ajudou. Quem contribui gosta de receber feedbacks. É mu
 
 Comenta sobre isso e de alguma dica de como melhorar o artigo ou como corrigir o erro que você encontrou. Uma correção ortográfica já ajuda muito!
 
-**Foruns:**
+### Foruns
 
 - Responder a dúvida de uma pessoa nos foruns ajuda bastante. Foram respostas cheias de conteúdo legal e boas argumentações que me ajudaram a aprender o que sei hoje em dia.
 
@@ -74,7 +75,7 @@ A maneira que eu mais aprendi, foi quando eu comecei a compartilhar no Blog e pa
 
 E, de quebra, você pode fazer bons amigos.
 
-**Projetos Open Source**
+### Projetos Open Source
 
 O mesmo se aplica aos projetos Open Source.
 
