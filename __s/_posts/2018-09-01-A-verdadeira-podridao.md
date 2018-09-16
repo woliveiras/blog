@@ -1,9 +1,13 @@
 ---
+layout: post
 title: 'A verdadeira podridão'
 date: 2018-09-01 11:00:00
 tags:
     - comunidades
-    - desabafo
+    - pensamentos
+categories:
+    - comunidades
+    - pensamentos
 description: Um desabafo sobre comunidades, eventos e outras iniciativas
 ---
 
@@ -25,7 +29,7 @@ Também quero que você saiba que não está só na constatação de alguns prob
 
 Meu objetivo com esse artigo é alertar as pessoas de que existem problemas nas comunidades, eventos e afins, e algumas iniciativas não são ambientes seguros de verdade, inclusivos, acessíveis e muito menos pró diversidade como são vendidas nas redes sociais.
 
-![Podridão, Photo by Del Barrett on Unsplash](../../public/images/podridao.jpg)
+![Podridão, Photo by Del Barrett on Unsplash]({{site.url}}/images/podridao.jpg)
 
 ## Código de conduta é uma farsa
 
