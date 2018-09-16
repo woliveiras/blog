@@ -1,15 +1,16 @@
 ---
+layout: post
 title: 'Escolha um trabalho que você ame e nunca terá que trabalhar: uma mentira'
 date: 2017-02-11 15:53:38
 tags:
-	- dicas
-	- carreira
+  - dicas
+  - carreira
 description: Uma mentira contada a anos Escolha um trabalho que você ame e nunca terá que trabalhar. A realidade é bem mais séria que isso.
 ---
 
 Uma frase clássica: 
 
-“Escolha um trabalho que você ame e você nunca terá que trabalhar um dia em sua vida”
+> Escolha um trabalho que você ame e você nunca terá que trabalhar um dia em sua vida
 
 Supostamente uma frase de [Confúcio](https://pt.wikipedia.org/wiki/Conf%C3%BAcio).
 
