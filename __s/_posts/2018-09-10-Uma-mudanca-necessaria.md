@@ -1,9 +1,13 @@
 ---
+layout: post
 title: 'Uma mudança necessária'
 date: 2018-09-10 23:17:00
 tags:
     - comunidades
-    - ansiedade
+    - pensamentos
+categories:
+    - comunidades
+    - pensamentos
 description: A gente só muda quando realmente é necessário ou quando estoura uma bomba em nossa vida.
 ---
 
@@ -11,13 +15,13 @@ Nós não percebemos o quanto estamos nos sobrecarregando de tarefas ou sentimen
 
 Eu não me dei conta do que estava fazendo comigo mesmo até os recentes episódios de perda de controle e sinais da ansiedade crônica atacando novamente. <!--more-->
 
-Como ficar sem dormir, precisar de calmantes para focar no trabalho e arrumar confusão por não conseguir ficar calado quando poderia evitar uma treta. 
+Como ficar sem dormir, precisar de calmantes para focar no trabalho e arrumar confusão por não conseguir ficar calado quando poderia evitar uma treta.
 
 Vivo comentando para as pessoas que elas não devem se cobrar muito. Que elas devem manter o pé no chão e que cobrança demais faz mais mal a sua sanidade mental do que bem a nossa produtividade. Cobrança demais não é sinal de que alcançaremos [alta produtividade](/tags/produtividade/), pode ser muito ao contrário.
 
 Também sou do tipo que fica falando para as pessoas quando elas estão se abarrotando de trabalho. Mas, como ***em casa de JavaScripteiro tem sistema rodando Java***, eu me atolei tanto de tarefas que não percebi o que estava fazendo comigo mesmo até que a bomba explodiu.
 
-![Eruption, Photo by Marc Szeglat on Unsplash](../../public/images/marc-szeglat-524009-unsplash.jpg)
+![Eruption, Photo by Marc Szeglat on Unsplash]({{site.url}}/images/marc-szeglat-524009-unsplash.jpg)
 
 ## Trabalho que não acaba mais
 
