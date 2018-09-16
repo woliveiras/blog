@@ -1,9 +1,13 @@
 ---
+layout: post
 title: Livros que todo desenvolvedor de software deveria ler
 date: 2017-02-16 23:40:02
 tags:
-	- dicas
-	- livros
+  - carreira
+  - livros
+categories:
+  - carreira
+  - livros
 description: Uma lista de livros sobre desenvolvimento de software que todo desenvolvedor deveria ler. Dicas de leitura para melhorar suas habilidades como programador.
 ---
 
