@@ -1,9 +1,15 @@
 ---
+layout: post
 title: Introdução ao Cálculo Proposicional
 date: 2016-07-15 23:00:00
 tags:
-    - teoria
-    - fundamentos
+  - computação
+  - teoria
+  - programação
+categories:
+  - computação
+  - teoria
+  - programação
 description: Nesse artigo você encontra uma introdução rápida ao Cálculo Proposicional e alguns termos importantes para o estudo do assunto.
 ---
 
@@ -193,20 +199,13 @@ Para isso podemos ver os vídeos a seguir que confirma o que aprendemos e aprese
 
 <iframe src="https://www.youtube.com/embed/B0NVw76v31U"  width="100%" height="473px" frameborder="0" scrolling="no" allowfullscreen></iframe>
 
-## Referências:
+## Referências
 
-https://pt.wikiversity.org/wiki/L%C3%B3gica_Matem%C3%A1tica/C%C3%A1lculo_Proposicional
-
-https://pt.wikipedia.org/wiki/L%C3%B3gica_proposicional
-
-https://pt.wikipedia.org/wiki/L%C3%B3gica_matem%C3%A1tica
-
-http://www4.pucsp.br/~logica/
-
-https://pt.wikipedia.org/wiki/Tabela_verdade
-
-http://www.infoescola.com/matematica/classificacao-de-proposicoes-logicas/
-
-http://www.infoescola.com/matematica/conectivos-logicos/
-
-http://www.infoescola.com/matematica/logica-proposicional/
+* <https://pt.wikiversity.org/wiki/L%C3%B3gica_Matem%C3%A1tica/C%C3%A1lculo_Proposicional>
+* <https://pt.wikipedia.org/wiki/L%C3%B3gica_proposicional>
+* <https://pt.wikipedia.org/wiki/L%C3%B3gica_matem%C3%A1tica>
+* <http://www4.pucsp.br/~logica/>
+* <https://pt.wikipedia.org/wiki/Tabela_verdade>
+* <http://www.infoescola.com/matematica/classificacao-de-proposicoes-logicas/>
+* <http://www.infoescola.com/matematica/conectivos-logicos/>
+* <http://www.infoescola.com/matematica/logica-proposicional/>
