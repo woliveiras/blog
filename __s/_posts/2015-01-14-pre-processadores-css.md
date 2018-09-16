@@ -23,7 +23,7 @@ Tem [gente que apoia o uso](http://blog.caelum.com.br/css-facil-flexivel-e-dinam
 
 Uma coisa importante a ressaltar sobre o assunto é que: utilizar pré processadores é fácil... Não é uma coisa de outro mundo como alguns pensam.
 
-Porém é <span style="color: #ff0000;">importante</span> (Muiiiito importante) que você saiba bem CSS antes de começar a utilizar um pré processador . Senão o que você vai fazer com ele será pior do que o que você pode fazer com CSS puro!
+Porém é importante (Muiiiito importante) que você saiba bem CSS antes de começar a utilizar um pré processador . Senão o que você vai fazer com ele será pior do que o que você pode fazer com CSS puro!
 
 ## O que é um pré processador
 
