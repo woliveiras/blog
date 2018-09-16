@@ -2,11 +2,13 @@
 layout: post
 title: 'URL ou URI, qual a diferença?'
 tags:
-  - Dicas
-  - HTTP
+  - infraestrutura
+  - frontend
+  - backend
 categories:
-  - Dicas
-  - HTTP
+  - infraestrutura
+  - frontend
+  - backend
 date: 2015-01-20 10:00:42
 ---
 
