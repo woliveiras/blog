@@ -1,8 +1,11 @@
 ---
+layout: post
 title: 'A pirataria me trouxe até aqui'
 date: 2018-07-29 07:00:00
 tags:
-    - dicas
+  - pensamentos
+categories:
+  - pensamentos
 description: Sobre como a pirataria me proveu meios para estudar e hoje estou aqui
 ---
 
@@ -102,14 +105,14 @@ Agora, se você não tem condições alguma de fugir disso, eu não vou te julga
 
 **Referências**
 
-- https://pt.wikipedia.org/wiki/Pirata
-- https://g1.globo.com/economia/noticia/brasil-perde-r-130-bilhoes-por-ano-com-pirataria-contrabando-e-comercio-ilegal-aponta-estudo.ghtml
-- https://pt.wikipedia.org/wiki/Popula%C3%A7%C3%A3o_mundial
-- https://pt.wikipedia.org/wiki/Demografia_do_Brasil
-- https://cidades.ibge.gov.br/brasil/pesquisa/53/49645?tipo=grafico
+- <https://pt.wikipedia.org/wiki/Pirata>
+- <https://g1.globo.com/economia/noticia/brasil-perde-r-130-bilhoes-por-ano-com-pirataria-contrabando-e-comercio-ilegal-aponta-estudo.ghtml>
+- <https://pt.wikipedia.org/wiki/Popula%C3%A7%C3%A3o_mundial>
+- <https://pt.wikipedia.org/wiki/Demografia_do_Brasil>
+- <https://cidades.ibge.gov.br/brasil/pesquisa/53/49645?tipo=grafico>
 - http://agenciabrasil.ebc.com.br/economia/noticia/2017-12/ibge-brasil-tem-14-de-sua-populacao-vivendo-na-linha-de-pobreza
-- https://nacoesunidas.org/numero-de-pobres-no-brasil-tera-aumento-de-no-minimo-25-milhoes-em-2017-aponta-banco-mundial/
-- https://veja.abril.com.br/economia/ibge-52-milhoes-de-brasileiros-estao-abaixo-da-linha-da-pobreza/
-- https://pt.wikipedia.org/wiki/Homem_na_Estrada
-- https://www.casadocodigo.com.br/
-- https://www.udemy.com/
+- <https://nacoesunidas.org/numero-de-pobres-no-brasil-tera-aumento-de-no-minimo-25-milhoes-em-2017-aponta-banco-mundial/>
+- < https://veja.abril.com.br/economia/ibge-52-milhoes-de-brasileiros-estao-abaixo-da-linha-da-pobreza/>
+- <https://pt.wikipedia.org/wiki/Homem_na_Estrada>
+- <https://www.casadocodigo.com.br/>
+- <https://www.udemy.com/>
