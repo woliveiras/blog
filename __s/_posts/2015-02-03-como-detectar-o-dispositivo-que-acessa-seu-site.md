@@ -1,11 +1,10 @@
 ---
+layout: post
 title: Como detectar o dispositivo que acessa seu site
 tags:
-  - Dicas
-  - Mobile
+  - frontend
 categories:
-  - Dicas
-  - Mobile
+  - frontend
 date: 2015-02-03 16:47:41
 description: Como detectar o tipo de dispositivo que acessa seu site
 ---
