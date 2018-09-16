@@ -1,9 +1,10 @@
 ---
+layout: post
 title: 'Livros sobre JavaScript, do iniciante ao avançado e ES6'
 date: 2016-04-19 07:24:08
 tags:
-	- livros
-	- javascript
+  - livros
+  - javascript
 description: Livros sobre JavaScript do iniciante ao avançado em sequência para estudo. Trilha de estudos com livros sobre JavaScript
 ---
 
