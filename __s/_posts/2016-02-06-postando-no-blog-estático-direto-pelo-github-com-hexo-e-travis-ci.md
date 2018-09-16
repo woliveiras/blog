@@ -1,21 +1,18 @@
 ---
+layout: post
 title: Postando no blog estático direto pelo GitHub com Hexo e Travis CI
 date: 2016-02-06 22:00:00
 tags:
-  - Blog
-  - Hexo
-  - Dicas
-  - Travis CI
-  - Continuous Integration
+  - hexo
+  - github
 categories:
-  - Hexo
-  - Blog
-  - Travis CI
+  - hexo
+  - github
 description: Utilizando o Travis CI para fazer deploy de blogs com Hexo. Como fazer Deploy com Travis CI e GitHub Pages.
 ---
 Confesso que fiquei tentado a migrar para o [Jekyll (Ruby)](https://jekyllrb.com/) depois que um [amigo](http://jotateles.com.br/) me mostrou que da para postar no blog direto do GitHub sem ter o Jekyll instalado na máquina. Porém eu não desisti do meu queridinho, o [Hexo (feito com Node <3)](http://hexo.io/).<!--more-->
 
-*Se você não conhece o Hexo, da uma olhada [nesse artigo](http://woliveiras.com.br/posts/Migrando-de-Wordpress-para-Hexo/).*
+*Se você não conhece o Hexo, da uma olhada nesse artigo: [Migrando de WordPress para Hexo](/posts/Migrando-de-Wordpress-para-Hexo/).*
 
 Andei pesquisando sobre como postar no Blog direto pelo GitHub Pages através de outras plataformas e cheguei até [esse artigo](http://df.python.org.br/blog/github-pages-com-pelican-e-travis-ci/) do [Humberto Rocha](http://df.python.org.br/blog/autores/humberto-rocha/) ensinando a usar o Travis CI para rodar o Build do projeto com o **Pelican**. Quando vi isso logo imaginei que dava para fazer o mesmo com Hexo e poder escrever/revisar direto pelo GitHub. - E dá!
 
@@ -51,7 +48,7 @@ O nome dessa variável pode ser diferente, de acordo com o que achar mais semant
 
 No seu projeto, adicione o arquivo **.travis.yml** com as seguintes configurações, substituindo onde é necessário:
 
-```
+```ruby
 language: node_js
 
 # Adicione a branch onde está a instalação do Hexo
@@ -91,7 +88,7 @@ Recomendo que você use um arquivo [.nvmrc](http://woliveiras.com.br/posts/utili
 
 Agora configure o Hexo para fazer o deploy com seu usuário via Token com a seguinte linha no arquivo **_config.yml** do seu Blog, substituindo onde for necessário:
 
-```
+```ruby
 deploy:
   type: git
   repo: git@github.com:USUARIO/REPOSITORIO.git
@@ -100,7 +97,7 @@ deploy:
 
 Para que o deploy para o GitHub aconteça, será necessário instalar, caso ainda não tenha feito, o plugin que faz o deploy com o seguinte comando:
 
-```
+```shell
 npm install hexo-deployer-git --save-dev
 ```
 
@@ -116,7 +113,7 @@ Você vai salvar os arquivos:
 
 Portanto execute:
 
-```
+```shell
 git add .travis.yml _config.yml packages.json
 git commit -m “Add travis integration”
 git push
@@ -132,7 +129,7 @@ Caso ainda fique dúvidas, de uma olhada no [meu repositório](https://github.co
 
 Compartilhe a palavra.
 
-**Referência:**
+## Referência
 
 * https://github.com/jkeylu/deploy-hexo-site-by-travis-ci/blob/master/_travis.yml
 * http://df.python.org.br/blog/github-pages-com-pelican-e-travis-ci/
