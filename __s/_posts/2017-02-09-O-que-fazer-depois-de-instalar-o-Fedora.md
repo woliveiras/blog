@@ -1,9 +1,11 @@
 ---
+layout: post
 title: O que fazer depois de instalar o Fedora
 date: 2017-02-09 23:28:05
 tags:
-	- linux
-	- fedora
+  - linux
+categories:
+  - linux
 description: O que fazer depois de instalar o Fedora. Quais pacotes instalar. Como configurar o Fedora. Como instalaro Nodejs, Ruby, Docker e outros no Fedora.
 ---
 
@@ -39,7 +41,7 @@ Eu estou fazendo um teste porque o Ubuntu estava me dando um pouco de dor de cab
 
 É meio lógico, mas eu mesmo esqueci de fazer isso quando instalei o Fedora e logo tive problemas de falta de pacotes. Pacotes esses que não me atrapalharíam se eu tivesse atualizado ele logo de primeira. Portanto rode o comando:
 
-```
+```shell
 dnf update
 ```
 
@@ -51,7 +53,7 @@ Mesmo você não sendo desenvolvedor, vai precisar dessas ferramentas instaladas
 
 Utilize o comando:
 
-```
+```shell
 sudo dnf groupinstall 'Development Tools' && dnf groupinstall 'C Development Tools and Libraries'
 ```
 
@@ -61,7 +63,7 @@ Para instalar essas dependências.
 
 Se você não configurou isso durante a instalação do Fedora, configure o hostname com os seguintes comandos: 
 
-```
+```shell
 hostnamectl
 ```
 
@@ -69,7 +71,7 @@ Esse comando verifica se o hostname já está configurado, se estiver nem precis
 
 Caso não esteja configurado, rode o comando:
 
-```
+```shell
 sudo hostnamectl set-hostname "nome-do-host"
 ```
 
@@ -78,7 +80,7 @@ Não se esqueça de trocar onde está `nome-do-host` pelo nome que você quer co
 Eu, por exemplo, coloco “war-machine”, porque meu PC já passou por muitas batalhas e viveu um tempo nas trincheiras. Então seria:
 
 
-```
+```shell
 sudo hostnamectl set-hostname war-machine
 ```
 
@@ -92,7 +94,7 @@ Saiba mais sobre o RPM Fusion [aqui](https://rpmfusion.org/).
 
 Para ativar, basta rodar o comando:
 
-```
+```shell
 rpm -ivh http://download1.rpmfusion.org/free/fedora/rpmfusion-free-release-25.noarch.rpm
 ```
 
@@ -104,7 +106,7 @@ Existem diversas configurações muito úteis para melhorar ainda mais sua exper
 
 Instale esse utilitário rodando o seguinte comando:
 
-```
+```shell
 sudo dnf -y install gnome-tweak-tool dconf-editor
 ```
 
@@ -130,7 +132,7 @@ Eu utilizo o VLC a anos e recomendo sempre, por sua praticidade. É só instalar
 
 Basta rodar o comando:
 
-```
+```shell
 sudo dnf -y install vlc
 ```
 
@@ -138,7 +140,7 @@ sudo dnf -y install vlc
 
 Alguns sites precisam do plugin do Java para funcionar. Utilize o comando:
 
-```
+```shell
 sudo dnf -y install java-openjdk icedtea-web
 ```
 
@@ -150,7 +152,7 @@ Se você tentar utilizar programas do Windows em uma distro Linux, não vai cons
 
 Utilize o comando:
 
-```
+```shell
 sudo dnf -y install wine
 ```
 
@@ -162,7 +164,7 @@ Caso você goste de editar imagens, o Gimp pode te ajudar.
 
 Instale rodando o comando:
 
-```
+```shell
 sudo dnf -y install gimp
 ```
 
@@ -172,7 +174,7 @@ Para conseguir descompactar arquivos .rar e .zip no seu Fedora será necessário
 
 Execute o comando:
 
-```
+```shell
 sudo dnf -y install unzip p7zip p7zip-plugins unrar
 ```
 
@@ -186,7 +188,7 @@ Agora a parte de configuração do Fedora para Desenvolvedores de Softaware/Web.
 
 O VIM é um ótimo [editor de textos](/posts/Comecando-com-o-editor-de-texto-VIM/), instale-o utilizando o comando:
 
-```
+```shell
 sudo dnf -y install vim
 ```
 
@@ -210,7 +212,7 @@ Se quiser de uma olhada [nesse post](posts/utilizando-versoes-antigas-do-nodejs/
 
 Para instalar o Docker basta rodar o comando:
 
-```
+```shell
 sudo dnf -y install docker docker-compose
 ```
 
@@ -226,14 +228,13 @@ De uma pesquisada em tudo o que tem lá e vá instalando conforme sua necessidad
 
 ![Fedy](https://s30.postimg.org/nlfodqoa9/fedy.png)
 
-
 ### Instalando o Terminator
 
 Eu gosto de dividir a tela do Terminal para facilitar minha vida com Git e servidor NodeJS/Ruby/Jekyll rodando ao mesmo tempo. No Linux eu utilizo o Terminator.
 
 Para instalar basta rodar o comando:
 
-```
+```shell
 sudo dnf -y install terminator
 ```
 
@@ -247,7 +248,7 @@ Eu utilizo o Git Cola para acompanhar meus diffs e fazer os commits com Git.
 
 Para instalar basta rodar:
 
-```
+```shell
 sudo dnf -y install git-cola
 ```
 
