@@ -1,8 +1,11 @@
 ---
+layout: post
 title: 'Retrospectiva 2016 - Projetos legais, Open Source, Eventos e mais'
 date: 2016-12-22 22:00:28
 tags:
-    - retrospectiva
+  - retrospectiva
+categories:
+  - retrospectiva
 description: Retrospectiva 2016 - Como foi esse ano cheio de projetos legais, open source, eventos e muito mais.
 ---
 
@@ -16,25 +19,25 @@ Foi bem interessante relembrar o que houve esse ano e fiquei feliz por algumas c
 
 Esse ano criei mais projetos do que no ano passado.
 
-**Fevereiro**
+### Fevereiro
 
 - [Modularize your Gulpfile](https://github.com/woliveiras/modularize-your-gulpfile): Baseado [nesse artigo](http://macr.ae/article/splitting-gulpfile-multiple-files.html) montei um esquema para facilitar a modularização das tasks quando eu criar um novo projeto utilizando Gulp;
 - [My precious links](https://github.com/woliveiras/my-precious-links): Inicialmente montei um Dailylog, parecido com o do Zeh Fernando e do Felipe Fialho, mas percebi que não manteria o ritmo e, seguindo a dica do [@marquinhusgoncalves](https://github.com/marquinhusgoncalves), mudei o foco do projeto para salvar meus links favoritos para futuras consultas;
 
-**Abril**
+### Abri
 
 - [Carreira Front End](https://github.com/woliveiras/front-end-career): Um dos projetos que mais me alegram. Um guia de carreira para quem deseja se tornar Desenvolvedor Front End, bem parecido com o que já fiz [aqui no blog](https://woliveiras.com.br/posts/guia-de-estudos-desenvolvedor-front-end-iniciante/), porém bem mais completo e aberto a futuras alterações pela própria comunidade;
 
-**Maio**
+### Maio
 
 - [FFAQ](https://github.com/woliveiras/FFAQ): Aqui eu tento reunir as perguntas mais frequentes sobre o mundo de Front End em issues para outras pessoas discutirem e juntas chegarem num consenço e depois consolido em uma lista - Um pouco parado, mas logo quero voltar a atualizar isso;
 - [Redline Hexo Theme](https://github.com/woliveiras/redline-hexo-theme): Disponibilizei o tema desse blog para outras pessoas poderem utilizar no Hexo;
 
-**Junho**
+### Junho
 
 - [Metamorfose](https://github.com/woliveiras/metamorfose): Baseado no que algumas pessoas já fazem, montei uma lista do que uso no meu Workflow para que outras pessoas possam opinar sobre o que tenho usado emelhorar meu fluxo
 
-**Setembro**
+### Setembro
 
 - [Dunders](https://github.com/woliveiras/__s): Sempre que procuro um tema para Jekyll ele vem meio poluido de JS e CSS. O uso abusivo de frameworks CSS e plugins jQuery me desanimam a utilizar certos temas. Por isso fiz um tema em branco para Jekyll estilo o Underscores, para WordPress, que logo será a base para o tema desse blog;
 
@@ -44,7 +47,7 @@ Quero aqui agradecer a cada um que tem ajudado o [CT](https://twitter.com/ct_org
 
 ## Eventos
 
-**Organização de eventos**
+### Organização de eventos
 
 Esse ano fizemos o primeiro ABC-Dev! A primeira conferência da [nossa comunidade](https://github.com/abc-dev) no Grande ABC Paulista.
 
@@ -54,7 +57,7 @@ Esse ano eu tive que [deixar de ser o responsável pelo FEMUG-ABC](https://woliv
 
 Fora o FEMUG-ABC, tento ajudar o [CRUD-ABC](http://crudabc.org/) que saiu da jaula esse ano para os Back Enders do Grande ABC.
 
-**Palestras**
+### Palestras
 
 Além de ajudar na organização dos eventos eu também palestrei esse ano:
 
