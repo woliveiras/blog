@@ -1,9 +1,11 @@
 ---
+layout: post
 title: 'Produtividade, uma re-introdução'
 date: 2016-04-13 07:58:34
 tags:
-	- produtividade
-	- dicas
+  - produtividade
+categories:
+  - produtividade
 description: O que é produtividade? Como ser mais produtivo? Uma série de artigos com dicas sobre produtividade e gestão do tempo.
 ---
 
