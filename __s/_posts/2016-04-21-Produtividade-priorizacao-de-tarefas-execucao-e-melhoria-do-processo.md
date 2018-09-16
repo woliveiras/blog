@@ -1,9 +1,10 @@
 ---
+layout: post
 title: 'Produtividade: priorização de tarefas, execução e melhoria do processo'
 date: 2016-04-21 09:31:46
 tags:
-	- produtividade
-	- dicas
+  - produtividade
+  - dicas
 description: Como planejar suas tarefas, executar da forma mais produtiva de melhorar o processo buscando ainda mais produtividade.
 ---
 
@@ -114,9 +115,9 @@ Revise, também, aquela lista de coisas que você anotou durante a execução da
 
 - Você deve fazer listas de tarefas a serem executadas
 - Deve priorizar entre:
-	- importante
-	- urgente
-	- não importante
+  - importante
+  - urgente
+  - não importante
 - Deve executar somente as atividades levantadas e anotar caso apareça outra coisa para fazer
 - Deve revisar o que fez durante o dia/semana para melhorar o processo
 
