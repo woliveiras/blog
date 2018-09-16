@@ -1,11 +1,15 @@
 ---
+layout: post
 title: O que é uma imagem e o que é um container Docker?
 date: 2016-04-11 14:00:00
 tags:
-	- docker
-	- virtualização
-	- ambiente
-	- devops
+  - docker
+  - infraestrutura
+  - linux
+categories:
+  - docker
+  - infraestrutura
+  - linux
 description: O que é uma imagem e o que é um container Docker? Uma breve explicação sobre esses dois termos que podem confundir um iniciante e uma introdução sobre o Docker Hub.
 ---
 
@@ -27,19 +31,19 @@ As imagens Docker ficam armazenadas no [Docker Hub](https://hub.docker.com/) e, 
 
 Para baixar uma imagem (vamos utilizar o exemplo da imagem do Ubuntu), utilize o comando:
 
-```
+```shell
 docker pull ubuntu
 ```
 
 Você pode listar as imagens baixadas em seu PC com o comando:
 
-```
+```shell
 docker images
 ```
 
 E usar a imagem para subir um container:
 
-```
+```shell
 docker run ubuntu
 ```
 
@@ -51,7 +55,7 @@ Poderia ser de outro local, também, mas vamos falar primeiro do Docker Hub.
 
 Você também pode remover imagens locais com o comando:
 
-```
+```shell
 docker rmi ID_ou_nome_da_imagem
 ```
 
@@ -59,7 +63,7 @@ docker rmi ID_ou_nome_da_imagem
 
 Você pode pesquisar imagens no Docker Hub direto do Terminal usando o comando `search`:
 
-```
+```shell
 docker search ubuntu
 ```
 
@@ -88,15 +92,16 @@ Então como sabemos qual é uma imagem oficial?
 ```
 https://hub.docker.com/_/nginx/
 ```
+
 E a do Ubuntu em:
 
-```
+```text
 https://hub.docker.com/_/ubuntu/
 ```
 
 E mais esse exemplo do MySQL:
 
-```
+```text
 https://hub.docker.com/_/mysql/
 ```
 
@@ -112,13 +117,13 @@ O Container é uma instância de uma Imagem em execução naquele momento.
 
 Imagine baixar a imagem do Ubuntu.
 
-```
+```shell
 docker pull ubuntu
 ```
 
 E depois executar um:
 
-```
+```shell
 docker run ubuntu
 ```
 
@@ -126,23 +131,23 @@ Com isso você está instanciando um Container que usa como template a imagem do
 
 Você pode listar os Containers em execução com o comando:
 
-```
+```shell
 docker ps -a
 ```
 
-![docker ps -a](../../public/images/docker_ps_a.png)
+![docker ps -a]({{site.url}}/images/docker_ps_a.png)
 
 Ou somente o ID do Container do topo da lista com:
 
-```
+```shell
 docker ps -qa
 ```
 
-![docker ps -qa](../../public/images/docker_ps_qa.png)
+![docker ps -qa]({{site.url}}/images/docker_ps_qa.png)
 
 Pode, também remover um Container com o:
 
-```
+```shell
 Docker rm ID_ou_apelido_do_container
 ```
 
