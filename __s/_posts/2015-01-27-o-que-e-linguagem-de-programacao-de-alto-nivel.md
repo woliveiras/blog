@@ -1,11 +1,14 @@
 ---
+layout: post
 title: O que é linguagem de programação de alto/baixo nível?
 tags:
-  - Programação
-  - Teoria
+  - computação
+  - teoria
+  - programação
 categories:
-  - Programação
-  - Teoria
+  - computação
+  - teoria
+  - programação
 date: 2015-01-27 01:51:01
 description: O que é uma linguagem de programação de alto nível? E linguagem de programação de baixo nível? Acompanhe...
 ---
@@ -26,10 +29,10 @@ Você não vai precisar conhecer coisas como [registradores](http://pt.wikipedia
 
 Alguns exemplos de linguagens de alto nível:
 
-*   JavaScript **&lt;3 +++**
-*   Python **&lt;3 +++**
-*   PHP **&lt;3 ++**
-*   Ruby **&lt;3 +**
+* JavaScript **<3 +++**
+* Python **<3 +++**
+* PHP **<3 ++**
+* Ruby **<3 +**
 
 ## E a linguagem de baixo nível?
 
@@ -52,12 +55,14 @@ Se você planeja aprender uma linguagem de baixo nível, vai sem medo. O que vai
 ## Exemplos
 
 Pega esse Hello World em JS (Alto nível):
-```
+
+```javascript
 console.log('Hello World!');
 ```
 
 Agora em Assembly (Baixo nível):
-```
+
+```assembly
 %ifdef  NetBSD
 section .note.netbsd.ident
         dd      7,4,1
@@ -111,4 +116,5 @@ section .data
 msg     db      "Hello, world!",10
 len     equ     $-msg
 ```
+
 Outros exemplos [aqui ;)](http://en.wikipedia.org/wiki/List_of_Hello_world_program_examples "Exemplos de hello world").
