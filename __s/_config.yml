@@ -2,7 +2,7 @@
 
 title: William Oliveira - Desenvolvedor de Software
 subtitle: Pintor de software
-description: Um blog sobre Desenvolvimento de Software, Front End, HTML, CSS,  JavaScript, Nodejs, Linux até Ferramentas e Metodologias de Desenvolvimento para iniciantes ou avançados!
+description: Um blog sobre desenvolvimento de software e programação no geral, com foco em JavaScript, Nodejs, Performance Web, Git, GitHub, Linux, Open Source, mas também falo sobre coisas importantes de verdade como inclusão, diversidade e afins - Da periferia pro mundo
 author: William de Oliveira
 timezone: America/Sao_Paulo
 baseurl: "" # the subpath of your site, e.g. /blog
@@ -37,6 +37,7 @@ var_page_indicator_separator: of
 author: woliveiras # put your name or a name of principal author of site/blog
 email: williamozsouza@gmail.com
 twitter_username: w_oliveiras
+gplus_username: +WilliamOliveiraS
 github_username:  woliveiras
 disqus_shortname: woliveiras
 
@@ -48,6 +49,12 @@ highlighter: rouge
 sitemap: true # Generate sitemap.xml
 feed:
   path: atom.xml
+  categories:
+    - carreira
+    - programação
+    - tecnologia
+    - updates
+    - news
 sass:
   sass_dir: _sass
   style: compressed
