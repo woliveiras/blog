@@ -18,7 +18,7 @@ E para isso você entra no site de cada um, baixa e utiliza.
 O Bower serve para facilitar isso.
 Com ele, você cria um arquivo manifesto (no final do post entendemos o que é este arquivo) que vai automatizar essas tarefas.<!--more-->
 
-![Bower]({{site.url}}/images/bower.png)
+![Bower]({{site.url}}/images/posts/bower.png)
 
 Se você já programou em Python, o Bower é parecido com o [PIP](https://en.wikipedia.org/wiki/Pip_(package_manager)), se programou em Ruby é tipo o [Rubygems](https://en.wikipedia.org/wiki/RubyGems). -Outras linguagens também possuem gerenciadores de Dependências.
 

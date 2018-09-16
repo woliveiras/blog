@@ -14,7 +14,7 @@ Depois de ler o artigo do Daciuk sobre [Como ser um dev frontend usando Linux]
 
 Minha história com [Linux](http://pt.wikipedia.org/wiki/Linux "O que é Linux") começou quando eu conheci o [Kurumin Linux](http://pt.wikipedia.org/wiki/Kurumin "Kurumin") - Sim, eu sou tiozinho com esse S.O. cara. Na época eu trabalhava com Infraestrutura e fazia manutenção de micros. Acabei lendo em algum lugar que eu precisaria manjar de Linux para ser um profissional mais completo. Pois bem... Eu fui aprender sobre o danado!<!--more-->
 
-![Linux]({{site.url}}/images/linux-icon.png)
+![Linux]({{site.url}}/images/posts/linux-icon.png)
 
 Desde lá passei por várias distros como [Debian](https://www.debian.org/index.pt.html "Debian"), [Arch](https://www.archlinux.org/ "Arch"), [Fedora](https://getfedora.org/ "Fedora"), [OpenSUSE](https://pt.opensuse.org/Bem-vindo_ao_openSUSE.org "OpenSUSE"), [Ubuntu](http://www.ubuntu.com/ "Ubuntu") (Que eu uso atualmente), [ElementaryOS](http://elementaryos.org/ "ElementaryOS") e alguns que eu nem lembro o nome! E nesse artigo vou tentar te orientar um pouco sobre esse mundo maneiro do Open Source e do Software Livre ou Free.
 

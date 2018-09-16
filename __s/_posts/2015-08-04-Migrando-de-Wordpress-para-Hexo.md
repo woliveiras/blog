@@ -15,7 +15,7 @@ description: Migrar de WordPress para Hexo. Como migrar de WordPress para um ger
 
 A um bom tempo sinto vontade de mudar meu Blog de WordPress para uma plataforma de  conteúdo estático, mas não achava nenhuma alternativa, pois que queria usar Nodejs. Por isso não fui para o, muito usado na comunidade, [Jekyll(Ruby)](http://jekyllrb.com/) , nem para o [Pelican(Python <3)](http://blog.getpelican.com/).<!--more-->
 
-![Hexo Blog]({{site.url}}/images/hexo-logo.png)
+![Hexo Blog]({{site.url}}/images/posts/hexo-logo.png)
 
 Em busca de uma alternativa encontrei o [Hexo](https://hexo.io) e, um pouco depois de eu conhecer essa plataforma, o [Daciuk](http://blog.da2k.com.br/) escreveu um [post](http://blog.da2k.com.br/2014/01/05/hexo-criando-um-blog-ao-estilo-miojo/) muito maneiro incentivando o seu uso. Foi então que eu decidi de vez usar essa plataforma!
 

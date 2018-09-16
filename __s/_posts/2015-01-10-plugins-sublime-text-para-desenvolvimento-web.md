@@ -15,7 +15,7 @@ Em meus posts anteriores eu deixei algumas dicas de [configuração](/posts/inst
 
 <!--more-->
 
-![sublime text]({{site.url}}/images/sublime.png)
+![sublime text]({{site.url}}/images/posts/sublime.png)
 
 Para instalar plugins no Sublime você já sabe que é pelo Package Control que instalamos anteriormente no Post de [configuração](/posts/instalando-o-sublime-text-no-ubuntu/ "Dicas de instalação e configuração do Sublime Text").
 Então pressione **Ctrl + Shift +P** e digite **Install**.

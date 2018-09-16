@@ -17,7 +17,7 @@ description: Como organizar e desenvolver uma interface
 
 ## Começando: Os 3 principais elementos da Interface
 
-![Exemplo de estrutura da interface]({{site.url}}/images/estrutura.png)
+![Exemplo de estrutura da interface]({{site.url}}/images/posts/estrutura.png)
 
 Lembre-se de identificar os principais elementos da interface:
 

@@ -17,13 +17,13 @@ Seguindo a linha de postagens sobre [produtividade](/posts/como-ser-mais-produt
 
 Se você precisa de uma ferramenta para ajudar a se organizar, o [Trello](https://trello.com/ "Trello") é uma das que atendem muito bem!<!--more-->
 
-![Trello]({{site.url}}/images/Trello.png)
+![Trello]({{site.url}}/images/posts/Trello.png)
 
 ## O que é o Trello?
 
 É uma ferramenta de Gerenciamento de Projetos muito fácil de ser utilizado e prático! Ele é aquele velho quadro onde colamos os Post-its para as tarefas que usamos em metodologias ágeis como o [Scrum](http://pt.wikipedia.org/wiki/Scrum "Scrum")
 
-![Task Board]({{site.url}}/images/taskboard-de-projeto-em-scrum-fazer-fazendo-feito.jpg)
+![Task Board]({{site.url}}/images/posts/taskboard-de-projeto-em-scrum-fazer-fazendo-feito.jpg)
 
 Porém é Web e pode ser acessado pelo navegador ou outros [dispositivos](https://trello.com/platforms "Plataformas").
 
@@ -41,7 +41,7 @@ Para esse Blog eu me organizo da seguinte maneira:
 
 Criei um Board com o nome de Blog para a organização woliveiras (Eu).
 
-![Board do Blog]({{site.url}}/images/Captura-de-tela-de-2015-01-24-1457041.png)
+![Board do Blog]({{site.url}}/images/posts/Captura-de-tela-de-2015-01-24-1457041.png)
 
 Criei as listas com os nomes:
 
@@ -50,11 +50,11 @@ Criei as listas com os nomes:
 * **Review**: Depois de concluído o Post, movo o item para essa lista onde ficam todas as postagens que eu vou revisar antes de agendar ou publicar.
 * **Done**: É o que foi finalizado. Movo para essa lista os itens que já foram revisados e agora já podem ser publicados.
 
-![Listas]({{site.url}}/images/Captura-de-tela-de-2015-01-24-151337.png)
+![Listas]({{site.url}}/images/posts/Captura-de-tela-de-2015-01-24-151337.png)
 
 Com as listas criadas vou adicionando os Cards que são os Posts que serão escritos. Os títulos dos Cards são os títulos das postagens e no próprio cartão eu coloco os links para referências, se houver, imagens que vou colocar no Post, tópicos que devo abordar, etc.
 
-![Card]({{site.url}}/images/Captura-de-tela-de-2015-01-24-152028.png)
+![Card]({{site.url}}/images/posts/Captura-de-tela-de-2015-01-24-152028.png)
 
 Eu crio **checklists** dentro dos Cards para ir marcando o que já foi concluído.
 

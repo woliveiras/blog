@@ -31,7 +31,7 @@ A forma como escreve seu código também faz diferença e vou falar disso agora!
 
 Comente seu código. Daqui a 6 meses você não vai lembrar o que aquilo fazia, afinal você evolui - Ou só esquece mesmo. E assim como você não vai saber daqui a esse tempo, pessoas que pegarem seu código **hoje** podem demorar a entender o que ele faz se não estiver comentado.
 
-![Comentários no código]({{site.url}}/images/comment.png)
+![Comentários no código]({{site.url}}/images/posts/comment.png)
 
 Tirando a zoeira - Que é uma história real. Mantenha o bom senso. Existem funções da própria linguagem que não precisa ser comentada. Se o cara estudou a linguagem, então ele sabe o que aquele método faz.
 
