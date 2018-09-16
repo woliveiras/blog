@@ -1,19 +1,17 @@
 ---
+layout: post
 title: Corrigindo as permissões de usuário para o NPM no Linux
 categories:
-  - Nodejs
-  - JavaScript
-  - NPM
+  - linux
+  - nodejs
+  - javascript
 tags:
-  - Nodejs
-  - JavaScript
-  - NPM
+  - linux
+  - nodejs
+  - javascript
 description: Se você já teve problemas para instalar pacotes com NPM no Linux, esse artigo vai te ajudar bastante!
 date: 2015-09-12 10:00:00
 ---
-<div class="shared-img">
-![](../../public/images/npm.svg)
-</div>
 
 Se você utiliza Linux e usa NPM para baixar pacotes Nodejs, provavelmente precisa utilizar o *sudo* para efetuar as instalações e digita sua senha a cada nova instalação. Porém tem uma forma mais fácil de se fazer isso. <!--more-->
 
@@ -27,7 +25,7 @@ Começe executando o comando `npm config get prefix` para verificar se o prefixo
 
 Caso esteja corretamente localizado execute o comando:
 
-```
+```shell
 sudo chown -R `whoami` /usr/local
 ```
 
@@ -35,8 +33,10 @@ Será solicitado a senha do sudo e em seguida o seu terminal ficará bloqueado a
 
 Se você não quiser atribuir a permissão ao diretório completo, pode executar como:
 
-```
+```shell
 sudo chown -R `whoami` /usr/local/lib/node_modules /usr/local/bin /usr/local/share
 ```
 
-Referência: [Fixing NPM permissions](https://docs.npmjs.com/getting-started/fixing-npm-permissions "Fixing NPM permissions - npmjs.com")
+## Referência
+
+* [Fixing NPM permissions](https://docs.npmjs.com/getting-started/fixing-npm-permissions "Fixing NPM permissions - npmjs.com")
