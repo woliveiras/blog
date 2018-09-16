@@ -1,27 +1,27 @@
 ---
+layout: post
 title: Meu contato com o Linux e por que você deveria testar
 tags:
-  - Ambiente
+  
   - Dicas
   - Linux
 categories:
-  - Ambiente
+  
   - Dicas
   - Linux
 date: 2015-01-16 10:10:25
 description: Por que usar Linux? Como começar com Linux?
 ---
-<div class="shared-img">
-![Linux](../../public/images/linux-icon.png)
-</div>
 
 Depois de ler o artigo do Daciuk sobre [Como ser um dev frontend usando Linux](http://blog.da2k.com.br/2015/01/15/como-ser-um-dev-frontend-usando-linux/ "Como ser um dev frontend usando Linux"), decidi comentar como foi minha experiência no mundo Linux.
 
 Minha história com [Linux](http://pt.wikipedia.org/wiki/Linux "O que é Linux") começou quando eu conheci o [Kurumin Linux](http://pt.wikipedia.org/wiki/Kurumin "Kurumin") - Sim, eu sou tiozinho com esse S.O. cara. Na época eu trabalhava com Infraestrutura e fazia manutenção de micros. Acabei lendo em algum lugar que eu precisaria manjar de Linux para ser um profissional mais completo. Pois bem... Eu fui aprender sobre o danado!<!--more-->
 
-<div id="distros">Desde lá passei por várias distros como [Debian](https://www.debian.org/index.pt.html "Debian"), [Arch](https://www.archlinux.org/ "Arch"), [Fedora](https://getfedora.org/ "Fedora"), [OpenSUSE](https://pt.opensuse.org/Bem-vindo_ao_openSUSE.org "OpenSUSE"), [Ubuntu](http://www.ubuntu.com/ "Ubuntu") (Que eu uso atualmente), [ElementaryOS](http://elementaryos.org/ "ElementaryOS") e alguns que eu nem lembro o nome! E nesse artigo vou tentar te orientar um pouco sobre esse mundo maneiro do Open Source e do Software Livre ou Free.</div>
+![Linux]({{site.url}}/images/linux-icon.png)
 
-##### Open Source, Livre, Gratuito, qual a diferença?
+Desde lá passei por várias distros como [Debian](https://www.debian.org/index.pt.html "Debian"), [Arch](https://www.archlinux.org/ "Arch"), [Fedora](https://getfedora.org/ "Fedora"), [OpenSUSE](https://pt.opensuse.org/Bem-vindo_ao_openSUSE.org "OpenSUSE"), [Ubuntu](http://www.ubuntu.com/ "Ubuntu") (Que eu uso atualmente), [ElementaryOS](http://elementaryos.org/ "ElementaryOS") e alguns que eu nem lembro o nome! E nesse artigo vou tentar te orientar um pouco sobre esse mundo maneiro do Open Source e do Software Livre ou Free.
+
+## Open Source, Livre, Gratuito, qual a diferença?
 
 Daria pra escrever uma Bíblia sobre o assunto, mas é melhor você dar uma lida [nesse artigo](http://www.infowester.com/freexopen.php "Software livre, código aberto e software gratuito: as diferenças") e olhar [esse site](http://softwarelivre.org/open-source-codigo-aberto "Software Livre Brasil") para entender sobre o assunto.
 
@@ -29,11 +29,11 @@ Eu e quase 100% dos usuários de Linux, não usamos linux simplesmente por poder
 
 Eu gosto do Open Source por que sou livre para editar o meu Sistema Operacional a vontade e a comunidade é show!
 
-##### O que é uma Distro ou Distribuição Linux?
+## O que é uma "Distro" (Distribuição Linux)?
 
 A [Distro](http://pt.wikipedia.org/wiki/Distribui%C3%A7%C3%A3o_Linux "Distribuição Linux") é um conjunto do core Linux com alguns softwares formando o Sistema Operacional que você vai utilizar. No exemplo dos <a href="#distros">nomes que eu sitei</a> temos algumas das principais Distros do mercado atual, fora o [Mint](http://www.linuxmint.com/ "Linux Mint") e [Ubuntu Gnome](http://ubuntugnome.org/ "Ubuntu Gnome").
 
-##### E por que eu deveria usar Linux então?
+## E por que eu deveria usar Linux então?
 
 Se você é Desenvolvedor, use pelo conhecimento da arquitetura do Sistema Operacional que, muitas vezes, será usado nos servidores que vão armazenar sua aplicação. Com o Linux você pode conseguir ser mais produtivo. - Claro que se você é produtivo no Windows e quer continuar, não tem problema, mas por que não testar outro? Vai que...
 
@@ -47,7 +47,7 @@ Temos de ser razoáveis... Fazer gambiarra pra um software funcionar só pra diz
 
 Se você se sentir forçado a usar Linux, então já está quebrando o sentido do incentivoao teste. É para usar Linux para ser livre!
 
-##### Como começar com o Linux?
+## Como começar com o Linux?
 
 Pesquise no Googlis sobre as distribuições disponíveis no mercado e como cada uma é utilizada. Saiba como elas funcionam e o ciclo de atualizações, Softwares compatíveis (É raro um software que funcione em uma distro não funcionar na outra, porém vai que...), se você não manja de Inglês, veja se tem Documentação em PT-BR.
 
@@ -57,7 +57,7 @@ Depois veja se seu Hardware é compatível na distribuição que você deseja t
 
 Para conhecer bastante sobre o assunto será bom dar uma pesquisada em foruns, ler uns artigos ou livros. Eu indico o seguinte:
 
-[Guia Foca GNU/Linux](http://www.guiafoca.org/ "Guia Foca")
+* [Guia Foca GNU/Linux](http://www.guiafoca.org/ "Guia Foca")
 
 Se for usar Ubuntu, da uma olhada [aqui](http://ubuntu-br.org/comece "Ubuntu - Comece Aqui!").
 
