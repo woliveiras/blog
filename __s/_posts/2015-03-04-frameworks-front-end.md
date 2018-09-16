@@ -1,21 +1,20 @@
 ---
+layout: post
 title: Frameworks Front End
 tags:
-  - CSS
-  - Front End
-  - Javascript
-  - Produtividade
+  - frontend
+  - carreira
 categories:
-  - CSS
-  - Dicas
-  - Front End
-  - Javascript
-  - Produtividade
+  - frontend
+  - carreira
 date: 2015-03-04 21:18:46
 description: O que são Frameworks Front End? Quando usar um Framework?
 ---
+
 Já parou pra pensar quantas vezes você repete o mesmo código durante o Desenvolvimento, seja Web, Mobile ou Desktop? Já pensou em padronizar o que você faz de alguma maneira?
+
 E pra você que é Gerente de Projetos, Líder ou algo do tipo: Já pensou em poder adicionar um membro no seu grupo  e ele já saber como funciona o Desenvolvimento nessa equipe e conseguir ser produtivo desde o princípio?
+
 Pois é, Frameworks servem para isso... Vem comigo que vou explicar melhor. ;)<!--more-->
 
 ## O que são Frameworks?
@@ -27,35 +26,42 @@ Só isso? Sim, só isso... Framework é uma ferramenta com os códigos, padrões
 
 Minha resposta é: São sim, mas eles dependem de você para não estragá-los.
 Temos vários tipos de Frameworks pra todos os gostos e peculiaridades, porém nem sempre o mesmo que você usa para um projeto grande será interessante em um projeto pequeno. As vezes temos uma ferramenta específica só para coisas pequenas e outras só para coisas grandes.
+
 Frameworks são muito bons pela praticidade em se iniciar um projeto com metade do trabalho já feito, claro, mas você tem de entender [quando utilizar e quando não utilizar](http://tableless.com.br/quando-utilizar-ou-nao-frameworks-css/ "Quando utilizar (ou não) frameworks CSS - Talita Pagani").
+
 Temos o exemplo do [Twitter Bootstrap](http://getbootstrap.com/ "Twitter Bootstrap") que está sendo muito utilizado na Web por esses tempos e tem gente que nem sabe utilizar o que a ferramenta lhe entrega e sai sobrepondo os estilos e deixando o projeto cada vez mais pesado ou importa todo o código do Framework sendo que só vai utilizar os Grids.
 
 ## E os Frameworks Front End, servem pra que?
 
 Normalmente eles vem com os estilos que você repete em vários projetos como tamanho de botões, tipografia, cores, estilos de tabelas/formulários, menus, navegação em abas, etc. Tudo o que é referente ao desenvolvimento de uma interface normalmente vem nessas maravilhas ou você cria um com tudo o que você sempre usa. - Pra um iniciante o melhor seria aprender como as coisas são feitas e até mesmo criar o seu próprio pelo fato de aprender mais.
+
 Tem diferença entre Bibliotecas Front End e Frameworks Front End, da uma olhada [nesse artigo](http://tableless.com.br/biblioteca-css-ou-framework/ "Biblioteca CSS ou Framework?").
 
 ## Vantagens do uso dos Frameworks
 
 Algumas das vantagens que eu percebi:
 
-*   Como eu disse: Metade do trabalho está feito, então você tem agilidade na entrega dos projetos.
-*   Uma pessoa que conhece o Framework que você utiliza na empresa consegue entrar na sua equipe e já ser mais produtiva do que aprender do zero como funciona o Workflow de vocês.
-*   A documentação dos Frameworks estão sempre atualizadas e são referências para buscar conteúdo.
-*   Padronização no desenvolvimento.
+* Como eu disse: Metade do trabalho está feito, então você tem agilidade na entrega dos projetos.
+* Uma pessoa que conhece o Framework que você utiliza na empresa consegue entrar na sua equipe e já ser mais produtiva do que aprender do zero como funciona o Workflow de vocês.
+* A documentação dos Frameworks estão sempre atualizadas e são referências para buscar conteúdo.
+* Padronização no desenvolvimento.
 
 ## Desvantagens do uso dos Frameworks
 
 Se você é iniciante e não sabe como as coisas funcionam por baixo dos panos, então fique longe deles. Aprenda a programar de verdade antes de usar uma ferramenta pronta, pois isso pode ser um tiro no pé e uma hora você vai se enroscar por causa da falta de conhecimento.
+
 Ter de estudar como ele funciona... Se você não conhece bem a ferramenta, pra que serve, qual o objetivo de quem a criou e quais os prós e contras dela, então também não comece a utilizar de uma vez. A falta do conhecimento vai tornar ela muito mais trabalhosa pra se usar e você pode usar um parafuso pensando que é prego.
+
 Todo dia nasce um Framework com alguma coisinh a mais que as vezes faz toda a diferença e você vai ter de estudar tudo de novo! (Triste realidade... :/)
 
 ## Os Frameworks mais maneiros
 
 [Nessa página](http://usablica.github.io/front-end-frameworks/compare.html "FRONT-END FRAMEWORKS") temos uma lista de alguns Frameworks CSS e[ nessa outra](http://todomvc.com/ "TodoMVC") alguns Frameworks JavaScript, da uma conferida e veja qual se adapta a sua necessidade.
+
 Eu utilizo no dia-a-dia o Bootstrap e ele tem me atendido muito bem, porém não posso te indicar algum só por que eu gosto dele. O melhor é você levantar o máximo de informação sobre os que estão sendo mais utilizados e testar cada um pra ver se te atende legal.
 
 ## Bônus
 
-Se você não conhece pré processadores, seria interessante aprender algum também. Recomendo essa leitura: [Escrevendo CSS com Stylus](http://blog.da2k.com.br/2015/02/15/escrevendo-css-com-stylus/ "Escrevendo CSS com Stylus")
+Se você não conhece pré processadores, seria interessante aprender algum também. Recomendo essa leitura: [Escrevendo CSS com Stylus](http://blog.da2k.com.br/2015/02/15/escrevendo-css-com-stylus/ "Escrevendo CSS com Stylus").
+
 Você conhece algum Framework Front End maneiro ou tem mais alguma dica sobre o assunto? Compartilha ae!
