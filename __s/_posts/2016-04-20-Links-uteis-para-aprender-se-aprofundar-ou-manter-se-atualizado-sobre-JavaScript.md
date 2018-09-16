@@ -1,9 +1,13 @@
 ---
+layout: post
 title: Links úteis para aprender, se aprofundar ou manter-se atualizado sobre JavaScript
 date: 2016-04-20 06:00:19
 tags:
-	- dicas
-	- javascript
+  - carreira
+  - javascript
+categoires:
+  - carreira
+  - javascript
 description: Um compilado de links úteis para aprender, se aprofundar ou manter-se atualizado sobre JavaScript.
 ---
 
@@ -87,6 +91,7 @@ Uma lista imensa de Blogs no [Cerebro](https://github.com/cerebrobr/):
 No repositório ainda tem muito mais fonte de informação útil. Aconselho que de uma boa navegada por lá.
 
 JavaScript Society, uma org no GitHub sobre JavaScript!
+
 - [JavaScript Society](https://github.com/javascript-society)
 
 Além de ler os artigos, também recomendo que siga esses autores nas redes sociais, pois estão sempre compartilhando coisa boa.
