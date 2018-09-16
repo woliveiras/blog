@@ -1,8 +1,11 @@
 ---
+layout: post
 title: Por que você desistiu de ser Cientista?
 date: 2016-04-16 08:55:36
 tags:
-	- opinião
+  - pensamentos
+categories:
+  - pensamentos
 description: Um artigo sobre como ser um bom Desenvolvedor de Software observando como as crianças são bons cientistas.
 ---
 
