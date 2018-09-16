@@ -1,9 +1,15 @@
 ---
+layout: post
 title: Introdução ao Raciocínio Lógico
 date: 2016-06-19 11:50:29
 tags:
-    - teoria
-    - fundamentos
+  - computação
+  - teoria
+  - programação
+categories:
+  - computação
+  - teoria
+  - programação
 description: Nesse artigo você encontra uma introdução rápida ao Raciocínio Lógico e alguns termos importantes para o estudo do assunto.
 ---
 
