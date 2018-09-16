@@ -1,18 +1,15 @@
 ---
+layout: post
 title: Quanto cobrar pelo Freelance?
 tags:
-  - Dicas
-  - Freela
-  - Freelance
+  - carreira
+  - freelance
 categories:
-  - Dicas
-  - Freela
-  - Freelance
+  - carreira
+  - freelance
 date: 2015-01-12 08:33:25
 description: Quanto cobrar por um Freelance ou quanto cobrar pela minha hora?
 ---
-
-<div class="shared-img">![saco de money](../../public/images/money.jpg)</div>
 
 Muita gente, iniciante ou não, tem dúvidas de quanto cobrar por um Freelance...
 
@@ -21,6 +18,8 @@ Não existe um valor padrão para o Freela!
 
 Seja projeto pequeno ou grande, que demanda muito tempo ou pouco. É tudo muito variável...
 Você tem de calcular quanto tempo vai demorar, quanto vai custar sua hora e por ai vai, mas relaxa, vou tentar ajudar aqui.<!--more-->
+
+![saco de money]({{site.url}}/images/money.jpg)
 
 ## Primeiro pesquise o Mercado
 
@@ -41,7 +40,7 @@ Eu, particularmente, curto a metodologia [Scrum](https://www.scrum.org/ "Scrum")
 
 Para marcar minhas tarefas, fazer listas e tudo mais eu uso o [Wunderlist](https://wunderlist.com/), para datas importantes [Google Agenda](https://www.google.com/calendar/ "Agenda") e para armazenar arquivos importantes como contratos, briefings, propostas, etc, uso o [Google Drive](drive.google.com "Drive").
 
-## Quanto custa sua hora?
+## Quanto custa sua hora
 
 Pra se chegar ao valor de um Freela é necessário saber quanto custa sua hora. Existem algumas maneiras de se chegar ao valor final, mas eu vou pular para o jeito mais fácil aqui. Antigamente eu calculava na canetinha pra saber isso, porém conheci o site:
 
@@ -50,7 +49,7 @@ Pra se chegar ao valor de um Freela é necessário saber quanto custa sua hora.�
 Que nos ajuda a chegar no valor final.
 **Porém seja sensato ao estipular os valores ai ein...**
 
-## E quanto vai custar o projeto?
+## E quanto vai custar o projeto
 
 Você deve, agora, estipular quanto tempo vai levar para produzir cada etapa/tela/funcionalidade/etc do projeto.
 Por exemplo: Sistema de Login (10 horas), Telas (10 telas 2 horas cada), etc.
@@ -63,7 +62,7 @@ Ex.: Se sua hora custar 35 [Dilmas](http://pt.wikipedia.org/wiki/Real_%28moeda%2
 
 Porém, entretanto, toda via, você não colocou ali o custo que vai ter para produzir. Ou seja, não somou com a conta de energia, internet, equipamentos, softwares... Você deve incluir isso no valor total também. Senão esse gasto vai sair somente do seu bolso(Não esquece de colocar o valor do café né meu?).
 
-## E como receber?
+## E como receber
 
 Tem muitas formas de se receber do Cliente, seja por Paypal, Pagseguro, transferência bancária, dinheiro na mão.
 Sinceramente, não é o meio de pagamento que é o problema nesse momento, mas como você vai receber, pois, nem sempre - Quase nunca - o cliente vai pagar a vista.
