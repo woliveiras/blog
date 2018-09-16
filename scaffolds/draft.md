@@ -3,4 +3,5 @@ date: {{ date }}
 tags:
 categories:
 description:
+wallpaper: 
 ---
