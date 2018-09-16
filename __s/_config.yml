@@ -71,6 +71,7 @@ exclude: [
 
 # Gems
 gems: [
+    neat,
     jekyll-paginate,
     jekyll-sitemap,
     jekyll-feed,
