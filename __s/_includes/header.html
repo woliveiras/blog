@@ -3,8 +3,10 @@
   {% include head.html %}
 <body>
 
-<header>
-    {% if page.url == "/" %}
-    <h1>{{ site.page_title }}</h1>
-    {% endif %} {% include navigation-menu.html %}
+<header class="main-header">
+    <div class="main-header__wrapper">
+        {% if page.url == "/" %}
+        <h1 class="main-header__title">{{ site.page_title }}</h1>
+        {% endif %} {% include navigation-menu.html %}
+    </div>
 </header>
