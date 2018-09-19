@@ -4,7 +4,7 @@ title: William Oliveira - Desenvolvedor de Software
 page_title: William Oliveira
 subtitle: Pintor de software
 description: Um blog sobre desenvolvimento de software e programação no geral, com foco em JavaScript, Nodejs, Performance Web, Git, GitHub, Linux, Open Source, mas também falo sobre coisas importantes de verdade como inclusão, diversidade e afins - Da periferia pro mundo
-author: William de Oliveira
+author: William Oliveira
 timezone: America/Sao_Paulo
 baseurl: "" # the subpath of your site, e.g. /blog
 url: https://woliveiras.com.br
@@ -15,6 +15,13 @@ date_format: "%b %-d, %Y"  # dateformat of reading list, post date, and more
 permalink: /posts/:title/ # use to url friendly
 display-author-front-page: false # True if you need show author name and site on home page
 display-author-post-page: false # Very usual for guest posts and the infos of author are writen in header of post.md, by default show infos of user settings
+
+# webmaster_verifications: # for verifying ownership via Google webmaster tools
+#   google: 1234
+#   bing: 1234
+#   alexa: 1234
+#   yandex: 1234
+#   baidu: 1234
 
 # Useful for translating into other languages.
 
