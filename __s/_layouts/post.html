@@ -2,9 +2,11 @@
 layout: default
 ---
 
-{{ content }}
+<section>
+    <h2>{{ page.title }}</h2>
+    {{ content }}
+</section>
 
-<span><a href="{{ page.url }}#disqus_thread"></a></span>
 <div>
   {% for tag in page.tags %}
       <a href="{{ site.baseurl }}/tags/#{{tag | slugify }}">{{ tag }}</a>
