@@ -3,8 +3,8 @@
   {% include head.html %}
 <body>
 
-{% if page.url == "/" %}
-    <h1>William Oliveira</h1>
-{% endif %}
-
-{% include navigation-menu.html %}
+<header>
+    {% if page.url == "/" %}
+    <h1>{{ site.page_title }}</h1>
+    {% endif %} {% include navigation-menu.html %}
+</header>
