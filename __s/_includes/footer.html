@@ -1,14 +1,31 @@
-<footer>
-  <section>
-    <nav>
-      <ul>
-        {% for link in site.data.menus.footer-menu %}
-          <li><a href="{{ link.url }}" title="{{ link.title }}">{{ link.title }}</a></li>
-        {% endfor %}
-      </ul>
-    </nav>
-  </section>
-  <span>© {{ site.time | date: '%Y' }} writed with <3 by {{ site.author }}, site develop with <a href="https://jekyllrb.com/" title="Jekyll website">Jekyll</a></span>
+<footer class="page-footer">
+    <div class="page-footer__featured">
+        <div class="page-footer__wrapper">
+            <section class="page-footer__separator">
+                <nav class="page-footer__nav">
+                    <ul>
+                        {% for link in site.data.menus.footer-menu %}
+                        <li class="page-footer__nav__item"><a class="page-footer__nav__text" href="{{ link.url }}" title="{{ link.title }}">{{ link.title }}</a></li>
+                        {% endfor %}
+                    </ul>
+                </nav>
+            </section>
+            <section>
+                <h3 class="page-footer__subtitle">Conecte-se comigo</h3>
+                <nav class="page-footer__nav page-footer__nav--social">
+                    <ul>
+                        {% for link in site.data.menus.social-menu %}
+                        <li class="page-footer__nav__item"><a class="page-footer__nav__text" href="{{ link.url }}" title="{{ link.title }}"><span class="page-footer__nav__icon">{{ link.icon }}</span>{{
+                                link.title }}</a></li>
+                        {% endfor %}
+                    </ul>
+                </nav>
+            </section>
+        </div>
+    </div>
+    <div class="page-footer__copy">
+        <span>© {{ site.time | date: '%Y' }} writed with <3 by {{ site.author }}, site develop with <a href="https://jekyllrb.com/" title="Jekyll website">Jekyll</a></span>
+    </div>
 </footer>
 </body>
 </html>

@@ -47,11 +47,12 @@ email: williamozsouza@gmail.com
 twitter_username: w_oliveiras
 gplus_username: +WilliamOliveiraS
 github_username:  woliveiras
+linkedin_username: william-oliveira
 disqus_shortname: woliveiras
 
 # Build settings
 
-incremental: true
+# incremental: true
 markdown: kramdown
 highlighter: rouge
 sitemap: true # Generate sitemap.xml

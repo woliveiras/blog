@@ -1,0 +1,40 @@
+@import '../mixins/grid'
+
+.page-footer
+    background-color: $black
+
+    &__subtitle
+        color: $white
+        font-weight: 300
+        padding-bottom: 10px
+        padding-top: 10px
+
+    &__separator
+        padding-bottom: 30px
+        padding-top: 10px
+        border-bottom: 1px solid $gray-darkest
+
+    &__wrapper
+        +col(12, 12)
+
+    &__featured
+        padding-top: 20px
+        padding-bottom: 20px
+
+    &__copy
+        background-color: $gray
+
+    &__nav
+        &__icon
+            & svg
+                display: inline-block
+                height: 1em
+                vertical-align: middle
+                width: 1em
+                margin-right: 10px
+
+        &__text
+            font-size: .8em
+            font-weight: 300
+
+        &--social
