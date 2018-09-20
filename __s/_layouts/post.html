@@ -2,16 +2,22 @@
 layout: default
 ---
 
-<section>
-    <h2>{{ page.title }}</h2>
-    {{ content }}
-</section>
+{% assign words = content | number_of_words %}
 
-<div>
-  {% for tag in page.tags %}
-      <a href="{{ site.baseurl }}/tags/#{{tag | slugify }}">{{ tag }}</a>
-  {% endfor %}
-</div>
+<section class="post">
+    <h2 class="post__title">{{ page.title }}</h2>
+    <span class="post__date">{{ page.date | date: site.date_format }} • {% if words < 360 %} 1 min {% else %} {{ words | divided_by:180 }} mins {% endif %}</span>
+    {{ content }}
+    <div class="post__footer">
+        <div class="post__tags">
+            <ul>
+                {% for tag in post.tags %}
+                <li class="post__tags__item"><a href="{{ site.baseurl }}/tags/#{{tag | slugify }}">{{ tag }}</a></li>
+                {% endfor %}
+            </ul>
+        </div>
+    </div>
+</section>
 
   {% if site.display-author-post-page %}
     {% if page.author.name %}

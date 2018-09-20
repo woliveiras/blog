@@ -11,7 +11,7 @@ url: https://woliveiras.com.br
 language: "pt-br"
 paginate: 5 # Number of posts on each page
 paginate_path: "/page/:num" # links format for pagination
-date_format: "%b %-d, %Y"  # dateformat of reading list, post date, and more
+date_format: "%d/%m/%Y"  # dateformat of reading list, post date, and more
 permalink: /posts/:title/ # use to url friendly
 display-author-front-page: false # True if you need show author name and site on home page
 display-author-post-page: false # Very usual for guest posts and the infos of author are writen in header of post.md, by default show infos of user settings
@@ -25,20 +25,20 @@ display-author-post-page: false # Very usual for guest posts and the infos of au
 
 # Useful for translating into other languages.
 
-var_on_the_web: On the web
-var_read: Continue...
-var_newer: Newers
-var_older: Olders
-var_next_post: Next
-var_previous_post: Previous
-var_less_than_a_minute_read: < 1 min read
-var_min_read: min read # Text after reading time. Example: 5 min read.
-var_post_by: Writed by
+var_on_the_web: Na internet
+var_read: Continuar...
+var_newer: Novos
+var_older: Antigos
+var_next_post: Próximo
+var_previous_post: Anterior
+var_less_than_a_minute_read: < 1 min leitura
+var_min_read: min leitura # Text after reading time. Example: 5 min read.
+var_post_by: Escrito por
 var_guest_post_by: Guest post by
-var_your_email: Your mail
-var_your_message: Your message
-var_page_indicator: Page
-var_page_indicator_separator: of
+var_your_email: Email
+var_your_message: Mensagem
+var_page_indicator: Página
+var_page_indicator_separator: de
 
 # User settings
 
