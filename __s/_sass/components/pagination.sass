@@ -1,0 +1,16 @@
+@import '../mixins/grid'
+
+.pagination
+    +col(12, 12)
+    text-align: center
+    padding-bottom: 20px
+
+    &__item
+        display: inline-block
+        padding-right: 15px
+
+        &__text
+            font-size: .8em
+
+            &--deactivated
+                opacity: .5
