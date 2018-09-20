@@ -78,11 +78,10 @@ exclude: [
     'Gemfile.lock'
 ]
 
-# Gems
-gems: [
-    neat,
-    jekyll-paginate,
-    jekyll-sitemap,
-    jekyll-feed,
-    jekyll-seo-tag
-]
+# plugins
+plugins:
+    - jemoji
+    - jekyll-paginate
+    - jekyll-sitemap
+    - jekyll-feed
+    - jekyll-seo-tag
