@@ -1,8 +1,9 @@
-// http://thesassway.com/intermediate/simple-grid-mixins
+// Based on http://thesassway.com/intermediate/simple-grid-mixins
 @mixin row ()
     font-size: 0
+    max-width: 960px
+    margin: auto
 
-// This is column mixins.
 @mixin col ($col, $sum, $gap: 1em, $align: top, $first: false, $last: false)
     width: 100%
     display: inline-block

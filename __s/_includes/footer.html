@@ -1,7 +1,8 @@
 <footer class="page-footer">
     <div class="page-footer__featured">
         <div class="page-footer__wrapper">
-            <section class="page-footer__separator">
+            <section class="page-footer__separator page-footer__separator--bordered">
+                <h3 class="page-footer__subtitle">Mais conteúdo</h3>
                 <nav class="page-footer__nav">
                     <ul>
                         {% for link in site.data.menus.footer-menu %}
@@ -10,7 +11,7 @@
                     </ul>
                 </nav>
             </section>
-            <section>
+            <section class="page-footer__separator">
                 <h3 class="page-footer__subtitle">Conecte-se comigo</h3>
                 <nav class="page-footer__nav page-footer__nav--social">
                     <ul>
@@ -24,7 +25,9 @@
         </div>
     </div>
     <div class="page-footer__copy">
-        <span>© {{ site.time | date: '%Y' }} writed with :heart: by {{ site.author }}, site develop with <a href="https://jekyllrb.com/" title="Jekyll website">Jekyll</a></span>
+        <div class="page-footer__wrapper">
+            <span class="page-footer__copy__text">© {{ site.time | date: '%Y' }} writed with :heart: by {{ site.author }}, site develop with <a href="https://jekyllrb.com/" title="Jekyll website">Jekyll</a></span>
+        </div>
     </div>
 </footer>
 </body>

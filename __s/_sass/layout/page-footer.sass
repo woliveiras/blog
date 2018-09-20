@@ -3,23 +3,29 @@
 .page-footer
     background-color: $black
 
+    &__wrapper
+        +row
+
     &__subtitle
         color: $white
         font-weight: 300
         padding-bottom: 10px
         padding-top: 10px
 
-    &__separator
-        padding-bottom: 30px
-        padding-top: 10px
-        border-bottom: 1px solid $gray-darkest
-
-    &__wrapper
-        +col(12, 12)
-
     &__featured
         padding-top: 20px
         padding-bottom: 20px
+
+    &__separator
+        +col(1, 2)
+        padding-bottom: 30px
+        padding-top: 10px
+
+        &--bordered
+            border-bottom: 1px solid $gray-darkest
+
+            @media only screen and (min-width: 768px)
+                border: none
 
     &__copy
         +col(12, 12)
@@ -27,11 +33,11 @@
         padding-bottom: 15px
         padding-top: 15px
 
-        & span
-            font-size: .8em
+        &__text
+            font-size: 14px
 
-        & a
-            font-size: 1em
+            a
+                font-size: 1em
 
     &__nav
         &__icon
