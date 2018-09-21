@@ -6,6 +6,10 @@
     &__wrapper
         +row
 
+        @media only screen and (min-width: 768px)
+            max-width: 640px
+            margin: auto
+
     &__subtitle
         color: $white
         font-weight: 300
@@ -20,9 +24,15 @@
         +col(1, 2)
         padding-bottom: 30px
         padding-top: 10px
+        position: relative
 
-        &--bordered
+        &--bordered:after
+            content: ""
+            display: inline-block
             border-bottom: 1px solid $gray-darkest
+            width: 60%
+            position: absolute
+            bottom: 0
 
             @media only screen and (min-width: 768px)
                 border: none

@@ -3,14 +3,17 @@ layout: default
 home: true
 ---
 
-{% for post in paginator.posts %}
+<div class="main-wrapper">
+    {% for post in paginator.posts %}
 
-{% assign minutes = post.content | number_of_words | divided_by: 180 %}
-{% if minutes == 0 %}
-  {% assign read-time = site.var_less_than_a_minute_read %}
-{% else %}
-  {% assign read-time = minutes | append: "&nbsp;" | append: site.var_min_read %}
-{% endif %}
+    {% assign minutes = post.content | number_of_words | divided_by: 180 %}
+
+    {% if minutes == 0 %}
+        {% assign read-time = site.var_less_than_a_minute_read %}
+    {% else %}
+        {% assign read-time = minutes | append: "&nbsp;" | append: site.var_min_read %}
+    {% endif %}
+
     <article class="post">
         <a href="{{ post.url | prepend: site.baseurl }}">
             <h2 class="post__title">{{ post.title }}</h2>
@@ -26,13 +29,14 @@ home: true
             <div class="post__tags">
                 <ul>
                     {% for tag in post.tags %}
-                        <li class="post__tags__item"><a href="{{ site.baseurl }}/tags/#{{tag | slugify }}">{{ tag }}</a></li>
+                    <li class="post__tags__item"><a href="{{ site.baseurl }}/tags/#{{tag | slugify }}">{{ tag }}</a></li>
                     {% endfor %}
                 </ul>
             </div>
         </div>
     </article>
-{% endfor %}
+    {% endfor %}
+</div>
 
 {% if paginator.previous_page or paginator.next_page %}
   {% include pagination.html %}
