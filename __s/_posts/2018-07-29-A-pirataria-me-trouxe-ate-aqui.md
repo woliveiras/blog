@@ -44,8 +44,9 @@ Significa que **essas pessoas não possuem recursos para chegar até a informaç
 
 Como o exemplo da série Atlanta, temos uma cena que conta muito sobre a realidade:
 
-- Eu sou pobre, Darius.
-- E os pobres não têm tempo para investimentos, porque estamos muito ocupados tentando não ser pobres. Tenho que comer hoje, não em setembro.
+> Eu sou pobre, Darius.
+>
+> E os pobres não têm tempo para investimentos, porque estamos muito ocupados tentando não ser pobres. Tenho que comer hoje, não em setembro.
 
 [![atlanta.jpg](https://s8.postimg.cc/lis9kosc5/atlanta.jpg)](https://postimg.cc/image/v3bw7kho1/)
 
@@ -103,16 +104,16 @@ Existem outros sites para isso e muita gente que pode te ajudar nas comunidades,
 
 Agora, se você não tem condições alguma de fugir disso, eu não vou te julgar, mas espero que um dia seja você a comentar que não precisa mais consumir conteúdo pirata. - Boa sorte!
 
-**Referências**
+#### Referências
 
 - <https://pt.wikipedia.org/wiki/Pirata>
 - <https://g1.globo.com/economia/noticia/brasil-perde-r-130-bilhoes-por-ano-com-pirataria-contrabando-e-comercio-ilegal-aponta-estudo.ghtml>
 - <https://pt.wikipedia.org/wiki/Popula%C3%A7%C3%A3o_mundial>
 - <https://pt.wikipedia.org/wiki/Demografia_do_Brasil>
 - <https://cidades.ibge.gov.br/brasil/pesquisa/53/49645?tipo=grafico>
-- http://agenciabrasil.ebc.com.br/economia/noticia/2017-12/ibge-brasil-tem-14-de-sua-populacao-vivendo-na-linha-de-pobreza
+- <http://agenciabrasil.ebc.com.br/economia/noticia/2017-12/ibge-brasil-tem-14-de-sua-populacao-vivendo-na-linha-de-pobreza>
 - <https://nacoesunidas.org/numero-de-pobres-no-brasil-tera-aumento-de-no-minimo-25-milhoes-em-2017-aponta-banco-mundial/>
-- < https://veja.abril.com.br/economia/ibge-52-milhoes-de-brasileiros-estao-abaixo-da-linha-da-pobreza/>
+- <https://veja.abril.com.br/economia/ibge-52-milhoes-de-brasileiros-estao-abaixo-da-linha-da-pobreza/>
 - <https://pt.wikipedia.org/wiki/Homem_na_Estrada>
 - <https://www.casadocodigo.com.br/>
 - <https://www.udemy.com/>

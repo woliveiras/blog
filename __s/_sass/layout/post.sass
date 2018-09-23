@@ -37,3 +37,57 @@
                 &:after
                     content: ""
 
+
+    ul,ol,dl
+        font-size: .8em
+        padding: 0
+        list-style: none
+        list-style-image: none
+        word-break: break-word
+        word-wrap: break-word
+
+    li
+        padding-left: 15px
+
+        &:before
+            content: '\2022'
+            position: absolute
+            display: inline-block
+            width: 78px
+            padding-right: 10px
+            margin-left: -75px
+            text-align: right
+
+    blockquote
+        border-left: 5px solid $gray
+        padding-left: 14px
+        margin-bottom: 30px
+        margin-top: 10px
+        margin-left: -18px
+        font-style: italic
+
+    table
+        margin-top: 20px
+        margin-bottom: 20px
+
+        & th, & td
+            padding: 6px 13px
+            border: 1px solid $gray
+
+        & th
+            font-weight: 400
+
+    tbody tr:nth-child(odd)
+        background-color: $gray-light
+
+
+    .gist
+
+        &-meta
+            font-size: .5em
+
+            & a
+                font-size: inherit
+
+        table th, table td
+            font-size: 15px
