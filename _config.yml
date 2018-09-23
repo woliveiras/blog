@@ -1,86 +1,88 @@
-# Hexo Configuration
-## Docs: http://hexo.io/docs/configuration.html
-## Source: https://github.com/hexojs/hexo/
+# Site settings
 
-# Site
 title: William Oliveira - Desenvolvedor de Software
+page_title: William Oliveira
 subtitle: Pintor de software
-description: Um blog sobre Desenvolvimento de Software, Front End, HTML, CSS, Sass, Stylus, JavaScript, Nodejs, Linux até Ferramentas e Metodologias de Desenvolvimento para iniciantes ou avançados!
-author: William de Oliveira
-language: default
+description: Um blog sobre desenvolvimento de software e programação no geral, com foco em JavaScript, Nodejs, Performance Web, Git, GitHub, Linux, Open Source, mas também falo sobre coisas importantes de verdade como inclusão, diversidade e afins - Da periferia pro mundo
+author: William Oliveira
 timezone: America/Sao_Paulo
+baseurl: "" # the subpath of your site, e.g. /blog
+url: https://woliveiras.com.br
+language: "pt-br"
+paginate: 5 # Number of posts on each page
+paginate_path: "/page/:num" # links format for pagination
+date_format: "%d/%m/%Y"  # dateformat of reading list, post date, and more
+permalink: /posts/:title/ # use to url friendly
+display-author-front-page: false # True if you need show author name and site on home page
+display-author-post-page: false # Very usual for guest posts and the infos of author are writen in header of post.md, by default show infos of user settings
 
-# URL
-## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-url: http://woliveiras.com.br
-root: /
-permalink: posts/:title/
-permalink_defaults:
+# webmaster_verifications: # for verifying ownership via Google webmaster tools
+#   google: 1234
+#   bing: 1234
+#   alexa: 1234
+#   yandex: 1234
+#   baidu: 1234
 
-# Directory
-source_dir: source
-public_dir: public
-tag_dir: tags
-archive_dir: archives
-category_dir: categories
-code_dir: downloads/code
-i18n_dir: :lang
-skip_render: README.md
+# Useful for translating into other languages.
 
-# Writing
-new_post_name: :title.md # File name of new posts
-default_layout: post
-titlecase: false # Transform title into titlecase
-external_link: true # Open external links in new tab
-filename_case: 0
-render_drafts: false
-post_asset_folder: false
-relative_link: false
-future: true
-highlight:
-  enable: true
-  line_number: true
-  auto_detect: true
-  tab_replace:
+var_on_the_web: Na internet
+var_read: Continuar...
+var_newer: Novos
+var_older: Antigos
+var_next_post: Próximo
+var_previous_post: Anterior
+var_less_than_a_minute_read: < 1 min leitura
+var_min_read: min leitura # Text after reading time. Example: 5 min read.
+var_post_by: Escrito por
+var_guest_post_by: Guest post by
+var_your_email: Email
+var_your_message: Mensagem
+var_page_indicator: Página
+var_page_indicator_separator: de
 
-# Category & Tag
-default_category: uncategorized
-category_map:
-tag_map:
+# User settings
 
-# Date / Time format
-## Hexo uses Moment.js to parse and display date
-## You can customize the date format as defined in
-## http://momentjs.com/docs/#/displaying/format/
-date_format: YYYY-MM-DD
-time_format: HH:mm:ss
+author: woliveiras # put your name or a name of principal author of site/blog
+email: williamozsouza@gmail.com
+twitter_username: w_oliveiras
+gplus_username: +WilliamOliveiraS
+github_username:  woliveiras
+linkedin_username: william-oliveira
+disqus_shortname: woliveiras
 
-# Pagination
-## Set per_page to 0 to disable pagination
-per_page: 8
-pagination_dir: page
+# Build settings
 
-# Extensions
-## Plugins: http://hexo.io/plugins/
-## Themes: http://hexo.io/themes/
-theme: redline
-
-# Feed
+# incremental: true
+markdown: kramdown
+highlighter: rouge
+sitemap: true # Generate sitemap.xml
 feed:
-  type: atom
   path: atom.xml
-  limit: 20
+  categories:
+    - carreira
+    - programação
+    - tecnologia
+    - updates
+    - news
+sass:
+  sass_dir: _sass
+  style: compressed
 
-# Disqus
-# disqus_shortname: woliveiras
+# exclude files if no need build
+exclude: [
+    'package.json',
+    'node_modules',
+    'README.md',
+    'LICENSE',
+    'Gemfile',
+    'Gemfile.lock'
+]
 
-# Deployment
-## Docs: http://hexo.io/docs/deployment.html
-deploy:
-  type: git
-  repo: git@github.com:woliveiras/woliveiras.github.io.git
-  branch: master
-
-#SEO
-sitemap:
-    path: sitemap.xml
+# plugins
+plugins:
+    - jemoji
+    - jekyll-paginate
+    - jekyll-sitemap
+    - jekyll-feed
+    - jekyll-seo-tag
+    - jekyll-gist

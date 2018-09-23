@@ -5,3 +5,7 @@ db.json
 node_modules/
 .deploy*/
 *.*~
+_site
+.sass-cache
+.jekyll-metadata
+.bundle
