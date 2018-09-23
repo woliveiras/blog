@@ -135,7 +135,7 @@ Você pode listar os Containers em execução com o comando:
 docker ps -a
 ```
 
-![docker ps -a]({{site.url}}/images/posts/docker_ps_a.png)
+![docker ps -a]({{site.post_images}}docker_ps_a.png)
 
 Ou somente o ID do Container do topo da lista com:
 
@@ -143,7 +143,7 @@ Ou somente o ID do Container do topo da lista com:
 docker ps -qa
 ```
 
-![docker ps -qa]({{site.url}}/images/posts/docker_ps_qa.png)
+![docker ps -qa]({{site.post_images}}docker_ps_qa.png)
 
 Pode, também remover um Container com o:
 

@@ -29,7 +29,7 @@ Também quero que você saiba que não está só na constatação de alguns prob
 
 Meu objetivo com esse artigo é alertar as pessoas de que existem problemas nas comunidades, eventos e afins, e algumas iniciativas não são ambientes seguros de verdade, inclusivos, acessíveis e muito menos pró diversidade como são vendidas nas redes sociais.
 
-![Podridão, Photo by Del Barrett on Unsplash]({{site.url}}/images/posts/podridao.jpg)
+![Podridão, Photo by Del Barrett on Unsplash]({{site.post_images}}podridao.jpg)
 
 ## Código de conduta é uma farsa
 

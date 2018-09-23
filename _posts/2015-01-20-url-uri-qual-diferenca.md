@@ -28,7 +28,7 @@ Para ver como tudo isso acontece faça o seguinte:
 
 Abra uma nova aba no seu navegador - No meu exemplo estou usando o Chrome e vou acessar o Google -, pressione **F12** ou abra as **Ferramentas** **de** **Desenvolvedor** e clique em **Network** e acesse um site qualquer. Você vai reparar que serão baixados alguns arquivos, clique em qualquer um e clique em **headers**. Vai aparecer algo igual a isso:
 
-!["Headers no Google Chrome"]({{site.url}}/images/posts/google-headers.png "Google headers")
+!["Headers no Google Chrome"]({{site.post_images}}google-headers.png "Google headers")
 
 Ali você consegue identificar o **endereço remoto** (173.194.118.197:443), a **URL** que foi requisitada, o **método** que foi utilizado (GET), o **Status Code** (200 - OK) e mais um monte de informação - Incluindo os cabeçalhos da resposta (**Response Headers**).
 

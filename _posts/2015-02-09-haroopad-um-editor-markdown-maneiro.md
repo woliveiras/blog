@@ -19,7 +19,7 @@ Todo mundo que trabalha usando [Markdown](http://blog.da2k.com.br/2015/02/08/apr
 
 Para suprir a necessidade daquele preview show eu andei pesquisando e venho utilizando o [Haroopad](http://pad.haroopress.com/user.html "Haroopress") a uns 4 meses. É uma ferramenta muito maneira e atende bem as necessidades. Da uma olhada nesse print:
 
-![Haroopad]({{site.url}}/images/posts/haroopad.gif)
+![Haroopad]({{site.post_images}}haroopad.gif)
 
 ## Instalação
 
@@ -35,32 +35,32 @@ O principal é o Syntax Help. Você ativa clicando no botão de configurações 
 
 Ativando
 
-![Ativando o Syntax Help]({{site.url}}/images/posts/Syntax-Help-Haroopad.gif)
+![Ativando o Syntax Help]({{site.post_images}}Syntax-Help-Haroopad.gif)
 
 A lateral com ajuda
 
-![Help]({{site.url}}/images/posts/image24.gif)
+![Help]({{site.post_images}}image24.gif)
 
 ### Modos de visualização
 
 Clicando em **View**, será apresentado um menu com algumas opções de visualização como modo somente editor e modo somente visualização.
 
-![Modos de visualização]({{site.url}}/images/posts/image26.gif)
+![Modos de visualização]({{site.post_images}}image26.gif)
 
 Ainda em **View,** da para colocar os números das linhas clicando em **Toogle Line Number**.
 
-![Line Number]({{site.url}}/images/posts/image27.gif)
+![Line Number]({{site.post_images}}image27.gif)
 
 ### Modo de apresentação
 
 O modo de apresentação dele é bem maneiro e para ativar é no mesmo esquema: **View -&gt; Presentation Mode**
 
-![Presentation Mode]({{site.url}}/images/posts/image28.gif)
+![Presentation Mode]({{site.post_images}}image28.gif)
 
 ### As opções de insert
 
 Caso você esqueça algum esquema da Linguagem, você pode utilizar também o menu **Insert** para inserir as tags lá. (**Facin**)
 
-![Insert]({{site.url}}/images/posts/image29.gif)
+![Insert]({{site.post_images}}image29.gif)
 
 Eu curti bastante esse editor e venho utilizando ele. Se você tiver alguma dica, comenta ae! :D

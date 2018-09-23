@@ -21,12 +21,12 @@ Fazer isso não é dicífil, vamos ao passo a passo:
 OBS: A quantidade de memória fica a seu critério escolher quanto vai. Eu deixei 512 simplesmente por não precisar mais que isso para os testes.
 Para o tipo de disco rígido tem de ser **VMDK**
 
-![Configurações de disco no VBOX]({{site.url}}/images/posts/disco-virtualbox-vagrant.png)
+![Configurações de disco no VBOX]({{site.post_images}}disco-virtualbox-vagrant.png)
 
 Deixe dinamicamente alocado para que a VM não acabe com o seu espaço em disco logo de cara. Se tiver um HD de 1 Tera no hospedeiro(Servidor ou seu PC) e colocar o HD Virtual de 500GB sem ser dinamicamente alocado, logo de cara vai perder 500 GB do seu HD. Se for dinamicamente alocado ele vai consumindo espaço conforme vai precisando.
 A configuração de rede deve ficar como NAT.
 
-![Configurações de Rede VBox]({{site.url}}/images/posts/rede-virtualbox-vagrant.png)
+![Configurações de Rede VBox]({{site.post_images}}rede-virtualbox-vagrant.png)
 
 Carregue o S.O. normalmente e instale conforme suas necessidades. Porém, por convenção, usuário e senha devem ser **vagrant**.
 
@@ -41,7 +41,7 @@ sudo apt-get install dkms
 
 "Coloque o CD do Guest Additions"
 
-![Inserindo VBox Additions]({{site.url}}/images/posts/guest-additions-vagrant.png)
+![Inserindo VBox Additions]({{site.post_images}}guest-additions-vagrant.png)
 
 Em seguida execute:
 
@@ -124,7 +124,7 @@ Ex.:
 
 Máquina Virtual:
 
-![Nome da VM]({{site.url}}/images/posts/nome-base-box-vagrant.png)
+![Nome da VM]({{site.post_images}}nome-base-box-vagrant.png)
 
 Comando para exportar:
 

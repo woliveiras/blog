@@ -15,7 +15,7 @@ Quem me conhece sabe que eu sou um fã do Sublime Text por ele ser um editor exc
 
 Se você usa Ubuntu ou derivados do Debian, vou ensinar como instalar o editor e configurar sem dor de cabeça. :)<!--more-->
 
-![sublime text]({{site.url}}/images/posts/sublime.png)
+![sublime text]({{site.post_images}}sublime.png)
 
 ## Pelo Terminal
 

@@ -47,7 +47,7 @@ Agora, no terminal/cmd, entre na pasta do projeto – que aqui chamei de  vagra
 vagrant init lucid32
 ```
 
-![Iniciando uma VM]({{site.url}}/images/posts/vagrant-init-lucid32.png)
+![Iniciando uma VM]({{site.post_images}}vagrant-init-lucid32.png)
 
 ### Explicação
 
@@ -95,7 +95,7 @@ vagrant up
 
 Na primeira vez, será importada a base Box e configurada a nova VM. Você até poderá entrar no Virtualbox e verá uma máquina com um nome esquisito.
 
-![Subindo a VM]({{site.url}}/images/posts/Capturar.png)
+![Subindo a VM]({{site.post_images}}Capturar.png)
 
 Se você está usando terminal Unix, então execute o comando: **vagrant ssh** com o endereço e porta que o próprio vagrant mostra na tela do terminal nesse momento. Se está usando Windows você vai precisar do [Putty](/posts/vagrant-no-windows/ "Windows, Vagrant e Putty").
 

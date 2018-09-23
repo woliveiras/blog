@@ -12,7 +12,7 @@ description: Como deixar o Ubuntu mais rápido mesmo com Unity
 
 Sou fã de Linux, e deixei bem claro [nesse post](/posts/meu-contato-com-o-linux-e-por-que-voce-deveria-testar/ "Meu contato com o Linux e por que você deveria testar"). Atualmente estou usando o Ubuntu e muita gente tem reclamado da performance do Unity. Eu, sinceramente, detestei o Unity quando lançado e não estou gostando do rumo "Windows 8 Metro" que ele tem tomado. O pessoal quer transformar o Sistema que uso no PC o mesmo que eu vou usar no Celular e isso não tem me agradado - Porém isso é papo para outra hora. Vamos ao foco que é melhorar a velocidade do Ubuntu.<!--more-->
 
-!["Ubuntu"]({{site.url}}/images/posts/ubuntu.png)
+!["Ubuntu"]({{site.post_images}}ubuntu.png)
 
 Minha máquina, hoje em dia, não é nem um pouco robusta - Core i3 de 3.2, 4 GB de memória, HD SATA 3 - e o primeiro PC que eu tive com Ubuntu também não era. Porém, na época era o Ubuntu 10.04, então rodava lisinho!
 
@@ -95,7 +95,7 @@ Sabe quando você maximiza uma janela e o menu some? Então, para fazer eles apa
 
 Em algumas distros ele está vindo por padrão, mas no Ubuntu ainda não. **Essa dica é para quem tem mais de 4GB de RAM**. Ele armazena os programas e libs mais utilizadas em memória fazendo com que a abertura de programas fique muito mais rápida. Olha só:
 
-![ubuntu-preload]({{site.url}}/images/posts/ubuntu-preload.gif)
+![ubuntu-preload]({{site.post_images}}ubuntu-preload.gif)
 
 Para instalar:
 <pre class="nums:false lang:sh decode:true">sudo apt-get install preload</pre>

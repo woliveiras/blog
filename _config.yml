@@ -53,6 +53,8 @@ disqus_shortname: woliveiras
 # Build settings
 
 # incremental: true
+post_images: /images/posts/
+site_images: /images/
 markdown: kramdown
 highlighter: rouge
 sitemap: true # Generate sitemap.xml
