@@ -82,14 +82,16 @@ No tema antigo eu não tinha me preocupado em colocar meios de compartilhar os t
 
 Agora conseguimos compartilhar os textos em algumas redes e surgirão artigos relacionados via categorias ou tags aqui em baixo. Não deixa de divulgar os posts ou olhar os relacionados, pois pode ter algo bom ali e você ajuda a informação a chegar a mais pessoas.
 
-Eu adicionei alguns plugins maneiros no Jekyll e o mais legal é o de usar [emojis](https://en.wikipedia.org/wiki/Emoji), pois eu adoro esse negócio!
+Eu adicionei alguns plugins maneiros no Jekyll e o mais legal é o de usar [emojis](https://en.wikipedia.org/wiki/Emoji) nos artigos, pois eu adoro esse negócio!
 
 :joy: :cat: :heart: :white_check_mark: :dog:
+
+Também estou utilizando um plugin para importar Gists dentro dos meus textos, o que pode facilitar a leitura e compartilhamento de código fonte. :octocat:
 
 ## Conclusão
 
 A migração foi muito simples, apesar de trabalhosa na parte de design graças ao uso do Dunders, que já me dá todas as páginas e configurações básicas prontas.
 
-A finalização da mudança do tema do meu blog é uma pequena conquista, pois era uma meta pessoal para este ano. Por isso terei algo maneiro pra falar sobre as metas no artigo de retrospectiva de 2018! :grin:
+A finalização da mudança do tema do meu blog é uma pequena conquista, pois era uma meta pessoal para este ano. Por isso terei algo maneiro pra falar sobre as metas no artigo de retrospectiva de 2018!
 
 Se você quiser acompanhar meus artigos sobre os assuntos que eu comentei acima, assine o [RSS feed](/atom.xml) deste site ou me siga no Twitter, [@w_oliveiras](https://twitter.com/w_oliveiras) para receber os próximos artigos.
