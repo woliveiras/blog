@@ -3,12 +3,10 @@ layout: post
 title: Vagrant no Windows com Putty
 categories:
   - infraestrutura
-  - devops
   - windows
 date: 2014-08-17 16:42:14
 tags:
   - infraestrutura
-  - devops
 description: Utilizando o Putty para acessar a Box do Vagrant
 ---
 

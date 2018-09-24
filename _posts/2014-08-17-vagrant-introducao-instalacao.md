@@ -3,11 +3,9 @@ layout: post
 title: 'Vagrant - Introdução e Instalação'
 categories:
   - infraestrutura
-  - devops
 date: 2014-08-17 15:45:05
 tags:
   - infraestrutura
-  - devops
 description: Como instalar o Vagrant e uma pequena introdução
 ---
 

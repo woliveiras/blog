@@ -3,11 +3,9 @@ layout: post
 title: 'Vagrant - Como configurar e utilizar'
 categories:
   - infraestrutura
-  - devops
 date: 2014-08-17 16:26:00
 tags:
   - infraestrutura
-  - devops
 description: Como configurar e utilizar o Vagrant para Desenvolvimento
 ---
 

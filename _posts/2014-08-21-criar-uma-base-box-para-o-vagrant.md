@@ -3,11 +3,9 @@ layout: post
 title: Como criar uma base box para o Vagrant
 categories:
   - infraestrutura
-  - devops
 date: 2014-08-21 14:17:27
 tags:
   - infraestrutura
-  - devops
 description: Como criar uma base box para Vagrant com minhas configurações?
 ---
 
