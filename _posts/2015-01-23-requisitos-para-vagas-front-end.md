@@ -11,12 +11,9 @@ description: Quais são os requisitos para vagas de desenvolvedor/programador?
 date: 2015-01-23 08:00:19
 ---
 
-Quantas vezes não nos deparamos com as seguintes dúvidas:
+Quantas vezes não nos deparamos com as seguintes dúvidas:"Será que estou pronto para o mercado de trabalho?", "Será que eu sei o suficiente para encarar aquela oportunidade em determinada empresa?"
 
-- Será que estou pronto para o mercado de trabalho?
-- Será que eu sei o suficiente para encarar aquela oportunidade em determinada empresa?
-
-Sei que não são poucas vezes... E, por mais que nos preparemos muito, sempre ficam essas perguntas no ar...<!--more-->
+Sei que não são poucas vezes... E, por mais que nos preparemos muito, sempre ficam essas perguntas no ar...
 
 Depois de encher o saco de muita gente que eu conheço na área perguntando sobre requisitos para trabalhar como Front eu cheguei a seguinte conclusão:
 

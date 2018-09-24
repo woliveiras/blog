@@ -11,7 +11,7 @@ date: 2015-01-29 10:00:25
 description: Boas práticas em HTML Semântica. Como escrever HTML direito.
 ---
 
-Quando estamos iniciando os estudos na área de Web aprendemos semântica e, as vezes, nem temos noção da importância disso. Aprendemos que cada tag HTML serve para alguma coisa: **<title>** para o título da página (Aquele que aparece na aba do navegador), **<p>** para parágrafos, **<h1,2,3,...>** para títulos do conteúdo, etc.<!--more-->
+Quando estamos iniciando os estudos na área de Web aprendemos semântica e, as vezes, nem temos noção da importância disso. Aprendemos que cada tag HTML serve para alguma coisa: **`<title>`** para o título da página (Aquele que aparece na aba do navegador), **`<p>`** para parágrafos, **`<h1,2,3,...>`** para títulos do conteúdo, etc.
 
 !["HTML"](../..//public/images/HTML.png)
 
