@@ -4,12 +4,10 @@ title: Migrando de Hexo para Jekyll facilmente com Dunders
 date: 2018-09-23 13:12 -0300
 categories:
   - jekyll
-  - pensamentos
   - comunidade
   - carreira
 tags:
   - jekyll
-  - pensamentos
   - comunidade
   - carreira
 description: O processo de migraçãdo do meu blog de Hexo para Jekyll utilizando o Jekyll Template Dunders
