@@ -51,8 +51,8 @@ Se a especialização ou generalização é um bom caminho profissional a se esc
 
 Eu, **pessoalmente**, prefiro a carreira em T, citada nestes artigos:
 
-- [Criando nosso plano de carreira e assumindo o controle do nosso futuro profissional](/posts)
-- [Criando nosso plano de carreira no Trello](/posts)
+- [Criando nosso plano de carreira e assumindo o controle do nosso futuro profissional](/posts/criando-nosso-plano-de-carreira-e-assumindo-o-controle-do-nosso-futuro-profissional/)
+- [Criando nosso plano de carreira no Trello](/posts/criando-nosso-plano-de-carreira-no-trello)
 
 ## A similaridade das profissões
 
