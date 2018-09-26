@@ -226,7 +226,7 @@ Essas metas também irão nos ajudar a manter a calma e foco em nossa carreira p
 
 No próximo artigo vou mostrar como estou utilizando o Trello para organizar minhas metas profissionais. Por enquanto você pode ler este outro também sobre organização pessoal:
 
-- [Organizando sua vida pessoal, profissional e estudos com Trello e Kanban (e um pouquinho de Scrum)]()
+- [Organizando sua vida pessoal, profissional e estudos com Trello e Kanban (e um pouquinho de Scrum)](/posts/organizando-sua-vida-pessoal-profissional-e-estudos-com-trello-e-kanban-e-um-pouquinho-de-scrum/)
 
 Neste outro artigo eu comento sobre o que eu estou focando agora em minhas metas profissionais:
 
