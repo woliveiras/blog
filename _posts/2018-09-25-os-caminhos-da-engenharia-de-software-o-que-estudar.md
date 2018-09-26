@@ -6,10 +6,7 @@ tags:
     - carreira
     - programação
     - computação
-categories:
-    - carreira
-    - programação
-    - computação    
+description: Como me tornar um(a) engenheiro(a) de software. O que preciso estudar. Tudo isso e mais um pouco nesse artigo sobre os caminhos da engenharia de software.
 ---
 Hoje em dia a maioria dos cargos em Startups e empresas legais é de Software Engineer ou Engenheiro(a) de Software e por isso nos questionamos: Qual o conhecimento necessário para se tornar um(a) engenheiro(a) de software?
 
