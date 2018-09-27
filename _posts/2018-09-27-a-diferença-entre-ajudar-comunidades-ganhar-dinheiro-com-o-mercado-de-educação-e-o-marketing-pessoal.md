@@ -48,7 +48,7 @@ Minha luta é diretamente contra essas empresas que fingem ser o que não são, 
 
 Existe uma luta por trás de tudo isso. Minha luta é contra as empresas ruins que fingem ser o que não são e contra um governo corrupto que não está nem aí para as pessoas que estão na parte de baixo da pirâmide financeira.
 
-Tenho um artigo comentando sobre isso: [É hora de sair dessa empresa aí](/posts/).
+Tenho um artigo comentando sobre isso: [É hora de sair dessa empresa aí](/posts/É-hora-de-sair-dessa-empresa-aí/).
 
 Essa é uma luta estritamente pessoal. Ninguém precisa concordar comigo ou seguir a minha filosofia.
 
