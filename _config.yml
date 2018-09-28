@@ -89,4 +89,3 @@ plugins:
     - jekyll-feed
     - jekyll-seo-tag
     - jekyll-gist
-    - jekyll-twitter-plugin

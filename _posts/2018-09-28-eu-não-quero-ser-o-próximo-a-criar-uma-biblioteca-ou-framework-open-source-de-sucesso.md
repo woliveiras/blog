@@ -50,7 +50,8 @@ As conversas sobre RH e GitHub vem esquentando as comunidades, como vemos na dis
 
 [Desenvolvedor vs RH - frontendbr - forum](https://github.com/frontendbr/forum/issues/663)
 
-{% twitter https://twitter.com/bernarddeluna/status/893178227002355713 %}
+<blockquote class="twitter-tweet" data-lang="en"><p lang="pt" dir="ltr">A cor roxa simboliza os talentos que aparentam serem bons, mas nao possuem um github ativo e relevante.<br><br>Entendem a importancia? <a href="https://t.co/ZY2OTnZjWp">pic.twitter.com/ZY2OTnZjWp</a></p>&mdash; Bernard De Luna (@bernarddeluna) <a href="https://twitter.com/bernarddeluna/status/893178227002355713?ref_src=twsrc%5Etfw">August 3, 2017</a></blockquote>
+<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 Mas calma! Não estou dizendo que o GitHub é algo ruim... Leia até o final para entender o meu ponto de vista.
 
