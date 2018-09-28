@@ -5,7 +5,6 @@ group :build do
 end
 
 group :styles do
-    gem "neat"
     gem 'rouge'
 end
 
