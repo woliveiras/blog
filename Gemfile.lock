@@ -44,6 +44,7 @@ GEM
       jekyll (~> 3.3)
     jekyll-sitemap (1.1.1)
       jekyll (~> 3.3)
+    jekyll-twitter-plugin (2.0.0)
     jekyll-watch (1.5.1)
       listen (~> 3.0)
     jemoji (0.10.1)
@@ -100,6 +101,7 @@ DEPENDENCIES
   jekyll-paginate
   jekyll-seo-tag
   jekyll-sitemap
+  jekyll-twitter-plugin
   jemoji
   neat
   rake
