@@ -14,5 +14,5 @@ gem 'jekyll-sitemap'
 gem 'jekyll-seo-tag'
 gem 'jekyll-feed'
 gem 'jekyll-gist'
-gem 'jekyll-twitter-plugin'
+gem 'jekyll-twitter-plugin', group: [:jekyll_plugins]
 gem 'jekyll-compose', group: [:jekyll_plugins]
