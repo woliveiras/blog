@@ -4,10 +4,10 @@ title: Eu não quero ser o próximo a criar uma biblioteca ou framework open sou
   de sucesso
 date: 2018-01-24 06:48 -0300
 tags:
-    - pensamentos
-    - opinião
-    - javascript
-    - frontend
+  - pensamentos
+  - opinião
+  - javascript
+  - frontend
 description: Todos os dias nasce um novo framework JavaScript. Fico pensando o porque disso acontecer. Será que as pessoas estão realmente interessadas em contribuir com a evolução da linguagem e da plataforma ou só querem ser a próxima contratada por uma grande empresa?
 ---
 Para quem trabalha com JavaScript está bem acostumado(a) com o nascimento de uma nova biblioteca ou novo framework open source todos os dias — nós até mesmo brincamos bastante com essa realidade.
