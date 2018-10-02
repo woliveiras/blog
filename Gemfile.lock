@@ -38,13 +38,14 @@ GEM
     jekyll-gist (1.5.0)
       octokit (~> 4.2)
     jekyll-paginate (1.1.0)
+    jekyll-redirect-from (0.14.0)
+      jekyll (~> 3.3)
     jekyll-sass-converter (1.5.1)
       sass (~> 3.4)
     jekyll-seo-tag (2.5.0)
       jekyll (~> 3.3)
     jekyll-sitemap (1.1.1)
       jekyll (~> 3.3)
-    jekyll-twitter-plugin (2.0.0)
     jekyll-watch (1.5.1)
       listen (~> 3.0)
     jemoji (0.10.1)
@@ -95,9 +96,9 @@ DEPENDENCIES
   jekyll-feed
   jekyll-gist
   jekyll-paginate
+  jekyll-redirect-from
   jekyll-seo-tag
   jekyll-sitemap
-  jekyll-twitter-plugin
   jemoji
   rake
   rouge
