@@ -3,25 +3,23 @@ layout: default
 ---
 
 <main class="post">
-    <header class="main-wrapper">
+    <header>
         <h1 class="post__title">{{ page.title }}</h1>
         {% assign words = content | number_of_words %}
     </header>
-    <div class="main-wrapper">
-        <article>
-            <span class="post__date">{{ page.date | date: site.date_format }} • {% if words < 360 %} 1 min {% else %} {{ words | divided_by:180 }} mins {% endif %}</span>
-            {{ content }}
-            <div class="post__footer">
-                <div class="post__tags">
-                    <ul>
-                        {% for tag in post.tags %}
-                        <li class="post__tags__item"><a href="{{ site.baseurl }}/tags/#{{tag | slugify }}">{{ tag }}</a></li>
-                        {% endfor %}
-                    </ul>
-                </div>
+    <article>
+        <span class="post__date">{{ page.date | date: site.date_format }} • {% if words < 360 %} 1 min {% else %} {{ words | divided_by:180 }} mins {% endif %}</span>
+        {{ content }}
+        <div class="post__footer">
+            <div class="post__tags">
+                <ul>
+                    {% for tag in post.tags %}
+                    <li class="post__tags__item"><a href="{{ site.baseurl }}/tags/#{{tag | slugify }}">{{ tag }}</a></li>
+                    {% endfor %}
+                </ul>
             </div>
-        </article>
-    </div>
+        </div>
+    </article>
 </main>
 
     {% if site.display-author-post-page %}

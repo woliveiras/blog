@@ -3,7 +3,7 @@ layout: default
 home: true
 ---
 
-<div class="main-wrapper">
+<div>
     {% for post in paginator.posts %}
 
     {% assign minutes = post.content | number_of_words | divided_by: 180 %}
