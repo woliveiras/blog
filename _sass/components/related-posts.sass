@@ -1,10 +1,11 @@
+@import '../mixins/grid'
+
 .related-posts
-    width: 100%
-    display: inline-block
     padding-bottom: 2em
     padding-left: 1em
     padding-right: 1em
     padding-top: 2em
+    +container()
 
     @media only screen and (min-width: 768px)
         padding-left: 0
