@@ -22,7 +22,7 @@ Só que por trás de tudo o que é bom e agrupa muita gente sempre existem as pe
 
 O Filipe Deschamps fez um vídeo excelente com 10 coisas que todo desenvolvedor babaca fala, da uma conferida:
 
-<iframe width="100%" height="420" src="https://www.youtube.com/embed/oMvwcrPITHM" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+<iframe src="https://www.youtube.com/embed/oMvwcrPITHM" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 
 Assim como ele diz no vídeo: o meu objetivo com esse texto não é ofender alguém que tenha as más atitudes que eu vou citar, mas sim para que nos avaliemos antes de sair escrevendo qualquer coisa em comentários pelas comunidades afora.
 
@@ -125,7 +125,7 @@ Aposto que durante esse artigo mesmo alguém deve estar pensando em um comentár
 
 Ouça o podcast da Lambda3 sobre comunicação não violenta:
 
-<iframe width="100%" height="166" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/308064101&amp;color=ff5500"></iframe>
+<iframe scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/308064101&amp;color=ff5500"></iframe>
 
 ## Tratar as mulheres como limitadas ou ser inconveniente quando elas fazem perguntas
 

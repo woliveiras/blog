@@ -14,7 +14,7 @@ Podemos utilizar o GitHub Pages, uma alternativa gratuita e de fácil utilizaç�
 
 Se você não conhece o GitHub Pages, confere essa apresentação rápida sobre o assunto:
 
-<iframe width="100%" height="420" src="https://www.youtube.com/embed/x7wRdbjCNVk" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+<iframe src="https://www.youtube.com/embed/x7wRdbjCNVk" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 
 Pra utilizar o React com o GitHub Pages só é necessário ter um repositório, com o nome do nosso projeto, no GitHub e instalar um utilitário de linha de comando chamado **gh-pages**.
 

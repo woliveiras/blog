@@ -95,7 +95,7 @@ Já você, desiste muito rápido de aprender alguma coisa. Só de pensar na difi
 
 Eu nem vou falar muito sobre isso, prefiro que você veja esse vídeo:
 
-<iframe width="100%" height="473px" src="https://www.youtube.com/embed/Ks0SWd5oPDg" frameborder="0" allowfullscreen></iframe>
+<iframe src="https://www.youtube.com/embed/Ks0SWd5oPDg" frameborder="0" allowfullscreen></iframe>
 
 Quando foi a ultima vez que você inventou umas histórias bem loucas dessas?
 

@@ -134,7 +134,7 @@ Minha apresentação foi sobre como usar a tecnologia para proporcionar mudança
 
 Quase final de ano e fui convidado a trocar uma ideia sobre produtividade no Alura Live com o Gabriel e a Priscila da Caelum. Como eu [nem gosto muito de falar sobre isso](/tags/#produtividade) eu logo aceitei! Coloquei o compromisso no meu Google Calendar e parti pro abraço.
 
-<iframe width="100%" height="420" src="https://www.youtube.com/embed/P4EFXk5i2-U" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+<iframe src="https://www.youtube.com/embed/P4EFXk5i2-U" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 
 O bate papo foi muito legal! Vale a pena dar uma conferida nesse vídeo.
 

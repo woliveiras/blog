@@ -94,7 +94,7 @@ O que você vai precisar aprender é estruturar o que precisa aprender, criar um
 
 Pra não ficar só em minhas palavras, da uma olhada no método de estudos mais fantástico que existe: O método Feynman.
 
-<iframe width="100%" height="420" src="https://www.youtube.com/embed/CN_SCpGuJ_w" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+<iframe src="https://www.youtube.com/embed/CN_SCpGuJ_w" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 
 ## Como estruturar o conteúdo
 
@@ -104,7 +104,7 @@ Pegue um assunto que deseja aprender, busque o máximo de informações SOBRE es
 
 Algo que ajuda a montar esta estrutura é utilizar mapas mentais.
 
-<iframe width="100%" height="420" src="https://www.youtube.com/embed/67z80wU0dA4" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+<iframe src="https://www.youtube.com/embed/67z80wU0dA4" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 
 Com o mapa em mãos você consegue criar um fluxo do que vai estudar primeiro.
 

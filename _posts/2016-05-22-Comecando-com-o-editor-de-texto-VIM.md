@@ -247,7 +247,7 @@ Se você quiser conhecer a história por trás dos comandos do VIM, da uma olhad
 
 Você vai entender o por que dos comandos específicos.
 
-<iframe width="100%" height="473px" src="https://www.youtube.com/embed/UUzW46SeLhg" frameborder="0" allowfullscreen></iframe>
+<iframe src="https://www.youtube.com/embed/UUzW46SeLhg" frameborder="0" allowfullscreen></iframe>
 
 Dizem que, se usarmos o VIM por muito tempo, logo estaremos digitando extremamente rápido. Igual esse gatinho:
 

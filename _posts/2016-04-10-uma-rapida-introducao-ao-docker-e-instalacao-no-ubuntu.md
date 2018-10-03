@@ -65,7 +65,7 @@ O Docker trabalha com containers. Imagine seu computador como um navio cargueiro
 
 Se você nunca utilizou o Docker, uma excelente maneira de aprender e entender TUDO sobre essa ferramenta é assistindo a [série de vídeos](https://www.youtube.com/watch?v=0cDj7citEjE) do [Jeferson Fernando](https://twitter.com/badtux_) no seu canal [Linux Tips](https://www.youtube.com/channel/UCJnKVGmXRXrH49Tvrx5X0Sw). No canal dele ainda tem muitos vídeos maneiros sobre [Git](https://www.youtube.com/watch?v=_aj3hsEh9iw) e Linux. Vale a pena seguir ele acompanhar o que esse mano fala sobre Infraestrutura.
 
-<iframe width="100%" height="473px" src="https://www.youtube.com/embed/0cDj7citEjE" frameborder="0" allowfullscreen></iframe>
+<iframe src="https://www.youtube.com/embed/0cDj7citEjE" frameborder="0" allowfullscreen></iframe>
 
 ## Instalação no Ubuntu
 

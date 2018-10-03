@@ -110,7 +110,7 @@ Alguns recursos para estudarmos Arquitetura de Computadores:
 - [Computer Architecture](https://www.coursera.org/learn/comparch), por Universidade de Princeton no Coursera
 - Os vídeos da matéria de Organização de Computadores da [UNIVESP](https://univesp.br/vestibular).
 
-<iframe width="100%" height="420" src="https://www.youtube.com/embed/HgA-oXOV7kI?rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+<iframe src="https://www.youtube.com/embed/HgA-oXOV7kI?rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 
 Livros:
 
@@ -184,7 +184,7 @@ Eu não concordo com o uso da linguagem C para ensinar estrutura de dados, afina
 
 Um excelente material para aprender estruturas de dados é a playlist também da UNIVESP:
 
-<iframe width="100%" height="420" src="https://www.youtube.com/embed/y0B-vQI6Tiw" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+<iframe src="https://www.youtube.com/embed/y0B-vQI6Tiw" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 
 O professor faz ótimas comparações entre C e Java enquanto ensina sobre o assunto.
 
@@ -204,9 +204,9 @@ A maioria dos cursos que ensinam essa matemática nem é nada tão avançado. Se
 
 Algumas playlists que podem nos ajudar a aprender isso:
 
-<iframe width="100%" height="420" src="https://www.youtube.com/embed/ib3F1c2oKpA" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+<iframe src="https://www.youtube.com/embed/ib3F1c2oKpA" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 
-<iframe width="100%" height="420" src="https://www.youtube.com/embed/__m60SKn-Dw" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+<iframe src="https://www.youtube.com/embed/__m60SKn-Dw" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 
 Tem uns vídeos repetidos no meio, mas em geral é um conteúdo muito legal.
 
