@@ -18,7 +18,8 @@
     &.fluid
         width: percentage($col/$sum)
 
-.main-wrapper
+@mixin container()
     @media only screen and (min-width: 768px)
-        max-width: 700px
+        max-width: 720px
+        max-width: 40rem
         margin: auto
