@@ -77,9 +77,14 @@
         font-style: italic
 
     pre
-        margin-bottom: 1em
         overflow: auto
         max-width: 340px
+
+        @media only screen and (min-width: 768px)
+            margin-left: 15em
+            max-width: 720px
+            overflow: unset
+            word-wrap: break-word
 
     table
         margin-top: 20px
