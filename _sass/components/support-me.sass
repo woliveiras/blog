@@ -1,0 +1,32 @@
+@import '../mixins/grid'
+
+.support-me
+    +container()
+
+    @media only screen and (min-width: 768px)
+        text-align: center
+
+    &__action
+        display: inline-block
+        padding: 10px
+        width: 130px
+        height: 170px
+        border: 1px solid $brown-ligth
+        margin-top: 1em
+        margin-bottom: 1em
+        margin-right: 1em
+
+        &__link
+            color: $black
+            fill: $black
+
+    img
+        margin: 0
+        max-width: 70px
+
+    svg
+        display: inline-block
+
+    span
+        display: inline-block
+        font-size: .85em
