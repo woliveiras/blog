@@ -2,10 +2,10 @@
 nav-menu:
   - title: Home
     url: /
+  - title: Tags
+    url: /tags
 #   - title: Sobre
 #     url: /sobre
-#   - title: Categorias
-#     url: /categorias
 
 # Footer menu
 
