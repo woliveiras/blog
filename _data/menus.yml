@@ -10,21 +10,19 @@ nav-menu:
 # Footer menu
 
 # footer-menu:
-#   - title: Gostaria de retribuir meu trabalho?
-#     url: /donation
 #   - title: Busca mentoria em programação?
 #     url: /mentoria
 #   - title: Vamos codar juntos?
 #     url: /pair-programming
-#   - title: Quer se tornar frontend?
-#     url: /front-end-career
-#   - title: Meus Links favoritos
-#     url: /my-precious-links
 #   - title: Trabalho
 #     url: work
 
 
 footer-menu:
+  - title: Gostaria de retribuir meu trabalho?
+    url: https://www.catarse.me/woliveiras
+  - title: Você precisa de ajuda financeira para investir em sua educação?
+    url: /devolvendo-para-a-comunidade/
   - title: Quer se tornar frontend?
     url: /front-end-career
   - title: Meus Links favoritos
