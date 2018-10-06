@@ -29,6 +29,8 @@ footer-menu:
     url: /my-precious-links
   - title: Livro sobre o editor de textos VIM
     url: /vimparanoobs
+  - title: Arquivo
+    url: /arquivo
 
 social-menu:
   - title: Twitter
