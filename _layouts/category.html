@@ -1,0 +1,13 @@
+---
+layout: default
+---
+
+<div class="category-page">
+    <h1>Artigos sobre <a href="/categoria/{{ page.tag }}">#{{ page.tag }}</a></h1>
+
+    <ul>
+    {% for post in site.categories[page.tag] %}
+        <li><a href="post.url">{{ post.title }}</a></li>
+    {% endfor %}
+    </ul>
+</div>

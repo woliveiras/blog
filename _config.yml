@@ -70,6 +70,15 @@ feed:
 sass:
   sass_dir: _sass
   style: compressed
+collections:
+  categoria:
+    output: true
+defaults:
+  - scope:
+      path: ""
+      type: categoria
+    values:
+      layout: "category"
 
 # exclude files if no need build
 exclude: [
