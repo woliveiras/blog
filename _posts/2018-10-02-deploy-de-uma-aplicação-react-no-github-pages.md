@@ -19,6 +19,7 @@ Se você não conhece o GitHub Pages, confere essa apresentação rápida sobre 
 Pra utilizar o React com o GitHub Pages só é necessário ter um repositório, com o nome do nosso projeto, no GitHub e instalar um utilitário de linha de comando chamado **gh-pages**.
 
 ![Logo do React]({{site.post_images}}logo-react.png)
+{:.post__wallpaper}
 
 ## Utilizando o gh-pages para subir a aplicação React em produção
 

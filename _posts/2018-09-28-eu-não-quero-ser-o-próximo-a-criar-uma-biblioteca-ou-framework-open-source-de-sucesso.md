@@ -31,6 +31,7 @@ Este texto não é sobre o JavaScript, mas sobre a mudança de postura das pesso
 > O open source está dominando o mundo, mas o ego das pessoas tem superado a essência do open source
 
 ![Frase: free as in freedom. Significado "Livre como na liberdade"]({{site.post_images}}free-as-in-freedom.png)
+{:.post__wallpaper}
 
 ## Prelúdio — Antes das bibliotecas famosas e do estrelato no GitHub
 

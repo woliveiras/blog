@@ -27,6 +27,7 @@ O começo do ano foi mais parado, onde eu postava poucos artigos e estava focado
 ## ABC-Dev 2017
 
 ![Imagem dos brindes do ABC-Dev 2017, camisetas e canecas]({{site.post_images}}abc-dev-2017.jpeg)
+{:.post__wallpaper}
 
 Como não começar por uma coisa que aconteceu quase no final do ano, mas dura muito mais que um mês?
 

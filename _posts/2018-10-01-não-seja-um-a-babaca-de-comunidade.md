@@ -90,9 +90,10 @@ Mas eu me lembro que tiveram pessoas que realmente quiseram me ajudar… Essas p
 
 Quer saber mais sobre minha história com comunidades? Escuta esse podcast aqui:
 
-<iframe style="border: none" src="//html5-player.libsyn.com/embed/episode/id/5634138/height/90/theme/custom/autoplay/no/autonext/no/thumbnail/yes/preload/no/no_addthis/no/direction/backward/render-playlist/no/custom-color/3CD52E/" height="90" width="100%" scrolling="no"  allowfullscreen webkitallowfullscreen mozallowfullscreen oallowfullscreen msallowfullscreen></iframe>
+<iframe style="border: none" src="//html5-player.libsyn.com/embed/episode/id/5634138/height/90/theme/custom/autoplay/no/autonext/no/thumbnail/yes/preload/no/no_addthis/no/direction/backward/render-playlist/no/custom-color/3CD52E/" style="width: 100%; height: 180px!important" scrolling="no"  allowfullscreen webkitallowfullscreen mozallowfullscreen oallowfullscreen msallowfullscreen></iframe>
 
 ![Imagem da caneca do iMasters em comemoração ao 7Masters de Git e GitHub]({{site.post_images}}mestre-em-git-e-github.jpeg)
+{:.post__wallpaper}
 
 Eu não cheguei até aqui graças a gente que responde com link de deixe-me usar o Google por você ou que responde babaquice em perguntas nas comunidades. Se eu fosse você, pensava um pouco melhor no que faz na internet, pois você só está perdendo seu tempo.
 

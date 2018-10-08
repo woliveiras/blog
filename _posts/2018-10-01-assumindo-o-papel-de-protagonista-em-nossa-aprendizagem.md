@@ -20,7 +20,8 @@ E por isso somos levados(as) pela onda do método de ensino que recebemos nas es
 
 Só que isso não precisa e nem deveria mais ser sempre assim.
 
-![Cálculos]({{site.post_images}}calculos.jpeg)
+![Imagem de várias fórmulas matemáticas]({{site.post_images}}calculos.jpeg)
+{:.post__wallpaper}
 
 ## O protagonismo da aprendizagem em nossa infância
 

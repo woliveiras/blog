@@ -29,6 +29,7 @@ Neste artigo vou mostrar como montar um plano de carreira. Como saber o que prec
 Como o texto estava ficando muito grande precisei dividir em dois, no próximo artigo vou mostrar como podemos usar o Trello para organizar nosso plano de carreira.
 
 ![Imagem de um(a) astronauta no espaço. Imagem da NASA no Unsplash.]({{site.post_images}}voando-proximo-a-terra.jpeg)
+{:.post__wallpaper}
 
 ## Planos de carreira em Y ou em T
 

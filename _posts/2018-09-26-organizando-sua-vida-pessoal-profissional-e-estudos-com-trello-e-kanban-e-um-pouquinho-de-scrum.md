@@ -24,6 +24,7 @@ Recentemente participei de um treinamento sobre Kanban com o Leandro Mattoso e o
 Agora estou de volta a usar o Trello e Kanban Board para organização pessoal, profissional, estudos e projetos (pessoais ou não).
 
 ![Imagem de uma montanha sossegada que representa minha vida se esse esquema de Kanban der certo! ;D]({{site.post_images}}planice-indie.jpeg)
+{:.post__wallpaper}
 
 ## O que é Kanban
 
