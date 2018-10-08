@@ -2,6 +2,7 @@
 
 .page-footer
     background-color: $black
+    text-transform: uppercase
 
     &__wrapper
         +row
@@ -12,7 +13,7 @@
 
     &__subtitle
         color: $white
-        font-weight: 300
+        font-weight: 400
         padding-bottom: 10px
         padding-top: 10px
 
@@ -50,6 +51,9 @@
                 font-size: 1em
 
     &__nav
+        &__item
+            line-height: 2em
+
         &__icon
             & svg
                 display: inline-block
@@ -61,5 +65,5 @@
         &__text
             font-size: .8em
             font-weight: 300
-
-        &--social
+            color: $white
+            fill: $white
