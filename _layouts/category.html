@@ -3,7 +3,7 @@ layout: default
 ---
 
 <div class="category-page">
-    <h1>Artigos sobre <a href="/categoria/{{ page.tag }}">#{{ page.tag }}</a></h1>
+    <h1>Artigos sobre {{ page.tag }}</h1>
 
     <ul>
     {% for post in site.categories[page.tag] %}
