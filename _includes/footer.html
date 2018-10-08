@@ -11,6 +11,18 @@
                     </ul>
                 </nav>
             </section>
+            <section class="page-footer__separator
+            page-footer__separator--bordered">
+                <h3 class="page-footer__subtitle">Apoio Social</h3>
+                <nav class="page-footer__nav page-footer__nav--social">
+                    <ul>
+                        {% for link in site.data.menus.social-support %}
+                        <li class="page-footer__nav__item"><a class="page-footer__nav__text" href="{{ link.url }}" title="{{ link.title }}"><span class="page-footer__nav__icon">{{ link.icon }}</span>{{
+                                link.title }}</a></li>
+                        {% endfor %}
+                    </ul>
+                </nav>
+            </section>
             <section class="page-footer__separator">
                 <h3 class="page-footer__subtitle">Conecte-se comigo</h3>
                 <nav class="page-footer__nav page-footer__nav--social">

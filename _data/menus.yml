@@ -21,8 +21,6 @@ nav-menu:
 footer-menu:
   - title: Gostaria de retribuir meu trabalho?
     url: https://www.catarse.me/woliveiras
-  - title: Você precisa de ajuda financeira para investir em sua educação?
-    url: /devolvendo-para-a-comunidade/
   - title: Quer se tornar frontend?
     url: /front-end-career
   - title: Meus Links favoritos
@@ -31,6 +29,12 @@ footer-menu:
     url: /vimparanoobs
   - title: Arquivo
     url: /arquivo
+
+social-support:
+  - title: Você precisa de ajuda financeira para investir em sua educação?
+    url: /devolvendo-para-a-comunidade/
+  - title: Pessoas que já foram apoiadas
+    url: /ganhadores
 
 social-menu:
   - title: Twitter
