@@ -16,6 +16,7 @@ Se você deseja contribuir com essa iniciativa, basta acessar minha campanha no 
 | Pessoa | Doação | Valor |
 | ---- | ---- | ---- |
 | Wellington Jesus | Curso de HTML e CSS | 30,00 {% assign total = total  | plus: 30 %} |
+| Mikaelly Sandy | Curso JS com TDD na prática | 30,00 {% assign total = total  | plus: 30 %} |
 | Wellington Jesus | Notebook para estudos | 1700,00 {% assign total = total  | plus: 1700 %} |
 
 Ao todo, já doamos: {{ total }} reais.
