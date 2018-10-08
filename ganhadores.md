@@ -7,8 +7,6 @@ description: "Página de ganhadores e ganhadoras dos sorteios mensais de cursos,
 
 Esta é a lista dos ganhadores e ganhadoras que foram apoiadas por mim junto com a comunidade em forma de doação de cursos, livros e ingressos para eventos no sorteio mensal ou outro tipo de doação direta para pessoas de baixa renda que autorizaram a exposição dos seus nomes.
 
-Ao todo já foram apoiadas **6 pessoas** (uma pessoa ou mais por mês).
-
 Para participar do sorteio, basta a pessoa se inscrever no formulário nesta página: [Ajuda financeira para a educação](http://localhost:4000/devolvendo-para-a-comunidade/).
 
 > Lembrando que é uma oportunidade para **pessoas de baixa renda**. Se você consegue investir em sua educação, por favor, não se inscreva.
