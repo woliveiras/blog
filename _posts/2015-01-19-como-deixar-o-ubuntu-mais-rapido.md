@@ -25,7 +25,7 @@ Muitas vezes temos problema que são resolvidos pela Canonical com atualizaçõe
 Execute o seguinte comando sempre que for atualizar o O.S.:
 
 ```shell
-sudo apt-get updade && sudo apt-get upgrade -y
+sudo apt-get update && sudo apt-get upgrade -y
 ```
 
 Ou abra o Atualizador. ;)
