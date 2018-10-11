@@ -86,3 +86,8 @@ Se quiser olhar os posts nas redes sociais, foram esses aqui:
 - "Qual empresa em São Paulo emprega pessoas de tecnologia (programação) acima de 40 anos?", no LinkedIn, [neste link](https://www.linkedin.com/feed/update/urn:li:activity:6455369858145099776).
 
 Inlcusive, no LinkedIn, tivemos pessoas de recrutamento deixando seus contatos, então corre conferir lá! :grin:
+
+## Referências
+
+- [StackOverflow Survey Results 2018 - Developer profile](https://insights.stackoverflow.com/survey/2018/#developer-profile)
+- [HackerRank 2018 Developer Skills Report](https://research.hackerrank.com/developer-skills/2018/)
