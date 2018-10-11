@@ -2,6 +2,9 @@
 layout: post
 title: Empresas que contratam pessoas desenvolvedoras de software acima dos 40 anos
 date: 2018-10-10 23:31 -0300
+categories:
+    - carreira
+    - diversidade
 tags:
     - carreira
     - diversidade
