@@ -54,6 +54,7 @@ Fiz um levantamento no Twitter de empresas que contratam pessoas desenvolvedoras
 
 | Empresa | Site para mandar currículo |
 | --- | --- | 
+| Loggi | [Vagas da Loggi](https://jobs.kenoby.com/loggi) |
 | Moip Pagamentos | [Vagas da Moip](https://moip.com.br/trabalhe-conosco/) |
 | Lambda3 | [Vagas da Lambda](https://lambda3.recruiterbox.com/) |
 | ReclameAqui | [Vagas do ReclameAqui](https://jobs.kenoby.com/reclameaqui) |
