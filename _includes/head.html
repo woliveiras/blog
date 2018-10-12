@@ -27,7 +27,7 @@
   {% if page.image %}
     <meta property="og:image" content="{{ site.url }}{{page.image }}">
   {% else %}
-    <meta property="og:image" content="{{ "/images/site-shared-image.png" | prepend: site.baseurl | prepend: site.url }}">
+    <meta property="og:image" content="{{ "/images/social-share.png" | prepend: site.baseurl | prepend: site.url }}">
   {% endif %}
 
   <meta property="og:description" content="{% if page.description %}{{ page.description | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
