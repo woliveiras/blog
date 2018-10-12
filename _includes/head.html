@@ -20,8 +20,10 @@
 
   {% if page.image %}
     <meta property="twitter:image" content="{{ site.url }}{{page.image }}">
+    <meta name="twitter:image" content="{{ site.url }}{{page.image }}">
   {% else %}
    <meta property="twitter:image" content="{{ "/images/social-share.png" | prepend: site.baseurl | prepend: site.url }}">
+   <meta name="twitter:image" content="{{ "/images/social-share.png" | prepend: site.baseurl | prepend: site.url }}">
   {% endif %}
 
     <meta property="og:url" content="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
