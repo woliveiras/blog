@@ -1,0 +1,28 @@
+people:
+    - name: "Wellington"
+      help: "Curso de HTML e CSS"
+      value: 30
+    - name: "Mikaelly"
+      help: "Curso JS com TDD na prática"
+      value: 30
+    - name: "Wellington"
+      help: "Um notebook"
+      value: 1700
+    - name: "Pedro"
+      help: "Ingresso para o WordCamp SP"
+      value: 60
+    - name: "Victor"
+      help: "Ingresso para o WordCamp SP"
+      value: 60
+    - name: "Jessica"
+      help: "Ingresso para o WordCamp SP"
+      value: 60
+    - name: "Cristhiane"
+      help: "Ingresso para o WordCamp SP"
+      value: 60
+    - name: "Lindsay"
+      help: "Ingresso para o WordCamp SP"
+      value: 60
+    - name: "Bruna"
+      help: "Ingresso para o WordCamp SP"
+      value: 60
