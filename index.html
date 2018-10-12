@@ -15,7 +15,7 @@ home: true
     {% endif %}
 
     <article class="post" itemscope="itemscope" itemtype="http://schema.org/BlogPosting">
-        <a href="{{ post.url | prepend: site.baseurl }}">
+        <a href="{{ post.url | prepend: site.baseurl }}" title="Link para o artigo {{ post.title }}">
             <h2 class="post__title" itemprop="name headline">{{ post.title }}</h2>
         </a>
         <span class="post__date">
