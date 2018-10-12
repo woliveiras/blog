@@ -32,7 +32,44 @@ layout: default
         {% endif %}
     {% endif %}
 
-
+<script type="application/ld+json">
+    {
+        "@context": "http://schema.org/",
+        "@type": "BlogPosting",
+        "mainEntityOfPage": {
+            "@type": "WebPage",
+            "@id": "{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}"
+        },
+        "headline": "{{page.title}}",
+        "datePublished": "{{page.date}}",
+        "dateModified": "{{page.date}}",
+        "description": "{{page.description}}",
+        "image": {
+            "@type": "ImageObject",
+            "url": "{{ site.url }}/images/social-share.png"
+        },
+        "author": {
+            "@type": "Person",
+            "name": "William Oliveira"
+            "sameAs": [
+                "https://www.facebook.com/woliveiras",
+                "https://www.twitter.com/w_oliveiras",
+                "https://www.github.com/woliveiras",
+                "https://www.linkedin.com/in/william-oliveira/",
+                "https://plus.google.com/+WilliamOliveiraS"
+            ]
+        },
+        "publisher": {
+            "@type": "Organization",
+            "name": "William Oliveira Blog",
+            "logo": {
+                "@type": "ImageObject",
+                "url": "https://woliveiras.com.br/images/social-share.png"
+            }
+        },
+        "articleBody": "{{ content | strip_html | strip_newlines | replace: '"', '' }}"
+    }
+</script>
 
 {% include social-share.html %}
 
