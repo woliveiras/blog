@@ -18,7 +18,7 @@
   {% if page.image %}
     <meta property="twitter:image:src" content="{{ site.url }}{{page.image }}">
   {% else %}
-   <meta property="twitter:image:src" content="{{ "/images/site-shared-image.png" | prepend: site.baseurl | prepend: site.url }}">
+   <meta property="twitter:image:src" content="{{ "/images/social-share.png" | prepend: site.baseurl | prepend: site.url }}">
   {% endif %}
 
     <meta property="og:url" content="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
@@ -35,7 +35,7 @@
 
   <meta itemprop="name" content="{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}"/>
   <meta itemprop="description" content="{% if page.description %}{{ page.description | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
-  <meta itemprop="image" content="{{ "/images/site-shared-image.png" | prepend: site.baseurl | prepend: site.url }}"/>
+  <meta itemprop="image" content="{{ "/images/social-share.png" | prepend: site.baseurl | prepend: site.url }}"/>
 
   <link rel="shortcut icon" href="{{site.site_images}}icons/favicon.ico" type="image/x-icon" />
 </head>
