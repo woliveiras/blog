@@ -26,3 +26,6 @@ people:
     - name: "Bruna"
       help: "Ingresso para o WordCamp SP"
       value: 60
+    - name: "Maiara"
+      help: "Curso desenvolvedor web completo"
+      value: 80
