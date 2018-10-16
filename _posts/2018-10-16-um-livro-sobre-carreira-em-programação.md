@@ -146,6 +146,12 @@ Como já disse Mandela:
 ![Frase do mandela em um banner maior]({{site.post_images}}mandela.png)
 {:.post__wallpaper}
 
+Se você quiser adquirir o livro, fica de olho no site da Casa do Código ou nas minhas redes sociais para saber quando for publicado. :grin:
+
+- [Casa do Código](https://www.casadocodigo.com.br/)
+- [Meu Twitter](https://twitter.com/w_oliveiras)
+- [Meu LinkedIn](https://linkedin.com/in/william-oliveira)
+
 ## Referências
 
 - [José Martí, Wikipedia](https://es.wikiquote.org/wiki/Jos%C3%A9_Mart%C3%AD)
