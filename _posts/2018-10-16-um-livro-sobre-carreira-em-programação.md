@@ -121,7 +121,7 @@ E assim ficou pronto o meu livro, com o título: **O universo da programação, 
 
 ## Conhecimento pago é restrito: um conflito filosófico
 
-Publicar o livro através de uma editora custa dinheiro. 
+Publicar o livro através de uma editora custa dinheiro.
 
 Custa o trabalho das pessoas da editora, impressão, hospedagem e muito mais e por isso o livro precisa custar algo para trazer retorno para a empresa.
 
