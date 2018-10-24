@@ -17,13 +17,6 @@ display-author-front-page: false # True if you need show author name and site on
 display-author-post-page: false # Very usual for guest posts and the infos of author are writen in header of post.md, by default show infos of user settings
 google_analytics: UA-25964646-1
 
-# webmaster_verifications: # for verifying ownership via Google webmaster tools
-#   google: 1234
-#   bing: 1234
-#   alexa: 1234
-#   yandex: 1234
-#   baidu: 1234
-
 # Useful for translating into other languages.
 
 var_on_the_web: Na internet
