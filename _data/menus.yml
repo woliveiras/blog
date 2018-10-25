@@ -2,21 +2,14 @@
 nav-menu:
   - title: Home
     url: /
-  - title: Tags
-    url: /tags
+  - title: Vídeos
+    url: /videos
+#   - title: Pesquisas
+#     url: /pesquisas
 #   - title: Sobre
 #     url: /sobre
 
 # Footer menu
-
-# footer-menu:
-#   - title: Busca mentoria em programação?
-#     url: /mentoria
-#   - title: Vamos codar juntos?
-#     url: /pair-programming
-#   - title: Trabalho
-#     url: work
-
 
 footer-menu:
   - title: Gostaria de retribuir meu trabalho?
@@ -29,6 +22,14 @@ footer-menu:
     url: /vimparanoobs
   - title: Arquivo
     url: /arquivo
+  - title: Tags
+    url: /tags
+#   - title: Busca mentoria em programação?
+#     url: /mentoria
+#   - title: Vamos codar juntos?
+#     url: /pair-programming
+#   - title: Trabalho
+#     url: work
 
 social-support:
   - title: Você precisa de ajuda financeira para investir em sua educação?
