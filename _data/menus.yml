@@ -4,8 +4,8 @@ nav-menu:
     url: /
   - title: Vídeos
     url: /videos
-#   - title: Pesquisas
-#     url: /pesquisas
+  - title: Pesquisas
+    url: /pesquisas
 #   - title: Sobre
 #     url: /sobre
 
