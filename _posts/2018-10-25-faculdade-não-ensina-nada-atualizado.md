@@ -10,6 +10,7 @@ tags:
     - videos
     - carreira
     - programação
+video_id: BwdKfV7wvWo
 description: "A faculdade não ensina nada que o mercado precisa! Faculdade não ensina nada atualizado. Será que ela deveria ensinar isso?"
 ---
 Depois do último vídeo sobre valer a pena ou não fazer uma faculdade de programação, [neste link](https://www.youtube.com/watch?v=DukhWWWzi18), uma pessoa me questionou dizendo que faculdade não ensina nada atualizado, nada do que o mercado de programação realmente pede em nosso currículo ou no nosso dia a dia como programadores e programadoras.
@@ -24,7 +25,7 @@ Fiz um vídeo comentando o que eu penso sobre faculdade não ensinar nada atuali
 
 Vamos conferir o vídeo:
 
-{% include youtube-embed.html video_id="BwdKfV7wvWo" %}
+{% include youtube-embed.html video_id=page.video_id %}
 
 Aqui você pode conferir o artigo ["Os caminhos da engenharia de software: o que estudar"](posts/os-caminhos-da-engenharia-de-software-o-que-estudar/) que eu comentei no vídeo.
 

@@ -10,6 +10,7 @@ tags:
     - videos
     - carreira
     - programação
+video_id: DukhWWWzi18
 description: "Um vídeo sobre o assunto: devemos ou não fazer uma faculdade para trabalhar com programação. Vale a pena fazer faculdade para trabalhar com programação?"
 ---
 
@@ -26,7 +27,7 @@ Será que fazer ou não uma faculdade vai fazer falta?
 
 Vamos conferir o vídeo:
 
-{% include youtube-embed.html video_id="DukhWWWzi18" %}
+{% include youtube-embed.html video_id=page.video_id %}
 
 Confira também a playlist sobre carreira em programação: [carreira - William Oliveira](https://www.youtube.com/watch?v=DukhWWWzi18&list=PL46DzgkNWD2EyeIQgYzDB6DGe2PE5u1-m)
 

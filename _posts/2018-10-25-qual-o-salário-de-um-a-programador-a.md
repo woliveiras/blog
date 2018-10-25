@@ -10,8 +10,10 @@ tags:
     - videos
     - carreira
     - programação
+video_id: j8GenNjjrvw
 description: "Qual o salário de um(a) programador(a)? Fizemos uma live no YouTube para comentar sobre esse assunto abordando desde o salário de junior, pleno e sênior, até como conseguir um aumento de salário!"
 ---
+
 Com a participação do Luiz Felipe Limeira e Lucas Santos fiz uma live no meu canal onde conversamos sobre o salário de pessoas desenvolvedoras de software.
 
 Neste bate-papo, respondemos perguntas como:
@@ -25,7 +27,7 @@ Neste bate-papo, respondemos perguntas como:
 
 Vamos conferir o vídeo:
 
-{% include youtube-embed.html video_id="j8GenNjjrvw" %}
+{% include youtube-embed.html video_id=page.video_id %}
 
 Ajude a aumentar a informação nessa pesquisa respondendo o formulário: [Salário de pessoas desenvolvedoras de software](https://goo.gl/forms/aQLSseZHrM0UHlXU2).
 
