@@ -2,7 +2,6 @@
 layout: post
 title: Vale a pena fazer faculdade para trabalhar com programação
 date: 2018-10-25 05:13 -0300
-image:
 categories:
     - videos
     - carreira
