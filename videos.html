@@ -12,7 +12,7 @@ layout: default
         {% for post in site.categories["videos"] limit:10 %}
         <li>
             <div>
-                <a href="post.url">{{ post.title }}</a>
+                <a href="{{post.url}}">{{ post.title }}</a>
                 <p>{{ post.excerpt | strip_html }}</p>
                 {% include youtube-embed.html video_id=post.video_id %}
             </div>
