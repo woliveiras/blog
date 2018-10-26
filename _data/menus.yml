@@ -12,9 +12,7 @@ nav-menu:
 # Footer menu
 
 footer-menu:
-  - title: Gostaria de retribuir meu trabalho?
-    url: https://www.catarse.me/woliveiras
-  - title: Quer se tornar frontend?
+  - title: Guia de carreira para você se tornar frontend
     url: /front-end-career
   - title: Meus Links favoritos
     url: /my-precious-links
