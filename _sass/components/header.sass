@@ -1,7 +1,7 @@
 @import '../mixins/grid'
 
 .main-header
-    border-top: 5px solid $brown
+    background: black
 
     @media only screen and (min-width: 768px)
         text-align: center
@@ -11,9 +11,10 @@
         +col(12, 12)
 
     &__title
-        +container()
+        color: $white
 
         a
+            +container()
             color: inherit
             font-weight: 900
             letter-spacing: 5px
@@ -22,7 +23,7 @@
             display: inline-block
             font-size: 3em
             line-height: 1.2em
-            padding-left: 0.1em
+            padding-left: .2em
 
             @media only screen and (min-width: 768px)
                 padding-left: 0
