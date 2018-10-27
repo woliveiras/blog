@@ -5,25 +5,28 @@
 
     @media only screen and (min-width: 768px)
         text-align: center
-        padding-left: 0
 
-    &__wrapper
-        +col(12, 12)
+    &__text
+        +container()
+        padding-bottom: 3em
+        padding-top: 3em
+        padding-left: 1em
+        padding-right: 1em
 
     &__title
         color: $white
 
         a
-            +container()
             color: inherit
             font-weight: 900
             letter-spacing: 5px
-            padding-top: 30px
-            padding-bottom: 20px
             display: inline-block
             font-size: 3em
             line-height: 1.2em
-            padding-left: .2em
 
             @media only screen and (min-width: 768px)
                 padding-left: 0
+
+    &__description
+        display: block
+        color: $white

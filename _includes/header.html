@@ -4,8 +4,11 @@
 <body>
 
 <header class="main-header">
-    <h1 class="main-header__title">
-        <a href="/" title="{{ site.title }}">{{ site.page_title }}</a>
-    </h1>
+    <div class="main-header__text">
+        <h1 class="main-header__title">
+            <a href="/" title="{{ site.title }}">{{ site.page_title }}</a>
+        </h1>
+        <span class="main-header__description">{{ site.description }}</span>
+    </div>
     {% include navigation-menu.html %}
 </header>
