@@ -12,15 +12,17 @@ nav-menu:
 # Footer menu
 
 footer-menu:
-  - title: Guia de carreira para você se tornar frontend
+  - title: "Meu livro: O Universo da Programação"
+    url: http://bit.ly/universo-da-programacao
+  - title: Como se tornar frontend
     url: /front-end-career
   - title: Meus Links favoritos
     url: /my-precious-links
-  - title: Livro sobre o editor de textos VIM
+  - title: GitBook sobre o editor de textos VIM
     url: /vimparanoobs
-  - title: Arquivo
+  - title: Todos os meus posts
     url: /arquivo
-  - title: Tags
+  - title: Todas as tags do blog
     url: /tags
 #   - title: Busca mentoria em programação?
 #     url: /mentoria
