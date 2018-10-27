@@ -6,24 +6,10 @@ home: true
 <div>
     {% for post in paginator.posts %}
 
-    {% assign minutes = post.content | number_of_words | divided_by: 180 %}
-
-    {% if minutes == 0 %}
-        {% assign read-time = site.var_less_than_a_minute_read %}
-    {% else %}
-        {% assign read-time = minutes | append: "&nbsp;" | append: site.var_min_read %}
-    {% endif %}
-
     <article class="post" itemscope="itemscope" itemtype="http://schema.org/BlogPosting">
         <a href="{{ post.url | prepend: site.baseurl }}" title="Link para o artigo {{ post.title }}">
             <h2 class="post__title" itemprop="name headline">{{ post.title }}</h2>
         </a>
-        <span class="post__date">
-            <meta itemprop="datePublished" content="{{post.date | date_to_xmlschema }}">
-            <meta itemprop="dateModified" content="{{post.date | date_to_xmlschema }}">
-            <meta itemprop="mainEntityOfPage" content="{{ post.url | prepend: site.url }}">
-            <time>{{ post.date | date: site.date_format }}</time> • {{ read-time }}
-        </span>
         <div itemprop="author" itemscope itemtype="http://schema.org/Person">
             <meta itemprop="name" content="William Oliveira">
         </div>
@@ -33,18 +19,17 @@ home: true
                 <meta itemprop="url" content="https://woliveiras.com.br/images/social-share.png">
             </div>
         </div>
-        <p class="post__excerpt">{{ post.excerpt | strip_html }}</p>
+        <p class="post__excerpt">{{ post.content | strip_html | truncatewords:70 }}</p>
+        <span class="post__date">
+            <meta itemprop="datePublished" content="{{post.date | date_to_xmlschema }}">
+            <meta itemprop="dateModified" content="{{post.date | date_to_xmlschema }}">
+            <meta itemprop="mainEntityOfPage" content="{{ post.url | prepend: site.url }}">
+            Publicado em: <time>{{ post.date | date: site.date_format }}</time>
+        </span>
         <div class="post__footer">
             <a href="{{ post.url | prepend: site.baseurl }}">
                 {{ site.var_read }}
             </a>
-            <div class="post__tags">
-                <ul>
-                    {% for tag in post.tags %}
-                    <li class="post__tags__item"><a href="{{ site.baseurl }}/tags/#{{tag | slugify }}">{{ tag }}</a></li>
-                    {% endfor %}
-                </ul>
-            </div>
         </div>
     </article>
     {% endfor %}
