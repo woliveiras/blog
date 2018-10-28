@@ -7,6 +7,16 @@
     padding-bottom: 2em
     +container()
 
-    &__item
+    h2
         padding-top: 1em
-        padding-bottom: 1em
+
+    &__item
+        padding: 1em
+        margin-top: 1em
+        margin-bottom: 1em
+
+        &--active
+            background: $gray-light
+
+        &--finished
+            background: $blue-ligth

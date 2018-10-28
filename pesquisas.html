@@ -18,7 +18,7 @@ layout: default
         </header>
         <p>Participe das pesquisas ativas para melhorar nossa amostragem.</p>
         {% for item in site.data.researchs.active %}
-            <article class="researchs__item">
+            <article class="researchs__item researchs__item--active">
                 <header>
                     <h3>{{ item.title }}</h3>
                 </header>
@@ -34,18 +34,18 @@ layout: default
         </header>
         <p>Resultados de pesquisas já finalizadas.</p>
 
-        <article class="researchs__item">
+        <article>
             <p>Estou consolidando o resultado de algumas pesquisa e logo teremos os posts aqui.</p>
         </article>
 
-        <!-- {% for item in site.data.researchs.finished %}
-            <article class="researchs__item">
+        {% for item in site.data.researchs.finished %}
+            <article class="researchs__item researchs__item--finished">
                 <header>
                     <h3>{{ item.title }}</h3>
                 </header>
                 <p>{{ item.description }}</p>
                 <a href="{{ item.url }}">Participar</a>
             </article>
-        {% endfor %} -->
+        {% endfor %}
     </section>
 </div>
