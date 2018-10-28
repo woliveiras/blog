@@ -2,3 +2,41 @@
 title: Pesquisas sobre carreira em programação, open source, comunidades e mercado de trabalho
 layout: default
 ---
+
+<div class="researchs">
+    <header>
+        <h1>{{ page.title }}</h1>
+    </header>
+
+    <section>
+        <header>
+            <h2 id="active">Pesquisas ativas</h2>
+        </header>
+        <p>Participe das pesquisas ativas para melhorar nossa amostragem.</p>
+        {% for item in site.data.researchs.active %}
+            <article class="researchs__item">
+                <header>
+                    <h3>{{ item.title }}</h3>
+                </header>
+                <p>{{ item.description }}</p>
+                <a href="{{ item.url }}">Participar</a>
+            </article>
+        {% endfor %}
+    </section>
+
+    <section>
+        <header>
+            <h2 id="finished">Pesquisas concluídas</h2>
+        </header>
+        <p>Resultados de pesquisas já finalizadas.</p>
+        {% for item in site.data.researchs.finished %}
+            <article class="researchs__item">
+                <header>
+                    <h3>{{ item.title }}</h3>
+                </header>
+                <p>{{ item.description }}</p>
+                <a href="{{ item.url }}">Participar</a>
+            </article>
+        {% endfor %}
+    </section>
+</div>
