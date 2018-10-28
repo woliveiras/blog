@@ -12,8 +12,6 @@ nav-menu:
 # Footer menu
 
 footer-menu:
-  - title: "Meu livro: O Universo da Programação"
-    url: http://bit.ly/universo-da-programacao
   - title: Como se tornar frontend
     url: /front-end-career
   - title: Meus Links favoritos
