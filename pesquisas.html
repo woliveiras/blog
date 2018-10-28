@@ -9,6 +9,10 @@ layout: default
     </header>
 
     <section>
+        <p>Indo direto ao ponto: <a href="#active">pesquisas ativas</a>, <a href="#finished">pesquisas concluídas</a></p>
+    </section>
+
+    <section>
         <header>
             <h2 id="active">Pesquisas ativas</h2>
         </header>
@@ -19,7 +23,7 @@ layout: default
                     <h3>{{ item.title }}</h3>
                 </header>
                 <p>{{ item.description }}</p>
-                <a href="{{ item.url }}">Participar</a>
+                <a href="{{ item.url }}" title="Link para participar da pesquisa sobre {{ item.title }}">Participar</a>
             </article>
         {% endfor %}
     </section>
@@ -29,7 +33,12 @@ layout: default
             <h2 id="finished">Pesquisas concluídas</h2>
         </header>
         <p>Resultados de pesquisas já finalizadas.</p>
-        {% for item in site.data.researchs.finished %}
+
+        <article class="researchs__item">
+            <p>Estou consolidando o resultado de algumas pesquisa e logo teremos os posts aqui.</p>
+        </article>
+
+        <!-- {% for item in site.data.researchs.finished %}
             <article class="researchs__item">
                 <header>
                     <h3>{{ item.title }}</h3>
@@ -37,6 +46,6 @@ layout: default
                 <p>{{ item.description }}</p>
                 <a href="{{ item.url }}">Participar</a>
             </article>
-        {% endfor %}
+        {% endfor %} -->
     </section>
 </div>
