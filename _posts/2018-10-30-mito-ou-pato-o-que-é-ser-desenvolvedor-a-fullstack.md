@@ -22,7 +22,7 @@ video_id: ktO73Gwk3t4
 ---
 Uma aplicação web é composta por camadas. Temos frontend, backend e servidores.
 
-A cahamda do [**frontend**](/categoria/frontend) é a aplicação que roda no navegador ou o aplicativo no celular, onde estamos agora visualizando informações, lendo conteúdo na internet, acessando dados em nossos aplicativos.
+A camada do [**frontend**](/categoria/frontend) é a aplicação que roda no navegador ou o aplicativo no celular, onde estamos agora visualizando informações, lendo conteúdo na internet, acessando dados em nossos aplicativos.
 
 O [**backend**](/categoria/backend), que é outra aplicação que garante a segurança dos nossos dados e disponibilidade da aplicação frontend armazenando dados no banco de dados e fazendo papel de mediação dessa informação e recursos para diferentes fronts.
 
