@@ -58,6 +58,6 @@ Ela também não é um mito, pois não é especialista em todas as camadas e nem
 
 No final das contas é tudo programação, mas cada pessoa escolheu trabalhar e conhecer algo diferente, pois é o que faz sentido para ela.
 
-No artigo "[Criando nosso plano de carreira e assumindo o controle do nosso futuro profissional](posts/criando-nosso-plano-de-carreira-e-assumindo-o-controle-do-nosso-futuro-profissional/)" podemos conhecer mais modelos e entender melhor o que é o t-shaped, além de analisar se é isso que queremos/faz sentido para a nossa carreira.
+No artigo "[Criando nosso plano de carreira e assumindo o controle do nosso futuro profissional](/posts/criando-nosso-plano-de-carreira-e-assumindo-o-controle-do-nosso-futuro-profissional/)" podemos conhecer mais modelos e entender melhor o que é o t-shaped, além de analisar se é isso que queremos/faz sentido para a nossa carreira.
 
 Se você está se envolvendo com a área de programação agora e já decidiu se tornar fullstack, confere também este outro artigo "[Os caminhos da Engenharia de Software: o que estudar](/posts/os-caminhos-da-engenharia-de-software-o-que-estudar/)".
