@@ -32,3 +32,6 @@ people:
     - name: "Gabriel"
       help: "Curso Completo do Desenvolvedor NodeJS e MongoDB"
       value: 30
+    - name: "Douglas"
+      help: "Livro Ionic Framework"
+      value: 30
