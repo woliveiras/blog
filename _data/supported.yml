@@ -35,3 +35,6 @@ people:
     - name: "Douglas"
       help: "Livro Ionic Framework"
       value: 30
+    - name: "Lindsay"
+      help: "Curso Completo de Linguagem C e C++ - Iniciante Ao Avançado"
+      value: 30
