@@ -29,3 +29,6 @@ people:
     - name: "Maiara"
       help: "Curso desenvolvedor web completo"
       value: 80
+    - name: "Gabriel"
+      help: "Curso Completo do Desenvolvedor NodeJS e MongoDB"
+      value: 30
