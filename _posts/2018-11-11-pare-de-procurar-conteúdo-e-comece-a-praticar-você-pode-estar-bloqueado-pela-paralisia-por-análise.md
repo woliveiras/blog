@@ -134,6 +134,8 @@ Alguns artigos que podem complementar o que eu te falei até aqui, ajudar a plan
 - [Assumindo o papel de protagonista em nossa aprendizagem](/posts/assumindo-o-papel-de-protagonista-em-nossa-aprendizagem/)
 - [Organizando sua vida pessoal, profissional e estudos com Trello e Kanban (e um pouquinho de Scrum)](/posts/organizando-sua-vida-pessoal-profissional-e-estudos-com-trello-e-kanban-e-um-pouquinho-de-scrum/)
 
+Lembrando que eu não sou profissional de psicologia. Então, se mesmo com essas dicas você não se sentir confortável e continuar bloqueado(a), é hora de procurar ajuda profissional para que você consiga desbloquear seu potencial.
+
 ## Referências
 
 Referências, mais algumas informações e dicas sobre a paralisia por análise:
