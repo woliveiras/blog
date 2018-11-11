@@ -16,6 +16,7 @@ tags:
     - dicas
     - pessoal
     - estudos
+description: "Quanto mais nos aprofundamos em um tópico mais queremos ir atrás de conhecimento sobre ele e mais conteúdo aparece, mas quanto mais estudamos, menos praticamos e mais perto da paralisia por análise nos estamos!"
 ---
 A área de computação é carregada de informação e assuntos importantes para estudarmos. Quanto mais nos aprofundamos em um tópico mais queremos ir atrás de conhecimento sobre ele e mais conteúdo aparece.
 
