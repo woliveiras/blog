@@ -136,6 +136,13 @@ Alguns artigos que podem complementar o que eu te falei até aqui, ajudar a plan
 
 Lembrando que eu não sou profissional de psicologia. Então, se mesmo com essas dicas você não se sentir confortável e continuar bloqueado(a), é hora de procurar ajuda profissional para que você consiga desbloquear seu potencial.
 
+Se você curtiu esse artigo, compartilha com sua rede.
+
+Não esqueça de se inscrever no meu canal e conferir minhas pesquisas sobre programação e carreira:
+
+- [Canal no YouTube](https://www.youtube.com/c/WilliamOliveiraS)
+- [Pesquisas](/pesquisas)
+
 ## Referências
 
 Referências, mais algumas informações e dicas sobre a paralisia por análise:
