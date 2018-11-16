@@ -4,14 +4,16 @@ nav-menu:
     url: /
   - title: Vídeos
     url: /videos
-  - title: Pesquisas
-    url: /pesquisas
+  - title: Newsletter
+    url: /newsletter
 #   - title: Sobre
 #     url: /sobre
 
 # Footer menu
 
 footer-menu:
+  - title: Pesquisas sobre programação
+    url: /pesquisas
   - title: Como se tornar frontend
     url: /front-end-career
   - title: Meus Links favoritos
@@ -30,9 +32,9 @@ footer-menu:
 #     url: work
 
 social-support:
-  - title: Ajuda financeira para investir em sua educação
+  - title: Ajuda financeira para educação
     url: /devolvendo-para-a-comunidade/
-  - title: Pessoas que já foram apoiadas
+  - title: Pessoas que já apoiadas
     url: /ganhadores
 
 social-menu:
