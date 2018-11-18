@@ -39,6 +39,9 @@ Neste artigo vamos entender o que é um diário de bordo e aprender a fazer um.
 
 **Lembrando que nada do que você encontra na internet, como esse artigo, servirá pra você tão bem quanto o acompanhamento psicológico. Eu só estou repassando algo que serviu muito bem pra mim, mas você pode acabar precisando de apoio presencial ou acompanhamento terapêutico para realmente controlar sua ansiedade. Em todo caso: se você sente que sua ansiedade não é normal, está além do natural do corpo, procure acompanhamento o mais breve possível.**
 
+![Imagem de um diário, via unsplash]({{site.post_images}}rawpixel-1071103-unsplash.jpg)
+{:.post__wallpaper}
+
 ## O que é diário de bordo
 
 Basicamente o diário de bordo, no contexto de controle da ansiedade, é uma maneira de tirar da cabeça tudo aquilo que nos aflige além de nos ajudar a ver o mundo de uma outra perspectiva e nos fazer refletir sobre coisas boas que acontecem na nossa vida em um só dia.
