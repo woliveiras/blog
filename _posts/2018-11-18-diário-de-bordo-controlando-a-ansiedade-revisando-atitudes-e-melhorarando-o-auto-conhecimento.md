@@ -167,3 +167,10 @@ Mas lembre-se sempre: isso não é remédio para nada!
 Caso você perceba que nada disso está te ajudando, mesmo não tendo passado um mês seguindo essas dicas, vá atrás de acompanhamento.
 
 Em muitos momentos negligenciamos o tratamento da ansiedade, mas ela, assim como qualquer doença psicológica, pode causar problemas irreversíveis para as nossas vidas, assim como até nos tirar ela.
+
+Para não ficar somente em minhas palavras, confere o post que o Leon compartilhou comigo depois do lançamento deste post:
+
+<blockquote class="twitter-tweet" data-lang="en"><p lang="pt" dir="ltr"><a href="https://t.co/3LpfBaR36r">https://t.co/3LpfBaR36r</a> <br>Eu curto como esse aqui explica o problema, e como tu explica a solução super bem.</p>&mdash; Leon (@lsponzoni) <a href="https://twitter.com/lsponzoni/status/1064206513709944834?ref_src=twsrc%5Etfw">November 18, 2018</a></blockquote>
+<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+[Does programming professionalise anxiety?](https://dev.to/daraghjbyrne/does-programming-professionalise-anxiety-5e3i), no dev.to.
