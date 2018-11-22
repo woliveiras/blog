@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 'Diário de bordo: controlando a ansiedade, revisando atitudes e melhorarando
+title: 'Diário de bordo: controlando a ansiedade, revisando atitudes e melhorando
   o auto conhecimento'
 date: 2018-11-18 14:57 -0200
 image: "/images/posts/rawpixel-1071103-unsplash.jpg"
