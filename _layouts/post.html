@@ -2,27 +2,22 @@
 layout: default
 ---
 
-{% include newsletter-signup.html %}
-
-<main class="post">
-    <header>
-        <h1 class="post__title">{{ page.title }}</h1>
-    </header>
-    <article>
-        {{ content }}
-        <div class="post__footer">
-            <span class="post__date">Publicado em: {{ page.date | date: site.date_format }}</span>
-            <div class="post__categories">
-                <span class="post__categories__title">Categorias:</span>
-                <ul>
-                    {% for category in page.categories %}
-                    <li class="post__categories__item"><a href="{{ site.baseurl }}/categoria/{{category | slugify }}">{{ category }}</a></li>
-                    {% endfor %}
-                </ul>
-            </div>
+<article class="post">
+    {{ content }}
+    <div class="post__footer">
+        <span class="post__date">Publicado em: {{ page.date | date: site.date_format }}</span>
+        <div class="post__categories">
+            <span class="post__categories__title">Categorias:</span>
+            <ul>
+                {% for category in page.categories %}
+                <li class="post__categories__item"><a href="{{ site.baseurl }}/categoria/{{category | slugify }}">{{ category }}</a></li>
+                {% endfor %}
+            </ul>
         </div>
-    </article>
-</main>
+    </div>
+</article>
+    
+{% include newsletter-signup.html %}
 
     {% if site.display-author-post-page %}
         {% if page.author.name %}

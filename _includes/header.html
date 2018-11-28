@@ -4,11 +4,21 @@
 <body>
 
 <header class="main-header">
-    <div class="main-header__text">
-        <h1 class="main-header__title">
-            <a href="/" title="{{ site.title }}">{{ site.page_title }}</a>
-        </h1>
-        <span class="main-header__description">{{ site.description }}</span>
+        {% if page.is_post %}
+        {% include navigation-menu.html %}
+        <div class="main-header__text">
+            <h1 class="main-header__title main-header__title--post">
+                {{ page.title }}
+            </h1>
+        </div>
+        {% else %}
+        <div class="main-header__text main-header__text--center">
+            <h1 class="main-header__title">
+                <a href="/" title="{{ site.title }}">{{ site.page_title }}</a>
+            </h1>
+            <span class="main-header__description">{{ site.description }}</span>
+        </div>
+        {% include navigation-menu.html %}
+        {% endif %}
     </div>
-    {% include navigation-menu.html %}
 </header>

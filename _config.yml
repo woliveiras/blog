@@ -66,12 +66,18 @@ sass:
 collections:
   categoria:
     output: true
+
 defaults:
   - scope:
       path: ""
       type: categoria
     values:
       layout: "category"
+  - scope:
+      path: ""
+      type: posts
+    values:
+      is_post: true
 
 # exclude files if no need build
 exclude: [
