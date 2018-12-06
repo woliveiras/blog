@@ -21,7 +21,7 @@ Eu estou sempre pedindo dicas de leitura para pessoas com mais experiência para
 
 Nesse post eu vou listar alguns livros desses que recebi indicação e alguns aos quais eu já li tanto sobre desenvolvimento de software quanto desenvolvimento pessoal.
 
-## O programador apaixonado
+## [O programador apaixonado](https://amzn.to/2EhW6iq)
 
 Eu gostei muito desse livro. As histórias contadas por Chad Fowler são bem inspiradoras e esclarecedoras sobre algumas coisas que acontecem em nossa carreira como programadores.
 
@@ -31,9 +31,9 @@ Foi com esse livro que aprendi a tratar minha carreira de uma maneira diferente 
 
 O cara conta até um pouco da história de algumas linguagens de programação e as dúvidas que ele passou entre estudá-las ou não quando elas foram lançadas.
 
-[![](https://cdn.shopify.com/s/files/1/0155/7645/products/programador-apaixonado-featured_large.png?v=1411566032)](https://www.casadocodigo.com.br/products/livro-programador-apaixonado)
+[![](https://cdn.shopify.com/s/files/1/0155/7645/products/programador-apaixonado-featured_large.png?v=1411566032)](https://amzn.to/2EhW6iq)
 
-## O guia do mestre programador
+## [O guia do mestre programador](https://amzn.to/2QB6WGk)
 
 Este livro foca bastante em te ensinar a arte da autogestão para aprender muito.
 
@@ -44,53 +44,55 @@ Descrição do livro:
 > Investir em conhecimento rende sempre os melhores juros – Já dizia Benjamin Franklin. Conhecimento é um dos raros bens humanos que não podem ser roubados e é importantíssimo investir em si mesmo, por meio de cursos, livros, palestras e experiências que lhe acoplem o repertório da vida. Aplicando a sabedoria à outra variável de sucesso – o foco – é possível potencializar suas habilidades ao máximo para aproveitar toda sua carga de recursos para gerenciar o caminho que você deseja trilhar.
 > Neste livro, Carlos Bueno apresenta, por meio de metáforas cativantes, um guia para você se tornar um mestre programador. Como um pirata, você deve buscar recursos além das formas institucionais. O profissional diferenciado é aquele que trilha o percurso para se tornar um Padawan.
 
-[![](https://cdn.shopify.com/s/files/1/0155/7645/products/F_rZcE1nCFDaz1yv2rMbvp0sp7ehJKYYt3i1s1zp9Jc_size_mode_3_size_1024x768_large.jpeg?v=1448907418)](https://www.casadocodigo.com.br/products/livro-guia-mestre-programador)
+[![](https://cdn.shopify.com/s/files/1/0155/7645/products/F_rZcE1nCFDaz1yv2rMbvp0sp7ehJKYYt3i1s1zp9Jc_size_mode_3_size_1024x768_large.jpeg?v=1448907418)](https://amzn.to/2QB6WGk)
 
-## Código Limpo
+## [Código Limpo](https://amzn.to/2QfW5lF)
 
 Não existe lista de livros **para desenvolvedores** que não cite o livro Código Limpo (Clean Code).
 
 Este livro apresenta diversas boas práticas de programação e da um verdadeiro banho de água fria em nossos egos quando achamos que já estamos escrevendo código bom o suficiente.
 
-[![](https://images-na.ssl-images-amazon.com/images/I/41TINACY3hL._SX384_BO1,204,203,200_.jpg)](http://www.buscape.com.br/clean-code-a-handbook-of-agile-software-craftsmanship-robert-c-martin-0132350882)
+[![](https://images-na.ssl-images-amazon.com/images/I/41TINACY3hL._SX384_BO1,204,203,200_.jpg)](https://amzn.to/2QfW5lF)
 
-Também vale a leitura do livro [The Clean Coder](https://www.amazon.com.br/Clean-Coder-Conduct-Professional-Programmers/dp/0137081073).
+Se você manja do inglês, já vem para a versão original: [Clean Code](https://amzn.to/2Qdrd5a)
+
+Também vale a leitura do livro [The Clean Coder](https://amzn.to/2Uk7cZf) ou em português [O codificador limpo](https://amzn.to/2L1ehJV).
 
 Estou lendo ele atualmente (na época em que escrevi esse post, se você for do futuro) e tomei muita coisa boa para o dia-a-dia. Algumas coisas são até simples, mas deixamos de fazer porque não paramos para olhá-las com outros olhos.
 
-## Refatoring
+## [Refactoring](https://amzn.to/2QF2JBl)
 
 Um livro muito difícil de se encontrar em português. Se você não está treinado(a) no inglês, seria bom já focar no idioma.
 
-[Nesse link](http://www.saraiva.com.br/refatoracao-aperfeicoando-o-projeto-de-codigo-existente-3671050.html) tem em português em formato digital.
+[Nesse link](https://amzn.to/2Pmd8wV) tem em português em formato digital.
 
 Margin Fowler fala muito sobre Java, porém ensina muita coisa boa sobre refatoração de código e reescrita de um projeto inteiro que é útil para qualquer desenvolvedor(a) ou qualquer projeto de software.
 
-[![](https://images-na.ssl-images-amazon.com/images/I/51ttgxwzArL._SX389_BO1,204,203,200_.jpg)](https://www.amazon.com/Refactoring-Improving-Existing-Addison-Wesley-Technology-ebook/dp/B007WTFWJ6/ref=mt_kindle?_encoding=UTF8&me=)
+[![](https://images-na.ssl-images-amazon.com/images/I/51ttgxwzArL._SX389_BO1,204,203,200_.jpg)](https://amzn.to/2QF2JBl)
 
 Da uma olhada [nesse post](https://www.thoughtworks.com/pt/insights/blog/refactoring-book) do Marcos Matos sobre o assunto.
 
-## Padrões de arquitetura
+## [Padrões de Arquitetura de Aplicações Corporativas](https://amzn.to/2L2lucU)
 
 Também do Martin Fowler é um livro um pouco mais denso e bem avançado sobre arquitetura de software.
 
 Este livro vai te dar uma outra visão sobre desenvolvimento de software grande de verdade.
 
-[![](https://images-na.ssl-images-amazon.com/images/I/51CVux%2BG7WL._SX359_BO1,204,203,200_.jpg)](https://www.amazon.com.br/Padr%C3%B5es-Arquitetura-Aplica%C3%A7%C3%B5es-Corporativas-Martin/dp/8536306386)
+[![](https://images-na.ssl-images-amazon.com/images/I/51CVux%2BG7WL._SX359_BO1,204,203,200_.jpg)](https://amzn.to/2L2lucU)
 
 Se você tem dúvidas quando a criar sistemas escaláveis e manuteníveis com padrões de projetos e boas práticas de código, leia esse livro. Se não tem, leia do mesmo jeito, tenho certeza que tem coisa para aprender ali.
 
-## Domain-Driven Design
+## [Domain-Driven Design](https://amzn.to/2L0uTRT)
 
 Este livro, assim como o Padrões de Arquitetura, vai te dar outra visão sobre desenvolvimento de software.
 
 Ainda não li esses dois livros (Padrões de Arquitetura e Domain-Driven Design), só os folheei. Porém são muito recomendados pelos melhores desenvolvedores que eu conheço.
 
-[![](https://images-na.ssl-images-amazon.com/images/I/51sZW87slRL._SX375_BO1,204,203,200_.jpg)](https://www.amazon.com.br/Domain-Driven-Design-Tackling-Complexity-Software/dp/0321125215)
+[![](https://images-na.ssl-images-amazon.com/images/I/51sZW87slRL._SX375_BO1,204,203,200_.jpg)](https://amzn.to/2L0uTRT)
 
 Da uma olhada [nessa entrevista sobre esse livro](https://www.infoq.com/br/articles/ddd-10-anos).
 
-## Foco
+## [Foco](https://amzn.to/2Sy3qtl)
 
 Nem só de livro técnico viverá o dev. - escrito em pedra em algum lugar por aí
 
@@ -98,18 +100,18 @@ Este livro ensina como ter foco em meio a tanta informação que temos no dia a 
 
 Principalmente se você for ler todos os livros que eu estou indicando, vai precisar de muito foco! ;D
 
-Diversos livros de Daniel Goleman ensinam sobre isso, se tiver oportunidade leia também [Liderança: a inteligência emocional na formação de um líde de sucesso](http://www.buscape.com.br/lideranca-a-inteligencia-emocional-na-formacao-de-um-lider-de-sucesso-daniel-goleman-8539006510) e [Inteligência Emocional: a teoria revolucionária](http://www.buscape.com.br/inteligencia-emocional-a-teoria-revolucionaria-daniel-goleman-8573020806)
+Diversos livros de Daniel Goleman ensinam sobre isso, se tiver oportunidade leia também [Liderança: a inteligência emocional na formação de um líder de sucesso](https://amzn.to/2SuGY4w) e [Inteligência Emocional: a teoria revolucionária](https://amzn.to/2Qj5YPF)
 
-[![](http://coachingmais50.com.br/wp-content/uploads/2015/03/foco_coachingmais50.com_.br_.jpg)](http://www.buscape.com.br/foco-daniel-goleman-8539005352)
+[![](http://coachingmais50.com.br/wp-content/uploads/2015/03/foco_coachingmais50.com_.br_.jpg)](https://amzn.to/2Sy3qtl)
 
 ## Outros livros não técnicos, mas bem importantes
 
 Eu tenho uma lista de livros, sobre [produtividade](/posts/produtividade-uma-re-introducao/), que ainda vou ler ou finalizar e gostaria de indicá-los pra você também:
 
-- [Os 7 hábitos das pessoas altamente eficazes, por Stephen Covey](https://www.amazon.com.br/H%C3%A1bitos-das-Pessoas-Altamente-Eficazes/dp/8576843439/ref=sr_1_3?s=books&ie=UTF8&qid=1417195405&sr=1-3&keywords=stephen+covey)
-- [O poder da ação, por Paulo Vieira](https://www.amazon.com.br/Poder-A-o-Ph-D-Paulo-Vieira/dp/854520034X/ref=oosr)
-- [Trabalhe 4 Horas por Semana, por Timothy Ferriss](https://www.amazon.com.br/Trabalhe-4-Horas-Por-Semana/dp/8576653540)
-- [Os desafios à força de vontade, por Kelly McGonigal](https://www.amazon.com.br/Os-desafios-%C3%A0-for%C3%A7a-vontade-ebook/dp/B00I12T02I)
+- [Os 7 hábitos das pessoas altamente eficazes, por Stephen Covey](https://amzn.to/2KYQbPV)
+- [O poder da ação, por Paulo Vieira](https://amzn.to/2SvIbZ8)
+- [Trabalhe 4 Horas por Semana, por Timothy Ferriss](https://amzn.to/2QB8ksw)
+- [Os desafios à força de vontade, por Kelly McGonigal](https://amzn.to/2Sy5sdk)
 
 Você conhece mais algum livro legal para compartilhar conosco? Comenta aqui embaixo.
 
