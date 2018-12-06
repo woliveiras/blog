@@ -28,7 +28,7 @@ Como meu foco, até agora, está em JavaScript no Front End, vou indicar os livr
 
 Alguns livros não são indicados para quem nunca desenvolveu na vida, pois podem apresentar conceitos avançados que confundem a cabeça do iniciante, principalmente se for o primeiro contato com lógica. Portanto eu indicaria esse livro, da [Casa do Código](https://www.casadocodigo.com.br), se quiser aprender Lógica de Programação COM JavaScript:
 
-[Lógica de Programação, crie seus primeiros programas usando Javascript e HTML](https://www.casadocodigo.com.br/products/livro-programacao)
+[Lógica de Programação, crie seus primeiros programas usando Javascript e HTML](https://amzn.to/2Qi429W)
 
 ## JavaScript para iniciantes em JavaScript
 
@@ -36,7 +36,7 @@ Se você já desenvolve ou já sabe lógica de programação, agora vem os livro
 
 No começo, não foque em [Frameworks](/posts/frameworks-front-end/), seu foco deve ser aprender a linguagem. Frameworks são só ferramentas para facilitar seu dia-a-dia, mas sem eles você também consegue trabalhar.
 
-Tem gente que recomenda o [JavaScript, o guia definitivo](http://www.buscape.com.br/livros/javascript-guia-definitivo) para iniciantes ou mesmo indica o [JavaScript, the good parts](http://www.buscape.com.br/livros/javascript-good-parts). Eu não acho esses livros bons para quem está pegando JavaScript do zero.
+Tem gente que recomenda o [JavaScript, o guia definitivo](https://amzn.to/2KYYdse) para iniciantes, aqui tem a versão em inglês se você estiver com o idioma afiado: [JavaScript: The Definitive Guide](https://amzn.to/2Qdhg81) ou mesmo indica o [JavaScript, the good parts](https://amzn.to/2ronAKT). Eu não acho esses livros bons para quem está pegando JavaScript do zero.
 
 O primeiro apresenta tanta coisa que é melhor telo como livro de referência sobre a linguagem do que para aprender do zero. Porém existem trilhas de estudos focadas nele pela Web, então pode ser uma boa você seguir a **trilha de estudos** ao invés de comprar o livro e sair lendo do zero.
 
@@ -44,13 +44,11 @@ Já o segundo só apresenta “as melhores partes”, “as coisas boas” do Ja
 
 Livros que eu indico a quem deseja aprender JavaScript do zero:
 
-[Aprendendo JavaScript, Adicione brilho e vida às suas páginas web](http://novatec.com.br/livros/aprendendo-javascript/)
+[Aprendendo JavaScript, Adicione brilho e vida às suas páginas web](https://amzn.to/2rnLYwj)
 
 A autora aborda desde os principios do JavaScript, passa por debug, Cross Browser, Ajax e algumas técnicas para escapar de algumas armadilhas da linguagem.
 
-Outro livro excelente que apresenta um overview completasso sobre a linguagem é o:
-
-[Eloquent JavaScript](http://eloquentjavascript.net/)
+Outro livro excelente que apresenta um overview completasso sobre a linguagem é o: [Eloquent JavaScript](https://amzn.to/2SyB7Lz). E se você curtir, pode ler online também [neste link](http://eloquentjavascript.net/).
 
 Esses sim ensinam do começo e com boa didática para um primeiro contato com JS.
 
@@ -58,25 +56,27 @@ Esses sim ensinam do começo e com boa didática para um primeiro contato com JS
 
 Agora que você já sabe como a linguagem funciona, como o navegador se comporta com seus scripts e debugar, é hora de aprender algumas coisas sobre organização de código e performance.
 
-[Segredos do JavaScript Ninja](http://www.buscape.com.br/segredos-do-ninja-javascript-john-resig-bear-bibeault-8575223283)
+[Segredos do JavaScript Ninja](https://amzn.to/2zJFw7o)
+
+Aqui tem a versão em inglês: [Secrets of the JavaScript Ninja](https://amzn.to/2rmo849).
 
 Apresenta muita coisa boa da linguagem, OOP, uma base de Programação Funcional, modularizar seu código, cuidados com Cross Browser, dentre outras técnicas muito boas de debug e até TDD.
 
-[Padrões Javascript - Construa Aplicações Mais Robustas Usando Padrões de Projeto e Programação](http://www.buscape.com.br/padroes-javascript-construa-aplicacoes-mais-robustas-usando-padroes-de-projeto-e-programacao-stoyan-stefanov-857522266x)
+[Padrões Javascript - Construa Aplicações Mais Robustas Usando Padrões de Projeto e Programação](https://amzn.to/2QF82AL) e em inglês [JavaScript Patterns](https://amzn.to/2SAt1lL)
 
 Ou o:
 
-[Learning JavaScript Design Patterns](https://addyosmani.com/resources/essentialjsdesignpatterns/book/)
+[Learning JavaScript Design Patterns](https://amzn.to/2KZ8vIQ)
 
 Para aprender Padrões de Projetos aplicando a linguagem JavaScript. Algo muito importante para quem deseja criar aplicações escaláveis e trabalhar em equipe.
 
 E para deixar sua aplicação voando:
 
-[Javascript de Alto Desempenho](http://www.buscape.com.br/javascript-de-alto-desempenho-nicholas-c-zakas-8575222414)
+[Javascript de Alto Desempenho](https://amzn.to/2SqWUEI) e em inglês [High Performance JavaScript](https://amzn.to/2SqX7aY).
 
 Com boas práticas de desenvolvimento pensando em performance.
 
-Agora sim, eu indicaria o [JavaScript, the good parts](http://www.buscape.com.br/livros/javascript-good-parts) caso você leia o sumário e ache algo que lhe interesse depois desses outros livros.
+Agora sim, eu indicaria o [JavaScript, the good parts](https://amzn.to/2ronAKT) caso você leia o sumário e ache algo que lhe interesse depois desses outros livros.
 
 ## Subindo de nível
 
@@ -84,13 +84,13 @@ Agora que você já conhece muita coisa da linguagem, é hora de aprender coisas
 
 Ainda não li esses livros, mas já estão na fila!
 
-[Livros Single Page Web Applications: JavaScript end-to-end](http://www.buscape.com.br/single-page-web-applications-javascript-end-to-end-michael-mikowski-josh-powell-1617290750)
+[Livros Single Page Web Applications: JavaScript end-to-end](https://amzn.to/2UkmTzD)
 
-[Testable JavaScript](http://shop.oreilly.com/product/0636920024699.do)
+[Testable JavaScript](https://amzn.to/2Po77zV)
 
 [Exploring ES6: Upgrade to the next version of JavaScript](http://exploringjs.com/)
 
-[Understanding ECMAScript 6](https://leanpub.com/understandinges6/read/)
+[Understanding ECMAScript 6](https://amzn.to/2PrsgJO)
 
 É interessante aprender mais sobre Programação Funcional com JavaScript, mas ainda não olhei com carinho nenhum livro sobre esse assunto. Se você conhecer um livro bom. sobre isso, indica aqui em baixo nos comentários.
 
