@@ -18,8 +18,8 @@ footer-menu:
     url: /front-end-career
   - title: Meus Links favoritos
     url: /my-precious-links
-  - title: GitBook sobre o editor de textos VIM
-    url: /vimparanoobs
+  - title: Ebook sobre o editor de textos Vim
+    url: https://leanpub.com/vimparanoobs
   - title: Todos os meus posts
     url: /arquivo
   - title: Todas as tags do blog
