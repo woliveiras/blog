@@ -16,7 +16,7 @@ Eu percebi que usar a internet para o bem é algo que muda vidas, pois mudou a m
 
 Se você quiser conhecer um pouco mais sobre minha história, confere esse episódio do DEVNAESTRADA
 
-<iframe style="border: none" src="//html5-player.libsyn.com/embed/episode/id/5634138/height/90/theme/custom/autoplay/no/autonext/no/thumbnail/yes/preload/no/no_addthis/no/direction/backward/render-playlist/no/custom-color/3CD52E/" height="90" width="100%" scrolling="no"  allowfullscreen webkitallowfullscreen mozallowfullscreen oallowfullscreen msallowfullscreen></iframe>
+<iframe style="border: none;margin-top: 1em;margin-bottom: 1em;height: 150px;" src="//html5-player.libsyn.com/embed/episode/id/5634138/height/90/theme/custom/autoplay/no/autonext/no/thumbnail/yes/preload/no/no_addthis/no/direction/backward/render-playlist/no/custom-color/3CD52E/" height="90" width="100%" scrolling="no"  allowfullscreen webkitallowfullscreen mozallowfullscreen oallowfullscreen msallowfullscreen></iframe>
 
 Não somente receber conteúdo, as pessoas precisam de mais acesso a informação e isso também implica em fazer cursos, ir a eventos, comprar livros e coisas desse tipo. Isso tem um custo que algumas pessoas, assim como eu no começo da minha carreira, não conseguem pagar.
 
