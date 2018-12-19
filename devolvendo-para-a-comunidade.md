@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: hotsite
 title: "Devolvendo para a comunidade"
 description: "Apoio a pessoas de baixa renda que desejam entrar na área de programação"
 ---
