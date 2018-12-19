@@ -3,6 +3,18 @@ layout: hotsite
 title: "Devolvendo para a comunidade"
 description: "Apoio a pessoas de baixa renda que desejam entrar na área de programação"
 ---
+
+## Sumário
+
+Caso já conheça a iniciativa, pode pular para o conteúdo que está procurando.
+
+- [Sobre a iniciativa](#sobre-a-iniciativa)
+- [Como receber ajuda](#como-receber-ajuda)
+- [Como me ajudar nessa missão](#como-me-ajudar-nessa-missão)
+
+Senão, confere o texto inteiro para saber mais. :heart:
+
+## Sobre a iniciativa
     
 Minha história em desenvolvimento de software é cheia de gente que me apoiou para eu chegar até aqui.
 
@@ -25,7 +37,7 @@ Não somente receber conteúdo sobre desenvolvimento, as pessoas precisam de mai
 
 Para ajudar essas pessoas eu faço um sorteio mensal de cursos da [Udemy](https://www.udemy.com/), livros da [Casa do Código](https://www.casadocodigo.com.br/), ingressos para eventos e o que eu puder fazer para ajudar a chegarem até a informação.
 
-### Como participar
+### Como receber ajuda
 
 Para participar desses sorteios basta responder o formulário abaixo.
 
