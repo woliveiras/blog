@@ -18,15 +18,17 @@ Para participar do sorteio, basta se inscrever no formulário nesta página: [aj
 
 > Lembrando que isso é uma oportunidade para **pessoas de baixa renda**. Se você possui condições financeiras de investir em sua educação, por favor, não se inscreva.
 
-### Como me ajudar nessa missão
+**Como me ajudar nessa missão**
 
 Como esse custo sai do meu orçamento, só consigo ajudar com 60 reais por mês (um curso ou livro) e ingressos de eventos que me doam.
 
 Se você deseja contribuir com essa iniciativa você pode:
 
-- Fazer uma doação através do [PicPay](https://www.picpay.com/), uma ferramenta de recebimento de pagamentos através de aplicativo.
-- Compartilhar esta iniciativa com pessoas que você sabe que realmente precisam, para que elas se cadastrem no sorteio.
-- Compartilhar este post em redes sociais e grupos/comunidades nessas redes.
+Fazer uma doação através do [PicPay](https://www.picpay.com/), uma ferramenta de recebimento de pagamentos através de aplicativo.
+
+Compartilhar esta iniciativa com pessoas que você sabe que realmente precisam, para que elas se cadastrem no sorteio.
+
+Compartilhar este post em redes sociais e grupos/comunidades nessas redes.
 
 Se tiver alguma dúvida, entre em contato comigo via Telegram (<a href="http://telegram.me/woliveiras" title="Meu usuário do Telegram">@woliveiras</a>).
 
