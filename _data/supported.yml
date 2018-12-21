@@ -44,3 +44,6 @@ people:
     - name: "Rafael"
       help: "Formação do Alura Cursos Online"
       value: 900
+    - name: "Daniel"
+      help: "Crie Uma Loja Virtual com WordPress e WooCommerce"
+      value: 30
