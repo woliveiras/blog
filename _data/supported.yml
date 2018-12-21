@@ -39,11 +39,11 @@ people:
       help: "Curso Completo de Linguagem C e C++ - Iniciante Ao Avançado"
       value: 30
     - name: "Nelly"
-      help: "Desenvolvedor Multiplataforma Android/IOS com React e Redux"
+      help: "Curso Desenvolvedor Multiplataforma Android/IOS com React e Redux"
       value: 40
     - name: "Rafael"
       help: "Formação do Alura Cursos Online"
       value: 900
     - name: "Daniel"
-      help: "Crie Uma Loja Virtual com WordPress e WooCommerce"
+      help: "Curso Crie Uma Loja Virtual com WordPress e WooCommerce"
       value: 30
