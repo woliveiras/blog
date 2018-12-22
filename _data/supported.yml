@@ -47,3 +47,12 @@ people:
     - name: "Daniel"
       help: "Curso Crie Uma Loja Virtual com WordPress e WooCommerce"
       value: 30
+    - name: "Carolina"
+      help: "Livro Cangaceiro JavaScript"
+      value: 30
+    - name: "Tainá"
+      help: "Curso ITIL Foundation - Curso Completo Para Certificação ITIL"
+      value: 30
+    - name: "Clayton"
+      help: "Curso Curso Completo do Desenvolvedor NodeJS e MongoDB"
+      value: 30
