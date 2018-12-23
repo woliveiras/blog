@@ -1,4 +1,7 @@
 people:
+    - name: "Joanderson"
+      help: "Curso Completo de PHP 7"
+      value: 30
     - name: "Clayton"
       help: "Curso Curso Completo do Desenvolvedor NodeJS e MongoDB"
       value: 30
