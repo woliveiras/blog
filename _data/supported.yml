@@ -1,58 +1,58 @@
 people:
-    - name: "Wellington"
-      help: "Curso de HTML e CSS"
+    - name: "Clayton"
+      help: "Curso Curso Completo do Desenvolvedor NodeJS e MongoDB"
       value: 30
-    - name: "Mikaelly"
-      help: "Curso JS com TDD na prática"
+    - name: "Tainá"
+      help: "Curso ITIL Foundation - Curso Completo Para Certificação ITIL"
       value: 30
-    - name: "Wellington"
-      help: "Um notebook"
-      value: 1700
+    - name: "Carolina"
+      help: "Livro Cangaceiro JavaScript"
+      value: 30
+    - name: "Daniel"
+      help: "Curso Crie Uma Loja Virtual com WordPress e WooCommerce"
+      value: 30
+    - name: "Rafael"
+      help: "Formação do Alura Cursos Online"
+      value: 900
+    - name: "Nelly"
+      help: "Curso Desenvolvedor Multiplataforma Android/IOS com React e Redux"
+      value: 40
+    - name: "Lindsay"
+      help: "Curso Completo de Linguagem C e C++ - Iniciante Ao Avançado"
+      value: 30
+    - name: "Douglas"
+      help: "Livro Ionic Framework"
+      value: 30
+    - name: "Gabriel"
+      help: "Curso Completo do Desenvolvedor NodeJS e MongoDB"
+      value: 30
+    - name: "Maiara"
+      help: "Curso desenvolvedor web completo"
+      value: 80
+    - name: "Bruna"
+      help: "Ingresso para o WordCamp SP"
+      value: 60
+    - name: "Lindsay"
+      help: "Ingresso para o WordCamp SP"
+      value: 60
+    - name: "Cristhiane"
+      help: "Ingresso para o WordCamp SP"
+      value: 60
+    - name: "Jessica"
+      help: "Ingresso para o WordCamp SP"
+      value: 60
     - name: "Pedro"
       help: "Ingresso para o WordCamp SP"
       value: 60
     - name: "Victor"
       help: "Ingresso para o WordCamp SP"
       value: 60
-    - name: "Jessica"
-      help: "Ingresso para o WordCamp SP"
-      value: 60
-    - name: "Cristhiane"
-      help: "Ingresso para o WordCamp SP"
-      value: 60
-    - name: "Lindsay"
-      help: "Ingresso para o WordCamp SP"
-      value: 60
-    - name: "Bruna"
-      help: "Ingresso para o WordCamp SP"
-      value: 60
-    - name: "Maiara"
-      help: "Curso desenvolvedor web completo"
-      value: 80
-    - name: "Gabriel"
-      help: "Curso Completo do Desenvolvedor NodeJS e MongoDB"
+    - name: "Wellington"
+      help: "Um notebook"
+      value: 1700
+    - name: "Mikaelly"
+      help: "Curso JS com TDD na prática"
       value: 30
-    - name: "Douglas"
-      help: "Livro Ionic Framework"
-      value: 30
-    - name: "Lindsay"
-      help: "Curso Completo de Linguagem C e C++ - Iniciante Ao Avançado"
-      value: 30
-    - name: "Nelly"
-      help: "Curso Desenvolvedor Multiplataforma Android/IOS com React e Redux"
-      value: 40
-    - name: "Rafael"
-      help: "Formação do Alura Cursos Online"
-      value: 900
-    - name: "Daniel"
-      help: "Curso Crie Uma Loja Virtual com WordPress e WooCommerce"
-      value: 30
-    - name: "Carolina"
-      help: "Livro Cangaceiro JavaScript"
-      value: 30
-    - name: "Tainá"
-      help: "Curso ITIL Foundation - Curso Completo Para Certificação ITIL"
-      value: 30
-    - name: "Clayton"
-      help: "Curso Curso Completo do Desenvolvedor NodeJS e MongoDB"
+    - name: "Wellington"
+      help: "Curso de HTML e CSS"
       value: 30
