@@ -6,8 +6,8 @@ nav-menu:
     url: https://www.youtube.com/c/WilliamOliveiraS
   - title: Newsletter
     url: /newsletter
-#   - title: Sobre mim
-#     url: /sobre
+  - title: Sobre mim
+    url: /sobre-mim
 
 # Footer menu
 
