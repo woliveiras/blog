@@ -2,11 +2,11 @@
 nav-menu:
   - title: Home
     url: /
-  - title: Vídeos
-    url: /videos
-  - title: Novidades
+  - title: Canal
+    url: https://www.youtube.com/c/WilliamOliveiraS
+  - title: Newsletter
     url: /newsletter
-#   - title: Sobre
+#   - title: Sobre mim
 #     url: /sobre
 
 # Footer menu
@@ -36,6 +36,8 @@ social-support:
     url: /devolvendo-para-a-comunidade/
   - title: Pessoas que já apoiadas
     url: /ganhadores
+  - title: Pergunte-me qualquer coisa
+    url: /ama
 
 social-menu:
   - title: Twitter
