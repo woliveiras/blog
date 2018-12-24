@@ -52,7 +52,8 @@ Como esse custo sai do meu orçamento, só consigo ajudar com 60 reais por mês 
 
 Se você deseja contribuir com essa iniciativa você pode:
 
-- Fazer uma doação através do [PicPay](https://www.picpay.com/), uma ferramenta de recebimento de pagamentos através de aplicativo.
+- Me apoiar no Catarse, uma plataforma de financiamento coletivo, doando [40,00](https://www.catarse.me/pt/projects/88856/subscriptions/start?reward_id=164987) ou [70,00](https://www.catarse.me/pt/projects/88856/subscriptions/start?reward_id=164990) por mês
+- Fazer uma doação de qualquer valor através do [PicPay](https://www.picpay.com/), uma ferramenta de recebimento de pagamentos através de aplicativo.
 - Compartilhar esta iniciativa com pessoas que você sabe que realmente precisam, para que elas se cadastrem no sorteio.
 - Compartilhar este post em redes sociais e grupos/comunidades nessas redes.
 
