@@ -130,8 +130,8 @@ git remote -v
 Exemplo de `git remote -v` no repositório deste blog:
 
 ```shell
-origin	git@github.com:woliveiras/woliveiras.github.io.git (fetch)
-origin	git@github.com:woliveiras/woliveiras.github.io.git (push)
+origin git@github.com:woliveiras/woliveiras.github.io.git (fetch)
+origin git@github.com:woliveiras/woliveiras.github.io.git (push)
 ```
 
 ## Adicionando o caminho do servidor
@@ -298,7 +298,7 @@ Quando trabalhamos com branches, mais cedo ou mais tarde, vamos precisar juntar 
 
 Para isso usamos o comando `merge`.
 
-Exemplo: 
+Exemplo:
 
 Imagina que vamos fazer um merge da branch `nome_branch` na `master`.
 
@@ -319,7 +319,7 @@ Caso estejamos em uma branch, devemos então rodar os comandos da sessão acima 
 
 ## Apagando, movendo ou renomeando arquivos ou pastas sem estragar nosso histórico Git
 
-Quando deletamos algum arquivo, movemos de pastas, o Git fica com um histórico de deleção de arquivo e adição de outro. 
+Quando deletamos algum arquivo, movemos de pastas, o Git fica com um histórico de deleção de arquivo e adição de outro.
 
 Para que isso não aconteça, existem comandos do Git que salvam nossas vidas, o `git rm`, para deletar, e `git mv`, para movermos coisas.
 
@@ -437,7 +437,7 @@ git log --pretty=oneline
 
 Podemos formatar o que queremos trazer no log utilizando `--pretty` com o parâmetro `format`.
 
-```
+```shell
 git log --pretty=format:"%h = %an, %ar - %s"
 ```
 
@@ -528,7 +528,7 @@ git stash list
 
 Podemos reverter nossas alterações para o stash e ainda remover uma entrada do stash list fazendo o seguinte:
 
-**Removendo a última entrada na lista**
+Removendo a última entrada na lista.
 
 ```shell
 git stash pop
@@ -542,8 +542,7 @@ git stash pop
 git stash apply
 ```
 
-
-**Para um item da lista**
+Para um item da lista.
 
 Devemos olhar na lista do stash qual o item do histórico que queremos reverter e então rodar o comando `apply`.
 
