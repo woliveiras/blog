@@ -303,7 +303,7 @@ Exemplo:
 Imagina que vamos fazer um merge da branch `nome_branch` na `master`.
 
 ```shell
-git chekcout master
+git checkout master
 git merge nome_branch
 ```
 
