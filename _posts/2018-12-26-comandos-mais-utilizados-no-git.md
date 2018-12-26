@@ -518,6 +518,16 @@ Para armazenar algo no stash (uma área **temporária** onde guardamos o histór
 git stash
 ```
 
+### Salvando no stash com descrição
+
+[Dica do Sergio Soares](https://twitter.com/sergsoares/status/1078060945325346816).
+
+Quando precisamos salvar algo no stash para trocarmos de estado várias vezes e verificar como fica nesses estados, como em um protótipo, podemos fazer:
+
+```shell
+git stash save -u "mensagem"
+```
+
 ### Listando o que existe em stash
 
 ```shell
