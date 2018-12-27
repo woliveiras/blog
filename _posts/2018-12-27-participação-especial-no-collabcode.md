@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Participação especial no CollabCode
-date: 2018-12-27 21:09 -0200
+date: 2018-10-31 21:09 -0200
 image: "/images/posts/collabcode.jpg"
 categories:
     - participação
