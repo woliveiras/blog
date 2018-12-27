@@ -15,7 +15,7 @@ Participei de um episódio do PodProgramar, um podcast que eu sou muito fã e ti
 
 Conversamos sobre carreira no geral e também sobre meu livro, [O universo da programação](https://www.casadocodigo.com.br/products/livro-universo-programacao).
 
-Vem conferir como foi esse bate papo seguindo esse link: [PodProgramar 45 - Hackeando a Carreira de desenvolvedor](https://mundopodcast.com.br/podprogramar/45-hackeando-carreira-desenvolvedor/).
+Vem conferir como foi o bate papo seguindo este link: [PodProgramar 45 - Hackeando a Carreira de desenvolvedor](https://mundopodcast.com.br/podprogramar/45-hackeando-carreira-desenvolvedor/).
 
 Não esquece de se inscrever no meu canal e acompanhar meu conteúdo por lá também.
 
