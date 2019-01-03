@@ -13,7 +13,7 @@ tags:
     - estudos
     - opinião
     - pensamentos
-description: "Ser autodidata esconde problemas que podem nos atrapalhar bastante. Problemas esses que eu senti na prática e gostaria de compartilhar contigo para que que você não passasse por isso."
+description: "Ser autodidata esconde problemas e armadilhas que podem nos atrapalhar bastante. Problemas esses que eu senti na pele e gostaria de compartilhar contigo para que você não passasse por isso."
 ---
 Hoje em dia temos muito conhecimento espalhado na internet. Não precisamos de uma sala de aula para aprender algo de nosso interesse.  Temos conteúdo de todos os tipos por [vídeo](https://www.youtube.com/channel/UCWrqsnPLl6aRX0ECUmPaZEw), através dos [blogs](/tags/) e/ou documentações e livros técnicos.
 
