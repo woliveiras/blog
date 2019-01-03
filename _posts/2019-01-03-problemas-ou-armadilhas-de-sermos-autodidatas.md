@@ -39,7 +39,7 @@ Visto que o grande problema aqui é a falta de validação do conhecimento e uma
 
 O que eu faço quando quero/vou aprender algo novo é acessar vários cursos ou documentações relacionadas ao tópico que quero aprender e então eu monto um plano de estudos baseado nas grades do que eu encontrei. Podemos também copiar sumários de livros que encontramos por aí.
 
-Validar nosso conhecimento como pessoas desenvolvedoras de software acaba até sendo mais fácil hoje graças a algumas ferramentas como o [HackerRank](https://www.hackerrank.com/) ou [exercismo](https://exercism.io/), que são plataformas onde praticamos algoritmos resolvendo problemas que eles propõe (inclusive nós também podemos adicionar exercícios lá).
+Validar nosso conhecimento como pessoas desenvolvedoras de software acaba até sendo mais fácil hoje graças a algumas ferramentas como o [HackerRank](https://www.hackerrank.com/) ou [exercism](https://exercism.io/), que são plataformas onde praticamos algoritmos resolvendo problemas que eles propõe (inclusive nós também podemos adicionar exercícios lá).
 
 Outra maneira de validar nossas habilidades e saber se o estudo autodidata está dando certo é criar projetos. Precisamos realmente colocar em prática o que estudamos e codar, seja colocando um projeto no ar ou só no GitHub mesmo.
 
