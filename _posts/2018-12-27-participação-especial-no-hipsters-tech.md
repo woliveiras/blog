@@ -13,9 +13,9 @@ description: "Participei do episódio 128 do Hipsters.tech para conversar sobre 
 ---
 Participei de um episódio do Hipsters.tech, um podcast que eu escuto ativamente e sou muito fã do time que produz ele, o pessoal do [Alura](https://alura.com.br).
 
-Conversamos sobre carreira no geral e também sobre meu livro, [O universo da programação](https://hipsters.tech/comeco-de-carreira/).
+Conversamos sobre carreira no geral e também sobre meu livro, [O universo da programação](http://bit.ly/universo-da-programacao).
 
-Vem conferir como foi o bate papo seguindo este link: [Começo de carreira – Hipsters #128](https://mundopodcast.com.br/podprogramar/45-hackeando-carreira-desenvolvedor/).
+Vem conferir como foi o bate papo seguindo este link: [Começo de carreira – Hipsters #128](https://hipsters.tech/comeco-de-carreira/).
 
 Não esquece de se inscrever no meu canal e acompanhar meu conteúdo por lá também.
 
