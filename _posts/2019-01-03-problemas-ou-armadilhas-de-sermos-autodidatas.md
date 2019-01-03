@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Problemas de sermos autodidatas
+title: Problemas ou armadilhas de sermos autodidatas
 date: 2019-01-03 07:50 -0200
 image: "/images/posts/michael-podger-32057-unsplash.jpg"
 categories:
