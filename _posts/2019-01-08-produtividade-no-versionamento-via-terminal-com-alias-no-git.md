@@ -89,8 +89,8 @@ Caso você seja do tipo que não gosta nada de digitar, então sinta-se a vontad
 ```shell
 git config --global alias.st status
 git config --global alias.adds "add ."
-git config --global.alias.pushs "push origin"
-git config --global.alias.rmbranch "branch -d"
+git config --global alias.pushs "push origin"
+git config --global alias.rmbranch "branch -d"
 ```
 
 Para que serve cada um:
