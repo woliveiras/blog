@@ -5,10 +5,8 @@ date: 2018-11-16 11:49 -0200
 image: "/images/posts/jerry-kiesewetter-179264-unsplash.jpg"
 categories:
     - carreira
-    - dicas
 tags:
     - carreira
-    - dicas
 description: "Visando facilitar o acesso ao meu conteúdo, criei uma newsletter para quem quer ficar sempre atualizado(a)."
 ---
 Com o recente lançamento do meu livro ([O universo da programação](http://bit.ly/universo-da-programacao)) consegui tempo para voltar a escrever aqui no blog e também para criar conteúdo para o meu canal no YouTube ([nesse link](http://bit.ly/will-tube)).

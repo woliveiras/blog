@@ -5,12 +5,10 @@ title: 'Diário de bordo: controlando a ansiedade, revisando atitudes e melhoran
 date: 2018-11-18 14:57 -0200
 image: "/images/posts/rawpixel-1071103-unsplash.jpg"
 categories:
-    - dicas
     - autogestão
     - pensamentos
     - pessoal
 tags:
-    - dicas
     - autogestão
     - pensamentos
     - pessoal
