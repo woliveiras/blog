@@ -17,9 +17,36 @@ Um post rapidinho com os comandos mais utilizados do Docker para não esquecer e
 
 Se você não viu a primeira parte dessa sequência, clique [aqui](/posts/uma-rapida-introducao-ao-docker-e-instalacao-no-ubuntu/).
 
-E a segunda parte, [aqui](/posts/imagem-docker-ou-um-container-docker/)<!--more-->
+E a segunda parte, [aqui](/posts/imagem-docker-ou-um-container-docker/)
 
-## Como eu sei quais as imagens disponíveis no meu repositório local?
+## Sumário
+
+Caso você queira pular para algum comando específico.
+
+<!-- vscode-markdown-toc -->
+* [Como eu sei quais as imagens disponíveis no meu repositório local?](#Comoeuseiquaisasimagensdisponveisnomeurepositriolocal)
+* [Como adicionar imagens locais?](#Comoadicionarimagenslocais)
+* [Como remover imagens locais?](#Comoremoverimagenslocais)
+* [Criar um container](#Criarumcontainer)
+* [Criar um container e entrar no Terminal](#CriarumcontainereentrarnoTerminal)
+* [Criar um container com um apelido](#Criarumcontainercomumapelido)
+* [Verificar o estado ou encontrar o ID de um container](#VerificaroestadoouencontraroIDdeumcontainer)
+* [Remover um container](#Removerumcontainer)
+* [Outras informações úteis que o Docker pode nos passar sobre o container](#OutrasinformaesteisqueoDockerpodenospassarsobreocontainer)
+* [Commitar alterações em uma imagem](#Commitaralteraesemumaimagem)
+* [Mapeando uma porta para o container](#Mapeandoumaportaparaocontainer)
+* [Montar containers auto destrutivos](#Montarcontainersautodestrutivos)
+* [Executando containers em segundo plano](#Executandocontainersemsegundoplano)
+* [Removendo todos os containers e imagens de uma só vez](#Removendotodososcontainerseimagensdeumasvez)
+* [Como executar comandos, sem precisar estar dentro do container?](#Comoexecutarcomandossemprecisarestardentrodocontainer)
+
+<!-- vscode-markdown-toc-config
+	numbering=false
+	autoSave=true
+	/vscode-markdown-toc-config -->
+<!-- /vscode-markdown-toc -->
+
+## <a name='Comoeuseiquaisasimagensdisponveisnomeurepositriolocal'></a>Como eu sei quais as imagens disponíveis no meu repositório local?
 
 Utilize o comando `images` para listar:
 
@@ -35,7 +62,7 @@ Será apresentado uma tabela no seu Terminal com:
 * **CREATED** - quando essa imagem foi criada
 * **SIZE** - tamanho dessa imagem
 
-## Como adicionar imagens locais?
+## <a name='Comoadicionarimagenslocais'></a>Como adicionar imagens locais?
 
 Utilize o comando `search` para procurar a imagem e o comando `pull` para baixar:
 
@@ -49,7 +76,7 @@ Encontrado a imagem correta, utilize `pull` com o nome dessa imagem:
 docker pull ubuntu
 ```
 
-## Como remover imagens locais?
+## <a name='Comoremoverimagenslocais'></a>Como remover imagens locais?
 
 Localize o ID ou nome do repositório com o comando `docker images`.
 
@@ -59,7 +86,7 @@ Com o id ou o nome do repositório em mãos, utilize o comando `rmi` para exclui
 docker rmi ID_ou_nome_da_imagem
 ```
 
-## Criar um container
+## <a name='Criarumcontainer'></a>Criar um container
 
 Para executar um container utilize o comando `run` com o nome da imagem que vá utilizar para a criação:
 
@@ -67,7 +94,7 @@ Para executar um container utilize o comando `run` com o nome da imagem que vá 
 docker run nome_da_imagem
 ```
 
-## Criar um container e entrar no Terminal
+## <a name='CriarumcontainereentrarnoTerminal'></a>Criar um container e entrar no Terminal
 
 Conseguimos criar um container e já entrar nesse container com o comando `-it`:
 
@@ -79,7 +106,7 @@ Vai subir um container com o Ubuntu e entrar no Bash.
 
 O `-i` significa interatividade e o `-t` que queremos um link com o Terminal do container.
 
-## Criar um container com um apelido
+## <a name='Criarumcontainercomumapelido'></a>Criar um container com um apelido
 
 Você pode colocar apelidos nos containers para facilitar sua organização passando por parâmetro o `--name` para o comando `docker run`:
 
@@ -91,7 +118,7 @@ Perceba que logo depois do parâmetro `--name` vem o nome que deseja e o nome da
 
 Nesse caso a imagem `ubuntu` e o alias `ubuntinho`.
 
-## Verificar o estado ou encontrar o ID de um container
+## <a name='VerificaroestadoouencontraroIDdeumcontainer'></a>Verificar o estado ou encontrar o ID de um container
 
 Você consegue uma lista dos containers ativos com o comando `ps`:
 
@@ -117,7 +144,7 @@ docker ps -a
 
 Para pegar apenas o ID do container do topo da tabela, utilize o comando `ps -qa`
 
-## Remover um container
+## <a name='Removerumcontainer'></a>Remover um container
 
 Remover um container seria o mesmo que desligar a máquina virtual.
 
@@ -127,7 +154,7 @@ Utilize o comando `rm` para remover o container com o ID que você pode pegar co
 docker rm id_ou_apelido
 ```
 
-## Outras informações úteis que o Docker pode nos passar sobre o container
+## <a name='OutrasinformaesteisqueoDockerpodenospassarsobreocontainer'></a>Outras informações úteis que o Docker pode nos passar sobre o container
 
 Informações de uso de Hardware do container:
 
@@ -150,7 +177,7 @@ docker inspect id_ou_apelido
 
 Esse comando trás muita informação útil, então é bom dar uma olhada na [documentação oficial](https://docs.docker.com/engine/reference/commandline/inspect/) para não se perder pelas linhas!
 
-## Commitar alterações em uma imagem
+## <a name='Commitaralteraesemumaimagem'></a>Commitar alterações em uma imagem
 
 As alterações que você faz em um container, durante sua execução, não são salvas, a menos que você gere uma nova imagem com base nesse container.
 
@@ -162,7 +189,7 @@ docker commit ID/apelido nome_da_nova_imagem
 
 Ele vai gerar uma nova imagem a partir desse commit.
 
-## Mapeando uma porta para o container
+## <a name='Mapeandoumaportaparaocontainer'></a>Mapeando uma porta para o container
 
 Usamos o comando `-p`:
 
@@ -178,7 +205,7 @@ docker run -it -p 8080:80 nginx
 
 Estamos informando que a porta 8080 no Host é aberta e deve ser mapeada na porta 80 do container.
 
-## Montar containers auto destrutivos
+## <a name='Montarcontainersautodestrutivos'></a>Montar containers auto destrutivos
 
 Usando o comando `--rm`, podemos montar containers que se destroem ao sairmos da sessão.
 
@@ -190,7 +217,7 @@ docker run -it --rm -p 8080:80 nginx /bin/bash
 
 Ao usar um `exit` para sair do Terminal do SO rodando no container, o mesmo será removido.
 
-## Executando containers em segundo plano
+## <a name='Executandocontainersemsegundoplano'></a>Executando containers em segundo plano
 
 Podemos executar o container e deixar ele em segundo plano, sem precisar ficar conectado pelo Shell, com o comando `-d`.
 
@@ -214,7 +241,7 @@ docker start id_ou_apelido
 
 Para ativar o container.
 
-## Removendo todos os containers e imagens de uma só vez
+## <a name='Removendotodososcontainerseimagensdeumasvez'></a>Removendo todos os containers e imagens de uma só vez
 
 Usamos um pouquinho de [Shell Script](http://aurelio.net/shell/) e conseguimos automatizar o processo de remoção de todos os containers ativos com:
 
@@ -234,7 +261,7 @@ Para imagens
 docker rmi $(docker images -q)
 ```
 
-## Como executar comandos, sem precisar estar dentro do container?
+## <a name='Comoexecutarcomandossemprecisarestardentrodocontainer'></a>Como executar comandos, sem precisar estar dentro do container?
 
 Para não precisar acessar um container para executar comandos basicos, podemos usar o `exec`:
 
