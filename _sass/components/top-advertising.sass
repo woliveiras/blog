@@ -1,0 +1,48 @@
+@import '../mixins/grid'
+
+.top-advertising
+    +col(12, 12)
+    padding-top: 2em
+    text-align: center
+
+    &__title
+        padding-bottom: 1em
+        text-transform: uppercase
+        font-weight: 900
+
+        @media only screen and (min-width: 768px)
+            padding-top: 1em
+            padding-left: 3em
+
+    &__image
+        width: 100%
+
+        @media only screen and (min-width: 768px)
+            float: left
+            padding-right: 2em
+            max-width: 280px
+
+    &__text
+        border: 1px solid $black
+        padding: 1em
+
+        @media only screen and (min-width: 768px)
+            +container
+
+        p
+            padding-left: 1em
+            padding-right: 1em
+
+            @media only screen and (min-width: 768px)
+                padding-left: 0
+                padding-right: 0
+
+    &__call-button
+        display: inline-block
+        color: $white
+        background-color: $aqua
+        width: 10em
+        padding: .2em
+        border-radius: 4px
+        margin-top: 1em
+

@@ -1,6 +1,6 @@
----
-layout: default
----
+{% include header.html %}
+
+{% include ad-catarse.html %}
 
 <article class="post">
     {{ content }}
@@ -16,7 +16,7 @@ layout: default
         </div>
     </div>
 </article>
-    
+
 {% include newsletter-signup.html %}
 
     {% if site.display-author-post-page %}
@@ -73,3 +73,5 @@ layout: default
 {% include related-posts.html %}
 
 {% include comments.html %}
+
+{% include footer.html %}
