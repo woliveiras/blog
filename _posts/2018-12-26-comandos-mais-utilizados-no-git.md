@@ -20,10 +20,78 @@ Assim como montei um post para eu relembrar os [comandos mais utilizados no Dock
 
 Então vamos aos comandos mais utilizados no Git!
 
-![Branches por Sirma Krusteva no Unsplash]({{site.post_images}}sirma-krusteva-3172-unsplash.jpg)
-{:.post__wallpaper}
+## Sumário
 
-## Verificando as configurações locais
+Caso você queira pular para algum comando específico.
+
+<!-- vscode-markdown-toc -->
+* [Verificando as configurações locais](#Verificandoasconfiguraeslocais)
+	* [Para encontrar o nome de usuário](#Paraencontraronomedeusurio)
+	* [Para encontrar o email](#Paraencontraroemail)
+* [Alterando as configurações locais](#Alterandoasconfiguraeslocais)
+	* [Alterar o nome de usuário](#Alteraronomedeusurio)
+	* [Alterar o email](#Alteraroemail)
+	* [Alterando o editor de textos usados no commit e diffs](#Alterandooeditordetextosusadosnocommitediffs)
+* [Iniciar um repositório](#Iniciarumrepositrio)
+* [Ignorando arquivos](#Ignorandoarquivos)
+* ["Baixar" um repositório](#Baixarumrepositrio)
+* [Baixar as últimas alterações do servidor](#Baixarasltimasalteraesdoservidor)
+* [Listando o caminho do servidor](#Listandoocaminhodoservidor)
+* [Adicionando o caminho do servidor](#Adicionandoocaminhodoservidor)
+* [Alterando o servidor](#Alterandooservidor)
+* [Adicionando alterações](#Adicionandoalteraes)
+	* [Adicionando um arquivo](#Adicionandoumarquivo)
+	* [Adicionando tudo de uma vez](#Adicionandotudodeumavez)
+* [Removendo arquivos do index](#Removendoarquivosdoindex)
+* [Salvando as alterações](#Salvandoasalteraes)
+* [Verificando o que foi alterado](#Verificandooquefoialterado)
+* [Trabalhando com branches](#Trabalhandocombranches)
+	* [Listando as branches existentes](#Listandoasbranchesexistentes)
+	* [Criando uma nova branch](#Criandoumanovabranch)
+	* [Criando uma nova branch e já trocando para ela](#Criandoumanovabranchejtrocandoparaela)
+	* [Deletando uma branch](#Deletandoumabranch)
+	* [Trocando de branch](#Trocandodebranch)
+	* [Enviando uma branch para o servidor](#Enviandoumabranchparaoservidor)
+	* [Deletando uma branch remota](#Deletandoumabranchremota)
+	* [Juntando branches](#Juntandobranches)
+* [Enviando as alterações para o servidor](#Enviandoasalteraesparaoservidor)
+* [Apagando, movendo ou renomeando arquivos ou pastas sem estragar nosso histórico Git](#ApagandomovendoourenomeandoarquivosoupastassemestragarnossohistricoGit)
+	* [Deletando arquivo ou pasta com Git](#DeletandoarquivooupastacomGit)
+	* [Movendo ou renomeando arquivo ou pasta com Git](#MovendoourenomeandoarquivooupastacomGit)
+* [Revertendo alterações](#Revertendoalteraes)
+	* [Desfazendo do stage](#Desfazendodostage)
+	* [Desfazendo alterações em um arquivo para o último commit](#Desfazendoalteraesemumarquivoparaoltimocommit)
+	* [Desfazendo tudo para o último commit](#Desfazendotudoparaoltimocommit)
+	* [Desfazendo uma alteração, mas colocando ela em stage](#Desfazendoumaalteraomascolocandoelaemstage)
+	* [Desfazendo para o último commit sem colocar as alterações em stage](#Desfazendoparaoltimocommitsemcolocarasalteraesemstage)
+	* [Desfazendo para um commit específico](#Desfazendoparaumcommitespecfico)
+	* [Desfazendo o último push](#Desfazendooltimopush)
+* [Analisando o histórico (log)](#Analisandoohistricolog)
+	* [Observando o histórico com um número certo de alterações](#Observandoohistricocomumnmerocertodealteraes)
+	* [Observando o log de maneira resumida](#Observandoologdemaneiraresumida)
+	* [Deixando o log ainda mais bonito](#Deixandoologaindamaisbonito)
+	* [Exibindo o histórico por pessoa](#Exibindoohistricoporpessoa)
+* [Utilizando tags](#Utilizandotags)
+	* [Criar uma tag Git](#CriarumatagGit)
+	* [Listando as tags Git](#ListandoastagsGit)
+	* [Criar uma tag com mensagem (anotada)](#Criarumatagcommensagemanotada)
+	* [Criar uma tag a partir de um commit](#Criarumatagapartirdeumcommit)
+	* [Criando a tag no servidor](#Criandoatagnoservidor)
+* [Utilizando stash](#Utilizandostash)
+	* [Salvar tudo no stash](#Salvartudonostash)
+	* [Salvando no stash com descrição](#Salvandonostashcomdescrio)
+	* [Listando o que existe em stash](#Listandooqueexisteemstash)
+	* [Revertendo para o stash e removendo da lista](#Revertendoparaostasheremovendodalista)
+	* [Revertendo para o stash](#Revertendoparaostash)
+* [Referências](#Referncias)
+
+<!-- vscode-markdown-toc-config
+	numbering=false
+	autoSave=true
+	/vscode-markdown-toc-config -->
+<!-- /vscode-markdown-toc -->
+
+## <a name='Verificandoasconfiguraeslocais'></a>Verificando as configurações locais
 
 Quando trocamos de máquina podemos fazer um commit com um usuário ou email diferente, e isso pode estragar nosso histórico no Git.
 
@@ -35,35 +103,35 @@ git config --list
 
 Mas os mais comuns são para verificarmos o nome de usuário, email, editor e merge tool
 
-### Para encontrar o nome de usuário
+### <a name='Paraencontraronomedeusurio'></a>Para encontrar o nome de usuário
 
 ```shell
 git config --global user.name
 ```
 
-### Para encontrar o email
+### <a name='Paraencontraroemail'></a>Para encontrar o email
 
 ```shell
 git config --global user.email
 ```
 
-## Alterando as configurações locais
+## <a name='Alterandoasconfiguraeslocais'></a>Alterando as configurações locais
 
 Para alterar as configurações de usuário e email locais, basta rodarmos os comandos acima com o novo valor passado como parâmetro entre aspas.
 
-### Alterar o nome de usuário
+### <a name='Alteraronomedeusurio'></a>Alterar o nome de usuário
 
 ```shell
 git config --global user.name "nome do usuário"
 ```
 
-### Alterar o email
+### <a name='Alteraroemail'></a>Alterar o email
 
 ```shell
 git config --global user.email "email do usuário"
 ```
 
-### Alterando o editor de textos usados no commit e diffs
+### <a name='Alterandooeditordetextosusadosnocommitediffs'></a>Alterando o editor de textos usados no commit e diffs
 
 Quando fazemos um commit, devemos deixar uma mensagem, para isso podemos usar um editor de textos que facilite nossa vida.
 
@@ -79,7 +147,7 @@ Também utilizo o Vim para diff/merges, então seria:
 git config --global merge.tool vimdiff
 ```
 
-## Iniciar um repositório
+## <a name='Iniciarumrepositrio'></a>Iniciar um repositório
 
 Na pasta que será o novo repositório Git, execute o comando:
 
@@ -87,7 +155,7 @@ Na pasta que será o novo repositório Git, execute o comando:
 git init
 ```
 
-## Ignorando arquivos
+## <a name='Ignorandoarquivos'></a>Ignorando arquivos
 
 É extremamente normal ignorar arquivos no Git para não salvarmos arquivos de configuração dos nossos editores, arquivos temporários do nosso sistema operacional, dependências de repositório, etc.
 
@@ -95,7 +163,7 @@ Para isso criamos um arquivo chamado `.gitignore` e adicionamos os nomes dos arq
 
 Exemplo: [gitignore para Nodejs](https://www.gitignore.io/api/node).
 
-## "Baixar" um repositório
+## <a name='Baixarumrepositrio'></a>"Baixar" um repositório
 
 Para baixar um repositório do GitHub, Bitbucket, GitLab ou qualquer que seja o servidor do nosso projeto, devemos rodar o comando `git clone` com o link do repositório.
 
@@ -111,7 +179,7 @@ Se eu quisesse baixar o repositório deste blog.
 git clone git@github.com:woliveiras/woliveiras.github.io.git
 ```
 
-## Baixar as últimas alterações do servidor
+## <a name='Baixarasltimasalteraesdoservidor'></a>Baixar as últimas alterações do servidor
 
 Quando algo estiver diferente no nosso repositório remoto (no servidor), podemos baixar para a nossa máquina com o comando `pull`.
 
@@ -119,7 +187,7 @@ Quando algo estiver diferente no nosso repositório remoto (no servidor), podemo
 git pull
 ```
 
-## Listando o caminho do servidor
+## <a name='Listandoocaminhodoservidor'></a>Listando o caminho do servidor
 
 Para sabermos para onde estão sendo enviadas nossas alterações ou de onde estamos baixando as coisas, rodamos:
 
@@ -134,7 +202,7 @@ origin git@github.com:woliveiras/woliveiras.github.io.git (fetch)
 origin git@github.com:woliveiras/woliveiras.github.io.git (push)
 ```
 
-## Adicionando o caminho do servidor
+## <a name='Adicionandoocaminhodoservidor'></a>Adicionando o caminho do servidor
 
 Caso tenhamos criado o repositório localmente antes de criar no servidor, podemos adicionar o caminho com o comando `set-url`.
 
@@ -148,7 +216,7 @@ Exemplo:
 git remote set-url origin git@github.com:woliveiras/woliveiras.github.io.git
 ```
 
-## Alterando o servidor
+## <a name='Alterandooservidor'></a>Alterando o servidor
 
 Para alterar o servidor onde hospedamos nosso repositório, usamos o mesmo comando `set-url`.
 
@@ -158,17 +226,17 @@ Exemplo:
 git remote set-url origin git@github.com:woliveiras/woliveiras.github.io.git
 ```
 
-## Adicionando alterações
+## <a name='Adicionandoalteraes'></a>Adicionando alterações
 
 Quando alteramos algo, devemos rodar o comando `git add` para adicionar ao index e depois fechar um commit.
 
-### Adicionando um arquivo
+### <a name='Adicionandoumarquivo'></a>Adicionando um arquivo
 
 ```shell
 git add nome_do_arquivo
 ```
 
-### Adicionando tudo de uma vez
+### <a name='Adicionandotudodeumavez'></a>Adicionando tudo de uma vez
 
 ```shell
 git add .
@@ -184,7 +252,7 @@ Exemplo:
 git commit -am "add tudo"
 ```
 
-## Removendo arquivos do index
+## <a name='Removendoarquivosdoindex'></a>Removendo arquivos do index
 
 Para remover um arquivo do stage rodamos o comando `reset`.
 
@@ -198,7 +266,7 @@ Para remover tudo podemos fazer:
 git reset HEAD .
 ```
 
-## Salvando as alterações
+## <a name='Salvandoasalteraes'></a>Salvando as alterações
 
 Quando adicionamos com o `git add` ainda não estamos persistindo os dados no histórico do Git, mas adicionando a uma área temporária onde podemos ficar levando e trazendo alterações até garantirmos que algo realmente deve ser salvo, então rodamos o `git commit`.
 
@@ -210,7 +278,7 @@ Depois de ter adicionado as alterações com `git add`, rodamos:
 git commit -m "mensagem"
 ```
 
-## Verificando o que foi alterado
+## <a name='Verificandooquefoialterado'></a>Verificando o que foi alterado
 
 Para sabermos se tem algo que foi modificado em nossa branch, rodamos o comando `git status`.
 
@@ -236,15 +304,15 @@ O que foi removido aparece com um **-**.
 
 Caso tenhamos mais de um arquivo alterados por vez, podemos analisar todo o histórico com `git diff` ou observar somente um arquivo com `git diff nome_do_arquivo`.
 
-## Trabalhando com branches
+## <a name='Trabalhandocombranches'></a>Trabalhando com branches
 
-### Listando as branches existentes
+### <a name='Listandoasbranchesexistentes'></a>Listando as branches existentes
 
 ```shell
 git branch
 ```
 
-### Criando uma nova branch
+### <a name='Criandoumanovabranch'></a>Criando uma nova branch
 
 Podemos rodar o comando `git branch` ou `git checkout`, conforme os exemplos:
 
@@ -252,25 +320,25 @@ Podemos rodar o comando `git branch` ou `git checkout`, conforme os exemplos:
 git branch nome
 ```
 
-### Criando uma nova branch e já trocando para ela
+### <a name='Criandoumanovabranchejtrocandoparaela'></a>Criando uma nova branch e já trocando para ela
 
 ```shell
 git checkout -b nome_da_nova_branch
 ```
 
-### Deletando uma branch
+### <a name='Deletandoumabranch'></a>Deletando uma branch
 
 ```shell
 git branch -d nome
 ```
 
-### Trocando de branch
+### <a name='Trocandodebranch'></a>Trocando de branch
 
 ```shell
 git checkout nome_da_branch_existente
 ```
 
-### Enviando uma branch para o servidor
+### <a name='Enviandoumabranchparaoservidor'></a>Enviando uma branch para o servidor
 
 Caso tenhamos criado uma branch em nossa máquina, precisamos enviar ela para o servidor com o comando `push`, explicado mais abaixo neste texto, e passar alguns parâmetros que são o `origin` e nome da branch.
 
@@ -284,7 +352,7 @@ Podemos mandar todas as novas branches locais para o servidor rodando:
 git push --all origin
 ```
 
-### Deletando uma branch remota
+### <a name='Deletandoumabranchremota'></a>Deletando uma branch remota
 
 Para deletar uma branch do servidor, rodamos o comando:
 
@@ -292,7 +360,7 @@ Para deletar uma branch do servidor, rodamos o comando:
 git push origin :nome_da_branch
 ```
 
-### Juntando branches
+### <a name='Juntandobranches'></a>Juntando branches
 
 Quando trabalhamos com branches, mais cedo ou mais tarde, vamos precisar juntar as nossas alterações com a branch master.
 
@@ -307,7 +375,7 @@ git checkout master
 git merge nome_branch
 ```
 
-## Enviando as alterações para o servidor
+## <a name='Enviandoasalteraesparaoservidor'></a>Enviando as alterações para o servidor
 
 Depois que finalizamos nossas alterações, fechamos nossos commits, então devemos enviar os commits para o servidor. Para isso rodamos o comando:
 
@@ -317,13 +385,13 @@ git push origin master
 
 Caso estejamos em uma branch, devemos então rodar os comandos da sessão acima "Enviando uma branch para o servidor".
 
-## Apagando, movendo ou renomeando arquivos ou pastas sem estragar nosso histórico Git
+## <a name='ApagandomovendoourenomeandoarquivosoupastassemestragarnossohistricoGit'></a>Apagando, movendo ou renomeando arquivos ou pastas sem estragar nosso histórico Git
 
 Quando deletamos algum arquivo, movemos de pastas, o Git fica com um histórico de deleção de arquivo e adição de outro.
 
 Para que isso não aconteça, existem comandos do Git que salvam nossas vidas, o `git rm`, para deletar, e `git mv`, para movermos coisas.
 
-### Deletando arquivo ou pasta com Git
+### <a name='DeletandoarquivooupastacomGit'></a>Deletando arquivo ou pasta com Git
 
 ```shell
 git rm nome_do_arquivo_ou_pasta
@@ -335,17 +403,17 @@ Lembrando que, para remover pastas, é sempre necessário que ela esteja vazia o
 git rm -r pasta
 ```
 
-### Movendo ou renomeando arquivo ou pasta com Git
+### <a name='MovendoourenomeandoarquivooupastacomGit'></a>Movendo ou renomeando arquivo ou pasta com Git
 
 ```shell
 git mv nome_do_arquivo_ou_pasta destino
 ```
 
-## Revertendo alterações
+## <a name='Revertendoalteraes'></a>Revertendo alterações
 
 Existem diversas maneiras de desfazer coisas com o Git.
 
-### Desfazendo do stage
+### <a name='Desfazendodostage'></a>Desfazendo do stage
 
 ```shell
 git reset nome_do_arquivo
@@ -357,19 +425,19 @@ Para desfazer tudo podemos fazer:
 git reset HEAD .
 ```
 
-### Desfazendo alterações em um arquivo para o último commit
+### <a name='Desfazendoalteraesemumarquivoparaoltimocommit'></a>Desfazendo alterações em um arquivo para o último commit
 
 ```shell
 git checkout nome_do_arquivo
 ```
 
-### Desfazendo tudo para o último commit
+### <a name='Desfazendotudoparaoltimocommit'></a>Desfazendo tudo para o último commit
 
 ```shell
 git checkout .
 ```
 
-### Desfazendo uma alteração, mas colocando ela em stage
+### <a name='Desfazendoumaalteraomascolocandoelaemstage'></a>Desfazendo uma alteração, mas colocando ela em stage
 
 ```shell
 git reset --soft HEAD~1
@@ -377,13 +445,13 @@ git reset --soft HEAD~1
 
 Onde `HEAD~1` é relacionado ao último commit.
 
-### Desfazendo para o último commit sem colocar as alterações em stage
+### <a name='Desfazendoparaoltimocommitsemcolocarasalteraesemstage'></a>Desfazendo para o último commit sem colocar as alterações em stage
 
 ```shell
 git reset --hard HEAD~1
 ```
 
-### Desfazendo para um commit específico
+### <a name='Desfazendoparaumcommitespecfico'></a>Desfazendo para um commit específico
 
 Devemos procurar o hash do commit no histórico do Git e então executar:
 
@@ -399,7 +467,7 @@ git revert ecdd2
 
 Onde `ecdd2` são os cinco primeiros caracteres de um hash no meu log (que seria algo como `ecdd2d09783b7d6fcd3b42dfdcf11cbd0644ac07`).
 
-### Desfazendo o último push
+### <a name='Desfazendooltimopush'></a>Desfazendo o último push
 
 ```shell
 git reset --hard HEAD~1 && git push -f origin master
@@ -407,7 +475,7 @@ git reset --hard HEAD~1 && git push -f origin master
 
 OBS: Sempre tome cuidado ao usar o parâmetro **-f**.
 
-## Analisando o histórico (log)
+## <a name='Analisandoohistricolog'></a>Analisando o histórico (log)
 
 Para ver todo o histórico podemos rodar o comando `log`.
 
@@ -415,7 +483,7 @@ Para ver todo o histórico podemos rodar o comando `log`.
 git log
 ```
 
-### Observando o histórico com um número certo de alterações
+### <a name='Observandoohistricocomumnmerocertodealteraes'></a>Observando o histórico com um número certo de alterações
 
 Podemos passar uma quantidade de commits que queremos olhar com o parâmetro `-p`.
 
@@ -423,7 +491,7 @@ Podemos passar uma quantidade de commits que queremos olhar com o parâmetro `-p
 git log -p -2
 ```
 
-### Observando o log de maneira resumida
+### <a name='Observandoologdemaneiraresumida'></a>Observando o log de maneira resumida
 
 Podemos ver tudo em uma linha só utilizando o `--pretty`:
 
@@ -433,7 +501,7 @@ git log --pretty=oneline
 
 ![Imagem do retorno do comando git log --pretty=oneline]({{site.post_images}}git-log-personalizado.png)
 
-### Deixando o log ainda mais bonito
+### <a name='Deixandoologaindamaisbonito'></a>Deixando o log ainda mais bonito
 
 Podemos formatar o que queremos trazer no log utilizando `--pretty` com o parâmetro `format`.
 
@@ -450,7 +518,7 @@ Onde
 
 Podemos deixar melhor ainda com os parâmetros que encontramos aqui: [git/pretty-formats](https://git-scm.com/docs/pretty-formats).
 
-### Exibindo o histórico por pessoa
+### <a name='Exibindoohistricoporpessoa'></a>Exibindo o histórico por pessoa
 
 Podemos exibir o histórico de uma pessoa específica passando o parâmetro `--author`.
 
@@ -458,9 +526,9 @@ Podemos exibir o histórico de uma pessoa específica passando o parâmetro `--a
 git log --author=nome_da_pessoa_ou_usuario
 ```
 
-## Utilizando tags
+## <a name='Utilizandotags'></a>Utilizando tags
 
-### Criar uma tag Git
+### <a name='CriarumatagGit'></a>Criar uma tag Git
 
 Rodamos o comando `tag` com o parâmetro que seria o nome da tag que queremos colocar.
 
@@ -470,7 +538,7 @@ Exemplo:
 git tag 0.0.1
 ```
 
-### Listando as tags Git
+### <a name='ListandoastagsGit'></a>Listando as tags Git
 
 Para listar as tags existentes, rodamos o comando `tag` sem parâmetro.
 
@@ -478,7 +546,7 @@ Para listar as tags existentes, rodamos o comando `tag` sem parâmetro.
 git tag
 ```
 
-### Criar uma tag com mensagem (anotada)
+### <a name='Criarumatagcommensagemanotada'></a>Criar uma tag com mensagem (anotada)
 
 Utilizamos o parâmetro `-a` e `-m`:
 
@@ -486,7 +554,7 @@ Utilizamos o parâmetro `-a` e `-m`:
 git tag -a 0.0.1 -m "versão 0.0.1"
 ```
 
-### Criar uma tag a partir de um commit
+### <a name='Criarumatagapartirdeumcommit'></a>Criar uma tag a partir de um commit
 
 Podemos criar a tag referenciando um commit utilizando o hash do commit (que encontramos no histórico) com o comando `-a`.
 
@@ -494,7 +562,7 @@ Podemos criar a tag referenciando um commit utilizando o hash do commit (que enc
 git tag -a 0.0.1 b6120
 ```
 
-### Criando a tag no servidor
+### <a name='Criandoatagnoservidor'></a>Criando a tag no servidor
 
 Podemos criar somente uma tag específica:
 
@@ -508,17 +576,17 @@ Ou mandar todas de uma só vez:
 git push origin --tags
 ```
 
-## Utilizando stash
+## <a name='Utilizandostash'></a>Utilizando stash
 
 Para armazenar algo no stash (uma área **temporária** onde guardamos o histórico sem realmente adicionar na master) podemos utilizar os seguintes comandos.
 
-### Salvar tudo no stash
+### <a name='Salvartudonostash'></a>Salvar tudo no stash
 
 ```shell
 git stash
 ```
 
-### Salvando no stash com descrição
+### <a name='Salvandonostashcomdescrio'></a>Salvando no stash com descrição
 
 [Dica do Sergio Soares](https://twitter.com/sergsoares/status/1078060945325346816).
 
@@ -528,13 +596,13 @@ Quando precisamos salvar algo no stash para trocarmos de estado várias vezes e 
 git stash save -u "mensagem"
 ```
 
-### Listando o que existe em stash
+### <a name='Listandooqueexisteemstash'></a>Listando o que existe em stash
 
 ```shell
 git stash list
 ```
 
-### Revertendo para o stash e removendo da lista
+### <a name='Revertendoparaostasheremovendodalista'></a>Revertendo para o stash e removendo da lista
 
 Podemos reverter nossas alterações para o stash e ainda remover uma entrada do stash list fazendo o seguinte:
 
@@ -544,7 +612,7 @@ Removendo a última entrada na lista.
 git stash pop
 ```
 
-### Revertendo para o stash
+### <a name='Revertendoparaostash'></a>Revertendo para o stash
 
 **A última entrada da lista**, mas sem remover do stash:
 
@@ -560,7 +628,7 @@ Devemos olhar na lista do stash qual o item do histórico que queremos reverter 
 git stash apply stash@{numero}
 ```
 
-## Referências
+## <a name='Referncias'></a>Referências
 
 - [Basic Git commands - Atlassian](https://confluence.atlassian.com/bitbucketserver/basic-git-commands-776639767.html)
 - [leocomelli/git.md](https://gist.github.com/leocomelli/2545add34e4fec21ec16)
