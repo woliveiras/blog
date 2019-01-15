@@ -20,8 +20,8 @@ footer-menu:
     url: https://leanpub.com/vimparanoobs
   - title: Todos os meus posts
     url: /arquivo
-  - title: Todas as tags do blog
-    url: /tags
+  - title: Fique por dentro das novidades
+    url: /newsletter/
 #   - title: Busca mentoria em programação?
 #     url: /mentoria
 #   - title: Vamos codar juntos?
