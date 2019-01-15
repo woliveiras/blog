@@ -20,7 +20,7 @@ Pois bem, vamos raciocinar um pouco sobre as responsabilidades de cada profissio
 ![Imagem de drinks tropicais com frutas dentro de copos de vidro com canudos de cores diferentes. Foto por Kaizen Nguyễn no Unsplash]({{site.post_images}}diferent-drinks.jpeg)
 {:.post__wallpaper}
 
-Diferentes profissões com um mesmo objetivo são o mesmo que diferentes drinks com diversos sabores, mas todos eles matam a cede.
+Diferentes profissões com um mesmo objetivo são o mesmo que diferentes drinks com diversos sabores, mas todos eles matam a sede.
 
 > Ninguém é tecnicamente mais capaz do que o outro por causa de sua especialidade
 
