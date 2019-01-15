@@ -10,6 +10,8 @@ nav-menu:
 # Footer menu
 
 footer-menu:
+  - title: Não perca minhas novidades
+    url: /newsletter/
   - title: Pesquisas sobre programação
     url: /pesquisas
   - title: Como se tornar frontend
@@ -20,8 +22,6 @@ footer-menu:
     url: https://leanpub.com/vimparanoobs
   - title: Todos os meus posts
     url: /arquivo
-  - title: Fique por dentro das novidades
-    url: /newsletter/
 #   - title: Busca mentoria em programação?
 #     url: /mentoria
 #   - title: Vamos codar juntos?
