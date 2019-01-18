@@ -18,15 +18,7 @@
   <meta name="twitter:description" content="{% if page.description %}{{ page.description | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
 
   {% include analytics.html %}
-    
-    <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-    <script>
-      (adsbygoogle = window.adsbygoogle || []).push({
-        google_ad_client: "ca-pub-3477794539929090",
-        enable_page_level_ads: true
-      });
-    </script>
-
+   
   {% feed_meta %}
 
   {% if page.image %}
