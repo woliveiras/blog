@@ -32,10 +32,8 @@ footer-menu:
 #     url: work
 
 social-support:
-  - title: Ajuda financeira para educação
-    url: /devolvendo-para-a-comunidade/
-  - title: Pessoas já apoiadas
-    url: /ganhadores
+  - title: Apoio social
+    url: /pela-quebrada
   - title: Pergunte-me qualquer coisa
     url: /ama
 
