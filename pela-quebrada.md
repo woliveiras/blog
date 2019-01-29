@@ -31,7 +31,7 @@ Eu percebi que usar a internet para o bem é algo que muda vidas, pois mudou a m
 
 Mas desenvolvimento pessoal não implica somente em receber conteúdo via internet; as pessoas precisam de mais acesso a informação e isso inclui fazer cursos, ir a eventos de tecnologia, comprar livros e investir de verdade em seu futuro profissional. Tudo isso forma uma pessoa desenvolvedora de software com uma preparação maior para o mercado de trabalho, para competir com pessoas que se formaram nas melhores universidades do país, pois o pobre não tem condições (tirando exceções) de fazer uma bela formação na USP, UFMG e afins. Mas isso é um custo que algumas pessoas, assim como eu no começo da minha carreira, não conseguem pagar.
 
-Para ajudar essas pessoas eu decidi investir meu tempo em ONGs que atuem inserindo pessoas no mercado de trabalho e lhes tirando de situação de risco.
+Para ajudar essas pessoas eu decidi investir meu tempo dando aulas em ONGs que atuem inserindo pessoas no mercado de trabalho e lhes tirando de situação de risco, palestrando e motivando jovens da rede pública a investirem em tecnologia.
 
 Além disso eu arrecado doações para levar livros de programação para as escolas públicas e também para as ONGs através de uma campanha no Catarse (link abaixo).
 
@@ -41,4 +41,6 @@ Além disso eu arrecado doações para levar livros de programação para as esc
 - Compartilhar esta iniciativa com pessoas que você sabe que realmente precisam, para que elas se cadastrem no sorteio.
 - Compartilhar este post em redes sociais e grupos/comunidades nessas redes.
 
-Se tiver alguma dúvida, entre em contato comigo via Telegram (<a href="http://telegram.me/woliveiras" title="Meu usuário do Telegram">@woliveiras</a>).
+----
+
+Se você conhece alguma escola que aceita receber livros de tecnologia, palestras sobre programação ou alguma iniciativa dessas, entre em contato comigo via Telegram: (<a href="http://telegram.me/woliveiras" title="Meu usuário do Telegram">@woliveiras</a>).
