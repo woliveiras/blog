@@ -1,6 +1,7 @@
 ---
 layout: hotsite
 title: "Apoio Social, por William Oliveira"
+image: "/images/posts/mandela.png"
 description: "Apoio a pessoas de baixa renda, moradores de periferia e jovens em situação de risco que desejam entrar na área de programação"
 ---
 
