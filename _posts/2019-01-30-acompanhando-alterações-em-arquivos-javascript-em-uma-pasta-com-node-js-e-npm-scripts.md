@@ -3,7 +3,7 @@ layout: post
 title: Acompanhando alterações em arquivos JavaScript em uma pasta com Node.js e NPM
   Scripts
 date: 2019-01-30 22:45 -0200
-image: "/images/posts/todd-quackenbush-701-unsplash.jpg"
+image: "/images/posts/nitish-meena-37745-unsplash.jpg"
 categories:
     - nodejs
     - javascript
@@ -95,3 +95,6 @@ Espero que te ajude!
 - [ECMAScript Modules](https://nodejs.org/api/esm.html)
 - [NPM - watch](https://www.npmjs.com/package/watch)
 - [NPM Scripts](https://docs.npmjs.com/misc/scripts)
+
+
+Imagem de compartilhamento em redes sociais por Nitish Meena via [Unsplash](https://unsplash.com/photos/RbbdzZBKRDY).
