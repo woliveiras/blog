@@ -1,22 +1,5 @@
 {% include header.html %}
 
-{% include ad-catarse.html %}
-
-<article class="post">
-    {{ content }}
-    <div class="post__footer">
-        <span class="post__date">Publicado em: {{ page.date | date: site.date_format }}</span>
-        <div class="post__categories">
-            <span class="post__categories__title">Categorias:</span>
-            <ul>
-                {% for category in page.categories %}
-                <li class="post__categories__item"><a href="{{ site.baseurl }}/categoria/{{category | slugify }}">{{ category }}</a></li>
-                {% endfor %}
-            </ul>
-        </div>
-    </div>
-</article>
-
 <div align="center">
     <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
     <!-- In post ad -->
@@ -33,6 +16,21 @@
         };
     </script>
 </div>
+
+<article class="post">
+    {{ content }}
+    <div class="post__footer">
+        <span class="post__date">Publicado em: {{ page.date | date: site.date_format }}</span>
+        <div class="post__categories">
+            <span class="post__categories__title">Categorias:</span>
+            <ul>
+                {% for category in page.categories %}
+                <li class="post__categories__item"><a href="{{ site.baseurl }}/categoria/{{category | slugify }}">{{ category }}</a></li>
+                {% endfor %}
+            </ul>
+        </div>
+    </div>
+</article>
 
     {% if site.display-author-post-page %}
         {% if page.author.name %}
