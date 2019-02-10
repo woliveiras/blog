@@ -67,3 +67,35 @@
             font-weight: 300
             color: $white
             fill: $white
+
+    &__license
+        +col(12, 12)
+        padding-bottom: 15px
+        padding-top: 15px
+        text-align: center
+
+        @media only screen and (min-width: 768px)
+            text-align: left
+
+        & p
+            color: $white
+            font-size: 14px
+            margin-top: 1em
+
+            @media only screen and (min-width: 768px)
+                margin-top: 0
+
+        & a
+            display: inline
+            font-size: 14px
+        
+        &__logo
+            width: 80px
+
+            @media only screen and (min-width: 768px)
+                float: left
+                margin-right: 10px
+
+        & img
+            width: inherit
+            margin: 0
