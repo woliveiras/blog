@@ -3,10 +3,11 @@ title: Vídeos sobre programação, open source, comunidades e mercado de trabal
 layout: default
 ---
 <div class="videos-page">
-    <h1>Vídeos sobre programação, open source, comunidades e mercado de trabalho</h1>
+    <h1>{{ page.title }}</h1>
     <p>No meu canal eu gravo vídeos e faço lives sobre assuntos que eu gosto ou que acho importantes para pessoas que desejam entrar na área de programação.</p>
     <p>Esta página é uma listagem de todos os vídeos do canal.</p>
-    <p>Você pode se inscrever no canal entrando aqui: <a href="https://www.youtube.com/c/WilliamOliveiraS">William Oliveira - YouTube</a></p>
+    <p>Você pode se inscrever no canal entrando aqui: 
+            <a href="https://www.youtube.com/channel/UCWrqsnPLl6aRX0ECUmPaZEw">O Universo da Programação - YouTube</a></p>
     <h2>Últimos vídeos do canal</h2>
     <ul>
         {% for post in site.categories["videos"] limit:10 %}
