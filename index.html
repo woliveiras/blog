@@ -2,7 +2,17 @@
 layout: default
 home: true
 ---
-{% include ad-livro-o-universo-da-programacao.html %}
+
+<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-format="fluid"
+     data-ad-layout-key="-c1-29-17-fs+yn"
+     data-ad-client="ca-pub-3477794539929090"
+     data-ad-slot="2972522164"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 <div>
     {% for post in paginator.posts %}
@@ -35,6 +45,8 @@ home: true
     </article>
     {% endfor %}
 </div>
+
+{% include ad-livro-o-universo-da-programacao.html %}
 
 {% if paginator.previous_page or paginator.next_page %}
   {% include pagination.html %}
