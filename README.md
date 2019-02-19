@@ -1,4 +1,4 @@
-[![Build Status](https://travis-ci.org/woliveiras/woliveiras.github.io.svg?branch=development)](https://travis-ci.org/woliveiras/woliveiras.github.io)
+[![Netlify Status](https://api.netlify.com/api/v1/badges/95235766-d424-4013-9c35-b601b4b8432a/deploy-status)](https://app.netlify.com/sites/sleepy-keller-922c66/deploys)
 
 # How to contribute with me
 
