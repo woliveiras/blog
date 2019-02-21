@@ -17,9 +17,9 @@ footer-menu:
   - title: Pesquisas sobre programação
     url: /pesquisas
   - title: Como se tornar frontend
-    url: /front-end-career
+    url: https://github.com/woliveiras/front-end-career/blob/master/README.md
   - title: Meus Links favoritos
-    url: /my-precious-links
+    url: https://github.com/woliveiras/my-precious-links/blob/gh-pages/index.md
   - title: Ebook sobre o editor de textos Vim
     url: https://leanpub.com/vimparanoobs
   - title: Todos os meus posts
