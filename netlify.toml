@@ -1,0 +1,11 @@
+[[redirects]]
+  from = "/my-precious-links"
+  to = "https://github.com/woliveiras/my-precious-links/blob/gh-pages/index.md"
+  
+[[redirects]]
+  from = "/front-end-career"
+  to = "https://github.com/woliveiras/front-end-career/blob/master/README.md"
+
+[[redirects]]
+  from = "/vimparanoobs"
+  to = "https://leanpub.com/vimparanoobs/"
