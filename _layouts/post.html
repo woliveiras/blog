@@ -40,6 +40,10 @@
         {% endif %}
     {% endif %}
 
+    {% if site.disqus_shortname %}
+        {% include comments.html %}
+    {% endif %}
+
 <script type="application/ld+json">
     {
         "@context": "http://schema.org/",
