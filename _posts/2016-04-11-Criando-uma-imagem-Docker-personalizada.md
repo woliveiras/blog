@@ -37,7 +37,7 @@ Com esse comando vamos criar o container com a imagem do `nginx` passando os par
 
 Agora, imagine utilizar essa linha inteira para esse serviço e/ou outros mais que possam ser executados como um MySQL, Redis, MongoDB, etc.
 
-Isso pode é bem pouco produtivo.
+Isso pode ser bem pouco produtivo.
 
 A maneira de automatizar essas tarefas é utilizando um Dockerfile para passar os parâmetros e configurações para a imagem.
 
