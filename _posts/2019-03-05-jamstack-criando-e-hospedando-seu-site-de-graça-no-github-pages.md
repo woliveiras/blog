@@ -71,6 +71,8 @@ Se você criar a branch gh-pages via terminal, certifique-se de criar ela como u
 
 Para maiores informações sobre essa troca de branch, confira aqui: [Configuring a publishing source for GitHub Pages](https://help.github.com/en/articles/configuring-a-publishing-source-for-github-pages).
 
+Se você for utilizar algo diferente do Jekyll ou de um site simples no GitHub Pages, será necessário utilizar um esquema de Continuous Integration, como o Travis: [Postando no blog estático direto pelo GitHub com Hexo e Travis CI](/posts/postando-no-blog-estático-direto-pelo-github-com-hexo-e-travis-ci/)
+
 ## Conclusão
 
 Criar nosso site JAMstack e hospedar de graça no GitHub Pages é simples assim: criar um repositório e subir nossos arquivos estáticos para lá.
