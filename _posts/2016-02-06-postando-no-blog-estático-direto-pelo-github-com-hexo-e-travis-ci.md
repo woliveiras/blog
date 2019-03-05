@@ -5,9 +5,11 @@ date: 2016-02-06 22:00:00
 tags:
   - hexo
   - github
+  - jamstack
 categories:
   - hexo
   - github
+  - jamstack
 description: Utilizando o Travis CI para fazer deploy de blogs com Hexo. Como fazer Deploy com Travis CI e GitHub Pages.
 ---
 Confesso que fiquei tentado a migrar para o [Jekyll (Ruby)](https://jekyllrb.com/) depois que um [amigo](http://jotateles.com.br/) me mostrou que da para postar no blog direto do GitHub sem ter o Jekyll instalado na máquina. Porém eu não desisti do meu queridinho, o [Hexo (feito com Node <3)](http://hexo.io/).<!--more-->

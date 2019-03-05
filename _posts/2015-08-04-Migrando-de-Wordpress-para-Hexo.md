@@ -6,10 +6,12 @@ tags:
   - hexo
   - javascript
   - nodejs
+  - jamstack
 categories:
   - hexo
   - javascript
   - nodejs
+  - jamstack
 description: Migrar de WordPress para Hexo. Como migrar de WordPress para um gerador estático?
 ---
 

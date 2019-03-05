@@ -6,10 +6,12 @@ categories:
   - jekyll
   - comunidade
   - carreira
+  - jamstack
 tags:
   - jekyll
   - comunidade
   - carreira
+  - jamstack
 description: O processo de migraçãdo do meu blog de Hexo para Jekyll utilizando o Jekyll Template Dunders
 ---
 Recentemente eu estava procurando alternativas para deixar a entrega dos artigos no meu blog um pouco mais rápidas. Isso porque, toda vez que eu subia um artigo novo, era necessário aguardar o build e merge via [Travis CI](/posts/postando-no-blog-estático-direto-pelo-github-com-hexo-e-travis-ci/). Isso poderia demorar alguns segundos ou até 3 minutos, por eu utilizar a versão gratuita do Travis junto com GitHub Pages.
