@@ -114,7 +114,7 @@ Senão, se for criar algo mais complexo, eu recomendo o uso do Netlify, pois ele
 
 Dos geradores de site estático que já utilizei, eu gosto muito do [Jekyll](https://jekyllrb.com/), porém o mais rápido de todos (no build) é o [Hugo](https://gohugo.io/), um gerador escrito em Golang, mas também temos um concorrente a altura, o [Zola](https://www.getzola.org/) escrito em Rust.
 
-Se precisar de mais dicas de ferramentas, confere este outro artigo: [ferramentas para construção de sites com JAMstack](/posts/).
+Se precisar de mais dicas de ferramentas, confere este outro artigo: [ferramentas para construção de sites com JAMstack](/posts/ferramentas-para-construção-de-sites-com-jamstack/).
 
 ## <a name='Concluso'></a>Conclusão
 
