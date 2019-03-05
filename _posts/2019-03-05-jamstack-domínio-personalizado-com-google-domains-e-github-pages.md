@@ -11,7 +11,7 @@ tags:
     - jamstack
     - git
     - github
-description: Utilizando um domínio personalizado com Google Domains e GitHub Pages para o seu site/blog estático
+description: "JAMstack: Utilizando um domínio personalizado com Google Domains e GitHub Pages para o seu site/blog estático"
 ---
 Nos últimos artigos aprendemos [o que é JAMstack](/posts/jamstack-introdução-o-que-é-jamstack/), como [criar e hospedar nosso site de graça no GitHub Pages](/posts/jamstack-criando-e-hospedando-seu-site-de-graça-no-github-pages/) e conhecemos algumas [ferramentas que podemos utilizar para criar sites com a JAMstack](/posts/ferramentas-para-construção-de-sites-com-jamstack/).
 
