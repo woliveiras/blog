@@ -57,6 +57,20 @@ Somente com essa configuração já temos um site no ar. Se entrarmos no domíni
 
 Agora basta subir um tema bonito para o nosso site e pronto! Temos nosso primeiro site hospedado de graça no GitHub Pages.
 
+## Como funciona um novo deploy
+
+Tudo o que você enviar para a branch master do seu repositório será automágicamente enviado para produção.
+
+![Uma mágica acontecendo](https://media.giphy.com/media/12NUbkX6p4xOO4/giphy.gif)
+
+Para que você não suba algo que não deseja *"deployar"*, crie a branch **gh-pages** e só faça merge nela quando tudo estiver OK. Ou você também pode criar outra branch (uma branch dev) e só fazer o merge na master quando o trabalho estiver pronto.
+
+![Criando a branch gh-pages no GitHub]({{site.post_images}}criando-branch-gh-pages.png)
+
+Se você criar a branch gh-pages via terminal, certifique-se de criar ela como uma branch "orfã" (eu sei, esse nome é bem tosco, mas faz parte do Git), com o seguinte comando: `git checkout --orphan gh-pages`.
+
+Para maiores informações sobre essa troca de branch, confira aqui: [Configuring a publishing source for GitHub Pages](https://help.github.com/en/articles/configuring-a-publishing-source-for-github-pages).
+
 ## Conclusão
 
 Criar nosso site JAMstack e hospedar de graça no GitHub Pages é simples assim: criar um repositório e subir nossos arquivos estáticos para lá.
