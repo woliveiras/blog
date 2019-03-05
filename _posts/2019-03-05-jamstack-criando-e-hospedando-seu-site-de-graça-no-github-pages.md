@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 'JAMstack: criando e hospedando seu site de graça no GitHub Pages'
+title: 'Criando e hospedando seu site de graça no GitHub Pages'
 date: 2019-03-05 17:40 -0300
 categories:
     - jamstack
