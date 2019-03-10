@@ -36,18 +36,18 @@ Pronto, todos (*) os elementos ficarão sem borda, sem preenchimento e sem marg
 
 Esse é muito utilizado e divulgado pela Web. Utilizei por um bom tempo!
 
-Da uma olhada nesse [link ](http://meyerweb.com/eric/tools/css/reset/index.html "Meyer | CSS Tools: Reset CSS")para conhecer melhor.
+Da uma olhada nesse [link ](https://meyerweb.com/eric/tools/css/reset/index.html "Meyer | CSS Tools: Reset CSS")para conhecer melhor.
 
 ## CSS Reset do Yahoo
 
 É bem útil também! É o Reset do YUI.
 
-Basta olhar esse outro [link](http://www.cssreset.com/scripts/yahoo-css-reset-yui-3/ "Yahoo! (YUI 3) Reset CSS"). ;)
+Basta olhar esse outro [link](https://www.cssreset.com/scripts/yahoo-css-reset-yui-3/ "Yahoo! (YUI 3) Reset CSS"). ;)
 
 ## Normalize.css
 
 E agora vem o que eu mais gosto e tenho utilizado no dia-a-dia. Gosto mais desse por que ele não somente tira os estilos, mas aplica estilos padrões que deixa tudo igual em todos os Browsers.
 
-Clica nesse [link ](http://necolas.github.io/normalize.css/ "Normalize.css")e você vai conhecer o danado.
+Clica nesse [link ](https://necolas.github.io/normalize.css/ "Normalize.css")e você vai conhecer o danado.
 
 Lembre-se sempre que o Reset vem antes dos estilos que você vai aplicar na interface.

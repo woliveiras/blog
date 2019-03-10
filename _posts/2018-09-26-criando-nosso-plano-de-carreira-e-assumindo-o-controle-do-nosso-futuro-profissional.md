@@ -237,10 +237,10 @@ Neste outro artigo eu comento sobre o que eu estou focando agora em minhas metas
 
 ### Referências
 
-- [Plano de carreira SEBRAE](http://www.sebrae.com.br/sites/PortalSebrae/artigos/plano-de-carreira-o-que-e-e-como-criar,66d839f5192ed510VgnVCM1000004c00210aRCRD)
+- [Plano de carreira SEBRAE](https://www.sebrae.com.br/sites/PortalSebrae/artigos/plano-de-carreira-o-que-e-e-como-criar,66d839f5192ed510VgnVCM1000004c00210aRCRD)
 - [Guia da Carreira - o que é plano de carreira](https://www.guiadacarreira.com.br/carreira/o-que-e-plano-de-carreira/)
 - [Tableless: O perfil t-shaped e o dev fullstack](https://tableless.com.br/o-perfil-t-shaped-e-o-dev-full-stack/)
 - [Are you an i or a t](https://www.forbes.com/sites/andyboynton/2011/10/18/are-you-an-i-or-a-t/#5f4387ff6e88)
 - [T-shaped skills every are life](https://agileleanlife.com/t-shaped-skills-every-area-life/)
 - [Endeavor: Plano de carreira](https://endeavor.org.br/plano-de-carreira/)
-- [how to get hired understand if youre an i, t or x, s](http://trydesignlab.com/blog/how-to-get-hired-understand-if-youre-an-i-t-or-x-s/)
+- [how to get hired understand if youre an i, t or x, s](https://trydesignlab.com/blog/how-to-get-hired-understand-if-youre-an-i-t-or-x-s/)

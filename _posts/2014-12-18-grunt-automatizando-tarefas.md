@@ -15,7 +15,7 @@ Todo processo de desenvolvimento possui algumas tarefas repetitivas como testes,
 
 ## O que é o Grunt?
 
-O Grunt é um automatizador de tarefas. Você configura de acordo com o seu [Workflow](https://pt.wikipedia.org/wiki/Fluxo_de_trabalho "Fluxo de trabalho") e deixa ele fazendo essas tarefas repetificas para você. [Mais detalhes sobre o Gruntjs aqui.](http://gruntjs.com/ "Gruntjs").
+O Grunt é um automatizador de tarefas. Você configura de acordo com o seu [Workflow](https://pt.wikipedia.org/wiki/Fluxo_de_trabalho "Fluxo de trabalho") e deixa ele fazendo essas tarefas repetificas para você. [Mais detalhes sobre o Gruntjs aqui.](https://gruntjs.com/ "Gruntjs").
 
 ## Instalação
 
@@ -29,7 +29,7 @@ npm install -g grunt-cli
 
 Como você percebe, foi instalado o **grunt-cli** não o **grunt**. O grunt-cli é uma interface que disponibiliza os comandos Grunt pelo terminal a partir de qualquer local.
 
-Esse **-g** avisa para o NPM que a instalação deve ser Global, isso significa que ele não será instalado somente para um projeto, mas sim em sua máquina, estando disponível sempre que precisar rodando o comando **grunt**. Esse comando irá configurar o seu *[$PATH](http://www.vivaolinux.com.br/artigo/O-que-e-PATH-como-funciona-e-como-trabalhar-com-ele "O que é $PATH")* e nós podemos prosseguir.
+Esse **-g** avisa para o NPM que a instalação deve ser Global, isso significa que ele não será instalado somente para um projeto, mas sim em sua máquina, estando disponível sempre que precisar rodando o comando **grunt**. Esse comando irá configurar o seu *[$PATH](https://www.vivaolinux.com.br/artigo/O-que-e-PATH-como-funciona-e-como-trabalhar-com-ele "O que é $PATH")* e nós podemos prosseguir.
 
 Agora é necessário configurar as tarefas que o Grunt irá executar.
 
@@ -114,7 +114,7 @@ Um exemplo completo de arquivo Gruntfile.js e, também, do package.json pode ser
 
 ## Dica: O que é instalação Local e Global
 
-Global é a instalação do Plugin em seu sistema operacional. Assim ele fica disponível em qualquer projeto bastando executar o comando respectivo, como exemplo do [Bower](http://woliveiras.com.br/posts/olha-o-passarinho-falando-sobre-o-bower/ "Olha o passarinho! (Falando sobre o Bower)").
+Global é a instalação do Plugin em seu sistema operacional. Assim ele fica disponível em qualquer projeto bastando executar o comando respectivo, como exemplo do [Bower](https://woliveiras.com.br/posts/olha-o-passarinho-falando-sobre-o-bower/ "Olha o passarinho! (Falando sobre o Bower)").
 Local é a instalação do plugin em seu projeto - Na pasta do seu projeto.
 Todo projeto criado deverá possuir os plugins instalados localmente para funcionar.
 
@@ -126,14 +126,14 @@ Você pode pensar: Tá, mas é só copiar o Gruntfile.js de um projeto novo para
 
 Portanto é melhor instalar os plugins localmente e com o comando --save-dev para salvar como dependência e deixar mais fácil a próxima instalação. ;)
 
-Para conhecer alguns plugins maneiros, da uma olhada no meu projeto - O Pastel - e olha esse [link também](http://gruntjs.com/plugins "Grunt plugins")
+Para conhecer alguns plugins maneiros, da uma olhada no meu projeto - O Pastel - e olha esse [link também](https://gruntjs.com/plugins "Grunt plugins")
 
 Um exemplo de pesquisa para esse site seria pesquisar por **css** e os plugins que tem relação com CSS irão aparecer.
 
 Referências:
 
-* <http://gruntjs.com/getting-started>
-* <http://simplesideias.com.br/usando-gruntjs>
-* <http://blog.caelum.com.br/automacao-de-build-de-front-end-com-grunt-js>
+* <https://gruntjs.com/getting-started>
+* <https://simplesideias.com.br/usando-gruntjs>
+* <https://blog.caelum.com.br/automacao-de-build-de-front-end-com-grunt-js>
 
 Curtiu o Grunt? Comenta ai quais plugins está usando. Deixe sua contribuição para melhorar ainda mais nosso Workflow. ;)

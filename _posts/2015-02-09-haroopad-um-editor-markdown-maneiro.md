@@ -9,7 +9,7 @@ date: 2015-02-09 10:53:56
 description: Editor visual para Markdown. Escrevendo Markdown como no Word.
 ---
 
-Todo mundo que trabalha usando [Markdown](http://blog.da2k.com.br/2015/02/08/aprenda-markdown/ "Aprenda Markdown") ou usa a linguagem somente para descrever seus repositórios no Github gosta de ter aquele preview maneiro que o [Mou](http://25.io/mou/ "Mou") apresenta né? Pois é, mas o Mou não funciona em outras plataformas a não ser Apple. :( **#chateado**
+Todo mundo que trabalha usando [Markdown](https://blog.da2k.com.br/2015/02/08/aprenda-markdown/ "Aprenda Markdown") ou usa a linguagem somente para descrever seus repositórios no Github gosta de ter aquele preview maneiro que o [Mou](https://25.io/mou/ "Mou") apresenta né? Pois é, mas o Mou não funciona em outras plataformas a não ser Apple. :( **#chateado**
 
 <!--more-->
 
@@ -17,13 +17,13 @@ Todo mundo que trabalha usando [Markdown](http://blog.da2k.com.br/2015/02/08/apr
 
 ## Conheça o Haroopad!
 
-Para suprir a necessidade daquele preview show eu andei pesquisando e venho utilizando o [Haroopad](http://pad.haroopress.com/user.html "Haroopress") a uns 4 meses. É uma ferramenta muito maneira e atende bem as necessidades. Da uma olhada nesse print:
+Para suprir a necessidade daquele preview show eu andei pesquisando e venho utilizando o [Haroopad](https://pad.haroopress.com/user.html "Haroopress") a uns 4 meses. É uma ferramenta muito maneira e atende bem as necessidades. Da uma olhada nesse print:
 
 ![Haroopad]({{site.post_images}}haroopad.gif)
 
 ## Instalação
 
-A instalação é bem simples, baixa acessar o site do [Haroopad](http://pad.haroopress.com/user.html "Haroopress") e escolher seu sistema operacional.
+A instalação é bem simples, baixa acessar o site do [Haroopad](https://pad.haroopress.com/user.html "Haroopress") e escolher seu sistema operacional.
 
 ## Algumas qualidades do Editor
 

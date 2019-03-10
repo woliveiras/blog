@@ -41,7 +41,7 @@ Você olhou os requisitos e sabe alguma coisa daquilo, vai pra cima!
 
 Não tenha medo quando olhar aquelas listas imensas nas vagas,algumas (Senão todas) são escritas pelo pessoal do RH, que muitas vezes não dominam nada da área, e eles olham em outros sites, copiam tudo e colam lá.
 
-Eu já vi Vaga para Programador Jr. pedindo 4 anos de experiência, domínio de PHP, Java, JavaScript, Haskell, C, C++, C#, Python, Lisp, Ruby, Lua, e vai indo... O cara deve ter pesquisado no [Wikipedia](http://pt.wikipedia.org/wiki/Linguagem_de_programa%C3%A7%C3%A3o#Lista_de_linguagens "Linguagens de Programação") as linguagens de programação, copiou tudo e colou como requisito para a vaga!
+Eu já vi Vaga para Programador Jr. pedindo 4 anos de experiência, domínio de PHP, Java, JavaScript, Haskell, C, C++, C#, Python, Lisp, Ruby, Lua, e vai indo... O cara deve ter pesquisado no [Wikipedia](https://pt.wikipedia.org/wiki/Linguagem_de_programa%C3%A7%C3%A3o#Lista_de_linguagens "Linguagens de Programação") as linguagens de programação, copiou tudo e colou como requisito para a vaga!
 
 **E se eu passar em uma oportunidade que eu não domino 100%?**
 
@@ -59,7 +59,7 @@ Sinceramente, de nada vai adiantar todo o seu conhecimento se você não souber 
 ### Aprenda a trabalhar em equipe
 
 Aprenda a se comunicar com outras pessoas com as mais variadas opiniões. Você vai trabalhar com gente que curte seu estilo de música e gente que detesta, com aqueles que tem a mesma ideologia sobre política e outros que são completamente contra. Saiba balancear isso para que não afete seu relacionamento com as pessoas. - Essas dicas servem não só para o serviço, mas para a vida! ;)
-Procure entender as outras pessoas e aprenda a utilizar uma coisa que é pouco lembrada hoje em dia: a [empatia](http://www.significados.com.br/empatia/ "Empatia"). Se coloque no lugar da outra pessoa antes de fechar a cara pra ela por que ela entrou na sala sem cumprimentar ninguém. Pode ser algum problema pessoal e a pessoa nem reparou que não cumprimentou e não alguma coisa contra você. Deixa de mimimi.
+Procure entender as outras pessoas e aprenda a utilizar uma coisa que é pouco lembrada hoje em dia: a [empatia](https://www.significados.com.br/empatia/ "Empatia"). Se coloque no lugar da outra pessoa antes de fechar a cara pra ela por que ela entrou na sala sem cumprimentar ninguém. Pode ser algum problema pessoal e a pessoa nem reparou que não cumprimentou e não alguma coisa contra você. Deixa de mimimi.
 Um bom relacionamento com sua equipe vai resultar em mais produtividade.
 
 ### Aprenda Gestão

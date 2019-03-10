@@ -21,7 +21,7 @@ Você já deve ter ouvido falar, pelo menos uma vez, sobre [Docker](https://www.
 
 Eu também já ouvia falar do Docker a um bom tempo, porém nunca havia me aprofundado mais nessa ferramenta.
 
-Depois do [Docker Birthday Party #3 Celebration + Training](http://www.meetup.com/pt-BR/Docker-Sao-Paulo/events/229053547/) eu decidi aprender um pouco mais e estou curtindo muito essa ferramenta!
+Depois do [Docker Birthday Party #3 Celebration + Training](https://www.meetup.com/pt-BR/Docker-Sao-Paulo/events/229053547/) eu decidi aprender um pouco mais e estou curtindo muito essa ferramenta!
 
 Durante os estudos, vou postar minhas anotações e dicas aqui no Blog. Fica ligado pra não perder nada ein. ;)
 
@@ -164,5 +164,5 @@ Compartilhe a palavra.
 
 - [Containers com Docker, do Desenvolvimento a Produção - Casa do Código](https://www.casadocodigo.com.br/products/livro-docker)
 - [Documentação oficial do Docker](https://docs.docker.com/)
-- [Mundo Docker](http://www.mundodocker.com.br/o-que-e-docker/)
-- [Meetup Docker SP](http://www.meetup.com/pt-BR/docker-sao-paulo/)
+- [Mundo Docker](https://www.mundodocker.com.br/o-que-e-docker/)
+- [Meetup Docker SP](https://www.meetup.com/pt-BR/docker-sao-paulo/)

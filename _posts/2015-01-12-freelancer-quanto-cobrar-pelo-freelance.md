@@ -36,7 +36,7 @@ Se você tem muito conhecimento, ótimo, se não tem, procure aprender o máximo
 
 Se você já tem conhecimento suficiente para aceitar qualquer trampo, então veja se tem **organização** para cumprir prazos. Se não tem, comece a estudar sobre organização. Conheça ferramentas e metodologias para se organizar.
 
-Eu, particularmente, curto a metodologia [Scrum](https://www.scrum.org/ "Scrum")(Da uma olhada nesse [livro](http://www.casadocodigo.com.br/products/livro-scrum), é bem maneiro), uso o [Trello](/posts/gerenciar-projetos-com-trello/) para gerenciamento dos projetos e gosto da técnica de [Pomodoro](http://pomodorotechnique.com/) para ser produtivo.
+Eu, particularmente, curto a metodologia [Scrum](https://www.scrum.org/ "Scrum")(Da uma olhada nesse [livro](https://www.casadocodigo.com.br/products/livro-scrum), é bem maneiro), uso o [Trello](/posts/gerenciar-projetos-com-trello/) para gerenciamento dos projetos e gosto da técnica de [Pomodoro](https://pomodorotechnique.com/) para ser produtivo.
 
 Para marcar minhas tarefas, fazer listas e tudo mais eu uso o [Wunderlist](https://wunderlist.com/), para datas importantes [Google Agenda](https://www.google.com/calendar/ "Agenda") e para armazenar arquivos importantes como contratos, briefings, propostas, etc, uso o [Google Drive](drive.google.com "Drive").
 
@@ -44,7 +44,7 @@ Para marcar minhas tarefas, fazer listas e tudo mais eu uso o [Wunderlist](https
 
 Pra se chegar ao valor de um Freela é necessário saber quanto custa sua hora. Existem algumas maneiras de se chegar ao valor final, mas eu vou pular para o jeito mais fácil aqui. Antigamente eu calculava na canetinha pra saber isso, porém conheci o site:
 
-[http://www.minhahora.entreoutros.com/](http://www.minhahora.entreoutros.com/)
+[https://www.minhahora.entreoutros.com/](https://www.minhahora.entreoutros.com/)
 
 Que nos ajuda a chegar no valor final.
 **Porém seja sensato ao estipular os valores ai ein...**
@@ -56,7 +56,7 @@ Por exemplo: Sistema de Login (10 horas), Telas (10 telas 2 horas cada), etc.
 
 Some tudo e veja quantas horas o projeto inteiro vai demorar. Com o valor total de horas que o projeto vai demorar em mãos, multiplique pelo seu valor hora.  Cuidado nessa etapa jovem, se você é iniciante e colocou um valor muito alto na sua hora, seu projeto vai sair bem caro, pois é certeza que você demora mais para produzir determinadas funcionalidades e seu cliente não vai curtir nadinha(;P). Por isso você deve ter bom senso e auto crítica para colocar um valor razoável no calculo. Se você é iniciante e chutou muito alto, avalie a possibilidade de refazer o calculo anterior.
 
-Ex.: Se sua hora custar 35 [Dilmas](http://pt.wikipedia.org/wiki/Real_%28moeda%29 "Dilmas") e o tempo total do projeto chegou a 40 horas, o projeto sairá por 1400 Dilmas! (40 horas * R$ 35,00).
+Ex.: Se sua hora custar 35 [Dilmas](https://pt.wikipedia.org/wiki/Real_%28moeda%29 "Dilmas") e o tempo total do projeto chegou a 40 horas, o projeto sairá por 1400 Dilmas! (40 horas * R$ 35,00).
 
 ## Um porém
 
@@ -73,7 +73,7 @@ Simples: Se você tem um projeto que vai custar 1400\. Então você pode querer 
 
 Não!!! Não faça isso meu querido! Isso é perigoso...
 
-Seguindo o exemplo do [Leandro Oriente](http://leandrooriente.com/freelancer-como-cobrar-por-um-freelance/ "Como cobrar por um freelance") eu comecei a cobrar por etapas fazendo o seguinte:
+Seguindo o exemplo do [Leandro Oriente](https://leandrooriente.com/freelancer-como-cobrar-por-um-freelance/ "Como cobrar por um freelance") eu comecei a cobrar por etapas fazendo o seguinte:
 
 Se eu demoraria 10 horas no Sistema de Login, eu calculo quanto isso vai custar (Seguindo nosso exemplo até agora, 10 horas * R$ 35,00) e recebo 50% desse valor antes e 50% desse valor depois de eu terminar **ESSA** etapa do projeto e **não do projeto inteiro**.
 

@@ -20,7 +20,7 @@ Se encaixa nesse nível pessoas que nunca programaram em nenhuma linguagem ou qu
 
 Antes de começar a comprar os livros é importante que você saiba qual o caminho que quer seguir: JavaScript no Servidor (Back End com Nodejs) ou JavaScript no navegador (Front End).
 
-Mesmo que você escolha o Front End, é interessante que aprenda ao menos o básico de Node para que consiga criar boas tarefas no seu Task Runner ([Gulp](http://blog.caelum.com.br/bye-bye-grunt-js-hello-gulp-js/)/[Grunt](/posts/grunt-automatizando-tarefas/)/[NPM Scripts](https://css-tricks.com/why-npm-scripts/)) favorito ou mesmo que consiga criar algum plugin caso não encontre algo que sirva para o seu problema.
+Mesmo que você escolha o Front End, é interessante que aprenda ao menos o básico de Node para que consiga criar boas tarefas no seu Task Runner ([Gulp](https://blog.caelum.com.br/bye-bye-grunt-js-hello-gulp-js/)/[Grunt](/posts/grunt-automatizando-tarefas/)/[NPM Scripts](https://css-tricks.com/why-npm-scripts/)) favorito ou mesmo que consiga criar algum plugin caso não encontre algo que sirva para o seu problema.
 
 Como meu foco, até agora, está em JavaScript no Front End, vou indicar os livros sobre JavaScript no Browser e criação de [SPA’s](https://en.wikipedia.org/wiki/Single-page_application).
 
@@ -48,7 +48,7 @@ Livros que eu indico a quem deseja aprender JavaScript do zero:
 
 A autora aborda desde os principios do JavaScript, passa por debug, Cross Browser, Ajax e algumas técnicas para escapar de algumas armadilhas da linguagem.
 
-Outro livro excelente que apresenta um overview completasso sobre a linguagem é o: [Eloquent JavaScript](https://amzn.to/2SyB7Lz). E se você curtir, pode ler online também [neste link](http://eloquentjavascript.net/).
+Outro livro excelente que apresenta um overview completasso sobre a linguagem é o: [Eloquent JavaScript](https://amzn.to/2SyB7Lz). E se você curtir, pode ler online também [neste link](https://eloquentjavascript.net/).
 
 Esses sim ensinam do começo e com boa didática para um primeiro contato com JS.
 
@@ -88,7 +88,7 @@ Ainda não li esses livros, mas já estão na fila!
 
 [Testable JavaScript](https://amzn.to/2Po77zV)
 
-[Exploring ES6: Upgrade to the next version of JavaScript](http://exploringjs.com/)
+[Exploring ES6: Upgrade to the next version of JavaScript](https://exploringjs.com/)
 
 [Understanding ECMAScript 6](https://amzn.to/2PrsgJO)
 
@@ -96,7 +96,7 @@ Ainda não li esses livros, mas já estão na fila!
 
 Onde eu montei essa minha trilha de estudos com livros sobre JavaScript?
 
-- [The book is on the table, do Vitor Britto](http://www.vitorbritto.com.br/blog/the-book-is-on-the-table/)
+- [The book is on the table, do Vitor Britto](https://www.vitorbritto.com.br/blog/the-book-is-on-the-table/)
 - [JavaScript Path, no GitHub do JavaScript Society](https://github.com/javascript-society/javascript-path)
 
 Se curtiu essa dica, compartilha nas redes sociais!

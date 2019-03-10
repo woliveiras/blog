@@ -42,9 +42,9 @@ Procure envolver o conteúdo com as tags corretas. Caso tenha dúvidas, procure 
 Garanto que nada é mais recompensador que receber um elogio de um deficiente visual que consegue entender seu conteúdo sem dificuldades.
 Alguns links úteis para entender sobre semântica:
 
-* [A estrutura e a semântica do HTML5 - UXDesign Blog](http://www.uxdesign.blog.br/padroes-web/html5/entendo-a-estrutura-e-a-semantica-do-html5/ "A estrutura e a semântica do HTML5")
-* [A verdadeira semântica do HTML - Diego Eis](http://pt.slideshare.net/diegoeis/a-verdadeira-semntica-do-html5 "A verdadeira semântica do HTML")
-* [Microdata - Desenvolvimento para Web](http://desenvolvimentoparaweb.com/html/microdata-api-schema-org-significado-html/ "Microdata API e Schema.org: dando significado ao HTML")
+* [A estrutura e a semântica do HTML5 - UXDesign Blog](https://www.uxdesign.blog.br/padroes-web/html5/entendo-a-estrutura-e-a-semantica-do-html5/ "A estrutura e a semântica do HTML5")
+* [A verdadeira semântica do HTML - Diego Eis](https://pt.slideshare.net/diegoeis/a-verdadeira-semntica-do-html5 "A verdadeira semântica do HTML")
+* [Microdata - Desenvolvimento para Web](https://desenvolvimentoparaweb.com/html/microdata-api-schema-org-significado-html/ "Microdata API e Schema.org: dando significado ao HTML")
 
 Espero ter ajudado a entender um pouco mais sobre o assunto e, se você já conhecia e não praticava, te convencido a utilizar as tags da maneira correta! :D
 Alguma dúvida, link sobre o assunto ou sugestão? Comenta ae!

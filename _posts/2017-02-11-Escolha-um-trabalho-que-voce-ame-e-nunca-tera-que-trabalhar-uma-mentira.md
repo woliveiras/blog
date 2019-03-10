@@ -123,7 +123,7 @@ Eu gosto muito do local onde trabalho atualmente pelo modelo de gestão de pesso
 
 Quando precisamos faltar por um motivo pessoal, por exemplo, simplesmente falamos e pronto. Em outras empresas a falta é motivo de desconfiança por parte da chefia.
 
-Mas essa é uma empresa [fora da curva](http://www.dicionarioinformal.com.br/fora+da+curva/).
+Mas essa é uma empresa [fora da curva](https://www.dicionarioinformal.com.br/fora+da+curva/).
 
 Sabemos que a realidade de muitas pessoas é diferente disso.
 

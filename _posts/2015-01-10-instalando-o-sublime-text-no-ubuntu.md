@@ -27,7 +27,7 @@ sudo add-apt-repository ppa:webupd8team/sublime-text-3 && sudo apt-get update &
 
 ## Via pacote .deb
 
-Entre no [site do Sublime Text](http://www.sublimetext.com/ "Sublime Text") e clique na arquitetura que utiliza (32 ou 64), após download é só dar um double click em cima do arquivo ou cambiar até a pasta pelo terminal e executar:
+Entre no [site do Sublime Text](https://www.sublimetext.com/ "Sublime Text") e clique na arquitetura que utiliza (32 ou 64), após download é só dar um double click em cima do arquivo ou cambiar até a pasta pelo terminal e executar:
 
 ```shell
 sudo dpkg -i

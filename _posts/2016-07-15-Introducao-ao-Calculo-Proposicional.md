@@ -204,8 +204,8 @@ Para isso podemos ver os vídeos a seguir que confirma o que aprendemos e aprese
 * <https://pt.wikiversity.org/wiki/L%C3%B3gica_Matem%C3%A1tica/C%C3%A1lculo_Proposicional>
 * <https://pt.wikipedia.org/wiki/L%C3%B3gica_proposicional>
 * <https://pt.wikipedia.org/wiki/L%C3%B3gica_matem%C3%A1tica>
-* <http://www4.pucsp.br/~logica/>
+* <https://www4.pucsp.br/~logica/>
 * <https://pt.wikipedia.org/wiki/Tabela_verdade>
-* <http://www.infoescola.com/matematica/classificacao-de-proposicoes-logicas/>
-* <http://www.infoescola.com/matematica/conectivos-logicos/>
-* <http://www.infoescola.com/matematica/logica-proposicional/>
+* <https://www.infoescola.com/matematica/classificacao-de-proposicoes-logicas/>
+* <https://www.infoescola.com/matematica/conectivos-logicos/>
+* <https://www.infoescola.com/matematica/logica-proposicional/>

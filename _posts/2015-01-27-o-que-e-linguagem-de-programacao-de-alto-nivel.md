@@ -13,7 +13,7 @@ date: 2015-01-27 01:51:01
 description: O que é uma linguagem de programação de alto nível? E linguagem de programação de baixo nível? Acompanhe...
 ---
 
-Se você vem seguindo o mesmo [guia de estudos](http://woliveiras.com.br/posts/guia-de-estudos-desenvolvedor-front-end-iniciante), vai chegar uma hora em que vai partir pro JavaScript e mais cedo ou mais tarde vai se aprofundar ainda mais em programação e é aí que você ouve alguns termos meio confusos como esse:
+Se você vem seguindo o mesmo [guia de estudos](https://woliveiras.com.br/posts/guia-de-estudos-desenvolvedor-front-end-iniciante), vai chegar uma hora em que vai partir pro JavaScript e mais cedo ou mais tarde vai se aprofundar ainda mais em programação e é aí que você ouve alguns termos meio confusos como esse:
 
 *JavaScript é uma linguagem de programação de alto nível.*
 
@@ -25,7 +25,7 @@ Essas são aquelas cuja [sintaxe](https://pt.wikipedia.org/wiki/Sintaxe) se a
 
 Elas possuem um nível de abstração que faz com que você entenda aquele código mais facilmente, pois foi removido da sintaxe o que você não precisa entender em um primeiro contato com programação ou pra quem nunca vai mexer com linguagens de baixo nível.
 
-Você não vai precisar conhecer coisas como [registradores](http://pt.wikipedia.org/wiki/Registrador_%28inform%C3%A1tica%29 "Registradores - Wikipedia") ou [instruções](http://pt.wikipedia.org/wiki/Instru%C3%A7%C3%A3o_%28inform%C3%A1tica%29 "Instruções - Wikipedia") do processador para conseguir fazer seu Hello World. - _Apesar que ninguém ensina isso antes de te mostrar o Hello World mesmo em linguagens de baixo nível né, mas deu pra entender a mensagem... ;)_
+Você não vai precisar conhecer coisas como [registradores](https://pt.wikipedia.org/wiki/Registrador_%28inform%C3%A1tica%29 "Registradores - Wikipedia") ou [instruções](https://pt.wikipedia.org/wiki/Instru%C3%A7%C3%A3o_%28inform%C3%A1tica%29 "Instruções - Wikipedia") do processador para conseguir fazer seu Hello World. - _Apesar que ninguém ensina isso antes de te mostrar o Hello World mesmo em linguagens de baixo nível né, mas deu pra entender a mensagem... ;)_
 
 Alguns exemplos de linguagens de alto nível:
 
@@ -38,7 +38,7 @@ Alguns exemplos de linguagens de alto nível:
 
 É aquela que se aproxima mais da linguagem de máquina.
 
-Essas são as que você precisa ter o conhecimento direto da arquitetura do computador para fazer alguma coisa. Tem um pouquinho mais para conhecer sobre elas [aqui](http://pt.wikipedia.org/wiki/Linguagem_de_programa%C3%A7%C3%A3o_de_baixo_n%C3%ADvel "Linguagem de programação de baixo nível - Wikipedia").
+Essas são as que você precisa ter o conhecimento direto da arquitetura do computador para fazer alguma coisa. Tem um pouquinho mais para conhecer sobre elas [aqui](https://pt.wikipedia.org/wiki/Linguagem_de_programa%C3%A7%C3%A3o_de_baixo_n%C3%ADvel "Linguagem de programação de baixo nível - Wikipedia").
 
 ## Qual é mais difícil de se trabalhar?
 
@@ -117,4 +117,4 @@ msg     db      "Hello, world!",10
 len     equ     $-msg
 ```
 
-Outros exemplos [aqui ;)](http://en.wikipedia.org/wiki/List_of_Hello_world_program_examples "Exemplos de hello world").
+Outros exemplos [aqui ;)](https://en.wikipedia.org/wiki/List_of_Hello_world_program_examples "Exemplos de hello world").

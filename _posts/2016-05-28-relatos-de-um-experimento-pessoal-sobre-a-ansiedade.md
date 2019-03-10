@@ -122,4 +122,4 @@ Espero que, com esse post, eu tenha lhe mostrado como é ter problemas de Ansied
 ## Mais algumas informações sobre Ansiedade
 
 - [O que é Transtorno de ansiedade generalizada?](https://www.minhavida.com.br/saude/temas/transtorno-de-ansiedade-generalizada)
-- [11 Sinais Que Você Pode Ter Transtorno de Ansiedade](http://autoajudaemfoco.com.br/estresse-ansiedade/11-sinais-que-voce-pode-ter-transtorno-de-ansiedade)
+- [11 Sinais Que Você Pode Ter Transtorno de Ansiedade](https://autoajudaemfoco.com.br/estresse-ansiedade/11-sinais-que-voce-pode-ter-transtorno-de-ansiedade)

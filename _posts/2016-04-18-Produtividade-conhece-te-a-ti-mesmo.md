@@ -104,10 +104,10 @@ Tendo em mente esses assuntos sobre instinto humano, autoconhecimento e autocont
 
 Algumas fontes importantes para entender mais sobre esse assunto (recomendo fortemente a leitura):
 
-- [Como utilizar o autoconhecimento para aumentar sua produtividade](http://shipit.resultadosdigitais.com.br/blog/como-utilizar-autoconhecimento-para-aumentar-sua-produtividade/)
+- [Como utilizar o autoconhecimento para aumentar sua produtividade](https://shipit.resultadosdigitais.com.br/blog/como-utilizar-autoconhecimento-para-aumentar-sua-produtividade/)
 - Livro Instinto Humano, Robert Winston (bem difícil encontrar o link para comprar)
-- [O Estresse não é Ruim](http://www.methodus.com.br/artigo/186/o-estresse-nao-e-ruim.html)
-- [Estresse: o mal do século](http://psiquecienciaevida.uol.com.br/ESPS/Edicoes/63/artigo211972-1.asp)
+- [O Estresse não é Ruim](https://www.methodus.com.br/artigo/186/o-estresse-nao-e-ruim.html)
+- [Estresse: o mal do século](https://psiquecienciaevida.uol.com.br/ESPS/Edicoes/63/artigo211972-1.asp)
 
 Se curtiu esse “textinho de auto ajuda”, compartilhe com a galera!
 

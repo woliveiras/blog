@@ -12,25 +12,25 @@ categories:
   - jamstack
 description: Utilizando o Travis CI para fazer deploy de blogs com Hexo. Como fazer Deploy com Travis CI e GitHub Pages.
 ---
-Confesso que fiquei tentado a migrar para o [Jekyll (Ruby)](https://jekyllrb.com/) depois que um [amigo](http://jotateles.com.br/) me mostrou que da para postar no blog direto do GitHub sem ter o Jekyll instalado na máquina. Porém eu não desisti do meu queridinho, o [Hexo (feito com Node <3)](http://hexo.io/).<!--more-->
+Confesso que fiquei tentado a migrar para o [Jekyll (Ruby)](https://jekyllrb.com/) depois que um [amigo](https://jotateles.com.br/) me mostrou que da para postar no blog direto do GitHub sem ter o Jekyll instalado na máquina. Porém eu não desisti do meu queridinho, o [Hexo (feito com Node <3)](https://hexo.io/).<!--more-->
 
 *Se você não conhece o Hexo, da uma olhada nesse artigo: [Migrando de WordPress para Hexo](/posts/Migrando-de-Wordpress-para-Hexo/).*
 
-Andei pesquisando sobre como postar no Blog direto pelo GitHub Pages através de outras plataformas e cheguei até [esse artigo](http://df.python.org.br/blog/github-pages-com-pelican-e-travis-ci/) do [Humberto Rocha](http://df.python.org.br/blog/autores/humberto-rocha/) ensinando a usar o Travis CI para rodar o Build do projeto com o **Pelican**. Quando vi isso logo imaginei que dava para fazer o mesmo com Hexo e poder escrever/revisar direto pelo GitHub. - E dá!
+Andei pesquisando sobre como postar no Blog direto pelo GitHub Pages através de outras plataformas e cheguei até [esse artigo](https://df.python.org.br/blog/github-pages-com-pelican-e-travis-ci/) do [Humberto Rocha](https://df.python.org.br/blog/autores/humberto-rocha/) ensinando a usar o Travis CI para rodar o Build do projeto com o **Pelican**. Quando vi isso logo imaginei que dava para fazer o mesmo com Hexo e poder escrever/revisar direto pelo GitHub. - E dá!
 
 ## Configurando o Travis CI repositório do seu Blog
 
 Acesse o site do [Travis CI](https://travis-ci.org/) e habilite para o repositório do seu Blog clicando em **Add new repository**. - Aquele **+** do lado de **My repositories**
 
-![Add new repository](http://s13.postimg.org/nbewg0mon/Add_new_repository.png)
+![Add new repository](https://s13.postimg.org/nbewg0mon/Add_new_repository.png)
 
 Localize o repositório e ative o Travis CI.
 
-![Ativando o Travis no GitHub Pages](http://s14.postimg.org/rkepps2ch/Ativando_o_Travis_CI_no_Git_Hub_Pages.png)
+![Ativando o Travis no GitHub Pages](https://s14.postimg.org/rkepps2ch/Ativando_o_Travis_CI_no_Git_Hub_Pages.png)
 
 Agora acesse as configurações desse repositório clicando na **engrenagem ao lado do nome** e desabilite a opção de **Build pull requests** para que o seu Blog não seja atualizado se alguém abrir um *Pull Request* e habilite o **Build only if .travis.yml is present** para que a branch com o travis.yml seja a única a gerar atualizações.
 
-![Configurações de Build](http://s29.postimg.org/osd8wkcdz/configuracoes_de_build.png)
+![Configurações de Build](https://s29.postimg.org/osd8wkcdz/configuracoes_de_build.png)
 
 ## Criando um token para autorizar o Travis CI a publicar no GitHub
 
@@ -86,7 +86,7 @@ after_success:
 - git push -q -u origin BRANCH
 ```
 
-Recomendo que você use um arquivo [.nvmrc](http://woliveiras.com.br/posts/utilizando-versoes-antigas-do-nodejs/) com a versão do Node em que está rodando o Hexo. O Travis irá reconhecer isso automaticamente e vai setar a versão escolhida na hora do build. Isso vai previnir alguma atualização do Node no servidor do Travis que quebre o build.
+Recomendo que você use um arquivo [.nvmrc](https://woliveiras.com.br/posts/utilizando-versoes-antigas-do-nodejs/) com a versão do Node em que está rodando o Hexo. O Travis irá reconhecer isso automaticamente e vai setar a versão escolhida na hora do build. Isso vai previnir alguma atualização do Node no servidor do Travis que quebre o build.
 
 Agora configure o Hexo para fazer o deploy com seu usuário via Token com a seguinte linha no arquivo **_config.yml** do seu Blog, substituindo onde for necessário:
 
@@ -123,7 +123,7 @@ git push
 
 Agora observe no site do Travis que ele ficará configurado para fazer o build do projeto.
 
-![Travis configurado](http://s7.postimg.org/exqnlxcgr/travis_configurado.png)
+![Travis configurado](https://s7.postimg.org/exqnlxcgr/travis_configurado.png)
 
 Esse post foi para produção via deploy com o Travis! ;D
 
@@ -134,4 +134,4 @@ Compartilhe a palavra.
 ## Referência
 
 * https://github.com/jkeylu/deploy-hexo-site-by-travis-ci/blob/master/_travis.yml
-* http://df.python.org.br/blog/github-pages-com-pelican-e-travis-ci/
+* https://df.python.org.br/blog/github-pages-com-pelican-e-travis-ci/

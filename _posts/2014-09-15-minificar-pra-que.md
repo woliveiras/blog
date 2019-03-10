@@ -27,11 +27,11 @@ Pra uma pessoa com internet boa, navegador atualizado e utilizando o PC, não pa
 
 Minificar é remover os espaços desnecessários, tabulações, comentários, etc. - Por isso eu falei sobre os 50kb - Da pra fazer usando plug-ins nos editores de código ou sites onde colamos nosso código e ele remove tudo.
 
-Porém isso tudo é bem chato viu... Ficar fazendo isso cada vez que você desenvolver um projeto ou modificar alguma coisa se torna um pé... E é por isso que usamos os automatizadores pra agilizar essa tarefa. – Recomendo que de uma olhadinha no [Gulp](http://woliveiras.com.br/gulp-esse-e-ligeiro/ "Gulp | Esse é ligeiro").
+Porém isso tudo é bem chato viu... Ficar fazendo isso cada vez que você desenvolver um projeto ou modificar alguma coisa se torna um pé... E é por isso que usamos os automatizadores pra agilizar essa tarefa. – Recomendo que de uma olhadinha no [Gulp](https://woliveiras.com.br/gulp-esse-e-ligeiro/ "Gulp | Esse é ligeiro").
 
 ## Performance
 
-Depois de minificar faça alguns testes de [performance](http://www.webpagetest.org/ "Teste de velocidade") em sua aplicação e comprove a excelência dessa prática. Você irá curtir demais.
+Depois de minificar faça alguns testes de [performance](https://www.webpagetest.org/ "Teste de velocidade") em sua aplicação e comprove a excelência dessa prática. Você irá curtir demais.
 
 ## Minificar os seus scripts não é a única salvação
 

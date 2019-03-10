@@ -24,16 +24,16 @@ vagrant box add 'nome da Box' 'Local de onde será clonado'
 Execute esse comando para clonar a Box pré configurada.
 
 ```shell
-vagrant box add lucid32 http://files.vagrantup.com/lucid32.box
+vagrant box add lucid32 https://files.vagrantup.com/lucid32.box
 ```
 
 ### Explicação
 
 - **vagrant box add** é o comando para adicionar uma box.
 - **lucid32** é o nome da Base Box. Esse nome é que vamos usar no **vagrantfile** para informar qual box será a base para as VM's que vamos subir posteriormente e que vamos usar para criar uma nova VM.
-- O Link *http://files.vagrantup.com/lucid32.box* é onde está a box no momento. Se fosse um repositório pessoal colocaríamos o link desse repo no lugar.
+- O Link *https://files.vagrantup.com/lucid32.box* é onde está a box no momento. Se fosse um repositório pessoal colocaríamos o link desse repo no lugar.
 
-Podemos encontrar outras Base Box no repositório do Vagrant no site oficial: [http://vagrantbox.es](http://vagrantbox.es/ "Repositório de Boxes do Vagrant").
+Podemos encontrar outras Base Box no repositório do Vagrant no site oficial: [https://vagrantbox.es](https://vagrantbox.es/ "Repositório de Boxes do Vagrant").
 
 *Esse passo pode demorar um pouco dependendo da velocidade da sua conexão.*
 
@@ -117,12 +117,12 @@ Conectado. Agora é só usar seu servidor! :D
 - Reiniciar a máquina **varant reload**.
 
 *Lembrando que esses comandos devem ser rodados dentro do diretório onde está o vagrantfile da VM que estiver rodando no momento.*
-Uma dica agora é pesquisar sobre [Shell Script](https://pt.wikipedia.org/wiki/Shell_script), [Puppet](https://puppetlabs.com/) ou [Chef](https://www.chef.io/chef/) para automatizar a configuração do ambiente. A [documentação do Vagrant](http://docs.vagrantup.com/v2/) tem boas dicas sobre isso.
+Uma dica agora é pesquisar sobre [Shell Script](https://pt.wikipedia.org/wiki/Shell_script), [Puppet](https://puppetlabs.com/) ou [Chef](https://www.chef.io/chef/) para automatizar a configuração do ambiente. A [documentação do Vagrant](https://docs.vagrantup.com/v2/) tem boas dicas sobre isso.
 
 Caso não tenha entendido algo, estou a disposição, só me chamar! ;D
 
 ## Referências
 
-* <http://simplesideias.com.br/usando-o-vagrant-como-ambiente-de-desenvolvimento-no-windows>
-* <http://www.erikaheidi.com/blog/vagrant-101-montando-seu-ambiente-de-desenvolvimento-portatil>
-* <http://www.akitaonrails.com/2013/10/25/iniciante-criando-um-ambiente-de-desenvolvimento-com-vagrant-e-chef-solo#.U-_1H_ldX2M>
+* <https://simplesideias.com.br/usando-o-vagrant-como-ambiente-de-desenvolvimento-no-windows>
+* <https://www.erikaheidi.com/blog/vagrant-101-montando-seu-ambiente-de-desenvolvimento-portatil>
+* <https://www.akitaonrails.com/2013/10/25/iniciante-criando-um-ambiente-de-desenvolvimento-com-vagrant-e-chef-solo#.U-_1H_ldX2M>

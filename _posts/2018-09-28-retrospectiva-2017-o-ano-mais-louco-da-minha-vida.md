@@ -57,7 +57,7 @@ Sim, gente, eu curto a vida de vez em quando. :joy:
 
 Eu NUNCA imaginaria algo desse tipo acontecendo. Eu adoro o DNE. Um dos episódios do cast, o [primeiro](https://devnaestrada.com.br/2015/05/22/devcast-frontend-backend.html), foi responsável pela mudança de área de backend para frontend e toda a revolução que aconteceu na minha vida depois disso veio graças a essa escolha.
 
-Eu fiquei muito feliz pelo convite depois que uma galera fez um movimento no Twitter para eles me entrevistarem. No episódio eu comentei por alto como foi meu contato com tecnologia, primeiros trampos como menino que formatava PCs, muito [TIBIA](http://www.tibia.com/) e mudança pra área de desenvolvimento.
+Eu fiquei muito feliz pelo convite depois que uma galera fez um movimento no Twitter para eles me entrevistarem. No episódio eu comentei por alto como foi meu contato com tecnologia, primeiros trampos como menino que formatava PCs, muito [TIBIA](https://www.tibia.com/) e mudança pra área de desenvolvimento.
 
 Aqui temos o episódio, se você quiser conferir:
 
@@ -123,7 +123,7 @@ Sim! Por mais que eu deteste o modelo de ensino de escolas e faculdades, fui con
 
 Eu nem tenho palavras pra descrever como eu me senti na hora. Foi graças a indicação da Fernanda Bernardo que recebi esse convite e… Que evento. Eu pirei demais com a proposta do evento.
 
-Foi no [Dia de Demonstração](http://www.eventos.usp.br/?events=dia-de-demonstracao-traz-solucoes-de-impacto-criadas-por-empreendedores-usp). Um evento onde jovens falam sobre suas propostas de empresas (isso mesmo, jovens empreendedores e empreendedoras) e, principal, as ideias são todas focadas em impacto social. Eu pirei demais assistindo aquele pessoal.
+Foi no [Dia de Demonstração](https://www.eventos.usp.br/?events=dia-de-demonstracao-traz-solucoes-de-impacto-criadas-por-empreendedores-usp). Um evento onde jovens falam sobre suas propostas de empresas (isso mesmo, jovens empreendedores e empreendedoras) e, principal, as ideias são todas focadas em impacto social. Eu pirei demais assistindo aquele pessoal.
 
 Fiquei tão acelerado com algumas propostas que quase não consegui apresentar.
 

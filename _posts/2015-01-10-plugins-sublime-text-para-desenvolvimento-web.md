@@ -24,7 +24,7 @@ Agora é só digitar o nome do plugin, localizar na lista e selecionar ele.
 
 ## Alguns plugins maneiros
 
-**Emmet** - É um plugin que vai ajudar na codificação de HTML e CSS através de algumas expressões. Para conhecer todas as expressões é necessário dar uma olhada no [site do Plugin](http://emmet.io/ "Emmet").
+**Emmet** - É um plugin que vai ajudar na codificação de HTML e CSS através de algumas expressões. Para conhecer todas as expressões é necessário dar uma olhada no [site do Plugin](https://emmet.io/ "Emmet").
 
 **Jquery Snippets** - Alguns exemplos de códigos JQuery (Pra você não precisar ficar entrando no site para relembrar).
 

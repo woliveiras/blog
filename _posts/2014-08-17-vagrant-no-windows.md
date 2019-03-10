@@ -16,7 +16,7 @@ No Windows precisamos de um programa bem útil chamado Putty.<!--more-->
 
 ## Obtendo e configurando o Putty
 
-Acesse o [site do Putty](http://www.putty.org/ "Putty"), baixe o **putty.exe** e o **puttygen.exe**.
+Acesse o [site do Putty](https://www.putty.org/ "Putty"), baixe o **putty.exe** e o **puttygen.exe**.
 
 Execute o **Puttygen**.
 
@@ -58,6 +58,6 @@ Pronto!
 
 Agora pode usar seu servidor, instalar e configurar conforme necessário.
 
-Referência: <http://simplesideias.com.br/usando-o-vagrant-como-ambiente-de-desenvolvimento-no-windows>
+Referência: <https://simplesideias.com.br/usando-o-vagrant-como-ambiente-de-desenvolvimento-no-windows>
 
 Caso não tenha entendido algo, estou a disposição, só me chamar! ;D

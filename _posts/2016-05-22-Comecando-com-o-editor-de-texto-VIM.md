@@ -11,7 +11,7 @@ description: Primeiros passos com VIM. Dicas de VIM para iniciantes. Como começ
 
 A tarefa que um Desenvolvedor de Software precisa cumprir com a maior agilidade é a escrita/edição de texto. Depois de pensar por algumas horas, planejar o que vai fazer e como fazer (quais funções, métodos, classes criar), nós partimos para a escrita do código fonte no nosso editor de texto favorito ou em uma [IDE](https://pt.wikipedia.org/wiki/Ambiente_de_desenvolvimento_integrado).
 
-Existem [várias técnicas](http://pt.wikihow.com/Digitar-Mais-R%C3%A1pido) para você ficar fera no teclado, porém hoje vou apresentar outra forma de agilizar as coisas. Vou apresentar (pela minha perspectiva) o **VIM**. <!-- more -->
+Existem [várias técnicas](https://pt.wikihow.com/Digitar-Mais-R%C3%A1pido) para você ficar fera no teclado, porém hoje vou apresentar outra forma de agilizar as coisas. Vou apresentar (pela minha perspectiva) o **VIM**. <!-- more -->
 
 O VIM é um editor de texto muito amado por alguns e odiado por outros. A primeira vez que você abre o VIM, você pensa: *como é que eu faço pra sair daqui.*
 
@@ -32,10 +32,10 @@ A resposta é simples: **fui experimentar**.
 
 Eu sempre vi algumas pessoas aclamando o editor como se ele fosse um deus de alguma religião, e de fato é. Existe até uma [Igreja do VIM](https://medium.com/@avelino0/church-vim-2ddadebe5acc#.gbqzpwuc3), onde você pode aprender como exorcizar um computador!
 
-![Sai capeta](http://gifnoria.com.br/wp-content/uploads/2016/03/Oq-q-%C3%A9-esse-bagulho-que-fica-atras-de-mim-sai-capeta.gif)
-Achei muito interessante essa comunidade em cima de um editor de texto e fui conhecer melhor. Em São Paulo existe até um grupo de Meetup, o [VIM-SP](http://www.meetup.com/pt-BR/Vim-Sao-Paulo-Meetup/). Gostei bastante da galera que usa o editor e acabei me interessando mais em aprender a usa-lo.
+![Sai capeta](https://gifnoria.com.br/wp-content/uploads/2016/03/Oq-q-%C3%A9-esse-bagulho-que-fica-atras-de-mim-sai-capeta.gif)
+Achei muito interessante essa comunidade em cima de um editor de texto e fui conhecer melhor. Em São Paulo existe até um grupo de Meetup, o [VIM-SP](https://www.meetup.com/pt-BR/Vim-Sao-Paulo-Meetup/). Gostei bastante da galera que usa o editor e acabei me interessando mais em aprender a usa-lo.
 
-Também foi quando eu vi o site, extremamente futurista, do [VIM](http://www.vim.org/), que logo eu decidi que deveria testar de verdade esse negócio!
+Também foi quando eu vi o site, extremamente futurista, do [VIM](https://www.vim.org/), que logo eu decidi que deveria testar de verdade esse negócio!
 
 Então, sem mais delongas, vamos a minha visão da coisa.
 
@@ -49,7 +49,7 @@ A primeira vez que eu abri o VIM para editar um texto grande, me senti usando um
 
 Mas a primeira impressão não bastou pra mim.
 
-Acabei descobrindo que estava [colocando o carro na frente dos bois](http://www.qualeagiria.com.br/giria/botar-o-carro-na-frente-dos-bois/).
+Acabei descobrindo que estava [colocando o carro na frente dos bois](https://www.qualeagiria.com.br/giria/botar-o-carro-na-frente-dos-bois/).
 
 ## A tal da agilidade usando VIM
 
@@ -80,7 +80,7 @@ O modo em que você está fica marcado na parte de baixo do editor.
 
 Ex.:
 
-![Modo de inserção](http://s32.postimg.org/6tgxgetrp/Screenshot_from_2016_05_22_09_25_45.png)
+![Modo de inserção](https://s32.postimg.org/6tgxgetrp/Screenshot_from_2016_05_22_09_25_45.png)
 
 Alguns comandos do VIM aparecem nos tutoriais como letra maiúscula. Significa que você usa `SHIFT` **+** `letra` para executar o comando.
 
@@ -131,7 +131,7 @@ Você pode usar as setinhas do teclado no começo, mas com o tempo vai aprender 
 
 **Isso no Modo Normal.**
 
-Uma maneira de se acostumar a usar os movimentos pelas letras é brincar um pouco no [VIM Adventures](http://vim-adventures.com/).
+Uma maneira de se acostumar a usar os movimentos pelas letras é brincar um pouco no [VIM Adventures](https://vim-adventures.com/).
 
 Existe, ainda, algumas coisinhas legais que você vai usar bastante:
 
@@ -265,11 +265,11 @@ Como eu disse foque nos comandos principais na primeira semana, pelo menos, e de
 
 Mas as primeiras configurações, como mudar um tema, você pode fazer logo de começo.
 
-Você vai encontrar temas legais [nesse site](http://vimcolors.com/) e, normalmente, a forma de instalar o tema, consta na documentação dos mesmos.
+Você vai encontrar temas legais [nesse site](https://vimcolors.com/) e, normalmente, a forma de instalar o tema, consta na documentação dos mesmos.
 
 O esquema de cores que eu curto é [esse aqui](https://github.com/sickill/vim-monokai), parecido com o [Monokai](https://studiostyl.es/schemes/monokai) do Sublime.
 
-Se quiser, pode até criar seu próprio tema rapidamente [aqui](http://mswift42.github.io/themecreator/).
+Se quiser, pode até criar seu próprio tema rapidamente [aqui](https://mswift42.github.io/themecreator/).
 
 Tudo isso e um pouco mais, você encontra no [VIM para Noobs](/vimparanoobs/), depois de passar uma semana com o VIM, da uma olhada lá para aprender um pouco mais. :D
 

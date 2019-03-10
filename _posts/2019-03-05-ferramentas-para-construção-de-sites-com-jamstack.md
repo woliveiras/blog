@@ -64,7 +64,7 @@ Se você quer criar algo simples e nem se preocupar com hospedagem ou sistema de
 
 Vamos conhecer a lista dos CDNs que podemos utilizar em nosso site JAMstack:
 
-- [CloudFlare](http://cloudflare.com)
+- [CloudFlare](https://cloudflare.com)
 - [AWS Cloudfront](https://aws.amazon.com/pt/cloudfront/)
 - [Google Cloud CDN](https://cloud.google.com/cdn/)
 - [Azure CDN](https://azure.microsoft.com/en-us/services/cdn/)

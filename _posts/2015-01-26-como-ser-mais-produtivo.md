@@ -30,10 +30,10 @@ Logo que chego eu vejo tudo o que tenho de fazer e já monto as listas. Caso apa
 É igual fazer uma lista de compras, mas você vai organizando de acordo com o nível de importância.
 *Não tem como eu lhe dizer o que é mais importante, isso varia de acordo com seu serviço. Então você precisa analisar isso para organizar corretamente.*
 
-Outro aplicativo maneiro, que eu usei, é o [Google Keep](http://keep.google.com/ "Google Keep").
+Outro aplicativo maneiro, que eu usei, é o [Google Keep](https://keep.google.com/ "Google Keep").
 Se mais alguém da sua equipe utilizar esses aplicativos é maneiro compartilhar os itens da lista ou as pessoas montarem as tarefas e enviarem para você.
 
-Se você é Gestor, a dica é o [Runrunit](http://runrun.it/pt-BR?gclid=CPXjurvUp8MCFUEV7AodBGcAPA&amp;group=institucional&amp;origin=google_institucional "Runrunit"), que é feito pensando em gerencia de equipes!
+Se você é Gestor, a dica é o [Runrunit](https://runrun.it/pt-BR?gclid=CPXjurvUp8MCFUEV7AodBGcAPA&amp;group=institucional&amp;origin=google_institucional "Runrunit"), que é feito pensando em gerencia de equipes!
 
 ## Qual horário você é mais produtivo?
 

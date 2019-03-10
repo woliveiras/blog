@@ -8,13 +8,13 @@ categories:
   - retrospectiva
 description: Metas de 2017 - vai ter muito javascript, nodejs, es6, haskell e muito mais esse ano
 ---
-O ano passado foi bem agitado pra mim. Apesar de tantos problemas no país e no resto do mundo, como o [Fernando Daciuk](https://twitter.com/fdaciuk) comenta no [seu post de retrospectiva](http://blog.da2k.com.br/2017/01/01/retrospectiva-2016/), pra mim foi um ano de muitas conquistas e prazeres conforme você pode ver na minha retrospectiva no post anterior, [aqui](/posts/Retrospectiva-2016-projetos-open-source-eventos/).
+O ano passado foi bem agitado pra mim. Apesar de tantos problemas no país e no resto do mundo, como o [Fernando Daciuk](https://twitter.com/fdaciuk) comenta no [seu post de retrospectiva](https://blog.da2k.com.br/2017/01/01/retrospectiva-2016/), pra mim foi um ano de muitas conquistas e prazeres conforme você pode ver na minha retrospectiva no post anterior, [aqui](/posts/Retrospectiva-2016-projetos-open-source-eventos/).
 
 Pra esse ano eu não espero menos. Ao contrário, quero tentar priorizar meu tempo para conseguir fazer cada vez mais coisas legais para a comunidade online e de onde eu estou.<!--more-->
 
 Fora as contribuições com as comunidades, preciso de muito foco na [faculdade](/posts/Comecei-a-faculdade-de-informatica-e-agora/) e nos [estudos sobre JavaScript](/posts/Livros-sobre-JavaScript-do-iniciante-ao-avancado-e-ES6/).
 
-Como sou viciado no assunto [produtividade](/posts/produtividade-uma-re-introducao/) não poderia deixar de fazer uma lista de tarefas do que pretendo para esse ano, mas dessa vez não vou me comprometer com [100 coisas](http://leobalter.github.io/100-coisas-dev/listas/william-oliveira/), pois no ano passado eu não consegui cumprir isso por conta dos imprevistos.
+Como sou viciado no assunto [produtividade](/posts/produtividade-uma-re-introducao/) não poderia deixar de fazer uma lista de tarefas do que pretendo para esse ano, mas dessa vez não vou me comprometer com [100 coisas](https://leobalter.github.io/100-coisas-dev/listas/william-oliveira/), pois no ano passado eu não consegui cumprir isso por conta dos imprevistos.
 
 Pensando em motivar outras pessoas, pensei em deixar minha lista aqui no Blog. Então, lá vai.
 
@@ -32,7 +32,7 @@ Depois disso eu precisei dar uma boa estudada na linguagem e esse ano não será
 
 Esse ano eu preciso terminar, **de uma vez por todas**, o [curso JavaScript Ninja](https://github.com/da2k/curso-javascript-ninja), que só me faltam dois exercícios *e um pouco de vergonha na cara*. O curso está sendo muito útil pra mim, pois eu relembrei muita coisa de JavaScript puro que eu não praticava desde que aprendi a linguagem devido ao uso de jQuery e AngularJS e isso me motivou a voltar a estudar a linguagem sem libs ou frameworks.
 
-Assim que eu finalizar o JS Ninja parto direto para o curso de [React](http://blog.da2k.com.br/curso-reactjs-ninja/), também do Daciuk.
+Assim que eu finalizar o JS Ninja parto direto para o curso de [React](https://blog.da2k.com.br/curso-reactjs-ninja/), também do Daciuk.
 
 ### 1.2 Livros sobre JavaScript
 
@@ -60,11 +60,11 @@ Também pretendo postar sobre o que eu aprender.
 
 ### 1.5 Programação Funcional
 
-Eu sempre mantenho contato com Programação Funcional, dentre outras coisas, todos os dias para ir aprendendo de forma [cumulativa](http://www.coladaweb.com/pedagogia/aprendizagem-conceitos-e-caracteristicas) até conseguir um tempo para estudar a fundo sobre o assunto e praticar mais.
+Eu sempre mantenho contato com Programação Funcional, dentre outras coisas, todos os dias para ir aprendendo de forma [cumulativa](https://www.coladaweb.com/pedagogia/aprendizagem-conceitos-e-caracteristicas) até conseguir um tempo para estudar a fundo sobre o assunto e praticar mais.
 
 Esse ano quero tentar estudar mais sobre esse paradigma e aplicar nos meus códigos JavaScript.
 
-Talvez eu utilize Haskell com [esse conteúdo](http://learnyouahaskell.com/chapters) para isso, por ser uma linguagem altamente recomendada para isso. Se você tiver alguma dica, comente aqui para me ajudar nesse objetivo. ;)
+Talvez eu utilize Haskell com [esse conteúdo](https://learnyouahaskell.com/chapters) para isso, por ser uma linguagem altamente recomendada para isso. Se você tiver alguma dica, comente aqui para me ajudar nesse objetivo. ;)
 
 ## 2. Projetos
 

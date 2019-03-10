@@ -17,7 +17,7 @@ description: "Ser autodidata esconde problemas e armadilhas que podem nos atrapa
 ---
 Hoje em dia temos muito conhecimento espalhado na internet. Não precisamos de uma sala de aula para aprender algo de nosso interesse.  Temos conteúdo de todos os tipos por [vídeo](https://www.youtube.com/channel/UCWrqsnPLl6aRX0ECUmPaZEw), através dos [blogs](/tags/) e/ou documentações e livros técnicos.
 
-Se queremos aprender programação, temos cursos completos via self learning, como o [freeCodeCamp](/posts/aprender-programação-do-iniciante-ao-avançado-com-um-curso-focado-no-mercado-de-trabalho/), se desejamos entrar na área de desenvolvimento de software temos livros que ensinam sobre isso (como [o meu](http://bit.ly/universo-da-programacao) :wink:) e assim vai!
+Se queremos aprender programação, temos cursos completos via self learning, como o [freeCodeCamp](/posts/aprender-programação-do-iniciante-ao-avançado-com-um-curso-focado-no-mercado-de-trabalho/), se desejamos entrar na área de desenvolvimento de software temos livros que ensinam sobre isso (como [o meu](https://bit.ly/universo-da-programacao) :wink:) e assim vai!
 
 Ser autodidata significa que conseguimos aproveitar todos esses recursos e aprendermos sem depender de que alguém compile um conteúdo e nos explique diretamente. Podemos quebrar a cabeça com um problema no código fonte de um projeto que pegamos no [GitHub](https://github.com/woliveiras/__s) e assim aprenderemos muito, sem que ninguém tenha nos dito nada diretamente.
 

@@ -89,7 +89,7 @@ Este sentimento de que as comunidades estão se perdendo para o marketing pessoa
 Leia o texto de 2014 abaixo, do Daniel Filho, antes de se revoltar com minhas palavras achando que eu estou dando alguma indireta para alguém. Não… Não é indireta, é uma reflexão pessoal sobre o que se tornaram as comunidades de tecnologia.
 
 > Óbvio que existem profissionais de expressão, mas isso aqui é um mercado de desenvolvedores, não de rockstar-jedi-samurai-ninja. PAREM COM ISSO.
-> [Queime seus ídolos](http://danielfilho.github.io/2014/08/20/queime-seus-idolos/)
+> [Queime seus ídolos](https://danielfilho.github.io/2014/08/20/queime-seus-idolos/)
 
 Eu já queimei meus ídolos a algum tempo e recomendo que você também faça isso.
 

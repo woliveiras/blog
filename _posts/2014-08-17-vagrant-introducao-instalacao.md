@@ -35,13 +35,13 @@ Para esse tutorial vamos usar o Virtualbox.
 
 1. Baixe o [Virtualbox](https://www.virtualbox.org/wiki/Downloads "Download do Virtualbox").
 
-2. Com o VBox instalado, acesse o [site do Vagrant](http://www.vagrantup.com/downloads.html "Vagrant") e instale.
+2. Com o VBox instalado, acesse o [site do Vagrant](https://www.vagrantup.com/downloads.html "Vagrant") e instale.
 OBS: Se você usa Windows vai precisar seguir [esse tutorial](/posts/vagrant-no-windows/) para importar a chave SSH.
 
 3. Tudo instalado, mãos a obra. Agora é só ler a [segunda parte desse tutorial](/posts/configurar-vagrant/ "Como configurar e utilizar o Vagrant")
 
 Referências:
 
-* <http://simplesideias.com.br/usando-o-vagrant-como-ambiente-de-desenvolvimento-no-windows>
-* <http://www.erikaheidi.com/blog/vagrant-101-montando-seu-ambiente-de-desenvolvimento-portatil>
-* <http://www.akitaonrails.com/2013/10/25/iniciante-criando-um-ambiente-de-desenvolvimento-com-vagrant-e-chef-solo#.U-_1H_ldX2M>
+* <https://simplesideias.com.br/usando-o-vagrant-como-ambiente-de-desenvolvimento-no-windows>
+* <https://www.erikaheidi.com/blog/vagrant-101-montando-seu-ambiente-de-desenvolvimento-portatil>
+* <https://www.akitaonrails.com/2013/10/25/iniciante-criando-um-ambiente-de-desenvolvimento-com-vagrant-e-chef-solo#.U-_1H_ldX2M>

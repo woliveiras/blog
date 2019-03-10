@@ -75,7 +75,7 @@ Até aqui já sabemos que,  nessa série de artigos:
 
 Nos próximos artigos vamos nos aprofundar mais sobre gestão do tempo, então fique de olho.
 
-Adicione o [**RSS**](http://woliveiras.com.br/atom.xml) do blog ao seu [leitor de RSS](feedly.com) favorito para receber as atualizações e não perder seu tempo visitando o blog para ver se tem algo novo!
+Adicione o [**RSS**](https://woliveiras.com.br/atom.xml) do blog ao seu [leitor de RSS](feedly.com) favorito para receber as atualizações e não perder seu tempo visitando o blog para ver se tem algo novo!
 
 Gostaria de falar alguma coisa sobre produtividade? Comente aqui em baixo.
 

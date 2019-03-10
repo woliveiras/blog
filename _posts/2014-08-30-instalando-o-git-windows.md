@@ -11,7 +11,7 @@ date: 2014-08-30 12:25:07
 description: Instalação do Git no Windows
 ---
 
-O Git é muito utilizado por muitos desenvolvedores e [empresas](http://www.neuroniodigital.com.br/empresas-no-github/ "10 grandes empresas que estão no GitHub e o que elas estão fazendo lá") * , portanto se você ainda não sabe utilizar, sugiro buscar material para aprender sobre versionamento urgente!!! Afinal de contas, nem sempre o ctrl+z te salva... ;)
+O Git é muito utilizado por muitos desenvolvedores e [empresas](https://www.neuroniodigital.com.br/empresas-no-github/ "10 grandes empresas que estão no GitHub e o que elas estão fazendo lá") * , portanto se você ainda não sabe utilizar, sugiro buscar material para aprender sobre versionamento urgente!!! Afinal de contas, nem sempre o ctrl+z te salva... ;)
 
 <!--more-->
 
@@ -21,7 +21,7 @@ O Git é muito utilizado por muitos desenvolvedores e [empresas](http://www.neur
 
 Na documentação oficial existe esse link para agilizar as coisas:
 
-* [msysgit.github.com](http://msysgit.github.com "msysgit.github.com")
+* [msysgit.github.com](https://msysgit.github.com "msysgit.github.com")
 
 Basta entrar ai e baixar o software e dar um double click em cima do executável para começar a instalação
 
@@ -66,4 +66,4 @@ git config --global user.email "email@email.com"
 
 Pronto!
 
-Existem outras configurações maneiras e você pode [encontrá-las aqui](http://git-scm.com/book/pt-br/Primeiros-passos-Configura%C3%A7%C3%A3o-Inicial-do-Git "Git Book").
+Existem outras configurações maneiras e você pode [encontrá-las aqui](https://git-scm.com/book/pt-br/Primeiros-passos-Configura%C3%A7%C3%A3o-Inicial-do-Git "Git Book").

@@ -243,7 +243,7 @@ Para ativar o container.
 
 ## <a name='Removendotodososcontainerseimagensdeumasvez'></a>Removendo todos os containers e imagens de uma só vez
 
-Usamos um pouquinho de [Shell Script](http://aurelio.net/shell/) e conseguimos automatizar o processo de remoção de todos os containers ativos com:
+Usamos um pouquinho de [Shell Script](https://aurelio.net/shell/) e conseguimos automatizar o processo de remoção de todos os containers ativos com:
 
 ```shell
 docker rm $(docker ps -qa)

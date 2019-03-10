@@ -20,9 +20,9 @@ Mas afinal, qual a diferença entre URL e URI?<!--more-->
 
 Não da para abordar o assunto URI, URL, URN sem explicar um pouco sobre o HTTP. Se você já manja sobre HTTP, pode pular para a parte de [URL](#url "URL").
 
-O protocolo [HTTP](http://pt.wikipedia.org/wiki/Hypertext_Transfer_Protocol "Protocolo HTTP") é um conjunto de regras de transmissão de dados que permitem que máquinas com diferentes configurações possam se comunicar com um mesmo "idioma". A especificação do Protocolo você encontra [aqui](http://tools.ietf.org/html/rfc2616 "RFC2616") e o conhecimento sobre o assunto vai mais além, envolvendo Verbos, Cabeçalhos HTTP, etc.
+O protocolo [HTTP](https://pt.wikipedia.org/wiki/Hypertext_Transfer_Protocol "Protocolo HTTP") é um conjunto de regras de transmissão de dados que permitem que máquinas com diferentes configurações possam se comunicar com um mesmo "idioma". A especificação do Protocolo você encontra [aqui](https://tools.ietf.org/html/rfc2616 "RFC2616") e o conhecimento sobre o assunto vai mais além, envolvendo Verbos, Cabeçalhos HTTP, etc.
 
-Esse protocolo é baseado em requisição e resposta entre client e server. Quando o client (Ou user agent) solicita um recurso na internet ele envia um [pacote de dados](http://pt.wikipedia.org/wiki/Pacote "Pacote de dados") com cabeçalhos (Headers) a um URI (Ou URL) e o destinatário (Provavelmente um Servidor) vai devolver uma resposta que pode ser um [recurso](http://pt.wikipedia.org/wiki/Rede_de_computadores "Recursos") ou outro cabeçalho.
+Esse protocolo é baseado em requisição e resposta entre client e server. Quando o client (Ou user agent) solicita um recurso na internet ele envia um [pacote de dados](https://pt.wikipedia.org/wiki/Pacote "Pacote de dados") com cabeçalhos (Headers) a um URI (Ou URL) e o destinatário (Provavelmente um Servidor) vai devolver uma resposta que pode ser um [recurso](https://pt.wikipedia.org/wiki/Rede_de_computadores "Recursos") ou outro cabeçalho.
 
 Para ver como tudo isso acontece faça o seguinte:
 
@@ -67,11 +67,11 @@ Em português: **Identificador de Recursos Universal**, como diz o próprio nom
 
 Exemplos de URI
 
-* http://woliveiras.com.br/desenvolvedor-front-end/
-* http://pt.wikipedia.org/wiki/Hypertext_Transfer_Protocol
+* https://woliveiras.com.br/desenvolvedor-front-end/
+* https://pt.wikipedia.org/wiki/Hypertext_Transfer_Protocol
 
 Pra ficar mais fácil de entender, pois sei que deve ter dado um nó agora:
 
-A URI une o **Protocolo** (http://) a **localização do recurso** (URL - woliveiras.com.br) e o **nome do recurso** (URN - /desenvolvedor-front-end/) para que você acesse as coisas na Web.
+A URI une o **Protocolo** (https://) a **localização do recurso** (URL - woliveiras.com.br) e o **nome do recurso** (URN - /desenvolvedor-front-end/) para que você acesse as coisas na Web.
 
 Alguma dúvida ou dica para melhorar o post? Comenta ae!

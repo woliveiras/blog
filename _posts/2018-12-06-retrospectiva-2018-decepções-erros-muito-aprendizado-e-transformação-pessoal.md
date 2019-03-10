@@ -37,7 +37,7 @@ O GDCFPDay é basicamente um workshop onde unimos pessoas que tem experiência p
 
 Inclusive o evento está aberto para receber mantenedores para o ano que vem. Se você quiser assumir, basta entrar no site e propor uma edição (em qualquer lugar do Brasil - e do mundo se você estiver fora): [global diversity CFP day](https://www.globaldiversitycfpday.com/).
 
-Fazemos algo deste tipo porque, apesar de todos os esforços de iniciativas como o [Codamos](https://www.codamos.club/) e [WoMakersCode](http://womakerscode.org/) sabemos que as minorias não são representadas no palco de eventos de tecnologia e por isso nos unimos para fortalecer as pessoas e encorajá-las a participar.
+Fazemos algo deste tipo porque, apesar de todos os esforços de iniciativas como o [Codamos](https://www.codamos.club/) e [WoMakersCode](https://womakerscode.org/) sabemos que as minorias não são representadas no palco de eventos de tecnologia e por isso nos unimos para fortalecer as pessoas e encorajá-las a participar.
 
 Em seguida palestrei no [São Paulo Gay Professionals Meetup](https://www.meetup.com/pt-BR/Sao-Paulo-Gay-Professionals-Meetup/), outro evento voltado a diversidade, onde falei sobre “O futuro das profissões com o avanço da tecnologia”.
 
@@ -65,7 +65,7 @@ Você pode conferir o artigo também [nesse link](https://imasters.com.br/carrei
 
 ![Imagem da revista iMasters]({{site.post_images}}revista-imasters.jpg)
 
-Ajudei em um dos eventos mais fantásticos que eu já participei, o [web sem barreiras](http://websembarreiras.com.br/). Nesse evento eu fui “mestre de cerimônia” e ~mandei uns rap~ fiz a apresentação do mesmo. O web sem barreiras é um evento incrível onde tive a oportunidade única de presenciar pessoas cegas e surdas palestrando. Isso foi demais! “Trocar de papel” e ouvir a pessoa interpretando (intérprete de libras) o que alguém dizia em sinais foi incrível.
+Ajudei em um dos eventos mais fantásticos que eu já participei, o [web sem barreiras](https://websembarreiras.com.br/). Nesse evento eu fui “mestre de cerimônia” e ~mandei uns rap~ fiz a apresentação do mesmo. O web sem barreiras é um evento incrível onde tive a oportunidade única de presenciar pessoas cegas e surdas palestrando. Isso foi demais! “Trocar de papel” e ouvir a pessoa interpretando (intérprete de libras) o que alguém dizia em sinais foi incrível.
 
 ![Imagem do logo do web sem barreiras]({{site.post_images}}websembarreiras.jpg)
 
@@ -73,7 +73,7 @@ Também apresentei outro evento fantástico, que inclusive ganhou um episódio n
 
 Como algumas pessoas já sabem eu não faço mais parte da organização ao ABC-Dev, mas fui convidado a apresentar novamente e esse ano teve uma das edições mais bonitas de todas. Com espaço para comunidades, muita diversidade na grade de palestrantes e inclusão de verdade.
 
-Conheça o ABC-Dev: [QuebraDev - [Politize-se] ABCDev e Diversidade](http://quebradev.com.br/abcdev-e-diversidade/).
+Conheça o ABC-Dev: [QuebraDev - [Politize-se] ABCDev e Diversidade](https://quebradev.com.br/abcdev-e-diversidade/).
 
 ![Imagem da camiseta do ABC-Dev]({{site.post_images}}abcdev.jpg)
 
@@ -89,7 +89,7 @@ Obrigado QuebraDev, pelo trabalho tão importante que vocês estão fazendo.
 
 > O QuebraDev é um podcast de origem periférica que surgiu com o objetivo de representar quem é de quebrada na área de tecnologia, além de tentar trazer para o cerne dessa profissão quem tem interesse em ingressar (priorizando o diálogo com quem é de quebrada).
 
-Conheça o podcast aqui: [QuebraDev - Sobre](http://quebradev.com.br/sobre/).
+Conheça o podcast aqui: [QuebraDev - Sobre](https://quebradev.com.br/sobre/).
 
 ## Reflexões pessoais e transformação
 
@@ -172,7 +172,7 @@ Inclusive, se você encontrar um bug, pode me abrir uma issue neste repositório
 
 E, para fechar, criei uma newsletter para enviar meu conteúdo para as pessoas que não são tão viciadas em redes sociais e não utilizam RSS feed para acompanhar sites e blogs.
 
-Se você quiser se inscrever para receber meus artigos, dicas, sugestões de eventos, livros e muito mais, entra nesse link aqui: [Cartinha do Will](http://bit.ly/cartinha-do-will).
+Se você quiser se inscrever para receber meus artigos, dicas, sugestões de eventos, livros e muito mais, entra nesse link aqui: [Cartinha do Will](https://bit.ly/cartinha-do-will).
 
 ## Conclusão
 

@@ -10,17 +10,17 @@ date: 2015-01-16 10:10:25
 description: Por que usar Linux? Como começar com Linux?
 ---
 
-Depois de ler o artigo do Daciuk sobre [Como ser um dev frontend usando Linux](http://blog.da2k.com.br/2015/01/15/como-ser-um-dev-frontend-usando-linux/ "Como ser um dev frontend usando Linux"), decidi comentar como foi minha experiência no mundo Linux.
+Depois de ler o artigo do Daciuk sobre [Como ser um dev frontend usando Linux](https://blog.da2k.com.br/2015/01/15/como-ser-um-dev-frontend-usando-linux/ "Como ser um dev frontend usando Linux"), decidi comentar como foi minha experiência no mundo Linux.
 
-Minha história com [Linux](http://pt.wikipedia.org/wiki/Linux "O que é Linux") começou quando eu conheci o [Kurumin Linux](http://pt.wikipedia.org/wiki/Kurumin "Kurumin") - Sim, eu sou tiozinho com esse S.O. cara. Na época eu trabalhava com Infraestrutura e fazia manutenção de micros. Acabei lendo em algum lugar que eu precisaria manjar de Linux para ser um profissional mais completo. Pois bem... Eu fui aprender sobre o danado!<!--more-->
+Minha história com [Linux](https://pt.wikipedia.org/wiki/Linux "O que é Linux") começou quando eu conheci o [Kurumin Linux](https://pt.wikipedia.org/wiki/Kurumin "Kurumin") - Sim, eu sou tiozinho com esse S.O. cara. Na época eu trabalhava com Infraestrutura e fazia manutenção de micros. Acabei lendo em algum lugar que eu precisaria manjar de Linux para ser um profissional mais completo. Pois bem... Eu fui aprender sobre o danado!<!--more-->
 
 ![Linux]({{site.post_images}}linux-icon.png)
 
-Desde lá passei por várias distros como [Debian](https://www.debian.org/index.pt.html "Debian"), [Arch](https://www.archlinux.org/ "Arch"), [Fedora](https://getfedora.org/ "Fedora"), [OpenSUSE](https://pt.opensuse.org/Bem-vindo_ao_openSUSE.org "OpenSUSE"), [Ubuntu](http://www.ubuntu.com/ "Ubuntu") (Que eu uso atualmente), [ElementaryOS](http://elementaryos.org/ "ElementaryOS") e alguns que eu nem lembro o nome! E nesse artigo vou tentar te orientar um pouco sobre esse mundo maneiro do Open Source e do Software Livre ou Free.
+Desde lá passei por várias distros como [Debian](https://www.debian.org/index.pt.html "Debian"), [Arch](https://www.archlinux.org/ "Arch"), [Fedora](https://getfedora.org/ "Fedora"), [OpenSUSE](https://pt.opensuse.org/Bem-vindo_ao_openSUSE.org "OpenSUSE"), [Ubuntu](https://www.ubuntu.com/ "Ubuntu") (Que eu uso atualmente), [ElementaryOS](https://elementaryos.org/ "ElementaryOS") e alguns que eu nem lembro o nome! E nesse artigo vou tentar te orientar um pouco sobre esse mundo maneiro do Open Source e do Software Livre ou Free.
 
 ## Open Source, Livre, Gratuito, qual a diferença?
 
-Daria pra escrever uma Bíblia sobre o assunto, mas é melhor você dar uma lida [nesse artigo](http://www.infowester.com/freexopen.php "Software livre, código aberto e software gratuito: as diferenças") e olhar [esse site](http://softwarelivre.org/open-source-codigo-aberto "Software Livre Brasil") para entender sobre o assunto.
+Daria pra escrever uma Bíblia sobre o assunto, mas é melhor você dar uma lida [nesse artigo](https://www.infowester.com/freexopen.php "Software livre, código aberto e software gratuito: as diferenças") e olhar [esse site](https://softwarelivre.org/open-source-codigo-aberto "Software Livre Brasil") para entender sobre o assunto.
 
 Eu e quase 100% dos usuários de Linux, não usamos linux simplesmente por podermos baixar e utilizar as Distribuições de graça, - Se um Software é bom e funcional a gente paga por ele também! ~~Tá tirando???~~ - mas pela estabilidade e, muitas vezes, pela praticidade em utilizar algumas coisas de Desenvolvimento ou simplesmente por ser mais leve em Hardware antigo.
 
@@ -28,7 +28,7 @@ Eu gosto do Open Source por que sou livre para editar o meu Sistema Operacional 
 
 ## O que é uma "Distro" (Distribuição Linux)?
 
-A [Distro](http://pt.wikipedia.org/wiki/Distribui%C3%A7%C3%A3o_Linux "Distribuição Linux") é um conjunto do core Linux com alguns softwares formando o Sistema Operacional que você vai utilizar. No exemplo dos <a href="#distros">nomes que eu sitei</a> temos algumas das principais Distros do mercado atual, fora o [Mint](http://www.linuxmint.com/ "Linux Mint") e [Ubuntu Gnome](http://ubuntugnome.org/ "Ubuntu Gnome").
+A [Distro](https://pt.wikipedia.org/wiki/Distribui%C3%A7%C3%A3o_Linux "Distribuição Linux") é um conjunto do core Linux com alguns softwares formando o Sistema Operacional que você vai utilizar. No exemplo dos <a href="#distros">nomes que eu sitei</a> temos algumas das principais Distros do mercado atual, fora o [Mint](https://www.linuxmint.com/ "Linux Mint") e [Ubuntu Gnome](https://ubuntugnome.org/ "Ubuntu Gnome").
 
 ## E por que eu deveria usar Linux então?
 
@@ -54,11 +54,11 @@ Depois veja se seu Hardware é compatível na distribuição que você deseja t
 
 Para conhecer bastante sobre o assunto será bom dar uma pesquisada em foruns, ler uns artigos ou livros. Eu indico o seguinte:
 
-* [Guia Foca GNU/Linux](http://www.guiafoca.org/ "Guia Foca")
+* [Guia Foca GNU/Linux](https://www.guiafoca.org/ "Guia Foca")
 
-Se for usar Ubuntu, da uma olhada [aqui](http://ubuntu-br.org/comece "Ubuntu - Comece Aqui!").
+Se for usar Ubuntu, da uma olhada [aqui](https://ubuntu-br.org/comece "Ubuntu - Comece Aqui!").
 
-E se quiser um livro maneiro, tem o da [Casa do Código](http://www.casadocodigo.com.br/products/livro-linux "Começando com o Linux: Comandos, serviços e administração") que aborda muita coisa e o [Guia do Iniciante(Ubuntu)](http://orgulhogeek.net/ubuntu-guia-do-iniciante/ "Orgulho Geek") do Orgulho Geek.
+E se quiser um livro maneiro, tem o da [Casa do Código](https://www.casadocodigo.com.br/products/livro-linux "Começando com o Linux: Comandos, serviços e administração") que aborda muita coisa e o [Guia do Iniciante(Ubuntu)](https://orgulhogeek.net/ubuntu-guia-do-iniciante/ "Orgulho Geek") do Orgulho Geek.
 
 Escolhido a Distro, verificado a compatibilidade, aprendeu um pouco... Vai pra cima! Se quiser comece instalando numa máquina virtual para ir conhecendo e testando tudo e quando se sentir confortável parte para o uso no dia-a-dia.
 

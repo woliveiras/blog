@@ -47,7 +47,7 @@ Para praticar existem outros apps muito maneiros, como o Bottled, que possui uma
 
 O Bottled é um game onde jogamos uma carta em uma garrafa para que a outra pessoa leia, se interesse por nossa história e converse conosco.
 
-[Link para o Bottled](http://bottledapp.com/)
+[Link para o Bottled](https://bottledapp.com/)
 
 É importante que você capriche na história, senão ninguém vai entrar em contato contigo, ein!
 

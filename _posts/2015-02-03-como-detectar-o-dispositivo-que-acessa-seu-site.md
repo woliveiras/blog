@@ -13,7 +13,7 @@ Uma dica rápida para quem trabalha com diversos tipos de dispositivos!
 
 Dependendo do projeto em que você está trabalhando, pode chegar a necessidade de detectar qual é o tipo de dispositivo que está acessando o site/aplicação/sistema, etc. As vezes isso é feito para redirecionar o usuário para uma outra versão do projeto, as vezes simplesmente para ativar uma funcionalidade ou não.<!--more-->
 
-Isso pode ser feito de diversas maneiras e um site reuniu algumas formas de fazer isso com diferentes linguagens. Esse site é o [Detect Mobile Browsers](http://detectmobilebrowsers.com/ "Detect Mobile Browsers")!
+Isso pode ser feito de diversas maneiras e um site reuniu algumas formas de fazer isso com diferentes linguagens. Esse site é o [Detect Mobile Browsers](https://detectmobilebrowsers.com/ "Detect Mobile Browsers")!
 
 Da uma conferida nesse site, pois é muito útil!
 

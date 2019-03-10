@@ -95,7 +95,7 @@ Saiba mais sobre o RPM Fusion [aqui](https://rpmfusion.org/).
 Para ativar, basta rodar o comando:
 
 ```shell
-rpm -ivh http://download1.rpmfusion.org/free/fedora/rpmfusion-free-release-25.noarch.rpm
+rpm -ivh https://download1.rpmfusion.org/free/fedora/rpmfusion-free-release-25.noarch.rpm
 ```
 
 **Isso se você estiver utilizando a versão 25 do Fedora.**
@@ -266,7 +266,7 @@ Quando puder eu vou migrar para o Arch Linux, porém vou continuar no Fedora por
 
 Claro que ainda bate aquela saudade do Ubuntu por que foram anos utilizando essa distro e eu gostaria de ainda utilizá-la. Espero que o Fedora supra essa vontade. ;D
 
-Algumas outras configurações legais para devs você encontra [nesse post](http://imasters.com.br/desenvolvimento/personalizando-o-fedora-25-para-desenvolvedores/).
+Algumas outras configurações legais para devs você encontra [nesse post](https://imasters.com.br/desenvolvimento/personalizando-o-fedora-25-para-desenvolvedores/).
 
 Eai, curtiu esse post? Tem alguma dica sobre o Fedora para compartilhar? 
 

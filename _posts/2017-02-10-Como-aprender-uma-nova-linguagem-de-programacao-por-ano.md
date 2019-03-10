@@ -57,7 +57,7 @@ Mas existem maneiras de realmente aprender as linguagens.
 
 O Exercism é uma plataforma com diversos desafios em várias linguagens que podemos ir resolvendo para melhorar nossas habilidades ou mesmo aprender algo novo.
 
-Basta entrar [aqui](http://exercism.io/) com seu GitHub, instalar a CLI e baixar os exercícios na linguagem escolhida.
+Basta entrar [aqui](https://exercism.io/) com seu GitHub, instalar a CLI e baixar os exercícios na linguagem escolhida.
 
 Garanto que você vai quebrar a cabeça em alguns problemas.
 

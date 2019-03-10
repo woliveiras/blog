@@ -14,7 +14,7 @@ Principalmente a pessoas vindas da **periferia**, lugar de difícil acesso a inf
 
 Para isso eu utilizo este blog como meio de comunicação com essas pessoas. Seja escrevendo um artigo com algum conselho que eu gostaria de ter recebido quando comecei a trabalhar na área ou com séries onde eu ensino algo técnico.
 
-Sou autor do livro "[O universo da programação](http://bit.ly/universo-da-programacao)", um livro para quem deseja entrar na área de programação pela editora [Casa do Código](https://casadocodigo.com.br).
+Sou autor do livro "[O universo da programação](https://bit.ly/universo-da-programacao)", um livro para quem deseja entrar na área de programação pela editora [Casa do Código](https://casadocodigo.com.br).
 
 E também tenho um canal no YouTube com o mesmo nome: [O Universo da Programação - YouTube](https://www.youtube.com/channel/UCWrqsnPLl6aRX0ECUmPaZEw), onde complemento alguns assuntos que não cabem em um texto, além de fazer lives e trazer gente fera para conversar sobre programação no geral.
 

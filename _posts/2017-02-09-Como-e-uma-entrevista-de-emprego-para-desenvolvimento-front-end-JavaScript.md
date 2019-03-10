@@ -27,7 +27,7 @@ Se você já conhece a empresa que te chamou para a entrevista ou é alguma empr
 
 Os [requisitos das vagas](/posts/requisitos-para-vagas-front-end/) então… Assustam qualquer um.
 
-Parece que quem redigiu a vaga pesquisou linguagens de programação no Google e colocou tudo o que achou lá. Não duvide de encontrar a exigência de [ASSEMBLY](/posts/o-que-e-linguagem-de-programacao-de-alto-nivel/) (Assembly mesmo, nao [Web Assembly]](http://webassembly.org/)) pra desenvolvedores Front End sendo que na hora da entrevista técnica vemos que não tem nada a ver.
+Parece que quem redigiu a vaga pesquisou linguagens de programação no Google e colocou tudo o que achou lá. Não duvide de encontrar a exigência de [ASSEMBLY](/posts/o-que-e-linguagem-de-programacao-de-alto-nivel/) (Assembly mesmo, nao [Web Assembly]](https://webassembly.org/)) pra desenvolvedores Front End sendo que na hora da entrevista técnica vemos que não tem nada a ver.
 
 Depois de algum tempo como [desenvolvedor Front End - JavaScript](/posts/um-ano-como-desenvolvedor-front-end/) posso dizer que já passei por algumas entrevistas bem assustadoras e outras nem tanto.
 
@@ -43,7 +43,7 @@ Então é interessante reforçar esses assuntos.
 
 Peça para alguém que já atue na área para te fazer algumas perguntas sobre os temas que caem nas entrevistas de vagas front end, só para testar seus conhecimentos. Também vale muito a pena fazer alguns quizes, procurar testes na internet ou mesmo desenvolver alguma coisa.
 
-O [iMasters tem uma série de certificações](http://certificacao.imasters.com.br/), tente tirar esses certificados nem que seja só para testar seu conhecimento. A maioria das empresas não busca front enders certificados em alguma coisa, porém isso pode ser um plus.
+O [iMasters tem uma série de certificações](https://certificacao.imasters.com.br/), tente tirar esses certificados nem que seja só para testar seu conhecimento. A maioria das empresas não busca front enders certificados em alguma coisa, porém isso pode ser um plus.
 
 Independente de estarmos em um processo seletivo ou não sempre é importante praticar o que estudamos, senão acabamos esquecendo as coisas mais simples.
 

@@ -20,7 +20,7 @@ O Visual Studio Code é uma ferramenta de edição de textos fantástica que se 
 
 Para quem utiliza a linha de comando para rodar os comandos do Git, não a interface do Visual Studio Code, podemos rodar o comando `git mergetool`, quando queremos abrir uma ferramenta de merge em casos de conflitos. Podemos utilizar diversas ferramentas como o `vimdiff`, `meld merge`, `Git Kraken` e assim vai.
 
-A um tempo atrás eu utilizava o [Meld](http://meldmerge.org/), que é uma ferramenta bem legal, multiplataforma e open source, e também recomendo para quem não utiliza o Code.
+A um tempo atrás eu utilizava o [Meld](https://meldmerge.org/), que é uma ferramenta bem legal, multiplataforma e open source, e também recomendo para quem não utiliza o Code.
 
 Caso aconteça um conflito em um merge, bastaria executar `meld .` e teríamos uma interface maneira para garantir que não estamos perdendo nada na correção, como na imagem abaixo.
 

@@ -18,7 +18,7 @@ Com o lançamento do livro cada vez mais próximo, eu vim aqui falar um pouco so
 
 ## Por que eu decidi escrever um livro
 
-Não foi de uma hora para outra que eu decidi escrever um livro. Eu já vinha pensando nisso a algum tempo e o tema já estava até preparado na minha cabeça. Eu já tinha um roteiro planejado, como divulgar isso e até um esquema de entrega contínua, pois eu pensava em escrever e deixar no [GitHub](http://github.com/woliveiras/), assim como é o [Vim para Noobs](/vimparanoobs), um guia para iniciantes com o editor de textos Vim, aberto e gratuito na internet.
+Não foi de uma hora para outra que eu decidi escrever um livro. Eu já vinha pensando nisso a algum tempo e o tema já estava até preparado na minha cabeça. Eu já tinha um roteiro planejado, como divulgar isso e até um esquema de entrega contínua, pois eu pensava em escrever e deixar no [GitHub](https://github.com/woliveiras/), assim como é o [Vim para Noobs](/vimparanoobs), um guia para iniciantes com o editor de textos Vim, aberto e gratuito na internet.
 
 Normalmente a própria comunidade de programação compartilha esse tipo de material, pois queremos que as pessoas tenham acesso a essa informação e evoluam profissionalmente.
 
@@ -52,11 +52,11 @@ Dessa maneira o meu conteúdo não tem nenhuma validação, nenhuma garantia, de
 
 Publicar com uma editora é o que traria a confiança que eu preciso para que a diretoria das escolas aceitem que meu conteúdo entre lá.
 
-Quase que de imediato eu pensei em publicar através da [Casa do Código](http://casadocodigo.com.br). Isso porque eu conheço o trabalho da editora, conheço autores e autoras que publicaram por lá e as pessoas que trabalham no grupo Caelum.
+Quase que de imediato eu pensei em publicar através da [Casa do Código](https://casadocodigo.com.br). Isso porque eu conheço o trabalho da editora, conheço autores e autoras que publicaram por lá e as pessoas que trabalham no grupo Caelum.
 
 A Casa do Código é uma editora muito bem vista pela comunidade de programação, então as pessoas, provavelmente, indicariam meu livro para iniciantes (assim eu espero) que estão buscando um rumo na área.
 
-Além dessa boa fama da editora, o grupo Caelum trabalha muito bem seu conteúdo para que seja acessível para iniciantes. Desde o treinamento de instrutores até o seu podcast, o [Hipsters.tech](http://hipsters.tech/), todo o conteúdo é trabalhado para que qualquer pessoa entenda o que está sendo falado. Isso acaba trazendo o público certo para o conteúdo do livro (assim eu espero²).
+Além dessa boa fama da editora, o grupo Caelum trabalha muito bem seu conteúdo para que seja acessível para iniciantes. Desde o treinamento de instrutores até o seu podcast, o [Hipsters.tech](https://hipsters.tech/), todo o conteúdo é trabalhado para que qualquer pessoa entenda o que está sendo falado. Isso acaba trazendo o público certo para o conteúdo do livro (assim eu espero²).
 
 ## Por que falar sobre carreira em programação
 

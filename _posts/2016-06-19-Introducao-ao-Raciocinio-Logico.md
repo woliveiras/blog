@@ -58,11 +58,11 @@ O Raciocínio Lógico nos aproxima de [pensamento sistemico](https://pt.wikipedi
 - Raciocínio, sinonimo de pensamento - Processamento de dados
 - Lógica, é o que utilizamos para tratar argumentos como verdadeiro ou falso para chegar a um resultado conclusivo
 
-O [Computador trabalha com binários 0 e 1](http://www.ime.usp.br/~elo/IntroducaoComputacao/Como%20funciona%20um%20computador.htm) e usa isso para processar os dados. Comparando o computador com nosso processo de raciocínio, nós usamos o Raciocínio Lógico para chegar a uma verdade, processamos mentalmente os argumentos entre verdadeiros e falsos.
+O [Computador trabalha com binários 0 e 1](https://www.ime.usp.br/~elo/IntroducaoComputacao/Como%20funciona%20um%20computador.htm) e usa isso para processar os dados. Comparando o computador com nosso processo de raciocínio, nós usamos o Raciocínio Lógico para chegar a uma verdade, processamos mentalmente os argumentos entre verdadeiros e falsos.
 
 ## E o que são esses tais argumentos?
 
-Os argumentos são enunciados que se relacionam entre sí onde um [enunciado](http://www.dicio.com.br/enunciado/) é a **conclusão** e os demais são chamados **premissas**.
+Os argumentos são enunciados que se relacionam entre sí onde um [enunciado](https://www.dicio.com.br/enunciado/) é a **conclusão** e os demais são chamados **premissas**.
 
 Onde as premissas são suposições de algo e a conclusão é o resultado do processamento dessas suposições.
 
@@ -108,12 +108,12 @@ Esse post foi uma introdução ao Raciocínio Lógico, mas ainda temos outros t�
 
 Eu não abordei, nesse artigo, a classificação da lógica, pois implica em mais história da lógica, então de uma olhadinha nesses artigos para aprender um pouco mais sobre isso e se preparar para os próximos artigos:
 
-- [Lógica de Aristóteles](http://brasilescola.uol.com.br/filosofia/logica-aristoteles.htm)
-- [Uma classificação da lógica](http://www.eumed.net/libros-gratis/2009a/499/UMA%20CLASSIFICACAO%20DA%20LOGICA.htm)
+- [Lógica de Aristóteles](https://brasilescola.uol.com.br/filosofia/logica-aristoteles.htm)
+- [Uma classificação da lógica](https://www.eumed.net/libros-gratis/2009a/499/UMA%20CLASSIFICACAO%20DA%20LOGICA.htm)
 
 ## Referências
 
-- http://www4.pucsp.br/~logica/
-- http://educacao.globo.com/telecurso/noticia/2015/04/o-que-e-o-raciocinio-logico.html
-- http://educacao.uol.com.br/disciplinas/filosofia/logica---argumento-um-conjunto-de-enunciados-articulados-entre-si.htm
+- https://www4.pucsp.br/~logica/
+- https://educacao.globo.com/telecurso/noticia/2015/04/o-que-e-o-raciocinio-logico.html
+- https://educacao.uol.com.br/disciplinas/filosofia/logica---argumento-um-conjunto-de-enunciados-articulados-entre-si.htm
 - https://pt.wikipedia.org/wiki/Argumento

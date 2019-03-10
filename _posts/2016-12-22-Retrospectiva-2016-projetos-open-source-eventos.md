@@ -21,7 +21,7 @@ Esse ano criei mais projetos do que no ano passado.
 
 ### Fevereiro
 
-- [Modularize your Gulpfile](https://github.com/woliveiras/modularize-your-gulpfile): Baseado [nesse artigo](http://macr.ae/article/splitting-gulpfile-multiple-files.html) montei um esquema para facilitar a modularização das tasks quando eu criar um novo projeto utilizando Gulp;
+- [Modularize your Gulpfile](https://github.com/woliveiras/modularize-your-gulpfile): Baseado [nesse artigo](https://macr.ae/article/splitting-gulpfile-multiple-files.html) montei um esquema para facilitar a modularização das tasks quando eu criar um novo projeto utilizando Gulp;
 - [My precious links](https://github.com/woliveiras/my-precious-links): Inicialmente montei um Dailylog, parecido com o do Zeh Fernando e do Felipe Fialho, mas percebi que não manteria o ritmo e, seguindo a dica do [@marquinhusgoncalves](https://github.com/marquinhusgoncalves), mudei o foco do projeto para salvar meus links favoritos para futuras consultas;
 
 ### Abri
@@ -51,19 +51,19 @@ Quero aqui agradecer a cada um que tem ajudado o [CT](https://twitter.com/ct_org
 
 Esse ano fizemos o primeiro ABC-Dev! A primeira conferência da [nossa comunidade](https://github.com/abc-dev) no Grande ABC Paulista.
 
-Foi um evento incrível, graças ao apoio da comunidade, patrocinadores, da HPE, [excelentes palestrantes](http://2016.abcdevelopers.org/#palestrantes) e muita gente animada que participou. - Ano que vem tem mais
+Foi um evento incrível, graças ao apoio da comunidade, patrocinadores, da HPE, [excelentes palestrantes](https://2016.abcdevelopers.org/#palestrantes) e muita gente animada que participou. - Ano que vem tem mais
 
 Esse ano eu tive que [deixar de ser o responsável pelo FEMUG-ABC](https://woliveiras.com.br/posts/novos-ares-para-o-femug-abc/) , mas continuo tentando ajudar o pessoal de alguma maneira.
 
-Fora o FEMUG-ABC, tento ajudar o [CRUD-ABC](http://crudabc.org/) que saiu da jaula esse ano para os Back Enders do Grande ABC.
+Fora o FEMUG-ABC, tento ajudar o [CRUD-ABC](https://crudabc.org/) que saiu da jaula esse ano para os Back Enders do Grande ABC.
 
 ### Palestras
 
 Além de ajudar na organização dos eventos eu também palestrei esse ano:
 
-- [FEMUG-ABC #8 - O JavaScript e o perfil do Desenvolvedor Front End das atualidades mais atuais de todos os tempos](http://femug-abc.github.io/femug-8-javascript-e-o-desenvolvedor-front-end);
-- [GDG-ABC - Você não precisa de uma sopa de letrinhas para criar web apps](http://www.slideshare.net/williamoliveira542/voc-no-precisa-de-uma-sopa-de-letrinhas-para-criar-web-apps);
-- [CRUD-ABC #1 - Blogando feito um Hackudo usando Jekyll](http://crudabc.org/crud-abc-1-conteudo/);
+- [FEMUG-ABC #8 - O JavaScript e o perfil do Desenvolvedor Front End das atualidades mais atuais de todos os tempos](https://femug-abc.github.io/femug-8-javascript-e-o-desenvolvedor-front-end);
+- [GDG-ABC - Você não precisa de uma sopa de letrinhas para criar web apps](https://www.slideshare.net/williamoliveira542/voc-no-precisa-de-uma-sopa-de-letrinhas-para-criar-web-apps);
+- [CRUD-ABC #1 - Blogando feito um Hackudo usando Jekyll](https://crudabc.org/crud-abc-1-conteudo/);
 
 ## Estudos
 
@@ -83,6 +83,6 @@ Acabamos ficando tão viciados em Frameworks (like Angular) que deixamos a lingu
 
 Para o ano que vem espero contribuir com a vida de muita gente através dos projetos e do Open Source e torço pra que eu consiga priorizar um tempo para escrever mais aqui, pois tenho muita coisa pra falar! ;D
 
-Não vou nem colocar metas, pois esse ano tentei fazer menos que 100 coisas e não consegui, da uma olhada na lista clicando [aqui](http://leobalter.github.io/100-coisas-dev/listas/william-oliveira/), mas espero vários desafios legais para 2017.
+Não vou nem colocar metas, pois esse ano tentei fazer menos que 100 coisas e não consegui, da uma olhada na lista clicando [aqui](https://leobalter.github.io/100-coisas-dev/listas/william-oliveira/), mas espero vários desafios legais para 2017.
 
 Um forte abraço e tenha um feliz ano novo.

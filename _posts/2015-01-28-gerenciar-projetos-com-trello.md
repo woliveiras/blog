@@ -21,7 +21,7 @@ Se você precisa de uma ferramenta para ajudar a se organizar, o [Trello](https:
 
 ## O que é o Trello?
 
-É uma ferramenta de Gerenciamento de Projetos muito fácil de ser utilizado e prático! Ele é aquele velho quadro onde colamos os Post-its para as tarefas que usamos em metodologias ágeis como o [Scrum](http://pt.wikipedia.org/wiki/Scrum "Scrum")
+É uma ferramenta de Gerenciamento de Projetos muito fácil de ser utilizado e prático! Ele é aquele velho quadro onde colamos os Post-its para as tarefas que usamos em metodologias ágeis como o [Scrum](https://pt.wikipedia.org/wiki/Scrum "Scrum")
 
 ![Task Board]({{site.post_images}}taskboard-de-projeto-em-scrum-fazer-fazendo-feito.jpg)
 
@@ -78,8 +78,8 @@ Essas são as que eu utilizo no dia-a-dia, porém existem várias outras. Da uma
 
 ## Referências
 
-[Elton Minetto](http://eltonminetto.net/blog/2012/06/27/gerenciando-projetos-com-o-trello/ "Gerenciando projetos com o Trello")
+[Elton Minetto](https://eltonminetto.net/blog/2012/06/27/gerenciando-projetos-com-o-trello/ "Gerenciando projetos com o Trello")
 
-[SEOMaster](http://www.seomaster.com.br/blog/as-6-melhores-extensoes-do-trello "As 6 melhores extensões do Trello")
+[SEOMaster](https://www.seomaster.com.br/blog/as-6-melhores-extensoes-do-trello "As 6 melhores extensões do Trello")
 
 E você tem mais alguma dica para utilização do Trello ou outras ferramentas? Comenta ai!

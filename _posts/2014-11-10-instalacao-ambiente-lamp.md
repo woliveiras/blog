@@ -13,13 +13,13 @@ date: 2014-11-10 08:15:26
 description: Instalação do LAMP (Linux, Apache, MySQL e PHP)
 ---
 
-Apesar de muita gente estar migrando para o [Nginx](http://pt.wikipedia.org/wiki/Nginx "Nginx"), muitos começam os estudos em PHP usando [Apache](http://pt.wikipedia.org/wiki/Servidor_Apache "Apache"), [MySQL](http://pt.wikipedia.org/wiki/MySQL "MySQL") e [Linux](http://pt.wikipedia.org/wiki/Linux "Linux") no servidor de hospedagem ou localmente - Se você é usuário Windows, eu recomendo fortemente a utilização do [Vagrant](http://woliveiras.com.br/tags/Vagrant/ "Crie e compartilhe ambientes com o Vagrant (Instalação)") para que você use o Linux em uma VM e aprenda um pouco sobre o S.O. durante seus estudos. Isso fará diferença para você conhecer melhor seu próprio servidor de Hospedagem, já que a maioria é Linux.
+Apesar de muita gente estar migrando para o [Nginx](https://pt.wikipedia.org/wiki/Nginx "Nginx"), muitos começam os estudos em PHP usando [Apache](https://pt.wikipedia.org/wiki/Servidor_Apache "Apache"), [MySQL](https://pt.wikipedia.org/wiki/MySQL "MySQL") e [Linux](https://pt.wikipedia.org/wiki/Linux "Linux") no servidor de hospedagem ou localmente - Se você é usuário Windows, eu recomendo fortemente a utilização do [Vagrant](https://woliveiras.com.br/tags/Vagrant/ "Crie e compartilhe ambientes com o Vagrant (Instalação)") para que você use o Linux em uma VM e aprenda um pouco sobre o S.O. durante seus estudos. Isso fará diferença para você conhecer melhor seu próprio servidor de Hospedagem, já que a maioria é Linux.
 
 <!--more-->
 
 Esse conjunto de itens é que recebe o nome de LAMP (**L** inux, **A** pache, **M** ySQL e **P** HP).
 
-Para esse tutorial eu estou utilizando um servidor [Ubuntu Server](http://www.ubuntu.com/download/server "Ubuntu Server"), portanto os comandos utilizados aqui servirão muito bem para você no Ubuntu ou no Debian e qualquer outro S.O. baseado no Debian.
+Para esse tutorial eu estou utilizando um servidor [Ubuntu Server](https://www.ubuntu.com/download/server "Ubuntu Server"), portanto os comandos utilizados aqui servirão muito bem para você no Ubuntu ou no Debian e qualquer outro S.O. baseado no Debian.
 
 Antes de tudo, atualize seu repositório executando o comando:
 

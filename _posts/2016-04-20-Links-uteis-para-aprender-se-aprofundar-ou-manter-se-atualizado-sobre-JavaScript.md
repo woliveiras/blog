@@ -30,7 +30,7 @@ O Site da Mozilla é meu link de referência favorito:
 
 O Tableless é outro site que acompanho desde que comecei a ouvir falar de Web.
 
-- [Tableless | JavaScript](http://tableless.com.br/code/javascript/)
+- [Tableless | JavaScript](https://tableless.com.br/code/javascript/)
 
 Recentemente conheci o blog do [Matheus Lima](https://matheuslima.com/) com muita coisa maneira sobre JS e Talks excelentes sobre Programação Funcional:
 
@@ -45,36 +45,36 @@ No seu canal no YouTube, o Rodrigo Branas ensina JavaScript, AngularJS e, agora,
 
 Na descrição do canal você encontra os links para os perfis do Rodrigo nas redes sociais.
 
-Blog do [Fernando Daciuk](http://blog.da2k.com.br/):
+Blog do [Fernando Daciuk](https://blog.da2k.com.br/):
 
-- [Javascript - como funcionam as funções recursivas](http://blog.da2k.com.br/2015/02/27/javascript-como-funcionam-as-funcoes-recursivas/)
-- [Javascript - entendendo e criando suas próprias Promises](http://blog.da2k.com.br/2015/03/05/javascript-entendendo-e-criando-suas-proprias-promises/)
-- [Os segredos da IIFE](http://blog.da2k.com.br/2015/02/20/os-segredos-da-iife/)
-- [Escalando Javascript no browser](http://blog.da2k.com.br/2015/02/13/escalando-javascript-no-browser/)
-- [Javascript - assistindo mudanças no DOM sem temporizadores](http://blog.da2k.com.br/2015/02/07/javascript-assistindo-mudancas-no-dom-sem-temporizadores/)
-- [Clean code em Javascript - troque seu if gigante por métodos](http://blog.da2k.com.br/2015/01/22/clean-code-em-javascript-troque-seu-if-gigante-por-metodos/)
+- [Javascript - como funcionam as funções recursivas](https://blog.da2k.com.br/2015/02/27/javascript-como-funcionam-as-funcoes-recursivas/)
+- [Javascript - entendendo e criando suas próprias Promises](https://blog.da2k.com.br/2015/03/05/javascript-entendendo-e-criando-suas-proprias-promises/)
+- [Os segredos da IIFE](https://blog.da2k.com.br/2015/02/20/os-segredos-da-iife/)
+- [Escalando Javascript no browser](https://blog.da2k.com.br/2015/02/13/escalando-javascript-no-browser/)
+- [Javascript - assistindo mudanças no DOM sem temporizadores](https://blog.da2k.com.br/2015/02/07/javascript-assistindo-mudancas-no-dom-sem-temporizadores/)
+- [Clean code em Javascript - troque seu if gigante por métodos](https://blog.da2k.com.br/2015/01/22/clean-code-em-javascript-troque-seu-if-gigante-por-metodos/)
 
 E tem muito mais.
 
-Blog do [Caio Ribeiro Pereira](http://udgwebdev.com/):
+Blog do [Caio Ribeiro Pereira](https://udgwebdev.com/):
 
-- [Frontend moderno com Browserify e Babel](http://udgwebdev.com/frontend-moderno-com-browserify-e-babel)
+- [Frontend moderno com Browserify e Babel](https://udgwebdev.com/frontend-moderno-com-browserify-e-babel)
 
-Blog do [Jean Carlo Emer](http://jcemer.com/):
+Blog do [Jean Carlo Emer](https://jcemer.com/):
 
-- [Revisitando como atribuir comportamento a componentes](http://jcemer.com/revisitando-como-atribuir-comportamento-a-componentes.html)
+- [Revisitando como atribuir comportamento a componentes](https://jcemer.com/revisitando-como-atribuir-comportamento-a-componentes.html)
 
-Blog da [Caelum](http://blog.caelum.com.br/category/web-design/):
+Blog da [Caelum](https://blog.caelum.com.br/category/web-design/):
 
-- [Será que o onclick é do mal? As várias formas de escutar eventos em uma página](http://blog.caelum.com.br/sera-que-o-onclick-e-do-mal-as-varias-formas-de-ouvir-eventos-em-uma-pagina/)
+- [Será que o onclick é do mal? As várias formas de escutar eventos em uma página](https://blog.caelum.com.br/sera-que-o-onclick-e-do-mal-as-varias-formas-de-ouvir-eventos-em-uma-pagina/)
 
-Blog do [Jota Teles](http://jotateles.com.br/):
+Blog do [Jota Teles](https://jotateles.com.br/):
 
-- [Provider no angular: o que é, para que serve e como criar um](http://jotateles.com.br/javascript/2016/02/21/provider-angularjs.html)
+- [Provider no angular: o que é, para que serve e como criar um](https://jotateles.com.br/javascript/2016/02/21/provider-angularjs.html)
 
-Blog do [Willian Justen](http://willianjusten.com.br/):
+Blog do [Willian Justen](https://willianjusten.com.br/):
 
-- [Analisando seu código JS com um linter](http://willianjusten.com.br/analisando-seu-codigo-js-com-linter/)
+- [Analisando seu código JS com um linter](https://willianjusten.com.br/analisando-seu-codigo-js-com-linter/)
 
 Blog da [BrazilJS](https://braziljs.org):
 
@@ -99,12 +99,12 @@ Além de ler os artigos, também recomendo que siga esses autores nas redes soci
 ## Foruns
 
 - [FrontEndBR | forum](https://github.com/frontendbr/forum)
-- [Tableless](http://forum.tableless.com.br/c/javascript)
+- [Tableless](https://forum.tableless.com.br/c/javascript)
 - [MEAN Stack Brasil no Facebook](https://www.facebook.com/groups/meanstackbrasil)
 - [NodeJS Brasil no Facebook](https://www.facebook.com/groups/nodejsbrasil)
 - [JavaScript Brasil no Facebook](https://www.facebook.com/groups/javascriptbrasil)
 
-A maioria dessas comunidades possuem canais no [Slack](http://slack.com/). É uma boa você entrar nesses canais e participar das discussões, pois consegue tirar suas dúvidas e ajudar outras pessoas em real time!
+A maioria dessas comunidades possuem canais no [Slack](https://slack.com/). É uma boa você entrar nesses canais e participar das discussões, pois consegue tirar suas dúvidas e ajudar outras pessoas em real time!
 
 ## Mais pessoas legais para seguir, mais fontes de conteúdo e palestras
 

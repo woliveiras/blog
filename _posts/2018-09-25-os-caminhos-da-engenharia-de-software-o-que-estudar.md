@@ -26,14 +26,14 @@ Isso por que buscamos coisas específicas. Carreiras **específicas**. E é extr
 
 Em buscas desse tipo normalmente encontramos artigos como:
 
-- [Como se tornar um desenvolvedor full-stack no próximo ano](http://blog.alura.com.br/como-se-tornar-um-desenvolvedor-full-stack-no-proximo-ano/)
+- [Como se tornar um desenvolvedor full-stack no próximo ano](https://blog.alura.com.br/como-se-tornar-um-desenvolvedor-full-stack-no-proximo-ano/)
 - [Como Se Tornar um Programador](https://pt.wikihow.com/Se-Tornar-um-Programador)
 - [Como me tornar um Desenvolvedor Front End](https://leandrooriente.com/article/como-me-tornar-um-desenvolvedor-front-end)
 - [Um ano (ou um pouco mais) como desenvolvedor Front End](/posts/um-ano-como-desenvolvedor-front-end/)
 - [Profissão, Desenvolvedor Android](https://www.androidpro.com.br/blog/carreira/desenvolvedor-android/)
 - [Quanto custa ser um desenvolvedor para iPhone?](https://tecnoblog.net/38236/quanto-custa-ser-um-desenvolvedor-para-iphone/)
 - [Os 5 principais requisitos para ser um bom programador](https://www.tiagogouvea.com.br/os-5-principais-requisitos-para-ser-um-bom-programador)
-- [A carreira de programador: qual curso fazer primeiro?](http://blog.alura.com.br/a-carreira-de-programador-qual-curso-fazer-primeiro/)
+- [A carreira de programador: qual curso fazer primeiro?](https://blog.alura.com.br/a-carreira-de-programador-qual-curso-fazer-primeiro/)
 - [Como se tornar um desenvolvedor de jogos?](https://saga.art.br/como-se-tornar-um-desenvolvedor-de-jogos/)
 - [Como se tornar um desenvolvedor iOS certificado pela Apple](https://loiane.com/2013/01/como-se-tornar-um-desenvolvedor-ios-certificado-pela-apple-se-inscrever-no-ios-developer-program-sem-fax/)
 
@@ -67,7 +67,7 @@ Eu fiz essa lista a algum tempo e busco estudar o que está nela para me tornar 
 
 ## Conceitos de Engenharia de Software que muitas pessoas deixam passar
 
-A ideia para esse artigo veio de uma conversa no [Slack do Training Center](http://ctgroups.herokuapp.com/), uma comunidade para iniciantes em programação, sobre o que aprender quando parece que já dominamos o que usamos no trabalho como linguagens de programação, bancos de dados relacionais e não relacionais, http, frameworks, metodologias de trabalho, etc.
+A ideia para esse artigo veio de uma conversa no [Slack do Training Center](https://ctgroups.herokuapp.com/), uma comunidade para iniciantes em programação, sobre o que aprender quando parece que já dominamos o que usamos no trabalho como linguagens de programação, bancos de dados relacionais e não relacionais, http, frameworks, metodologias de trabalho, etc.
 
 Então veio a tona o que sempre deixamos passar: **os conhecimentos em Ciência da Computação e Engenharia de Software**. Estamos tão imersos em qual linguagem escolher e qual framework utilizar para resolver um problema que esquecemos que nosso trabalho vai muito além disso.
 
@@ -243,15 +243,15 @@ Além do Paradigma Funcional, outra coisa que está sendo muito cobrada hoje em 
 
 Testes de software não são coisa nova, isso existe e é usado a muito tempo e na faculdade as pessoas aprendem coisas como TDD e BDD, mas tem muita coisa nesse tópico que pode e deve ser estudado.
 
-Testes de software faz parte da matéria de Processos de desenvolvimento de software e envolve algo crítico em sistemas que é a **integridade do sistema**. Os testes automatizados num processo de [integração continua](http://blog.caelum.com.br/integracao-continua/), por exemplo, garantem uma segurança (bugs e erros) no código de uma aplicação e facilitam o deploy.
+Testes de software faz parte da matéria de Processos de desenvolvimento de software e envolve algo crítico em sistemas que é a **integridade do sistema**. Os testes automatizados num processo de [integração continua](https://blog.caelum.com.br/integracao-continua/), por exemplo, garantem uma segurança (bugs e erros) no código de uma aplicação e facilitam o deploy.
 
 Os testes são uma fase muito importante para manter a Qualidade de Software e é uma matéria também abordada em Processos de desenvolvimento de software, mas que tem seu ramo separado cheio de coisas importantes a se estudar.
 
 Recursos legais para aprender mais sobre testes:
 
 - [Entendendo Testes de Software](https://willianjusten.com.br/entendendo-testes-de-software/)
-- [Teste de software: Introdução, conceitos básicos e tipos de testes](http://blog.onedaytesting.com.br/teste-de-software/)
-- [JS com TDD na Prática](http://willianjusten.teachable.com/p/js-com-tdd-na-pratica)
+- [Teste de software: Introdução, conceitos básicos e tipos de testes](https://blog.onedaytesting.com.br/teste-de-software/)
+- [JS com TDD na Prática](https://willianjusten.teachable.com/p/js-com-tdd-na-pratica)
 - [Software Testing](https://en.wikipedia.org/wiki/Software_testing)
 - [Software Testing, Udacity](https://br.udacity.com/course/software-testing--cs258)
 
@@ -269,8 +269,8 @@ Nessa matéria também entra o custo do software, métricas de Gerenciamento de 
 
 Recursos para estudar esse assunto:
 
-- [Qualidade de software? O que é e porque você precisa ter!](http://www.targettrust.com.br/blog/desenvolvimento/testes/importancia-da-qualidade-de-software/)
-- [Qualidade, Qualidade de Software e Garantia da Qualidade de Software são as mesmas coisas?](http://www.linhadecodigo.com.br/artigo/1712/qualidade-qualidade-de-software-e-garantia-da-qualidade-de-software-sao-as-mesmas-coisas.aspx)
+- [Qualidade de software? O que é e porque você precisa ter!](https://www.targettrust.com.br/blog/desenvolvimento/testes/importancia-da-qualidade-de-software/)
+- [Qualidade, Qualidade de Software e Garantia da Qualidade de Software são as mesmas coisas?](https://www.linhadecodigo.com.br/artigo/1712/qualidade-qualidade-de-software-e-garantia-da-qualidade-de-software-sao-as-mesmas-coisas.aspx)
 
 Livros:
 
@@ -291,7 +291,7 @@ Para manter uma estratégia de manutenção de software vai ser bom conhecer bem
 Recursos para entender sobre Manutenção de Software:
 
 - [Software maintenance](https://en.wikipedia.org/wiki/Software_maintenance)
-- [Manutenção De Software](http://www.leandromtr.com/tecnologia-informacao/manutencao-de-software/)
+- [Manutenção De Software](https://www.leandromtr.com/tecnologia-informacao/manutencao-de-software/)
 
 ## Gerenciamento de Software
 
@@ -339,7 +339,7 @@ Alguns outros recursos para estudar Engenharia de Software:
 - [Introdução à Ciência da Computação](https://br.udacity.com/course/intro-to-computer-science--cs101)
 - [Intro to Theoretical Computer Science](https://br.udacity.com/course/intro-to-theoretical-computer-science--cs313)
 - [CS 50](https://www.edx.org/course/introduction-computer-science-harvardx-cs50x)
-- [CC 50](http://cc50.com.br/)
+- [CC 50](https://cc50.com.br/)
 
 O [Pedro Fernandes](https://medium.com/@peofmoreira) deixou uma dica muito boa pra gente aqui:
 

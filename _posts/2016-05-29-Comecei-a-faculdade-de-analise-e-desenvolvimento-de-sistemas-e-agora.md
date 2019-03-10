@@ -22,7 +22,7 @@ Eu, de verdade, não acho que uma faculdade seja motivo pra se achar o cara mais
 
 *[preconceito_mode=off]*
 
-Sem possuir um diploma universitário eu entrei em [bons empregos](https://www.linkedin.com/in/william-oliveira) e, posteriormente, na [área que eu queria e gosto de atuar](/posts/um-ano-como-desenvolvedor-front-end/), [aprendi a contribuir](/posts/contribuindo-para-projetos-open-source-no-github-mesmo-sendo-iniciante/) e [contribuo em projetos open source](http://github.com/woliveiras), dentre diversas outras [conquistas diárias](/categoria/retrospectiva).
+Sem possuir um diploma universitário eu entrei em [bons empregos](https://www.linkedin.com/in/william-oliveira) e, posteriormente, na [área que eu queria e gosto de atuar](/posts/um-ano-como-desenvolvedor-front-end/), [aprendi a contribuir](/posts/contribuindo-para-projetos-open-source-no-github-mesmo-sendo-iniciante/) e [contribuo em projetos open source](https://github.com/woliveiras), dentre diversas outras [conquistas diárias](/categoria/retrospectiva).
 
 ## O conteúdo que algumas faculdades passam é desanimador
 
@@ -83,7 +83,7 @@ Espero não ter ofendido nenhum professor, recrutador ou algum outro profissiona
 Opinião de outros Devs sobre a Faculdade:
 
 - [Faculdade de Informática, fazer ou não fazer? - Leandro Oriente](https://leandrooriente.com/faculdade-de-informatica-fazer-ou-nao-fazer/)
-- [Devo fazer faculdade? - Willian Justen](http://willianjusten.com.br/devo-fazer-faculdade/)
+- [Devo fazer faculdade? - Willian Justen](https://willianjusten.com.br/devo-fazer-faculdade/)
 
 Você curtiu esse artigo? Então compartilhe com os amiguinhos nas redes sociais!
 

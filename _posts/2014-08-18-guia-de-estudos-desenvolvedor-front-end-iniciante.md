@@ -17,7 +17,7 @@ Muitos iniciantes se perdem ao procurar o que aprender para iniciar a carreira c
 
 ## O guia de estudos para o Desenvolvedor Front End
 
-Encontrei, a um tempo atrás, um excelente artigo que está sendo essencial para meus estudos, virou uma trilha de estudos pra mim, que não sabia por onde começar ou o que fazer. O artigo foi [esse aqui](http://leandrooriente.com/como-me-tornar-um-desenvolvedor-front-end/ "Como me tornar um Desenvolvedor Front End")  do Leandro Oriente.
+Encontrei, a um tempo atrás, um excelente artigo que está sendo essencial para meus estudos, virou uma trilha de estudos pra mim, que não sabia por onde começar ou o que fazer. O artigo foi [esse aqui](https://leandrooriente.com/como-me-tornar-um-desenvolvedor-front-end/ "Como me tornar um Desenvolvedor Front End")  do Leandro Oriente.
 
 O artigo lá é completaaaasso e aqui vou deixar só um pouco da minha experiência em busca do conhecimento por ele proposto.
 
@@ -25,28 +25,28 @@ O artigo lá é completaaaasso e aqui vou deixar só um pouco da minha experiên
 
 Vale a pena investir em cursos presenciais ou vídeo aulas, porém eu curto mais vídeo aulas! Tem muito conteúdo gratuito na internet, seja no Youtube ou sites sobre o assunto. Eu só invisto em curso pago se, realmente, não tiver conteúdo bom de graça (Não sou pão duro, é que ainda não sou rico e pra ficar rico tem de economizar... ;P). Porém, se você não encontrou conteúdo bom free, vão alguns nomes pagos que eu conheço e são muito bons:
 
-* [alura.com.br](http://alura.com.br "Alura") (Da Caelum)
-* [code-squad.com](http://code-squad.com "Code Squad")
-* [campus.tableless.com.br/](http://campus.tableless.com.br/ "Tableless")
+* [alura.com.br](https://alura.com.br "Alura") (Da Caelum)
+* [code-squad.com](https://code-squad.com "Code Squad")
+* [campus.tableless.com.br/](https://campus.tableless.com.br/ "Tableless")
 
 ## HTML e CSS
 
 Eu já sabia HTML e CSS desde 2010, então só fiz uma atualização pro HTML5  e CSS3:
 
-* [HTML5 em 15 minutos](http://design.blog.br/web-design/html5-em-15-minutos-2a-edicao "HTML5 em 15 minutos")
-* [cursoemvideo.com/course/curso-de-html5/](http://cursoemvideo.com/course/curso-de-html5/ "Curso em Vídeo")
-* [Introdução rápida ao desenvolvimento em HTML5 com JavaScript e CSS3](http://www.microsoftvirtualacademy.com/training-courses/90f7eb67-0c78-44b5-90b6-43bca793bb14 "Introdução rápida ao desenvolvimento em HTML5 com JavaScript e CSS3")
+* [HTML5 em 15 minutos](https://design.blog.br/web-design/html5-em-15-minutos-2a-edicao "HTML5 em 15 minutos")
+* [cursoemvideo.com/course/curso-de-html5/](https://cursoemvideo.com/course/curso-de-html5/ "Curso em Vídeo")
+* [Introdução rápida ao desenvolvimento em HTML5 com JavaScript e CSS3](https://www.microsoftvirtualacademy.com/training-courses/90f7eb67-0c78-44b5-90b6-43bca793bb14 "Introdução rápida ao desenvolvimento em HTML5 com JavaScript e CSS3")
 
 ## Lógica de Programação
 
-Base pra você conseguir programar, se você não sabe lógica eu recomendo o curso da [Softblue de Lógica de Programação](http://www.softblue.com.br/site/curso/id/6/CURSO+LOGICA_DE_PROGRAMACAO_BASICO_ON_LINE_LO06 "Lógica de Programação - Softblue")(E no site deles também tem um curso completão [sobre SQL](http://www.softblue.com.br/site/curso/id/3/CURSO+SQL_COMPLETO_BASICO_AO_AVANCADO_ON_LINE_BD03 "SQL - Softblue")). Fora isso, seria maneiro baixar a apostila de lógica do site da [Caelum](https://www.caelum.com.br "Caelum").
+Base pra você conseguir programar, se você não sabe lógica eu recomendo o curso da [Softblue de Lógica de Programação](https://www.softblue.com.br/site/curso/id/6/CURSO+LOGICA_DE_PROGRAMACAO_BASICO_ON_LINE_LO06 "Lógica de Programação - Softblue")(E no site deles também tem um curso completão [sobre SQL](https://www.softblue.com.br/site/curso/id/3/CURSO+SQL_COMPLETO_BASICO_AO_AVANCADO_ON_LINE_BD03 "SQL - Softblue")). Fora isso, seria maneiro baixar a apostila de lógica do site da [Caelum](https://www.caelum.com.br "Caelum").
 
 ## Javascript
 
 Confesso que no começo eu não gostava muito desse barato não, mas com o tempo acabei curtindo e estou até me aprofundando mais pra tentar gostar(Não é igual Python né, mas...):
 
 * [www.codeschool.com/](https://www.codeschool.com/ "Code School")
-* [www.codecademy.com/](http://www.codecademy.com/ "Code Academy")
+* [www.codecademy.com/](https://www.codecademy.com/ "Code Academy")
 
 ## Depuração
 
@@ -65,7 +65,7 @@ No artigo do Leandro ele diz que é necessário conhecer outras áreas e **eu co
 Com esses Skills já dá pra conseguir alguma coisa. Procure fazer uns trampos para pessoas conhecidas só pra desenvolver suas habilidades e aprender um pouco mais.
 Depois dessas habilidades será necessário se aprofundar mais e estudar o seguinte:
 
-[Performance](http://leandrooriente.com/como-me-tornar-um-desenvolvedor-front-end/#perfomance "Performance"), [SEO](http://leandrooriente.com/como-me-tornar-um-desenvolvedor-front-end/#seo "SEO"), [Compiladores CSS](http://leandrooriente.com/como-me-tornar-um-desenvolvedor-front-end/#oocss-e-pr-compiladores "Pré Compiladores"), [Conhecer alguma linguagem Back End](End%20http://leandrooriente.com/como-me-tornar-um-desenvolvedor-front-end/#conhecimento-regular-em-algumas-linguagemns-server-side "Linguagem Back End"), [Virar ninja em JS](http://leandrooriente.com/como-me-tornar-um-desenvolvedor-front-end/#magias-negras-em-javascript "Ninja em JS") e...
+[Performance](https://leandrooriente.com/como-me-tornar-um-desenvolvedor-front-end/#perfomance "Performance"), [SEO](https://leandrooriente.com/como-me-tornar-um-desenvolvedor-front-end/#seo "SEO"), [Compiladores CSS](https://leandrooriente.com/como-me-tornar-um-desenvolvedor-front-end/#oocss-e-pr-compiladores "Pré Compiladores"), [Conhecer alguma linguagem Back End](End%20https://leandrooriente.com/como-me-tornar-um-desenvolvedor-front-end/#conhecimento-regular-em-algumas-linguagemns-server-side "Linguagem Back End"), [Virar ninja em JS](https://leandrooriente.com/como-me-tornar-um-desenvolvedor-front-end/#magias-negras-em-javascript "Ninja em JS") e...
 
 Claro que sempre tem algo a mais que você vai precisar aprender, mas tudo no seu tempo. Cuidado para não tentar aprender tudo de uma vez e acabar como eu em 2012, não aprendi quase nada – Depoimento de um menino que tentou aprender programação em 10 dias e quebrou a cara.
 

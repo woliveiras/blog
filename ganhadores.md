@@ -30,7 +30,7 @@ Compartilhar esta iniciativa com pessoas que você sabe que realmente precisam, 
 
 Compartilhar este post em redes sociais e grupos/comunidades nessas redes.
 
-Se tiver alguma dúvida, entre em contato comigo via Telegram (<a href="http://telegram.me/woliveiras" title="Meu usuário do Telegram">@woliveiras</a>).
+Se tiver alguma dúvida, entre em contato comigo via Telegram (<a href="https://telegram.me/woliveiras" title="Meu usuário do Telegram">@woliveiras</a>).
 
 <table>
     <thead>

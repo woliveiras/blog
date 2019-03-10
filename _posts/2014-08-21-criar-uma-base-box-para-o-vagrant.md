@@ -142,13 +142,13 @@ Será criado um arquivo package.box no diretório onde você rodou o comando - E
 
 O Luís Henrique do Grupo [Web Design Brasil](https://www.facebook.com/groups/WebDesignBR/ "Grupo Web Design Brasil") no Facebook, me apresentou uma outra facilidade para configuração da box no Vagrant, o [PuPHPet](https://puphpet.com/ "PuPHPet"), um site onde você vai escolhendo as configurações que você deseja para seu servidor e ele gera um arquivo de configurações do Puppet pra você - Tudo no automático, olha que maravilha.
 
-Tem, também, um outro que eu já uso que é o [Rove](http://rove.io/ "Rove.io"), porém esse gera a configuração para o Chef.
+Tem, também, um outro que eu já uso que é o [Rove](https://rove.io/ "Rove.io"), porém esse gera a configuração para o Chef.
 
 Com esses arquivos de configuração em mãos, é só deixá-los na pasta do projeto onde você vai subir o ambiente e rodar o vagrant up. Pronto! Tudo no esquema pra você começar a desenvolver.
 
 ## Referências
 
 * <https://docs.vagrantup.com/v2/boxes/base.html>
-* <http://aruizca.com/steps-to-create-a-vagrant-base-box-with-ubuntu-14-04-desktop-gui-and-virtualbox/>
+* <https://aruizca.com/steps-to-create-a-vagrant-base-box-with-ubuntu-14-04-desktop-gui-and-virtualbox/>
 
 Se você curtiu a dica, compartilha, se ficou com alguma dúvida, estou a disposição, pode deixar sua dúvida nos comentários.

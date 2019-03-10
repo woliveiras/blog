@@ -15,11 +15,11 @@ categories:
 description: Migrar de WordPress para Hexo. Como migrar de WordPress para um gerador estático?
 ---
 
-A um bom tempo sinto vontade de mudar meu Blog de WordPress para uma plataforma de  conteúdo estático, mas não achava nenhuma alternativa, pois que queria usar Nodejs. Por isso não fui para o, muito usado na comunidade, [Jekyll(Ruby)](http://jekyllrb.com/) , nem para o [Pelican(Python <3)](http://blog.getpelican.com/).<!--more-->
+A um bom tempo sinto vontade de mudar meu Blog de WordPress para uma plataforma de  conteúdo estático, mas não achava nenhuma alternativa, pois que queria usar Nodejs. Por isso não fui para o, muito usado na comunidade, [Jekyll(Ruby)](https://jekyllrb.com/) , nem para o [Pelican(Python <3)](https://blog.getpelican.com/).<!--more-->
 
 ![Hexo Blog]({{site.post_images}}hexo-logo.png)
 
-Em busca de uma alternativa encontrei o [Hexo](https://hexo.io) e, um pouco depois de eu conhecer essa plataforma, o [Daciuk](http://blog.da2k.com.br/) escreveu um [post](http://blog.da2k.com.br/2014/01/05/hexo-criando-um-blog-ao-estilo-miojo/) muito maneiro incentivando o seu uso. Foi então que eu decidi de vez usar essa plataforma!
+Em busca de uma alternativa encontrei o [Hexo](https://hexo.io) e, um pouco depois de eu conhecer essa plataforma, o [Daciuk](https://blog.da2k.com.br/) escreveu um [post](https://blog.da2k.com.br/2014/01/05/hexo-criando-um-blog-ao-estilo-miojo/) muito maneiro incentivando o seu uso. Foi então que eu decidi de vez usar essa plataforma!
 
 Bora conhecer ela e como foi a migração de WordPress para Hexo?
 
@@ -29,13 +29,13 @@ Antes de migrar nosso Blog(Ou o de um cliente) de uma plataforma para outra prec
 
 Minha primeira preocupação foi com os posts que eu já havia escrito, mas no próprio site do Hexo temos uma [solução para isso](https://hexo.io/docs/migration.html).
 
-As dicas sobre instalação do Hexo você encontra no Blog do [Daciuk](http://blog.da2k.com.br/2014/01/05/hexo-criando-um-blog-ao-estilo-miojo/) e no Blog do [Willian Santos](http://dwoond.github.io/Criando-seu-site-com-Hexo/).
+As dicas sobre instalação do Hexo você encontra no Blog do [Daciuk](https://blog.da2k.com.br/2014/01/05/hexo-criando-um-blog-ao-estilo-miojo/) e no Blog do [Willian Santos](https://dwoond.github.io/Criando-seu-site-com-Hexo/).
 
 ## Como escrever os posts
 
 Os posts no Hexo funcionam como em qualquer outro gerador estático. Escrevemos em Markdown e a postagem é gerada em HTML.
 
-Markdown não é difícil e podemos usar algumas ferramentas boas que auxiliam nisso como o [Haroopad](http://pad.haroopress.com/) ou o [Stackedit](https://stackedit.io/editor#), mas o Hexo também tem uma espécie de wp-admin, basta instalar o [Hexo Admin](https://github.com/jaredly/hexo-admin) se você sente necessidade.
+Markdown não é difícil e podemos usar algumas ferramentas boas que auxiliam nisso como o [Haroopad](https://pad.haroopress.com/) ou o [Stackedit](https://stackedit.io/editor#), mas o Hexo também tem uma espécie de wp-admin, basta instalar o [Hexo Admin](https://github.com/jaredly/hexo-admin) se você sente necessidade.
 
 ## Migrando os posts do WordPress para o Hexo
 
@@ -94,7 +94,7 @@ Basta configurar o deploy para o caminho do seu servidor:
 
 ```ruby
 # Deployment
-## Docs: http://hexo.io/docs/deployment.html
+## Docs: https://hexo.io/docs/deployment.html
 deploy:
   type: git
   repo: <seu repositório no gh pages>
@@ -105,6 +105,6 @@ E, assim que executar o comando hexo deploy, o site estará atualizado.
 ## Domínio
 
 Você pode usar seu próprio domínio ou deixar com o .github.io, depende só de você. ;)
-Para ter seu próprio domínio você pode seguir esses passos do [Willian Justen](http://willianjusten.com.br/dominio-proprio-no-github-pages/)(Quanto Willian/m em um só post...)
+Para ter seu próprio domínio você pode seguir esses passos do [Willian Justen](https://willianjusten.com.br/dominio-proprio-no-github-pages/)(Quanto Willian/m em um só post...)
 
 Por enquanto é só isso. Logo menos vou postar mais sobre o Hexo e como está sendo meu dia-a-dia com ele. Se você já tem experiência com Hexo ou outros geradores e quer deixar sua opinião, comenta aí! ;)

@@ -13,7 +13,7 @@ categories:
 description: Criando uma imagem Docker personalizada e conhecendo o Dockerfile.
 ---
 
-É muito legal poder baixar uma imagem do [Docker Hub](http://hub.docker.com/) e já sair criando os containers, modificando e brincando, mas e depois?
+É muito legal poder baixar uma imagem do [Docker Hub](https://hub.docker.com/) e já sair criando os containers, modificando e brincando, mas e depois?
 
 Como fazemos para levar essa imagem para outro host?
 
@@ -255,7 +255,7 @@ Para ver se deu tudo certo, basta rodar o `docker images` também.
 
 ## Subindo a imagem para o Docker Hub
 
-Para subir uma imagem para o Docker Hub, primeiro precisará de uma conta no [site](http://hub.docker.com/). Caso não possua, não precisa entrar no site agora (calma apressado(a)), durante o Login, é criado sua conta via Terminal mesmo.
+Para subir uma imagem para o Docker Hub, primeiro precisará de uma conta no [site](https://hub.docker.com/). Caso não possua, não precisa entrar no site agora (calma apressado(a)), durante o Login, é criado sua conta via Terminal mesmo.
 
 Faça login com sua conta no Terminal usando o comando `docker login`:
 

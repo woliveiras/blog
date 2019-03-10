@@ -45,7 +45,7 @@ Esses caras estão no grupo até hoje e colaboram muito!
 
 Sem essas pessoas, a nossa comunidade ([ABC-Dev](https://github.com/abc-dev)) não teria nascido.
 
-No dia 15 de Julho, fizemos nosso [primeiro encontro](http://www.meetup.com/pt-BR/femug-abc/events/223452463/), como Front-ABC, em um Starbucks, no Shopping ABC em Santo André.
+No dia 15 de Julho, fizemos nosso [primeiro encontro](https://www.meetup.com/pt-BR/femug-abc/events/223452463/), como Front-ABC, em um Starbucks, no Shopping ABC em Santo André.
 
 Nesse econtro compareceram o Felipe Uliana, na época meu colega de serviço, o Mario Leme, o [Danilo Vitoriano](https://twitter.com/danvitoriano) com o Gabriel Oziecki,  o [Marquinhhus](https://twitter.com/marquinhusgonc) (aquele que queria colaborar, mesmo sendo iniciante) e o Marcio Hiroyuki Miyamoto, deve ter mais algum que eu não me recordo e que deve ter ficado mais calado, por isso não lembro.
 
@@ -55,13 +55,13 @@ Então foi! Mudei o nome do Grupo para FEMUG-ABC, [enviei o PR](https://github.c
 
 *Perceba: **...demos início** *
 
-E logo depois veio a [primeira palestra](http://www.meetup.com/pt-BR/femug-abc/events/222745657/) como FEMUG-ABC, com o [Ubirajara Pelli](https://twitter.com/ubirajarapelli), sobre [Acessibilidade](http://femug-abc.github.io/femug-1-acessibilidade) na Omega Systems com o coffee patrocinado pelo [Danilo](http://www.fullcircle.com.br/) e com direito a brindes da [Caelum](https://www.caelum.com.br/) e cupom de desconto para o curso do [Fernando Daciuk](http://blog.da2k.com.br/cursos/).
+E logo depois veio a [primeira palestra](https://www.meetup.com/pt-BR/femug-abc/events/222745657/) como FEMUG-ABC, com o [Ubirajara Pelli](https://twitter.com/ubirajarapelli), sobre [Acessibilidade](https://femug-abc.github.io/femug-1-acessibilidade) na Omega Systems com o coffee patrocinado pelo [Danilo](https://www.fullcircle.com.br/) e com direito a brindes da [Caelum](https://www.caelum.com.br/) e cupom de desconto para o curso do [Fernando Daciuk](https://blog.da2k.com.br/cursos/).
 
 Depois disso, a maioria dos eventos foi na sede da Midia Performa, pelo apoio do [Ramiro Silva](https://twitter.com/Ramirodss), que se dispos a nos ajudar com o espaço super profissional e vem colaborando, também, até hoje.
 
 ## A comunidade é que tem o poder
 
-Tudo isso foi muito bom e logo em seguida foram rolando vários eventos do FEMUG, inclusive rolou um [Hackathon](https://github.com/front-abc/hackathon) **na casa** da [Andréa Zambrana](https://twitter.com/akfzambrana), [Dojo online](http://www.meetup.com/pt-BR/femug-abc/events/225254505/) e [muito mais](http://www.eventick.com.br/workshop-sass-me)!
+Tudo isso foi muito bom e logo em seguida foram rolando vários eventos do FEMUG, inclusive rolou um [Hackathon](https://github.com/front-abc/hackathon) **na casa** da [Andréa Zambrana](https://twitter.com/akfzambrana), [Dojo online](https://www.meetup.com/pt-BR/femug-abc/events/225254505/) e [muito mais](https://www.eventick.com.br/workshop-sass-me)!
 
 Você percebe uma coisa nessa trajetória?
 
@@ -87,7 +87,7 @@ Ultimamente tenho ficado sem tempo por conta da Faculdade, emprego mais longe de
 
 Eu não escolheria ninguém mais do que algum dos que sempre estiveram conosco desde os princípios e estivesse participando de forma ativa e com muita iniciativa pelo grupo. Portanto escolhi o mano **Ubirajara Pelli** para o cargo.
 
-Um dos primeiros a se candidatar para palestrar, um dos que são mais presentes em todos os encontros que rolaram até agora e já até conseguiu [espaço fixo](http://www.meetup.com/pt-BR/femug-abc/events/230870633/) para quando precisarmos!
+Um dos primeiros a se candidatar para palestrar, um dos que são mais presentes em todos os encontros que rolaram até agora e já até conseguiu [espaço fixo](https://www.meetup.com/pt-BR/femug-abc/events/230870633/) para quando precisarmos!
 
 Tenho certeza que vai vir muita coisa boa desse cara e o grupo vai continuar evoluindo.
 

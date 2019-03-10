@@ -53,7 +53,7 @@ Anote as tarefas que você precisa cumprir no dia. Separe essas tarefas em peque
 
 Crie pequenos objetivos para finalizar durante o dia.
 
-Pode ser em um papel ou em algum aplicativo. Em um outro post vou explicar como uso o [Wunderlist](http://wunderlist.com/) + o [Trello](http://trello.com/) para quebrar as tarefas. Por enquanto só saiba que precisa anotar isso tudo em algum lugar para que não fique pensando o tempo todo nessas atividades.
+Pode ser em um papel ou em algum aplicativo. Em um outro post vou explicar como uso o [Wunderlist](https://wunderlist.com/) + o [Trello](https://trello.com/) para quebrar as tarefas. Por enquanto só saiba que precisa anotar isso tudo em algum lugar para que não fique pensando o tempo todo nessas atividades.
 
 O fato de anotar vai ajudar a esvaziar sua mente e você vai melhorar o seu foco.
 

@@ -20,7 +20,7 @@ Para melhorar a velocidade do danado eu fiz as seguintes configurações(Todos o
 
 ## Atualize seu O.S.
 
-Muitas vezes temos problema que são resolvidos pela Canonical com atualizações e, as vezes, a performance depende disso. Portanto atualize agora! É bom ter os drivers de vídeo de fábrica instalados e não os que vem por padrão, mas não vou entrar em detalhes na instalação de Drivers por que é muito variável. Se sua placa for NVidia ou ATI, da uma olhada nesse [post](http://www.edivaldobrito.com.br/como-instalar-os-ultimos-drivers-da-nvidia-ou-ati-no-ubuntu-e-derivados/ "Como instalar os últimos drivers da NVIDIA ou ATI no Ubuntu e derivados") no Blog do Edivaldo que você vai ter uma solução! :D
+Muitas vezes temos problema que são resolvidos pela Canonical com atualizações e, as vezes, a performance depende disso. Portanto atualize agora! É bom ter os drivers de vídeo de fábrica instalados e não os que vem por padrão, mas não vou entrar em detalhes na instalação de Drivers por que é muito variável. Se sua placa for NVidia ou ATI, da uma olhada nesse [post](https://www.edivaldobrito.com.br/como-instalar-os-ultimos-drivers-da-nvidia-ou-ati-no-ubuntu-e-derivados/ "Como instalar os últimos drivers da NVIDIA ou ATI no Ubuntu e derivados") no Blog do Edivaldo que você vai ter uma solução! :D
 
 Execute o seguinte comando sempre que for atualizar o O.S.:
 
@@ -89,7 +89,7 @@ Sabe quando você maximiza uma janela e o menu some? Então, para fazer eles apa
 
 ## Open GL no modo Rápido
 
-[OpenGL](http://pt.wikipedia.org/wiki/OpenGL "OpenGL segundo a Wikipedia") é uma API utilizada para desenvolvimento de aplicativos Gráficos (Tipo o DirectX). Volte a tela inicial do Compiz e clique em **OpenGL**, na opção **Filtro de textura**, mude para **Rápido.** Se a opção **Sincronização** **VBlank** não estiver ativada, ative agora. Vai dar uma boa velocidade pro PC!
+[OpenGL](https://pt.wikipedia.org/wiki/OpenGL "OpenGL segundo a Wikipedia") é uma API utilizada para desenvolvimento de aplicativos Gráficos (Tipo o DirectX). Volte a tela inicial do Compiz e clique em **OpenGL**, na opção **Filtro de textura**, mude para **Rápido.** Se a opção **Sincronização** **VBlank** não estiver ativada, ative agora. Vai dar uma boa velocidade pro PC!
 
 ## Preload
 
@@ -159,12 +159,12 @@ sudo apt-get update [PRESSIONE ENTER]
 sudo apt-get install indicator-keylock
 ```
 
-Além dessas configurações, se você quiser mais performance ainda é preciso instalar outro gerenciador de Desktop no lugar do Unity ([LXDE](http://lxde.org/pt-br "LXDE"), [XFCE](http://www.xfce.org/ "XFCE"), etc). Nesse caso teríamos uma alternativa bem legal que é o [Xubuntu](http://xubuntu.org/ "Xubuntu").
+Além dessas configurações, se você quiser mais performance ainda é preciso instalar outro gerenciador de Desktop no lugar do Unity ([LXDE](https://lxde.org/pt-br "LXDE"), [XFCE](https://www.xfce.org/ "XFCE"), etc). Nesse caso teríamos uma alternativa bem legal que é o [Xubuntu](https://xubuntu.org/ "Xubuntu").
 
 Todas as dicas eu uso no meu PC, algumas foram através de testes pessoais e outras através de alguns blogs legais sobre o Ubuntu que são esses:
 
 * [Linux Tugaz](https://linuxtugaz.wordpress.com/2014/04/20/deixe-o-seu-ubuntu-14-04-quase-perfeito/ "Linux Tugaz")
-* [Elias Praciano](http://elias.praciano.com/2014/05/como-melhorar-o-desempenho-do-ubuntu/ "Elias Praciano")
-* [Ubuntu BR SC](http://www.ubuntubrsc.com/como-deixar-seu-ubuntu-mais-rapido.html "UbuntuBRSC")
+* [Elias Praciano](https://elias.praciano.com/2014/05/como-melhorar-o-desempenho-do-ubuntu/ "Elias Praciano")
+* [Ubuntu BR SC](https://www.ubuntubrsc.com/como-deixar-seu-ubuntu-mais-rapido.html "UbuntuBRSC")
 
 E você tem alguma dica para melhorar ou personalizar mais as distros? Comenta ae! :D

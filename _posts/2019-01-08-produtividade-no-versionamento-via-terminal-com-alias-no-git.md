@@ -212,6 +212,6 @@ Não esquece de compartilhar este artigo com o pessoal que não gosta muito de T
 - [Git Basics - Git Aliases](https://git-scm.com/book/en/v2/Git-Basics-Git-Aliases)
 - [Artigo do Tim Pettersen](https://hackernoon.com/lesser-known-git-commands-151a1918a60)
 - [Hacker Noon](https://hackernoon.com)
-- [16 awesome git aliases that you will love](http://codersopinion.com/blog/16-awesome-git-aliases-that-you-will-love/)
+- [16 awesome git aliases that you will love](https://codersopinion.com/blog/16-awesome-git-aliases-that-you-will-love/)
 
 Foto de capa por [Simson Petrol via Unsplash](https://unsplash.com/photos/IojCPQ2rWe8).

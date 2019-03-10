@@ -12,7 +12,7 @@ date: 2015-09-08 22:00:00
 ---
 
 
-Muita gente critica o uso do [Twitter Bootstrap](http://getbootstrap.com/) devido a nomenclatura de suas classes e aos muitos componentes que o framework possui.
+Muita gente critica o uso do [Twitter Bootstrap](https://getbootstrap.com/) devido a nomenclatura de suas classes e aos muitos componentes que o framework possui.
 
 Dizem que as classes não são semanticas e que o peso do framework é desnecessário.
 
@@ -26,13 +26,13 @@ Se você já conhece pré processadores, será fácil aprender essa forma de uti
 
 #### Para aprender Less:
 
-- http://lesscss.org/
-- http://blog.caelum.com.br/css-facil-flexivel-e-dinamico-com-less/
+- https://lesscss.org/
+- https://blog.caelum.com.br/css-facil-flexivel-e-dinamico-com-less/
 
 #### Para aprender Sass:
 
-- http://sass-lang.com/guide
-- http://pre-processadores.github.io/Sass-Guide/
+- https://sass-lang.com/guide
+- https://pre-processadores.github.io/Sass-Guide/
 
 Eu recomendo começar pelo Less pela sintaxe já ser mais familiar e depois migrar para o Sass, pois o BS também vai mudar para Sass na versão 4.
 
@@ -66,7 +66,7 @@ Antes de começar a codificar, identifique no projeto quais seriam os componente
 
 Essa parte é muito importante para deixar o arquivo final mais enxuto.
 
-Se você não conhece todos os componentes do BS, da uma olhada [aqui](http://getbootstrap.com/components/ "Components Bootstrap").
+Se você não conhece todos os componentes do BS, da uma olhada [aqui](https://getbootstrap.com/components/ "Components Bootstrap").
 
 Depois disso você pode abrir o arquivo **default.less** que está dentro de **src/less**. É nesse arquivo que você seleciona os componentes que vão entrar no projeto. Nele estão os **imports** necessários para tudo funcionar.
 
@@ -92,7 +92,7 @@ Digamos que você vai utilizar modal e tooltips, então você pode remover as ba
 
 **path_bootstrap** é uma variável que leva o caminho completo do BS para compilação. Ele vai chamar esse arquivo para compilar e concatenar no arquivo final compilado com os estilos do BS + os seus estilos.
 
-Algumas variáveis importantes você pode conhecer [aqui](http://getbootstrap.com/css/#less "Referência do BS com Less").
+Algumas variáveis importantes você pode conhecer [aqui](https://getbootstrap.com/css/#less "Referência do BS com Less").
 
 Os componentes necessários na maioria dos projetos já estão sem as // no arquivo default do Pastel, que são esses:
 
@@ -191,4 +191,4 @@ Os nomes de arquivos e a forma que eu utilizo não são um padrão e você não
 
 ## Referência
 
-[Bootstrap Inteligente - Rafa Mello](http://blog.rafamello.com/bootstrap-inteligente "Bootstrap Inteligente")
+[Bootstrap Inteligente - Rafa Mello](https://blog.rafamello.com/bootstrap-inteligente "Bootstrap Inteligente")

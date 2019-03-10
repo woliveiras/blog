@@ -146,4 +146,4 @@ Agora, quando você enviar seu projeto para alguém, ele só precisará acessar 
 
 Gostou da dica? Então comenta aqui e compartilha! \o/
 
-* [O que é um arquivo manifesto](http://en.wikipedia.org/wiki/Manifest_file)
+* [O que é um arquivo manifesto](https://en.wikipedia.org/wiki/Manifest_file)

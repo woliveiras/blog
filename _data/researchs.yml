@@ -1,25 +1,25 @@
 active:
   - title: O perfil da pessoa desenvolvedora fullstack
     description: Pesquisa sobre o que estão fazendo e o que pensam as pessoas desenvolvedoras fullstack, assim como o que pensam as especialistas sobre ser fullstack.
-    url: http://bit.ly/pd-fullstack-dev
+    url: https://bit.ly/pd-fullstack-dev
   - title: Salário de pessoas desenvolvedoras de software
     description: Pesquisa para entendermos melhor qual o salário de pessoas desenvolvedoras de software, para não cairmos em armadilhas na hora da negociação.
-    url: http://bit.ly/pd-salario-dev
+    url: https://bit.ly/pd-salario-dev
   - title: Cursos online de programação
     description: Pesquisa sobre como as pessoas utilizam cursos online para aprender programação e qual o melhor formato para tal.
-    url: http://bit.ly/pd-cursos-online
+    url: https://bit.ly/pd-cursos-online
   - title: Dificuldade de aprender JavaScript
     description: Pesquisa sobre o que as pessoas acham mais complicado em aprender JavaScript.
-    url: http://bit.ly/pd-javascript-dificults
+    url: https://bit.ly/pd-javascript-dificults
   - title: Por que as pessoas mudam de área
     description: Pesquisa para entender o porque as pessoas mudam de área dentro do mundo da tecnologia ou porque vieram para programação
-    url: http://bit.ly/pd-mudanca-de-area
+    url: https://bit.ly/pd-mudanca-de-area
   - title: Opinião sobre tecnologias de programação web
     description: Pesquisa sobre quais as tecnologias web que as pessoas acham mais complicadas e mais fáceis.
-    url: http://bit.ly/pd-tec-web
+    url: https://bit.ly/pd-tec-web
   - title: Contribuição com comunidades de programação
     description: Pesquisa sobre a participação em comunidades de programação para entender como as pessoas interagem nesses grupos.
-    url: http://bit.ly/pd-contribuicao-comunidades
+    url: https://bit.ly/pd-contribuicao-comunidades
 
 # finished:
 #   - title: Teste

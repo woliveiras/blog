@@ -19,7 +19,7 @@ Pois é, Frameworks servem para isso... Vem comigo que vou explicar melhor. ;)<
 
 ## O que são Frameworks?
 
-Você pega aqueles códigos que se repetem entre os projetos, adiciona uma pitada de [Padrões](http://pt.wikipedia.org/wiki/Padr%C3%A3o_de_projeto_de_software "Wikipedia - Padrões de Projetos"), deixa conforme sua equipe precisa ou [conforme sua empresa trabalha](http://tableless.com.br/locaweb-style-como-iniciamos/ "Locaweb Style - Framework Front End da Locaweb"), empacota tudo isso pra poder reutilizar depois e pronto, criou um Framework!
+Você pega aqueles códigos que se repetem entre os projetos, adiciona uma pitada de [Padrões](https://pt.wikipedia.org/wiki/Padr%C3%A3o_de_projeto_de_software "Wikipedia - Padrões de Projetos"), deixa conforme sua equipe precisa ou [conforme sua empresa trabalha](https://tableless.com.br/locaweb-style-como-iniciamos/ "Locaweb Style - Framework Front End da Locaweb"), empacota tudo isso pra poder reutilizar depois e pronto, criou um Framework!
 Só isso? Sim, só isso... Framework é uma ferramenta com os códigos, padrões, etc, que você consegue utilizar pra resolver problemas que se repetem ou mesmo pra iniciar projetos que vão possuir as mesmas características seja no Front, Back End ou mesmo para [Tooling(Ferramentas)](https://github.com/woliveiras/pastel). Quando você utiliza um Framework como base, pode somente baixar ele, configurar ou instalar e seguir dali para as necessidades específicas de cada projeto. Isso mata muito tempo que você perderia fazendo algo que sabe que vai repetir no próximo trabalho.
 
 ## Frameworks são bons mesmo?
@@ -27,15 +27,15 @@ Só isso? Sim, só isso... Framework é uma ferramenta com os códigos, padrões
 Minha resposta é: São sim, mas eles dependem de você para não estragá-los.
 Temos vários tipos de Frameworks pra todos os gostos e peculiaridades, porém nem sempre o mesmo que você usa para um projeto grande será interessante em um projeto pequeno. As vezes temos uma ferramenta específica só para coisas pequenas e outras só para coisas grandes.
 
-Frameworks são muito bons pela praticidade em se iniciar um projeto com metade do trabalho já feito, claro, mas você tem de entender [quando utilizar e quando não utilizar](http://tableless.com.br/quando-utilizar-ou-nao-frameworks-css/ "Quando utilizar (ou não) frameworks CSS - Talita Pagani").
+Frameworks são muito bons pela praticidade em se iniciar um projeto com metade do trabalho já feito, claro, mas você tem de entender [quando utilizar e quando não utilizar](https://tableless.com.br/quando-utilizar-ou-nao-frameworks-css/ "Quando utilizar (ou não) frameworks CSS - Talita Pagani").
 
-Temos o exemplo do [Twitter Bootstrap](http://getbootstrap.com/ "Twitter Bootstrap") que está sendo muito utilizado na Web por esses tempos e tem gente que nem sabe utilizar o que a ferramenta lhe entrega e sai sobrepondo os estilos e deixando o projeto cada vez mais pesado ou importa todo o código do Framework sendo que só vai utilizar os Grids.
+Temos o exemplo do [Twitter Bootstrap](https://getbootstrap.com/ "Twitter Bootstrap") que está sendo muito utilizado na Web por esses tempos e tem gente que nem sabe utilizar o que a ferramenta lhe entrega e sai sobrepondo os estilos e deixando o projeto cada vez mais pesado ou importa todo o código do Framework sendo que só vai utilizar os Grids.
 
 ## E os Frameworks Front End, servem pra que?
 
 Normalmente eles vem com os estilos que você repete em vários projetos como tamanho de botões, tipografia, cores, estilos de tabelas/formulários, menus, navegação em abas, etc. Tudo o que é referente ao desenvolvimento de uma interface normalmente vem nessas maravilhas ou você cria um com tudo o que você sempre usa. - Pra um iniciante o melhor seria aprender como as coisas são feitas e até mesmo criar o seu próprio pelo fato de aprender mais.
 
-Tem diferença entre Bibliotecas Front End e Frameworks Front End, da uma olhada [nesse artigo](http://tableless.com.br/biblioteca-css-ou-framework/ "Biblioteca CSS ou Framework?").
+Tem diferença entre Bibliotecas Front End e Frameworks Front End, da uma olhada [nesse artigo](https://tableless.com.br/biblioteca-css-ou-framework/ "Biblioteca CSS ou Framework?").
 
 ## Vantagens do uso dos Frameworks
 
@@ -56,12 +56,12 @@ Todo dia nasce um Framework com alguma coisinh a mais que as vezes faz toda a di
 
 ## Os Frameworks mais maneiros
 
-[Nessa página](http://usablica.github.io/front-end-frameworks/compare.html "FRONT-END FRAMEWORKS") temos uma lista de alguns Frameworks CSS e[ nessa outra](http://todomvc.com/ "TodoMVC") alguns Frameworks JavaScript, da uma conferida e veja qual se adapta a sua necessidade.
+[Nessa página](https://usablica.github.io/front-end-frameworks/compare.html "FRONT-END FRAMEWORKS") temos uma lista de alguns Frameworks CSS e[ nessa outra](https://todomvc.com/ "TodoMVC") alguns Frameworks JavaScript, da uma conferida e veja qual se adapta a sua necessidade.
 
 Eu utilizo no dia-a-dia o Bootstrap e ele tem me atendido muito bem, porém não posso te indicar algum só por que eu gosto dele. O melhor é você levantar o máximo de informação sobre os que estão sendo mais utilizados e testar cada um pra ver se te atende legal.
 
 ## Bônus
 
-Se você não conhece pré processadores, seria interessante aprender algum também. Recomendo essa leitura: [Escrevendo CSS com Stylus](http://blog.da2k.com.br/2015/02/15/escrevendo-css-com-stylus/ "Escrevendo CSS com Stylus").
+Se você não conhece pré processadores, seria interessante aprender algum também. Recomendo essa leitura: [Escrevendo CSS com Stylus](https://blog.da2k.com.br/2015/02/15/escrevendo-css-com-stylus/ "Escrevendo CSS com Stylus").
 
 Você conhece algum Framework Front End maneiro ou tem mais alguma dica sobre o assunto? Compartilha ae!

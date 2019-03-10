@@ -42,4 +42,4 @@ Para ajudar essas pessoas eu decidi investir meu tempo dando aulas em ONGs que a
 
 ----
 
-Se você conhece alguma escola pública ou ONG que aceita receber livros de tecnologia, palestras sobre programação ou alguma iniciativa dessas, entre em contato comigo via Telegram: (<a href="http://telegram.me/woliveiras" title="Meu usuário do Telegram">@woliveiras</a>).
+Se você conhece alguma escola pública ou ONG que aceita receber livros de tecnologia, palestras sobre programação ou alguma iniciativa dessas, entre em contato comigo via Telegram: (<a href="https://telegram.me/woliveiras" title="Meu usuário do Telegram">@woliveiras</a>).

@@ -109,14 +109,14 @@ Ai você modifica só um pouquinho pra funcionar no IE e quando abre em outro na
 
 **Que tal testar a velocidade do seu site?**
 
-Dá pra fazer isso[ aqui](http://www.webpagetest.org/ "Web page test") ou [aqui](http://developers.google.com/speed/pagespeed/insights/ "Page Speed Google").
+Dá pra fazer isso[ aqui](https://www.webpagetest.org/ "Web page test") ou [aqui](https://developers.google.com/speed/pagespeed/insights/ "Page Speed Google").
 
 **Quer testar o site na versão mobile?**
 
-Fora as ferramentas dos Browsers, tem [esse site](http://quirktools.com/screenfly/ "Screenfly"), que também é maneiro.
+Fora as ferramentas dos Browsers, tem [esse site](https://quirktools.com/screenfly/ "Screenfly"), que também é maneiro.
 
-Tem um templatezinho maneiro em HTML5 que ajuda, também, na hora de criar a estrutura do site, é o [HTML5Boilerplate](http://html5boilerplate.com/ "html5boilerplate").
+Tem um templatezinho maneiro em HTML5 que ajuda, também, na hora de criar a estrutura do site, é o [HTML5Boilerplate](https://html5boilerplate.com/ "html5boilerplate").
 
-Sempre pense em [performance](http://browserdiet.com/pt/ "Browser Diet"), [SEO](http://moz.com/learn/seo/on-page-factors "SEO"), [Cross Browser](http://pt.wikipedia.org/wiki/Cross-browser "Cross-browser"), [Acessibilidade](http://tableless.com.br/como-tornar-seu-website-acessivel/ "Acessibilidade"), [Usabilidade ](http://viverdeblog.com/18-problemas-usabilidade/ "Usabilidade")e esses termos que você tem ouvido falar muito ultimamente - Eu sei que tem ouvido sim! - pois são itens extremamente necessários para uma boa interface funcionar legal.
+Sempre pense em [performance](https://browserdiet.com/pt/ "Browser Diet"), [SEO](https://moz.com/learn/seo/on-page-factors "SEO"), [Cross Browser](https://pt.wikipedia.org/wiki/Cross-browser "Cross-browser"), [Acessibilidade](https://tableless.com.br/como-tornar-seu-website-acessivel/ "Acessibilidade"), [Usabilidade ](https://viverdeblog.com/18-problemas-usabilidade/ "Usabilidade")e esses termos que você tem ouvido falar muito ultimamente - Eu sei que tem ouvido sim! - pois são itens extremamente necessários para uma boa interface funcionar legal.
 
 Se você tem mais alguma outra dica comenta ae! ;D

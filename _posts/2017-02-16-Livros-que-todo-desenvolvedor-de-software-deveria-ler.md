@@ -102,7 +102,7 @@ Principalmente se você for ler todos os livros que eu estou indicando, vai prec
 
 Diversos livros de Daniel Goleman ensinam sobre isso, se tiver oportunidade leia também [Liderança: a inteligência emocional na formação de um líder de sucesso](https://amzn.to/2SuGY4w) e [Inteligência Emocional: a teoria revolucionária](https://amzn.to/2Qj5YPF)
 
-[![](http://coachingmais50.com.br/wp-content/uploads/2015/03/foco_coachingmais50.com_.br_.jpg)](https://amzn.to/2Sy3qtl)
+[![](https://coachingmais50.com.br/wp-content/uploads/2015/03/foco_coachingmais50.com_.br_.jpg)](https://amzn.to/2Sy3qtl)
 
 ## Outros livros não técnicos, mas bem importantes
 

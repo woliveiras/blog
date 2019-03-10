@@ -131,7 +131,7 @@ E assim vai… Quando você estiver estudando algo, crie um repositório e suba 
 
 Comunidades são meios muito úteis de garantirmos nosso foco, de encontrarmos as melhores vagas e, o melhor, conseguir apoio para nossa caminhada no universo da programação.
 
-Nas comunidades temos pessoas que podem te [mentorar](https://trainingcenter.io), podem [tirar suas dúvidas](http://github.com/woliveiras/ama) e ainda podem te indicar nas empresas onde trabalham.
+Nas comunidades temos pessoas que podem te [mentorar](https://trainingcenter.io), podem [tirar suas dúvidas](https://github.com/woliveiras/ama) e ainda podem te indicar nas empresas onde trabalham.
 
 Mas lembre-se: comunidades são locais onde nós procuramos fazer amizades com as pessoas. Eu conheci pessoas em comunidades a 5 anos atrás que hoje são meus melhores amigos. A pior coisa que você faz é querer se aproximar de alguém com segundas intenções. Faça amigos e se eles gostarem de você vão querer te ter por perto onde trabalham e vão te indicar. Se não puderem te ajudar assim, vão te ajudar de outra maneira, mas porque são seus amigos e é isso que fazemos uns pelos outros.
 

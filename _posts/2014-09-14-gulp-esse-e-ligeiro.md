@@ -13,13 +13,13 @@ tags:
 description: Começando com Gulpjs
 ---
 
-Você é preguiçoso que eu sei! Programadores são preguiçosos... - Nem vem com Mimimi, por que você é sim - É por ser preguiçoso que o programador cria soluções que automatizam as tarefas, algo para agilizar as coisas chatas e sobrar tempo para as coisas legais - Como brincar com uma [bolinha de papel](https://www.youtube.com/watch?v=wn0OlzoD0Xs "Bolinha de papel"). E foi pra automatizar tarefas que surgiu o [Grunt](http://gruntjs.com/ "Grunt").
+Você é preguiçoso que eu sei! Programadores são preguiçosos... - Nem vem com Mimimi, por que você é sim - É por ser preguiçoso que o programador cria soluções que automatizam as tarefas, algo para agilizar as coisas chatas e sobrar tempo para as coisas legais - Como brincar com uma [bolinha de papel](https://www.youtube.com/watch?v=wn0OlzoD0Xs "Bolinha de papel"). E foi pra automatizar tarefas que surgiu o [Grunt](https://gruntjs.com/ "Grunt").
 
 Grunt? Não era Gulp?<!--more-->
 
 ## Automatização
 
-Quem trabalha com infra ([Como eu trabalhava](http://woliveiras.com.br/voce-faz-o-que-voce-gosta/ "Você faz o que você gosta?")) deve saber que da pra automatizar muita coisa com Scripts, tanto com Shell Script quanto com Powershell - Famosos arquivos .sh ou .bat - E hoje isso está acontecendo, também, no Front End.
+Quem trabalha com infra ([Como eu trabalhava](https://woliveiras.com.br/voce-faz-o-que-voce-gosta/ "Você faz o que você gosta?")) deve saber que da pra automatizar muita coisa com Scripts, tanto com Shell Script quanto com Powershell - Famosos arquivos .sh ou .bat - E hoje isso está acontecendo, também, no Front End.
 
 Algumas tarefas são essenciais para deixar sua aplicação melhor, como minificar o JS e CSS, fazer testes e verificar erros no código por exemplo e foi pra facilitar nossa vida que surgiu o Grunt. Com ele nós evitamos aqueles trampos repetitivos. É tipo o Rake no Ruby.
 
@@ -29,7 +29,7 @@ Por que o Gulp é mais rápido e mais fácil de ser configurado. O Grunt é da h
 
 ## Instalação
 
-Facinho! Se você tem o [Node.js instalado](http://woliveiras.com.br/node-js-instalacao/ "Um pouquinho de Node.js (Intro e Instalação)"), então execute o comando:
+Facinho! Se você tem o [Node.js instalado](https://woliveiras.com.br/node-js-instalacao/ "Um pouquinho de Node.js (Intro e Instalação)"), então execute o comando:
 
 ```shell
 npm install -g gulp
