@@ -68,6 +68,7 @@ collections:
     output: true
 compress_images:
     images_path: "images/**/*.{gif,png,jpg,jpeg,svg}"
+    svgo: false
 
 defaults:
   - scope:

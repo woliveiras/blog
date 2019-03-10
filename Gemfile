@@ -17,3 +17,5 @@ gem 'jekyll-gist'
 gem 'jekyll-redirect-from'
 gem 'jekyll-compress-images'
 gem 'jekyll-compose', group: [:jekyll_plugins]
+gem 'image_optim'
+gem 'image_optim_pack'
