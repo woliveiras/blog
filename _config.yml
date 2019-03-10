@@ -1,9 +1,9 @@
 # Site settings
 
-title: "William Oliveira: Programação, Carreira, JavaScript, Open Source e inclusão"
+title: "William Oliveira: Mentoria em Programação, Carreira, JavaScript, Open Source e inclusão"
 page_title: William Oliveira
 subtitle: Pintor de software
-description: Carreira em programação, JavaScript, Nodejs, Performance Web, Git, GitHub, Linux, Open Source, mas também coisas realmente importantes como inclusão e diversidade - Da periferia pro mundo
+description: Mentoria, Carreira em programação, JavaScript, Nodejs, Performance Web, Git, GitHub, Linux, Open Source, mas também coisas realmente importantes como inclusão e diversidade - Da periferia pro mundo
 author: William Oliveira
 timezone: America/Sao_Paulo
 baseurl: "" # the subpath of your site, e.g. /blog
