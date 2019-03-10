@@ -66,6 +66,8 @@ sass:
 collections:
   categoria:
     output: true
+compress_images:
+    images_path: "images/**/*.{gif,png,jpg,jpeg,svg}"
 
 defaults:
   - scope:
@@ -98,3 +100,4 @@ plugins:
     - jekyll-seo-tag
     - jekyll-gist
     - jekyll-redirect-from
+    - jekyll-compress-images

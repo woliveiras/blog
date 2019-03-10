@@ -15,4 +15,5 @@ gem 'jekyll-seo-tag'
 gem 'jekyll-feed'
 gem 'jekyll-gist'
 gem 'jekyll-redirect-from'
+gem 'jekyll-compress-images'
 gem 'jekyll-compose', group: [:jekyll_plugins]
