@@ -49,11 +49,45 @@ Todos os agregadores são muito parecidos e muito simples, afinal sua utilizaç�
 
 Você não se prenderá a um leitor, pois caso precise/queira trocar, basta exportar o arquivo de URLs que você segue, normalmente um botão de "export" mesmo, e importar no outro app.
 
+## Utilizando newsletters para acompanhar o conteúdo
+
+Newsletter é uma coisa que parece ainda mais antiga do que o RSS e eu fico parecendo querer fugir das corporações (é quase isso mesmo), mas é outra opção muito interessante.
+
+Através desse modelo, podemos assinar o conteúdo que queremos receber e ele vem para o nosso email.
+
+Eu possuo uma newsletter onde envio meus artigos mais novos ou os que outras pessoas estão curtindo mais, assim como recomendações d econteúdos que eu curti, vagas de empregos, eventos e até sorteios de brindes, eventos e cursos. A maioria dos autores e autoras também possui algo do tipo.
+
+Se inscreva na minha newsletter através deste link [Cartinha do Will](http://bit.ly/cartinha-do-will).
+
+Hoje eu recebo as atualizações sobre EcmaScript, MongoDB, React, GraphQL, Linux e muito mais, tudo no meu email e eu sei que aquilo foi curado por uma pessoa que quer que eu leia o que ela consumiu, não que o um algoritmo quer me vender.
+
 ## Onde escrever meus artigos
 
 Caso você queira escrever artigos, uma ótima opção é fazer como este blog. Eu utilizo [JAMstack](/posts/jamstack-introdução-o-que-é-jamstack/), meu conteúdo e todos os arquivos do blog estão [hospedados no GitHub](/posts/jamstack-criando-e-hospedando-seu-site-de-graça-no-github-pages/) e utilizo [Netlify](/posts/ferramentas-para-construção-de-sites-com-jamstack/) para compilar os estáticos e enviar para o CDN. Ainda podemos aproveitar que os domínios .dev estão liberados, criar um nome de blog bem maneiro e depois utilizar junto ao [GitHub Pages](/posts/jamstack-domínio-personalizado-com-google-domains-e-github-pages/).
 
 Assim nosso conteúdo continua livre, o código é [open source](https://github.com/woliveiras/woliveiras.github.io) e a licença de uso é você quem escolhe (de preferência [Creative Commons](https://creativecommons.org/), para que outras pessoas possam utilizar o conteúdo).
+
+## Como contribuir/retribuir com blogs que não estão no Medium
+
+O Medium possui um excelente esquema de recompensas, onde sabemos se um artigo está atingindo as pessoas pela quantidade de palminhas que recebemos. Isso por si já é recompensador pelo nosso trabalho.
+
+Em blogs desenvolvidos por conta própria, como nos modelos que comentei acima, não é tão difícil assim retribuir pelo trabalho do autor ou autora dos artigos, seja apoio pelo conteúdo ou seja o apoio financeiro.
+
+Podemos fazer:
+
+- um comentário no artigo, dizendo o quanto aquilo nos ajudou
+- compartilhar o artigo nas redes sociais e grupos que participamos
+- marcar o autor ou autora nas redes sociais agradecendo pelo seu trabalho
+- contribuir mensalmente aqueles que possuem ferramentas de apoio coletivo
+- avisar quando a pessoa deixou algum erro de ortografia
+
+E muito mais! Podemos usar nossa criatividade para pensar na melhor maneira de contribuir com essas pessoas.
+
+Sobre o apoio coletivo mensal, existem opções de doarmos 5 reais para a pessoa, por mês, e isso já é um mega incentivo.
+
+Se você quiser contribuir com o meu trabalho, por exemplo, pode fazer isso via Catarse, neste link [Catarse/william-oliveira](https://www.catarse.me/william-oliveira) e outras pessoas utilizam o [Apoia.se](https://apoia.se) e algumas plataformas para financiamento mensal.
+
+O meu blog, assim como de algumas outras pessoas nas comunidades, é open source. Você pode corrigir o erro diretamente no artigo que você encontrou e enviar um pull request. É uma ajuda ainda maior e nós aceitamos de muito bom grado. Se encontrar algum erro, não se acanhe, envia o PR aqui [woliveiras.github.io/_posts](https://github.com/woliveiras/woliveiras.github.io/tree/master/_posts).
 
 ## Conclusão
 
