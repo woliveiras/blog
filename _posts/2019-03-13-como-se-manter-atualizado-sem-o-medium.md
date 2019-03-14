@@ -49,6 +49,12 @@ Todos os agregadores são muito parecidos e muito simples, afinal sua utilizaç�
 
 Você não se prenderá a um leitor, pois caso precise/queira trocar, basta exportar o arquivo de URLs que você segue, normalmente um botão de "export" mesmo, e importar no outro app.
 
+## Onde escrever meus artigos
+
+Caso você queira escrever artigos, uma ótima opção é fazer como este blog. Eu utilizo [JAMstack](/posts/jamstack-introdução-o-que-é-jamstack/), meu conteúdo e todos os arquivos do blog estão [hospedados no GitHub](/posts/jamstack-criando-e-hospedando-seu-site-de-graça-no-github-pages/) e utilizo [Netlify](/posts/ferramentas-para-construção-de-sites-com-jamstack/) para compilar os estáticos e enviar para o CDN. Ainda podemos aproveitar que os domínios .dev estão liberados, criar um nome de blog bem maneiro e depois utilizar junto ao [GitHub Pages](/posts/jamstack-domínio-personalizado-com-google-domains-e-github-pages/).
+
+Assim nosso conteúdo continua livre, o código é [open source](https://github.com/woliveiras/woliveiras.github.io) e a licença de uso é você quem escolhe (de preferência [Creative Commons](https://creativecommons.org/), para que outras pessoas possam utilizar o conteúdo).
+
 ## Conclusão
 
 Eu entendo a necessidade de utilização do paywall (modelo em que alguém não consegue ler o conteúdo se não liberar com a sua conta de usuário com assinatura do site) para manutenção de alguns modelos de negócios, mas acredito que poderia ser feito de algum outro modo que não restringe o acesso à informação.
