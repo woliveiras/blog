@@ -70,7 +70,7 @@ Newsletter é uma coisa que parece ainda mais antiga do que o RSS e eu fico pare
 
 Através desse modelo, podemos assinar o conteúdo que queremos receber e ele vem para o nosso email.
 
-Eu possuo uma newsletter onde envio meus artigos mais novos ou os que outras pessoas estão curtindo mais, assim como recomendações d econteúdos que eu curti, vagas de empregos, eventos e até sorteios de brindes, eventos e cursos. A maioria dos autores e autoras também possui algo do tipo.
+Eu possuo uma newsletter onde envio meus artigos mais novos ou os que outras pessoas estão curtindo mais, assim como recomendações de conteúdos que eu curti, vagas de empregos, eventos e até sorteios de brindes, eventos e cursos. A maioria dos autores e autoras também possui algo do tipo.
 
 Se inscreva na minha newsletter através deste link [Cartinha do Will](http://bit.ly/cartinha-do-will).
 
