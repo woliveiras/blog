@@ -19,7 +19,7 @@ tags:
     - série fullstack
 description: Uma introdução ao terminal. Sua história, a diferença entre utilizar interface gráfica e utilizar o terminal e comandos iniciais.
 ---
-Este artigo é parte do material utilizado no curso de fullstack com Node.js do meu programa social do perifaCode, o [perifaCode.teach()](https://github.com/perifacode/teach). Estou disponibilizando ele para que qualquer outra pessoa também possa aprender gratuitamente pela internet e qualquer pessoa possa ensinar utilizando este conteúdo.
+Este artigo é parte do material utilizado no curso de fullstack com Node.js, bancos de dados, Express e React do meu programa social do perifaCode, o [perifaCode.teach()](https://github.com/perifacode/teach). Estou disponibilizando ele para que qualquer outra pessoa também possa aprender gratuitamente pela internet e qualquer pessoa possa ensinar utilizando este conteúdo.
 
 <!-- vscode-markdown-toc -->
 * [Um pouco de história](#Umpoucodehistria)
