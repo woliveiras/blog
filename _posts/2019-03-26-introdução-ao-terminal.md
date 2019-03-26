@@ -21,10 +21,45 @@ description: Uma introdução ao terminal. Sua história, a diferença entre uti
 ---
 Este artigo é parte do material utilizado no curso de fullstack com Node.js do meu programa social do perifaCode, o [perifaCode.teach()](https://github.com/perifacode/teach). Estou disponibilizando ele para que qualquer outra pessoa também possa aprender gratuitamente pela internet e qualquer pessoa possa ensinar utilizando este conteúdo.
 
+<!-- vscode-markdown-toc -->
+* [Um pouco de história](#Umpoucodehistria)
+* [Como o terminal funciona](#Comooterminalfunciona)
+* [Para que utilizamos o terminal](#Paraqueutilizamosoterminal)
+* [Antes de começar a praticar](#Antesdecomearapraticar)
+* [Abrindo o terminal](#Abrindooterminal)
+* [Sistema de diretórios](#Sistemadediretrios)
+	* [Acabei de abrir o terminal, onde eu estou?](#Acabeideabriroterminalondeeuestou)
+	* [Listando tudo o que tem dentro de um diretório](#Listandotudooquetemdentrodeumdiretrio)
+		* [Acessando diretórios](#Acessandodiretrios)
+	* [Criando diretórios](#Criandodiretrios)
+	* [Excluindo diretórios](#Excluindodiretrios)
+	* [Copiando diretórios](#Copiandodiretrios)
+	* [Movendo diretórios](#Movendodiretrios)
+	* [Procurando um diretório](#Procurandoumdiretrio)
+* [Trabalhando com arquivos](#Trabalhandocomarquivos)
+	* [Criando ou lendo um arquivo via terminal](#Criandooulendoumarquivoviaterminal)
+	* [Excluíndo arquivos](#Exclundoarquivos)
+	* [Copiando um arquivo para outro diretório com cp](#Copiandoumarquivoparaoutrodiretriocomcp)
+	* [Movendo um arquivo para outro diretório](#Movendoumarquivoparaoutrodiretrio)
+	* [Procurando arquivos com locate e find (pesquisar sobre o updatedb)](#Procurandoarquivoscomlocateefindpesquisarsobreoupdatedb)
+* [Lendo arquivos via Terminal](#LendoarquivosviaTerminal)
+	* [Lendo o começo do arquivo](#Lendoocomeodoarquivo)
+	* [Lendo o final do arquivo](#Lendoofinaldoarquivo)
+	* [Modo de leitura dinâmica](#Mododeleituradinmica)
+	* [Filtrando valores](#Filtrandovalores)
+* [Desafio](#Desafio)
+* [Conclusão](#Concluso)
+
+<!-- vscode-markdown-toc-config
+	numbering=false
+	autoSave=true
+	/vscode-markdown-toc-config -->
+<!-- /vscode-markdown-toc -->
+
 ![Imagem de uma pessoa utilizando o terminal Linux]({{page.image}})
 {:.post__wallpaper}
 
-## Um pouco de história
+## <a name='Umpoucodehistria'></a>Um pouco de história
 
 Até certa época a única interface de interação entre sistema operacional e usuário era via linha de comando, nosso conhecido Terminal.
 
@@ -38,7 +73,7 @@ Hoje em dia temos muitas interfaces visuais que facilitam nossa vida, porém o u
 
 > Em servidores nós não instalamos uma interface gráfica para economizar recursos computacionais e o custo sair mais baixo. Para executar uma interface visual precisamos de mais memória e, às vezes, placas de vídeo.
 
-## Como o terminal funciona
+## <a name='Comooterminalfunciona'></a>Como o terminal funciona
 
 No terminal temos acesso a diversos comandos. Estes comandos nada mais são do que programas instalados no sistema operacional que são executados, processam entradas e nos retornam algo.
 
@@ -136,7 +171,7 @@ Onde temos todos os meus arquivos que estão na home, todos os arquivos de confi
 
 Então é assim que o terminal funciona: recebendo comandos e os executando como programas que são. O terminal nada mais é do que um programa que executa os outros programas instalados no nosso sistema operacional. 
 
-## Para que utilizamos o terminal
+## <a name='Paraqueutilizamosoterminal'></a>Para que utilizamos o terminal
 
 No dia-a-dia utilizamos a linha de comando para rodar comandos que não valeriam a pena estarem em uma interface visual gráfica.
 
@@ -144,7 +179,7 @@ No dia-a-dia utilizamos a linha de comando para rodar comandos que não valeriam
 
 Normalmente passamos o tempo todo com o terminal aberto e vamos rodando comandos de acordo com a necessidade do momento.
 
-## Antes de começar a praticar
+## <a name='Antesdecomearapraticar'></a>Antes de começar a praticar
 
 Existe diferença entre terminais Linux e Windows. Se você utiliza Windows, precisamos diminuir essa diferença. Para que você consiga seguir este tutorial até o fim será necessário instalar um programa chamado cmder.
 
@@ -152,17 +187,17 @@ No cmder temos acesso aos comandos Linux, dentro do Windows.
 
 Acesse [cmder.net](https://cmder.net/), instale o programa e então pode continuar a leitura.
 
-## Abrindo o terminal
+## <a name='Abrindooterminal'></a>Abrindo o terminal
 
 Agora que já entendemos o que é um terminal, como um terminal funciona e para que utilizamos esses programas, vamos partir para a prática.
 
 Abra o terminal do seu sistema operacional. Se você estiver em um Ubuntu ou Linux Mint, basta rodar CTRL+ALT+T, se tiver o cmder instalado, basta abrir ele via menu iniciar.
 
-## Sistema de diretórios
+## <a name='Sistemadediretrios'></a>Sistema de diretórios
 
 Vamos começar entendendo como navegar em diretórios, criar, copiar, mover e excluir pastas via linha de comando.
 
-### Acabei de abrir o terminal, onde eu estou?
+### <a name='Acabeideabriroterminalondeeuestou'></a>Acabei de abrir o terminal, onde eu estou?
 
 Ao abrir o terminal, tudo o que temos é uma tela preta. Então, como sabemos “onde” o terminal está agora?
 
@@ -172,7 +207,7 @@ Para isso utilizamos o comando **pwd**.
 
 Execute este comando no seu terminal (escrever pwd e pressionar o enter) e verifique a saída deste programa.
 
-### Listando tudo o que tem dentro de um diretório
+### <a name='Listandotudooquetemdentrodeumdiretrio'></a>Listando tudo o que tem dentro de um diretório
 
 Agora que sabemos onde estamos, que tal descobrir tudo o que temos nesta pasta?
 
@@ -180,7 +215,7 @@ Para isto vamos utilizar aquele comando já citado aqui, o **ls**.
 
 Execute o comando ls em seu terminal e verifique a saída do programa.
 
-#### Acessando diretórios
+#### <a name='Acessandodiretrios'></a>Acessando diretórios
 
 E se quisermos entrar em algum desses diretórios que foi listado com o ls?
 
@@ -241,7 +276,7 @@ Caso nossa necessidade fosse acessar a pasta *boletos* e estivéssemos em */home
 
 Também podemos fazer o caminho inverso, voltando os níveis com o `cd ../../`, onde subiremos doi níveis (../ um nível, ../ outro nível) até chegar em /home.
 
-### Criando diretórios
+### <a name='Criandodiretrios'></a>Criando diretórios
 
 Agora vamos criar um diretório para trabalharmos dentro dele. A partir de agora vamos utilizar este diretório sempre que precisarmos armazenar um novo projeto.
 
@@ -268,7 +303,7 @@ Se rodarmos o pwd vamos entender o local onde estamos.
 ➜  workspace 
 ```
 
-### Excluindo diretórios
+### <a name='Excluindodiretrios'></a>Excluindo diretórios
 
 Para excluir algo via terminal podemos utilizar dois comandos, o **rm** e o **rmdir**.
 
@@ -310,7 +345,7 @@ E agora rodamos o rmdir.
 rmdir serei_deletada
 ```
 
-### Copiando diretórios
+### <a name='Copiandodiretrios'></a>Copiando diretórios
 
 Para copiar uma pasta para outro local utilizamos o comando **cp**. Como o que queremos copiar é um diretório, é necessário passar o parâmetro **-r**, de recursivo, informando que o programa deve copiar o diretório que passamos e todo o seu conteúdo.
 
@@ -339,7 +374,7 @@ cp -r dir2 dir3 dir1
 
 O último parâmetro é sempre o destino.
 
-### Movendo diretórios
+### <a name='Movendodiretrios'></a>Movendo diretórios
 
 Podemos mover diretórios para outros lugares utilizando o comando **mv**.
 
@@ -361,7 +396,7 @@ mv dir2 dir3 dir1
 
 O último parâmetro é sempre o destino.
 
-### Procurando um diretório
+### <a name='Procurandoumdiretrio'></a>Procurando um diretório
 
 Em determinados momentos temos diretórios "perdidos" em nosso sistema operacional e daria muito trabalho entrar em cada pasta, seja no modo gráfico quanto em modo texto (via terminal). Para isso utilizamos o comando **find**.
 
@@ -383,13 +418,13 @@ OBS: o **~/** substitui o **/home** quando trabalhamos com diretórios.
 
 Então poderíamos utilizar este comando para qualquer ação.
 
-## Trabalhando com arquivos
+## <a name='Trabalhandocomarquivos'></a>Trabalhando com arquivos
 
 Utilizar o terminal para manipular arquivos será mais raro em nosso dia-a-dia. Normalmente utilizamos nosso editor visual, como o Visual Studio Code, SublimeText ou mesmo um notepad. A não ser que desejamos trabalhar com o editor de textos Vim. Você pode conhecer o Vim neste artigo: [Começando com o Vim, o editor de textos - William Oliveira](https://woliveiras.com.br/posts/Comecando-com-o-editor-de-texto-VIM/)) e se quiser utilizar ele para trabalhar, pode utilizar este ebook: [Vim para Noobs](https://leanpub.com/vimparanoobs).
 
 Para entendermos como manipular arquivos via terminal, vamos conhecer alguns comandos de criação, leitura e acompanhamento de arquivos.
 
-### Criando ou lendo um arquivo via terminal
+### <a name='Criandooulendoumarquivoviaterminal'></a>Criando ou lendo um arquivo via terminal
 
 Podemos criar arquivos usando o comando **cat**, **touch** ou o comando de redirecionamento de saída, o **>**.
 
@@ -435,7 +470,7 @@ E, para ler este arquivo, podemos utilizar o comando cat da seguinte maneira:
 William Oliveira
 ```
 
-### Excluíndo arquivos
+### <a name='Exclundoarquivos'></a>Excluíndo arquivos
 
 Excluir arquivos no terminal é mais fácil do que diretórios. Utilizamos o comando **rm**, mas aqui não vamos precisar do comando -r ou -f, pois ele é um único candidato a deleção.
 
@@ -457,7 +492,7 @@ rm nome1.txt nome2.txt nome3.txt
 ```
 
 
-### Copiando um arquivo para outro diretório com cp
+### <a name='Copiandoumarquivoparaoutrodiretriocomcp'></a>Copiando um arquivo para outro diretório com cp
 
 Para copiar um arquivo utilizamos o comando **cp**.
 
@@ -479,7 +514,7 @@ cp nome1.txt nome2.txt nome3.txt dir1
 
 O último parâmetro é sempre o nome do diretório destino.
 
-### Movendo um arquivo para outro diretório
+### <a name='Movendoumarquivoparaoutrodiretrio'></a>Movendo um arquivo para outro diretório
 
 Para mover um arquivo para um diretório, vamos utilizar o comando **mv**.
 
@@ -501,7 +536,7 @@ mv nome1.txt nome2.txt nome3.txt dir1
 
 O último parâmetro é sempre o nome do diretório destino.
 
-### Procurando arquivos com locate e find (pesquisar sobre o updatedb)
+### <a name='Procurandoarquivoscomlocateefindpesquisarsobreoupdatedb'></a>Procurando arquivos com locate e find (pesquisar sobre o updatedb)
 
 Para localizar um arquivo em nosso sistema operacional, utilizamos o comando **find**.
 
@@ -521,7 +556,7 @@ Temos o retorno do local onde está o diretório nomeado (-name) dir1.
 
 OBS: o **~/** substitui o **/home** quando trabalhamos com diretórios.
 
-## Lendo arquivos via Terminal
+## <a name='LendoarquivosviaTerminal'></a>Lendo arquivos via Terminal
 
 Muitas vezes precisamos ler um arquivo de textos de dentro de um servidor para conferir arquivos de configuração ou algo muito útil em nossas vidas que são os arquivos de logs de sistemas e aplicações. Estes arquivos carregam informações gerais sobre o funcionamento dos nossos sistemas e por isso é tão importante que saibamos como ler isso.
 
@@ -529,7 +564,7 @@ Vimos anteriormente como ler um arquivo utilizando o comando **cat**. Agora vamo
 
 Vamos revisar o comando cat. Sua sintaxe é: `cat nome_do_arquivo`.
 
-### Lendo o começo do arquivo
+### <a name='Lendoocomeodoarquivo'></a>Lendo o começo do arquivo
 
 Em um arquivo muito grande podemos utilizar o comando **head** para ler somente o começo do arquivo. Se não passarmos nenhum parâmetro dizendo quantas linhas queremos ler, serão mostradas as 10 primeiras linhas do arquivo.
 
@@ -545,7 +580,7 @@ Onde o parâmetro -n recebe o valor 20. Então as 20 primeiras linhas do arquivo
 
 Para simplificar, também podemos passar `head -20 nome_do_arquivo` e temos o mesmo efeito.
 
-### Lendo o final do arquivo
+### <a name='Lendoofinaldoarquivo'></a>Lendo o final do arquivo
 
 Em um arquivo muito grande podemos utilizar o comando **tail** para ler somente o final do arquivo. Se não passarmos nenhum parâmetro dizendo quantas linhas queremos ler, serão mostradas as 10 últimas linhas do arquivo.
 
@@ -561,7 +596,7 @@ Onde o parâmetro -n recebe o valor 5. Então as 5 últimas linhas do arquivo se
 
 Para simplificar, também podemos passar `tail -5 nome_do_arquivo` e temos o mesmo efeito.
 
-### Modo de leitura dinâmica
+### <a name='Mododeleituradinmica'></a>Modo de leitura dinâmica
 
 Podemos ler um arquivo enquanto ele é gerado utilizando o comando **tail** mais o parâmetro follow (**-f**).
 
@@ -573,7 +608,7 @@ tail -f nome_do_arquivo.log
 
 Tudo o que for adicionado ao final do arquivo, será listado novamente em nosso terminal lendo este arquivo.
 
-### Filtrando valores 
+### <a name='Filtrandovalores'></a>Filtrando valores 
 
 Podemos utilizar o operador **pipe** ( `|` ) junto ao comando **grep** para filtrar valores quando lemos algo no terminal utilizando os comandos de leitura, como cat, head, tail, etc.
 
@@ -598,7 +633,7 @@ O nome da minha amiga é Juju
 tem outro nome entrando dinamicamente agora, Jorel
 ```
 
-## Desafio
+## <a name='Desafio'></a>Desafio
 
 Crie um diretório chamado "workspace". Vamos trabalhar dentro dele a partir de agora.
 
@@ -622,7 +657,7 @@ GitHub: woliveiras
 Habilidades: Terminal Linux
 ```
 
-## Conclusão
+## <a name='Concluso'></a>Conclusão
 
 Esta é a primeira aula do perifaCode.teach(). Espero que tenha gostado e que sinta vontade de continuar estudando através deste material.
 
