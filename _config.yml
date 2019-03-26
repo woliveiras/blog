@@ -67,8 +67,14 @@ collections:
   categoria:
     output: true
 compress_images:
-    images_path: "images/**/*.{gif,png,jpg,jpeg,svg}"
-    svgo: false
+  svgo: false
+  images_path: "images/**/*.{gif,png,jpg,jpeg}"
+  jpegrecompress:
+    allow_lossy: true
+    quality: 2
+    max_quality: 70
+imageoptim:
+  svgo: false
 
 defaults:
   - scope:
