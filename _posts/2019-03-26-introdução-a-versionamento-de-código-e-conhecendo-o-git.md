@@ -9,7 +9,7 @@ categories:
     - infraestrutura
     - produtividade
     - série fullstack
-image: "/images/posts/kevin-horvat-1354011-unsplash-min.jpg"
+image: "/images/posts/pankaj-patel-515219-unsplash-min.jpg"
 tags:
     - git
     - devops
@@ -21,7 +21,42 @@ description: Vamos entender sobre versionamento de código e aprender os conceit
 ---
 Este artigo é parte do material utilizado no curso de fullstack com Node.js, bancos de dados, Express e React do meu programa social do perifaCode, o [perifaCode.teach()](https://github.com/perifacode/teach). Estou disponibilizando ele para que qualquer outra pessoa também possa aprender gratuitamente pela internet e qualquer pessoa possa ensinar utilizando este conteúdo.
 
-## Introdução a versionamento de código e Git
+<!-- vscode-markdown-toc -->
+* [Introdução a versionamento de código e Git](#IntroduoaversionamentodecdigoeGit)
+* [O que é Git](#OqueGit)
+* [Instalando o Git](#InstalandooGit)
+* [Configurando o Git](#ConfigurandooGit)
+* [Entendendo sobre versionamento](#Entendendosobreversionamento)
+	* [Repositórios Git](#RepositriosGit)
+	* [O que é um commit](#Oqueumcommit)
+	* [Histórico](#Histrico)
+	* [Branches](#Branches)
+* [Inicializando um repositório Git local](#InicializandoumrepositrioGitlocal)
+* [Estados do nosso trabalho com Git](#EstadosdonossotrabalhocomGit)
+	* [Working Directory](#WorkingDirectory)
+	* [Staging Area](#StagingArea)
+	* [Git Directory](#GitDirectory)
+* [Checando o estado do nosso código](#Checandooestadodonossocdigo)
+* [Adicionando arquivos para criar um commit](#Adicionandoarquivosparacriarumcommit)
+* [Criando o commit](#Criandoocommit)
+* [Lendo o histórico do Git](#LendoohistricodoGit)
+* [Criando branches](#Criandobranches)
+* [Juntando branches](#Juntandobranches)
+* [Deletando branches](#Deletandobranches)
+* [Revertendo as coisas](#Revertendoascoisas)
+* [Conclusão](#Concluso)
+* [Referências](#Referncias)
+
+<!-- vscode-markdown-toc-config
+	numbering=false
+	autoSave=true
+	/vscode-markdown-toc-config -->
+<!-- /vscode-markdown-toc -->
+
+![Imagem de uma pessoa utilizando o Git via terminal]({{page.image}})
+{:.post__wallpaper}
+
+## <a name='IntroduoaversionamentodecdigoeGit'></a>Introdução a versionamento de código e Git
 
 Durante o desenvolvimento de software o que fazemos é escrever arquivos. Arquivos estes que são compilados para código de máquina e rodam no nosso sistema operacional ou interpretados por um programa interpretador da linguagem de programação, como o Node.js que executa nossos arquivos da linguagem de programação JavaScript, mas no fim das contas são só arquivos.
 
@@ -43,7 +78,7 @@ Por isso é importante que consigamos voltar a versão anterior do nosso softwar
 
 Existem diversas ferramentas que podem nos ajudar no versionamento de código, mas a mais utilizada hoje em dia, devido a sua eficiência, é o Git.
 
-## O que é Git
+## <a name='OqueGit'></a>O que é Git
 
 O Git é um software de linha de comando, assim como os que conhecemos no artigo introdução ao terminal. Ele é instalado em nosso sistema operacional e fica disponível para utilizarmos via terminal.
 
@@ -59,7 +94,7 @@ O [dunders](https://github.com/woliveiras/__s) é um template para Jekyll, um ge
 
 Caso eu queira voltar a versão do meu projeto para o que eu fiz na versão 69, basta eu rodar um comando no Git e pronto… Tudo volta a ser como era antes.
 
-## Instalando o Git
+## <a name='InstalandooGit'></a>Instalando o Git
 
 Com essa rápida introdução a versionamento de código e Git fica complicado entender, mas com a prática tudo ficará mais claro em sua mente.
 
@@ -69,7 +104,7 @@ Antes de tudo precisamos instalar o Git em nossa máquina. Devemos entrar em [gi
 
 O passo a passo para instalação do Git se encontra no próprio site. Você pode seguir por lá de acordo com seu sistema operacional e depois voltar aqui.
 
-## Configurando o Git
+## <a name='ConfigurandooGit'></a>Configurando o Git
 
 Depois de instalar o Git, você pode rodar o comando `git --version` para verificar se está tudo OK. Se você não receber o retorno como a versão do Git instalado em sua máquina, então aconteceu algo errado na instalação e é necessário refazer isso.
 
@@ -95,13 +130,13 @@ Sempre que você for utilizar o versionador em outras máquinas, será necessár
 
 Eu carrego o meu .gitconfig para todas as máquinas e você pode ver ele [aqui](https://github.com/woliveiras/dotfiles/blob/master/bin/system-settings/.gitconfig) para entender como é a estrutura de um arquivo de configuração do Git.
 
-## Entendendo sobre versionamento
+## <a name='Entendendosobreversionamento'></a>Entendendo sobre versionamento
 
 Para entender de fato o sobre versionamento e sobre o uso do Git, será necessário compreender alguns termos, como "repositório", "commit", "branches", etc.
 
 Vamos primeiro entender os termos básicos e mais importantes e depois partimos para a prática.
 
-### Repositórios Git
+### <a name='RepositriosGit'></a>Repositórios Git
 
 Um repositório nada mais é que uma pasta onde estão todos os arquivos do nosso projeto, incluindo nosso versionamento.
 
@@ -111,17 +146,17 @@ Normalmente trabalhamos com repositórios hospedados em algum lugar, como um ser
 
 Isso é uma característica legal do Git: nós trabalhamos de modo descentralizado de desenvolvimento, onde cada pessoa possui uma versão inteira do repositório em sua máquina e só envia os pedaços que alterou para um local onde todo mundo pode baixar essas alterações, porém conseguimos trabalhar até mesmo sem internet e depois enviamos o que fizemos.
 
-### O que é um commit
+### <a name='Oqueumcommit'></a>O que é um commit
 
 Commits são como fotos da última versão do nosso código. Eles carregam tudo o que foi alterado em nosso projeto para que, quando precisarmos, possamos voltar ao commit onde possuíamos a versão que gostaríamos de utilizar.
 
 A cada nova alteração que fazemos, que seja uma versão do nosso software, podemos fechar um commit e guardar isso no histórico do nosso projeto.
 
-### Histórico
+### <a name='Histrico'></a>Histórico
 
 O histórico é a união dos nossos commits. A cada novo commit, temos uma nova versão do projeto e tudo isso fica agrupado no histórico do Git.
 
-### Branches
+### <a name='Branches'></a>Branches
 
 Branches são uma maneira de organizar o nosso trabalho com versionamento de código. Nós possuímos uma branch chamada `master` e nesta branch temos a versão oficial do nosso projeto. Quando vamos fazer uma alteração, podemos criar uma ramificação da master e trabalhar somente nela, sem afetar o código oficial. Ao finalizarmos nosso trabalho na nossa ramificação, então podemos juntar o nosso trabalho com a master.
 
@@ -157,7 +192,7 @@ master
 	|_commit 4 (veio da outra branch)
 ```
 
-## Inicializando um repositório Git local
+## <a name='InicializandoumrepositrioGitlocal'></a>Inicializando um repositório Git local
 
 Agora que entendemos o que são repositórios, branchs, histórico e commit, podemos começar nossos trabalhos práticos.
 
@@ -181,7 +216,7 @@ Se fossemos trabalhar com um repositório remoto (um repositório que está hosp
 
 Agora que temos um repositório, precisamos entender os estágios da utilização do Git.
 
-## Estados do nosso trabalho com Git
+## <a name='EstadosdonossotrabalhocomGit'></a>Estados do nosso trabalho com Git
 
 No Git temos três estados em que nosso código pode estar dentro de um repositório. Esses estados são como pastas ou ramificações mantidas pelo próprio Git. Podemos ver esses estados nessa imagem:
 
@@ -191,19 +226,19 @@ Onde temos: working directory, staging area, git directory e suas operações (d
 
 Vamos entender melhor sobre isso agora.
 
-### Working Directory
+### <a name='WorkingDirectory'></a>Working Directory
 
 O working directory possui o estado atual do nosso código. Aquilo que estamos alterando neste exato momento.
 
-### Staging Area
+### <a name='StagingArea'></a>Staging Area
 
 A staging area é uma área de preparação antes de fechar um commit de fato. Nós podemos enviar alterações para o stage e continuar trabalhando em nosso código ao invés de fazer um commit por vez e precisar voltar commits. Podemos somente trabalhar de working para stage e de stage para working até que nosso trabalho esteja completamente pronto e assim fechamos um commit.
 
-### Git Directory
+### <a name='GitDirectory'></a>Git Directory
 
 Este é de fato o nosso histórico. É onde o Git guarda todos os nossos commits e são eles que são enviados para o repositório remoto e compartilhado com outras pessoas. Nem o working directory, nem o stage são compartilhados, esses são estados locais. O Git directory é de fato o nosso banco de objetos do Git.
 
-## Checando o estado do nosso código
+## <a name='Checandooestadodonossocdigo'></a>Checando o estado do nosso código
 
 Para analisarmos em que estado está o nosso código, podemos rodar o comando `git status`.
 
@@ -241,7 +276,7 @@ Perceba que agora o Git nos fala que temos arquivos que não estão sendo acompa
 
 Vamos partir para a prática de adicionar arquivos ao stage.
 
-## Adicionando arquivos para criar um commit
+## <a name='Adicionandoarquivosparacriarumcommit'></a>Adicionando arquivos para criar um commit
 
 Ainda no nosso workspace, vamos agora fazer o que o Git nos sugeriu. Vamos rodar o comando `git add`.
 
@@ -272,7 +307,7 @@ Changes to be committed:
 
 Agora o Git nos informa que temos alterações para consolidar (`Changes to be committed`). Ele também diz que podemos remover o arquivo com o comando `git rm --cached <file>`, então, se adicionamos o arquivo em stage sem querer, podemos remover. Se não foi sem querer, então podemos partir para a consolidação (fechar um commit).
 
-## Criando o commit
+## <a name='Criandoocommit'></a>Criando o commit
 
 Temos o nosso arquivo sendo acompanhado (tracked) pelo Git adicionado em stage. Sabemos que queremos sim guardar uma versão deste arquivo para enviar para outras pessoas ou mesmo para deixar guardado no histórico, podemos então rodar o comando `git commit`.
 
@@ -303,7 +338,7 @@ Tudo está como antes, mas agora ele avisa que não temos nada para consolidar u
 
 Cadê o nosso commit então?
 
-## Lendo o histórico do Git
+## <a name='LendoohistricodoGit'></a>Lendo o histórico do Git
 
 Assim que nosso commit foi realmente fechado, o Git moveu as alterações para o Git Directory e agora temos um comando que nos ajuda a ver o que tem lá dentro. Este comando é o `git log`.
 
@@ -322,7 +357,7 @@ Mas, claro, com outro nome de autor, email, data e id (identificador) do commit.
 
 Se houvesse mais commits, iria aparecer uma lista muito maior. Para sair do leitor de histórico do Git, basta pressionar a letra **q** no seu teclado.
 
-## Criando branches
+## <a name='Criandobranches'></a>Criando branches
 
 Agora imagina que queremos criar uma área de testes antes de consolidar nosso trabalho na branch master. Vamos então utilizar o comando `git checkout` para criar e trocar de branch para que o histórico da master não fique “feio”. Lembre: o histórico é algo muito importante e funciona como uma documentação do nosso código, por isso não deixe ele ficar ruim.
 
@@ -426,7 +461,7 @@ Se você rodar um ls, vai perceber que o arquivo que acabamos de criar também *
 
 Isso acontece porque o nosso commit está na outra branch e, para que ele venha para a master, precisamos rodar um comando que junta os commits de uma branch em outra.
 
-## Juntando branches
+## <a name='Juntandobranches'></a>Juntando branches
 
 Agora que temos duas branches, uma com um commit a mais do que a outra, precisamos unir as duas para formar de volta nosso histórico ideal (também com os arquivos que acabamos de criar).
 
@@ -479,7 +514,7 @@ exercicio-de-git.txt  william.txt
 
 O que aconteceu aqui foi que o Git pegou o commit 58cffab, que é o id do nosso commit que estava na outra branch e trouxe para a que rodamos o comando git merge.
 
-## Deletando branches
+## <a name='Deletandobranches'></a>Deletando branches
 
 Agora que nosso trabalho na branch arquivo-com-meu-nome está concluído, pois já fizemos o merge na master, podemos então deletar ela, pois ela não servirá para mais nada.
 
@@ -512,7 +547,7 @@ Recebemos uma saída informando que nossa branch foi deletada.
 Deleted branch arquivo-com-meu-nome (was 58cffab).
 ```
 
-## Revertendo as coisas
+## <a name='Revertendoascoisas'></a>Revertendo as coisas
 
 Imagine agora que, as alterações que nós acabamos de fazer estragaram o nosso código. Juntar o arquivo que veio da branch arquivo-com-meu-nome fez com que o nosso software saísse do ar. Agora que vemos todo o poder do versionamento de código. Podemos reverter essas alterações com o comando **revert**.
 
@@ -623,7 +658,7 @@ meu primeiro commit
 Também poderíamos ter feito **git checkout master** ou  **git checkout .** que faria com que todas as nossas últimas alterações fossem descartadas.
 
 
-## Conclusão
+## <a name='Concluso'></a>Conclusão
 
 Até aqui aprendemos muito!
 
@@ -633,8 +668,10 @@ Você não precisa decorar todos estes comandos, só entender para o que cada um
 
 O próximo passo é aprendermos a trabalhar com repositórios remotos, onde vamos conhecer o GitHub, GitLab e Bitbucket.
 
-## Referências
+## <a name='Referncias'></a>Referências
 
 - [Git - book](https://git-scm.com/book/pt-br/v1/Primeiros-passos-No%C3%A7%C3%B5es-B%C3%A1sicas-de-Git)
 - [Git Guide](https://rogerdudler.github.io/git-guide/)
 - [Git handbook](https://guides.github.com/introduction/git-handbook/)
+
+Foto por [Pankaj Patel](https://unsplash.com/photos/eygpU6KfOBk) via Unsplash.
