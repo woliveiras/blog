@@ -104,7 +104,7 @@ Separei em casts em português e inglês. Se você está estudando inglês, reco
 | [/dev/hell](http://devhell.info/) | Programação
 | [changelog](https://changelog.com/) | Programação 
 | [Learn to code with me](https://learntocodewith.me/podcast/) | Carreira/Programação
-| [Software Engigeering Rádio](http://www.se-radio.net/) | Programação
+| [Software Engineering Rádio](http://www.se-radio.net/) | Programação
 | [Hanselminutes](https://hanselminutes.com/) | Programação
 | [CppCast](http://cppcast.com/) | Programação 
 | [Data Stories](http://datastori.es/) | Programação
