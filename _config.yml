@@ -72,7 +72,7 @@ compress_images:
   jpegrecompress:
     allow_lossy: true
     quality: 2
-    max_quality: 70
+    max_quality: 60
 imageoptim:
   svgo: false
 
