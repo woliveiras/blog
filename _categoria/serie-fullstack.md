@@ -1,4 +1,4 @@
 ---
 tag: série fullstack
-permalink: "/categoria/serie-fullstack"
+permalink: "/categoria/série-fullstack"
 ---
