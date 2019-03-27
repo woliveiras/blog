@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Recomendações de podcasts variados para programadores de todos os níveis
+title: Recomendações de podcasts variados para programadores(as) de todos os níveis
 date: 2019-03-27 10:37 -0300
 categories:
     - dicas
