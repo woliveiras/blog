@@ -94,6 +94,7 @@ Separei em casts em português e inglês. Se você está estudando inglês, reco
 | [Pizza de Dados](https://pizzadedados.com/) | Data Science | 
 | [Não Obstante](http://www.naoobstante.com/podcast/) | Filosofia | 
 | [ResumoCast](https://www.resumocast.com.br/) | Resumo de livros | 
+| [Data Hackers](https://datahackers.com.br/podcast) | Data Science |
 | [DevNaEstrada](https://devnaestrada.com.br/) | Programação/Carreira |
 
 ### Podcasts em inglês
