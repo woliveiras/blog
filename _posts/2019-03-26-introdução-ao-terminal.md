@@ -650,7 +650,7 @@ workspace
 
 Exemplo de arquivo:
 
-```txt
+```
 Nome: William Oliveira
 Email: contato@woliveiras.dev
 GitHub: woliveiras
