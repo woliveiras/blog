@@ -204,3 +204,15 @@ images/posts/voce-nao-e-pago-para-escrever-codigo.jpeg: voce-nao-e-pago-para-esc
 images/posts/rio.jpeg: rio.jpeg
 images/posts/capa-idiomas.jpeg: capa-idiomas.jpeg
 images/posts/curs-fullstack.png: curs-fullstack.png
+images/posts/create-new-repository-data.png: create-new-repository-data.png
+images/posts/botao-de-alterar.png: botao-de-alterar.png
+images/posts/opcoes-github.png: opcoes-github.png
+images/posts/nova-linha-readme.png: nova-linha-readme.png
+images/posts/inicializar-com-readme.png: inicializar-com-readme.png
+images/posts/new-repository.github.png: new-repository.github.png
+images/posts/criando-repositorio-vazio.png: criando-repositorio-vazio.png
+images/posts/novo-repo-configurado.png: novo-repo-configurado.png
+images/posts/clone-via-ssh-ou-https.png: clone-via-ssh-ou-https.png
+images/posts/commit-changes.png: commit-changes.png
+images/posts/connected-word.jpg: connected-word.jpg
+images/posts/connected-world.jpg: connected-world.jpg
