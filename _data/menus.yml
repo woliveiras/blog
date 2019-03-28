@@ -16,6 +16,8 @@ footer-menu:
     url: /newsletter/
   - title: Pesquisas sobre programação
     url: /pesquisas
+  - title: Curso fullstack com Node.js e React
+    url: /curso/do-zero-ao-fullstack-com-nodejs-bancos-de-dados-express-e-react/
   - title: Como se tornar frontend
     url: https://github.com/woliveiras/front-end-career/blob/master/README.md
   - title: Meus Links favoritos
@@ -36,6 +38,8 @@ social-support:
     url: /pela-quebrada
   - title: Pergunte-me qualquer coisa
     url: /ama
+  - title: perifaCode
+    url: http://perifacode.com
 
 social-menu:
   - title: Twitter
