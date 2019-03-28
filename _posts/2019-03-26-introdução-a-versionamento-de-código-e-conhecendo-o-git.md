@@ -21,6 +21,8 @@ description: Vamos entender sobre versionamento de código e aprender os conceit
 ---
 Este artigo é parte do material utilizado no curso de fullstack com Node.js, bancos de dados, Express e React do meu programa social do perifaCode, o [perifaCode.teach()](https://github.com/perifacode/teach). Estou disponibilizando ele para que qualquer outra pessoa também possa aprender gratuitamente pela internet e qualquer pessoa possa ensinar utilizando este conteúdo.
 
+No artigo anterior tivemos uma introdução ao terminal, confere aqui: [Introdução ao terminal](/posts/introdução-ao-terminal/).
+
 <!-- vscode-markdown-toc -->
 * [Introdução a versionamento de código e Git](#IntroduoaversionamentodecdigoeGit)
 * [O que é Git](#OqueGit)
@@ -667,6 +669,8 @@ Aprendemos instalar e configurar o Git, todos os termos mais importantes como re
 Você não precisa decorar todos estes comandos, só entender para o que cada um serve, pois tudo isso se torna automático no seu dia-a-dia. Se você esquecer de algum, basta pesquisar no Google ou olhar este artigo (recomendo deixar nos favoritos): [Comandos mais utilizados no Git](/posts/comandos-mais-utilizados-no-git).
 
 O próximo passo é aprendermos a trabalhar com repositórios remotos, onde vamos conhecer o GitHub, GitLab e Bitbucket.
+
+No próximo artigo vamos aprender a utilizar repositórios remotos e o GitHub: [Trabalhando com repositórios remotos - Git e GitHub](/posts/trabalhando-com-repositórios-remotos-git-e-github/).
 
 ## <a name='Referncias'></a>Referências
 
