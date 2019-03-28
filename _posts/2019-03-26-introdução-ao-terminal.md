@@ -650,7 +650,7 @@ workspace
 
 Exemplo de arquivo:
 
-```
+```txt
 Nome: William Oliveira
 Email: contato@woliveiras.dev
 GitHub: woliveiras
@@ -661,6 +661,6 @@ Habilidades: Terminal Linux
 
 Esta é a primeira aula do perifaCode.teach(). Espero que tenha gostado e que sinta vontade de continuar estudando através deste material.
 
-No próximo artigo veremos a introdução ao Git.
+No próximo artigo veremos a introdução a versionamento de código e Git: [Introdução a versionamento de código e conhecendo o Git](/posts/introdução-a-versionamento-de-código-e-conhecendo-o-git/).
 
 Foto de capa por [Kevin Horvat](https://unsplash.com/photos/Pyjp2zmxuLk?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText) via [Unsplash](https://unsplash.com/search/photos/linux?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText).
