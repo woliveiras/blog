@@ -13,8 +13,6 @@ description: Instalação do Git no Windows
 
 O Git é muito utilizado por muitos desenvolvedores e [empresas](https://www.neuroniodigital.com.br/empresas-no-github/ "10 grandes empresas que estão no GitHub e o que elas estão fazendo lá") * , portanto se você ainda não sabe utilizar, sugiro buscar material para aprender sobre versionamento urgente!!! Afinal de contas, nem sempre o ctrl+z te salva... ;)
 
-<!--more-->
-
 *Não confunda Git com Github. O artigo foi utilizado para mostrar as grandes empresas que usam Git E Github.*
 
 ## Baixando o Git para Windows
@@ -47,6 +45,8 @@ Deixe marcado a opção **Use git from Command Prompt** para que consiga usar o 
 Selecione a segunda opção para que não existam conflitos entre as quebras de linha que o Windows coloca com as que os Sistemas Unix usam.
 
 **Next**, **Next** e podemos então configurar.
+
+{% include post_wallpaper.html %}
 
 ## Configuração do Git
 

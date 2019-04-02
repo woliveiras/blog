@@ -13,7 +13,7 @@ description: Um compilado de links úteis para aprender, se aprofundar ou manter
 
 Existe muito recurso legal disponível na internet para quem deseja aprender ou se aprofundar em JavaScript. Tanto recursos gratuitos, quanto recursos pagos. Existem muitos [livros bons](/posts/Livros-sobre-JavaScript-do-iniciante-ao-avancado-e-ES6/) sobre a linguagem também.
 
-Nesse post, vou tentar deixar um compilado de links úteis para quem quer se aprofundar na linguagem da Web!<!--more-->
+Nesse post, vou tentar deixar um compilado de links úteis para quem quer se aprofundar na linguagem da Web!
 
 *Claro que não vou colocar tudo o que eu já li aqui, porém os ultimos links que me lembro.*
 
@@ -95,6 +95,8 @@ JavaScript Society, uma org no GitHub sobre JavaScript!
 - [JavaScript Society](https://github.com/javascript-society)
 
 Além de ler os artigos, também recomendo que siga esses autores nas redes sociais, pois estão sempre compartilhando coisa boa.
+
+{% include post_wallpaper.html %}
 
 ## Foruns
 

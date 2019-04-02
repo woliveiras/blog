@@ -10,8 +10,8 @@ description: Dicas para organização da carreira utilizando metas, planos e o T
 ---
 No artigo anterior, sobre plano de carreira, comentei como utilizar estatística e dados para planejar nossa carreira através de buscas em sites de emprego, empresas, comunidades, etc. Neste artigo vamos analisar uma ideia que eu sigo de utilizar o Trello, uma ferramenta de gestão de projetos, para organizar nossas metas e, por consequência, atingir nossos objetivos do plano de carreira.
 
-![Imagem de um rio formando um caminho, Photo by NASA on Unsplash]({{site.post_images}}rio.jpeg)
-{:.post__wallpaper}
+{% capture page_image %}{{ page.image }}{% endcapture %}
+{% include post_wallpaper.html image_url=page_image alt_text="Foto de um rio, por cima, formando um caminho como uma trilha de água" %}
 
 ## Preparando o board
 

@@ -11,7 +11,7 @@ description: Aumente sua produtividade e da sua equipe com gamificação das tar
 
 Todos nós gostamos de jogos, seja no PC, Celular ou qualquer outro tipo... Simplesmente, gostamos. Agora imagine utilizar jogos para ser mais produtivo, cuidar da saúde, aprender algo novo ou qualquer outro objetivo pessoal.
 
-Imagine transformar sua vida em um jogo de RPG!<!-- more -->
+Imagine transformar sua vida em um jogo de RPG!
 
 Transformar tarefas diárias, habitos rotineiros ou afazeres em pequenos desafios para ficar mais interessante e motivacional o processo de cumprir essas tarefas é algo que fazemos com frequência, mesmo sem perceber ou utilizar nenhuma técnica ou meio para isso, só para facilitar nossa vida mesmo.
 
@@ -64,6 +64,8 @@ Você pode criar uma tarefa diária para **aprender/treinar um novo idioma**.
 Eu ainda uso muito o [Wunderlist](https://wunderlist.com/) para cadastrar minha lista de afazeres, mas, ultimamente, tenho passado as coisas para a lista de afazeres do Jogo para conseguir subir de nível mais rápido e ganhar mais pontos, etc.
 
 ![Afazeres Habitica](https://s32.postimg.org/5wwk7wprp/afazeres_habitica.png)
+
+{% include post_wallpaper.html %}
 
 ## Mas como utilizar isso para ser mais produtivo no serviço?
 

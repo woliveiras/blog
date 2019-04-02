@@ -10,9 +10,6 @@ description: Editor visual para Markdown. Escrevendo Markdown como no Word.
 ---
 
 Todo mundo que trabalha usando [Markdown](https://blog.da2k.com.br/2015/02/08/aprenda-markdown/ "Aprenda Markdown") ou usa a linguagem somente para descrever seus repositórios no Github gosta de ter aquele preview maneiro que o [Mou](https://25.io/mou/ "Mou") apresenta né? Pois é, mas o Mou não funciona em outras plataformas a não ser Apple. :( **#chateado**
-
-<!--more-->
-
 !["Haroopad"](../..//public/images/Haroopad.png)
 
 ## Conheça o Haroopad!
@@ -28,6 +25,8 @@ A instalação é bem simples, baixa acessar o site do [Haroopad](https://pad.h
 ## Algumas qualidades do Editor
 
 O modo Full Screen é básico em todos os editores, então nem vou comentar... ;P
+
+{% include post_wallpaper.html %}
 
 ### Syntax Help
 

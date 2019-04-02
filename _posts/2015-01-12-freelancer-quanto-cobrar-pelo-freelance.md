@@ -17,7 +17,7 @@ A resposta é:
 Não existe um valor padrão para o Freela!
 
 Seja projeto pequeno ou grande, que demanda muito tempo ou pouco. É tudo muito variável...
-Você tem de calcular quanto tempo vai demorar, quanto vai custar sua hora e por ai vai, mas relaxa, vou tentar ajudar aqui.<!--more-->
+Você tem de calcular quanto tempo vai demorar, quanto vai custar sua hora e por ai vai, mas relaxa, vou tentar ajudar aqui.
 
 ![saco de money]({{site.post_images}}money.jpg)
 
@@ -39,6 +39,8 @@ Se você já tem conhecimento suficiente para aceitar qualquer trampo, então ve
 Eu, particularmente, curto a metodologia [Scrum](https://www.scrum.org/ "Scrum")(Da uma olhada nesse [livro](https://www.casadocodigo.com.br/products/livro-scrum), é bem maneiro), uso o [Trello](/posts/gerenciar-projetos-com-trello/) para gerenciamento dos projetos e gosto da técnica de [Pomodoro](https://pomodorotechnique.com/) para ser produtivo.
 
 Para marcar minhas tarefas, fazer listas e tudo mais eu uso o [Wunderlist](https://wunderlist.com/), para datas importantes [Google Agenda](https://www.google.com/calendar/ "Agenda") e para armazenar arquivos importantes como contratos, briefings, propostas, etc, uso o [Google Drive](drive.google.com "Drive").
+
+{% include post_wallpaper.html %}
 
 ## Quanto custa sua hora
 

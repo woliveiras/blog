@@ -27,8 +27,8 @@ Mas ser autodidata esconde alguns problemas que podem nos atrapalhar bastante. P
 
 Existem maneiras de evitarmos os problemas citados acima e vamos entender algumas delas, as que eu uso, para sobrevivermos como pessoas autodidatas saudáveis e produtivas!
 
-![Teia de aranha, uma armadilha como nossa falta de planejamento, por Michael Podger no Unsplash]({{page.image}})
-{:.post__wallpaper}
+{% capture page_image %}{{ page.image }}{% endcapture %}
+{% include post_wallpaper.html image_url=page_image alt_text="Imagem de uma teia de aranha" %}
 
 ## Não saber qual o nível do nosso conhecimento
 

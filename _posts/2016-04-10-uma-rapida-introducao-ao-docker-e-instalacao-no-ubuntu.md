@@ -43,6 +43,8 @@ Menos trabalho e mais performance em nosso SO principal, né?
 
 Sim, porém existem alternativas melhores.
 
+{% include post_wallpaper.html %}
+
 ## Vagrant
 
 Por um bom tempo usei o [Vagrant](/posts/vagrant-introducao-instalacao/) que trabalha com a API do VirtualBox, porém é mais rápido e utiliza um [dot-file](https://en.wikipedia.org/wiki/Dot-file), o Vagrantfile, dentre outras alternativas, como [Puppet](https://puppet.com/) ou [Chef](https://www.chef.io/), para automatizar a instalação e configuração de tudo o que precisamos no nosso ambiente de desenvolvimento.

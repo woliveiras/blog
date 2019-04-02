@@ -27,8 +27,8 @@ Nos artigos anteriores aprendemos a usar o [terminal](/posts/introdução-ao-ter
 
 Este artigo é parte do material utilizado no [curso de fullstack com Node.js, bancos de dados, Express e React](/curso/do-zero-ao-fullstack-com-nodejs-bancos-de-dados-express-e-react/) do meu programa social do perifaCode, o [perifaCode.teach()](https://github.com/perifacode/teach). Estou disponibilizando ele para que qualquer outra pessoa também possa aprender gratuitamente pela internet e qualquer pessoa possa ensinar utilizando este conteúdo.
 
-![Imagem de um globo com diversas linhas conectadas, como um mundo conectado via servidores Git]({{page.image}})
-{:.post__wallpaper}
+{% capture page_image %}{{ page.image }}{% endcapture %}
+{% include post_wallpaper.html image_url=page_image alt_text="Imagem de um globo com diversas linhas conectadas, como um mundo conectado via servidores Git" %}
 
 ## O que são repositórios remotos
 

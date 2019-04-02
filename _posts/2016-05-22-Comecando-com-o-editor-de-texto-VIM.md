@@ -67,6 +67,8 @@ Mas não é bem assim.
 
 Se imagine aprendendo uma nova linguagem de programação, no primeiro dia você já sai dando aula? - Se você for um prodigio, não responda, por favor. ;P
 
+{% include post_wallpaper.html %}
+
 ## Antes de começar a usar o VIM, saiba
 
 O VIM trabalha com modos de operação. Onde, se você está em um modo ele possui determinados comandos e em outro modo os mesmos comandos podem fazer outra coisa. Os modos do VIM são os seguintes:

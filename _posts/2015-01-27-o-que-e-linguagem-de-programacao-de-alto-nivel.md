@@ -17,7 +17,7 @@ Se você vem seguindo o mesmo [guia de estudos](https://woliveiras.com.br/posts/
 
 *JavaScript é uma linguagem de programação de alto nível.*
 
-Mas e dae? Quer dizer que ela é uma linguagem de programação da realeza? É uma princesa? Ou um princeso? O que significa isso? <!--more-->
+Mas e dae? Quer dizer que ela é uma linguagem de programação da realeza? É uma princesa? Ou um princeso? O que significa isso?
 
 ## Linguagem de alto nível
 
@@ -39,6 +39,8 @@ Alguns exemplos de linguagens de alto nível:
 É aquela que se aproxima mais da linguagem de máquina.
 
 Essas são as que você precisa ter o conhecimento direto da arquitetura do computador para fazer alguma coisa. Tem um pouquinho mais para conhecer sobre elas [aqui](https://pt.wikipedia.org/wiki/Linguagem_de_programa%C3%A7%C3%A3o_de_baixo_n%C3%ADvel "Linguagem de programação de baixo nível - Wikipedia").
+
+{% include post_wallpaper.html %}
 
 ## Qual é mais difícil de se trabalhar?
 

@@ -55,8 +55,8 @@ No artigo anterior tivemos uma introdução ao terminal, confere aqui: [Introdu�
 	/vscode-markdown-toc-config -->
 <!-- /vscode-markdown-toc -->
 
-![Imagem de uma pessoa utilizando o Git via terminal]({{page.image}})
-{:.post__wallpaper}
+{% capture page_image %}{{ page.image }}{% endcapture %}
+{% include post_wallpaper.html image_url=page_image alt_text="Pessoa utilizando Git via terminal" %}
 
 ## <a name='IntroduoaversionamentodecdigoeGit'></a>Introdução a versionamento de código e Git
 

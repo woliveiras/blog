@@ -27,6 +27,8 @@ A primeira dica que deixo, e que acho a mais importante, é a seguinte:
 
 Preste atenção se está gostando de estudar isso... Gostar do que faz não é só enquanto está trabalhando. Se enquanto está aprendendo já não estiver gostando do que vê é sinal que você precisa rever seus caminhos e se realmente é isso que deseja.
 
+{% include post_wallpaper.html %}
+
 ## Conheça o mercado
 
 O único jeito de saber se você tem conhecimento para encarar certas funções, e também saber se você é considerado Junior, Pleno ou Sênior para as empresas, é pesquisando em sites de vagas ou nos sites das empresas para ver o que eles estão pedindo como "requisitos".

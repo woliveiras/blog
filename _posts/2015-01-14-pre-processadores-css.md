@@ -12,8 +12,6 @@ date: 2015-01-14 14:02:22
 
 Tem [gente que apoia o uso](https://blog.caelum.com.br/css-facil-flexivel-e-dinamico-com-less/ "CSS fácil, flexível e dinâmico com LESS"), tem [gente que não apoia](https://tableless.com.br/pre-processadores-usar-ou-nao-usar/ "Pré-processadores: usar ou não usar?") e, as vezes, falar disso da até briga nas comunidades do Facebook/Google/etc... Porém é algo que está sendo amplamente utilizado e, muitas vezes, é requisito para vagas na área. Se você não sabe o que é, ou sabe, mas tem dúvidas de qual utilizar ou tem alguma outra dúvida sobre pré processadores, eu vou tentar te ajudar agora!
 
-<!--more-->
-
 ## Antes de falar diretamente dos pré processadores preciso dizer algo!
 
 Uma coisa importante a ressaltar sobre o assunto é que: utilizar pré processadores é fácil... Não é uma coisa de outro mundo como alguns pensam.
@@ -35,6 +33,8 @@ Alguns dos pontos positivos são:
 * O uso de funções/mixins para agilizar algumas coisas também é excelente!
 * Você pode acabar com problemas comuns do dia-a-dia como ficar escrevendo os prefixos dos navegadores.
 * Acabar com aqueles arquivos .css de 300 mil linhas!
+
+{% include post_wallpaper.html %}
 
 ## Pontos negativos
 

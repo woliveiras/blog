@@ -17,6 +17,8 @@ A algum tempo eu adquiri um dispositivo que resolveu este problema para mim: um 
 
 > Este artigo não é patrocinado pela Amazon, viu! Eu que gosto muito do aparelho e gostaria de te ajudar a se decidir, caso você esteja pensando em comprar um.
 
+{% include post_wallpaper.html %}
+
 ## Vantagens do Kindle
 
 Uma das maiores vantagens do Kindle, para mim, é o fato dele não ocupar muito espaço e ser extremamente leve. A versão mais simples do dispositivo pesa 161 g e o tamanho é bem reduzido: 160 x 115 x 9.1 mm.

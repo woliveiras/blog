@@ -143,8 +143,8 @@ Como já disse Mandela:
 
 > A educação é a arma mais poderosa que você pode usar para mudar o mundo.
 
-![Frase do mandela em um banner maior]({{site.post_images}}mandela.png)
-{:.post__wallpaper}
+{% capture page_image %}{{ page.image }}{% endcapture %}
+{% include post_wallpaper.html image_url=page_image alt_text="Frase do Mandela, citada acima, em um banner com fundo preto e letras em branco" %}
 
 Se você quiser adquirir o livro, fica de olho no site da Casa do Código ou nas minhas redes sociais para saber quando for publicado. :grin:
 

@@ -37,8 +37,8 @@ Neste artigo vamos conhecer algumas ferramentas que podemos utilizar para constr
 	/vscode-markdown-toc-config -->
 <!-- /vscode-markdown-toc -->
 
-![Imagem do logo da JAMstack]({{page.image}})
-{:.post__wallpaper}
+{% capture page_image %}{{ page.image }}{% endcapture %}
+{% include post_wallpaper.html image_url=page_image alt_text="Logo do JAMStack" %}
 
 ## <a name='Geradoresdesiteesttico'></a>Geradores de site estático
 

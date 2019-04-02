@@ -9,7 +9,7 @@ date: 2015-01-26 06:00:53
 description: Como ser mais produtivo? Como organizar a vida para alcançar os objetivos mais rapidamente?
 ---
 
-Uma das minhas grandes preocupações na vida é ser produtivo! Eu gosto de fazer as coisas o mais rápido possível e estou sempre buscando maneiras de automatizar ou organizar as coisas de maneira que eu consiga cada vez mais produtividade.<!--more-->
+Uma das minhas grandes preocupações na vida é ser produtivo! Eu gosto de fazer as coisas o mais rápido possível e estou sempre buscando maneiras de automatizar ou organizar as coisas de maneira que eu consiga cada vez mais produtividade.
 
 Durante algum tempo fui testando várias abordagens e técnicas de produtividade. Técnicas que podem ser aplicadas no serviço, para estudos ou mesmo para cumprir tarefas do cotidiano(Como lembrar de pagar uma conta ou do que precisa comprar no mercado).
 
@@ -22,6 +22,8 @@ Eu faço listas com as tarefas que tenho de cumprir e, de acordo com que termino
 Para isso utilizo um aplicativo que da pra usar tanto no PC, quanto no Celular: O [Wunderlist](https://www.wunderlist.com/pt/ "Wunderlist").
 
 Nele eu separo o que é projeto pessoal, o que é projeto profissional e até o que eu estou estudando/planejo estudar por pastas e nessas pastas coloco os tópicos. De acordo com que vou concluindo, marco como concluído e pronto! A tarefa fica riscadinha e oculta na lista.
+
+{% include post_wallpaper.html %}
 
 **Como usar Wunderlist no serviço?**
 

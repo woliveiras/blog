@@ -21,8 +21,8 @@ Visando isso vieram alguns sites e iniciativas de cursos gratuitos, alguns onlin
 
 Eu conheci o freeCodeCamp através de um pupilo do projeto Mentoria e logo de cara me apaixonei pelo projeto. Vou contar aqui um pouco sobre como o freeCodeCamp funciona e por que você deveria estar nessa comunidade.
 
-![Capa do freeCodeCamp]({{site.post_images}}freecodecamp.png)
-{:.post__wallpaper}
+{% capture page_image %}{{ page.image }}{% endcapture %}
+{% include post_wallpaper.html image_url=page_image alt_text="Logo do freeCodeCamp" %}
 
 ## O que é o freeCodeCamp
 

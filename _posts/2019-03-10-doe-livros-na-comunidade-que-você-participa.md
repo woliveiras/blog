@@ -19,8 +19,8 @@ Pode parecer singelo ou mesmo social demais o que eu falei até aqui, mas isso �
 
 Hoje eu estou aqui para te pedir um favor: **doe livros nas comunidades que você participa**.
 
-![Livros em uma estante]({{page.image}})
-{:.post__wallpaper}
+{% capture page_image %}{{ page.image }}{% endcapture %}
+{% include post_wallpaper.html image_url=page_image alt_text="Livros em uma estante" %}
 
 ## Livros de programação são caros
 

@@ -15,13 +15,13 @@ tags:
 
 Quando você escreve um código fonte JS, com certeza, deixa alguns espaços em banco dando tabs para identar, coloca alguns espaços entre comentários, nomes de variáveis que são extremamente legíveis e fáceis de entender e por ai vai... Deixa tudo uma belezura.
 
-<!--more-->
-
 ## Para deixar os scripts mais leves
 
 Os comentários e tabulações não contam pra que o script funcione e deixar isso lá só torna seu arquivo mais pesado e para o CSS isso também se aplica. Então é para deixar esses scripts mais leves é que minificamos.
 
 Pra uma pessoa com internet boa, navegador atualizado e utilizando o PC, não parece ter diferença - Apesar de ter sim. Porém pra quem usa a amada tecnologia do 3G navegando pelo Celular ou Tablet, 50kb fará muita diferença.
+
+{% include post_wallpaper.html %}
 
 ## Afinal o que é Minificar
 

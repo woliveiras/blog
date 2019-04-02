@@ -53,6 +53,8 @@ Claro que com isso eu não **aprendo** uma nova linguagem eu só passo a conhece
 
 Mas existem maneiras de realmente aprender as linguagens.
 
+{% include post_wallpaper.html %}
+
 ### Exercism
 
 O Exercism é uma plataforma com diversos desafios em várias linguagens que podemos ir resolvendo para melhorar nossas habilidades ou mesmo aprender algo novo.

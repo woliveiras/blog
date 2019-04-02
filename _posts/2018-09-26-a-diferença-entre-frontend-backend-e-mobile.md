@@ -17,8 +17,8 @@ Porém mesmo quando trabalhamos com programação ainda temos as nossas questõe
 
 Pois bem, vamos raciocinar um pouco sobre as responsabilidades de cada profissional para tentarmos encontrar um padrão e remover de vez este preconceito entre áreas.
 
-![Imagem de drinks tropicais com frutas dentro de copos de vidro com canudos de cores diferentes. Foto por Kaizen Nguyễn no Unsplash]({{site.post_images}}diferent-drinks.jpeg)
-{:.post__wallpaper}
+{% capture page_image %}{{ page.image }}{% endcapture %}
+{% include post_wallpaper.html image_url=page_image alt_text="Imagem de drinks tropicais variados em copos e taças decoradas com frutas e/ou mini guarda chuvas" %}
 
 Diferentes profissões com um mesmo objetivo são o mesmo que diferentes drinks com diversos sabores, mas todos eles matam a sede.
 

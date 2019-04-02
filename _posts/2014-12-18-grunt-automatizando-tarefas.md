@@ -11,7 +11,7 @@ date: 2014-12-18 23:34:45
 description: Automatizando tarefas com o Grunt
 ---
 
-Todo processo de desenvolvimento possui algumas tarefas repetitivas como testes, minificação de arquivos, concatenação de arquivos para conseguir modularizar algo, etc.<!--more-->
+Todo processo de desenvolvimento possui algumas tarefas repetitivas como testes, minificação de arquivos, concatenação de arquivos para conseguir modularizar algo, etc.
 
 ## O que é o Grunt?
 
@@ -32,6 +32,8 @@ Como você percebe, foi instalado o **grunt-cli** não o **grunt**. O grunt-cli 
 Esse **-g** avisa para o NPM que a instalação deve ser Global, isso significa que ele não será instalado somente para um projeto, mas sim em sua máquina, estando disponível sempre que precisar rodando o comando **grunt**. Esse comando irá configurar o seu *[$PATH](https://www.vivaolinux.com.br/artigo/O-que-e-PATH-como-funciona-e-como-trabalhar-com-ele "O que é $PATH")* e nós podemos prosseguir.
 
 Agora é necessário configurar as tarefas que o Grunt irá executar.
+
+{% include post_wallpaper.html %}
 
 ## Configurando as tarefas
 

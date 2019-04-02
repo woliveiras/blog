@@ -77,6 +77,8 @@ Lembrando que eu sou mais privilegiado que a maioria dos meus amigos, que cresce
 
 Hoje, graças aos frutos de investir meu tempo (que também é um privilégio que eu tive e meus amigos não) consumindo conteúdo pirata sobre programação, eu faço até uma faculdade! Olha que impressionante!
 
+{% include post_wallpaper.html %}
+
 ## A hipocrisia do abastado financeiramente
 
 Lógico que eu não quero que você seja um criminoso ou uma criminosa virtual por ler este texto. Longe disso!

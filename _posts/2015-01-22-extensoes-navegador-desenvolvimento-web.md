@@ -11,7 +11,7 @@ date: 2015-01-22 11:00:31
 description: Extensões do Navegador para Desenvolvimento Front End
 ---
 
-Sou fã de produtividade e, por isso, utilizo várias ferramentas que me auxiliam a ser mais produtivo - Vou citar outras em futuras postagens ;). Algumas delas são extensões para o Navegador, no meu caso o Chrome/Firefox, que eu uso o tempo todo para testes. Nesse post vou citar algumas extensões muito boas para desenvolvimento Front End<!--more-->
+Sou fã de produtividade e, por isso, utilizo várias ferramentas que me auxiliam a ser mais produtivo - Vou citar outras em futuras postagens ;). Algumas delas são extensões para o Navegador, no meu caso o Chrome/Firefox, que eu uso o tempo todo para testes. Nesse post vou citar algumas extensões muito boas para desenvolvimento Front End
 
 *Para instalar alguma você pode clicar direto no sub-título e será direcionado para a Chrome Web Store. Se você estiver utilizando o Firefox, só pesquisar o nome dela no menu de instalação de Addons.*
 
@@ -28,6 +28,8 @@ Existem várias formas de testar a aplicação em diferentes resoluções. Com e
 Ela já possui ferramentas para validar o HTML, CSS, Links e WAI-ARIA que você pode alterar clicando em **Options, Options.**
 
 ![Web Developer Validation]({{site.post_images}}web-developer-validations.gif)
+
+{% include post_wallpaper.html %}
 
 ## [Frameworks](https://chrome.google.com/webstore/detail/frameworks/jgghnecdoiloelcogfmgjgcacadpaejf "Frameworks")
 

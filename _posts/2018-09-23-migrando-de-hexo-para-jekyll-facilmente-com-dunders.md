@@ -76,6 +76,8 @@ Se você quer se tornar front-end ou aprender VIM, por exemplo, já temos alguns
 
 Além disso, me preocupei em deixar o tema o mais limpo possível, com o tamanho de fonte maneiro, um bom espaçamento entre linhas e estou focando em escrever menos por parágrafo, o que ajuda pessoas dislexicas.
 
+{% include post_wallpaper.html %}
+
 ## Novidades legais
 
 No tema antigo eu não tinha me preocupado em colocar meios de compartilhar os textos nas redes sociais, nem com artigos relacionados, por isso eu dei certa atenção para isso aqui.

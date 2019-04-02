@@ -10,7 +10,7 @@ description: Livros sobre JavaScript do iniciante ao avançado em sequência par
 
 Existem excelentes livros sobre JavaScript no mercado, mas são tantos que nos perdemos em qual ler primeiro, qual ler depois, qual nem vale a pena ler em determinado nível de conhecimento... São várias dúvidas.
 
-Nesse artigo vou tentar ajudar a escolher os melhores livros para seu nível de conhecimento e montar uma sequência legal de leitura para virar um JavaScript Master!<!--more-->
+Nesse artigo vou tentar ajudar a escolher os melhores livros para seu nível de conhecimento e montar uma sequência legal de leitura para virar um JavaScript Master!
 
 Alguns livros desses eu já li e alguns ainda estão na fila para estudo.
 
@@ -77,6 +77,8 @@ E para deixar sua aplicação voando:
 Com boas práticas de desenvolvimento pensando em performance.
 
 Agora sim, eu indicaria o [JavaScript, the good parts](https://amzn.to/2ronAKT) caso você leia o sumário e ache algo que lhe interesse depois desses outros livros.
+
+{% include post_wallpaper.html %}
 
 ## Subindo de nível
 

@@ -12,8 +12,7 @@ categories:
   - linux
 description: O que é uma imagem e o que é um container Docker? Uma breve explicação sobre esses dois termos que podem confundir um iniciante e uma introdução sobre o Docker Hub.
 ---
-
-Se você viu a primeira parte dessa sequência de artigos, percebeu que existem dois termos muito utilizados quando falamos de Docker: **Imagens** e **Containers**. Você deve se perguntar: qual é a diferença entre imagem e container Docker? Ou então: O que eu rodo com o `docker run`, uma imagem ou um container? <!--more-->
+Se você viu a primeira parte dessa sequência de artigos, percebeu que existem dois termos muito utilizados quando falamos de Docker: **Imagens** e **Containers**. Você deve se perguntar: qual é a diferença entre imagem e container Docker? Ou então: O que eu rodo com o `docker run`, uma imagem ou um container?
 
 Se você não viu o primeiro artigo, da uma olhada [aqui](/posts/uma-rapida-introducao-ao-docker-e-instalacao-no-ubuntu/).
 
@@ -58,6 +57,8 @@ Você também pode remover imagens locais com o comando:
 ```shell
 docker rmi ID_ou_nome_da_imagem
 ```
+
+{% include post_wallpaper.html %}
 
 ## Pesquisando por uma Imagem Docker
 

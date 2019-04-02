@@ -14,7 +14,7 @@ Supostamente uma frase de [Confúcio](https://pt.wikipedia.org/wiki/Conf%C3%BAci
 
 O título do artigo parece que eu quero arrumar uma briga com algum palestrante da área de RH, empreendedorismo ou que trabalhe motivando as pessoas para grandes empresas, porém não é isso.
 
-Leia o artigo até o final para ver se você concorda com minhas ideias a respeito dessa frase/filosofia/pensamento ou se discorda e podemos iniciar uma ótima conversa filosófica nos comentários. <!-- more -->
+Leia o artigo até o final para ver se você concorda com minhas ideias a respeito dessa frase/filosofia/pensamento ou se discorda e podemos iniciar uma ótima conversa filosófica nos comentários.
 
 ## A busca pelo trabalho legal
 
@@ -126,6 +126,8 @@ Quando precisamos faltar por um motivo pessoal, por exemplo, simplesmente falamo
 Mas essa é uma empresa [fora da curva](https://www.dicionarioinformal.com.br/fora+da+curva/).
 
 Sabemos que a realidade de muitas pessoas é diferente disso.
+
+{% include post_wallpaper.html %}
 
 ## Empresas legais
 

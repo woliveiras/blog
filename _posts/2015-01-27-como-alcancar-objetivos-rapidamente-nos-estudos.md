@@ -12,7 +12,7 @@ description: Como aprender mais rápido, como ser mais produtivo nos estudos.
 ---
 
 Essa é mais uma dica sobre produtividade, porém agora é nos estudos.
-Nós, Desenvolvedores, temos de estudar muito. Todo dia alguma ferramenta atualiza ou algo vira tendência e passa a ser usado no serviço e temos de aprender. E como fazer para aprender tudo isso sem ficar louco e de um jeito que consiga alcançar os objetivos mais rapidamente?<!--more-->
+Nós, Desenvolvedores, temos de estudar muito. Todo dia alguma ferramenta atualiza ou algo vira tendência e passa a ser usado no serviço e temos de aprender. E como fazer para aprender tudo isso sem ficar louco e de um jeito que consiga alcançar os objetivos mais rapidamente?
 
 Se você não leu meu post anterior sobre produtividade da uma olhada [aqui](/posts/como-ser-mais-produtivo/ "Como ser mais produtivo?").
 
@@ -39,6 +39,8 @@ Ex.:
 10. Convencer minha mãe não cobrar o dinheiro que peguei emprestado com ela
 
 Deixe essa folha separada. Ela servirá como um índice do que você quer aprender.
+
+{% include post_wallpaper.html %}
 
 ### Como você vai aprender?
 

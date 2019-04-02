@@ -21,6 +21,8 @@ Para instalar algo ali dentro, o NPM precisa de permissão de usuário para essa
 
 Para corrigir isso vamos mudar as permissões do seu usuário para o diretório.
 
+{% include post_wallpaper.html %}
+
 Começe executando o comando `npm config get prefix` para verificar se o prefixo está corretamente localizado em **/usr/local**.
 
 Caso esteja corretamente localizado execute o comando:

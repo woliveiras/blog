@@ -12,7 +12,7 @@ description: Por que usar Linux? Como começar com Linux?
 
 Depois de ler o artigo do Daciuk sobre [Como ser um dev frontend usando Linux](https://blog.da2k.com.br/2015/01/15/como-ser-um-dev-frontend-usando-linux/ "Como ser um dev frontend usando Linux"), decidi comentar como foi minha experiência no mundo Linux.
 
-Minha história com [Linux](https://pt.wikipedia.org/wiki/Linux "O que é Linux") começou quando eu conheci o [Kurumin Linux](https://pt.wikipedia.org/wiki/Kurumin "Kurumin") - Sim, eu sou tiozinho com esse S.O. cara. Na época eu trabalhava com Infraestrutura e fazia manutenção de micros. Acabei lendo em algum lugar que eu precisaria manjar de Linux para ser um profissional mais completo. Pois bem... Eu fui aprender sobre o danado!<!--more-->
+Minha história com [Linux](https://pt.wikipedia.org/wiki/Linux "O que é Linux") começou quando eu conheci o [Kurumin Linux](https://pt.wikipedia.org/wiki/Kurumin "Kurumin") - Sim, eu sou tiozinho com esse S.O. cara. Na época eu trabalhava com Infraestrutura e fazia manutenção de micros. Acabei lendo em algum lugar que eu precisaria manjar de Linux para ser um profissional mais completo. Pois bem... Eu fui aprender sobre o danado!
 
 ![Linux]({{site.post_images}}linux-icon.png)
 
@@ -25,6 +25,8 @@ Daria pra escrever uma Bíblia sobre o assunto, mas é melhor você dar uma lida
 Eu e quase 100% dos usuários de Linux, não usamos linux simplesmente por podermos baixar e utilizar as Distribuições de graça, - Se um Software é bom e funcional a gente paga por ele também! ~~Tá tirando???~~ - mas pela estabilidade e, muitas vezes, pela praticidade em utilizar algumas coisas de Desenvolvimento ou simplesmente por ser mais leve em Hardware antigo.
 
 Eu gosto do Open Source por que sou livre para editar o meu Sistema Operacional a vontade e a comunidade é show!
+
+{% include post_wallpaper.html %}
 
 ## O que é uma "Distro" (Distribuição Linux)?
 

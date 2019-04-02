@@ -11,7 +11,7 @@ description: Retrospectiva 2016 - Como foi esse ano cheio de projetos legais, op
 
 Já faz algum tempo desde o meu ultimo [post](/posts/Devolva-para-as-comunidades/) aqui no Blog. Foram muitos compromissos esse ano e muita correria. Esse artigo me ajuda a te explicar o por que dessa ausência e de quebra me ajudou a relembrar como esse ano foi bem louco.
 
-O [Felipe Fialho](https://twitter.com/LFeh) escreveu um post bem maneiro sobre [como foi seu ano de 2016](https://medium.com/@lfeh/retrospectiva-2016-df06dfdf0c2e#.eikzbmnj4), o [Luan Vicente](https://twitter.com/idlua) também [escreveu](https://medium.com/@idlua/retrospectiva-2016-9871d9eb9236#.edca997t2) e isso me motivou a também escrever uma e, de quebra, explicar os motivos deu estar sumido!<!-- more -->
+O [Felipe Fialho](https://twitter.com/LFeh) escreveu um post bem maneiro sobre [como foi seu ano de 2016](https://medium.com/@lfeh/retrospectiva-2016-df06dfdf0c2e#.eikzbmnj4), o [Luan Vicente](https://twitter.com/idlua) também [escreveu](https://medium.com/@idlua/retrospectiva-2016-9871d9eb9236#.edca997t2) e isso me motivou a também escrever uma e, de quebra, explicar os motivos deu estar sumido!
 
 Foi bem interessante relembrar o que houve esse ano e fiquei feliz por algumas conquistas enquanto escrevia o post.
 
@@ -44,6 +44,8 @@ Esse ano criei mais projetos do que no ano passado.
 Ainda em Abril criamos o projeto [Mentoria](https://github.com/training-center/mentoria) no [Centro de Treinamento](https://medium.com/trainingcenter/hello-world-conhe%C3%A7a-o-centro-de-treinamento-4a47a1230b0c#.i3722q6bd). Deixei para comentar em um espaço especial, pois é um projeto que me deixa muito contente com a comunidade: Muita gente está contribuindo com a carreira de outras pessoas e isso é bom demais.
 
 Quero aqui agradecer a cada um que tem ajudado o [CT](https://twitter.com/ct_org) de alguma maneira, pois é graças a vocês que várias pessoas tem conseguido motivação para continuar sua luta pela carreira dos seus sonhos e até conseguido [trampos legais](https://medium.com/trainingcenter/minha-experi%C3%AAncia-com-o-ct-centro-de-treinamento-ce08e58d247f#.lgch676ki).
+
+{% include post_wallpaper.html %}
 
 ## Eventos
 

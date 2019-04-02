@@ -75,6 +75,8 @@ Todos estão no meu **s2**!
 
 Porém precisamos de um líder para que ele ajude a centralizar as responsabilidades e tomadas de decisão.
 
+{% include post_wallpaper.html %}
+
 ## Mudanças são sempre bom
 
 Mudanças são coisa boa. Foi graças a minha mudança de [sair de Infraestrutura e ir para Desenvolvimento de Software](/posts/um-ano-como-desenvolvedor-front-end/) que eu conheci essa galera sensacional.

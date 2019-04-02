@@ -36,8 +36,8 @@ Caso você não queira ler cada recomendação, só ver uma lista e olhar a desc
 
 Agora vamos as recomendações!
 
-![Imagem de uma pilha de livros]({{page.image}})
-{:.post__wallpaper}
+{% capture page_image %}{{ page.image }}{% endcapture %}
+{% include post_wallpaper.html image_url=page_image alt_text="Foto de uma pilha de livros" %}
 
 ## [O universo da programação](https://www.casadocodigo.com.br/products/livro-universo-programacao)
 

@@ -43,8 +43,8 @@ Paralisia por análise, resumindo e simplificando muito, é a gente pensar demai
 
 Neste artigo vamos entender como superar esse bloqueio e finalmente colocar nossos planos em prática ou mesmo tirar nossas ideias do papel.
 
-![Imagem de uma biblioteca por Alfons Morales no Unsplash]({{page.image}})
-{:.post__wallpaper}
+{% capture page_image %}{{ page.image }}{% endcapture %}
+{% include post_wallpaper.html image_url=page_image alt_text="Imagem de uma biblioteca" %}
 
 ## Como saber se estamos pensando demais e agindo pouco
 

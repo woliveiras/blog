@@ -60,6 +60,8 @@ Eu recebo uma recompensa pelo meu trabalho que massageia o meu ego, que é quand
 
 Se você discorda de mim sobre isso, comente por favor, pois eu posso estar enganado em relação ao significado de altruísmo.
 
+{% include post_wallpaper.html %}
+
 ## A estratégia de usar comunidades como marketing de conteúdo
 
 Agora chega ao ponto em que eu fico com a pulga atrás da orelha: vejo pessoas distribuindo pela internet conteúdo raso, dizendo que é para ajudar a comunidade, mas o seu curso completo ou o seu livro que realmente ensina algo útil para as pessoas tem um valor e nós temos que pagar por eles.

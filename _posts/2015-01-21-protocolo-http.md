@@ -12,7 +12,7 @@ categories:
 date: 2015-01-21 11:00:57
 ---
 
-No post anterior, [URL ou URI, qual a diferença?](https://woliveiras.com.br/posts/url-uri-qual-diferenca/ "URL ou URI, qual a diferença?"), expliquei a diferença entre URL, URI e URN e fiz uma pequena introdução sobre o Protocolo HTTP. Da uma lidinha na introdução lá e volte aqui para continuar estudando sobre esse interessante protocolo de comunicação das Internetsss! :D<!--more-->
+No post anterior, [URL ou URI, qual a diferença?](https://woliveiras.com.br/posts/url-uri-qual-diferenca/ "URL ou URI, qual a diferença?"), expliquei a diferença entre URL, URI e URN e fiz uma pequena introdução sobre o Protocolo HTTP. Da uma lidinha na introdução lá e volte aqui para continuar estudando sobre esse interessante protocolo de comunicação das Internetsss! :D
 
 Como eu disse, toda a especificação está [aqui](https://tools.ietf.org/html/rfc2616 "RFC2616") e eu só estou dando uma pequena pincelada sobre o assunto.
 
@@ -31,6 +31,8 @@ Os mais utilizados são:
 **DELETE** - Remove um recurso.
 
 **HEAD** - Recupera as informações sobre um recurso.
+
+{% include post_wallpaper.html %}
 
 ## Status Code
 

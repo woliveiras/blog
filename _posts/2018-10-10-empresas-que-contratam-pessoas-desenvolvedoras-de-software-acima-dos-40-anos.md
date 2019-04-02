@@ -26,6 +26,8 @@ Segundo algumas pessoas que eu questionei, elas acabam se sentindo em um mercado
 
 Este post é só uma pequena ajuda para essas pessoas. Pra mostrar que tem gente que entende sua dor e está te ouvindo e vamos fazer o possível pra tentar ajudar nos lugares onde trabalhamos.
 
+{% include post_wallpaper.html %}
+
 ## Falta de oportunidade nas empresas
 
 O que acontece muito em nosso mercado, talvez na maioria, é achar que "pessoas de mais idade", como alguns costumam chamar, não querem ou não tem criatividade para continuar programando depois de certo tempo.

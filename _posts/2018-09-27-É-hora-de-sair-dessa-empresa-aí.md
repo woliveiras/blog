@@ -43,6 +43,8 @@ Se a resposta for que temos muitas pessoas com comportamento ruim, é sinal que 
 
 ![Selo Bino de cilada]({{site.post_images}}selo-bino-de-cilada.jpeg)
 
+{% include post_wallpaper.html %}
+
 ## Uma empresa ruim pode nunca deixar de ser uma empresa ruim
 
 As pessoas mudam, o ambiente de trabalho pode, sim, melhorar com a entrada de pessoas legais. **Porém essa mudança só vai acontecer se a empresa realmente quiser isso**.

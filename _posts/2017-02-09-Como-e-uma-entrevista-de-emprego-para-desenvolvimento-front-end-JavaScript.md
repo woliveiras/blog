@@ -17,7 +17,7 @@ Dúvidas como “O que temos que fazer nessas entrevistas?” ou “É muito dif
 
 Nesse post vou contar um pouco da minha experiência com algumas entrevistas.
 
-Senta que lá vem história. <!-- more -->
+Senta que lá vem história.
 
 ## O medo das entrevistas
 
@@ -73,6 +73,8 @@ A análise sobre esses tópicos é estritamente pessoal. Não tem como eu dizer 
 Cuidado ao aceitar as vagas de emprego só porque está no desespero. Pode ser que você vá para algum lugar onde vai perder muito tempo que poderia ser investido em sua carreira.
 
 Claro que até aqui eu não levei em conta o momento financeiro de cada um. Se você está realmente precisando de um emprego por estar necessitado, leve isso em consideração. Afinal você precisa sobreviver pra poder entrar em um emprego melhor depois. ;)
+
+{% include post_wallpaper.html %}
 
 ## Como foram as entrevistas que participei até agora
 

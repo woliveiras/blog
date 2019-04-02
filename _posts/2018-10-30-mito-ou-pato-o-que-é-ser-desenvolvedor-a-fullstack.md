@@ -38,6 +38,8 @@ Seria a pessoa fullstack **um mito**, **um pato** ou só mais uma **pessoa desen
 
 Vamos pensar sobre esse assunto.
 
+{% include post_wallpaper.html %}
+
 ## Mito ou pato, o que é ser desenvolvedor(a) fullstack?
 
 Visando responder essa pergunta eu fiz um vídeo para o meu canal comentando o que realmente é uma pessoa desenvolvedora fullstack. Confere aí!

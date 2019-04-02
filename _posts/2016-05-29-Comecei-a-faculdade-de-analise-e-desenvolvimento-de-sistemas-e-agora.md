@@ -54,6 +54,8 @@ Observando algumas discussões nos foruns de desenvolvimento eu percebo que a ga
 
 Podemos ver em alguns  [comentários](https://github.com/frontendbr/forum/issues/56) que a faculdade ajuda no tipo do visto e isso é um plus na sua contratação caso você se candidate par uma vaga fora do país.
 
+{% include post_wallpaper.html %}
+
 ## Estruturação de conhecimento
 
 Sim, falei que algumas faculdades transmitem um conteúdo ruim, mas não custa nada você observar bem a grade do curso antes de entrar, não é jovem? - Eu errei nisso na primeira vez.

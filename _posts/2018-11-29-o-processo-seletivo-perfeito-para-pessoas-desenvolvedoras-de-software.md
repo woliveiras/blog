@@ -47,8 +47,8 @@ Uma grande parcela possui graduação completa:
 
 Vamos conferir as respostas!
 
-![Imagem de uma placa escrito "for hire" (para contratação em inglês), via unsplash]({{site.post_images}}clem-onojeghuo-210707-unsplash.jpg)
-{:.post__wallpaper}
+{% capture page_image %}{{ page.image }}{% endcapture %}
+{% include post_wallpaper.html image_url=page_image alt_text="Imagem de uma placa escrito 'for hire' (para contratação em inglês)" %}
 
 ## Sobre a entrevista de emprego
 

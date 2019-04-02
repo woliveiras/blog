@@ -68,6 +68,8 @@ Então voltei a me controlar, tomar remédios, me cuidar como antes e pronto, pa
 
 Só que decidi fazer um experimento comigo mesmo para ver o que realmente estava ajudando, pois eu já disse que não quero tomar remédios o resto da vida.
 
+{% include post_wallpaper.html %}
+
 ## Como funcionou o experimento
 
 Durante os últimos **15** dias eu fiz o seguinte teste, comigo mesmo:

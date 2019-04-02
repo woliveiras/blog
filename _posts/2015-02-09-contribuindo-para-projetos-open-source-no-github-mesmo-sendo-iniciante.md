@@ -20,7 +20,7 @@ Sim! E eu concordo. A melhor maneira de aprender é estudando e praticando muuuu
 
 Ai você se pergunta: "Tá, mas se eu sou iniciante como eu consigo ajudar?"
 
-Vamos nessa que vou tentar te ajudar.<!--more-->
+Vamos nessa que vou tentar te ajudar.
 
 !["GitHub"]({{site.post_images}}github.gif)
 
@@ -42,6 +42,8 @@ Digamos que você vá contribuir com a categoria [Frameworks JavaScript](https:
 
 Suponha que você escolheu o [AngularJS](https://github.com/angular/angular.js "AngularJS") (Por que é o primeiro que apareceu hoje pra mim), então agora você pode dar um **fork** no projeto, **clonar** em seu PC e começar os testes, procura por bugs ou criar novas funcionalidades!
 De começo é só isso, **pesquisar**, **se identificar** e fazer o **Fork **agora vamos as **formas de contribuição**.
+
+{% include post_wallpaper.html %}
 
 ## Maneiras de contribuir no Github
 

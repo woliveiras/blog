@@ -28,6 +28,8 @@ A configuração de rede deve ficar como NAT.
 
 Carregue o S.O. normalmente e instale conforme suas necessidades. Porém, por convenção, usuário e senha devem ser **vagrant**.
 
+{% include post_wallpaper.html %}
+
 ## Configurando um servidor Ubuntu como VM
 
 Instale o **VBox Guest Additions** na VM.

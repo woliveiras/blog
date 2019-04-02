@@ -10,7 +10,7 @@ date: 2015-01-19 05:00:19
 description: Como deixar o Ubuntu mais rápido mesmo com Unity
 ---
 
-Sou fã de Linux, e deixei bem claro [nesse post](/posts/meu-contato-com-o-linux-e-por-que-voce-deveria-testar/ "Meu contato com o Linux e por que você deveria testar"). Atualmente estou usando o Ubuntu e muita gente tem reclamado da performance do Unity. Eu, sinceramente, detestei o Unity quando lançado e não estou gostando do rumo "Windows 8 Metro" que ele tem tomado. O pessoal quer transformar o Sistema que uso no PC o mesmo que eu vou usar no Celular e isso não tem me agradado - Porém isso é papo para outra hora. Vamos ao foco que é melhorar a velocidade do Ubuntu.<!--more-->
+Sou fã de Linux, e deixei bem claro [nesse post](/posts/meu-contato-com-o-linux-e-por-que-voce-deveria-testar/ "Meu contato com o Linux e por que você deveria testar"). Atualmente estou usando o Ubuntu e muita gente tem reclamado da performance do Unity. Eu, sinceramente, detestei o Unity quando lançado e não estou gostando do rumo "Windows 8 Metro" que ele tem tomado. O pessoal quer transformar o Sistema que uso no PC o mesmo que eu vou usar no Celular e isso não tem me agradado - Porém isso é papo para outra hora. Vamos ao foco que é melhorar a velocidade do Ubuntu.
 
 !["Ubuntu"]({{site.post_images}}ubuntu.png)
 
@@ -29,6 +29,8 @@ sudo apt-get update && sudo apt-get upgrade -y
 ```
 
 Ou abra o Atualizador. ;)
+
+{% include post_wallpaper.html %}
 
 ## Desligue os efeitos visuais
 

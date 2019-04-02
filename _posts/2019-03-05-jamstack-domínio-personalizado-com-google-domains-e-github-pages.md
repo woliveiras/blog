@@ -19,8 +19,8 @@ Seguindo os exemplos até aqui, já temos então o nosso site hospedado no GitHu
 
 Neste arigo vamos aprender a configurar o GitHub Pages com Google Domains (ou o Google Domains com GitHub Pages, você que manda na ordem).
 
-![Imagem do logo do GitHub Pages]({{page.image}})
-{:.post__wallpaper}
+{% capture page_image %}{{ page.image }}{% endcapture %}
+{% include post_wallpaper.html image_url=page_image alt_text="Logo do GitHub Pages" %}
 
 <!-- vscode-markdown-toc -->
 * [Registrando um domínio no Google Domains](#RegistrandoumdomnionoGoogleDomains)

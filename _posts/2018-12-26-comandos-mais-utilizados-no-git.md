@@ -91,6 +91,8 @@ Caso você queira pular para algum comando específico.
 	/vscode-markdown-toc-config -->
 <!-- /vscode-markdown-toc -->
 
+{% include post_wallpaper.html %}
+
 ## <a name='Verificandoasconfiguraeslocais'></a>Verificando as configurações locais
 
 Quando trocamos de máquina podemos fazer um commit com um usuário ou email diferente, e isso pode estragar nosso histórico no Git.

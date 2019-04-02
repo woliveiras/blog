@@ -60,6 +60,8 @@ O Raciocínio Lógico nos aproxima de [pensamento sistemico](https://pt.wikipedi
 
 O [Computador trabalha com binários 0 e 1](https://www.ime.usp.br/~elo/IntroducaoComputacao/Como%20funciona%20um%20computador.htm) e usa isso para processar os dados. Comparando o computador com nosso processo de raciocínio, nós usamos o Raciocínio Lógico para chegar a uma verdade, processamos mentalmente os argumentos entre verdadeiros e falsos.
 
+{% include post_wallpaper.html %}
+
 ## E o que são esses tais argumentos?
 
 Os argumentos são enunciados que se relacionam entre sí onde um [enunciado](https://www.dicio.com.br/enunciado/) é a **conclusão** e os demais são chamados **premissas**.

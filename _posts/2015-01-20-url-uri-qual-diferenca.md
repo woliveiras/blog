@@ -14,7 +14,7 @@ date: 2015-01-20 10:00:42
 
 Essa dúvida já passou pela cabeça de muita gente e creio que se você é iniciante e já ouviu esses termos alguma vez também deve estar se confundindo. É normal essa confusão no começo, afinal você cria aplicações para consumir API's ou constrói/melhora API's o tempo todo no seu dia-a-dia, então você escuta esses termos direto.
 
-Mas afinal, qual a diferença entre URL e URI?<!--more-->
+Mas afinal, qual a diferença entre URL e URI?
 
 ## O Protocolo HTTP
 
@@ -34,6 +34,8 @@ Ali você consegue identificar o **endereço remoto** (173.194.118.197:443), a *
 
 E é assim que acontece a comunicação.
 No momento não vou aprofundar no Protocolo HTTP para voltarmos ao foco do post, porém vou citar mais algumas coisas legais na próxima postagem. ;)
+
+{% include post_wallpaper.html %}
 
 ## URL – Uniform Resource Locator
 

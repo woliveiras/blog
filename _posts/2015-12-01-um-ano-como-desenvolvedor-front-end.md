@@ -16,8 +16,6 @@ Todo mundo tem uma história legal pra contar sobre como começou na área de De
 
 Conheça um pouco sobre como foi meu primeiro ano como Desenvolvedor Front End. Medos, frustrações, desespero, alegria, festas e algumas dicas para se preparar para o mercado de trabalho.
 
-<!--more-->
-
 Eu trabalho a um bom tempo com informática, comecei com manutenção de micros e passei por Analista de Suporte I e II em uma empresa até [grandinha](https://www.linkedin.com/in/woliveira542), já até treinei equipes na área de Infra. Porém eu sempre quis me tornar um desenvolvedor e soltar a criatividade/criar coisas/automatizar tarefas/acelerar processos.
 
 Minha história como desenvolvedor começou, de fato, a um ano atrás (ou um ano e dois/três meses) quando tive a oportunidade de participar de alguns freelas com uns camaradas que conheci nas redes sociais. Não ganhava dinheiro, pois eramos todos iniciantes e pegávamos os serviços só para aprender mesmo.
@@ -48,6 +46,8 @@ Com o inglês eu poderia ter pego coisas (que eu já deveria saber) em artigos/l
 
 Quando comecei os estudos não tinha foco e por isso aprendi de tudo um pouco, mas não me especializei em nada. - Conhecia de tudo um pouco, mas de nada sabia.
 Eu estudava, estudava, estudava e achava que não estava aprendendo nada. Acho que você, iniciante também passa por isso, mas calma… Tenho alguns bons conselhos pra você.
+
+{% include post_wallpaper.html %}
 
 ## Um conselho difícil
 

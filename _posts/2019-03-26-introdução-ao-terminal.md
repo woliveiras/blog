@@ -56,8 +56,8 @@ Este artigo é parte do material utilizado no curso de fullstack com Node.js, ba
 	/vscode-markdown-toc-config -->
 <!-- /vscode-markdown-toc -->
 
-![Imagem de uma pessoa utilizando o terminal Linux]({{page.image}})
-{:.post__wallpaper}
+{% capture page_image %}{{ page.image }}{% endcapture %}
+{% include post_wallpaper.html image_url=page_image alt_text="Pessoa utilizando um computador, com uma blusa preta e a tela do notebook com vários terminais abertos" %}
 
 ## <a name='Umpoucodehistria'></a>Um pouco de história
 

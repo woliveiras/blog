@@ -15,7 +15,7 @@ description: Começando com Gulpjs
 
 Você é preguiçoso que eu sei! Programadores são preguiçosos... - Nem vem com Mimimi, por que você é sim - É por ser preguiçoso que o programador cria soluções que automatizam as tarefas, algo para agilizar as coisas chatas e sobrar tempo para as coisas legais - Como brincar com uma [bolinha de papel](https://www.youtube.com/watch?v=wn0OlzoD0Xs "Bolinha de papel"). E foi pra automatizar tarefas que surgiu o [Grunt](https://gruntjs.com/ "Grunt").
 
-Grunt? Não era Gulp?<!--more-->
+Grunt? Não era Gulp?
 
 ## Automatização
 
@@ -26,6 +26,8 @@ Algumas tarefas são essenciais para deixar sua aplicação melhor, como minific
 ## Então pra que usar esse tal de Gulp se já tem o Grunt?
 
 Por que o Gulp é mais rápido e mais fácil de ser configurado. O Grunt é da hora, porém o gulpfile, que é equivalente ao gruntfile, é mais fácil se você já conhece a sintaxe do Nodejs, por exemplo, vai entender o gulpfile com muito mais facilidade e o Gulp tem uma performance melhor.
+
+{% include post_wallpaper.html %}
 
 ## Instalação
 

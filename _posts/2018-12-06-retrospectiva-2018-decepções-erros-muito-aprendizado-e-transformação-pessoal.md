@@ -13,8 +13,8 @@ O título ficou um pouco depressivo, porém é a mais pura realidade e, assim co
 
 Como venho fazendo todo ano, este aqui é um post sobre coisas marcantes do meu ano e pontos que acho legais de compartilhar para refletir e agradecer a tudo o que aconteceu. Não será somente decepção e "cagadas" relatadas aqui, mas o compartilhamento de várias reflexões e um autoconhecimento que só obtive agora.
 
-![Foto de um relógio, por Murray Campbell no Unsplash]({{site.post_images}}murray-campbell-29990-unsplash.jpg)
-{:.post__wallpaper}
+{% capture page_image %}{{ page.image }}{% endcapture %}
+{% include post_wallpaper.html image_url=page_image alt_text="Foto de um relógio" %}
 
 Até a data em que escrevo esse artigo, eu li 46 livros, desde Comunicação Não-Violenta de Marshall B. Rosenberg até Procrastinação: Guia científico e O cangaceiro JavaScript este ano. Participei de muitos eventos, apesar deu ter me prometido em 2017 que iria fazer menos palestras/participar menos em 2018. Voltei a fazer terapia. Conheci muita gente e, finalmente, lancei meu livro, “O Universo da Programação”.
 

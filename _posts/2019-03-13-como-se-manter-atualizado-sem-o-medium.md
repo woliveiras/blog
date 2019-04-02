@@ -38,6 +38,8 @@ Até aí tudo bem. É uma plataforma de publicações, onde as pessoas podem gan
 	/vscode-markdown-toc-config -->
 <!-- /vscode-markdown-toc -->
 
+{% include post_wallpaper.html %}
+
 ## <a name='Ainternetopoder'></a>A internet é o poder
 
 A internet nos empodera. Seja para o bem ou para o mal. Nós podemos criar um blog facilmente e sair colocando nossas idéias lá e compartilhar nossos valores com outras pessoas, as incentivar a fazer algo junto conosco. Não dependemos de nenhuma plataforma para isso, apesar de ser muito mais fácil criar uma conta no Medium ou no LinkedIn, escrever um artigo e ganhar várias palminhas e likes.

@@ -16,6 +16,8 @@ description: "Qual o salário de um(a) programador(a)? Fizemos uma live no YouTu
 
 Com a participação do Luiz Felipe Limeira e Lucas Santos fiz uma live no meu canal onde conversamos sobre o salário de pessoas desenvolvedoras de software.
 
+{% include post_wallpaper.html %}
+
 Neste bate-papo, respondemos perguntas como:
 
 - Qual o salário de um programador em nível junior, pleno ou sênior?

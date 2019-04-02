@@ -15,7 +15,8 @@ Não garanto que você vai sair escrevendo perfeitamente depois de ler esse arti
 
 Mesmo com essas dicas você ainda vai receber feedback’s de melhorias depois que os seus artigos forem publicados e isso é bom! — Não se esqueça de me ensinar o que aprender. ;)
 
-![Máquinas de escrever - [Banner image created by Chevanon — Freepik.com](https://www.freepik.com/free-photos-vectors/banner)]({{site.post_images}}maquinas-de-escrever.jpeg)
+{% capture page_image %}{{ page.image }}{% endcapture %}
+{% include post_wallpaper.html image_url=page_image alt_text="Uma máquina de escrever" %}
 
 ## Tudo começa no rascunho
 

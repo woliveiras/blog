@@ -23,6 +23,8 @@ Se estamos habituados a participar de comunidade nós levamos essa questão para
 
 Cada pessoa pode responder baseado em sua própria experiência de vida e contexto pessoal, como cidade, estado ou país em que mora, sua vivência em faculdade, dentre diversos pontos que podem não fazer jus a sua necessidade pessoal.
 
+{% include post_wallpaper.html %}
+
 Cada pessoa precisa analisar seu próprio contexto para escolher sua primeira linguagem de programação. A não ser que esteja na faculdade, nesse caso os professores e professoras já fizeram o trabalho de escolher por você (o que pode ou não ser algo bom).
 
 Visando te ajudar a escolher a primeira linguagem de programação, fiz um vídeo explicando como escolher. Confere aí! 

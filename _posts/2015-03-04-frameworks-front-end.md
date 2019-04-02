@@ -15,7 +15,7 @@ Já parou pra pensar quantas vezes você repete o mesmo código durante o Desenv
 
 E pra você que é Gerente de Projetos, Líder ou algo do tipo: Já pensou em poder adicionar um membro no seu grupo  e ele já saber como funciona o Desenvolvimento nessa equipe e conseguir ser produtivo desde o princípio?
 
-Pois é, Frameworks servem para isso... Vem comigo que vou explicar melhor. ;)<!--more-->
+Pois é, Frameworks servem para isso... Vem comigo que vou explicar melhor. ;)
 
 ## O que são Frameworks?
 
@@ -30,6 +30,8 @@ Temos vários tipos de Frameworks pra todos os gostos e peculiaridades, porém n
 Frameworks são muito bons pela praticidade em se iniciar um projeto com metade do trabalho já feito, claro, mas você tem de entender [quando utilizar e quando não utilizar](https://tableless.com.br/quando-utilizar-ou-nao-frameworks-css/ "Quando utilizar (ou não) frameworks CSS - Talita Pagani").
 
 Temos o exemplo do [Twitter Bootstrap](https://getbootstrap.com/ "Twitter Bootstrap") que está sendo muito utilizado na Web por esses tempos e tem gente que nem sabe utilizar o que a ferramenta lhe entrega e sai sobrepondo os estilos e deixando o projeto cada vez mais pesado ou importa todo o código do Framework sendo que só vai utilizar os Grids.
+
+{% include post_wallpaper.html %}
 
 ## E os Frameworks Front End, servem pra que?
 

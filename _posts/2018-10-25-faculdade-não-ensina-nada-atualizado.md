@@ -19,6 +19,8 @@ Será que a faculdade está pecando conosco em não ensinar linguagens de progra
 
 Ou técnologias da moda como: React, Express, Django, Maria ou MongoDB?
 
+{% include post_wallpaper.html %}
+
 Eu, apesar da minha opinião pessoal de que a faculdade já não ensina muita coisa por padrão, tenho uma outra opinião sobre o que ela deveria ou não ensinar.
 
 Fiz um vídeo comentando o que eu penso sobre faculdade não ensinar nada atualizado para comentar mais sobre esse tópico tão importante.

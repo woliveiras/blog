@@ -12,7 +12,9 @@ description: Utilizando o Putty para acessar a Box do Vagrant
 
 Após a instalação do Vagrant, no primeiro artigo ["Crie e compartilhe ambientes com o Vagrant (Instalação)"](/posts/instalacao-vagrant/), precisamos acessar a máquina virtual com SSH. Nos ambientes Linux/Mac é facinho, basta rodar **ssh usuario@porta**, mas no Windows é um pouco diferente...
 
-No Windows precisamos de um programa bem útil chamado Putty.<!--more-->
+No Windows precisamos de um programa bem útil chamado Putty.
+
+{% include post_wallpaper.html %}
 
 ## Obtendo e configurando o Putty
 

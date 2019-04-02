@@ -27,8 +27,8 @@ Alguns dos atalhos que vou comentar são comandos Git que criei para melhorar o 
 
 Todos os artigos que eu li sobre o assunto e me ajudaram a melhorar meu workflow estarão listados no final desse texto, caso você queira conferir e dar umas curtidas, ajudar a divulgar o trabalho de outras pessoas que também contribuíram para facilitar a nossa vida. 
 
-![Cavalo correndo tão rápido quanto a gente digitando atalhos no terminal]({{page.image}})
-{:.post__wallpaper}
+{% capture page_image %}{{ page.image }}{% endcapture %}
+{% include post_wallpaper.html image_url=page_image alt_text="Cavalo correndo rápidamente" %}
 
 ## Criando e utilizando um alias no Git
 

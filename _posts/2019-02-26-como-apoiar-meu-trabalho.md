@@ -21,6 +21,9 @@ Algo que eu evito é cobrar pelo que eu faço, pois isso restringe o acesso a pe
 
 Mas conteúdo na internet não chega a todo mundo que precisa!
 
+{% capture page_image %}{{ page.image }}{% endcapture %}
+{% include post_wallpaper.html image_url=page_image alt_text="" %}
+
 Infelizmente temos as nossas bolhas sociais e isso também limita quem consome nosso conteúdo, por isso eu vejo que preciso investir em publicidade online (posts patrocinados no [Facebook](https://www.facebook.com/universodaprogramacao), [Twitter](https://twitter.com/w_oliveiras) e afins) para poder chegar a pessoas que tem interesse em tecnologia, porém ainda não chegaram a nossa bolha, a bolha das comunidades de desenvolvimento de software.
 
 Eu já venho fazendo isso há algum tempo e tem dado certo. Pessoas que não tinham acesso a área de programação conseguiram graças ao meu conteúdo e isso me deixa extremamente feliz.

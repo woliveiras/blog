@@ -46,6 +46,8 @@ Caso você queira pular para algum comando específico.
 	/vscode-markdown-toc-config -->
 <!-- /vscode-markdown-toc -->
 
+{% include post_wallpaper.html %}
+
 ## <a name='Comoeuseiquaisasimagensdisponveisnomeurepositriolocal'></a>Como eu sei quais as imagens disponíveis no meu repositório local?
 
 Utilize o comando `images` para listar:

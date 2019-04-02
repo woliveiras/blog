@@ -30,8 +30,8 @@ O mesmo quando vamos fazer um commit e quem aparece é o Vim ou o Nano.
 
 Agora e se quisermos fazer o mesmo, mas com o Visual Studio Code?
 
-![Ferramentas]({{page.image}})
-{:.post__wallpaper}
+{% capture page_image %}{{ page.image }}{% endcapture %}
+{% include post_wallpaper.html image_url=page_image alt_text="Uma caixa de ferramentas" %}
 
 ## Configurando o Visual Studio Code como editor padrão no Git
 

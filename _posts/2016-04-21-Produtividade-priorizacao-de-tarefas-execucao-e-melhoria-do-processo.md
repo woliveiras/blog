@@ -8,7 +8,7 @@ tags:
 description: Como planejar suas tarefas, executar da forma mais produtiva de melhorar o processo buscando ainda mais produtividade.
 ---
 
-Continuando a série sobre Produtividade, já sabemos [o que é produtividade](/posts/produtividade-uma-re-introducao/) e [como nosso cérebro funciona](/posts/Produtividade-conhece-te-a-ti-mesmo/), agora precisamos aprender a planejar as coisas para que nosso cérebro não nos atrapalhe em nossa meta de sermos mais produtivos. <!--more-->
+Continuando a série sobre Produtividade, já sabemos [o que é produtividade](/posts/produtividade-uma-re-introducao/) e [como nosso cérebro funciona](/posts/Produtividade-conhece-te-a-ti-mesmo/), agora precisamos aprender a planejar as coisas para que nosso cérebro não nos atrapalhe em nossa meta de sermos mais produtivos.
 
 O planejamento, aqui, pode ser dividido em:
 
@@ -56,6 +56,8 @@ Crie pequenos objetivos para finalizar durante o dia.
 Pode ser em um papel ou em algum aplicativo. Em um outro post vou explicar como uso o [Wunderlist](https://wunderlist.com/) + o [Trello](https://trello.com/) para quebrar as tarefas. Por enquanto só saiba que precisa anotar isso tudo em algum lugar para que não fique pensando o tempo todo nessas atividades.
 
 O fato de anotar vai ajudar a esvaziar sua mente e você vai melhorar o seu foco.
+
+{% include post_wallpaper.html %}
 
 ## Priorização de tarefas
 

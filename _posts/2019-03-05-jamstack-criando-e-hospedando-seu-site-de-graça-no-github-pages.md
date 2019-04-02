@@ -19,8 +19,8 @@ Se você não sabe o que é JAMstack, confere este artigo: [JAMstack introduçã
 
 Neste artigo vamos criar um site simples e hospedar no GitHub Pages. O importante será entender o fluxo e como o GitHub Pages funciona.
 
-![Imagem do logo do GitHub Pages]({{page.image}})
-{:.post__wallpaper}
+{% capture page_image %}{{ page.image }}{% endcapture %}
+{% include post_wallpaper.html image_url=page_image alt_text="Logo do GitHub Pages" %}
 
 ## Passo a passo
 

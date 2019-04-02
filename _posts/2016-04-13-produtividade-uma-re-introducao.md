@@ -13,7 +13,7 @@ No ritmo frenético em que vivemos, ser produtivo já não é mais qualidade de 
 
 Nós queremos fazer um amontoado de coisas todos os dias e toda hora aparece alguma outra coisa pra se fazer.
 
-Queremos estudar, trabalhar, namorar, passear, praticar esportes, curtir shows, sair com os amigos, viver em família, ver os filhos crescerem, sobrinhos, parentes...<!--more--> Queremos fazer tanta coisa que não da tempo de fazer nem a metade. Queremos viver.
+Queremos estudar, trabalhar, namorar, passear, praticar esportes, curtir shows, sair com os amigos, viver em família, ver os filhos crescerem, sobrinhos, parentes... Queremos fazer tanta coisa que não da tempo de fazer nem a metade. Queremos viver.
 
 Precisamos viver.
 
@@ -46,6 +46,8 @@ Trazendo isso para o lado pessoal, produtividade vai referir a maior quantidade 
 Você já parou para analisar quanto tempo gasta com cada tarefa que realiza durante o dia ou com cada coisa que faz (como aquela olhadinha no Facebook durante o expediênte) fora as suas atividades principais?
 
 Vamos aprender a planejar e mensurar isso.
+
+{% include post_wallpaper.html %}
 
 ## `<cliche>`Seu tempo vale mais do que dinheiro`</cliche>`
 

@@ -9,7 +9,7 @@ tags:
 description: Como configurar e utilizar o Vagrant para Desenvolvimento
 ---
 
-Se você leu a primeira parte desse tutorial, [Crie e compartilhe ambientes com o Vagrant (Instalação)](/posts/vagrant-introducao-instalacao/ "Crie e compartilhe ambientes com o Vagrant (Instalação)"), então podemos seguir nossos estudos e aprender a configurar e utilizar o Vagrant.<!--more-->
+Se você leu a primeira parte desse tutorial, [Crie e compartilhe ambientes com o Vagrant (Instalação)](/posts/vagrant-introducao-instalacao/ "Crie e compartilhe ambientes com o Vagrant (Instalação)"), então podemos seguir nossos estudos e aprender a configurar e utilizar o Vagrant.
 
 ## Adicionando uma Box
 
@@ -36,6 +36,8 @@ vagrant box add lucid32 https://files.vagrantup.com/lucid32.box
 Podemos encontrar outras Base Box no repositório do Vagrant no site oficial: [https://vagrantbox.es](https://vagrantbox.es/ "Repositório de Boxes do Vagrant").
 
 *Esse passo pode demorar um pouco dependendo da velocidade da sua conexão.*
+
+{% include post_wallpaper.html %}
 
 ## Inicializando com a nova box
 

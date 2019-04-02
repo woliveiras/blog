@@ -35,6 +35,8 @@ Dentro do meu index.mjs havia um **console.log** ou mais para imprimir no termin
 
 Para executar o watch e “escutar” as alterações que fazemos em nossos arquivos será necessário instalar o pacote e então rodar ele no terminal ou criar uma rotina no nosso NPM Scripts.
 
+{% include post_wallpaper.html %}
+
 ## Instalando o watch
 
 Execute no terminal:

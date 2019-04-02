@@ -38,6 +38,8 @@ Esse é muito utilizado e divulgado pela Web. Utilizei por um bom tempo!
 
 Da uma olhada nesse [link ](https://meyerweb.com/eric/tools/css/reset/index.html "Meyer | CSS Tools: Reset CSS")para conhecer melhor.
 
+{% include post_wallpaper.html %}
+
 ## CSS Reset do Yahoo
 
 É bem útil também! É o Reset do YUI.

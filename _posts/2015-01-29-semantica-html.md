@@ -29,6 +29,8 @@ Faça um teste: Instale a extensão que eu indiquei [nesse artigo](/posts/extens
 
 Esses foram só alguns dos tópicos que podemos levantar a respeito da importância da Semântica...
 
+{% include post_wallpaper.html %}
+
 ## E como escrever um HTML semântico?
 
 Não é difícil, basta você utilizar as tags para o que elas foram feitas.

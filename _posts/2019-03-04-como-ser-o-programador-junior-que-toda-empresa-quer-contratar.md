@@ -31,8 +31,8 @@ Para ser uma pessoa em nível júnior que toda empresa quer contratar vamos prec
 
 Eu começo dando conselhos de vida para você e depois eu foco na parte técnica.  Espero que, depois destas dicas, você consiga seu sonhado emprego como dev. Saiba que já estou torcendo por você.
 
-![Imagem de uma construção]({{page.image}})
-{:.post__wallpaper}
+{% capture page_image %}{{ page.image }}{% endcapture %}
+{% include post_wallpaper.html image_url=page_image alt_text="Imagem de um prédio em construção" %}
 
 ## Cuidado com o desespero
 

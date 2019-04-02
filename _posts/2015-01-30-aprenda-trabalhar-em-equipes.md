@@ -12,7 +12,7 @@ date: 2015-01-30 06:00:51
 
 Como eu disse em [um post anterior](/posts/requisitos-para-vagas-front-end/ "Sobre os requisitos para vagas de emprego Front End (E outras áreas também)"), você não vai trabalhar sozinho a vida toda. Chega uma hora em que é preciso trabalhar em equipes, interagir com outras pessoas e é necessário que você aprenda isso. Mesmo que você trabalhe em casa, vai precisar enviar seu projeto para outras pessoas.
 
-Existem algumas boas medidas para conseguir trabalhar bem em grandes ou pequenas equipes...<!--more-->
+Existem algumas boas medidas para conseguir trabalhar bem em grandes ou pequenas equipes...
 
 ## Organização
 
@@ -34,6 +34,8 @@ Comente seu código. Daqui a 6 meses você não vai lembrar o que aquilo fazia, 
 ![Comentários no código]({{site.post_images}}comment.png)
 
 Tirando a zoeira - Que é uma história real. Mantenha o bom senso. Existem funções da própria linguagem que não precisa ser comentada. Se o cara estudou a linguagem, então ele sabe o que aquele método faz.
+
+{% include post_wallpaper.html %}
 
 ## Semântica
 

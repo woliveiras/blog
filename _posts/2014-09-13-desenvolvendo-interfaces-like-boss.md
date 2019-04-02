@@ -35,6 +35,8 @@ Ex.:
 <footer>Rodapé<footer>
 ```
 
+{% include post_wallpaper.html %}
+
 ## Separe marcação, estilos e ações
 
 Já deve ser uma boa prática sua separar o HTML em um arquivo, o CSS em outro e o JS em outro né?

@@ -13,7 +13,7 @@ description: A gente só muda quando realmente é necessário ou quando estoura 
 
 Nós não percebemos o quanto estamos nos sobrecarregando de tarefas ou sentimentos até que nosso organismo comece a apresentar sinais negativos sobre o que estamos fazendo. Esses sinais podem aparecer de diversas maneiras, como uma irritabilidade ou aquela sensação de falta de tempo.
 
-Eu não me dei conta do que estava fazendo comigo mesmo até os recentes episódios de perda de controle e sinais da ansiedade crônica atacando novamente. <!--more-->
+Eu não me dei conta do que estava fazendo comigo mesmo até os recentes episódios de perda de controle e sinais da ansiedade crônica atacando novamente.
 
 Como ficar sem dormir, precisar de calmantes para focar no trabalho e arrumar confusão por não conseguir ficar calado quando poderia evitar uma treta.
 
@@ -55,6 +55,8 @@ Temos dois erros visíveis no meu comportamento:
 - O segundo é focar minha força de trabalho 100% para as comunidades no meu tempo livre ao invés de cuidar da minha saúde, me divertir, namorar ou fazer qualquer coisa não relacionado a isso.
 
 Essa falta de empenho nos outros papéis de minha vida tem se tornado um grande problema.
+
+{% include post_wallpaper.html %}
 
 ## Sentimento negativo aumentando
 

@@ -60,6 +60,8 @@ Agora altere a string de `“Hello Node”` para `Hello Nodemon` e veja o consol
 
 ![Saída do Nodemon como Hello Nodemon](https://s23.postimg.org/u90jxwopn/hello_nodemon.png)
 
+{% include post_wallpaper.html %}
+
 ## Ignorando arquivos
 
 Por padrão o Nodemon já ignora os diretórios e arquivos `.git`, `node_modules`, `bower_components`, `.nyc_output`, `coverage` e `.sass-cache` e você pode escolher o que ignorar utilizando o comando:

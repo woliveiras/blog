@@ -35,6 +35,8 @@ sudo dpkg -i
 
 Assim que instalar, ele ficará como qualquer editor de textos, limpo. Só vai aparecer o arquivo aberto na tela vazio. Então eu deixei umas dicas maneiras sobre as configurações que eu fiz no meu.
 
+{% include post_wallpaper.html %}
+
 ## Barra Lateral
 
 Eu sempre coloco a barra lateral exibindo os arquivos abertos. Para isso basta ir em:

@@ -15,8 +15,6 @@ description: Instalação do LAMP (Linux, Apache, MySQL e PHP)
 
 Apesar de muita gente estar migrando para o [Nginx](https://pt.wikipedia.org/wiki/Nginx "Nginx"), muitos começam os estudos em PHP usando [Apache](https://pt.wikipedia.org/wiki/Servidor_Apache "Apache"), [MySQL](https://pt.wikipedia.org/wiki/MySQL "MySQL") e [Linux](https://pt.wikipedia.org/wiki/Linux "Linux") no servidor de hospedagem ou localmente - Se você é usuário Windows, eu recomendo fortemente a utilização do [Vagrant](https://woliveiras.com.br/tags/Vagrant/ "Crie e compartilhe ambientes com o Vagrant (Instalação)") para que você use o Linux em uma VM e aprenda um pouco sobre o S.O. durante seus estudos. Isso fará diferença para você conhecer melhor seu próprio servidor de Hospedagem, já que a maioria é Linux.
 
-<!--more-->
-
 Esse conjunto de itens é que recebe o nome de LAMP (**L** inux, **A** pache, **M** ySQL e **P** HP).
 
 Para esse tutorial eu estou utilizando um servidor [Ubuntu Server](https://www.ubuntu.com/download/server "Ubuntu Server"), portanto os comandos utilizados aqui servirão muito bem para você no Ubuntu ou no Debian e qualquer outro S.O. baseado no Debian.
@@ -28,6 +26,8 @@ sudo apt-get update
 ```
 
 No Debian, você pode ter alguma dificuldade com pacotes durante a instalação do PHP. Se isso acontecer atualize seu sources.list e nesse caso é melhor você pesquisar um padrão no Google, pois eu poderia passar algum link desatualizado dependendo da data em que você está lendo essa postagem. Basta pesquisar: sources.list Debian e já era! ;)
+
+{% include post_wallpaper.html %}
 
 ## Instalação do MySQL
 

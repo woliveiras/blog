@@ -47,6 +47,8 @@ Comenta o quanto ele te ajudou. Quem contribui gosta de receber feedbacks. É mu
 
 Comenta sobre isso e de alguma dica de como melhorar o artigo ou como corrigir o erro que você encontrou. Uma correção ortográfica já ajuda muito!
 
+{% include post_wallpaper.html %}
+
 ### Foruns
 
 - Responder a dúvida de uma pessoa nos foruns ajuda bastante. Foram respostas cheias de conteúdo legal e boas argumentações que me ajudaram a aprender o que sei hoje em dia.

@@ -16,11 +16,13 @@ O Bower facilitará sua vida gerenciando as dependências Front End do seu proje
 Você deve usar algumas libs, frameworks como JQuery, AngularJS, Bootstrap e outros facilitadores para agilizar o processo de desenvolvimento né?
 E para isso você entra no site de cada um, baixa e utiliza.
 O Bower serve para facilitar isso.
-Com ele, você cria um arquivo manifesto (no final do post entendemos o que é este arquivo) que vai automatizar essas tarefas.<!--more-->
+Com ele, você cria um arquivo manifesto (no final do post entendemos o que é este arquivo) que vai automatizar essas tarefas.<
 
 ![Bower]({{site.post_images}}bower.png)
 
 Se você já programou em Python, o Bower é parecido com o [PIP](https://en.wikipedia.org/wiki/Pip_(package_manager)), se programou em Ruby é tipo o [Rubygems](https://en.wikipedia.org/wiki/RubyGems). -Outras linguagens também possuem gerenciadores de Dependências.
+
+{% include post_wallpaper.html %}
 
 ## Instalação
 

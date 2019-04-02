@@ -26,8 +26,8 @@ O começo do ano foi mais parado, onde eu postava poucos artigos e estava focado
 
 ## ABC-Dev 2017
 
-![Imagem dos brindes do ABC-Dev 2017, camisetas e canecas]({{site.post_images}}abc-dev-2017.jpeg)
-{:.post__wallpaper}
+{% capture page_image %}{{ page.image }}{% endcapture %}
+{% include post_wallpaper.html image_url=page_image alt_text="Foto dos brindes do evento ABC-Dev 2017, camisetas, canecas e adesivos com o logo do evento" %}
 
 Como não começar por uma coisa que aconteceu quase no final do ano, mas dura muito mais que um mês?
 

@@ -47,8 +47,8 @@ Visando desmistificar um pouco essa nova abordagem te mostrar o que é e o que n
 	/vscode-markdown-toc-config -->
 <!-- /vscode-markdown-toc -->
 
-![Imagem do logo da JAMstack]({{page.image}})
-{:.post__wallpaper}
+{% capture page_image %}{{ page.image }}{% endcapture %}
+{% include post_wallpaper.html image_url=page_image alt_text="Logo do JAMStack" %}
 
 ## <a name='AntigamentejeraassimOquemudacomJAMstack'></a>Antigamente já era assim! O que muda com JAMstack?
 

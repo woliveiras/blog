@@ -21,8 +21,8 @@ Aprendemos que softwares são compostos por alguns ou milhares de arquivos e que
 
 Agora podemos entrar em programação de fato. Antes mesmo de escrever nossas primeiras (ou não) linhas de código, precisamos entender **como funciona um programa de computador**. Como pode um monte de texto se transformar em algo visual na nossa tela, em um aplicativo, em uma rotina que automatiza processos. Para tal é importante aprender sobre arquitetura de computadores.
 
-![Imagem de uma placa mãe]({{page.image}})
-{:.post__wallpaper}
+{% capture page_image %}{{ page.image }}{% endcapture %}
+{% include post_wallpaper.html image_url=page_image alt_text="Imagem de uma placa mãe" %}
 
 ## Componentes de um computador
 

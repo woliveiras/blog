@@ -170,6 +170,8 @@ Para não ficar somente em minhas palavras, da uma olhada no que o Eduardo Cesar
 > Programação é resolução de problemas. Procure conhecer mais sobre paradigmas de programação; se trabalha com uma linguagem que suporta apenas um paradigma, estude-o a fundo e aplique esse conhecimento em sua linguagem. Mas procure conhecer outros, afinal, não é bom se fechar apenas em uma linguagem ou paradigma. [...]
 > [iMasters](https://imasters.com.br/desenvolvimento/gerencia-de-projetos/paradigmas-de-programacao-sao-importantes/)
 
+{% include post_wallpaper.html %}
+
 ## Estruturas de Dados
 
 A matéria que costuma tirar as pessoas dos cursos em faculdades de Sistemas da Informação, Ciência da Computação, Analise e Desenvolvimento de Sistemas, Engenharia da Computação e outras relacionadas a programação.

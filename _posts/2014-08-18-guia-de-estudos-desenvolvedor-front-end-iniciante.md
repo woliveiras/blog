@@ -13,8 +13,6 @@ description: Trilha/Guia de estudos para Desenvolvedores Front End iniciantes.
 
 Muitos iniciantes se perdem ao procurar o que aprender para iniciar a carreira como Front End(Ainda mais com 1 bilhão de ferramentas aparecendo e sumindo todo dia). Pois bem, eu montei essa trilha de estudos para me organizar melhor. Então, se você também está procurando conteúdo para aprender sobre Front End é só coletar as coisas que acha importante e bora estudar!
 
-<!--more-->
-
 ## O guia de estudos para o Desenvolvedor Front End
 
 Encontrei, a um tempo atrás, um excelente artigo que está sendo essencial para meus estudos, virou uma trilha de estudos pra mim, que não sabia por onde começar ou o que fazer. O artigo foi [esse aqui](https://leandrooriente.com/como-me-tornar-um-desenvolvedor-front-end/ "Como me tornar um Desenvolvedor Front End")  do Leandro Oriente.
@@ -36,6 +34,8 @@ Eu já sabia HTML e CSS desde 2010, então só fiz uma atualização pro HTML5  
 * [HTML5 em 15 minutos](https://design.blog.br/web-design/html5-em-15-minutos-2a-edicao "HTML5 em 15 minutos")
 * [cursoemvideo.com/course/curso-de-html5/](https://cursoemvideo.com/course/curso-de-html5/ "Curso em Vídeo")
 * [Introdução rápida ao desenvolvimento em HTML5 com JavaScript e CSS3](https://www.microsoftvirtualacademy.com/training-courses/90f7eb67-0c78-44b5-90b6-43bca793bb14 "Introdução rápida ao desenvolvimento em HTML5 com JavaScript e CSS3")
+
+{% include post_wallpaper.html %}
 
 ## Lógica de Programação
 

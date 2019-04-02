@@ -46,6 +46,8 @@ Isso fará com que exista uma variável de ambiente no sistema operacional chama
 
 O nome dessa variável pode ser diferente, de acordo com o que achar mais semantico ou melhor, basta alterar as próximas confiurações para o nome que você colocou.
 
+{% include post_wallpaper.html %}
+
 ## Configuração do .travis.yml para o Blog
 
 No seu projeto, adicione o arquivo **.travis.yml** com as seguintes configurações, substituindo onde é necessário:

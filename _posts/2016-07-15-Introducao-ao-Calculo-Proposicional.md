@@ -17,7 +17,7 @@ Como introduzido no post anterior falando sobre [Raciocínio Lógico](posts/Intr
 
 Se você pesquisou sobre a Classificação Lógica ou leu os artigos que deixei no final do post, deve ter visto sobre a Lógica Matemática.
 
-A Matemática falada aqui é voltada para o pensamento do calculo das proposições e não para o famoso 1+1, 1-1, 1*1, 1/1.<!-- more -->
+A Matemática falada aqui é voltada para o pensamento do calculo das proposições e não para o famoso 1+1, 1-1, 1*1, 1/1.
 
 Na Lógica Matemática usamos formulas para validar as “premissas” e possuímos uma linguagem para efetuar os cálculos proposicionais.
 
@@ -68,6 +68,8 @@ Se proposições são sempre sentenças afirmativas. Então, automaticamente eli
 - Exclamativas: Putz!
 - Poemas
 - Abertas (como o x + 5 citado acima)
+
+{% include post_wallpaper.html %}
 
 ## Princípios sobre as proposições
 

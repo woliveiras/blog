@@ -60,6 +60,8 @@ Também vale a leitura do livro [The Clean Coder](https://amzn.to/2Uk7cZf) ou em
 
 Estou lendo ele atualmente (na época em que escrevi esse post, se você for do futuro) e tomei muita coisa boa para o dia-a-dia. Algumas coisas são até simples, mas deixamos de fazer porque não paramos para olhá-las com outros olhos.
 
+{% include post_wallpaper.html %}
+
 ## [Refactoring](https://amzn.to/2QF2JBl)
 
 Um livro muito difícil de se encontrar em português. Se você não está treinado(a) no inglês, seria bom já focar no idioma.

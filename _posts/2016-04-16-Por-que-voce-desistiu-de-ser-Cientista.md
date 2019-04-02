@@ -11,7 +11,7 @@ description: Um artigo sobre como ser um bom Desenvolvedor de Software observand
 
 Há algum tempo venho observando as pessoas, mais especificamente as pessoas da área de Desenvolvimento de Software. Há mais tempo ainda eu observo as outras pessoas, o ser humano em geral. E desde sempre percebi um padrão:
 
-Ao crescer, as pessoas abandonam a profissão que nasce com elas, a profissão de **cientista**.<!--more-->
+Ao crescer, as pessoas abandonam a profissão que nasce com elas, a profissão de **cientista**.
 
 Deve existir uma razão psicológica, sociológica, filosófica -  não sei -, mas nesse momento quero somente deixar minha reflexão pra você, que **desistiu de ser cientista** e não sabe mais experimentar as coisas e tentar te mostrar como ser um Desenvolvedor de Software melhor que a média.
 
@@ -58,6 +58,8 @@ Tem, também, os pais que não querem que a criança aprenda algo novo que **ela
 Para ser um bom Desenvolvedor de Software, não adianta somente bater tecla, escrever na linguagem de programação mais rápida, mais bonita (Python <3) ou mesmo ficar lendo requisitos e cuspindo código na tela como um robô. Você precisa ser criativo para criar bons algoritmos, criar boas soluções ou soluções que ninguém pensava em criar. Isso é o que difere o **bom** Desenvolvedor do Desenvolvedor **comum**.
 
 Deveríamos nos espelhar nas crianças para nunca deixarmos de ser cientistas!
+
+{% include post_wallpaper.html %}
 
 ## Por que as crianças são os maiores cientistas aos quais podemos nos espelhar?
 

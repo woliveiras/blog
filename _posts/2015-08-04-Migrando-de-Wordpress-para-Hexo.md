@@ -15,7 +15,7 @@ categories:
 description: Migrar de WordPress para Hexo. Como migrar de WordPress para um gerador estático?
 ---
 
-A um bom tempo sinto vontade de mudar meu Blog de WordPress para uma plataforma de  conteúdo estático, mas não achava nenhuma alternativa, pois que queria usar Nodejs. Por isso não fui para o, muito usado na comunidade, [Jekyll(Ruby)](https://jekyllrb.com/) , nem para o [Pelican(Python <3)](https://blog.getpelican.com/).<!--more-->
+A um bom tempo sinto vontade de mudar meu Blog de WordPress para uma plataforma de  conteúdo estático, mas não achava nenhuma alternativa, pois que queria usar Nodejs. Por isso não fui para o, muito usado na comunidade, [Jekyll(Ruby)](https://jekyllrb.com/) , nem para o [Pelican(Python <3)](https://blog.getpelican.com/).
 
 ![Hexo Blog]({{site.post_images}}hexo-logo.png)
 
@@ -36,6 +36,8 @@ As dicas sobre instalação do Hexo você encontra no Blog do [Daciuk](https://b
 Os posts no Hexo funcionam como em qualquer outro gerador estático. Escrevemos em Markdown e a postagem é gerada em HTML.
 
 Markdown não é difícil e podemos usar algumas ferramentas boas que auxiliam nisso como o [Haroopad](https://pad.haroopress.com/) ou o [Stackedit](https://stackedit.io/editor#), mas o Hexo também tem uma espécie de wp-admin, basta instalar o [Hexo Admin](https://github.com/jaredly/hexo-admin) se você sente necessidade.
+
+{% include post_wallpaper.html %}
 
 ## Migrando os posts do WordPress para o Hexo
 

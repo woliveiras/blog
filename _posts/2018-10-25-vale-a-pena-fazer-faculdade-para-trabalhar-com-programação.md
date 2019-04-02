@@ -19,6 +19,8 @@ description: "Um vídeo sobre o assunto: devemos ou não fazer uma faculdade par
 - Será que sem a faculdade eu consigo ser um bom programador ou uma boa programadora?
 - Eu preciso entrar na faculdade para aprender programação?
 
+{% include post_wallpaper.html %}
+
 Essas são perguntas que sempre entram em pauta nas comunidades de programação pelo mundo a fora.
 
 Eu fiz um vídeo comentando sobre o assunto compartilhando a minha experiência como pessoa que entrou na área sem faculdade, o que eu penso sobre fazer uma graduação e como é o mercado de trabalho em desenvolvimento de software.

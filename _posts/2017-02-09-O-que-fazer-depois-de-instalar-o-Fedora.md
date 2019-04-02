@@ -84,6 +84,8 @@ Eu, por exemplo, coloco “war-machine”, porque meu PC já passou por muitas b
 sudo hostnamectl set-hostname war-machine
 ```
 
+{% include post_wallpaper.html %}
+
 ### Ative o repositório do RPM Fusion
 
 Os repositórios RPM Fusion podem ser úteis pois é através dessa lista que você vai conseguir instalar codecs **nonfree** no seu Fedora. Você também tem uma lista de pacotes **free** através do RPM Fusion.

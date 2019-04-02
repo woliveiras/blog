@@ -19,8 +19,8 @@ Espero que ela seja útil para facilitar sua vida.
 
 Enquanto eu escrevia este artigo, eu ouvia o episódio [90 do Expresso Café - O futuro do trabalho](https://expressario.com.br/episodes/expresso-cafe-090-o-futuro-do-trabalho/). :grin:
 
-![Imagem de um microfone]({{page.image}})
-{:.post__wallpaper}
+{% capture page_image %}{{ page.image }}{% endcapture %}
+{% include post_wallpaper.html image_url=page_image alt_text="Imagem de um microfone com foco" %}
 
 ## O que é podcast
 

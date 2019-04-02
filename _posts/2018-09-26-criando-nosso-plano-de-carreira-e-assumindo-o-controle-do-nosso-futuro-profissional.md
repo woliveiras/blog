@@ -118,6 +118,8 @@ No estado de São Paulo é bem normal profissionais migrarem para a cidade de S�
 
 Nestes casos, ao invés de olhar somente as vagas de empresas locais, é importante que façamos uma busca um pouco maior, adicionando outras cidades, estados ou países no range da busca para conseguirmos mais indicadores.
 
+{% include post_wallpaper.html %}
+
 ## E se desejamos nos tornar referência de mercado de trabalho?
 
 Esse também é o sonho de algumas pessoas: se tornar referência no mercado de trabalho.

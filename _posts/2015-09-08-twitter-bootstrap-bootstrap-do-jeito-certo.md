@@ -10,8 +10,6 @@ categories:
 description: Twitter Bootstrap é pesado? Twitter Bootstrap não é semântico? Confira algumas dicas para usar o Twitter Bootstrap do jeito certo.
 date: 2015-09-08 22:00:00
 ---
-
-
 Muita gente critica o uso do [Twitter Bootstrap](https://getbootstrap.com/) devido a nomenclatura de suas classes e aos muitos componentes que o framework possui.
 
 Dizem que as classes não são semanticas e que o peso do framework é desnecessário.
@@ -19,8 +17,6 @@ Dizem que as classes não são semanticas e que o peso do framework é desnecess
 Pois bem, **você não precisa das classes col-md/lg/xs-xxx no seu HTML** e para projetos pequenos (que você não usa todo o potencial do framework) você pode **selecionar somente o que vai utilizar no projeto**.
 
 Maneiro né? Da uma olhada como faz...
-
-<!--more-->
 
 Se você já conhece pré processadores, será fácil aprender essa forma de utilizar o BS (Bootstrap). Se não conhece é melhor dar uma estudada no Less (que é o mais fácil para iniciantes) ou no Sass para acompanhar essa dica e absorver melhor. Depois de aprender volte aqui e continue a leitura. ;)
 
@@ -45,6 +41,8 @@ Porém é uma coisa importante... Você bater o olho em um código e identificar
 
 Antes de partir para qualquer framework, seja de CSS, JS ou algo de Backend, é necessário que possua conhecimento nas tecnologias por trás disso. Se vamos utilizar o BS para agilizar nosso Front, é primordial o conhecimento em HTML, CSS e JavaScript.
 **Se você não tiver o conhecimento básico, vai correr o sério risco de estragar ainda mais o seu trabalho se usar qualquer framework.**
+
+{% include post_wallpaper.html %}
 
 ## Bootstrap + Less + GruntJS
 

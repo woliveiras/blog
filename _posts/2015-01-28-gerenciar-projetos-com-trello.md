@@ -15,7 +15,7 @@ description: Como utilizar o Trello para gerenciar projetos de Software?
 
 Seguindo a linha de postagens sobre [produtividade](/posts/como-ser-mais-produtivo/ "Como ser mais produtivo"), eu sou obrigado a falar dessa ferramenta que utilizo muito e curto demais! É com ele que eu gerencio até as postagens que eu escrevo aqui no Blog...
 
-Se você precisa de uma ferramenta para ajudar a se organizar, o [Trello](https://trello.com/ "Trello") é uma das que atendem muito bem!<!--more-->
+Se você precisa de uma ferramenta para ajudar a se organizar, o [Trello](https://trello.com/ "Trello") é uma das que atendem muito bem!
 
 ![Trello]({{site.post_images}}Trello.png)
 
@@ -59,6 +59,8 @@ Com as listas criadas vou adicionando os Cards que são os Posts que serão es
 Eu crio **checklists** dentro dos Cards para ir marcando o que já foi concluído.
 
 Pronto! Agora eu só vou trabalhando em cima disso.
+
+{% include post_wallpaper.html %}
 
 ## Extensões para deixar o Trello ainda melhor
 

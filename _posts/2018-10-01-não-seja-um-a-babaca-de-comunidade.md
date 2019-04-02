@@ -28,6 +28,8 @@ Assim como ele diz no vídeo: o meu objetivo com esse texto não é ofender algu
 
 Eu continuo errando bastante, acho que **ninguém nunca para de errar na vida**, porém podemos nos policiar pra que alguns erros não tornem a acontecer.
 
+{% include post_wallpaper.html %}
+
 ## Alguém pergunta algo e você envia aquele link: deixe-me usar o Google por você
 
 ![Não basta ser babaca, tem que demonstrar]({{site.post_images}}nao-basta-ser-babaca-tem-que-demonstrar.jpeg).

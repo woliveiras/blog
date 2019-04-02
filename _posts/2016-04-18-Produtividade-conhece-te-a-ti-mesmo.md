@@ -11,7 +11,7 @@ description: Produtividade e auto conhecimento. Como o autoconhecimento pode aju
 
 O autoconhecimento é muito importante para você se tornar produtivo.
 
-De nada adianta aprender milhares de técnicas, receber diversas dicas sobre produtividade, se nenhuma delas se encaixa em você. Claro que é necessário um pouco de esforço de sua parte para que as metodologias deem certo, porém, dentre milhares de técnicas, você vai precisar achar uma que se encaixe em seu estilo de vida e na sua forma de pensar e agir. <!--more-->
+De nada adianta aprender milhares de técnicas, receber diversas dicas sobre produtividade, se nenhuma delas se encaixa em você. Claro que é necessário um pouco de esforço de sua parte para que as metodologias deem certo, porém, dentre milhares de técnicas, você vai precisar achar uma que se encaixe em seu estilo de vida e na sua forma de pensar e agir.
 
 Fora o ponto **você**/**seu esforço**, ainda existe o ponto **Comportamento Humano** que precisa ser entendido para que você saiba que a sua falta de produtividade pode ser algo comum que você está deixando passar.
 
@@ -55,6 +55,8 @@ Você, ao contrário do seu cérebro, quer concentrar suas energias em pensar a 
 Você pega uma issue ou uma task no seu gerenciador de tarefas favorito e quer fazer aquilo.
 
 Como eu disse, esse não é o foco do seu cérebro.
+
+{% include post_wallpaper.html %}
 
 ## O que fazer para engajar nosso cérebro nas atividades que queremos focar
 

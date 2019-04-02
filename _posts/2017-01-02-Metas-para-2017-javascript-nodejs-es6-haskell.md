@@ -46,6 +46,8 @@ Esse ano vou continuar minha rotina normal de [estudos da faculdade](/posts/Come
 
 Sei que isso vai ser, como foi ano passado, complicado. As vezes o conteúdo da faculdade é completamente desconhecido por mim e nesse momento preciso deixar de lado o que eu gosto de estudar para aprender o que a faculdade pede. Saber [priorizar as coisas](https://woliveiras.com.br/posts/Produtividade-priorizacao-de-tarefas-execucao-e-melhoria-do-processo/) é muito importante para cumprirmos nossas metas.
 
+{% include post_wallpaper.html %}
+
 ### 1.4 Nodejs
 
 Ano passado eu fiquei de aprender mais sobre Nodejs, porém o estudo de JavaScript no Front End não me deixou estudar essa maravilha das atualidades. - Tudo bem. Agora tem mais conteúdo ainda para estudar!

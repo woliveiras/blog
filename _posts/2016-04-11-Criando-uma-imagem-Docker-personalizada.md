@@ -19,7 +19,7 @@ Como fazemos para levar essa imagem para outro host?
 
 Podemos fazer isso subindo a imagem para o Docker Hub ou mesmo compactando a imagem em formato .tar.
 
-Para criar uma imagem personalizada, primeiro precisamos conhecer o Dockerfile, depois voltamos a criação da imagem própriamente dita. ;)<!--more-->
+Para criar uma imagem personalizada, primeiro precisamos conhecer o Dockerfile, depois voltamos a criação da imagem própriamente dita. ;)
 
 ## Dockerfile
 
@@ -136,6 +136,8 @@ O **ENTRYPOINT** é quem vai receber os comandos passados pelo **CMD**. Caso nã
 ```shell
 CMD service nginx start -g
 ```
+
+{% include post_wallpaper.html %}
 
 ## Adicionando arquivos de configuração no container
 
