@@ -52,14 +52,7 @@ Isso acontece em taxas muito rápidas e aqui entram as operações lógicas bin�
 
 Apenas com esses operadores lógicos o processador calcula tudo o que precisamos para implementar qualquer lógica em nossos programas e para todo o funcionamento do nosso computador.
 
-Dentro do processador existe algo chamado código de máquina, que são as instruções que o processador sabe interpretar e executar. Confira o exemplo de como seria um hello world para MS-DOS, se nós o escrevêssemos em código de máquina:
-
-```sh
-B4 03 CD 10 B0 01 B3 0A B9 0B 00 BD 13 01 B4 13
-CD 10 C3 4F 69 20 6D 75 6E 64 6F 21 0D 0A
-```
-
-Como você percebe, um código de máquina não é muito legível para seres humanos.Mais a frente vamos conhecer as linguagens de programação e assim vamos aprender sobre linguagens de alto e baixo nível.
+Dentro do processador existe algo chamado código de máquina, que são as instruções que o processador sabe interpretar e executar. Um código de máquina não é muito legível para seres humanos. Mais a frente vamos conhecer as linguagens de programação e assim vamos aprender sobre linguagens de alto e baixo nível.
 
 ### Memória primária
 
