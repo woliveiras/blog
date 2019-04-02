@@ -18,8 +18,7 @@ Acesse: [DevTranslate](https://medium.com/devtranslate)
 
 Nesse artigo eu compartilho alguns aplicativos que utilizo para treinar meu inglês (escrita e conversação) e os aplicativos listados servem tanto para **aprender** quanto **praticar** o inglês.
 
-{% capture page_image %}{{ page.image }}{% endcapture %}
-{% include post_wallpaper.html image_url=page_image alt_text="Imagem de várias letras em recorte" %}
+{% include post_wallpaper.html %}
 
 ## Aplicativos para aprender inglês
 
