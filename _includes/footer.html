@@ -17,7 +17,7 @@
                 <nav class="page-footer__nav page-footer__nav--social">
                     <ul>
                         {% for link in site.data.menus.social-support %}
-                        <li class="page-footer__nav__item"><a class="page-footer__nav__text" href="{{ link.url }}" title="{{ link.title }}"><span class="page-footer__nav__icon">{{ link.icon }}</span>{{
+                        <li class="page-footer__nav__item"><a class="page-footer__nav__text" href="{{ link.url }}" title="{{ link.title }}" target="_blank"><span class="page-footer__nav__icon">{{ link.icon }}</span>{{
                                 link.title }}</a></li>
                         {% endfor %}
                     </ul>
