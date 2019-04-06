@@ -37,6 +37,7 @@ Depois (nos próximos artigos) vamos partir para operadores e laços de repetiç
 	* [Programação Orientada a Objetos](#ProgramaoOrientadaaObjetos)
 	* [Programação Funcional](#ProgramaoFuncional)
 * [Linguagens podem ser multiparadigma](#Linguagenspodemsermultiparadigma)
+* [Linguagens podem ser multiplataforma](#Linguagenspodemsermultiplataforma)
 * [Sintaxe básica de JavaScript](#SintaxebsicadeJavaScript)
 * [Criando nossos programas JavaScript](#CriandonossosprogramasJavaScript)
 * [Instruções](#Instrues)
@@ -60,6 +61,7 @@ Depois (nos próximos artigos) vamos partir para operadores e laços de repetiç
 		* [Adicionando itens em um Set](#AdicionandoitensemumSet)
 		* [Removendo itens em um Set](#RemovendoitensemumSet)
 * [Conclusão](#Concluso)
+* [Referências](#Referncias)
 
 <!-- vscode-markdown-toc-config
 	numbering=false
@@ -110,7 +112,7 @@ Um grande exemplo de linguagem multiparadigma é aquela que vamos estudar aqui, 
 
 Outros exemplos de linguagens multiparadigma: C++, Ruby e Python.
 
-## Linguagens podem ser multiplataforma
+## <a name='Linguagenspodemsermultiplataforma'></a>Linguagens podem ser multiplataforma
 
 As linguagens precisam de um ambiente para rodar. Seja no nosso sistema operacional, no navegador, em placas eletrônicas ou no celular. Algumas linguagens possuem a característica de serem multiplataformas, o que significa que podemos escrever o código uma vez e rodar em qualquer lugar.
 
@@ -843,3 +845,13 @@ Este artigo é somente uma introdução a programação focado em entendermos qu
 Nos próximos artigos vamos aprender sobre operadores matemáticos, de comparação, condicionais, laços de repetição e modularização de código.
 
 Continue acompanhando e se quiser receber os artigos assim que eles saírem, inscreva-se na [newsletter](http://bit.ly/cartinha-do-will) ou me siga no [Twitter](https://twitter.com/w_oliveiras).
+
+## <a name='Referncias'></a>Referências
+
+- [MDN - JavaScript Basics](https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/JavaScript_basics)
+- [MDN - Expressions and Operations](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Guide/Expressions_and_Operators)
+- [Paradigmas de Programação - Imperativo, Orientado a Objetos e Funcional](https://www.slideshare.net/gustavolgcr/paradigmas-de-programao-imperativo-orientado-a-objetos-e-funcional)
+- [Composição de funções](http://www.dmm.im.ufrj.br/projeto/projetoc/precalculo/sala/conteudo/capitulos/comp1.htm)
+-[Wiki - Paradigmas](https://pt.wikipedia.org/wiki/Paradigma_de_programa%C3%A7%C3%A3o)
+- [MDN - Objetos](https://developer.mozilla.org/pt-BR/docs/Aprender/JavaScript/Objetos/B%C3%A1sico)
+- [MDN - Maps](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Map)
