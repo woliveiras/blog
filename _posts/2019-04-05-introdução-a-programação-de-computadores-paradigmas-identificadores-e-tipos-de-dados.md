@@ -70,7 +70,7 @@ Depois (nos próximos artigos) vamos partir para operadores e laços de repetiç
 <!-- /vscode-markdown-toc -->
 
 {% capture page_image %}{{ page.image }}{% endcapture %}
-{% include post_wallpaper.html image_url=page_image alt_text="Imagem de uma placa mãe" %}
+{% include post_wallpaper.html image_url=page_image alt_text="Imagem de uma sessão de códigos no editor de textos" %}
 
 ## <a name='Oquesoparadigmas'></a>O que são paradigmas
 
