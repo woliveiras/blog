@@ -844,7 +844,7 @@ Este artigo é somente uma introdução a programação focado em entendermos qu
 
 Nos próximos artigos vamos aprender sobre operadores matemáticos, de comparação, condicionais, laços de repetição e modularização de código.
 
-Continue acompanhando e se quiser receber os artigos assim que eles saírem, inscreva-se na [newsletter](http://bit.ly/cartinha-do-will) ou me siga no [Twitter](https://twitter.com/w_oliveiras).
+Continue acompanhando e se quiser receber os artigos na semana que eles saírem, inscreva-se na [newsletter](http://bit.ly/cartinha-do-will) ou me siga no [Twitter](https://twitter.com/w_oliveiras).
 
 ## <a name='Referncias'></a>Referências
 
@@ -855,3 +855,5 @@ Continue acompanhando e se quiser receber os artigos assim que eles saírem, ins
 -[Wiki - Paradigmas](https://pt.wikipedia.org/wiki/Paradigma_de_programa%C3%A7%C3%A3o)
 - [MDN - Objetos](https://developer.mozilla.org/pt-BR/docs/Aprender/JavaScript/Objetos/B%C3%A1sico)
 - [MDN - Maps](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Map)
+
+Photo by [Markus Spiske](https://unsplash.com/@markusspiske) on [Unsplash](https://unsplash.com).
