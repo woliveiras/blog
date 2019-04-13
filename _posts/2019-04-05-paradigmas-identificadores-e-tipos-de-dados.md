@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Introdução a programação de computadores: paradigmas, identificadores e tipos de dados"
+title: "Paradigmas, identificadores e tipos de dados"
 date: 2019-04-05 21:14 -0300
 categories:
     - javascript

@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 'Introdução a programação de computadores: operadores matemáticos, de comparação,
+title: 'Operadores matemáticos, de comparação,
   condicionais e lógicos'
 date: 2019-04-08 06:34 -0300
 categories:
