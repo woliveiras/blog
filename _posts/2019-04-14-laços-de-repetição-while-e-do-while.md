@@ -21,16 +21,30 @@ Nós escrevemos programas principalmente para automatizar processos repetitivos.
 
 Vamos aprender o que são laços de repetição, como utiliza-los e aprender nosso primeiro laço, o **while**.
 
+<!-- vscode-markdown-toc -->
+* [Laços de repetição](#Laosderepetio)
+* [While](#While)
+* [Do..while](#Do..while)
+* [Praticando](#Praticando)
+* [Conclusão](#Concluso)
+* [Referências](#Referncias)
+
+<!-- vscode-markdown-toc-config
+	numbering=false
+	autoSave=true
+	/vscode-markdown-toc-config -->
+<!-- /vscode-markdown-toc -->
+
 {% capture page_image %}{{ page.image }}{% endcapture %}
 {% include post_wallpaper.html image_url=page_image alt_text="Imagem uma montanha russa" %}
 
-## Laços de repetição
+## <a name='Laosderepetio'></a>Laços de repetição
 
 Em JavaScript temos os seguintes laços de repetição:  **while**, **do... while**, **for**, **for... in** e o **for... of**. Todos servem o mesmo objetivo, mas possuem algumas características que os diferem e existem para uma necessidade durante a execução dos nossos programas.
 
 Chamamos laços de repetição de loops, em programação. A partir de agora vamos ver essas duas maneiras de falar enquanto estudamos [nesta série de artigos](/curso/do-zero-ao-fullstack-com-nodejs-bancos-de-dados-express-e-react/).
 
-## While
+## <a name='While'></a>While
 
 O loop while existe para dizermos ao computador: **"enquanto algo, faça isso"**.
 
@@ -278,7 +292,7 @@ Aqui vemos algo legal da linguagem JavaScript, podemos encadear métodos dos nos
 
 Faça essa alteração no seu app.js e em seguida recarregue a página e veja o resultado esperado no console do navegador.
 
-## Do..while
+## <a name='Do..while'></a>Do..while
 
 Além de aprender a utilizar o while acima, aprendemos mais comandos legais, como o reverse e também a acessar valores de objetos dentro de arrays. Estamos progredindo bastante em nossa estrada rumo a aprender programação do zero!
 
@@ -310,7 +324,7 @@ do {
 } while(contador < 10);
 ```
 
-## Praticando
+## <a name='Praticando'></a>Praticando
 
 No começo do artigo pensamos no exemplo da criação de uma tabela. Vamos agora colocar isso em prática e realmente transformar nosso programa em um gerador de tabelas na interface.
 
@@ -401,7 +415,7 @@ Agora, ao executar nosso código final, devemos ter um resultado parecido com o 
 
 ![Imagem da tabela HTML gerada via JavaScript]({{site.post_images}}tabela-html-preenchida-via-javascript.png)
 
-## Conclusão
+## <a name='Concluso'></a>Conclusão
 
 Nos próximos artigos vamos aprender os outros laços de repetição e escopo, algo extremamente importante dentro do desenvolvimento de software.
 
@@ -409,7 +423,7 @@ Continue acompanhando e se quiser receber os artigos na semana em que eles saír
 
 Se você gosta do meu conteúdo, não esqueça de contribuir via Catarse: [Catarse: William Oliveira](https://catarse.me/william-oliveira).
 
-## Referências
+## <a name='Referncias'></a>Referências
 
 - [MDN - while](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/while)
 - [MDN - do... while](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Statements/do...while)
