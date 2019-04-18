@@ -2,6 +2,7 @@
 layout: post
 title: A diferença entre frontend, backend e mobile
 date: 2018-08-06 06:18 -0300
+image: "/images/posts/diferent-drinks.jpeg"
 tags:
     - carreira
     - programação
