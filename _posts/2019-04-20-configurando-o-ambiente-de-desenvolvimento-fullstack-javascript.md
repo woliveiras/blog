@@ -2,6 +2,12 @@
 layout: post
 title: Configurando o ambiente de desenvolvimento fullstack JavaScript
 date: 2019-04-20 05:47 -0300
+categories:
+    - javascript
+    - nodejs
+    - programação
+    - ferramentas
+    - série fullstack
 image: "/images/posts/jonatan-pie-216311-unsplash.jpg"
 tags:
     - javascript
