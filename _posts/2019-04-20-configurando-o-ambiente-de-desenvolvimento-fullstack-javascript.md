@@ -149,6 +149,25 @@ Sempre que você precisar utilizar o Node, rode o comando **nvm use node**.
 
 Neste momento não precisamos instalar e utilizar versões antigas do Node. Porém, se você precisar, pode rodar o comando de instalação especificando a versão, **nvm install xxx**, e depois rodar o comando **nvm use xxx**.
 
+## Praticando
+
+Vamos praticar o uso do VS Code e Node.js.
+
+Abra o VS Code e crie um arquivo com o comando CTRL+N. Adicione o seguinte conteúdo nesse arquivo.
+
+```javascript
+console.log("Olá, Node.js!");
+```
+
+Salve este arquivo no seu diretório de trabalho, que criamos no começo dessa série, o workspace ou em algum local de fácil acesso via terminal para você com o nome **hello-node.js**.
+
+Agora execute o comando **node hello-node.js** no seu terminal e, se tudo estiver OK, será apresentada a nossa mensagem de boas vindas ao Node.js em nossas vidas como futuros fullstacks!
+
+``javascript
+➜  workspace node hello-node.js
+Olá, Node.js!
+```
+
 ## Conclusão
 
 Temos agora uma instalação do Node pronta para começarmos nossos trabalhos e o editor de textos Visual Studio Code, que é excelente e muito útil para os nossos trabalhos a partir daqui, pois nossos códigos ficarão maiores e precisaremos de certa ajuda para sermos mais produtivos(as).
