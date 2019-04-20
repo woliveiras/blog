@@ -163,7 +163,7 @@ Salve este arquivo no seu diretório de trabalho, que criamos no começo dessa s
 
 Agora execute o comando **node hello-node.js** no seu terminal e, se tudo estiver OK, será apresentada a nossa mensagem de boas vindas ao Node.js em nossas vidas como futuros fullstacks!
 
-``javascript
+```javascript
 ➜  workspace node hello-node.js
 Olá, Node.js!
 ```
