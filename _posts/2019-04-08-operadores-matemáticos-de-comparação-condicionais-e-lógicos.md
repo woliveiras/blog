@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 'Introdução a programação de computadores: operadores matemáticos, de comparação,
+title: 'Operadores matemáticos, de comparação,
   condicionais e lógicos'
 date: 2019-04-08 06:34 -0300
 categories:
@@ -458,6 +458,8 @@ Neste artigo aprendemos sobre os operadores matemáticos, de comparação, condi
 Nos próximos artigos vamos aprender sobre laços de repetição e modularização de código.
 
 Continue acompanhando e se quiser receber os artigos na semana em que eles saírem, inscreva-se na [newsletter](http://bit.ly/cartinha-do-will) ou me siga no [Twitter](https://twitter.com/w_oliveiras).
+
+Se você gosta do meu conteúdo, não esqueça de contribuir via Catarse: [Catarse: William Oliveira](https://catarse.me/william-oliveira).
 
 ## <a name='Referncia'></a>Referência
 
