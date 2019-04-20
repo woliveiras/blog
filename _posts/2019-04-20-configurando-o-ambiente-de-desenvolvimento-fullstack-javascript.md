@@ -32,7 +32,27 @@ O que vamos instalar agora é:
 
 Então vamos nessa!
 
-## Instalando um editor de textos com syntax highlighting
+<!-- vscode-markdown-toc -->
+* [Instalando um editor de textos com syntax highlighting](#Instalandoumeditordetextoscomsyntaxhighlighting)
+* [Instalando um ambiente de execução que roda JavaScript](#InstalandoumambientedeexecuoquerodaJavaScript)
+* [Instalação do NVM](#InstalaodoNVM)
+	* [Instalando o NVM no Linux](#InstalandooNVMnoLinux)
+	* [Instalando o NVM no Windows](#InstalandooNVMnoWindows)
+* [Utilizando o NVM para instalar uma versão do Node.js](#UtilizandooNVMparainstalarumaversodoNode.js)
+* [Praticando](#Praticando)
+* [Conclusão](#Concluso)
+* [Referências](#Referncias)
+
+<!-- vscode-markdown-toc-config
+	numbering=false
+	autoSave=true
+	/vscode-markdown-toc-config -->
+<!-- /vscode-markdown-toc -->
+
+{% capture page_image %}{{ page.image }}{% endcapture %}
+{% include post_wallpaper.html image_url=page_image alt_text="Imagem de uma aurora boreal" %}
+
+## <a name='Instalandoumeditordetextoscomsyntaxhighlighting'></a>Instalando um editor de textos com syntax highlighting
 
 Existem diversos editores de texto muito legais, como o SublimeText, Atom e Vim, porém nosso objetivo aqui será instalar um editor simples e leve.
 
@@ -56,7 +76,7 @@ Pessoalmente eu utilizo o VS Code até hoje e ainda não senti necessidade de ut
 
 Para instalar o VS Code, siga o site da Microsoft e baixe a versão que funciona no seu sistema operacional: [code.visualstudio.com/download](https://code.visualstudio.com/download).
 
-## Instalando um ambiente de execução que roda JavaScript
+## <a name='InstalandoumambientedeexecuoquerodaJavaScript'></a>Instalando um ambiente de execução que roda JavaScript
 
 JavaScript, além de uma linguagem muito completa, possui diversos modos de ser utilizada. Uma dessas maneiras é rodando via Node.js, um ambiente de execução de JavaScript utilizado para criar ferramentas de linha de comando, sistemas no backend, interação com hardware e mais.
 
@@ -64,13 +84,13 @@ Nós não vamos instalar o Node.js diretamente em nosso sistema operacional. Exi
 
 O NVM (Node Version Management) existe para conseguirmos utilizar várias versões de Node. Ele cria repositórios virtuais e trabalha com esses repositórios para que escolhamos exatamente a versão de Node que queremos rodar em uma determinada ação.
 
-## Instalação do NVM
+## <a name='InstalaodoNVM'></a>Instalação do NVM
 
 Aqui teremos duas instalações, primeiro para Linux e logo depois para Windows.
 
 Será necessário utilizar o terminal para instalação e utilização do NVM. Se você não sabe utilizar ou tem medo do terminal, confira este post: [introdução ao terminal](/posts/introdução-ao-terminal/).
 
-### Instalando o NVM no Linux
+### <a name='InstalandooNVMnoLinux'></a>Instalando o NVM no Linux
 
 Se você utiliza Linux Ubuntu/Debian/Mint ou derivados execute os seguintes comandos no seu terminal para instalação do NVM:
 
@@ -86,7 +106,7 @@ Para conseguir utilizar o NVM você precisa efetuar logoff em seu sistema. Se n�
 
 Para saber se deu tudo certo, rode o comando **nvm --version** no terminal e veja se ele retorna qual a versão instalada em sua máquina.
 
-### Instalando o NVM no Windows
+### <a name='InstalandooNVMnoWindows'></a>Instalando o NVM no Windows
 
 Será necessário baixar o arquivo **nvm-setup.zip** no repositório oficial, neste link: [github.com/coreybutler/nvm-windows/releases](https://github.com/coreybutler/nvm-windows/releases). No link temos várias versões do NVM, baixe a primeira (que é a que aparece em primeiro lugar na lista de cima para baixo).
 
@@ -94,7 +114,7 @@ Feito isso, basta extrair o arquivo com algum programa de compressão, como o [7
 
 Para saber se deu tudo certo, rode o comando **nvm --version** no terminal e veja se ele retorna qual a versão instalada em sua máquina.
 
-## Utilizando o NVM para instalar uma versão do Node.js
+## <a name='UtilizandooNVMparainstalarumaversodoNode.js'></a>Utilizando o NVM para instalar uma versão do Node.js
 
 Vamos verificar quais são as versões de Node disponíveis hoje. 
 
@@ -149,7 +169,7 @@ Sempre que você precisar utilizar o Node, rode o comando **nvm use node**.
 
 Neste momento não precisamos instalar e utilizar versões antigas do Node. Porém, se você precisar, pode rodar o comando de instalação especificando a versão, **nvm install xxx**, e depois rodar o comando **nvm use xxx**.
 
-## Praticando
+## <a name='Praticando'></a>Praticando
 
 Vamos praticar o uso do VS Code e Node.js.
 
@@ -168,13 +188,13 @@ Agora execute o comando **node hello-node.js** no seu terminal e, se tudo estive
 Olá, Node.js!
 ```
 
-## Conclusão
+## <a name='Concluso'></a>Conclusão
 
 Temos agora uma instalação do Node pronta para começarmos nossos trabalhos e o editor de textos Visual Studio Code, que é excelente e muito útil para os nossos trabalhos a partir daqui, pois nossos códigos ficarão maiores e precisaremos de certa ajuda para sermos mais produtivos(as).
 
 Continue acompanhando e se quiser receber os artigos na semana em que eles saírem, inscreva-se na [newsletter](http://bit.ly/cartinha-do-will) ou me siga no [Twitter](https://twitter.com/w_oliveiras).
 
-## Referências
+## <a name='Referncias'></a>Referências
 
 - [NVM](https://github.com/creationix/nvm)
 
