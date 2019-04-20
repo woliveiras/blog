@@ -124,7 +124,7 @@ Vamos instalar a última versão com o comando **nvm install node**. Com este co
 ➜  ~ nvm install node
 Downloading and installing node v11.14.0...
 Downloading https://nodejs.org/dist/v11.14.0/node-v11.14.0-darwin-x64.tar.xz...
-######################################################################## 100.0%
+###################################################### 100.0%
 Computing checksum with shasum -a 256
 Checksums matched!
 Now using node v11.14.0 (npm v6.7.0)
