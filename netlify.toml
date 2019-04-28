@@ -1,10 +1,10 @@
 [[redirects]]
   from = "/my-precious-links"
-  to = "https://github.com/woliveiras/my-precious-links/blob/gh-pages/index.md"
+  to = "https://mypreciouslinks.woliveiras.dev"
   
 [[redirects]]
   from = "/front-end-career"
-  to = "https://github.com/woliveiras/front-end-career/blob/master/README.md"
+  to = "https://frontendcareer.woliveiras.dev/"
 
 [[redirects]]
   from = "/vimparanoobs"
