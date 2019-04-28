@@ -19,9 +19,9 @@ footer-menu:
   - title: Curso fullstack com Node.js e React
     url: /curso/do-zero-ao-fullstack-com-nodejs-bancos-de-dados-express-e-react/
   - title: Como se tornar frontend
-    url: https://github.com/woliveiras/front-end-career/blob/master/README.md
+    url: https://frontendcareer.woliveiras.dev/
   - title: Meus Links favoritos
-    url: https://github.com/woliveiras/my-precious-links/blob/gh-pages/index.md
+    url: https://mypreciouslinks.woliveiras.dev
   - title: Ebook sobre o editor de textos Vim
     url: https://leanpub.com/vimparanoobs
   - title: Todos os meus posts
