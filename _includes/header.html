@@ -4,8 +4,8 @@
 <body>
 
 <header class="main-header">
+        {% include ad-catarse-inline.html %}
         {% if page.is_post %}
-        {% include navigation-menu.html %}
         <div class="main-header__text">
             <h1 class="main-header__title main-header__title--post">
                 {{ page.title }}
@@ -19,7 +19,7 @@
             </h1>
             <p class="main-header__description">{{ site.description }}</p>
         </div>
-        {% include navigation-menu.html %}
         {% endif %}
+        {% include navigation-menu.html %}
     </div>
 </header>

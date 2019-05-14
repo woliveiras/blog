@@ -1,0 +1,20 @@
+@import '../mixins/grid'
+
+.ad-catarse
+    &__header-banner
+        +col(12, 12)
+        display: block
+        background: $blue
+        text-align: center
+        z-index: 1
+
+        &--fixed
+            position: fixed
+
+    &__link
+        color: $white
+
+        span
+            color: $white
+            font-weight: 400
+            text-decoration: underline
