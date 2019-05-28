@@ -13,7 +13,7 @@ tags:
     - javascript
 description: Como instalar o Node.js através de um pacote tar.xz na maioria das distribuições Linux
 ---
-Arquivos **.tar.xz** são extremamente comuns no mundo Linux. Mesmo depois da evolução da maneira como instalamos programas nas distribuições Linux mais famosas para o usuário final - ou pessoas que não querem ter muito trabalho com configuração do sistema operacional -, como o Ubuntu ou Linux Mint, ainda existem momentos em que só temos um .tar para instalar e não um .deb da vida (equivalente ao .exe no Windows ou .dmg no MacOS).
+Arquivos **.tar.xz** são extremamente comuns no mundo Linux. Mesmo depois da evolução da maneira como instalamos programas nas distribuições Linux mais famosas para o usuário final (ou pessoas que não querem ter muito trabalho com configuração do sistema operacional), como o Ubuntu ou Linux Mint, ainda existem momentos em que só temos um .tar para instalar e não um .deb da vida (equivalente ao .exe no Windows ou .dmg no MacOS).
 
 Com Node.js não é diferente. Temos a instalação via **apt**, um instalador de softwares para Linux, mas também temos a versão .tar.xz para os casos em que precisamos baixar os binários, como quando não temos internet para utilizar o apt.
 
