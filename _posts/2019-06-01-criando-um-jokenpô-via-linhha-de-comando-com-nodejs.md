@@ -261,7 +261,7 @@ Vamos pensar nos casos em que o usuário ganha: pedra ganha de tesoura, mas perd
 
   if (escolhaDoUsuario === 3 && escolhaDoComputador === 2) {
     console.log('Você ganhou!');
-  } else if (escolhaDoUsuario === 3 && escolhaDoComputador === 2) {
+  } else if (escolhaDoUsuario === 3 && escolhaDoComputador === 1) {
     console.log('Você perdeu!');
   } else if (escolhaDoUsuario === 3 && escolhaDoComputador === 3) {
     console.log('Empatou!');
@@ -307,7 +307,7 @@ rl.question('Qual sua jogada, pedra, papel ou tesoura? ', resposta => {
 
   if (escolhaDoUsuario === 3 && escolhaDoComputador === 2) {
     console.log('Você ganhou!');
-  } else if (escolhaDoUsuario === 3 && escolhaDoComputador === 2) {
+  } else if (escolhaDoUsuario === 3 && escolhaDoComputador === 1) {
     console.log('Você perdeu!');
   } else if (escolhaDoUsuario === 3 && escolhaDoComputador === 3) {
     console.log('Empatou!');
