@@ -6,11 +6,13 @@ categories:
     - linux
     - nodejs
     - javascript
+    - série fullstack
 image: "/images/posts/jamked-1637249-unsplash.jpg"
 tags:
     - linux
     - nodejs
     - javascript
+    - série fullstack
 description: Criando CLIs, programas de linha de comando com Node.js. Como receber entradas, processar e devolver saídas para o usuário.
 ---
 Programas de linha de comando são extremamente comuns na nossa área. Aprendemos no artigo de [Introdução ao Terminal](/posts/introdução-ao-terminal/) que os comandos que rodamos no terminal são softwares instalados em nosso sistema operacional. Como o comando cd, ls, mkdir, etc.
