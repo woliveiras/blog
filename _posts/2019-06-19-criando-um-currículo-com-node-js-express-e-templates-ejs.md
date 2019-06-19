@@ -253,7 +253,6 @@ Server is listening on 3000
 
 E podemos então acessar o endereço localhost:3000 no navegador e receber as informações da nossa aplicação.
 
-
 ![Imagem do navegador com o JSON retornado pelo nosso servidor]({{site.post_images}}meu-primeiro-servidor-express.png)
 
 Agora seria um excelente momento para você guardar no Git as alterações que você fez.
@@ -364,6 +363,8 @@ Ou seja:
 ```
 
 Você vai precisar desligar o servidor de novo e atualizar a página que está aparecendo no localhost:3000.
+
+![Imagem do navegador com o conteúdo retornado pelo nosso servidor]({{site.post_images}}servindo-html-com-express.png)
 
 ## <a name='Noprecisarficarreiniciandooservidor'></a>Não precisar ficar reiniciando o servidor
 
