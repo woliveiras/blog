@@ -123,11 +123,11 @@ Tenho algumas indicações para fazer.
 
 Pessoalmente, quando gravo com fone de ouvido, utilizo um [JBL Tune 110 Intra-Auricular, de 50,00](https://amzn.to/2FJkqcf), mas também existem fones mais profissionais nos headsets gamers e o [Hyperx Cloud Stinger](https://amzn.to/2IXzzc2) é uma excelente pedida, porém seu valor é maior (R$ 300,00).
 
-## <a name='Microfonedelapela'></a>Microfone de lapela
+### <a name='Microfonedelapela'></a>Microfone de lapela
 
 Eu não cheguei a utilizar microfone de lapela, mas assisti alguns reviews e o resultado com esse equipamento é bem maneiro: [Audio-Technica, ATR3350IS](https://amzn.to/2IXJjCV).
 
-## <a name='Microfonecondensador'></a>Microfone condensador
+### <a name='Microfonecondensador'></a>Microfone condensador
 
 Este é o que eu utilizo hoje em dia. É um aparelho muito bom, dependendo da nossa escolha ele capta somente nossa fala, pois ele tem um limite legal de captura e é um modelo de estúdio, então funciona bem dentro de casa também. Só não funciona tão bem se você quiser gravar fora ou se deseja gravar em grupo (mesmo que seja na sua sala/quarto).
 
@@ -140,7 +140,7 @@ Em ambos equipamentos tive um bom resultado e estou bem feliz, o segundo é bem 
 
 Se você possuir uma boa condição financeira para investir em equipamentos agora, a melhor opção seria este aqui: [Microfone Blue Yeti Usb Blackout Condensador Profissional](https://amzn.to/2FJmi4L).
 
-## <a name='Microfonedirecional'></a>Microfone direcional
+### <a name='Microfonedirecional'></a>Microfone direcional
 
 Se você estiver utilizando um celular (ou uma câmera, se for gravar vídeo também), pode utilizar um microfone direcional e o áudio sairá mais limpo ainda.
 
