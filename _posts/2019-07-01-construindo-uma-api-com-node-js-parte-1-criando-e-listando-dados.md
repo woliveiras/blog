@@ -761,4 +761,6 @@ Nos próximos artigos vamos aprender isso. Fique de olho!
 
 Me acompanhe no Twitter para saber quando lançar alguma coisa aqui no Blog: [@w_oliveiras](https://twitter.com/w_oliveiras).
 
+[Leia a Parte 2: melhorando nossa criação e listagem](/posts/construindo-uma-api-com-node-js-parte-2-melhorando-nossa-criação-e-listagem-de-dados/)
+
 [Photo by Ed van duijn on Unsplash](https://unsplash.com/photos/2uTjeMfeVEU).
