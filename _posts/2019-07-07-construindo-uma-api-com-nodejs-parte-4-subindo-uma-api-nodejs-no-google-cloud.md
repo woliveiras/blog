@@ -186,6 +186,6 @@ Este é o último artigo do desenvolvimento de uma API com Node.js, Express, Mon
 
 Nos próximos artigos vamos aprender mais sobre desenvolvimento web com Node.js, mas esta série está finalizada por aqui.
 
-Se quiser acompanhar todo o conteúdo, me acompanhe no Twitter, se inscreva no meu canal ou me adicione no LinkedIn.
+Se quiser acompanhar todo o conteúdo, me acompanhe no [Twitter](https://twitter.com/w_oliveiras), se inscreva no [meu canal](https://youtube.com/ouniversodaprogramacao) ou me adicione no [LinkedIn](https://linkedin.com/in/william-oliveira).
 
 [Photo by Eric Ward on Unsplash](https://unsplash.com/photos/s0BBxQkvUgs).
