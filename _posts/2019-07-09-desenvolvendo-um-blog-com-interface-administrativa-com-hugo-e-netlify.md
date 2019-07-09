@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Desenvolvendo um blog com interface admistrativa com Hugo e Netlify
+title: Desenvolvendo um blog com interface administrativa com Hugo e Netlify
 date: 2019-07-09 08:41 -0300
 categories:
     - golang
