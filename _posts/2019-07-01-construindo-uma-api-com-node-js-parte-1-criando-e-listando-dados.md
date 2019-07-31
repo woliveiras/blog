@@ -279,7 +279,7 @@ const router = express.Router();
 
 router.get('/', (req, res, next) => {
   res.status(200).send({
-    title: MentionsAPI',
+    title: 'MentionsAPI',
     version: '1.0.0'
   });
 });
@@ -356,7 +356,7 @@ Você pode dar um nome legal para o seu usuário, mas a senha eu recomendo que v
 
 Será necessário aguardar o cluster aplicar as configurações.
 
-Agora você pode voltar na tela de clusters (clicando em Clusters, na esquerda) e vamos pegar a connection string, a linha de texto de configuração do nosso banco de dados. Clique em **connect**. Irá aparecer uma tela de configuração de liberação de endereços de IP para acesso ao banco, clique no botão **Add Your Current IP Address** e depois em **Add**. Agora clique em **Choose a connection method**, depois em **Connect Your Application**. O próprio Atlas nos dá a opção de connection string, basta copiar isso e vamos colar em nosso .env. Crie o arquivo **.env** na raiz do nosso projeto (fora da pasta **src**).
+Agora você pode voltar na tela de clusters (clicando em Clusters, na esquerda) e vamos pegar a connection string, a linha de texto de configuração do nosso banco de dados. Clique em **connect**. Irá aparecer uma tela de configuração de liberação de endereços de IP para acesso ao banco, clique no botão **Allow Access from Anywhere** e depois em **Add** para liberarmos para qualquer endereço, pois inicialmente não teremos controle do endereço de IP da nossa aplicação no servidor de hospedagem. Agora clique em **Choose a connection method**, depois em **Connect Your Application**. O próprio Atlas nos dá a opção de connection string, basta copiar isso e vamos colar em nosso .env. Crie o arquivo **.env** na raiz do nosso projeto (fora da pasta **src**).
 
 ![Imagem da connection string]({{site.post_images}}create-a-project-atlas-mongodb-connection-string.png)
 
@@ -760,5 +760,7 @@ Os próximos passos para nossa API são:
 Nos próximos artigos vamos aprender isso. Fique de olho!
 
 Me acompanhe no Twitter para saber quando lançar alguma coisa aqui no Blog: [@w_oliveiras](https://twitter.com/w_oliveiras).
+
+[Leia a Parte 2: melhorando nossa criação e listagem](/posts/construindo-uma-api-com-node-js-parte-2-melhorando-nossa-criação-e-listagem-de-dados/)
 
 [Photo by Ed van duijn on Unsplash](https://unsplash.com/photos/2uTjeMfeVEU).
