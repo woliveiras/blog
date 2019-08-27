@@ -13,6 +13,7 @@ Senão, confere o texto inteiro para saber mais. :heart:
 
 - [Sobre a iniciativa](#sobre-a-iniciativa)
 - [Como me ajudar nessa missão](#como-me-ajudar-nessa-missão)
+- [Como receber apoio](#como-receber-apoio)
 
 ## Sobre a iniciativa
     
@@ -28,7 +29,7 @@ Os apoios vão desde conselhos até conteúdo que encontramos na internet atrav�
 
 > Serei eternamente grato às pessoas que geram conteúdo na internet compartilhando seu conhecimento de maneira gratuita e também a aqueles que me doaram seus cursos e livros.
 
-Eu percebi que usar a internet para o bem é algo que muda vidas, pois mudou a minha! Por isso, eu adotei a postura de compartilhar o que eu sei para ajudar as pessoas que querem entrar na área de programação através deste blog, que existe desde [17/08/2014](/posts/vagrant-introducao-instalacao/), e do meu canal [O Universo da Programação](https://www.youtube.com/channel/UCWrqsnPLl6aRX0ECUmPaZEw).
+Eu percebi que usar a internet para o bem é algo que muda vidas, pois mudou a minha! Por isso, eu adotei a postura de compartilhar o que eu sei para ajudar as pessoas que querem entrar na área de programação através deste blog, que existe desde [17/08/2014](/posts/vagrant-introducao-instalacao/), e do meu canal [O Universo da Programação](https://www.youtube.com/ouniversodaprogramacao).
 
 Mas desenvolvimento pessoal não implica somente em receber conteúdo via internet; as pessoas precisam de mais acesso a informação e isso inclui fazer cursos, ir a eventos de tecnologia, comprar livros e investir de verdade em seu futuro profissional. Tudo isso forma uma pessoa desenvolvedora de software com uma preparação maior para o mercado de trabalho, para competir com pessoas que se formaram nas melhores universidades do país, pois o pobre não tem condições (tirando exceções) de fazer uma bela formação na USP, UFMG e afins. Mas este é um custo que algumas pessoas, assim como eu no começo da minha carreira, não conseguem pagar.
 
@@ -36,10 +37,13 @@ Para ajudar essas pessoas eu decidi investir meu tempo dando aulas em ONGs que a
 
 ### Como me ajudar nessa missão
 
-- Me apoiando financeiramente com [5,00](https://www.catarse.me/pt/projects/88856/subscriptions/start?reward_id=164989), [8,00](https://www.catarse.me/pt/projects/88856/subscriptions/start?reward_id=164986), [18,00](https://www.catarse.me/pt/projects/88856/subscriptions/start?reward_id=164991), [30,00](https://www.catarse.me/pt/projects/88856/subscriptions/start?reward_id=164988) ou mais pelo [Catarse](https://www.catarse.me/william-oliveira).
+- Me apoiando mensalmente com 1, 5, 10, 18 reais ou mais pelo [PicPay](https://app.picpay.com/user/ouniversodaprogramacao).
+- Com uma ou mais doações não recorrentes no PicPay, para o usuário [w_oliveiras](https://app.picpay.com/user/w_oliveiras) com o assunto #udp.
 - Compartilhando esta iniciativa com pessoas que você sabe que realmente precisam, para que elas se cadastrem no sorteio.
 - Compartilhando este post em redes sociais e grupos/comunidades nessas redes.
 
-----
-
 Se você conhece alguma escola pública ou ONG que aceita receber livros de tecnologia, palestras sobre programação ou alguma iniciativa dessas, entre em contato comigo via Telegram: (<a href="https://telegram.me/woliveiras" title="Meu usuário do Telegram">@woliveiras</a>).
+
+## Como receber apoio
+
+Se você é uma pessoa que se declara de baixa renda que deseja entrar na área de programação, pode receber meu apoio via sorteio mensal através do formulário: [Cadastro Sorteio UdP](https://forms.gle/gARZHvB4svLNzrP17).
