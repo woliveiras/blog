@@ -74,6 +74,7 @@ Fiz um levantamento no Twitter de empresas que contratam pessoas desenvolvedoras
 | Mercado Livre | [Vagas no Mercado Livre](https://jobs.mercadolibre.com/?locale=pt_BR) |
 | Accenture | [Vagas da Accenture](https://www.accenture.com/br-pt/careers/jobsearch) |
 | Keep IT Simple | [Vagas da Keep IT Simple](https://jobs.kenoby.com/keepsimple) |
+| SumUp | [Vagas na SumUp](https://sumup.com/careers/positions/) |
 
 ## Conclusão
 
