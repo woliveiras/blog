@@ -75,6 +75,7 @@ Fiz um levantamento no Twitter de empresas que contratam pessoas desenvolvedoras
 | Accenture | [Vagas da Accenture](https://www.accenture.com/br-pt/careers/jobsearch) |
 | Keep IT Simple | [Vagas da Keep IT Simple](https://jobs.kenoby.com/keepsimple) |
 | SumUp | [Vagas na SumUp](https://sumup.com/careers/positions/) |
+| Lambda3 | [Vagas na Lambda3](https://www.lambda3.com.br/pessoas/) |
 
 ## Conclusão
 
