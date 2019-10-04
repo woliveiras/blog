@@ -76,6 +76,7 @@ Fiz um levantamento no Twitter de empresas que contratam pessoas desenvolvedoras
 | Keep IT Simple | [Vagas da Keep IT Simple](https://jobs.kenoby.com/keepsimple) |
 | SumUp | [Vagas na SumUp](https://sumup.com/careers/positions/) |
 | Lambda3 | [Vagas na Lambda3](https://www.lambda3.com.br/pessoas/) |
+| DBServer | [Vagas na DBServer](https://jobs.kenoby.com/dbserver)
 
 ## Conclusão
 
