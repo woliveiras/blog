@@ -665,6 +665,6 @@ No próximo artigo veremos a introdução a versionamento de código e Git: [Int
 
 Continue acompanhando e se quiser receber os artigos na semana em que eles saírem, inscreva-se na [newsletter](http://bit.ly/cartinha-do-will) ou me siga no [Twitter](https://twitter.com/w_oliveiras).
 
-Se você gosta do meu conteúdo, não esqueça de contribuir via Catarse: [Catarse: William Oliveira](https://catarse.me/william-oliveira).
+Se você gosta do meu conteúdo, não esqueça de contribuir via Catarse: [Catarse: William Oliveira](https://catarse.me/o-universo-da-programacao).
 
 Foto de capa por [Kevin Horvat](https://unsplash.com/photos/Pyjp2zmxuLk?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText) via [Unsplash](https://unsplash.com/search/photos/linux?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText).

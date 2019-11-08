@@ -8,7 +8,7 @@ Este é o  material utilizado no curso "Do zero ao fullstack com Node.js, Bancos
 
 Estou disponibilizando ele para que qualquer outra pessoa também possa aprender gratuitamente pela internet e qualquer pessoa possa ensinar utilizando este conteúdo.
 
-Se você quiser contribuir com o meu trabalho em agradecimento ao meu conteúdo, pode apoiar via [Catarse](https://www.catarse.me/william-oliveira).
+Se você quiser contribuir com o meu trabalho em agradecimento ao meu conteúdo, pode apoiar via [Catarse](https://www.catarse.me/o-universo-da-programacao).
 
 Se você não tem certeza se deseja seguir com o curso e precisa conhecer a área de desenvolvimento de software, comece a partir do meu livro: [O Universo da Programação](http://bit.ly/universo-da-programacao), na Casa do Código.
 
