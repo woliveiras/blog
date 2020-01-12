@@ -120,63 +120,61 @@ No nosso comando de inicialização (o comando "dev", que adicionamos no package
 Crie a pasta **bin** e o arquivo **server.js** dentro dela. Neste arquivo, adicione o seguinte conteúdo:
 
 ```javascript
-const app = require('../src/app');
-const http = require('http');
-const debug = require('debug')('nodestr:server');
+const app = require('../src/app')
+const http = require('http')
+const debug = require('debug')('nodestr:server')
 
 // PORT // based on express-generator
 function normalizePort(val) {
-  const port = parseInt(val, 10);
+    const port = parseInt(val, 10)
 
-  if (isNaN(port)) {
-    return val;
-  
+    if (isNaN(port)) {
+        return val
+    }
 
-  if (port >= 0) {
-    return port;
-  
+    if (port >= 0) {
+        return port
+    }
 
-  return false;
+    return false
 }
 
-const port = normalizePort(process.env.PORT || 3000);
-app.set('port', port);
+const port = normalizePort(process.env.PORT || 3000)
+app.set('port', port)
 
 // error handler
 function onError(error) {
-  if (error.syscall !== 'listen') {
-    throw error;
-  
+    if (error.syscall !== 'listen') {
+        throw error
+    }
 
-  const bind = typeof port === 'string' ? 'Pipe ' + port : 'Port ' + port;
+    const bind = typeof port === 'string' ? 'Pipe ' + port : 'Port ' + port
 
-  switch (error.code) {
-    case 'EACCES':
-      console.error(bind + ' requires elevated privileges');
-      process.exit(1);
-      break;
-    case 'EADDRINUSE':
-      console.error(bind + ' is already in use');
-      process.exit(1);
-      break;
-    default:
-      throw error;
-  
+    switch (error.code) {
+        case 'EACCES':
+            console.error(bind + ' requires elevated privileges')
+            process.exit(1)
+        case 'EADDRINUSE':
+            console.error(bind + ' is already in use')
+            process.exit(1)
+        default:
+            throw error
+    }
 }
-
 // listener handler
 function onListening() {
-  const addr = server.address();
-  const bind = typeof addr === 'string' ? 'pipe ' + addr : 'port ' + addr.port;
-  debug('Listening on ' + bind);
+    const addr = server.address()
+    const bind = typeof addr === 'string' ? 'pipe ' + addr : 'port ' + addr.port
+    debug('Listening on ' + bind)
 }
 
 // server
-const server = http.createServer(app);
-server.listen(port);
-server.on('error', onError);
-server.on('listening', onListening);
-console.log(`API is alive on ${port}!`);
+const server = http.createServer(app)
+server.listen(port)
+server.on('error', onError)
+server.on('listening', onListening)
+console.log(`API is alive on ${port}!`)
+
 ```
 
 Vamos entender este arquivo.
@@ -368,10 +366,9 @@ DATABASE_CONNECTION_STRING=mongodb+srv://admin:<password>@cluster0-8xYz.mongodb.
 
 Você terá que modificar o texto **<password>** para a senha do seu usuário. Ficará algo como **usuario:senha** e o restante do conteúdo.
 
-Agora vamos adicionar as linhas de código necessárias para conectar ao Atlas. No arquivo **app.js** adicione as seguintes linhas logo no começo abaixo da chamada do Express:
+Agora vamos adicionar as linhas de código necessárias para conectar ao Atlas. No arquivo **app.js** adicione as seguintes linhas logo no começo abaixo da chamada do Express **const express = require('express')**:
 
 ```javascript
-const express = require('express');
 const mongoose = require('mongoose');
 require('dotenv').config();
 ```
@@ -381,7 +378,9 @@ Depois do nosso `const app = express();`, adicione as seguintes linhas:
 ```javascript
 // Database
 mongoose.connect(process.env.DATABASE_CONNECTION_STRING, {
-    useNewUrlParser: true
+    useNewUrlParser: true,
+    useFindAndModify: true,
+    useCreateIndex: true
 });
 
 const db = mongoose.connection;
@@ -419,7 +418,14 @@ Mongoose default connection is open
 
 Vamos entender as linhas de código que adicionamos no app.js.
 
-Primeiro nós usamos o mongoose para criar uma conexão com a connection string do banco de dados que passamos via variável de ambiente (process.env.DATABASE_CONNECTION_STRING). Também passamos algumas configurações importantes para o funcionamento do mongoose.
+Primeiro nós usamos o mongoose para criar uma conexão com a connection string do banco de dados que passamos via variável de ambiente (process.env.DATABASE_CONNECTION_STRING). 
+```javascript
+mongoose.connect(process.env.DATABASE_CONNECTION_STRING, {
+    useNewUrlParser: true
+})
+```
+
+Também passamos algumas configurações importantes para o funcionamento do mongoose.
 
 ```javascript
 mongoose.connect(process.env.DATABASE_CONNECTION_STRING, {
@@ -479,7 +485,7 @@ const schema = new Schema({
   mention: {
     type: String,
     required: true
-  
+  }
 });
 
 module.exports = mongoose.model('Mentions', schema);
@@ -487,7 +493,11 @@ module.exports = mongoose.model('Mentions', schema);
 
 Vamos entender o que aconteceu. 
 
-Nós estamos chamando o módulo mongoose, em seguida instanciamos o Schema, um objeto do namespace mongoose. Assim como fazemos com Express.
+Nós estamos chamando o módulo mongoose.
+```javascript
+const mongoose = require('mongoose');
+```
+Em seguida instanciamos o Schema, um objeto do namespace mongoose. Assim como fazemos com Express.
 
 ```javascript
 const Schema = mongoose.Schema;
@@ -505,7 +515,7 @@ const schema = new Schema({
   mention: {
     type: String,
     required: true
-  
+  }
 });
 
 module.exports = mongoose.model('Mentions', schema);
