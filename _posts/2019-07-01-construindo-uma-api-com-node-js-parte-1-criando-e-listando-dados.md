@@ -511,7 +511,7 @@ const schema = new Schema({
   mention: {
     type: String,
     required: true
-  
+  }
 });
 
 module.exports = mongoose.model('Mentions', schema);
@@ -541,7 +541,7 @@ exports.listMentions = async (req, res) => {
     res.status(200).send(data);
   } catch (e) {
     res.status(500).send({message: 'Falha ao carregar as menções.'});
-  
+  }
 };
 
 // create
@@ -559,7 +559,7 @@ exports.createMention = async (req, res) => {
     res.status(201).send({message: 'Menção cadastrada com sucesso!'});
   } catch (e) {
     res.status(500).send({message: 'Falha ao cadastrar a menção.'});
-  
+  }
 };
 ```
 
@@ -579,7 +579,7 @@ exports.listMentions = async (req, res) => {
     res.status(200).send(data);
   } catch (e) {
     res.status(500).send({message: 'Falha ao carregar as menções.'});
-  
+  }
 };
 ```
 
@@ -598,7 +598,7 @@ exports.createMention = async (req, res) => {
     res.status(201).send({message: 'Menção cadastrada com sucesso!'});
   } catch (e) {
     res.status(500).send({message: 'Falha ao cadastrar a menção.'});
-  
+  }
 };
 ```
 
@@ -623,7 +623,7 @@ Agora temos que criar uma rota para isso acontecer e adicionar a chamada para o 
 > 
 > Poderia ser qualquer coisa, como escrever em disco (gravar um arquivo), esperar um cronômetro, aguardar uma chamada para outra API. Para tudo o que for necessário esperar um processamento, podemos utilizar async/await.
 
-Sabendo sobre programação assíncrona e os status code, podemos voltar para a criação da nossa rota e adicionar isso ao app.js. Dentro de **src** crie uma pasta chamada **routes** e adicione o arquivo **mentions-routes.js** com o seguinte conteúdo:
+Sabendo sobre programação assíncrona e os status code, podemos voltar para a criação da nossa rota e adicionar isso ao app.js. Dentro de **src** navegue até a pasta chamada **routes** e adicione o arquivo **mentions-routes.js** com o seguinte conteúdo:
 
 ```javascript
 const express = require('express');
@@ -660,7 +660,10 @@ app.use(express.urlencoded({extended: true}));
 
 // Database
 mongoose.connect(process.env.DATABASE_CONNECTION_STRING, {
-    useNewUrlParser: true
+    useUnifiedTopology: true,
+    useFindAndModify: true,
+    useNewUrlParser: true,
+    useCreateIndex: true 
 });
 
 const db = mongoose.connection;
