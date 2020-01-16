@@ -21,12 +21,12 @@ Quando acessamos a rota de listagem em nossa API, ela retorna dados que não est
 
 ```javascript
 [
-    
+      {    
         "_id": "5d19e89dcc98671f7fd8b4a3",
         "friend": "Seu Madruga",
         "mention": "A vingança nunca é plena, mata a alma e a envenena",
         "__v": 0
-    
+      }
 ]
 ```
 
@@ -76,7 +76,7 @@ exports.listMentions = async (req, res) => {
     res.status(200).send(data);
   } catch (e) {
     res.status(500).send({message: 'Falha ao carregar as menções!'});
-  
+  }
 };
 ```
 
@@ -84,16 +84,16 @@ Agora, ao executar a nossa chamada GET a rota localhost:3000/mentions no Postman
 
 ```javascript
 [
-    
+    {
         "_id": "5d19e89dcc98671f7fd8b4a3",
         "friend": "Seu Madruga",
         "mention": "A vingança nunca é plena, mata a alma e a envenena"
     },
-    
+    {
         "_id": "5d1b263cfa7e0c580519a632",
         "friend": "Chuck",
         "mention": "Prefiro me arriscar no mar alto do que ficar aqui e morrer nesta ilha de merda, falando o resto da minha vida com a droga de uma bola de vôlei!"
-    
+    }
 ]
 ```
 
@@ -106,7 +106,7 @@ exports.listMentions = async (req, res) => {
     res.status(200).send(data);
   } catch (e) {
     res.status(500).send({message: 'Falha ao carregar as menções!'});
-  
+  }
 };
 ```
 
@@ -114,14 +114,14 @@ Pronto! Agora nosso retorno está OK.
 
 ```javascript
 [
-    
+    { 
         "friend": "Seu Madruga",
         "mention": "A vingança nunca é plena, mata a alma e a envenena"
     },
-    
+    {
         "friend": "Chuck",
         "mention": "Prefiro me arriscar no mar alto do que ficar aqui e morrer nesta ilha de merda, falando o resto da minha vida com a droga de uma bola de vôlei!"
-    
+    }
 ]
 ```
 
