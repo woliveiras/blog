@@ -50,7 +50,7 @@ Vamos começar pela função de atualização e depois vamos para a de deleção
 
 ## <a name='Criandoafunodeupdate'></a>Criando a função de update
 
-No arquivo **mentions-repository.js** adicione a seguinte função:
+Dentro da pasta **repositories**, No arquivo **mentions-repository.js** adicione a seguinte função:
 
 ```javascript
 exports.updateMention = async (id, data) => {
@@ -75,7 +75,7 @@ exports.updateMention = async (req, res) => {
     });
   } catch (e) {
     res.status(500).send({message: 'Falha ao atualizar a menção.'});
-  
+  }
 };
 ```
 
@@ -114,7 +114,7 @@ exports.updateMention = async (req, res) => {
 
   if(errors.length > 0) {
     return res.status(400).send({message: errors})
-  
+  }
 
   try {
     await repository.updateMention(req.params.id, req.body);
@@ -123,7 +123,7 @@ exports.updateMention = async (req, res) => {
     });
   } catch (e) {
     return res.status(500).send({message: 'Falha ao atualizar a menção.'});
-  
+  }
 };
 ```
 
@@ -151,12 +151,13 @@ Você deve ter reparado que está aparecendo um alerta no nosso terminal.
 (node:10408) DeprecationWarning: Mongoose: `findOneAndUpdate()` and `findOneAndDelete()` without the `useFindAndModify` option set to false are deprecated. See: https://mongoosejs.com/docs/deprecations.html#-findandmodify-
 ```
 
-Para que este problema seja solucionado, abra o arquivo app.js e adicione as seguintes alterações na chamada do Mongoose:
+Para que este problema seja solucionado, abra o arquivo app.js e adicione a seguinte alteração **useFindAndModify: false** na chamada do Mongoose:
 
 ```javascript
 mongoose.connect(process.env.DATABASE_CONNECTION_STRING, {
     useNewUrlParser: true,
     useFindAndModify: false,
+    useUnifiedTopology: true,
     useCreateIndex: true
 });
 ```
