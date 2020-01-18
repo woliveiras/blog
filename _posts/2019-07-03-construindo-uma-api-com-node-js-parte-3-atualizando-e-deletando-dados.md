@@ -75,7 +75,7 @@ exports.updateMention = async (req, res) => {
     });
   } catch (e) {
     res.status(500).send({message: 'Falha ao atualizar a menção.'});
-  
+  }
 };
 ```
 
@@ -114,7 +114,7 @@ exports.updateMention = async (req, res) => {
 
   if(errors.length > 0) {
     return res.status(400).send({message: errors})
-  
+  }
 
   try {
     await repository.updateMention(req.params.id, req.body);
@@ -123,7 +123,7 @@ exports.updateMention = async (req, res) => {
     });
   } catch (e) {
     return res.status(500).send({message: 'Falha ao atualizar a menção.'});
-  
+  }
 };
 ```
 
@@ -171,11 +171,11 @@ No arquivo **mentions-repository.js**, adicione o seguinte conteúdo:
 
 ```javascript
 exports.deleteMention = async id => {
-  await Mentions.findOneAndRemove(id);
+  await Mentions.findByIdAndDelete(id);
 };
 ```
 
-Estamos utilizando um método do Mongoose chamado **findOneAndRemove** que busca um dado e deleta ele. Repare no ponto find**One**AndRemove. Precisamos especificar que é para buscar somente um dado, afinal, se não fizermos isso, podemos enviar um comando de deletar tudo para o banco de dados. Você não gostaria de deletar todas as informações do seu sistema sem querer, não é?
+Estamos utilizando um método do Mongoose chamado **findByIdAndDelete** que busca um dado e deleta ele. Repare no ponto find**ById**AndDelete. Precisamos especificar que é para buscar somente um dado, afinal, se não fizermos isso, podemos enviar um comando de deletar tudo para o banco de dados. Você não gostaria de deletar todas as informações do seu sistema sem querer, não é?
 
 ## <a name='Importandoafunodedeletenocontroller'></a>Importando a função de delete no controller
 
@@ -191,7 +191,7 @@ exports.deleteMention = async (req, res) => {
     });
   } catch (e) {
     res.status(500).send({message: 'Falha ao remover a menção.'});
-  
+  }
 };
 ```
 
