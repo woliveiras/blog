@@ -156,7 +156,7 @@ exports.listMentions = async (req, res) => {
     res.status(200).send(data);
   } catch (e) {
     res.status(500).send({message: 'Falha ao carregar as menções!'});
-  
+  }
 };
 
 // create
@@ -169,7 +169,7 @@ exports.createMention = async (req, res) => {
     res.status(201).send({message: 'Menção cadastrada com sucesso!'});
   } catch (e) {
     res.status(500).send({message: 'Falha ao cadastrar a menção.'});
-  
+  }
 };
 ```
 
@@ -223,7 +223,7 @@ app.use(express.json());
 app.use(express.urlencoded({extended: true}));
 ```
 
-Agora vamos importar o **check** do express-validator, no nosso mentions-router.js e adicionar suas validações na hora do POST **check(nome do campo do boyd).validação**.
+Agora vamos importar o **check** do express-validator, no nosso mentions-routes.js e adicionar suas validações na hora do POST **check(nome do campo do body).validação**.
 
 ```javascript
 const express = require('express');
@@ -252,7 +252,7 @@ exports.createMention = async (req, res) => {
 
   if(errors.length > 0) {
     return res.status(400).send({message: errors})
-  
+  }
 
   try {
     await repository.createMention({
@@ -262,7 +262,7 @@ exports.createMention = async (req, res) => {
     return res.status(201).send({message: 'Menção cadastrada com sucesso!'});
   } catch (e) {
     return res.status(500).send({message: 'Falha ao cadastrar a menção.'});
-  
+  }
 };
 ```
 
