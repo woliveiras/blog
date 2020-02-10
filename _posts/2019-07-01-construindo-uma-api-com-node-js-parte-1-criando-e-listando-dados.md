@@ -130,11 +130,11 @@ function normalizePort(val) {
 
   if (isNaN(port)) {
     return val;
-  
+  }
 
   if (port >= 0) {
     return port;
-  
+  }
 
   return false;
 }
@@ -146,7 +146,7 @@ app.set('port', port);
 function onError(error) {
   if (error.syscall !== 'listen') {
     throw error;
-  
+  }
 
   const bind = typeof port === 'string' ? 'Pipe ' + port : 'Port ' + port;
 
@@ -161,7 +161,7 @@ function onError(error) {
       break;
     default:
       throw error;
-  
+  }
 }
 
 // listener handler
@@ -197,11 +197,11 @@ function normalizePort(val) {
 
   if (isNaN(port)) {
     return val;
-  
+  }
 
   if (port >= 0) {
     return port;
-  
+  }
 
   return false;
 }
@@ -216,7 +216,7 @@ Em seguida criamos uma função para tratar possíveis erros.
 function onError(error) {
   if (error.syscall !== 'listen') {
     throw error;
-  
+  }
 
   const bind = typeof port === 'string' ? 'Pipe ' + port : 'Port ' + port;
 
@@ -231,7 +231,7 @@ function onError(error) {
       break;
     default:
       throw error;
-  
+  }
 }
 ```
 
@@ -479,7 +479,7 @@ const schema = new Schema({
   mention: {
     type: String,
     required: true
-  
+  }
 });
 
 module.exports = mongoose.model('Mentions', schema);
@@ -505,7 +505,7 @@ const schema = new Schema({
   mention: {
     type: String,
     required: true
-  
+  }
 });
 
 module.exports = mongoose.model('Mentions', schema);
@@ -535,7 +535,7 @@ exports.listMentions = async (req, res) => {
     res.status(200).send(data);
   } catch (e) {
     res.status(500).send({message: 'Falha ao carregar as menções.'});
-  
+  }
 };
 
 // create
@@ -553,7 +553,7 @@ exports.createMention = async (req, res) => {
     res.status(201).send({message: 'Menção cadastrada com sucesso!'});
   } catch (e) {
     res.status(500).send({message: 'Falha ao cadastrar a menção.'});
-  
+  }
 };
 ```
 
@@ -573,7 +573,7 @@ exports.listMentions = async (req, res) => {
     res.status(200).send(data);
   } catch (e) {
     res.status(500).send({message: 'Falha ao carregar as menções.'});
-  
+  }
 };
 ```
 
@@ -592,7 +592,7 @@ exports.createMention = async (req, res) => {
     res.status(201).send({message: 'Menção cadastrada com sucesso!'});
   } catch (e) {
     res.status(500).send({message: 'Falha ao cadastrar a menção.'});
-  
+  }
 };
 ```
 
