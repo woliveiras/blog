@@ -146,6 +146,7 @@ app.set('port', port);
 function onError(error) {
   if (error.syscall !== 'listen') {
     throw error;
+  }
   
   const bind = typeof port === 'string' ? 'Pipe ' + port : 'Port ' + port;
 
@@ -160,7 +161,7 @@ function onError(error) {
 
     default:
       throw error;
-  
+  }
 }
 
 // listener handler
@@ -196,11 +197,11 @@ function normalizePort(val) {
 
   if (isNaN(port)) {
     return val;
-  
+  }
 
   if (port >= 0) {
     return port;
-  
+  }
 
   return false;
 }
@@ -215,7 +216,7 @@ Em seguida criamos uma função para tratar possíveis erros.
 function onError(error) {
   if (error.syscall !== 'listen') {
     throw error;
-  
+  }
 
   const bind = typeof port === 'string' ? 'Pipe ' + port : 'Port ' + port;
 
@@ -230,7 +231,7 @@ function onError(error) {
       break;
     default:
       throw error;
-  
+  }
 }
 ```
 
