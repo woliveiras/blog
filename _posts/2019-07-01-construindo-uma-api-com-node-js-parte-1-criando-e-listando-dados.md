@@ -147,18 +147,18 @@ function onError(error) {
   if (error.syscall !== 'listen') {
     throw error;
   }
-
+  
   const bind = typeof port === 'string' ? 'Pipe ' + port : 'Port ' + port;
 
   switch (error.code) {
     case 'EACCES':
       console.error(bind + ' requires elevated privileges');
       process.exit(1);
-      break;
+
     case 'EADDRINUSE':
       console.error(bind + ' is already in use');
       process.exit(1);
-      break;
+
     default:
       throw error;
   }
@@ -368,7 +368,7 @@ DATABASE_CONNECTION_STRING=mongodb+srv://admin:<password>@cluster0-8xYz.mongodb.
 
 Você terá que modificar o texto **<password>** para a senha do seu usuário. Ficará algo como **usuario:senha** e o restante do conteúdo.
 
-Agora vamos adicionar as linhas de código necessárias para conectar ao Atlas. No arquivo **app.js** adicione as seguintes linhas logo no começo abaixo da chamada do Express:
+Agora vamos adicionar as linhas de código necessárias para conectar ao Atlas. No arquivo **app.js** adicione as seguintes linhas logo no começo abaixo da chamada do Express **const express = require('express')**:
 
 ```javascript
 const express = require('express');
@@ -423,9 +423,10 @@ Primeiro nós usamos o mongoose para criar uma conexão com a connection string 
 
 ```javascript
 mongoose.connect(process.env.DATABASE_CONNECTION_STRING, {
-    useNewUrlParser: true,
+    useUnifiedTopology: true,
     useFindAndModify: true,
-    useCreateIndex: true
+    useNewUrlParser: true,
+    useCreateIndex: true 
 });
 ```
 
@@ -487,7 +488,13 @@ module.exports = mongoose.model('Mentions', schema);
 
 Vamos entender o que aconteceu. 
 
-Nós estamos chamando o módulo mongoose, em seguida instanciamos o Schema, um objeto do namespace mongoose. Assim como fazemos com Express.
+Nós estamos chamando o módulo mongoose. 
+
+```javascript
+const mongoose = require('mongoose');
+```
+
+Em seguida instanciamos o Schema, um objeto do namespace mongoose. Assim como fazemos com Express.
 
 ```javascript
 const Schema = mongoose.Schema;
@@ -617,7 +624,7 @@ Agora temos que criar uma rota para isso acontecer e adicionar a chamada para o 
 > 
 > Poderia ser qualquer coisa, como escrever em disco (gravar um arquivo), esperar um cronômetro, aguardar uma chamada para outra API. Para tudo o que for necessário esperar um processamento, podemos utilizar async/await.
 
-Sabendo sobre programação assíncrona e os status code, podemos voltar para a criação da nossa rota e adicionar isso ao app.js. Dentro de **src** crie uma pasta chamada **routes** e adicione o arquivo **mentions-routes.js** com o seguinte conteúdo:
+Sabendo sobre programação assíncrona e os status code, podemos voltar para a criação da nossa rota e adicionar isso ao app.js. Dentro de **src** navegue até a pasta chamada **routes** e adicione o arquivo **mentions-routes.js** com o seguinte conteúdo:
 
 ```javascript
 const express = require('express');
@@ -654,7 +661,10 @@ app.use(express.urlencoded({extended: true}));
 
 // Database
 mongoose.connect(process.env.DATABASE_CONNECTION_STRING, {
-    useNewUrlParser: true
+    useUnifiedTopology: true,
+    useFindAndModify: true,
+    useNewUrlParser: true,
+    useCreateIndex: true 
 });
 
 const db = mongoose.connection;
