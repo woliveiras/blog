@@ -15,7 +15,7 @@ date_format: "%d/%m/%Y"  # dateformat of reading list, post date, and more
 permalink: /posts/:title/ # use to url friendly
 display-author-front-page: false # True if you need show author name and site on home page
 display-author-post-page: false # Very usual for guest posts and the infos of author are writen in header of post.md, by default show infos of user settings
-# google_analytics: UA-25964646-1
+google_analytics: UA-25964646-1
 
 # Useful for translating into other languages.
 
