@@ -8,6 +8,7 @@ group :styles do
     gem 'rouge'
 end
 
+gem 'amp-jekyll'
 gem 'jemoji'
 gem 'jekyll-paginate'
 gem 'jekyll-sitemap'

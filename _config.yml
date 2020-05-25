@@ -100,6 +100,7 @@ exclude: [
 
 # plugins
 plugins:
+    - amp-jekyll
     - jemoji
     - jekyll-paginate
     - jekyll-sitemap
