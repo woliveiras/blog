@@ -25,4 +25,4 @@ Se você quiser receber meu conteúdo, se inscreve na minha newsletter, a [carti
 Caso queira me adicionar nas suas redes sociais, segue meu LinkedIn e Twitter, redes onde sou ativo:
 
 - [**LinkedIn**](https://www.linkedin.com/in/william-oliveira/)
-- [**Twitter**](https://twitter.com/w_oliveiras)
+- [**Twitter**](https://twitter.com/etc_william)

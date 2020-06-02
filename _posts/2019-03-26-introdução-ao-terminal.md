@@ -663,7 +663,7 @@ Esta é a primeira aula do perifaCode.teach(). Espero que tenha gostado e que si
 
 No próximo artigo veremos a introdução a versionamento de código e Git: [Introdução a versionamento de código e conhecendo o Git](/posts/introdução-a-versionamento-de-código-e-conhecendo-o-git/).
 
-Continue acompanhando e se quiser receber os artigos na semana em que eles saírem, inscreva-se na [newsletter](http://bit.ly/cartinha-do-will) ou me siga no [Twitter](https://twitter.com/w_oliveiras).
+Continue acompanhando e se quiser receber os artigos na semana em que eles saírem, inscreva-se na [newsletter](http://bit.ly/cartinha-do-will) ou me siga no [Twitter](https://twitter.com/etc_william).
 
 Se você gosta do meu conteúdo, não esqueça de contribuir via Catarse: [Catarse: William Oliveira](https://catarse.me/o-universo-da-programacao).
 

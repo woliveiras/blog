@@ -13,7 +13,7 @@ Com o recente lançamento do meu livro ([O universo da programação](https://bi
 
 Porém, com isso, vem uma chuva de conteúdo que nem sempre conseguimos acompanhar.
 
-A maioria das pessoas acompanha meu conteúdo me seguindo nas redes sociais, principalmente no [LinkedIn](https://www.linkedin.com/in/william-oliveira) e [Twitter](https://twitter.com/w_oliveiras), mas nem todo mundo gosta de ficar acessando essas redes ou mesmo recebe o conteúdo por conta do algoritmo não exibir isso para todo mundo.
+A maioria das pessoas acompanha meu conteúdo me seguindo nas redes sociais, principalmente no [LinkedIn](https://www.linkedin.com/in/william-oliveira) e [Twitter](https://twitter.com/etc_william), mas nem todo mundo gosta de ficar acessando essas redes ou mesmo recebe o conteúdo por conta do algoritmo não exibir isso para todo mundo.
 
 Então fiz algo para que você fique sabendo quando tiver novidades nas minhas iniciativas!
 

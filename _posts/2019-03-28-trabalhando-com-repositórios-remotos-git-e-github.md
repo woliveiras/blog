@@ -304,6 +304,6 @@ Agora, toda vez que precisarmos enviar nossas alterações para o servidor remot
 
 Aprendemos a criar repositórios remotos e baixar eles, criar repositórios locais e enviar para o GitHub e mais alguns comandos do Git, como git remote, git pull e push. Com o conteúdo até aqui temos tudo o que precisamos saber para trabalhar via terminal e com o Git + GitHub em nosso dia a dia e na continuação da nossa série de fullstack do zero.
 
-Continue acompanhando e se quiser receber os artigos na semana em que eles saírem, inscreva-se na [newsletter](http://bit.ly/cartinha-do-will) ou me siga no [Twitter](https://twitter.com/w_oliveiras).
+Continue acompanhando e se quiser receber os artigos na semana em que eles saírem, inscreva-se na [newsletter](http://bit.ly/cartinha-do-will) ou me siga no [Twitter](https://twitter.com/etc_william).
 
 Se você gosta do meu conteúdo, não esqueça de contribuir via Catarse: [Catarse: William Oliveira](https://catarse.me/o-universo-da-programacao).

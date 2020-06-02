@@ -439,7 +439,7 @@ Ainda existe mais conteúdo sobre funções que você poderia absorver, para apr
 
 Tudo tem o seu tempo e, se você é iniciante, ainda vai aprender muito pela frente.
 
-Continue acompanhando e se quiser receber os artigos na semana em que eles saírem, inscreva-se na [newsletter](http://bit.ly/cartinha-do-will) ou me siga no [Twitter](https://twitter.com/w_oliveiras).
+Continue acompanhando e se quiser receber os artigos na semana em que eles saírem, inscreva-se na [newsletter](http://bit.ly/cartinha-do-will) ou me siga no [Twitter](https://twitter.com/etc_william).
 
 Se você gosta do meu conteúdo, não esqueça de contribuir via Catarse: [Catarse: William Oliveira](https://catarse.me/o-universo-da-programacao).
 

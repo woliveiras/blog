@@ -226,6 +226,6 @@ Até aqui fizemos muita coisa! Criamos uma API, montamos os métodos para trabal
 
 Ainda temos trabalho a fazer antes de colocar essa API em produção em um serviço de hospedagem. Por isso, no próximo artigo, além de aprender subir nosso serviço em uma hospedagem, aprenderemos a utilizar uma biblioteca que criará uma camada de segurança para nossa API, vamos documentar nossa API, para que outras pessoas não necessitem ler o código para entender como utilizar as requisições, além de preparar nossa aplicação para que receba chamadas de outros endereços que não estejam dentro do nosso domínio.
 
-Fique de olho! Me acompanhe no Twitter para saber quando lançar alguma coisa aqui no Blog: [@w_oliveiras](https://twitter.com/w_oliveiras).
+Fique de olho! Me acompanhe no Twitter para saber quando lançar alguma coisa aqui no Blog: [@etc_william](https://twitter.com/etc_william).
 
 [Photo by Artur Łuczka on Unsplash](https://unsplash.com/photos/loAfOVk1eNc)

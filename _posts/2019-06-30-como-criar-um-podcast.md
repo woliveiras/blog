@@ -185,7 +185,7 @@ E nesses tutoriais podemos aprender um pouco mais sobre edição no Audacity:
 
 Com todos os equipamentos em mãos, com o software de gravação preparado e com todo nosso conteúdo definido, agora vem a parte legal: gravar nossos episódios. Mas, antes disso, é necessário se planejar para não fazer feio/chato.
 
-Ninguém vai gostar de ouvir algo que começa falando de um assunto, vai para outro, comenta mais alguma coisa e no final não falou nada. Isso é incomodo. Dependendo do nosso público, o [tamanho do episódio](https://twitter.com/w_oliveiras/status/1142033978293182465) também vai contar muito.
+Ninguém vai gostar de ouvir algo que começa falando de um assunto, vai para outro, comenta mais alguma coisa e no final não falou nada. Isso é incomodo. Dependendo do nosso público, o [tamanho do episódio](https://twitter.com/etc_william/status/1142033978293182465) também vai contar muito.
 
 Como tudo depende do nosso público, não existe uma regra que você vai seguir e terá sucesso, é importante ter em mente que precisamos avaliar os seguintes pontos:
 

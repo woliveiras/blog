@@ -178,4 +178,4 @@ Se você quiser se inscrever para receber meus artigos, dicas, sugestões de eve
 
 Esse ano foi extremamente produtivo para mim e eu consegui ter uma auto reflexão bem legal. Espero que pra você tenha sido um ciclo produtivo também.
 
-Para o ano que vem vou focar muito no meu conteúdo, então não esqueça da newsletter, feed ou me seguir no Twitter ([@w_oliveiras](https://twitter.com/w_oliveiras)) para receber minhas novidades!
+Para o ano que vem vou focar muito no meu conteúdo, então não esqueça da newsletter, feed ou me seguir no Twitter ([@etc_william](https://twitter.com/etc_william)) para receber minhas novidades!
