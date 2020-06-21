@@ -1,15 +1,15 @@
 # Site settings
 
-title: "William Oliveira: Programação, JavaScript, Carreira e inclusão"
-page_title: William Oliveira, front-end software engineer
+title: "William Oliveira: Programação, Carreira e inclusão"
+page_title: William Oliveira, Programação, Carreira e inclusão
 subtitle: Pintor de software
-description: Mentoria, Carreira em programação, JavaScript, Nodejs, Git, GitHub, Open Source, inclusão e diversidade - Da periferia pro mundo
+description: Mentoria, Carreira em Programação, JavaScript, Nodejs, Git, GitHub, Open Source, inclusão e diversidade - Da favela pro mundo
 author: William Oliveira
 timezone: America/Sao_Paulo
 baseurl: "" # the subpath of your site, e.g. /blog
 url: https://woliveiras.com.br
 language: "pt-br"
-paginate: 5 # Number of posts on each page
+paginate: 7 # Number of posts on each page
 paginate_path: "/page/:num" # links format for pagination
 date_format: "%d/%m/%Y"  # dateformat of reading list, post date, and more
 permalink: /posts/:title/ # use to url friendly
@@ -37,7 +37,7 @@ var_page_indicator_separator: de
 # User settings
 
 author: woliveiras # put your name or a name of principal author of site/blog
-email: williamozsouza@gmail.com
+email: etc.william@gmail.com
 twitter_username: etc_william
 gplus_username: +WilliamOliveiraS
 github_username:  woliveiras
@@ -46,7 +46,7 @@ disqus_shortname: woliveiras
 
 # Build settings
 
-# incremental: true
+incremental: true
 post_images: /images/posts/
 site_images: /images/
 markdown: kramdown
