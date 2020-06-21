@@ -46,7 +46,7 @@ disqus_shortname: woliveiras
 
 # Build settings
 
-incremental: true
+incremental: false
 post_images: /images/posts/
 site_images: /images/
 markdown: kramdown
