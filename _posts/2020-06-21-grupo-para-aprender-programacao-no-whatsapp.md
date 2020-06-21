@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Grupo para aprender programação no WhatsApp
-date: 2019-06-21 08:41 -0300
+date: 2020-06-21 08:41 -0300
 categories:
     - inclusão
     - diversidade
