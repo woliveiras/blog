@@ -672,7 +672,7 @@ O próximo passo é aprendermos a trabalhar com repositórios remotos, onde vamo
 
 No próximo artigo vamos aprender a utilizar repositórios remotos e o GitHub: [Trabalhando com repositórios remotos - Git e GitHub](/posts/trabalhando-com-repositórios-remotos-git-e-github/).
 
-Continue acompanhando e se quiser receber os artigos na semana em que eles saírem, inscreva-se na [newsletter](http://bit.ly/cartinha-do-will) ou me siga no [Twitter](https://twitter.com/etc_william).
+Continue acompanhando e se quiser receber os artigos na semana em que eles saírem, inscreva-se na [newsletter](http://bit.ly/cartinha-do-will) ou me siga no [Twitter](https://twitter.com/_uillaz).
 
 Se você gosta do meu conteúdo, não esqueça de contribuir via Catarse: [Catarse: William Oliveira](https://catarse.me/o-universo-da-programacao).
 

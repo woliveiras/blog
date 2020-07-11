@@ -294,7 +294,7 @@ Nos próximos artigos vamos fazer:
 - Criar uma função de atualizar menções
 - Subir nossa API em um serviço de hospedagem
 
-Fique de olho! Me acompanhe no Twitter para saber quando lançar alguma coisa aqui no Blog: [@etc_william](https://twitter.com/etc_william).
+Fique de olho! Me acompanhe no Twitter para saber quando lançar alguma coisa aqui no Blog: [@_uillaz](https://twitter.com/_uillaz).
 
 ## <a name='Referncias'></a>Referências
 

@@ -39,7 +39,7 @@ O resultado da pesquisa será postado na página de pesquisas deste blog: [Pesqu
 
 Não esquece de nos seguir no Twitter e, como comentamos, pode nos perguntar coisas relacionadas a programação diretamente lá! Nosso Twitter é um 0800 de carreira em programação. :heart:
 
-Meu perfil: [@etc_william](https://twitter.com/etc_william).
+Meu perfil: [@_uillaz](https://twitter.com/_uillaz).
 
 Participantes da live: [Lucas Santos](https://twitter.com/_staticvoid), [Luiz Felipe](https://twitter.com/lflimeira02)
 

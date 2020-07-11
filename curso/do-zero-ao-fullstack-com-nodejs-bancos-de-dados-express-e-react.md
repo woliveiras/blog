@@ -12,4 +12,4 @@ Se você quiser contribuir com o meu trabalho em agradecimento ao meu conteúdo,
 
 Se você não tem certeza se deseja seguir com o curso e precisa conhecer a área de desenvolvimento de software, comece a partir do meu livro: [O Universo da Programação](http://bit.ly/universo-da-programacao), na Casa do Código.
 
-Para não perder nenhum capítulo, se inscreva na minha [newsletter](http://bit.ly/cartinha-do-will) ou me siga no [Twitter](https://twitter.com/etc_william). Também temos conteúdo em vídeo para acompanhar no meu canal no [YouTube](http://bit.ly/yt-universo-da-programacao). Só vem! ;D
+Para não perder nenhum capítulo, se inscreva na minha [newsletter](http://bit.ly/cartinha-do-will) ou me siga no [Twitter](https://twitter.com/_uillaz). Também temos conteúdo em vídeo para acompanhar no meu canal no [YouTube](http://bit.ly/yt-universo-da-programacao). Só vem! ;D

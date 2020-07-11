@@ -204,7 +204,7 @@ A grande diferença é o uso do mapDaFelicidadeOnline.entries() dentro do nosso 
 Neste artigo conhecemos a sintaxe dos fors (for, for...in e for...of) e aprendemos a iterar sobre Maps e Sets. Com isso já temos muita ferramenta em mãos para criar nossos programas de um modo extremamente poderoso e conciso. Sem criarmos um monte de variável com numeros (usuario1, usuario2, usuario3), mas utilizando os tipos de dados certos, as coleções, e os laços de repetição.
 No próximo artigo vamos aprender a criar nossas próprias funções e também vamos conhecer algo novo, o **escopo dos identificadores**.
 
-Continue acompanhando e se quiser receber os artigos na semana em que eles saírem, inscreva-se na [newsletter](http://bit.ly/cartinha-do-will) ou me siga no [Twitter](https://twitter.com/etc_william).
+Continue acompanhando e se quiser receber os artigos na semana em que eles saírem, inscreva-se na [newsletter](http://bit.ly/cartinha-do-will) ou me siga no [Twitter](https://twitter.com/_uillaz).
 
 Se você gosta do meu conteúdo, não esqueça de contribuir via Catarse: [Catarse: William Oliveira](https://catarse.me/o-universo-da-programacao).
 

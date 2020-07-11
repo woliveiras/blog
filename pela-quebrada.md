@@ -44,7 +44,7 @@ Hoje atuo de um modo mais direto com meu canal, a [Tecnogueto](https://tecnoguet
 - Compartilhando esta iniciativa com pessoas que você sabe que realmente precisam de apoio, para que elas se cadastrem na minha base.
 - Compartilhando este post em redes sociais e grupos/comunidades nessas redes.
 
-Se você conhece alguma escola pública ou ONG que aceita receber livros de tecnologia, palestras sobre programação ou alguma iniciativa desse tipo, entre em contato comigo pelo Twitter: [@etc_william](https://twitter.com/etc_william)
+Se você conhece alguma escola pública ou ONG que aceita receber livros de tecnologia, palestras sobre programação ou alguma iniciativa desse tipo, entre em contato comigo pelo Twitter: [@_uillaz](https://twitter.com/_uillaz)
 
 ## Como receber apoio
 

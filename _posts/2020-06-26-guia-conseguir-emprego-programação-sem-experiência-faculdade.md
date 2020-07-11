@@ -74,7 +74,7 @@ Por muitas pessoas elas são odiadas, porém tem uma grande demanda e alta rotat
 
 Normalmente essas empresas são contratadas para trabalhar com o site institucional de grandes marcas. Outras vezes elas são contratadas para construir algo (um site, um aplicativo, uma campanha de publicidade com várias frentes digitais, etc) e, depois de entregar, precisam partir para o próximo projeto de outra empresa.
 
-Devido a necessidade constante de correr atrás de um novo cliente e a pressão das entregas urgentes para as marcas não perderem o time to market (a hora certa de lançar uma campanha e ganhar os clientes), as agências possuem (normalmente) um ambiente bem insalubre e muitas pessoas relatam odiar esses lugares. Mas devem existir boas agências para trabalhar. Se você conhece alguma, compartilha esse artigo e me marca no Twitter @etc_william para eu também compartilhar.
+Devido a necessidade constante de correr atrás de um novo cliente e a pressão das entregas urgentes para as marcas não perderem o time to market (a hora certa de lançar uma campanha e ganhar os clientes), as agências possuem (normalmente) um ambiente bem insalubre e muitas pessoas relatam odiar esses lugares. Mas devem existir boas agências para trabalhar. Se você conhece alguma, compartilha esse artigo e me marca no Twitter @_uillaz para eu também compartilhar.
 
 ### Consultorias de software
 

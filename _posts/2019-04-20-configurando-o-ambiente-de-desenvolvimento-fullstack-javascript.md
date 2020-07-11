@@ -192,7 +192,7 @@ Olá, Node.js!
 
 Temos agora uma instalação do Node pronta para começarmos nossos trabalhos e o editor de textos Visual Studio Code, que é excelente e muito útil para os nossos trabalhos a partir daqui, pois nossos códigos ficarão maiores e precisaremos de certa ajuda para sermos mais produtivos(as).
 
-Continue acompanhando e se quiser receber os artigos na semana em que eles saírem, inscreva-se na [newsletter](http://bit.ly/cartinha-do-will) ou me siga no [Twitter](https://twitter.com/etc_william).
+Continue acompanhando e se quiser receber os artigos na semana em que eles saírem, inscreva-se na [newsletter](http://bit.ly/cartinha-do-will) ou me siga no [Twitter](https://twitter.com/_uillaz).
 
 ## <a name='Referncias'></a>Referências
 

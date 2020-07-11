@@ -96,4 +96,4 @@ A migração foi muito simples, apesar de trabalhosa na parte de design graças 
 
 A finalização da mudança do tema do meu blog é uma pequena conquista, pois era uma meta pessoal para este ano. Por isso terei algo maneiro pra falar sobre as metas no artigo de retrospectiva de 2018!
 
-Se você quiser acompanhar meus artigos sobre os assuntos que eu comentei acima, assine o [RSS feed](/atom.xml) deste site ou me siga no Twitter, [@etc_william](https://twitter.com/etc_william) para receber os próximos artigos.
+Se você quiser acompanhar meus artigos sobre os assuntos que eu comentei acima, assine o [RSS feed](/atom.xml) deste site ou me siga no Twitter, [@_uillaz](https://twitter.com/_uillaz) para receber os próximos artigos.
