@@ -30,6 +30,7 @@ Além de conteúdo via live, eu também sou viciado em podcast, então tenho uma
 {% include post_wallpaper.html image_url=page_image alt_text="Mesa de trabalho de uma pessoa desenvolvedora com um computador e o microfone para fazer live stream" %}
 
 ## Conteúdo em português
+
 | Canais brasileiros | 
 | ------ | 
 | [jpbrab0](https://www.twitch.tv/jpbrab0) | 
