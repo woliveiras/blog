@@ -73,6 +73,7 @@ Além de conteúdo via live, eu também sou viciado em podcast, então tenho uma
 | [santiaelcodes](https://www.twitch.tv/santiaelcodes) | 
 | [tavernadev](https://www.twitch.tv/tavernadev) | 
 | [chicocodes](https://www.twitch.tv/chicocodes) | 
+| [CodandoErrado](https://www.twitch.tv/CodandoErrado) | 
 
 ## Conteúdo em inglês
 
