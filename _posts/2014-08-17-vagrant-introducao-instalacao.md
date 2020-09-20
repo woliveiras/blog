@@ -3,12 +3,14 @@ layout: post
 title: 'Vagrant - Introdução e Instalação'
 categories:
   - infraestrutura
-date: 2014-08-17 15:45:05
+date: 2014-08-17 08:41 -0300
+categories:
+    - infraestrutura
+image: "/images/posts/andrew-seaman--m88z7ily-w-unsplash.jpg"
 tags:
-  - infraestrutura
+    - infraestrutura
 description: Como instalar o Vagrant e uma pequena introdução
 ---
-
 O Vagrant é uma ferramenta que permite a criação de máquinas virtuais(VM's) rapidamente para o ambiente de desenvolvimento, testes ou ambientes virtuais como AWS ou Digital Ocean.”
 
 Executamos o Vagrant em conjunto com o Virtualbox ou VMWare. Você consegue usar o Vagrant para provisionamento do servidor. Você define tudo o que o servidor precisa(Programas, Banco de Dados, Libs, Configurações, etc) e pode até disponibilizar essa configuração junto ao seu projeto. Assim, qualquer pessoa que clonar seu projeto, consegue levantar um servidor com as mesmas configurações, sem erro.
@@ -29,7 +31,8 @@ Usar o Vagrant pode mudar um pouco o seu fluxo de trabalho, mas acho que a princ
 
 **Provisioner** - É o software que vai configurar a máquina na hora em que você ligar ela pela primeira vez e ele também vai verificar se está tudo OK quando iniciar ela de novo. As opções mais comuns são: [Shell Script](https://pt.wikipedia.org/wiki/Shell_script), [Puppet](https://puppetlabs.com/) e [Chef](https://www.chef.io/chef/).
 
-{% include post_wallpaper.html %}
+{% capture page_image %}{{ page.image }}{% endcapture %}
+{% include post_wallpaper.html image_url=page_image alt_text="Imagem de uma máquina de escrever" %}
 
 ## Instalação
 
