@@ -75,6 +75,7 @@ Existem sim momentos em que é excelente criarmos páginas estáticas ao invés 
 Um servidor de aplicações web precisa ter uma certa quantidade de memória ram, processador e espaço em disco para as coisas acontecerem. E tudo isso, adivinha, tem um custo. Hoje em dia, com os serviços de provedores de computação em nuvem, manter uma aplicação web é muito mais barato, porém é sempre legal conseguirmos economizar um pouco mais, não é mesmo?
 
 A criação dinâmica das páginas web se torna desnecessária quando um dado quase nunca sofre alteração. Ou seja, imagina que você tem um site pessoal, como um blog ([como este](https://github.com/woliveiras/woliveiras.github.io/)), ou o site institucional de uma empresa. Essas páginas recebem dados uma vez e isso só vai mudar depois de muito tempo, não é algo que precisa ser recriado ("re-gerado") a cada requisição que o servidor web receber. E é em casos parecidos com esse que os geradores de sites estáticos entram em cena para nos ajudar.
+
 ## Static Site Generators
 
 O site estático é hospedado no servidor como ele é e, quando requisitado, é enviado para o usuário final. Essa hospedagem precisa de muito menos processador, memória e talvez até mesmo espaço em disco. Mas escrever esse HTML todo na mão não deve ser nada divertido.
@@ -84,6 +85,8 @@ Assim como temos aplicações que geram o conteúdo quando recebem uma requisiç
 Essas ferramentas rodam uma vez, quando mandamos elas serem executadas e logo depois temos um build (uma versão do nosso produto final) que vamos guardar em um servidor que só precisa entregar esses arquivos para o usuário final.
 
 Perceba: a geração do site estático não implica em não consumir dados. A aplicação que gera o produto final pode (e vai) consumir dados de algum lugar, injetar em um template e gerar o HTML. A grande diferença é que realmente vamos guardar esses arquivos em algum local para serem enviados para o usuário final ao invés de enviar direto para o usuário, como acontece no SSR.
+
+Quer ver um site estático sendo gerado? Confere este artigo aqui: [desenvolvendo um blog com Hugo e Netlify](/posts/desenvolvendo-um-blog-com-interface-administrativa-com-hugo-e-netlify/)
 
 ## Entendendo melhor a arquitetura web SSR e SSG
 
@@ -108,5 +111,10 @@ Chegamos ao entendimento de que um site estático é uma página que não é ger
 Compreendemos que os dois casos são úteis em cenários diferentes e que precisamos analisar esses cenários antes de escolher qual abordagem seguir.
 
 Se você tiver qualquer dúvida sobre o assunto ou quiser que eu complemente este assunto com mais artigos, compartilhe esse artigo me marcando no Twitter ([@_uillaz](https://twitter.com/_uillaz)) e diga como eu posso ajudar. Estou aqui para isso mesmo! 
+
+### Referências
+
+- [Wikipedia/História da Internet](https://pt.wikipedia.org/wiki/Internet#Hist%C3%B3ria)
+- [Wikipedia/HTML](https://pt.wikipedia.org/wiki/HTML)
 
 <span>Photo by <a href="https://unsplash.com/@mohdali_31?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Mohdammed Ali</a> on <a href="https://unsplash.com/s/photos/web?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Unsplash</a></span>
