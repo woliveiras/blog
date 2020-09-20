@@ -83,6 +83,8 @@ GEM
       jekyll (~> 3.0)
     kramdown (2.3.0)
       rexml
+    kramdown-parser-gfm (1.1.0)
+      kramdown (~> 2.0)
     liquid (4.0.3)
     listen (3.2.1)
       rb-fsevent (~> 0.10, >= 0.10.3)
@@ -135,8 +137,9 @@ DEPENDENCIES
   jekyll-seo-tag
   jekyll-sitemap
   jemoji
+  kramdown-parser-gfm
   rake
   rouge
 
 BUNDLED WITH
-   1.17.2
+   2.1.4
