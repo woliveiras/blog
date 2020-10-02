@@ -1,0 +1,29 @@
+{
+  "items": [
+    {
+      "text": "Home",
+      "url": "/",
+      "external": false
+    },
+    {
+      "text": "Apoiar",
+      "url": "https://apoia.se/uillaz",
+      "external": true
+    },
+    {
+      "text": "Cursos",
+      "url": "https://www.twitch.tv/uillaz",
+      "external": true
+    },
+    {
+      "text": "Apoio social",
+      "url": "/apoio-social",
+      "external": true
+    },
+    {
+      "text": "Sobre",
+      "url": "/sobre",
+      "external": false
+    }
+  ]
+}
