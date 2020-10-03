@@ -2,6 +2,7 @@
 layout: 'layouts/page.njk'
 title: "Apoiadores e apoiadoras - William Oliveira"
 description: "Empresas e pessoas que apoiam essa causa"
+permalink: sponsors.html
 ---
 
 - [Alura Cursos Online](https://www.alura.com.br/)

@@ -1,5 +1,6 @@
 ---
 layout: 'layouts/page.njk'
+permalink: apoio-social.html
 title: "Apoio Social - William Oliveira"
 description: "Apoio a pessoas de baixa renda, moradores de periferia e pessoas em situação de vulnerabilidade social que desejam entrar na área de programação"
 ---
