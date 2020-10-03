@@ -1,7 +1,7 @@
 ---
 title: Grupo para aprender programação no WhatsApp
 date: '2020-06-21'
-image: "/images/posts/providencia.jpg"
+socialImage: "/images/posts/providencia.jpg"
 tags:
     - inclusão
     - diversidade

@@ -1,7 +1,7 @@
 ---
 title: "JAMstack introdução: o que é JAMstack?"
 date: '2019-03-05'
-image: "/images/posts/jamstack.png"
+socialImage: "/images/posts/jamstack.png"
 tags:
     - jamstack
     - git

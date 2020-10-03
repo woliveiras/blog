@@ -1,7 +1,7 @@
 ---
 title: Com qual linguagem de programação eu devo começar a programar
 date: '2018-11-04'
-image: "/images/posts/javier-allegue-barros-761133-unsplash.jpg"
+socialImage: "/images/posts/javier-allegue-barros-761133-unsplash.jpg"
 tags:
     - videos
     - carreira

@@ -2,7 +2,7 @@
 title: 'Diário de bordo: controlando a ansiedade, revisando atitudes e melhorando
   o auto conhecimento'
 date: '2018-11-18'
-image: "/images/posts/rawpixel-1071103-unsplash.jpg"
+socialImage: "/images/posts/rawpixel-1071103-unsplash.jpg"
 tags:
     - autogestão
     - pensamentos

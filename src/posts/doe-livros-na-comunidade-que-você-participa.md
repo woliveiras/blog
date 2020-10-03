@@ -1,7 +1,7 @@
 ---
 title: Doe livros na comunidade que você participa
 date: '2019-03-10'
-image: "/images/posts/jonathan-simcoe-227321-unsplash.jpg"
+socialImage: "/images/posts/jonathan-simcoe-227321-unsplash.jpg"
 tags:
     - livros
     - comunidades

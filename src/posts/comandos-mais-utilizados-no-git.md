@@ -1,7 +1,7 @@
 ---
 title: Comandos mais utilizados no Git
 date: '2018-12-26'
-image: "/images/posts/sirma-krusteva-3172-unsplash.jpg"
+socialImage: "/images/posts/sirma-krusteva-3172-unsplash.jpg"
 tags:
     - git
     - dicas

@@ -2,7 +2,7 @@
 title: Pare de procurar conteúdo e comece a praticar! Você pode estar bloqueado(a) pela
   paralisia por análise
 date: '2018-11-11'
-image: "/images/posts/alfons-morales-410757-unsplash.jpg"
+socialImage: "/images/posts/alfons-morales-410757-unsplash.jpg"
 tags:
     - carreira
     - pensamentos

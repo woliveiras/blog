@@ -1,7 +1,7 @@
 ---
 title: O processo seletivo perfeito (ou quase) para pessoas desenvolvedoras de software
 date: '2018-11-29'
-image: "/images/posts/clem-onojeghuo-210707-unsplash.jpg"
+socialImage: "/images/posts/clem-onojeghuo-210707-unsplash.jpg"
 tags:
     - carreira
     - pesquisas

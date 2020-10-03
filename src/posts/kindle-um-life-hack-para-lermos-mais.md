@@ -1,7 +1,7 @@
 ---
 title: 'Kindle: um life hack para lermos mais'
 date: '2019-03-10'
-image: "/images/posts/jonathan-simcoe-227321-unsplash.jpg"
+socialImage: "/images/posts/jonathan-simcoe-227321-unsplash.jpg"
 tags:
     - livros
 description: Uma maneira de lermos mais, carregar mais conteúdo na mochila, aproveitar o tempo no busão e ainda economizar energia, dinheiro e recursos naturais do nosso planeta

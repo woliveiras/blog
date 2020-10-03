@@ -1,7 +1,7 @@
 ---
 title: 'Construindo uma API com Nodejs - Parte 4: subindo uma API Nodejs no Google Cloud'
 date: '2019-07-07'
-image: "/images/posts/eric-ward-s0BBxQkvUgs-unsplash.jpg"
+socialImage: "/images/posts/eric-ward-s0BBxQkvUgs-unsplash.jpg"
 tags:
     - javascript
     - nodejs

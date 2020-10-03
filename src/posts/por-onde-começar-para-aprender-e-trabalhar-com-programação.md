@@ -1,7 +1,7 @@
 ---
 title: Por onde começar para aprender e trabalhar com programação
 date: '2019-05-04'
-image: "/images/posts/christian-joudrey-90289-unsplash-min.jpg"
+socialImage: "/images/posts/christian-joudrey-90289-unsplash-min.jpg"
 tags:
     - carreira
     - autogestão

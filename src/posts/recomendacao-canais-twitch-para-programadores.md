@@ -1,7 +1,7 @@
 ---
 title: Canais que você deveria seguir na Twitch
 date: '2020-09-17'
-image: "/images/posts/caspar-camille-rubin-0qvBNep1Y04-unsplash.jpg"
+socialImage: "/images/posts/caspar-camille-rubin-0qvBNep1Y04-unsplash.jpg"
 tags:
     - recomendacoes
     - conteudo

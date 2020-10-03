@@ -1,7 +1,7 @@
 ---
 title: Participação especial no PodProgramar
 date: '2018-11-10'
-image: "/images/posts/podprogramar-45.jpg"
+socialImage: "/images/posts/podprogramar-45.jpg"
 tags:
     - participação
     - comunidades

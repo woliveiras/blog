@@ -1,7 +1,7 @@
 ---
 title: Problemas ou armadilhas de sermos autodidatas
 date: '2019-01-03'
-image: "/images/posts/michael-podger-32057-unsplash.jpg"
+socialImage: "/images/posts/michael-podger-32057-unsplash.jpg"
 tags:
     - carreira
     - estudos

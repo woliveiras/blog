@@ -1,7 +1,7 @@
 ---
 title: Trabalhando com funções
 date: '2019-04-27'
-image: "/images/posts/peter-ivey-hansen-1504523-unsplash-min.jpg"
+socialImage: "/images/posts/peter-ivey-hansen-1504523-unsplash-min.jpg"
 tags:
     - javascript
     - computação

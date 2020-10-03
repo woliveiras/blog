@@ -1,7 +1,7 @@
 ---
 title: Livros que todo(a) programador(a) iniciante deveria ler
 date: '2019-02-13'
-image: "/images/posts/sharon-mccutcheon-532782-unsplash.jpg"
+socialImage: "/images/posts/sharon-mccutcheon-532782-unsplash.jpg"
 tags:
     - livros
     - carreira

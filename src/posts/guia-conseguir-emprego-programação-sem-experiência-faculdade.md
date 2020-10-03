@@ -1,7 +1,7 @@
 ---
 title: Guia essencial para conseguir emprego em programação sem experiência ou faculdade
 date: '2020-06-26'
-image: "/images/posts/javier-allegue-barros-C7B-ExXpOIE-unsplash.jpg"
+socialImage: "/images/posts/javier-allegue-barros-C7B-ExXpOIE-unsplash.jpg"
 tags:
     - iniciante
     - carreira

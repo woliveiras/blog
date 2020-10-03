@@ -1,7 +1,7 @@
 ---
 title: Participação especial no CollabCode
 date: '2018-10-31'
-image: "/images/posts/collabcode.jpg"
+socialImage: "/images/posts/collabcode.jpg"
 tags:
     - participação
     - comunidades

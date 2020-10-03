@@ -1,7 +1,7 @@
 ---
 title: "Paradigmas, identificadores e tipos de dados"
 date: '2019-04-05'
-image: "/images/posts/markus-spiske-518966-unsplash-min.jpg"
+socialImage: "/images/posts/markus-spiske-518966-unsplash-min.jpg"
 tags:
     - javascript
     - computação

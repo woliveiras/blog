@@ -1,7 +1,7 @@
 ---
 title: 'Laços de repetição: for, for...in, for...of'
 date: '2019-04-17'
-image: "/images/posts/celine-haeberly-573087-unsplash-min.jpg"
+socialImage: "/images/posts/celine-haeberly-573087-unsplash-min.jpg"
 tags:
     - javascript
     - computação

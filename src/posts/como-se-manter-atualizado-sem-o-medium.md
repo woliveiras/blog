@@ -1,7 +1,7 @@
 ---
 title: Como se manter atualizado sem o Medium
 date: '2019-03-13'
-image: "/images/posts/absolutvision-365898-unsplash.jpg"
+socialImage: "/images/posts/absolutvision-365898-unsplash.jpg"
 tags:
     - opinião
     - pensamentos

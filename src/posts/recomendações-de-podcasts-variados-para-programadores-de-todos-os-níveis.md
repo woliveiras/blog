@@ -1,7 +1,7 @@
 ---
 title: Recomendações de podcasts variados para programadores(as) de todos os níveis
 date: '2019-03-27'
-image: "/images/posts/matt-botsford-197870-unsplash.jpg"
+socialImage: "/images/posts/matt-botsford-197870-unsplash.jpg"
 tags:
     - dicas
     - opinião

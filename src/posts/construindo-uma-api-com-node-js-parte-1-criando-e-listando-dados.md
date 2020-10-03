@@ -1,7 +1,7 @@
 ---
 title: "Construindo uma API com Node.js - Parte 1: criando e listando dados"
 date: '2019-07-01'
-image: "/images/posts/ed-van-duijn-2uTjeMfeVEU-unsplash.jpg"
+socialImage: "/images/posts/ed-van-duijn-2uTjeMfeVEU-unsplash.jpg"
 tags:
     - javascript
     - nodejs

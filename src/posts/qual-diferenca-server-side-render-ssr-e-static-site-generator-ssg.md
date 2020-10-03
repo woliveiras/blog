@@ -1,7 +1,7 @@
 ---
 title: Qual a diferença entre server side render (SSR) e static site generator (SSG)
 date: '2020-06-26'
-image: "/images/posts/mohdammed-ali-9TUIfLylgw8-unsplash.jpg"
+socialImage: "/images/posts/mohdammed-ali-9TUIfLylgw8-unsplash.jpg"
 tags:
     - web
     - jamstack

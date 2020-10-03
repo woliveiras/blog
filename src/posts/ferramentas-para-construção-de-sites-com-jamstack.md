@@ -1,7 +1,7 @@
 ---
 title: Ferramentas para construção de sites com JAMstack
 date: '2019-03-05'
-image: "/images/posts/jamstack.png"
+socialImage: "/images/posts/jamstack.png"
 tags:
     - jamstack
     - git

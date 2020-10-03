@@ -1,7 +1,7 @@
 ---
 title: Como funciona um programa de computador
 date: '2019-04-01'
-image: "/images/posts/alexandre-debieve-561298-unsplash.jpg"
+socialImage: "/images/posts/alexandre-debieve-561298-unsplash.jpg"
 tags:
     - javascript
     - computação

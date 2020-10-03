@@ -2,7 +2,7 @@
 title: Facilitando os merges no Git com o Visual Studio Code como merge tool e editor
   padrão
 date: '2019-01-15'
-image: "/images/posts/todd-quackenbush-701-unsplash.jpg"
+socialImage: "/images/posts/todd-quackenbush-701-unsplash.jpg"
 tags:
     - git
     - infraestrutura

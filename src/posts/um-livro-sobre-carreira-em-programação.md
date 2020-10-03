@@ -1,7 +1,7 @@
 ---
 title: Um livro sobre carreira em programação
 date: '2018-10-16'
-image: "/images/posts/mandela.png"
+socialImage: "/images/posts/mandela.png"
 tags:
     - carreira
 description: Como foi o processo de escrita do livro "O universo da programação, um guia de carreira em desenvolvimento de software"

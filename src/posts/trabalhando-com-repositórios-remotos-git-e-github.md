@@ -1,7 +1,7 @@
 ---
 title: Trabalhando com repositórios remotos - Git e GitHub
 date: '2019-03-28'
-image: "/images/posts/connected-world.jpg"
+socialImage: "/images/posts/connected-world.jpg"
 tags:
     - linux
     - devops

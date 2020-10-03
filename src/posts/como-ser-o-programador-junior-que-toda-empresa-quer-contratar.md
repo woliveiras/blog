@@ -1,7 +1,7 @@
 ---
 title: Como ser o programador junior que toda empresa quer contratar
 date: '2019-03-04'
-image: "/images/posts/cloudypixel-1270768-unsplash.jpg"
+socialImage: "/images/posts/cloudypixel-1270768-unsplash.jpg"
 tags:
     - videos
     - carreira

@@ -1,7 +1,7 @@
 ---
 title: Criando um currículo com Node.js, Express e templates EJS
 date: '2019-06-19'
-image: "/images/posts/spacex-71873-unsplash-min.jpg"
+socialImage: "/images/posts/spacex-71873-unsplash-min.jpg"
 tags:
     - linux
     - nodejs

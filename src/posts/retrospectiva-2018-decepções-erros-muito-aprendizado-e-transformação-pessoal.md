@@ -1,7 +1,7 @@
 ---
 title: Retrospectiva 2018 - decepções, erros, muito aprendizado e transformação pessoal
 date: '2018-12-06'
-image: "/images/posts/murray-campbell-29990-unsplash.jpg"
+socialImage: "/images/posts/murray-campbell-29990-unsplash.jpg"
 tags:
   - retrospectiva
 description: O ano de 2018 foi de muita transformação pessoal. Aprendizado, mudança de pensamento, cara a cara com a realidade. Foi bem legal.

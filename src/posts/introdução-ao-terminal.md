@@ -1,7 +1,7 @@
 ---
 title: Introdução ao terminal
 date: '2019-03-26'
-image: "/images/posts/kevin-horvat-1354011-unsplash-min.jpg"
+socialImage: "/images/posts/kevin-horvat-1354011-unsplash-min.jpg"
 tags:
     - linux
     - devops

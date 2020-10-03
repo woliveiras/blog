@@ -1,7 +1,7 @@
 ---
 title: Criando um jokenpô via linha de comando com Nodejs
 date: '2019-06-01'
-image: "/images/posts/jamked-1637249-unsplash.jpg"
+socialImage: "/images/posts/jamked-1637249-unsplash.jpg"
 tags:
     - linux
     - nodejs

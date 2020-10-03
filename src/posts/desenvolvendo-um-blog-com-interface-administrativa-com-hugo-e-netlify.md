@@ -1,7 +1,7 @@
 ---
 title: Desenvolvendo um blog com interface administrativa com Hugo e Netlify
 date: '2019-07-09'
-image: "/images/posts/andrew-seaman--m88z7ily-w-unsplash.jpg"
+socialImage: "/images/posts/andrew-seaman--m88z7ily-w-unsplash.jpg"
 tags:
     - golang
     - jamstack

@@ -2,7 +2,7 @@
 title: Acompanhando alterações em arquivos JavaScript em uma pasta com Node.js e NPM
   Scripts
 date: '2019-01-30'
-image: "/images/posts/nitish-meena-37745-unsplash.jpg"
+socialImage: "/images/posts/nitish-meena-37745-unsplash.jpg"
 tags:
     - nodejs
     - javascript

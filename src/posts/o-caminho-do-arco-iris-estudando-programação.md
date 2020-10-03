@@ -1,7 +1,7 @@
 ---
 title: O caminho do arco-íris estudando programação
 date: '2019-06-11'
-image: "/images/posts/robert-katzki-340194-unsplash-min.jpg"
+socialImage: "/images/posts/robert-katzki-340194-unsplash-min.jpg"
 tags:
     - carreira
     - estudos

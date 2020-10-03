@@ -1,7 +1,7 @@
 ---
 title: 'Laços de repetição: while e do... while'
 date: '2019-04-14'
-image: "/images/posts/priscilla-du-preez-101759-unsplash-min.jpg"
+socialImage: "/images/posts/priscilla-du-preez-101759-unsplash-min.jpg"
 tags:
     - javascript
     - computação

@@ -1,7 +1,7 @@
 ---
 title: 'Novidade: newsletter do Will'
 date: '2018-11-16'
-image: "/images/posts/jerry-kiesewetter-179264-unsplash.jpg"
+socialImage: "/images/posts/jerry-kiesewetter-179264-unsplash.jpg"
 tags:
     - carreira
 description: "Visando facilitar o acesso ao meu conteúdo, criei uma newsletter para quem quer ficar sempre atualizado(a)."

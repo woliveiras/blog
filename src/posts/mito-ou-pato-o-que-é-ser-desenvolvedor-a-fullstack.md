@@ -1,7 +1,7 @@
 ---
 title: Mito ou pato, o que é ser desenvolvedor(a) fullstack?
 date: '2018-10-30'
-image: "/images/posts/imagem-da-lua-nasa-80968-unsplash.jpg"
+socialImage: "/images/posts/imagem-da-lua-nasa-80968-unsplash.jpg"
 tags:
     - videos
     - carreira

@@ -1,7 +1,7 @@
 ---
 title: 'Domínio personalizado com Google Domains e GitHub Pages'
 date: '2019-03-05'
-image: "/images/posts/github-pages.png"
+socialImage: "/images/posts/github-pages.png"
 tags:
     - jamstack
     - git

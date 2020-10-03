@@ -1,7 +1,7 @@
 ---
 title: Introdução a versionamento de código e conhecendo o Git
 date: '2019-03-26'
-image: "/images/posts/pankaj-patel-515219-unsplash-min.jpg"
+socialImage: "/images/posts/pankaj-patel-515219-unsplash-min.jpg"
 tags:
     - git
     - devops

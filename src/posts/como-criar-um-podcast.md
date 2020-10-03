@@ -1,7 +1,7 @@
 ---
 title: Como criar um podcast
 date: '2019-06-30'
-image: "/images/posts/matt-botsford-197870-unsplash.jpg"
+socialImage: "/images/posts/matt-botsford-197870-unsplash.jpg"
 tags:
     - dicas
     - opinião

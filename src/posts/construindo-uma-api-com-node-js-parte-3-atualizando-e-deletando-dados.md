@@ -1,7 +1,7 @@
 ---
 title: 'Construindo uma API com Node.js - Parte 3: atualizando e deletando dados'
 date: '2019-07-03'
-image: "/images/posts/artur-luczka-loAfOVk1eNc-unsplash.jpg"
+socialImage: "/images/posts/artur-luczka-loAfOVk1eNc-unsplash.jpg"
 tags:
     - javascript
     - nodejs

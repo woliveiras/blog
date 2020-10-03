@@ -1,7 +1,7 @@
 ---
 title: Participação especial no QuebraDev
 date: '2018-12-27'
-image: "/images/posts/entrevista-com-william-oliveira.png"
+socialImage: "/images/posts/entrevista-com-william-oliveira.png"
 tags:
     - participação
     - comunidades

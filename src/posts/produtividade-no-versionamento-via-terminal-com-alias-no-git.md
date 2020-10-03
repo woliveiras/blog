@@ -1,7 +1,7 @@
 ---
 title: Produtividade no versionamento via terminal com alias no Git
 date: '2019-01-08'
-image: "/images/posts/simson-petrol-265126-unsplash.jpg"
+socialImage: "/images/posts/simson-petrol-265126-unsplash.jpg"
 tags:
     - git
     - infraestrutura

@@ -1,7 +1,7 @@
 ---
 title: "Construindo uma API com Node.js - Parte 2: melhorando nossa criação e listagem de dados"
 date: '2019-07-02'
-image: "/images/posts/josefin-1y-ylJyX318-unsplash.jpg"
+socialImage: "/images/posts/josefin-1y-ylJyX318-unsplash.jpg"
 tags:
     - javascript
     - nodejs

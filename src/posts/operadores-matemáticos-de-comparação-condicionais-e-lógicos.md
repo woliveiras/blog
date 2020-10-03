@@ -1,7 +1,7 @@
 ---
 title: 'Operadores matemáticos, de comparação, condicionais e lógicos'
 date: '2019-04-08'
-image: "/images/posts/markus-spiske-518966-unsplash-min.jpg"
+socialImage: "/images/posts/markus-spiske-518966-unsplash-min.jpg"
 tags:
     - javascript
     - computação

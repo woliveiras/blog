@@ -1,7 +1,7 @@
 ---
 title: Como apoiar meu trabalho
 date: '2019-02-26'
-image: "/images/posts/rawpixel-661924-unsplash.jpg"
+socialImage: "/images/posts/rawpixel-661924-unsplash.jpg"
 tags:
     - livros
     - carreira

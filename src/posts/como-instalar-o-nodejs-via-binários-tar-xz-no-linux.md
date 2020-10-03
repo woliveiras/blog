@@ -1,7 +1,7 @@
 ---
 title: Como instalar o Nodejs via binários (tar.xz) no Linux
 date: '2019-05-24'
-image: "/images/posts/leone-venter-469710-unsplash-min.jpg"
+socialImage: "/images/posts/leone-venter-469710-unsplash-min.jpg"
 tags:
     - linux
     - nodejs
