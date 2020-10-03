@@ -11,5 +11,6 @@
   "enableThirdPartyComments": false,
   "faviconPath": "/images/favicon.png",
   "maxPostsPerPage": 5,
-  "socialImage": "/images/social-share.png"
+  "socialImage": "/images/social-share.png",
+  "ga": "UA-25964646-1"
 }
