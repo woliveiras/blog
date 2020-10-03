@@ -5,11 +5,11 @@
       <ol class="[ post-list__items ] [ sf-flow ] [ pad-top-300 ]" reversed>
         {% for item in postListItems %}
           {% if item.date.getTime() <= global.now %}
-            <li class="post-list__item">
+            <li class="post-list__item pad-bottom-300 pad-top-300">
               <h3 class="font-base leading-tight text-600 weight-mid">
                 <a href="{{ item.url }}" class="post-list__link" rel="bookmark">{{ item.data.title }}</a>
               </h3>
-              <p class="text-300 gap-top-300">{{ item.data.description }}</p>
+              <p class="text-500 gap-top-300">{{ item.data.description }}</p>
             </li>
           {% endif %}
         {% endfor %}
