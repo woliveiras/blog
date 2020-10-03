@@ -1,5 +1,4 @@
 ---
 title: 'Artigos'
-layout: 'layouts/archive.njk'
-permalink: archive.html
+permalink: '/archive/index.html'
 ---

@@ -1,8 +1,7 @@
 ---
-layout: 'layouts/page.njk'
 title: "Sobre mim - William Oliveira"
 description: "Desenvolvedor de software, escritor, palestrante, instrutor e mentor de programação, carreira e desenvolvimento web e tem mais."
-permalink: sobre.html
+permalink: '/sobre/index.html'
 ---
 
 Olá, jovem!

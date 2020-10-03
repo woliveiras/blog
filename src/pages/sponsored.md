@@ -1,8 +1,7 @@
 ---
-layout: 'layouts/page.njk'
 title: "Pessoas apoiadas - William Oliveira"
 description: "Pessoas que receberam apoio da comunidade de programação para investir em sua educação"
-permalink: sponsored.html
+permalink: '/sponsored/index.html'
 ---
 
 - Ana Paula: Curso Excel Expert - Do Básico a Construção de Dashboards

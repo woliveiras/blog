@@ -1,8 +1,7 @@
 ---
-layout: 'layouts/page.njk'
 title: "Pessoas diversas desenvolvedoras de software buscando oportunidade na área de programação"
 description: "Contrate pessoas de grupos sub-representados!"
-permalink: me-contrata.html
+permalink: '/me-contrata/index.html'
 ---
 
 [A diversidade eleva o nível dos seus produtos e a produtividade da sua empresa](https://www.mckinsey.com/business-functions/organization/our-insights/delivering-through-diversity?cid=soc-web#)
