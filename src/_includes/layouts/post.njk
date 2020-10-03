@@ -7,8 +7,9 @@
   {% if date %}
     <time datetime="{{ date | w3DateFilter }}" class="dt-published">{{ date | dateFilter }}</time>
   {% endif %}
-  <span>— {{ helpers.getReadingTime(content) }} minutos de leitura</span>
+  <span>— {{ helpers.getReadingTime(content) }} minutos de leitura</span><br />
 </p>
+<a class="gap-top-300 text-300" href="https://github.com/woliveiras/woliveiras.github.io/tree/main/{{ page.inputPath }}">Editar este artigo</a>
 {% endset %}
 
 {% block content %}
@@ -18,13 +19,6 @@
       <div class="[ post__body ] [ inner-wrapper ] [ leading-loose pad-top-900 {{ 'pad-bottom-900' if not site.enableThirdPartyComments }} text-500 ] [ sf-flow ] [ e-content ]">
         {{ content | safe }}
       </div>
-      {% if site.enableThirdPartyComments %}
-        <hr />
-        <aside class="[ post__body ] [ inner-wrapper ] [ pad-bottom-900 text-500 ]">
-          {% include "partials/global/third-party-comments.njk" %}
-        </aside>
-      {% endif %}
-
       <div class="[ post__body ] [ inner-wrapper ] [ leading-loose pad-top-900 {{ 'pad-bottom-900' if not site.enableThirdPartyComments }} text-500 ] [ sf-flow ] [ e-content ]">
         <section class="social-share">
             <h3 class="social-share__title">Espalhe a palavra!</h3>
