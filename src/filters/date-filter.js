@@ -9,20 +9,19 @@ module.exports = function dateFilter(value) {
   const dateObject = new Date(value);
 
   const months = [
-    'Janeiro', 
-    'Fevereiro', 
-    'Março', 
-    'Abril', 
-    'Maio', 
-    'Junho', 
-    'Julho', 
-    'Agosto', 
-    'Setembro', 
-    'Outubro', 
-    'Novembro', 
-    'Dezembro'
+    'Jan', 
+    'Fev', 
+    'Mar', 
+    'Abr', 
+    'Mai', 
+    'Jun', 
+    'Jul', 
+    'Ago', 
+    'Set', 
+    'Out', 
+    'Nov', 
+    'Dez'
   ];
-  const dayWithSuffix = appendSuffix(dateObject.getDate());
 
-  return `${dayWithSuffix} ${months[dateObject.getMonth()]} ${dateObject.getFullYear()}`;
+  return `${dateObject.getDate()}/${months[dateObject.getMonth()]}/${dateObject.getFullYear()}`;
 };
