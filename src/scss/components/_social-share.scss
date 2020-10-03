@@ -6,8 +6,7 @@
   padding-right: 1em;
   padding-bottom: 2em;
   text-align: center;
-  border-top: 1px solid #ccc;
-  border-bottom: 1px solid #ccc;
+  border-top: 1px solid get-color('primary-shade');
 
   a:not([class]) {
     background: transparent;
@@ -26,6 +25,6 @@
       width: 30px;
       margin-right: 10px;
       margin-left: 10px;
-      fill: #000;
+      fill: get-color('primary-glare');
     }
 }
