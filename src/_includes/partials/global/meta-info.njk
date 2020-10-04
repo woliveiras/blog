@@ -2,10 +2,13 @@
 {% set pageDesc = '' %}
 {% set siteTitle = site.title %}
 {% set currentUrl = site.url + page.url %}
-{% set socialImage = site.socialImage %}
 
 {% if metaTitle %}
   {% set pageTitle = metaTitle %}
+{% endif %}
+
+{% if page.socialImage %}
+  {% set socialImage = page.socialImage %}
 {% endif %}
 
 {% if metaDesc %}
