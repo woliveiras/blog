@@ -5,6 +5,7 @@ tags:
     - comunidades
     - pensamentos
 description: Muita gente abandona as comunidades de programação por causa do comportamento tóxico de algumas pessoas. Hoje eu estou aqui para te pedir que não desanime.
+socialImage: '/images/posts/clay-banks-LjqARJaJotc-unsplash.jpg'
 ---
 Eu amo comunidades e acredito que sempre vou gostar, mas hoje eu não participo de nenhuma. Minha saúde mental e minha energia melhoraram muito depois que eu parei de frequentar os canais do Slack, servers no Discords ou grupos no Telegram. Até mesmo meu conteúdo melhorou para as [pessoas que me seguem](https://twitch.tv/uillaz).
 
@@ -59,3 +60,5 @@ Existem [iniciativas muito legais](/posts/doe-livros-na-comunidade-que-voc%C3%AA
 Sempre revise suas atitudes no final do dia e pense se daria para fazer algo melhor do que foi feito.
 
 Não desanime das comunidades de programação, nós estamos aqui para acolher, ensinar e aprender.
+
+<span>Photo by <a href="https://unsplash.com/@claybanks?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Clay Banks</a> on <a href="https://unsplash.com/s/photos/community?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Unsplash</a></span>
