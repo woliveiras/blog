@@ -46,7 +46,7 @@ Se você perceber qualquer situação de preconceito, machismo, racismo, etc, re
 
 Basta você acessar esse link: [Grupo de bate papo do Universo da Programação](https://bit.ly/udp-broadcast). 
 
-Porém leia o código de conduta antes de qualquer coisa: [código de conduta.](http://bit.ly/udp-conduta)
+Porém leia o código de conduta antes de qualquer coisa: [código de conduta.](/codigo-de-conduta)
 
 Não será tolerado nenhum tipo de atitude ruim dentro do grupo. A ideia é ser um grupo acolhedor e amistoso para nos ajudarmos e apoiar quem deseja aprender.
 

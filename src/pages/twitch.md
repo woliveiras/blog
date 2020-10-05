@@ -28,4 +28,4 @@ Temos um grupo no WhatsApp para pessoas que se inscrevem no meu canal. Caso voc�
 
 ## Código de conduta
 
-Temos um código de conduta para participar do chat nas lives e do grupo exclusivo para subs no WhatsApp: [woliveiras/codigo-de-conduta](https://github.com/woliveiras/codigo-de-conduta)
+Temos um código de conduta para participar do chat nas lives e do grupo exclusivo para subs no WhatsApp: [woliveiras/codigo-de-conduta](/codigo-de-conduta)
