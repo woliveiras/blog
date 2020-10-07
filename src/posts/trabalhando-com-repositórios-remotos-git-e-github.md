@@ -15,8 +15,6 @@ description: No dia a dia utilizamos servidores para armazenar nosso repositóri
 ---
 Nos artigos anteriores aprendemos a usar o [terminal](/posts/introdução-ao-terminal/) e [versionamento de código com Git](/posts/introdução-a-versionamento-de-código-e-conhecendo-o-git/), agora precisamos entender como funcionam e como utilizar repositórios remotos.
 
-Este artigo é parte do material utilizado no [curso de fullstack com Node.js, bancos de dados, Express e React](/curso/do-zero-ao-fullstack-com-nodejs-bancos-de-dados-express-e-react/) do meu programa social do perifaCode, o [perifaCode.teach()](https://github.com/perifacode/teach). Estou disponibilizando ele para que qualquer outra pessoa também possa aprender gratuitamente pela internet e qualquer pessoa possa ensinar utilizando este conteúdo.
-
 ## O que são repositórios remotos
 
 Como vimos anteriormente, criar um repositório localmente não torna possível que outras pessoas contribuam em nosso projeto. Para que seja possível que outras pessoas trabalhem no mesmo projeto, precisamos hospedar nosso repositório em uma hospedagem de repositórios Git.
