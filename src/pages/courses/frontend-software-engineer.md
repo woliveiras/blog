@@ -28,23 +28,18 @@ Para acompanhar todas as novidades, fica de olho no meu Twitter: [@_uillaz](http
 
 - [artigo] [Duvidas de toda pessoa desenvolvedora front-end iniciante](https://woliveiras.com.br/posts/duvidas-frontend-iniciante/)
 - [artigo] [Qual a diferença entre página web, site, servidor web e mecanismo de busca?](https://developer.mozilla.org/pt-BR/docs/Learn/Common_questions/Pages_sites_servers_and_search_engines)
-- [video] Criando nossa primeira página web
-	- Introdução a HTML, CSS e JavaScript
-	- Entendendo o protocólo HTTP
-	- Server e client side
-	- [conceitos] estilos padrão do navegador, reset CSS
-- [artigo] versionamento de código
-	- Introdução ao versionamento de código
-	- Instalação e configuração do Git
-	- Criação da conta no GitHub
-	- Criação e utilização de repositórios
+- [video] Criando nossa primeira página web [em edição]
+- [artigo] [Introdução ao versionamento de código](/posts/introdução-a-versionamento-de-código-e-conhecendo-o-git/)
+- [artigo] [Criação e utilização de repositórios](/posts/trabalhando-com-reposit%C3%B3rios-remotos-git-e-github/)
+- [artigo] [Produtividade no versionamento via terminal com alias no Git](/posts/produtividade-no-versionamento-via-terminal-com-alias-no-git/)
+- [artigo] [Comandos mais utilizados no Git](/posts/comandos-mais-utilizados-no-git/)
 - [artigo] A web mudou, como funcionam os sites hoje em dia
-- [video] Construindo uma aplicação com dados reais
-- [video] Arquitetura da informação, acessibilidade e SEO
+- [live] Construindo uma aplicação com dados reais
+- [live] Arquitetura da informação, acessibilidade e SEO
 - [artigo] Front-end desenha interfaces?
-- [video] Plataformas para construir nosso portfólio
-- [video] GitHub Pages
-- [video/projeto] Construindo o site de uma pizzaria
+- [live] Plataformas para construir nosso portfólio
+- [live] GitHub Pages
+- [live/projeto] Construindo o site de uma pizzaria
 	- página: home
 	- página: sobre
 	- página: menu
