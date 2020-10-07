@@ -66,10 +66,6 @@ Newsletter é uma coisa que parece ainda mais antiga do que o RSS e eu fico pare
 
 Através desse modelo, podemos assinar o conteúdo que queremos receber e ele vem para o nosso email.
 
-Eu possuo uma newsletter onde envio meus artigos mais novos ou os que outras pessoas estão curtindo mais, assim como recomendações de conteúdos que eu curti, vagas de empregos, eventos e até sorteios de brindes, eventos e cursos. A maioria dos autores e autoras também possui algo do tipo.
-
-Se inscreva na minha newsletter através deste link [Cartinha do Will](http://bit.ly/cartinha-do-will).
-
 Hoje eu recebo as atualizações sobre EcmaScript, MongoDB, React, GraphQL, Linux e muito mais, tudo no meu email e eu sei que aquilo foi curado por uma pessoa que quer que eu leia o que ela consumiu, não que o um algoritmo quer me vender.
 
 ## <a name='Ondeescrevermeusartigos'></a>Onde escrever meus artigos
@@ -96,9 +92,9 @@ E muito mais! Podemos usar nossa criatividade para pensar na melhor maneira de c
 
 Sobre o apoio coletivo mensal, existem opções de doarmos 5 reais para a pessoa, por mês, e isso já é um mega incentivo.
 
-Se você quiser contribuir com o meu trabalho, por exemplo, pode fazer isso via Catarse, neste link [Catarse/william-oliveira](https://www.catarse.me/o-universo-da-programacao) e outras pessoas utilizam o [Apoia.se](https://apoia.se) e algumas plataformas para financiamento mensal.
+Se você quiser contribuir com o meu trabalho, por exemplo, pode fazer isso via Apoia.se, neste link [Apoia.se/william-oliveira](https://apoia.se/uillaz).
 
-O meu blog, assim como de algumas outras pessoas nas comunidades, é open source. Você pode corrigir o erro diretamente no artigo que você encontrou e enviar um pull request. É uma ajuda ainda maior e nós aceitamos de muito bom grado. Se encontrar algum erro, não se acanhe, envia o PR aqui [woliveiras.github.io/_posts](https://github.com/woliveiras/woliveiras.github.io/tree/master/_posts).
+O meu blog, assim como de algumas outras pessoas nas comunidades, é open source. Você pode corrigir o erro diretamente no artigo que você encontrou e enviar um pull request. É uma ajuda ainda maior e nós aceitamos de muito bom grado. Se encontrar algum erro, não se acanhe, envia o PR aqui [woliveiras.github.io/](https://github.com/woliveiras/woliveiras.github.io).
 
 ## <a name='Concluso'></a>Conclusão
 

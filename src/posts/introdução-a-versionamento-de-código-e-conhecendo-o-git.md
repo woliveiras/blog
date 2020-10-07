@@ -11,8 +11,6 @@ tags:
     - curso-fullstack
 description: Vamos entender sobre versionamento de código e aprender os conceitos básicos de Git na prática!
 ---
-Este artigo é parte do material utilizado no curso de fullstack com Node.js, bancos de dados, Express e React do meu programa social do perifaCode, o [perifaCode.teach()](https://github.com/perifacode/teach). Estou disponibilizando ele para que qualquer outra pessoa também possa aprender gratuitamente pela internet e qualquer pessoa possa ensinar utilizando este conteúdo.
-
 No artigo anterior tivemos uma introdução ao terminal, confere aqui: [Introdução ao terminal](/posts/introdução-ao-terminal/).
 
 <!-- vscode-markdown-toc -->
@@ -661,9 +659,7 @@ O próximo passo é aprendermos a trabalhar com repositórios remotos, onde vamo
 
 No próximo artigo vamos aprender a utilizar repositórios remotos e o GitHub: [Trabalhando com repositórios remotos - Git e GitHub](/posts/trabalhando-com-repositórios-remotos-git-e-github/).
 
-Continue acompanhando e se quiser receber os artigos na semana em que eles saírem, inscreva-se na [newsletter](http://bit.ly/cartinha-do-will) ou me siga no [Twitter](https://twitter.com/_uillaz).
-
-Se você gosta do meu conteúdo, não esqueça de contribuir via Catarse: [Catarse: William Oliveira](https://catarse.me/o-universo-da-programacao).
+Se você gosta do meu conteúdo, não esqueça de contribuir via Apoia.se: [Apoia.se: William Oliveira](https://apoia.se/uillaz).
 
 ## <a name='Referncias'></a>Referências
 

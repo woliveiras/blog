@@ -60,7 +60,7 @@ Depois que você já estiver trabalhando na área e estiver precisando de ajuda 
 
 Quando você se sentir confortável, retribua o trabalho das pessoas que te ajudam em foruns, artigos, vídeos e mais, [devolva para as comunidades](/posts/Devolva-para-as-comunidades/), e se você se achar iniciante demais para contribuir com open source, leia este texto: [contribuindo com open source mesmo sendo iniciante](/posts/contribuindo-para-projetos-open-source-no-github-mesmo-sendo-iniciante/).
 
-Algumas pessoas também aceitam doações para manter seu conteúdo. Eu também entrei neste modelo de financiamento coletivo para ir além e começar a dar aulas para pessoas que precisam um pouco mais, as pessoas da periferia brasileira. Se você gosta do meu conteúdo e quer me ajudar a ir mais longe, me apoie no Catarse: [apoiar](https://catarse.me/o-universo-da-programacao).
+Algumas pessoas também aceitam doações para manter seu conteúdo. Eu também entrei neste modelo de financiamento coletivo para ir além e começar a dar aulas para pessoas que precisam um pouco mais, as pessoas da periferia brasileira. Se você gosta do meu conteúdo, não esqueça de contribuir via Apoia.se: [Apoia.se: William Oliveira](https://apoia.se/uillaz).
 
 ## Conclusão
 

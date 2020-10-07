@@ -835,9 +835,7 @@ Este artigo é somente uma introdução a programação focado em entendermos qu
 
 Nos próximos artigos vamos aprender sobre operadores matemáticos, de comparação, condicionais, laços de repetição e modularização de código.
 
-Continue acompanhando e se quiser receber os artigos na semana em que eles saírem, inscreva-se na [newsletter](http://bit.ly/cartinha-do-will) ou me siga no [Twitter](https://twitter.com/_uillaz).
-
-Se você gosta do meu conteúdo, não esqueça de contribuir via Catarse: [Catarse: William Oliveira](https://catarse.me/o-universo-da-programacao).
+Se você gosta do meu conteúdo, não esqueça de contribuir via Apoia.se: [Apoia.se: William Oliveira](https://apoia.se/uillaz).
 
 ## <a name='Referncias'></a>Referências
 

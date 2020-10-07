@@ -19,11 +19,11 @@ Infelizmente temos as nossas bolhas sociais e isso também limita quem consome n
 
 Eu já venho fazendo isso há algum tempo e tem dado certo. Pessoas que não tinham acesso a área de programação conseguiram graças ao meu conteúdo e isso me deixa extremamente feliz.
 
-Hoje em dia eu sei o poder que a internet tem e uso esse poder para fazer o bem para as pessoas, mas também quero ir mais longe, desejo alcançar pessoas fora da bolha. Quero chegar nas escolas públicas, ensinar em ONGs que ajudam pessoas de baixa renda e muito mais. E cumprir essa missão sozinho não é nada fácil. Por isso eu abri uma campanha no Catarse, uma ferramenta onde você pode me ajudar financeiramente para eu continuar nessa missão pessoal ou simplesmente retribuir pelo meu trabalho aqui, caso você goste do que eu faço.
+Hoje em dia eu sei o poder que a internet tem e uso esse poder para fazer o bem para as pessoas, mas também quero ir mais longe, desejo alcançar pessoas fora da bolha. Quero chegar nas escolas públicas, ensinar em ONGs que ajudam pessoas de baixa renda e muito mais. E cumprir essa missão sozinho não é nada fácil. Por isso eu abri uma campanha no Apoia.se, uma ferramenta onde você pode me ajudar financeiramente para eu continuar nessa missão pessoal ou simplesmente retribuir pelo meu trabalho aqui, caso você goste do que eu faço.
 
 Ainda não tenho recompensas legais pelos apoios que recebo, mas pretendo melhorar isso com o tempo; e você pode me dar dicas do que fazer também, pois não faço a mínima ideia do que retribuir em troca de apoio mensal.
 
-Se você gosta do meu trampo e quer me ajudar, pode assinar minha campanha para doar [5,00](https://www.catarse.me/pt/projects/88856/subscriptions/start?reward_id=164989), [8,00](https://www.catarse.me/pt/projects/88856/subscriptions/start?reward_id=164986), [18,00](https://www.catarse.me/pt/projects/88856/subscriptions/start?reward_id=164991) ou [30,00](https://www.catarse.me/pt/projects/88856/subscriptions/start?reward_id=164988) reais ou mais por mês e pode até ajudar direcionar meu conteúdo através de um grupo exclusivo no Telegram para quem me apoia.
+Se você gosta do meu trampo e quer me ajudar, pode assinar minha campanha: [Apoia.se](https://apoia.se/uillaz)
 
 Você gosta do meu trabalho, mas não consegue apoiar financeiramente? Não tem problema, compartilhe meus artigos nas redes sociais, em grupos de WhatsApp/Telegram e me ajude a chegar em pessoas que você acredita que deveriam receber meus conselhos. Me ajude a ir mais longe!
 

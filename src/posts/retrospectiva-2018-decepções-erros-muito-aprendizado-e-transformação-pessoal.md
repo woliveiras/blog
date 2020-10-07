@@ -156,7 +156,7 @@ Já temos vídeos sobre carreira e algumas lives que rolaram por lá.
 
 Esse será um dos projetos que vou tocar com mais atenção ano que vem, então fica de olho por lá e ativa o sininho da maldade na plataforma.
 
-## Novo tema para o blog e newsletter
+## Novo tema para o blog
 
 Eu mudei o tema do meu blog e, além disso, a ferramenta que eu utilizo para gerar ele.
 
@@ -164,12 +164,10 @@ Meu blog é um site estático gerado pelo Jekyll, hospedado no GitHub Pages e ut
 
 Inclusive, se você encontrar um bug, pode me abrir uma issue neste repositório: [woliveiras/woliveiras.github.io](https://github.com/woliveiras/woliveiras.github.io).
 
-E, para fechar, criei uma newsletter para enviar meu conteúdo para as pessoas que não são tão viciadas em redes sociais e não utilizam RSS feed para acompanhar sites e blogs.
-
-Se você quiser se inscrever para receber meus artigos, dicas, sugestões de eventos, livros e muito mais, entra nesse link aqui: [Cartinha do Will](https://bit.ly/cartinha-do-will).
+Se você gosta do meu conteúdo, não esqueça de contribuir via Apoia.se: [Apoia.se: William Oliveira](https://apoia.se/uillaz).
 
 ## Conclusão
 
 Esse ano foi extremamente produtivo para mim e eu consegui ter uma auto reflexão bem legal. Espero que pra você tenha sido um ciclo produtivo também.
 
-Para o ano que vem vou focar muito no meu conteúdo, então não esqueça da newsletter, feed ou me seguir no Twitter ([@_uillaz](https://twitter.com/_uillaz)) para receber minhas novidades!
+Para o ano que vem vou focar muito no meu conteúdo, então não de me seguir no Twitter ([@_uillaz](https://twitter.com/_uillaz)) para receber minhas novidades!
