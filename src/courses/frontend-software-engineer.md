@@ -1,5 +1,5 @@
 ---
-title: "Curso front-end engineer"
+title: "Curso front-end engineer [ao vivo/em andamento]"
 description: "Curso para quem nunca programou aprender desenvolvimento web"
 permalink: '/curso/frontend-software-engineer/index.html'
 ---
