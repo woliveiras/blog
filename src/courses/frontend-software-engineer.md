@@ -28,7 +28,7 @@ Para acompanhar todas as novidades, fica de olho no meu Twitter: [@_uillaz](http
 
 - [artigo] [Duvidas de toda pessoa desenvolvedora front-end iniciante](https://woliveiras.com.br/posts/duvidas-frontend-iniciante/)
 - [artigo] [Qual a diferença entre página web, site, servidor web e mecanismo de busca?](https://developer.mozilla.org/pt-BR/docs/Learn/Common_questions/Pages_sites_servers_and_search_engines)
-- [video] Criando nossa primeira página web [em edição]
+- [video] [Criando nossa primeira página web](https://youtu.be/2cUGqxhOaD0)
 - [artigo] [Introdução ao versionamento de código](/posts/introdução-a-versionamento-de-código-e-conhecendo-o-git/)
 - [artigo] [Criação e utilização de repositórios](/posts/trabalhando-com-reposit%C3%B3rios-remotos-git-e-github/)
 - [artigo] [Produtividade no versionamento via terminal com alias no Git](/posts/produtividade-no-versionamento-via-terminal-com-alias-no-git/)
