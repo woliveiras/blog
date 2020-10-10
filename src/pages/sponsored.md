@@ -38,3 +38,5 @@ permalink: '/sponsored/index.html'
 - Vanessa: Formação em desenvolvimento Web
 - Elisandro: Formação em desenvolvimento Web
 - Luiz: Formação em desenvolvimento Web
+- Paulo Henrique: Livro O Universo da Programação
+- Dionísio: Vale Presente da Casa do Código
