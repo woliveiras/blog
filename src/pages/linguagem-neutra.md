@@ -15,7 +15,7 @@ Nesta página estou reunindo termos que posso utilizar para tratar do uso da lin
 
 Ex.: Ao invés de traduzir termos do inglês ou outro idioma sem gênero para o masculino em Português do Brasil (onde o gênero masculino é utilizado para adoção do neutro em frases) procuramos utilizar os sinônimos ou o termo que mais incluir o máximo de pessoas.
 
-Caso conheça algum termo que possa ser inserido no glossário, por favor abra uma issue ou envie um pull request nesta página através do link [@woliveiras/lingiagem-neutra](https://github.com/woliveiras/woliveiras.github.io/blob/main/src/pages/linguagem-neutra.md).
+Caso conheça algum termo que possa ser inserido no glossário, por favor abra uma issue ou envie um pull request nesta página através do link [@woliveiras/linguagem-neutra](https://github.com/woliveiras/woliveiras.github.io/blob/main/src/pages/linguagem-neutra.md).
 
 Conhece algum material que possa servir como referência para nossos estudos sobre o assunto? Compartilha através de uma issue ou pull request no blog [@woliveiras/woliveiras.github.io](https://github.com/woliveiras/woliveiras.github.io).
 
