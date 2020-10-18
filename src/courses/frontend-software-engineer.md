@@ -9,8 +9,6 @@ Curso ao vivo ministrado nas terças e quintas as 20h na [Twitch.tv/uillaz](http
 
 Para acompanhar todas as novidades, fica de olho no meu Twitter: [@_uillaz](https://twitter.com/_uillaz)
 
-**Início do curso:** 01/10/2020.
-
 ## Módulos
 
 <!-- vscode-markdown-toc -->
@@ -34,7 +32,7 @@ Para acompanhar todas as novidades, fica de olho no meu Twitter: [@_uillaz](http
 - [artigo] [Produtividade no versionamento via terminal com alias no Git](/posts/produtividade-no-versionamento-via-terminal-com-alias-no-git/)
 - [artigo] [Comandos mais utilizados no Git](/posts/comandos-mais-utilizados-no-git/)
 - [artigo] A web mudou, como funcionam os sites hoje em dia
-- [live] Construindo uma aplicação com dados reais
+- [video] [Construindo nossa primeira aplicação JavaScript e fetch API](https://youtu.be/kNULXImqwxQ)
 - [live] Arquitetura da informação, acessibilidade e SEO
 - [artigo] Front-end desenha interfaces?
 - [live] Plataformas para construir nosso portfólio
