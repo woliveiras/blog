@@ -1,0 +1,19 @@
+.cta-contribute {
+    border: 1px solid;
+    border-color: var(--color-primary-glare);
+    border-radius: 3px;
+    padding: 30px;
+
+    &__link {
+        background-color: var(--color-stroke);
+        color: var(--color-primary-shade);
+        padding: .5rem;
+        border-radius: 5px;
+        display: inline-block;
+        width: 30%;
+        text-align: center;
+        margin-top: 1rem;
+        margin-right: 1rem;
+        text-decoration: none;
+    }
+}
