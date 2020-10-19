@@ -40,11 +40,15 @@ Juntos já [apoiamos diversas pessoas](/sponsored) e vamos continuar fazendo mui
 
 ## Como me ajudar
 
-Você pode apoiar mensalmente através do PicPay ou pelo Apoia.se
+Você pode apoiar mensalmente através do PicPay ou pelo Apoia.se e/ou fazer uma doação fixa sempre que quiser através do PayPal.
 
 ### Apoia.se
 
-Pelo Apoia.se, acesse o link [apoia.se/uillaz](https://apoia.se/uillaz), cadastre-se e escolha algum valor para apoiar mensalmente.
+Pelo Apoia.se, acesse este link [apoia.se/uillaz](https://apoia.se/uillaz), cadastre-se e escolha algum valor para apoiar mensalmente.
+
+### PayPal
+
+Pelo PayPal, acesse este link [paypal.com](https://www.paypal.com/cgi-bin/webscr?cmd=_donations&business=UYA6AM2HP4NES&currency_code=BRL).
 
 ### PicPay
 
