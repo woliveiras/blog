@@ -33,9 +33,24 @@
           <h3>Este conteúdo te ajudou?</h3>
           <p>Se eu consegui te ajudar, considere contribuir com o meu trabalho através dos links abaixo.</p>
           <span>Qualquer valor é muito bem vindo e os apoios começam a partir de 1 real.</span>
-          <a class="cta-contribute__link" href="https://apoia.se/uillaz">Apoiar via Apoia.se</a>
-          <a class="cta-contribute__link" href="https://picpay.me/uillaz">Apoiar via PicPay</a>
-          <a class="cta-contribute__link" href="https://www.paypal.com/cgi-bin/webscr?cmd=_donations&business=UYA6AM2HP4NES&currency_code=BRL">Apoiar via PayPal</a>
+          <a 
+            class="cta-contribute__link" 
+            onclick="gtag('event', 'contribute', {'event_label': 'Apoiase','event_category': 'click'})" 
+            href="https://apoia.se/uillaz">
+            Apoiar via Apoia.se
+          </a>
+          <a 
+            class="cta-contribute__link" 
+            onclick="gtag('event', 'contribute', {'event_label': 'PicPay','event_category': 'click'})" 
+            href="https://picpay.me/uillaz">
+            Apoiar via PicPay
+          </a>
+          <a 
+            class="cta-contribute__link" 
+            onclick="gtag('event', 'contribute', {'event_label': 'PayPal','event_category': 'click'})" 
+            href="https://www.paypal.com/cgi-bin/webscr?cmd=_donations&business=UYA6AM2HP4NES&currency_code=BRL">
+            Apoiar via PayPal
+          </a>
         </div>
 
       </div>
@@ -70,7 +85,13 @@
               <h2 class="font-base text-600 weight-mid" id="heading-filed-under">Tags:</h2>
               <ul class="[ nav__list ] [ box-flex align-center pad-left-400 ] [ p-category ]">
                 {% for item in tags %}
-                  <li class="nav__item"><a href="/tags/{{ item }}">{{ item }}</a></li>
+                  <li class="nav__item">
+                    <a 
+                      onclick="gtag('event', 'tags', {'event_label': '{{ item }}','event_category': 'click'})" 
+                      href="/tags/{{ item }}">
+                      {{ item }}
+                    </a>
+                  </li>
                 {% endfor %}
               </ul>
             </div>
