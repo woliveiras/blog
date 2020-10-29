@@ -1,12 +1,7 @@
 {
   "items": [
     {
-      "text": "Home",
-      "url": "/",
-      "external": false
-    },
-    {
-      "text": "Contribuir",
+      "text": "Apoiar",
       "url": "https://apoia.se/uillaz",
       "external": true
     },
@@ -16,7 +11,7 @@
       "external": true
     },
     {
-      "text": "Apoio social",
+      "text": "Projeto social",
       "url": "/apoio-social",
       "external": true
     },
