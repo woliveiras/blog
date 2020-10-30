@@ -8,7 +8,7 @@ Minhas recomendações pessoais de cursos, livros e outros conteúdos extremamen
 
 Desde cursos de programação para iniciantes, Docker, JavaScript, React ou React Native, Nodejs e muito mais!
 
-## Cursos essenciais para web devs
+## Cursos recomendados
 
 * [Mais de 5500 aulas - novas aulas semanais - plano mensal ou anual](https://www.cod3r.com.br/bundles/plano-de-assinatura?ref=ad00db)
 * [Programação do Absoluto Zero (com JavaScript)](https://www.cod3r.com.br/courses/aprenda-programacao-do-zero?ref=ad00db)
@@ -25,27 +25,33 @@ Desde cursos de programação para iniciantes, Docker, JavaScript, React ou Reac
 * [API REST em Node.JS aplicando testes (TDD) desde o princípio](https://www.cod3r.com.br/courses/api-rest--node-js-tdd?ref=ad00db)
 * [Do Zero à Nuvem: API Restful com NodeJS, Restify e MongoDB](https://www.cod3r.com.br/courses/do-zero-a-nuvem-api-restful-com-nodejs-restify-e-mongodb?ref=ad00db)
 
-## Plataformas de cursos
+## Úteis
 
-* [COD3R](https://www.cod3r.com.br/bundles/plano-de-assinatura?ref=ad00db)
-* [Alura](http://www.alura.com.br/)
-* [MVA](http://www.microsoftvirtualacademy.com/)
-* [Code Academy](http://www.codecademy.com/)
-* [freeCodeCamp](http://freecodecamp.org/)
-* [PyCursos](http://pycursos.com/)
-* [CC50](http://cc50.com.br/)
-* [Open Source Society University](https://github.com/open-source-society/computer-science)
-* [Inglês | Duolingo](http://www.duolingo.com/)
-
-## Best Links!
-
+* [Como o HTTPS funciona](https://howhttps.works/pt-br/)
+* [Aprenda a construir layouts com CSS](http://pt-br.learnlayout.com/)
 * [Aprenda CSS Grid](https://grid.layoutit.com/)
+* [The Ultimate Guide to API Design](https://blog.qmo.io/ultimate-guide-to-api-design/)
+* [Dicas para quem quer começar a palestrar](https://nandovieira.com.br/dicas-para-quem-quer-comecar-a-palestrar)
+* [ES6 Rocks](http://es6rocks.com/)
+* [Secrets of the Browser Developer Tools](http://devtoolsecrets.com/)
+* [Dev Tools Challenger](http://devtoolschallenger.com/)
+* [MaintainableCSS](http://maintainablecss.com/)
+* [JS interview review](https://github.com/adam-s/js-interview-review)
+* [Book of Modern frontend tooling](http://tooling.github.io/book-of-modern-frontend-tooling/)
+* [Um guia visual para Flexbox](http://edsonjunior.com/um-guia-visual-para-flexbox/)
+* [JavaScript in one Pic](https://github.com/coodict/javascript-in-one-pic)
+* [Front-End Developer Handbook](http://www.frontendhandbook.com)
+* [Free programming books](https://github.com/vhf/free-programming-books)
+* [Service Worker Cookbook](https://serviceworke.rs/)
+* [Single page apps in depth](http://singlepageappbook.com/)
+
+
+## Conteúdo
+
 * [MDN](https://developer.mozilla.org/pt-PT/)
 * [Cerebrobr](https://github.com/cerebrobr)
-* [ES6 Rocks](http://es6rocks.com/)
 * [Willian Justen](http://willianjusten.com.br)
 * [BrazilJS](http://braziljs.org/)
-* [Learn Layout](http://pt-br.learnlayout.com/)
 * [The Sass Way](http://thesassway.com/)
 * [Sass Guidelines](http://sass-guidelin.es/)
 * [Form Validation UX in HTML and CSS](https://css-tricks.com/form-validation-ux-html-css)
@@ -56,8 +62,6 @@ Desde cursos de programação para iniciantes, Docker, JavaScript, React ou Reac
 * [Clean Code: 1 Introdução](https://www.javascriptmasters.com.br/blog/teoria/clean-code-1-introducao/)
 * [Clean Code: 2 O que é código limpo?](https://www.javascriptmasters.com.br/blog/teoria/clean-code-2-o-que-e-codigo-limpo/)
 * [A Beginner’s Guide to HTTP and REST](http://code.tutsplus.com/tutorials/a-beginners-guide-to-http-and-rest--net-16340)
-* [Secrets of the Browser Developer Tools](http://devtoolsecrets.com/)
-* [MaintainableCSS](http://maintainablecss.com/)
 * [CSS Coding Techniques, Mozilla](https://hacks.mozilla.org/2016/05/css-coding-techniques/)
 * [Essential JavaScript Links](https://github.com/ericelliott/essential-javascript-links)
 * [About HTML semantics and front-end architecture](http://nicolasgallagher.com/about-html-semantics-front-end-architecture/)
@@ -66,26 +70,18 @@ Desde cursos de programação para iniciantes, Docker, JavaScript, React ou Reac
 * [Web Fundamentals - Google](https://developers.google.com/web/fundamentals/)
 * [Como aprender Frameworks](https://medium.com/@fernahh/como-aprender-web-frameworks-7063c4a6af28)
 * [Finding Time to Become a Better Developer](https://medium.freecodecamp.com/finding-time-to-become-a-better-developer-eebc154881b2#.xyafc6t2i)
-* [JS interview review](https://github.com/adam-s/js-interview-review)
 * [Vanilla JavaScript List](http://www.vanillalist.com/)
 * [Padrões de Projetos](https://brizeno.wordpress.com/padroes/)
 * [The rendering process of a web page](https://medium.com/@gneutzling/the-rendering-process-of-a-web-page-78e05a6749dc)
 * [Design Patterns for Humans](https://github.com/kamranahmedse/design-patterns-for-humans)
 * [Mostly adequate guide to FP (in javascript, translated in portuguese)](https://github.com/MostlyAdequate/mostly-adequate-guide-pt-BR)
 * [10 Common Data Structures Explained with Videos + Exercises](https://medium.freecodecamp.org/10-common-data-structures-explained-with-videos-exercises-aaff6c06fb2b)
-* [Free programming books](https://github.com/vhf/free-programming-books)
 * [Uma tradução em Português da série You Don't Know JS](https://github.com/cezaraugusto/You-Dont-Know-JS)
-* [Front-End Developer Handbook](http://www.frontendhandbook.com)
-* [Book of Modern frontend tooling](http://tooling.github.io/book-of-modern-frontend-tooling/)
 * [Free Learning - Free Technology eBooks, Packt Publishing](https://www.packtpub.com/packt/offers/free-learning)
 * [Awesome Flexbox](https://github.com/afonsopacifer/awesome-flexbox)
-* [Um guia visual para Flexbox](http://edsonjunior.com/um-guia-visual-para-flexbox/)
 * [A Tale of CSS and Sass Precision](https://www.sitepoint.com/a-tale-of-css-and-sass-precision)
 * [Trigonometri in Sass](https://unindented.org/articles/trigonometry-in-sass/)
 * [Mastering the Module Pattern](https://toddmotto.com/mastering-the-module-pattern/)
-* [Dev Tools Challenger](http://devtoolschallenger.com/)
-* [Service Worker Cookbook](https://serviceworke.rs/)
-* [Single page apps in depth](http://singlepageappbook.com/)
 * [Can You “Over Organize” JavaScript?](https://css-tricks.com/can-you-over-organize-javascript/)
 * [How Do You Structure JavaScript? The Module Pattern Edition](https://css-tricks.com/how-do-you-structure-javascript-the-module-pattern-edition/)
 * [The legend of JavaScript equality operator](http://rainsoft.io/the-legend-of-javascript-equality-operator/)
@@ -97,15 +93,12 @@ Desde cursos de programação para iniciantes, Docker, JavaScript, React ou Reac
 * [Regular Expressions in JavaScript](https://www.sitepoint.com/expressions-javascript/)
 * [Gentle explanation of 'this' keyword in JavaScript](http://rainsoft.io/gentle-explanation-of-this-in-javascript/)
 * [History and Background of JavaScript Module Loaders](http://appendto.com/2016/06/the-short-history-of-javascript-module-loaders)
-* [JavaScript in one Pic](https://github.com/coodict/javascript-in-one-pic)
 * [JavaScript Garden](http://bonsaiden.github.io/JavaScript-Garden/ptbr/)
 * [How do promises work](http://robotlolita.me/2015/11/15/how-do-promises-work.html)
 * [Babel Handbook](https://github.com/thejameskyle/babel-handbook)
 * [Compositional Objects vs Classical inheritance](http://hwclass.in/2016/01/21/compositional-objects-vs-classical-inheritance/)
 * [Quick Tip: Function Expressions vs Function Declarations](https://www.sitepoint.com/function-expressions-vs-declarations/)
-* [The rise of functional programming & the decline of Angular 2.0](http://blog.wolksoftware.com/the-rise-of-functional-programming-and-the-death-of-angularjs)
 * [RxJS - The ReactiveX library for JavaScript](http://reactivex.io/rxjs/manual/overview.html)
-* [O Guia do ES6: TUDO que você precisa saber](https://medium.com/@matheusml/o-guia-do-es6-tudo-que-você-precisa-saber-8c287876325f)
 * [fetch API](https://davidwalsh.name/fetch)
 * [JavaScript Funcional](https://github.com/js-functional/js-funcional)
 * [Guia básico de ES6 (ECMAScript 2015)](https://github.com/ldaltro/guia-basico-ES6)
@@ -136,14 +129,24 @@ Desde cursos de programação para iniciantes, Docker, JavaScript, React ou Reac
 * [Learn x in y minutes](https://learnxinyminutes.com/)
 * [A handy guide to making money in open source](https://github.com/nayafia/lemonade-stand)
 * [Using a static generator at scale lessons learned](https://www.smashingmagazine.com/2016/08/using-a-static-site-generator-at-scale-lessons-learned)
-* [Dicas para quem quer começar a palestrar](https://nandovieira.com.br/dicas-para-quem-quer-comecar-a-palestrar)
+
+## Plataformas de cursos
+
+* [COD3R](https://www.cod3r.com.br/bundles/plano-de-assinatura?ref=ad00db)
+* [Alura](http://www.alura.com.br/)
+* [MVA](http://www.microsoftvirtualacademy.com/)
+* [Code Academy](http://www.codecademy.com/)
+* [freeCodeCamp](http://freecodecamp.org/)
+* [PyCursos](http://pycursos.com/)
+* [CC50](http://cc50.com.br/)
+* [Open Source Society University](https://github.com/open-source-society/computer-science)
+* [Inglês | Duolingo](http://www.duolingo.com/)
 
 ## Ferramentas úteis
 
 * [Public APIs](https://github.com/toddmotto/public-apis)
 * [Awesome Lists](https://github.com/sindresorhus/awesome)
 * [Server configs NGINX](https://github.com/h5bp/server-configs-nginx)
-* [The Ultimate Guide to API Design](https://blog.qmo.io/ultimate-guide-to-api-design/)
 * [Requestbin](https://requestbin.com/)
 * [Glitch](https://glitch.com/)
 * [Gitpod](https://www.gitpod.io/)
