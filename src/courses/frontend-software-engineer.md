@@ -13,9 +13,9 @@ Para acompanhar todas as novidades, fica de olho no meu Twitter: [@_uillaz](http
 
 <!-- vscode-markdown-toc -->
 * [Conhecendo o desenvolvimento web](#Conhecendoodesenvolvimentoweb)
-* [Aprendendo programação para front-end web](#Aprendendoprogramaoparafront-endweb)
+<!-- * [Aprendendo programação para front-end web](#Aprendendoprogramaoparafront-endweb)
 * [Desenvolvendo aplicações client-side completas](#Desenvolvendoaplicaesclient-sidecompletas)
-* [Qualidade de software web front-end](#Qualidadedesoftwarewebfront-end)
+* [Qualidade de software web front-end](#Qualidadedesoftwarewebfront-end) -->
 <!-- vscode-markdown-toc-config
 	numbering=false
 	autoSave=true
@@ -31,7 +31,7 @@ Para acompanhar todas as novidades, fica de olho no meu Twitter: [@_uillaz](http
 - [artigo] [Criação e utilização de repositórios](/posts/trabalhando-com-reposit%C3%B3rios-remotos-git-e-github/)
 - [artigo] [Produtividade no versionamento via terminal com alias no Git](/posts/produtividade-no-versionamento-via-terminal-com-alias-no-git/)
 - [artigo] [Comandos mais utilizados no Git](/posts/comandos-mais-utilizados-no-git/)
-- [artigo] A web mudou, como funcionam os sites hoje em dia
+- [artigo] [A história da profissão frontend](/posts/a-historia-da-profissao-frontend/)
 - [video] [Construindo nossa primeira aplicação JavaScript e fetch API](https://youtu.be/kNULXImqwxQ)
 - [live] Arquitetura da informação, acessibilidade e SEO
 - [artigo] Front-end desenha interfaces?
@@ -45,6 +45,6 @@ Para acompanhar todas as novidades, fica de olho no meu Twitter: [@_uillaz](http
 	- [conceitos] navegação, posicionamento, listas, formulários, tabelas
 	- [ferramentas] Git, GitHub, Netlify
 
-## <a name='Aprendendoprogramaoparafront-endweb'></a>Aprendendo programação para front-end web
+<!-- ## <a name='Aprendendoprogramaoparafront-endweb'></a>Aprendendo programação para front-end web
 ## <a name='Desenvolvendoaplicaesclient-sidecompletas'></a>Desenvolvendo aplicações client-side completas
-## <a name='Qualidadedesoftwarewebfront-end'></a>Qualidade de software web front-end
+## <a name='Qualidadedesoftwarewebfront-end'></a>Qualidade de software web front-end -->
