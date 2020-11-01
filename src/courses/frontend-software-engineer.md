@@ -47,14 +47,14 @@ Antes de começar a estudar o desenvolvimento frontend de fato, você precisa se
 - [artigo] [Qual a diferença entre página web, site, servidor web e mecanismo de busca?](https://developer.mozilla.org/pt-BR/docs/Learn/Common_questions/Pages_sites_servers_and_search_engines)
 - [Sobre os requisitos para vagas de emprego Front End (e outras áreas também)](/posts/requisitos-para-vagas-front-end/)
 - [Como é uma entrevista de emprego para desenvolvimento front end - JavaScript](/posts/Como-e-uma-entrevista-de-emprego-para-desenvolvimento-front-end-JavaScript/)
-- [video] [Criando nossa primeira página web](https://youtu.be/2cUGqxhOaD0)
+- [video] [Criando nossa primeira página web](https://www.youtube.com/watch?v=jVsNAdk-4Ww&ab_channel=OUniversodaPrograma%C3%A7%C3%A3o)
 - [Introdução ao terminal](/posts/introdução-ao-terminal/)
 - [artigo] [Introdução ao versionamento de código](/posts/introdução-a-versionamento-de-código-e-conhecendo-o-git/)
 - [artigo] [Criação e utilização de repositórios](/posts/trabalhando-com-reposit%C3%B3rios-remotos-git-e-github/)
 - [artigo] [Produtividade no versionamento via terminal com alias no Git](/posts/produtividade-no-versionamento-via-terminal-com-alias-no-git/)
 - [artigo] [Comandos mais utilizados no Git](/posts/comandos-mais-utilizados-no-git/)
 - [artigo] [A história da profissão frontend](/posts/a-historia-da-profissao-frontend/)
-- [video] [Construindo nossa primeira aplicação JavaScript e fetch API](https://youtu.be/kNULXImqwxQ)
+- [video] [Construindo nossa primeira aplicação JavaScript e fetch API](https://www.youtube.com/watch?v=fSx_VHO9MMY&ab_channel=OUniversodaPrograma%C3%A7%C3%A3o)
 - [live] Arquitetura da informação, acessibilidade e SEO
 - [artigo] Front-end desenha interfaces?
 - [live] Plataformas para construir nosso portfólio
