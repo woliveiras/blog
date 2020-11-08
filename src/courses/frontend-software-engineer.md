@@ -57,8 +57,7 @@ Antes de começar a estudar o desenvolvimento frontend de fato, você precisa se
 - [artigo] [Comandos mais utilizados no Git](/posts/comandos-mais-utilizados-no-git/)
 - [artigo] [A história da profissão frontend](/posts/a-historia-da-profissao-frontend/)
 - [video] [Construindo nossa primeira aplicação JavaScript e fetch API](https://www.youtube.com/watch?v=fSx_VHO9MMY&ab_channel=OUniversodaPrograma%C3%A7%C3%A3o)
-- [live] Arquitetura da informação, acessibilidade e SEO
-- [artigo] Front-end desenha interfaces?
+- [live] [Arquitetura da informação, acessibilidade e SEO](https://www.youtube.com/watch?v=JoXBX3v8bVU&ab_channel=OUniversodaPrograma%C3%A7%C3%A3o)
 - [live] Plataformas para construir nosso portfólio
 - [live] GitHub Pages
 - [live/projeto] Construindo o site de uma pizzaria
