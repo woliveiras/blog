@@ -14,6 +14,8 @@ Caso queira aprender mais ainda sobre o Universo da Programação, siga o meu ca
 - [Canal - O Universo da Programação](https://www.youtube.com/channel/UCWrqsnPLl6aRX0ECUmPaZEw)
 - [Livro - O Universo da Programação](https://www.casadocodigo.com.br/products/livro-universo-programacao)
 
+Este curso é totalmente gratuito e mantido pela comunidade de programação através de doações via PicPay, Apoia.se ou PayPal. Confira aqui como ajudar: [apoiar - William Oliveira](/apoio-social)
+
 ## Pré trabalho
 
 Antes de começar a estudar o desenvolvimento frontend de fato, você precisa se preparar.
