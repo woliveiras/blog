@@ -34,7 +34,7 @@ No momento não vou aprofundar no Protocolo HTTP para voltarmos ao foco do post,
 
 ## URL – Uniform Resource Locator
 
-Em português: **Localizador de Recursos Universal **e como o próprio nome diz, se refere ao local, o Host que você quer acessar determinado recurso. O objetivo da URL é associar um endereço remoto com um nome de recurso na Internet.
+Em português: **Localizador de Recursos Universal** e como o próprio nome diz, se refere ao local, o Host que você quer acessar determinado recurso. O objetivo da URL é associar um endereço remoto com um nome de recurso na Internet.
 
 Exemplo de URL
 
