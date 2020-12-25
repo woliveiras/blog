@@ -1,5 +1,4 @@
 ---
-layout: post
 title: Engenharia de software no Google, recomendação de livro
 date: '2020-12-25'
 tags:
