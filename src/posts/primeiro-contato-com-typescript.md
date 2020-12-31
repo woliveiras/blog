@@ -20,9 +20,7 @@ Em primeiro lugar vou explicar o porquê busquei aprender a linguagem e depois v
 
 Como qualquer linguagem, precisamos de ferramentas para trabalhar com ela: um editor de textos ou IDE, o compilador ou interpretador da linguagem e uma plataforma de execução do código final.
 
-Como editor de textos, é claro que o VS Code seria a minha escolha e com TypeScript o negócio está brilhando lindamente, uma vez que ambos são tecnologias do mesmo grupo. Não encontrei valor em trocar o VS Code por nenhuma outra ferramenta.
-
-> [VS Code](https://code.visualstudio.com/)
+Como editor de textos, é claro que o [VS Code](https://code.visualstudio.com/) seria a minha escolha e com TypeScript o negócio está brilhando lindamente, uma vez que ambos são tecnologias do mesmo grupo. Não encontrei valor em trocar o VS Code por nenhuma outra ferramenta.
 
 O TypeScript possui o seu compilador, o **TSC**, e tudo o que precisamos para ele funcionar é ter o Node.js instalado em nosso sistema operacional e rodar o comando do gerenciador de dependências que preferimos ([Yarn](https://yarnpkg.com/) ou [NPM](https://www.npmjs.com/)).
 
@@ -81,6 +79,6 @@ Outras vantagens, que eu não comentei anteriormente, mas você pode encontrar e
 
 O Matheus Mariano escreveu um artigo bem legal que pode ser mais introdutório e menos opinativo sobre a linguagem, confira [aqui](https://medium.com/@matheusmariano/o-m%C3%ADnimo-que-voc%C3%AA-precisa-saber-sobre-typescript-58d1b418f78b).
 
-Caso você esteja pensando em utilizar TypeScript, recomendo a leitura do livro indicado anteriormente [Programming TypeScript: Making Your JavaScript Applications Scale](https://amzn.to/34XGRXZ), assim como assinar minha campanha no Apoia.se ([apoia.se/uillaz](https://apoia.se/uillaz)) para não perder o meu conteúdo.
+Caso você esteja pensando em utilizar TypeScript, recomendo a leitura do livro indicado anteriormente [Programming TypeScript: Making Your JavaScript Applications Scale](https://amzn.to/34XGRXZ). Se for começar totalmente do zero com a linguagem, recomendo o curso da Cod3r [Entendendo TypeScript](https://www.cod3r.com.br/courses/entendendo-typescript?ref=ad00db) assim como assinar minha campanha no Apoia.se ([apoia.se/uillaz](https://apoia.se/uillaz)) para não perder o meu conteúdo.
 
 <span>Photo by <a href="https://unsplash.com/@fclaydon?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Fionn Claydon</a> on <a href="https://unsplash.com/s/photos/climbing?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Unsplash</a></span>
