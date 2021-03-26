@@ -17,4 +17,8 @@ O Malabarizando não possui roteiro, pauta, pretensão, não sou especialista em
 
 O máximo de formalidade que vamos buscar é uma apresentação pessoal, links dos seus trabalhos/contato e carinho com a audiência. Vamos levar informação para quem precisa do nosso jeito.
 
-Vem comigo! Se inscreve no canal no YouTube [Malabarizando no YouTube](https://www.youtube.com/watch?v=4fARpm-uPj8&ab_channel=Malabarizando) e acompanha o feed do Anchor [Malabarizando no Anchor](https://anchor.fm/malabarizando) e nos agregadores de podcasts.
+Vem comigo! 
+
+Se inscreve no canal no YouTube [Malabarizando no YouTube](https://www.youtube.com/watch?v=4fARpm-uPj8&ab_channel=Malabarizando) e acompanha o feed do Anchor [Malabarizando no Anchor](https://anchor.fm/malabarizando) ou procure por **Malabarizando** em qualquer agregador de podcasts.
+
+Para facilitar a vida de quem usa Spotify, o link é este aqui: [Malabarizando no Spotify](https://open.spotify.com/show/2fVVWxrvkaNg0HNDFookzc).
