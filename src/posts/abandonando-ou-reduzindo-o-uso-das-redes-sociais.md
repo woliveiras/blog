@@ -85,7 +85,7 @@ Talvez até dê para ter este resultado e ainda utilizar as redes sociais, poré
 
 Hoje eu me despeço das pessoas que me acompanham nas redes sociais e lhes digo que pode ser um adeus ou um até logo. Porém o meu blog e meu LinkedIn continuam ativos e você pode me acompanhar por aqui e por lá ([linkedin/william-oliveira](http://linkedin.com.br/in/william-oliveira)).
 
-Eu vou desativar todas as minhas redes, mas quem curte meu conteúdo pode continuar me apoiando pelo Apoia.se e recebendo novidades por lá: [apoia.se/uillaz](https://apoia.se/uillaz). Outro modo de trocar uma ideia comigo é acompanhar minhas lives na Twitch.tv: [twitch.tv/uillaz](https://www.twitch.tv/uillaz).
+Eu vou desativar todas as minhas redes, mas quem curte meu conteúdo pode continuar me apoiando pelo Apoia.se e recebendo novidades por lá: [apoia.se/malabarizando](https://apoia.se/malabarizando). Outro modo de trocar uma ideia comigo é acompanhar minhas lives na Twitch.tv: [twitch.tv/uillaz](https://www.twitch.tv/uillaz).
 
 Enfim, se você quiser saber um pouco mais sobre como as redes sociais estão nos impactando eu recomendo os seguintes conteúdos: 
 
