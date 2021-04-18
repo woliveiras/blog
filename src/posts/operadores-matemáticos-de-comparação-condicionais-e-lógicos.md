@@ -447,7 +447,7 @@ Neste artigo aprendemos sobre os operadores matemáticos, de comparação, condi
 
 Nos próximos artigos vamos aprender sobre laços de repetição e modularização de código.
 
-Se você gosta do meu conteúdo, não esqueça de contribuir via Apoia.se: [Apoia.se: William Oliveira](https://apoia.se/uillaz).
+Se você gosta do meu conteúdo, não esqueça de contribuir via Apoia.se: [Apoia.se: William Oliveira](https://apoia.se/malabarizando).
 
 ## <a name='Referncia'></a>Referência
 

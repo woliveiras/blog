@@ -652,6 +652,6 @@ Espero que tenha gostado e que sinta vontade de continuar estudando através des
 
 No próximo artigo veremos a introdução a versionamento de código e Git: [Introdução a versionamento de código e conhecendo o Git](/posts/introdução-a-versionamento-de-código-e-conhecendo-o-git/).
 
-Se você gosta do meu conteúdo, não esqueça de contribuir via Apoia.se: [Apoiase: William Oliveira](https://apoia.se/uillaz).
+Se você gosta do meu conteúdo, não esqueça de contribuir via Apoia.se: [Apoiase: William Oliveira](https://apoia.se/malabarizando).
 
 Foto de capa por [Kevin Horvat](https://unsplash.com/photos/Pyjp2zmxuLk?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText) via [Unsplash](https://unsplash.com/search/photos/linux?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText).

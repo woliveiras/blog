@@ -23,7 +23,7 @@ Hoje em dia eu sei o poder que a internet tem e uso esse poder para fazer o bem 
 
 Ainda não tenho recompensas legais pelos apoios que recebo, mas pretendo melhorar isso com o tempo; e você pode me dar dicas do que fazer também, pois não faço a mínima ideia do que retribuir em troca de apoio mensal.
 
-Se você gosta do meu trampo e quer me ajudar, pode assinar minha campanha: [Apoia.se](https://apoia.se/uillaz)
+Se você gosta do meu trampo e quer me ajudar, pode assinar minha campanha: [Apoia.se](https://apoia.se/malabarizando)
 
 Você gosta do meu trabalho, mas não consegue apoiar financeiramente? Não tem problema, compartilhe meus artigos nas redes sociais, em grupos de WhatsApp/Telegram e me ajude a chegar em pessoas que você acredita que deveriam receber meus conselhos. Me ajude a ir mais longe!
 

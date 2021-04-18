@@ -659,7 +659,7 @@ O próximo passo é aprendermos a trabalhar com repositórios remotos, onde vamo
 
 No próximo artigo vamos aprender a utilizar repositórios remotos e o GitHub: [Trabalhando com repositórios remotos - Git e GitHub](/posts/trabalhando-com-repositórios-remotos-git-e-github/).
 
-Se você gosta do meu conteúdo, não esqueça de contribuir via Apoia.se: [Apoia.se: William Oliveira](https://apoia.se/uillaz).
+Se você gosta do meu conteúdo, não esqueça de contribuir via Apoia.se: [Apoia.se: William Oliveira](https://apoia.se/malabarizando).
 
 ## <a name='Referncias'></a>Referências
 

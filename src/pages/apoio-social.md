@@ -44,7 +44,7 @@ Você pode apoiar mensalmente através do PicPay ou pelo Apoia.se e/ou fazer uma
 
 ### Apoia.se
 
-Pelo Apoia.se, acesse este link [apoia.se/uillaz](https://apoia.se/uillaz), cadastre-se e escolha algum valor para apoiar mensalmente.
+Pelo Apoia.se, acesse este link [apoia.se/malabarizando](https://apoia.se/malabarizando), cadastre-se e escolha algum valor para apoiar mensalmente.
 
 ### PayPal
 
