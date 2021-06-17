@@ -68,6 +68,7 @@ Assista o vídeo abaixo para entender melhor.
 
 <iframe src="https://www.youtube.com/embed/1gHjBTM3ekk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
+
 Como homens, nunca tive este problema. Bastava falar sobre futebol e todo mundo virava amigo. Quando se formam grupos, o Clube do Bolinha tá formado e nós excluímos as mulheres sem nem perceber. É triste, mas é uma realidade que nós muitas vezes não reparamos.
 
 Olhe ao seu redor no emprego onde você está e reflita: Quantas mulheres tem em sua equipe? Quantas pessoas negras estão em cargos de liderança? E quantas pessoas trans estão na diretoria da sua empresa? Quantos LGBTQ+ são assumidos na sua profissão?
