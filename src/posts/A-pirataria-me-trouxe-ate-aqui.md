@@ -94,7 +94,7 @@ Hoje, muitas vezes, eu doo cursos, livros e meu tempo para pessoas que eu sei qu
 
 Talvez as pessoas reclamam tanto da pirataria de conteúdo educativo na internet não pela quantidade de dinheiro que perdem, mas porque isso dá opções para as pessoas que elas não querem ver no mesmo avião que elas.
 
-Afinal, hoje eu já fiz até uma viajem de avião e estou com as passagens compradas para a próxima e sabemos como alguns privilegiados não se sentem bem tendo um pobre andando de avião. Minha mãe nunca imaginou que isso seria possível.
+Afinal, hoje eu já fiz até uma viagem de avião e estou com as passagens compradas para a próxima e sabemos como alguns privilegiados não se sentem bem tendo um pobre andando de avião. Minha mãe nunca imaginou que isso seria possível.
 
 A pirataria é crime e devemos fugir dela a todo custo, mas foi graças a ela que eu cheguei aqui. Só que não vou estimular ela. Se você não tem condições de pagar um curso, mas tem condições de chegar até este texto, que tal abrir uma vaquinha na internet?
 
