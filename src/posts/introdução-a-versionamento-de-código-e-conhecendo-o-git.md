@@ -456,7 +456,7 @@ Agora que temos duas branches, uma com um commit a mais do que a outra, precisam
 
 Para juntar duas branches, precisamos rodar o comando `git merge`.
 
-A sintaxe do comando é: `gir merge nome_da_outra_branch`.
+A sintaxe do comando é: `git merge nome_da_outra_branch`.
 
 Para que o git merge funcione, precisamos estar na branch que irá **receber** os commits da outra. No nosso exemplo, para receber o novo commit da branch arquivo-com-meu-nome na master, precisamos **estar na master**.
 
