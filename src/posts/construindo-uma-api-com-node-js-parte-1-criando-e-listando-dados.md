@@ -23,7 +23,7 @@ Ao solicitarmos uma informação para uma API, por exemplo os dados de um usuár
 {
     "nome": "William",
     "idade": "28",
-    "contato": "https://twitter.com/_uillaz"
+    "contato": "https://twitter.com/_malabarizando"
 }
 ```
 
@@ -760,7 +760,7 @@ Os próximos passos para nossa API são:
 
 Nos próximos artigos vamos aprender isso. Fique de olho!
 
-Me acompanhe no Twitter para saber quando lançar alguma coisa aqui no Blog: [@_uillaz](https://twitter.com/_uillaz).
+Me acompanhe no Twitter para saber quando lançar alguma coisa aqui no Blog: [@_malabarizando](https://twitter.com/_malabarizando).
 
 [Leia a Parte 2: melhorando nossa criação e listagem](/posts/construindo-uma-api-com-node-js-parte-2-melhorando-nossa-criação-e-listagem-de-dados/)
 

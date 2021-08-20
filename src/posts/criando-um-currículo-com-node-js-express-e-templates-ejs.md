@@ -794,7 +794,7 @@ Se você quiser, pode deixar essa página de erros mais bonita. Seu usuário ir�
 
 Aprendemos muita coisa neste artigo. Conhecemos o Express.js, aprendemos a utilizar um motor de renderização (template engine), criamos rotas, models, views e controllers, assim como criamos nosso primeiro site, que pode ficar guardado em nosso GitHub como portfólio de estudos.
 
-Mas quero deixar um desafio para você: termine este currículo adicionando mais informações. Se possível, coloque links para os seus projetos pessoais, iniciativas que você participa e depois compartilhe o link comigo no meu Twitter: [@_uillaz](https://twitter.com/_uillaz). Isso é extremamente importante para que você saia do fluxo de eu estar te dizendo o que fazer e realmente comece a fazer algo com o que você já sabe, ajudando a escapar das [armadilhas do caminho do arco-íris](/posts/o-caminho-do-arco-iris-estudando-programação/).
+Mas quero deixar um desafio para você: termine este currículo adicionando mais informações. Se possível, coloque links para os seus projetos pessoais, iniciativas que você participa e depois compartilhe o link comigo no meu Twitter: [@_malabarizando](https://twitter.com/_malabarizando). Isso é extremamente importante para que você saia do fluxo de eu estar te dizendo o que fazer e realmente comece a fazer algo com o que você já sabe, ajudando a escapar das [armadilhas do caminho do arco-íris](/posts/o-caminho-do-arco-iris-estudando-programação/).
 
 O código final gerado neste tutorial está neste link: [github.com/woliveiras/curriculo-expresso](https://github.com/woliveiras/curriculo-expresso).
 

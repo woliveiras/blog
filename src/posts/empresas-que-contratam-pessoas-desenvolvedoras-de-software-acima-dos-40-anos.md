@@ -84,7 +84,7 @@ Se você fizer parte desse grupo e está procurando emprego, já mande seu curr�
 
 Se quiser olhar os posts nas redes sociais, foram esses aqui:
 
-- "Qual empresa em São Paulo emprega pessoas de tecnologia (programação) acima de 40 anos?", no Twitter, [neste link](https://twitter.com/_uillaz/status/1049604231727079425).
+- "Qual empresa em São Paulo emprega pessoas de tecnologia (programação) acima de 40 anos?", no Twitter, [neste link](https://twitter.com/_malabarizando/status/1049604231727079425).
 - "Qual empresa em São Paulo emprega pessoas de tecnologia (programação) acima de 40 anos?", no LinkedIn, [neste link](https://www.linkedin.com/feed/update/urn:li:activity:6455369858145099776).
 
 Inlcusive, no LinkedIn, tivemos pessoas de recrutamento deixando seus contatos, então corre conferir lá! :grin:

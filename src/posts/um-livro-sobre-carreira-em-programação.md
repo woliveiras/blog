@@ -143,7 +143,7 @@ Como já disse Mandela:
 Se você quiser adquirir o livro, fica de olho no site da Casa do Código ou nas minhas redes sociais para saber quando for publicado. :grin:
 
 - [Casa do Código](https://www.casadocodigo.com.br/)
-- [Meu Twitter](https://twitter.com/_uillaz)
+- [Meu Twitter](https://twitter.com/_malabarizando)
 - [Meu LinkedIn](https://linkedin.com/in/william-oliveira)
 
 ## Referências

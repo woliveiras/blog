@@ -8,19 +8,6 @@
   <link rel="alternate" type="application/rss+xml" title="{{ site.title }}" href="{{ site.url }}/feed.xml" />
   <link rel="icon" href="{{ site.faviconPath }}" type="image/png" />
   {% include "partials/global/meta-info.njk" %}
-  {% if site.ga %}
-  <!-- Google -->
-  <script async src="https://www.googletagmanager.com/gtag/js?id={{ site.ga }}"></script>
-  <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script> 	
-  <script>
-      window.dataLayer = window.dataLayer || [];
-      function gtag() { dataLayer.push(arguments); }
-      gtag('js', new Date());
-
-      gtag('config', '{{ site.ga }}');
-  </script>
-  <!-- /Google -->
-  {% endif %}
   <script>document.documentElement.classList.remove('no-js');</script>
   <style>{% include "assets/css/global.css" %}</style>
   {% block head %}

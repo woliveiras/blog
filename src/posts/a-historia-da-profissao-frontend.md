@@ -107,7 +107,7 @@ Esteja, você, pessoa desenvolvedora de software, preparada para as próximas ev
 
 Qual será que é o futuro da nossa profissão?
 
-Envie sua opinião pro meu Twitter, [@_uillaz](https://twitter.com/_uillaz), e vamos bater um papo. 
+Envie sua opinião pro meu Twitter, [@_malabarizando](https://twitter.com/_malabarizando), e vamos bater um papo. 
 
 
 ## Outras referências
