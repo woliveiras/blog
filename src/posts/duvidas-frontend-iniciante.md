@@ -92,6 +92,6 @@ Vem comigo!
 - [Como se tornar frontend dev](https://willianjusten.com.br/como-se-tornar-um-desenvolvedor-front-end)
 - [10 dicas que desenvolvedores web iniciantes devem saber](https://desenvolvimentoparaweb.com/miscelanea/10-dicas-desenvolvedores-web-iniciantes-devem-saber/)
 
-Se você chegou até aqui, não esqueça de compartilhar este conteúdo por aí e me seguir no Twitter ([@_malabarizando](https://twitter.com/_malabarizando)) e na Twitch.tv ([@uillaz](https://twitch.tv/uillaz)).
+Se você chegou até aqui, não esqueça de compartilhar este conteúdo por aí e me seguir no Twitter ([@1ilhas](https://twitter.com/1ilhas)) e na Twitch.tv ([@uillaz](https://twitch.tv/uillaz)).
 
 <span>Photo by <a href="https://unsplash.com/@worldsbetweenlines?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Patrick Hendry</a> on <a href="https://unsplash.com/?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Unsplash</a></span>

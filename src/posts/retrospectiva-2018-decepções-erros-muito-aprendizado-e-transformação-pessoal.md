@@ -170,4 +170,4 @@ Se você gosta do meu conteúdo, não esqueça de contribuir via Apoia.se: [Apoi
 
 Esse ano foi extremamente produtivo para mim e eu consegui ter uma auto reflexão bem legal. Espero que pra você tenha sido um ciclo produtivo também.
 
-Para o ano que vem vou focar muito no meu conteúdo, então não de me seguir no Twitter ([@_malabarizando](https://twitter.com/_malabarizando)) para receber minhas novidades!
+Para o ano que vem vou focar muito no meu conteúdo, então não de me seguir no Twitter ([@1ilhas](https://twitter.com/1ilhas)) para receber minhas novidades!

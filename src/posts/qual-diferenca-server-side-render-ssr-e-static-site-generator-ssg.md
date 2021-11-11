@@ -99,7 +99,7 @@ Chegamos ao entendimento de que um site estático é uma página que não é ger
 
 Compreendemos que os dois casos são úteis em cenários diferentes e que precisamos analisar esses cenários antes de escolher qual abordagem seguir.
 
-Se você tiver qualquer dúvida sobre o assunto ou quiser que eu complemente este assunto com mais artigos, compartilhe esse artigo me marcando no Twitter ([@_malabarizando](https://twitter.com/_malabarizando)) e diga como eu posso ajudar. Estou aqui para isso mesmo! 
+Se você tiver qualquer dúvida sobre o assunto ou quiser que eu complemente este assunto com mais artigos, compartilhe esse artigo me marcando no Twitter ([@1ilhas](https://twitter.com/1ilhas)) e diga como eu posso ajudar. Estou aqui para isso mesmo! 
 
 ### Referências
 

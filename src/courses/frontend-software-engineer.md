@@ -7,7 +7,7 @@ permalink: '/curso/frontend-software-engineer/index.html'
 
 Curso ao vivo ministrado nas terças e quintas às 20hs na [Twitch.tv/uillaz](https://www.twitch.tv/uillaz).
 
-Para acompanhar todas as novidades ou saber quando tem live aleatória, fica de olho no meu Twitter: [@_malabarizando](https://twitter.com/_malabarizando).
+Para acompanhar todas as novidades ou saber quando tem live aleatória, fica de olho no meu Twitter: [@1ilhas](https://twitter.com/1ilhas).
 
 Caso queira aprender mais ainda sobre o Universo da Programação, siga o meu canal e/ou compre o meu livro sobre a carreira em desenvolvimento de software:
 

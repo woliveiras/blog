@@ -23,4 +23,4 @@ Possuo um projeto social de iniciativa pessoal para disponibilizar informação 
 Caso queira me adicionar nas suas redes sociais, segue meu LinkedIn e Twitter, redes onde sou ativo:
 
 - [**LinkedIn**](https://www.linkedin.com/in/william-oliveira/)
-- [**Twitter**](https://twitter.com/_malabarizando)
+- [**Twitter**](https://twitter.com/1ilhas)

@@ -13,7 +13,7 @@ Recentemente compartilhei um curso de programação exclusivo para **pessoas tra
 
 Estou acostumado com isso, afinal trabalho com diversidade e inclusão desde 2015 e já vi esta pergunta se repetir tantas vezes quanto nós temos vontade de responder. Isso não é nenhum pecado, você não é uma má pessoa por questionar isso. A maioria das pessoas se pergunta o mesmo, só não tem coragem de expor o que pensam. Então pensei em sintetizar o que sei sobre o assunto neste texto para facilitar o nosso entendimento e quem sabe conseguir esclarecer sobre o assunto de cursos exclusivos para minorias sociais.
 
-Para começar, vamos refletir sobre o contexto das pessoas em situação de vulnerabilidade social, depois passar sobre representatividade e enfim concluir nosso raciocínio sobre inclusão. Caso ainda tenha alguma questão sobre isso, pode me chamar nas redes sociais ([@_malabarizando no Twitter](https://twitter.com/_malabarizando) e [@_malabarizando no Instagram](https://www.instagram.com/_malabarizando/)), estou a disposição para ajudar.
+Para começar, vamos refletir sobre o contexto das pessoas em situação de vulnerabilidade social, depois passar sobre representatividade e enfim concluir nosso raciocínio sobre inclusão. Caso ainda tenha alguma questão sobre isso, pode me chamar nas redes sociais ([@1ilhas no Twitter](https://twitter.com/1ilhas) e [@1ilhas no Instagram](https://www.instagram.com/1ilhas/)), estou a disposição para ajudar.
 
 ## O ambiente social é excludente
 

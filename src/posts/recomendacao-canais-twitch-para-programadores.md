@@ -15,7 +15,7 @@ Faz algum tempo que eu uso a Twitch, plataforma de streaming de games que se tor
 
 Com o crescimento da plataforma, muitas pessoas desenvolvedoras e até empresas de software começaram a utilizar a Twitch para compartilhar conhecimento e isso é ótimo. Visando divulgar ainda mais o conteúdo maravilhoso que temos por lá, decidi unir os canais que tenho acompanhado para que mais pessoas cheguem até eles.
 
-Se você tiver alguma recomendação de conteúdo maneiro, me manda no Twitter, por favor. É o [@_malabarizando](https://twitter.com/_malabarizando).
+Se você tiver alguma recomendação de conteúdo maneiro, me manda no Twitter, por favor. É o [@1ilhas](https://twitter.com/1ilhas).
 
 Além de conteúdo via live, eu também sou viciado em podcast, então tenho uma outra lista bem legal com vários podcasts para você conhecer. Confere a lista de recomendação de podcasts [aqui](/posts/recomendações-de-podcasts-variados-para-programadores-de-todos-os-níveis/).
 

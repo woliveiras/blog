@@ -17,7 +17,7 @@ Este ano foi o mais intenso que eu já vivi. Foram muitas realizações, diversa
 
 Quem me segue no Twitter também viu muita coisa acontecendo e alguns meses onde eu postava demais e outros em que eu sumia por causa de algum compromisso.
 
-[Twitter - @_malabarizando](https://twitter.com/_malabarizando)
+[Twitter - @1ilhas](https://twitter.com/1ilhas)
 
 O começo do ano foi mais parado, onde eu postava poucos artigos e estava focado no ABC-Dev, estudos e Training Center.
 
