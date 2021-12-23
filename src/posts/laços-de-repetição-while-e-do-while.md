@@ -410,7 +410,7 @@ Agora, ao executar nosso código final, devemos ter um resultado parecido com o 
 
 Nos próximos artigos vamos aprender os outros laços de repetição e escopo, algo extremamente importante dentro do desenvolvimento de software.
 
-Se você gosta do meu conteúdo, não esqueça de contribuir via Apoia.se: [Apoia.se: William Oliveira](https://apoia.se/malabarizando).
+Se você gosta do meu conteúdo, não esqueça de contribuir via Apoia.se: [Apoia.se: William Oliveira](https://apoia.se/uillaz).
 
 ## <a name='Referncias'></a>Referências
 

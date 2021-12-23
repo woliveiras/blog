@@ -92,7 +92,7 @@ E muito mais! Podemos usar nossa criatividade para pensar na melhor maneira de c
 
 Sobre o apoio coletivo mensal, existem opções de doarmos 5 reais para a pessoa, por mês, e isso já é um mega incentivo.
 
-Se você quiser contribuir com o meu trabalho, por exemplo, pode fazer isso via Apoia.se, neste link [Apoia.se/william-oliveira](https://apoia.se/malabarizando).
+Se você quiser contribuir com o meu trabalho, por exemplo, pode fazer isso via Apoia.se, neste link [Apoia.se/william-oliveira](https://apoia.se/uillaz).
 
 O meu blog, assim como de algumas outras pessoas nas comunidades, é open source. Você pode corrigir o erro diretamente no artigo que você encontrou e enviar um pull request. É uma ajuda ainda maior e nós aceitamos de muito bom grado. Se encontrar algum erro, não se acanhe, envia o PR aqui [woliveiras.github.io/](https://github.com/woliveiras/woliveiras.github.io).
 

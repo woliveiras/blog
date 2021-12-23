@@ -2,18 +2,18 @@
   "items": [
     {
       "text": "Apoiar",
-      "url": "https://apoia.se/malabarizando",
+      "url": "https://apoia.se/uillaz",
       "external": true
     },
     {
-      "text": "Cursos",
-      "url": "/cursos",
-      "external": true
+      "text": "Aprenda Programar",
+      "url": "/curso/aprenda-programacao-javascript",
+      "external": false
     },
     {
       "text": "Projeto social",
       "url": "/apoio-social",
-      "external": true
+      "external": false
     },
     {
       "text": "Sobre",

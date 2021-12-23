@@ -239,7 +239,7 @@ Com todo este conhecimento em mãos (ou na cabeça), agora podemos começar a ap
 
 Nos próximos capítulos deste curso vamos aprender a linguagem de programação JavaScript, os primeiros comandos para fazer coisas funcionarem e vamos praticar muito!
 
-Se você gosta do meu conteúdo, não esqueça de contribuir via Apoia.se: [William Oliveira](https://apoia.se/malabarizando).
+Se você gosta do meu conteúdo, não esqueça de contribuir via Apoia.se: [William Oliveira](https://apoia.se/uillaz).
 
 Se você é uma pessoa curiosa e com recursos fincanceiros, tudo o que você precisa saber para entender como os computadores e os programas funcionam, você encontra neste livro aqui: [Organização Estruturada de Computadores, Andrew Tanenbaum](https://amzn.to/2FKAJVy).
 
