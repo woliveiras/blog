@@ -21,7 +21,7 @@ Este espaço é reservado para grupos de minorias sociais.
 
 **Se você não faz parte de nenhum [destes grupos](https://brasilescola.uol.com.br/sociologia/minorias-sociais.htm), por favor não adicionar o seu perfil na lista.**
 
-Coloque seu nome e LinkedIn na lista utilizando o formato abaixo através de um pull request nesta página no link: [woliveiras.github.io/me-contrata.md](https://github.com/woliveiras/woliveiras.github.io/me-contrata.md)
+Coloque seu nome e LinkedIn na lista utilizando o formato abaixo através de um pull request nesta página no link: [woliveiras.github.io/me-contrata.md](https://github.com/woliveiras/woliveiras.github.io/blob/main/src/pages/me-contrata.md)
 
 ```text
 | [nome](linkedin) | especialidade | 
