@@ -7,7 +7,7 @@ tags:
 description: Muita gente abandona as comunidades de programação por causa do comportamento tóxico de algumas pessoas. Hoje eu estou aqui para te pedir que não desanime.
 socialImage: '/images/posts/clay-banks-LjqARJaJotc-unsplash.jpg'
 ---
-Eu amo comunidades e acredito que sempre vou gostar, mas hoje eu não participo de nenhuma. Minha saúde mental e minha energia melhoraram muito depois que eu parei de frequentar os canais do Slack, servers no Discords ou grupos no Telegram. Até mesmo meu conteúdo melhorou para as [pessoas que me seguem](https://twitch.tv/uillaz).
+Eu amo comunidades e acredito que sempre vou gostar, mas hoje eu não participo de nenhuma. Minha saúde mental e minha energia melhoraram muito depois que eu parei de frequentar os canais do Slack, servers no Discords ou grupos no Telegram. Até mesmo meu conteúdo melhorou para as [pessoas que me seguem](https://twitch.tv/1ilhas).
 
 Já ministrei palestras, dei aulas, ajudei eventos, criei eventos, participei e fundei comunidades, além de gerar conteúdo e prestar mentoria. Isso tudo é muito legal. Mas sempre tem uma parte boa e uma ruim em interagir com muitas pessoas.
 

@@ -16,7 +16,7 @@ O melhor setup que encontrei para trabalhar com programação foi o ambiente Lin
 
 Fiquei com essas ferramentas durante muitos anos, pois é o que melhor funciona com tudo o que uso no dia a dia, mas hoje o Windows 10 veio para me surpreender. A possibilidade de utilizar ferramentas UNIX dentro do próprio Windows, sem precisar de um VirtualBox da vida é algo muito bom, a integração do WSL2 com VS Code está LINDA e explico o porque e como estou utilizando logo abaixo.
 
-Hoje o meu ambiente de trabalho é, em sua maior parte do tempo, focado em JavaScript para frontend. E recentemente precisei voltar ao Windows por ser a melhor ferramenta para trabalhar com streaming na [Twitch](https://twitch.tv/uillaz). Sério, mesmo se você for uma pessoa tão focada no open source como eu, o Windows me surpreendeu muito e é útil no **meu** fluxo de trabalho hoje em dia.
+Hoje o meu ambiente de trabalho é, em sua maior parte do tempo, focado em JavaScript para frontend. E recentemente precisei voltar ao Windows por ser a melhor ferramenta para trabalhar com streaming na [Twitch](https://twitch.tv/1ilhas). Sério, mesmo se você for uma pessoa tão focada no open source como eu, o Windows me surpreendeu muito e é útil no **meu** fluxo de trabalho hoje em dia.
 
 Vamos ao que interessa, que é a configuração que estou utilizando para trabalhar com frontend.
 

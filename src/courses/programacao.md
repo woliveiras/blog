@@ -1,5 +1,5 @@
 ---
-title: "Agenda dos cursos de programação"
+title: "Agenda dos cursos de programação grátis e ao vivo"
 description: "Cursos de programação, JavaScript, TypeScript e frontend ao vivo na Twitch"
 permalink: '/curso/programacao/index.html'
 ---

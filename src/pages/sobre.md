@@ -16,7 +16,7 @@ Para isso eu utilizo este blog como meio de comunicação com essas pessoas. Sej
 
 Sou autor do livro "[O universo da programação](https://bit.ly/universo-da-programacao)", um livro para quem deseja entrar na área de programação pela editora [Casa do Código](https://casadocodigo.com.br).
 
-E também tenho um canal na Twitch [twitch.tv/uillaz](https://twitch.tv/uillaz), onde complemento alguns assuntos que não cabem em texto, além de fazer lives, cursos e trazer gente fera para conversar sobre programação no geral.
+E também tenho um canal na Twitch [twitch.tv/uillaz](https://twitch.tv/1ilhas), onde complemento alguns assuntos que não cabem em texto, além de fazer lives, cursos e trazer gente fera para conversar sobre programação no geral.
 
 Possuo um projeto social de iniciativa pessoal para disponibilizar informação para pessoas de baixa renda e grupos de minorias através da doação de cursos e livros de programação, afim de trazer essas pessoas para a área que mais cresce no mundo! Conheça essa iniciativa clicando [aqui](/apoio-social/).
 
