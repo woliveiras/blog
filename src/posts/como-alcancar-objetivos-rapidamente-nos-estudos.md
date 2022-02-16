@@ -6,19 +6,30 @@ tags:
 date: '2015-01-27'
 description: Como aprender mais rápido, como ser mais produtivo nos estudos.
 ---
+<!-- vscode-markdown-toc -->
+* [Listas de novo](#Listasdenovo)
+	* [O que você vai estudar?](#Oquevocvaiestudar)
+	* [Como você vai aprender?](#Comovocvaiaprender)
+	* [Descanse](#Descanse)
+
+<!-- vscode-markdown-toc-config
+	numbering=false
+	autoSave=true
+	/vscode-markdown-toc-config -->
+<!-- /vscode-markdown-toc -->
 
 Essa é mais uma dica sobre produtividade, porém agora é nos estudos.
 Nós, Desenvolvedores, temos de estudar muito. Todo dia alguma ferramenta atualiza ou algo vira tendência e passa a ser usado no serviço e temos de aprender. E como fazer para aprender tudo isso sem ficar louco e de um jeito que consiga alcançar os objetivos mais rapidamente?
 
 Se você não leu meu post anterior sobre produtividade da uma olhada [aqui](/posts/como-ser-mais-produtivo/ "Como ser mais produtivo?").
 
-## Listas de novo
+## <a name='Listasdenovo'></a>Listas de novo
 
 Eu aprendi que fazer listas para tudo é uma ótima maneira de você ter certeza que vai concluir algo. Parece que você se obriga a fazer aquilo e se apagar da lista sem concluir parece um pecado! No caso de estudos não é diferente.
 
 **Vamos ao passo a passo.**
 
-### O que você vai estudar?
+### <a name='Oquevocvaiestudar'></a>O que você vai estudar?
 
 Em uma folha escreva **10 itens** que você precisa estudar ou que eu deseja aprender. Pode ser qualquer coisa, não necessariamente sobre programação.
 Ex.:
@@ -38,7 +49,7 @@ Deixe essa folha separada. Ela servirá como um índice do que você quer aprend
 
 
 
-### Como você vai aprender?
+### <a name='Comovocvaiaprender'></a>Como você vai aprender?
 
 Agora analise desses 10 itens.
 
@@ -74,7 +85,7 @@ Faça isso para cada item da lista.
 
 Faça isso para cada item dos dez que queria aprender. Depois escolha por qual deseja começar.
 
-### Descanse
+### <a name='Descanse'></a>Descanse
 
 Entre um item e outro da lista, é necessário - Não obrigatório se você for um robô - que tire uma pausa. Dê um tempo para sua mente descansar. Se você se estressar demais, de nada vai adiantar essa lista.
 

@@ -14,7 +14,19 @@ Se você não sabe o que é JAMstack, confere este artigo: [JAMstack introduçã
 
 Neste artigo vamos criar um site simples e hospedar no GitHub Pages. O importante será entender o fluxo e como o GitHub Pages funciona.
 
-## Passo a passo
+
+<!-- vscode-markdown-toc -->
+* [Passo a passo](#Passoapasso)
+* [Como funciona um novo deploy](#Comofuncionaumnovodeploy)
+* [Conclusão](#Concluso)
+
+<!-- vscode-markdown-toc-config
+	numbering=false
+	autoSave=true
+	/vscode-markdown-toc-config -->
+<!-- /vscode-markdown-toc -->
+
+## <a name='Passoapasso'></a>Passo a passo
 
 Podemos criar um repositório para hospedar nosso site no GitHub Pages de duas maneiras: criando um repositório normal e adicionando uma branch **gh-pages** ou da maneira mais fácil que é criando um repositório com o seu nome de usuário ou o nome da sua organização + .github.io no nome do repositório.
 
@@ -49,7 +61,7 @@ Somente com essa configuração já temos um site no ar. Se entrarmos no domíni
 
 Agora basta subir um tema bonito para o nosso site e pronto! Temos nosso primeiro site hospedado de graça no GitHub Pages.
 
-## Como funciona um novo deploy
+## <a name='Comofuncionaumnovodeploy'></a>Como funciona um novo deploy
 
 Tudo o que você enviar para a branch master do seu repositório será automágicamente enviado para produção.
 
@@ -65,7 +77,7 @@ Para maiores informações sobre essa troca de branch, confira aqui: [Configurin
 
 Se você for utilizar algo diferente do Jekyll ou de um site simples no GitHub Pages, será necessário utilizar um esquema de Continuous Integration, como o Travis: [Postando no blog estático direto pelo GitHub com Hexo e Travis CI](/posts/postando-no-blog-estático-direto-pelo-github-com-hexo-e-travis-ci/)
 
-## Conclusão
+## <a name='Concluso'></a>Conclusão
 
 Criar nosso site JAMstack e hospedar de graça no GitHub Pages é simples assim: criar um repositório e subir nossos arquivos estáticos para lá.
 

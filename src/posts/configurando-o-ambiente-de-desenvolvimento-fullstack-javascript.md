@@ -10,6 +10,7 @@ tags:
     - curso-fullstack
 description: Para trabalhar com programação precisamos de um bom editor de textos e do ambiente de execução da nossa linguagem de programação. Neste artigo vamos conhecer um editor legal e aprender a instalar versões do Node.js, que irá executar nosso código JavaScript.
 ---
+
 Aprender programação utilizando JavaScript como ferramenta de desenvolvimento nos possibilita algo bem interessante que é: não precisamos instalar nada para começar a estudar. Basta um navegador e um editor de textos qualquer, como o Notepad do Windows, Gedit ou Xed do Linux ou o TextEdit do Mac.
 
 Se o objetivo for somente aprender os comandos básicos, sem nem mesmo criar arquivos ou exibir informações no navegador, tudo o que precisamos é do devtools (ferramentas de desenvolvedor do navegador) e nada mais.

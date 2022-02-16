@@ -9,6 +9,18 @@ tags:
     - npm
 description: Dica para quem quer testar features do JavaScript, estudar a linguagem ou algo do tipo utilizando o Node.js e não deseja rodar o mesmo comando toda hora no terminal para executar o script
 ---
+<!-- vscode-markdown-toc -->
+* [Utilizando o watch para escutar alterações em uma pasta](#Utilizandoowatchparaescutaralteraesemumapasta)
+* [Instalando o watch](#Instalandoowatch)
+* [Utilizando o pacote watch](#Utilizandoopacotewatch)
+* [Conclusão](#Concluso)
+* [Referências](#Referncias)
+
+<!-- vscode-markdown-toc-config
+	numbering=false
+	autoSave=true
+	/vscode-markdown-toc-config -->
+<!-- /vscode-markdown-toc -->
 
 Recentemente estava fazendo alguns experimentos com JavaScript e rodando via Node.js, porém toda vez que eu alterava o script, caia na tristeza de ter que mudar de tela para o Terminal e rodar novamente `node --experimental-modules index.mjs`, o que acaba sendo meio incômodo depois da 50 vez.
 
@@ -26,13 +38,13 @@ Onde **index.mjs** importa o **queue.mjs** ou outros arquivos que eu fosse crian
 
 Dentro do meu index.mjs havia um **console.log** ou mais para imprimir no terminal o resultado das minhas funções.
 
-## Utilizando o watch para escutar alterações em uma pasta
+## <a name='Utilizandoowatchparaescutaralteraesemumapasta'></a>Utilizando o watch para escutar alterações em uma pasta
 
 Para executar o watch e “escutar” as alterações que fazemos em nossos arquivos será necessário instalar o pacote e então rodar ele no terminal ou criar uma rotina no nosso NPM Scripts.
 
 
 
-## Instalando o watch
+## <a name='Instalandoowatch'></a>Instalando o watch
 
 Execute no terminal:
 
@@ -48,7 +60,7 @@ npm install watch --save
 
 Neste caso será necessário que você tenha o arquivo package.json em seu projeto, se não tiver execute um **npm init -y** antes do install.
 
-## Utilizando o pacote watch
+## <a name='Utilizandoopacotewatch'></a>Utilizando o pacote watch
 
 Para utilizar o watch basta rodar no terminal:
 
@@ -79,7 +91,7 @@ Caso você não queira continuar rodando esse comando imenso toda vez, pode cria
 
 Neste caso, toda vez que eu rodar o **npm start** o pacote watch ficará acompanhando as alterações e re-executando o comando para mim.
 
-## Conclusão
+## <a name='Concluso'></a>Conclusão
 
 Essa é uma dica rápida para quem quer testar features do JavaScript, quer estudar a linguagem ou algo do tipo utilizando o Node.js e não quiser ter que rodar o mesmo comando toda hora no terminal.
 
@@ -87,7 +99,7 @@ Eu rodei essa opção (utilizando um pacote NPM) para não instalar nada globalm
 
 Espero que te ajude!
 
-## Referências
+## <a name='Referncias'></a>Referências
 
 - [ECMAScript Modules](https://nodejs.org/api/esm.html)
 - [NPM - watch](https://www.npmjs.com/package/watch)

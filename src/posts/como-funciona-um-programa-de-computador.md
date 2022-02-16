@@ -9,23 +9,49 @@ tags:
     - curso-fullstack
 description: Antes de aprender lógica e uma linguagem de programação, precisamos saber como de fato um computador funciona, pois só assim vamos entender como funciona um programa de computador. Neste artigo vamos aprender sobre isso e no final ainda temos um primeiro comando para você executar em sua máquina para exibir uma mensagem na tela.
 ---
+
+<!-- vscode-markdown-toc -->
+* [Componentes de um computador](#Componentesdeumcomputador)
+	* [Placa mãe](#Placame)
+	* [Processadores](#Processadores)
+	* [Memória primária](#Memriaprimria)
+	* [Memória secundária](#Memriasecundria)
+	* [Dispositivos de entrada e saída](#Dispositivosdeentradaesada)
+	* [Sistemas operacionais](#Sistemasoperacionais)
+* [Linguagens de programação](#Linguagensdeprogramao)
+	* [Linguagens de baixo nível](#Linguagensdebaixonvel)
+	* [Linguagens de alto nível](#Linguagensdealtonvel)
+* [Programas](#Programas)
+	* [Linguagens compiladas](#Linguagenscompiladas)
+	* [Linguagens interpretadas](#Linguagensinterpretadas)
+	* [Máquinas virtuais](#Mquinasvirtuais)
+* [Nosso primeiro hello world](#Nossoprimeirohelloworld)
+* [Conclusão](#Concluso)
+* [Referências](#Referncias)
+
+<!-- vscode-markdown-toc-config
+	numbering=false
+	autoSave=true
+	/vscode-markdown-toc-config -->
+<!-- /vscode-markdown-toc -->
+
 Até aqui aprendemos ferramentas de programação, como o [terminal](/posts/introdução-ao-terminal/), [Git](/posts/introdução-a-versionamento-de-código-e-conhecendo-o-git/) e [GitHub](/posts/trabalhando-com-repositórios-remotos-git-e-github/). Durante esse aprendizado, conhecemos bem pouco da história dos computadores. Vimos que antigamente os sistemas operacionais não possuíam interface gráfica. Seu hardware era de baixa capacidade (se comparado a hoje em dia) e por isso era necessário que os programas fossem altamente otimizados.
 
 Aprendemos que softwares são compostos por alguns ou milhares de arquivos e que o sistema operacional é responsável por cuidar de como tudo isso vai funcionar, mas enquanto desenvolvemos trabalhamos com versionamento de código para garantir que nada vai quebrar na mão do usuário final devido a alguma de nossas alterações.
 
 Agora podemos entrar em programação de fato. Antes mesmo de escrever nossas primeiras (ou não) linhas de código, precisamos entender **como funciona um programa de computador**. Como pode um monte de texto se transformar em algo visual na nossa tela, em um aplicativo, em uma rotina que automatiza processos. Para tal é importante aprender sobre arquitetura de computadores.
 
-## Componentes de um computador
+## <a name='Componentesdeumcomputador'></a>Componentes de um computador
 
 Existem componentes em um computador que são muito importantes para o seu funcionamento. Podemos listar aqui alguns que você já até deve conhecer ou ter ouvido falar: placa mãe, processador, memória primária, memória secundária, dispositivos de entrada e saída e o sistema operacional.
 
-### Placa mãe
+### <a name='Placame'></a>Placa mãe
 
 A placa mãe é quem conecta todos os nossos componentes. Ela é uma placa eletrônica com trilhas de metal que trafegam a eletricidade através dos componentes eletrônicos do PC, servindo tanto para alimentar estes componentes, quanto para trafegar a informação entre eles.
 
 Quando ligamos o PC, existe um comando elétrico, que ativa algum comando dentro do computador, no processador, que faz com que ele vá se ativando e ativando todos os outros componentes necessários para o seu funcionamento.
 
-### Processadores
+### <a name='Processadores'></a>Processadores
 
 O processador é a parte central do nosso computador, por isso seu nome é CPU (unidade central de processamento, em português). É ele quem faz todas as contas para que aconteça algo em nosso computador. Internamente é tudo 0 e 1. Não existem instruções dizendo para o processador “faça isso” ou “faça aquilo”. O que acontece são contas binárias que ligam ou desligam transistores de dentro desses componentes eletrônicos tão importantes através da lógica binária. O processador entende esses 0s e 1s como “liga” ou “desliga” a corrente elétrica que passa por dentro dele através dos seus transistores.
 
@@ -45,7 +71,7 @@ Apenas com esses operadores lógicos o processador calcula tudo o que precisamos
 
 Dentro do processador existe algo chamado código de máquina, que são as instruções que o processador sabe interpretar e executar. Um código de máquina não é muito legível para seres humanos. Mais a frente vamos conhecer as linguagens de programação e assim vamos aprender sobre linguagens de alto e baixo nível.
 
-### Memória primária
+### <a name='Memriaprimria'></a>Memória primária
 
 A memória não é tão interessante quanto o processador, porém sua função é primordial para o funcionamento do nosso computador, do nosso sistema operacional e dos programas que rodamos.
 
@@ -53,13 +79,13 @@ A memória não é tão interessante quanto o processador, porém sua função �
 
 A memória primária é a nossa memória RAM, aquela que normalmente ouvimos falar quando queremos comprar um computador ou celular. Normalmente de 2 GB para frente (hoje em dia), mas já foram de capacidade muito menores, assim como os programas que eram executados utilizando elas.
 
-### Memória secundária
+### <a name='Memriasecundria'></a>Memória secundária
 
 Na memória primária os dados são armazenados de maneira temporária. Se você copiar algo utilizando o CTRL+C, este dado é armazenado na memória primária, nossa memória RAM, mas ao reiniciar o sistema operacional vai perceber que isso não está mais na área de transferência. Se você pressionar CTRL+V assim que ligar o PC, nada vai acontecer.
 
 Para guardar informações para depois, utilizamos a memória secundária, nosso disco rígido (o HD), um DVD, um pen-drive. Esses dispositivos possuem suas tecnologias para guardar os 0s e 1s de maneira que possamos recuperar isso depois.
 
-### Dispositivos de entrada e saída
+### <a name='Dispositivosdeentradaesada'></a>Dispositivos de entrada e saída
 
 Com o uso do processador nós processamos impulsos elétricos para transformar em dados, com a memória RAM nós temos uma área onde ficam rodando nossos programas e com o HD guardamos dados para depois, mas como nós adicionamos dados e como nós recuperamos isso no computador?
 
@@ -69,7 +95,7 @@ Assim como tudo dentro do nosso PC, esses dispositivos também processam eletric
 
 Para que algo apareça em nosso monitor, acontecem milhares de cálculos em menos de um segundo e tudo isso é trabalhado entre processador, memórias e placa de vídeo.
 
-### Sistemas operacionais
+### <a name='Sistemasoperacionais'></a>Sistemas operacionais
 
 O sistema operacional é uma coleção de milhares de programas que existem para gerenciar nosso computador e nossos programas. Toda aquela comunicação entre processador, memórias e placa de vídeo, trabalhada para mostrar algo na nossa tela, é orquestrada pelo sistema operacional.
 
@@ -77,7 +103,7 @@ Você já deve ter ouvido falar ou tido problemas com um driver no Windows, Linu
 
 Como eu comentei acima, o Windows, o Linux e o MacOS são os sistemas operacionais mais utilizados em PCs, porém existem outros tanto sendo utilizados em computadores pessoais como em servidores, os computadores que executam tarefas específicas, como nos enviar essa página que você está lendo.
 
-## Linguagens de programação
+## <a name='Linguagensdeprogramao'></a>Linguagens de programação
 
 Agora que entendemos, bem por cima, como funcionam os computadores, chegamos nos programas de fato. Mas para entender como um programa funciona, precisamos entender as linguagens de programação.
 
@@ -85,7 +111,7 @@ As linguagens de programação existem para que uma pessoa possa escrever instru
 
 Existem muitas linguagens de programação e muitas maneiras de fazer um programa. Dentre essas, tem uma classificação que precisamos entender, que é a questão de linguagens de **alto** e **baixo** nível.
 
-### Linguagens de baixo nível
+### <a name='Linguagensdebaixonvel'></a>Linguagens de baixo nível
 
 As linguagens de baixo nível são aquelas mais próximas do código de máquina, como é a linguagem Assembly, que muitos de nós achamos terrível devido a nossa vivência com linguagens modernas.
 
@@ -148,7 +174,7 @@ len     equ     $-msg
 
 Nós não escrevemos mais em linguagens de baixo nível, somente em linguagens de alto nível que são compreensíveis por seres humanos (normais).
 
-### Linguagens de alto nível
+### <a name='Linguagensdealtonvel'></a>Linguagens de alto nível
 
 As linguagens de alto nível são legíveis por seres humanos e algumas são tão declarativas que parece que você está escrevendo uma história em inglês. A primeira linguagem de alto nível é a Plankalkül e hoje em dia ela já não seria algo tão legal.
 
@@ -176,13 +202,13 @@ Se traduzirmos a palavra **print**, entendemos que estamos mandando o Python “
 
 Se você quiser saber mais sobre as linguagens de alto e baixo nível, confira este artigo [aqui](/posts/o-que-e-linguagem-de-programacao-de-alto-nivel/).
 
-## Programas
+## <a name='Programas'></a>Programas
 
 Como comentado até aqui, os programas são instruções que o computador irá executar. Esses programas nada mais são que arquivos, onde temos nossas instruções, escritas por pessoas desenvolvedoras de software em linguagens de programação. Este arquivo recebe o nome de **código fonte**.
 
 Para que o computador execute aquilo que escrevemos, em uma linguagem de alto nível, em nosso código fonte, precisamos transformar isso em código de máquina. Este processo de transformação pode ser através da interpretação ou compilação do nosso código fonte.
 
-### Linguagens compiladas
+### <a name='Linguagenscompiladas'></a>Linguagens compiladas
 
 Quando falamos de linguagens compiladas, temos aquelas em que nós, pessoas desenvolvedoras, escrevemos de uma maneira, em um modo de escrever legível e um outro software, o compilador, trata de transformar isso em código de máquina para que nossas instruções sejam executadas diretamente no sistema operacional ou no nosso processador.
 
@@ -199,13 +225,13 @@ int main()
 
 Mas para o código ser executado, precisa passar pelo compilador, como o [GCC](https://gcc.gnu.org/), um compilador que funciona em sistemas Linux.
 
-### Linguagens interpretadas
+### <a name='Linguagensinterpretadas'></a>Linguagens interpretadas
 
 Linguagens interpretadas são aquelas em que temos um meio do caminho entre nosso código - que nós escrevemos - e o código que o computador vai executar. Com meio do caminho podemos pensar em um programa que vai ler o que escrevemos, interpretar em tempo de execução e finalmente transformar em código de máquina que pode ser executado pelo sistema operacional/processador.
 
 Um grande exemplo de linguagem interpretada é a que será o foco do nosso curso, o JavaScript. Nós escrevemos JavaScript de modo que nós conseguimos entender o que falamos, mas na hora de executar, existe um programa que lê isso e transforma em código que o sistema operacional pode executar.
 
-### Máquinas virtuais
+### <a name='Mquinasvirtuais'></a>Máquinas virtuais
 
 As máquinas virtuais são softwares interpretadores que leem bytecode, um código intermediário entre código de máquina e código fonte. O bytecode é um código que é gerado para ser interpretado por uma máquina virtual através de um processo de compilação.
 
@@ -213,7 +239,7 @@ Quando rodamos o Java na nossa máquina para acessar um banco, na realidade esta
 
 O JavaScript possui uma “máquina virtual” que roda em nosso navegador, chamamos essas máquinas virtuais de JavaScript engines (motores de JavaScript). Elas fazem um processo um pouco diferente da JVM (a máquina virtual do Java). O que uma engine JavaScript faz é um processo de compilação em tempo de execução (Just in Time) para código de máquina que é executado pelo sistema operacional ou pelo processador.
 
-## Nosso primeiro hello world
+## <a name='Nossoprimeirohelloworld'></a>Nosso primeiro hello world
 
 Vamos executar nosso primeiro exemplo de código, para sair um pouco dessa teoria e ver a coisa funcionando.
 
@@ -231,7 +257,7 @@ Assim que você pressionar o enter, uma mensagem de texto será exibida na sua t
 
 ![Olá, mundo em JavaScript]({{site.postsImagesPath}}hello-js.png)
 
-## Conclusão
+## <a name='Concluso'></a>Conclusão
 
 Aprendemos o que são programas de computador, como funciona uma máquina dessas, como o processador funciona, depois conhecemos as linguagens de programação e os processos para que um código seja executado pelo nosso sistema operacional ou pelo nosso processador. Por fim ainda fizemos nosso hello world, o primeiro programa que sempre escrevemos ao estudar linguagens de programação.
 
@@ -243,7 +269,7 @@ Se você gosta do meu conteúdo, não esqueça de contribuir via Apoia.se: [Will
 
 Se você é uma pessoa curiosa e com recursos fincanceiros, tudo o que você precisa saber para entender como os computadores e os programas funcionam, você encontra neste livro aqui: [Organização Estruturada de Computadores, Andrew Tanenbaum](https://amzn.to/2FKAJVy).
 
-## Referências
+## <a name='Referncias'></a>Referências
 
 - [Lógica binária](https://pt.wikipedia.org/wiki/L%C3%B3gica_bin%C3%A1ria)
 - [Computer program](https://en.wikipedia.org/wiki/Computer_program)

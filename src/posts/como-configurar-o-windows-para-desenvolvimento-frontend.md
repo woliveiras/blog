@@ -9,6 +9,18 @@ tags:
 description: Como utilizar o Windows e as ferramentas de trabalho de frontend, como a linha de comando, Nodejs, Git, SSH, etc sem dor de cabeça
 socialImage: '/images/posts/ricardo-utsumi-el-5p9cG2o0-unsplash.jpg'
 ---
+<!-- vscode-markdown-toc -->
+* [Editor de textos](#Editordetextos)
+* [Terminal](#Terminal)
+* [WSL e Code](#WSLeCode)
+* [Ferramentas de linha de comando](#Ferramentasdelinhadecomando)
+* [Conclusão](#Concluso)
+
+<!-- vscode-markdown-toc-config
+	numbering=false
+	autoSave=true
+	/vscode-markdown-toc-config -->
+<!-- /vscode-markdown-toc -->
 
 Quando comecei no desenvolvimento de software, meu ambiente de programação era o Windows. Na época o Windows XP com Wamp, Notepad+ e Cmder. Se você não conhece nenhuma dessas ferramentas, não se preocupe, só comentei para ativar a nostalgia em algumas pessoas.
 
@@ -20,7 +32,7 @@ Hoje o meu ambiente de trabalho é, em sua maior parte do tempo, focado em JavaS
 
 Vamos ao que interessa, que é a configuração que estou utilizando para trabalhar com frontend.
 
-## Editor de textos
+## <a name='Editordetextos'></a>Editor de textos
 
 Independente de qual sistema operacional eu estiver, o meu editor de textos hoje em dia é o VS Code.
 
@@ -32,7 +44,7 @@ Eu costumo utilizar o editor da maneira como baixamos do site: [code.visualstudi
 
 Do modo como ele vem, já tem tudo o que eu preciso para trabalhar com JavaScript, React, React Native, Nodejs, Git e até o GitHub.
 
-## Terminal
+## <a name='Terminal'></a>Terminal
 
 Durante uma live, o [Guilherme Vieira](https://twitter.com/gitlherme), do perifaCode e Tecnogueto, recomendou que eu passasse a utilizar o terminal do Windows no lugar de utilizar o terminal do Ubuntu, que eu estou utilizando via WSL. 
 
@@ -44,7 +56,7 @@ Depois que comecei a utilizar ele, achei melhor do que o direto do Ubuntu (dentr
 
 Inclusive o Windows Terminal é open source e você pode ajudar o desenvolvimento da ferramenta: [github/microsoft/terminal](https://github.com/microsoft/terminal).
 
-## WSL e Code
+## <a name='WSLeCode'></a>WSL e Code
 
 Como eu comentei anteriormente, a integração do VS Code e WSL está algo maravilhoso, pois explico o porque.
 
@@ -58,13 +70,13 @@ Agora, ao abrir o Ubuntu via Windows Terminal, você pode rodar o seu Git (que p
 
 Se precisar de ajuda para rodar o Node.js via NVM, venha neste artigo que tem tudo o que você precisa: [configurando o ambiente de desenvolvimento fullstack JavaScript](/posts/configurando-o-ambiente-de-desenvolvimento-fullstack-javascript/).
 
-## Ferramentas de linha de comando
+## <a name='Ferramentasdelinhadecomando'></a>Ferramentas de linha de comando
 
 Algo que super recomendo a utilização, quando se trata de trabalhar com linha de comando, é utilizar o ZSH e o oh-my-zsh, que traz uma quantidade expressiva de comandos legais para agilizar o nosso fluxo de trabalho.
 
 Com o uso de WSL e Ubuntu, basta abrir o Windows Terminal, acessar o Ubuntu e rodar o `apt install zsh` e depois seguir o [oh-my-zsh](https://ohmyz.sh/).
 
-## Conclusão
+## <a name='Concluso'></a>Conclusão
 
 É sério, tudo o que você precisa para trabalhar com programação, especificamente com Nodejs e frontend, no Windows, é da instalação do WSL, VS Code e Windows Terminal. Todo o resto você pode fazer normalmente como se estivesse em qualquer ambiente Linux, que normalmente é o nosso padrão para desenvolvimento de software.
 

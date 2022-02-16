@@ -12,7 +12,24 @@ Você já deve ter ouvido falar, pelo menos uma vez, sobre [Docker](https://www.
 
 ![Docker]({{site.postsImagesPath}}docker.png)
 
-## Introdução
+<!-- vscode-markdown-toc -->
+* [Introdução](#Introduo)
+* [Pra que serve a virtualização de ambientes?](#Praqueserveavirtualizaodeambientes)
+* [Vagrant](#Vagrant)
+* [Docker](#Docker)
+* [Introdução ao Docker](#IntroduoaoDocker)
+* [Instalação no Ubuntu](#InstalaonoUbuntu)
+* [Configurando para não precisar de sudo ao executar o Docker](#ConfigurandoparanoprecisardesudoaoexecutaroDocker)
+* [Referências](#Referncias)
+
+<!-- vscode-markdown-toc-config
+	numbering=false
+	autoSave=true
+	/vscode-markdown-toc-config -->
+<!-- /vscode-markdown-toc -->
+
+
+## <a name='Introduo'></a>Introdução
 
 Eu também já ouvia falar do Docker a um bom tempo, porém nunca havia me aprofundado mais nessa ferramenta.
 
@@ -24,7 +41,7 @@ Vamos partir do começo...
 
 Caso você já conheça o Docker, pode pular direto para a [instalação no Ubuntu](#Instala_E7_E3o_no_Ubuntu).
 
-## Pra que serve a virtualização de ambientes?
+## <a name='Praqueserveavirtualizaodeambientes'></a>Pra que serve a virtualização de ambientes?
 
 Primeiro vamos entender de que *ambiente* estamos falando.
 
@@ -40,7 +57,7 @@ Sim, porém existem alternativas melhores.
 
 
 
-## Vagrant
+## <a name='Vagrant'></a>Vagrant
 
 Por um bom tempo usei o [Vagrant](/posts/vagrant-introducao-instalacao/) que trabalha com a API do VirtualBox, porém é mais rápido e utiliza um [dot-file](https://en.wikipedia.org/wiki/Dot-file), o Vagrantfile, dentre outras alternativas, como [Puppet](https://puppet.com/) ou [Chef](https://www.chef.io/), para automatizar a instalação e configuração de tudo o que precisamos no nosso ambiente de desenvolvimento.
 
@@ -50,7 +67,7 @@ Maravilhoso, certo?
 
 Sim, mas ainda da para melhorar.
 
-## Docker
+## <a name='Docker'></a>Docker
 
 O Vagrant inicia todo o Sistema Operacional, parecido com usar uma VM direto pelo VirtualBox, porém de uma maneira mais prática, rápida e automatizada. Só que isso acaba sendo um pouco ruim, pois o Hardware, Discos, Processador, Rede, etc, ainda será emulado dentro da VM. Isso vai pesar no nosso SO principal (o host) e pode até causar comportamento diferente para nossa aplicação dentro da VM e fora da VM devido ao host estar sobrecarregado. Para isso temos uma boa alternativa, o Docker!
 
@@ -58,13 +75,13 @@ Claro que da para evitar esse comportamento diferente, porém é mais trabalhoso
 
 O Docker trabalha com containers. Imagine seu computador como um navio cargueiro carregando vários containers e cada container com suas mercadorias separadas. É o que conseguimos fazer com o Docker. Ele isola os processos e serviços, mas utiliza os recursos da máquina hospedeira. O Hardware não será emulado dentro de uma VM. Ele usa diretamente o Kernel e recursos do Host. Isso o torna mais leve, pois o Kernel já fez uma boa parte do trabalho.
 
-## Introdução ao Docker
+## <a name='IntroduoaoDocker'></a>Introdução ao Docker
 
 Se você nunca utilizou o Docker, uma excelente maneira de aprender e entender TUDO sobre essa ferramenta é assistindo a [série de vídeos](https://www.youtube.com/watch?v=0cDj7citEjE) do [Jeferson Fernando](https://twitter.com/badtux_) no seu canal [Linux Tips](https://www.youtube.com/channel/UCJnKVGmXRXrH49Tvrx5X0Sw). No canal dele ainda tem muitos vídeos maneiros sobre [Git](https://www.youtube.com/watch?v=_aj3hsEh9iw) e Linux. Vale a pena seguir ele acompanhar o que esse mano fala sobre Infraestrutura.
 
 <iframe src="https://www.youtube.com/embed/0cDj7citEjE" frameborder="0" allowfullscreen></iframe>
 
-## Instalação no Ubuntu
+## <a name='InstalaonoUbuntu'></a>Instalação no Ubuntu
 
 Primeiro você precisa possuir a versão do Kernel atualizada ou a 3.10. Para verificar qual a versão utilize o comando abaixo:
 
@@ -135,7 +152,7 @@ Para verificar se está tudo rodando certinho, execute o container de *Hello Wor
 sudo docker run hello-world
 ```
 
-## Configurando para não precisar de sudo ao executar o Docker
+## <a name='ConfigurandoparanoprecisardesudoaoexecutaroDocker'></a>Configurando para não precisar de sudo ao executar o Docker
 
 Para não precisar usar o `sudo` sempre, execute o seguinte:
 
@@ -157,7 +174,7 @@ Logo menos vou postar mais dicas sobre Docker. Fique ligado!
 
 Compartilhe a palavra.
 
-## Referências
+## <a name='Referncias'></a>Referências
 
 - [Containers com Docker, do Desenvolvimento a Produção - Casa do Código](https://www.casadocodigo.com.br/products/livro-docker)
 - [Documentação oficial do Docker](https://docs.docker.com/)

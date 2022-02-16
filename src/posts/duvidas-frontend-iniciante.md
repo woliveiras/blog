@@ -8,13 +8,26 @@ tags:
 description: Todo mundo, quando começa no desenvolvimento frontend passa por algumas questões que podem parecer simples, mas tiram o nosso sono
 ---
 
+<!-- vscode-markdown-toc -->
+* [Como escolher onde investir o meu tempo/o que estudar?](#Comoescolherondeinvestiromeutempooqueestudar)
+* [O que eu devo aprender antes de um framework JavaScript?](#OqueeudevoaprenderantesdeumframeworkJavaScript)
+* [Devo aprender a desenhar layouts (design)?](#Devoaprenderadesenharlayoutsdesign)
+* [TypeScript, JavaScript, React, Vue, Angular, qual ferramenta estudar?](#TypeScriptJavaScriptReactVueAngularqualferramentaestudar)
+* [Mais conteúdo](#Maiscontedo)
+
+<!-- vscode-markdown-toc-config
+	numbering=false
+	autoSave=true
+	/vscode-markdown-toc-config -->
+<!-- /vscode-markdown-toc -->
+
 Sempre que começamos uma caminhada nova, é normal que tenhamos aquela sensação de não ter um rumo certo para chegar ao nosso objetivo final. Isso acontece, principalmente, porque realmente não temos um mapa do que fazer, para onde ir, o que pode dar errado e aí a ansiedade bate forte.
 
 Mesmo que existam roadmaps na comunidade de desenvolvimento que podem nos ajudar a escolher um rumo, como os do [roadmap.sh](http://roadmap.sh/), temos pontos não técnicos (e às vezes até os pontos técnicos mesmo) que continuam presentes em nossa cabeça. Visando resolver esses problemas que toda pessoa iniciante possui foi que eu escrevi o meu livro [O Universo da Programação](https://www.casadocodigo.com.br/products/livro-universo-programacao), mas o meu foco ali foi todas as pessoas que estão entrando na área e nem sabe em qual especialidade seguir.
 
 É diferente do que pretendo com este artigo, onde vamos passar pelos problemas comuns de pessoas que estão iniciando em frontend. Algumas partes são conselhos pessoais, baseados na minha experiência, outras são dicas das pessoas da comunidade que tem muito para nos ajudar.
 
-## Como escolher onde investir o meu tempo/o que estudar?
+## <a name='Comoescolherondeinvestiromeutempooqueestudar'></a>Como escolher onde investir o meu tempo/o que estudar?
 
 Na área de programação, principalmente em frontend, temos muito, mas realmente muito conteúdo espalhado pela internet. A comunidade que você está prestes a se envolver (ou já se envolveu) é extremamente ativa e está todos os dias discutindo sobre melhores práticas, novas abordagens para fazer algo e muitas vezes somente espalhando opinião pessoal mesmo.
 Se você gosta de conteúdo ao vivo, como eu, temos [canais na Twitch.tv que você pode seguir](/posts/recomendacao-canais-twitch-para-programadores/) para aprender sobre o assunto. Se gosta de ouvir podcast, também [temos muita opção](/posts/recomendações-de-podcasts-variados-para-programadores-de-todos-os-níveis/).
@@ -35,7 +48,7 @@ Se você quer uma resposta rápida sobre onde investir o seu tempo: Qual seu obj
 
 Você precisa ter esse foco. Se é para agora, foque no mercado de agora, se é para o futuro, foque nos conceitos. Os conceitos nunca são deixados de lado.
 
-## O que eu devo aprender antes de um framework JavaScript?
+## <a name='OqueeudevoaprenderantesdeumframeworkJavaScript'></a>O que eu devo aprender antes de um framework JavaScript?
 
 Sempre que encontramos essa pergunta nos fóruns de frontend, a resposta que vem em sequência é: 
 
@@ -57,7 +70,7 @@ Foque em aprender a programar interfaces web e pratique muito. Se prepare para c
 
 Quer saber se está na hora de aprender um framework? Desenvolva uma aplicação inteira sem framework, se você consegue fazer isso e entender o que está fazendo/acontecendo, já está na hora de aprender um framework.
 
-## Devo aprender a desenhar layouts (design)?
+## <a name='Devoaprenderadesenharlayoutsdesign'></a>Devo aprender a desenhar layouts (design)?
 
 Essa dúvida clássica existe porque, no passado, web designers eram quem codificava o frontend (que nem se chamava frontend web, mas unicamente desenvolvimento web). Com o tempo a construção de aplicações que rodam no navegador ficou muito mais complexa e precisou-se de uma especialização no assunto para que entreguemos a melhor experiência para o usuário final, com boa escalabilidade dentro da empresa, rastreamento de erros e muitos outros pontos que não eram necessidades antes de 2009.
 
@@ -65,7 +78,7 @@ Hoje em dia uma pessoa desenvolvedora frontend precisa aprender a criar layouts?
 
 Nós não fazemos isso. Eu mesmo não desenho um layout desde 2014, e olha que eu comecei em 2011 e a pessoa programadora só fazia software, não desenhava nada (no máximo fazemos umas charges zoando a diretoria da empresa em nossos cadernos de anotação).
 
-## TypeScript, JavaScript, React, Vue, Angular, qual ferramenta estudar?
+## <a name='TypeScriptJavaScriptReactVueAngularqualferramentaestudar'></a>TypeScript, JavaScript, React, Vue, Angular, qual ferramenta estudar?
 
 Você NUNCA vai parar de estudar. Não pense que vai aprender JavaScript hoje e vai trabalhar somente com isso para o resto da sua vida. Também não acredite que aprendendo React você tem a resposta para todos os problemas.
 
@@ -79,7 +92,7 @@ Pode acontecer de uma tecnologia substitui a outra? É claro. Quem sabe qual é 
 
 Claro que você não vai investir o seu tempo em algo que é pouco ou não é mais utilizado, como aprender Fortran, se você quer emprego hoje. Lembre-se do que eu falei anteriormente: foque no seu objetivo, escolha o que te emprega agora e depois você pensa em futuro. Ninguém garante que daqui a 2 anos você estará do mesmo jeito e só depois de uns 5 é que você vai saber realmente onde investir o seu tempo. Acredite, sua carreira não vai acabar em 10 anos, então pare de gastar sua energia tentando prever futuro e [faça planos para curto, médio e longo prazo](/posts/criando-nosso-plano-de-carreira-e-assumindo-o-controle-do-nosso-futuro-profissional/).
 
-## Mais conteúdo
+## <a name='Maiscontedo'></a>Mais conteúdo
 
 Desde o começo do texto eu quis deixar bem claro que existe muito conteúdo sobre frontend na internet e você precisa aprender a usar a criticidade para escolher o seu próprio caminho. Espero que tenha conseguido te entregar as ferramentas certas para que você consiga criar isso, mas temos outros artigos muito legais para iniciantes que eu acredito que você também deveria ler.
 

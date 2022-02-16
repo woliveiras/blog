@@ -5,12 +5,24 @@ tags:
   - soft-skills
 date: '2015-01-30'
 ---
+<!-- vscode-markdown-toc -->
+* [Organização](#Organizao)
+* [Comentários](#Comentrios)
+* [Semântica](#Semntica)
+* [Padrões de codificação](#Padresdecodificao)
+* [Padrões de projetos](#Padresdeprojetos)
+
+<!-- vscode-markdown-toc-config
+	numbering=false
+	autoSave=true
+	/vscode-markdown-toc-config -->
+<!-- /vscode-markdown-toc -->
 
 Como eu disse em [um post anterior](/posts/requisitos-para-vagas-front-end/ "Sobre os requisitos para vagas de emprego Front End (E outras áreas também)"), você não vai trabalhar sozinho a vida toda. Chega uma hora em que é preciso trabalhar em equipes, interagir com outras pessoas e é necessário que você aprenda isso. Mesmo que você trabalhe em casa, vai precisar enviar seu projeto para outras pessoas.
 
 Existem algumas boas medidas para conseguir trabalhar bem em grandes ou pequenas equipes...
 
-## Organização
+## <a name='Organizao'></a>Organização
 
 As pastas que você cria para organizar seu projeto devem possuir nomes que auxiliem a entender o que tem dentro. Não somente as pastas, os nomes dos arquivos também devem ter algum significado.
 Não crie uma pasta com o nome **scripts** e coloque todos os .styl, .js, .html, .php, .rb, etc, ali dentro, mas crie uma organização ou siga alguma.
@@ -23,7 +35,7 @@ Da uma olhada aqui no meu [Scaffold ](https://github.com/woliveiras/pastel "Pa
 
 A forma como escreve seu código também faz diferença e vou falar disso agora!
 
-## Comentários
+## <a name='Comentrios'></a>Comentários
 
 Comente seu código. Daqui a 6 meses você não vai lembrar o que aquilo fazia, afinal você evolui - Ou só esquece mesmo. E assim como você não vai saber daqui a esse tempo, pessoas que pegarem seu código **hoje** podem demorar a entender o que ele faz se não estiver comentado.
 
@@ -33,7 +45,7 @@ Tirando a zoeira - Que é uma história real. Mantenha o bom senso. Existem fun�
 
 
 
-## Semântica
+## <a name='Semntica'></a>Semântica
 
 Além da [semântica no HTML](/posts/semantica-html/ "Semântica HTML"), você precisa usar do bom senso ao nomear identificadores, classes, funções, métodos, objetos, etc.
 
@@ -41,7 +53,7 @@ Uma função com o nome  _funcaoX();_ não diz muita coisa sobre ela mesma, por
 
 Use e abuse da semântica em seu código!
 
-## Padrões de codificação
+## <a name='Padresdecodificao'></a>Padrões de codificação
 
 Você precisa bater o olho no seu código e entender aquilo sem dificuldade.
 Não é legal você escrever os nomes das variáveis uma hora em inglês outra em português, uma hora com CamelCase, outra hora com underlines. É bom você ter um padrão de codificação.
@@ -60,7 +72,7 @@ Segura a lista:
 E tem muito mais que varia de acordo com a sua forma de trabalhar/linguagem/projeto.
 É uma verdadeira forma de formatar seu código.
 
-## Padrões de projetos
+## <a name='Padresdeprojetos'></a>Padrões de projetos
 
 É bom que você procure estudar Design Patterns.
 

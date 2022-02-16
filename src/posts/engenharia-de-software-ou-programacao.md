@@ -9,13 +9,25 @@ description: Uma reflexão sobre qual a diferença entre engenharia de software 
 socialImage: '/images/posts/cody-hiscox-Hp5Acad1H0k-unsplash.jpg'
 ---
 
+<!-- vscode-markdown-toc -->
+* [O que é engenharia](#Oqueengenharia)
+* [Programar não é parte de engenharia de software?](#Programarnopartedeengenhariadesoftware)
+* [Conclusão](#Concluso)
+
+<!-- vscode-markdown-toc-config
+	numbering=false
+	autoSave=true
+	/vscode-markdown-toc-config -->
+<!-- /vscode-markdown-toc -->
+
+
 Depois da leitura do livro Engenharia de Software no Google, que recomendei no meu [último artigo](/posts/engenharia-de-software-no-google-recomendacao-de-livro/) por ser um conteúdo muito maneiro, ficou no ar uma questão que recorrentemente é levantada na comunidade de programação que é: qual a diferença entre **programação** e **engenharia de software**?
 
 Outro ponto constantemente levantado: por que temos vagas para pessoas engenheiras, pessoas desenvolvedoras e pessoas programadoras de software?
 
 Pra mim isso sempre foi referente a títulos que pessoas que escrevem software, independente do que está na carteira de trabalho, recebem. Porém percebi com minhas leituras recentes que realmente existe uma diferença filosófica e real nesses dois termos. Neste artigo compartilho as reflexões e pontos em que cheguei.
 
-## O que é engenharia
+## <a name='Oqueengenharia'></a>O que é engenharia
 
 Levando ao pé da letra podemos pegar a definição clássica de o que é engenharia para refletirmos sobre o que fazemos:
 
@@ -31,13 +43,13 @@ Hoje em dia percebemos que, nas vagas para pessoas desenvolvedoras, os requisito
 
 Já trabalhei em uma empresa onde todo o processo de planejamento da construção do software era feito por projetistas e quem escrevia o código basicamente seguia a modelagem. Não tinha a função de pensar em outras implicações como usabilidade, atendimento dos requisitos de stakeholders ou algo similar. Seu trabalho era implementar a modelagem [UML](https://www.uml.org/).
 
-## Programar não é parte de engenharia de software?
+## <a name='Programarnopartedeengenhariadesoftware'></a>Programar não é parte de engenharia de software?
 
 Sim, programar é parte da aplicação de engenharia de software, assim como a construção civil é parte da aplicação da engenharia civil. A grande diferença da nossa área para outras engenharias é o fato de que nós, além de coletar requisitos, planejar as entregas, projetar o sistema, calcular valores e um pouco mais, também implementamos o código fonte.
 
 Até por isso temos a sensação de que, a cada dia, os requisitos de vagas de programação estão crescendo mais e mais. A grande verdade é que hoje em dia estamos realmente fazendo a tal da [engenharia de software](/posts/os-caminhos-da-engenharia-de-software-o-que-estudar/).
 
-## Conclusão
+## <a name='Concluso'></a>Conclusão
 
 Até alcançar a necessidade de projetar e desenvolver sistemas que realmente vão durar anos e não somente escrever o código que vai ser jogado fora no próximo quarter, eu não sentia a necessidade de realmente entender o que é engenharia de software, mas isso veio quando percebi que somente escrever um bom código não é engenharia.
 

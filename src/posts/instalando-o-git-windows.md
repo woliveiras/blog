@@ -7,11 +7,21 @@ date: '2014-08-30'
 description: Instalação do Git no Windows
 ---
 
+<!-- vscode-markdown-toc -->
+* [Baixando o Git para Windows](#BaixandooGitparaWindows)
+* [Configuração do Git](#ConfiguraodoGit)
+
+<!-- vscode-markdown-toc-config
+	numbering=false
+	autoSave=true
+	/vscode-markdown-toc-config -->
+<!-- /vscode-markdown-toc -->
+
 O Git é muito utilizado por muitos desenvolvedores e [empresas](https://www.neuroniodigital.com.br/empresas-no-github/ "10 grandes empresas que estão no GitHub e o que elas estão fazendo lá") * , portanto se você ainda não sabe utilizar, sugiro buscar material para aprender sobre versionamento urgente!!! Afinal de contas, nem sempre o ctrl+z te salva... ;)
 
 *Não confunda Git com Github. O artigo foi utilizado para mostrar as grandes empresas que usam Git E Github.*
 
-## Baixando o Git para Windows
+## <a name='BaixandooGitparaWindows'></a>Baixando o Git para Windows
 
 Na documentação oficial existe esse link para agilizar as coisas:
 
@@ -44,7 +54,7 @@ Selecione a segunda opção para que não existam conflitos entre as quebras de 
 
 
 
-## Configuração do Git
+## <a name='ConfiguraodoGit'></a>Configuração do Git
 
 Informe seus dados ao git!
 

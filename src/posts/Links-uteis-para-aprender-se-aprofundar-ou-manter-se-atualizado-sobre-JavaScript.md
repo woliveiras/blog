@@ -18,7 +18,21 @@ Deixei os links organizados na seguinte estrutura:
 **Nome do site/blog/projeto**
 *Alguns links legais*
 
-## Sites/Blogs e Links legais sobre JavaScript
+
+<!-- vscode-markdown-toc -->
+* [Sites/Blogs e Links legais sobre JavaScript](#SitesBlogseLinkslegaissobreJavaScript)
+* [Foruns](#Foruns)
+* [Mais pessoas legais para seguir, mais fontes de conteúdo e palestras](#Maispessoaslegaisparaseguirmaisfontesdecontedoepalestras)
+* [Meus links mais preciosos](#Meuslinksmaispreciosos)
+
+<!-- vscode-markdown-toc-config
+	numbering=false
+	autoSave=true
+	/vscode-markdown-toc-config -->
+<!-- /vscode-markdown-toc -->
+
+
+## <a name='SitesBlogseLinkslegaissobreJavaScript'></a>Sites/Blogs e Links legais sobre JavaScript
 
 O Site da Mozilla é meu link de referência favorito:
 
@@ -94,7 +108,7 @@ Além de ler os artigos, também recomendo que siga esses autores nas redes soci
 
 
 
-## Foruns
+## <a name='Foruns'></a>Foruns
 
 - [FrontEndBR | forum](https://github.com/frontendbr/forum)
 - [Tableless](https://forum.tableless.com.br/c/javascript)
@@ -104,11 +118,11 @@ Além de ler os artigos, também recomendo que siga esses autores nas redes soci
 
 A maioria dessas comunidades possuem canais no [Slack](https://slack.com/). É uma boa você entrar nesses canais e participar das discussões, pois consegue tirar suas dúvidas e ajudar outras pessoas em real time!
 
-## Mais pessoas legais para seguir, mais fontes de conteúdo e palestras
+## <a name='Maispessoaslegaisparaseguirmaisfontesdecontedoepalestras'></a>Mais pessoas legais para seguir, mais fontes de conteúdo e palestras
 
 O site [Como manter-se atualizado nas  Tecnologias Front-End](https://uptodate.frontendrescue.org/pt/) é um local onde você vai achar muito mais pessoas legais para seguir, conteúdo interessante, sites bons e palestras legais sobre Front End e, por consequência, JavaScript
 
-## Meus links mais preciosos
+## <a name='Meuslinksmaispreciosos'></a>Meus links mais preciosos
 
 Tem muito mais links úteis nesse mundão a fora, por isso eu mantenho um repo com meus links favoritos. Tanto esses da barrinha do navegador, quanto artigos que eu gostaria de deixar guardado pra utilizar depois. Da uma conferida lá, pode ter algo legal pra você. ;)
 

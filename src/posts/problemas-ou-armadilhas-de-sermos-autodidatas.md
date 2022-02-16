@@ -21,7 +21,21 @@ Mas ser autodidata esconde alguns problemas que podem nos atrapalhar bastante. P
 
 Existem maneiras de evitarmos os problemas citados acima e vamos entender algumas delas, as que eu uso, para sobrevivermos como pessoas autodidatas saudáveis e produtivas!
 
-## Não saber qual o nível do nosso conhecimento
+<!-- vscode-markdown-toc -->
+* [Não saber qual o nível do nosso conhecimento](#Nosaberqualonveldonossoconhecimento)
+* [Querer aprender tudo de uma só vez](#Quereraprendertudodeumasvez)
+* [Não conseguir sair do lugar](#Noconseguirsairdolugar)
+* [Acabar com a saúde por conta dos estudos](#Acabarcomasadeporcontadosestudos)
+* [Achar que é um gênio porque consegue aprender algo por conta](#Acharqueumgnioporqueconsegueaprenderalgoporconta)
+* [Conclusão](#Concluso)
+
+<!-- vscode-markdown-toc-config
+	numbering=false
+	autoSave=true
+	/vscode-markdown-toc-config -->
+<!-- /vscode-markdown-toc -->
+
+## <a name='Nosaberqualonveldonossoconhecimento'></a>Não saber qual o nível do nosso conhecimento
 
 Quando queremos entrar em uma área de atuação, como no nosso caso a área de programação, precisamos entender em qual nível de conhecimento estamos. Isso para que tenhamos confiança de aplicar em uma vaga de trabalho e não gastar uma oportunidade.
 
@@ -36,7 +50,7 @@ Outra maneira de validar nossas habilidades e saber se o estudo autodidata está
 
 Escrevi um pouco mais sobre estudarmos por conta e técnicas para criar um plano de estudos e validar nosso conhecimento neste artigo: [Assumindo o papel de protagonista em nossa aprendizagem](/posts/assumindo-o-papel-de-protagonista-em-nossa-aprendizagem/).
 
-## Querer aprender tudo de uma só vez
+## <a name='Quereraprendertudodeumasvez'></a>Querer aprender tudo de uma só vez
 
 Este problema é bem arriscado.
 
@@ -54,7 +68,7 @@ Nós não vamos aprender de maneira sadia e realmente fixa em nossa mente se cor
 
 Aqui nós encontramos algumas dicas de como aprender rápido, mas sem perder nossa sanidade: [Como alcançar objetivos rapidamente nos estudos (sem ficar louco)](/posts/como-alcancar-objetivos-rapidamente-nos-estudos/).
 
-## Não conseguir sair do lugar
+## <a name='Noconseguirsairdolugar'></a>Não conseguir sair do lugar
 
 Nessa eu patinei diversas vezes.
 
@@ -70,7 +84,7 @@ Um exemplo disso é quando queremos praticar esportes, pesquisamos tudo sobre aq
 
 A única maneira de escapar disso é realmente parar de procurar conteúdo e começar a praticar, como eu comento neste artigo: [Pare de procurar conteúdo e comece a praticar! Você pode estar bloqueado(a) pela paralisia por análise](/posts/pare-de-procurar-conteúdo-e-comece-a-praticar-você-pode-estar-bloqueado-pela-paralisia-por-análise/).
 
-## Acabar com a saúde por conta dos estudos
+## <a name='Acabarcomasadeporcontadosestudos'></a>Acabar com a saúde por conta dos estudos
 
 A maneira mais fácil de uma pessoa autodidata se destruir toda é cair no fluxo dos estudos.
 
@@ -88,7 +102,7 @@ Dessa maneira, além de nos limitar a não viver só para estudar, nos ajuda a t
 
 Podemos selecionar, por exemplo, 3 dias da semana onde vamos estudar por uma hora seguida sem parar para olhar o celular, as redes sociais ou ver conteúdo avulso não relacionado ao tópico estudado. Isso é muito mais produtivo do que estudar 2 horas ou mais todos os dias se distraindo o tempo todo com os grupos no WhatsApp.
 
-## Achar que é um gênio porque consegue aprender algo por conta
+## <a name='Acharqueumgnioporqueconsegueaprenderalgoporconta'></a>Achar que é um gênio porque consegue aprender algo por conta
 
 Para esse problema não existe solução fácil a não ser largarmos de ser babacas. - siiiim, muitas vezes somos todos babacas por achar que sabemos mais que todo mundo só porque estudamos por conta própria
 
@@ -102,7 +116,7 @@ Abaixar o nosso ego é difícil, requer constante análise do nosso comportament
 
 Sempre que você achar que é melhor só porque aprendeu sozinho(a), ao invés de se colocar acima de alguém, compartilhe seu conhecimento com essa pessoa. Crie um blog ou coisa do tipo. Só assim você vai perceber se realmente sabe algo ou se é só seu subconsciente alimentado de elogios de terceiros e, de quebra, estará ajudando outras pessoas. Só não vá se achar melhor que ninguém por isso também, né?
 
-## Conclusão
+## <a name='Concluso'></a>Conclusão
 
 Estudar por conta nos trás diversas armadilhas, algumas que nos dão muito prazer, outras que podem nos trazer problemas de saúde e sociais terríveis. Não existe uma maneira perfeita de escapar disso, mas espero que a reflexão trazida neste artigo tenha lhe ajudado a pensar sobre o seu estado atual (caso você esteja passando por algum dos problemas citados).
 

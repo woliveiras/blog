@@ -18,7 +18,18 @@ Eu só comecei a ir em eventos de Desenvolvimento Front End em SP quando eu comp
 
 Apesar de eu curtir muuuuuiiiito eventos e comunidades eu também adoro curtir minha saúde e um bom período de descanso.
 
-## A necessidade gera iniciativas
+<!-- vscode-markdown-toc -->
+* [A necessidade gera iniciativas](#Anecessidadegerainiciativas)
+* [A comunidade é que tem o poder](#Acomunidadequetemopoder)
+* [Mudanças são sempre bom](#Mudanassosemprebom)
+
+<!-- vscode-markdown-toc-config
+	numbering=false
+	autoSave=true
+	/vscode-markdown-toc-config -->
+<!-- /vscode-markdown-toc -->
+
+## <a name='Anecessidadegerainiciativas'></a>A necessidade gera iniciativas
 
 Eu sentia muita falta de eventos de Front End aqui no Grande ABC. Eventos em geral mesmo, não somente encontros presenciais.
 
@@ -56,7 +67,7 @@ E logo depois veio a [primeira palestra](https://www.meetup.com/pt-BR/femug-abc/
 
 Depois disso, a maioria dos eventos foi na sede da Midia Performa, pelo apoio do [Ramiro Silva](https://twitter.com/Ramirodss), que se dispos a nos ajudar com o espaço super profissional e vem colaborando, também, até hoje.
 
-## A comunidade é que tem o poder
+## <a name='Acomunidadequetemopoder'></a>A comunidade é que tem o poder
 
 Tudo isso foi muito bom e logo em seguida foram rolando vários eventos do FEMUG, inclusive rolou um [Hackathon](https://github.com/front-abc/hackathon) **na casa** da [Andréa Zambrana](https://twitter.com/akfzambrana), [Dojo online](https://www.meetup.com/pt-BR/femug-abc/events/225254505/) e [muito mais](https://www.eventick.com.br/workshop-sass-me)!
 
@@ -74,7 +85,7 @@ Porém precisamos de um líder para que ele ajude a centralizar as responsabilid
 
 
 
-## Mudanças são sempre bom
+## <a name='Mudanassosemprebom'></a>Mudanças são sempre bom
 
 Mudanças são coisa boa. Foi graças a minha mudança de [sair de Infraestrutura e ir para Desenvolvimento de Software](/posts/um-ano-como-desenvolvedor-front-end/) que eu conheci essa galera sensacional.
 

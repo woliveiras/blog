@@ -6,6 +6,20 @@ tags:
     - diversidade
 description: Faixa etária do mercado de trabalho com programação e lista de empresas que contratam pessoas acima dos 40 anos de idade.
 ---
+
+<!-- vscode-markdown-toc -->
+* [Falta de oportunidade nas empresas](#Faltadeoportunidadenasempresas)
+* [Mas, na minha empresa...](#Masnaminhaempresa...)
+* [Empresas que contratam pessoas acima dos 40 anos](#Empresasquecontratampessoasacimados40anos)
+* [Conclusão](#Concluso)
+* [Referências](#Referncias)
+
+<!-- vscode-markdown-toc-config
+	numbering=false
+	autoSave=true
+	/vscode-markdown-toc-config -->
+<!-- /vscode-markdown-toc -->
+
 A grande maioria das pessoas do mercado de programação, hoje, é de pessoas na faixa etária de 25 a 34 anos. Podemos confirmar essa afirmação analisando os gráficos do StackOverflow e do HackerRank, que fazem um levantamento anual com pessoas que utilizam suas plataformas.
 
 Segundo o StackOverflow, 49.2% do mercado é de pessoas na faixa dos 25 até 34 e o HackerRank confirma isso no seu gráfico.
@@ -24,7 +38,7 @@ Este post é só uma pequena ajuda para essas pessoas. Pra mostrar que tem gente
 
 
 
-## Falta de oportunidade nas empresas
+## <a name='Faltadeoportunidadenasempresas'></a>Falta de oportunidade nas empresas
 
 O que acontece muito em nosso mercado, talvez na maioria, é achar que "pessoas de mais idade", como alguns costumam chamar, não querem ou não tem criatividade para continuar programando depois de certo tempo.
 
@@ -34,7 +48,7 @@ Talvez por não serem todas as empresas que possuem um bom plano de crescimento 
 
 O triste é saber que pessoas nessa faixa etária às vezes precisam até ocultar sua idade no currículo senão nem são chamadas para a entrevista.
 
-## Mas, na minha empresa...
+## <a name='Masnaminhaempresa...'></a>Mas, na minha empresa...
 
 É clássico que, em conversas sobre diferenças de tratamentos ou diferenças sociais as pessoas começarem a apelar para o "mas, na minha empresa tem 1 pessoa assim", "mas, na minha faculdade tem 1 pessoa assim". Isso é tratar exceção como regra.
 
@@ -46,7 +60,7 @@ Nós vivemos em bolhas… O nosso grupo de amigos e amigas, a empresa onde escol
 
 Se fizermos um exercício rápido de empatia chamado **teste do pescoço**, que consiste em olhar ao nosso redor e analisar a diferença que existe na nossa sala, já conseguimos perceber quem é maioria dentro do nosso mercado.
 
-## Empresas que contratam pessoas acima dos 40 anos
+## <a name='Empresasquecontratampessoasacimados40anos'></a>Empresas que contratam pessoas acima dos 40 anos
 
 Fiz um levantamento no Twitter de empresas que contratam pessoas desenvolvedoras de software para fazer parte do seu time e essa foi a lista que conseguimos:
 
@@ -74,7 +88,7 @@ Fiz um levantamento no Twitter de empresas que contratam pessoas desenvolvedoras
 | Lambda3 | [Vagas na Lambda3](https://www.lambda3.com.br/pessoas/) |
 | DBServer | [Vagas na DBServer](https://jobs.kenoby.com/dbserver)
 
-## Conclusão
+## <a name='Concluso'></a>Conclusão
 
 Existem, sim, pessoas acima dos 40 procurando emprego como programadores e programadoras, não em gestão. Nós, como profissionais, somos parte da empresa e podemos fazer o mínimo pra tentar ajudar elas. Este artigo foi minha maneira de tentar ajudar.
 
@@ -89,7 +103,7 @@ Se quiser olhar os posts nas redes sociais, foram esses aqui:
 
 Inlcusive, no LinkedIn, tivemos pessoas de recrutamento deixando seus contatos, então corre conferir lá! :grin:
 
-## Referências
+## <a name='Referncias'></a>Referências
 
 - [StackOverflow Survey Results 2018 - Developer profile](https://insights.stackoverflow.com/survey/2018/#developer-profile)
 - [HackerRank 2018 Developer Skills Report](https://research.hackerrank.com/developer-skills/2018/)

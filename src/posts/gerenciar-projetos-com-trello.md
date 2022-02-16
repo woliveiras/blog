@@ -8,13 +8,29 @@ date: '2015-01-28'
 description: Como utilizar o Trello para gerenciar projetos de Software?
 ---
 
+<!-- vscode-markdown-toc -->
+* [O que é o Trello?](#OqueoTrello)
+* [Como funciona?](#Comofunciona)
+* [Exemplo de utilização](#Exemplodeutilizao)
+* [Extensões para deixar o Trello ainda melhor](#ExtensesparadeixaroTrelloaindamelhor)
+	* [Sistema de pontos](#Sistemadepontos)
+	* [Acessando o Trello direto de uma extensão](#AcessandooTrellodiretodeumaextenso)
+	* [Esconder o que não quer ver no momento](#Esconderoquenoquervernomomento)
+* [Referências](#Referncias)
+
+<!-- vscode-markdown-toc-config
+	numbering=false
+	autoSave=true
+	/vscode-markdown-toc-config -->
+<!-- /vscode-markdown-toc -->
+
 Seguindo a linha de postagens sobre [produtividade](/posts/como-ser-mais-produtivo/ "Como ser mais produtivo"), eu sou obrigado a falar dessa ferramenta que utilizo muito e curto demais! É com ele que eu gerencio até as postagens que eu escrevo aqui no Blog...
 
 Se você precisa de uma ferramenta para ajudar a se organizar, o [Trello](https://trello.com/ "Trello") é uma das que atendem muito bem!
 
 ![Trello]({{site.postsImagesPath}}Trello.png)
 
-## O que é o Trello?
+## <a name='OqueoTrello'></a>O que é o Trello?
 
 É uma ferramenta de Gerenciamento de Projetos muito fácil de ser utilizado e prático! Ele é aquele velho quadro onde colamos os Post-its para as tarefas que usamos em metodologias ágeis como o [Scrum](https://pt.wikipedia.org/wiki/Scrum "Scrum")
 
@@ -22,13 +38,13 @@ Se você precisa de uma ferramenta para ajudar a se organizar, o [Trello](https:
 
 Porém é Web e pode ser acessado pelo navegador ou outros [dispositivos](https://trello.com/platforms "Plataformas").
 
-## Como funciona?
+## <a name='Comofunciona'></a>Como funciona?
 
 É simples. Você cria sua conta na ferramenta, faz o login e pode criar suas **organizações** onde coloca os detalhes do cliente. Cria seus **Boards** (Os quadros ou o projeto em sí) onde vai aplicar as **listas** e incluir todos os detalhes para as tasks que vai precisar.
 
 A metodologia que vai utilizar no projeto fica ao seu critério ou da equipe.
 
-## Exemplo de utilização
+## <a name='Exemplodeutilizao'></a>Exemplo de utilização
 
 O Trello não tem um padrão de utilização. Você vai planejar o Board de acordo com a metodologia que escolher em seu projeto. Se usa Scrum, vai colocar os nomes das listas conforme escolhido pelo Time, se não usa nenhuma vai colocar os nomes que escolher. Por ai vai.
 
@@ -57,23 +73,23 @@ Pronto! Agora eu só vou trabalhando em cima disso.
 
 
 
-## Extensões para deixar o Trello ainda melhor
+## <a name='ExtensesparadeixaroTrelloaindamelhor'></a>Extensões para deixar o Trello ainda melhor
 
-### Sistema de pontos
+### <a name='Sistemadepontos'></a>Sistema de pontos
 
 Quem usa Scrum deve utilizar algum sistema de pontos. Para isso temos o [Points for Trello](https://chrome.google.com/webstore/detail/points-for-trello/mkcpchladphoadhaclmnlphhijboljjk "Points for Trello"). Os pontos podem ser traduzidos para dias, horas, etc.
 
-### Acessando o Trello direto de uma extensão
+### <a name='AcessandooTrellodiretodeumaextenso'></a>Acessando o Trello direto de uma extensão
 
 Sabe aquele menu de ferramentas do Chrome? Então da pra colocar uma extensãozinha que agiliza o uso do Trello diretamente. É o [My Cards for Trello](https://chrome.google.com/webstore/detail/points-for-trello/mkcpchladphoadhaclmnlphhijboljjk "My Cards for Trello").
 
-### Esconder o que não quer ver no momento
+### <a name='Esconderoquenoquervernomomento'></a>Esconder o que não quer ver no momento
 
 Você não precisa ver todas as listas o tempo todo, então pode usar a extensão [Top bar for Trello](https://chrome.google.com/webstore/detail/trellists-trello-lists-ma/dgnlcodfeenegnifnpcabcclldoceeml "Top bar for Trello") para ocultar o que não quiser no momento.
 
 Essas são as que eu utilizo no dia-a-dia, porém existem várias outras. Da uma olhada [aqui](https://chrome.google.com/webstore/search/Trello?utm_source=chrome-ntp-icon&amp;_category=extensions "Extensões para o Chrome").
 
-## Referências
+## <a name='Referncias'></a>Referências
 
 [Elton Minetto](https://eltonminetto.net/blog/2012/06/27/gerenciando-projetos-com-o-trello/ "Gerenciando projetos com o Trello")
 

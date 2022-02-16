@@ -8,6 +8,26 @@ tags:
 videoId: DukhWWWzi18
 description: Como conseguir um emprego em programação sem ter experiência alguma comprovada e/ou sem faculdade, meios tradicionais de contratação
 ---
+
+<!-- vscode-markdown-toc -->
+* [Você vai precisar tomar boas decisões](#Vocvaiprecisartomarboasdecises)
+* [Como funciona o mercado de programação](#Comofuncionaomercadodeprogramao)
+	* [Agências de publicidade](#Agnciasdepublicidade)
+	* [Consultorias de software](#Consultoriasdesoftware)
+	* [Empresas digitais](#Empresasdigitais)
+* [Diferentes profissões onde você pode atuar](#Diferentesprofissesondevocpodeatuar)
+* [Diferentes tecnologias que você pode aprender](#Diferentestecnologiasquevocpodeaprender)
+* [Métodos de estudos](#Mtodosdeestudos)
+* [Meios de praticar programação](#Meiosdepraticarprogramao)
+	* [Experiência em programação, sem trabalhar com programação](#Experinciaemprogramaosemtrabalharcomprogramao)
+* [Conclusão](#Concluso)
+
+<!-- vscode-markdown-toc-config
+	numbering=false
+	autoSave=true
+	/vscode-markdown-toc-config -->
+<!-- /vscode-markdown-toc -->
+
 Das mais frequentes perguntas que eu recebo como mentor é se precisamos de faculdade para trabalhar com programação. Respondido isso, vem a segunda do ranking que é "como conseguir emprego se toda oportunidade de trabalho solicita algum tempo de experiência?" (isso quando não pedem 5 anos de experiência para uma pessoa programadora nível junior).
 
 Já fiz um vídeo explicando isso e você pode conferir depois que terminar de ler este artigo. O video está logo abaixo.
@@ -35,7 +55,7 @@ Não será nada fácil, mas eu tentei compilar o passo-a-passo neste artigo de u
 
 Caso você queira agradecer pelo artigo ou comentar algo, vá até algum vídeo meu e comente por lá. Além disso, compartilhe o artigo para o máximo de pessoas possível. 
 
-## Você vai precisar tomar boas decisões
+## <a name='Vocvaiprecisartomarboasdecises'></a>Você vai precisar tomar boas decisões
 
 Não existe um método mágico que você possa utilizar para entrar na área de programação (ou qualquer área) sem uma formação tradicional ou experiência. Será necessário tomar boas decisões e seguir um plano.
 
@@ -51,7 +71,7 @@ Alguns dos pontos que são extremamente importantes que você domine antes de qu
 
 Para facilitar sua vida, resumi alguns assuntos.
 
-## Como funciona o mercado de programação
+## <a name='Comofuncionaomercadodeprogramao'></a>Como funciona o mercado de programação
 
 O mercado de trabalho  para programação existe como qualquer outro: você vende sua força de trabalho por uma quantia em dinheiro para realizar ações que o (a) seu/sua contratante não sabe ou não pode fazer por conta própria/sozinho (a).
 
@@ -61,7 +81,7 @@ Em algum lugar do mundo existe alguém com uma ideia de produto digital que pode
 
 Porém existem formas de contratação diferentes, como: agências de publicidade, consultorias de software e empresas digitais. Vamos entender a diferença entre essas contratantes.
 
-### Agências de publicidade
+### <a name='Agnciasdepublicidade'></a>Agências de publicidade
 
 Por muitas pessoas elas são odiadas, porém tem uma grande demanda e alta rotatividade profissional e por isso podem ser o lugar mais fácil de conseguir um primeiro emprego sem experiência e sem faculdade. Por isso as agências de publicidade tem muita oportunidade para o mais diversos perfis de pessoas desenvolvedoras de software. Desde quem trabalha com desenvolvimento web até quem trabalha com software embarcado.
 
@@ -69,7 +89,7 @@ Normalmente essas empresas são contratadas para trabalhar com o site institucio
 
 Devido a necessidade constante de correr atrás de um novo cliente e a pressão das entregas urgentes para as marcas não perderem o time to market (a hora certa de lançar uma campanha e ganhar os clientes), as agências possuem (normalmente) um ambiente bem insalubre e muitas pessoas relatam odiar esses lugares. Mas devem existir boas agências para trabalhar. Se você conhece alguma, compartilha esse artigo e me marca no Twitter @1ilhas para eu também compartilhar.
 
-### Consultorias de software
+### <a name='Consultoriasdesoftware'></a>Consultorias de software
 
 Bem parecido com as agências de publicidade, as consultorias são contratadas para desenvolver alguma automação para um cliente ou mesmo dar manutenção em sistemas existentes. Porém não fazem uma campanha de publicidade, desenvolvem somente a parte de sistema (ou até mesmo um site) e entregam esse projeto sem o restante do trabalho de marketing que uma agência de publicidade produz.
 
@@ -83,7 +103,7 @@ A maioria das consultorias não cobram uma faculdade para você atuar como pesso
 
 - Eu não recebi nenhum dinheiro para falar dessas empresas, elas nem sabiam que eu iria escrever este artigo
 
-### Empresas digitais
+### <a name='Empresasdigitais'></a>Empresas digitais
 
 Essas são as mais famosas. Empresas digitais ou empresas de tecnologia são as que desenvolvem e mantém os seus próprios produtos, como é o caso da Google, Facebook, etc. No Brasil temos diversas startups gigantes e com muita vaga de emprego, não pela rotatividade, mas pela necessidade de constante agilidade nas entregas e na construção de produtos impactantes para aguentar a concorrência.
 
@@ -93,7 +113,7 @@ Grandes exemplos são as empresas que eu compartilhei na lista de empresas que c
 
 Para sua tranquilidade eu já trabalhei em todos os cenários anteriores e em nenhuma das empresas que eu passei me foi solicitado o curso superior. 
 
-## Diferentes profissões onde você pode atuar
+## <a name='Diferentesprofissesondevocpodeatuar'></a>Diferentes profissões onde você pode atuar
 
 Hoje em dia o mercado de tecnologia está imenso. Existem profissões para todo perfil de pessoa e ainda profissões nascendo devido a demandas específicas.
 
@@ -111,7 +131,7 @@ Todas essas profissões são altamente demandadas devido a toda empresa precisar
 
 Não existe a profissão ideal para cada perfil de pessoa. Eu sempre indico que você pesquise e aprenda sobre isso no YouTube e escolha o que mais lhe brilhar os olhos, aquilo que você mais achar legal. Até por isso que eu não quero escrever a diferença entre cada uma aqui para evitar algum viés inconsciente da minha parte que possa te empurrar para algum lugar. 
 
-## Diferentes tecnologias que você pode aprender
+## <a name='Diferentestecnologiasquevocpodeaprender'></a>Diferentes tecnologias que você pode aprender
 
 Para cada profissão, existirá uma gama imensa (sério) de tecnologias que você precisará aprender. Desde linguagens de programação até as ferramentas de produtividade. Mas não se acelere agora. Uma pessoa iniciante não precisa dominar TUDO.
 
@@ -121,7 +141,7 @@ Só tome cuidado com as dicas que receber e utilize as informações como dados 
 
 Se você não souber como montar um plano de carreira, vem neste artigo aprender: [criando nosso plano de carreira no Trello](/posts/criando-nosso-plano-de-carreira-no-trello/).
 
-## Métodos de estudos
+## <a name='Mtodosdeestudos'></a>Métodos de estudos
 
 Você precisará aprender a aprender se quiser entrar na área de programação sem uma faculdade. 
 
@@ -133,13 +153,13 @@ Acesse [este link](https://amzn.to/31kCNQk) ou clique na imagem abaixo para conf
 
 [![Livro Você sabe Estudar?]({{site.postsImagesPath}}/voce-sabe-estudar.jpeg)](https://amzn.to/31kCNQk)
 
-## Meios de praticar programação
+## <a name='Meiosdepraticarprogramao'></a>Meios de praticar programação
 
 No artigo [como aprender uma nova linguagem de programação por ano](/posts/Como-aprender-uma-nova-linguagem-de-programacao-por-ano/) eu deixei várias dicas de como aprender e praticar programação, mas hoje eu quero te dar mais uma dica importantíssima, que eu até cheguei a comentar no artigo sobre [paralisia por análise](/posts/pare-de-procurar-conteúdo-e-comece-a-praticar-você-pode-estar-bloqueado-pela-paralisia-por-análise/): desenvolva coisas.
 
 Não vai adiantar você ler um monte de artigos, ver uma penca de vídeos, estudar 80% da semana se você não escrever código. Inclusive, será assim que você vai conseguir ganhar a tal da experiência que as empresas pedem. 
 
-### Experiência em programação, sem trabalhar com programação
+### <a name='Experinciaemprogramaosemtrabalharcomprogramao'></a>Experiência em programação, sem trabalhar com programação
 
 Como disse anteriormente, a maneira que você terá de conseguir experiência em programação, sem nunca ter trabalhado com programação é praticando. 
 
@@ -153,7 +173,7 @@ Você não precisa criar um blog, só precisa expor o seu trabalho e isso pode s
 
 Se você não manja nada de GitHub, eu preparei um vídeo para te ajudar nisso, pode conferir aqui: [Git e GitHub na prática](https://www.youtube.com/watch?v=Gzx45zj69h4).
 
-## Conclusão
+## <a name='Concluso'></a>Conclusão
 
 Como eu te disse, não será nada fácil percorrer o caminho de entrar na área de programação sem formação tradicional ou "experiência". Porém não é impossível e você também pode conseguir, assim como eu e várias outras pessoas. 
 

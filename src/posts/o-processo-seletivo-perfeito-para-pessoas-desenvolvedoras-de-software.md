@@ -41,9 +41,39 @@ Uma grande parcela possui graduação completa:
 
 Vamos conferir as respostas!
 
-## Sobre a entrevista de emprego
+<!-- vscode-markdown-toc -->
+* [Sobre a entrevista de emprego](#Sobreaentrevistadeemprego)
+	* [Qual o tempo ideal para uma entrevista na empresa?](#Qualotempoidealparaumaentrevistanaempresa)
+	* [Você gosta de fazer teste prático na hora da entrevista?](#Vocgostadefazertesteprticonahoradaentrevista)
+	* [Você acha legal fazer testes de algoritmos em papel ou quadro branco pessoalmente na hora da entrevista?](#Vocachalegalfazertestesdealgoritmosempapelouquadrobrancopessoalmentenahoradaentrevista)
+	* [Você se sente confortável tendo mais de 2 pessoas dentro da sala te entrevistando?](#Vocsesenteconfortveltendomaisde2pessoasdentrodasalateentrevistando)
+	* [Você gosta de responder perguntas técnicas na hora da entrevista?](#Vocgostaderesponderperguntastcnicasnahoradaentrevista)
+	* [Você gosta de dinâmicas antes de começar a entrevista propriamente dita?](#Vocgostadedinmicasantesdecomearaentrevistapropriamentedita)
+* [Sobre o teste prático](#Sobreotesteprtico)
+	* [Você gosta de receber o teste prático para fazer em casa?](#Vocgostadereceberotesteprticoparafazeremcasa)
+	* [Quanto é o tempo ideal para se fazer o teste prático em casa?](#Quantootempoidealparasefazerotesteprticoemcasa)
+	* [Você prefere um teste prático que seja uma funcionalidade inteira (como um CRUD ou uma tela com muitas interações) ou um teste mais rápido e menos parecido com o mundo real?](#VocprefereumtesteprticoquesejaumafuncionalidadeinteiracomoumCRUDouumatelacommuitasinteraesouumtestemaisrpidoemenosparecidocomomundoreal)
+	* [Você acha que o teste prático deve refletir exatamente o que você fará no dia-a-dia na empresa ou pode ser mais generalista?](#Vocachaqueotesteprticodeverefletirexatamenteoquevocfarnodia-a-dianaempresaoupodesermaisgeneralista)
+* [Finalizando](#Finalizando)
+	* [Em quantos dias você acha que a empresa deveria te responder se você passou ou não?](#Emquantosdiasvocachaqueaempresadeveriaterespondersevocpassououno)
+	* [Você acha legal descrições de vagas que tem várias linguagens de programação, mas não diz exatamente com qual você vai trabalhar no dia-a-dia?](#Vocachalegaldescriesdevagasquetemvriaslinguagensdeprogramaomasnodizexatamentecomqualvocvaitrabalharnodia-a-dia)
+	* [Você gostaria de saber, na descrição da vaga, qual framework ou lib vai utilizar no trabalho?](#Vocgostariadesabernadescriodavagaqualframeworkoulibvaiutilizarnotrabalho)
+	* [Você acha importante saber, já na entrevista, como é a cultura da empresa?](#Vocachaimportantesaberjnaentrevistacomoaculturadaempresa)
+	* [Quais pessoas você gostaria de conhecer na entrevista?](#Quaispessoasvocgostariadeconhecernaentrevista)
+	* [Você gostaria de saber o salário antes de começar o processo seletivo?](#Vocgostariadesaberosalrioantesdecomearoprocessoseletivo)
+	* [Você gostaria de saber exatamente qual a sua futura função na empresa (como time e escopo) antes de começar o processo seletivo?](#Vocgostariadesaberexatamentequalasuafuturafunonaempresacomotimeeescopoantesdecomearoprocessoseletivo)
+* [Conclusão](#Concluso)
 
-### Qual o tempo ideal para uma entrevista na empresa?
+<!-- vscode-markdown-toc-config
+	numbering=false
+	autoSave=true
+	/vscode-markdown-toc-config -->
+<!-- /vscode-markdown-toc -->
+
+
+## <a name='Sobreaentrevistadeemprego'></a>Sobre a entrevista de emprego
+
+### <a name='Qualotempoidealparaumaentrevistanaempresa'></a>Qual o tempo ideal para uma entrevista na empresa?
 
 A grande maioria prefere ficar no máximo 1 hora na sala fazendo a entrevista.
 
@@ -56,7 +86,7 @@ A grande maioria prefere ficar no máximo 1 hora na sala fazendo a entrevista.
 
 Lembrando que nessa pergunta não sabemos exatamente o que as pessoas gostariam de responder ou fazer no tempo em que está na sala.
 
-### Você gosta de fazer teste prático na hora da entrevista?
+### <a name='Vocgostadefazertesteprticonahoradaentrevista'></a>Você gosta de fazer teste prático na hora da entrevista?
 
 Teste prático na hora da entrevista são aqueles que temos que fazer em uma hora, dentro da sala, com alguém observando ou não.
 
@@ -64,7 +94,7 @@ A grande maioria não gosta disso trazendo uma representatividade de **62.9%** q
 
 Muito fácil de entender isso, visto que programação é um trabalho criativo e a ansiedade de um processo seletivo somado a pressão de resolver algo em pouco tempo bloqueia totalmente nossas ideias.
 
-### Você acha legal fazer testes de algoritmos em papel ou quadro branco pessoalmente na hora da entrevista?
+### <a name='Vocachalegalfazertestesdealgoritmosempapelouquadrobrancopessoalmentenahoradaentrevista'></a>Você acha legal fazer testes de algoritmos em papel ou quadro branco pessoalmente na hora da entrevista?
 
 Essa é uma questão que pega para a maioria das pessoas desenvolvedoras de software em processos seletivos. O teste do quadro branco é/era utilizado em várias empresas grandes e outras copiaram o processo, mas isso acaba inibindo pessoas ansiosas.
 
@@ -82,19 +112,19 @@ Na pesquisa, **79.4%** não acha legal escrever algoritmos em quadro branco/pape
 
 Algo que me surpreendeu muito foi o fato de que as pessoas com graduação completa ou incompleta também **não querem fazer o teste do quadro branco**. Onde, somente 113 pessoas acham legal ou não ligam, das 571 que tiveram acesso a academia.
 
-### Você se sente confortável tendo mais de 2 pessoas dentro da sala te entrevistando?
+### <a name='Vocsesenteconfortveltendomaisde2pessoasdentrodasalateentrevistando'></a>Você se sente confortável tendo mais de 2 pessoas dentro da sala te entrevistando?
 
 Algumas pessoas dizem que não gostam da sala cheia de pessoas na hora da entrevista. Eu entendo o lado dessa galera. Às vezes parece que estamos em uma sabatina e uma hora nem sabemos mais quem ali está querendo nos entrevistar ou quem só está fazendo pergunta aleatória pra encher linguiça, como “qual animal você seria?” ou “o que você faria se acontece um apocalipse zumbi?”.
 
 Mas os números mostram que as pessoas não ligam tanto assim para a quantidade de pessoas que tem na sala durante a entrevista, onde **70.8%** das pessoas se sente confortável tendo mais de 2 pessoas entrevistando e 29.2% não se sente bem.
 
-### Você gosta de responder perguntas técnicas na hora da entrevista?
+### <a name='Vocgostaderesponderperguntastcnicasnahoradaentrevista'></a>Você gosta de responder perguntas técnicas na hora da entrevista?
 
 Essa questão é bem simplória, pois sabemos que a maioria das pessoas esperam esse tipo de contato na entrevista presencial. Esperamos que sejamos questionados (as) sobre o que conhecemos e o que já fizemos nas experiências e projetos em que atuamos.
 
 **81.9** diz que gosta de responder perguntas técnicas na hora da entrevista e somente **18.1%** diz que não, provavelmente pela questão da ansiedade e pressão de estar em um processo seletivo e aquela velha síndrome do impostor.
 
-### Você gosta de dinâmicas antes de começar a entrevista propriamente dita?
+### <a name='Vocgostadedinmicasantesdecomearaentrevistapropriamentedita'></a>Você gosta de dinâmicas antes de começar a entrevista propriamente dita?
 
 É um estereótipo da pessoa desenvolvedora que ela não gosta muito de dinâmicas, que são pessoas mais introvertidas e, no caso da pesquisa, o resultado mostra que isso tem seu sentido.
 
@@ -102,9 +132,9 @@ Essa questão é bem simplória, pois sabemos que a maioria das pessoas esperam 
 
 Isso é engraçado, pois acaba confirmando que estamos tão ansiosos com o processo que queremos chegar lá, responder um monte de pergunta e saber logo o resultado.
 
-## Sobre o teste prático
+## <a name='Sobreotesteprtico'></a>Sobre o teste prático
 
-### Você gosta de receber o teste prático para fazer em casa?
+### <a name='Vocgostadereceberotesteprticoparafazeremcasa'></a>Você gosta de receber o teste prático para fazer em casa?
 
 Nós gostamos de fazer o teste prático com calma e atenção aos detalhes, para entregar algo que demonstre realmente o que nós dominamos.
 
@@ -118,7 +148,7 @@ Lembrando que quando falamos de fazer um teste prático, não significa que voc�
 
 Lembrem-se que, além do processo para a sua empresa, a pessoa pode estar participando de outros processos assim como pode estar empregada e não ter tanto tempo disponível assim para resolver todas as suas exigências, fazendo assim que você perca talentos por um processo seletivo falho, não por falta de pessoas capacitadas para suas posições de trabalho.
 
-### Quanto é o tempo ideal para se fazer o teste prático em casa?
+### <a name='Quantootempoidealparasefazerotesteprticoemcasa'></a>Quanto é o tempo ideal para se fazer o teste prático em casa?
 
 A maioria das pessoas, provavelmente pelos pontos que citei acima, preferem 1 semana de prazo para entrega do teste prático (já imaginando que ele será com uma lista de requisitos bem extensa, que é o que estamos acostumados (as)), onde:
 
@@ -131,7 +161,7 @@ A maioria das pessoas, provavelmente pelos pontos que citei acima, preferem 1 se
 | 1 mês | 1.1% |
 | sem prazo definido | 12.4% |
 
-### Você prefere um teste prático que seja uma funcionalidade inteira (como um CRUD ou uma tela com muitas interações) ou um teste mais rápido e menos parecido com o mundo real?
+### <a name='VocprefereumtesteprticoquesejaumafuncionalidadeinteiracomoumCRUDouumatelacommuitasinteraesouumtestemaisrpidoemenosparecidocomomundoreal'></a>Você prefere um teste prático que seja uma funcionalidade inteira (como um CRUD ou uma tela com muitas interações) ou um teste mais rápido e menos parecido com o mundo real?
 
 A maioria das pessoas prefere fazer um teste rápido, mas ainda parecido com o mundo real, mostrando que as pessoas querem fazer um teste que não tome muito do seu tempo, mas mostre que elas realmente sabem o que fazem.
 
@@ -144,13 +174,13 @@ Muitas vezes ouvimos de gestores que as pessoas querem testes fáceis para passa
 | um teste mais rápido, mas ainda parecido com o mundo real | 52.9% |
 | um teste mais rápido, mas indiferente ao mundo real | 9.6% |
 
-### Você acha que o teste prático deve refletir exatamente o que você fará no dia-a-dia na empresa ou pode ser mais generalista?
+### <a name='Vocachaqueotesteprticodeverefletirexatamenteoquevocfarnodia-a-dianaempresaoupodesermaisgeneralista'></a>Você acha que o teste prático deve refletir exatamente o que você fará no dia-a-dia na empresa ou pode ser mais generalista?
 
 As pessoas realmente só querem fazer algo que demonstre seu conhecimento técnico sem abusos por parte da empresa. Visto que as respostas aqui ficaram muito balanceadas: **57.4%** acham que o teste pode ser generalista, como um teste de lógica de programação e **42.6%** acreditam que o teste deve refletir exatamente o que elas vão fazer no dia-a-dia.
 
-## Finalizando
+## <a name='Finalizando'></a>Finalizando
 
-### Em quantos dias você acha que a empresa deveria te responder se você passou ou não?
+### <a name='Emquantosdiasvocachaqueaempresadeveriaterespondersevocpassououno'></a>Em quantos dias você acha que a empresa deveria te responder se você passou ou não?
 
 Essa pergunta foi extremamente previsível, pois uma grande parte das empresas **não dá feedback sobre o seu processo seletivo**, como em qual parte do processo nós estamos ou um prazo de em quanto tempo irá nos responder e as pessoas tem pressa.
 
@@ -165,7 +195,7 @@ O pior, algumas empresas nunca respondem quem não passou. Às pessoas fazem tod
 | não vejo problema em demorar, desde que responda | 8.2% |
 | não vejo problema em demorar, mesmo que nunca responda | **0%** |
 
-### Você acha legal descrições de vagas que tem várias linguagens de programação, mas não diz exatamente com qual você vai trabalhar no dia-a-dia?
+### <a name='Vocachalegaldescriesdevagasquetemvriaslinguagensdeprogramaomasnodizexatamentecomqualvocvaitrabalharnodia-a-dia'></a>Você acha legal descrições de vagas que tem várias linguagens de programação, mas não diz exatamente com qual você vai trabalhar no dia-a-dia?
 
 Essa é uma questão constante e que afasta a maioria das pessoas mais iniciantes ou pessoas que acabaram de se tornar mid level (pleno) e até mesmo pessoas em níveis mais altos que não querem ficar questionando a empresa, mas saber logo o que a empresa deseja dela.
 
@@ -179,7 +209,7 @@ Nós estudamos uma lista pequena de linguagens ou até mesmo uma única para tra
 
 Se você, pessoa recrutadora, deseja que a pessoa entrevistada saiba algo que essas linguagens trazem, como orientação a objetos em Java, gerenciamento de memória em C, alta performance em sistemas distribuídos com Golang, escalabilidade com Erlang, manutenibilidade com C#, maleabilidade com PHP ou JavaScript ou qualquer outra característica que são aprendidas com essas tecnologias, coloque logo na descrição o que você quer que a pessoa saiba e não as linguagens de nicho.
 
-### Você gostaria de saber, na descrição da vaga, qual framework ou lib vai utilizar no trabalho?
+### <a name='Vocgostariadesabernadescriodavagaqualframeworkoulibvaiutilizarnotrabalho'></a>Você gostaria de saber, na descrição da vaga, qual framework ou lib vai utilizar no trabalho?
 
 Esta também é uma questão muito previsível. Às pessoas investem seu tempo para aprender uma tecnologia e, por consequência, querem trabalhar com isso.
 
@@ -187,13 +217,13 @@ Esta também é uma questão muito previsível. Às pessoas investem seu tempo p
 
 Lembrando que as pessoas não querem ficar presas nas tecnologias, meu querido CTO, gestor, líder ou pessoa recrutadora, elas sabem que devem ser maleáveis em sua profissão e que as tecnologias morrem, mas elas não querem aprender algo em uma semana só para passar no seu teste.
 
-### Você acha importante saber, já na entrevista, como é a cultura da empresa?
+### <a name='Vocachaimportantesaberjnaentrevistacomoaculturadaempresa'></a>Você acha importante saber, já na entrevista, como é a cultura da empresa?
 
 A maioria esmagadora gostaria de saber sobre a cultura da empresa logo na entrevista, afinal é algo decisivo para aceitar uma proposta ou não.
 
 **98.3%** das pessoas gostariam de saber sobre a cultura já na entrevista e somente **1.7%** não ligam.
 
-### Quais pessoas você gostaria de conhecer na entrevista?
+### <a name='Quaispessoasvocgostariadeconhecernaentrevista'></a>Quais pessoas você gostaria de conhecer na entrevista?
 
 Quando chegamos na entrevista, esperamos ser recebidos (as) por algumas pessoas, essas pessoas são:
 
@@ -207,7 +237,7 @@ Quando chegamos na entrevista, esperamos ser recebidos (as) por algumas pessoas,
 | uma pessoa trans | 163 respostas |
 | um (a) profissional PCD | 159 respostas |
 
-### Você gostaria de saber o salário antes de começar o processo seletivo?
+### <a name='Vocgostariadesaberosalrioantesdecomearoprocessoseletivo'></a>Você gostaria de saber o salário antes de começar o processo seletivo?
 
 Em vagas para o exterior é comum sabermos o salário já na proposta, antes mesmo de começar o processo seletivo.
 
@@ -219,7 +249,7 @@ Isso é extremamente efetivo, afinal se o salário for um parâmetro decisivo pa
 | prefiro negociar no fim | 13.5% |
 | não ou não ligo | 2.3% |
 
-### Você gostaria de saber exatamente qual a sua futura função na empresa (como time e escopo) antes de começar o processo seletivo?
+### <a name='Vocgostariadesaberexatamentequalasuafuturafunonaempresacomotimeeescopoantesdecomearoprocessoseletivo'></a>Você gostaria de saber exatamente qual a sua futura função na empresa (como time e escopo) antes de começar o processo seletivo?
 
 Essa resposta também era previsível, uma vez que nossa experiência em entrevistas é um tiro no escuro. Não sabemos em qual produto vamos trabalhar, como vamos trabalhar e nem com quem.
 
@@ -227,7 +257,7 @@ Isso é efetivo para a empresa, afinal ela pode renegociar a posição da pessoa
 
 **89.1%** das pessoas gostariam de saber exatamente sua função antes do processo seletivo e **10.9** não liga.
 
-## Conclusão
+## <a name='Concluso'></a>Conclusão
 
 Essa pesquisa foi bem longa e difícil de compilar. Espero que lhe sirva de apoio para melhorar seu processo seletivo e, se você for dev, para te fazer ser ouvido (a) pelas empresas.
 

@@ -6,6 +6,18 @@ tags:
     - pensamentos
 description: A empresa não vai mudar para melhor de um dia para o outro, talvez seja hora de você sair desse ambiente e partir para um lugar que te faça se sentir bem
 ---
+
+<!-- vscode-markdown-toc -->
+* [O fit cultural e o ambiente tóxico](#Ofitculturaleoambientetxico)
+* [Uma empresa ruim pode nunca deixar de ser uma empresa ruim](#Umaempresaruimpodenuncadeixardeserumaempresaruim)
+* [Conclusão](#Concluso)
+
+<!-- vscode-markdown-toc-config
+	numbering=false
+	autoSave=true
+	/vscode-markdown-toc-config -->
+<!-- /vscode-markdown-toc -->
+
 > A empresa não vai mudar para melhor de um dia para o outro, talvez seja hora de você sair desse ambiente e partir para um lugar que te faça se sentir bem
 
 É muito difícil pensar em sair de um emprego, afinal nós fazemos um esforço para entrar na empresa… Procurar um emprego, fazer uma entrevista, passar no teste prático, primeiros dias desesperadores de emprego, novas pessoas para aprender lidar… Tudo isso e mais um pouco pesa bastante na balança quando pensamos em sair de um emprego.
@@ -24,7 +36,7 @@ Aquele negócio de trabalhe com o que ama e nunca terá que trabalhar é papo de
 
 O ambiente é ruim assim porque a cultura é ruim e, na maioria das vezes, a empresa não vai mudar por mais que nós relatemos as partes ruins.
 
-## O fit cultural e o ambiente tóxico
+## <a name='Ofitculturaleoambientetxico'></a>O fit cultural e o ambiente tóxico
 
 O ambiente é tóxico porque a cultura é ruim e quem constrói a cultura é a liderança (presidência, diretoria, gerencia, coordenação) em conjunto com o restante da empresa (nós).
 
@@ -44,7 +56,7 @@ Se a resposta for que temos muitas pessoas com comportamento ruim, é sinal que 
 
 
 
-## Uma empresa ruim pode nunca deixar de ser uma empresa ruim
+## <a name='Umaempresaruimpodenuncadeixardeserumaempresaruim'></a>Uma empresa ruim pode nunca deixar de ser uma empresa ruim
 
 As pessoas mudam, o ambiente de trabalho pode, sim, melhorar com a entrada de pessoas legais. **Porém essa mudança só vai acontecer se a empresa realmente quiser isso**.
 
@@ -56,7 +68,7 @@ Eu acredito que conseguimos mudar um ambiente através da comunicação, melhori
 
 Se as pessoas ao redor estão questionando a empresa e nada muda, é sinal que nada vai acontecer.
 
-## Conclusão
+## <a name='Concluso'></a>Conclusão
 
 Este artigo não é direcionado a nenhuma empresa em especial, mas uma reflexão pessoal que carrego comigo depois de ouvir vários relatos de empregos ruins que as pessoas me mandam durante o processo de mentoria que eu presto para guiar a carreira delas.
 

@@ -5,6 +5,28 @@ tags:
     - carreira
 description: Um guia de como planejarmos nosso futuro profissional criando nosso próprio plano de carreira.
 ---
+
+<!-- vscode-markdown-toc -->
+* [Planos de carreira em Y ou em T](#PlanosdecarreiraemYouemT)
+	* [Plano de carreira em Y](#PlanodecarreiraemY)
+	* [Plano de carreira em T](#PlanodecarreiraemT)
+* [Definindo nossas competências profissionais (as metas)](#Definindonossascompetnciasprofissionaisasmetas)
+* [Entendendo o que o mercado precisa](#Entendendooqueomercadoprecisa)
+* [Mas e se nosso objetivo for sair do país ou mudar de cidade/estado?](#Masesenossoobjetivoforsairdopasoumudardecidadeestado)
+* [E se desejamos nos tornar referência de mercado de trabalho?](#Esedesejamosnostornarrefernciademercadodetrabalho)
+* [E se mudarmos de ideia no meio do caminho?](#Esemudarmosdeideianomeiodocaminho)
+* [Como criar as metas de modo crescente](#Comocriarasmetasdemodocrescente)
+* [É ruim seguir planos de carreira de outras pessoas?](#ruimseguirplanosdecarreiradeoutraspessoas)
+* [Dividindo tudo em metas de curto, médio e longo prazo](#Dividindotudoemmetasdecurtomdioelongoprazo)
+* [Conclusão](#Concluso)
+	* [Referências](#Referncias)
+
+<!-- vscode-markdown-toc-config
+	numbering=false
+	autoSave=true
+	/vscode-markdown-toc-config -->
+<!-- /vscode-markdown-toc -->
+
 Quando falamos de plano de carreira, normalmente, pensamos em uma empresa que nos ajuda a crescer ou a subir cargo. É algo fortemente ligado a área de recursos humanos.
 
 Plano de carreira é uma maneira estruturada de construir objetivos e ir subindo de cargo em uma empresa ou não.
@@ -30,17 +52,17 @@ Como o texto estava ficando muito grande precisei dividir em dois, no próximo a
 ![Imagem de um(a) astronauta no espaço. Imagem da NASA no Unsplash.]({{site.postsImagesPath}}voando-proximo-a-terra.jpeg)
 {:.post__wallpaper}
 
-## Planos de carreira em Y ou em T
+## <a name='PlanosdecarreiraemYouemT'></a>Planos de carreira em Y ou em T
 
 Existem diversas maneiras de trilharmos nossa carreira e nenhuma delas é uma bala de prata. Existe o plano em Y, em T, em W, em B, em M, etc. Vamos analisar os planos em Y e em T que são os mais comuns no nosso universo do desenvolvimento de software.
 
-### Plano de carreira em Y
+### <a name='PlanodecarreiraemY'></a>Plano de carreira em Y
 
 Mais comum em empresas tradicionais, o plano em Y é aquele modelo onde vamos evoluindo em nossas funções, “batendo” metas profissionais até um ponto onde escolhemos se desejamos seguir carreira na área de gerência ou nos especializarmos ainda mais em nossa área de atuação.
 
 Hoje em dia as faculdades e algumas pessoas também indicam que a pessoa deve empreender ao invés de virar gerente, mas isso pode variar muito de perfil para perfil.
 
-### Plano de carreira em T
+### <a name='PlanodecarreiraemT'></a>Plano de carreira em T
 
 O plano em T é o modelo em que vamos seguindo cumprindo nossos objetivos e nos tornamos especialistas em algo, mas também aprendemos outras coisas de outras áreas afim de nos envolvermos mais em uma empresa ou projeto como um todo.
 
@@ -59,7 +81,7 @@ O mercado de trabalho tem espaço para todos os perfis.
 
 Caso tenhamos abertura com o RH da empresa, podemos tentar descobrir onde nos encaixamos através dos testes de personalidade que eles aplicam. Também conseguimos isso procurando profissionais de psicologia que podem nos ajudar a descobrir esses pontos fortes.
 
-## Definindo nossas competências profissionais (as metas)
+## <a name='Definindonossascompetnciasprofissionaisasmetas'></a>Definindo nossas competências profissionais (as metas)
 
 Depois de nos analisarmos bem e de definirmos nosso modelo de especialização (em Y, em T, em I, em H, em M, etc), é hora de definir as competências que iremos buscar. Traçar nossas metas profissionais.
 
@@ -83,7 +105,7 @@ Então como podemos definir o que devemos aprender?
 
 Nós devemos analisar o mercado de trabalho. Devemos pesquisar e analisar de maneira estatística o que está acontecendo no mercado. Não acreditar somente na **opinião** das pessoas.
 
-## Entendendo o que o mercado precisa
+## <a name='Entendendooqueomercadoprecisa'></a>Entendendo o que o mercado precisa
 
 O mercado de trabalho pode variar de região para região, de país para país e até mesmo de época. — É igual fruta de estação.
 
@@ -109,7 +131,7 @@ Com essa lista de requisitos, sabemos agora o que devemos estudar/aperfeiçoar e
 
 *OBS.: A opção de estudar tudo o que foi anotado não é a melhor caso você queira arrumar seu primeiro emprego na área ou precise arrumar emprego rápido.*
 
-## Mas e se nosso objetivo for sair do país ou mudar de cidade/estado?
+## <a name='Masesenossoobjetivoforsairdopasoumudardecidadeestado'></a>Mas e se nosso objetivo for sair do país ou mudar de cidade/estado?
 
 Quando nossa ambição vai mais longe do que nossa localidade, então devemos começar a buscar fora dali.
 
@@ -119,7 +141,7 @@ Nestes casos, ao invés de olhar somente as vagas de empresas locais, é importa
 
 
 
-## E se desejamos nos tornar referência de mercado de trabalho?
+## <a name='Esedesejamosnostornarrefernciademercadodetrabalho'></a>E se desejamos nos tornar referência de mercado de trabalho?
 
 Esse também é o sonho de algumas pessoas: se tornar referência no mercado de trabalho.
 
@@ -129,7 +151,7 @@ Independente da nossa motivação, a maneira de conseguir isso é a mesma das de
 
 Elas escrevem artigos? Então devemos começar a escrever artigos. Elas palestram? Então devemos começar a palestrar. Elas dão treinamento? Então devemos começar a ministrar treinamentos. E assim vai.
 
-## E se mudarmos de ideia no meio do caminho?
+## <a name='Esemudarmosdeideianomeiodocaminho'></a>E se mudarmos de ideia no meio do caminho?
 
 Eu, pessoalmente, fiz a minha lista a alguns anos atrás — em 2018 fazem 3 anos, para ser mais exato — para a área de frontend, quando eu desejava me especializar somente em **client-side** com JavaScript e as famosas SPAs.
 
@@ -143,7 +165,7 @@ Essa mudança de planos é bem normal de acontecer em nossa carreira. Podemos mu
 
 Agora, imagina se prendermos nossa vida a uma empresa, será que poderíamos mudar de caminho a qualquer momento? Dependendo da empresa, sim, mas a grande maioria, infelizmente, não tem essa opção.
 
-## Como criar as metas de modo crescente
+## <a name='Comocriarasmetasdemodocrescente'></a>Como criar as metas de modo crescente
 
 Até agora eu disse como pesquisar o que precisamos para trabalhar em uma área de atuação, mas eu não falei como crescer profissionalmente dessa maneira.
 
@@ -178,7 +200,7 @@ Para facilitar, sempre que encontrar uma vaga com descrição **xyz junior/pleno
 
 Baseado nessa análise conseguimos montar listas para cada nível profissional e essas serão nossas metas.
 
-## É ruim seguir planos de carreira de outras pessoas?
+## <a name='ruimseguirplanosdecarreiradeoutraspessoas'></a>É ruim seguir planos de carreira de outras pessoas?
 
 É comum que as pessoas compartilhem suas trilhas. Depois de algum tempo na área de frontend, eu montei outra lista ainda mais completa sobre como se tornar um(a):
 
@@ -190,7 +212,7 @@ A resposta é: **depende**.
 
 Se o seu contexto for parecido com o da pessoa que montou o plano, tudo bem. Senão, utilize o plano da pessoa como base e modifique para os seus objetivos.
 
-## Dividindo tudo em metas de curto, médio e longo prazo
+## <a name='Dividindotudoemmetasdecurtomdioelongoprazo'></a>Dividindo tudo em metas de curto, médio e longo prazo
 
 Sabendo o que precisamos para sermos considerados(as) junior, pleno, senior ou especialista, podemos então dividir mais ainda para criar nossas metas de curto, médio e longo prazo.
 
@@ -216,7 +238,7 @@ Um texto relacionado que pode nos ajudar a planejar nossos estudos é este aqui:
 
 - [Como alcançar objetivos rapidamente nos estudos](/posts/como-alcancar-objetivos-rapidamente-nos-estudos/)
 
-## Conclusão
+## <a name='Concluso'></a>Conclusão
 
 Lembrando que este artigo não é um “chamado anarquista” para que entremos em guerra com as empresas que não tem modelo flexível, “as maiores vilãs da sociedade moderna”. Não é nada disso. Meu desejo é que você se empodere e possa ter escolhas melhores na vida do que ficar preso a um CNPJ.
 
@@ -236,7 +258,7 @@ Neste outro artigo eu comento sobre o que eu estou focando agora em minhas metas
 
 ---
 
-### Referências
+### <a name='Referncias'></a>Referências
 
 - [Plano de carreira SEBRAE](https://www.sebrae.com.br/sites/PortalSebrae/artigos/plano-de-carreira-o-que-e-e-como-criar,66d839f5192ed510VgnVCM1000004c00210aRCRD)
 - [Guia da Carreira - o que é plano de carreira](https://www.guiadacarreira.com.br/carreira/o-que-e-plano-de-carreira/)

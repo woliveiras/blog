@@ -7,6 +7,23 @@ tags:
     - estudos
 description: Nos conhecer melhor pode nos ajudar a aprender mais. Tomar as rédeas dos nossos estudos pode mudar o rumo da nossa vida.
 ---
+<!-- vscode-markdown-toc -->
+* [O protagonismo da aprendizagem em nossa infância](#Oprotagonismodaaprendizagememnossainfncia)
+* [O protagonismo no aprendizado pós primeira infância](#Oprotagonismonoaprendizadopsprimeirainfncia)
+* [O que é protagonizar nosso próprio aprendizado](#Oqueprotagonizarnossoprprioaprendizado)
+* [Usando a internet e a tecnologia como ferramenta de aprendizagem](#Usandoainterneteatecnologiacomoferramentadeaprendizagem)
+* [Como estruturar o conteúdo](#Comoestruturarocontedo)
+* [Como criar um fluxo lógico do que vou estudar](#Comocriarumfluxolgicodoquevouestudar)
+* [Validando nosso conhecimento](#Validandonossoconhecimento)
+* [Aprendendo em grupo](#Aprendendoemgrupo)
+* [Conclusão](#Concluso)
+
+<!-- vscode-markdown-toc-config
+	numbering=false
+	autoSave=true
+	/vscode-markdown-toc-config -->
+<!-- /vscode-markdown-toc -->
+
 Todo mundo tem o dom de aprender por si só. Normalmente você aprende por conta própria quando é criança, em sua primeira infância. Época em que você não tinha medo de tentar/falhar.
 
 Entenda: [Primeira Infância](https://pt.wikipedia.org/wiki/Primeira_inf%C3%A2ncia)
@@ -19,7 +36,7 @@ E por isso somos levados(as) pela onda do método de ensino que recebemos nas es
 
 Só que isso não precisa e nem deveria mais ser sempre assim.
 
-## O protagonismo da aprendizagem em nossa infância
+## <a name='Oprotagonismodaaprendizagememnossainfncia'></a>O protagonismo da aprendizagem em nossa infância
 
 As primeiras pessoas a protagonizarem o triste papel de travar nossas mentes no papel de compartilhadores(as) são professores(as) e administradores(as) do pré escolar que seguem um modelo arcaico de ensino que já nem deveria mais ser utilizado em salas de aulas, pois existem outros métodos baseados em exploração e auto gestão do conhecimento que são muito melhores.
 
@@ -51,7 +68,7 @@ Sem regras, sem padrões pré definidos, como se todo mundo aprendesse igual, no
 
 > As pessoas crescem passando pelas mesmas etapas na vida e quando chegam em certa idade umas aprenderam muito mais que as outras, mesmo alguns tendo as mesmas capacidades.
 
-## O protagonismo no aprendizado pós primeira infância
+## <a name='Oprotagonismonoaprendizadopsprimeirainfncia'></a>O protagonismo no aprendizado pós primeira infância
 
 Como crescemos aprendendo que é necessário um(a) dententor(a) de conhecimento transmitindo o que precisamos aprender e até mesmo criando a grade de estudos do que precisamos aprender, quando chegamos em nossa adolescência e vida adulta é a mesma coisa.
 
@@ -67,7 +84,7 @@ Tudo bem precisar de alguém para aprender, isso não é ruim. As vezes não tem
 
 Claro que existem ótimos cursos que estimulam seu aprendizado com as mais conhecidas técnicas de aprendizado já pesquisado pela área de psicologia, mas, a grande maioria não estimula sua capacidade de buscar por si só. O curso existe ali simplesmente porque teve mercado e alguém foi explorar esse mercado.
 
-## O que é protagonizar nosso próprio aprendizado
+## <a name='Oqueprotagonizarnossoprprioaprendizado'></a>O que é protagonizar nosso próprio aprendizado
 
 Assumir as rédeas do aprendizado não é fácil. É uma quebra de paradigma muito grande por já estarmos acostumados(as) com o modelo atual. Porém não é impossível.
 
@@ -77,7 +94,7 @@ Foi: montar tópicos que devem ser aprendidos sobre o assunto ao qual ela minist
 
 Isso é o que você deveria conseguir fazer sozinho(a) quando quer aprender algo novo, mas não tem o hábito ou, por conta da falta de hábito, tem preguiça(não existe problema em ter preguiça, você pode, sim, sentir isso).
 
-## Usando a internet e a tecnologia como ferramenta de aprendizagem
+## <a name='Usandoainterneteatecnologiacomoferramentadeaprendizagem'></a>Usando a internet e a tecnologia como ferramenta de aprendizagem
 
 Você, que agora sabe o que fazer pra tomar as rédeas do seu aprendizado, pode usar essa ferramenta maravilhosa, que é a internet, pra aprender.
 
@@ -93,7 +110,7 @@ Pra não ficar só em minhas palavras, da uma olhada no método de estudos mais 
 
 <iframe src="https://www.youtube.com/embed/CN_SCpGuJ_w" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 
-## Como estruturar o conteúdo
+## <a name='Comoestruturarocontedo'></a>Como estruturar o conteúdo
 
 Antes mesmo de começar a estudar conteúdo você deve estruturar seu raciocínio e os tópicos que vai aprender.
 
@@ -105,7 +122,7 @@ Algo que ajuda a montar esta estrutura é utilizar mapas mentais.
 
 Com o mapa em mãos você consegue criar um fluxo do que vai estudar primeiro.
 
-## Como criar um fluxo lógico do que vou estudar
+## <a name='Comocriarumfluxolgicodoquevouestudar'></a>Como criar um fluxo lógico do que vou estudar
 
 Com o mapa mental em mãos já será possível estudar. Porém pode ser bem útil, devido ao nosso hábito já enraizado de aprendizado, criar um fluxo lógico do que vai estudar.
 
@@ -117,7 +134,7 @@ Imagine o fluxo lógico como um índice de livro ou a grade de um curso mesmo. V
 
 Leia: [Como alcançar os objetivos rapidamente nos estudos](/posts/como-alcancar-objetivos-rapidamente-nos-estudos/).
 
-## Validando nosso conhecimento
+## <a name='Validandonossoconhecimento'></a>Validando nosso conhecimento
 
 Como você deve ter visto no vídeo que compartilhei mais acima sobre a técnica Feynman, compartilhar o que você aprendeu é muito importante para melhor associação do conteúdo e forçar nossa mente a criar abstrações para o conteúdo. Isso faz com que aprendamos de verdade o assunto.
 
@@ -129,7 +146,7 @@ Por estar aprendendo algo você pode pensar: *mas eu ainda estou aprendendo, eu 
 
 Você, mais do que ninguém, vai saber falar exatamente a língua de quem também está aprendendo e, além de forçar o seu aprendizado, estará ajudando outra pessoa que também esteja buscando conteúdo na internet.
 
-## Aprendendo em grupo
+## <a name='Aprendendoemgrupo'></a>Aprendendo em grupo
 
 O ser humano aprendeu que criar grupos o ajudaria a perpetuar sua espécie. Você, **provavelmente**, gosta de estar em grupo ou de fazer parte de alguma coisa.
 
@@ -139,7 +156,7 @@ Você pode formar grupos de estudos com o mesmo objetivo, discutirem juntos(as) 
 
 Existem diversas maneiras de se organizar um grupo de estudos, o foco aqui é: as pessoa vão conseguir fazer coisas com mais agilidade se trabalharem juntas de maneira organizada em prol do aprendizado do grupo.
 
-## Conclusão
+## <a name='Concluso'></a>Conclusão
 
 Até aqui chegamos em uma maneira mais interpessoal de se aprender que é a busca pelo conhecimento por conta própria, estruturação do que deve ser estudado e enfim estudar e compartilhar, depois dei a dica do grupo de estudos, que pode te ajudar a se motivar e ser mais ágil na busca por conhecimento.
 

@@ -11,6 +11,28 @@ tags:
     - mobile
 description: Um artigo para desmistificar as diferentes especialidades de uma pessoa desenvolvedora de software.
 ---
+<!-- vscode-markdown-toc -->
+* [O que faz uma pessoa desenvolvedora de software?](#Oquefazumapessoadesenvolvedoradesoftware)
+* [E onde entram frontends, backends ou mobile devs?](#Eondeentramfrontendsbackendsoumobiledevs)
+* [A similaridade das profissões](#Asimilaridadedasprofisses)
+* [Plataforma](#Plataforma)
+* [Precisa se preocupar com diversas plataformas?](#Precisasepreocuparcomdiversasplataformas)
+* [Lida com dados vindo de terceiros?](#Lidacomdadosvindodeterceiros)
+* [Precisa persistir dados na plataforma?](#Precisapersistirdadosnaplataforma)
+* [Precisa se preocupar com sessão de usuário?](#Precisasepreocuparcomsessodeusurio)
+* [Precisa se preocupar com a camada de rede?](#Precisasepreocuparcomacamadaderede)
+* [Precisa se preocupar com o funcionamento offline da aplicação?](#Precisasepreocuparcomofuncionamentoofflinedaaplicao)
+* [Precisa se preocupar com infraestrutura?](#Precisasepreocuparcominfraestrutura)
+* [Precisa se preocupar com cache de dados?](#Precisasepreocuparcomcachededados)
+* [Bibliotecas e Frameworks](#BibliotecaseFrameworks)
+* [Conclusão](#Concluso)
+
+<!-- vscode-markdown-toc-config
+	numbering=false
+	autoSave=true
+	/vscode-markdown-toc-config -->
+<!-- /vscode-markdown-toc -->
+
 Constantemente precisamos explicar para as pessoas não técnicas o que fazemos em nosso nicho profissional. Principalmente quando trabalhamos com web e temos cargos como frontend, backend e fullstack.
 
 Porém mesmo quando trabalhamos com programação ainda temos as nossas questões sobre o que as pessoas de outras áreas fazem. Graças a essa falta de conhecimento da outra área, normalmente existe o preconceito entre profissões. Como backends achando que seu trabalho é mais difícil do que frontend ou mobile, porque ambos só consomem o serviço do backend, mobile achando que seu trabalho é mais complicado, pois precisam dar atenção a diversas plataformas e também frontends achando que seu trabalho é mais complicado que o de todo mundo por ter que dar suporte ao IE.
@@ -21,7 +43,7 @@ Diferentes profissões com um mesmo objetivo são o mesmo que diferentes drinks 
 
 > Ninguém é tecnicamente mais capaz do que o outro por causa de sua especialidade
 
-## O que faz uma pessoa desenvolvedora de software?
+## <a name='Oquefazumapessoadesenvolvedoradesoftware'></a>O que faz uma pessoa desenvolvedora de software?
 
 Independente da área de atuação, todas essas profissões são de pessoas desenvolvedoras de software, então elas têm algo em comum.
 
@@ -35,7 +57,7 @@ Vamos pensar em um exemplo prático e analisar o caso de uma empresa fictícia:
 
 Percebemos que algo foi feito. Existia um problema e ele foi resolvido com o desenvolvimento de um software. Então, basicamente, é para isso que nossas profissões existem: criar software que resolva o problema das pessoas, de coisas ou processos, etc.
 
-## E onde entram frontends, backends ou mobile devs?
+## <a name='Eondeentramfrontendsbackendsoumobiledevs'></a>E onde entram frontends, backends ou mobile devs?
 
 Essas profissões nasceram devido a especificidade e problemas que somente uma certa especialização conseguiu resolver. Problemas que empresas menores muitas vezes nem pensam em passar, como:
 
@@ -52,7 +74,7 @@ Eu, **pessoalmente**, prefiro a carreira em T, citada nestes artigos:
 - [Criando nosso plano de carreira e assumindo o controle do nosso futuro profissional](/posts/criando-nosso-plano-de-carreira-e-assumindo-o-controle-do-nosso-futuro-profissional/)
 - [Criando nosso plano de carreira no Trello](/posts/criando-nosso-plano-de-carreira-no-trello)
 
-## A similaridade das profissões
+## <a name='Asimilaridadedasprofisses'></a>A similaridade das profissões
 
 Por mais que saibamos que toda profissão possui suas próprias peculiaridades, as pessoas continuam a achar que suas áreas são as mais importantes dentro de um trabalho de criação. Eu, como frontend, atualmente, posso achar que o que eu faço é mais importante que a pessoa de backend ou a de mobile e vice-versa.
 
@@ -66,7 +88,7 @@ Pensei em usar uma tabela para raciocinar em cima, então vamos observar o que e
 
 Vamos entender cada ponto.
 
-## Plataforma
+## <a name='Plataforma'></a>Plataforma
 
 Quando estamos desenvolvendo software precisamos atender diversas plataformas. Se é um programa desktop, por exemplo, a nossa plataforma será o sistema operacional.
 
@@ -74,7 +96,7 @@ Quando trabalhamos como backends possuímos o sistema operacional (Windows, Linu
 
 Isso implica em: precisamos conhecer muito bem as plataformas nas quais nosso software irá rodar. A pessoa de backend precisa conhecer os problemas que pode ter com relação a memória disponibilizada via sistema operacional, em não sobrecarregar o processador e não abusar da camada de rede. O mesmo acontece com mobile e frontend, uma pessoa descuidada trabalhando nessas duas frentes pode travar um celular por colocar uma rotina para processar intensamente não levando em consideração a capacidade disponível na plataforma. Ninguém quer usar um aplicativo ou entrar em um site que acaba com a memória do celular também e ninguém quer que uma aba do navegador puxe todos os recursos do seu computador.
 
-## Precisa se preocupar com diversas plataformas?
+## <a name='Precisasepreocuparcomdiversasplataformas'></a>Precisa se preocupar com diversas plataformas?
 
 Como já é de se perceber acima, como temos que trabalhar com nossas plataformas, precisamos conhecer profundamente as mais utilizadas.
 
@@ -84,7 +106,7 @@ Uma pessoa de mobile precisa conhecer diversas versões de um mesmo sistema que 
 
 Uma pessoa de frontend, além dos diferentes navegadores disponíveis, que implementam suas APIs de acordo com que dá vontade, ainda precisam atuar em diferentes versões do mesmo navegador, que às vezes ainda não possui algum recurso que ela deseja usar para resolver algum problema em sua aplicação.
 
-## Lida com dados vindo de terceiros?
+## <a name='Lidacomdadosvindodeterceiros'></a>Lida com dados vindo de terceiros?
 
 Dados vindo de terceiros seria a utilização de APIs externas, como parceiros ou APIs que fornecem informações que precisamos para alguma funcionalidade de nossa aplicação.
 
@@ -94,7 +116,7 @@ Porém existem coisas que não podem ficar no backend, como APIs de rastreamento
 
 Assim como essas libs, existem também informações de terceiros que mudam tanto que não vale a pena deixar na aplicação backend, então a responsabilidade de solicitar esses dados fica com as aplicações que rodam do lado do cliente. Isso só aumentaria o tempo de resposta do servidor, levando a uma demora no carregamento das páginas ou dos aplicativos e ao abandono por parte do usuário do nosso software.
 
-## Precisa persistir dados na plataforma?
+## <a name='Precisapersistirdadosnaplataforma'></a>Precisa persistir dados na plataforma?
 
 Constantemente os softwares precisam dos seus dados armazenados em algum lugar para consultas futuras ou mesmo para compartilhar com outros softwares.
 
@@ -108,7 +130,7 @@ Pessoas de mobile também precisam persistir dados, elas persistem diretamente n
 
 Pessoas de frontend acabam lidando também com a persistência no dispositivo do usuário, nesse caso utilizando o navegador para essa persistência utilizando cookies, localStorage, sessionStorage, IndexDB e afins, dependendo da necessidade ou tamanho de dados.
 
-## Precisa se preocupar com sessão de usuário?
+## <a name='Precisasepreocuparcomsessodeusurio'></a>Precisa se preocupar com sessão de usuário?
 
 O interessante de pensarmos na persistência de dados é que em muitos casos precisamos persistir por uma sessão do usuário, ou seja o dado é destruído quando o usuário finalizar uma conexão com o backend, fecha o navegador ou o app mobile.
 
@@ -116,7 +138,7 @@ Em todo caso precisamos lidar com sessão de usuário.
 
 Em todos os casos a sessão é controlada, normalmente, utilizando os recursos da linguagem de programação, que já abstrai esse trabalho de criação, permanência e finalização de sessão.
 
-## Precisa se preocupar com a camada de rede?
+## <a name='Precisasepreocuparcomacamadaderede'></a>Precisa se preocupar com a camada de rede?
 
 Antigamente os dados ficavam todos em nosso software local, direto na máquina do usuário em nossas aplicações desktop. Assim como acontece com a calculadora em nosso celular que armazena o histórico de operações que realizamos e podemos acessar isso depois.
 
@@ -132,7 +154,7 @@ Para a pessoa de frontend ou mobile o conhecimento do protocolo HTTP seria sufic
 
 Fora esse trabalho com protocolos, em todos os casos precisamos nos preocupar com conexões lentas ou queda de internet, com menos prioridade no backend que na maioria das vezes trafega em rede controlada onde conseguimos disponibilizar alta velocidade e disponibilidade, porém no frontend e mobile nós dependemos da internet do usuário que pode ser desde uma de gigas até uma banda larga popular de 256Kb/s.
 
-## Precisa se preocupar com o funcionamento offline da aplicação?
+## <a name='Precisasepreocuparcomofuncionamentoofflinedaaplicao'></a>Precisa se preocupar com o funcionamento offline da aplicação?
 
 Como citado acima, a internet pode cair e, nesse caso, quem tem que se cuidar são as aplicações que atuam no frontend.
 
@@ -144,7 +166,7 @@ Nos apps mobile isso já era pauta antigamente, onde eles utilizam técnicas de 
 
 No backend, normalmente, as pessoas não criam aplicações que funcionam offline, afinal o servidor precisa estar funcionando para enviar os dados para o frontend ou mobile. Aqui não se encaixa o caso de resiliência caso as ferramentas de terceiros não respondam, pois isso não é uma falha de internet, mas uma falha de aplicação.
 
-## Precisa se preocupar com infraestrutura?
+## <a name='Precisasepreocuparcominfraestrutura'></a>Precisa se preocupar com infraestrutura?
 
 Em todos os casos podemos nos preocupar com infraestrutura ou não. Isso porque, na maioria das empresas hoje em dia, existem times responsáveis por cuidar da infra e disponibilizar tudo o que precisamos para trabalhar com nossos sistemas em servidores.
 
@@ -156,7 +178,7 @@ Uma pessoa de frontend precisa de um servidor entregando os estáticos para o us
 
 Pessoas de mobile não precisam colocar um servidor no ar, pois a entrega do aplicativo é feita via plataforma nativa (loja de aplicativos da Apple, Google, Microsoft, etc), porém pode ainda acontecer de ser necessário hospedar o app em um servidor específico e não utilizar as lojas e nesse caso pode acabar sobrando para a pessoa de mobile.
 
-## Precisa se preocupar com cache de dados?
+## <a name='Precisasepreocuparcomcachededados'></a>Precisa se preocupar com cache de dados?
 
 Como já citado até aqui, existem dados que podem ser armazenados para futura consulta em um armazenamento mais veloz, em memória, como o Redis ou um localStorage, por exemplo e, em todas as áreas precisamos nos preocupar com isso.
 
@@ -164,7 +186,7 @@ Também existem os casos mais específicos, como é o caso dos arquivos estátic
 
 Na maioria dos casos client-side (mobile e frontend) a necessidade de cache é para dados que sabemos que não precisamos ficar pedindo para o servidor, para que a resposta da aplicação seja mais rápida do que enviar uma requisição e aguardar a resposta, onde o envio pode demorar caso a internet do usuário seja ruim ou a entrega pode demorar caso o backend passe por algum problema.
 
-## Bibliotecas e Frameworks
+## <a name='BibliotecaseFrameworks'></a>Bibliotecas e Frameworks
 
 Bibliotecas e frameworks agilizam muito o nosso trabalho e as entregas de software e em todas as frentes de trabalho nós os utilizamos largamente (seja isso bom ou ruim).
 
@@ -176,7 +198,7 @@ Ao citar frontend nem precisamos comentar esse ponto, pois uma das principais pi
 
 Então, sim… Em todos os casos precisamos aprender e nos preocupar com libs e frameworks.
 
-## Conclusão
+## <a name='Concluso'></a>Conclusão
 
 O objetivo deste artigo é remover os estigmas da área de desenvolvimento de que existe uma área mais importante do que a outra. Todos temos a nossa importância dentro de um projeto ou de uma empresa e ninguém é mais tecnicamente capaz do que o outro por causa da área de atuação.
 

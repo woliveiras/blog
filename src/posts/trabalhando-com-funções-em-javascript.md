@@ -21,7 +21,23 @@ E temos outro motivo muito importante pelo qual utilizamos funções: o isolamen
 
 No decorrer do artigo ficará mais claro o quão importantes são as sub rotinas nas nossas vidas, como pessoas desenvolvedoras de software. Vamos aprender a criar, utilizar, entender os parâmetros de funções e com isso facilitar nossas vidas.
 
-## Criando funções em JavaScript
+<!-- vscode-markdown-toc -->
+* [Criando funções em JavaScript](#CriandofunesemJavaScript)
+	* [Criando uma função nomeada](#Criandoumafunonomeada)
+	* [Executando funções](#Executandofunes)
+	* [Retornando valores](#Retornandovalores)
+	* [Funções como valores](#Funescomovalores)
+* [Escopo e hoisting](#Escopoehoisting)
+* [Conclusão](#Concluso)
+* [Referências](#Referncias)
+
+<!-- vscode-markdown-toc-config
+	numbering=false
+	autoSave=true
+	/vscode-markdown-toc-config -->
+<!-- /vscode-markdown-toc -->
+
+## <a name='CriandofunesemJavaScript'></a>Criando funções em JavaScript
 
 JavaScript, devido a sua capacidade de ser multiparadigma, possui algumas maneiras de se criar uma função.
 
@@ -33,7 +49,7 @@ Vamos por partes:
 
 Entender que existem todas essas maneiras de se criar uma função é importante, mas vamos tentar focar no porque utilizamos cada abordagem, pois no nosso dia a dia é necessário saber escolher qual ferramenta utilizar em cada momento.
 
-### Criando uma função nomeada
+### <a name='Criandoumafunonomeada'></a>Criando uma função nomeada
 
 A estrutura básica para a criação de uma função é a seguinte:
 
@@ -76,7 +92,7 @@ O que estamos fazendo aqui é dizer para o interpretador JavaScript que existe u
 
 Não precisa executar esse código no Node ainda, vamos fazer isso logo abaixo, depois de entender como executamos uma função.
 
-### Executando funções
+### <a name='Executandofunes'></a>Executando funções
 
 Assim que uma função é criada, ela está disponível no **escopo** onde foi definida. Isso pode ser o **escopo global** ou o **escopo local**. Daqui a pouco vamos aprender mais sobre o escopo, por enquanto você precisa saber que ela estará disponível para utilização assim que for criada, porém ela ainda não está sendo executada.
 
@@ -225,7 +241,7 @@ Por favor, passe um Map como parâmetro da função
 
 Mas até agora só sabemos executar a função, criar um controle de fluxo e invocar outras funções dentro do nosso bloco de código da função, mas elas não existem somente para isso. As funções existem para processar dados e retornar algo.
 
-### Retornando valores
+### <a name='Retornandovalores'></a>Retornando valores
 
 Uma função existe para processar valores e retornar algo para utilizarmos a partir de sua transformação.
 
@@ -283,7 +299,7 @@ Um console.log retorna algo assim:
   'Nome de usuário: bichos triste fofo, Link: https://twitter.com/BichosTriste' ]
 ```
 
-### Funções como valores
+### <a name='Funescomovalores'></a>Funções como valores
 
 De acordo com que vamos ganhando experiência em programação, vamos dando mais valor a reutilização de código e a uma boa criação de módulo no nosso software. Isso nos ajuda a economizar tempo evitando passar várias vezes pelos mesmos problemas.
 
@@ -347,7 +363,7 @@ Esta linha está trazendo exatamente o retorno da função transformaListaEmFras
 
 Utilizamos essa abordagem para isolar o escopo e executar uma função após a outra quando temos diversas funções a serem chamadas para termos uma transformação do dado. Podemos pegar uma massa de dados, rodar uma função, pegar o retorno dela e passar para a próxima que vai executar uma transformação e retornar para outra. Assim vai. E no final temos somente uma chamada para essas outras funções, em um único local de fácil acesso.
 
-## Escopo e hoisting
+## <a name='Escopoehoisting'></a>Escopo e hoisting
 
 Agora sim, chegamos no momento de entender o tal do escopo e porque isso foi tão citado até aqui. Quando definimos um valor, muitas vezes queremos que ninguém tenha acesso a isso fora da expressão que estamos criando isso para garantir que ninguém vai alterar algo que não deveria alterar.
 
@@ -425,7 +441,7 @@ O retorno do Node.js será:
 50
 ```
 
-## Conclusão
+## <a name='Concluso'></a>Conclusão
 
 Vamos utilizar e criar muitas funções em nossas vidas como pessoas desenvolvedoras de software. Espero que o que eu te ensinei neste artigo sobre declaração de funções, parâmetros, escopo, hoisting e boas práticas sirvam para que você pense em código reutilizável enquanto estiver escrevendo seus programas.
 
@@ -435,7 +451,7 @@ Tudo tem o seu tempo e, se você é iniciante, ainda vai aprender muito pela fre
 
 Se você gosta do meu conteúdo, não esqueça de contribuir via Apoia.se: [Apoia.se: William Oliveira](https://apoia.se/uillaz).
 
-## Referências
+## <a name='Referncias'></a>Referências
 
 - [MDN - Destructuring Assignment] (https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Destructuring_assignment)
 - [MDN - Template Literals](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Template_literals)

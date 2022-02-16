@@ -8,6 +8,26 @@ date: '2016-04-11'
 description: Criando uma imagem Docker personalizada e conhecendo o Dockerfile.
 ---
 
+<!-- vscode-markdown-toc -->
+* [Dockerfile](#Dockerfile)
+* [Exemplo de Dockerfile e configuração de um Web Server no Ubuntu](#ExemplodeDockerfileeconfiguraodeumWebServernoUbuntu)
+* [Imagem base](#Imagembase)
+* [Mantenedor da imagem](#Mantenedordaimagem)
+* [Executando comandos no container](#Executandocomandosnocontainer)
+* [Adicionando arquivos de configuração no container](#Adicionandoarquivosdeconfiguraonocontainer)
+* [Monitorando os logs do container](#Monitorandooslogsdocontainer)
+* [Expondo portas do container](#Expondoportasdocontainer)
+* [Como gerar a nova imagem](#Comogeraranovaimagem)
+* [Exportando a imagem para .tar](#Exportandoaimagempara.tar)
+* [Importando a imagem de um .tar](#Importandoaimagemdeum.tar)
+* [Subindo a imagem para o Docker Hub](#SubindoaimagemparaoDockerHub)
+
+<!-- vscode-markdown-toc-config
+	numbering=false
+	autoSave=true
+	/vscode-markdown-toc-config -->
+<!-- /vscode-markdown-toc -->
+
 É muito legal poder baixar uma imagem do [Docker Hub](https://hub.docker.com/) e já sair criando os containers, modificando e brincando, mas e depois?
 
 Como fazemos para levar essa imagem para outro host?
@@ -16,7 +36,7 @@ Podemos fazer isso subindo a imagem para o Docker Hub ou mesmo compactando a ima
 
 Para criar uma imagem personalizada, primeiro precisamos conhecer o Dockerfile, depois voltamos a criação da imagem própriamente dita. ;)
 
-## Dockerfile
+## <a name='Dockerfile'></a>Dockerfile
 
 Já vimos que podemos utilizar a linha de [comando para inicializar um Docker container](/posts/comandos-mais-utilizados-no-docker) com um parâmetro que é o comando a ser executado direto no container para inicializar algum serviço, trazer alguma informação sobre o container em execução, etc.
 
@@ -42,7 +62,7 @@ Ao contrário do Vagrantfile, nós só precisamos do Dockerfile para cirar a ima
 
 Os comandos no Dockerfile são iguais utilizar Shell Script.
 
-## Exemplo de Dockerfile e configuração de um Web Server no Ubuntu
+## <a name='ExemplodeDockerfileeconfiguraodeumWebServernoUbuntu'></a>Exemplo de Dockerfile e configuração de um Web Server no Ubuntu
 
 Imagine o seguinte cenário:
 
@@ -76,7 +96,7 @@ CMD [“start”, “-g”]
 
 Onde:
 
-## Imagem base
+## <a name='Imagembase'></a>Imagem base
 
 O parâmetro `FROM` é a imagem que você vai usar como base para a criação de sua nova imagem.
 
@@ -92,7 +112,7 @@ Ou com com a tag específica:
 FROM ubuntu:latest
 ```
 
-## Mantenedor da imagem
+## <a name='Mantenedordaimagem'></a>Mantenedor da imagem
 
 É a pessoa, empresa ou org que mantém essa imagem.
 
@@ -102,7 +122,7 @@ Quando você criar sua própria imagem para subir no Docker Hub, vai precisar de
 MAINTAINER William de Oliveira Souza <w.oliveira542@gmail.com>
 ```
 
-## Executando comandos no container
+## <a name='Executandocomandosnocontainer'></a>Executando comandos no container
 
 Agora as coisas legais.
 
@@ -134,7 +154,7 @@ CMD service nginx start -g
 
 
 
-## Adicionando arquivos de configuração no container
+## <a name='Adicionandoarquivosdeconfiguraonocontainer'></a>Adicionando arquivos de configuração no container
 
 Para melhorar a organização, podemos deixar arquivos de configuração dos serviços (Web Server, Banco de Dados, Interpretador, etc) em locais separados.
 
@@ -158,7 +178,7 @@ server {
 
 Só uma configuração basica para o NGINX.
 
-## Monitorando os logs do container
+## <a name='Monitorandooslogsdocontainer'></a>Monitorando os logs do container
 
 Algo interessante que podemos fazer com o Docker é monitorar os logs de uma maneira mais prática. O Docker pega os logs em `stdout` e `stderr`. Podemos capturar esses logs e ver de maneira mais rápida (do que entrar pelo container) pelo comando `docker logs`.
 
@@ -174,7 +194,7 @@ Nesse caso, estamos capturando os logs do NGINX.
 
 Depois que o container estiver ativo, podemos usar o comando `docker logs id_ou_apelido_do_container`.
 
-## Expondo portas do container
+## <a name='Expondoportasdocontainer'></a>Expondo portas do container
 
 Para expor a porta que o nosso Web Server vai utilizar, usamos o parâmetro `EXPOSE` com o número da porta:
 
@@ -198,7 +218,7 @@ docker inspect id_ou_apelido_do_container
 
 Na [documentação oficial do Docker](https://docs.docker.com/engine/reference/builder/) você encontrará outras informações legais sobre os comandos que podem ser executados no Dockerfile.
 
-## Como gerar a nova imagem
+## <a name='Comogeraranovaimagem'></a>Como gerar a nova imagem
 
 Com nosso arquivo Dockfile configurado, podemos gerar nossa nova imagem.
 
@@ -220,7 +240,7 @@ Basta aguardar o processo de build, que pode demorar dependendo de sua conexão,
 
 Finalizado o processo, você pode ver sua nova imagem com o comando `docker images`.
 
-## Exportando a imagem para .tar
+## <a name='Exportandoaimagempara.tar'></a>Exportando a imagem para .tar
 
 Você pode querer, agora, carregar essa imagem em um Pen Drive.
 
@@ -236,7 +256,7 @@ O Docker vai exportar a imagem e compactar em formato .tar.
 
 Agora você pode carregar por Pen Drive, subir em algum lugar para um amigo baixar (ou você mesmo), etc.
 
-## Importando a imagem de um .tar
+## <a name='Importandoaimagemdeum.tar'></a>Importando a imagem de um .tar
 
 Como importar essa imagem gerada via comando `save`?
 
@@ -250,7 +270,7 @@ O Docker vai importar sua imagem com o nome, tag, etc, que a imagem já possuia 
 
 Para ver se deu tudo certo, basta rodar o `docker images` também.
 
-## Subindo a imagem para o Docker Hub
+## <a name='SubindoaimagemparaoDockerHub'></a>Subindo a imagem para o Docker Hub
 
 Para subir uma imagem para o Docker Hub, primeiro precisará de uma conta no [site](https://hub.docker.com/). Caso não possua, não precisa entrar no site agora (calma apressado(a)), durante o Login, é criado sua conta via Terminal mesmo.
 

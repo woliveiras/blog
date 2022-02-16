@@ -9,6 +9,26 @@ tags:
 videoId: j8GenNjjrvw
 description: Como conseguir se destacar no mercado logo como iniciante em programação, como ser o programador ou programadora junior que toda empresa quer contratar
 ---
+
+<!-- vscode-markdown-toc -->
+* [Cuidado com o desespero](#Cuidadocomodesespero)
+* [Aprenda a expor seus pontos fortes](#Aprendaaexporseuspontosfortes)
+* [Você precisa saber uma linguagem de programação](#Vocprecisasaberumalinguagemdeprogramao)
+* [Aprenda testes de unidade](#Aprendatestesdeunidade)
+* [Um framework, não todos](#Umframeworknotodos)
+* [Versionamento de código](#Versionamentodecdigo)
+* [Crie um portfólio](#Crieumportflio)
+* [Participe de comunidades de programação](#Participedecomunidadesdeprogramao)
+* [Faça um bom currículo](#Faaumbomcurrculo)
+* [Mantenha seu LinkedIn atualizado](#MantenhaseuLinkedInatualizado)
+* [Conclusão](#Concluso)
+
+<!-- vscode-markdown-toc-config
+	numbering=false
+	autoSave=true
+	/vscode-markdown-toc-config -->
+<!-- /vscode-markdown-toc -->
+
 O que mais ouvimos falar é que o mercado de programação está muito aquecido, que existem muitas vagas e que os programadores e programadoras estão escolhendo emprego. OK, é verdade. Mas onde estão as vagas para pessoas iniciantes?
 
 Depois de estudar tanto, praticar e não aguentar mais de ansiedade de saber o quanto ainda precisamos aprender para sermos considerados bons no que fazemos, o maior problema que enfrentamos na área de desenvolvimento de software é conseguir o **primeiro emprego**. Depois do primeiro emprego, tudo ficará mais fácil.
@@ -25,7 +45,7 @@ Para ser uma pessoa em nível júnior que toda empresa quer contratar vamos prec
 
 Eu começo dando conselhos de vida para você e depois eu foco na parte técnica.  Espero que, depois destas dicas, você consiga seu sonhado emprego como dev. Saiba que já estou torcendo por você.
 
-## Cuidado com o desespero
+## <a name='Cuidadocomodesespero'></a>Cuidado com o desespero
 
 O desespero é seu inimigo. Não importa a situação que nos deparamos, se perdemos a calma podemos cair em uma armadilha terrível ou fazer coisas que vamos nos arrepender depois.
 
@@ -39,7 +59,7 @@ Para não cair em armadilhas na hora de negociar seu salário, confere o vídeo 
 
 <iframe src="https://www.youtube.com/embed/{{videoId}}" width="100%" height="480px" frameborder="0" scrolling="no" allowfullscreen></iframe>
 
-## Aprenda a expor seus pontos fortes
+## <a name='Aprendaaexporseuspontosfortes'></a>Aprenda a expor seus pontos fortes
 
 Já percebi nas [mentorias](https://github.com/training-center/mentoria) e em entrevistas com pessoas em nível iniciante (estagiários(as) e juniores) que o que elas mais fazem é dizer o que ainda não sabem.
 
@@ -53,7 +73,7 @@ Se você sabe Python, o que você já fez com a linguagem? Se você faz aplicaç
 
 Você tem muito para falar sobre seu conhecimento, você só não se valoriza. Na hora da entrevista a maioria das pessoas em nível júnior se auto-sabotam. Até mesmo depois de algum tempo de área nós fazemos isso, mas no início de carreira é extremamente recorrente.
 
-## Você precisa saber uma linguagem de programação
+## <a name='Vocprecisasaberumalinguagemdeprogramao'></a>Você precisa saber uma linguagem de programação
 
 Como existem muitas [linguagens](https://www.youtube.com/watch?v=402E-GwCh6o), muitas ferramentas e muitas vagas com requisitos absurdos, pessoas iniciantes se perdem em “o que eu devo saber?”.
 
@@ -69,7 +89,7 @@ O que você precisa é encontrar uma linguagem ou um nicho ([web, mobile, back, 
 
 Se você não souber fazer essa análise de mercado, confere este artigo: [Criando nosso plano de carreira e assumindo o controle do nosso futuro profissional](/posts/criando-nosso-plano-de-carreira-e-assumindo-o-controle-do-nosso-futuro-profissional/).
 
-## Aprenda testes de unidade
+## <a name='Aprendatestesdeunidade'></a>Aprenda testes de unidade
 
 Unit tests, ou testes de unidade, não eram tão importantes para uma pessoa iniciante a algum tempo atrás, mas hoje, como existe muito material disponível na internet e como é muito mais fácil fazer isso hoje em dia, isso se tornará um diferencial no seu currículo.
 
@@ -77,7 +97,7 @@ Se você não perder tempo com a falta de foco, conseguirá tempo para aprender 
 
 A maioria das empresas que trabalham com produtos grandes (ou mesmo as que estão começando) possuem uma massa de testes bem grande para garantir que não terão problemas ao adicionar algo novo ou mesmo deletar uma funcionalidade antiga do sistema. Se você chegar em uma entrevista demonstrando este conhecimento irá detonar!
 
-## Um framework, não todos
+## <a name='Umframeworknotodos'></a>Um framework, não todos
 
 Principalmente para quem trabalha com JavaScript, a quantidade de frameworks e bibliotecas que existem é inimaginável. Mas vou te contar um segredo: você não vai usar todos eles no seu trabalho.
 
@@ -85,7 +105,7 @@ Assim como a linguagem de programação, você precisa olhar o mercado e entende
 
 Apesar de existir empresas que dão sim oportunidades para que você aprenda tudo lá dentro, você não pode esperar que isso seja uma verdade absoluta, a grande maioria não quer te ensinar nada, e é aí que entra o ponto da valorização profissional. Se você é uma pessoa iniciante que já tem vários skills que a empresa busca, negocie bem o seu salário.
 
-## Versionamento de código
+## <a name='Versionamentodecdigo'></a>Versionamento de código
 
 Você precisa aprender versionamento de código e, hoje, principalmente aprender a usar o Git.
 
@@ -93,7 +113,7 @@ Não é necessário decorar tudo o que o Git nos possibilita fazer, pois temos a
 
 O Git ainda será necessário para o próximo passo das minhas dicas: a criação do portfólio.
 
-## Crie um portfólio
+## <a name='Crieumportflio'></a>Crie um portfólio
 
 É estranho ouvirmos para criarmos um portfólio sendo que somos uma pessoa em início de carreira, não? 
 
@@ -118,7 +138,7 @@ Confere o meu GitHub, a maioria das coisas que eu pego para aprender eu crio um 
 
 E assim vai… Quando você estiver estudando algo, crie um repositório e suba seu código para lá. Se for um projeto de software, app, sistema, etc., melhor ainda.
 
-## Participe de comunidades de programação
+## <a name='Participedecomunidadesdeprogramao'></a>Participe de comunidades de programação
 
 Comunidades são meios muito úteis de garantirmos nosso foco, de encontrarmos as melhores vagas e, o melhor, conseguir apoio para nossa caminhada no universo da programação.
 
@@ -128,7 +148,7 @@ Mas lembre-se: comunidades são locais onde nós procuramos fazer amizades com a
 
 Se você não sabe o que são comunidades ou quiser conhecer um pouco mais sobre elas, confere este vídeo no meu canal: [Comunidades de programação, com Loiane Groner, Gleice Elen](https://www.youtube.com/watch?v=oGj7UOKkmlw).
 
-## Faça um bom currículo
+## <a name='Faaumbomcurrculo'></a>Faça um bom currículo
 
 Por mais que o velho papel perdeu espaço para os meios digitais, ainda temos empresas e plataformas de vagas que pedem um currículo formal.
 
@@ -142,7 +162,7 @@ Você precisa ter um arquivo preparado para essas horas. Neste documento é impo
 
 Isso, claro, depois de seus dados pessoais, como endereço, um email atualizado e telefones para contato. Por favor, jovem, não vá perder oportunidades colocando um email que você nunca abre ou um telefone que está sempre fora de área. Se você, assim como eu, mora ou morou em um lugar com o sinal péssimo, deixe o telefone de alguém que pode anotar recado para você, como um parente ou mesmo alguém da vizinhança que topa te ajudar.
 
-## Mantenha seu LinkedIn atualizado
+## <a name='MantenhaseuLinkedInatualizado'></a>Mantenha seu LinkedIn atualizado
 
 Assim como o currículo formal, mantenha seu LinkedIn muito bem atualizado. Se você ainda não criou um perfil na plataforma, por favor, corre fazer isso agora!
 
@@ -152,7 +172,7 @@ Você precisa aparecer nas pesquisas quando os recrutadores e recrutadoras pesqu
 
 Acho muito legal a maneira como o [freeCodeCamp](/posts/aprender-programação-do-iniciante-ao-avançado-com-um-curso-focado-no-mercado-de-trabalho/) nos força a criar o LinkedIn e colocar que estamos estudando logo nas primeiras tarefas do bootcamp. Isso reforça ainda mais a importância do nosso perfil nessa plataforma.
 
-## Conclusão
+## <a name='Concluso'></a>Conclusão
 
 Vamos recapitular:
 

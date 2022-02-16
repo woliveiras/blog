@@ -8,6 +8,20 @@ tags:
   - frontend
 description: Todos os dias nasce um novo framework JavaScript. Fico pensando o porque disso acontecer. Será que as pessoas estão realmente interessadas em contribuir com a evolução da linguagem e da plataforma ou só querem ser a próxima contratada por uma grande empresa?
 ---
+
+<!-- vscode-markdown-toc -->
+* [Prelúdio — Antes das bibliotecas famosas e do estrelato no GitHub](#PreldioAntesdasbibliotecasfamosasedoestrelatonoGitHub)
+* [Open Source não é sobre criar novos projetos que fazem exatamente a mesma coisa](#OpenSourcenosobrecriarnovosprojetosquefazemexatamenteamesmacoisa)
+* [As pessoas que se envolvem por fama logo somem dos projetos open source](#Aspessoasqueseenvolvemporfamalogosomemdosprojetosopensource)
+* [Contribuidores(as) de markdown](#Contribuidoresasdemarkdown)
+* [Conclusão](#Concluso)
+
+<!-- vscode-markdown-toc-config
+	numbering=false
+	autoSave=true
+	/vscode-markdown-toc-config -->
+<!-- /vscode-markdown-toc -->
+
 Para quem trabalha com JavaScript está bem acostumado(a) com o nascimento de uma nova biblioteca ou novo framework open source todos os dias — nós até mesmo brincamos bastante com essa realidade.
 
 [Quanto tempo de vida terá os novos frameworks?! #714 - frontendbr - forum](https://github.com/frontendbr/forum/issues/714)
@@ -28,7 +42,7 @@ Este texto não é sobre o JavaScript, mas sobre a mudança de postura das pesso
 
 > O open source está dominando o mundo, mas o ego das pessoas tem superado a essência do open source
 
-## Prelúdio — Antes das bibliotecas famosas e do estrelato no GitHub
+## <a name='PreldioAntesdasbibliotecasfamosasedoestrelatonoGitHub'></a>Prelúdio — Antes das bibliotecas famosas e do estrelato no GitHub
 
 Antigamente as pessoas tinham preconceito com o open source. Quando eu dizia que usava Linux e pregava o uso de ferramentas como [OpenOffice](https://www.openoffice.org/), [Gimp](https://www.gimp.org/), [Inkscape](https://inkscape.org/), [Thunderbird](https://www.thunderbird.net/), [Firefox](https://www.mozilla.org/) e diversos outros softwares de código fonte aberto, livres ou não, logo era julgado.
 
@@ -59,7 +73,7 @@ Pior que isso: quando encontram algo ruim em um projeto open source logo saem cr
 
 Não quero que você pense que não desejo que você contribua em open source. Contribuir é diferente de buscar estrelato.
 
-## Open Source não é sobre criar novos projetos que fazem exatamente a mesma coisa
+## <a name='OpenSourcenosobrecriarnovosprojetosquefazemexatamenteamesmacoisa'></a>Open Source não é sobre criar novos projetos que fazem exatamente a mesma coisa
 
 Claro que durante os anos alguns bons projetos que fazem a mesma coisa nasceram, porém nem todos eles são úteis de verdade e talvez você não deva criar algo desse tipo.
 
@@ -79,7 +93,7 @@ Existem diversas maneiras de contribuir com projetos de código aberto. Mas cont
 
 [Contribuindo para open source no GitHub, mesmo sendo iniciante](/posts/contribuindo-para-projetos-open-source-no-github-mesmo-sendo-iniciante/)
 
-## As pessoas que se envolvem por fama logo somem dos projetos open source
+## <a name='Aspessoasqueseenvolvemporfamalogosomemdosprojetosopensource'></a>As pessoas que se envolvem por fama logo somem dos projetos open source
 
 É muito comum que um projeto grande ou um projeto em crescimento receba uma boa quantidade de pessoas dizendo que querem contribuir. Mas as pessoas que só estão ali por fama tendem a sumir rapidamente.
 
@@ -89,7 +103,7 @@ As pessoas que realmente querem ajudar o projeto normalmente o fazem por gostar 
 
 Quem só vai lá para dizer que está, logo deixa de contribuir.
 
-## Contribuidores(as) de markdown
+## <a name='Contribuidoresasdemarkdown'></a>Contribuidores(as) de markdown
 
 Em todo projeto deve existir algum trecho de documentação escrita em mardown e é muito comum que pessoas iniciantes comecem ajudando em documentações.
 
@@ -112,7 +126,7 @@ Na imagem acima temos a quantidade de commits enviados no Mentoria, um repositó
 
 [Gráfico de contribuições](https://github.com/training-center/mentoria/graphs/contributors)
 
-## Conclusão
+## <a name='Concluso'></a>Conclusão
 
 Você entende onde eu quero chegar com todo esse desabafo a respeito da busca por fama utilizando open source?
 

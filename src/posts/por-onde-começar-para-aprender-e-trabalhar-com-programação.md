@@ -16,7 +16,20 @@ Este artigo é uma lista dos conselhos que já dei para as pessoas em uma ordem 
 
 Na nossa trilha, vamos passar por preparação, estudos, carreira e “indo além”. Vamos lá!
 
-## Preparação
+<!-- vscode-markdown-toc -->
+* [Preparação](#Preparao)
+* [Estudos](#Estudos)
+* [Carreira](#Carreira)
+* [Indo além](#Indoalm)
+* [Conclusão](#Concluso)
+
+<!-- vscode-markdown-toc-config
+	numbering=false
+	autoSave=true
+	/vscode-markdown-toc-config -->
+<!-- /vscode-markdown-toc -->
+
+## <a name='Preparao'></a>Preparação
 
 Antes de tudo você precisa ter em sua mente que você vai precisar estudar muito para se tornar um bom programador ou boa programadora. Mas não precisa aprender tudo de uma só vez.
 
@@ -28,7 +41,7 @@ Sua ansiedade pode crescer bastante quando ver o tanto de coisa que precisa apre
 
 Se você se acha uma pessoa muito velha para a área de programação, então dê uma olhada aqui: [empresas que contratam pessoas desenvolvedoras de software acima dos 40 anos](/posts/empresas-que-contratam-pessoas-desenvolvedoras-de-software-acima-dos-40-anos/).
 
-## Estudos
+## <a name='Estudos'></a>Estudos
 
 Temos uma lista imensa de conteúdo em computação para aprender. Se você faz uma faculdade, este caminho já está planejado, mas se você é autodidata vai precisar estruturar isso de um modo que seu conhecimento teórico não fique para trás. Por isso vem com este texto e descubra o que precisará aprender: [os caminhos da Engenharia de Software: o que estudar](/posts/os-caminhos-da-engenharia-de-software-o-que-estudar/).
 
@@ -40,7 +53,7 @@ Se você quiser, existe um curso bem legal que ensina programação do zero ao f
 
 Eu também estou produzindo um conteúdo do zero, mas com o objetivo de consolidar aquilo que eu já ensinei para as pessoas pessoalmente: [curso do zero ao fullstack com JavaScript](/curso/do-zero-ao-fullstack-com-nodejs-bancos-de-dados-express-e-react/).
 
-## Carreira
+## <a name='Carreira'></a>Carreira
 
 Vamos precisar organizar a nossa carreira. Não adianta começar a estudar e só estudar. Precisamos ter um plano de sequência nos estudos, um crescimento e enfim ir atrás de emprego, mas existem pontos importantes a se pensar. Por isso, leia este texto: [criando nosso plano de carreira e assumindo o controle do nosso futuro profissional](/posts/criando-nosso-plano-de-carreira-e-assumindo-o-controle-do-nosso-futuro-profissional/).
 
@@ -52,7 +65,7 @@ Em conjunto com o Luiz Felipe Limeira e o Lucas Santos, fizemos uma pesquisa e u
 
 Talvez você irá gostar de ouvir algumas dicas de outras pessoas, além de mim, falando sobre carreira em programação, assim o que eu falo não fica somente em minhas palavras, mas se confirmam com mais opiniões: [dicas para o começo de carreira via Hipsters.tech](/posts/participa%C3%A7%C3%A3o-especial-no-hipsters-tech/).
 
-## Indo além
+## <a name='Indoalm'></a>Indo além
 
 Existem livros que todo programador iniciante deveria ler para se dar bem na carreira, então confira a lista aqui: [livros para iniciantes em programação](/posts/livros-que-todo-programador-iniciante-deveria-ler/).
 
@@ -62,7 +75,7 @@ Quando você se sentir confortável, retribua o trabalho das pessoas que te ajud
 
 Algumas pessoas também aceitam doações para manter seu conteúdo. Eu também entrei neste modelo de financiamento coletivo para ir além e começar a dar aulas para pessoas que precisam um pouco mais, as pessoas da periferia brasileira. Se você gosta do meu conteúdo, não esqueça de contribuir via Apoia.se: [Apoia.se: William Oliveira](https://apoia.se/uillaz).
 
-## Conclusão
+## <a name='Concluso'></a>Conclusão
 
 Daqui para frente é contigo. Pegue esse compilado, estude e vá para cima da área de programação! Muitas vezes você vai entrar em crise e pensar em desistir e, nesses momentos, lembre-se que por mais difícil que pareça, não é impossível. Você vai conseguir e, se tiver algum medo, pode contar com as pessoas das comunidades.
 

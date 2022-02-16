@@ -7,13 +7,26 @@ date: '2015-01-10'
 description: Como instalar o Sublime Text no Ubuntu
 ---
 
+<!-- vscode-markdown-toc -->
+* [Pelo Terminal](#PeloTerminal)
+* [Via pacote .deb](#Viapacote.deb)
+* [Barra Lateral](#BarraLateral)
+* [Configurações pessoais](#Configuraespessoais)
+* [Package Control](#PackageControl)
+
+<!-- vscode-markdown-toc-config
+	numbering=false
+	autoSave=true
+	/vscode-markdown-toc-config -->
+<!-- /vscode-markdown-toc -->
+
 Quem me conhece sabe que eu sou um fã do Sublime Text por ele ser um editor excelente com muitos plugins úteis e por isso eu já fiz uma [introdução anteriormente](/posts/usando-o-sublime-text/ "Usando o Sublime Text") sobre o editor e por que eu gosto dele.
 
 Se você usa Ubuntu ou derivados do Debian, vou ensinar como instalar o editor e configurar sem dor de cabeça. :)
 
 ![sublime text]({{site.postsImagesPath}}sublime.png)
 
-## Pelo Terminal
+## <a name='PeloTerminal'></a>Pelo Terminal
 
 Abra o terminal (Ctrl + Alt + T) e execute o seguinte comando:
 
@@ -21,7 +34,7 @@ Abra o terminal (Ctrl + Alt + T) e execute o seguinte comando:
 sudo add-apt-repository ppa:webupd8team/sublime-text-3 && sudo apt-get update && sudo apt-get install sublime-text-installer
 ```
 
-## Via pacote .deb
+## <a name='Viapacote.deb'></a>Via pacote .deb
 
 Entre no [site do Sublime Text](https://www.sublimetext.com/ "Sublime Text") e clique na arquitetura que utiliza (32 ou 64), após download é só dar um double click em cima do arquivo ou cambiar até a pasta pelo terminal e executar:
 
@@ -33,7 +46,7 @@ Assim que instalar, ele ficará como qualquer editor de textos, limpo. Só vai a
 
 
 
-## Barra Lateral
+## <a name='BarraLateral'></a>Barra Lateral
 
 Eu sempre coloco a barra lateral exibindo os arquivos abertos. Para isso basta ir em:
 
@@ -41,7 +54,7 @@ Eu sempre coloco a barra lateral exibindo os arquivos abertos. Para isso basta i
 
 Quando precisar de espaço na tela, use **Ctrl + K + B** e a barra lateral será ocultada. Se pressionar a mesma sequência de novo a barra volta.
 
-## Configurações pessoais
+## <a name='Configuraespessoais'></a>Configurações pessoais
 
 Clique em **Preferences → Settings – User**. Vai abrir um arquivo de texto com os parâmetros do Sublime. O nome dos parâmetros são auto explicativos, mas se tiver dúvidas pode deixar um comentário que eu te ajudo. O meu está assim:
 
@@ -73,7 +86,7 @@ Minhas configurações do Sublime estão disponíveis [aqui](https://github.com/
 
 Basta copiar, colar e salvar que as configurações entram em vigor.
 
-## Package Control
+## <a name='PackageControl'></a>Package Control
 
 O Package Control é o cara que vai te auxiliar a instalar plugins no Sublime para que ele fique mais caprichado para você. Para instalar, clique em
 

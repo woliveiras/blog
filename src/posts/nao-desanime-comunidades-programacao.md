@@ -13,7 +13,18 @@ Já ministrei palestras, dei aulas, ajudei eventos, criei eventos, participei e 
 
 Compartilho aqui uma reflexão pessoal sobre o comportamento humano dentro de movimentos sociais e no final deixo para você um pedido especial. Vamos passar um pouco pelo que eu vivi e chegaremos a conclusão do que eu aprendi até aqui.
 
-## A "parte ruim" de me afastar de comunidades
+<!-- vscode-markdown-toc -->
+* [A "parte ruim" de me afastar de comunidades](#Aparteruimdemeafastardecomunidades)
+* [Não desista das comunidades de programação](#Nodesistadascomunidadesdeprogramao)
+
+<!-- vscode-markdown-toc-config
+	numbering=false
+	autoSave=true
+	/vscode-markdown-toc-config -->
+<!-- /vscode-markdown-toc -->
+
+
+## <a name='Aparteruimdemeafastardecomunidades'></a>A "parte ruim" de me afastar de comunidades
 
 Muita gente que se dizia super amigo, que estava aqui para qualquer momento, simplesmente sumiu. - Puff! 
 
@@ -43,7 +54,7 @@ Elas nem percebem o seu ego inflando junto com a quantidade de likes.
 
 O mais importante desse aprendizado é que as comunidades são diversas. Tem pessoas que só querem seus 15 minutos de fama e tem pessoas que você vai levar pro resto da vida. Que tipo de pessoa **você** quer ser?
 
-## Não desista das comunidades de programação
+## <a name='Nodesistadascomunidadesdeprogramao'></a>Não desista das comunidades de programação
 
 Por mais que esses ambientes, que eram para serem acolhedores, possam ter pessoas egocêntrica fazendo barulho e destilando a falta de empatia, o mais importante é focar e se aproximar das pessoas que querem o seu bem e o da comunidade.
 

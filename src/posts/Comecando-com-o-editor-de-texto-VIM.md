@@ -6,6 +6,29 @@ tags:
 description: Primeiros passos com VIM. Dicas de VIM para iniciantes. Como começar a usar o VIM.
 ---
 
+<!-- vscode-markdown-toc -->
+* [Prólogo](#Prlogo)
+* [Primeiros contatos com o VIM](#PrimeiroscontatoscomoVIM)
+* [A tal da agilidade usando VIM](#AtaldaagilidadeusandoVIM)
+* [Antes de começar a usar o VIM, saiba](#AntesdecomearausaroVIMsaiba)
+* [Abrir um arquivo](#Abrirumarquivo)
+* [Sintaxes](#Sintaxes)
+* [Se movimentando dentro de um texto](#Semovimentandodentrodeumtexto)
+* [Inserindo texto com VIM](#InserindotextocomVIM)
+* [Como apagar um texto](#Comoapagarumtexto)
+* [Como copiar e colar ou recortar texto usando o VIM](#ComocopiarecolarourecortartextousandooVIM)
+* [Como desfazer alguma coisa](#Comodesfazeralgumacoisa)
+* [Como localizar uma palavra dentro de um texto](#Comolocalizarumapalavradentrodeumtexto)
+* [Salvando ou saindo de um arquivo](#Salvandoousaindodeumarquivo)
+* [História do VIM e mais comandos legais](#HistriadoVIMemaiscomandoslegais)
+* [Plugins, temas, janelas, abas, sintaxes configurações especiais e magia negra](#Pluginstemasjanelasabassintaxesconfiguraesespeciaisemagianegra)
+
+<!-- vscode-markdown-toc-config
+	numbering=false
+	autoSave=true
+	/vscode-markdown-toc-config -->
+<!-- /vscode-markdown-toc -->
+
 A tarefa que um Desenvolvedor de Software precisa cumprir com a maior agilidade é a escrita/edição de texto. Depois de pensar por algumas horas, planejar o que vai fazer e como fazer (quais funções, métodos, classes criar), nós partimos para a escrita do código fonte no nosso editor de texto favorito ou em uma [IDE](https://pt.wikipedia.org/wiki/Ambiente_de_desenvolvimento_integrado).
 
 Existem [várias técnicas](https://pt.wikihow.com/Digitar-Mais-R%C3%A1pido) para você ficar fera no teclado, porém hoje vou apresentar outra forma de agilizar as coisas. Vou apresentar (pela minha perspectiva) o **VIM**. 
@@ -25,7 +48,7 @@ Mas, se o Sublime Text atende hoje 100% meu Workflow e eu sou apaixonado por ess
 
 A resposta é simples: **fui experimentar**.
 
-## Prólogo
+## <a name='Prlogo'></a>Prólogo
 
 Eu sempre vi algumas pessoas aclamando o editor como se ele fosse um deus de alguma religião, e de fato é. Existe até uma [Igreja do VIM](https://medium.com/@avelino0/church-vim-2ddadebe5acc#.gbqzpwuc3), onde você pode aprender como exorcizar um computador!
 
@@ -36,7 +59,7 @@ Também foi quando eu vi o site, extremamente futurista, do [VIM](https://www.vi
 
 Então, sem mais delongas, vamos a minha visão da coisa.
 
-## Primeiros contatos com o VIM
+## <a name='PrimeiroscontatoscomoVIM'></a>Primeiros contatos com o VIM
 
 O primeiro contato com o VIM pode ser bem esquisito. Você pensa: Pra que que eu vou sair do meu super editor pra vir pra esse negócio, dentro do Terminal, cheio de atalhos que eu tenho que decorar???
 
@@ -48,7 +71,7 @@ Mas a primeira impressão não bastou pra mim.
 
 Acabei descobrindo que estava [colocando o carro na frente dos bois](https://www.qualeagiria.com.br/giria/botar-o-carro-na-frente-dos-bois/).
 
-## A tal da agilidade usando VIM
+## <a name='AtaldaagilidadeusandoVIM'></a>A tal da agilidade usando VIM
 
 A primeira coisa que você precisa entender, quando começa a usar o VIM, é que você não precisa forçar para decorar TODOS os comandos de uma só vez. Você só precisa aprender os básicos e depois vai, gradualmente, aumentando seu nível de uso do editor e sua agilidade ao usar o mesmo.
 
@@ -66,7 +89,7 @@ Se imagine aprendendo uma nova linguagem de programação, no primeiro dia você
 
 
 
-## Antes de começar a usar o VIM, saiba
+## <a name='AntesdecomearausaroVIMsaiba'></a>Antes de começar a usar o VIM, saiba
 
 O VIM trabalha com modos de operação. Onde, se você está em um modo ele possui determinados comandos e em outro modo os mesmos comandos podem fazer outra coisa. Os modos do VIM são os seguintes:
 
@@ -89,7 +112,7 @@ Agora vamos conhecer os comandos que, realmente, vamos utilizar muito no começo
 
 Foque neles, nos primeiros dias, até aprender bem.
 
-## Abrir um arquivo
+## <a name='Abrirumarquivo'></a>Abrir um arquivo
 
 No Terminal, você pode cambiar até a pasta onde está o arquivo que você vai abrir e então basta digitar: 
 
@@ -103,7 +126,7 @@ Mas você também pode usar o comando direto:
 vim diretorio/outro_diretorio/nome_do_arquivo
 ```
 
-## Sintaxes
+## <a name='Sintaxes'></a>Sintaxes
 
 O VIM vai reconhecer a sintaxe automaticamente quando você abrir um arquivo com extensão específica, mas, se você começar a partir do VIM a criar um arquivo que ainda não existe no sistema, você pode executar o comando:
 
@@ -119,7 +142,7 @@ set syntax=javascript
 
 Para que o VIM passe a reconhecer a sintaxe que você está digitando.
 
-## Se movimentando dentro de um texto
+## <a name='Semovimentandodentrodeumtexto'></a>Se movimentando dentro de um texto
 
 Você pode usar as setinhas do teclado no começo, mas com o tempo vai aprender a usar mais as próprias letras, então você poderá usar:
 
@@ -148,7 +171,7 @@ Da para formar comandos com contadores para agilizar ainda mais as coisas.
 
 Imagine que você precisa pular 10 linhas no texto, você pode usar `10j`.
 
-## Inserindo texto com VIM
+## <a name='InserindotextocomVIM'></a>Inserindo texto com VIM
 
 Saber se movimentar vai servir para ler um texto ou para posicionar o cursor para executar um comando, mas como escrever um texto?
 
@@ -162,7 +185,7 @@ Claro que, também, tem alguns comandinhos legais que você pode usar:
 - **o**   - Adiciona uma linha abaixo de onde estiver o cursor e entra em modo de inserção
 - **O** (maiúsculo)   - Adiciona uma linha acima e entra em modo de inserção
 
-## Como apagar um texto
+## <a name='Comoapagarumtexto'></a>Como apagar um texto
 
 Você pode usar:
 
@@ -174,7 +197,7 @@ Você pode usar:
 - **C** (maiúsculo) - Deleta de onde o cursor estiver até o final da linha e entra em modo de inserção a partir dali
 - **ce** - Deleta do cursor até o final da palavra e entra em modo de inserção
 
-## Como copiar e colar ou recortar texto usando o VIM
+## <a name='ComocopiarecolarourecortartextousandooVIM'></a>Como copiar e colar ou recortar texto usando o VIM
 
 Para copiar e colar você vai usar o comando `y`, para copiar, e o `p`, para colar.
 
@@ -205,7 +228,7 @@ Copiar 10 linhas de um texto
 10yy
 ```
 
-## Como desfazer alguma coisa
+## <a name='Comodesfazeralgumacoisa'></a>Como desfazer alguma coisa
 
 Quando fazemos algo errado, podemos usar o famoso CTRL+Z nos editores comuns, mas no VIM é um pouco diferente.
 
@@ -215,7 +238,7 @@ Você vai utilizar os comandos:
 - **U** - Para desfaz todas as mudanças efetuadas em uma linha inteira
 - **CTRL+R** - Para refazer a ultima coisa que você desfez
 
-## Como localizar uma palavra dentro de um texto
+## <a name='Comolocalizarumapalavradentrodeumtexto'></a>Como localizar uma palavra dentro de um texto
 
 Você pressionaria o CTRL+F em editores comuns, mas no VIM você vai usar somente RegEx!
 
@@ -223,7 +246,7 @@ No modo normal, você pode pressionar `/`, digitar o texto, pressionar enter e a
 
 Para pular de uma ocorrencia para outra você pode usar `n` para ir para a próxima e `N` para voltar.
 
-## Salvando ou saindo de um arquivo
+## <a name='Salvandoousaindodeumarquivo'></a>Salvando ou saindo de um arquivo
 
 Depois de editar o texto, conforme ensinado, como salvar as coisas agora?
 
@@ -240,7 +263,7 @@ Ainda se quiser salvar com um novo nome e sair do arquivo, pode usar: `:wq novo_
 
 E se você não quiser ficar digitando `:wq`, pode ainda usar o `ZZ`, que também salva e sai do arquivo
 
-## História do VIM e mais comandos legais
+## <a name='HistriadoVIMemaiscomandoslegais'></a>História do VIM e mais comandos legais
 
 Se você quiser conhecer a história por trás dos comandos do VIM, da uma olhada nesse vídeo do [Magnun Leno](https://twitter.com/mind_bend), no Grupylango.
 
@@ -252,7 +275,7 @@ Dizem que, se usarmos o VIM por muito tempo, logo estaremos digitando extremamen
 
 ![Gatinho digitando](https://media.giphy.com/media/xT0BKvIDgNYugS3m3C/giphy.gif)
 
-## Plugins, temas, janelas, abas, sintaxes configurações especiais e magia negra
+## <a name='Pluginstemasjanelasabassintaxesconfiguraesespeciaisemagianegra'></a>Plugins, temas, janelas, abas, sintaxes configurações especiais e magia negra
 
 O VIM ainda possui MUUUUUITO mais coisas para se aprender.
 

@@ -7,6 +7,20 @@ tags:
 description: Uma mentira contada a anos Escolha um trabalho que você ame e nunca terá que trabalhar. A realidade é bem mais séria que isso.
 ---
 
+<!-- vscode-markdown-toc -->
+* [A busca pelo trabalho legal](#Abuscapelotrabalholegal)
+* [O que é trabalho/trabalhar](#Oquetrabalhotrabalhar)
+* [Empresas existem para gerar lucro](#Empresasexistemparagerarlucro)
+* [Escolha um trabalho que você ame e você nunca terá que trabalhar um dia em sua vida](#Escolhaumtrabalhoquevocameevocnuncaterquetrabalharumdiaemsuavida)
+* [Empresas legais](#Empresaslegais)
+* [Conclusão](#Concluso)
+
+<!-- vscode-markdown-toc-config
+	numbering=false
+	autoSave=true
+	/vscode-markdown-toc-config -->
+<!-- /vscode-markdown-toc -->
+
 Uma frase clássica: Escolha um trabalho que você ame e você nunca terá que trabalhar um dia em sua vida
 
 Supostamente uma frase de [Confúcio](https://pt.wikipedia.org/wiki/Conf%C3%BAcio).
@@ -15,7 +29,7 @@ O título do artigo parece que eu quero arrumar uma briga com algum palestrante 
 
 Leia o artigo até o final para ver se você concorda com minhas ideias a respeito dessa frase/filosofia/pensamento ou se discorda e podemos iniciar uma ótima conversa filosófica nos comentários.
 
-## A busca pelo trabalho legal
+## <a name='Abuscapelotrabalholegal'></a>A busca pelo trabalho legal
 
 Eu já disse essas frases para muita gente:
 
@@ -32,7 +46,7 @@ Eu, de verdade, acredito que **você deve gostar do que faz** ou todos os dias d
 > *Se trabalho fosse um lugar somente para se divertir, se chamaria parque de diversões e não trabalho.*
 > *Uma frase de: Eu*
 
-## O que é trabalho/trabalhar
+## <a name='Oquetrabalhotrabalhar'></a>O que é trabalho/trabalhar
 
 Trabalhar é empenhar-se em algo para concretizar um objetivo.
 
@@ -52,7 +66,7 @@ Ao contrário do que parece até agora eu dedico boa parte do meu tempo para [mo
 
 Só quero que pensemos um pouco mais em relação a frase em questão e que sejamos mais realistas quanto ao que é trabalho.
 
-## Empresas existem para gerar lucro
+## <a name='Empresasexistemparagerarlucro'></a>Empresas existem para gerar lucro
 
 O objetivo de uma empresa é gerar lucros. Não precisamos nos enganar achando que esse não é um dos objetivos principais de uma empresa graças aos seus valores e visão que normalmente ficam escritos em seus sites na sessão “sobre nós” e ditos nas entrevistas de emprego e integrações e normalmente são valores lindos de se ver.
 
@@ -72,7 +86,7 @@ Bancos existem por dois motivos, empresas de TI existem por dois motivos, empres
 
 Empresas querem resolver o problema do usuário/cliente/parceiro, mas também querem, precisam, ganhar dinheiro com isso. Afinal se esforçam bastante para resolver algo que outra pessoa não quis ou não se moveu para resolver antes.
 
-## Escolha um trabalho que você ame e você nunca terá que trabalhar um dia em sua vida
+## <a name='Escolhaumtrabalhoquevocameevocnuncaterquetrabalharumdiaemsuavida'></a>Escolha um trabalho que você ame e você nunca terá que trabalhar um dia em sua vida
 
 Agora sim… Dissertado sobre o que é trabalho e quais são os objetivos de uma empresa, vamos falar mais sobre **a frase**.
 
@@ -128,7 +142,7 @@ Sabemos que a realidade de muitas pessoas é diferente disso.
 
 
 
-## Empresas legais
+## <a name='Empresaslegais'></a>Empresas legais
 
 Até agora eu nem citei o fato de que muitas empresas sugam o máximo do funcionário. Extraem até a última gota de tempo que a pessoa poderia ter.
 
@@ -142,7 +156,7 @@ Pobres almas que perdem seus dias ao lado de suas famílias, que não ligam para
 
 Mas tudo bem… **Eles jogam vídeo game dentro do trabalho, então não estão trabalhando, né?**
 
-## Conclusão
+## <a name='Concluso'></a>Conclusão
 
 Eu acredito sim que da para trabalhar e ser feliz, mas dizer que não está trabalhando é uma grande mentira.
 

@@ -7,6 +7,21 @@ date: '2015-01-12'
 description: Quanto cobrar por um Freelance ou quanto cobrar pela minha hora?
 ---
 
+<!-- vscode-markdown-toc -->
+* [Primeiro pesquise o Mercado](#PrimeiropesquiseoMercado)
+* [Antes de pegar o trampo estude! (Ou aprenda a se organizar)](#AntesdepegarotrampoestudeOuaprendaaseorganizar)
+* [Quanto custa sua hora](#Quantocustasuahora)
+* [E quanto vai custar o projeto](#Equantovaicustaroprojeto)
+* [Um porém](#Umporm)
+* [E como receber](#Ecomoreceber)
+
+<!-- vscode-markdown-toc-config
+	numbering=false
+	autoSave=true
+	/vscode-markdown-toc-config -->
+<!-- /vscode-markdown-toc -->
+
+
 Muita gente, iniciante ou não, tem dúvidas de quanto cobrar por um Freelance...
 
 A resposta é:
@@ -17,14 +32,14 @@ Você tem de calcular quanto tempo vai demorar, quanto vai custar sua hora e por
 
 ![saco de money]({{site.postsImagesPath}}money.jpg)
 
-## Primeiro pesquise o Mercado
+## <a name='PrimeiropesquiseoMercado'></a>Primeiro pesquise o Mercado
 
 Antes de colocar qualquer preço no seu trampo, analise ao redor o quanto as outras pessoas cobram, pois você pode colocar um valor muito alto para algo que não custa tanto ou um valor muito baixo onde deveria cobrar caro por falta de experiência e conhecimento de Mercado.
 
 Veja se você tem experiência, também, para pegar aqueles projetos grandes.
 Se não tem, cuidado. Comece por projetos pequenos e vá pegando os mais pesados gradativamente.
 
-## Antes de pegar o trampo estude! (Ou aprenda a se organizar)
+## <a name='AntesdepegarotrampoestudeOuaprendaaseorganizar'></a>Antes de pegar o trampo estude! (Ou aprenda a se organizar)
 
 Antes de aceitar qualquer trampo - Como eu disse ali em cima - veja se tem capacidade para assumir essa responsabilidade, seja em quesitos de conhecimento técnico ou organização.
 
@@ -38,7 +53,7 @@ Para marcar minhas tarefas, fazer listas e tudo mais eu uso o [Wunderlist](https
 
 
 
-## Quanto custa sua hora
+## <a name='Quantocustasuahora'></a>Quanto custa sua hora
 
 Pra se chegar ao valor de um Freela é necessário saber quanto custa sua hora. Existem algumas maneiras de se chegar ao valor final, mas eu vou pular para o jeito mais fácil aqui. Antigamente eu calculava na canetinha pra saber isso, porém conheci o site:
 
@@ -47,7 +62,7 @@ Pra se chegar ao valor de um Freela é necessário saber quanto custa sua hora.�
 Que nos ajuda a chegar no valor final.
 **Porém seja sensato ao estipular os valores ai ein...**
 
-## E quanto vai custar o projeto
+## <a name='Equantovaicustaroprojeto'></a>E quanto vai custar o projeto
 
 Você deve, agora, estipular quanto tempo vai levar para produzir cada etapa/tela/funcionalidade/etc do projeto.
 Por exemplo: Sistema de Login (10 horas), Telas (10 telas 2 horas cada), etc.
@@ -56,11 +71,11 @@ Some tudo e veja quantas horas o projeto inteiro vai demorar. Com o valor total 
 
 Ex.: Se sua hora custar 35 [Dilmas](https://pt.wikipedia.org/wiki/Real_%28moeda%29 "Dilmas") e o tempo total do projeto chegou a 40 horas, o projeto sairá por 1400 Dilmas! (40 horas * R$ 35,00).
 
-## Um porém
+## <a name='Umporm'></a>Um porém
 
 Porém, entretanto, toda via, você não colocou ali o custo que vai ter para produzir. Ou seja, não somou com a conta de energia, internet, equipamentos, softwares... Você deve incluir isso no valor total também. Senão esse gasto vai sair somente do seu bolso(Não esquece de colocar o valor do café né meu?).
 
-## E como receber
+## <a name='Ecomoreceber'></a>E como receber
 
 Tem muitas formas de se receber do Cliente, seja por Paypal, Pagseguro, transferência bancária, dinheiro na mão.
 Sinceramente, não é o meio de pagamento que é o problema nesse momento, mas como você vai receber, pois, nem sempre - Quase nunca - o cliente vai pagar a vista.

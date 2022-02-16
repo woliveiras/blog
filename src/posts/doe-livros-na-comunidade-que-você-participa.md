@@ -7,6 +7,18 @@ tags:
     - comunidades
 description: Os livros mudam vidas. Doe um livro e mude a vida de alguém na comunidade que você participa
 ---
+
+<!-- vscode-markdown-toc -->
+* [Livros de programação são caros](#Livrosdeprogramaosocaros)
+* [Os livros ficam jogados na sua casa](#Oslivrosficamjogadosnasuacasa)
+* [Conclusão](#Concluso)
+
+<!-- vscode-markdown-toc-config
+	numbering=false
+	autoSave=true
+	/vscode-markdown-toc-config -->
+<!-- /vscode-markdown-toc -->
+
 A educação muda vidas. Aprender desenvolvimento de software mudou a minha. Foi através da área de programação e as comunidades que existem para disseminar tecnologias e grupos de estudos (como os meetups) que eu conquistei tudo o que tenho de mais valioso hoje em dia: amigos mais próximos, morar em uma boa região, receber um salário muito legal, ter um e ter passado por empregos bons, presentear minha mãe com coisas que ela diz ter vontade de possuir, mas não tem condições de comprar.
 
 É graças a área de programação e as comunidades que eu fiz a minha primeira viagem de avião e a primeira que não foi para passar alguns dias na casa de parentes ([retrospectiva de 2017](/posts/retrospectiva-2017-o-ano-mais-louco-da-minha-vida/)) e é trabalhando nessa área que eu ainda vou conquistar muita coisa.
@@ -15,7 +27,7 @@ Pode parecer singelo ou mesmo social demais o que eu falei até aqui, mas isso �
 
 Hoje eu estou aqui para te pedir um favor: **doe livros nas comunidades que você participa**.
 
-## Livros de programação são caros
+## <a name='Livrosdeprogramaosocaros'></a>Livros de programação são caros
 
 Para muita gente, gastar 80 reais em um livro não é algo muito pesado no orçamento, hoje em dia também não é alto para mim, porém para uma grande parcela da nossa população ainda é.
 
@@ -25,7 +37,7 @@ Se você quiser saber mais sobre o meu livro e os motivos pelos quais eu decidi 
 
 Os livros que eu mesmo indico para as pessoas iniciantes no artigo [livros que todo programador iniciante deveria ler](/posts/livros-que-todo-programador-iniciante-deveria-ler/) e os que indico para todos os níveis no [livros que todo desenvolvedor de software deveria ler](/posts/Livros-que-todo-desenvolvedor-de-software-deveria-ler/) custam entre [61 reais](https://amzn.to/2VM6d3P) até [233 reais](https://amzn.to/2HoSPig) e isso não é muito acessível visto que [80% dos brasileiros têm renda per capita inferior a R$ 1,4 mil](https://observatorio3setor.org.br/noticias/80-dos-brasileiros-tem-renda-per-capita-inferior-r-14-mil/), [Metade dos trabalhadores brasileiros tem renda menor que o salário mínimo](https://g1.globo.com/economia/noticia/metade-dos-trabalhadores-brasileiros-tem-renda-menor-que-o-salario-minimo-aponta-ibge.ghtml) e o seu salário hoje pode ser maior do que o da grande parte da população ([o seu salário diante da realidade brasileira](https://www.nexojornal.com.br/interativo/2016/01/11/O-seu-sal%C3%A1rio-diante-da-realidade-brasileira)).
 
-## Os livros ficam jogados na sua casa
+## <a name='Oslivrosficamjogadosnasuacasa'></a>Os livros ficam jogados na sua casa
 
 Quando compramos livros técnicos de programação, logo eles ficam defasados. Não adiantou comprar um livro de [Angular.js](https://amzn.to/2UuNo51), pois logo lançou o [Angular 2](https://angular.io/) e mudou tudo. O mesmo se encaixa para quem aprendeu Java 6 e hoje vai trabalhar com Java 10 ou quem comprou livros de ES5 e hoje vai trabalhar com ES9.
 
@@ -33,7 +45,7 @@ Os livros, infelizmente, perdem o valor técnico com o tempo, a não ser que sej
 
 Então para quê deixar isso parado lá, se poderia estar nas mãos de alguém que também precisa e não tem condições?
 
-## Conclusão
+## <a name='Concluso'></a>Conclusão
 
 Precisamos aproveitar os espaços públicos das comunidades de desenvolvimento de software para fazer algo importante e impactante na sociedade, que é disseminar educação e informação.
 

@@ -5,6 +5,17 @@ tags:
   - produtividade
 description: Aumente sua produtividade e da sua equipe com gamificação das tarefas e hábitos produtivos
 ---
+<!-- vscode-markdown-toc -->
+* [O que é Gamificação?](#OqueGamificao)
+* [Como funciona o processo de Gamificação da rotina pessoal?](#ComofuncionaoprocessodeGamificaodarotinapessoal)
+* [Mas como utilizar isso para ser mais produtivo no serviço?](#Mascomoutilizarissoparasermaisprodutivonoservio)
+* [O ponto principal desse jogo, a honestidade](#Opontoprincipaldessejogoahonestidade)
+
+<!-- vscode-markdown-toc-config
+	numbering=false
+	autoSave=true
+	/vscode-markdown-toc-config -->
+<!-- /vscode-markdown-toc -->
 
 Todos nós gostamos de jogos, seja no PC, Celular ou qualquer outro tipo... Simplesmente, gostamos. Agora imagine utilizar jogos para ser mais produtivo, cuidar da saúde, aprender algo novo ou qualquer outro objetivo pessoal.
 
@@ -20,7 +31,7 @@ Posts anteriores sobre produtividade:
 - [Produtividade, conhece-te a ti mesmo](/posts/Produtividade-conhece-te-a-ti-mesmo/)
 - [Produtividade: priorização de tarefas, execução e melhoria do processo](/posts/Produtividade-priorizacao-de-tarefas-execucao-e-melhoria-do-processo/)
 
-## O que é Gamificação?
+## <a name='OqueGamificao'></a>O que é Gamificação?
 
 Esse processo de transformar uma atividade (muitas vezes chata) em um desafio que gera recompensas, criar uma competitividade sadia entre pessoas ou algum reconhecimento, é chamado de [Gamificação](https://www.mjv.com.br/biblioteca/infografico-o-que-e-gamificacao) ou [Ludificação](https://pt.wikipedia.org/wiki/Ludifica%C3%A7%C3%A3o) se for usar um termo mais técnico.
 
@@ -34,7 +45,7 @@ Além disso ele é de [código aberto](https://github.com/habitrpg/habitrpg/), u
 
 Eu brinquei um pouco com esse jogo, porém não fui muito a fundo. Só que hoje estamos usando ele no trabalho para nos incentivar a ser mais produtivos e isso acabou me impressionando, pois o resultado já é visível no quadro do [Kanban](https://pt.wikipedia.org/wiki/Kanban) que utilizamos para refletir as issues do [Jira](https://www.atlassian.com/software/jira), no engajamento da equipe e no nosso dia-a-dia.
 
-## Como funciona o processo de Gamificação da rotina pessoal?
+## <a name='ComofuncionaoprocessodeGamificaodarotinapessoal'></a>Como funciona o processo de Gamificação da rotina pessoal?
 
 Basicamente você vai criar um personagem de jogo que completa desafios para ganhar experiência, dinheiro e outras coisas do game ([como um pinguim](https://habitica.wikia.com/wiki/The_Fowl_Frost)). Igual qualquer outro jogo de RPG, mas esses desafios são seus hábitos pessoais, suas atividades diárias, seus afazeres e até desafios globais ou missões em equipe (sim, você pode ter uma Guild, igual nos MMORPG). Você vai enfrentar monstros que podem te matar (no jogo, claro) e seus hábitos negativos podem te levar ao fundo do poço (tanto na vida real, quanto no jogo).
 
@@ -64,7 +75,7 @@ Eu ainda uso muito o [Wunderlist](https://wunderlist.com/) para cadastrar minha 
 
 
 
-## Mas como utilizar isso para ser mais produtivo no serviço?
+## <a name='Mascomoutilizarissoparasermaisprodutivonoservio'></a>Mas como utilizar isso para ser mais produtivo no serviço?
 
 Existem **N** maneiras de utilizar algo desse tipo na sua empresa ou equipe para tornar todos mais produtivos, no nosso caso criamos alguns **Desafios** focados em nossas atividades diárias e até um desafio gigante para aprender uma técnica nova de gestão de tempo chamada [ZTD](https://efetividade.net/2011/11/ztd-um-jeito-zen-e-minimalista-de-buscar-a-produtividade-pessoal.html).
 
@@ -84,7 +95,7 @@ Nenhuma das tarefas exibidas foram inventadas agora, para o post, de fato sigo e
 
 ![Pontos por escrever um post](https://s32.postimg.org/bpp0yaat1/pontos_por_escrever_um_post.png)
 
-## O ponto principal desse jogo, a honestidade
+## <a name='Opontoprincipaldessejogoahonestidade'></a>O ponto principal desse jogo, a honestidade
 
 O jogo é todo editável. E quando digo todo, é todo mesmo.
 

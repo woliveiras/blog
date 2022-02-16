@@ -22,7 +22,25 @@ Recentemente participei de um treinamento sobre Kanban com o Leandro Mattoso e o
 
 Agora estou de volta a usar o Trello e Kanban Board para organização pessoal, profissional, estudos e projetos (pessoais ou não).
 
-## O que é Kanban
+<!-- vscode-markdown-toc -->
+* [O que é Kanban](#OqueKanban)
+* [Como estou usando o Trello como Kanban Board para minha organização](#ComoestouusandooTrellocomoKanbanBoardparaminhaorganizao)
+	* [Colunas](#Colunas)
+* [Cards](#Cards)
+* [Épicos](#picos)
+* [Labels](#Labels)
+* [Limites](#Limites)
+* [O que fazer com cards que não serão processados/priorizados](#Oquefazercomcardsquenoseroprocessadospriorizados)
+* [Nada é perfeito](#Nadaperfeito)
+* [Revisando o processo](#Revisandooprocesso)
+
+<!-- vscode-markdown-toc-config
+	numbering=false
+	autoSave=true
+	/vscode-markdown-toc-config -->
+<!-- /vscode-markdown-toc -->
+
+## <a name='OqueKanban'></a>O que é Kanban
 
 Se você nunca ouviu falar sobre Kanban, vamos entender com esse trecho rápido extraído da Wikipédia, pois explicar o que é Kanban levaria mais um artigo bem grandinho:
 
@@ -32,13 +50,13 @@ Se você nunca ouviu falar sobre Kanban, vamos entender com esse trecho rápido 
 > O Kanban permite agilizar a entrega e a produção de peças. Pode ser empregue em indústrias montadoras, desde que o nível de produção não oscile em demasia. Os Kanbans físicos (cartões ou caixas) podem ser Kanbans de Produção ou Kanbans de Movimentação e transitam entre os locais de armazenagem e produção substituindo formulários e outras formas de solicitar peças, permitindo enfim que a produção se realize Just in time - metodologia desenvolvida e aperfeiçoada em 1940 por Taiichi Ohno e Sakichi Toyoda conhecida como Sistema Toyota de Produção.
 > [Wikipedia](https://pt.wikipedia.org/wiki/Kanban)
 
-## Como estou usando o Trello como Kanban Board para minha organização
+## <a name='ComoestouusandooTrellocomoKanbanBoardparaminhaorganizao'></a>Como estou usando o Trello como Kanban Board para minha organização
 
 Basicamente tudo o que eu faço voltará a passar pelo Trello.
 
 Desde o que preciso estudar, como vou estudar e se estou estudando, até mesmo tarefas de projetos pessoais e do [Training Center](https://trainingcenter.io/).
 
-### Colunas
+### <a name='Colunas'></a>Colunas
 
 Como de prache, criei as seguintes colunas em um board chamado **“personal”**:
 
@@ -52,7 +70,7 @@ Onde **backlog** é o local onde vão entrar minhas ideias e tarefas a fazer sem
 
 Chamei o board de pessoal por que existem diversos outros boards atrelados ao meu usuário, então este novo será o centralizador das minhas coisas.
 
-## Cards
+## <a name='Cards'></a>Cards
 
 Em cada card devemos colocar um título parecido com: *“escrever um artigo sobre minha nova organização no Trello”*.
 
@@ -60,7 +78,7 @@ Devemos sempre deixar uma boa descrição no card, afinal podemos escrever uma i
 
 Então abuse na descrição! Adicione o máximo de informações como **“por que fazer isso”**, **“como fazer isso”**, **“resultados que alcançarei com essa tarefa”**.
 
-## Épicos
+## <a name='picos'></a>Épicos
 
 Seguindo o exemplo do card sobre a escrita do post sobre a organização no Trello com Kanban: podemos criar um card que centraliza tudo o que precisamos fazer e esse card ficará em doing até terminar todos os tópicos.
 
@@ -68,7 +86,7 @@ Os tópicos, ou sub-tasks, são os **checklist’s**, como este:
 
 ![Imagem de um checklist no Trello, uma lista com caixas para selecionar quando finalizados os itens listados]({{site.postsImagesPath}}check-list-trello.png)
 
-## Labels
+## <a name='Labels'></a>Labels
 
 As labels podem te ajudar a organizar ainda mais seu board. Imagina que algo esteja em backlog porém deve ser priorizado, pois pode acarretar algum inconveniente no futuro. Podemos usar uma label **“critico”** para especificar que isso deve ser priorizado.
 
@@ -78,7 +96,7 @@ Estou utilizando as seguintes labels: post, ideia, refletir, critico, projeto, t
 
 Dessas labels, **post** é uma ideia de artigo a ser escrito. **Ideia** é a ideia de algum projeto ou coisa do tipo que, normalmente, é atrelado a label projeto. **Refletir** significa que antes de ser priorizado, este card deve ser repensado, ver se vale a pena gastar energia com isso. **Crítico** algo que deve ser priorizado para ser finalizado o mais de pressa possível. **Projeto** pode ser uma tarefa que preciso executar em um projeto específico ou uma ideia de projeto novo. **Training-Center** tarefas relacionadas diretamente ao Training Center. **Trabalho** tarefas que podem servir para reaproveitar no meu trabalho — eu não misturo board pessoal com tarefas de trabalho, as tarefas do trabalho estão no Jira, outra ferramenta de gestão, que só é usado para e no horário de trabalho -. **Estudos** ideia de algo que eu devo estudar ou mesmo uma grade de conteúdos a estudar. Social pode ser uma tarefa ou ideia de projeto social. **Pessoal** algo pouco específico, porém ainda pessoal, como fazer uma lista de compras.
 
-## Limites
+## <a name='Limites'></a>Limites
 
 Nós temos 24 horas por dia, 7 dias por semana e pouco tempo livre, afinal o trânsito, trabalho e estudos podem ocupar um bom tempo e gastar nossa energia. Para que não acabemos em um *burnout* é ideal que limitemos o que estamos fazendo.
 
@@ -92,13 +110,13 @@ Esse limite nada mais é do que visual com base no número na coluna, pois o Tre
 
 Caso eu finalize todas as tarefas de todo, então posso puxar alguma outra do backlog durante a semana mesmo.
 
-## O que fazer com cards que não serão processados/priorizados
+## <a name='Oquefazercomcardsquenoseroprocessadospriorizados'></a>O que fazer com cards que não serão processados/priorizados
 
 Muitas vezes aparecem ideias mirabolantes e coisas loucas demais a se fazer. E isso tudo vai pro backlog. Porém algumas dessas ideias não serão executadas de fato, então o que fazemos com elas é **arquivar**.
 
 Elas não devem permanecer no board fazendo volume e muitas vezes fazendo com que reavaliemos a execução delas a frente de outra tarefa que poderia nos agregar mais valor. Se não faz sentido, arquiva. Se algum dia voltar a fazer sentido, então volta ao backlog ou direto para o todo.
 
-## Nada é perfeito
+## <a name='Nadaperfeito'></a>Nada é perfeito
 
 Esse processo todo deve ser visto e revisto o tempo inteiro. Se estiverem coisas demais no Todo e não estiverem saindo, então tem algo errado. O mesmo serve para o Doing. Podemos encontrar pontos onde estamos exagerando, gastando mais energia, simplesmente olhando as labels espalhadas no board.
 
@@ -106,7 +124,7 @@ No meu caso encontrei diversos cards com a label “crítico” sendo que alguma
 
 É um processo de ir executando tarefas, revisando seu fluxo e corrigindo possíveis falhas de processo.
 
-## Revisando o processo
+## <a name='Revisandooprocesso'></a>Revisando o processo
 
 O processo inteiro fica assim:
 

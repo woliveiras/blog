@@ -14,7 +14,19 @@ Se você vem seguindo o mesmo [guia de estudos](https://woliveiras.com.br/posts/
 
 Mas e dae? Quer dizer que ela é uma linguagem de programação da realeza? É uma princesa? Ou um princeso? O que significa isso?
 
-## Linguagem de alto nível
+<!-- vscode-markdown-toc -->
+* [Linguagem de alto nível](#Linguagemdealtonvel)
+* [E a linguagem de baixo nível?](#Ealinguagemdebaixonvel)
+* [Qual é mais difícil de se trabalhar?](#Qualmaisdifcildesetrabalhar)
+* [Exemplos](#Exemplos)
+
+<!-- vscode-markdown-toc-config
+	numbering=false
+	autoSave=true
+	/vscode-markdown-toc-config -->
+<!-- /vscode-markdown-toc -->
+
+## <a name='Linguagemdealtonvel'></a>Linguagem de alto nível
 
 Essas são aquelas cuja [sintaxe](https://pt.wikipedia.org/wiki/Sintaxe) se aproxima mais da nossa linguagem e se distanciam mais da linguagem de máquina.
 
@@ -29,7 +41,7 @@ Alguns exemplos de linguagens de alto nível:
 * PHP **<3 ++**
 * Ruby **<3 +**
 
-## E a linguagem de baixo nível?
+## <a name='Ealinguagemdebaixonvel'></a>E a linguagem de baixo nível?
 
 É aquela que se aproxima mais da linguagem de máquina.
 
@@ -37,7 +49,7 @@ Essas são as que você precisa ter o conhecimento direto da arquitetura do comp
 
 
 
-## Qual é mais difícil de se trabalhar?
+## <a name='Qualmaisdifcildesetrabalhar'></a>Qual é mais difícil de se trabalhar?
 
 Nenhuma.
 
@@ -49,7 +61,7 @@ Claro que um **iniciante**, só com lógica de programação, aprende a progra
 
 Se você planeja aprender uma linguagem de baixo nível, vai sem medo. O que vai acontecer é você ter de pesquisar mais no Google se não tiver conhecimento da arquitetura.
 
-## Exemplos
+## <a name='Exemplos'></a>Exemplos
 
 Pega esse Hello World em JS (Alto nível):
 

@@ -7,9 +7,25 @@ tags:
     - produtividade
 description: Dicas para organização da carreira utilizando metas, planos e o Trello
 ---
+
+<!-- vscode-markdown-toc -->
+* [Preparando o board](#Preparandooboard)
+* [Alimentando nosso board](#Alimentandonossoboard)
+* [Metas de médio prazo](#Metasdemdioprazo)
+* [Tarefas/metas de curto prazo](#Tarefasmetasdecurtoprazo)
+* [Seguindo o fluxo do board](#Seguindoofluxodoboard)
+* [Nem tudo o que vai acontecer foi planejado](#Nemtudooquevaiacontecerfoiplanejado)
+* [Conclusão](#Concluso)
+
+<!-- vscode-markdown-toc-config
+	numbering=false
+	autoSave=true
+	/vscode-markdown-toc-config -->
+<!-- /vscode-markdown-toc -->
+
 No artigo anterior, sobre plano de carreira, comentei como utilizar estatística e dados para planejar nossa carreira através de buscas em sites de emprego, empresas, comunidades, etc. Neste artigo vamos analisar uma ideia que eu sigo de utilizar o Trello, uma ferramenta de gestão de projetos, para organizar nossas metas e, por consequência, atingir nossos objetivos do plano de carreira.
 
-## Preparando o board
+## <a name='Preparandooboard'></a>Preparando o board
 
 Para facilitar o entendimento, e eu não esquecer de nada, criei um board vazio para os exemplos neste artigo.
 
@@ -36,7 +52,7 @@ Além disso, seria legal termos uma coluna onde colocamos quais são nossos obje
 
 Agora que temos nosso quadro montado, podemos partir para a parte de colocar as informações que coletamos para finalmente podermos trabalhar nas metas.
 
-## Alimentando nosso board
+## <a name='Alimentandonossoboard'></a>Alimentando nosso board
 
 Conforme explicado no artigo anterior, devemos pesquisar muito, coletar o máximo de dados, consolidar a informação e só então conseguiremos seguir com nosso planejamento de metas.
 
@@ -62,7 +78,7 @@ Pode acontecer de criarmos muitas tarefas de curto prazo que não tem nenhuma re
 
 Um exemplo pessoal aconteceu recentemente, onde eu perdi totalmente o foco do que estudar. Me encontrei em um período em que estava estudando Nodejs, React, Rust e Clojure. As duas primeiras tecnologias me ajudam no meu plano de longo prazo (e até nos de curto prazo), as duas últimas seriam para planos de curto prazo que não ajudariam a bater minhas metas para daqui a 3 anos (porque 2 anos do meu plano de carreira já se foram).
 
-## Metas de médio prazo
+## <a name='Metasdemdioprazo'></a>Metas de médio prazo
 
 Além de planejar para daqui a 5 anos, devemos começar a aprofundar em nossas metas a fim de extrair pequenas tarefas disso. Para tal, criamos outro card em following com o título “ano de xyz”. Em nosso exemplo, “ano de 2018”.
 
@@ -72,7 +88,7 @@ Neste card vamos colocar as metas que vamos buscar para o ano evitando, novament
 
 Essas tarefas devem estar diretamente relacionadas com as metas a longo prazo.
 
-## Tarefas/metas de curto prazo
+## <a name='Tarefasmetasdecurtoprazo'></a>Tarefas/metas de curto prazo
 
 Agora é que vem o trabalho duro e que vamos conseguir ver tudo funcionando!
 
@@ -101,7 +117,7 @@ Começando pelo card de "aprimorar conhecimento em JavaScript", podemos criar as
 
 E nestes cards podemos ter checklists específicos, pois eles podem passar rápido pelo todo e doing conforme sua complexidade. Por exemplo: é mais rápido comprar um livro do que criar projetos para praticar o que aprendeu com a leitura.
 
-## Seguindo o fluxo do board
+## <a name='Seguindoofluxodoboard'></a>Seguindo o fluxo do board
 
 Devemos criar uma rotina de revisão do board. Eu costumo fazer isso toda semana e graças a essa review, acabo jogando fora muita tarefa que ficaria presa ali por um bom tempo por não fazer sentido a longo prazo.
 
@@ -123,7 +139,7 @@ Uma coisa importante de se pensar é que, além das cores, as labels podem receb
 
 Tendo tudo isso em mãos, é só partir para o trabalho duro de tentar manter o foco durante a semana, o ano e para daqui a 5 anos.
 
-## Nem tudo o que vai acontecer foi planejado
+## <a name='Nemtudooquevaiacontecerfoiplanejado'></a>Nem tudo o que vai acontecer foi planejado
 
 Muita coisa pode acontecer. E principalmente coisas que não foram planejadas. Nós podemos mudar de cidade e os custos de vida aumentarem tanto que não dá mais pra comprar livro ou fazer cursos. Podemos mudar de emprego e demorar muito mais para chegar ao trabalho, perdendo aquele tempo bom de prática que poderíamos exercitar. Podemos mudar de emprego e no emprego novo não usa nada daquilo que estamos estudando para o longo prazo… Sério, pode acontecer qualquer coisa.
 
@@ -131,7 +147,7 @@ Muita coisa pode acontecer. E principalmente coisas que não foram planejadas. N
 
 Na hora de uma mudança drástica, precisamos analisar as tarefas e metas e agir racionalmente. Até mesmo, se for necessário, mudar o plano de carreira, devemos fazer. Tudo para que nos ajustemos ao que vamos fazer a partir daquele ponto de ruptura em nossas vidas.
 
-## Conclusão
+## <a name='Concluso'></a>Conclusão
 
 O Trello é uma ferramenta bem legal para colocarmos nossos planejamentos. Eu estou utilizando para gerenciar minha vida e está dando bem certo, conforme podemos conferir aqui:
 

@@ -15,7 +15,25 @@ Como sou viciado no assunto [produtividade](/posts/produtividade-uma-re-introduc
 
 Pensando em motivar outras pessoas, pensei em deixar minha lista aqui no Blog. Então, lá vai.
 
-## 1. Metas de estudos
+<!-- vscode-markdown-toc -->
+* [1. Metas de estudos](#Metasdeestudos)
+	* [1.1 JavaScript Ninja](#JavaScriptNinja)
+	* [1.2 Livros sobre JavaScript](#LivrossobreJavaScript)
+	* [1.3 Faculdade](#Faculdade)
+	* [1.4 Nodejs](#Nodejs)
+	* [1.5 Programação Funcional](#ProgramaoFuncional)
+* [2. Projetos](#Projetos)
+	* [2.1 Mudança do tema desse Blog](#MudanadotemadesseBlog)
+	* [2.2 Mais posts](#Maisposts)
+	* [2.3 Atualizar ou finalizar meus projetos no GitHub](#AtualizaroufinalizarmeusprojetosnoGitHub)
+
+<!-- vscode-markdown-toc-config
+	numbering=false
+	autoSave=true
+	/vscode-markdown-toc-config -->
+<!-- /vscode-markdown-toc -->
+
+## <a name='Metasdeestudos'></a>1. Metas de estudos
 
 Vai faltar espaço na cachola pra tanta coisa que quero estudar esse ano. Talvez eu precise desistir de alguma coisa durante os estudos para priorizar outras, mas faz parte.
 
@@ -25,19 +43,19 @@ Já faz um tempo desde o meu primeiro [exercício em JavaScript](https://github.
 
 Depois disso eu precisei dar uma boa estudada na linguagem e esse ano não será diferente.
 
-### 1.1 JavaScript Ninja
+### <a name='JavaScriptNinja'></a>1.1 JavaScript Ninja
 
 Esse ano eu preciso terminar, **de uma vez por todas**, o [curso JavaScript Ninja](https://github.com/da2k/curso-javascript-ninja), que só me faltam dois exercícios *e um pouco de vergonha na cara*. O curso está sendo muito útil pra mim, pois eu relembrei muita coisa de JavaScript puro que eu não praticava desde que aprendi a linguagem devido ao uso de jQuery e AngularJS e isso me motivou a voltar a estudar a linguagem sem libs ou frameworks.
 
 Assim que eu finalizar o JS Ninja parto direto para o curso de [React](https://blog.da2k.com.br/curso-reactjs-ninja/), também do Daciuk.
 
-### 1.2 Livros sobre JavaScript
+### <a name='LivrossobreJavaScript'></a>1.2 Livros sobre JavaScript
 
 No ano passado eu lí (por cima) o livro Segredos do JavaScript Ninja, do [John Resig](https://twitter.com/jeresig) para pegar umas coisas legais da linguagem. Depois eu fui para o Padrões JavaScript do [Stoyan Stefanov](https://twitter.com/stoyanstefanov) para aprender mais sobre padrões (claro) e deixei os códigos que [fiz nesse repositório](https://github.com/woliveiras/javascript-studies/tree/master/js-patterns). Livros excelentes que [sempre recomendo](/posts/Livros-sobre-JavaScript-do-iniciante-ao-avancado-e-ES6/) para quem quer estudar a linguagem.
 
 Para esse ano pretendo ler o livro JavaScript de Alto Desempenho do [Nicholas C. Zakas](https://twitter.com/slicknet) e o Exploring ES6: Upgrade to the next version of JavaScript, do [Axel Rauschmayer](https://twitter.com/rauschma) para dar um upgrade nos meus projetos e aprender, de fato, ES6.
 
-### 1.3 Faculdade
+### <a name='Faculdade'></a>1.3 Faculdade
 
 Esse ano vou continuar minha rotina normal de [estudos da faculdade](/posts/Comecei-a-faculdade-de-informatica-e-agora/) e quero tentar não conflitar os assuntos de lá com os assuntos que eu quero estudar por conta. Espero que um não atrapalhe o outro.
 
@@ -45,7 +63,7 @@ Sei que isso vai ser, como foi ano passado, complicado. As vezes o conteúdo da 
 
 
 
-### 1.4 Nodejs
+### <a name='Nodejs'></a>1.4 Nodejs
 
 Ano passado eu fiquei de aprender mais sobre Nodejs, porém o estudo de JavaScript no Front End não me deixou estudar essa maravilha das atualidades. - Tudo bem. Agora tem mais conteúdo ainda para estudar!
 
@@ -57,7 +75,7 @@ Os exercícios e código dos livros e outros recursos que acho sobre Nodejs esto
 
 Também pretendo postar sobre o que eu aprender.
 
-### 1.5 Programação Funcional
+### <a name='ProgramaoFuncional'></a>1.5 Programação Funcional
 
 Eu sempre mantenho contato com Programação Funcional, dentre outras coisas, todos os dias para ir aprendendo de forma [cumulativa](https://www.coladaweb.com/pedagogia/aprendizagem-conceitos-e-caracteristicas) até conseguir um tempo para estudar a fundo sobre o assunto e praticar mais.
 
@@ -65,23 +83,23 @@ Esse ano quero tentar estudar mais sobre esse paradigma e aplicar nos meus códi
 
 Talvez eu utilize Haskell com [esse conteúdo](https://learnyouahaskell.com/chapters) para isso, por ser uma linguagem altamente recomendada para isso. Se você tiver alguma dica, comente aqui para me ajudar nesse objetivo. ;)
 
-## 2. Projetos
+## <a name='Projetos'></a>2. Projetos
 
 O que eu mais gosto na nossa área são os projetos Open Source. Então não tem como eu passar um ano sem falar, criar ou me aproximar deles.
 
-### 2.1 Mudança do tema desse Blog
+### <a name='MudanadotemadesseBlog'></a>2.1 Mudança do tema desse Blog
 
 Faz tempo que uso esse tema no meu Blog, até [disponibilizei ele para outras pessoas](https://github.com/woliveiras/redline-hexo-theme) poderem utilizar também. Porém esse ano eu vou mudar as coisas por aqui. Pretendo mudar tudo no background.
 
 Quero criar tudo do zero, seja com Hexo mesmo ou com Jekyll.
 
-### 2.2 Mais posts
+### <a name='Maisposts'></a>2.2 Mais posts
 
 Esse ano eu quero tentar escrever mais. Pelo menos um post por mês.
 
 Ano passado aprendi muita coisa, mas por conta da má priorização do meu tempo eu não consegui transmitir nada por aqui.
 
-### 2.3 Atualizar ou finalizar meus projetos no GitHub
+### <a name='AtualizaroufinalizarmeusprojetosnoGitHub'></a>2.3 Atualizar ou finalizar meus projetos no GitHub
 
 Alguns projetos pessoais estão meio parados e preciso voltar a mexer neles.
 

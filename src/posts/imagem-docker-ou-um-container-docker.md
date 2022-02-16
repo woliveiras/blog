@@ -7,11 +7,26 @@ tags:
 date: '2016-04-11'
 description: O que é uma imagem e o que é um container Docker? Uma breve explicação sobre esses dois termos que podem confundir um iniciante e uma introdução sobre o Docker Hub.
 ---
+
+<!-- vscode-markdown-toc -->
+* [O que são Imagens Docker?](#OquesoImagensDocker)
+* [Baixando e utilizando uma Imagem Docker](#BaixandoeutilizandoumaImagemDocker)
+* [Pesquisando por uma Imagem Docker](#PesquisandoporumaImagemDocker)
+* [Docker Hub](#DockerHub)
+* [Como diferenciar uma imagem oficial de uma imagem não oficial?](#Comodiferenciarumaimagemoficialdeumaimagemnooficial)
+* [Containers](#Containers)
+
+<!-- vscode-markdown-toc-config
+	numbering=false
+	autoSave=true
+	/vscode-markdown-toc-config -->
+<!-- /vscode-markdown-toc -->
+
 Se você viu a primeira parte dessa sequência de artigos, percebeu que existem dois termos muito utilizados quando falamos de Docker: **Imagens** e **Containers**. Você deve se perguntar: qual é a diferença entre imagem e container Docker? Ou então: O que eu rodo com o `docker run`, uma imagem ou um container?
 
 Se você não viu o primeiro artigo, da uma olhada [aqui](/posts/uma-rapida-introducao-ao-docker-e-instalacao-no-ubuntu/).
 
-## O que são Imagens Docker?
+## <a name='OquesoImagensDocker'></a>O que são Imagens Docker?
 
 Pense nas imagens Docker como uma [Base Box do Vagrant](/posts/criar-uma-base-box-para-o-vagrant/).
 
@@ -21,7 +36,7 @@ Você precisa baixar as imagens para rodar os containers ou pegar de algum lugar
 
 As imagens Docker ficam armazenadas no [Docker Hub](https://hub.docker.com/) e, para baixar uma, funciona igualzinho utilizar o Git com Github.
 
-## Baixando e utilizando uma Imagem Docker
+## <a name='BaixandoeutilizandoumaImagemDocker'></a>Baixando e utilizando uma Imagem Docker
 
 Para baixar uma imagem (vamos utilizar o exemplo da imagem do Ubuntu), utilize o comando:
 
@@ -55,7 +70,7 @@ docker rmi ID_ou_nome_da_imagem
 
 
 
-## Pesquisando por uma Imagem Docker
+## <a name='PesquisandoporumaImagemDocker'></a>Pesquisando por uma Imagem Docker
 
 Você pode pesquisar imagens no Docker Hub direto do Terminal usando o comando `search`:
 
@@ -67,7 +82,7 @@ Todas as imagens com o nome ubuntu no meio irão aparecer no seu terminal para e
 
 Você também pode criar sua própria imagem e distribuir no Docker Hub ou em outro local, mas vou falar mais sobre isso nos próximos posts. ;P
 
-## Docker Hub
+## <a name='DockerHub'></a>Docker Hub
 
 O Docker Hub é parecido com o nosso querido [GitHub](https://github.com/), porém somente de imagens Docker.
 
@@ -77,7 +92,7 @@ Vale a pena brincar um pouco com a criação e utilização de imagens no Docker
 
 Uma boa maneira de conhecer o Docker Hub é com [esse overview](https://docs.docker.com/docker-hub/overview/), do próprio site.
 
-## Como diferenciar uma imagem oficial de uma imagem não oficial?
+## <a name='Comodiferenciarumaimagemoficialdeumaimagemnooficial'></a>Como diferenciar uma imagem oficial de uma imagem não oficial?
 
 Algumas imagens são criadas por empresas ou organizações (ou alguém que mande em um projeto que você esteja utilizando agora) e são mantidas por elas, essas são imagens oficiais. As não oficiais são as que usuários comuns (eu e você, reles mortais) sobem para o repositóro.
 
@@ -107,7 +122,7 @@ As imagens em `https://hub.docker.com/_/imagem` são as oficiais.
 
 As não oficiais vem com o padrão `usuario/imagem`, sem esse `/_/`.
 
-## Containers
+## <a name='Containers'></a>Containers
 
 O Container é uma instância de uma Imagem em execução naquele momento.
 

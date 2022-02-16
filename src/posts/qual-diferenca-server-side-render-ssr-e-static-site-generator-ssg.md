@@ -15,7 +15,26 @@ description: Qual a grande diferença entre SSR e SSG, como funciona cada aborda
 
 O desenvolvimento web mudou muito desde que a internet era somente documentos HTML servidos por um servidor para o nosso Netscape ou Internet Explorer e para entender realmente a diferença entre server side render e static site generator esse contexto histórico é extremamente importante.
 
-## Prólogo
+<!-- vscode-markdown-toc -->
+* [Prólogo](#Prlogo)
+* [Páginas estáticas e páginas dinâmicas](#Pginasestticasepginasdinmicas)
+* [Server Side Render (SSR)](#ServerSideRenderSSR)
+* [Static Site Generation (SSG)](#StaticSiteGenerationSSG)
+* [Static Site Generators](#StaticSiteGenerators)
+* [Entendendo melhor a arquitetura web SSR e SSG](#EntendendomelhoraarquiteturawebSSReSSG)
+	* [A arquitetura de uma aplicação SSR](#AarquiteturadeumaaplicaoSSR)
+	* [A arquitetura de uma aplicação SSG](#AarquiteturadeumaaplicaoSSG)
+* [Conclusão](#Concluso)
+	* [Referências](#Referncias)
+
+<!-- vscode-markdown-toc-config
+	numbering=false
+	autoSave=true
+	/vscode-markdown-toc-config -->
+<!-- /vscode-markdown-toc -->
+
+
+## <a name='Prlogo'></a>Prólogo
 
 No princípio existiam os computadores. Máquinas gigantes que ocupavam toda a sala de uma empresa para fazer contas que nem eram tão complexas ainda, porém eles faziam muito mais contas em um curto espaço de tempo do que um ser humano.
 
@@ -37,7 +56,7 @@ Além disso, as pessoas queriam guardar as informações em lugares mais seguros
 
 Este é o contexto necessário para entendermos sobre geração de sites estáticos (static site generation) e renderização no servidor (server side render).
 
-## Páginas estáticas e páginas dinâmicas
+## <a name='Pginasestticasepginasdinmicas'></a>Páginas estáticas e páginas dinâmicas
 
 Como vimos uma página estática é um arquivo HTML que não sofre processamento no servidor. Ela é enviada para o usuário do jeito que está.
 
@@ -45,7 +64,7 @@ Já uma página dinâmica (ou processada no servidor) sofre alterações no mome
 
 Agora nós sabemos o que é server side render (renderizar no servidor) e o que é uma página estática, mas o que é o static site generator? Antes de continuar e chegar nesse assunto de SSG, vamos continuar no fluxo histórico e entender como o SSR funciona. Prometo que já estamos chegando lá.
 
-## Server Side Render (SSR)
+## <a name='ServerSideRenderSSR'></a>Server Side Render (SSR)
 
 Quando acessamos um endereço de internet, esse endereço aponta para um servidor web que vai disparar diversos processos em um servidor. Se estamos utilizando server side rendering, um desses processos será o do interpretador de uma linguagem de programação, como o JavaScript, que irá rodar uma aplicação web.
 
@@ -53,7 +72,7 @@ Essa aplicação será responsável por consumir dados de algum banco de dados, 
 
 Eu já ensinei a criar páginas geradas no servidor no artigo [criando um currículo com Node.js, Express e EJS](/posts/criando-um-currículo-com-node-js-express-e-templates-ejs/). Caso você deseje conhecer um pouco mais sobre como as coisas funcionam, recomendo que leia o artigo logo depois deste aqui.
 
-## Static Site Generation (SSG)
+## <a name='StaticSiteGenerationSSG'></a>Static Site Generation (SSG)
 
 Agora que sabemos que as aplicações web tem o poder de consumir dados e gerar as páginas em tempo de execução, fica desnecessário escrevermos HTML simples, as páginas estáticas, e guardar em um servidor, certo?
 
@@ -65,7 +84,7 @@ Um servidor de aplicações web precisa ter uma certa quantidade de memória ram
 
 A criação dinâmica das páginas web se torna desnecessária quando um dado quase nunca sofre alteração. Ou seja, imagina que você tem um site pessoal, como um blog ([como este](https://github.com/woliveiras/woliveiras.github.io/)), ou o site institucional de uma empresa. Essas páginas recebem dados uma vez e isso só vai mudar depois de muito tempo, não é algo que precisa ser recriado ("re-gerado") a cada requisição que o servidor web receber. E é em casos parecidos com esse que os geradores de sites estáticos entram em cena para nos ajudar.
 
-## Static Site Generators
+## <a name='StaticSiteGenerators'></a>Static Site Generators
 
 O site estático é hospedado no servidor como ele é e, quando requisitado, é enviado para o usuário final. Essa hospedagem precisa de muito menos processador, memória e talvez até mesmo espaço em disco. Mas escrever esse HTML todo na mão não deve ser nada divertido.
 
@@ -77,23 +96,23 @@ Perceba: a geração do site estático não implica em não consumir dados. A ap
 
 Quer ver um site estático sendo gerado? Confere este artigo aqui: [desenvolvendo um blog com Hugo e Netlify](/posts/desenvolvendo-um-blog-com-interface-administrativa-com-hugo-e-netlify/)
 
-## Entendendo melhor a arquitetura web SSR e SSG
+## <a name='EntendendomelhoraarquiteturawebSSReSSG'></a>Entendendo melhor a arquitetura web SSR e SSG
 
 Para ilustrar melhor o que entendemos até aqui, desenhei alguns diagramas que vão explicar como que funciona uma aplicação via SSR e via SSG. Confira abaixo.
 
-### A arquitetura de uma aplicação SSR
+### <a name='AarquiteturadeumaaplicaoSSR'></a>A arquitetura de uma aplicação SSR
 
 De uma maneira muito, mas realmente muito simplificada: temos você acessando um site com o seu navegador, o servidor utilizando a aplicação que bate em um banco de dados, processa a informação, devolve para o servidor e o servidor te envia uma página.
 
 ![Arquitetura SSR (Server Side Rendering)]({{site.postsImagesPath}}arquitetura_SSR.png)
 
-### A arquitetura de uma aplicação SSG
+### <a name='AarquiteturadeumaaplicaoSSG'></a>A arquitetura de uma aplicação SSG
 
 Agora o mesmo processo, porém não temos mais um servidor processando informações em tempo de execução, somente o envio do conteúdo estático para o seu navegador. Não que não tenha acontecido um processo de construção da página e envio para o servidor de conteúdo estático, mas isso não acontece **agora**.
 
 ![Arquitetura SSG (Static Site Generated)]({{site.postsImagesPath}}arquitetura_SSG.png)
 
-## Conclusão
+## <a name='Concluso'></a>Conclusão
 
 Chegamos ao entendimento de que um site estático é uma página que não é gerada em tempo de execução de uma aplicação web e esses sites são criados por um programa chamado static site generator. E que site dinâmico é gerado no servidor e enviado para o usuário final durante um processamento.
 
@@ -101,7 +120,7 @@ Compreendemos que os dois casos são úteis em cenários diferentes e que precis
 
 Se você tiver qualquer dúvida sobre o assunto ou quiser que eu complemente este assunto com mais artigos, compartilhe esse artigo me marcando no Twitter ([@1ilhas](https://twitter.com/1ilhas)) e diga como eu posso ajudar. Estou aqui para isso mesmo! 
 
-### Referências
+### <a name='Referncias'></a>Referências
 
 - [Wikipedia/História da Internet](https://pt.wikipedia.org/wiki/Internet#Hist%C3%B3ria)
 - [Wikipedia/HTML](https://pt.wikipedia.org/wiki/HTML)

@@ -16,7 +16,20 @@ Pensando em manutenção do software, alguma hora vamos precisar interagir com u
 
 Então, quando devemos aceitar uma dívida técnica? E quando pagar essa dívida? 
 
-## Sobre prazos e outros males que enfrentamos
+<!-- vscode-markdown-toc -->
+* [Sobre prazos e outros males que enfrentamos](#Sobreprazoseoutrosmalesqueenfrentamos)
+* [Problemas da dívida técnica](#Problemasdadvidatcnica)
+* [Quando aceitar uma dívida técnica](#Quandoaceitarumadvidatcnica)
+* [Quando pagar a dívida](#Quandopagaradvida)
+* [Conclusão](#Concluso)
+
+<!-- vscode-markdown-toc-config
+	numbering=false
+	autoSave=true
+	/vscode-markdown-toc-config -->
+<!-- /vscode-markdown-toc -->
+
+## <a name='Sobreprazoseoutrosmalesqueenfrentamos'></a>Sobre prazos e outros males que enfrentamos
 
 Eu detesto os prazos que vem top down. Aquelas decisões que foram tomadas por alguém totalmente fora do contexto da produção de código e que, muitas vezes, está com o foco no lucro a curto prazo para agradar alguém acima na hierarquia ao invés da visão de longo prazo, como, por exemplo, o custo de refazer um software inteiro.
 
@@ -24,7 +37,7 @@ Mas, infelizmente, isso é algo que precisamos conviver. Quando o prazo é alinh
 
 Podemos nos deparar com um código difícil de escrever, por conta das interações que ele vai fazer com outros módulos, sistemas, APIs. Pode ser um código difícil de testar ou qualquer outra dificuldade que aumente o tempo de produção. É principalmente neste momento em que o prazo bate em nossas costas e nos faz criar uma dívida técnica.
 
-## Problemas da dívida técnica
+## <a name='Problemasdadvidatcnica'></a>Problemas da dívida técnica
 
 Certo. Chegamos até o ponto de que o prazo apertou e agora precisamos tomar uma decisão: 
 
@@ -39,7 +52,7 @@ Em grandes empresas das que já trabalhei, já vi várias vezes em que foram cri
 
 Perceba: em um pequeno raciocínio já percebemos que uma dívida técnica pode causar perda de dinheiro e/ou de pessoas do time. O maior custo aqui seria o estresse gerado para as pessoas.
 
-## Quando aceitar uma dívida técnica
+## <a name='Quandoaceitarumadvidatcnica'></a>Quando aceitar uma dívida técnica
 
 Como quase tudo em projetos de software, o momento de aceitar uma dívida técnica é sempre dependente do contexto. Porém, independente do momento, existem algumas premissas que precisamos responder antes de aceitar a criação de uma dívida.
 
@@ -55,7 +68,7 @@ Se você não tem logs no seu software, não possui relatórios de benchmark ou 
 
  Métricas como a cobertura de testes, APM (Application Performance Monitoring) e os logs vão colocar aquele pedaço de código que vai subir com “defeito” seja acompanhado de perto. Só assim conseguimos garantir que, mesmo entregando um software com um pequeno pedaço amarrado com arame, teremos uma boa disponibilidade do produto final através da resolução ou previsibilidade de problemas.
 
-## Quando pagar a dívida
+## <a name='Quandopagaradvida'></a>Quando pagar a dívida
 
 Eu não coloco nenhuma das minhas contas em pagamento automático no banco e vou te explicar o que isso tem há ver com o artigo. 
 
@@ -69,7 +82,7 @@ Isso vai se encaixar para o projeto software pensando que uma dívida técnica p
 
 Não existe um momento certo para pagar a conta, vai depender desse contexto.
 
-## Conclusão
+## <a name='Concluso'></a>Conclusão
 
 Ainda bem que a construção de software é mais fácil de manipular do que a nossa vida pessoal, pois a fatura seria muito mais difícil de pagar. 
 

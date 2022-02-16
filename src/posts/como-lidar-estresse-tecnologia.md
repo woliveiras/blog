@@ -7,6 +7,22 @@ tags:
 description: A área de tecnologia é estressante, o universo da programação tem prazos e pressão de diversas partes. Como podemos nos cuidar para que isso não nos afete negativamente no futuro.
 socialImage: '/images/posts/gabrielle-henderson-ZyhjHpICm0E-unsplash.jpg'
 ---
+<!-- vscode-markdown-toc -->
+* [Desvincule o trabalho da sua vida pessoal](#Desvinculeotrabalhodasuavidapessoal)
+* [Horários existem para serem cumpridos](#Horriosexistemparaseremcumpridos)
+* [Redes sociais não te desestressam](#Redessociaisnotedesestressam)
+* [Seu corpo não foi feito para ficar parado](#Seucorponofoifeitoparaficarparado)
+* [Transformar café em código](#Transformarcafemcdigo)
+* [Terapia](#Terapia)
+* [Conclusão](#Concluso)
+* [Referências](#Referncias)
+
+<!-- vscode-markdown-toc-config
+	numbering=false
+	autoSave=true
+	/vscode-markdown-toc-config -->
+<!-- /vscode-markdown-toc -->
+
 Enquanto o estresse no ambiente de trabalho ganhava o reconhecimento como uma verdadeira doença em 2019 indicado pela OMS (organização mundial da saúde), nós vivemos no país em segundo lugar no ranking de prevalência de alto estresse no ambiente de trabalho, chegando a 69% dos profissionais impactados, perdendo apenas para o Japão segundo a ISMA (international security management association) eu caminhava em uma estrada direta para o **burnout**.
 
 > A síndrome de burnout é um distúrbio psíquico caracterizado pelo estado de tensão emocional e estresse provocados por condições de trabalho desgastantes
@@ -19,7 +35,7 @@ Foi nesse contexto que eu decidi voltar 100% da atenção para a minha saúde me
 
 Talvez você já até saiba alguns dos itens que eu vou compartilhar, assim como eu sabia, mas ainda não colocou em prática. Espero de coração que você reveja essa necessidade e comece a se cuidar. Meu objetivo com este texto é que você não caia nas armadilhas que eu caí ou que chegue ao esgotamento mental que eu cheguei. 
 
-## Desvincule o trabalho da sua vida pessoal
+## <a name='Desvinculeotrabalhodasuavidapessoal'></a>Desvincule o trabalho da sua vida pessoal
 
 Algo extremamente comum em profissionais de tecnologia é o fato de estarem 100% do tempo em conexão com o trabalho. Seja estudando algo novo para aplicar no emprego, para o seu futuro ou por causa das ferramentas que as empresas nos fazem instalar nos celulares pessoais hoje em dia (isso mesmo, estou falando do Slack da firma).
 
@@ -41,7 +57,7 @@ A não ser que eu tenha algo **extremamente** urgente, depois do horário de tra
 
 Empregos vem e vão. Resultados ruins são recuperados. Mas a sua saúde nunca mais será a mesma se você deixar ela de lado.
 
-## Horários existem para serem cumpridos
+## <a name='Horriosexistemparaseremcumpridos'></a>Horários existem para serem cumpridos
 
 Quantas vezes você almoçou rapidinho para voltar para aquela tarefa que gostaria de entregar no mesmo dia?
 
@@ -59,7 +75,7 @@ Algo que me ajuda a observar se estou extrapolando o horário é o fato de usar 
 
 Já testei diversos apps e o que eu mais curti foi o [PontoGO](https://www.pontogo.com.br/). Faça um teste: comece a controlar o seu ponto e, no primeiro mês, somente aponte seus horários, não tire essas horas extras que aparecem. Veja quanto tempo a mais (ou a menos) você está trabalhando.
 
-## Redes sociais não te desestressam
+## <a name='Redessociaisnotedesestressam'></a>Redes sociais não te desestressam
 
 Existem diversos estudos que mostram que as redes sociais não são boas para a nossa saúde mental. Deixei alguns links no final do texto para que você veja como elas nos afetam.
 
@@ -73,7 +89,7 @@ Você não precisa abandonar as redes 100%. Eu também não fiz isso. Só use es
 
 Quando eu estava mais viciado em usar as redes, instalei um app para me ajudar a evitá-las. Foi o [SmarterTime](https://www.smartertime.com/), uma ferramenta muito boa para reconhecer onde estamos gastando o nosso tempo.
 
-## Seu corpo não foi feito para ficar parado
+## <a name='Seucorponofoifeitoparaficarparado'></a>Seu corpo não foi feito para ficar parado
 
 Reflita comigo: a roda do carro existe para um objetivo, certo? Ela está ali para ajudar o veículo a se movimentar. A roda recebe um impulso que vem do eixo do veículo através de um motor de aceleração e então temos o movimento.
 
@@ -93,7 +109,7 @@ Ainda é uma luta muito grande pensar em levantar durante o dia para alongar um 
 
 O canal Saúde na Rotina possui diversas playlists excelentes para exercícios que podemos fazer em casa ou em qualquer lugar, confira aqui: [youtube.com/SaudenaRotina/playlists](https://www.youtube.com/c/SaudenaRotina/playlists).
 
-## Transformar café em código
+## <a name='Transformarcafemcdigo'></a>Transformar café em código
 
 Eu sou um viciado em café. Não nego e não consigo parar quando eu quiser, pois eu quero e não consegui. Hoje eu aprendi a conviver com o uso da substância que, pode não parecer, mas é uma droga.
 
@@ -109,7 +125,7 @@ O café não só ferra a nossa cabeça ajudando a aumentar a nossa ansiedade, co
 
 Sabe o que também deixa a gente sem sono durante o dia? Dormir bem.
 
-## Terapia 
+## <a name='Terapia'></a>Terapia 
 
 Depois que eu comecei com a terapia, entendi muito mais sobre mim. O autoconhecimento me ajudou a diminuir estresse, controlar a ansiedade e sobreviver a depressão e o burnout. Hoje eu sou um defensor da premissa que todo mundo deveria fazer terapia.
 
@@ -125,7 +141,7 @@ Temos um problema social muito grande que é o custo da terapia. Muita gente nã
 
 Outra alternativa legal quanto ao preço é procurar profissionais de outros estados. O que é possível hoje em dia graças às plataformas de terapia online. Eu utilizo e recomendo o ZenKlub. É muito prático e tem profissionais para todos os casos que podem ser atendidos via telemedicina. Caso você queira conferir, acesse este link que você já começa ganhando um desconto na primeira sessão: [indicação ZenKlub](https://zenklub.com.br/auth/signup/user/williamoliveira1/?utm_source=user&utm_campaign=invite&utm_medium=web&utm_content=5eaaf1953f047b071a8e789e).
 
-## Conclusão
+## <a name='Concluso'></a>Conclusão
 
 A nossa área não vai se tornar menos estressante. Mesmo com as automações que criamos, as ferramentas que evoluem ou qualquer nova tecnologia que surgir, os prazos e a pressão sobre os times de desenvolvimento sempre existirão.
 
@@ -133,7 +149,7 @@ Cabe a nós buscar o equilíbrio e nos cuidarmos.
 
 Espero que as minhas dicas tenham sido úteis e que você não caia nas mesmas armadilhas que eu caí. Se gostou das dicas, compartilhe este artigo nas suas redes e para pessoas que você sabe que precisam de um puxão de orelha.
 
-## Referências
+## <a name='Referncias'></a>Referências
 
 - [Estresse no trabalho vira doença, afirma OMS](https://noticias.uol.com.br/ultimas-noticias/agencia-estado/2019/05/28/estresse-no-trabalho-vira-doenca-afirma-oms.htm)
 - [Brasil é o segundo país mais estressado do mundo](http://g1.globo.com/globo-reporter/noticia/2010/08/brasil-e-o-segundo-pais-mais-estressado-do-mundo.html)

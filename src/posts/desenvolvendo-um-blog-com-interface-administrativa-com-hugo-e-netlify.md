@@ -32,12 +32,14 @@ Total in 465 ms
 Neste artigo vamos aprender a utilizar o Hugo com GitHub, configurar o Netlify como CDN e Netlify-CMS para termos uma interface administrativa para postagens e edições dos textos publicados no nosso blog.
 
 <!-- vscode-markdown-toc -->
-* [Google Cloud Platform (GCP)](#GoogleCloudPlatformGCP)
-* [Criando um projeto no Google Cloud](#CriandoumprojetonoGoogleCloud)
-* [Ativando o App Engine](#AtivandooAppEngine)
-* [Instalando o Google Cloud SDK](#InstalandooGoogleCloudSDK)
-* [Ativando o Google Cloud Build API](#AtivandooGoogleCloudBuildAPI)
-* [Fazendo deploy no Google Cloud](#FazendodeploynoGoogleCloud)
+* [Instalando o Hugo](#InstalandooHugo)
+* [Criando nosso blog](#Criandonossoblog)
+* [Instalando um tema](#Instalandoumtema)
+* [Preparando o repositório no GitHub](#PreparandoorepositrionoGitHub)
+* [Criando nosso primeiro artigo](#Criandonossoprimeiroartigo)
+* [Configurando o Netlify](#ConfigurandooNetlify)
+* [Configurando a interface administrativa](#Configurandoainterfaceadministrativa)
+* [Configurando a autenticação via Netlify](#ConfigurandoaautenticaoviaNetlify)
 * [Conclusão](#Concluso)
 
 <!-- vscode-markdown-toc-config
@@ -46,7 +48,7 @@ Neste artigo vamos aprender a utilizar o Hugo com GitHub, configurar o Netlify c
 	/vscode-markdown-toc-config -->
 <!-- /vscode-markdown-toc -->
 
-## Instalando o Hugo
+## <a name='InstalandooHugo'></a>Instalando o Hugo
 
 A instalação do Hugo varia por sistema operacional, o ideal é que você faça a instalação seguindo a documentação oficial da ferramenta neste link: 
 
@@ -59,7 +61,7 @@ Com o Hugo instalado, rode o comando **hugo version** para confirmar se deu tudo
 Hugo Static Site Generator v0.55.6/extended linux/amd64 BuildDate: 2019-05-18T11:36:21Z
 ```
 
-## Criando nosso blog
+## <a name='Criandonossoblog'></a>Criando nosso blog
 
 Agora vamos a criação da estrutura do nosso blog.
 
@@ -72,7 +74,7 @@ cd nome_do_blog
 
 Será necessário possuir um repositório Git para instalarmos temas em nosso blog, então execute o **git init**.
 
-## Instalando um tema
+## <a name='Instalandoumtema'></a>Instalando um tema
 
 Inicialmente não vamos criar um tema do zero. Vamos procurar um tema maneiro no site [themes.gohugo.io](https://themes.gohugo.io/) e procurar algum tema bem bonito.
 
@@ -100,7 +102,7 @@ echo 'theme = "nome_do_tema"' >> config.toml
 
 Execute o comando **hugo server -D** e veja a magia acontecer. 
 
-## Preparando o repositório no GitHub
+## <a name='PreparandoorepositrionoGitHub'></a>Preparando o repositório no GitHub
 
 Vamos criar um repositório no GitHub, mas crie em branco, sem README.md, .gitignore ou arquivo de licença.
 
@@ -122,7 +124,7 @@ git commit -m "Start site"
 
 Agora configure o repositório local apontando para este novo repositório remoto com os comandos informados na sessão “…or push an existing repository from the command line” na página do seu repositório no GitHub.
 
-## Criando nosso primeiro artigo
+## <a name='Criandonossoprimeiroartigo'></a>Criando nosso primeiro artigo
 
 Assim como nos outros geradores de sites estáticos, o Hugo possui um comando para a criação de posts. 
 
@@ -162,7 +164,7 @@ Faça um commit e envie para o GitHub.
 
 Com isso já podemos fazer nosso primeiro deploy no Netlify.
 
-## Configurando o Netlify
+## <a name='ConfigurandooNetlify'></a>Configurando o Netlify
 
 Acesse [netlify.com](https://netlify.com) e crie sua conta.
 
@@ -198,7 +200,7 @@ Inicialmente temos tudo pronto!
 
 O nosso artigo não está em produção. Isso porque nós não configuramos para que fosse publicado. Podemos fazer isso diretamente no arquivo do post ou na interface administrativa que vamos adicionar agora.
 
-## Configurando a interface administrativa
+## <a name='Configurandoainterfaceadministrativa'></a>Configurando a interface administrativa
 
 Precisamos criar os arquivos para a interface administrativa no diretório **static** no nosso projeto.
 
@@ -210,7 +212,7 @@ git submodule add https://github.com/woliveiras/netlify-cms-base.git static/admi
 
 Suba o conteúdo para o seu repositório no GitHub e vamos ao Netlify configurar o login.
 
-## Configurando a autenticação via Netlify
+## <a name='ConfigurandoaautenticaoviaNetlify'></a>Configurando a autenticação via Netlify
 
 Acesse a o Netlify e clique em **Identity**.
 
@@ -244,7 +246,7 @@ Clique em **Login with Netlify Identity** e pronto! Temos uma interface administ
 
 ![Tela administrativa]({{site.postsImagesPath}}netlify-cms-interface.png)
 
-## Conclusão
+## <a name='Concluso'></a>Conclusão
 
 Com esse tutorial, temos tudo o que precisamos para colocar um blog com Hugo, Netlify e Netlify-CMS em produção, agora você deve explorar a interface de gerenciamento dos artigos e o Netlify, pois temos coisas legais para aprender a utilizar por ali.
 

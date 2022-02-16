@@ -7,6 +7,18 @@ tags:
 description: Há muito tempo atrás nascia uma profissão, a profissão frontend. A história por trás disso é contada de diversas maneiras, então eu decidi reunir tudo isso em um local só. Vem comigo conhecer um pouco sobre essa profissão maravilhosa!
 socialImage: '/images/posts/ross-findon-mG28olYFgHI-unsplash.jpg'
 ---
+<!-- vscode-markdown-toc -->
+* [Uma janela para o mundo virtual](#Umajanelaparaomundovirtual)
+* [Como eram os primeiros sites](#Comoeramosprimeirossites)
+* [Mudanças trouxeram a profissão frontend](#Mudanastrouxeramaprofissofrontend)
+* [Evoluções não param de acontecer](#Evoluesnoparamdeacontecer)
+* [Outras referências](#Outrasreferncias)
+
+<!-- vscode-markdown-toc-config
+	numbering=false
+	autoSave=true
+	/vscode-markdown-toc-config -->
+<!-- /vscode-markdown-toc -->
 
 Há muito tempo atrás, em um mundo totalmente diferente do que vivemos hoje, as pessoas não tinham aparelhos de comunicação móveis que são verdadeiros computadores de bolso, muito menos conexões de rede tão velozes que conseguimos assistir vídeos de altíssima qualidade em televisões de alta resolução.
 
@@ -16,7 +28,7 @@ Pois é! Antigamente nossos ancestrais viviam sem isso.
 
 Você está aqui hoje porque quer conhecer a história da área de frontend e para entender isso vamos precisar dar um salto no tempo até a invenção da internet e como os computadores daquela época funcionavam. Depois podemos ir evoluindo no tempo e observar as tecnologias físicas e virtuais tomando patamares elevados em paralelo até chegar nos dias de hoje.
 
-## Uma janela para o mundo virtual
+## <a name='Umajanelaparaomundovirtual'></a>Uma janela para o mundo virtual
 
 Antes do Windows, os computadores eram máquinas difíceis de serem utilizadas. Tudo via linha de comando e com uso muito específico como fazer grandes cálculos rapidamente ou de-criptografar uma mensagem.
 
@@ -33,7 +45,7 @@ Aqueles computadores ainda não possuíam o acesso a internet, que seria criada 
 
 Mas, graças a um amigo meu chamado [Tim Berners-Lee](https://pt.wikipedia.org/wiki/Tim_Berners-Lee) a web nasceu e, junto aos recursos visuais que facilitaram o uso do computador, foi possível uma transformação gigantesca em todo o mundo através da tecnologia.
 
-## Como eram os primeiros sites
+## <a name='Comoeramosprimeirossites'></a>Como eram os primeiros sites
 
 Em 1990 Lee escreveu três tecnologias que seriam fundamentais para que possamos compartilhar informação pela rede mundial de computadores (que estava em construção): 
 
@@ -57,7 +69,7 @@ O Google também não era lá grande coisa, não que hoje seja um site tão robu
 
 Já dá para imaginar que, dentro da história do desenvolvimento web, muita coisa mudou até que a profissão frontend se tornasse o que é hoje e estamos passando por alguns pedacinhos disso. Existe mais história da internet neste artigo: [History of the Web](https://webfoundation.org/about/vision/history-of-the-web/?gclid=CjwKCAjw8-78BRA0EiwAFUw8LCeiE6Fam9PqRGbMBdkocnESnsIlb1frTwmKMmJ2PeBHYyXv9FV-tRoC-g8QAvD_BwE) no Web Foundation.
 
-## Mudanças trouxeram a profissão frontend
+## <a name='Mudanastrouxeramaprofissofrontend'></a>Mudanças trouxeram a profissão frontend
 
 Na época dos primeiros sites ainda não existia a diferença entre pessoa desenvolvedora backend e frontend. Basicamente existia alguém que sabia uma linguagem de scripts CGI que rodava no servidor e criava as páginas. 
 
@@ -89,7 +101,7 @@ Agora a preocupação da pessoa desenvolvedora frontend se tornou construir apli
 
 A diferença entre backend, mobile e frontend eu já tratei em outro artigo que você pode conferir: [a diferença entre frontend, backend e mobile](/posts/a-diferen%C3%A7a-entre-frontend-backend-e-mobile/).
 
-## Evoluções não param de acontecer
+## <a name='Evoluesnoparamdeacontecer'></a>Evoluções não param de acontecer
 
 Assim como a front e backend, nasceu o cargo fullstack. Uma pessoa que continua trabalhando em toda a pilha de desenvolvimento de softwares web ou sites. Profissão que, inclusive, é muito criticada por algumas pessoas que afirmam que é impossível dominar **tudo** o que o mercado de tecnologia produz e precisamos para criar boas aplicações web.
 
@@ -110,7 +122,7 @@ Qual será que é o futuro da nossa profissão?
 Envie sua opinião pro meu Twitter, [@1ilhas](https://twitter.com/1ilhas), e vamos bater um papo. 
 
 
-## Outras referências
+## <a name='Outrasreferncias'></a>Outras referências
 
 - [Profissional Webmaster](https://pt.wikipedia.org/wiki/Webmaster)
 - [Web Design](https://pt.wikipedia.org/wiki/Web_design)

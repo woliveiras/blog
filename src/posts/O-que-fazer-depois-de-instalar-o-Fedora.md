@@ -18,7 +18,36 @@ Nesse post vou compartilhar algumas dicas do que fazer depois de instalar o Fedo
 
 Na primeira parte temos configurações simples para todos os tipos de usuários e na segunda parte uma configuração para desenvolvedores. Uma sessão não depende da outra, então fique a vontade para pular para a segunda parte ou ficar somente na primeira.
 
-## Por que instalar o Fedora
+<!-- vscode-markdown-toc -->
+* [Por que instalar o Fedora](#PorqueinstalaroFedora)
+* [O que fazer depois de instalar o Fedora](#OquefazerdepoisdeinstalaroFedora)
+	* [Atualizar o sistema](#Atualizarosistema)
+	* [Instale as ferramentas de desenvolvedor](#Instaleasferramentasdedesenvolvedor)
+	* [Configure o hostname](#Configureohostname)
+	* [Ative o repositório do RPM Fusion](#AtiveorepositriodoRPMFusion)
+	* [Instale o Gnome Tweak](#InstaleoGnomeTweak)
+	* [Instale o VLC](#InstaleoVLC)
+	* [Instale os plugins para Java](#InstaleospluginsparaJava)
+	* [Instale o Wine](#InstaleoWine)
+	* [Instale o Gimp](#InstaleoGimp)
+	* [Compatibilidade com .rar e .zip](#Compatibilidadecom.rare.zip)
+* [Configurando o Fedora para Desenvolvedores](#ConfigurandooFedoraparaDesenvolvedores)
+	* [Instale o VIM](#InstaleoVIM)
+	* [Instalando e configurando um ambiente Ruby no Fedora](#InstalandoeconfigurandoumambienteRubynoFedora)
+	* [Instalando e configurando um ambiente Nodejs no Fedora](#InstalandoeconfigurandoumambienteNodejsnoFedora)
+	* [Instalando o Docker](#InstalandooDocker)
+	* [Instalando o Sulimetext, Android Studio, IntelliJ IDEA, Java da Oracle e muito mais](#InstalandooSulimetextAndroidStudioIntelliJIDEAJavadaOracleemuitomais)
+	* [Instalando o Terminator](#InstalandooTerminator)
+	* [Instalando o Git Cola](#InstalandooGitCola)
+* [Conclusão](#Concluso)
+
+<!-- vscode-markdown-toc-config
+	numbering=false
+	autoSave=true
+	/vscode-markdown-toc-config -->
+<!-- /vscode-markdown-toc -->
+
+## <a name='PorqueinstalaroFedora'></a>Por que instalar o Fedora
 
 Basicamente fui para o Fedora por ser uma distro muito recomendada por outros desenvolvedores.
 
@@ -32,9 +61,9 @@ Não tem muita diferença entre Fedora e Ubuntu, portanto vai ser preciso uma pe
 
 Eu estou fazendo um teste porque o Ubuntu estava me dando um pouco de dor de cabeça que eu já não gosto mais de ter como era quando eu comecei a usar Linux como meu Sistema Operacional padrão.
 
-## O que fazer depois de instalar o Fedora
+## <a name='OquefazerdepoisdeinstalaroFedora'></a>O que fazer depois de instalar o Fedora
 
-### Atualizar o sistema
+### <a name='Atualizarosistema'></a>Atualizar o sistema
 
 É meio lógico, mas eu mesmo esqueci de fazer isso quando instalei o Fedora e logo tive problemas de falta de pacotes. Pacotes esses que não me atrapalharíam se eu tivesse atualizado ele logo de primeira. Portanto rode o comando:
 
@@ -44,7 +73,7 @@ dnf update
 
 Para atualizar o Fedora.
 
-### Instale as ferramentas de desenvolvedor
+### <a name='Instaleasferramentasdedesenvolvedor'></a>Instale as ferramentas de desenvolvedor
 
 Mesmo você não sendo desenvolvedor, vai precisar dessas ferramentas instaladas no seu sistema para compilar certos pacotes.
 
@@ -56,7 +85,7 @@ sudo dnf groupinstall 'Development Tools' && dnf groupinstall 'C Development Too
 
 Para instalar essas dependências.
 
-### Configure o hostname
+### <a name='Configureohostname'></a>Configure o hostname
 
 Se você não configurou isso durante a instalação do Fedora, configure o hostname com os seguintes comandos: 
 
@@ -83,7 +112,7 @@ sudo hostnamectl set-hostname war-machine
 
 
 
-### Ative o repositório do RPM Fusion
+### <a name='AtiveorepositriodoRPMFusion'></a>Ative o repositório do RPM Fusion
 
 Os repositórios RPM Fusion podem ser úteis pois é através dessa lista que você vai conseguir instalar codecs **nonfree** no seu Fedora. Você também tem uma lista de pacotes **free** através do RPM Fusion.
 
@@ -99,7 +128,7 @@ rpm -ivh https://download1.rpmfusion.org/free/fedora/rpmfusion-free-release-25.n
 
 **Isso se você estiver utilizando a versão 25 do Fedora.**
 
-### Instale o Gnome Tweak
+### <a name='InstaleoGnomeTweak'></a>Instale o Gnome Tweak
 
 Existem diversas configurações muito úteis para melhorar ainda mais sua experiência utilizando o Fedora e você pode conseguir isso de forma mais facilitada utilizando o Gnome Tweak.
 
@@ -123,7 +152,7 @@ Coisas que você pode ativar no Gnome Tweak para que o Fedora fique mais amigáv
 
 Dentre outras.
 
-### Instale o VLC
+### <a name='InstaleoVLC'></a>Instale o VLC
 
 Se, assim como eu, você gosta de ver um filminho .mkv ou .avi, você vai precisar ter um reprodutor de qualidade.
 
@@ -135,7 +164,7 @@ Basta rodar o comando:
 sudo dnf -y install vlc
 ```
 
-### Instale os plugins para Java
+### <a name='InstaleospluginsparaJava'></a>Instale os plugins para Java
 
 Alguns sites precisam do plugin do Java para funcionar. Utilize o comando:
 
@@ -145,7 +174,7 @@ sudo dnf -y install java-openjdk icedtea-web
 
 Para instalar a versão Open Source e mais abaixo eu deixei explicado como instalar a versão da Oracle.
 
-### Instale o Wine
+### <a name='InstaleoWine'></a>Instale o Wine
 
 Se você tentar utilizar programas do Windows em uma distro Linux, não vai conseguir. A maneira que temos para tentar rodar esses programas é utilizando o Wine.
 
@@ -157,7 +186,7 @@ sudo dnf -y install wine
 
 Para instalar o Wine.
 
-### Instale o Gimp
+### <a name='InstaleoGimp'></a>Instale o Gimp
 
 Caso você goste de editar imagens, o Gimp pode te ajudar.
 
@@ -167,7 +196,7 @@ Instale rodando o comando:
 sudo dnf -y install gimp
 ```
 
-### Compatibilidade com .rar e .zip
+### <a name='Compatibilidadecom.rare.zip'></a>Compatibilidade com .rar e .zip
 
 Para conseguir descompactar arquivos .rar e .zip no seu Fedora será necessário instalar alguns pacotes.
 
@@ -179,11 +208,11 @@ sudo dnf -y install unzip p7zip p7zip-plugins unrar
 
 Para instalar os utilitários.
 
-## Configurando o Fedora para Desenvolvedores
+## <a name='ConfigurandooFedoraparaDesenvolvedores'></a>Configurando o Fedora para Desenvolvedores
 
 Agora a parte de configuração do Fedora para Desenvolvedores de Softaware/Web.
 
-### Instale o VIM
+### <a name='InstaleoVIM'></a>Instale o VIM
 
 O VIM é um ótimo [editor de textos](/posts/Comecando-com-o-editor-de-texto-VIM/), instale-o utilizando o comando:
 
@@ -191,7 +220,7 @@ O VIM é um ótimo [editor de textos](/posts/Comecando-com-o-editor-de-texto-VIM
 sudo dnf -y install vim
 ```
 
-### Instalando e configurando um ambiente Ruby no Fedora
+### <a name='InstalandoeconfigurandoumambienteRubynoFedora'></a>Instalando e configurando um ambiente Ruby no Fedora
 
 Eu gosto de utilizar o RVM para configurar o Ruby na minha máquina.
 
@@ -199,7 +228,7 @@ Como o processo de instalação pode mudar é melhor seguir [esse link](https://
 
 São alguns comandos simples e pronto.
 
-### Instalando e configurando um ambiente Nodejs no Fedora
+### <a name='InstalandoeconfigurandoumambienteNodejsnoFedora'></a>Instalando e configurando um ambiente Nodejs no Fedora
 
 Para a instalação do Nodejs eu também gosto de utilizar um gerenciador de versões chamado NVM.
 
@@ -207,7 +236,7 @@ Utilize [esse link](https://github.com/creationix/nvm) para instalar o NVM no Fe
 
 Se quiser de uma olhada [nesse post](/posts/utilizando-versoes-antigas-do-nodejs/) para saber mais.
 
-### Instalando o Docker
+### <a name='InstalandooDocker'></a>Instalando o Docker
 
 Para instalar o Docker basta rodar o comando:
 
@@ -215,7 +244,7 @@ Para instalar o Docker basta rodar o comando:
 sudo dnf -y install docker docker-compose
 ```
 
-### Instalando o Sulimetext, Android Studio, IntelliJ IDEA, Java da Oracle e muito mais
+### <a name='InstalandooSulimetextAndroidStudioIntelliJIDEAJavadaOracleemuitomais'></a>Instalando o Sulimetext, Android Studio, IntelliJ IDEA, Java da Oracle e muito mais
 
 O Fedora tem uma excelente ferramenta feita pela comunidade chamada Fedy.
 
@@ -227,7 +256,7 @@ De uma pesquisada em tudo o que tem lá e vá instalando conforme sua necessidad
 
 ![Fedy](https://s30.postimg.org/nlfodqoa9/fedy.png)
 
-### Instalando o Terminator
+### <a name='InstalandooTerminator'></a>Instalando o Terminator
 
 Eu gosto de dividir a tela do Terminal para facilitar minha vida com Git e servidor NodeJS/Ruby/Jekyll rodando ao mesmo tempo. No Linux eu utilizo o Terminator.
 
@@ -239,7 +268,7 @@ sudo dnf -y install terminator
 
 ![Terminator](https://s27.postimg.org/dn8ldw9ub/terminator.png)
 
-### Instalando o Git Cola
+### <a name='InstalandooGitCola'></a>Instalando o Git Cola
 
 Eu utilizo o Git Cola para acompanhar meus diffs e fazer os commits com Git.
 
@@ -255,7 +284,7 @@ Para utilizar o Git Cola, basta entrar em um diretório que seja um repositório
 
 ![Git cola](https://s23.postimg.org/x08s45g2j/Screenshot_from_2017_02_10_00_13_22.png)
 
-## Conclusão
+## <a name='Concluso'></a>Conclusão
 
 Estou gostando muito do Fedora. Até agora nenhum Bug, nem de interface, nem de outros pacotes ou crashes do sistema.
 

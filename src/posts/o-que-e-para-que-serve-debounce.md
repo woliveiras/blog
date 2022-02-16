@@ -33,7 +33,19 @@ erros de inserção dos dados: por conta da quantidade de requisições, se o si
 
 E isso só pensando bem por cima da quantidade de desafios que podemos enfrentar caso sigamos este fluxo. Para evitar isso, utilizamos uma técnica chamada debounce.
 
-Entendendo debounce
+
+<!-- vscode-markdown-toc -->
+* [Entendendo debounce](#Entendendodebounce)
+* [Implementando o debounce em JavaScript puro](#ImplementandoodebounceemJavaScriptpuro)
+* [Conclusão](#Concluso)
+
+<!-- vscode-markdown-toc-config
+	numbering=false
+	autoSave=true
+	/vscode-markdown-toc-config -->
+<!-- /vscode-markdown-toc -->
+
+## <a name='Entendendodebounce'></a>Entendendo debounce
 
 Debounce não é algo novo, utilizamos esta técnica desde a época do nosso querido jQuery (e antes). O processo consiste em evitar que uma função seja chamada muitas vezes seguidas.
 
@@ -49,7 +61,7 @@ Pensando em nosso autosave, quando o usuário está digitando, não vamos execut
 
 Vamos a implementação.
 
-Implementando o debounce em JavaScript puro
+## <a name='ImplementandoodebounceemJavaScriptpuro'></a>Implementando o debounce em JavaScript puro
 
 Pensando que a nossa função de debounce precisa disparar um timer e depois executar uma função, como no caso do nosso autosave, podemos implementar ela com o simples código abaixo:
 
@@ -78,5 +90,13 @@ A nossa atenção fica voltada para  alinha:
 contentElm.addEventListener("input", debounce(autoSave, 500))
 
 Onde estamos colocando um timeout de 500ms quando o usuário digitar no textarea.
+
+## <a name='Concluso'></a>Conclusão
+
+Utilizar debounce pode salvar o custo de infraestrutura, pois alto consumo de rede e ficar batendo no servidor o tempo todo não é algo muito legal, além do processamento e, claro, a interface do usuário. 
+
+Trabalhando com web, precisamos tomar muito cuidado com performance no navegador, pois o frontend tem um peso muito grande na experiência do usuário e isso pode impactar tanto o seu produto, empresa, quanto a vida de uma pessoa que não consegue realizar uma ação importante no seu app.
+
+Espero que tenha entendido e gostado do conteúdo. Se curtiu, compartilha nas redes sociais. 
 
 Photo by <a href="https://unsplash.com/@alinnnaaaa?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Alina Grubnyak</a> on <a href="https://unsplash.com/s/photos/network?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>

@@ -15,7 +15,20 @@ description: No dia a dia utilizamos servidores para armazenar nosso repositóri
 ---
 Nos artigos anteriores aprendemos a usar o [terminal](/posts/introdução-ao-terminal/) e [versionamento de código com Git](/posts/introdução-a-versionamento-de-código-e-conhecendo-o-git/), agora precisamos entender como funcionam e como utilizar repositórios remotos.
 
-## O que são repositórios remotos
+<!-- vscode-markdown-toc -->
+* [O que são repositórios remotos](#Oquesorepositriosremotos)
+* [Criando um repositório remoto e baixando ele](#Criandoumrepositrioremotoebaixandoele)
+* [Enviando e recebendo alterações](#Enviandoerecebendoalteraes)
+* [Adicionando um servidor a um repositório local](#Adicionandoumservidoraumrepositriolocal)
+* [Conclusão](#Concluso)
+
+<!-- vscode-markdown-toc-config
+	numbering=false
+	autoSave=true
+	/vscode-markdown-toc-config -->
+<!-- /vscode-markdown-toc -->
+
+## <a name='Oquesorepositriosremotos'></a>O que são repositórios remotos
 
 Como vimos anteriormente, criar um repositório localmente não torna possível que outras pessoas contribuam em nosso projeto. Para que seja possível que outras pessoas trabalhem no mesmo projeto, precisamos hospedar nosso repositório em uma hospedagem de repositórios Git.
 
@@ -25,7 +38,7 @@ O fluxo de trabalho é: nós criamos o repositório em nossa máquina e enviamos
 
 Quando enviamos ou baixamos utilizando o Git, estamos na realidade enviando o histórico de alterações dos arquivos. Ao utilizar os comandos de enviar e receber, vamos perceber que o que está sendo baixado são os commits armazenados pelo Git.
 
-## Criando um repositório remoto e baixando ele
+## <a name='Criandoumrepositrioremotoebaixandoele'></a>Criando um repositório remoto e baixando ele
 
 Para acompanhar este conteúdo será necessário criar sua conta no GitHub, faça isso e depois venha continuar o tutorial.
 
@@ -79,7 +92,7 @@ Date:   Wed Mar 27 18:28:48 2019 -0300
 (END)
 ```
 
-## Enviando e recebendo alterações
+## <a name='Enviandoerecebendoalteraes'></a>Enviando e recebendo alterações
 
 Vamos imaginar que estamos trabalhando em equipe e alguém acabou de alterar algo no repositório e precisamos baixar essas alterações.
 
@@ -205,7 +218,7 @@ Ele informa que nosso commit foi enviado para a branch master. Vamos conferir is
 
 ![Nova linha aparecendo no GitHub]({{site.postsImagesPath}}nova-linha-readme.png)
 
-## Adicionando um servidor a um repositório local
+## <a name='Adicionandoumservidoraumrepositriolocal'></a>Adicionando um servidor a um repositório local
 
 Aprendemos baixar um repositório que criamos diretamente em um servidor, porém, no artigo de [introdução ao git](/posts/introdução-a-versionamento-de-código-e-conhecendo-o-git/) aprendemos a criar o repositório localmente e não enviamos para nenhum lugar. Podemos agora criar um repositório no GitHub e enviar nosso histórico para lá.
 
@@ -285,7 +298,7 @@ E pronto! Agora temos o nosso repositório configurado, nossa branch existe loca
 
 Agora, toda vez que precisarmos enviar nossas alterações para o servidor remoto, basta rodar um git push.
 
-## Conclusão
+## <a name='Concluso'></a>Conclusão
 
 Aprendemos a criar repositórios remotos e baixar eles, criar repositórios locais e enviar para o GitHub e mais alguns comandos do Git, como git remote, git pull e push. Com o conteúdo até aqui temos tudo o que precisamos saber para trabalhar via terminal e com o Git + GitHub em nosso dia a dia e na continuação da nossa série de fullstack do zero.
 

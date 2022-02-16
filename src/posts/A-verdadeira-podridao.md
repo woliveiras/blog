@@ -6,6 +6,19 @@ tags:
     - pensamentos
 description: Um desabafo sobre comunidades, eventos e outras iniciativas
 ---
+<!-- vscode-markdown-toc -->
+* [Código de conduta é uma farsa](#Cdigodecondutaumafarsa)
+* [Coleguismo, camaradagem ou a brotheragem](#Coleguismocamaradagemouabrotheragem)
+* [Elitismo](#Elitismo)
+* [Panelinhas](#Panelinhas)
+* [Protagonismo e empoderamento de mentirinha](#Protagonismoeempoderamentodementirinha)
+* [Conclusão](#Concluso)
+
+<!-- vscode-markdown-toc-config
+	numbering=false
+	autoSave=true
+	/vscode-markdown-toc-config -->
+<!-- /vscode-markdown-toc -->
 
 Comunidades de programação são meios muito legais de aprendermos algo novo (relacionado a programação ou não), conhecermos pessoas legais que podem nos ajudar a não desistir dos nossos sonhos, fora a promoção do compartilhamento de conhecimento para todas as pessoas de maneira gratuita, promovendo a inclusão social. Isso tudo é muito lindo pra mim.
 
@@ -25,7 +38,7 @@ Também quero que você saiba que não está só na constatação de alguns prob
 
 Meu objetivo com esse artigo é alertar as pessoas de que existem problemas nas comunidades, eventos e afins, e algumas iniciativas não são ambientes seguros de verdade, inclusivos, acessíveis e muito menos pró diversidade como são vendidas nas redes sociais.
 
-## Código de conduta é uma farsa
+## <a name='Cdigodecondutaumafarsa'></a>Código de conduta é uma farsa
 
 As pessoas usam o código de conduta como uma maneira de dizer que sua comunidade é inclusiva.Só isso. Elas não se interessam em fazer o código de conduta realmente valer. Acredito que alguns líderes de comunidade só fizeram o fork de outro código de conduta, mas nunca nem leram o documento.
 
@@ -35,7 +48,7 @@ As pessoas são constantemente agredidas por conta do preconceito com identidade
 
 Quando alguém reclama de algo, questiona sobre a postura dessas pessoas por causa de algum acontecimento que não condiz com o que elas vivem falando por aí, elas dizem que quem reclamou só está querendo **lacrar** nas redes sociais.
 
-## Coleguismo, camaradagem ou a brotheragem
+## <a name='Coleguismocamaradagemouabrotheragem'></a>Coleguismo, camaradagem ou a brotheragem
 
 Quando alguém agride outra pessoa, verbalmente ou não, mas é amigo(a) de algum(a) organizador(a) de evento, moderador(a) de comunidade ou algo do tipo, essa pessoa não será punida.
 
@@ -45,7 +58,7 @@ O mesmo se encaixa no código de conduta. Ele não se aplica para amigos dos lí
 
 Quando um amigo ou amiga da liderança faz algo que afeta alguém diretamente, o que acontece é toda uma análise de como a culpa foi da vítima e não do agressor, uma passada de pano e jogam a sujeira pra deixado do tapete.
 
-## Elitismo
+## <a name='Elitismo'></a>Elitismo
 
 As pessoas não se colocam no lugar de gente de baixa renda. Muito pelo contrário. Elas agem como se todo mundo tivesse tido a mesma oportunidade de aprender programação no computador de última geração da época dos seus 10 anos, que seus pais compraram por ela tirar nota alta na escola particular.
 
@@ -55,13 +68,13 @@ Encontros presenciais até horários impraticáveis porque as pessoas demoram 2 
 
 As pessoas, que estão lá na frente palestrando, acham que todo mundo tem um Mac em casa e fazem exemplos de terminal rodando Homebrew e pouco se importam em colocar o exemplo também para Windows (plataforma de usuário final mais utilizada em PCs no mundo).
 
-## Panelinhas
+## <a name='Panelinhas'></a>Panelinhas
 
 As panelinhas, termo popular, são os grupos onde tem sempre as mesmas pessoas fazendo algo. Nos eventos das comunidades acontece a mesma coisa. Temos sempre as mesmas pessoas palestrando e não é por falta de vontade de algumas pessoas não. E muito menos por falta de capacidade técnica.
 
 Temos pessoas com um conhecimento super avançado e que estão na cadeira por conta de não serem amigos íntimos dos organizadores dos meetups/eventos.
 
-## Protagonismo e empoderamento de mentirinha
+## <a name='Protagonismoeempoderamentodementirinha'></a>Protagonismo e empoderamento de mentirinha
 
 Está na moda falar que é pró diversidade e mulheres em TI, mas a realidade é bem mais podre. Temos homens tomando a frente de iniciativas femininas, como se as mulheres não tivessem capacidade de tocar isso, e o pior é que quem ganha os méritos pela iniciativa são os homens e não as mulheres, que muitas vezes fizeram muito mais que eles.
 
@@ -73,7 +86,7 @@ As mulheres não precisam ser coadjuvantes dos seus projetos, elas precisam de a
 
 Nem se fala quando é a questão de pessoas negras, comunidade LGBT e mais… Essas pessoas só são chamadas para os projetos para bater a cota da diversidade, pois não conseguem ter poder nenhum de escolha ou tomada de decisão dentro de alguns grupos. - muito menos de denúncia dos casos de preconceito e assédio.
 
-## Conclusão
+## <a name='Concluso'></a>Conclusão
 
 Este texto é um desabafo. Eu estava com esses pensamentos entalados na garganta a algum tempo e, com os recentes acontecimentos e ataques, eu não aguentei mais segurar.
 

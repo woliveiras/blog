@@ -9,11 +9,26 @@ tags:
     - curso-fullstack
 description: Criando CLIs, programas de linha de comando com Node.js. Como receber entradas, processar e devolver saídas para o usuário.
 ---
+
+<!-- vscode-markdown-toc -->
+* [Como funciona um programa de linha de comando](#Comofuncionaumprogramadelinhadecomando)
+* [Criando a estrutura básica da nossa CLI](#CriandoaestruturabsicadanossaCLI)
+* [Importando módulos Node.js](#ImportandomdulosNode.js)
+* [Recebendo opções do usuário](#Recebendoopesdousurio)
+* [Disputando com o computador](#Disputandocomocomputador)
+* [Conclusão](#Concluso)
+
+<!-- vscode-markdown-toc-config
+	numbering=false
+	autoSave=true
+	/vscode-markdown-toc-config -->
+<!-- /vscode-markdown-toc -->
+
 Programas de linha de comando são extremamente comuns na nossa área. Aprendemos no artigo de [Introdução ao Terminal](/posts/introdução-ao-terminal/) que os comandos que rodamos no terminal são softwares instalados em nosso sistema operacional. Como o comando cd, ls, mkdir, etc.
 
 Neste artigo vamos aprender a criar nosso primeiro programa de linha de comando utilizando Node.js e tudo o que aprendemos até aqui.
 
-## Como funciona um programa de linha de comando
+## <a name='Comofuncionaumprogramadelinhadecomando'></a>Como funciona um programa de linha de comando
 
 Assim como qualquer software programas de linha de comando executam ações baseado em entradas de dados ou ordens do usuário. Nos softwares visuais temos botões, nos CLI (command line interface, ou interface de linha de comando) nós temos palavras reservadas que o usuário envia para o programa executar alguma ação.
 
@@ -41,7 +56,7 @@ drwxr-xr-x   6 woliveiras  wheel   192 Jun  1 18:07 apps_js
 
 Aparecem todos os arquivos e pastas, incluindo diretórios ocultos, como o diretório de controle do Git, o .git. Internamente o comando ls foi chamado passando como argumento o **-la**. Se você não sabe o que é um argumento ou Git, confira estes artigos: [trabalhando com funções](/posts/trabalhando-com-funções-em-javascript/), [trabalhando com versionamento de código](/posts/introdução-a-versionamento-de-código-e-conhecendo-o-git/).
 
-## Criando a estrutura básica da nossa CLI
+## <a name='CriandoaestruturabsicadanossaCLI'></a>Criando a estrutura básica da nossa CLI
 
 Para criar um jogo de Jokenpô via linha de comando, precisaremos receber entradas do usuário, processar os dados e devolver uma saída de dados.
 
@@ -84,7 +99,7 @@ Wrote to /opt/loggi/workspace/jokenpo/package.json:
 
 Vamos criar um arquivo **index.js** que será onde concentramos nossos trabalhos. Pode ser criado via linha de comando ou via Visual Studio Code (ou o seu editor favorito).
 
-## Importando módulos Node.js
+## <a name='ImportandomdulosNode.js'></a>Importando módulos Node.js
 
 Durante o desenvolvimento de software, normalmente nós utilizamos código de outras pessoas em nossas aplicações. Isso porque não precisamos reescrever a roda toda vez que vamos criar um programa. Existem coisas prontas e boas que basta reutilizar. Fora código de terceiros, ainda podemos utilizar módulos nativos da própria plataforma na qual desenvolvemos, neste caso o Node.
 
@@ -148,7 +163,7 @@ Pronto! Com isso temos nosso módulo readline importado, a instância da interfa
 
 Podemos agora partir para a criação do nosso jokenpô.
 
-## Recebendo opções do usuário
+## <a name='Recebendoopesdousurio'></a>Recebendo opções do usuário
 
 No trecho `rl.question` estamos enviando uma pergunta ao usuário, que envia uma resposta e ela fica disponível para utilizarmos dentro da função que precede a pergunta. Estamos utilizando uma função anônima (`() => {}`) logo depois da vírgula onde colocamos nossa pergunta, é dentro dessa função que fica disponível a entrada do usuário.
 
@@ -174,7 +189,7 @@ rl.question('Qual sua jogada, pedra, papel ou tesoura? ', resposta => {
 
 Agora precisamos receber uma escolha do computador.
 
-## Disputando com o computador
+## <a name='Disputandocomocomputador'></a>Disputando com o computador
 
 O computador não vai nos enviar uma entrada de dados, nós precisamos trabalhar isso através do JavaScript. Na maioria das linguagens de programação temos uma função ou método chamado random, que gera um número aleatório. Em JavaScript isso é um método do módulo **Math**, um módulo com funções matemáticas.
 
@@ -332,7 +347,7 @@ Qual sua jogada, pedra, papel ou tesoura? pedra
 Você perdeu!
 ```
 
-## Conclusão
+## <a name='Concluso'></a>Conclusão
 
 Aprendemos aqui o que é uma CLI, um programa de linha de comando, como importar módulos Node e finalmente criamos um Jokenpô bem simples. 
 

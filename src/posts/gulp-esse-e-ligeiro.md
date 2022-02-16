@@ -8,23 +8,36 @@ tags:
 description: Começando com Gulpjs
 ---
 
+<!-- vscode-markdown-toc -->
+* [Automatização](#Automatizao)
+* [Então pra que usar esse tal de Gulp se já tem o Grunt?](#EntopraqueusaressetaldeGulpsejtemoGrunt)
+* [Instalação](#Instalao)
+* [Utilizando](#Utilizando)
+* [Mas não pare por aqui, vale a pena dar uma conferida nessa outra dica](#Masnopareporaquivaleapenadarumaconferidanessaoutradica)
+
+<!-- vscode-markdown-toc-config
+	numbering=false
+	autoSave=true
+	/vscode-markdown-toc-config -->
+<!-- /vscode-markdown-toc -->
+
 Você é preguiçoso que eu sei! Programadores são preguiçosos... - Nem vem com Mimimi, por que você é sim - É por ser preguiçoso que o programador cria soluções que automatizam as tarefas, algo para agilizar as coisas chatas e sobrar tempo para as coisas legais - Como brincar com uma [bolinha de papel](https://www.youtube.com/watch?v=wn0OlzoD0Xs "Bolinha de papel"). E foi pra automatizar tarefas que surgiu o [Grunt](https://gruntjs.com/ "Grunt").
 
 Grunt? Não era Gulp?
 
-## Automatização
+## <a name='Automatizao'></a>Automatização
 
 Quem trabalha com infra ([Como eu trabalhava](https://woliveiras.com.br/voce-faz-o-que-voce-gosta/ "Você faz o que você gosta?")) deve saber que da pra automatizar muita coisa com Scripts, tanto com Shell Script quanto com Powershell - Famosos arquivos .sh ou .bat - E hoje isso está acontecendo, também, no Front End.
 
 Algumas tarefas são essenciais para deixar sua aplicação melhor, como minificar o JS e CSS, fazer testes e verificar erros no código por exemplo e foi pra facilitar nossa vida que surgiu o Grunt. Com ele nós evitamos aqueles trampos repetitivos. É tipo o Rake no Ruby.
 
-## Então pra que usar esse tal de Gulp se já tem o Grunt?
+## <a name='EntopraqueusaressetaldeGulpsejtemoGrunt'></a>Então pra que usar esse tal de Gulp se já tem o Grunt?
 
 Por que o Gulp é mais rápido e mais fácil de ser configurado. O Grunt é da hora, porém o gulpfile, que é equivalente ao gruntfile, é mais fácil se você já conhece a sintaxe do Nodejs, por exemplo, vai entender o gulpfile com muito mais facilidade e o Gulp tem uma performance melhor.
 
 
 
-## Instalação
+## <a name='Instalao'></a>Instalação
 
 Facinho! Se você tem o [Node.js instalado](https://woliveiras.com.br/node-js-instalacao/ "Um pouquinho de Node.js (Intro e Instalação)"), então execute o comando:
 
@@ -44,7 +57,7 @@ Para facilitar, na hora em que for instalar plug-ins no repositório do seu proj
 npm install gulp gulp-jshint gulp-uglify
 ```
 
-## Utilizando
+## <a name='Utilizando'></a>Utilizando
 
 Você deve criar o gulpfile dentro do repositório do seu projeto, parecido como bower.json, porém você irá salvar o arquivo com a extensão **.js**. Olha só um gulpfile basicão:
 
@@ -64,7 +77,7 @@ Com o gulpfile.js dentro do repositório é só rodar o comando e as tarefas qu
 
 Se você quiser rodar uma task específica no lugar de rodar tudo o que estiver no arquivo basta rodar gulp e o nome da task.
 
-## Mas não pare por aqui, vale a pena dar uma conferida nessa outra dica
+## <a name='Masnopareporaquivaleapenadarumaconferidanessaoutradica'></a>Mas não pare por aqui, vale a pena dar uma conferida nessa outra dica
 
 O Gulp possui algumas tarefas básicas que precisamos entender, e elas estão [aqui](https://github.com/gulpjs/gulp/blob/master/docs/API.md).
 

@@ -16,9 +16,7 @@ Então pressione **Ctrl + Shift +P** e digite **Install**.
 Vai aparecer uma lista com algumas opções, selecione **Package Control: Install Package**.
 Agora é só digitar o nome do plugin, localizar na lista e selecionar ele.
 
-
-
-## Alguns plugins maneiros
+## <a name='Algunspluginsmaneiros'></a>Alguns plugins maneiros
 
 **Emmet** - É um plugin que vai ajudar na codificação de HTML e CSS através de algumas expressões. Para conhecer todas as expressões é necessário dar uma olhada no [site do Plugin](https://emmet.io/ "Emmet").
 

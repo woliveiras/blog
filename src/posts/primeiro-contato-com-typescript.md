@@ -16,7 +16,18 @@ Além do mais, eu nunca gostei de ter que ficar escrevendo qual o tipo do dado q
 
 Em primeiro lugar vou explicar o porquê busquei aprender a linguagem e depois vamos aprofundar no que estou sentindo quanto aos meus estudos.
 
-## Ferramentas de trabalho para TypeScript
+<!-- vscode-markdown-toc -->
+* [Ferramentas de trabalho para TypeScript](#FerramentasdetrabalhoparaTypeScript)
+* [Meu primeiro contato com TypeScript](#MeuprimeirocontatocomTypeScript)
+* [Conclusão](#Concluso)
+
+<!-- vscode-markdown-toc-config
+	numbering=false
+	autoSave=true
+	/vscode-markdown-toc-config -->
+<!-- /vscode-markdown-toc -->
+
+## <a name='FerramentasdetrabalhoparaTypeScript'></a>Ferramentas de trabalho para TypeScript
 
 Como qualquer linguagem, precisamos de ferramentas para trabalhar com ela: um editor de textos ou IDE, o compilador ou interpretador da linguagem e uma plataforma de execução do código final.
 
@@ -32,7 +43,7 @@ Para rodar o código gerado pelo TSC, vamos utilizar o próprio Node.js ou o nav
 
 No meu caso, como estou aprendendo a linguagem, fui pelo caminho mais rápido, que é executar diretamente no Node.js (depois de compilar o código .ts para .js, basta rodar o `node nome_do_arquivo.js`).
 
-## Meu primeiro contato com TypeScript
+## <a name='MeuprimeirocontatocomTypeScript'></a>Meu primeiro contato com TypeScript
 
 O meu primeiro contato com TypeScript foi através do próprio Playground da ferramenta no site oficial: [typescriptlang.org/play](https://www.typescriptlang.org/play). Ali, lendo código fonte, uma pessoa experiente consegue aprender bastante coisa e tirar várias conclusões sobre a sintaxe ou o que mais quiser ver.
 
@@ -71,7 +82,7 @@ const g = [3]
 let h = null
 ```
 
-## Conclusão
+## <a name='Concluso'></a>Conclusão
 
 Claro que eu ainda não tenho todas as respostas para as questões que eu busco responder sobre escalabilidade no design de código, mas o TypeScript parece ser uma ferramenta que vai me ajudar bastante em minha caminhada e é por isso que estou investindo tempo estudando a linguagem.
 

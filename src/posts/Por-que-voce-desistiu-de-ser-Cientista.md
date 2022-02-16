@@ -12,7 +12,7 @@ Ao crescer, as pessoas abandonam a profissão que nasce com elas, a profissão d
 
 Deve existir uma razão psicológica, sociológica, filosófica -  não sei -, mas nesse momento quero somente deixar minha reflexão pra você, que **desistiu de ser cientista** e não sabe mais experimentar as coisas e tentar te mostrar como ser um Desenvolvedor de Software melhor que a média.
 
-## O que faz um cientista?
+## <a name='Oquefazumcientista'></a>O que faz um cientista?
 
 Acho que esse primeiro trecho da definição da [Wikipedia](https://pt.wikipedia.org/wiki/Cientista), para o termo, é a melhor que eu poderia utilizar para explicar meu ponto de vista:
 
@@ -30,7 +30,24 @@ Eu tenho minha opinião sobre quem deixa de ser cientista:
 
 **Essa pessoa deixou morrer a criança interior**.
 
-## Quando é que deixamos de ser cientistas?
+<!-- vscode-markdown-toc -->
+* [O que faz um cientista?](#Oquefazumcientista)
+* [Quando é que deixamos de ser cientistas?](#Quandoquedeixamosdesercientistas)
+* [Por que as crianças são os maiores cientistas aos quais podemos nos espelhar?](#Porqueascrianassoosmaiorescientistasaosquaispodemosnosespelhar)
+* [Crianças são curiosas](#Crianassocuriosas)
+* [Crianças são insistentes](#Crianassoinsistentes)
+* [Crianças inventam](#Crianasinventam)
+* [Crianças não tem medo de experimentar algo novo](#Crianasnotemmedodeexperimentaralgonovo)
+* [Sair da zona de conforto](#Sairdazonadeconforto)
+
+<!-- vscode-markdown-toc-config
+	numbering=false
+	autoSave=true
+	/vscode-markdown-toc-config -->
+<!-- /vscode-markdown-toc -->
+
+
+## <a name='Quandoquedeixamosdesercientistas'></a>Quando é que deixamos de ser cientistas?
 
 Crianças são excelentes cientistas. Você já foi criança. A busca por conhecimento que as crianças possuem é visível externamente e o medo de experimentar está longe deles.
 
@@ -58,13 +75,13 @@ Deveríamos nos espelhar nas crianças para nunca deixarmos de ser cientistas!
 
 
 
-## Por que as crianças são os maiores cientistas aos quais podemos nos espelhar?
+## <a name='Porqueascrianassoosmaiorescientistasaosquaispodemosnosespelhar'></a>Por que as crianças são os maiores cientistas aos quais podemos nos espelhar?
 
 As crianças, sem dúvidas, são os exemplos de carreira cientifica que você deveria seguir. Esquece aquele cientista famoso que você tanto admira ou aquele Desenvolvedor *pika das galáxia* do serviço ou aquele que é "referência" na sua área.
 
 Se você quer ser um bom Desenvolvedor de Software, então você precisa aprender a ser como uma criança.
 
-## Crianças são curiosas
+## <a name='Crianassocuriosas'></a>Crianças são curiosas
 
 Um traço da personalidade dos cientistas (profissionais) é que eles são curiosos e toda criança também é muito curiosa. Elas chegam a nos deixar sem respostas quando começam a fazer um monte de perguntas.
 
@@ -80,7 +97,7 @@ Quando foi a ultima vez que você parou para pesquisar sobre como alguma coisa q
 
 Até mesmo essa internet que você está conectado(a) agora, as páginas, os aplicativos de celular, a internet das coisas, o sistema operacional… Exemplos simples, mas que nem todo mundo teve curiosidade para descobrir como funcionam.
 
-## Crianças são insistentes
+## <a name='Crianassoinsistentes'></a>Crianças são insistentes
 
 As crianças não desistem de entender como algo funciona.
 
@@ -90,7 +107,7 @@ E mesmo que você responda a pergunta, algo poderá mudar a teoria dentro da cab
 
 Já você, desiste muito rápido de aprender alguma coisa. Só de pensar na dificuldade de procurar material para aprender algo você já se cansa. Acha que vai perder seu tempo se aprender algo diferente do que está utilizando no dia a dia. - Talvez sim, mas talvez seja muito recompensador para sua criatividade.
 
-## Crianças inventam
+## <a name='Crianasinventam'></a>Crianças inventam
 
 Eu nem vou falar muito sobre isso, prefiro que você veja esse vídeo:
 
@@ -102,7 +119,7 @@ Ta bom que, com o tempo, você não pode falar algo que não sabe, não pode fic
 
 Ah, e por falar em experiências...
 
-## Crianças não tem medo de experimentar algo novo
+## <a name='Crianasnotemmedodeexperimentaralgonovo'></a>Crianças não tem medo de experimentar algo novo
 
 Claro que, depois de um tempo, com os pais, escolas e sociedade impondo as regras, as crianças acabam parando de fazer as coisas, porém elas estão sempre experimentando algo novo, independente de tudo. Elas nunca param de fazer experiências.
 
@@ -135,7 +152,7 @@ Nossa profissão não nos limita a uma empresa, nós podemos nos divertir fazend
 
 Ah, Will, mas eu quero sair, quero me divertir, quero viver fora da bolha da tecnologia. Eu concordo contigo, novamente, e não quero dizer que precisa deixar de fazer essas coisas (jamé!!!), essas outras coisas também são importantes, as crianças também brincam e isso não os limita a parar de explorar.
 
-## Sair da zona de conforto
+## <a name='Sairdazonadeconforto'></a>Sair da zona de conforto
 
 Talvez o ponto crucial desse artigo seja agora:
 

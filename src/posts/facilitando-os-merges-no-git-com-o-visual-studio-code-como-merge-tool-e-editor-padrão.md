@@ -10,6 +10,19 @@ tags:
     - dicas
 description: "Existem ferramentas que facilitam nossa vida quando se trata de trabalhar com o Git. O Visual Studio Code, além de um excelente editor de textos, é uma delas."
 ---
+
+<!-- vscode-markdown-toc -->
+* [Configurando o Visual Studio Code como editor padrão no Git](#ConfigurandooVisualStudioCodecomoeditorpadronoGit)
+* [Configurando o Visual Studio Code como ferramenta de merge no Git](#ConfigurandooVisualStudioCodecomoferramentademergenoGit)
+* [Conclusão](#Concluso)
+* [Referências](#Referncias)
+
+<!-- vscode-markdown-toc-config
+	numbering=false
+	autoSave=true
+	/vscode-markdown-toc-config -->
+<!-- /vscode-markdown-toc -->
+
 O Visual Studio Code é uma ferramenta de edição de textos fantástica que se mostrou muito versátil e completa. Eu o uso no dia a dia para quase tudo e agora estou passando a inserir em outros contextos para me acostumar mais com o editor.
 
 Para quem utiliza a linha de comando para rodar os comandos do Git, não a interface do Visual Studio Code, podemos rodar o comando `git mergetool`, quando queremos abrir uma ferramenta de merge em casos de conflitos. Podemos utilizar diversas ferramentas como o `vimdiff`, `meld merge`, `Git Kraken` e assim vai.
@@ -24,7 +37,7 @@ O mesmo quando vamos fazer um commit e quem aparece é o Vim ou o Nano.
 
 Agora e se quisermos fazer o mesmo, mas com o Visual Studio Code?
 
-## Configurando o Visual Studio Code como editor padrão no Git
+## <a name='ConfigurandooVisualStudioCodecomoeditorpadronoGit'></a>Configurando o Visual Studio Code como editor padrão no Git
 
 Para configurar o VS Code como editor padrão, basta rodar o comando no terminal:
 
@@ -42,7 +55,7 @@ git config --global -e
 
 ![Utilizando o comando git config --global -e no terminal]({{site.postsImagesPath}}git-config-global-e.gif)
 
-## Configurando o Visual Studio Code como ferramenta de merge no Git
+## <a name='ConfigurandooVisualStudioCodecomoferramentademergenoGit'></a>Configurando o Visual Studio Code como ferramenta de merge no Git
 
 Agora, para adicionar o VS Code como nossa ferramenta padrão de merge, vamos rodar o comando `git config --global -e` e adicionar as linhas:
 
@@ -93,7 +106,7 @@ Logo acima das alterações temos os botões para aceitar ou recusar uma altera�
 - **Accept Both Changes:** Aceitar ambas as alterações
 - **Compare Changes:** Comparar as alterações
 
-## Conclusão
+## <a name='Concluso'></a>Conclusão
 
 Se você estava procurando uma ferramenta para facilitar sua vida utilizando o Git, encontrou!
 
@@ -101,7 +114,7 @@ Estou utilizando o Visual Studio Code para quase tudo e não me arrependo. É um
 
 Se curtiu essa dica, não esquece de compartilhar com seus amigos e amigas, seu papagaio viciado em terminal que agora pode começar a utilizar o VS Code para visualizar mudanças com menos dificuldades e para todo mundo que você acha que pode gostar da sugestão.
 
-## Referências
+## <a name='Referncias'></a>Referências
 
 - [Using Version Control in VS Code](https://code.visualstudio.com/Docs/editor/versioncontrol#_git-patchdiff-mode)
 - [Using Visual Studio Code as Git merge tool](https://blog.kulman.sk/using-vscode-as-git-merge-tool/)

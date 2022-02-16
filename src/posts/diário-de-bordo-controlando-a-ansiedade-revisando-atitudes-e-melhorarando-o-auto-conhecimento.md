@@ -10,6 +10,24 @@ tags:
 description: "O diário de bordo é uma prática que pode nos ajudar a controlar a ansiedade através da mudança do nosso mindset para algo mais positivo, assim como para refletirmos sobre a nossa vida e assumirmos o controle das nossas emoções"
 ---
 
+<!-- vscode-markdown-toc -->
+* [O que é diário de bordo](#Oquediriodebordo)
+* [# Manhã](#Manh)
+	* [1. Gratidão](#Gratido)
+	* [2. Afirmações](#Afirmaes)
+	* [3. O que tornaria hoje um grande dia](#Oquetornariahojeumgrandedia)
+* [# Noite](#Noite)
+	* [4. Coisas legais que aconteceram no dia](#Coisaslegaisqueaconteceramnodia)
+	* [5. Reflexão nos erros](#Reflexonoserros)
+* [Conclusão](#Concluso)
+
+<!-- vscode-markdown-toc-config
+	numbering=false
+	autoSave=true
+	/vscode-markdown-toc-config -->
+<!-- /vscode-markdown-toc -->
+
+
 Algo que me ajudou muito a controlar a minha ansiedade foi reconhecer o que me deixava ansioso, entender o que eu estava fazendo que atraia mais situações que faziam a ansiedade aflorar e revisar atitudes que depois ficavam rolando na minha cabeça por algum tempo, deixando mais ansioso ainda.
 
 O problema de uma pessoa ansiosa é que ela pensa muito sobre **situações que não aconteceram**, mas que **ela acha** que podem vir a acontecer no futuro, como uma conversa difícil com a liderança/gestão/diretoria no trabalho, uma briga com uma pessoa que ela gosta ou coisas que **realmente irão acontecer**, como uma entrevista de emprego, a entrega de uma tarefa, alguém que mandou uma mensagem "depois eu preciso falar com você".
@@ -32,7 +50,7 @@ Neste artigo vamos entender o que é um diário de bordo e aprender a fazer um.
 
 **Lembrando que nada do que você encontra na internet, como esse artigo, servirá pra você tão bem quanto o acompanhamento psicológico. Eu só estou repassando algo que serviu muito bem pra mim, mas você pode acabar precisando de apoio presencial ou acompanhamento terapêutico para realmente controlar sua ansiedade. Em todo caso: se você sente que sua ansiedade não é normal, está além do natural do corpo, procure acompanhamento o mais breve possível.**
 
-## O que é diário de bordo
+## <a name='Oquediriodebordo'></a>O que é diário de bordo
 
 Basicamente o diário de bordo, no contexto de controle da ansiedade, é uma maneira de tirar da cabeça tudo aquilo que nos aflige além de nos ajudar a ver o mundo de uma outra perspectiva e nos fazer refletir sobre coisas boas que acontecem na nossa vida em um só dia.
 
@@ -54,13 +72,13 @@ Nós devemos fazer isso todos os dias e escrever, no mínimo, três entradas par
 
 Vamos fazer uma separação em manhã e noite e refletirmos sobre o que poderíamos fazer em cada tópico desses.
 
-## # Manhã
+## <a name='Manh'></a># Manhã
 
 Durante a manhã precisamos buscar a positividade e assumir um bom mindset (ou um bom posicionamento) sobre o que vai acontecer no dia.
 
 Para entrar nesse mindset podemos relembrar o que aconteceu de bom ontem (gratidão), fazer aquelas afirmações boas sobre o que vamos fazer hoje e pensar as coisas legais que queremos que aconteçam hoje (e isso acaba nos fazendo buscar a realização dessas coisas).
 
-### 1. Gratidão
+### <a name='Gratido'></a>1. Gratidão
 
 Escrevermos 3 coisas pelas quais somos gratos.
 
@@ -78,7 +96,7 @@ Um exemplo bem pessoal de mensagens que eu poderia escrever no começo de um dia
 - sou grato por receber muito amor da minha companheira, que me manda mensagens bonitas, memes, gifs de cachorrinhos e vídeos engraçados todos os dias
 - sou grato por ter recebido um agradecimento/um feedback nas redes sociais sobre o conteúdo que eu escrevo/crio para a internet
 
-### 2. Afirmações
+### <a name='Afirmaes'></a>2. Afirmações
 
 Escrevermos 3 afirmações positivas sobre nós ou algo.
 
@@ -98,7 +116,7 @@ Evite citações que, apesar de positivas, trazem negatividade. Como no caso de 
 
 Quando escrevemos algo assim, estamos reforçando na nossa mente que o problema de procrastinação vem somente de nós mesmos e não de algum contexto externo (que poderá ser descoberto mais pra frente com o acompanhamento do diário). Escreva o que você quer ser, não o que gostaria de "deixar de ser".
 
-### 3. O que tornaria hoje um grande dia
+### <a name='Oquetornariahojeumgrandedia'></a>3. O que tornaria hoje um grande dia
 
 As afirmações podem ser algo sobre o nosso dia, mas em grande parte vamos começar a refletir mais sobre nós mesmos (é quase automático que isso aconteça com o tempo).
 
@@ -112,13 +130,13 @@ Por exemplo:
 
 E com essas atitudes nós fechamos o ciclo da manhã de anotações no diário.
 
-## # Noite
+## <a name='Noite'></a># Noite
 
 Assim como o período da manhã serve para refletirmos sobre coisas boas, durante a noite nós também pensamos nisso, mas nós usamos alguns minutos para refletir sobre nossos erros.
 
 Com os nossos erros em mãos, no outro dia podemos colocar como meta não cometer o mesmo erro para que o dia seja um grande dia (tópico 3).
 
-### 4. Coisas legais que aconteceram no dia
+### <a name='Coisaslegaisqueaconteceramnodia'></a>4. Coisas legais que aconteceram no dia
 
 Assim como o exercício de gratidão, parece complicado lembrar das coisas legais que aconteceram no nosso dia. Isso porque nós vivemos nesse piloto automático que nos limita a não enxergar o lado bom da vida.
 
@@ -130,7 +148,7 @@ Você pode pensar em 3 coisas excepcionais que aconteceram, que normalmente não
 - eu vi alguém sendo carinhoso (a) com um morador ou moradora de rua
 - eu consegui entender aquela parte difícil da matéria que estudo
 
-### 5. Reflexão nos erros
+### <a name='Reflexonoserros'></a>5. Reflexão nos erros
 
 Quais seriam as coisas que nós poderíamos ter feito para tornar o dia de hoje ainda melhor?
 
@@ -146,7 +164,7 @@ E é "só isso" para a noite.
 
 Com isso finalizamos nosso dia em um diário de bordo.
 
-## Conclusão
+## <a name='Concluso'></a>Conclusão
 
 O diário de bordo é uma excelente ferramenta para enfrentar nossos problemas e mudarmos nosso mindset para algo mais positivo, o que fará total diferença na nossa vida pessoal, profissional e relacionamentos.
 

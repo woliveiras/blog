@@ -4,7 +4,26 @@ title: "Apoio Social - William Oliveira"
 description: "Apoio a pessoas de baixa renda, moradores de periferia e pessoas em situação de vulnerabilidade social que desejam entrar na área de programação"
 ---
 
-## Contextualizando
+<!-- vscode-markdown-toc -->
+* [Contextualizando](#Contextualizando)
+* [Sobre a minha iniciativa](#Sobreaminhainiciativa)
+* [Como me ajudar](#Comomeajudar)
+	* [Apoia.se](#Apoia.se)
+	* [PayPal](#PayPal)
+	* [PicPay](#PicPay)
+		* [Contrate Minorias](#ContrateMinorias)
+		* [Consiga Mentoria / Ajude](#ConsigaMentoriaAjude)
+		* [Convide pessoas para palestrar](#Convidepessoasparapalestrar)
+* [Como receber apoio](#Comoreceberapoio)
+* [Apoiadores e apoiadoras](#Apoiadoreseapoiadoras)
+
+<!-- vscode-markdown-toc-config
+	numbering=false
+	autoSave=true
+	/vscode-markdown-toc-config -->
+<!-- /vscode-markdown-toc -->
+
+## <a name='Contextualizando'></a>Contextualizando
 
 Mais de 40% dos brasileiros até 14 anos vivem em situação de pobreza. O número representa 17,3 milhões de jovens, aponta estudo de 2018 da Abrinq.
 
@@ -28,7 +47,7 @@ Viver em sociedade é pensar no coletivo.
 
 ---
 
-## Sobre a minha iniciativa
+## <a name='Sobreaminhainiciativa'></a>Sobre a minha iniciativa
 
 Através do apoio da comunidade de tecnologia eu arrecado fundos para prestar mentoria, doar livros, cursos e desenvolver um trabalho social individual para mudar a vida das pessoas.
 
@@ -38,19 +57,19 @@ Juntos já [apoiamos diversas pessoas](/sponsored) e vamos continuar fazendo mui
 
 > OBS: A maioria não gosta de divulgar esse tipo de apoio. O número é maior do que temos cadastrado \o/
 
-## Como me ajudar
+## <a name='Comomeajudar'></a>Como me ajudar
 
 Você pode apoiar mensalmente através do PicPay ou pelo Apoia.se e/ou fazer uma doação fixa sempre que quiser através do PayPal.
 
-### Apoia.se
+### <a name='Apoia.se'></a>Apoia.se
 
 Pelo Apoia.se, acesse este link [apoia.se/uillaz](https://apoia.se/uillaz), cadastre-se e escolha algum valor para apoiar mensalmente.
 
-### PayPal
+### <a name='PayPal'></a>PayPal
 
 Pelo PayPal, acesse este link [paypal.com](https://www.paypal.com/cgi-bin/webscr?cmd=_donations&business=UYA6AM2HP4NES&currency_code=BRL).
 
-### PicPay
+### <a name='PicPay'></a>PicPay
 
 Pelo PicPay será necessário instalar o app, criar uma conta e acessar o meu QR Code.
 
@@ -60,27 +79,27 @@ Depois você pode acessar este link [picpay.me/uillaz](https://picpay.me/uillaz)
 
 [Para empresas, clique aqui](mailto:w.oliveira542@gmail.com)
 
-#### Contrate Minorias
+#### <a name='ContrateMinorias'></a>Contrate Minorias
 
 Contrate pessoas de grupos sub-representados através deste link: [me-contrata](/me-contrata)
 
-#### Consiga Mentoria / Ajude
+#### <a name='ConsigaMentoriaAjude'></a>Consiga Mentoria / Ajude
 
 Você pode conseguir mentoria na área de tecnologias de pessoas diversas!
 
 Entre no link do Codamos.club e entre em contato com a galera: [Codamos/pessoas](https://www.codamos.club/pessoas).
 
-#### Convide pessoas para palestrar
+#### <a name='Convidepessoasparapalestrar'></a>Convide pessoas para palestrar
 
 Em vários eventos vemos grades homogêneas e para que isso deixe de ser uma regra, o Codamos reúne uma lista imensa de pessoas diversas para o seu evento, entre em contato com elas: [Codamos/pessoas](https://www.codamos.club/pessoas).
 
 ---
 
-## Como receber apoio
+## <a name='Comoreceberapoio'></a>Como receber apoio
 
 Se você se declara como vivendo em condição de baixa renda que deseja entrar na área de programação, pode receber meu apoio via sorteio mensal através do formulário: [apoio social](https://forms.gle/gARZHvB4svLNzrP17).
 
-## Apoiadores e apoiadoras
+## <a name='Apoiadoreseapoiadoras'></a>Apoiadores e apoiadoras
 
 [Empresas e pessoas que apoiam esta causa](/sponsors).
 

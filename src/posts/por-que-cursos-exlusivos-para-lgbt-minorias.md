@@ -15,7 +15,18 @@ Estou acostumado com isso, afinal trabalho com diversidade e inclusão desde 201
 
 Para começar, vamos refletir sobre o contexto das pessoas em situação de vulnerabilidade social, depois passar sobre representatividade e enfim concluir nosso raciocínio sobre inclusão. Caso ainda tenha alguma questão sobre isso, pode me chamar nas redes sociais ([@1ilhas no Twitter](https://twitter.com/1ilhas) e [@1ilhas no Instagram](https://www.instagram.com/1ilhas/)), estou a disposição para ajudar.
 
-## O ambiente social é excludente
+<!-- vscode-markdown-toc -->
+* [O ambiente social é excludente](#Oambientesocialexcludente)
+* [Não é sobre você](#Nosobrevoc)
+* [Conclusão](#Concluso)
+
+<!-- vscode-markdown-toc-config
+	numbering=false
+	autoSave=true
+	/vscode-markdown-toc-config -->
+<!-- /vscode-markdown-toc -->
+
+## <a name='Oambientesocialexcludente'></a>O ambiente social é excludente
 
 Para começar a entender o porquê dos cursos exclusivos para pessoas trans, mulheres, pessoas negras, indígenas, PCDs e outros grupos sub-representados, precisamos observar que a sociedade é por si excludente com o que não está dentro do padrão ou que foge do socialmente aceito. 
 
@@ -54,7 +65,7 @@ Em um ambiente como um curso não é diferente. As pessoas estão ao redor julga
 >
 > Leia: [Angela Davis](https://amzn.to/3wzQ4RY)
 
-## Não é sobre você
+## <a name='Nosobrevoc'></a>Não é sobre você
 
 Toda vez que as pessoas que se sentem desconfortáveis com cursos de programação exclusivos para minorias entram em questionamento sobre a necessidade de que todo mundo siga o mesmo caminho que ela seguiu.
 
@@ -75,7 +86,7 @@ Olhe ao seu redor no emprego onde você está e reflita: Quantas mulheres tem em
 
 Cursos exclusivos são sobre necessidades sociais, não sobre tecnologia, nem uma competição.
 
-## Conclusão
+## <a name='Concluso'></a>Conclusão
 
 Espero que, com essas palavras, tenha ficado claro que o grande ponto aqui é a representatividade e a socialização. Ninguém gosta de estar onde não é bem vindo(a) e pior ainda quando é algo que nos traz ansiedade como pensar em futuro profissional.
 

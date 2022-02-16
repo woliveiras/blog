@@ -9,7 +9,23 @@ description: Como configurar e utilizar o Vagrant para Desenvolvimento
 ---
 Se você leu a primeira parte desse tutorial, [Crie e compartilhe ambientes com o Vagrant (Instalação)](/posts/vagrant-introducao-instalacao/ "Crie e compartilhe ambientes com o Vagrant (Instalação)"), então podemos seguir nossos estudos e aprender a configurar e utilizar o Vagrant.
 
-## Adicionando uma Box
+<!-- vscode-markdown-toc -->
+* [Adicionando uma Box](#AdicionandoumaBox)
+	* [Explicação](#Explicao)
+* [Inicializando com a nova box](#Inicializandocomanovabox)
+	* [Explicação](#Explicao-1)
+* [Iniciar a VM](#IniciaraVM)
+* [Alguns comandos uteis](#Algunscomandosuteis)
+* [Referências](#Referncias)
+
+<!-- vscode-markdown-toc-config
+	numbering=false
+	autoSave=true
+	/vscode-markdown-toc-config -->
+<!-- /vscode-markdown-toc -->
+
+
+## <a name='AdicionandoumaBox'></a>Adicionando uma Box
 
 Vamos utilizar uma Box que alguém já deixou pré configurada como exemplo, mas podemos conferir como criar uma Box para o Vagrant nesse outro artigo: [Como criar uma base box para o Vagrant](/posts/criar-uma-base-box-para-o-vagrant/).
 
@@ -25,7 +41,7 @@ Execute esse comando para clonar a Box pré configurada.
 vagrant box add lucid32 https://files.vagrantup.com/lucid32.box
 ```
 
-### Explicação
+### <a name='Explicao'></a>Explicação
 
 - **vagrant box add** é o comando para adicionar uma box.
 - **lucid32** é o nome da Base Box. Esse nome é que vamos usar no **vagrantfile** para informar qual box será a base para as VM's que vamos subir posteriormente e que vamos usar para criar uma nova VM.
@@ -35,7 +51,7 @@ Podemos encontrar outras Base Box no repositório do Vagrant no site oficial: [h
 
 *Esse passo pode demorar um pouco dependendo da velocidade da sua conexão.*
 
-## Inicializando com a nova box
+## <a name='Inicializandocomanovabox'></a>Inicializando com a nova box
 
 Agora, no terminal/cmd, entre na pasta do projeto – que aqui chamei de  vagrant - e execute:
 
@@ -45,7 +61,7 @@ vagrant init lucid32
 
 ![Iniciando uma VM]({{site.postsImagesPath}}vagrant-init-lucid32.png)
 
-### Explicação
+### <a name='Explicao-1'></a>Explicação
 
 - **vagrant init** iniciará uma VM de acordo com as configurações da box que você escolher. Será criado o Vagrantfile no local.
 - **lucid32** é a box que eu mandei ele utilizar para criar a VM. As configurações dessa Box serão clonadas para essa nova VM.
@@ -81,7 +97,7 @@ end
 
 ```
 
-## Iniciar a VM
+## <a name='IniciaraVM'></a>Iniciar a VM
 
 Para iniciar a VM e podermos utilizar nosso servidor, basta rodar o comando:
 
@@ -107,7 +123,7 @@ Na tela de boas vindas será solicitado a senha, que é *vagrant*.
 
 Conectado. Agora é só usar seu servidor! :D
 
-## Alguns comandos uteis
+## <a name='Algunscomandosuteis'></a>Alguns comandos uteis
 
 - Quando quiser pausar sua máquina use **vagrant suspend** e para retomar **vagrant resume**.
 - Para desligar a máquina use **vagrant halt**.
@@ -119,7 +135,7 @@ Uma dica agora é pesquisar sobre [Shell Script](https://pt.wikipedia.org/wiki/S
 
 Caso não tenha entendido algo, estou a disposição, só me chamar! ;D
 
-## Referências
+## <a name='Referncias'></a>Referências
 
 * <https://simplesideias.com.br/usando-o-vagrant-como-ambiente-de-desenvolvimento-no-windows>
 * <https://www.erikaheidi.com/blog/vagrant-101-montando-seu-ambiente-de-desenvolvimento-portatil>

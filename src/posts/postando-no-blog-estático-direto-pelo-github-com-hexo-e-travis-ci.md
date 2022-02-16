@@ -13,7 +13,20 @@ Confesso que fiquei tentado a migrar para o [Jekyll (Ruby)](https://jekyllrb.com
 
 Andei pesquisando sobre como postar no Blog direto pelo GitHub Pages através de outras plataformas e cheguei até [esse artigo](https://df.python.org.br/blog/github-pages-com-pelican-e-travis-ci/) do [Humberto Rocha](https://df.python.org.br/blog/autores/humberto-rocha/) ensinando a usar o Travis CI para rodar o Build do projeto com o **Pelican**. Quando vi isso logo imaginei que dava para fazer o mesmo com Hexo e poder escrever/revisar direto pelo GitHub. - E dá!
 
-## Configurando o Travis CI repositório do seu Blog
+<!-- vscode-markdown-toc -->
+* [Configurando o Travis CI repositório do seu Blog](#ConfigurandooTravisCIrepositriodoseuBlog)
+* [Criando um token para autorizar o Travis CI a publicar no GitHub](#CriandoumtokenparaautorizaroTravisCIapublicarnoGitHub)
+* [Configuração do .travis.yml para o Blog](#Configuraodo.travis.ymlparaoBlog)
+* [Salvando tudo e subindo para o GitHub](#SalvandotudoesubindoparaoGitHub)
+* [Referência](#Referncia)
+
+<!-- vscode-markdown-toc-config
+	numbering=false
+	autoSave=true
+	/vscode-markdown-toc-config -->
+<!-- /vscode-markdown-toc -->
+
+## <a name='ConfigurandooTravisCIrepositriodoseuBlog'></a>Configurando o Travis CI repositório do seu Blog
 
 Acesse o site do [Travis CI](https://travis-ci.org/) e habilite para o repositório do seu Blog clicando em **Add new repository**. - Aquele **+** do lado de **My repositories**
 
@@ -27,7 +40,7 @@ Agora acesse as configurações desse repositório clicando na **engrenagem ao l
 
 ![Configurações de Build](https://s29.postimg.org/osd8wkcdz/configuracoes_de_build.png)
 
-## Criando um token para autorizar o Travis CI a publicar no GitHub
+## <a name='CriandoumtokenparaautorizaroTravisCIapublicarnoGitHub'></a>Criando um token para autorizar o Travis CI a publicar no GitHub
 
 Não utilizaremos a chave SSH para o Travis poder acessar o repositório, mas um Token gerado via GitHub mesmo. Para isso acesse [esse link](https://github.com/settings/tokens) e crie um token. No ultimo passo da criação irá aparecer o número que você deve salvar. Anote esse número. 
 
@@ -43,7 +56,7 @@ O nome dessa variável pode ser diferente, de acordo com o que achar mais semant
 
 
 
-## Configuração do .travis.yml para o Blog
+## <a name='Configuraodo.travis.ymlparaoBlog'></a>Configuração do .travis.yml para o Blog
 
 No seu projeto, adicione o arquivo **.travis.yml** com as seguintes configurações, substituindo onde é necessário:
 
@@ -102,7 +115,7 @@ npm install hexo-deployer-git --save-dev
 
 Isso vai atualizar seu **package.json** com a dependência que será instalada no servidor de integração do Travis durante a execução do build.
 
-## Salvando tudo e subindo para o GitHub
+## <a name='SalvandotudoesubindoparaoGitHub'></a>Salvando tudo e subindo para o GitHub
 
 Você vai salvar os arquivos:
 
@@ -128,7 +141,7 @@ Caso ainda fique dúvidas, de uma olhada no [meu repositório](https://github.co
 
 Compartilhe a palavra.
 
-## Referência
+## <a name='Referncia'></a>Referência
 
 * https://github.com/jkeylu/deploy-hexo-site-by-travis-ci/blob/master/_travis.yml
 * https://df.python.org.br/blog/github-pages-com-pelican-e-travis-ci/

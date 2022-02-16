@@ -8,9 +8,27 @@ tags:
 description: Como organizar e desenvolver uma interface
 ---
 
+<!-- vscode-markdown-toc -->
+* [Começando: Os 3 principais elementos da Interface](#Comeando:Os3principaiselementosdaInterface)
+* [Separe marcação, estilos e ações](#Separemarcaoestiloseaes)
+* [**Organização do código**](#Organizaodocdigo)
+	* [CSS](#CSS)
+	* [Tente abreviar suas declarações CSS.](#TenteabreviarsuasdeclaraesCSS.)
+	* [Divida seu CSS em sessões.](#DividaseuCSSemsesses.)
+	* [Primeiro aqui, depois ali, em seguida lá...](#Primeiroaquidepoisaliemseguidal...)
+	* [Testes](#Testes)
+* [Bônus](#Bnus)
+
+<!-- vscode-markdown-toc-config
+	numbering=false
+	autoSave=true
+	/vscode-markdown-toc-config -->
+<!-- /vscode-markdown-toc -->
+
+
 É amigo, teve um tempo em que modificar um registro no banco de dados era a coisa que eu achava mas incrível do mundo, gerar um relatório em PDF com PHP então... Nem se fale! Porém, hoje, o que eu curto mesmo é desenvolver interfaces e trabalhar no Browser com JavaScript. Só que criar interfaces não é só sair desenhando no Browser com HTML e CSS, depois colocar umas ações legais com o JS... Tem de planejar a interação, tem de pensar o que vai fazer, senão o que fizer agora, vai se tornar sua dor de cabeça mais pra frente! Pensando nisso segue umas dicas maneiras pra não se enrolar todo na hora de desenvolver uma interface.
 
-## Começando: Os 3 principais elementos da Interface
+## <a name='Comeando:Os3principaiselementosdaInterface'></a>Começando: Os 3 principais elementos da Interface
 
 ![Exemplo de estrutura da interface]({{site.postsImagesPath}}estrutura.png)
 
@@ -32,21 +50,21 @@ Ex.:
 
 
 
-## Separe marcação, estilos e ações
+## <a name='Separemarcaoestiloseaes'></a>Separe marcação, estilos e ações
 
 Já deve ser uma boa prática sua separar o HTML em um arquivo, o CSS em outro e o JS em outro né?
 Se a resposta foi não,é bom dar uma estudada nisso, pois são boas práticas de desenvolvimento e vão te ajudar muito.
 As vezes acontece de uma página, ou mais, possuírem estilos próprios que só serão aplicados a elas. Para esses casos nós criamos um arquivo CSS que só será carregado nela. Ex.: contato.css, localizacao.css, por ai vai. Porém, tudo o que for repetido em todas as páginas deixe no arquivo principal.
 
-## **Organização do código**
+## <a name='Organizaodocdigo'></a>**Organização do código**
 
 Sempre comente seu código, isso faz bem pra saúde. Imagina depois de 1 ano você precisar refatorar uma interface! Você pode ficar louco tentando decifrar o que pensava antes... ;D - Quero ver lembrar o que você fez! Eu não lembro nem o que eu fiz ontem.
 
-### CSS
+### <a name='CSS'></a>CSS
 
 Usar um [Reset CSS](/posts/css-reset-de-varias-maneiras) vai ajudar muito a fazer com que sua interface seja igual em todos os navegadores (Talvez não no IE! Brincadeira).
 
-### Tente abreviar suas declarações CSS.
+### <a name='TenteabreviarsuasdeclaraesCSS.'></a>Tente abreviar suas declarações CSS.
 
 Ao invés de:
 
@@ -63,7 +81,7 @@ Faça:
 margin: 2px 3px 5px 9px;
 ```
 
-### Divida seu CSS em sessões.
+### <a name='DividaseuCSSemsesses.'></a>Divida seu CSS em sessões.
 
 ```css
 /*------------------------------
@@ -93,16 +111,16 @@ Rodapé
 ------------------------------*/
 ```
 
-### Primeiro aqui, depois ali, em seguida lá...
+### <a name='Primeiroaquidepoisaliemseguidal...'></a>Primeiro aqui, depois ali, em seguida lá...
 
 Durante o desenvolvimento vá codificando por partes. Faça todo o topo, depois faça o conteúdo, depois o rodapé. Durante o desenvolvimento do Topo, se tiver um menu, faça a estrutura do topo e depois o menu e posicione-o no lugar ceto, em seguida vá pro conteúdo e assim por diante.
 
-### Testes
+### <a name='Testes'></a>Testes
 
 Durante o desenvolvimento vá testando o que fizer em todos os navegadores, isso vai agilizar bastante. Imagine, depois de ter feito toda a interface e deixado ela perfeitinha você abre no IE e está tudo quebrado! Putz...
 Ai você modifica só um pouquinho pra funcionar no IE e quando abre em outro navegador já não está mais do jeito que tinha deixado... Que maravilha né?
 
-## Bônus
+## <a name='Bnus'></a>Bônus
 
 **Que tal testar a velocidade do seu site?**
 

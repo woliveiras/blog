@@ -8,6 +8,22 @@ tags:
 description: Nesse artigo você encontra uma introdução rápida ao Cálculo Proposicional e alguns termos importantes para o estudo do assunto.
 ---
 
+<!-- vscode-markdown-toc -->
+* [Proposições](#Proposies)
+* [O que não são proposições](#Oquenosoproposies)
+* [Princípios sobre as proposições](#Princpiossobreasproposies)
+* [Proposição simples e compostas](#Proposiosimplesecompostas)
+* [Símbolos da linguagem do Cálculo Proposicional e Conectivos Lógicos](#SmbolosdalinguagemdoClculoProposicionaleConectivosLgicos)
+* [Os simbolos auxiliáres](#Ossimbolosauxilires)
+* [Precedencia dos operadores](#Precedenciadosoperadores)
+* [Referências](#Referncias)
+
+<!-- vscode-markdown-toc-config
+	numbering=false
+	autoSave=true
+	/vscode-markdown-toc-config -->
+<!-- /vscode-markdown-toc -->
+
 Como introduzido no post anterior falando sobre [Raciocínio Lógico](/posts/Introducao-ao-Raciocinio-Logico/) vamos continuar com os estudos sobre Lógica.
 
 Se você pesquisou sobre a Classificação Lógica ou leu os artigos que deixei no final do post, deve ter visto sobre a Lógica Matemática.
@@ -20,7 +36,7 @@ Calculo Proposicional, Calculo Sentencial ou Calculo das Sentenças é uma das p
 
 Vamos conhecer um pouco mais sobre isso.
 
-## Proposições
+## <a name='Proposies'></a>Proposições
 
 Antes de falar do cálculo propriamente dito, precisamos entender alguns conceitos básicos e conhecer alguns novos termos e um deles é a **proposição**.
 
@@ -54,7 +70,7 @@ x + 5 = 10
 
 Não é uma proposição, pois não sabemos o valor de X, então não tem como descobrirmos se o valor lógico dessa sentença é verdadeiro ou falso.
 
-## O que não são proposições
+## <a name='Oquenosoproposies'></a>O que não são proposições
 
 Se proposições são sempre sentenças afirmativas. Então, automaticamente eliminamos algumas sentenças dessa categoria, como:
 
@@ -66,7 +82,7 @@ Se proposições são sempre sentenças afirmativas. Então, automaticamente eli
 
 
 
-## Princípios sobre as proposições
+## <a name='Princpiossobreasproposies'></a>Princípios sobre as proposições
 
 Alguns princípios básicos que regem as proposições, são:
 
@@ -74,7 +90,7 @@ Alguns princípios básicos que regem as proposições, são:
 **Princípio do Terceiro Excluído:** Uma proposição ou é verdadeira ou falsa não existindo uma terceira possibilidade
 **Princípio da Não-Contradição:** Uma proposição não pode ser verdadeira e falsa simultaneamente
 
-## Proposição simples e compostas
+## <a name='Proposiosimplesecompostas'></a>Proposição simples e compostas
 
 As proposições ainda podem ser classificadas em:
 
@@ -88,7 +104,7 @@ Ex.: Brasília  é a capital do Brasil  ou  Lima é a capital do Peru
 
 Com essa pequena introdução do que são proposições simples e compostas começamos a esbarrar em uma coisa chamada conectivos lógicos.
 
-## Símbolos da linguagem do Cálculo Proposicional e Conectivos Lógicos
+## <a name='SmbolosdalinguagemdoClculoProposicionaleConectivosLgicos'></a>Símbolos da linguagem do Cálculo Proposicional e Conectivos Lógicos
 
 Antes de falar dos Conectivos Lógicos, vamos falar dos Símbolos do Cálculo Proposicional para facilitar a escrita dos exemplos. ;)
 
@@ -118,7 +134,7 @@ Então conseguimos expressar o exemplo `Brasília  é a capital do Brasil  OU  L
 
 Onde **p** equivale a "Brasília  é a capital do Brasil", **v** OU e **q** é "Lima é a capital do Peru".
 
-## Os simbolos auxiliáres
+## <a name='Ossimbolosauxilires'></a>Os simbolos auxiliáres
 
 Assim como na matemática, os cálculos podem começar a ficar mais profundos e chega uma hora que precisamos de simbolos auxiliáres para facilitar um pouco nossa vida.
 
@@ -136,7 +152,7 @@ A lua **não**¹ é quadrada **se e somente se**² a neve é branca: ((~p)¹ <->
 
 E se existirem repetição dos mesmos operadores, adota-se a convenção de começar o cálculo pela **direita**.
 
-## Precedencia dos operadores
+## <a name='Precedenciadosoperadores'></a>Precedencia dos operadores
 
 Assim como na matemática, no calculo proposicional temos a precedência dos operadores, ou seja, quem resolver primeiro.
 
@@ -196,7 +212,7 @@ Para isso podemos ver os vídeos a seguir que confirma o que aprendemos e aprese
 
 <iframe src="https://www.youtube.com/embed/B0NVw76v31U"  width="100%" height="473px" frameborder="0" scrolling="no" allowfullscreen></iframe>
 
-## Referências
+## <a name='Referncias'></a>Referências
 
 * <https://pt.wikiversity.org/wiki/L%C3%B3gica_Matem%C3%A1tica/C%C3%A1lculo_Proposicional>
 * <https://pt.wikipedia.org/wiki/L%C3%B3gica_proposicional>

@@ -6,6 +6,27 @@ tags:
     - dicas
 description: Achamos muito difícil escrever um artigo. Tirar a nossa ideia da cabeça e colocar em palavras parece impossível. Nesse artigo aprendemos algumas dicas para tirar nosso texto do papel.
 ---
+
+<!-- vscode-markdown-toc -->
+* [Tudo começa no rascunho](#Tudocomeanorascunho)
+* [A estrutura de um bom texto](#Aestruturadeumbomtexto)
+	* [Introdução](#Introduo)
+	* [Desenvolvimento (meio)](#Desenvolvimentomeio)
+	* [Fim](#Fim)
+* [Revisão](#Reviso)
+* [Evite erros de português](#Eviteerrosdeportugus)
+* [O uso de títulos e subtítulos](#Ousodettulosesubttulos)
+* [Evite falar somente para os homens](#Evitefalarsomenteparaoshomens)
+* [Evite artigos muito grandes, crie séries](#Eviteartigosmuitograndescriesries)
+* [Não somos donos da sabedoria total do universo](#Nosomosdonosdasabedoriatotaldouniverso)
+* [Conclusão](#Concluso)
+
+<!-- vscode-markdown-toc-config
+	numbering=false
+	autoSave=true
+	/vscode-markdown-toc-config -->
+<!-- /vscode-markdown-toc -->
+
 Na comunidade de desenvolvimento de software é comum escrevermos artigos e para isso possuímos nossos próprios blogs ou mesmo escrevemos para algum portal (ou portais) de tecnologia. Isso é muito importante para transmitir o que sabemos, seja pouco ou muito, e também nos ajuda a fixar conhecimento.
 
 Muita gente sente vontade de escrever, mas acha que não tem noção de como se faz ou mesmo tem medo de fazer algo errado por falta de prática. Isso é extremamente normal. Nesse artigo eu vou tentar transmitir um pouco do que eu aprendi durante os últimos anos e as dicas que peguei através de palestras sobre comunicação para que assim você sinta coragem de tirar seus artigos do papel/da cabeça/do rascunho.
@@ -14,7 +35,7 @@ Não garanto que você vai sair escrevendo perfeitamente depois de ler esse arti
 
 Mesmo com essas dicas você ainda vai receber feedback’s de melhorias depois que os seus artigos forem publicados e isso é bom! — Não se esqueça de me ensinar o que aprender. ;)
 
-## Tudo começa no rascunho
+## <a name='Tudocomeanorascunho'></a>Tudo começa no rascunho
 
 Escrever artigos é parecido com criar um software: você desenha um modelo em um papel, modela logicamente, escreve o código e então refatora. — Pelo menos se fizermos assim fica mais fácil.
 
@@ -43,7 +64,7 @@ Claro que ainda vem a fase de revisão, mas o rascunho deve ser feito com o mesm
 
 O rascunho é uma fase importante, **não pule essa fase**. Se não quiser usar o rascunho, pelo menos faça ou peça sempre uma revisão de outra pessoa.
 
-## A estrutura de um bom texto
+## <a name='Aestruturadeumbomtexto'></a>A estrutura de um bom texto
 
 Aqui você deve lembrar das aulas de português da época de escola: um bom texto deve possuir uma introdução, um desenvolvimento (ou o meio do texto) e um fim.
 
@@ -51,7 +72,7 @@ Enquanto o seu leitor lê o seu texto ele tem dois ápices de atenção: o come�
 
 Não estou dizendo que o meio do artigo não deve ser bom, mas que você precisa se dedicar também a introdução e a finalização do artigo. Muitas pessoas se esquecem desse importante detalhe.
 
-### Introdução
+### <a name='Introduo'></a>Introdução
 
 Na introdução você deve ser sincero ao descrever do que você vai falar do artigo, evite pensar somente em page view. Escrever mentiras no começo do artigo como se ele fosse sensacional e no meio do texto você não argumentar de verdade é **desonesto**.
 
@@ -73,7 +94,7 @@ Nesse outro artigo eu linkei uma série de posts sobre produtividade que eu esta
 
 Dá uma olhada na maneira como eu fiz a introdução desses artigos, para ter uma idéia melhor do que estou falando.
 
-### Desenvolvimento (meio)
+### <a name='Desenvolvimentomeio'></a>Desenvolvimento (meio)
 
 No meio do texto é que você vai colocar todas as suas ideias. Você deve buscar argumentar sobre o que você disse que iria falar na introdução do artigo. Não deixe aqui palavras vagas para que reforce no final do artigo, você deve escrever sempre com muito respeito ao seu leitor e ele espera bons argumentos aqui.
 
@@ -108,7 +129,7 @@ Você ainda pode usar imagens para reforçar o que você diz, como gráficos por
 
 Na nossa área também é muito comum colocar exemplos de código e é importante que esse código esteja bem formatado e com um sintax highlight pra ajudar quem lê seu código. Recomendo pra isso o uso do Gist. Vai facilitar demais sua vida! :D
 
-### Fim
+### <a name='Fim'></a>Fim
 
 Quando o leitor chega ao final do artigo, muitas vezes, ele não se lembra do que leu no começo (introdução) ou no meio do texto.
 
@@ -120,7 +141,7 @@ No final do texto também é importante colocar informações sobre contato, inf
 
 Essas três partes são uma estrutura simples para um artigo. Então, depois de fazer seu rascunho, escreva seu texto seguindo essa lógica: começo, meio e fim.
 
-## Revisão
+## <a name='Reviso'></a>Revisão
 
 A revisão do seu artigo é algo muito importante, você deve revisar seu rascunho quantas vezes for preciso até que não veja mais necessidade de mudar nada no texto. Em seguida você pode mandar esse texto para que outra pessoa leia, pois você deve ter lido tantas vezes que se cansou e pode deixar passar algo.
 
@@ -130,7 +151,7 @@ Nesse momento você deve se colocar em estado de **recebimento de críticas**, a
 
 Uma boa maneira de se revisar o seu artigo é lendo em vóz alta tentando seguir as pausas que colocou através dos pontos e vírgulas.
 
-## Evite erros de português
+## <a name='Eviteerrosdeportugus'></a>Evite erros de português
 
 Não somos escritores especialistas, nem professores de português. Os erros podem e vão acontecer e isso é extremamente comum. Porém precisamos nos esforçar para minimizar isso em nossos artigos.
 
@@ -150,7 +171,7 @@ Uma maneira que eu utilizo para evitar os erros é utilizar o Google Docs, mas p
 
 A revisão também vai ajudar a evitar esses erros.
 
-## O uso de títulos e subtítulos
+## <a name='Ousodettulosesubttulos'></a>O uso de títulos e subtítulos
 
 Seu texto só tem um título, de resto você usará subtítulos.
 
@@ -164,7 +185,7 @@ Quando você ver que um pedaço do seu texto já não está mais fazendo referê
 
 Os sub-tópicos do seu rascunho podem até ser os subtítulos do artigo, se assim fizer sentido.
 
-## Evite falar somente para os homens
+## <a name='Evitefalarsomenteparaoshomens'></a>Evite falar somente para os homens
 
 Nós temos o costume de usar sempre o masculino nos nossos textos e isso é extremamente normal. As pessoas já estão acostumadas.
 
@@ -176,7 +197,7 @@ Claro que um robô pode estar lendo o seu artigo, porém é assunto pra outra di
 
 Um excelente texto que pode nos ajudar a melhorar a escrita para deixar ela mais inclusiva é o [Adotando a linguagem neutra de gênero](https://medium.com/coragem/adotando-a-linguagem-neutra-de-g%C3%AAnero-e509e6e4e06c), da Paula Ribas, no blog da ThoughtWorks Brasil.
 
-## Evite artigos muito grandes, crie séries
+## <a name='Eviteartigosmuitograndescriesries'></a>Evite artigos muito grandes, crie séries
 
 Durante a fase de rascunho de um texto você já consegue identificar se o texto está ficando muito grande.
 
@@ -186,7 +207,7 @@ Quando criar uma série de artigos, lembre-se de avisar no primeiro artigo que i
 
 Você pode fazer algo como: Artigo xyz, parte 1, parte 2, parte 3.
 
-## Não somos donos da sabedoria total do universo
+## <a name='Nosomosdonosdasabedoriatotaldouniverso'></a>Não somos donos da sabedoria total do universo
 
 Eu me incomodo muito quando alguém escreve um texto se colocando muito pra cima, como se outras pessoas não soubessem fazer o que quem escreveu faz.
 
@@ -200,7 +221,7 @@ Isso seria bem soberbo e demonstraria extrema falta de humildade de minha parte.
 
 Ao escrever, tenha a mínima noção de que você está transmitindo o que você sabe e **isso não significa que você sabe mais do que todo mundo**. Você só teve coragem de colocar pra fora e aparecer publicamente.
 
-## Conclusão
+## <a name='Concluso'></a>Conclusão
 
 Bom, se você leu todo o artigo, agora você sabe que eu vou comentar que para escrever um artigo você deve começar pelo rascunho, talvez usar uma técnica de brainstorm e mapas mentais, também que o seu texto precisa ter um assunto principal e não deve fugir desse assunto e os subtópicos podem ser os subtítulos deste artigo, você também deve ter entendido que o artigo deve possuir começo, meio e fim e sabe o que colocar em cada parte do texto.
 

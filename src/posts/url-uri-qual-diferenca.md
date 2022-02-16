@@ -11,7 +11,21 @@ Essa dúvida já passou pela cabeça de muita gente e creio que se você é ini
 
 Mas afinal, qual a diferença entre URL e URI?
 
-## O Protocolo HTTP
+
+<!-- vscode-markdown-toc -->
+* [O Protocolo HTTP](#OProtocoloHTTP)
+* [URL – Uniform Resource Locator](#URLUniformResourceLocator)
+* [URN – Uniform Resource Name](#URNUniformResourceName)
+* [URI – Uniform Resource Identifier](#URIUniformResourceIdentifier)
+
+<!-- vscode-markdown-toc-config
+	numbering=false
+	autoSave=true
+	/vscode-markdown-toc-config -->
+<!-- /vscode-markdown-toc -->
+
+
+## <a name='OProtocoloHTTP'></a>O Protocolo HTTP
 
 Não da para abordar o assunto URI, URL, URN sem explicar um pouco sobre o HTTP. Se você já manja sobre HTTP, pode pular para a parte de [URL](#url "URL").
 
@@ -32,7 +46,7 @@ No momento não vou aprofundar no Protocolo HTTP para voltarmos ao foco do post,
 
 
 
-## URL – Uniform Resource Locator
+## <a name='URLUniformResourceLocator'></a>URL – Uniform Resource Locator
 
 Em português: **Localizador de Recursos Universal** e como o próprio nome diz, se refere ao local, o Host que você quer acessar determinado recurso. O objetivo da URL é associar um endereço remoto com um nome de recurso na Internet.
 
@@ -46,7 +60,7 @@ Ou seja, acessando esses endereços você cai no servidor onde está minha pág
 
 **A URL é parte da URI.**
 
-## URN – Uniform Resource Name
+## <a name='URNUniformResourceName'></a>URN – Uniform Resource Name
 
 Em português: **Nome de Recursos Universal** é o nome do recurso que será acessado e **também fará parte da URI**.
 
@@ -58,7 +72,7 @@ Em português: **Nome de Recursos Universal** é o nome do recurso que será ac
 
 Outro ex.: /api/v01/exemplo/usuarios
 
-## URI – Uniform Resource Identifier
+## <a name='URIUniformResourceIdentifier'></a>URI – Uniform Resource Identifier
 
 Em português: **Identificador de Recursos Universal**, como diz o próprio nome, é o identificador do recurso. Pode ser uma imagem, uma página, etc, pois tudo o que está disponível na internet precisa de um identificador único para que não seja confundido.
 

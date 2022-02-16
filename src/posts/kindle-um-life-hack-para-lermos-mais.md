@@ -14,9 +14,23 @@ A algum tempo eu adquiri um dispositivo que resolveu este problema para mim: um 
 
 > Este artigo não é patrocinado pela Amazon, viu! Eu que gosto muito do aparelho e gostaria de te ajudar a se decidir, caso você esteja pensando em comprar um.
 
+<!-- vscode-markdown-toc -->
+* [Vantagens do Kindle](#VantagensdoKindle)
+* [Economia](#Economia)
+* [Extensão: enviar para o Kindle](#Extenso:enviarparaoKindle)
+* [Experiência de leitura](#Experinciadeleitura)
+* [Você vai ler mais](#Vocvailermais)
+* [Desvantagem do Kindle](#DesvantagemdoKindle)
+* [Preços](#Preos)
+* [Conclusão](#Concluso)
 
+<!-- vscode-markdown-toc-config
+	numbering=false
+	autoSave=true
+	/vscode-markdown-toc-config -->
+<!-- /vscode-markdown-toc -->
 
-## Vantagens do Kindle
+## <a name='VantagensdoKindle'></a>Vantagens do Kindle
 
 Uma das maiores vantagens do Kindle, para mim, é o fato dele não ocupar muito espaço e ser extremamente leve. A versão mais simples do dispositivo pesa 161 g e o tamanho é bem reduzido: 160 x 115 x 9.1 mm.
 
@@ -36,7 +50,7 @@ Agora vem a maior vantagem: hoje eu carrego 143 livros + 20 artigos na mochila e
 
 Para organizar tudo isso temos a opção de organizar os livros em coleções (pastinhas) por assunto ou como você achar melhor.
 
-## Economia
+## <a name='Economia'></a>Economia
 
 Os livros na versão digital costumam ser mais baratos. 
 
@@ -50,7 +64,7 @@ A bateria dura horrores! Mesmo que eu leia todos os dias, pelo menos 2 horas por
 
 Além disso, comprar um livro digital é economizar papel, por consequência evitar um pouco do desmatamento que temos no nosso planeta. Prefira o digital, por favor :heart:.
 
-## Extensão: enviar para o Kindle
+## <a name='Extenso:enviarparaoKindle'></a>Extensão: enviar para o Kindle
 
 Algo muito legal é a possibilidade de pegarmos artigos que gostaríamos de ler durante o dia, mas não podemos por precisar entregar aquela feature complicada, e enviar para o Kindle para ler depois, em um momento mais oportuno.
 
@@ -60,7 +74,7 @@ Eu utilizo diariamente para pegar os artigos e ler no metrô.
 
 A extensão pode ser baixada neste link: [send to Kindle](https://www.amazon.com/gp/sendtokindle).
 
-## Experiência de leitura
+## <a name='Experinciadeleitura'></a>Experiência de leitura
 
 Muita gente, assim como eu fazia, diz que não gosta de ler em dispositivos celulares ou tablets. Acham a leitura no livro mais fluida, mais leve. Pois então, o Kindle é todo pensado nesta mesma experiência, não é um tablet e não funciona igual a um celular.
 
@@ -68,7 +82,7 @@ As fontes utilizadas no dispositivo são especialmente criadas para melhorar a e
 
 A pior parte de ler em tablets ou celulares, além de agredir nossa visão, é o fato das notificações nos incomodarem enquanto estamos lendo. No Kindle isso não vai acontecer, afinal ele só existe para leitura.
 
-## Você vai ler mais
+## <a name='Vocvailermais'></a>Você vai ler mais
 
 Com todas essas vantagens, algo que eu senti na pele foi o fato de que eu aumentei a quantidade de leitura em minha rotina.
 
@@ -76,11 +90,11 @@ No ano de 2018 eu li **43 livros**. Passando desde livros técnicos como "[Under
 
 E o mais legal é: quando a leitura se torna rotina, fica chato quando você está no transporte público, em uma fila ou quando temos um tempinho livre e não está lendo.
 
-## Desvantagem do Kindle
+## <a name='DesvantagemdoKindle'></a>Desvantagem do Kindle
 
 Acredito que a única desvantagem do gadget é o fato de não conseguirmos emprestar, como fazemos com livros físicos, dificultando nosso movimento pró doações de livros nas comunidades ([Doe um livro na comunidade que você participa](/posts/doe-livros-na-comunidade-que-você-participa/)).
 
-## Preços
+## <a name='Preos'></a>Preços
 
 Temos, no Brasil, as seguintes opções para comprar: 
 
@@ -90,7 +104,7 @@ Temos, no Brasil, as seguintes opções para comprar:
 | Paperwhite (com iluminação) |  [499,00](https://amzn.to/2XP2Cnx)  |
 | Oasis (modelo insano) | [1.149,00](https://amzn.to/2UCaiHy) |
 
-## Conclusão
+## <a name='Concluso'></a>Conclusão
 
 Acho extremamente legal se conseguirmos gastar uma graninha investindo em algo como o Kindle, que vai nos ajudar a ler mais e, com isso, melhorar diversos aspectos das nossas vidas, seja no âmbito profissional ou pessoal.
 

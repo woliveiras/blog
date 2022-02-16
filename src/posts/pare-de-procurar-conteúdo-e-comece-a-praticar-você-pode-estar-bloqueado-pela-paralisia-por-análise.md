@@ -36,7 +36,22 @@ Paralisia por análise, resumindo e simplificando muito, é a gente pensar demai
 
 Neste artigo vamos entender como superar esse bloqueio e finalmente colocar nossos planos em prática ou mesmo tirar nossas ideias do papel.
 
-## Como saber se estamos pensando demais e agindo pouco
+<!-- vscode-markdown-toc -->
+* [Como saber se estamos pensando demais e agindo pouco](#Comosaberseestamospensandodemaiseagindopouco)
+* [Como superar a paralisia por análise e começar a colocar os planos em prática](#Comosuperaraparalisiaporanliseecomearacolocarosplanosemprtica)
+	* [Prazos e metas](#Prazosemetas)
+	* [Sair da zona de conforto](#Sairdazonadeconforto)
+	* [Parar de se comparar](#Parardesecomparar)
+* [Conclusão](#Concluso)
+* [Referências](#Referncias)
+
+<!-- vscode-markdown-toc-config
+	numbering=false
+	autoSave=true
+	/vscode-markdown-toc-config -->
+<!-- /vscode-markdown-toc -->
+
+## <a name='Comosaberseestamospensandodemaiseagindopouco'></a>Como saber se estamos pensando demais e agindo pouco
 
 É bem complicado chegar aqui dizendo que você deve parar de pensar tanto e começar a colocar as coisas em prática. As vezes precisamos sim pensar mais antes de agir.
 
@@ -52,7 +67,7 @@ Exercícios são extremamente importantes para validar nosso conhecimento, mas s
 
 Isso acontece muito com os [requisitos das vagas de emprego](/posts/requisitos-para-vagas-front-end/)… Vemos aquela lista imensa, pegamos tudo aquilo para estudar e caímos no loop da análise por medo de mandar o currículo ou se candidatar na vaga e não bater as expectativas dos recrutadores.
 
-## Como superar a paralisia por análise e começar a colocar os planos em prática
+## <a name='Comosuperaraparalisiaporanliseecomearacolocarosplanosemprtica'></a>Como superar a paralisia por análise e começar a colocar os planos em prática
 
 A paralisia por análise acontece muito porque estamos com medo do novo, temos/pesquisamos/encontramos muita informação e por causa do perfeccionismo. Então temos que trabalhar em cima disso.
 
@@ -60,7 +75,7 @@ Precisamos colocar os pés no chão, tentar buscar um foco, montar metas e parar
 
 Vamos entender como fazer isso.
 
-### Prazos e metas
+### <a name='Prazosemetas'></a>Prazos e metas
 
 Procure criar metas pessoais sobre algo e coloque prazos para bater elas. Crie metas pequenas, claras e alcançáveis, para que você consiga perceber sua evolução e não ficar com aquela sensação de que não está aprendendo nada, de que não está conseguindo atingir as expectativas.
 
@@ -82,7 +97,7 @@ Então podemos pensar em pequenas metas alcançáveis e mensuráveis da seguinte
 
 A pessoa consegue garantir que irá estudar todos os dias por 30 minutos e depois vai sair da zona de conforto fazendo algo diferente do que viu lhe dando mais conforto ao ver um problema diferente do habitual em uma prova ou exercício prático para uma vaga.
 
-### Sair da zona de conforto
+### <a name='Sairdazonadeconforto'></a>Sair da zona de conforto
 
 Existem diversos sites com desafios de programação, existem diversos projetos [open source](/posts/contribuindo-para-projetos-open-source-no-github-mesmo-sendo-iniciante/) aguardando nossa contribuição e temos muitas ideias que nunca colocamos em prática. Que tal usar o que aprendeu para realizar isso?
 
@@ -97,7 +112,7 @@ Faça um exercício de autocrítica e se pergunte: por que você não faz isso q
 Ao aparecerem as respostas, tente se contradizer. Tente procurar soluções para os problemas que você diz ter. Você vai conseguir identificar se está se enganando ou se realmente tem algo que te limita de realizar o que tanto deseja.
 
 
-### Parar de se comparar
+### <a name='Parardesecomparar'></a>Parar de se comparar
 
 As pessoas que tendem a ser perfeccionistas costumam se comparar muito com outras que são referência na área.
 
@@ -113,7 +128,7 @@ Você nunca se sentirá capaz se continuar se comparando com outras pessoas. Tod
 
 Você precisa se focar em suas metas e prazos e nos exercícios práticos que você vai realizar. É isso que vai te tornar mais especialista e mais capaz.
 
-## Conclusão
+## <a name='Concluso'></a>Conclusão
 
 Espero que tenha ficado claro o que você precisa fazer para superar esse estado de bloqueio que a ansiedade e o medo trazem para nossa vida e que as dicas tenham sido úteis para o seu crescimento profissional e pessoal.
 
@@ -133,7 +148,7 @@ Não esqueça de se inscrever no meu canal e conferir minhas pesquisas sobre pro
 - [Canal no YouTube](https://www.youtube.com/c/WilliamOliveiraS)
 - [Pesquisas](/pesquisas)
 
-## Referências
+## <a name='Referncias'></a>Referências
 
 Referências, mais algumas informações e dicas sobre a paralisia por análise:
 

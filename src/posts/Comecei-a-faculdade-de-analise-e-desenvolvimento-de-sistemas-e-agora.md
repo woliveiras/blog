@@ -6,6 +6,20 @@ tags:
   - pensamentos
 description: Faculdade é importante para o desenvolvedor de software? Faculdade faz diferença no mercado de trabalho? Fazer ou não fazer faculdade?
 ---
+<!-- vscode-markdown-toc -->
+* [O conteúdo que algumas faculdades passam é desanimador](#Ocontedoquealgumasfaculdadespassamdesanimador)
+* [É necessário para mercado de trabalho, sim](#necessrioparamercadodetrabalhosim)
+* [Trabalho no exterior](#Trabalhonoexterior)
+* [Estruturação de conhecimento](#Estruturaodeconhecimento)
+* [Tá, mas e agora? E os Projetos?](#TmaseagoraEosProjetos)
+* [Está sendo legal](#Estsendolegal)
+
+<!-- vscode-markdown-toc-config
+	numbering=false
+	autoSave=true
+	/vscode-markdown-toc-config -->
+<!-- /vscode-markdown-toc -->
+
 Apesar de eu amar estudar, de coração, e ter conseguido pegar [minha própria rotina](/posts/como-alcancar-objetivos-rapidamente-nos-estudos/) de estudos, quem me conhece pessoalmente sabe que eu não gosto muito de faculdade. Eu tenho uma séria resistência com **diplomas**. 
 
 *[preconceito_mode=on]*
@@ -20,7 +34,7 @@ Eu, de verdade, não acho que uma faculdade seja motivo pra se achar o cara mais
 
 Sem possuir um diploma universitário eu entrei em [bons empregos](https://www.linkedin.com/in/william-oliveira) e, posteriormente, na [área que eu queria e gosto de atuar](/posts/um-ano-como-desenvolvedor-front-end/), [aprendi a contribuir](/posts/contribuindo-para-projetos-open-source-no-github-mesmo-sendo-iniciante/) e [contribuo em projetos open source](https://github.com/woliveiras), dentre diversas outras [conquistas diárias](/categoria/retrospectiva).
 
-## O conteúdo que algumas faculdades passam é desanimador
+## <a name='Ocontedoquealgumasfaculdadespassamdesanimador'></a>O conteúdo que algumas faculdades passam é desanimador
 
 O conteúdo que algumas faculdades passam não é lá muito bom. Algumas passam conteúdo completamente desatualizado e não vão passar algo que nós usamos hoje em dia como tecnologia principal. Fora a forma como os conteúdos são transmitidos para o aluno. Alguns professores conseguem ser bem pouco didáticos. Isso é triste.
 
@@ -32,7 +46,7 @@ Claro que existem bons professores que fazem [de tudo para ensinar algo legal](h
 
 Eu peço que, se você conhece um professor ou professora desse tipo, dê valor!
 
-## É necessário para mercado de trabalho, sim
+## <a name='necessrioparamercadodetrabalhosim'></a>É necessário para mercado de trabalho, sim
 
 Só que nem tudo na vida são amores...
 
@@ -44,7 +58,7 @@ Muitos dizem não ter preconceito contra os autodidatas, mas acontece com alguns
 
 Acontece que algumas pessoas autodidatas acabam não possuindo um bom nível de conhecimento técnico também, o que "queima" nossa turminha para os recrutadores. O problema vem dos dois lados. Infelizmente. Não podemos julgar um recrutador por esperar um diploma. Acaba sendo uma pequena garantia de que a pessoa conheça o mínimo.
 
-## Trabalho no exterior
+## <a name='Trabalhonoexterior'></a>Trabalho no exterior
 
 Observando algumas discussões nos foruns de desenvolvimento eu percebo que a galera diz que o inglês é *default* para arrumar um emprego no exterior, então só o inglês não vai ajudar tanto numa entrevista pra fora.
 
@@ -52,7 +66,7 @@ Podemos ver em alguns  [comentários](https://github.com/frontendbr/forum/issues
 
 
 
-## Estruturação de conhecimento
+## <a name='Estruturaodeconhecimento'></a>Estruturação de conhecimento
 
 Sim, falei que algumas faculdades transmitem um conteúdo ruim, mas não custa nada você observar bem a grade do curso antes de entrar, não é jovem? - Eu errei nisso na primeira vez.
 
@@ -64,7 +78,7 @@ A faculdade pode ajudar nisso. Estruturar em uma trilha o que você precisa sabe
 
 Se não quer fazer uma faculdade agora ou não pode fazer por algum motivo ($$), que tal entrar no site de alguma instituição e pegar a grade de estudos dos cursos para servir como guia para os seus?
 
-## Tá, mas e agora? E os Projetos?
+## <a name='TmaseagoraEosProjetos'></a>Tá, mas e agora? E os Projetos?
 
 Enfim. Eu tenho esse blog, participo de algumas [comunidades](https://github.com/training-center/mentoria) e vivo criando um [projetinho novo](https://github.com/woliveiras/__s) pra ajudar as pessoas de alguma maneira.
 
@@ -72,7 +86,7 @@ Sabemos que faculdade consome um bom tempo da nossa vida, como vão ficar esses 
 
 Simples, vou continuar na ativa, porém com pouco tempo disponível. Portanto, se eu demorar pra responder um comentário, basta aguardar. Se eu demorar mais ainda, me mande um email, por favor. :D
 
-## Está sendo legal
+## <a name='Estsendolegal'></a>Está sendo legal
 
 Eu acabei gostando muito do conteúdo que me foi passado no começo dessa faculdade e isso me surpreendeu. Estou empolgado para aprender muito e transmitir esse conhecimento adquirido por aqui ou de alguma [outra maneira](https://github.com/).
 

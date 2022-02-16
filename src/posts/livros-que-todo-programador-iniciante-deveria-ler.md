@@ -32,29 +32,50 @@ Caso você não queira ler cada recomendação, só ver uma lista e olhar a desc
 
 Agora vamos as recomendações!
 
-## [O universo da programação](https://www.casadocodigo.com.br/products/livro-universo-programacao)
+
+<!-- vscode-markdown-toc -->
+* [[O universo da programação](https://www.casadocodigo.com.br/products/livro-universo-programacao)](#Ouniversodaprogramaohttps:www.casadocodigo.com.brproductslivro-universo-programacao)
+* [[O programador apaixonado](https://www.casadocodigo.com.br/products/livro-programador-apaixonado)](#Oprogramadorapaixonadohttps:www.casadocodigo.com.brproductslivro-programador-apaixonado)
+* [[O guia do mestre programador](https://www.casadocodigo.com.br/products/livro-guia-mestre-programador)](#Oguiadomestreprogramadorhttps:www.casadocodigo.com.brproductslivro-guia-mestre-programador)
+* [[O codificador limpo](https://amzn.to/2E8cy3G)](#Ocodificadorlimpohttps:amzn.to2E8cy3G)
+* [[O programador pragmático](https://amzn.to/2WXWHMt)](#Oprogramadorpragmticohttps:amzn.to2WXWHMt)
+* [[Lógica de Programação - Crie seus primeiros programas usando Javascript e HTML](https://www.casadocodigo.com.br/products/livro-programacao)](#LgicadeProgramao-CrieseusprimeirosprogramasusandoJavascripteHTMLhttps:www.casadocodigo.com.brproductslivro-programacao)
+* [[Orientação a Objetos - Aprenda seus conceitos e suas aplicabilidades de forma efetiva](https://www.casadocodigo.com.br/products/livro-oo-conceitos)](#OrientaoaObjetos-Aprendaseusconceitosesuasaplicabilidadesdeformaefetivahttps:www.casadocodigo.com.brproductslivro-oo-conceitos)
+* [[Testes automatizados de software - Um guia prático](https://www.casadocodigo.com.br/products/livro-testes-de-software)](#Testesautomatizadosdesoftware-Umguiaprticohttps:www.casadocodigo.com.brproductslivro-testes-de-software)
+* [[Expressões Regulares: Uma Abordagem Divertida](https://amzn.to/2E6V7R7)](#ExpressesRegulares:UmaAbordagemDivertidahttps:amzn.to2E6V7R7)
+* [[Use a Cabeça! Padrões de Projetos](https://amzn.to/2TKNCEH)](#UseaCabeaPadresdeProjetoshttps:amzn.to2TKNCEH)
+* [Conclusão](#Concluso)
+
+<!-- vscode-markdown-toc-config
+	numbering=false
+	autoSave=true
+	/vscode-markdown-toc-config -->
+<!-- /vscode-markdown-toc -->
+
+
+## <a name='Ouniversodaprogramaohttps:www.casadocodigo.com.brproductslivro-universo-programacao'></a>[O universo da programação](https://www.casadocodigo.com.br/products/livro-universo-programacao)
 
 No livro eu tentei compilar tudo o que alguém precisa saber antes mesmo de começar a estudar para trabalhar com programação, contando desde como funcionam os softwares, o que é open source, comunidades, áreas de atuação até como conseguir freelas enquanto ainda está estudando programação.
 
 Estou recebendo excelentes feedbacks dizendo que eu realmente alcancei meu objetivo com a escrita, que é desmistificar a área de desenvolvimento e preparar a pessoa para tudo o que virá pela frente.
 
-## [O programador apaixonado](https://www.casadocodigo.com.br/products/livro-programador-apaixonado)
+## <a name='Oprogramadorapaixonadohttps:www.casadocodigo.com.brproductslivro-programador-apaixonado'></a>[O programador apaixonado](https://www.casadocodigo.com.br/products/livro-programador-apaixonado)
 
 Um livro que eu recomendo para qualquer momento de nossas carreiras. Eu mesmo gosto de revisar seu conteúdo, pois é escrito de uma maneira inspiradora e extremamente clara sobre como o mercado de tecnologia funciona e como podemos tomar boas decisões para o nosso futuro profissional.
 
-## [O guia do mestre programador](https://www.casadocodigo.com.br/products/livro-guia-mestre-programador)
+## <a name='Oguiadomestreprogramadorhttps:www.casadocodigo.com.brproductslivro-guia-mestre-programador'></a>[O guia do mestre programador](https://www.casadocodigo.com.br/products/livro-guia-mestre-programador)
 
 Outro livro que eu sempre recomendo devido a maneira como o autor nos ensina a buscar conteúdo por conta própria, como ele nos estimula a ser um(a) profissional com um certo diferencial de mercado.
 
-## [O codificador limpo](https://amzn.to/2E8cy3G)
+## <a name='Ocodificadorlimpohttps:amzn.to2E8cy3G'></a>[O codificador limpo](https://amzn.to/2E8cy3G)
 
 O principal ponto que eu posso comentar sobre este livro é como ele nos ensina ética focada em entrega de código. Bob Martin (autor bem conhecido na área de programação), começa o livro nos dando um choque de realidade de como nossas decisões de engenharia podem tanto causar grande impacto positivos quanto tirar vidas de pessoas inocentes. Com este livro você vai entender o quão importante é escrevermos código pensando nas pessoas que vão utilizar o software e não na máquina ou lucros que a empresa terá com o produto final.
 
-## [O programador pragmático](https://amzn.to/2WXWHMt)
+## <a name='Oprogramadorpragmticohttps:amzn.to2WXWHMt'></a>[O programador pragmático](https://amzn.to/2WXWHMt)
 
 Assim como o livro [Clean Code](https://amzn.to/2QfW5lF) (“Código Limpo”), que é diferente do que citei anteriormente, o Clean Coder (“O codificador limpo”), este livro foca em práticas de programação que podem nos ajudar a evitar muita dor de cabeça no futuro. Assim como um code review, o conteúdo desta obra pode nos ajudar a refletir bastante sobre algumas armadilhas que armamos contra nós mesmos(as) durante o desenvolvimento de software.
 
-## [Lógica de Programação - Crie seus primeiros programas usando Javascript e HTML](https://www.casadocodigo.com.br/products/livro-programacao)
+## <a name='LgicadeProgramao-CrieseusprimeirosprogramasusandoJavascripteHTMLhttps:www.casadocodigo.com.brproductslivro-programacao'></a>[Lógica de Programação - Crie seus primeiros programas usando Javascript e HTML](https://www.casadocodigo.com.br/products/livro-programacao)
 
 Eu sempre recomendo JavaScript como a linguagem de programação inicial para pessoas que querem aprender a desenvolver software **hoje em dia**. Isso porque a quantidade de material disponível na internet é imensa e a quantidade de ferramentas iniciais para começar a programar com essa tecnologia é mínima. Com um navegador e um editor de textos você já começa a fazer magias computacionais.
 
@@ -62,23 +83,23 @@ Neste livro temos a facilidade da linguagem junto com a abordagem prática do Pa
 
 Se você quiser, existe um curso de programação inteiro, gratuito, que também utiliza JavaScript como linguagem base para você seguir: [aprender programação do iniciante ao avançado com um curso focado no mercado de trabalho](/posts/aprender-programação-do-iniciante-ao-avançado-com-um-curso-focado-no-mercado-de-trabalho/).
 
-## [Orientação a Objetos - Aprenda seus conceitos e suas aplicabilidades de forma efetiva](https://www.casadocodigo.com.br/products/livro-oo-conceitos)
+## <a name='OrientaoaObjetos-Aprendaseusconceitosesuasaplicabilidadesdeformaefetivahttps:www.casadocodigo.com.brproductslivro-oo-conceitos'></a>[Orientação a Objetos - Aprenda seus conceitos e suas aplicabilidades de forma efetiva](https://www.casadocodigo.com.br/products/livro-oo-conceitos)
 
 Por mais que hoje em dia se fala muito de programação funcional, orientação a objetos ainda é o paradigma de programação mais importante que vamos precisar conhecer. Isso porque nem todo sistema legado é escrito de maneira funcional, não são todas as linguagens que estão indo por este caminho e não é toda empresa que vamos trabalhar que usou o paradigma em seus sistemas. Portanto deixe de resistência (se você tiver) e vá aprender OOP!
 
-## [Testes automatizados de software - Um guia prático](https://www.casadocodigo.com.br/products/livro-testes-de-software)
+## <a name='Testesautomatizadosdesoftware-Umguiaprticohttps:www.casadocodigo.com.brproductslivro-testes-de-software'></a>[Testes automatizados de software - Um guia prático](https://www.casadocodigo.com.br/products/livro-testes-de-software)
 
 Quando as pessoas me perguntam qual foi o ponto mais importante que eu aprendi na minha carreira, algo que realmente melhorou a maneira como eu desenvolvo, foi aprender sobre [qualidade de software](https://amzn.to/2WSeB38) e testes está dentro desse tópico. O legal deste livro é que ele apresenta, além dos conceitos testes, o TDD (test driven development), que é uma maneira diferente de se programar sendo guiado(a) pelos testes.
 
-## [Expressões Regulares: Uma Abordagem Divertida](https://amzn.to/2E6V7R7)
+## <a name='ExpressesRegulares:UmaAbordagemDivertidahttps:amzn.to2E6V7R7'></a>[Expressões Regulares: Uma Abordagem Divertida](https://amzn.to/2E6V7R7)
 
 Existe um ditado do meio de programação que é: “quando escrevemos uma expressão regular teremos dois problemas: o que estávamos tentando resolver com a expressão regular e a expressão regular”. Mexer com regex não é tão legal de se aprender, muito conteúdo na internet tenta ensinar e falha miseravelmente por conta de passar os exemplos práticos de maneira rasa. Neste livro, além de termos uma bela introdução e aprofundamento sobre o assunto, ainda aprendemos de maneira divertida com os exemplos apresentados pelo autor.
 
-## [Use a Cabeça! Padrões de Projetos](https://amzn.to/2TKNCEH)
+## <a name='UseaCabeaPadresdeProjetoshttps:amzn.to2TKNCEH'></a>[Use a Cabeça! Padrões de Projetos](https://amzn.to/2TKNCEH)
 
 Este livro, além de importante, é bem caro e por isso que ele está tão para frente. Acredito que, quando você quiser aprender padrões de projetos na prática, você já deverá estar trabalhando com programação, escrevendo código ruim, sem padrões e precisando enfim colocar em prática o que leu nos livros O codificador limpo e O programador pragmático e agora consegue bancar essa aquisição. Ele é bem recomendado por não ser algo tão “chato” de se ler quanto seria a leitura de [Padrões de Projetos: soluções reutilizáveis de software orientados a objetos](https://amzn.to/2I89GYM). Digo chato porque o livro é muito mais profundo do que o Use a Cabeça!, que tem uma abordagem mais prática e divertida.
 
-## Conclusão
+## <a name='Concluso'></a>Conclusão
 
 Agora que você já tem um caminho para seguir, partindo de conceitos não técnicos, carreira e passando por tudo o que uma pessoa desenvolvedora precisa aprender, basta reservar um tempo para estudar, não esquecer de praticar muito e depois partir para os tópicos avançados de programação e engenharia de software.
 

@@ -17,7 +17,24 @@ Em busca de uma alternativa encontrei o [Hexo](https://hexo.io) e, um pouco depo
 
 Bora conhecer ela e como foi a migração de WordPress para Hexo?
 
-## Levantando as necessidades
+
+<!-- vscode-markdown-toc -->
+* [Levantando as necessidades](#Levantandoasnecessidades)
+* [Como escrever os posts](#Comoescreverosposts)
+* [Migrando os posts do WordPress para o Hexo](#MigrandoospostsdoWordPressparaoHexo)
+* [Gerando o RSS](#GerandooRSS)
+* [Comentários](#Comentrios)
+* [Hospedagem](#Hospedagem)
+* [Domínio](#Domnio)
+
+<!-- vscode-markdown-toc-config
+	numbering=false
+	autoSave=true
+	/vscode-markdown-toc-config -->
+<!-- /vscode-markdown-toc -->
+
+
+## <a name='Levantandoasnecessidades'></a>Levantando as necessidades
 
 Antes de migrar nosso Blog(Ou o de um cliente) de uma plataforma para outra precisamos fazer um levantamento para que não tenha impacto negativo como perder os posts que já existem ou alguma funcionalidade importante aos leitores.
 
@@ -25,7 +42,7 @@ Minha primeira preocupação foi com os posts que eu já havia escrito, mas no p
 
 As dicas sobre instalação do Hexo você encontra no Blog do [Daciuk](https://blog.da2k.com.br/2014/01/05/hexo-criando-um-blog-ao-estilo-miojo/) e no Blog do [Willian Santos](https://dwoond.github.io/Criando-seu-site-com-Hexo/).
 
-## Como escrever os posts
+## <a name='Comoescreverosposts'></a>Como escrever os posts
 
 Os posts no Hexo funcionam como em qualquer outro gerador estático. Escrevemos em Markdown e a postagem é gerada em HTML.
 
@@ -33,7 +50,7 @@ Markdown não é difícil e podemos usar algumas ferramentas boas que auxiliam n
 
 
 
-## Migrando os posts do WordPress para o Hexo
+## <a name='MigrandoospostsdoWordPressparaoHexo'></a>Migrando os posts do WordPress para o Hexo
 
 Basta instalar o plugin **hexo-migrator-wordpress** com o comando:
 
@@ -61,7 +78,7 @@ hexo migrate wordpress <caminho onde está o arquivo gerado pelo WP>
 E todas as suas postagens serão importadas. O que estava em rascunho vai ficar em rascunho o que foi postado será postado normalmente.
 Só uma coisa ruim de tudo isso: O WordPress gera o .xml com caminhos absolutos em imagens ou outras mídias que você tenha inserido na postagem, então é bom revisar as postagens para ver se não quebrou alguma coisa. ~~Por isso que eu vou demorar um pouco para subir as postagens antigas aqui pro blog.~~
 
-## Gerando o RSS
+## <a name='GerandooRSS'></a>Gerando o RSS
 
 Basta colocar essa linha no seu arquivo de configuração do Blog(O _config.yml):
 
@@ -73,7 +90,7 @@ feed:
   limit: você escolhe ;)
 ```
 
-## Comentários
+## <a name='Comentrios'></a>Comentários
 
 Como eu já utilizava uma plataforma de comentários que é o [Disqus](https://disqus.com/) ficou fácil manter os comentários lá. :)
 Basta adicionar o shortname(Que você encontra nas configurações do seu site no Disqus) do site no arquivo de configuração:
@@ -83,7 +100,7 @@ Basta adicionar o shortname(Que você encontra nas configurações do seu site n
 disqus_shortname: <shortname>
 ```
 
-## Hospedagem
+## <a name='Hospedagem'></a>Hospedagem
 
 Como é puro HTML, você pode hospedar em qualquer lugar! Muita gente usa o Github pages e eu também coloquei para lá.
 Basta configurar o deploy para o caminho do seu servidor:
@@ -98,7 +115,7 @@ deploy:
 
 E, assim que executar o comando hexo deploy, o site estará atualizado.
 
-## Domínio
+## <a name='Domnio'></a>Domínio
 
 Você pode usar seu próprio domínio ou deixar com o .github.io, depende só de você. ;)
 Para ter seu próprio domínio você pode seguir esses passos do [Willian Justen](https://willianjusten.com.br/dominio-proprio-no-github-pages/)(Quanto Willian/m em um só post...)

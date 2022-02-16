@@ -31,8 +31,18 @@ Seria a pessoa fullstack **um mito**, **um pato** ou só mais uma **pessoa desen
 Vamos pensar sobre esse assunto.
 
 
+<!-- vscode-markdown-toc -->
+* [Mito ou pato, o que é ser desenvolvedor(a) fullstack?](#Mitooupatooqueserdesenvolvedorafullstack)
+* [Conclusão](#Concluso)
 
-## Mito ou pato, o que é ser desenvolvedor(a) fullstack?
+<!-- vscode-markdown-toc-config
+	numbering=false
+	autoSave=true
+	/vscode-markdown-toc-config -->
+<!-- /vscode-markdown-toc -->
+
+
+## <a name='Mitooupatooqueserdesenvolvedorafullstack'></a>Mito ou pato, o que é ser desenvolvedor(a) fullstack?
 
 Visando responder essa pergunta eu fiz um vídeo para o meu canal comentando o que realmente é uma pessoa desenvolvedora fullstack. Confere aí!
 
@@ -44,7 +54,7 @@ Esse modelo de habilidades é chamado de **t-shaped skills** e é bem estimulado
 
 Isso não significa que ser fullstack seja uma tendência e que todo mundo deva se mover para isso. Empresas muito maneiras também contratam especialistas e estão criando coisas incríveis assim, como Facebook, que criou o Reactjs, Netflix, que possui muito conteúdo direcionado as camadas de frontend e infra. Devemos analisar o nosso contexto e daí sim tomar uma decisão.
 
-## Conclusão
+## <a name='Concluso'></a>Conclusão
 
 O mais importante é entendermos que não, uma pessoa desenvolvedora fullstack não é um pato. Ela consegue trabalhar em qualquer camada da stack do produto, assim como ser especialista em alguma dessas camadas.
 

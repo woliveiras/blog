@@ -8,6 +8,19 @@ date: '2014-11-10'
 description: Instalação do LAMP (Linux, Apache, MySQL e PHP)
 ---
 
+<!-- vscode-markdown-toc -->
+* [Instalação do MySQL](#InstalaodoMySQL)
+* [Instalação do Apache](#InstalaodoApache)
+* [Instalação do PHP](#InstalaodoPHP)
+* [XDebug](#XDebug)
+* [PHPMyAdmin](#PHPMyAdmin)
+
+<!-- vscode-markdown-toc-config
+	numbering=false
+	autoSave=true
+	/vscode-markdown-toc-config -->
+<!-- /vscode-markdown-toc -->
+
 Apesar de muita gente estar migrando para o [Nginx](https://pt.wikipedia.org/wiki/Nginx "Nginx"), muitos começam os estudos em PHP usando [Apache](https://pt.wikipedia.org/wiki/Servidor_Apache "Apache"), [MySQL](https://pt.wikipedia.org/wiki/MySQL "MySQL") e [Linux](https://pt.wikipedia.org/wiki/Linux "Linux") no servidor de hospedagem ou localmente - Se você é usuário Windows, eu recomendo fortemente a utilização do [Vagrant](https://woliveiras.com.br/tags/Vagrant/ "Crie e compartilhe ambientes com o Vagrant (Instalação)") para que você use o Linux em uma VM e aprenda um pouco sobre o S.O. durante seus estudos. Isso fará diferença para você conhecer melhor seu próprio servidor de Hospedagem, já que a maioria é Linux.
 
 Esse conjunto de itens é que recebe o nome de LAMP (**L** inux, **A** pache, **M** ySQL e **P** HP).
@@ -24,7 +37,7 @@ No Debian, você pode ter alguma dificuldade com pacotes durante a instalação 
 
 
 
-## Instalação do MySQL
+## <a name='InstalaodoMySQL'></a>Instalação do MySQL
 
 Abra seu terminal e execute o seguinte comando:
 
@@ -34,7 +47,7 @@ sudo apt-get install mysql-client mysql-server mysql-common
 
 Siga as telas que lhe surgirão. Durante a instalação será solicitado uma senha para o Usuário root. Se for uma instalação local, não precisa esquentar a cabeça com uma senha difícil, se for uma instalação remota, coloca uma senha boa ai mermão!!!
 
-## Instalação do Apache
+## <a name='InstalaodoApache'></a>Instalação do Apache
 
 Abra seu terminal e execute o seguinte comando:
 
@@ -44,7 +57,7 @@ sudo apt-get install -y apache2
 
 Simples né? ;D
 
-## Instalação do PHP
+## <a name='InstalaodoPHP'></a>Instalação do PHP
 
 Esse comando é grandinho por que possui algumas bibliotecas que eu uso para desenvolvimento com base no que eu já usei até hoje, portanto se você ver alguma que não deseja utilizar, basta remover dessa linha e executar.
 
@@ -62,13 +75,13 @@ sudo /etc/init.d/apache2 restart
 
 Alguns componentes importantes para seus estudos e para desenvolvimento também:
 
-## XDebug
+## <a name='XDebug'></a>XDebug
 
 ```bash
 sudo apt-get install php5-xdebug
 ```
 
-## PHPMyAdmin
+## <a name='PHPMyAdmin'></a>PHPMyAdmin
 
 ```bash
 sudo apt-get install -y phpmyadmin

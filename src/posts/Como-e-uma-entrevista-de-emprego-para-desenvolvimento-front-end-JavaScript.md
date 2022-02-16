@@ -6,6 +6,20 @@ tags:
     - frontend
 description: Como é uma entrevista de emprego para desenvolvedores front end e JavaScript. Um relato sobre as entrevistas que já participei.
 ---
+<!-- vscode-markdown-toc -->
+* [O medo das entrevistas](#Omedodasentrevistas)
+* [A preparação prática](#Apreparaoprtica)
+* [Aceitar ou não uma oportunidade](#Aceitarounoumaoportunidade)
+* [Como foram as entrevistas que participei até agora](#Comoforamasentrevistasqueparticipeiatagora)
+* [Nem tudo são flores](#Nemtudosoflores)
+* [Conclusão](#Concluso)
+
+<!-- vscode-markdown-toc-config
+	numbering=false
+	autoSave=true
+	/vscode-markdown-toc-config -->
+<!-- /vscode-markdown-toc -->
+
 
 Muita gente me pergunta como é uma entrevista de emprego para a área de desenvolvimento front end ou JavaScript.
 
@@ -15,7 +29,7 @@ Nesse post vou contar um pouco da minha experiência com algumas entrevistas.
 
 Senta que lá vem história.
 
-## O medo das entrevistas
+## <a name='Omedodasentrevistas'></a>O medo das entrevistas
 
 Quando você nunca fez uma entrevista de emprego é extremamente normal ficar com medo. Ainda mais depois de estudar tanto e fazer tantos testes ou exercícios práticos.
 
@@ -27,7 +41,7 @@ Parece que quem redigiu a vaga pesquisou linguagens de programação no Google e
 
 Depois de algum tempo como [desenvolvedor Front End - JavaScript](/posts/um-ano-como-desenvolvedor-front-end/) posso dizer que já passei por algumas entrevistas bem assustadoras e outras nem tanto.
 
-## A preparação prática
+## <a name='Apreparaoprtica'></a>A preparação prática
 
 Antes de qualquer teste prático você precisa se preparar, uma entrevista é quase a mesma coisa, porém valendo um emprego.
 
@@ -49,7 +63,7 @@ Aqui temos diversas questões legais que você pode analisar e entender seu nív
 
 E aqui alguns requisitos da área de Front End que a comunidade selecionou: [Carreira Front End](https://github.com/woliveiras/front-end-career).
 
-## Aceitar ou não uma oportunidade
+## <a name='Aceitarounoumaoportunidade'></a>Aceitar ou não uma oportunidade
 
 Antes mesmo de ir fazer a entrevista é interessante analisar qual o tipo de empresa te chamou, o que eles fazem, como fazem, qual a cultura organizacional, etc, qualquer coisa que te ajude a conhecer a empresa. Analise bem isso antes aceitar qualquer emprego por desespero ou por um salário mais alto. Afinal, se você não gostar da empresa pode recusar logo e não perder seu tempo nem o dos recrutadores.
 
@@ -72,7 +86,7 @@ Claro que até aqui eu não levei em conta o momento financeiro de cada um. Se v
 
 
 
-## Como foram as entrevistas que participei até agora
+## <a name='Comoforamasentrevistasqueparticipeiatagora'></a>Como foram as entrevistas que participei até agora
 
 As entrevistas variam muito de empresa para empresa, de líder técnico/gerente/equipe. Não tem como eu dizer exatamente como serão todas as suas entrevistas, porém vou dizer como foram as minhas.
 
@@ -110,7 +124,7 @@ Pois bem, deu tudo certo e eu entrei na empresa.
 
 Mas, claro, essas foram as entrevistas que deram certo, agora deixa eu te contar um pouco sobre as entrevistas que fui mal.
 
-## Nem tudo são flores
+## <a name='Nemtudosoflores'></a>Nem tudo são flores
 
 Antes das entrevistas darem certo eu passei por algumas outras que não foram tão legais ou que eu não me sai tão bem. Foram várias, várias mesmo e não da para contar todas aqui, mas vou deixar as que mais me marcaram ou ensinaram algo.
 
@@ -148,7 +162,7 @@ Essa entrevista foi demais! Foi em um almoço com os responsáveis pelo desenvol
 
 Mas mesmo assim essa conversa me desclassificou. Adivinha… A conversa era em inglês e meu inglês não estava lá essas coisas.
 
-## Conclusão
+## <a name='Concluso'></a>Conclusão
 
 Independente do resultado de sua entrevista de emprego, nunca desista de correr atrás de seu objetivo. Se você quer trabalhar como Front End, vá atrás, se é Back End, vá atrás.
 

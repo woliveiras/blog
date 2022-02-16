@@ -13,18 +13,34 @@ Se você, assim como eu, atualizou a versão do Node instalado em sua máquina p
 
 Existe uma ferramenta muito legal chamada [NVM (Node version manager)](https://github.com/creationix/nvm "Projeto NVM") que serve para trabalhar com mais de uma versão do Node isoladamente, parecido com o [Virtualenv](https://docs.python-guide.org/en/latest/dev/virtualenvs/) para Python.
 
-## Instalação do NVM
+<!-- vscode-markdown-toc -->
+* [Instalação do NVM](#InstalaodoNVM)
+	* [Instalação das dependências](#Instalaodasdependncias)
+	* [Instalação do NVM](#InstalaodoNVM-1)
+* [Instalando versões isoladas do Nodejs](#InstalandoversesisoladasdoNodejs)
+* [Alternado as versões do Nodejs](#AlternadoasversesdoNodejs)
+* [Deixando uma versão como padrão](#Deixandoumaversocomopadro)
+* [Utilizando o .nvmrc para especificar a versão](#Utilizandoo.nvmrcparaespecificaraverso)
+* [Rferências](#Rferncias)
+
+<!-- vscode-markdown-toc-config
+	numbering=false
+	autoSave=true
+	/vscode-markdown-toc-config -->
+<!-- /vscode-markdown-toc -->
+
+## <a name='InstalaodoNVM'></a>Instalação do NVM
 
 Se você utiliza Linux Ubuntu/Debian ou derivados execute os seguintes comandos no seu terminal para instalação do NVM:
 
-### Instalação das dependências
+### <a name='Instalaodasdependncias'></a>Instalação das dependências
 
 ```bash
 sudo apt-get update
 sudo apt-get install build-essential libssl-dev
 ```
 
-### Instalação do NVM
+### <a name='InstalaodoNVM-1'></a>Instalação do NVM
 
 ```bash
 curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.26.1/install.sh | bash
@@ -38,7 +54,7 @@ Para conseguir utilizar o NVM você precisa efetuar Logoff em seu Sistema. Se n�
 
 
 
-## Instalando versões isoladas do Nodejs
+## <a name='InstalandoversesisoladasdoNodejs'></a>Instalando versões isoladas do Nodejs
 
 Para encontrar as versões disponíveis para instalação você pode executar o comando:
 
@@ -60,7 +76,7 @@ No meu caso eu precisava da versão 0.12 para executar o Hexo, então executei `
 
 ![nvm install versao]({{site.postsImagesPath}}nvm-install-v.png)
 
-## Alternado as versões do Nodejs
+## <a name='AlternadoasversesdoNodejs'></a>Alternado as versões do Nodejs
 
 O NVM vai executar a versão mais recente que estiver instalada por padrão, então, para executar outra versão, você precisa executar o comando:
 
@@ -84,7 +100,7 @@ nvm ls
 
 Para ver a lista das versões.
 
-## Deixando uma versão como padrão
+## <a name='Deixandoumaversocomopadro'></a>Deixando uma versão como padrão
 
 Se quiser setar uma versão anterior como padrão e não a mais atual, basta rodar:
 
@@ -114,7 +130,7 @@ Para instalar a última versão do Node junto as antigas você pode fazer:
 nvm install stable
 ```
 
-## Utilizando o .nvmrc para especificar a versão
+## <a name='Utilizandoo.nvmrcparaespecificaraverso'></a>Utilizando o .nvmrc para especificar a versão
 
 Quando você compartilha seu código, em algum momento será necessário especificar a versão do Node que seu projeto precisa. Você pode fazer isso através de um arquio .nvmrc ao invés de deixar em algum local como um README. - Evitando também que a outra pessoa esqueça de rodar um `nvm use versao`.
 
@@ -132,7 +148,7 @@ Então basta rodar o comando `nvm install` e a versão especificada no arquivo s
 
 ![nvm install a partir do .nvmrc]({{site.postsImagesPath}}nvm-install-nvmrc.png)
 
-## Rferências
+## <a name='Rferncias'></a>Rferências
 
 - [Digital Ocean](https://www.digitalocean.com/community/tutorials/how-to-install-node-js-with-nvm-node-version-manager-on-a-vps "Install Node and NVM on a VPS Digital Ocean.").
 - [Repositório](https://github.com/creationix/nvm "NVM").

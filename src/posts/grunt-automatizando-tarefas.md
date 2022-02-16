@@ -7,13 +7,27 @@ date: '2014-12-18'
 description: Automatizando tarefas com o Grunt
 ---
 
+<!-- vscode-markdown-toc -->
+* [O que é o Grunt?](#OqueoGrunt)
+* [Instalação](#Instalao)
+* [Configurando as tarefas](#Configurandoastarefas)
+	* [Package.json](#Package.json)
+	* [Gruntfile.js](#Gruntfile.js)
+* [Dica: O que é instalação Local e Global](#Dica:OqueinstalaoLocaleGlobal)
+
+<!-- vscode-markdown-toc-config
+	numbering=false
+	autoSave=true
+	/vscode-markdown-toc-config -->
+<!-- /vscode-markdown-toc -->
+
 Todo processo de desenvolvimento possui algumas tarefas repetitivas como testes, minificação de arquivos, concatenação de arquivos para conseguir modularizar algo, etc.
 
-## O que é o Grunt?
+## <a name='OqueoGrunt'></a>O que é o Grunt?
 
 O Grunt é um automatizador de tarefas. Você configura de acordo com o seu [Workflow](https://pt.wikipedia.org/wiki/Fluxo_de_trabalho "Fluxo de trabalho") e deixa ele fazendo essas tarefas repetificas para você. [Mais detalhes sobre o Gruntjs aqui.](https://gruntjs.com/ "Gruntjs").
 
-## Instalação
+## <a name='Instalao'></a>Instalação
 
 Será necessário possuir o Node.js e o NPM instalados em sua máquina. Se não possuir o Nodejs instalado eu recomendo seguir esse tutorial para instalar com o NVM, um [wrapper](https://pt.wikipedia.org/wiki/Wrapper "O que é um Wrapper") para a instalação do Node com separação de versões, parecido com o [Virtualenv](https://virtualenv.pypa.io "Virtualenv Python").
 
@@ -31,9 +45,9 @@ Agora é necessário configurar as tarefas que o Grunt irá executar.
 
 
 
-## Configurando as tarefas
+## <a name='Configurandoastarefas'></a>Configurando as tarefas
 
-### Package.json
+### <a name='Package.json'></a>Package.json
 
 Primeiro, **no diretório do seu projeto**, será necessário possuir o **package.json**, aquele arquivinho de dependências do NPM, pois todo plugin do Grunt que você instalar precisa ser referenciado como dependência nesse arquivo. Isso vai diminuir muito seu trampo depois, pois só com um comando **npm install** será tudo instalado, ao invés de ficar rodando tudo de novo.
 
@@ -59,7 +73,7 @@ Para que o Grunt funcione, você precisa telo instalado no projeto (Você tem um
 npm install grunt --save-dev
 ```
 
-### Gruntfile.js
+### <a name='Gruntfile.js'></a>Gruntfile.js
 
 Depois disso, temos tudo pronto para começar a baixar os plugins e configurar o Grunt para rodar eles. A configuração das tarefas do Grunt ficam no arquivo **Gruntfile.js** e você pode criar ele, também, no ~~Sublime~~ seu editor favorito ou com o comando **grunt init**.
 
@@ -110,7 +124,7 @@ grunt.registerTask('default', ['uglify', 'cssmin']);
 
 Um exemplo completo de arquivo Gruntfile.js e, também, do package.json pode ser encontrado aqui no meu boilerplate, o Pastel: https://github.com/woliveiras/pastel
 
-## Dica: O que é instalação Local e Global
+## <a name='Dica:OqueinstalaoLocaleGlobal'></a>Dica: O que é instalação Local e Global
 
 Global é a instalação do Plugin em seu sistema operacional. Assim ele fica disponível em qualquer projeto bastando executar o comando respectivo, como exemplo do [Bower](https://woliveiras.com.br/posts/olha-o-passarinho-falando-sobre-o-bower/ "Olha o passarinho! (Falando sobre o Bower)").
 Local é a instalação do plugin em seu projeto - Na pasta do seu projeto.

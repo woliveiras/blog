@@ -15,7 +15,20 @@ Minha história com [Linux](https://pt.wikipedia.org/wiki/Linux "O que é Linux
 
 Desde lá passei por várias distros como [Debian](https://www.debian.org/index.pt.html "Debian"), [Arch](https://www.archlinux.org/ "Arch"), [Fedora](https://getfedora.org/ "Fedora"), [OpenSUSE](https://pt.opensuse.org/Bem-vindo_ao_openSUSE.org "OpenSUSE"), [Ubuntu](https://www.ubuntu.com/ "Ubuntu") (Que eu uso atualmente), [ElementaryOS](https://elementaryos.org/ "ElementaryOS") e alguns que eu nem lembro o nome! E nesse artigo vou tentar te orientar um pouco sobre esse mundo maneiro do Open Source e do Software Livre ou Free.
 
-## Open Source, Livre, Gratuito, qual a diferença?
+
+<!-- vscode-markdown-toc -->
+* [Open Source, Livre, Gratuito, qual a diferença?](#OpenSourceLivreGratuitoqualadiferena)
+* [O que é uma "Distro" (Distribuição Linux)?](#OqueumaDistroDistribuioLinux)
+* [E por que eu deveria usar Linux então?](#EporqueeudeveriausarLinuxento)
+* [Como começar com o Linux?](#ComocomearcomoLinux)
+
+<!-- vscode-markdown-toc-config
+	numbering=false
+	autoSave=true
+	/vscode-markdown-toc-config -->
+<!-- /vscode-markdown-toc -->
+
+## <a name='OpenSourceLivreGratuitoqualadiferena'></a>Open Source, Livre, Gratuito, qual a diferença?
 
 Daria pra escrever uma Bíblia sobre o assunto, mas é melhor você dar uma lida [nesse artigo](https://www.infowester.com/freexopen.php "Software livre, código aberto e software gratuito: as diferenças") e olhar [esse site](https://softwarelivre.org/open-source-codigo-aberto "Software Livre Brasil") para entender sobre o assunto.
 
@@ -25,11 +38,11 @@ Eu gosto do Open Source por que sou livre para editar o meu Sistema Operacional 
 
 
 
-## O que é uma "Distro" (Distribuição Linux)?
+## <a name='OqueumaDistroDistribuioLinux'></a>O que é uma "Distro" (Distribuição Linux)?
 
 A [Distro](https://pt.wikipedia.org/wiki/Distribui%C3%A7%C3%A3o_Linux "Distribuição Linux") é um conjunto do core Linux com alguns softwares formando o Sistema Operacional que você vai utilizar. No exemplo dos <a href="#distros">nomes que eu sitei</a> temos algumas das principais Distros do mercado atual, fora o [Mint](https://www.linuxmint.com/ "Linux Mint") e [Ubuntu Gnome](https://ubuntugnome.org/ "Ubuntu Gnome").
 
-## E por que eu deveria usar Linux então?
+## <a name='EporqueeudeveriausarLinuxento'></a>E por que eu deveria usar Linux então?
 
 Se você é Desenvolvedor, use pelo conhecimento da arquitetura do Sistema Operacional que, muitas vezes, será usado nos servidores que vão armazenar sua aplicação. Com o Linux você pode conseguir ser mais produtivo. - Claro que se você é produtivo no Windows e quer continuar, não tem problema, mas por que não testar outro? Vai que...
 
@@ -43,7 +56,7 @@ Temos de ser razoáveis... Fazer gambiarra pra um software funcionar só pra diz
 
 Se você se sentir forçado a usar Linux, então já está quebrando o sentido do incentivoao teste. É para usar Linux para ser livre!
 
-## Como começar com o Linux?
+## <a name='ComocomearcomoLinux'></a>Como começar com o Linux?
 
 Pesquise no Googlis sobre as distribuições disponíveis no mercado e como cada uma é utilizada. Saiba como elas funcionam e o ciclo de atualizações, Softwares compatíveis (É raro um software que funcione em uma distro não funcionar na outra, porém vai que...), se você não manja de Inglês, veja se tem Documentação em PT-BR.
 

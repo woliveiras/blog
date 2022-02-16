@@ -14,11 +14,12 @@ Se você não viu a primeira parte dessa sequência, clique [aqui](/posts/uma-ra
 
 E a segunda parte, [aqui](/posts/imagem-docker-ou-um-container-docker/)
 
-## Sumário
+## <a name='Sumrio'></a>Sumário
 
 Caso você queira pular para algum comando específico.
 
 <!-- vscode-markdown-toc -->
+* [Sumário](#Sumrio)
 * [Como eu sei quais as imagens disponíveis no meu repositório local?](#Comoeuseiquaisasimagensdisponveisnomeurepositriolocal)
 * [Como adicionar imagens locais?](#Comoadicionarimagenslocais)
 * [Como remover imagens locais?](#Comoremoverimagenslocais)
@@ -40,8 +41,6 @@ Caso você queira pular para algum comando específico.
 	autoSave=true
 	/vscode-markdown-toc-config -->
 <!-- /vscode-markdown-toc -->
-
-
 
 ## <a name='Comoeuseiquaisasimagensdisponveisnomeurepositriolocal'></a>Como eu sei quais as imagens disponíveis no meu repositório local?
 

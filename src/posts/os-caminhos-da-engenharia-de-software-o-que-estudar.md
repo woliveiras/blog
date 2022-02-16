@@ -63,8 +63,29 @@ Não quero entrar no assunto faculdade nesse artigo, afinal sou defensor do auto
 Nesse artigo eu vou deixar uma lista de assuntos, matérias, tópicos importantes para um(a) Engenheiro(a) de Software e links para estudo.
 
 Eu fiz essa lista a algum tempo e busco estudar o que está nela para me tornar um melhor desenvolvedor. Se eu deixei faltar alguma coisa, por favor contribua com esse artigo comentando logo abaixo, você vai ajudar outros leitores e o autor que te escreve agora. :grin:
+<!-- vscode-markdown-toc -->
+* [Conceitos de Engenharia de Software que muitas pessoas deixam passar](#ConceitosdeEngenhariadeSoftwarequemuitaspessoasdeixampassar)
+* [Arquitetura de Computadores](#ArquiteturadeComputadores)
+* [Sistemas Operacionais](#SistemasOperacionais)
+* [Linguagens de Programação](#LinguagensdeProgramao)
+* [Paradigmas de Programação](#ParadigmasdeProgramao)
+* [Estruturas de Dados](#EstruturasdeDados)
+* [Matemática Computacional](#MatemticaComputacional)
+* [Padrões de Projetos](#PadresdeProjetos)
+* [Testes de Software](#TestesdeSoftware)
+* [Qualidade de Software](#QualidadedeSoftware)
+* [Manutenção de Software](#ManutenodeSoftware)
+* [Gerenciamento de Software](#GerenciamentodeSoftware)
+* [Processos de desenvolvimento de software](#Processosdedesenvolvimentodesoftware)
+* [Conclusão](#Concluso)
 
-## Conceitos de Engenharia de Software que muitas pessoas deixam passar
+<!-- vscode-markdown-toc-config
+	numbering=false
+	autoSave=true
+	/vscode-markdown-toc-config -->
+<!-- /vscode-markdown-toc -->
+
+## <a name='ConceitosdeEngenhariadeSoftwarequemuitaspessoasdeixampassar'></a>Conceitos de Engenharia de Software que muitas pessoas deixam passar
 
 A ideia para esse artigo veio de uma conversa no [Slack do Training Center](https://ctgroups.herokuapp.com/), uma comunidade para iniciantes em programação, sobre o que aprender quando parece que já dominamos o que usamos no trabalho como linguagens de programação, bancos de dados relacionais e não relacionais, http, frameworks, metodologias de trabalho, etc.
 
@@ -93,7 +114,7 @@ E muito mais! — Olha que eu nem citei **soft-skills**.
 
 Vamos analisar cada tópico.
 
-## Arquitetura de Computadores
+## <a name='ArquiteturadeComputadores'></a>Arquitetura de Computadores
 
 Esse assunto é muito importante para que você entenda o coração da tecnologia que você usa diariamente: o computador.
 
@@ -116,7 +137,7 @@ Livros:
 - [Organização Estruturada de Computadores, por Andrew S. Tanenbaum](https://www.amazon.com.br/Organiza%C3%A7%C3%A3o-Estruturada-Computadores-Andrew-Tanenbaum/dp/8581435394)
 - [Arquitetura e Organização de Computadores, por William Stallings](https://www.saraiva.com.br/arquitetura-e-organizacao-de-computadores-8-ed-3065174.html)
 
-## Sistemas Operacionais
+## <a name='SistemasOperacionais'></a>Sistemas Operacionais
 
 Além de entender a parte de Hardware de como funciona o computador, um(a) engenheiro(a) deve entender os sistemas operacionais que os gerenciam.
 
@@ -130,7 +151,7 @@ Onde podemos aprender mais sobre isso:
 
 - [Sistemas Operacionais Modernos, por Andrew S. Tanenbaum](https://www.amazon.com.br/Sistemas-Operacionais-Modernos-Andrew-Tanenbaum/dp/8576052377)
 
-## Linguagens de Programação
+## <a name='LinguagensdeProgramao'></a>Linguagens de Programação
 
 Isso mesmo “linguagens”. Como desenvolvedores nós escolhemos uma linguagem de programação principal e focamos nela. Porém uma linguagem pode não possuir todos os benefícios para resolver um problema x em seu sistema e é nessa hora que o conhecimento em outras linguagens se faz importante.
 
@@ -150,7 +171,7 @@ Livros:
 
 - [Conceitos de Linguagens de Programação, por Robert W. Sebesta](https://www.amazon.com.br/dp/8577807916/ref=asc_df_85778079164974250?smid=A1ZZFT5FULY4LN&tag=goog0ef-20&linkCode=asn&creative=380341&creativeASIN=8577807916)
 
-## Paradigmas de Programação
+## <a name='ParadigmasdeProgramao'></a>Paradigmas de Programação
 
 Aposto que você tem ouvido muito, ultimamente, sobre Programação Funcional. Quando estamos aprendendo programação também ouvimos que precisamos saber Orientação a Objetos.
 
@@ -171,7 +192,7 @@ Para não ficar somente em minhas palavras, da uma olhada no que o Eduardo Cesar
 
 
 
-## Estruturas de Dados
+## <a name='EstruturasdeDados'></a>Estruturas de Dados
 
 A matéria que costuma tirar as pessoas dos cursos em faculdades de Sistemas da Informação, Ciência da Computação, Analise e Desenvolvimento de Sistemas, Engenharia da Computação e outras relacionadas a programação.
 
@@ -193,7 +214,7 @@ Livros:
 
 - [Estrutura de dados, Algoritmos, Análise da complexidade e implementações em Java e C/C++, por Ana Fernanda Gomes Ascencio e Graziela Santos Araújo](https://www.amazon.com.br/Estruturas-Dados-algoritmos-complexidade-implementa%C3%A7%C3%B5es-ebook/dp/B0167CVDQ4)
 
-## Matemática Computacional
+## <a name='MatemticaComputacional'></a>Matemática Computacional
 
 Aqui entramos em um assunto que muitos podem reclamar. Algumas pessoas, assim como eu já fiz, podem alegar que aprendemos matemática e não utilizamos no dia a dia escrevendo software. — sóquenão
 
@@ -215,7 +236,7 @@ Livros:
 
 - [Matemática Discreta: para ciência da computação](https://www.saraiva.com.br/matematica-discreta-para-ciencia-da-computacao-9231467.html)
 
-## Padrões de Projetos
+## <a name='PadresdeProjetos'></a>Padrões de Projetos
 
 É claro que, como bons desenvolvedores que somos, aprendemos Padrões de Projetos para aplicar ao dia a dia, né?
 
@@ -238,7 +259,7 @@ Livros:
 - [Refatorando com padrões de projeto, por Marcos Brizeno](https://www.casadocodigo.com.br/pages/sumario-refatoracao-ruby)
 - [Padrões de Projetos, por Erich Gamma](https://www.amazon.com.br/dp/8573076100/ref=asc_df_85730761004974250?smid=A1ZZFT5FULY4LN&tag=goog0ef-20&linkCode=asn&creative=380341&creativeASIN=8573076100)
 
-## Testes de Software
+## <a name='TestesdeSoftware'></a>Testes de Software
 
 Além do Paradigma Funcional, outra coisa que está sendo muito cobrada hoje em dia (acho que sempre foi) é o tema Testes de Software.
 
@@ -256,7 +277,7 @@ Recursos legais para aprender mais sobre testes:
 - [Software Testing](https://en.wikipedia.org/wiki/Software_testing)
 - [Software Testing, Udacity](https://br.udacity.com/course/software-testing--cs258)
 
-## Qualidade de Software
+## <a name='QualidadedeSoftware'></a>Qualidade de Software
 
 Qualidade de software não é só falar que escrevemos código bonitinho, indentado, com bons nomes de variáveis ou métodos.
 
@@ -279,7 +300,7 @@ Livros:
 
 Alguns outros livros de Engenharia de Software também tocam nesse assunto e vou deixar a lista mais abaixo.
 
-## Manutenção de Software
+## <a name='ManutenodeSoftware'></a>Manutenção de Software
 
 O que mais fazemos em um software em produção são correções, adição de novas features e evolução da plataforma como um todo como renovação das tecnologias utilizadas, por exemplo.
 
@@ -294,7 +315,7 @@ Recursos para entender sobre Manutenção de Software:
 - [Software maintenance](https://en.wikipedia.org/wiki/Software_maintenance)
 - [Manutenção De Software](https://www.leandromtr.com/tecnologia-informacao/manutencao-de-software/)
 
-## Gerenciamento de Software
+## <a name='GerenciamentodeSoftware'></a>Gerenciamento de Software
 
 Não é a mesma coisa que Gerencia de Projetos, mas a Gerencia de Projetos também é importante para a Gerencia de Software.
 
@@ -312,7 +333,7 @@ Pela Wikipedia encontramos a seguinte definição:
 
 Muitas melhorias no software são encontradas através dos conhecimentos que adquirimos estudando essa matéria.
 
-## Processos de desenvolvimento de software
+## <a name='Processosdedesenvolvimentodesoftware'></a>Processos de desenvolvimento de software
 
 Finalmente acabou a lista!
 
@@ -326,7 +347,7 @@ Recursos para aprender sobre o assunto:
 
 - [Software Development Process, no Udacity](https://br.udacity.com/course/software-development-process--ud805)
 
-## Conclusão
+## <a name='Concluso'></a>Conclusão
 
 Me desculpe se esse texto ficou muito longo, mas são assuntos extremamente importantes e que precisamos estudar em nossa carreira como desenvolvedores(as) tenhamos o título de Engenheiros(as) ou não.
 

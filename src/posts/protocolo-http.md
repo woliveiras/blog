@@ -11,7 +11,17 @@ No post anterior, [URL ou URI, qual a diferença?](https://woliveiras.com.br/pos
 
 Como eu disse, toda a especificação está [aqui](https://tools.ietf.org/html/rfc2616 "RFC2616") e eu só estou dando uma pequena pincelada sobre o assunto.
 
-## Métodos HTTP
+<!-- vscode-markdown-toc -->
+* [Métodos HTTP](#MtodosHTTP)
+* [Status Code](#StatusCode)
+
+<!-- vscode-markdown-toc-config
+	numbering=false
+	autoSave=true
+	/vscode-markdown-toc-config -->
+<!-- /vscode-markdown-toc -->
+
+## <a name='MtodosHTTP'></a>Métodos HTTP
 
 Durante a requisição é utilizado um Método de requisição (Ou Verbo), como você viu no exemplo que foi o GET. Existem 8 métodos: GET, POST, DELETE, HEAD, PUT, OPTIONS, TRACE e CONNECT. Você já deve ter utilizado POST e GET em algum formulário. ;)
 
@@ -29,7 +39,7 @@ Os mais utilizados são:
 
 
 
-## Status Code
+## <a name='StatusCode'></a>Status Code
 
 É o código de status da resposta. Sabe quando você entra em um site e cai na página 404? O que aconteceu foi que o servidor recebeu uma requisição, processou e gerou o status code 404, então a aplicação (Que já está previamente configurada para isso) devolve a página de erro 404\. E o mesmo acontece para tudo. Existem muitos status e vou citar só alguns que você já deve ter ouvido falar:
 

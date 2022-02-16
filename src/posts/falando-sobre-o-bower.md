@@ -7,6 +7,18 @@ date: '2014-09-03'
 description: Instalação, configuração e utilização do Bower para instalar as dependências Front End do seu Projeto
 ---
 
+<!-- vscode-markdown-toc -->
+* [Instalação](#Instalao)
+* [Configurando o projeto](#Configurandooprojeto)
+* [Instalando dependências](#Instalandodependncias)
+* [Atualizar ou remover dependências](#Atualizarouremoverdependncias)
+
+<!-- vscode-markdown-toc-config
+	numbering=false
+	autoSave=true
+	/vscode-markdown-toc-config -->
+<!-- /vscode-markdown-toc -->
+
 O Bower facilitará sua vida gerenciando as dependências Front End do seu projeto de maneira prática e fácil.
 
 Você deve usar algumas libs, frameworks como JQuery, AngularJS, Bootstrap e outros facilitadores para agilizar o processo de desenvolvimento né?
@@ -20,7 +32,7 @@ Se você já programou em Python, o Bower é parecido com o [PIP](https://en.wik
 
 
 
-## Instalação
+## <a name='Instalao'></a>Instalação
 
 Você vai precisar do Nodejs instalado em sua máquina, se não possuir instale pelo [site](https://nodejs.org/en/) para seu Sistema operacional.
 
@@ -32,7 +44,7 @@ npm install -g bower
 
 Basta esperar o NPM trabalhar.
 
-## Configurando o projeto
+## <a name='Configurandooprojeto'></a>Configurando o projeto
 
 Acesse a pasta do projeto e execute o comando:
 
@@ -83,7 +95,7 @@ E o arquivo gerado será tipo isso:
 }
 ```
 
-## Instalando dependências
+## <a name='Instalandodependncias'></a>Instalando dependências
 
 É só rodar o comando bower install e o nome da dependência.
 
@@ -113,7 +125,7 @@ Por padrão o Bower vai instalar tudo em bower_components, dentro do seu projeto
 }
 ```
 
-## Atualizar ou remover dependências
+## <a name='Atualizarouremoverdependncias'></a>Atualizar ou remover dependências
 
 Para atualizar execute:
 

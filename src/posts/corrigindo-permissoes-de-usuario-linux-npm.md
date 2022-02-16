@@ -34,6 +34,6 @@ Se você não quiser atribuir a permissão ao diretório completo, pode executar
 sudo chown -R `whoami` /usr/local/lib/node_modules /usr/local/bin /usr/local/share
 ```
 
-## Referência
+## <a name='Referncia'></a>Referência
 
 * [Fixing NPM permissions](https://docs.npmjs.com/getting-started/fixing-npm-permissions "Fixing NPM permissions - npmjs.com")

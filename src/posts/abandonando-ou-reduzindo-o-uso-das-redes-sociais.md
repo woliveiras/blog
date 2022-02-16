@@ -9,6 +9,17 @@ tags:
 description: Sobre o porquê estou abandonando as redes sociais. Pode ser um adeus ou um até logo, mas até agora tem sido muito bom.
 socialImage: '/images/posts/jan-tinneberg-gJJhG4gM7NA-unsplash.jpg'
 ---
+<!-- vscode-markdown-toc -->
+* [O afastamento das redes sociais](#Oafastamentodasredessociais)
+* [O que reduzir o uso das redes sociais fez comigo](#Oquereduzirousodasredessociaisfezcomigo)
+* [Conclusão](#Concluso)
+
+<!-- vscode-markdown-toc-config
+	numbering=false
+	autoSave=true
+	/vscode-markdown-toc-config -->
+<!-- /vscode-markdown-toc -->
+
 Já faz algum tempo que percebi o quanto as redes sociais vem sendo prejudiciais no meu dia a dia. Isso não é por conta de tudo o que sabemos que elas causam, como o aumento da ansiedade, estresse e depressão.
 
 Algum conteúdo que pode ilustrar melhor o que eu estou tentando elucidar nesse primeiro parágrafo de texto:
@@ -35,7 +46,7 @@ Claro, assim como usar qualquer droga, se apreciado com moderação, pode ser ut
 
 Ainda assim, tudo bem, o uso das redes sociais pode ser algo empoderador. Movimentos sociais, ativismo digital, fonte de renda para pessoas de vários locais do mundo. Elas podem ser recursos extremamente úteis nas nossas mãos. E é por isso que este texto é simplesmente algo opinativo, **pessoal**, e com experimentos que eu fiz e uma tomada de decisão **minha** de me afastar por um tempo (ou enquanto eu puder viver sem) desses psicotrópicos poderosíssimos. 
 
-## O afastamento das redes sociais
+## <a name='Oafastamentodasredessociais'></a>O afastamento das redes sociais
 
 O primeiro experimento que eu fiz foi com o Twitter, uma vez que já não utilizava o Facebook com tanto engajamento. O Facebook virou um lugar tóxico com o ódio movimentando o seu algoritmo devido a quantidade de likes e compartilhamentos que acontecem nos posts de raiva. O teste consistia em deixar de seguir todo mundo e voltar a seguir pessoas que eu sentia falta no feed. 
 
@@ -61,7 +72,7 @@ Hoje, no dia em que escrevo este texto, minha meta é ficar uma semana inteira s
 
 Não sou radical contra o uso das redes sociais. Pelo contrário, o uso consciente de recursos de internet empoderam muita gente e [me colocaram onde estou hoje](/posts/A-pirataria-me-trouxe-ate-aqui/). Por isso, se eu sentir que devo voltar para essas comunidades, voltarei com moderação. Hoje me sinto muito bem sem elas e é sobre isso que vou comentar agora.
 
-## O que reduzir o uso das redes sociais fez comigo
+## <a name='Oquereduzirousodasredessociaisfezcomigo'></a>O que reduzir o uso das redes sociais fez comigo
 
 Sou uma pessoa com ansiedade crônica e, desde 2019, descobri ainda a depressão. Redes sociais não são nem um pouco recomendadas para pessoas com essas doenças. Porém eu sempre acreditei que elas não estavam agravando o meu quadro. Engano meu.
 
@@ -81,7 +92,7 @@ Estou bem comigo mesmo, morando sozinho, vivendo sozinho, tendo como companhia o
 
 Talvez até dê para ter este resultado e ainda utilizar as redes sociais, porém não é isso que os estudos (que compartilhei anteriormente e que você pode achar na internet) nos mostram.
 
-## Conclusão
+## <a name='Concluso'></a>Conclusão
 
 Hoje eu me despeço das pessoas que me acompanham nas redes sociais e lhes digo que pode ser um adeus ou um até logo. Porém o meu blog e meu LinkedIn continuam ativos e você pode me acompanhar por aqui e por lá ([linkedin/william-oliveira](http://linkedin.com.br/in/william-oliveira)).
 

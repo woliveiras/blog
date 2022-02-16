@@ -17,7 +17,18 @@ Esses recursos nos levam por este caminho sempre perfeito até o nosso objetivo 
 
 Isso acontece porque a pessoa que planejou o conteúdo o fez de uma maneira linear, que você pode seguir e ir cumprindo pequenos desafios (ou grandes) até conquistar a grande realização que é aprender programação, desenvolvimento web, machine learning, rest ou o que for que você estiver estudando.
 
-## O perigo do caminho do arco-íris
+
+<!-- vscode-markdown-toc -->
+* [O perigo do caminho do arco-íris](#Operigodocaminhodoarco-ris)
+* [Conclusão](#Concluso)
+
+<!-- vscode-markdown-toc-config
+	numbering=false
+	autoSave=true
+	/vscode-markdown-toc-config -->
+<!-- /vscode-markdown-toc -->
+
+## <a name='Operigodocaminhodoarco-ris'></a>O perigo do caminho do arco-íris
 
 Assim como toda lenda, temos um perigo escondido aí. No dia-a-dia como pessoas desenvolvedoras de software o caminho não é perfeito e os problemas que você vai enfrentar não são tão previsíveis ao ponto de conseguirmos cobrir tudo em uma fonte única de conhecimento.
 
@@ -43,7 +54,7 @@ Você precisa praticar! Precisa escapar da armadilha do caminho perfeito que nun
 
 É necessário começar a **criar coisas** do zero e **por conta própria**. Você consegue! Se você realmente aprendeu o que foi dito nos cursos, livros, etc., com certeza consegue fazer algo por conta, basta só começar, procurar projetos open source para ajudar ou até mesmo buscar clientes e começar a fazer freelance.
 
-## Conclusão
+## <a name='Concluso'></a>Conclusão
 
 O caminho do arco-íris nos leva de uma maneira confortável até a sensação de preparação, mas podemos nos decepcionar bastante se não escaparmos dessa armadilha. Começar a se cobrar demais, não passar em entrevistas, ter um medo extremo de errar, ansiedade e não ser um(a) profissional preparado(a) de verdade no futuro são reflexos deste caminho perfeito.
 

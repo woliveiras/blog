@@ -6,6 +6,21 @@ tags:
   - produtividade
 description: Como aprender uma linguagem de programação por ano pode te ajudar a aprender muitos paradigmas.
 ---
+<!-- vscode-markdown-toc -->
+* [Lendo livros](#Lendolivros)
+* [Indo a eventos](#Indoaeventos)
+* [Praticando](#Praticando)
+	* [Exercism](#Exercism)
+	* [RackerRank](#RackerRank)
+	* [CodeWars](#CodeWars)
+* [Divirta-se!](#Divirta-se)
+* [Conclusão](#Concluso)
+
+<!-- vscode-markdown-toc-config
+	numbering=false
+	autoSave=true
+	/vscode-markdown-toc-config -->
+<!-- /vscode-markdown-toc -->
 
 Alguns desenvolvedores experientes recomendam que aprendamos **uma nova linguagem de programação por ano**. Eu concordo com isso. Acho interessante estudar um novo paradigma, novas maneiras de se fazer o que fazemos na nossa linguagem preferida. Isso é renovador.
 
@@ -19,7 +34,7 @@ Estudar a linguagem que trabalhamos ja é complicado, ainda mais se você trabal
 
 Porém existem algumas maneiras de se [estudar bastante coisa sem ficar louco](/posts/como-alcancar-objetivos-rapidamente-nos-estudos/) e eu vou compartilhar algumas dicas sobre isso nesse post.
 
-## Lendo livros
+## <a name='Lendolivros'></a>Lendo livros
 
 Livros são de longe o que eu mais gosto de usar para aprender uma linguagem nova.
 
@@ -29,7 +44,7 @@ Quando eu comecei na área de desenvolvimento comprei diversos livros sobre HTML
 
 Uma dica é [comprar um Kindle](https://1motivo.com.br/kindle-poderoso/). Os livros saem bem mais em conta nessa plataforma e você pode levar para qualquer lugar. Pode ler no ônibus, em uma fila grande ou naquele passeio mais longo. Tem gente que consegue trabalhar, estudar, cuidar da família e mesmo assim ainda ler [41 livros em um ano](https://1motivo.com.br/dicas-ler-mais-livros/) graças ao Kindle! Eu no ano passado eu li somente 8 livros completos e algumas partes de outros, quem dera ler 41.
 
-## Indo a eventos
+## <a name='Indoaeventos'></a>Indo a eventos
 
 As pessoas se confundem quando me vem, desenvolvedor JavaScript, no meio de palestras sobre Big Data, Machine Learning, Golang, Clojure, Android, Ruby, Scala,  e até jogos com C# e Unit. Pareço ser um intruso ali no meio.
 
@@ -37,7 +52,7 @@ Isso não é só por causa do meu vício em aprender. Eu faço isso para ver com
 
 Uma boa maneira de encontrar eventos na sua região é utilizando a plataforma do [Meetup.com](https://www.meetup.com/pt-BR/). Basta entrar lá e dar uma pesquisada sobre o que você curte ou quer aprender.
 
-## Praticando
+## <a name='Praticando'></a>Praticando
 
 Agora é a parte que eu mais gosto! 
 
@@ -51,7 +66,7 @@ Mas existem maneiras de realmente aprender as linguagens.
 
 
 
-### Exercism
+### <a name='Exercism'></a>Exercism
 
 O Exercism é uma plataforma com diversos desafios em várias linguagens que podemos ir resolvendo para melhorar nossas habilidades ou mesmo aprender algo novo.
 
@@ -63,7 +78,7 @@ A única dificuldade que você pode enfrentar é se não tem familiaridade com T
 
 Atualmente eles tem mais de 30 linguagens de programação. Divirta-se!
 
-### RackerRank
+### <a name='RackerRank'></a>RackerRank
 
 O RackerRank, além de ser uma plataforma para você treinar suas habilidades, também é utilizado por [algumas empresas como teste para entrevistas de emprego](/posts/Como-e-uma-entrevista-de-emprego-para-desenvolvimento-front-end-JavaScript/).
 
@@ -71,7 +86,7 @@ Então se você pegar o jeito nele pode ser mais fácil de passar em uma entrevi
 
 Basta entrar [nesse endereço](https://www.hackerrank.com/), se cadastrar, escolher a linguagem e nível e se divertir.
 
-### CodeWars
+### <a name='CodeWars'></a>CodeWars
 
 O CodeWars é bem parecido com o RackerRank, porém eu gosto mais desse, pois sua interface é mais legal. - Pra mim
 
@@ -79,7 +94,7 @@ Ainda não tem tantas linguagens como as outras plataformas que indiquei, porém
 
 Basta entrar [aqui](https://www.codewars.com/) escolher a linguagem e brincar até esquecer que tem que ir trabalhar.
 
-## Divirta-se!
+## <a name='Divirta-se'></a>Divirta-se!
 
 Programação é divertido. É por isso que eu escolhi entrar nessa área. Não adianta você se forçar a aprender uma linguagem por ano se você não estiver gostando.
 
@@ -89,7 +104,7 @@ Não pense que você é um programador ruim por isso.
 
 Existem diversas outras coisas que precisamos fazer para sermos bons desenvolvedores, estudar uma linguagem por ano é só uma delas e serve para aprender mais paradigmas. Porém você pode aprender tais paradigmas vendo vídeos, tutoriais, só indo as palestras ou discutindo em foruns.
 
-## Conclusão
+## <a name='Concluso'></a>Conclusão
 
 Sempre se programe para aprender uma nova linguagem. Não basta entrar nessas plataformas e sair codando, é necessário um planejamento para que isso se torne um habito. Talvez estudar uma hora por dia ou estudar duas vezes por semana. Você precisa realmente marcar um compromisso com esse estudo.
 

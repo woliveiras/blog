@@ -7,6 +7,16 @@ tags:
     - pensamentos
 description: Existe uma grande diferença entre ajudar a comunidade por ajudar, trabalhar com isso e fazer as coisas somente por marketing pessoal
 ---
+<!-- vscode-markdown-toc -->
+* [O tal do altruísmo](#Otaldoaltrusmo)
+* [A estratégia de usar comunidades como marketing de conteúdo](#Aestratgiadeusarcomunidadescomomarketingdecontedo)
+
+<!-- vscode-markdown-toc-config
+	numbering=false
+	autoSave=true
+	/vscode-markdown-toc-config -->
+<!-- /vscode-markdown-toc -->
+
 Existe um abismo enorme entre ajudar as pessoas e ganhar dinheiro com o mercado de educação ou ganhar dinheiro com marketing pessoal e as comunidades de tecnologia se perderam em algum período da nossa história tendo hoje muita gente no palco fazendo marketing pessoal e pouca gente querendo de verdade.
 
 ![Calma, mantenha a calma]({{site.postsImagesPath}}keep-calm-and-keep-calm.jpeg)
@@ -33,7 +43,7 @@ Não. **Fazer conteúdo raso** (artigos, cursos, livros, palestras) só para ter
 
 Este artigo é uma reflexão pessoal sobre essas pessoas: pessoas que dizem ajudar a comunidade, mas só estão afim de lucrar mais.
 
-## O tal do altruísmo
+## <a name='Otaldoaltrusmo'></a>O tal do altruísmo
 
 Eu não acredito em altruísmo.
 
@@ -61,7 +71,7 @@ Se você discorda de mim sobre isso, comente por favor, pois eu posso estar enga
 
 
 
-## A estratégia de usar comunidades como marketing de conteúdo
+## <a name='Aestratgiadeusarcomunidadescomomarketingdecontedo'></a>A estratégia de usar comunidades como marketing de conteúdo
 
 Agora chega ao ponto em que eu fico com a pulga atrás da orelha: vejo pessoas distribuindo pela internet conteúdo raso, dizendo que é para ajudar a comunidade, mas o seu curso completo ou o seu livro que realmente ensina algo útil para as pessoas tem um valor e nós temos que pagar por eles.
 

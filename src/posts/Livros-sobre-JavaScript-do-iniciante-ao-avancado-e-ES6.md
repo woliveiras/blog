@@ -13,7 +13,22 @@ Nesse artigo vou tentar ajudar a escolher os melhores livros para seu nível de 
 
 Alguns livros desses eu já li e alguns ainda estão na fila para estudo.
 
-## Nível iniciante
+
+<!-- vscode-markdown-toc -->
+* [Nível iniciante](#Nveliniciante)
+* [JavaScript para quem nunca programou](#JavaScriptparaquemnuncaprogramou)
+* [JavaScript para iniciantes em JavaScript](#JavaScriptparainiciantesemJavaScript)
+* [Nível intermediário](#Nvelintermedirio)
+* [Subindo de nível](#Subindodenvel)
+
+<!-- vscode-markdown-toc-config
+	numbering=false
+	autoSave=true
+	/vscode-markdown-toc-config -->
+<!-- /vscode-markdown-toc -->
+
+
+## <a name='Nveliniciante'></a>Nível iniciante
 
 Se encaixa nesse nível pessoas que nunca programaram em nenhuma linguagem ou que estão começando a aprender JavaScript do zero.
 
@@ -23,13 +38,13 @@ Mesmo que você escolha o Front End, é interessante que aprenda ao menos o bás
 
 Como meu foco, até agora, está em JavaScript no Front End, vou indicar os livros sobre JavaScript no Browser e criação de [SPA’s](https://en.wikipedia.org/wiki/Single-page_application).
 
-## JavaScript para quem nunca programou
+## <a name='JavaScriptparaquemnuncaprogramou'></a>JavaScript para quem nunca programou
 
 Alguns livros não são indicados para quem nunca desenvolveu na vida, pois podem apresentar conceitos avançados que confundem a cabeça do iniciante, principalmente se for o primeiro contato com lógica. Portanto eu indicaria esse livro, da [Casa do Código](https://www.casadocodigo.com.br), se quiser aprender Lógica de Programação COM JavaScript:
 
 [Lógica de Programação, crie seus primeiros programas usando Javascript e HTML](https://amzn.to/2Qi429W)
 
-## JavaScript para iniciantes em JavaScript
+## <a name='JavaScriptparainiciantesemJavaScript'></a>JavaScript para iniciantes em JavaScript
 
 Se você já desenvolve ou já sabe lógica de programação, agora vem os livros sobre JavaScript que você vai curtir.
 
@@ -51,7 +66,7 @@ Outro livro excelente que apresenta um overview completasso sobre a linguagem é
 
 Esses sim ensinam do começo e com boa didática para um primeiro contato com JS.
 
-## Nível intermediário
+## <a name='Nvelintermedirio'></a>Nível intermediário
 
 Agora que você já sabe como a linguagem funciona, como o navegador se comporta com seus scripts e debugar, é hora de aprender algumas coisas sobre organização de código e performance.
 
@@ -79,7 +94,7 @@ Agora sim, eu indicaria o [JavaScript, the good parts](https://amzn.to/2ronAKT) 
 
 
 
-## Subindo de nível
+## <a name='Subindodenvel'></a>Subindo de nível
 
 Agora que você já conhece muita coisa da linguagem, é hora de aprender coisas legais como Testes (que você já tem uma introdução no Segredos do JavaScript Ninja) e ES6. Não indico ES6 pra quem está aprendendo do zero, pois até hoje (Abril de 2016) não são todas as empresas, frameworks, libs e navegadores que suportam a linguagem. :,(
 

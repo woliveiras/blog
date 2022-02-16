@@ -8,6 +8,20 @@ tags:
     - javascript
 description: Dica para aprender programação do iniciante ao avançado, utilizando JavaScript, com um curso focado no mercado e em web!
 ---
+<!-- vscode-markdown-toc -->
+* [O que é o freeCodeCamp](#OqueofreeCodeCamp)
+* [O que podemos aprender no freeCodeCamp](#OquepodemosaprendernofreeCodeCamp)
+* [Dinamismo](#Dinamismo)
+* [Tem tudo o que o(a) desenvolvedor(a) precisa: uma comunidade](#Temtudooqueoadesenvolvedoraprecisa:umacomunidade)
+* [Um curso gratuito com certificado digno de expor no seu LinkedIn](#UmcursogratuitocomcertificadodignodeexpornoseuLinkedIn)
+* [A barreira do inglês](#Abarreiradoingls)
+* [Conclusão](#Concluso)
+
+<!-- vscode-markdown-toc-config
+	numbering=false
+	autoSave=true
+	/vscode-markdown-toc-config -->
+<!-- /vscode-markdown-toc -->
 Todos que desejam aprender programação precisam de um norte. Por onde começar, para onde ir, o que fazer depois, como treinar o que eu aprendo, como conseguir um emprego, como ter um portfólio sem trabalhar na área.
 
 Uma maneira de se ter esse norte é tendo um [Mentor](https://github.com/training-center/mentoria/), porém nem sempre isso é possível.
@@ -20,7 +34,7 @@ Visando isso vieram alguns sites e iniciativas de cursos gratuitos, alguns onlin
 
 Eu conheci o freeCodeCamp através de um pupilo do projeto Mentoria e logo de cara me apaixonei pelo projeto. Vou contar aqui um pouco sobre como o freeCodeCamp funciona e por que você deveria estar nessa comunidade.
 
-## O que é o freeCodeCamp
+## <a name='OqueofreeCodeCamp'></a>O que é o freeCodeCamp
 
 Segundo o próprio site do freeCodeCamp eles são:
 
@@ -28,7 +42,7 @@ Segundo o próprio site do freeCodeCamp eles são:
 
 **Uma comunidade Open Source para te ajudar a aprender programação**.
 
-## O que podemos aprender no freeCodeCamp
+## <a name='OquepodemosaprendernofreeCodeCamp'></a>O que podemos aprender no freeCodeCamp
 
 Programar, uai.
 
@@ -46,7 +60,7 @@ A lista de habilidades adquiridas com o freeCodeCamp é imensa, indo desde HTML,
 
 O mapa completo pode ser conferido [neste link](https://learn.freecodecamp.org/).
 
-## Dinamismo
+## <a name='Dinamismo'></a>Dinamismo
 
 O freeCodeCamp não ensina da maneira habitual, com um professor falando e você decorando pra passar na prova. São vários desafios que você precisa ir desbravando ao longo de cada trilha de estudos.
 
@@ -58,7 +72,7 @@ Para concluir uma trilha você precisa fazer um exercício no Codepen e isso vai
 
 > O freeCodeCamp é focado em te colocar no mercado de trabalho.
 
-## Tem tudo o que o(a) desenvolvedor(a) precisa: uma comunidade
+## <a name='Temtudooqueoadesenvolvedoraprecisa:umacomunidade'></a>Tem tudo o que o(a) desenvolvedor(a) precisa: uma comunidade
 
 Uma pessoa que começa sua carreira em desenvolvimento precisa do apoio de outras pessoas que já estão na área. Foi pensando nisso que nasceu o [Training Center](https://medium.com/trainingcenter/hello-world-conhe%C3%A7a-o-centro-de-treinamento-4a47a1230b0c) e essa é uma das premissas do freeCodeCamp!
 
@@ -68,7 +82,7 @@ A plataforma é aberta no GitHub e você pode enviar sugestões para melhorias, 
 
 Atualmente são mais de 900,000 pessoas registradas e mais de 400,00 ativos por mês (fonte). É uma comunidade grande suficiente para te ajudar em qualquer perrengue!
 
-## Um curso gratuito com certificado digno de expor no seu LinkedIn
+## <a name='UmcursogratuitocomcertificadodignodeexpornoseuLinkedIn'></a>Um curso gratuito com certificado digno de expor no seu LinkedIn
 
 Ao final de cada trilha você faz um exercício para conseguir seu Certificado de Conclusão e isso fica lá no Codepen.
 
@@ -78,7 +92,7 @@ Para Front End, por exemplo, são quase 500 horas de curso.
 
 **Ao todo são mais de 1500 horas de curso**.
 
-## A barreira do inglês
+## <a name='Abarreiradoingls'></a>A barreira do inglês
 
 O curso é inteiro em inglês, mas isso não vai te impedir de aprender.
 
@@ -86,7 +100,7 @@ A linguagem do curso é fácil de entender para aqueles que estão começando, m
 
 Não deixe isso te impedir de tentar fazer esse curso, pois se precisar de ajuda a comunidade está aqui para te ajudar. Nos procure! Não tenha vergonha.
 
-## Conclusão
+## <a name='Concluso'></a>Conclusão
 
 O freeCodeCamp é, atualmente, tudo o que você precisa para dar seus primeiros passos no mundo do desenvolvimento web e conseguir seu primeiro emprego ou mesmo para mudar de área de atuação ou só para aprender mais mesmo.
 

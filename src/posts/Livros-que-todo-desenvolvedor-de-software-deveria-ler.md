@@ -17,7 +17,23 @@ Eu estou sempre pedindo dicas de leitura para pessoas com mais experiência para
 
 Nesse post eu vou listar alguns livros desses que recebi indicação e alguns aos quais eu já li tanto sobre desenvolvimento de software quanto desenvolvimento pessoal.
 
-## [O programador apaixonado](https://amzn.to/2EhW6iq)
+<!-- vscode-markdown-toc -->
+* [[O programador apaixonado](https://amzn.to/2EhW6iq)](#Oprogramadorapaixonadohttps:amzn.to2EhW6iq)
+* [[O guia do mestre programador](https://amzn.to/2QB6WGk)](#Oguiadomestreprogramadorhttps:amzn.to2QB6WGk)
+* [[Código Limpo](https://amzn.to/2QfW5lF)](#CdigoLimpohttps:amzn.to2QfW5lF)
+* [[Refactoring](https://amzn.to/2QF2JBl)](#Refactoringhttps:amzn.to2QF2JBl)
+* [[Padrões de Arquitetura de Aplicações Corporativas](https://amzn.to/2L2lucU)](#PadresdeArquiteturadeAplicaesCorporativashttps:amzn.to2L2lucU)
+* [[Domain-Driven Design](https://amzn.to/2L0uTRT)](#Domain-DrivenDesignhttps:amzn.to2L0uTRT)
+* [[Foco](https://amzn.to/2Sy3qtl)](#Focohttps:amzn.to2Sy3qtl)
+* [Outros livros não técnicos, mas bem importantes](#Outroslivrosnotcnicosmasbemimportantes)
+
+<!-- vscode-markdown-toc-config
+	numbering=false
+	autoSave=true
+	/vscode-markdown-toc-config -->
+<!-- /vscode-markdown-toc -->
+
+## <a name='Oprogramadorapaixonadohttps:amzn.to2EhW6iq'></a>[O programador apaixonado](https://amzn.to/2EhW6iq)
 
 Eu gostei muito desse livro. As histórias contadas por Chad Fowler são bem inspiradoras e esclarecedoras sobre algumas coisas que acontecem em nossa carreira como programadores.
 
@@ -29,7 +45,7 @@ O cara conta até um pouco da história de algumas linguagens de programação e
 
 [![](https://cdn.shopify.com/s/files/1/0155/7645/products/programador-apaixonado-featured_large.png?v=1411566032)](https://amzn.to/2EhW6iq)
 
-## [O guia do mestre programador](https://amzn.to/2QB6WGk)
+## <a name='Oguiadomestreprogramadorhttps:amzn.to2QB6WGk'></a>[O guia do mestre programador](https://amzn.to/2QB6WGk)
 
 Este livro foca bastante em te ensinar a arte da autogestão para aprender muito.
 
@@ -42,7 +58,7 @@ Descrição do livro:
 
 [![](https://cdn.shopify.com/s/files/1/0155/7645/products/F_rZcE1nCFDaz1yv2rMbvp0sp7ehJKYYt3i1s1zp9Jc_size_mode_3_size_1024x768_large.jpeg?v=1448907418)](https://amzn.to/2QB6WGk)
 
-## [Código Limpo](https://amzn.to/2QfW5lF)
+## <a name='CdigoLimpohttps:amzn.to2QfW5lF'></a>[Código Limpo](https://amzn.to/2QfW5lF)
 
 Não existe lista de livros **para desenvolvedores** que não cite o livro Código Limpo (Clean Code).
 
@@ -58,7 +74,7 @@ Estou lendo ele atualmente (na época em que escrevi esse post, se você for do 
 
 
 
-## [Refactoring](https://amzn.to/2QF2JBl)
+## <a name='Refactoringhttps:amzn.to2QF2JBl'></a>[Refactoring](https://amzn.to/2QF2JBl)
 
 Um livro muito difícil de se encontrar em português. Se você não está treinado(a) no inglês, seria bom já focar no idioma.
 
@@ -70,7 +86,7 @@ Margin Fowler fala muito sobre Java, porém ensina muita coisa boa sobre refator
 
 Da uma olhada [nesse post](https://www.thoughtworks.com/pt/insights/blog/refactoring-book) do Marcos Matos sobre o assunto.
 
-## [Padrões de Arquitetura de Aplicações Corporativas](https://amzn.to/2L2lucU)
+## <a name='PadresdeArquiteturadeAplicaesCorporativashttps:amzn.to2L2lucU'></a>[Padrões de Arquitetura de Aplicações Corporativas](https://amzn.to/2L2lucU)
 
 Também do Martin Fowler é um livro um pouco mais denso e bem avançado sobre arquitetura de software.
 
@@ -80,7 +96,7 @@ Este livro vai te dar uma outra visão sobre desenvolvimento de software grande 
 
 Se você tem dúvidas quando a criar sistemas escaláveis e manuteníveis com padrões de projetos e boas práticas de código, leia esse livro. Se não tem, leia do mesmo jeito, tenho certeza que tem coisa para aprender ali.
 
-## [Domain-Driven Design](https://amzn.to/2L0uTRT)
+## <a name='Domain-DrivenDesignhttps:amzn.to2L0uTRT'></a>[Domain-Driven Design](https://amzn.to/2L0uTRT)
 
 Este livro, assim como o Padrões de Arquitetura, vai te dar outra visão sobre desenvolvimento de software.
 
@@ -90,7 +106,7 @@ Ainda não li esses dois livros (Padrões de Arquitetura e Domain-Driven Design)
 
 Da uma olhada [nessa entrevista sobre esse livro](https://www.infoq.com/br/articles/ddd-10-anos).
 
-## [Foco](https://amzn.to/2Sy3qtl)
+## <a name='Focohttps:amzn.to2Sy3qtl'></a>[Foco](https://amzn.to/2Sy3qtl)
 
 Nem só de livro técnico viverá o dev. - escrito em pedra em algum lugar por aí
 
@@ -102,7 +118,7 @@ Diversos livros de Daniel Goleman ensinam sobre isso, se tiver oportunidade leia
 
 [![](https://coachingmais50.com.br/wp-content/uploads/2015/03/foco_coachingmais50.com_.br_.jpg)](https://amzn.to/2Sy3qtl)
 
-## Outros livros não técnicos, mas bem importantes
+## <a name='Outroslivrosnotcnicosmasbemimportantes'></a>Outros livros não técnicos, mas bem importantes
 
 Eu tenho uma lista de livros, sobre [produtividade](/posts/produtividade-uma-re-introducao/), que ainda vou ler ou finalizar e gostaria de indicá-los pra você também:
 

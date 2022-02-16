@@ -5,6 +5,18 @@ tags:
   - pensamentos
 description: Sobre como a pirataria me proveu meios para estudar e hoje estou aqui
 ---
+<!-- vscode-markdown-toc -->
+* [Uma pequena história para quem não conhece/enxerga a realidade](#Umapequenahistriaparaquemnoconheceenxergaarealidade)
+* [Como a pirataria me ajudou](#Comoapiratariameajudou)
+* [A hipocrisia do abastado financeiramente](#Ahipocrisiadoabastadofinanceiramente)
+* [Conclusão](#Concluso)
+		* [Referências](#Referncias)
+
+<!-- vscode-markdown-toc-config
+	numbering=false
+	autoSave=true
+	/vscode-markdown-toc-config -->
+<!-- /vscode-markdown-toc -->
 
 Existe algo que é quase inerente a toda sociedade: se existe uma lei, ela será desafiada ou quebrada por uma parcela de pessoas.
 
@@ -24,7 +36,7 @@ Segundo um levantamento de dezembro de 2017, realizado pelo Fórum Nacional Cont
 
 Mas, **se não fosse a pirataria eu não estaria aqui hoje**, alguns anos depois de me tornar desenvolvedor de software, palestrante, gerador de conteúdo para a internet, escrevendo um livro (que, se for bem aceito pelo público, será pirateado) e ajudando outras pessoas a entrarem na área de desenvolvimento.
 
-## Uma pequena história para quem não conhece/enxerga a realidade
+## <a name='Umapequenahistriaparaquemnoconheceenxergaarealidade'></a>Uma pequena história para quem não conhece/enxerga a realidade
 
 No mundo existem bilhões de pessoas (7,6 bilhões, em outubro de 2017 estimando 11,2 bilhões em 2100, segundo a ONU). No Brasil temos 208.494.900 habitantes segundo o IBGE. E, segundo a ONU, o Brasil testemunhou um aumento de 2,5 milhões até 3,6 milhões no número de pessoas vivendo na miséria em 2017, sendo confirmado pelo IBGE que indica que 52 milhões de brasileiros estão abaixo da linha da pobreza, o que antes era 50 milhões.
 
@@ -58,7 +70,7 @@ Essas pessoas só vem descobrir isso depois de adultos (como eu, que parti para 
 
 O conteúdo que nós geramos na internet para levar conhecimento gratuito às pessoas chega a uma parcela minúscula de gente que realmente precisa e o restante são pessoas com mais condições, que sempre tiveram tudo mais fácil, têm mais educação e por isso até acham que é tudo tão simples quanto desembolsar 50 reais em um livro.
 
-## Como a pirataria me ajudou
+## <a name='Comoapiratariameajudou'></a>Como a pirataria me ajudou
 
 Conforme está escrito no título e eu já reforcei nesse texto, eu recebi grande ajuda da pirataria.
 
@@ -76,7 +88,7 @@ Hoje, graças aos frutos de investir meu tempo (que também é um privilégio qu
 
 
 
-## A hipocrisia do abastado financeiramente
+## <a name='Ahipocrisiadoabastadofinanceiramente'></a>A hipocrisia do abastado financeiramente
 
 Lógico que eu não quero que você seja um criminoso ou uma criminosa virtual por ler este texto. Longe disso!
 
@@ -90,7 +102,7 @@ Lembre-se sempre, não é só porque a pirataria é um ato criminoso que eu não
 
 Hoje, muitas vezes, eu doo cursos, livros e meu tempo para pessoas que eu sei que são muito necessitadas (dentro do meu orçamento é claro) e isso para que elas não precisem cometer o crime da pirataria para conseguir melhores opções de vida. Se você também possui essa condição, procure por pessoas que precisam e ajude elas. Na vida tudo passa, até o dinheiro que achamos tão valioso ao ponto de não doar para alguém que precisa muito, mas torramos na lanchonete ou no bar.
 
-## Conclusão
+## <a name='Concluso'></a>Conclusão
 
 Talvez as pessoas reclamam tanto da pirataria de conteúdo educativo na internet não pela quantidade de dinheiro que perdem, mas porque isso dá opções para as pessoas que elas não querem ver no mesmo avião que elas.
 
@@ -104,7 +116,7 @@ Existem outros sites para isso e muita gente que pode te ajudar nas comunidades,
 
 Agora, se você não tem condições alguma de fugir disso, eu não vou te julgar, mas espero que um dia seja você a comentar que não precisa mais consumir conteúdo pirata. - Boa sorte!
 
-#### Referências
+#### <a name='Referncias'></a>Referências
 
 - <https://pt.wikipedia.org/wiki/Pirata>
 - <https://g1.globo.com/economia/noticia/brasil-perde-r-130-bilhoes-por-ano-com-pirataria-contrabando-e-comercio-ilegal-aponta-estudo.ghtml>

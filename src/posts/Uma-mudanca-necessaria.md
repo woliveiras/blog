@@ -20,7 +20,22 @@ Também sou do tipo que fica falando para as pessoas quando elas estão se abarr
 ![Eruption, Photo by Marc Szeglat on Unsplash]({{site.postsImagesPath}}marc-szeglat-524009-unsplash.jpg)
 {:.post__wallpaper}
 
-## Trabalho que não acaba mais
+
+<!-- vscode-markdown-toc -->
+* [Trabalho que não acaba mais](#Trabalhoquenoacabamais)
+* [Sentimento negativo aumentando](#Sentimentonegativoaumentando)
+* [Sinais que não posso mais ignorar](#Sinaisquenopossomaisignorar)
+* [O que estou fazendo para melhorar](#Oqueestoufazendoparamelhorar)
+* [Conclusão](#Concluso)
+
+<!-- vscode-markdown-toc-config
+	numbering=false
+	autoSave=true
+	/vscode-markdown-toc-config -->
+<!-- /vscode-markdown-toc -->
+
+
+## <a name='Trabalhoquenoacabamais'></a>Trabalho que não acaba mais
 
 Como eu adoro produzir conteúdo para a internet, pois acredito estar contribuindo com a vida das pessoas com esse conteúdo, eu me envolvi em diversas tarefas relacionadas com isso, tal como:
 
@@ -54,7 +69,7 @@ Essa falta de empenho nos outros papéis de minha vida tem se tornado um grande 
 
 
 
-## Sentimento negativo aumentando
+## <a name='Sentimentonegativoaumentando'></a>Sentimento negativo aumentando
 
 Com o crescimento do Training Center eu aprendi muita coisa. Coisas que eu não aprenderia jamais se não tivesse iniciado essa comunidade. Eu tive contato com pessoas que mudaram minha mente em relação a diversidade e a inclusão e isso virou pauta sempre que eu posso contribuir.
 
@@ -62,7 +77,7 @@ Porém isso também me fez ser muito mais crítico e, ultimamente, mais radical 
 
 Mas isso não é nada bom para alguém com transtorno de ansiedade generalizada. Ao nos envolvermos em uma confusão, por mais simples que seja, ela se torna um problema latente em nossa mente, que nunca sai de lá e fica martelando por tempo indeterminado nos levando a diversos outros pensamentos ruins. É uma cascata de sentimentos negativos que, ao invés de diminuir com o escoamento, só aumenta.
 
-## Sinais que não posso mais ignorar
+## <a name='Sinaisquenopossomaisignorar'></a>Sinais que não posso mais ignorar
 
 Com esse acúmulo de atividades , muitas mensagens chegando nas redes sociais, emails, notícias, estudos, trabalho, namoro, convívio social e alguns outros tópicos, eu cheguei ao ápice da ansiedade novamente.
 
@@ -72,7 +87,7 @@ Até mesmo a minha produção de conteúdo acabou diminuindo, tornando meus últ
 
 Eu não posso mais ignorar esses sinais de que estou sobrecarregado (por minha própria culpa) e preciso de uma mudança urgentemente.
 
-## O que estou fazendo para melhorar
+## <a name='Oqueestoufazendoparamelhorar'></a>O que estou fazendo para melhorar
 
 Como sempre digo para as pessoas: **nos primeiros sinais de crise, busque apoio profissional**. Nenhum amigo ou amiga conseguirá nos ajudar em períodos de crises de ansiedade, pois pra galera tudo é normal, é só uma fase, vai passar. Mas dentro da nossa cabeça só nós sabemos que a última coisa que queremos é acordar no outro dia para reviver os pensamentos acelerados e os sintomas da ansiedade crônica novamente.
 
@@ -84,7 +99,7 @@ Eu não vou deixar de escrever, palestrar, ajudar a organizar eventos onde eu tr
 
 Por isso eu já “abandonei” algumas frentes, como o Mentoria, a publicação no Medium, os Meetups em SP e, com este artigo eu gostaria de pedir que quando você tiver alguma dúvida, problema ou sugestão para a comunidade, que abra uma issue, não me procure diretamente. Isso será uma grande ajuda <3.
 
-## Conclusão
+## <a name='Concluso'></a>Conclusão
 
 Este texto pode estar meio confuso, pois envolve uma crise de ansiedade e sentimentos pessoais bem bagunçados.
 

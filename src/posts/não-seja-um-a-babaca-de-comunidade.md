@@ -13,7 +13,25 @@ Senta que lá vem textão.
 
 Há algum tempo eu escrevi esse artigo, porém não enxergava mais necessidade de postar, pois estou tão imerso no [Training Center](https://trainingcenter.io/) que esqueci o que acontece no mundão das comunidades afora.
 
-## O submundo das comunidades
+<!-- vscode-markdown-toc -->
+* [O submundo das comunidades](#Osubmundodascomunidades)
+* [Alguém pergunta algo e você envia aquele link: deixe-me usar o Google por você](#Algumperguntaalgoevocenviaaquelelink:deixe-meusaroGoogleporvoc)
+* [Você nunca fez perguntas “bobas”?](#Vocnuncafezperguntasbobas)
+* [Mas as pessoas são preguiçosas](#Masaspessoassopreguiosas)
+* [Ainda sobre respostas nos tópicos](#Aindasobrerespostasnostpicos)
+* [Se X você não é programador(a)](#SeXvocnoprogramadora)
+* [Comunicação não violenta](#Comunicaonoviolenta)
+* [Tratar as mulheres como limitadas ou ser inconveniente quando elas fazem perguntas](#Tratarasmulherescomolimitadasouserinconvenientequandoelasfazemperguntas)
+* [A internet conecta um mundo inteiro, saia do seu mundinho](#Ainternetconectaummundointeirosaiadoseumundinho)
+* [Conclusão](#Concluso)
+
+<!-- vscode-markdown-toc-config
+	numbering=false
+	autoSave=true
+	/vscode-markdown-toc-config -->
+<!-- /vscode-markdown-toc -->
+
+## <a name='Osubmundodascomunidades'></a>O submundo das comunidades
 
 Eu aprendi muito e muito rápido graças as dicas de pessoas que estão por ai fazendo o bem para os outros nas comunidades pela internet afora. Essas pessoas tiraram barreiras da minha frente, foram como [mentores(as)](https://github.com/training-center/mentoria/) pra mim. Eu poderia até citar os nomes aqui, porém não me recordaria de todos os que me ajudaram, então é melhor não fazer isso.
 
@@ -29,7 +47,7 @@ Eu continuo errando bastante, acho que **ninguém nunca para de errar na vida**,
 
 
 
-## Alguém pergunta algo e você envia aquele link: deixe-me usar o Google por você
+## <a name='Algumperguntaalgoevocenviaaquelelink:deixe-meusaroGoogleporvoc'></a>Alguém pergunta algo e você envia aquele link: deixe-me usar o Google por você
 
 ![Não basta ser babaca, tem que demonstrar]({{site.postsImagesPath}}nao-basta-ser-babaca-tem-que-demonstrar.jpeg).
 
@@ -41,7 +59,7 @@ Não se esqueça: a dúvida de alguém na comunidade **é sempre séria** a não
 
 Só por que você tem seus 10+ anos de carreira e participa da comunidade a doze décadas você não tem o direito de **invalidar** a dúvida de alguém. Você nunca terá esse direito. Só a outra pessoa é quem sabe quais são suas dificuldades.
 
-## Você nunca fez perguntas “bobas”?
+## <a name='Vocnuncafezperguntasbobas'></a>Você nunca fez perguntas “bobas”?
 
 Quando iniciamos na área, não sabemos nem **O QUE** pesquisar na internet. As vezes a resposta está a uma mensagem de erro de ser resolvida, mas estamos tão imersos no problema e achamos que é incompetência nossa que **nem lemos o erro na nossa cara**. Simplesmente saímos procurando onde foi que fizemos a m***a. — Isso acontece com quem já tem anos de XP, quanto mais com alguém que está começando.
 
@@ -63,7 +81,7 @@ Você pode fazer seu papel de pessoa da comunidade, membro de uma sociedade que 
 
 Não saia julgando ninguém logo de cara.
 
-## Mas as pessoas são preguiçosas
+## <a name='Masaspessoassopreguiosas'></a>Mas as pessoas são preguiçosas
 
 **São!**
 
@@ -75,7 +93,7 @@ Assuma que, quando a pessoa perguntou, ela está buscando ajuda e é só isso qu
 
 Ensine a pessoa sobre o que pesquisar, não é só dizer que “é só pesquisar no Google” ou “Google”.
 
-## Ainda sobre respostas nos tópicos
+## <a name='Aindasobrerespostasnostpicos'></a>Ainda sobre respostas nos tópicos
 
 Quando eu comecei na área de desenvolvimento eu entrei em diversos grupos de programação. Sério. Todo grupo de programação eu estava lá… PHP, Ruby, Python, Java, C#. Todos!
 
@@ -100,7 +118,7 @@ Eu não cheguei até aqui graças a gente que responde com link de deixe-me usar
 
 > Enquanto alguns gastavam seu tempo respondendo babaquices eu gastava o meu estudando.
 
-## Se X você não é programador(a)
+## <a name='SeXvocnoprogramadora'></a>Se X você não é programador(a)
 
 - se você usa Windows, você não é programador(a)
 - se você não tem conta no GitHub você não é programador(a)
@@ -119,7 +137,7 @@ Falar coisas como esses exemplos não faz com que as pessoas continuem se esfor�
 
 Leia: [Síndrome do Impostor](https://pt.wikipedia.org/wiki/S%C3%ADndrome_do_impostor).
 
-## Comunicação não violenta
+## <a name='Comunicaonoviolenta'></a>Comunicação não violenta
 
 Se você realmente quer ajudar alguém a melhorar, precisa aprender a se comunicar.
 
@@ -129,7 +147,7 @@ Ouça o podcast da Lambda3 sobre comunicação não violenta:
 
 <iframe scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/308064101&amp;color=ff5500"></iframe>
 
-## Tratar as mulheres como limitadas ou ser inconveniente quando elas fazem perguntas
+## <a name='Tratarasmulherescomolimitadasouserinconvenientequandoelasfazemperguntas'></a>Tratar as mulheres como limitadas ou ser inconveniente quando elas fazem perguntas
 
 É engraçado ver como alguns homens acham que o simples fato de a pessoa ser mulher a torna limitada na nossa área. Também é engraçado ver que o fato de ter mulheres ali faz com que a comunidade se torne um Tinder.
 
@@ -145,7 +163,7 @@ O respeito em comunidades não é só de homens para homens.
 
 Que tal cair na real de que não é por causa da sua genital que você ganha mais direitos que as outras pessoas dentro de um grupo e não deve sair por ai dizendo o que bem quiser?
 
-## A internet conecta um mundo inteiro, saia do seu mundinho
+## <a name='Ainternetconectaummundointeirosaiadoseumundinho'></a>A internet conecta um mundo inteiro, saia do seu mundinho
 
 Aparentemente é muito legal chegar lá e zoar a pessoa que perguntou, porém estamos no MUNDO da internet.
 
@@ -167,7 +185,7 @@ Não só por isso, não se esqueça que o mundo do desenvolvimento de software �
 
 **#SoNaoSejaBabaca**
 
-## Conclusão
+## <a name='Concluso'></a>Conclusão
 
 Este post aqui é só um apelo ao pensamento auto crítico. Se analise um pouco e pense muito bem antes de dizer certas coisas na internet.
 

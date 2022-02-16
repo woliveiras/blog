@@ -8,13 +8,27 @@ tags:
 description: Um dos maiores males do projeto de software é a otimização prematura. Nós queremos fazer algo bem feito e o mais perfeito possível, mas como e quando uma melhoria deve ser feita?
 socialImage: '/images/posts/fabian-petersen-T9sR3Rws24E-unsplash.jpg'
 ---
+
+<!-- vscode-markdown-toc -->
+* [O que é otimização prematura?](#Oqueotimizaoprematura)
+* [Como saber a hora de otimizar](#Comosaberahoradeotimizar)
+* [Como aprender mais sobre otimização](#Comoaprendermaissobreotimizao)
+* [Conclusão](#Concluso)
+
+<!-- vscode-markdown-toc-config
+	numbering=false
+	autoSave=true
+	/vscode-markdown-toc-config -->
+<!-- /vscode-markdown-toc -->
+
+
 Desenvolver software é um trabalho complexo e que muitas vezes tem um prazo determinado. Este prazo foi acordado com alguém, vamos chamar este alguém de cliente. Cliente pode ser qualquer pessoa, desde a pessoa de gerência de produtos, a nossa liderança técnica ou diretamente alguém de fora da empresa que está esperando pela nova funcionalidade. Quando começamos a escrever o nosso código, precisamos ter isso na nossa mente: alguém está esperando pela nossa entrega.
 
 Com a realidade dos prazos clara em nossa rotina como pessoas desenvolvedoras de software, começa a ficar mais fácil entender o que é fazer uma tarefa prematuramente. Se nós temos um escopo definido e entregas planejadas, não deveríamos começar hoje a tarefa que deveria ser feita no final do desenvolvimento do produto. 
 
 Imagina que estamos construindo um ecommerce com Next.js e parte da nossa preocupação é com a performance da aplicação.O próprio Next já nos entrega a garantia de uma atenção com a velocidade do nosso produto desde o momento em que começamos a estruturar o desenvolvimento. Pensando nisso, faria sentido começar a escrever a nossa tela, os componentes da aplicação, e gastar 10, 20 horas de programação otimizando uma pequena função, que faz uma micro atividade e pouca utilização agora? Onde agora seria o começo da criação do produto.
 
-## O que é otimização prematura?
+## <a name='Oqueotimizaoprematura'></a>O que é otimização prematura?
 
 Em ciência da computação, otimizar algo implica em uma modificação no sistema (seja um software ou hardware ou até mesmo processos de desenvolvimento de software) que vai nos prover um **melhor consumo de recursos**. Pense em recursos como: carga de rede, memória, processamento, espaço em disco, etc.
 
@@ -36,7 +50,7 @@ Se já estamos escrevendo um software com qualidade (código legível, testes, b
 
 Muitas vezes este é o grande problema da otimização: achamos que vamos ter um problema e este pode nunca acontecer, mesmo sem a nossa “melhoria”.
 
-## Como saber a hora de otimizar
+## <a name='Comosaberahoradeotimizar'></a>Como saber a hora de otimizar
 
 Nem sempre observarmos relatórios de performance da nossa aplicação, como um [PageSpeed](https://developers.google.com/speed/pagespeed/insights/) ou o [Lighthouse](https://developers.google.com/web/tools/lighthouse) da vida vai garantir que saibamos o momento certo de otimizar. Essas ferramentas também podem indicar a necessidade de criar uma [**dívida técnica**](/posts/o-que-é-e-quando-pagar-uma-divida-tecnica/) em nosso planejamento ao invés de o melhor momento para melhorar o software.
 
@@ -52,7 +66,7 @@ Parte do processo é receber feedbacks sobre o seu trabalho, então abra logo o 
 
 Jamais otimize sem métricas.
 
-## Como aprender mais sobre otimização
+## <a name='Comoaprendermaissobreotimizao'></a>Como aprender mais sobre otimização
 
 Se você quiser aprender tudo sobre otimização, talvez seja uma boa hora para ler a série de livros de Donald Knuth, o cara que, inclusive, cunhou uma frase que você já deve ter escutado em algum momento de sua carreira:
 
@@ -62,7 +76,7 @@ Ele escreveu uma série chamada The Art of Computer Programming (infelizmente so
 
 Veja: [The Art of Computer Programming, Volumes 1-4a](https://amzn.to/3lpsotW).
 
-## Conclusão
+## <a name='Concluso'></a>Conclusão
 
 Escolher o melhor momento de fazer algo é extremamente difícil quando temos muitas opções. Em programação é comum se deparar com esses momentos. Precisamos ter contexto sobre o que precisamos entregar com o nosso código e acompanhar o produto em produção para saber o que e quando precisamos otimizar.
 

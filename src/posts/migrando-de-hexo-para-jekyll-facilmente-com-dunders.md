@@ -30,7 +30,21 @@ Se você quiser ver o código fonte do meu blog, pode olhar neste link: [github/
 
 Anteriormente eu havia migrado de WordPress para Hexo, o que foi muito legal também, mas estou acreditando fortemente que, com essa nova versão, vou passar menos ansiedade esperando o build a cada post! :joy:
 
-## Como ocorreu a migração
+
+<!-- vscode-markdown-toc -->
+* [Como ocorreu a migração](#Comoocorreuamigrao)
+* [Principais preocupações e mudanças](#Principaispreocupaesemudanas)
+* [Novidades legais](#Novidadeslegais)
+* [Conclusão](#Concluso)
+
+<!-- vscode-markdown-toc-config
+	numbering=false
+	autoSave=true
+	/vscode-markdown-toc-config -->
+<!-- /vscode-markdown-toc -->
+
+
+## <a name='Comoocorreuamigrao'></a>Como ocorreu a migração
 
 Primeiro foi criado uma nova branch, para que eu não poluísse a master durante o desenvolvimento e o Travis ficasse “rebuildando” o tempo todo.
 
@@ -44,7 +58,7 @@ Daí pra frente foi só seguir desenhando o layout e codificando tudo.
 
 ![Codificando o novo tema]({{site.postsImagesPath}}codando-o-novo-tema.png)
 
-## Principais preocupações e mudanças
+## <a name='Principaispreocupaesemudanas'></a>Principais preocupações e mudanças
 
 As principais preocupações são as configurações dos temas.
 
@@ -72,7 +86,7 @@ Além disso, me preocupei em deixar o tema o mais limpo possível, com o tamanho
 
 
 
-## Novidades legais
+## <a name='Novidadeslegais'></a>Novidades legais
 
 No tema antigo eu não tinha me preocupado em colocar meios de compartilhar os textos nas redes sociais, nem com artigos relacionados, por isso eu dei certa atenção para isso aqui.
 
@@ -84,7 +98,7 @@ Eu adicionei alguns plugins maneiros no Jekyll e o mais legal é o de usar [emoj
 
 Também estou utilizando um plugin para importar Gists dentro dos meus textos, o que pode facilitar a leitura e compartilhamento de código fonte. :octocat:
 
-## Conclusão
+## <a name='Concluso'></a>Conclusão
 
 A migração foi muito simples, apesar de trabalhosa na parte de design graças ao uso do Dunders, que já me dá todas as páginas e configurações básicas prontas.
 

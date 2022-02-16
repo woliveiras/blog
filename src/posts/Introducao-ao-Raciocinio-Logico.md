@@ -8,6 +8,19 @@ tags:
 description: Nesse artigo você encontra uma introdução rápida ao Raciocínio Lógico e alguns termos importantes para o estudo do assunto.
 ---
 
+<!-- vscode-markdown-toc -->
+* [O que é Lógica](#OqueLgica)
+* [O que é Raciocínio Lógico](#OqueRaciocnioLgico)
+* [E o que são esses tais argumentos?](#Eoquesoessestaisargumentos)
+* [Concluindo](#Concluindo)
+* [Referências](#Referncias)
+
+<!-- vscode-markdown-toc-config
+	numbering=false
+	autoSave=true
+	/vscode-markdown-toc-config -->
+<!-- /vscode-markdown-toc -->
+
 Sempre que alguém pergunta o que precisa conhecer para aprender a programar é padrão que respondamos: Lógica de Programação e uma Linguagem de Programação. Sendo a Lógica de Programação o tema mais importante desses dois citados.
 
 Em todo [guia para iniciantes](https://www.google.com/about/careers/students/guide-to-technical-development.html) ou [trilha de estudos](https://woliveiras.com.br/posts/guia-de-estudos-desenvolvedor-front-end-iniciante/) para novos desenvolvedores, sempre abordamos o assunto lógica como algo muito importante para o Desenvolvedor de Software.
@@ -22,7 +35,7 @@ Tentarei, em outros posts, falar um pouco mais sobre Algoritmos, Fluxogramas, Te
 
 Nesse artigo você encontra uma introdução rápida ao Raciocínio Lógico e alguns termos importantes para o estudo do assunto.
 
-## O que é Lógica
+## <a name='OqueLgica'></a>O que é Lógica
 
 Lógica é um assunto [bem mais antigo do que a Computação](https://pt.wikipedia.org/wiki/Hist%C3%B3ria_da_l%C3%B3gica). Olha essa definição da Wikipédia:
 
@@ -37,7 +50,7 @@ Um pouco mais sobre a história da lógica e alguns pontos importantes sobre o a
 
 <iframe src="https://www.youtube.com/embed/ozMbmBp3onE" width="100%" height="473px" frameborder="0" scrolling="no" allowfullscreen></iframe>
 
-## O que é Raciocínio Lógico
+## <a name='OqueRaciocnioLgico'></a>O que é Raciocínio Lógico
 
 Antes de entender o que é Raciocínio Lógico, precisamos saber o que é o **Raciocínio**.
 
@@ -57,7 +70,7 @@ O [Computador trabalha com binários 0 e 1](https://www.ime.usp.br/~elo/Introduc
 
 
 
-## E o que são esses tais argumentos?
+## <a name='Eoquesoessestaisargumentos'></a>E o que são esses tais argumentos?
 
 Os argumentos são enunciados que se relacionam entre sí onde um [enunciado](https://www.dicio.com.br/enunciado/) é a **conclusão** e os demais são chamados **premissas**.
 
@@ -99,7 +112,7 @@ Linguagem estruturada, aqui, significa que as premissas precisam ser escritas de
 
 No exemplo do carro a premissa descarta a possibilidade de alguém empurrar esse carro sem combustível, por exemplo.
 
-## Concluindo
+## <a name='Concluindo'></a>Concluindo
 
 Esse post foi uma introdução ao Raciocínio Lógico, mas ainda temos outros tópicos a abordar como Proposições, Conectívos, Operações Lógicas, Construção de Tabelas Verdade, dentre outros. Se eu falasse tudo aqui, iram ser umas 2 horinhas de leitura e sintese fácilmente, então preferi dividir o assunto.
 
@@ -108,7 +121,7 @@ Eu não abordei, nesse artigo, a classificação da lógica, pois implica em mai
 - [Lógica de Aristóteles](https://brasilescola.uol.com.br/filosofia/logica-aristoteles.htm)
 - [Uma classificação da lógica](https://www.eumed.net/libros-gratis/2009a/499/UMA%20CLASSIFICACAO%20DA%20LOGICA.htm)
 
-## Referências
+## <a name='Referncias'></a>Referências
 
 - https://www4.pucsp.br/~logica/
 - https://educacao.globo.com/telecurso/noticia/2015/04/o-que-e-o-raciocinio-logico.html
