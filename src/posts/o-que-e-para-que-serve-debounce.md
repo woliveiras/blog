@@ -27,9 +27,9 @@ No exemplo abaixo temos um textarea com a função de salvamento somente te most
 
 Perceba, a quantidade de disparos é muito alta. Isso, pensando em requisições em rede, gera diversos problemas, como:
 
-sobrecarga da rede: custos de rede em infraestrutura, lentidão de resposta do servidor devido ao alto processamento de dados e inserção no banco de dados
-lentidão da interface: devido a quantidade de requisições abertas, o navegador pode começar a funcionar de uma maneira mais lenta
-erros de inserção dos dados: por conta da quantidade de requisições, se o sistema backend não trabalhar bem, teremos o risco de sobrescrever os dados anteriores por algo incompleto
+- __sobrecarga da rede__: custos de rede em infraestrutura, lentidão de resposta do servidor devido ao alto processamento de dados e inserção no banco de dados
+- __lentidão da interface__: devido a quantidade de requisições abertas, o navegador pode começar a funcionar de uma maneira mais lenta
+- __erros de inserção dos dados__: por conta da quantidade de requisições, se o sistema backend não trabalhar bem, teremos o risco de sobrescrever os dados anteriores por algo incompleto
 
 E isso só pensando bem por cima da quantidade de desafios que podemos enfrentar caso sigamos este fluxo. Para evitar isso, utilizamos uma técnica chamada debounce.
 
