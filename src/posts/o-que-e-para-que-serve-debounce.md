@@ -12,7 +12,8 @@ description: Uma dica importante de performance em JavaScript quando estamos tra
 Quando trabalhamos com o desenvolvimento de aplicações web ricas, aquelas cheias de eventos e trabalhando com requisições HTTP, muitas vezes corremos o risco de disparar diversos eventos de salvamento, atualização de estados e outras funções sem querer que isso aconteça.
 
 Imagine uma função de salvamento automático, onde o usuário digita em um campo de __input__ ou __textarea__ e devemos salvar a palavra ou texto digitados enviando para um servidor. Agora, vamos pensar que este usuário pode digitar uma letra por segundo ou mesmo diversas palavras. Em qual momento a função de salvar deve ser executada?
-A problemática
+
+## A problemática
 
 Vamos seguir com o exemplo do __textarea__ que envia o texto para um backend. Vamos utilizar o evento de __input__ para disparar uma função que vai salvar o texto.
 
@@ -87,7 +88,9 @@ Agora vamos implementar no nosso textarea com autosave:
 
 A nossa atenção fica voltada para  alinha: 
 
+```javascript
 contentElm.addEventListener("input", debounce(autoSave, 500))
+```
 
 Onde estamos colocando um timeout de 500ms quando o usuário digitar no textarea.
 
