@@ -91,7 +91,9 @@ Vamos ao exemplo do scroll na minha janela de mentirinha:
 
 O uso do throttle está na linha:
 
+```javascript
 windowElm.addEventListener("scroll", throttle(increment, 1000))
+```
 
 ## <a name='Concluso'></a>Conclusão
 
