@@ -53,6 +53,7 @@ Podemos controlar que a nossa função de incremento do contador seja executada,
 
 Pensando que a nossa função de throttle precisa disparar um timer e depois executar uma função passada como parâmetro. Podemos implementar ela com o código abaixo:
 
+```javascript
 function throttle(fn, waitTime) {
   let timer = null
   let lastExec = null
@@ -75,6 +76,7 @@ function throttle(fn, waitTime) {
     }
   }
 }
+```
 
 O detalhe está no fato de que precisamos controlar o contexto e argumentos, pois precisamos utilizar o __apply__ para executar a função com os parâmetros corretos dentro do nosso __setTimeOut__. Além de verificar se a função foi executada anteriormente e se, subtraindo o horário de agora do valor de última execução, o tempo desde a última execução é maior ou igual ao tempo que deve ser esperado. Então a nossa função só vai executar caso o nosso tempo de espera for respeitado.
 
