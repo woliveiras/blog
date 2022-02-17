@@ -1,6 +1,6 @@
 ---
 title: O que é e para que serve throttle  em JavaScript
-date: '2022-02-16'
+date: '2022-02-17'
 socialImage: "/images/posts/lucas-ludwig-rgj95BaGcT4-unsplash.jpg"
 tags:
     - JavaScript
