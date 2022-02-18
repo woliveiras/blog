@@ -24,7 +24,7 @@ Terça-feira
 | Horário | Atividade |
 | --- | --- |
 | 19:30 | Plantão de dúvidas | 
-| 20:30 | Conteúdo do dia | 
+| 20:00 | Conteúdo do dia | 
 | 22:00 | Finalização | 
 
 Quinta-feira
@@ -32,5 +32,5 @@ Quinta-feira
 | Horário | Atividade |
 | --- | --- |
 | 19:30 | Papo sobre carreira | 
-| 20:30 | Conteúdo do dia | 
+| 20:00 | Conteúdo do dia | 
 | 22:00 | Finalização | 
