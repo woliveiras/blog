@@ -11,6 +11,9 @@ description: "Apoio a pessoas de baixa renda, moradores de periferia e pessoas e
 	* [Apoia.se](#Apoia.se)
 	* [PayPal](#PayPal)
 	* [PicPay](#PicPay)
+	* [Pix](#Pix)
+	* [Doação de empresas](#Doaodeempresas)
+	* [Doação de computadores/notebooks ou outros equipamentos](#Doaodecomputadoresnotebooksououtrosequipamentos)
 		* [Contrate Minorias](#ContrateMinorias)
 		* [Consiga Mentoria / Ajude](#ConsigaMentoriaAjude)
 		* [Convide pessoas para palestrar](#Convidepessoasparapalestrar)
@@ -77,7 +80,17 @@ Ao criar sua conta, insira o meu código, **HEYQ7T**, e ganhe de volta os primei
 
 Depois você pode acessar este link [picpay.me/uillaz](https://picpay.me/uillaz) para ter acesso ao meu QR Code e poder assinar minha campanha.
 
-[Para empresas, clique aqui](mailto:w.oliveira542@gmail.com)
+### <a name='Pix'></a>Pix
+
+Você pode fazer uma doação de qualquer valor no Pix: __etc.william@gmail.com__.
+
+### <a name='Doaodeempresas'></a>Doação de empresas
+
+[Para empresas, clique aqui](mailto:etc.william@gmail.com)
+
+### <a name='Doaodecomputadoresnotebooksououtrosequipamentos'></a>Doação de computadores/notebooks ou outros equipamentos
+
+Eu sou membro do Núcleo de Tecnologia do MTST. Para envio de equipamentos para nossos alunos, você pode entrar em contato conosco através do formulário de contatos no site: [nucleodetecnologia.com.br](https://nucleodetecnologia.com.br/).
 
 #### <a name='ContrateMinorias'></a>Contrate Minorias
 

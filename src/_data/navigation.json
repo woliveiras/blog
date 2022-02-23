@@ -1,12 +1,12 @@
 {
   "items": [
     {
-      "text": "Apoiar",
+      "text": "Como me apoiar",
       "url": "https://apoia.se/uillaz",
       "external": true
     },
     {
-      "text": "Cursos de Programação",
+      "text": "Ao Vivo",
       "url": "/curso/programacao",
       "external": false
     },

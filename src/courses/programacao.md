@@ -19,18 +19,8 @@ Este conteúdo é totalmente gratuito e mantido pela comunidade de programação
 
 > Os horários podem variar, mas as atividades seguem a mesma sequência
 
-Terça-feira
-
 | Horário | Atividade |
 | --- | --- |
 | 19:30 | Plantão de dúvidas | 
-| 20:00 | Conteúdo do dia | 
-| 22:00 | Finalização | 
-
-Quinta-feira
-
-| Horário | Atividade |
-| --- | --- |
-| 19:30 | Papo sobre carreira | 
 | 20:00 | Conteúdo do dia | 
 | 22:00 | Finalização | 
