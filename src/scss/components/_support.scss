@@ -1,18 +1,16 @@
-.cta-contribute {
-    border: 1px solid;
+.support {
+    border-bottom: 1px solid;
     border-color: var(--color-primary-glare);
-    border-radius: 3px;
-    padding: 30px;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
 
     &__link {
         background-color: var(--color-action-bg);
         color: var(--color-action-text);
-        padding: .5rem;
-        display: inline-block;
-        width: 100%;
-        text-align: center;
-        margin-top: 1rem;
-        margin-right: 1rem;
+        padding-left: 0.5rem;
+        padding-right: 0.5rem;
         text-decoration: none;
 
         &:hover,
