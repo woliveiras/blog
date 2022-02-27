@@ -17,6 +17,11 @@
     }
   }
 
+  li:first-child {
+    border: 1px solid var(--color-primary-glare);
+    padding: 0.8rem;
+  }
+
   &__item {
     padding: get-size(300) 0;
     flex-shrink: 0;
