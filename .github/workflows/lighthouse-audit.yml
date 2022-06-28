@@ -1,15 +1,16 @@
-name: Audit pull request
-on: [push, pull_request]
+name: Audit live site
+on: push
 
 jobs:
   audit:
     runs-on: ubuntu-latest
     steps:
-    - name: Audit Netlify deploy preview
+    - name: Audit live URL
       uses: jakejarvis/lighthouse-action@master
       with:
-        netlify_site: 'https://deploy-preview-[[PR_NUMBER]]--sleepy-keller-922c66.netlify.app/'
-    - uses: actions/upload-artifact@master
+        url: 'https://woliveiras.com.br/'
+    - name: Upload results as an artifact
+      uses: actions/upload-artifact@master
       with:
         name: report
         path: './report'
