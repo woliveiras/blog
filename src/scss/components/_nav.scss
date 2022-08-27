@@ -1,4 +1,8 @@
 .nav {
+  @media screen and (max-width: 760px) {
+    padding-top: 2rem;
+  }
+
   &__list {
     overflow-x: auto;
 
