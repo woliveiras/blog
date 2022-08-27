@@ -21,7 +21,7 @@
     "@erquhart/rollup-plugin-node-builtins": "^2.1.5",
     "bl": "^3.0.1",
     "chokidar-cli": "^2.1.0",
-    "cross-env": "^5.2.1",
+    "cross-env": "^7.0.3",
     "make-dir-cli": "^3.0.0",
     "prettier": "^1.19.1",
     "rollup": "^1.32.1",
