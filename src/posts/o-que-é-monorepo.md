@@ -6,7 +6,7 @@ tags:
     - Nodejs
     - frontend
     - engenharia
-description: 
+description: Gerenciar os repositórios e todas as integrações com eles em grandes projetos pode se tornar complexo e trabalhoso. Existem práticas que podem nos ajudar a facilitar este processo e os monorepos podem nos ajudar bastante nisso.
 ---
 
 Trabalhando profissionalmente com aplicações de larga escala, utilizamos sistemas de versionamento de código (entenda o que é versionamento de código [neste artigo](/posts/introdução-a-versionamento-de-código-e-conhecendo-o-git/)). E, para guardar as versões, salvamos tudo em repositórios de código.
