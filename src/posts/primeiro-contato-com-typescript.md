@@ -3,7 +3,9 @@ title: Meu primeiro contato com TypeScript
 date: '2021-01-01'
 tags:
     - typescript
-    - engenharia
+    - javascript
+	- nodejs
+	- frontend
 description: Depois de muito fugir, dei uma chance para aprender TypeScript e o resultado dessa busca vamos ver juntos.
 socialImage: '/images/posts/fionn-claydon-zu9l6Lqi4bE-unsplash.jpg'
 ---
