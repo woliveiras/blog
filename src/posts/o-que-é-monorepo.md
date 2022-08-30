@@ -15,6 +15,16 @@ Com o crescimento dos nossos projetos ou das empresas, acabamos criando vários 
 
 Chamamos de **polyrepo** a prática de possuir diversos repositórios espalhados e de **monorepo** quando temos um único repositório com vários repositórios dentro. Mas existem diferenças entre múltiplos repositórios e monorepos que vão além do controle de versão. Fora esses dois nomes novos para o nosso repertório de engenharia de software, temos também os **monolithic** ou **single-repo monolithics** e é graças a este outro tópico que fica mais claro a diferença que existe na prática no uso de monorepos. Não é somente sobre onde você armazena seu código.
 
+Para entender tudo isso, vamos primeiro relembrar ou entender o que é repositório, depois vamos conhecer o histórico dos monorepos e, por fim, vamos imaginar alguns cenários para clarear a nossa visão sobre o tema.
+
+## O que são repositórios?
+
+Em um breve resumo, repositório nada mais é que uma pasta onde estão todos os arquivos do nosso projeto, incluindo nosso versionamento.
+
+A grande vantagem de se trabalhar com repositórios, não simplesmente com diretórios onde você escreve o código e depois salva em arquivos .zip, é o fato de conseguir versionar o nosso histórico de alterações. Para isso, utilizamos ferramentas de versionamento, como o Git, Mercurial, SVN e afins.
+
+Normalmente hospedamos nosso repositório em serviços como o GitHub, GitLab, Bitbucket ou similares para conseguir trabalhar em equipes, compartilhando este repositório com outras pessoas através da internet.
+
 ## O histórico dos monorepos
 
 Pelo que temos de informação espalhada pela internet, o uso de monorepos não é algo atual. Aparentemente veio antes dos anos 2000, muito utilizados em grandes empresas, como Google, Microsoft e Facebook.
@@ -90,4 +100,6 @@ Não entramos no assunto de vantagens e desvantagens dos monorepos, isso é tema
 [Pants](https://www.pantsbuild.org/)
 [Lerna](https://lerna.js.org/ )
 [Mercurial](https://www.mercurial-scm.org/)
+[SVN](https://subversion.apache.org/)
+[Git](https://git-scm.com/)
 [Git LFS](https://git-lfs.github.com/)
