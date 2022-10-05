@@ -5,9 +5,6 @@ tags:
     - Sociedade
 description: Em algum momento de nossas vidas, nós nos perdemos. O ódio, o preconceito, o radicalismo e o extremismo ganharam e nós perdemos nossas famílias, amigos e relações em comunidade.
 ---
-Éramos uma família de 4 filhos de uma mulher preta, mãe solo, morando em uma quebrada igual qualquer outra por aí. História mais repetida nesse país do que as horas do dia. Até os meus 7 anos éramos muito próximos. 
-
-Dessa época, me lembro de poucas coisas… Do desenho feito pelo irmão do meio, que eu copiei colocando uma folha por cima e me mostrou que eu era capaz de desenhar (desenhar seria uma das paixões da minha vida); do uniforme do Santos dado pelo irmão mais velho, time que eu torci até os meus 18 anos (ou um pouquinho mais); da televisão chegando em nossas vidas e virando motivo de briga entre eu e a irmã, que queria ver Malhação e eu assistir a TV CRUJ, da fita cassete verde do Rei Leão comprada na feirinha, do Super Nintendo, que chegou pouco antes da gente se separar, mas era um pilar de união entre todos nós jogando Street Fighter ou Mortal Kombat.
 
 Éramos uma família de 4 filhos de uma mulher preta, mãe solo, morando em uma quebrada igual qualquer outra por aí. História mais repetida nesse país do que as horas do dia. Até os meus 7 anos éramos muito próximos. 
 
