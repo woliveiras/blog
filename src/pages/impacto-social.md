@@ -14,8 +14,6 @@ description: "Apoio a pessoas de baixa renda, moradores de periferia e pessoas e
 	- [<a name='Doaodeempresas'></a>Doação de empresas](#doação-de-empresas)
 	- [<a name='Doaodecomputadoresnotebooksououtrosequipamentos'></a>Doação de computadores/notebooks ou outros equipamentos](#doação-de-computadoresnotebooks-ou-outros-equipamentos)
 		- [<a name='ContrateMinorias'></a>Contrate Minorias](#contrate-minorias)
-		- [<a name='ConsigaMentoriaAjude'></a>Consiga Mentoria / Ajude](#consiga-mentoria--ajude)
-		- [<a name='Convidepessoasparapalestrar'></a>Convide pessoas para palestrar](#convide-pessoas-para-palestrar)
 - [<a name='Comoreceberapoio'></a>Como receber apoio](#como-receber-apoio)
 - [<a name='Apoiadoreseapoiadoras'></a>Apoiadores e apoiadoras](#apoiadores-e-apoiadoras)
 
@@ -83,21 +81,11 @@ Eu sou membro do Núcleo de Tecnologia do MTST. Para envio de equipamentos para 
 
 Contrate pessoas de grupos sub-representados através deste link: [me-contrata](/me-contrata).
 
-#### <a name='ConsigaMentoriaAjude'></a>Consiga Mentoria / Ajude
-
-Você pode conseguir mentoria na área de tecnologias de pessoas diversas!
-
-Entre no link do Codamos.club e entre em contato com a galera: [Codamos/pessoas](https://www.codamos.club/pessoas).
-
-#### <a name='Convidepessoasparapalestrar'></a>Convide pessoas para palestrar
-
-Em vários eventos vemos grades homogêneas e para que isso deixe de ser uma regra, o Codamos reúne uma lista imensa de pessoas diversas para o seu evento, entre em contato com elas: [Codamos/pessoas](https://www.codamos.club/pessoas).
-
 ---
 
 ## <a name='Comoreceberapoio'></a>Como receber apoio
 
-Se você se declara como vivendo em condição de baixa renda que deseja entrar na área de programação, pode receber meu apoio via sorteio mensal através do formulário: [apoio social](https://forms.gle/gARZHvB4svLNzrP17).
+Se você se declara como vivendo em condição de baixa renda que deseja entrar na área de programação, pode receber meu apoio via sorteio mensal através do formulário: [impacto social](https://forms.gle/gARZHvB4svLNzrP17).
 
 ## <a name='Apoiadoreseapoiadoras'></a>Apoiadores e apoiadoras
 
