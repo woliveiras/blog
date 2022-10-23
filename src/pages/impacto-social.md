@@ -1,24 +1,23 @@
 ---
-permalink: '/apoio-social/index.html'
-title: "Apoio Social - William Oliveira"
+permalink: '/impacto-social/index.html'
+title: "Impacto Social - William Oliveira"
 description: "Apoio a pessoas de baixa renda, moradores de periferia e pessoas em situação de vulnerabilidade social que desejam entrar na área de programação"
 ---
 
 <!-- vscode-markdown-toc -->
-* [Contextualizando](#Contextualizando)
-* [Sobre a minha iniciativa](#Sobreaminhainiciativa)
-* [Como me ajudar](#Comomeajudar)
-	* [Apoia.se](#Apoia.se)
-	* [PayPal](#PayPal)
-	* [PicPay](#PicPay)
-	* [Pix](#Pix)
-	* [Doação de empresas](#Doaodeempresas)
-	* [Doação de computadores/notebooks ou outros equipamentos](#Doaodecomputadoresnotebooksououtrosequipamentos)
-		* [Contrate Minorias](#ContrateMinorias)
-		* [Consiga Mentoria / Ajude](#ConsigaMentoriaAjude)
-		* [Convide pessoas para palestrar](#Convidepessoasparapalestrar)
-* [Como receber apoio](#Comoreceberapoio)
-* [Apoiadores e apoiadoras](#Apoiadoreseapoiadoras)
+- [<a name='Contextualizando'></a>Contextualizando](#contextualizando)
+- [<a name='Sobreaminhainiciativa'></a>Sobre a minha iniciativa](#sobre-a-minha-iniciativa)
+- [<a name='Comomeajudar'></a>Como me ajudar](#como-me-ajudar)
+	- [<a name='Apoia.se'></a>Apoia.se](#apoiase)
+	- [<a name='PayPal'></a>PayPal](#paypal)
+	- [<a name='Pix'></a>Pix](#pix)
+	- [<a name='Doaodeempresas'></a>Doação de empresas](#doação-de-empresas)
+	- [<a name='Doaodecomputadoresnotebooksououtrosequipamentos'></a>Doação de computadores/notebooks ou outros equipamentos](#doação-de-computadoresnotebooks-ou-outros-equipamentos)
+		- [<a name='ContrateMinorias'></a>Contrate Minorias](#contrate-minorias)
+		- [<a name='ConsigaMentoriaAjude'></a>Consiga Mentoria / Ajude](#consiga-mentoria--ajude)
+		- [<a name='Convidepessoasparapalestrar'></a>Convide pessoas para palestrar](#convide-pessoas-para-palestrar)
+- [<a name='Comoreceberapoio'></a>Como receber apoio](#como-receber-apoio)
+- [<a name='Apoiadoreseapoiadoras'></a>Apoiadores e apoiadoras](#apoiadores-e-apoiadoras)
 
 <!-- vscode-markdown-toc-config
 	numbering=false
