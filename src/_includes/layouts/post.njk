@@ -3,13 +3,12 @@
 {# Intro content #}
 {% set introHeading = title %}
 {% set introSummary %}
-<p class="[ intro__meta ] [ text-500 leading-tight ]">
+<p class="[ intro__meta ] [ text-300 leading-tight ]">
   {% if date %}
     <time datetime="{{ date | w3DateFilter }}" class="dt-published">{{ date | dateFilter }}</time>
   {% endif %}
-  <span>— {{ helpers.getReadingTime(content) }} minutos de leitura</span><br />
 </p>
-<a class="gap-top-300 text-300" href="https://github.com/woliveiras/woliveiras.github.io/tree/main/{{ page.inputPath }}">Editar este artigo</a>
+<a class="gap-top-300 text-300" href="https://github.com/woliveiras/woliveiras.github.io/tree/main/{{ page.inputPath }}">Este blog é open source, edite este artigo clicando aqui</a>
 {% endset %}
 
 {% block content %}
