@@ -51,9 +51,9 @@ Quando ouvimos falar de syntax highlighting significa que desejamos um editor de
 
 Veja um exemplo de código escrito via um editor de textos simples e um com  syntax highlighting:
 
-![Editor de textos simples com um código JavaScript]({{site.postsImagesPath}}TextEdit-JavaScript.png)
+![Editor de textos simples com um código JavaScript](/images/posts/TextEdit-JavaScript.png)
 
-![VS Code com um código JavaScript]({{site.postsImagesPath}}VSCode-JavaScript.png)
+![VS Code com um código JavaScript](/images/posts/VSCode-JavaScript.png)
 
 O primeiro editor é o TextEdit, do MacOS, e o segundo é o VS Code, multiplataforma. 
 

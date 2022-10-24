@@ -104,13 +104,13 @@ Para ilustrar melhor o que entendemos até aqui, desenhei alguns diagramas que v
 
 De uma maneira muito, mas realmente muito simplificada: temos você acessando um site com o seu navegador, o servidor utilizando a aplicação que bate em um banco de dados, processa a informação, devolve para o servidor e o servidor te envia uma página.
 
-![Arquitetura SSR (Server Side Rendering)]({{site.postsImagesPath}}arquitetura_SSR.png)
+![Arquitetura SSR (Server Side Rendering)](/images/posts/arquitetura_SSR.png)
 
 ### <a name='AarquiteturadeumaaplicaoSSG'></a>A arquitetura de uma aplicação SSG
 
 Agora o mesmo processo, porém não temos mais um servidor processando informações em tempo de execução, somente o envio do conteúdo estático para o seu navegador. Não que não tenha acontecido um processo de construção da página e envio para o servidor de conteúdo estático, mas isso não acontece **agora**.
 
-![Arquitetura SSG (Static Site Generated)]({{site.postsImagesPath}}arquitetura_SSG.png)
+![Arquitetura SSG (Static Site Generated)](/images/posts/arquitetura_SSG.png)
 
 ## <a name='Concluso'></a>Conclusão
 

@@ -38,17 +38,17 @@ Como de prache, teremos as seguintes colunas no quadro: **backlog**, **todo**, *
 - **doing**: tudo o que estamos fazendo no momento
 - **done**: tudo o que já foi finalizado
 
-![Board com as colunas backlog, todo, doing e done]({{site.postsImagesPath}}board-com-colunas-backlog-doing-done.png)
+![Board com as colunas backlog, todo, doing e done](/images/posts/board-com-colunas-backlog-doing-done.png)
 
 Para não nos sobrecarregarmos, vamos limitar o que fazemos deixando um número nas colunas todo e doing com o limite de cards que podem estar ali.
 
-![Board com os limitadores de tarefas, como Todo (5) e Doing (5)]({{site.postsImagesPath}}board-com-colunas-backlog-doing-done-limitadas.png)
+![Board com os limitadores de tarefas, como Todo (5) e Doing (5)](/images/posts/board-com-colunas-backlog-doing-done-limitadas.png)
 
 Isso porque, se estamos fazendo mais que uma coisa ao mesmo tempo, então podemos estar nos cobrando demais ou mesmo fazendo algo **sem planejar**. Só devemos executar o que realmente causa impacto na nossa carreira.
 
 Além disso, seria legal termos uma coluna onde colocamos quais são nossos objetivos de mais longo prazo para que sempre revisemos lá. Podemos chamar essa coluna de **following**.
 
-![Coluna following]({{site.postsImagesPath}}board-com-coluna-follow.png)
+![Coluna following](/images/posts/board-com-coluna-follow.png)
 
 Agora que temos nosso quadro montado, podemos partir para a parte de colocar as informações que coletamos para finalmente podermos trabalhar nas metas.
 
@@ -66,11 +66,11 @@ Vamos revisar as perguntas básicas que devemos nos fazer:
 
 Devemos colocar isso em um card em following e sempre revisitarmos ele para analisarmos se realmente estamos seguindo para o caminho certo com nossas tarefas de médio e curto prazo. O título desse card pode ser algo como “metas de longo prazo”, mas também podemos chamar de “metas para 5 anos”, “metas para 3 anos”, etc.
 
-![Card de metas de longo prazo]({{site.postsImagesPath}}board-com-card-metas-longo-prazo.png)
+![Card de metas de longo prazo](/images/posts/board-com-card-metas-longo-prazo.png)
 
 Neste card devemos colocar as respostas para nossas perguntas e não devemos mais alterar elas. Qualquer alteração nesse card deve gerar um novo e este deve ser arquivado. Isso para facilitar a busca no histórico e relembrarmos quais eram nossos planos antes, caso algo mude. Qualquer alteração também deve ser comentada no card, afinal temos que lembrar o porque tomamos aquela decisão e só vamos lembrar disso se tivermos catalogado.
 
-![Metas de longo prazo, conforme descrito na lista acima]({{site.postsImagesPath}}card-metas-longo-prazo.png)
+![Metas de longo prazo, conforme descrito na lista acima](/images/posts/card-metas-longo-prazo.png)
 
 Essas metas devem ser o mais genéricas possíveis, pois aprender uma tecnologia X hoje não garante que você estará utilizando ela daqui a 5 anos, nem que você vá cumprir os demais objetivos com ela. Porém saber o cargo em que você deseja estar ou como pretende ser reconhecido(a) no mercado e coisas do tipo pode te ajudar a entender melhor este card e até mudar isso no futuro.
 
@@ -84,7 +84,7 @@ Além de planejar para daqui a 5 anos, devemos começar a aprofundar em nossas m
 
 Neste card vamos colocar as metas que vamos buscar para o ano evitando, novamente, ser algo muito específico.
 
-![Card com metas do ano de 2018, como "aprender backend", "melhorar no inglês", "aprimorar conhecimentos em JavaScript", "testes de software", etc]({{site.postsImagesPath}}metas-do-ano.png)
+![Card com metas do ano de 2018, como "aprender backend", "melhorar no inglês", "aprimorar conhecimentos em JavaScript", "testes de software", etc](/images/posts/metas-do-ano.png)
 
 Essas tarefas devem estar diretamente relacionadas com as metas a longo prazo.
 
@@ -113,7 +113,7 @@ Vamos, então, criar cards para cada tarefa e colocar neles os meios que vamos s
 
 Começando pelo card de "aprimorar conhecimento em JavaScript", podemos criar as seguintes tarefas em nossa coluna de backlog: comprar o livro xyz que é muito recomendado sobre a linguagem, ler x páginas do livro xyz por dia, criar um projeto com o conhecimento adquirido, escrever artigos sobre o que aprendi com o livro e a prática.
 
-![Card com as tarefas para dominar JavaScript, como: "comprar o livro xyz, que é muito recomendado pela comunidade", "ler x páginas do livro por dia", "criar um projeto para praticar esses conhecimentos", "escrever artigos sobre o que estou aprendendo"]({{site.postsImagesPath}}card-com-metas-para-aprender-javascript.png)
+![Card com as tarefas para dominar JavaScript, como: "comprar o livro xyz, que é muito recomendado pela comunidade", "ler x páginas do livro por dia", "criar um projeto para praticar esses conhecimentos", "escrever artigos sobre o que estou aprendendo"](/images/posts/card-com-metas-para-aprender-javascript.png)
 
 E nestes cards podemos ter checklists específicos, pois eles podem passar rápido pelo todo e doing conforme sua complexidade. Por exemplo: é mais rápido comprar um livro do que criar projetos para praticar o que aprendeu com a leitura.
 
@@ -129,11 +129,11 @@ Com o tempo o board ficará com os cards bem espalhados e para entendermos o que
 - O que está mais ao topo da coluna é o que deve ser priorizado entre as outras tarefas
 - As colunas não devem ter mais cards do que o estipulado
 
-![Imagem do board inteiro com todas as colunas e cards informados até aqui]({{site.postsImagesPath}}board-inteiro.png)
+![Imagem do board inteiro com todas as colunas e cards informados até aqui](/images/posts/board-inteiro.png)
 
 Para facilitar nossa vida, podemos criar **labels** que dizem com o que aquele card é relacionado. Exemplo: todo card com label amarela pode ser relacionado a “aprimoramento do JavaScript” e todo card com label vermelha é relacionado “a aprimorar o inglês”.
 
-![Board inteiro com os cards com as cores informadas]({{site.postsImagesPath}}board-inteiro-com-labels.png)
+![Board inteiro com os cards com as cores informadas](/images/posts/board-inteiro-com-labels.png)
 
 Uma coisa importante de se pensar é que, além das cores, as labels podem receber um título. O que ajuda pessoas com deficiência visual. O leitor de tela conseguirá interpretar essas labels.
 

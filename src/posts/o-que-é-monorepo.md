@@ -49,15 +49,15 @@ Em um modelo de arquitetura onde temos vários repositórios (polyrepo), podemos
 
 Vamos imaginar o cenário de uma biblioteca de autenticação em JavaScript utilizada no frontend e no backend de uma aplicação. Uma vez publicada esta biblioteca, nem o frontend, nem o backend dependem de um novo deploy dela para que subamos um novo release da nossa aplicação. A não ser que seja uma alteração nesta biblioteca e que seja necessário um deploy para atualizar o seu código em nossa aplicação, mas não necessariamente isso vai acontecer o tempo todo.
 
-![Polyrepo]({{site.postsImagesPath}}monorepos-Polyrepo.png)
+![Polyrepo](/images/posts/monorepos-Polyrepo.png)
 
 Já no modelo dos monolithic repos, além de ter tudo em um único repositório, está tudo interconectado de uma forma que não dá para fazer deploy dessa biblioteca de autenticação sem que realizemos o deploy da aplicação. Isso porque, além do repositório ser único (single repo), temos uma aplicação monolítica neste repositório.
 
-![Monolith]({{site.postsImagesPath}}monorepos-Monolith.png)
+![Monolith](/images/posts/monorepos-Monolith.png)
 
 Quando temos um monorepo, mantemos a existência de um único repositório, porém o código fonte possui sua separação lógica. Podemos realizar o deploy de módugos que estão dentro dos repositórios dentro do nosso monorepo separadamente, assim como na arquitetura polyrepo, mas também mantemos a gestão local de dependências, assim como em um single-repo monolith.
 
-![Monolith]({{site.postsImagesPath}}monorepos-Monorepo.png)
+![Monolith](/images/posts/monorepos-Monorepo.png)
 
 Perceba que existe uma diferença muito grande entre um repositório monolito e monorepo. O fato de existir a separação lógica entre os repositórios muda totalmente como vamos trabalhar dentro do monorepo. É extremamente importante entender que são de fato vários repositórios separados dentro de um único local. Poder fazer o deploy ou um build de uma única aplicação, sem rodar as outras, é muito diferente do modelo monolito, onde teríamos que sempre realizar a tarefa para tudo o que está dentro do repositório.
 
@@ -68,13 +68,13 @@ Vamos imaginar um caso onde temos uma aplicação construída com JavaScript de 
 Para esta aplicação, temos um design system implementado em uma biblioteca de componentes, uma biblioteca de autenticação, uma API servindo algumas rotas e a aplicação frontend web.
 
 
-![App Monorepo]({{site.postsImagesPath}}monorepos-App.png)
+![App Monorepo](/images/posts/monorepos-App.png)
 
 Em uma arquitetura polyrepo, teríamos um repositório, um pipeline CI/CD, testes, releases, tooling, etc para cada parte do nosso projeto. Em uma arquitetura de monorepo, teríamos um único repositório com todos os projetos dentro, onde centralizamos configurações, compartilhamento de código e todo resto.
 
 Normalmente existe a separação de diretórios entre apps e packages ou apps e libraries ou qualquer nome que a ferramenta de gestão do repositório seguir ou nós decidirmos seguir. A regra geral seria que a maior parte do nosso trabalho fica em packages/libraries e em apps nós somente juntamos tudo em aplicações que são enviadas para o usuário final.
 
-![App Monorepo Montagem]({{site.postsImagesPath}}monorepos-App-Monorepo.png)
+![App Monorepo Montagem](/images/posts/monorepos-App-Monorepo.png)
 
 No nosso código fonte das aplicações, teríamos algo como:
 

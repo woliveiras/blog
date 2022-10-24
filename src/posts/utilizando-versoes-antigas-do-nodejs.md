@@ -9,7 +9,7 @@ description: Como utilizar mais de uma versão de Nodejs no mesmo Sistema Operac
 
 Se você, assim como eu, atualizou a versão do Node instalado em sua máquina para a versão [4.0.0](https://nodejs.org/en/blog/release/v4.0.0/ "Versão 4.0 do Nodejs"), pode ser que algo pare de funcionar, como no meu caso o Hexo ([Que eu utilizo para esse Blog](https://woliveiras.com.br/posts/Migrando-de-Wordpress-para-Hexo/ "Migrando de WordPress para Hexo")). Porém não precisa se desesperar, além dos módulos logo se atualizarem para a nova versão, existe uma solução simples para esse tipo de problema.
 
-!["Logo do Nodejs"]({{site.postsImagesPath}}nodejs.png)
+!["Logo do Nodejs"](/images/posts/nodejs.png)
 
 Existe uma ferramenta muito legal chamada [NVM (Node version manager)](https://github.com/creationix/nvm "Projeto NVM") que serve para trabalhar com mais de uma versão do Node isoladamente, parecido com o [Virtualenv](https://docs.python-guide.org/en/latest/dev/virtualenvs/) para Python.
 
@@ -64,7 +64,7 @@ nvm ls-remote
 
 As versões disponíveis para a instalação serão apresentadas.
 
-![nvm ls remote]({{site.postsImagesPath}}nvm-ls-remote.png)
+![nvm ls remote](/images/posts/nvm-ls-remote.png)
 
 E agora, para instalar a versão anterior necessária, basta executar o comando:
 
@@ -74,7 +74,7 @@ nvm install versão
 
 No meu caso eu precisava da versão 0.12 para executar o Hexo, então executei `nvm install v0.12.0`
 
-![nvm install versao]({{site.postsImagesPath}}nvm-install-v.png)
+![nvm install versao](/images/posts/nvm-install-v.png)
 
 ## <a name='AlternadoasversesdoNodejs'></a>Alternado as versões do Nodejs
 
@@ -142,11 +142,11 @@ Ao abrir o terminal em um diretório com o .nvmrc a versão será reconhecida e 
 
 Caso você abra o terminal nesse diretório diretório e não tenha instalado previamente a versão necessária será apresentado um erro:
 
-![Tentativa de configurar a versão automaticamente]({{site.postsImagesPath}}terminal-with-nvmrc.png)
+![Tentativa de configurar a versão automaticamente](/images/posts/terminal-with-nvmrc.png)
 
 Então basta rodar o comando `nvm install` e a versão especificada no arquivo será instalada automaticamente.
 
-![nvm install a partir do .nvmrc]({{site.postsImagesPath}}nvm-install-nvmrc.png)
+![nvm install a partir do .nvmrc](/images/posts/nvm-install-nvmrc.png)
 
 ## <a name='Rferncias'></a>Rferências
 

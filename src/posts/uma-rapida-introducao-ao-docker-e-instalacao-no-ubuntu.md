@@ -10,7 +10,7 @@ description: Uma rápida introdução ao Docker e instalação no Ubuntu para in
 
 Você já deve ter ouvido falar, pelo menos uma vez, sobre [Docker](https://www.docker.com/) em algum lugar. Seja em palestras, blogs, vídeos ou em qualquer outra fonte de estudos sobre desenvolvimento, uma hora sempre comentamos sobre virtualização de ambientes e o Docker é a ferramenta que mais tem se destacado para tal. Ele é uma das 8 maravilhas das atualidades mais atuais. Vamos entender um pouco, então, o que é o Docker e como instalar no nosso Ubuntu.
 
-![Docker]({{site.postsImagesPath}}docker.png)
+![Docker](/images/posts/docker.png)
 
 <!-- vscode-markdown-toc -->
 * [Introdução](#Introduo)

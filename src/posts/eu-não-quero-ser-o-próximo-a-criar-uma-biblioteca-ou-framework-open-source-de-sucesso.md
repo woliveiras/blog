@@ -28,7 +28,7 @@ Para quem trabalha com JavaScript está bem acostumado(a) com o nascimento de um
 
 Parece brincadeira, mas se observarmos alguns gráficos do GitHub percebemos o quanto a movimentação em cima da linguagem JavaScript é imensa:
 
-![Gráfico do GitHub mostrando JavaScript como a linguagem mais popular da plataforma, com 2,3 milhões de pull request em 2017 - [octoverse](https://octoverse.github.com/)]({{site.postsImagesPath}}github-chart-javascript.png)
+![Gráfico do GitHub mostrando JavaScript como a linguagem mais popular da plataforma, com 2,3 milhões de pull request em 2017 - [octoverse](https://octoverse.github.com/)](/images/posts/github-chart-javascript.png)
 
 No gráfico acima vemos que a pupularidade de JavaScript é de 2.3 milhões de pull requests, enquanto o movimento sobre a linguagem Python é de 1 milhão e do Java 986 mil. E isso é uma diferença enorme!
 
@@ -120,7 +120,7 @@ Será que se eu estivesse enviando commits de JavaScript nos projetos que eu mai
 
 Com o crescimento do Training Center eu já nem consigo tempo para olhar o código fonte dos projetos que eu curto externos a nossa comunidade. Será que eu sou um programador ruim pela quantidade de commits em markdown enviados?
 
-![Quantidade de commits que enviei para o mentoria, projeto de auxílio à carreira de iniciantes. 358 commits na época deste post]({{site.postsImagesPath}}quantidade-de-commits-mentoria.png)
+![Quantidade de commits que enviei para o mentoria, projeto de auxílio à carreira de iniciantes. 358 commits na época deste post](/images/posts/quantidade-de-commits-mentoria.png)
 
 Na imagem acima temos a quantidade de commits enviados no Mentoria, um repositório no GitHub do Training Center que é uma documentação de como o projeto funciona.
 

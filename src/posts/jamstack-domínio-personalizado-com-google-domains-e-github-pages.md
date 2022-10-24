@@ -30,13 +30,13 @@ Neste arigo vamos aprender a configurar o GitHub Pages com Google Domains (ou o 
 
 Acesse a URL [https://domains.google](https://domains.google) e clique em procurar um domínio (ou find a domain.
 
-![Tela do Google Domains]({{site.postsImagesPath}}domains-google.png)
+![Tela do Google Domains](/images/posts/domains-google.png)
 
 Será necessário fazer login com o seu Gmail.
 
 A vias de exemplo, eu procurei por **exemplo.dev** no campo de pesquisa e o Google me mostra que o domínio está disponível.
 
-![Exemplo de pesquisa no Google Domains]({{site.postsImagesPath}}exemplo-dev-domains-google.png)
+![Exemplo de pesquisa no Google Domains](/images/posts/exemplo-dev-domains-google.png)
 
 Caso eu quisesse registrar este domínio, bastaria clicar no carrinho e seguir com a compra.
 
@@ -46,7 +46,7 @@ Vá até a aba **settings** do repositório (que é o seu site .github.io) e des
 
 No meu exemplo, eu tenho o domínio aprendiz.dev, então foi isso que eu coloquei neste campo.
 
-![Adicionando um domínio personalizado no GitHub Pages]({{site.postsImagesPath}}add-custom-domain-github-pages.png)
+![Adicionando um domínio personalizado no GitHub Pages](/images/posts/add-custom-domain-github-pages.png)
 
 Agora será necessário alterar o DNS no Google Domains. 
 
@@ -54,7 +54,7 @@ Agora será necessário alterar o DNS no Google Domains.
 
 Na interface administrativa do Google Domains (clique em gerenciar ou manage na tela de “meus domínios” no Google Domains) para o seu domínio recém comprado (ou não) clique na aba DNS.
 
-![Interface administrativa de DNS do Google Domains]({{site.postsImagesPath}}nameservers-google-domains.png)
+![Interface administrativa de DNS do Google Domains](/images/posts/nameservers-google-domains.png)
 
 Desça até a sessão “Recursos personalizados" ou "Custom resource records” e adicione os hosts do GitHub com o tipo de entrada como **A**. O restante você pode deixar como está, basta alterar o tipo de entrada para **A** e adicionar os endereços de IP:
 
@@ -63,11 +63,11 @@ Desça até a sessão “Recursos personalizados" ou "Custom resource records”
 - **185.199.110.153**
 - **185.199.111.153**
 
-![Adicionando os endereços de IP em Custom Resource Records]({{site.postsImagesPath}}add-github-nameservers-google-domains.png)
+![Adicionando os endereços de IP em Custom Resource Records](/images/posts/add-github-nameservers-google-domains.png)
 
 Agora adicione o **CNAME** apontando para o link do .github.io. Será o mesmo processo de adicionar um registro do tipo **A**, porém você deve colocar como tipo **CNAME**, no primeiro input você adiciona um **www** e então coloca o endereço do GitHub Pages (no meu exemplo é o aprendizdev.github.io) para o seu repositório no último input.
 
-![Adicionando o CNAME no Google Domains]({{site.postsImagesPath}}cname-google-domains.png)
+![Adicionando o CNAME no Google Domains](/images/posts/cname-google-domains.png)
 
 Se tudo correu bem, agora você já pode acessar seu site no ar! - este passo pode demorar um pouco (minutos), pois o DNS pode demorar para propagar.
 

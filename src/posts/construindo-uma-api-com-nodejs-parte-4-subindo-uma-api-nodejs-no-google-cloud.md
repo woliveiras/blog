@@ -52,13 +52,13 @@ Acesse o seguinte link para criar o projeto: [criação de projeto no GCP](https
 
 Será aberta uma tela onde você deve colocar os dados do projeto.
 
-![Criação de projeto no Google Cloud]({{site.postsImagesPath}}google-cloud-platform-create-project.png)
+![Criação de projeto no Google Cloud](/images/posts/google-cloud-platform-create-project.png)
 
 Dê um nome para o seu projeto e clique em criar (create).
 
 Quando o projeto é criado, o Google Cloud Console nos redireciona para a interface administrativa onde temos todas as APIs que estão ativadas, o estado das aplicações e logs (de erro ou de utilização).
 
-![Dashboard do Google Cloud Platform]({{site.postsImagesPath}}google-cloud-platform-dashboard.png)
+![Dashboard do Google Cloud Platform](/images/posts/google-cloud-platform-dashboard.png)
 
 ## <a name='AtivandooAppEngine'></a>Ativando o App Engine
 
@@ -68,15 +68,15 @@ Ative o App Engine para Node.js utilizando este link: [ativar o App Engine usand
 
 Teremos que escolher uma região para rodar o nosso app. Estamos escolhendo onde ficará o servidor que responde com nosso software instalado. Escolha o mais próximo de onde você acredita ou sabe que estarão os seus usuários, no nosso caso, no Brasil.
 
-![Selecionando a região no Google Cloud Platform]({{site.postsImagesPath}}google-cloud-platform-region.png)
+![Selecionando a região no Google Cloud Platform](/images/posts/google-cloud-platform-region.png)
 
 Selecione o Brasil e clique em próximo (next). Aguarde a configuração do App Engine.
 
-![Ativando o App Engine]{{site.postsImagesPath}}(google-cloud-platform-creating-app-engine.png)
+![Ativando o App Engine]/images/posts/(google-cloud-platform-creating-app-engine.png)
 
 Quando tudo estiver OK, teremos uma tela de confirmação.
 
-![Confirmação do App Engine]({{site.postsImagesPath}}google-cloud-platform-app-engine-ok.png)
+![Confirmação do App Engine](/images/posts/google-cloud-platform-app-engine-ok.png)
 
 Agora podemos fazer o deploy da nossa aplicação no App Engine!
 
@@ -104,7 +104,7 @@ Com o login feito, precisamos encontrar o ID do nosso projeto para configurar o 
 
 Na tela inicial do Google Cloud Console, temos um card chamado **Project info** (informações do projeto) no canto esquerdo da tela. Neste card temos o campo **Project ID**, copie esse código.
 
-![Dashboard do Google Cloud Platform]({{site.postsImagesPath}}google-cloud-platform-dashboard.png)
+![Dashboard do Google Cloud Platform](/images/posts/google-cloud-platform-dashboard.png)
 
 Agora execute o comando abaixo, mudando de PROJECT_ID para o ID que você copiou:
 
@@ -118,7 +118,7 @@ Conforme comentei anteriormente, antes de fazer nosso deploy, será necessário 
 
 Para isso acesse o link: [GCP Build API](https://console.developers.google.com/apis/library/cloudbuild.googleapis.com)
 
-![GCP Build API]({{site.postsImagesPath}}google-cloud-platform-build-api.png)
+![GCP Build API](/images/posts/google-cloud-platform-build-api.png)
 
 Basta clicar em enable (ativar) e aguardar a mágia acontecer.
 
@@ -146,7 +146,7 @@ Execute o comando:
 gcloud app deploy
 ```
 
-![Rodando o gloud deploy]({{site.postsImagesPath}}google-cloud-platform-app-deploy.png)
+![Rodando o gloud deploy](/images/posts/google-cloud-platform-app-deploy.png)
 
 Digite Y e aguarde o upload.
 
@@ -164,7 +164,7 @@ Copie o endereço que está no navegador e cole no campo URL do Postman. Vamos u
 
 O endereço será algo como: **https://mentions-api-245800.appspot.com/mentions**.
 
-![Postman e GCP]({{site.postsImagesPath}}postman-google-cloud-platform.png)
+![Postman e GCP](/images/posts/postman-google-cloud-platform.png)
 
 Teremos o retorno da nossa API.
 

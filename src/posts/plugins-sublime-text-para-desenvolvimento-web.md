@@ -9,7 +9,7 @@ description:  Plugins do Sublime Text para Desenvolvimento Web Front End
 
 Em meus posts anteriores eu deixei algumas dicas de [configuração](/posts/instalando-o-sublime-text-no-ubuntu/ "Dicas de instalação e configuração do Sublime Text") do Sublime e instalação no Ubuntu, [alguns atalhos legais](/posts/usando-o-sublime-text/ "Atalhos do Sublime"). Agora vou citar alguns plugins que eu utilizo no dia-a-dia para melhor aproveitar o editor.
 
-![sublime text]({{site.postsImagesPath}}sublime.png)
+![sublime text](/images/posts/sublime.png)
 
 Para instalar plugins no Sublime você já sabe que é pelo Package Control que instalamos anteriormente no Post de [configuração](/posts/instalando-o-sublime-text-no-ubuntu/ "Dicas de instalação e configuração do Sublime Text").
 Então pressione **Ctrl + Shift +P** e digite **Install**.

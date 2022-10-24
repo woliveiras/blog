@@ -17,7 +17,7 @@ Vivo comentando para as pessoas que elas não devem se cobrar muito. Que elas de
 
 Também sou do tipo que fica falando para as pessoas quando elas estão se abarrotando de trabalho. Mas, como ***em casa de JavaScripteiro tem sistema rodando Java***, eu me atolei tanto de tarefas que não percebi o que estava fazendo comigo mesmo até que a bomba explodiu.
 
-![Eruption, Photo by Marc Szeglat on Unsplash]({{site.postsImagesPath}}marc-szeglat-524009-unsplash.jpg)
+![Eruption, Photo by Marc Szeglat on Unsplash](/images/posts/marc-szeglat-524009-unsplash.jpg)
 {:.post__wallpaper}
 
 

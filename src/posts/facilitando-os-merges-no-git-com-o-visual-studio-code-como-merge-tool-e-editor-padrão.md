@@ -31,7 +31,7 @@ A um tempo atrás eu utilizava o [Meld](https://meldmerge.org/), que é uma ferr
 
 Caso aconteça um conflito em um merge, bastaria executar `meld .` e teríamos uma interface maneira para garantir que não estamos perdendo nada na correção, como na imagem abaixo.
 
-![Meld merge]({{site.postsImagesPath}}meld-merge.png)
+![Meld merge](/images/posts/meld-merge.png)
 
 O mesmo quando vamos fazer um commit e quem aparece é o Vim ou o Nano.
 
@@ -53,7 +53,7 @@ Para garantir que realmente houveram alterações, podemos rodar o comando que a
 git config --global -e
 ```
 
-![Utilizando o comando git config --global -e no terminal]({{site.postsImagesPath}}git-config-global-e.gif)
+![Utilizando o comando git config --global -e no terminal](/images/posts/git-config-global-e.gif)
 
 ## <a name='ConfigurandooVisualStudioCodecomoferramentademergenoGit'></a>Configurando o Visual Studio Code como ferramenta de merge no Git
 
@@ -87,15 +87,15 @@ Digamos que eu acabei de rodar o `git merge master` em uma branch que estava des
 
 Ao rodar o `git status` vemos que aconteceu um conflito.
 
-![Conflitos no Git]({{site.postsImagesPath}}git-conflict.png)
+![Conflitos no Git](/images/posts/git-conflict.png)
 
 Podemos então rodar o `git mergetool` e o Visual Studio Code irá abrir com a interface para correção dos conflitos.
 
-![Rodando o comando git mergetool no terminal]({{site.postsImagesPath}}git-mergetool-terminal.png)
+![Rodando o comando git mergetool no terminal](/images/posts/git-mergetool-terminal.png)
 
 Aparecerá uma tela como essa:
 
-![VS Code como mergetool]({{site.postsImagesPath}}vs-code-mergetool.png)
+![VS Code como mergetool](/images/posts/vs-code-mergetool.png)
 
 Onde o que está em verde é o que temos em nossa branch e o que está em azul são as alterações que devemos escolher se aceitamos ou não.
 

@@ -32,7 +32,7 @@ Podemos criar um repositório para hospedar nosso site no GitHub Pages de duas m
 
 Por exemplo: eu possuo o usuário **aprendizdev** no GitHub, para criar um repositório e hospedar meu site nele, basta criar este repositório com o nome aprendizdev**.github.io**. O repositório precisa ser público para que isso funcione.
 
-![Criando o repositório para o GitHub Pages]({{site.postsImagesPath}}criando-repositorio-github-pages.png)
+![Criando o repositório para o GitHub Pages](/images/posts/criando-repositorio-github-pages.png)
 
 Agora podemos baixar o repositório (git clone…), adicionar os nossos arquivos estáticos (HTML, CSS e JavaScript) e subir estes arquivos para o GitHub (git push).
 
@@ -57,7 +57,7 @@ No exemplo eu coloquei o seguinte conteúdo:
 
 Somente com essa configuração já temos um site no ar. Se entrarmos no domínio [aprendizdev.github.io](https://aprendizdev.github.io/) vemos a versão de pé.
 
-![Site recem criado no ar]({{site.postsImagesPath}}aprendiz.dev-no-ar.png)
+![Site recem criado no ar](/images/posts/aprendiz.dev-no-ar.png)
 
 Agora basta subir um tema bonito para o nosso site e pronto! Temos nosso primeiro site hospedado de graça no GitHub Pages.
 
@@ -69,7 +69,7 @@ Tudo o que você enviar para a branch master do seu repositório será automági
 
 Para que você não suba algo que não deseja *"deployar"*, crie a branch **gh-pages** e só faça merge nela quando tudo estiver OK. Ou você também pode criar outra branch (uma branch dev) e só fazer o merge na master quando o trabalho estiver pronto.
 
-![Criando a branch gh-pages no GitHub]({{site.postsImagesPath}}criando-branch-gh-pages.png)
+![Criando a branch gh-pages no GitHub](/images/posts/criando-branch-gh-pages.png)
 
 Se você criar a branch gh-pages via terminal, certifique-se de criar ela como uma branch "orfã" (eu sei, esse nome é bem tosco, mas faz parte do Git), com o seguinte comando: `git checkout --orphan gh-pages`.
 

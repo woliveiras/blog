@@ -19,7 +19,7 @@ description: Existe uma grande diferença entre ajudar a comunidade por ajudar, 
 
 Existe um abismo enorme entre ajudar as pessoas e ganhar dinheiro com o mercado de educação ou ganhar dinheiro com marketing pessoal e as comunidades de tecnologia se perderam em algum período da nossa história tendo hoje muita gente no palco fazendo marketing pessoal e pouca gente querendo de verdade.
 
-![Calma, mantenha a calma]({{site.postsImagesPath}}keep-calm-and-keep-calm.jpeg)
+![Calma, mantenha a calma](/images/posts/keep-calm-and-keep-calm.jpeg)
 
 Quando as pessoas me conhecem melhor logo percebem que eu sou um grande defensor do conhecimento compartilhado **gratuitamente**. Isso porque eu acredito que somente o conhecimento, a educação, é que pode mudar o mundo em que vivemos. Nada tem poder de transformação tão grande quanto a educação. E nem todo mundo tem dinheiro pra pagar por isso.
 

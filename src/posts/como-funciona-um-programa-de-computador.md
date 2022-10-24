@@ -249,13 +249,13 @@ Pressione F12 no seu navegador. Vai aparecer uma caixa de ferramentas na sua tel
 
 Se a aba não estiver selecionada, clique na aba console das ferramentas de desenvolvedor.
 
-![Ferramentas de desenvolvedor na aba console]({{site.postsImagesPath}}dev-tools.png)
+![Ferramentas de desenvolvedor na aba console](/images/posts/dev-tools.png)
 
 Agora escreva **alert(“Olá, mundo!”)**, e pressione **Enter**.
 
 Assim que você pressionar o enter, uma mensagem de texto será exibida na sua tela.
 
-![Olá, mundo em JavaScript]({{site.postsImagesPath}}hello-js.png)
+![Olá, mundo em JavaScript](/images/posts/hello-js.png)
 
 ## <a name='Concluso'></a>Conclusão
 

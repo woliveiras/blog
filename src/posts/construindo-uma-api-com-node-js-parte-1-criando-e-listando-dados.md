@@ -282,11 +282,11 @@ Com isso o nosso comando **npm run dev** irá funcionar e nosso servidor estará
 
 **Comando npm run dev no VS Code:**
 
-![Imagem do VS Code executando o comando npm run dev]({{site.postsImagesPath}}vs-code-comando-npm-run-dev.png)
+![Imagem do VS Code executando o comando npm run dev](/images/posts/vs-code-comando-npm-run-dev.png)
 
 **Navegador acessando localhost:3000:**
 
-![Imagem do Google Chrome exibindo o conteúdo de localhost:3000]({{site.postsImagesPath}}chrome-api-localhost.png)
+![Imagem do Google Chrome exibindo o conteúdo de localhost:3000](/images/posts/chrome-api-localhost.png)
 
 
 ## <a name='ConectandoaoMongoDB'></a>Conectando ao MongoDB
@@ -299,27 +299,27 @@ Será necessário criar uma conta na plataforma para então criarmos nossos *clu
 
 Com sua conta criada e feito o login, agora será necessário criar um projeto, onde vamos criar nossos bancos de dados. Procure pelo botão **New Project** e pode dar o nome de **mentions-api-project**.
 
-![Imagem da criação do projeto]({{site.postsImagesPath}}create-a-project-atlas-mongodb.png)
+![Imagem da criação do projeto](/images/posts/create-a-project-atlas-mongodb.png)
 
 A próxima tela é onde adicionamos mais pessoas para administrar este projeto. No nosso caso não vamos precisar adicionar ninguém, pode somente clicar em **Create Project**.
 
-![Imagem de confirmação com email de administrador]({{site.postsImagesPath}}create-a-project-atlas-mongodb-admin-email.png)
+![Imagem de confirmação com email de administrador](/images/posts/create-a-project-atlas-mongodb-admin-email.png)
 
 Agora temos uma tela para criação de um Cluster, onde vamos armazenar nossos dados.
 
-![Imagem do botão de criação de clusters]({{site.postsImagesPath}}create-a-project-atlas-mongodb-create-a-cluster.png)
+![Imagem do botão de criação de clusters](/images/posts/create-a-project-atlas-mongodb-create-a-cluster.png)
 
 Clique no botão **Build a Cluster**. Irá aparecer uma tela para escolhermos o provedor de serviços que, atualmente, são: Amazon AWS, Google Cloud e Microsoft Azure. Neste momento tanto faz o provedor que iremos escolher, pois este projeto é somente de exemplo e iremos utilizar o **Free Tier**, versão gratuita dos serviços, que é limitada a 512 MB de armazenamento.  Se quiser, pode deixar como está e clicar em **Create a Cluster**.
 
-![Imagem da criação de cluster no free tier]({{site.postsImagesPath}}create-a-project-atlas-mongodb-free-tier.png)
+![Imagem da criação de cluster no free tier](/images/posts/create-a-project-atlas-mongodb-free-tier.png)
 
 Irá aparecer uma mensagem de andamento da criação do Cluster.
 
-![Imagem da mensagem de andamento de criação do Cluster]({{site.postsImagesPath}}create-a-project-atlas-mongodb-creating-a-cluster.png)
+![Imagem da mensagem de andamento de criação do Cluster](/images/posts/create-a-project-atlas-mongodb-creating-a-cluster.png)
 
 Assim que estiver tudo pronto, teremos as métricas de acesso do cluster em nossa tela.
 
-![Imagem das métricas do cluster]({{site.postsImagesPath}}create-a-project-atlas-mongodb-clusters.png)
+![Imagem das métricas do cluster](/images/posts/create-a-project-atlas-mongodb-clusters.png)
 
 O que vamos fazer agora é a conexão do nosso projeto Node.js com o banco de dados. Para isso vamos utilizar variáveis de ambiente, que vamos colocar em um arquivo de configuração, e o Mongoose, uma lib que facilita a utilização do MongoDB.
 
@@ -339,17 +339,17 @@ Para conectar a um banco de dados precisamos de algumas informações, como:
 
 No nosso cluster temos todas essas informações, mas, antes de qualquer coisa, precisamos criar um usuário com poderes leitura e escrita no banco. Procure pelo item **Database Access** no menu do cluster (estará ao lado esquerdo da tela) e em seguida clique em **add new user**.
 
-![Imagem da tela de usuários do cluster]({{site.postsImagesPath}}create-a-project-atlas-mongodb-cluster-users.png)
+![Imagem da tela de usuários do cluster](/images/posts/create-a-project-atlas-mongodb-cluster-users.png)
 
 Você pode dar um nome legal para o seu usuário, mas a senha eu recomendo que você use a recomendada pela plataforma clicando no botão **Autogenerate Secure Password**. Na parte de privilégios, deixe como **Read and Write**, leitura e escrita no banco de dados.
 
-![Tela de criação de usuário]({{site.postsImagesPath}}create-a-project-atlas-mongodb-cluster-users-creating.png)
+![Tela de criação de usuário](/images/posts/create-a-project-atlas-mongodb-cluster-users-creating.png)
 
 Será necessário aguardar o cluster aplicar as configurações.
 
 Agora você pode voltar na tela de clusters (clicando em Clusters, na esquerda) e vamos pegar a connection string, a linha de texto de configuração do nosso banco de dados. Clique em **connect**. Irá aparecer uma tela de configuração de liberação de endereços de IP para acesso ao banco, clique no botão **Allow Access from Anywhere** e depois em **Add** para liberarmos para qualquer endereço, pois inicialmente não teremos controle do endereço de IP da nossa aplicação no servidor de hospedagem. Agora clique em **Choose a connection method**, depois em **Connect Your Application**. O próprio Atlas nos dá a opção de connection string, basta copiar isso e vamos colar em nosso .env. Crie o arquivo **.env** na raiz do nosso projeto (fora da pasta **src**).
 
-![Imagem da connection string]({{site.postsImagesPath}}create-a-project-atlas-mongodb-connection-string.png)
+![Imagem da connection string](/images/posts/create-a-project-atlas-mongodb-connection-string.png)
 
 No arquivo **.env**, escreva **DATABASE_CONNECTION_STRING** e cole o código que copiou no Atlas. O arquivo ficará parecido com isso aqui:
 
@@ -703,21 +703,21 @@ Acesse o link para download do Postman, nosso software de testes de requisição
 
 Com tudo pronto, abra o Postman e irá ver uma tela parecida com essa:
 
-![Tela inicial do Postman, com mensagem de boas vindas]({{site.postsImagesPath}}postman-welcome-page.png)
+![Tela inicial do Postman, com mensagem de boas vindas](/images/posts/postman-welcome-page.png)
 
 Pode clicar no botão fechar e vamos aprender a fazer chamadas com o software.
 
-![Interface do Postman]({{site.postsImagesPath}}postman-interface.png)
+![Interface do Postman](/images/posts/postman-interface.png)
 
 Clique no botão de mais (+) e ele irá abrir uma caixa onde você pode inserir um endereço e enviar (clicando em Send). Se a sua API ainda estiver de pé (se você não matou o nosso servidor que roda no npm run dev) adicione o endereço inicial (localhost:3000) e clique em send. Você receberá a resposta como aconteceu no navegador.
 
-![Resposta de localhost:300 no Postman]({{site.postsImagesPath}}postman-localhost-3000.png)
+![Resposta de localhost:300 no Postman](/images/posts/postman-localhost-3000.png)
 
 Do lado do endereço podemos especificar o verbo HTTP (GET, POST, DELETE, etc) que estamos enviando para o servidor e assim vamos ter as respostas que adicionamos em **app.get** e **app.post** no Express.
 
 Faça um GET em mentions (localhost:3000/mentions) e veja o resultado:
 
-![Postman com a resposta vazia do GET em localhost:3000/mentions]({{site.postsImagesPath}}postman-list-data-empty.png)
+![Postman com a resposta vazia do GET em localhost:3000/mentions](/images/posts/postman-list-data-empty.png)
 
 Agora vamos fazer um POST e criar nossa primeira menção. Mude o verbo para POST, no campo do lado da URL. Deixe a URL como mentions mesmo, pois é a que adicionamos em nossa routes. Logo abaixo da URL temos algumas abas, clique em **Body**, depois selecione **raw** e em seguida selecione **JSON (application/json)**. Cole o seguinte conteúdo dentro da caixa de texto do Postman:
 
@@ -728,7 +728,7 @@ Agora vamos fazer um POST e criar nossa primeira menção. Mude o verbo para POS
 }
 ```
 
-![Imagem de uma requisição post no Postman]({{site.postsImagesPath}}postman-full-post-requisition.png)
+![Imagem de uma requisição post no Postman](/images/posts/postman-full-post-requisition.png)
 
 Perceba que estamos enviando um JSON com as chaves que precisamos no Schema para a rota mentions com o verbo post. Ele vai ativar a chamada **router.post('/', mentionsController.createMention)** no nosso mentions-controller que vai executar o model adicionando no banco de dados os itens que mandamos via body.
 
@@ -741,11 +741,11 @@ Perceba que estamos enviando um JSON com as chaves que precisamos no Schema para
 
 Se tudo sair bem, logo abaixo da nossa caixa de texto, vai aparecer a mensagem que retorna quando o dado é cadastrado no banco com sucesso.
 
-![Imagem de sucesso no Postman]({{site.postsImagesPath}}postman-success-post-message.png)
+![Imagem de sucesso no Postman](/images/posts/postman-success-post-message.png)
 
 Agora, se entrarmos em localhost:3000/mentions pelo navegador ou enviar um GET localhost:3000/mentions no Postman, vamos receber de retorno o item cadastrado no banco de dados.
 
-![Imagem do Postman com o retorno OK da API]({{site.postsImagesPath}}postman-listing-data.png)
+![Imagem do Postman com o retorno OK da API](/images/posts/postman-listing-data.png)
 
 ## <a name='Concluso'></a>Conclusão
 

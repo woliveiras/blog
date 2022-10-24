@@ -282,7 +282,7 @@ Para sabermos se tem algo que foi modificado em nossa branch, rodamos o comando 
 git status
 ```
 
-![Imagem do retorno do comando git status]({{site.postsImagesPath}}git-status.png)
+![Imagem do retorno do comando git status](/images/posts/git-status.png)
 
 Será retornado uma lista de itens que foram alterados. Para saber o que exatamente aconteceu rodamos o comando `git diff`.
 
@@ -292,11 +292,11 @@ git diff
 
 Será retornada uma tela com o que foi adicionado escrito com um **+**.
 
-![Imagem do retorno do comando git diff]({{site.postsImagesPath}}git-diff.png)
+![Imagem do retorno do comando git diff](/images/posts/git-diff.png)
 
 O que foi removido aparece com um **-**.
 
-![Imagem do retorno do comando git diff no arquivo]({{site.postsImagesPath}}git-diff-no-arquivo.png)
+![Imagem do retorno do comando git diff no arquivo](/images/posts/git-diff-no-arquivo.png)
 
 Caso tenhamos mais de um arquivo alterados por vez, podemos analisar todo o histórico com `git diff` ou observar somente um arquivo com `git diff nome_do_arquivo`.
 
@@ -495,7 +495,7 @@ Podemos ver tudo em uma linha só utilizando o `--pretty`:
 git log --pretty=oneline
 ```
 
-![Imagem do retorno do comando git log --pretty=oneline]({{site.postsImagesPath}}git-log-personalizado.png)
+![Imagem do retorno do comando git log --pretty=oneline](/images/posts/git-log-personalizado.png)
 
 ### <a name='Deixandoologaindamaisbonito'></a>Deixando o log ainda mais bonito
 

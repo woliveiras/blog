@@ -59,7 +59,7 @@ Então as páginas web eram basicamente o que fazemos quando criamos o [nosso pr
 
 Dá uma olhada em como era o site da Amazon em 1995.
 
-![Amazon em 1995]({{site.postsImagesPath}}amazon-1995.jpg)
+![Amazon em 1995](/images/posts/amazon-1995.jpg)
 
 Você se imagina comprando um livro neste side?
 

@@ -12,44 +12,43 @@ Após a instalação do Vagrant, no primeiro artigo ["Crie e compartilhe ambient
 No Windows precisamos de um programa bem útil chamado Putty.
 
 
-
 ## Obtendo e configurando o Putty
 
 Acesse o [site do Putty](https://www.putty.org/ "Putty"), baixe o **putty.exe** e o **puttygen.exe**.
 
 Execute o **Puttygen**.
 
-![Puttygen]({{site.postsImagesPath}}puttygen.png)
+![Puttygen](/images/posts/puttygen.png)
 
 Clique em “**Load**”, selecione o arquivo **C:/Users/<usuário>/.vagrant.d/insecure_private_key** e clique em “**Abrir**”.
 
-![Load]({{site.postsImagesPath}}load-ssh.png)
+![Load](/images/posts/load-ssh.png)
 
 Uma mensagem de confirmação surgirá, pode clicar no **OK**.
 
 Clique em “**save private key**” e, na tela que surgir, clique no sim.
 
-![Save a privatekey]({{site.postsImagesPath}}salvando-a-chave-ssh.png)
+![Save a privatekey](/images/posts/salvando-a-chave-ssh.png)
 
 No mesmo diretório do arquivo “**insecure_private_key**”(C:/Users/<usuário>/.vagrant.d/) salve este arquivo com o nome “**vagrant.ppk**”
 
-![vagrant.ppk]({{site.postsImagesPath}}vagrant-ppk.png)
+![vagrant.ppk](/images/posts/vagrant-ppk.png)
 
 Após subir a máquina virtual, então surgirá um endereço de IP do servidor para acesso via ssh, provavelmente esse: **127.0.0.1:2222**, então seria essa a configuração no Putty:
 
-![Acessar ssh]({{site.postsImagesPath}}acessando-ssh-com-putty.png)
+![Acessar ssh](/images/posts/acessando-ssh-com-putty.png)
 
 Deixe um nome de sua preferência em **Saved Sessions**, igual onde está escrito **lucid32-vagrant** na imagem, para poder salvar a sessão e não precisar configurar tudo de novo toda vez que for utilizar.
 
 No canto esquerdo clique na seção “**Connection > SSH > Auth**”. Clique no botão “**Browse**” e selecione o arquivo “**vagrant.ppk**”. Se você seguiu todas as instruções corretamente, ele deve ter sido salvo em **C:/Users/<seu usuário>/.vagrant.d/vagrant.ppk**.
 
-![Configuração do Putty]({{site.postsImagesPath}}carregando-a-chave-ppk-putty.png)
+![Configuração do Putty](/images/posts/carregando-a-chave-ppk-putty.png)
 
 Volte até a seção “**Session**”, digite um nome no campo “**Saved Sessions**” e clique no botão “**Save**” para salvar essas configurações.
 
 Agora é só clicar em “**Open**” e vai aparecer uma janela assim:
 
-![Primeiro acesso]({{site.postsImagesPath}}primeiro-acesso-ssh-putty.png)
+![Primeiro acesso](/images/posts/primeiro-acesso-ssh-putty.png)
 
 Pode clicar no “Yes” sem medo.
 

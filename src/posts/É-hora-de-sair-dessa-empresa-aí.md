@@ -52,7 +52,7 @@ Olhe ao redor e comece a analisar… O que você vê são mais pessoas escrotas 
 
 Se a resposta for que temos muitas pessoas com comportamento ruim, é sinal que a cultura é que é ruim. Saia logo daí!
 
-![Selo Bino de cilada]({{site.postsImagesPath}}selo-bino-de-cilada.jpeg)
+![Selo Bino de cilada](/images/posts/selo-bino-de-cilada.jpeg)
 
 
 

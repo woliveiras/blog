@@ -27,7 +27,7 @@ Este ano eu organizei a primeira edição do Global Diversity CFP Day no Brasil,
 
 O GDCFPDay é basicamente um workshop onde unimos pessoas que tem experiência palestrando, como [Fernanda Bernardo](https://twitter.com/Feh_Bernardo), [Dani Monteiro](https://twitter.com/DaniMonteiroDBA), [Livia Gabos](https://twitter.com/liviagabos), [Camila Campos](https://twitter.com/camposmilaa), [Carol Code](https://twitter.com/carolcode), [Lucas Silva](https://twitter.com/lucas_dejsilva) e mais pessoas que deixariam o post muito grande, à pessoas de grupos sub-representados que desejam começar a palestrar.
 
-![Imagem do logo do Global Diversity CFP Day]({{site.postsImagesPath}}gdcfpday.jpg)
+![Imagem do logo do Global Diversity CFP Day](/images/posts/gdcfpday.jpg)
 
 Inclusive o evento está aberto para receber mantenedores para o ano que vem. Se você quiser assumir, basta entrar no site e propor uma edição (em qualquer lugar do Brasil - e do mundo se você estiver fora): [global diversity CFP day](https://www.globaldiversitycfpday.com/).
 
@@ -57,11 +57,11 @@ Tive um artigo publicado na revista iMasters sobre o processo de mentoria em amb
 
 Você pode conferir o artigo também [nesse link](https://imasters.com.br/carreira-dev/mentoria-como-meio-de-apoio-evolucao-dos-nossos-funcionarios).
 
-![Imagem da revista iMasters]({{site.postsImagesPath}}revista-imasters.jpg)
+![Imagem da revista iMasters](/images/posts/revista-imasters.jpg)
 
 Ajudei em um dos eventos mais fantásticos que eu já participei, o [web sem barreiras](https://websembarreiras.com.br/). Nesse evento eu fui “mestre de cerimônia” e ~mandei uns rap~ fiz a apresentação do mesmo. O web sem barreiras é um evento incrível onde tive a oportunidade única de presenciar pessoas cegas e surdas palestrando. Isso foi demais! “Trocar de papel” e ouvir a pessoa interpretando (intérprete de libras) o que alguém dizia em sinais foi incrível.
 
-![Imagem do logo do web sem barreiras]({{site.postsImagesPath}}websembarreiras.jpg)
+![Imagem do logo do web sem barreiras](/images/posts/websembarreiras.jpg)
 
 Também apresentei outro evento fantástico, que inclusive ganhou um episódio no QuebraDev para conhecermos, o ABC-Dev 2018.
 
@@ -69,7 +69,7 @@ Como algumas pessoas já sabem eu não faço mais parte da organização ao ABC-
 
 Conheça o ABC-Dev: [QuebraDev - [Politize-se] ABCDev e Diversidade](https://quebradev.com.br/abcdev-e-diversidade/).
 
-![Imagem da camiseta do ABC-Dev]({{site.postsImagesPath}}abcdev.jpg)
+![Imagem da camiseta do ABC-Dev](/images/posts/abcdev.jpg)
 
 Inclusive esse ano nasceu o QuebraDev, projeto que me fez refletir sobre pra quem eu estava gerando conteúdo, para quem eu estava fazendo minhas contribuições.
 

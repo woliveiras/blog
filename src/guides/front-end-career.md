@@ -35,7 +35,7 @@ Fora toda essa lição super importante, é bom que você busque desde o começo
 * [O Kindle é um life hack para lermos mais](/posts/kindle-um-life-hack-para-lermos-mais/)!
 * [Como ser o(a) programador(a) junior que toda empresa quer contratar](/posts/como-ser-o-programador-junior-que-toda-empresa-quer-contratar/)
 
-![Você vai se ferrar muito]({{site.postsImagesPath}}voce_vai_se_ferrar_muito.png)
+![Você vai se ferrar muito](/images/posts/voce_vai_se_ferrar_muito.png)
 
 ## Escolhendo um lado
 

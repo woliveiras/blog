@@ -404,7 +404,7 @@ while(quantidadeDeUsuarios) {
 
 Agora, ao executar nosso código final, devemos ter um resultado parecido com o da imagem abaixo, com uma tabela HTML preenchida via JavaScript utilizando um laço de repetição para isso.
 
-![Imagem da tabela HTML gerada via JavaScript]({{site.postsImagesPath}}tabela-html-preenchida-via-javascript.png)
+![Imagem da tabela HTML gerada via JavaScript](/images/posts/tabela-html-preenchida-via-javascript.png)
 
 ## <a name='Concluso'></a>Conclusão
 

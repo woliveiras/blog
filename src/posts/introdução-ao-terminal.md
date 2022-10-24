@@ -54,7 +54,7 @@ Até certa época a única interface de interação entre sistema operacional e 
 
 Abaixo temos uma imagem do MS-DOS, um dos primeiros sistemas operacionais utilizados em PCs do mundo.
 
-![Imagem do MS-DOS]({{site.postsImagesPath}}MS-DOS.png)
+![Imagem do MS-DOS](/images/posts/MS-DOS.png)
 
 Através dessa tela preta, nós, usuários, executamos comandos e recebemos um retorno.
 

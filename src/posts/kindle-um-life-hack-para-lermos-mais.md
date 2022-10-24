@@ -36,7 +36,7 @@ Uma das maiores vantagens do Kindle, para mim, é o fato dele não ocupar muito 
 
 O modelo que eu possuo é o Paperwhite e tem 182 g e 167 x 116 x 8.1 mm. Muito pouca coisa.
 
-![Foto do Kindle extraída do site da Amazon.com.br]({{site.postsImagesPath}}kindle.jpg)
+![Foto do Kindle extraída do site da Amazon.com.br](/images/posts/kindle.jpg)
 
 Além de ser mais leve e ocupar menos espaço que um livro, ainda temos a opção de conexão com a internet, facilitando para comprarmos livros e baixar rapidamente no site da [Amazon](http://amazon.com.br), podemos aumentar o tamanho da fonte, facilitando para quem não consegue ler nas letrinhas pequenas, aumentar o espaçamento das fontes e margens, para quem tem dificuldade de leitura, além de consulta ao dicionário, uma opção que nos ajuda a formar nosso vocabulário.
 
@@ -46,7 +46,7 @@ A marcação de página e citações também é excelente, pois eu não preciso 
 
 Agora vem a maior vantagem: hoje eu carrego 143 livros + 20 artigos na mochila e o peso continua sendo 182 g.
 
-![Meus livros no Kindle]({{site.postsImagesPath}}livros-no-meu-kindle.jpg)
+![Meus livros no Kindle](/images/posts/livros-no-meu-kindle.jpg)
 
 Para organizar tudo isso temos a opção de organizar os livros em coleções (pastinhas) por assunto ou como você achar melhor.
 

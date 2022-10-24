@@ -49,7 +49,7 @@ Eu continuo errando bastante, acho que **ninguém nunca para de errar na vida**,
 
 ## <a name='Algumperguntaalgoevocenviaaquelelink:deixe-meusaroGoogleporvoc'></a>Alguém pergunta algo e você envia aquele link: deixe-me usar o Google por você
 
-![Não basta ser babaca, tem que demonstrar]({{site.postsImagesPath}}nao-basta-ser-babaca-tem-que-demonstrar.jpeg).
+![Não basta ser babaca, tem que demonstrar](/images/posts/nao-basta-ser-babaca-tem-que-demonstrar.jpeg).
 
 Não é raro encontrarmos uma pergunta muito “simples” de ser respondida usando o Google e alguém utilizar o lmgtfy pra responder quem postou a questão no forum/grupo/chat. — Por favor não faça isso.
 
@@ -111,7 +111,7 @@ Quer saber mais sobre minha história com comunidades? Escuta esse podcast aqui:
 
 <iframe style="border: none" src="//html5-player.libsyn.com/embed/episode/id/5634138/height/90/theme/custom/autoplay/no/autonext/no/thumbnail/yes/preload/no/no_addthis/no/direction/backward/render-playlist/no/custom-color/3CD52E/" style="width: 100%; height: 180px!important" scrolling="no"  allowfullscreen webkitallowfullscreen mozallowfullscreen oallowfullscreen msallowfullscreen></iframe>
 
-![Imagem da caneca do iMasters em comemoração ao 7Masters de Git e GitHub]({{site.postsImagesPath}}mestre-em-git-e-github.jpeg)
+![Imagem da caneca do iMasters em comemoração ao 7Masters de Git e GitHub](/images/posts/mestre-em-git-e-github.jpeg)
 {:.post__wallpaper}
 
 Eu não cheguei até aqui graças a gente que responde com link de deixe-me usar o Google por você ou que responde babaquice em perguntas nas comunidades. Se eu fosse você, pensava um pouco melhor no que faz na internet, pois você só está perdendo seu tempo.

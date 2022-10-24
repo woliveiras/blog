@@ -11,7 +11,7 @@ description: Migrar de WordPress para Hexo. Como migrar de WordPress para um ger
 
 A um bom tempo sinto vontade de mudar meu Blog de WordPress para uma plataforma de  conteúdo estático, mas não achava nenhuma alternativa, pois que queria usar Nodejs. Por isso não fui para o, muito usado na comunidade, [Jekyll(Ruby)](https://jekyllrb.com/) , nem para o [Pelican(Python <3)](https://blog.getpelican.com/).
 
-![Hexo Blog]({{site.postsImagesPath}}hexo-logo.png)
+![Hexo Blog](/images/posts/hexo-logo.png)
 
 Em busca de uma alternativa encontrei o [Hexo](https://hexo.io) e, um pouco depois de eu conhecer essa plataforma, o [Daciuk](https://blog.da2k.com.br/) escreveu um [post](https://blog.da2k.com.br/2014/01/05/hexo-criando-um-blog-ao-estilo-miojo/) muito maneiro incentivando o seu uso. Foi então que eu decidi de vez usar essa plataforma!
 
@@ -19,13 +19,13 @@ Bora conhecer ela e como foi a migração de WordPress para Hexo?
 
 
 <!-- vscode-markdown-toc -->
-* [Levantando as necessidades](#Levantandoasnecessidades)
-* [Como escrever os posts](#Comoescreverosposts)
-* [Migrando os posts do WordPress para o Hexo](#MigrandoospostsdoWordPressparaoHexo)
-* [Gerando o RSS](#GerandooRSS)
-* [Comentários](#Comentrios)
-* [Hospedagem](#Hospedagem)
-* [Domínio](#Domnio)
+- [<a name='Levantandoasnecessidades'></a>Levantando as necessidades](#levantando-as-necessidades)
+- [<a name='Comoescreverosposts'></a>Como escrever os posts](#como-escrever-os-posts)
+- [<a name='MigrandoospostsdoWordPressparaoHexo'></a>Migrando os posts do WordPress para o Hexo](#migrando-os-posts-do-wordpress-para-o-hexo)
+- [<a name='GerandooRSS'></a>Gerando o RSS](#gerando-o-rss)
+- [<a name='Comentrios'></a>Comentários](#comentários)
+- [<a name='Hospedagem'></a>Hospedagem](#hospedagem)
+- [<a name='Domnio'></a>Domínio](#domínio)
 
 <!-- vscode-markdown-toc-config
 	numbering=false

@@ -30,7 +30,7 @@ A outra maneira de se ter esse fluxo seria fazendo cursos, pois eles começam en
 
 Visando isso vieram alguns sites e iniciativas de cursos gratuitos, alguns online outros offline e um curso que eu gostei muito de conhecer é o do [freeCodeCamp](https://www.freecodecamp.org/).
 
-[![Home page do freeCodeCamp]({{site.postsImagesPath}}home-freecodecamp.png)](https://www.freecodecamp.org/)
+[![Home page do freeCodeCamp](/images/posts/home-freecodecamp.png)](https://www.freecodecamp.org/)
 
 Eu conheci o freeCodeCamp através de um pupilo do projeto Mentoria e logo de cara me apaixonei pelo projeto. Vou contar aqui um pouco sobre como o freeCodeCamp funciona e por que você deveria estar nessa comunidade.
 

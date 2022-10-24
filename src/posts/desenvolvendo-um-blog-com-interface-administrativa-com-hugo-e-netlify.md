@@ -106,7 +106,7 @@ Execute o comando **hugo server -D** e veja a magia acontecer.
 
 Vamos criar um repositório no GitHub, mas crie em branco, sem README.md, .gitignore ou arquivo de licença.
 
-![Criação do repositório]({{site.postsImagesPath}}criacao-de-repo.png)
+![Criação do repositório](/images/posts/criacao-de-repo.png)
 
 Crie um arquivo .gitignore com o conteúdo:
 
@@ -170,33 +170,33 @@ Acesse [netlify.com](https://netlify.com) e crie sua conta.
 
 Clique em “New site from Git”.
 
-![Botão de criação de site usando o GitHub]({{site.postsImagesPath}}netlify-new-site-from-git.png)
+![Botão de criação de site usando o GitHub](/images/posts/netlify-new-site-from-git.png)
 
 Na interface de criação do site, clique no GitHub e vamos a listagem de repositórios.
 
-![Criação do novo site usando o GitHub]({{site.postsImagesPath}}netlify-create-new-site.png)
+![Criação do novo site usando o GitHub](/images/posts/netlify-create-new-site.png)
 
 Caso o repositório não esteja aparecendo na listagem, clique em “Configure the Netlify app on GitHub”.
 
-![Listagem de repositórios]({{site.postsImagesPath}}netlify-create-new-site-list-repos.png)
+![Listagem de repositórios](/images/posts/netlify-create-new-site-list-repos.png)
 
 Na próxima tela, o Netlify já reconhece qual o gerador de site estático e adiciona as configurações automaticamente para nós. Deixe como está e clique em “Deploy site”.
 
-![Botão de deploy]({{site.postsImagesPath}}netlify-deploy-site-button.png)
+![Botão de deploy](/images/posts/netlify-deploy-site-button.png)
 
 Aguarde o deploy.
 
-![Aguardando o deploy]({{site.postsImagesPath}}netlify-awaiting-deploy.png)
+![Aguardando o deploy](/images/posts/netlify-awaiting-deploy.png)
 
 Ao finalizar o deploy, podemos clicar no botão “Preview deploy” dentro da interface de detalhes do último build.
 
-![Deploy finalizado]({{site.postsImagesPath}}netlify-finished-deploy.png)
+![Deploy finalizado](/images/posts/netlify-finished-deploy.png)
 
 O Netlify nos envia para o endereço do nosso site que ele mesmo criou. Podemos adicionar um domínio pessoal depois.
 
 Inicialmente temos tudo pronto!
 
-![Site em produção]({{site.postsImagesPath}}netlify-site-in-production.png)
+![Site em produção](/images/posts/netlify-site-in-production.png)
 
 O nosso artigo não está em produção. Isso porque nós não configuramos para que fosse publicado. Podemos fazer isso diretamente no arquivo do post ou na interface administrativa que vamos adicionar agora.
 
@@ -218,33 +218,33 @@ Acesse a o Netlify e clique em **Identity**.
 
 Clique em **Enable identity** para ativar o serviço de autenticação.
 
-![Ativando a autenticação via Netlify]({{site.postsImagesPath}}netlify-enable-identity.png)
+![Ativando a autenticação via Netlify](/images/posts/netlify-enable-identity.png)
 
 Acesse a aba de configurações (settings and usage) de Identity.
 
-![Botão de configurações do Netlify Identity]({{site.postsImagesPath}}netlify-enable-identity-settings.png)
+![Botão de configurações do Netlify Identity](/images/posts/netlify-enable-identity-settings.png)
 
 Vá até **External providers** e selecione os serviços de autenticação que você deseja ativar para a interface administrativa.
 
-![External providers]({{site.postsImagesPath}}netlify-external-providers.png)
+![External providers](/images/posts/netlify-external-providers.png)
 
 Você pode utilizar configurações avançadas ou a padrão. Deixe como está e clique em Enable.
 
 No exemplo abaixo estamos ativando o GitHub como método de autenticação.
 
-![Ativando o GitHub como método de autenticação]({{site.postsImagesPath}}netlify-external-providers-enable-github.png)
+![Ativando o GitHub como método de autenticação](/images/posts/netlify-external-providers-enable-github.png)
 
 Se for utilizar o GitHub, desça até a sessão **Services** e clique em **Enable Git gateway**.
 
-![Git gateway]({{site.postsImagesPath}}netlify-services-git-gateway.png)
+![Git gateway](/images/posts/netlify-services-git-gateway.png)
 
 Agora você pode acessar o link do seu site, provido pelo Netlify e adicionar um **/admin** no final.
 
-![Tela de login]({{site.postsImagesPath}}netlify-login-interface.png)
+![Tela de login](/images/posts/netlify-login-interface.png)
 
 Clique em **Login with Netlify Identity** e pronto! Temos uma interface administrativa e podemos utilizar para escrever, editar e/ou publicar nossos artigos.
 
-![Tela administrativa]({{site.postsImagesPath}}netlify-cms-interface.png)
+![Tela administrativa](/images/posts/netlify-cms-interface.png)
 
 ## <a name='Concluso'></a>Conclusão
 

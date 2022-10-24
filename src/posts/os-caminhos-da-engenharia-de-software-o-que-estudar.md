@@ -11,7 +11,7 @@ Hoje em dia a maioria dos cargos em Startups e empresas legais é de Software En
 
 Senta que lá vem história…
 
-![Senta que lá vem história]({{site.postsImagesPath}}senta-que-la-vem-historia.jpg)
+![Senta que lá vem história](/images/posts/senta-que-la-vem-historia.jpg)
 
 Como desenvolvedores(as), mais cedo ou mais tarde em nossa carreira, nós estudamos Ciência da Computação e Engenharia de Software, porém quando nós buscamos conhecimento para arrumar o primeiro emprego na área de desenvolvimento procuramos nos buscadores coisas como:
 

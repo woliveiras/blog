@@ -30,7 +30,7 @@ Não existe um valor padrão para o Freela!
 Seja projeto pequeno ou grande, que demanda muito tempo ou pouco. É tudo muito variável...
 Você tem de calcular quanto tempo vai demorar, quanto vai custar sua hora e por ai vai, mas relaxa, vou tentar ajudar aqui.
 
-![saco de money]({{site.postsImagesPath}}money.jpg)
+![saco de money](/images/posts/money.jpg)
 
 ## <a name='PrimeiropesquiseoMercado'></a>Primeiro pesquise o Mercado
 

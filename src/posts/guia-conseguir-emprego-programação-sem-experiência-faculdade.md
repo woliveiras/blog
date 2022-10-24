@@ -151,7 +151,7 @@ Existe um livro MUITO BOM, que eu li, reli e ainda uso como referência quando p
 
 Acesse [este link](https://amzn.to/31kCNQk) ou clique na imagem abaixo para conferir o preço e (se estiver legal) adquira esse livro antes de começar a aprender qualquer coisa.
 
-[![Livro Você sabe Estudar?]({{site.postsImagesPath}}/voce-sabe-estudar.jpeg)](https://amzn.to/31kCNQk)
+[![Livro Você sabe Estudar?](/images/posts//voce-sabe-estudar.jpeg)](https://amzn.to/31kCNQk)
 
 ## <a name='Meiosdepraticarprogramao'></a>Meios de praticar programação
 

@@ -186,7 +186,7 @@ git graphiclog
 
 Vai aparecer uma árvore bonita, como essa aqui:
 
-![Imagem da árvore do Git em um gráfico maneiro]({{site.postsImagesPath}}git-graphiclog.png)
+![Imagem da árvore do Git em um gráfico maneiro](/images/posts/git-graphiclog.png)
 
 ## Conclusão
 

@@ -30,7 +30,7 @@ description: Como organizar e desenvolver uma interface
 
 ## <a name='Comeando:Os3principaiselementosdaInterface'></a>Começando: Os 3 principais elementos da Interface
 
-![Exemplo de estrutura da interface]({{site.postsImagesPath}}estrutura.png)
+![Exemplo de estrutura da interface](/images/posts/estrutura.png)
 
 Lembre-se de identificar os principais elementos da interface:
 

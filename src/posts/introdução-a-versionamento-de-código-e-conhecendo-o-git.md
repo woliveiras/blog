@@ -79,7 +79,7 @@ Vamos olhar um exemplo de projeto versionado com o Git.
 
 O [dunders](https://github.com/woliveiras/__s) é um template para Jekyll, um gerador de sites estáticos em Ruby que eu utilizo em meu blog pessoal. Ele possui hoje 70 commits, ou seja, 70 versões diferentes dele. Não se apegue a palavra commit agora, vamos entender isso mais para frente. Por enquanto saiba que um commit é uma versão do que fizemos.
 
-![Imagem do GitHub mostrando os 70 commits]({{site.postsImagesPath}}commits-dunders.png)
+![Imagem do GitHub mostrando os 70 commits](/images/posts/commits-dunders.png)
 
 Caso eu queira voltar a versão do meu projeto para o que eu fiz na versão 69, basta eu rodar um comando no Git e pronto… Tudo volta a ser como era antes.
 
@@ -209,7 +209,7 @@ Agora que temos um repositório, precisamos entender os estágios da utilizaçã
 
 No Git temos três estados em que nosso código pode estar dentro de um repositório. Esses estados são como pastas ou ramificações mantidas pelo próprio Git. Podemos ver esses estados nessa imagem:
 
-![Estados do Git]({{site.postsImagesPath}}git-states.png)
+![Estados do Git](/images/posts/git-states.png)
 
 Onde temos: working directory, staging area, git directory e suas operações (de working directory para staging e de staging para git directory e do git directory de volta para staging e working dir).
 
@@ -577,7 +577,7 @@ git revert 58cffab
 
 Será aberto o nosso editor de textos via terminal ou o editor que você configurou para que fosse seu editor padrão do Git, como no caso de usarmos o [VS Code para versionamento](/posts/facilitando-os-merges-no-git-com-o-visual-studio-code-como-merge-tool-e-editor-padrão/).
 
-![Git revert]({{site.postsImagesPath}}git-revert.png)
+![Git revert](/images/posts/git-revert.png)
 
 Poderíamos também utilizar o git checkout para fazer essa reversão, porém ele voltaria para um commit anterior, como comentei quando aprendemos o git checkout. Seria necessário criar uma nova branch e fazer o merge com a master. É um processo mais demorado. O revert, além de já trazer uma mensagem descritiva sobre a reversão, é menos trabalhoso.
 

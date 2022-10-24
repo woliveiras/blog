@@ -29,24 +29,24 @@ Na documentação oficial existe esse link para agilizar as coisas:
 
 Basta entrar ai e baixar o software e dar um double click em cima do executável para começar a instalação
 
-![Inicio da instalação do GIT]({{site.postsImagesPath}}Instalacao-Git-Windows.png "Inicio da instalação do GIT")
+![Inicio da instalação do GIT](/images/posts/Instalacao-Git-Windows.png "Inicio da instalação do GIT")
 
 Aqui é simples: **Next**, **Next** até chegar a essa tela:
 
-![Git Bash Here]({{site.postsImagesPath}}Git-bash-here.png "Git Bash Here")
+![Git Bash Here](/images/posts/Git-bash-here.png "Git Bash Here")
 
 Deixe marcado a opção **Git Bash Here**.
 Com essa opção você poderá abrir o terminal do Git a partir de qualquer pasta em que estiver com o botão direito do mouse.
 
 Ai vem o **Next**, **Next** de novo até essa tela:
 
-![Use Git from Command Prompt]({{site.postsImagesPath}}Use-Git-from-command-prompt.png "Use Git from Command Prompt")
+![Use Git from Command Prompt](/images/posts/Use-Git-from-command-prompt.png "Use Git from Command Prompt")
 
 Deixe marcado a opção **Use git from Command Prompt** para que consiga usar o Git a partir do CMD do Windows também, sem precisar abrir o Git Bash.
 
 **Next**, **Next** até essa tela:
 
-![Unix Style]({{site.postsImagesPath}}Unix-Style-Git-Windows.png "Unix Style")
+![Unix Style](/images/posts/Unix-Style-Git-Windows.png "Unix Style")
 
 Selecione a segunda opção para que não existam conflitos entre as quebras de linha que o Windows coloca com as que os Sistemas Unix usam.
 

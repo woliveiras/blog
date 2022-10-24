@@ -24,9 +24,9 @@ A grande maioria das pessoas do mercado de programação, hoje, é de pessoas na
 
 Segundo o StackOverflow, 49.2% do mercado é de pessoas na faixa dos 25 até 34 e o HackerRank confirma isso no seu gráfico.
 
-![Gráfico do StackOverflow com os dados informados abaixo no artigo]({{site.postsImagesPath}}grafico-idade-stackoverflow.png)
+![Gráfico do StackOverflow com os dados informados abaixo no artigo](/images/posts/grafico-idade-stackoverflow.png)
 
-![Gráfico do HackerRank com os dados informados no artigo]({{site.postsImagesPath}}grafico-idade-hackerrank.png)
+![Gráfico do HackerRank com os dados informados no artigo](/images/posts/grafico-idade-hackerrank.png)
 
 Isso acaba sendo assustador para pessoas acima dessa idade. Onde 17.8% está na faixa dos 35 até 44, 5.1% na faixa de 45 até 54, 1.5% estão entre 55 a 64 e 0.3% são os demais.
 

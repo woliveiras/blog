@@ -33,17 +33,17 @@ Deixo aqui meu forte abraço para todas as pessoas que acreditam no nosso trabal
 
 ## Primeiro voo de avião e viagem sem ser pra casa de parentes
 
-![Entrando no avião]({{site.postsImagesPath}}aviao-retro-2017.jpeg)
+![Entrando no avião](/images/posts/aviao-retro-2017.jpeg)
 
 Antes deste ano eu nunca tinha viajado sem ser para visitar parentes ou ir em velórios de conhecidos — vida na favela é isso, as pessoas não tem privilégio de ficar passeando não, gente.
 
 Pois bem! Este ano eu viajei e pra ficar mais louco ainda: viajei de avião pela primeira vez na vida. E foi para um dos eventos mais fantásticos da minha área, a BrazilJS Conf! Para completar, conheci pessoalmente algumas das pessoas que me inspiram, outras pessoas que estavam sempre presentes no Slack ou em redes sociais, mas nunca tive a oportunidade de conhecer pessoalmente. Foi incrível.
 
-![Foto da gente bagunçando num café em POA]({{site.postsImagesPath}}foto-da-gente-zoando-no-cafe.jpeg)
+![Foto da gente bagunçando num café em POA](/images/posts/foto-da-gente-zoando-no-cafe.jpeg)
 
 Também tive a oportunidade de rever meus amigos e mentores com os quais trabalhei a um tempo atrás e ficar hospedado junto com eles, além de sair pra curtir a vida e acabar assim:
 
-![Saindo do rolê carregado. Eu dormi! Não estava bêbado não, viu. ;D]({{site.postsImagesPath}}eu-sendo-carregado.jpeg)
+![Saindo do rolê carregado. Eu dormi! Não estava bêbado não, viu. ;D](/images/posts/eu-sendo-carregado.jpeg)
 
 Sim, gente, eu curto a vida de vez em quando. :joy:
 
@@ -67,7 +67,7 @@ Não sei como eu não conhecia desde a primeira edição, mas foi na terceira qu
 
 > </> JUNTOS NA TI é uma iniciativa de empresas e centros de Tecnologia que se reuniram para iniciar e incentivar pessoas com deficiência, pessoas trans e pessoas negras no universo da TI.
 
-![Imagem do meu crachá de instrutor no Workshop]({{site.postsImagesPath}}cracha-de-instrutor-juntos-na-ti.jpeg)
+![Imagem do meu crachá de instrutor no Workshop](/images/posts/cracha-de-instrutor-juntos-na-ti.jpeg)
 
 ## Estou de volta aos meetups
 
@@ -77,7 +77,7 @@ Ano passado eu tive que abandonar a liderança do FEMUG-ABC, o que foi muito tri
 
 Este ano eu voltei a participar de maneira ativa em um meetup, porém não é organizando, mas apoiando a organização e apresentando de vez em quando. Foi o [TC Talks SP](https://www.meetup.com/pt-BR/Training-Center-SP).
 
-![Apresentando o primeiro TC Talks SP]({{site.postsImagesPath}}apresentando-o-primeiro-tc-talks-sp.jpeg)
+![Apresentando o primeiro TC Talks SP](/images/posts/apresentando-o-primeiro-tc-talks-sp.jpeg)
 
 O engraçado de olhar a foto acima é o fato de eu estar com a mesma camiseta com a qual apresentei o primeiro FEMUG-ABC. — risos altos por não comprar camisetas a um bom tempo
 
@@ -89,11 +89,11 @@ No InterCon deste ano eu tive a oportunidade de fazer uma das coisas que eu mais
 
 Mais uma vez conheci pessoas fantásticas no evento que acontece antes do InterCon para líderes de comunidades, o Community Summit. Evento que mudou minha mente quanto a organização de comunidades.
 
-![Almoço Community Summit]({{site.postsImagesPath}}almoco-community-summit.jpeg)
+![Almoço Community Summit](/images/posts/almoco-community-summit.jpeg)
 
 E foi no InterCon que tive a oportunidade de ver a palestra do [Paulo Silveira](https://twitter.com/paulo_caelum) que deu vários tapas na minha cara quanto ao que eu penso/pensava antes da palestra.
 
-![Na imagem, Paulo Silveira e a mensagem: você não é pago para escrever código]({{site.postsImagesPath}}voce-nao-e-pago-para-escrever-codigo.jpeg)
+![Na imagem, Paulo Silveira e a mensagem: você não é pago para escrever código](/images/posts/voce-nao-e-pago-para-escrever-codigo.jpeg)
 
 ## TOTVS techday
 
@@ -109,7 +109,7 @@ Mais uma vez o pessoal do iMasters me dando uma oportunidade. Fui convidado a pa
 
 Seria para falar sobre Git, algo que eu gosto demais . Afinal o que eu mais faço na vida e no código é coisa errada e tenho que reverter. — Brinks
 
-![Caneca do 7Masters]({{site.postsImagesPath}}caneca-7-masters.jpeg)
+![Caneca do 7Masters](/images/posts/caneca-7-masters.jpeg)
 
 ## Palestrei na USP
 
@@ -147,19 +147,19 @@ Neste ano eu saí de uma empresa fantástica que é o [VivaReal](https://www.viv
 
 Como eu estava cansado dos acidêntes de moto e iria trabalhar mais longe de casa, uma mudança de 34 para 43 km de distância, eu resolvi abandonar a motoca e começar a ir de ônibus e metrô para o trabalho. Foi tenso:
 
-![Estação Sacomã lotada]({{site.postsImagesPath}}estacao-lotada.jpeg)
+![Estação Sacomã lotada](/images/posts/estacao-lotada.jpeg)
 
 Isso perdurou durante 5 meses e agora eu me mudei de vez para SP. Onde moro com algumas plantas, a Matilda e o Helton.
 
-![Matilda, a planta]({{site.postsImagesPath}}matilda.jpeg)
+![Matilda, a planta](/images/posts/matilda.jpeg)
 
-![Helton, o hortelã]({{site.postsImagesPath}}helton.jpeg)
+![Helton, o hortelã](/images/posts/helton.jpeg)
 
 E nessa mudança eu deixei de demorar 3 horas para 40 minutos para chegar no trabalho. Mais pra baixo eu falo sobre o que esse tempo no trânsito me rendeu.
 
 Claro que eu não consigo ficar longe do ABC Paulista e todo final de semana eu estou na vila de novo pra poder ver isto na rua:
 
-![Imagem da minha rua em São Bernardo do Campo, com uma galinha passeando por ali]({{site.postsImagesPath}}rua-em-sao-bernardo.jpeg)
+![Imagem da minha rua em São Bernardo do Campo, com uma galinha passeando por ali](/images/posts/rua-em-sao-bernardo.jpeg)
 
 Eu também mudei meu foco de estudos e hoje não estudo somente [frontend](/front-end-career/), mas engenharia de software no geral.
 

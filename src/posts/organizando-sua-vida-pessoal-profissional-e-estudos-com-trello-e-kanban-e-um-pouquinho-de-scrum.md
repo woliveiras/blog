@@ -84,13 +84,13 @@ Seguindo o exemplo do card sobre a escrita do post sobre a organização no Trel
 
 Os tópicos, ou sub-tasks, são os **checklist’s**, como este:
 
-![Imagem de um checklist no Trello, uma lista com caixas para selecionar quando finalizados os itens listados]({{site.postsImagesPath}}check-list-trello.png)
+![Imagem de um checklist no Trello, uma lista com caixas para selecionar quando finalizados os itens listados](/images/posts/check-list-trello.png)
 
 ## <a name='Labels'></a>Labels
 
 As labels podem te ajudar a organizar ainda mais seu board. Imagina que algo esteja em backlog porém deve ser priorizado, pois pode acarretar algum inconveniente no futuro. Podemos usar uma label **“critico”** para especificar que isso deve ser priorizado.
 
-![Imagem de uma label no Trello, um indicador que fica colorido nos cards]({{site.postsImagesPath}}labesl-trello.png)
+![Imagem de uma label no Trello, um indicador que fica colorido nos cards](/images/posts/labesl-trello.png)
 
 Estou utilizando as seguintes labels: post, ideia, refletir, critico, projeto, training-center, trabalho, estudos, social, pessoal. E em cada label conseguimos colocar uma cor para ficar mais fácil de enxergar as prioridades no board.
 
@@ -104,7 +104,7 @@ Leia: [Síndrome de bournout, nós precisamos falar sobre isso](https://www.saud
 
 Eu coloquei um limite de 5 tarefas no Doing e 5 no Todo. Isso significa que: do backlog só saem, no máximo, 5 tarefas por semana e eu só vou executar 5 tarefas por vez (o que já não é pouca coisa).
 
-![Imagem das colunas do Trello com uma marcação de limite de cards entre parenteses, assim: Todo (5), Doing (5)]({{site.postsImagesPath}}trello-com-limites.png)
+![Imagem das colunas do Trello com uma marcação de limite de cards entre parenteses, assim: Todo (5), Doing (5)](/images/posts/trello-com-limites.png)
 
 Esse limite nada mais é do que visual com base no número na coluna, pois o Trello não limita a quantidade de cards que você pode mover. — E, no meu caso, eu prefiro não adicionar nenhuma extensão no navegador pra que exista esse limite.
 

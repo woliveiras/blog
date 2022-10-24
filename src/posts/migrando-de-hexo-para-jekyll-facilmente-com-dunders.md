@@ -16,13 +16,13 @@ Encontrei diversas maneiras de agilizar isso, mas confesso que a mais rápida é
 
 Utilizando o [Dunders](https://github.com/woliveiras/__s), um tema/uma estrutura em branco que tem tudo o que precisamos para criar um tema para o Jekyll, o desenvolvimento foi bem rápido. Gastando somente 5 horas e alguns minutos para fazer tudo (design, layout e código).
 
-![Tempo gasto trabalhando com Sass na criação do tema]({{site.postsImagesPath}}tempo-gasto-em-sass.png)
+![Tempo gasto trabalhando com Sass na criação do tema](/images/posts/tempo-gasto-em-sass.png)
 
 Como eu costumo desenvolver o tema direto via HTML e CSS, isso aumenta um pouco o tempo de criação, pois eu passo mais tempo testando opções do que codificando o resultado final. E por isso eu passei mais tempo fazendo CSS do que todo o resto do trabalho.
 
 Passei 100% do tempo no VS Code e foi muito produtivo pra mim.
 
-![Tempo gasto no VS Code]({{site.postsImagesPath}}tempo-gasto-no-vscode.png)
+![Tempo gasto no VS Code](/images/posts/tempo-gasto-no-vscode.png)
 
 Como imaginado, assim que eu virei a chave, fazendo um merge da branch onde trabalhei com a master, o deploy aconteceu em segundos e estamos aqui, com a nova versão do blog no ar!
 
@@ -56,7 +56,7 @@ Com isso eu já tinha o blog configurado, com todos os meus artigos, porém sem 
 
 Daí pra frente foi só seguir desenhando o layout e codificando tudo.
 
-![Codificando o novo tema]({{site.postsImagesPath}}codando-o-novo-tema.png)
+![Codificando o novo tema](/images/posts/codando-o-novo-tema.png)
 
 ## <a name='Principaispreocupaesemudanas'></a>Principais preocupações e mudanças
 
@@ -80,7 +80,7 @@ Nesse novo tema eu também tive uma preocupação maior em direcionar as pessoas
 
 Se você quer se tornar front-end ou aprender VIM, por exemplo, já temos alguns links lá.
 
-![Novo footer do site]({{site.postsImagesPath}}footer-do-site.png)
+![Novo footer do site](/images/posts/footer-do-site.png)
 
 Além disso, me preocupei em deixar o tema o mais limpo possível, com o tamanho de fonte maneiro, um bom espaçamento entre linhas e estou focando em escrever menos por parágrafo, o que ajuda pessoas dislexicas.
 

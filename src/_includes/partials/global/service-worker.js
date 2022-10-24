@@ -5,7 +5,6 @@ const CACHE_KEYS = {
 
 // URLS that we don’t want to end up in the cache
 const EXCLUDED_URLS = [
-  'admin',
   '.netlify',
   'https://identity.netlify.com/v1/netlify-identity-widget.js',
   'https://unpkg.com/netlify-cms@^2.9.3/dist/netlify-cms.js',

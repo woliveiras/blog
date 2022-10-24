@@ -36,7 +36,7 @@ Vamos ao que interessa, que é a configuração que estou utilizando para trabal
 
 Independente de qual sistema operacional eu estiver, o meu editor de textos hoje em dia é o VS Code.
 
-![Editor de textos VS Code]({{site.postsImagesPath}}vscode.png)
+![Editor de textos VS Code](/images/posts/vscode.png)
 
 Hoje, dentro do sistema operacional da Microsoft, talvez faça ainda mais sentido que eu esteja utilizando este editor, pois a integração com o ecossistema está extremamente funcional e útil.
 
@@ -52,7 +52,7 @@ Se você não conhece o WSL, é uma maneira de rodar o kernel Linux dentro do Wi
 
 Depois que comecei a utilizar ele, achei melhor do que o direto do Ubuntu (dentro do Windows), porque é mais fluido e integra com todo o resto que utilizamos no sistema.
 
-![Windows Terminal]({{site.postsImagesPath}}windows-terminal.png)
+![Windows Terminal](/images/posts/windows-terminal.png)
 
 Inclusive o Windows Terminal é open source e você pode ajudar o desenvolvimento da ferramenta: [github/microsoft/terminal](https://github.com/microsoft/terminal).
 
@@ -66,7 +66,7 @@ Depois instale o VS Code e o Windows Terminal. Pronto!
 
 Agora, ao abrir o Ubuntu via Windows Terminal, você pode rodar o seu Git (que pode ser instalado como você instala no seu ambiente Linux normalmente) e baixar os seus projetos. Acesse a pasta do projeto e execute o comando `code .`. O VS Code será aberto com uma conexão direta com o WSL e você pode trabalhar normalmente, como se estivesse em um Linux nativo e feliz da vida.
 
-![Editor de textos VS Code com o WSL ativo]({{site.postsImagesPath}}vscode-wsl.png)
+![Editor de textos VS Code com o WSL ativo](/images/posts/vscode-wsl.png)
 
 Se precisar de ajuda para rodar o Node.js via NVM, venha neste artigo que tem tudo o que você precisa: [configurando o ambiente de desenvolvimento fullstack JavaScript](/posts/configurando-o-ambiente-de-desenvolvimento-fullstack-javascript/).
 

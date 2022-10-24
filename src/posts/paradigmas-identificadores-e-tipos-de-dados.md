@@ -167,7 +167,7 @@ Agora vamos criar uma página HTML (não se preocupe se você ainda não sabe o 
 
 Agora dê dois cliques sobre o arquivo index.html. Será aberto o seu navegador padrão. Pressione F12 para abrir as ferramentas de desenvolvedor(a) do navegador e veja a aba **console**.
 
-![Hello World no Chrome]({{site.postsImagesPath}}hello-world-chrome.png)
+![Hello World no Chrome](/images/posts/hello-world-chrome.png)
 
 Acabamos de fazer nosso primeiro programa em JavaScript!
 
@@ -198,7 +198,7 @@ Uncaught TypeError: console is not a function
     at <anonymous>:1:1
 ```
 
-![Erro no navegador]({{site.postsImagesPath}}erro-no-chrome.png)
+![Erro no navegador](/images/posts/erro-no-chrome.png)
 
 Isso porque nossa instrução é um pedaço de código inválido. O modo correto de se usar o comando console, do JavaScript, é com o **.log()**. Toda vez que tivermos um erro em um código, precisamos analisar o código para encontrar o que está errado e vamos aprender os melhores modos de fazer isso nos próximos artigos.
 

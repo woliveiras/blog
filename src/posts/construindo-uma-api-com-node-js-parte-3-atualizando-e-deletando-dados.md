@@ -131,7 +131,7 @@ No Postman, altere o verbo HTTP para PUT, conforme aprendemos no primeiro artigo
 
 Para conseguir um ID, você pode entrar na interface do Atlas. Acesse o Atlas, e clique em **collections**. Você verá algo como:
 
-![Imagem do Atlas e os IDs das minhas menções]({{site.postsImagesPath}}atlas-listing-collections.png)
+![Imagem do Atlas e os IDs das minhas menções](/images/posts/atlas-listing-collections.png)
 
 ## <a name='Atualizandooapp.js'></a>Atualizando o app.js
 
@@ -206,7 +206,7 @@ Mais uma vez, vamos testar a API no Postman. Pegue um ID no Atlas e depois vamos
 
 No Postman, altere o verbo HTTP para DELETE, conforme fizemos anteriormente, adicione o ID da menção que você deseja deletar depois do localhost:3000/mentions e clique em enviar. Se tudo correr bem, você receberá o retorno informando que a menção foi deletada com sucesso!
 
-![Imagem de uma deleção no Postman]({{site.postsImagesPath}}postman-delete-data.png)
+![Imagem de uma deleção no Postman](/images/posts/postman-delete-data.png)
 
 Você pode confirmar se a menção foi deletada visualizando o Atlas.
 

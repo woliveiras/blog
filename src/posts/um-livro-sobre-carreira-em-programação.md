@@ -23,13 +23,13 @@ Mas, o conteúdo no GitHub ou preso na nossa bolha das comunidades de programaç
 
 Em uma pesquisa que fiz para o [Training Center](https://trainingcenter.io) cheguei a constatação que a grande maioria das pessoas que chegaram na comunidade foi através das redes sociais, indicação de amigos(as) ou através de outras comunidades.
 
-![Gráfico sobre como as pessoas chegam até a comunidade Training Center]({{site.postsImagesPath}}pesquisa-training-center-como-as-pessoas-chegam-na-comunidade.png)
+![Gráfico sobre como as pessoas chegam até a comunidade Training Center](/images/posts/pesquisa-training-center-como-as-pessoas-chegam-na-comunidade.png)
 
 30% através de redes sociais, 22% através de indicação de amigos, 14% através de outras comunidades, 5% pelo Google, 30% através de outras fontes. Somando a entrada por vias de quem já tem acesso a informação temos 71% das pessoas contra os 30% de outras fontes.
 
 E também percebemos que a maioria já trabalha na área.
 
-![Gráfico sobre profissionalização da comunidade]({{site.postsImagesPath}}pesquisa-training-center-nivel-profissional.png)
+![Gráfico sobre profissionalização da comunidade](/images/posts/pesquisa-training-center-nivel-profissional.png)
 
 74% já trabalha na área e somente 26% não trabalha, porém a maioria está procurando emprego por já possuir ao menos o conhecimento básico.
 
@@ -90,7 +90,7 @@ A escrita do capítulo 1 demorou 15 horas e, assim que mandei para revisão, tiv
 
 A realidade foi bem contrária a isso.
 
-![Primeira revisão da Casa do Código, por Vivian Matsui]({{site.postsImagesPath}}revisao-didatica-cap-1.png)
+![Primeira revisão da Casa do Código, por Vivian Matsui](/images/posts/revisao-didatica-cap-1.png)
 
 81 alterações, 42 itens removidos e ainda cometi vários erros no texto.
 
@@ -98,7 +98,7 @@ Como no comentário abaixo:
 
 > Evitar repetir tantas vezes "universo" aqui neste capítulo (com um rápido ctrl F encontram-se 26 ocorrências. Tente distanciar e evitar repetições no mesmo parágrafo sempre que possível)
 
-![Comentário sobre as 26 ocorrências da palavra universo no primeiro capítulo]({{site.postsImagesPath}}revisao-26-ocorrencias.png)
+![Comentário sobre as 26 ocorrências da palavra universo no primeiro capítulo](/images/posts/revisao-26-ocorrencias.png)
 
 Para corrigir os pontos que a Vivian comentou, gastei mais 6 horas.
 

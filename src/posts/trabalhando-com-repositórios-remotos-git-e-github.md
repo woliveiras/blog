@@ -44,21 +44,21 @@ Para acompanhar este conteúdo será necessário criar sua conta no GitHub, faç
 
 Depois da conta criada e acessar a plataforma, podemos clicar no símbolo de mais (+) e clicar em novo repositório.
 
-![Criando um novo repositório no GitHub]({{site.postsImagesPath}}new-repository.github.png)
+![Criando um novo repositório no GitHub](/images/posts/new-repository.github.png)
 
 Vamos chamar este repositório de **curriculo**, pois vamos criar um documento de texto que vai carregar nossas informações profissionais. Adicione também uma descrição ao repositório. Existem alguns campos que precisamos entender: o GitHub armazena repositórios **públicos** ou **privados**, nos públicos tudo o que fazemos é aberto e qualquer pessoa pode baixar ou contribuir com nosso repositório (com nossa autorização, claro). Também temos um checkbox que podemos marcar se quisermos inicializar o repositório com um arquivo README, este arquivo é o primeiro que devemos ler quando entramos em um repositório, nele temos todas as informações sobre o projeto e como rodar o mesmo. Temos a opção se queremos adicionar uma licença e um arquivo .gitignore, a licença é o que libera ou não o uso do nosso projeto e o .gitignore lista os arquivos que o Git não deve adicionar nunca em nossos commits.
 
-![Tela de informações do nosso repositório]({{site.postsImagesPath}}create-new-repository-data.png)
+![Tela de informações do nosso repositório](/images/posts/create-new-repository-data.png)
 
 Vamos inicializar este projeto com um README clicando na opção de inicialização com este documento.
 
-![Opção de README escolhida]({{site.postsImagesPath}}inicializar-com-readme.png)
+![Opção de README escolhida](/images/posts/inicializar-com-readme.png)
 
 Agora podemos clicar no botão **Create repository** e o nosso novo projeto irá aparecer na tela.
 
 Agora vem a parte legal que é baixar o nosso repositório remoto em nossa máquina. Para isso vamos clicar no botão **Clone or download**, que vai abrir uma caixa de informação informando se desejamos baixar o repositório via SSH ou via HTTPS.
 
-![Caixa de informação de tipo de download]({{site.postsImagesPath}}clone-via-ssh-ou-https.png)
+![Caixa de informação de tipo de download](/images/posts/clone-via-ssh-ou-https.png)
 
 **Se estivermos em uma máquina de outro lugar que não seja a nossa, devemos utilizar a opção HTTPS**. Se estivermos em nossa máquina podemos seguir o tutorial do GitHub para criarmos nossa chave SSH, um código que deve ficar guardado em nosso computador (e não deve ser compartilhado com ninguém) e nos garante acesso ao repositório.
 
@@ -100,11 +100,11 @@ Fazemos isso com o comando **git pull**.
 
 Entre no repositório curriculo no seu GitHub e clique no ícone de lápis, que é um botão de alteração, no arquivo README.md.
 
-![Botão de alteração]({{site.postsImagesPath}}botao-de-alterar.png)
+![Botão de alteração](/images/posts/botao-de-alterar.png)
 
 Adicione qualquer texto neste arquivo e depois clique em **Commit changes** logo abaixo da tela.
 
-![Fechando um commit]({{site.postsImagesPath}}commit-changes.png)
+![Fechando um commit](/images/posts/commit-changes.png)
 
 Vamos agora baixar as alterações que estão somente no servidor.
 
@@ -216,7 +216,7 @@ To github.com:woliveiras/curriculo.git
 
 Ele informa que nosso commit foi enviado para a branch master. Vamos conferir isso na tela do GitHub. Basta atualizar a página do GitHub e verificar se aparece lá o texto "nova linha".
 
-![Nova linha aparecendo no GitHub]({{site.postsImagesPath}}nova-linha-readme.png)
+![Nova linha aparecendo no GitHub](/images/posts/nova-linha-readme.png)
 
 ## <a name='Adicionandoumservidoraumrepositriolocal'></a>Adicionando um servidor a um repositório local
 
@@ -246,11 +246,11 @@ Podemos verificar o repositório remoto do Git com o comando **git remote -v**. 
 
 Vamos criar o repositório no GitHub, como aprendido anteriormente, porém sem inicializar com um README.md, pois vamos criar este artigo depois. Só queremos um local para enviar nosso histórico.
 
-![Criando o repositório workspace vazio]({{site.postsImagesPath}}criando-repositorio-vazio.png)
+![Criando o repositório workspace vazio](/images/posts/criando-repositorio-vazio.png)
 
 Repare que, quando criamos um repositório vazio, o GitHub já nos mostra as opções disponíveis, como começar criando um README ou configurar um repositório existente.
 
-![Opções do GitHub]({{site.postsImagesPath}}opcoes-github.png)
+![Opções do GitHub](/images/posts/opcoes-github.png)
 
 Vamos rodar os comandos que ele nos apresenta na segunda opção "…or push an existing repository from the command line", pois o comando para adicionar um link remoto é o **git remote add origin link**.
 
@@ -294,7 +294,7 @@ Branch 'master' set up to track remote branch 'master' from 'origin'.
 
 E pronto! Agora temos o nosso repositório configurado, nossa branch existe local e remotamente e se atualizarmos a tela do GitHub neste momento, veremos nossos arquivos lá.
 
-![Novo repositório configurado e com os arquivos]({{site.postsImagesPath}}novo-repo-configurado.png)
+![Novo repositório configurado e com os arquivos](/images/posts/novo-repo-configurado.png)
 
 Agora, toda vez que precisarmos enviar nossas alterações para o servidor remoto, basta rodar um git push.
 
