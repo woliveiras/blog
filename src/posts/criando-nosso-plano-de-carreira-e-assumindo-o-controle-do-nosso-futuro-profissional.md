@@ -7,19 +7,19 @@ description: Um guia de como planejarmos nosso futuro profissional criando nosso
 ---
 
 <!-- vscode-markdown-toc -->
-* [Planos de carreira em Y ou em T](#PlanosdecarreiraemYouemT)
-	* [Plano de carreira em Y](#PlanodecarreiraemY)
-	* [Plano de carreira em T](#PlanodecarreiraemT)
-* [Definindo nossas competências profissionais (as metas)](#Definindonossascompetnciasprofissionaisasmetas)
-* [Entendendo o que o mercado precisa](#Entendendooqueomercadoprecisa)
-* [Mas e se nosso objetivo for sair do país ou mudar de cidade/estado?](#Masesenossoobjetivoforsairdopasoumudardecidadeestado)
-* [E se desejamos nos tornar referência de mercado de trabalho?](#Esedesejamosnostornarrefernciademercadodetrabalho)
-* [E se mudarmos de ideia no meio do caminho?](#Esemudarmosdeideianomeiodocaminho)
-* [Como criar as metas de modo crescente](#Comocriarasmetasdemodocrescente)
-* [É ruim seguir planos de carreira de outras pessoas?](#ruimseguirplanosdecarreiradeoutraspessoas)
-* [Dividindo tudo em metas de curto, médio e longo prazo](#Dividindotudoemmetasdecurtomdioelongoprazo)
-* [Conclusão](#Concluso)
-	* [Referências](#Referncias)
+- [<a name='PlanosdecarreiraemYouemT'></a>Planos de carreira em Y ou em T](#planos-de-carreira-em-y-ou-em-t)
+	- [<a name='PlanodecarreiraemY'></a>Plano de carreira em Y](#plano-de-carreira-em-y)
+	- [<a name='PlanodecarreiraemT'></a>Plano de carreira em T](#plano-de-carreira-em-t)
+- [<a name='Definindonossascompetnciasprofissionaisasmetas'></a>Definindo nossas competências profissionais (as metas)](#definindo-nossas-competências-profissionais-as-metas)
+- [<a name='Entendendooqueomercadoprecisa'></a>Entendendo o que o mercado precisa](#entendendo-o-que-o-mercado-precisa)
+- [<a name='Masesenossoobjetivoforsairdopasoumudardecidadeestado'></a>Mas e se nosso objetivo for sair do país ou mudar de cidade/estado?](#mas-e-se-nosso-objetivo-for-sair-do-país-ou-mudar-de-cidadeestado)
+- [<a name='Esedesejamosnostornarrefernciademercadodetrabalho'></a>E se desejamos nos tornar referência de mercado de trabalho?](#e-se-desejamos-nos-tornar-referência-de-mercado-de-trabalho)
+- [<a name='Esemudarmosdeideianomeiodocaminho'></a>E se mudarmos de ideia no meio do caminho?](#e-se-mudarmos-de-ideia-no-meio-do-caminho)
+- [<a name='Comocriarasmetasdemodocrescente'></a>Como criar as metas de modo crescente](#como-criar-as-metas-de-modo-crescente)
+- [<a name='ruimseguirplanosdecarreiradeoutraspessoas'></a>É ruim seguir planos de carreira de outras pessoas?](#é-ruim-seguir-planos-de-carreira-de-outras-pessoas)
+- [<a name='Dividindotudoemmetasdecurtomdioelongoprazo'></a>Dividindo tudo em metas de curto, médio e longo prazo](#dividindo-tudo-em-metas-de-curto-médio-e-longo-prazo)
+- [<a name='Concluso'></a>Conclusão](#conclusão)
+	- [<a name='Referncias'></a>Referências](#referências)
 
 <!-- vscode-markdown-toc-config
 	numbering=false
@@ -50,7 +50,6 @@ Neste artigo vou mostrar como montar um plano de carreira. Como saber o que prec
 Como o texto estava ficando muito grande precisei dividir em dois, no próximo artigo vou mostrar como podemos usar o Trello para organizar nosso plano de carreira.
 
 ![Imagem de um(a) astronauta no espaço. Imagem da NASA no Unsplash.](/images/posts/voando-proximo-a-terra.jpeg)
-{:.post__wallpaper}
 
 ## <a name='PlanosdecarreiraemYouemT'></a>Planos de carreira em Y ou em T
 

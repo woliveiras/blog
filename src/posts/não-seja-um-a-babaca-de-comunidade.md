@@ -14,16 +14,16 @@ Senta que lá vem textão.
 Há algum tempo eu escrevi esse artigo, porém não enxergava mais necessidade de postar, pois estou tão imerso no [Training Center](https://trainingcenter.io/) que esqueci o que acontece no mundão das comunidades afora.
 
 <!-- vscode-markdown-toc -->
-* [O submundo das comunidades](#Osubmundodascomunidades)
-* [Alguém pergunta algo e você envia aquele link: deixe-me usar o Google por você](#Algumperguntaalgoevocenviaaquelelink:deixe-meusaroGoogleporvoc)
-* [Você nunca fez perguntas “bobas”?](#Vocnuncafezperguntasbobas)
-* [Mas as pessoas são preguiçosas](#Masaspessoassopreguiosas)
-* [Ainda sobre respostas nos tópicos](#Aindasobrerespostasnostpicos)
-* [Se X você não é programador(a)](#SeXvocnoprogramadora)
-* [Comunicação não violenta](#Comunicaonoviolenta)
-* [Tratar as mulheres como limitadas ou ser inconveniente quando elas fazem perguntas](#Tratarasmulherescomolimitadasouserinconvenientequandoelasfazemperguntas)
-* [A internet conecta um mundo inteiro, saia do seu mundinho](#Ainternetconectaummundointeirosaiadoseumundinho)
-* [Conclusão](#Concluso)
+- [<a name='Osubmundodascomunidades'></a>O submundo das comunidades](#o-submundo-das-comunidades)
+- [<a name='Algumperguntaalgoevocenviaaquelelink:deixe-meusaroGoogleporvoc'></a>Alguém pergunta algo e você envia aquele link: deixe-me usar o Google por você](#alguém-pergunta-algo-e-você-envia-aquele-link-deixe-me-usar-o-google-por-você)
+- [<a name='Vocnuncafezperguntasbobas'></a>Você nunca fez perguntas “bobas”?](#você-nunca-fez-perguntas-bobas)
+- [<a name='Masaspessoassopreguiosas'></a>Mas as pessoas são preguiçosas](#mas-as-pessoas-são-preguiçosas)
+- [<a name='Aindasobrerespostasnostpicos'></a>Ainda sobre respostas nos tópicos](#ainda-sobre-respostas-nos-tópicos)
+- [<a name='SeXvocnoprogramadora'></a>Se X você não é programador(a)](#se-x-você-não-é-programadora)
+- [<a name='Comunicaonoviolenta'></a>Comunicação não violenta](#comunicação-não-violenta)
+- [<a name='Tratarasmulherescomolimitadasouserinconvenientequandoelasfazemperguntas'></a>Tratar as mulheres como limitadas ou ser inconveniente quando elas fazem perguntas](#tratar-as-mulheres-como-limitadas-ou-ser-inconveniente-quando-elas-fazem-perguntas)
+- [<a name='Ainternetconectaummundointeirosaiadoseumundinho'></a>A internet conecta um mundo inteiro, saia do seu mundinho](#a-internet-conecta-um-mundo-inteiro-saia-do-seu-mundinho)
+- [<a name='Concluso'></a>Conclusão](#conclusão)
 
 <!-- vscode-markdown-toc-config
 	numbering=false
@@ -112,7 +112,6 @@ Quer saber mais sobre minha história com comunidades? Escuta esse podcast aqui:
 <iframe style="border: none" src="//html5-player.libsyn.com/embed/episode/id/5634138/height/90/theme/custom/autoplay/no/autonext/no/thumbnail/yes/preload/no/no_addthis/no/direction/backward/render-playlist/no/custom-color/3CD52E/" style="width: 100%; height: 180px!important" scrolling="no"  allowfullscreen webkitallowfullscreen mozallowfullscreen oallowfullscreen msallowfullscreen></iframe>
 
 ![Imagem da caneca do iMasters em comemoração ao 7Masters de Git e GitHub](/images/posts/mestre-em-git-e-github.jpeg)
-{:.post__wallpaper}
 
 Eu não cheguei até aqui graças a gente que responde com link de deixe-me usar o Google por você ou que responde babaquice em perguntas nas comunidades. Se eu fosse você, pensava um pouco melhor no que faz na internet, pois você só está perdendo seu tempo.
 

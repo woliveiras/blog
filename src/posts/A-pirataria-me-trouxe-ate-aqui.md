@@ -58,7 +58,6 @@ Como o exemplo da série Atlanta, temos uma cena que conta muito sobre a realida
 > E os pobres não têm tempo para investimentos, porque estamos muito ocupados tentando não ser pobres. Tenho que comer hoje, não em setembro.
 
 [![atlanta.jpg](https://s8.postimg.cc/lis9kosc5/atlanta.jpg)](https://postimg.cc/image/v3bw7kho1/)
-{:.post__wallpaper}
 
 Mas podemos pensar: poxa, mesmo que muito conteúdo é pago, uma grande parcela de pessoas gera conteúdo gratuito, ensina de graça na internet!
 

@@ -18,15 +18,13 @@ Vivo comentando para as pessoas que elas não devem se cobrar muito. Que elas de
 Também sou do tipo que fica falando para as pessoas quando elas estão se abarrotando de trabalho. Mas, como ***em casa de JavaScripteiro tem sistema rodando Java***, eu me atolei tanto de tarefas que não percebi o que estava fazendo comigo mesmo até que a bomba explodiu.
 
 ![Eruption, Photo by Marc Szeglat on Unsplash](/images/posts/marc-szeglat-524009-unsplash.jpg)
-{:.post__wallpaper}
-
 
 <!-- vscode-markdown-toc -->
-* [Trabalho que não acaba mais](#Trabalhoquenoacabamais)
-* [Sentimento negativo aumentando](#Sentimentonegativoaumentando)
-* [Sinais que não posso mais ignorar](#Sinaisquenopossomaisignorar)
-* [O que estou fazendo para melhorar](#Oqueestoufazendoparamelhorar)
-* [Conclusão](#Concluso)
+- [<a name='Trabalhoquenoacabamais'></a>Trabalho que não acaba mais](#trabalho-que-não-acaba-mais)
+- [<a name='Sentimentonegativoaumentando'></a>Sentimento negativo aumentando](#sentimento-negativo-aumentando)
+- [<a name='Sinaisquenopossomaisignorar'></a>Sinais que não posso mais ignorar](#sinais-que-não-posso-mais-ignorar)
+- [<a name='Oqueestoufazendoparamelhorar'></a>O que estou fazendo para melhorar](#o-que-estou-fazendo-para-melhorar)
+- [<a name='Concluso'></a>Conclusão](#conclusão)
 
 <!-- vscode-markdown-toc-config
 	numbering=false
