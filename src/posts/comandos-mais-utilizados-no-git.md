@@ -12,6 +12,8 @@ description: "Comandos mais utilizados durante o Workflow com Git"
 
 Assim como montei um post para eu relembrar os [comandos mais utilizados no Docker](/posts/comandos-mais-utilizados-no-docker/), montei esse texto com o intuito de termos um lugar para olhar quando esquecermos de algum comando que utilizamos diariamente no Git.
 
+Se você não conhece Git, leia a [introdução a versionamento de código e conhecendo o Git](/posts/introdução-a-versionamento-de-código-e-conhecendo-o-git/).
+
 Então vamos aos comandos mais utilizados no Git!
 
 ## Sumário
