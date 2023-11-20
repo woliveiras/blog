@@ -31,10 +31,8 @@ module.exports = function(config) {
   config.addPassthroughCopy('src/fonts');
   config.addPassthroughCopy('src/images');
   config.addPassthroughCopy('src/js');
-  config.addPassthroughCopy('src/config.yml');
   config.addPassthroughCopy('node_modules/nunjucks/browser/nunjucks-slim.js');
   config.addPassthroughCopy('src/robots.txt');
-  config.addPassthroughCopy('src/ads.txt');
   config.addPassthroughCopy('src/CNAME');
 
   const now = new Date();
