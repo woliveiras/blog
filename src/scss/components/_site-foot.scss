@@ -3,6 +3,15 @@
   background: var(--color-bg-glare);
   color: var(--color-text);
   border-top: 1px solid var(--color-stroke);
+  display: grid;
+  grid-template-rows: repeat(4, minmax(auto, 90px));
+  align-items: center;
+  padding: 1rem;
+
+  @include media-query('md') {
+    justify-items: center;
+    align-items: center;
+  }
 
   a {
     color: currentColor;
@@ -12,7 +21,10 @@
     }
   }
 
-  &__credit {
-    text-align: center;
+  &__badges {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
   }
 }

@@ -1,17 +1,16 @@
-<footer role="contentinfo" class="[ site-foot ] [ pad-top-700 pad-bottom-900 ]">
-  <div class="wrapper">
-    <div class="[ site-foot__inner ] [ md:box-flex space-between align-start ]">
-      <div>
-        {% set ariaLabel = 'footer navigation' %}
-        {% include "partials/components/nav.njk" %}
-      </div>
-    </div>
-    <br />
-    <a rel="license" href="http://creativecommons.org/licenses/by/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by/4.0/88x31.png" /></a><br />This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</a>.
-    <p class="[ site-foot__credit ] [ pad-top-900 ]">
-      Desenvolvido com <a href="https://www.11ty.dev/" rel="external">Eleventy</a> e <a href="https://hylia.website" rel="external">Hylia Eleventy Starter Kit v{{ pkg.version }}</a>.
-    </p>
+<footer role="contentinfo" class="[ site-foot ]">
+  {% set ariaLabel = 'footer navigation' %}
+  {% include "partials/components/nav.njk" %}
+  
+  <div class="site-foot__badges">
+    <a href="https://app.netlify.com/sites/sleepy-keller-922c66/deploys" rel="nofollow"><img src="https://camo.githubusercontent.com/5939219b3712b99b926e15f71cc46a6de82da80ed127435392900df41ac68100/68747470733a2f2f6170692e6e65746c6966792e636f6d2f6170692f76312f6261646765732f39353233353736362d643432342d343031332d396333352d6236303162346238343332612f6465706c6f792d737461747573" alt="Netlify Status" data-canonical-src="https://api.netlify.com/api/v1/badges/95235766-d424-4013-9c35-b601b4b8432a/deploy-status" style="max-width: 100%;"></a>
+    <a rel="license" href="http://creativecommons.org/licenses/by/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by/4.0/88x31.png" /></a>
   </div>
+  
+  <p>This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</a>.</p>
+
+  <p>Desenvolvido com <a href="https://www.11ty.dev/" rel="external">Eleventy</a> e <a href="https://hylia.website" rel="external">Hylia Eleventy Starter Kit v{{ pkg.version }}</a>.</p>
+
 </footer>
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-F30HMRBDPZ"></script>
 <script>
