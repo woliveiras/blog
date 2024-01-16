@@ -298,13 +298,41 @@ Os custos abaixo são de um casal de adultos, trabalhando no modelo híbrido, mo
 | Transporte público                                          | € 57 por pessoa para usar o mês inteiro |
 | Lazer                                                       | € 200                                   |
 
+## Como juntamos dinheiro no Brasil e a Beckham Law na Espanha
+
+Como você vê, o nosso aluguel atual é de 1100 euros, o que significa que precisamos juntar 7 vezes esse valor para conseguir alugar um imóvel (6 meses de calção, 1 mês para entrar no imóvel). Fora o dinheiro que usamos para comprar os móveis para a casa (mesas de escritório, cadeiras de escritório, sofá, cama, guarda roupas, rack, cômoda), a televisão e alguns itens de cozinha que deram, ao todo, 3 mil euros. Ainda temos um dinheiro que juntamos para uma possível emergência, em volta de 14 mil euros.
+
+Ou seja, em moeda europeia, tivemos que juntar quase 25 mil euros para ter uma tranquilidade maior. Mas poderíamos vir sem os 14 mil de reserva de emergência, claro.
+
+Para juntar esse dinheiro, nós compramos euros **todos os meses**. Não vale a pena comprar tudo de uma vez, porque não vai ter um momento bom para você pegar o melhor preço possível, a não ser que você tenha poderes de prever o futuro. Caso você não seja um mutante, assim como nós não somos, é bom comprar a moeda estrangeira todos os meses e aproveitar a flutuação do câmbio, garantindo uma economia (nem que seja mínima) quando atingir o valor total que deseja juntar.
+
+Nós utilizamos a [Wise](https://wise.com) para comprar os euros, pois foi o que encontramos com a menor taxa de câmbio possível.
+
+Transferir da Wise para a nossa conta na Espanha também não tem dificuldade alguma, mas você tem que ficar esperto(a) com relação a alguma possível taxa de imposto dependendo de como estiver a sua situação no país.
+
+Nós fizemos a [Beckham Law](https://www.immigrationspain.es/ley-beckham/), uma lei que ajuda imigrantes a juntar um dinheirinho quando chega no país, pois limita o nosso imposto de renda e evita taxas sobre nosso patrimônio e investimentos fora da Espanha (bi tributação).
+
+Caso não tivéssemos feito o processo para a Beckham Law, o imposto de renda seria o seguinte (2024):
+
+Até 12.450 euros: 19%
+De 12.450 a 20.200 euros: 24%
+De 20.200 a 35.200 euros: 30%
+De 35.200 a 60.000 euros: 37%
+Acima de 60.000 euros: 45%
+
+Os valores são o rendimento anual da pessoa.
+
+Com essa lei, nós pagamos 24% de imposto de renda durante 5 anos.
+
 ## Sites utilizados para o planejamento e mudança
 
-- https://www.eurodicas.com.br/
-- https://www.idealista.com/
-- https://www.spotahome.com/es
-- https://www.espanhafacil.com/
-- https://espanamas.com/
+- [Eurodicas](https://www.eurodicas.com.br/)
+- [idealista](https://www.idealista.com/)
+- [Spotahome](https://www.spotahome.com/es)
+- [Espanha fácil](https://www.espanhafacil.com/)
+- [Espanha más](https://espanamas.com/)
+- [Wise](https://wise.com)
+
 
 ## Como estamos hoje
 
