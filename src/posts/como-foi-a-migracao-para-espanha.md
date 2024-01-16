@@ -314,11 +314,11 @@ Nós fizemos a [Beckham Law](https://www.immigrationspain.es/ley-beckham/), uma 
 
 Caso não tivéssemos feito o processo para a Beckham Law, o imposto de renda seria o seguinte (2024):
 
-Até 12.450 euros: 19%
-De 12.450 a 20.200 euros: 24%
-De 20.200 a 35.200 euros: 30%
-De 35.200 a 60.000 euros: 37%
-Acima de 60.000 euros: 45%
+- Até 12.450 euros: 19%
+- De 12.450 a 20.200 euros: 24%
+- De 20.200 a 35.200 euros: 30%
+- De 35.200 a 60.000 euros: 37%
+- Acima de 60.000 euros: 45%
 
 Os valores são o rendimento anual da pessoa.
 
