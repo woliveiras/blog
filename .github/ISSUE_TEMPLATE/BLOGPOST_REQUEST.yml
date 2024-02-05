@@ -1,0 +1,51 @@
+name: Blogpost Request
+description: Petição de um novo post no blog
+title: "[blog-post]: "
+labels: ["suggestion"]
+assignees:
+  - woliveiras
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Obrigado por tirar um tempinho para abrir uma petição no meu blog :)~
+  - type: input
+    id: contact
+    attributes:
+      label: Contato
+      description: Como podemos manter contato caso eu precise de mais informações e para te enviar o artigo quando publicado?
+      placeholder: ex. email@example.com
+    validations:
+      required: false
+  - type: textarea
+    id: suggestion
+    attributes:
+      label: O que você gostaria que eu respondesse?
+      description: Você pode solicitar um totorial, uma lista de sugestões, um post explicativo sobre algo que você ainda não conseguiu entender, etc
+      placeholder: Escreva aqui sua sugestão :)~
+      value: "Sugestão de post"
+    validations:
+      required: true
+  - type: dropdown
+    id: type
+    attributes:
+      label: Tipo
+      description: Que tipo de postagem seria?
+      options:
+        - tutorial (como fazer algo)
+        - como algo funciona
+        - lista (10 dicas sobre xyz)
+        - curioisidades (sobre tecnologias ou não)
+        - carreira (dúvidas sobre carreira no geral)
+        - sociedade (caso você queira saber minha opinião sobre algo)
+      default: 0
+    validations:
+      required: true
+  - type: checkboxes
+    id: terms
+    attributes:
+      label: Código de Conduta
+      description: Enviando esta postagem, você aceita o código de conduta deste projeto e entende a responsabilidade e possíveis penalizações.
+      options:
+        - label: Eu aceito o código de conduta
+          required: true
