@@ -121,4 +121,4 @@ Assim como os antigos migrantes vinham para São Paulo para conquistar o mínimo
 [O homem e seus símbolos, Carl G. Jung]([https://amzn.to/3xfhHC5](https://amzn.to/3xfhHC5))
 [A classe média no espelho, Jessé Sousa]([https://amzn.to/3eFHzAA](https://amzn.to/3eFHzAA))
 [A elite do atraso, Jessé Sousa]([https://amzn.to/3BsFSzC](https://amzn.to/3BsFSzC))
-[O Poder Simbólico]([https://amzn.to/3Ry2Rij](https://amzn.to/3Ry2Rij))
+[O Poder Simbólico, Pierre Bourdieu]([https://amzn.to/3Ry2Rij](https://amzn.to/3Ry2Rij))
