@@ -3,7 +3,7 @@ title: "A ascensão social é uma fantasia: sobre ser um estrangeiro trabalhando
 date: '2022-09-10'
 tags:
     - Sociedade
-description: Uma reflexão sobre como mesmo uma pessoa em ascensão social pode não se sentir em casa em diversos momentos de sua vida e talvez nunca sinta que realmente pertence a onde chegou. Um papo reto sobre os símbolos de poder que nos cercam e nos colocam em um lugar de estranhesa, como se fossemos estrangeiros estando onde não somos bem vindos. 
+description: Uma reflexão sobre como mesmo uma pessoa em ascensão social pode não se sentir em casa em diversos momentos de sua vida e talvez nunca sinta que realmente pertence onde chegou. Um papo reto sobre os símbolos de poder que nos cercam e nos colocam em um lugar de estranheza, como se fossemos estrangeiros estando onde não somos bem vindos. 
 ---
 
 Este texto é fruto de várias reflexões que tive depois de ouvir um podcast sobre ascensão social. Durante dias eu pensei sobre como me sinto na área de tecnologia, como é a minha vida hoje, como pessoa de classe média, como foi minha vida até aqui e como eu não me sinto em casa, mesmo na minha casa.
@@ -36,7 +36,7 @@ A pergunta acima, "será que essa mudança de vida realmente me coloca no mesmo 
 
 Ao mesmo tempo que você está lá, você nunca pertence ao grupo por completo. A gente participa dos rituais da classe média, mas não conseguimos nos encontrar por ali. Eu não me enxergo na maneira como as pessoas ao meu redor se comunicam, no modo como elas se vestem ou mesmo quando começam a falar sobre sua aspiração de vida ou o seu passado.
 
-Durante a pandemia de COVID-19 eu perdi muita gente da minha família para este vírus e, no meu trabalho, estava ouvindo sobre como o lock down deveria ser freado para que não atrapalhasse a economia e como as ações dessas pessoas estavam caindo por conta da desaceleração econômica. Sabe o pior? As minhas ações também caíram. Mesmo estando no mesmo local que eles e participando do mesmo ritual capitalista de investimento em ações, eu não sou um deles.
+Durante a pandemia de COVID-19 eu perdi muita gente da minha família para este vírus e, no meu trabalho, estava ouvindo sobre como o _lockdown_ deveria ser freado para que não atrapalhasse a economia e como as ações dessas pessoas estavam caindo por conta da desaceleração econômica. Sabe o pior? As minhas ações também caíram. Mesmo estando no mesmo local que eles e participando do mesmo ritual capitalista de investimento em ações, eu não sou um deles.
 
 Antes disso eu já não me sentia um igual. Enquanto eu pensava em ganhar mais dinheiro para pagar um convênio para a minha mãe, meus colegas de trabalho precisavam comprar Euro para a próxima viagem internacional. É engraçado, pois eu acabei de tirar meu passaporte, com 31 anos de vida, sem nunca nem sonhar em viajar para fora do país. 
 
@@ -52,15 +52,15 @@ Até agora eu não entendia o que era isso, o porque de eu não conseguir me sen
 
 Na nossa vida nós temos muitos símbolos ao nosso redor. Símbolos de conquista, como quando um favelado compra uma casa ou quando o cria de favela compra uma moto. Quando eu comprei minha moto, me senti a pessoa mais empoderada do mundo. A partir daquele momento eu não era mais só o moleque de quebrada que conseguiu um bom emprego, eu era o jovem adulto em ascensão social.
 
-A gramática, o falar certinho; quase recitando um artigo, o não falar palavrão, o diploma, o inglês, as marcas de roupa, a decoração da casa, os lugares que frequentam, são filhos de quem ou são filhos de ninguém. Tudo isso são símbolos de poder da classe média que nos rodeia.
+A gramática, o falar certinho; quase recitando um artigo, o não falar palavrão, o diploma, o inglês, as roupas de marca, a decoração da casa, os lugares que frequentam, são filhos de quem ou são filhos de ninguém. Tudo isso são símbolos de poder da classe média que nos rodeia.
 
-No meu primeiro emprego em tecnologia, eu precisei comprar calças jeans mais justas, um sapatênis e utilizar a camisa polo, uniforme do trabalho, para poder acessar os clientes da empresa. Antes disso eu trabalhava como ajudante geral, chegava na van da firma com a calça larga, boné dos Racionais e moletom que cobria metade das minhas coxas. No meu segundo emprego em tecnologia, eu precisava andar de sapato e camiseta social. No meu terceiro emprego em tecnologia eu já não tinha mais a minha identidade periférica.
+No meu primeiro emprego em tecnologia, eu precisei comprar calças jeans mais justas, um sapatênis e utilizar a camisa polo, uniforme do trabalho, para poder acessar os clientes da empresa. Antes disso eu trabalhava como ajudante geral, chegava na van da firma com a calça larga, boné dos Racionais e moletom que cobria metade das minhas coxas. No meu segundo emprego em tecnologia, eu precisava andar de sapato e camisa social. No meu terceiro emprego em tecnologia eu já não tinha mais a minha identidade periférica.
 
 Os símbolos ficam cada dia mais claros pra mim enquanto converso com pessoas que se acham ricas por ganhar um bom salário e não se enxergam como pessoas que um dia podem precisar do governo ou até mesmo de um sindicato. Talvez por eu ser de São Bernardo do Campo, SP, eu tenha uma visão diferente do que é um sindicato, mas até nisso mudaram minha mente durante a minha convivência. O ódio ao trabalhador é um símbolo de poder. Se sentir superior e totalmente independente da ferramentas sociais é um símbolo de poder. Nós não percebemos e quando vemos já estamos marcados por eles.
 
 Quando me mudei para São Paulo, capital, morei em um quartinho de empregada. Isso mesmo. Um quarto reservado para as pessoas que viviam nas casas dos ricos dos anos passados. Essas pessoas, além de morar com as famílias a quem serviam em sua escravidão moderna, tinham uma porta de entrada separada. Elas entravam pela cozinha, que poderia ter a porta de acesso a sala de estar trancada, mantendo assim os donos da casa e o pobre totalmente separados, mesmo estando no mesmo lugar. 
 
-Hoje, como trabalhador em tecnologia, o que mantem o pobre separado dos verdadeiramente ricos são esses símbolos sutis, que nós nem percebemos no nosso dia a dia. Mesmo estando nas mesmas posições que eles, você nunca vai poder gastar o que eles gastam, viver como eles vivem e ter a tranquilidade financeira que uma herança proporciona.
+Hoje, como trabalhador em tecnologia, o que mantém o pobre separado dos verdadeiramente ricos são esses símbolos sutis, que nós nem percebemos no nosso dia a dia. Mesmo estando nas mesmas posições que eles, você nunca vai poder gastar o que eles gastam, viver como eles vivem e ter a tranquilidade financeira que uma herança proporciona.
 
 ### Nós não gastamos como eles
 
@@ -74,29 +74,29 @@ Não existe nenhuma proteção a nossa mobilidade social. Se nós perdermos a ca
 
 Algo que me deixava muito incomodado em encontros de tecnologia, os famosos Meetups, era o fato de que ninguém pensava que um evento começando as 20 horas e terminando as 23 impossibilitava a participação de muita gente.
 
-Um exemplo de evento era na Avenida Paulista, próximo de várias estações de metrô. Você pode imaginar que isso é muito acessível, mas já parou para analisar que a maioria das pessoas utiliza bem mais do que um único meio de transporte para se locomover. Enquanto eles pensavam que estar próximo do metrô era fácil para sair da Vila Madalena e descer na estação Paulista, nós precisávamos sair dali e chegar a tempo de pegar o último ônibus para a nossa casa.
+Um exemplo de evento era na Avenida Paulista, próximo de várias estações de metrô. Você pode imaginar que isso é muito acessível, mas já parou para analisar que a maioria das pessoas utiliza bem mais do que um único meio de transporte para se locomover? Enquanto eles pensavam que estar próximo do metrô era fácil para sair da Vila Madalena e descer na estação Paulista, nós precisávamos sair dali e chegar a tempo de pegar o último ônibus para a nossa casa.
 
 Várias vezes vi organizadores de eventos felizes por organizar encontros perto das suas casas na região da Consolação, enquanto uma parte dos que chegavam até ali moravam à três horas de distância na Zona Leste ou mais ainda em cidades da região metropolitana de São Paulo.
 
 ### Nós não temos tempo livre como eles
 
-Algo que sempre me incomodou no discurso de pessoas que trabalham com programação é sobre como é "fácil" aprender a programar. O problema desse discurso é o fato de que quem o propaga acredita que estamos todos saindo de uma mesma base. Pode não ser assustador pra você, que cresceu jogando vídeo game em inglês, mas as primeiras palavras reservadas de uma linguagem de programação assustam quem acha que nunca vai conseguir aprender um idioma. Quanto mais entender uma linguagem de programação mais um idioma ao mesmo tempo.
+Algo que sempre me incomodou no discurso de pessoas que trabalham com programação é sobre como é "fácil" aprender a programar. O problema desse discurso é o fato de que quem o propaga acredita que estamos todos saindo de uma mesma base. Pode não ser assustador pra você, que cresceu jogando vídeo game em inglês, mas as primeiras palavras reservadas de uma linguagem de programação assustam quem acha que nunca vai conseguir aprender um idioma. Quanto mais entender uma linguagem de programação e um outro idioma ao mesmo tempo.
 
 Quando jovens, a maioria de nós, pessoas periféricas, vive pensando em sobrevivência. Enquanto alguns jogam vídeo game, assistem animês e passeiam com a família, o jovem periférico é quem está te servindo no balcão. Para que você se divirta, a filha da sua empregada doméstica está cuidando da casa e/ou dos irmãos. É essa falta de tempo que gera um abismo de capacidade na hora de aprender tecnologia. Não é nada fácil para a maioria de nós.
 
 ### Nós não temos o poder de compra deles
 
-A minha primeira conquista rumo a trabalhar com tecnologia foi um computador da marca Positivo com Windows Vista, 2GB de memória RAM, HD de 500GB e processador Celeron D. Pra jogar um GTA San Andreas eu tive que instalar o Windows XP e aprender a fazer tuning de hardware e software, pois eu não tinha grana pra colocar mais memória, trocar o processador ou comprar uma placa de vídeo.
+A minha primeira conquista rumo a trabalhar com tecnologia foi um computador da marca Positivo com Windows Vista, 2GB de memória RAM, HD de 500GB e processador Celeron D. Pra jogar GTA San Andreas eu tive que instalar o Windows XP e aprender a fazer _tuning_ de hardware e software, pois eu não tinha grana pra colocar mais memória, trocar o processador ou comprar uma placa de vídeo.
 
-Essa era a realidade de todos os meus amigos, tirando aqueles que nem computadores possuíam e nós já estávamos com 17 anos de idade. Muito diferente daquele programador que aprendeu a programar aos 8 anos de idade, quando um computador custava o preço de uma casa, mas seus pais tinham renda suficiente para possuir um ou até dois.
+Essa era a realidade de todos os meus amigos, tirando aqueles que nem computadores possuíam, e nós já estávamos com 17 anos de idade. Muito diferente daquele programador que aprendeu a programar aos 8 anos de idade, quando um computador custava o preço de uma casa, mas seus pais tinham renda suficiente para possuir um ou até dois.
 
-Enquanto isso, eu lia um blog onde pessoas desenvolvedoras de software compartilhavam o seu “setup” e a maioria deles tinha um MacBook, iPhone e um fone de ouvidos com bloqueio de ruídos que comprava o meu computador, meu celular e metade dos bens que eu e minha mãe possuíamos.
+Enquanto isso, eu lia um blog onde pessoas desenvolvedoras de software compartilhavam o seu “setup” e a maioria deles tinha um MacBook, iPhone e fones de ouvido com bloqueio de ruídos que valiam o meu computador, meu celular e metade dos bens que eu e minha mãe possuíamos.
 
 ### Nós não moramos como eles
 
 Seguir seus ídolos nas redes sociais é algo que vai mudar a sua mente. Pode ser bom ou ruim, vai depender de o quanto você consegue se desconectar de algumas situações. No meu caso, algo que me chamou atenção ao seguir as pessoas que palestram e geram conteúdo em tecnologia, foi o minimalismo e a decoração das casas.
 
-Eu não sabia que existia um nome para isso, mas descobri depois que essa galera poderia ser chamada de ***santacecilers**.* Uma belíssima decoração, com tudo muito bem armonizado, fechando com uma planta (ou várias) tudo milimetricamente planejado. Enquanto isso, do outro lado da realidade, eu me encontrava em uma casa que nem do lado de fora possuía acabamento. 
+Eu não sabia que existia um nome para isso, mas descobri depois que essa galera poderia ser chamada de ***santacecilers***. Uma belíssima decoração, com tudo muito bem harmonizado, fechando com uma planta (ou várias), tudo milimetricamente planejado. Enquanto isso, do outro lado da realidade, eu me encontrava em uma casa que nem o lado de fora possuía acabamento. 
 
 Pode parecer besteira, mas a primeira vez que eu morei em um lugar com acabamento foi aos meus 25 anos de idade, trabalhando como programador. E foi engraçado; nos anos que morei neste lugar, eu não mudei nada. As paredes continuaram brancas como quando cheguei, a iluminação continuou a mesma, a decoração não mudou. O fato de pensarmos em decoração também mostra o quanto a nossa vida está estabilizada e não estamos imersos em outros problemas.
 
@@ -106,11 +106,11 @@ Você pode estar pensando "mas você se sente mal porque fica se comparando com 
 
 Eu não me vejo na minha profissão. É muito difícil encontrar outras pessoas que tiveram uma vivência parecida com a minha por aqui. Hoje eu também não me vejo no lugar onde eu moro, pois é ainda mais difícil encontrar essas pessoas morando por aqui.
 
-Eu to muito mais perto do zelador, do porteiro ou do entregador de aplicativos do que da classe média que ocupa o prédio onde eu moro. Eu não pertenço a esse lugar, sou um estrangeiro em um espaço que não foi me dado e nunca será fácil permanecer aqui. Os olhares são diferentes quando eu abro a boca e falo em gírias ou quando ando com a calça larga e o boné com escritas que eles não entendem.
+Eu tô muito mais perto do zelador, do porteiro ou do entregador de aplicativos do que da classe média que ocupa o prédio onde eu moro. Eu não pertenço a esse lugar, sou um estrangeiro em um espaço que não foi me dado e nunca será fácil permanecer aqui. Os olhares são diferentes quando eu abro a boca e falo em gírias ou quando ando com a calça larga e o boné com escritas que eles não entendem.
 
-Ás vezes me pego pensando: será que a pessoa que está abrindo o portão pra eu entrar conseguiria morar em um apartamento como o meu? será que a pessoa que serve o meu prato no restaurante no centro conseguiria se alimentar como eu?
+Ás vezes me pego pensando: será que a pessoa que está abrindo o portão pra eu entrar conseguiria morar em um apartamento como o meu? Será que a pessoa que serve o meu prato no restaurante no centro conseguiria se alimentar como eu?
 
-Assim como os antigos migrantes vinham para São Paulo para conquistar o mínimo, estou eu aqui hoje, fazendo exatamente a mesma coisa, só que trabalhando com tecnologia e vivendo a hype das profissões do futuro.
+Assim como os antigos migrantes vinham para São Paulo para conquistar o mínimo, estou eu aqui hoje, fazendo exatamente a mesma coisa, só que trabalhando com tecnologia e vivendo o _hype_ das profissões do futuro.
 
 ## Referências
 
