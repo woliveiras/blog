@@ -3,7 +3,7 @@ title: "A ascensão social é uma fantasia: sobre ser um estrangeiro trabalhando
 date: '2022-09-10'
 tags:
     - Sociedade
-description: Uma reflexão sobre como mesmo uma pessoa em ascensão social pode não se sentir em casa em diversos momentos de sua vida e talvez nunca sinta que realmente pertence onde chegou. Um papo reto sobre os símbolos de poder que nos cercam e nos colocam em um lugar de estranheza, como se fossemos estrangeiros estando onde não somos bem vindos. 
+description: Uma reflexão sobre como mesmo uma pessoa em ascensão social pode não se sentir em casa em diversos momentos de sua vida e talvez nunca sinta que realmente pertence onde chegou. Um papo reto sobre os símbolos de poder que nos cercam e nos colocam em um lugar de estranheza, como se fôssemos estrangeiros estando onde não somos bem vindos. 
 ---
 
 Este texto é fruto de várias reflexões que tive depois de ouvir um podcast sobre ascensão social. Durante dias eu pensei sobre como me sinto na área de tecnologia, como é a minha vida hoje, como pessoa de classe média, como foi minha vida até aqui e como eu não me sinto em casa, mesmo na minha casa.
@@ -108,7 +108,7 @@ Eu não me vejo na minha profissão. É muito difícil encontrar outras pessoas 
 
 Eu tô muito mais perto do zelador, do porteiro ou do entregador de aplicativos do que da classe média que ocupa o prédio onde eu moro. Eu não pertenço a esse lugar, sou um estrangeiro em um espaço que não foi me dado e nunca será fácil permanecer aqui. Os olhares são diferentes quando eu abro a boca e falo em gírias ou quando ando com a calça larga e o boné com escritas que eles não entendem.
 
-Ás vezes me pego pensando: será que a pessoa que está abrindo o portão pra eu entrar conseguiria morar em um apartamento como o meu? Será que a pessoa que serve o meu prato no restaurante no centro conseguiria se alimentar como eu?
+Às vezes me pego pensando: será que a pessoa que está abrindo o portão pra eu entrar conseguiria morar em um apartamento como o meu? Será que a pessoa que serve o meu prato no restaurante no centro conseguiria se alimentar como eu?
 
 Assim como os antigos migrantes vinham para São Paulo para conquistar o mínimo, estou eu aqui hoje, fazendo exatamente a mesma coisa, só que trabalhando com tecnologia e vivendo o _hype_ das profissões do futuro.
 
