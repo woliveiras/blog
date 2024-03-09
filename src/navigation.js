@@ -95,7 +95,7 @@ export const headerData = {
     },
     {
       text: 'Sobre mim',
-      href: getPermalink('/homes/personal'),
+      href: getPermalink('/sobre'),
     },
     // {
     //   text: 'Blog',
