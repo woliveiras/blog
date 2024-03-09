@@ -93,7 +93,7 @@ Sabe quando você maximiza uma janela e o menu some? Então, para fazer eles apa
 
 Em algumas distros ele está vindo por padrão, mas no Ubuntu ainda não. **Essa dica é para quem tem mais de 4GB de RAM**. Ele armazena os programas e libs mais utilizadas em memória fazendo com que a abertura de programas fique muito mais rápida. Olha só:
 
-![ubuntu-preload](~/assets/images/posts/ubuntu-preload.gif)
+![ubuntu-preload](~/assets/images/posts/ubuntu-preload.png)
 
 Para instalar:
 
