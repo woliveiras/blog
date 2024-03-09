@@ -1,0 +1,84 @@
+---
+import Hero from '~/components/widgets/Hero3.astro';
+import Layout from '~/layouts/PageLayout.astro';
+
+const metadata = {
+  title: 'Todos os meus links - William Oliveira',
+};
+---
+
+<Layout metadata={metadata}>
+  <!-- Hero Widget ******************* -->
+
+  <Hero tagline="Links">
+    <Fragment slot="title"> Todos os meus links </Fragment>
+
+    <Fragment slot="subtitle"> Todos os links importantes sobre mim e meus trabalhos. </Fragment>
+  </Hero>
+
+  <div class="flex justify-between flex-col sm:flex-row max-w-3xl mx-auto sm:items-center pb-10">
+    <ul class="container mx-auto pb-10">
+      <li>
+        <a
+          class="first:rounded-t last:rounded-b md:hover:bg-gray-100 hover:text-link dark:hover:text-white dark:hover:bg-gray-700 py-2 px-5 block whitespace-no-wrap"
+          href="https://apoia.se/uillaz"
+        >
+          <p class="text-base font-medium">Apoie meu trabalho</p>
+          <p class="text-sm text-gray-500">Com apenas 1 real você me ajuda a bancar minhas iniciativas.</p>
+        </a>
+      </li>
+      <li>
+        <a
+          class="first:rounded-t last:rounded-b md:hover:bg-gray-100 hover:text-link dark:hover:text-white dark:hover:bg-gray-700 py-2 px-5 block whitespace-no-wrap"
+          href="https://www.linkedin.com/in/william-oliveira/"
+        >
+          <p class="text-base font-medium">LinkedIn</p>
+          <p class="text-sm text-gray-500">Bora nos conectar!</p>
+        </a>
+      </li>
+      <li>
+        <a
+          class="first:rounded-t last:rounded-b md:hover:bg-gray-100 hover:text-link dark:hover:text-white dark:hover:bg-gray-700 py-2 px-5 block whitespace-no-wrap"
+          href="https://twitter.com/1ilhas"
+        >
+          <p class="text-base font-medium">Twitter/X</p>
+          <p class="text-sm text-gray-500">Não leve a sério o que eu falo por lá.</p>
+        </a>
+      </li>
+      <li>
+        <a
+          class="first:rounded-t last:rounded-b md:hover:bg-gray-100 hover:text-link dark:hover:text-white dark:hover:bg-gray-700 py-2 px-5 block whitespace-no-wrap"
+          href="https://www.casadocodigo.com.br/products/livro-universo-programacao"
+        >
+          <p class="text-base font-medium">Livro: O Universo da Programação</p>
+          <p class="text-sm text-gray-500">
+            Um livro sobre carreira em programação para pessoas iniciantes ou que desejam conhecer a nossa área.
+          </p>
+        </a>
+      </li>
+      <li>
+        <a
+          class="first:rounded-t last:rounded-b md:hover:bg-gray-100 hover:text-link dark:hover:text-white dark:hover:bg-gray-700 py-2 px-5 block whitespace-no-wrap"
+          href="https://www.casadocodigo.com.br/products/livro-navegando-universo"
+        >
+          <p class="text-base font-medium">Livro: Navegando no Universo da Programação</p>
+          <p class="text-sm text-gray-500">
+            Um livro sobre carreira em programação para pessoas que já estão na área e precisam de alguns conselhos para
+            uma vida mais tranquila e evolução profissional.
+          </p>
+        </a>
+      </li>
+      <li>
+        <a
+          class="first:rounded-t last:rounded-b md:hover:bg-gray-100 hover:text-link dark:hover:text-white dark:hover:bg-gray-700 py-2 px-5 block whitespace-no-wrap"
+          href="https://www.casadocodigo.com.br/products/livro-carreira-tecnica"
+        >
+          <p class="text-base font-medium">Livro: Carreira Técnica no Universo da Programação</p>
+          <p class="text-sm text-gray-500">
+            Um livro para pessoas senior que desejam seguir a carreira como especialistas em engenharia de software.
+          </p>
+        </a>
+      </li>
+    </ul>
+  </div>
+</Layout>
