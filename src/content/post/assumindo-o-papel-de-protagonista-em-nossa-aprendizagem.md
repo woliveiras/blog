@@ -59,8 +59,6 @@ Como crescemos aprendendo que é necessário um(a) dententor(a) de conhecimento 
 
 Mesmo quando terminamos a escola e vamos buscar uma profissão, logo pensamos: _que curso eu tenho que fazer pra trabalhar com X?_
 
-![Cãezinhos com dúvidas se estamos fazendo o certo quando vamos atrás de uma pessoa para aprender](https://media.giphy.com/media/5XRB3Ay93FZw4/giphy.gif)
-
 Isso acontece porque estamos enviesados(as) a imaginar que pra aprender precisamos que alguém explique o que precisamos aprender e pronto.
 
 Não temos a prática de ir atrás do conhecimento por conta própria.

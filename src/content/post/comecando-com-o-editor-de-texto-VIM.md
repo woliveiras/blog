@@ -32,7 +32,6 @@ A resposta é simples: **fui experimentar**.
 
 Eu sempre vi algumas pessoas aclamando o editor como se ele fosse um deus de alguma religião, e de fato é. Existe até uma [Igreja do VIM](https://medium.com/@avelino0/church-vim-2ddadebe5acc#.gbqzpwuc3), onde você pode aprender como exorcizar um computador!
 
-![Sai capeta](https://gifnoria.com.br/wp-content/uploads/2016/03/Oq-q-%C3%A9-esse-bagulho-que-fica-atras-de-mim-sai-capeta.gif)
 Achei muito interessante essa comunidade em cima de um editor de texto e fui conhecer melhor. Em São Paulo existe até um grupo de Meetup, o [VIM-SP](https://www.meetup.com/pt-BR/Vim-Sao-Paulo-Meetup/). Gostei bastante da galera que usa o editor e acabei me interessando mais em aprender a usa-lo.
 
 Também foi quando eu vi o site, extremamente futurista, do [VIM](https://www.vim.org/), que logo eu decidi que deveria testar de verdade esse negócio!
@@ -60,8 +59,6 @@ A primeira coisa que você precisa entender, quando começa a usar o VIM, é que
 Durante o aprendizado eu fui salvando os comandos que eu ia aprendendo em um repositório no meu GitHub, que acabou se tornando um GitBook chamado [VIM para Noobs](/vimparanoobs/), onde você pode encontrar vários comandos, plugins úteis, temas e mais fonte de informação sobre o editor, mas não caia de cabeça nele agora. Continue a leitura.
 
 Acho que o principal problema de quem começa com o VIM é a ideia de que, se outras pessoas dizem que escrevem texto super rápido no editor, logo no primeiro dia eu preciso escrever assim também.
-
-![Fast type writer](https://media.giphy.com/media/26E2gwqxVzvn7KZji/giphy.gif)
 
 Mas não é bem assim.
 
@@ -250,8 +247,6 @@ Você vai entender o por que dos comandos específicos.
 <iframe src="https://www.youtube.com/embed/UUzW46SeLhg" frameborder="0" allowfullscreen></iframe>
 
 Dizem que, se usarmos o VIM por muito tempo, logo estaremos digitando extremamente rápido. Igual esse gatinho:
-
-![Gatinho digitando](https://media.giphy.com/media/xT0BKvIDgNYugS3m3C/giphy.gif)
 
 ## <a name='Pluginstemasjanelasabassintaxesconfiguraesespeciaisemagianegra'></a>Plugins, temas, janelas, abas, sintaxes configurações especiais e magia negra
 

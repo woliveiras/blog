@@ -55,8 +55,6 @@ Agora basta subir um tema bonito para o nosso site e pronto! Temos nosso primeir
 
 Tudo o que você enviar para a branch master do seu repositório será automágicamente enviado para produção.
 
-![Uma mágica acontecendo](https://media.giphy.com/media/12NUbkX6p4xOO4/giphy.gif)
-
 Para que você não suba algo que não deseja _"deployar"_, crie a branch **gh-pages** e só faça merge nela quando tudo estiver OK. Ou você também pode criar outra branch (uma branch dev) e só fazer o merge na master quando o trabalho estiver pronto.
 
 ![Criando a branch gh-pages no GitHub](~/assets/images/posts/criando-branch-gh-pages.png)

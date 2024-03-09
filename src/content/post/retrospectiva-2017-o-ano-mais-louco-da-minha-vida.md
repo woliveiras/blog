@@ -179,8 +179,6 @@ Não é engraçado ter um transtorno psicológico desse tipo, pois todo mundo fa
 
 Passei um período agressivo, acelerado, com pouca ideia para família, amigos(as), noiva e pessoal do trabalho. O ruim disso é ficar entristecido com as coisas que fiz ou falei para essas pessoas em momento de crise e aqui não da pra fazer rollback.
 
-![Gif de um cachorro que fez algo errado e está com cara de piedade](https://media.giphy.com/media/l4KhZvltwNngBPFmg/giphy.gif)
-
 Peço desculpas a todas as pessoas que magoei nesses períodos.
 
 Não bati exatamente nenhuma [meta das que eu prometi pra mim mesmo ano passado](/posts/Metas-para-2017-javascript-nodejs-es6-haskell/).
@@ -202,8 +200,6 @@ Quantas vezes já desabafei com a Andréa ou com a [Jô](https://twitter.com/men
 ## Conclusão
 
 Esse ano foi loko!!!
-
-![Gif de um boneco dando a louca](https://media.giphy.com/media/jx5MJyZqAFsLS/giphy.gif)
 
 Espero que o ano que vem seja tão fantástico quanto foi 2017 e que o seu ano seja tão louco ou melhor do que o meu! \o/
 

@@ -41,8 +41,6 @@ Para garantir que realmente houveram alterações, podemos rodar o comando que a
 git config --global -e
 ```
 
-![Utilizando o comando git config --global -e no terminal](~/assets/images/posts/git-config-global-e.gif)
-
 ## <a name='ConfigurandooVisualStudioCodecomoferramentademergenoGit'></a>Configurando o Visual Studio Code como ferramenta de merge no Git
 
 Agora, para adicionar o VS Code como nossa ferramenta padrão de merge, vamos rodar o comando `git config --global -e` e adicionar as linhas:

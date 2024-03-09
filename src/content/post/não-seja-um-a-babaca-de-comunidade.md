@@ -138,8 +138,6 @@ Fica a dúvida.
 
 Outra coisa que eu já vi acontecer é a mulher fazer uma pergunta e alguém comentar algo do tipo: _“nossa como você é linda, não acredito que trabalha com programação”_.
 
-![Flamingos questionando o motivo de alguém fazer isso](https://media.giphy.com/media/12mPcp41D9a1i0/giphy.gif)
-
 O respeito em comunidades não é só de homens para homens.
 
 Que tal cair na real de que não é por causa da sua genital que você ganha mais direitos que as outras pessoas dentro de um grupo e não deve sair por ai dizendo o que bem quiser?

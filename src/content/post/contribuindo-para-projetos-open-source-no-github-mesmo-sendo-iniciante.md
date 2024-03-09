@@ -17,8 +17,6 @@ Ai você se pergunta: "Tá, mas se eu sou iniciante como eu consigo ajudar?"
 
 Vamos nessa que vou tentar te ajudar.
 
-!["GitHub"](~/assets/images/posts/github.gif)
-
 ## <a name='OOpenSourcepodeteajudarmuito'></a>O Open Source pode te ajudar muito!
 
 Contribuir com Open Source realmente pode mudar sua perspectiva.
@@ -30,8 +28,6 @@ Além disso, você vai aprender a trabalhar bem em equipe, dominar melhor o Git 
 
 Se eu te convenci, então vamos as formas de contribuição:
 Primeiro você vai entrar no [Github](https://github.com 'Github')(Se não tem uma conta, essa é uma boa hora de criar. ;P) e clicar em [Explore](https://github.com/explore 'Explore'). Algumas categorias já irão aparecer e se você se interessar já pode clicar em alguma e continuar.
-
-![Explore](~/assets/images/posts/image32.gif)
 
 Digamos que você vá contribuir com a categoria [Frameworks JavaScript](https://github.com/showcases/front-end-javascript-frameworks 'Front-end JavaScript frameworks'). Quando você acessar essa categoria, irão surgir vários Frameworks.
 
@@ -57,8 +53,6 @@ Porém atente-se para deixar o comentário bem claro. Reproduza o bug e** levan
 
 Se você já é manjador das manjarias, então pode olhar as Issues existentes e tentar resolve-las. É o mesmo procedimento de dar um fork, clonar o projeto, corrigir e mandar o Pull Request.
 As Issues existentes ficam na lateral direita da interface do Github.
-
-![Issues e Pull Requests](~/assets/images/posts/image31.gif)
 
 ### <a name='Sugestesdemelhorias'></a>Sugestões de melhorias
 
