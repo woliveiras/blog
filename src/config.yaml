@@ -11,7 +11,7 @@ metadata:
   title:
     default: William Oliveira
     template: '%s — William Oliveira'
-  description: "\U0001F680 Suitable for Startups, Small Business, Sass Websites, Professional Portfolios, Marketing Websites, Landing Pages & Blogs."
+  description: 'Carreira em programação, desenvolvimento frontend, web performance, arquitetura de software'
   robots:
     index: true
     follow: true
@@ -23,12 +23,12 @@ metadata:
         height: 628
     type: website
   twitter:
-    handle: '@onwidget'
-    site: '@onwidget'
+    handle: '@1ilhas'
+    site: '@1ilhas'
     cardType: summary_large_image
 
 i18n:
-  language: en
+  language: pt-br
   textDirection: ltr
 
 apps:
@@ -66,7 +66,7 @@ apps:
 analytics:
   vendors:
     googleAnalytics:
-      id: null # or "G-XXXXXXXXXX"
+      id: 'UA-25964646-1'
 
 ui:
   theme: 'system' # Values: "system" | "light" | "dark" | "light:only" | "dark:only"
