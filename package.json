@@ -33,7 +33,7 @@
     "@astrojs/partytown": "^2.0.4",
     "@astrojs/tailwind": "5.1.0",
     "@iconify-json/flat-color-icons": "^1.1.10",
-    "@iconify-json/tabler": "^1.1.106",
+    "@iconify-json/tabler": "^1.1.107",
     "@tailwindcss/typography": "^0.5.10",
     "@types/js-yaml": "^4.0.9",
     "@types/lodash.merge": "^4.6.9",
