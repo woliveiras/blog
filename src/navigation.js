@@ -2,6 +2,23 @@ import { getPermalink, getBlogPermalink, getAsset } from './utils/permalinks';
 
 export const headerData = {
   links: [
+    {
+      text: 'Livros',
+      links: [
+        {
+          text: 'O Universo da Programação',
+          href: 'https://www.casadocodigo.com.br/products/livro-universo-programacao',
+        },
+        {
+          text: 'Navegando no Universo da Programação',
+          href: 'https://www.casadocodigo.com.br/products/livro-navegando-universo',
+        },
+        {
+          text: 'Carreira Técnica no Universo da Programação',
+          href: 'https://www.casadocodigo.com.br/products/livro-carreira-tecnica',
+        },
+      ],
+    },
     // {
     //   text: 'Homes',
     //   links: [
