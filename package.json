@@ -30,7 +30,7 @@
   },
   "devDependencies": {
     "@astrojs/mdx": "^2.3.1",
-    "@astrojs/partytown": "^2.1.0",
+    "@astrojs/partytown": "^2.1.1",
     "@astrojs/tailwind": "5.1.0",
     "@iconify-json/flat-color-icons": "^1.1.10",
     "@iconify-json/tabler": "^1.1.113",
