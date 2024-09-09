@@ -37,7 +37,7 @@
     "@tailwindcss/typography": "^0.5.14",
     "@types/js-yaml": "^4.0.9",
     "@types/lodash.merge": "^4.6.9",
-    "@typescript-eslint/eslint-plugin": "^7.18.0",
+    "@typescript-eslint/eslint-plugin": "^8.4.0",
     "@typescript-eslint/parser": "^7.18.0",
     "astro-compress": "2.3.1",
     "eslint": "^8.57.0",
