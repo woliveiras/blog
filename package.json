@@ -32,7 +32,7 @@
     "@astrojs/mdx": "^2.3.1",
     "@astrojs/partytown": "^2.1.1",
     "@astrojs/tailwind": "5.1.0",
-    "@iconify-json/flat-color-icons": "^1.1.11",
+    "@iconify-json/flat-color-icons": "^1.2.0",
     "@iconify-json/tabler": "^1.1.120",
     "@tailwindcss/typography": "^0.5.14",
     "@types/js-yaml": "^4.0.9",
