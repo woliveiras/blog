@@ -19,7 +19,7 @@
     "@astrolib/analytics": "^0.5.0",
     "@astrolib/seo": "^1.0.0-beta.8",
     "astro": "^4.16.2",
-    "astro-icon": "^1.1.0",
+    "astro-icon": "^1.1.2",
     "limax": "4.1.0",
     "lodash.merge": "^4.6.2",
     "rehype-autolink-headings": "^7.1.0",
