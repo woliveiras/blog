@@ -4,14 +4,15 @@ import { fileURLToPath } from 'url';
 import { defineConfig } from 'astro/config';
 
 import sitemap from '@astrojs/sitemap';
-import tailwind from '@astrojs/tailwind';
 import mdx from '@astrojs/mdx';
 import partytown from '@astrojs/partytown';
+import autoprefixer from 'autoprefixer';
 import rehypeAutoHeadings from 'rehype-autolink-headings';
 import rehypeTOC from 'rehype-toc';
 import rehypeSlug from 'rehype-slug';
 import icon from 'astro-icon';
 import compress from 'astro-compress';
+import tailwindcss from 'tailwindcss';
 import tasks from './src/utils/tasks';
 
 import { readingTimeRemarkPlugin, responsiveTablesRehypePlugin } from './src/utils/frontmatter.mjs';
@@ -35,9 +36,6 @@ export default defineConfig({
   output: 'static',
 
   integrations: [
-    tailwind({
-      applyBaseStyles: false,
-    }),
     sitemap(),
     mdx(),
     icon({
@@ -90,6 +88,11 @@ export default defineConfig({
   },
 
   vite: {
+    css: {
+      postcss: {
+        plugins: [tailwindcss(), autoprefixer()],
+      },
+    },
     resolve: {
       alias: {
         '~': path.resolve(__dirname, './src'),
