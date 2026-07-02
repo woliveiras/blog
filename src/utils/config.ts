@@ -1,4 +1,4 @@
-import fs from 'fs';
+import fs from 'node:fs';
 import yaml from 'js-yaml';
 import merge from 'lodash.merge';
 

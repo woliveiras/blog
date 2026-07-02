@@ -227,7 +227,9 @@ export const getStaticPathsBlogTag = async ({ paginate }: { paginate: PaginateFu
   const tags = new Set<string>();
   posts.forEach((post) => {
     if (Array.isArray(post.tags)) {
-      post.tags.forEach((tag) => tags.add(tag.toLowerCase()));
+      post.tags.forEach((tag) => {
+        tags.add(tag.toLowerCase());
+      });
     }
   });
 
