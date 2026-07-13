@@ -43,7 +43,7 @@
     "js-yaml": "^4.2.0",
     "mdast-util-to-string": "^4.0.0",
     "postcss": "^8.5.16",
-    "prettier": "^3.3.3",
+    "prettier": "^3.9.5",
     "prettier-plugin-astro": "^0.14.1",
     "reading-time": "^1.5.0",
     "sharp": "0.35.3",
