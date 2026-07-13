@@ -40,7 +40,7 @@
     "@biomejs/biome": "^2.5.2",
     "astro-compress": "^2.4.1",
     "autoprefixer": "^10.5.2",
-    "js-yaml": "^4.2.0",
+    "js-yaml": "^5.2.1",
     "mdast-util-to-string": "^4.0.0",
     "postcss": "^8.5.16",
     "prettier": "^3.3.3",
