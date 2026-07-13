@@ -37,7 +37,7 @@
     "@tailwindcss/typography": "^0.5.20",
     "@types/js-yaml": "^4.0.9",
     "@types/lodash.merge": "^4.6.9",
-    "@biomejs/biome": "^2.5.2",
+    "@biomejs/biome": "^2.5.3",
     "astro-compress": "^2.4.1",
     "autoprefixer": "^10.5.2",
     "js-yaml": "^4.2.0",
