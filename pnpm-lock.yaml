@@ -16,13 +16,13 @@ importers:
         version: 3.7.3
       '@astrolib/analytics':
         specifier: ^0.6.1
-        version: 0.6.1(astro@7.1.0(@emnapi/core@1.11.1)(@emnapi/runtime@1.11.2)(@types/node@26.1.0)(jiti@1.21.6)(rollup@4.62.2)(terser@5.46.1)(yaml@2.9.0))
+        version: 0.6.1(astro@7.1.0(@emnapi/core@1.11.1)(@emnapi/runtime@1.11.3)(@types/node@26.1.0)(jiti@1.21.6)(rollup@4.62.2)(terser@5.46.1)(yaml@2.9.0))
       '@astrolib/seo':
         specifier: ^1.0.0-beta.8
-        version: 1.0.0-beta.8(astro@7.1.0(@emnapi/core@1.11.1)(@emnapi/runtime@1.11.2)(@types/node@26.1.0)(jiti@1.21.6)(rollup@4.62.2)(terser@5.46.1)(yaml@2.9.0))
+        version: 1.0.0-beta.8(astro@7.1.0(@emnapi/core@1.11.1)(@emnapi/runtime@1.11.3)(@types/node@26.1.0)(jiti@1.21.6)(rollup@4.62.2)(terser@5.46.1)(yaml@2.9.0))
       astro:
         specifier: ^7.1.0
-        version: 7.1.0(@emnapi/core@1.11.1)(@emnapi/runtime@1.11.2)(@types/node@26.1.0)(jiti@1.21.6)(rollup@4.62.2)(terser@5.46.1)(yaml@2.9.0)
+        version: 7.1.0(@emnapi/core@1.11.1)(@emnapi/runtime@1.11.3)(@types/node@26.1.0)(jiti@1.21.6)(rollup@4.62.2)(terser@5.46.1)(yaml@2.9.0)
       astro-icon:
         specifier: ^1.1.5
         version: 1.1.5
@@ -47,7 +47,7 @@ importers:
     devDependencies:
       '@astrojs/mdx':
         specifier: ^4.3.14
-        version: 4.3.14(astro@7.1.0(@emnapi/core@1.11.1)(@emnapi/runtime@1.11.2)(@types/node@26.1.0)(jiti@1.21.6)(rollup@4.62.2)(terser@5.46.1)(yaml@2.9.0))
+        version: 4.3.14(astro@7.1.0(@emnapi/core@1.11.1)(@emnapi/runtime@1.11.3)(@types/node@26.1.0)(jiti@1.21.6)(rollup@4.62.2)(terser@5.46.1)(yaml@2.9.0))
       '@astrojs/partytown':
         specifier: ^2.1.3
         version: 2.1.3
@@ -71,7 +71,7 @@ importers:
         version: 4.6.9
       astro-compress:
         specifier: ^2.4.1
-        version: 2.4.1(@emnapi/core@1.11.1)(@emnapi/runtime@1.11.2)(@types/node@26.1.0)(jiti@1.21.6)(rollup@4.62.2)(yaml@2.9.0)
+        version: 2.4.1(@emnapi/core@1.11.1)(@emnapi/runtime@1.11.3)(@types/node@26.1.0)(jiti@1.21.6)(rollup@4.62.2)(yaml@2.9.0)
       autoprefixer:
         specifier: ^10.5.2
         version: 10.5.2(postcss@8.5.18)
@@ -376,8 +376,8 @@ packages:
   '@emnapi/runtime@1.11.1':
     resolution: {integrity: sha512-vgj7R3y3Wgx24IQaGPA/R6YFXLHVMOZ0uVEyIQPaWs+rd1AzfEMXlAC22FYwO1XkKR6NPsq7mUandH8oIRdZFw==}
 
-  '@emnapi/runtime@1.11.2':
-    resolution: {integrity: sha512-kyOl3X0DuTiT1h2ft8r2fYO8JYtU9a9Xis/zBSiGArNaagCOWx90N1k2wxp18czFDH+OgcWGb5ZP/XMt3dcyPA==}
+  '@emnapi/runtime@1.11.3':
+    resolution: {integrity: sha512-Xz4Tpyki7XyrpbUK1jR1AhdAdaXyhhY4lZ3neLodmhpuWfy2PAQN5B46sAiU4liOXGLkHypn/qU+jvfWSCYYLA==}
 
   '@emnapi/wasi-threads@1.2.2':
     resolution: {integrity: sha512-c95qOXkHdydNKhscBTebqEC1CVAZpyqOfVfBzQ1qgzyl3gfeldUjIggDbIZgDKsHLgnsM+igH7TJ/eAasaVuMA==}
@@ -3076,9 +3076,9 @@ snapshots:
   '@astrojs/compiler-binding-linux-x64-musl@0.3.1':
     optional: true
 
-  '@astrojs/compiler-binding-wasm32-wasi@0.3.1(@emnapi/core@1.11.1)(@emnapi/runtime@1.11.2)':
+  '@astrojs/compiler-binding-wasm32-wasi@0.3.1(@emnapi/core@1.11.1)(@emnapi/runtime@1.11.3)':
     dependencies:
-      '@napi-rs/wasm-runtime': 1.1.6(@emnapi/core@1.11.1)(@emnapi/runtime@1.11.2)
+      '@napi-rs/wasm-runtime': 1.1.6(@emnapi/core@1.11.1)(@emnapi/runtime@1.11.3)
     transitivePeerDependencies:
       - '@emnapi/core'
       - '@emnapi/runtime'
@@ -3090,7 +3090,7 @@ snapshots:
   '@astrojs/compiler-binding-win32-x64-msvc@0.3.1':
     optional: true
 
-  '@astrojs/compiler-binding@0.3.1(@emnapi/core@1.11.1)(@emnapi/runtime@1.11.2)':
+  '@astrojs/compiler-binding@0.3.1(@emnapi/core@1.11.1)(@emnapi/runtime@1.11.3)':
     optionalDependencies:
       '@astrojs/compiler-binding-darwin-arm64': 0.3.1
       '@astrojs/compiler-binding-darwin-x64': 0.3.1
@@ -3098,16 +3098,16 @@ snapshots:
       '@astrojs/compiler-binding-linux-arm64-musl': 0.3.1
       '@astrojs/compiler-binding-linux-x64-gnu': 0.3.1
       '@astrojs/compiler-binding-linux-x64-musl': 0.3.1
-      '@astrojs/compiler-binding-wasm32-wasi': 0.3.1(@emnapi/core@1.11.1)(@emnapi/runtime@1.11.2)
+      '@astrojs/compiler-binding-wasm32-wasi': 0.3.1(@emnapi/core@1.11.1)(@emnapi/runtime@1.11.3)
       '@astrojs/compiler-binding-win32-arm64-msvc': 0.3.1
       '@astrojs/compiler-binding-win32-x64-msvc': 0.3.1
     transitivePeerDependencies:
       - '@emnapi/core'
       - '@emnapi/runtime'
 
-  '@astrojs/compiler-rs@0.3.1(@emnapi/core@1.11.1)(@emnapi/runtime@1.11.2)':
+  '@astrojs/compiler-rs@0.3.1(@emnapi/core@1.11.1)(@emnapi/runtime@1.11.3)':
     dependencies:
-      '@astrojs/compiler-binding': 0.3.1(@emnapi/core@1.11.1)(@emnapi/runtime@1.11.2)
+      '@astrojs/compiler-binding': 0.3.1(@emnapi/core@1.11.1)(@emnapi/runtime@1.11.3)
     transitivePeerDependencies:
       - '@emnapi/core'
       - '@emnapi/runtime'
@@ -3161,12 +3161,12 @@ snapshots:
       hast-util-from-html: 2.0.3
       satteri: 0.9.5
 
-  '@astrojs/mdx@4.3.14(astro@7.1.0(@emnapi/core@1.11.1)(@emnapi/runtime@1.11.2)(@types/node@26.1.0)(jiti@1.21.6)(rollup@4.62.2)(terser@5.46.1)(yaml@2.9.0))':
+  '@astrojs/mdx@4.3.14(astro@7.1.0(@emnapi/core@1.11.1)(@emnapi/runtime@1.11.3)(@types/node@26.1.0)(jiti@1.21.6)(rollup@4.62.2)(terser@5.46.1)(yaml@2.9.0))':
     dependencies:
       '@astrojs/markdown-remark': 6.3.11
       '@mdx-js/mdx': 3.1.1
       acorn: 8.17.0
-      astro: 7.1.0(@emnapi/core@1.11.1)(@emnapi/runtime@1.11.2)(@types/node@26.1.0)(jiti@1.21.6)(rollup@4.62.2)(terser@5.46.1)(yaml@2.9.0)
+      astro: 7.1.0(@emnapi/core@1.11.1)(@emnapi/runtime@1.11.3)(@types/node@26.1.0)(jiti@1.21.6)(rollup@4.62.2)(terser@5.46.1)(yaml@2.9.0)
       es-module-lexer: 1.7.0
       estree-util-visit: 2.0.0
       hast-util-to-html: 9.0.5
@@ -3212,13 +3212,13 @@ snapshots:
       is-docker: 4.0.0
       package-manager-detector: 1.8.0
 
-  '@astrolib/analytics@0.6.1(astro@7.1.0(@emnapi/core@1.11.1)(@emnapi/runtime@1.11.2)(@types/node@26.1.0)(jiti@1.21.6)(rollup@4.62.2)(terser@5.46.1)(yaml@2.9.0))':
+  '@astrolib/analytics@0.6.1(astro@7.1.0(@emnapi/core@1.11.1)(@emnapi/runtime@1.11.3)(@types/node@26.1.0)(jiti@1.21.6)(rollup@4.62.2)(terser@5.46.1)(yaml@2.9.0))':
     dependencies:
-      astro: 7.1.0(@emnapi/core@1.11.1)(@emnapi/runtime@1.11.2)(@types/node@26.1.0)(jiti@1.21.6)(rollup@4.62.2)(terser@5.46.1)(yaml@2.9.0)
+      astro: 7.1.0(@emnapi/core@1.11.1)(@emnapi/runtime@1.11.3)(@types/node@26.1.0)(jiti@1.21.6)(rollup@4.62.2)(terser@5.46.1)(yaml@2.9.0)
 
-  '@astrolib/seo@1.0.0-beta.8(astro@7.1.0(@emnapi/core@1.11.1)(@emnapi/runtime@1.11.2)(@types/node@26.1.0)(jiti@1.21.6)(rollup@4.62.2)(terser@5.46.1)(yaml@2.9.0))':
+  '@astrolib/seo@1.0.0-beta.8(astro@7.1.0(@emnapi/core@1.11.1)(@emnapi/runtime@1.11.3)(@types/node@26.1.0)(jiti@1.21.6)(rollup@4.62.2)(terser@5.46.1)(yaml@2.9.0))':
     dependencies:
-      astro: 7.1.0(@emnapi/core@1.11.1)(@emnapi/runtime@1.11.2)(@types/node@26.1.0)(jiti@1.21.6)(rollup@4.62.2)(terser@5.46.1)(yaml@2.9.0)
+      astro: 7.1.0(@emnapi/core@1.11.1)(@emnapi/runtime@1.11.3)(@types/node@26.1.0)(jiti@1.21.6)(rollup@4.62.2)(terser@5.46.1)(yaml@2.9.0)
 
   '@babel/helper-string-parser@7.29.7': {}
 
@@ -3326,7 +3326,7 @@ snapshots:
       tslib: 2.8.1
     optional: true
 
-  '@emnapi/runtime@1.11.2':
+  '@emnapi/runtime@1.11.3':
     dependencies:
       tslib: 2.8.1
     optional: true
@@ -3625,7 +3625,7 @@ snapshots:
 
   '@img/sharp-wasm32@0.35.3':
     dependencies:
-      '@emnapi/runtime': 1.11.2
+      '@emnapi/runtime': 1.11.3
     optional: true
 
   '@img/sharp-webcontainers-wasm32@0.35.3':
@@ -3726,10 +3726,10 @@ snapshots:
       '@tybys/wasm-util': 0.10.3
     optional: true
 
-  '@napi-rs/wasm-runtime@1.1.6(@emnapi/core@1.11.1)(@emnapi/runtime@1.11.2)':
+  '@napi-rs/wasm-runtime@1.1.6(@emnapi/core@1.11.1)(@emnapi/runtime@1.11.3)':
     dependencies:
       '@emnapi/core': 1.11.1
-      '@emnapi/runtime': 1.11.2
+      '@emnapi/runtime': 1.11.3
       '@tybys/wasm-util': 0.10.3
     optional: true
 
@@ -4072,12 +4072,12 @@ snapshots:
 
   astring@1.9.0: {}
 
-  astro-compress@2.4.1(@emnapi/core@1.11.1)(@emnapi/runtime@1.11.2)(@types/node@26.1.0)(jiti@1.21.6)(rollup@4.62.2)(yaml@2.9.0):
+  astro-compress@2.4.1(@emnapi/core@1.11.1)(@emnapi/runtime@1.11.3)(@types/node@26.1.0)(jiti@1.21.6)(rollup@4.62.2)(yaml@2.9.0):
     dependencies:
       '@playform/pipe': 0.1.5
       '@types/csso': 5.0.4
       '@types/html-minifier-terser': 7.0.2
-      astro: 7.1.0(@emnapi/core@1.11.1)(@emnapi/runtime@1.11.2)(@types/node@26.1.0)(jiti@1.21.6)(rollup@4.62.2)(terser@5.46.1)(yaml@2.9.0)
+      astro: 7.1.0(@emnapi/core@1.11.1)(@emnapi/runtime@1.11.3)(@types/node@26.1.0)(jiti@1.21.6)(rollup@4.62.2)(terser@5.46.1)(yaml@2.9.0)
       commander: 14.0.3
       csso: 5.0.5
       deepmerge-ts: 7.1.5
@@ -4131,9 +4131,9 @@ snapshots:
     transitivePeerDependencies:
       - supports-color
 
-  astro@7.1.0(@emnapi/core@1.11.1)(@emnapi/runtime@1.11.2)(@types/node@26.1.0)(jiti@1.21.6)(rollup@4.62.2)(terser@5.46.1)(yaml@2.9.0):
+  astro@7.1.0(@emnapi/core@1.11.1)(@emnapi/runtime@1.11.3)(@types/node@26.1.0)(jiti@1.21.6)(rollup@4.62.2)(terser@5.46.1)(yaml@2.9.0):
     dependencies:
-      '@astrojs/compiler-rs': 0.3.1(@emnapi/core@1.11.1)(@emnapi/runtime@1.11.2)
+      '@astrojs/compiler-rs': 0.3.1(@emnapi/core@1.11.1)(@emnapi/runtime@1.11.3)
       '@astrojs/internal-helpers': 0.10.1
       '@astrojs/markdown-satteri': 0.3.4
       '@astrojs/telemetry': 3.3.3
